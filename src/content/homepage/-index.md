@@ -42,7 +42,7 @@ features:
 
   - title: "Why Sovereign Engineering?"
     image: "/images/service-3.png"
-    content: "We believe the internet is broken and we can do better. Bitcoin and Nostr have crucial roles in fixing the Web and building a self-sovereign future."
+    content: "We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future."
     bulletpoints:
       - "Build cool shit that actually gets shipped and used"
       - "In-person collaboration enables high-bandwidth communication"
