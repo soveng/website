@@ -41,3 +41,20 @@ We believe that the internet is fucked (Link to Calle's talk: https://youtu.be/O
 
 
 Guiding principle: what does it mean to build systems in the spirit of Bitcoin?
+
+
+
+
+# Menu Structure:
+
+- What?
+- How?
+- Why?
+- More
+
+More:
+- Swag => https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Media => /media
+- Alumni => https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19
+- Projects => /projects
+- Conversations => https://njump.me/nosolutions@sovereignengineering.io 
