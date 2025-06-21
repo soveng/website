@@ -22,6 +22,13 @@ testimonials:
     designation: "Safebox"
     avatar: "/images/tim-bouma-avatar.png"
     npub: "npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5"
-    noteid: "nevent1qqsgfy2hscuw4lufwz7djfkql3yccvs7ypkh30gzh95nmmslcs3ednqpp4mhxue69uhkummn9ekx7mqzyqrt0qva0uw874rjzxpxdmtme2rcth82uz0rd636ftmxt3k3mqe8c3d6cc0"
+    noteid: "nevent1qqsgfy2hscuw4lufwz7djfkql3yccvs7ypkh30gzh95nmmslcs3ednqpp4mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw"
     content: "Don't miss the opportunity of a lifetime."
+
+  - name: "Derek Ross"
+    designation: "Bitcoin Atlantis Attendee"
+    avatar: "/images/avatar-sm.png"
+    npub: "npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424"
+    noteid: "nevent1qqsg62knm8jfuww9thn2ja9cfnwd33ns8jpn0wsqy5fje03lwf5sepqzyqlhwrt96wnkf2w9edgr4cfruchvwkv26q6asdhz4qg08pm6w3djg94576n"
+    content: "The SEC-01 was the most exciting and bullish set of presentations at Bitcoin Atlantis. These people are building our future and will have an immense impact upon our world. I look forward to seeing was SEC-02 will build. Plus, Madeira is incredibly beautiful."
 ---
