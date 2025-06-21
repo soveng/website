@@ -38,12 +38,12 @@
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Contact",
+      "url": "https://njump.me/sovereignengineering.io"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "FAQ",
+      "url": "/faq"
     }
   ]
 }
