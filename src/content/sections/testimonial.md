@@ -14,6 +14,7 @@ testimonials:
   - name: "Arjen"
     designation: "Onion Routing, Tollgate"
     avatar: "/images/arjen-avatar.jpg"
+    npub: "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr"
     content: Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined."
 
   - name: "Marvin McKinney"
