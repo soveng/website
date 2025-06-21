@@ -34,7 +34,7 @@ testimonials:
 
   - name: "balas"
     designation: "SEC-01 Participant"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/balas-avatar.jpg"
     npub: "npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8"
     noteid: "nevent1qqsvv9p087cgns82zwxk94aq6us7u84rt3zgasznq7gl9em7n9lfqmcpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qnmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsfzhrfg"
     content: "The past two months [at SEC-01] were probably two of the best months of my life and I'm not young anymore. [...] I met so many amazing people during that time and it was incredible to explore the beautiful Madeira island together, sharing wild ideas, helping each other's projects, discussing stuff, learning with each other, making new friendships, shipping the future."
