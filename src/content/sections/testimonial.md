@@ -11,10 +11,10 @@ testimonials:
     npub: "npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"
     content: "I'm surprised that I'm still here!"
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Arjen"
+    designation: "Onion Routing, Tollgate"
+    avatar: "/images/arjen-avatar.jpg"
+    content: Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined."
 
   - name: "Marvin McKinney"
     designation: "Web Designer"
