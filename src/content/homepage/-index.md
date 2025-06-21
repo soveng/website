@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, Tollgate, Zapstore, and More"
-  content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications and services for a self-sovereign future. "
+  content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialogue, cross-pollination, and discussions on how to build kickass applications and services for a self-sovereign future."
   image: "/images/banner.png"
   button:
     enable: true
@@ -31,9 +31,9 @@ features:
     content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
     bulletpoints:
       - "**Monday Mornings:** Orientation and planning"
-      - "**Tuesday Talks:** Participants present interesting/relevant topics"
+      - "**Tuesday Talks:** Participants present interesting or relevant topics"
       - "**Wednesday Workshops:** Hands-on workshops and building"
-      - "**Thursday:** No Agenda - free time for experimentation"
+      - "**Thursday:** No agenda - free time for experimentation"
       - "**Friday:** Demo Day - live demos of weekly progress"
     button:
       enable: true
