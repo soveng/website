@@ -45,4 +45,11 @@ testimonials:
     npub: "npub16c0nh3dnadzqpm76uctf5hqhe2lny344zsmpm6feee9p5rdxaa9q586nvr"
     noteid: "nevent1qqst47n9ry7eu6z5vpx5qckxalp28czsl2yyx22lh4lhksps2yg23sczyrtp7w79k045gq80mtnpdxjuzl9t7vjxk52rv80f888y5xsd5mh55jdvvzw"
     content: "Yesterday I had the privilege of witnessing the demos of the first Sovereign Engineering cohort here in Madeira. Mind completely blown. Everyone should check out these projects. People have no idea how good Nostr is going to get."
+
+  - name: "Niel Liesmons"
+    designation: "Farmer"
+    avatar: "/images/avatar-sm.png"
+    npub: "npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q"
+    noteid: "nevent1qqstxektwr80ms5ly4muf920a0qd0hs4rx43cn46v8mdrzj7zlulgcszyz55xnhpvhksrv5xhm8uyac779c96dfh6pgm8peg3zvvcqx4ezzmuu9d9wy"
+    content: "Back on the farm after an incredible week of Sovereign Engineering."
 ---
