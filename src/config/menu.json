@@ -2,18 +2,18 @@
   "main": [
     {
       "name": "What?",
-      "url": "/"
+      "url": "/#what"
     },
     {
       "name": "How?",
-      "url": "/about"
+      "url": "/#how"
     },
     {
       "name": "Why?",
-      "url": "/elements"
+      "url": "/#why"
     },
     {
-      "name": "Pages",
+      "name": "Links",
       "url": "",
       "hasChildren": true,
       "children": [

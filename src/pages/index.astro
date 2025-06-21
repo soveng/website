@@ -84,7 +84,10 @@ const { banner, features } = homepage.data as Homepage;
   <!-- Features -->
   {
     features.map((feature, index: number) => (
-      <section class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}>
+      <section 
+        class={`section-sm ${index % 2 === 0 && "bg-gradient"}`}
+        id={index === 0 ? "what" : index === 1 ? "how" : index === 2 ? "why" : ""}
+      >
         <div class="container">
           <div class="row items-center justify-between">
             <div
