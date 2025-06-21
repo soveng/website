@@ -8,6 +8,7 @@ testimonials:
   - name: "Justin Moon"
     designation: "SEC-05, Week 6"
     avatar: "/images/justin-moon-avatar.png"
+    npub: "npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"
     content: "I'm surprised that I'm still here!"
 
   - name: "Marvin McKinney"
