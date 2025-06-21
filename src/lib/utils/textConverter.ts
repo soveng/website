@@ -7,8 +7,13 @@ export const slugify = (content: string) => {
 };
 
 // markdownify
-export const markdownify = (content: string, div?: boolean) => {
-  return div ? marked.parse(content) : marked.parseInline(content);
+export const markdownify = async (content: string, div?: boolean) => {
+  const html = await (div ? marked.parse(content) : marked.parseInline(content));
+  // Add target="_blank" and rel="noopener noreferrer" to external links
+  return html.replace(
+    /<a href="(https?:\/\/[^"]+)"([^>]*)>/g,
+    '<a href="$1"$2 target="_blank" rel="noopener noreferrer">'
+  );
 };
 
 // humanize
@@ -32,8 +37,8 @@ export const titleify = (content: string) => {
 };
 
 // plainify
-export const plainify = (content: string) => {
-  const parseMarkdown: any = marked.parse(content);
+export const plainify = async (content: string) => {
+  const parseMarkdown: any = await marked.parse(content);
   const filterBrackets = parseMarkdown.replace(/<\/?[^>]+(>|$)/gm, "");
   const filterSpaces = filterBrackets.replace(/[\r\n]\s*[\r\n]/gm, "");
   const stripHTML = htmlEntityDecoder(filterSpaces);
