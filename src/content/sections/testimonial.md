@@ -27,7 +27,7 @@ testimonials:
 
   - name: "Derek Ross"
     designation: "Bitcoin Atlantis Attendee"
-    avatar: "/images/avatar-sm.png"
+    avatar: "/images/derek-ross-avatar.jpg"
     npub: "npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424"
     noteid: "nevent1qqsg62knm8jfuww9thn2ja9cfnwd33ns8jpn0wsqy5fje03lwf5sepqzyqlhwrt96wnkf2w9edgr4cfruchvwkv26q6asdhz4qg08pm6w3djg94576n"
     content: "The SEC-01 was the most exciting and bullish set of presentations at Bitcoin Atlantis. These people are building our future and will have an immense impact upon our world. I look forward to seeing was SEC-02 will build. Plus, Madeira is incredibly beautiful."
