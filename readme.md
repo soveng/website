@@ -1,12 +1,12 @@
-<h1 align=center>Sovereign Engineering</h1>
+<h1 align=center>Astro + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
 
-<p align=center>Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications and services for a self-sovereign future.</p>
+<p align=center>Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.</p>
 
-<p align=center>Made with ♥ by the Sovereign Engineering community</p>
+<p align=center>Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
 
 <p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
 
-<h2 align="center"> <a target="_blank" href="https://sovereignengineering.typeform.com/SEC-05" rel="nofollow">👀 Apply Now</a> | <a target="_blank" href="https://sovereignengineering.com/" rel="nofollow">🌐 Website</a>
+<h2 align="center"> <a target="_blank" href="https://astroplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a target="_blank" href="https://astroplate-multilang.netlify.app/" rel="nofollow">👀 Demo Multilang</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astroplate-netlify-app/yzx3foum3w?form_factor=desktop">Page Speed (100%)🚀</a>
 </h2>
 
 <p align=center>
@@ -14,13 +14,13 @@
     <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.7&color=000&logo=astro"  alt="Astro Version 5.7"/>
   </a>
 
-  <a href="https://github.com/sovereign-engineering/website/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/sovereign-engineering/website" alt="license"></a>
+  <a href="https://sovereignengineering.typeform.com/SEC-05">
+    <img src="https://img.shields.io/github/license/zeon-studio/astroplate" alt="license"></a>
 
-  <img src="https://img.shields.io/github/languages/code-size/sovereign-engineering/website" alt="code size">
+  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/astroplate" alt="code size">
 
-  <a href="https://github.com/sovereign-engineering/website/graphs/contributors">
-    <img src="https://img.shields.io/github/contributors/sovereign-engineering/website" alt="contributors"></a>
+  <a href="https://sovereignengineering.typeform.com/SEC-05">
+    <img src="https://img.shields.io/github/contributors/zeon-studio/astroplate" alt="contributors"></a>
 </p>
 
 ## 📌 Key Features
@@ -93,40 +93,40 @@ yarn run build
 ### 👉 Build and Run With Docker
 
 ```bash
-docker build -t sovereign-engineering .
+docker build -t astroplate .
 # or
-# docker --build-arg INSTALLER=npm build -t sovereign-engineering .
+# docker --build-arg INSTALLER=npm build -t astroplate .
 # or
-# docker --build-arg INSTALLER=pnpm build -t sovereign-engineering .
+# docker --build-arg INSTALLER=pnpm build -t astroplate .
 
-docker run -p 3000:80 sovereign-engineering
+docker run -p 3000:80 astroplate
 # or
-# docker run --rm -p 3000:80 sovereign-engineering
+# docker run --rm -p 3000:80 astroplate
 ```
 
 To access the shell within the container:
 
 ```bash
-docker run -it --rm sovereign-engineering ash
+docker run -it --rm astroplate ash
 ```
 
 <!-- reporting issue -->
 
 ## 🐞 Reporting Issues
 
-We use GitHub Issues as the official bug tracker for this website. Please Search [existing issues](https://github.com/sovereign-engineering/website/issues). It's possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://github.com/sovereign-engineering/website/issues).
+We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://sovereignengineering.typeform.com/SEC-05). It's possible someone has already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new issue](https://sovereignengineering.typeform.com/SEC-05).
 
 <!-- licence -->
 
 ## 📝 License
 
-Copyright (c) 2023 - Present, Designed & Developed by the Sovereign Engineering community
+Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
 
-**Code License:** Released under the [MIT](https://github.com/sovereign-engineering/website/blob/main/LICENSE) license.
+**Code License:** Released under the [MIT](https://sovereignengineering.typeform.com/SEC-05) license.
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
 ## 💻 Need Custom Development Services?
 
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Contact Us](https://sovereignengineering.typeform.com/SEC-05).
+If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).

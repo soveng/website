@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Ready to Get Started?"
+title: "Ready to build your next project with Astro?"
 image: "/images/call-to-action.png"
-description: "Join Sovereign Engineering and start building the future of decentralized technology."
+description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
 button:
   enable: true
-  label: "Apply Now"
+  label: "Get Started Now"
   link: "https://sovereignengineering.typeform.com/SEC-05"
 ---

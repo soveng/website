@@ -50,9 +50,4 @@ features:
       enable: false
       label: ""
       link: ""
-
-  - title: "Apply Now"
-    description: "Ready to join Sovereign Engineering? Apply for our next cohort."
-    icon: "fas fa-rocket"
-    link: "https://sovereignengineering.typeform.com/SEC-05"
 ---
