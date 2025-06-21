@@ -47,8 +47,8 @@ testimonials:
     content: "Yesterday I had the privilege of witnessing the demos of the first Sovereign Engineering cohort here in Madeira. Mind completely blown. Everyone should check out these projects. People have no idea how good Nostr is going to get."
 
   - name: "Niel Liesmons"
-    designation: "Farmer"
-    avatar: "/images/avatar-sm.png"
+    designation: "Zaplab Design"
+    avatar: "/images/niel-liesmons-avatar.png"
     npub: "npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q"
     noteid: "nevent1qqstxektwr80ms5ly4muf920a0qd0hs4rx43cn46v8mdrzj7zlulgcszyz55xnhpvhksrv5xhm8uyac779c96dfh6pgm8peg3zvvcqx4ezzmuu9d9wy"
     content: "Back on the farm after an incredible week of Sovereign Engineering."
