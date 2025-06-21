@@ -1,13 +1,13 @@
 ---
 # Banner
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Astro Project"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, Tollgate, Zapstore, and More"
+  content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications and services for a self-sovereign future. "
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    label: "Apply Now!"
+    link: "https://sovereignengineering.typeform.com/SEC-05"
 
 # Features
 features:
