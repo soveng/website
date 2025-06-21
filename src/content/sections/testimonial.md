@@ -7,7 +7,7 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 testimonials:
   - name: "Justin Moon"
     designation: "SEC-05, Week 6"
-    avatar: "https://avatars.githubusercontent.com/u/4335621"
+    avatar: "/images/justin-moon-avatar.png"
     content: "I'm surprised that I'm still here!"
 
   - name: "Marvin McKinney"
