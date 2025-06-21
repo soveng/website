@@ -1,8 +1,8 @@
 {
-  "name": "astroplate",
-  "version": "5.5.1",
-  "description": "Astro and Tailwindcss boilerplate",
-  "author": "zeon.studio",
+  "name": "soveng2",
+  "version": "2.0.0",
+  "description": "Sovereign Engineering Website",
+  "author": "sovereignengineering.io",
   "license": "MIT",
   "type": "module",
   "packageManager": "yarn@1.22.22",

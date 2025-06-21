@@ -57,3 +57,10 @@ More:
 - Media => https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
 - Alumni => https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19
 - Conversations => https://njump.me/nosolutions@sovereignengineering.io 
+
+
+# Footer
+
+- About: https://njump.me/sovereignengineering.io
+- Contact: info@sovereignengineering.io
+- FAQ: /faq
