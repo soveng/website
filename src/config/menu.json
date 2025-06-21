@@ -34,7 +34,7 @@
           "url": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
         },
         {
-          "name": "Conversations",
+          "name": "Podcast",
           "url": "https://njump.me/nosolutions@sovereignengineering.io"
         }
       ]
@@ -42,8 +42,12 @@
   ],
   "footer": [
     {
-      "name": "Contact",
+      "name": "About",
       "url": "https://njump.me/sovereignengineering.io"
+    },
+    {
+      "name": "Contact",
+      "url": "mailto:info@sovereignengineering.io"
     },
     {
       "name": "FAQ",
