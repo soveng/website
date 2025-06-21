@@ -71,21 +71,25 @@ const { pathname } = Astro.url;
                   </svg>
                 </span>
                 <ul class="nav-dropdown-list hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
-                  {menu.children?.map((child) => (
-                    <li class="nav-dropdown-item">
-                      <a
-                        href={child.url}
-                        aria-label={child.name}
-                        class={`nav-dropdown-link block ${
-                          (pathname === `${child.url}/` ||
-                            pathname === child.url) &&
-                          "active"
-                        }`}
-                      >
-                        {child.name}
-                      </a>
-                    </li>
-                  ))}
+                  {menu.children?.map((child) => {
+                    const isExternal = child.url.startsWith('http') || child.url.startsWith('mailto');
+                    return (
+                      <li class="nav-dropdown-item">
+                        <a
+                          href={child.url}
+                          aria-label={child.name}
+                          class={`nav-dropdown-link block ${
+                            (pathname === `${child.url}/` ||
+                              pathname === child.url) &&
+                            "active"
+                          }`}
+                          {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                        >
+                          {child.name}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
               </li>
             ) : (
@@ -110,6 +114,8 @@ const { pathname } = Astro.url;
             <a
               class="btn btn-outline-primary btn-sm"
               href={navigation_button.link}
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {navigation_button.label}
             </a>
@@ -135,6 +141,8 @@ const { pathname } = Astro.url;
           <a
             class="btn btn-outline-primary btn-sm hidden lg:inline-block"
             href={navigation_button.link}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {navigation_button.label}
           </a>

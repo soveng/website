@@ -18,11 +18,19 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       <div class="mb-8 text-center lg:col-6 lg:mb-0">
         <ul>
           {
-            footer.map((menu) => (
-              <li class="m-3 inline-block">
-                <a href={menu.url}>{menu.name}</a>
-              </li>
-            ))
+            footer.map((menu) => {
+              const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+              return (
+                <li class="m-3 inline-block">
+                  <a 
+                    href={menu.url}
+                    {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                  >
+                    {menu.name}
+                  </a>
+                </li>
+              );
+            })
           }
         </ul>
       </div>

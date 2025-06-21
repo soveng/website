@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+Commit changes you make along the way. Use short and clear commit messages using conventional commits.
