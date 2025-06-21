@@ -22,6 +22,7 @@ const { testimonial } = Astro.props;
                     content: string;
                     name: string;
                     designation: string;
+                    npub?: string;
                   }) => (
                     <div class="swiper-slide">
                       <div class="rounded-lg bg-light px-7 py-10 dark:bg-darkmode-light">
@@ -45,20 +46,52 @@ const { testimonial } = Astro.props;
                         />
                         <div class="mt-11 flex items-center">
                           <div class="text-text-dark dark:text-white">
-                            <ImageMod
-                              height={50}
-                              width={50}
-                              class="rounded-full"
-                              src={item.avatar}
-                              alt={item.name}
-                              format="webp"
-                            />
+                            {item.npub ? (
+                              <a
+                                href={`https://njump.me/${item.npub}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="cursor-pointer hover:opacity-80 transition-opacity"
+                              >
+                                <ImageMod
+                                  height={50}
+                                  width={50}
+                                  class="rounded-full"
+                                  src={item.avatar}
+                                  alt={item.name}
+                                  format="webp"
+                                />
+                              </a>
+                            ) : (
+                              <ImageMod
+                                height={50}
+                                width={50}
+                                class="rounded-full"
+                                src={item.avatar}
+                                alt={item.name}
+                                format="webp"
+                              />
+                            )}
                           </div>
                           <div class="ml-4">
-                            <h3
-                              set:text={item.name}
-                              class="h5 font-primary font-semibold"
-                            />
+                            {item.npub ? (
+                              <a
+                                href={`https://njump.me/${item.npub}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="cursor-pointer hover:opacity-80 transition-opacity"
+                              >
+                                <h3
+                                  set:text={item.name}
+                                  class="h5 font-primary font-semibold"
+                                />
+                              </a>
+                            ) : (
+                              <h3
+                                set:text={item.name}
+                                class="h5 font-primary font-semibold"
+                              />
+                            )}
                             <p
                               set:text={item.designation}
                               class="text-text-dark dark:text-white"
