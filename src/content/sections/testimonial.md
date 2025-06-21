@@ -6,10 +6,10 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 # Testimonials
 testimonials:
   - name: "Justin Moon"
-    designation: "SEC-05, Week 6"
+    designation: "Zig & Vibe-coding enthusiast"
     avatar: "/images/justin-moon-avatar.png"
     npub: "npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"
-    content: "I'm surprised that I'm still here!"
+    content: "I'm surprised that I'm still here! (Uttered during the last week of SEC-04, after moving flights twice.)"
 
   - name: "Arjen"
     designation: "Onion Routing, Tollgate"
@@ -26,7 +26,7 @@ testimonials:
     content: "Don't miss the opportunity of a lifetime."
 
   - name: "Derek Ross"
-    designation: "Bitcoin Atlantis Attendee"
+    designation: "Grow Nostr Initiative"
     avatar: "/images/derek-ross-avatar.jpg"
     npub: "npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424"
     noteid: "nevent1qqsg62knm8jfuww9thn2ja9cfnwd33ns8jpn0wsqy5fje03lwf5sepqzyqlhwrt96wnkf2w9edgr4cfruchvwkv26q6asdhz4qg08pm6w3djg94576n"
