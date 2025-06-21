@@ -31,7 +31,7 @@ features:
     content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
     bulletpoints:
       - "**Monday Mornings:** Orientation and planning"
-      - "**Tuesday Talks:** Participants present interesting or relevant topics"
+      - "**Tuesday Talks:** Participants present relevant topics they find interesting"
       - "**Wednesday Workshops:** Hands-on workshops and building"
       - "**Thursday:** No agenda - free time for experimentation"
       - "**Friday:** Demo Day - live demos of weekly progress"
