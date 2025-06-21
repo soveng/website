@@ -29,8 +29,8 @@ testimonials:
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
 
   - name: "Tim Bouma"
-    designation: "SEC Participant"
-    avatar: "/images/avatar-sm.png"
+    designation: "Safebox"
+    avatar: "/images/tim-bouma-avatar.png"
     npub: "npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5"
     noteid: "nevent1qqsgfy2hscuw4lufwz7djfkql3yccvs7ypkh30gzh95nmmslcs3ednqpp4mhxue69uhkummn9ekx7mqzyqrt0qva0uw874rjzxpxdmtme2rcth82uz0rd636ftmxt3k3mqe8c3d6cc0"
     content: "Don't miss the opportunity of a lifetime."
