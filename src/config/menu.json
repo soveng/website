@@ -13,17 +13,17 @@
       "url": "/#why"
     },
     {
-      "name": "Links",
+      "name": "More",
       "url": "",
       "hasChildren": true,
       "children": [
         {
           "name": "Contact",
-          "url": "/contact"
+          "url": "https://njump.me/sovereignengineering.io"
         },
         {
           "name": "Blog",
-          "url": "/blog"
+          "url": "https://sovereignengineering.io/all_posts.html"
         },
         {
           "name": "Authors",
