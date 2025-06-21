@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, Tollgate, Zapstore, and More"
-  content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications and services for a self-sovereign future. "
+  title: "Ship the future"
+  content: "Six weeks of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications, services, and businesses for a self-sovereign future."
   image: "/images/banner.png"
   button:
     enable: true
@@ -11,41 +11,45 @@ banner:
 
 # Features
 features:
-  - title: "What's Included in Astroplate"
+  - title: "What is Sovereign Engineering?"
     image: "/images/service-1.png"
-    content: "Astroplate is a comprehensive starter template that includes everything you need to get started with your Astro project. What's Included in Astroplate"
+    content: "Sovereign Engineering is a 6-week program that brings together 21 participants in Madeira for in-person collaboration, ideation, and building."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Astro and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "6 weeks of intensive collaboration"
+      - "21 participants from diverse backgrounds"
+      - "In-person program in beautiful Madeira"
+      - "High-bandwidth communication and idea exchange"
+      - "Focus on shipping real, usable applications"
+      - "**Demo Day every Friday** - show what you've built"
     button:
       enable: false
-      label: "Get Started Now"
-      link: "#"
+      label: ""
+      link: ""
 
-  - title: "Discover the Key Features Of Astro"
+  - title: "How does it work?"
     image: "/images/service-2.png"
-    content: "Astro is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
+    content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
     bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
+      - "**Monday Mornings:** Orientation and planning"
+      - "**Tuesday Talks:** Participants present interesting/relevant topics"
+      - "**Wednesday Workshops:** Hands-on workshops and building"
+      - "**Thursday:** No Agenda - free time for experimentation"
+      - "**Friday:** Demo Day - live demos of weekly progress"
     button:
       enable: true
-      label: "Get Started Now"
+      label: "Apply Now!"
       link: "https://sovereignengineering.typeform.com/SEC-05"
 
-  - title: "The Top Reasons to Choose Astro for Your Next Project"
+  - title: "Why Sovereign Engineering?"
     image: "/images/service-3.png"
-    content: "With Astro, you can build modern and content-focused websites without sacrificing performance or ease of use."
+    content: "We believe the internet is broken and we can do better. Bitcoin and Nostr have crucial roles in fixing the Web and building a self-sovereign future."
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "Build cool shit that actually gets shipped and used"
+      - "In-person collaboration enables high-bandwidth communication"
+      - "Focus on Bitcoin and Nostr technologies"
+      - "Escape the attention economy and parasitic web models"
+      - "Build systems in the spirit of Bitcoin"
+      - "Create the future of self-sovereign applications"
     button:
       enable: false
       label: ""
