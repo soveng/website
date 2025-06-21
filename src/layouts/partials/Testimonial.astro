@@ -23,6 +23,7 @@ const { testimonial } = Astro.props;
                     name: string;
                     designation: string;
                     npub?: string;
+                    noteid?: string;
                   }) => (
                     <div class="swiper-slide">
                       <div class="rounded-lg bg-light px-7 py-10 dark:bg-darkmode-light">
@@ -46,9 +47,9 @@ const { testimonial } = Astro.props;
                         />
                         <div class="mt-11 flex items-center">
                           <div class="text-text-dark dark:text-white">
-                            {item.npub ? (
+                            {(item.noteid || item.npub) ? (
                               <a
-                                href={`https://njump.me/${item.npub}`}
+                                href={`https://njump.me/${item.noteid || item.npub}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="cursor-pointer hover:opacity-80 transition-opacity"
@@ -74,9 +75,9 @@ const { testimonial } = Astro.props;
                             )}
                           </div>
                           <div class="ml-4">
-                            {item.npub ? (
+                            {(item.noteid || item.npub) ? (
                               <a
-                                href={`https://njump.me/${item.npub}`}
+                                href={`https://njump.me/${item.noteid || item.npub}`}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="cursor-pointer hover:opacity-80 transition-opacity"

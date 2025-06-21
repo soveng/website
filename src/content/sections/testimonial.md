@@ -15,6 +15,7 @@ testimonials:
     designation: "Onion Routing, Tollgate"
     avatar: "/images/arjen-avatar.jpg"
     npub: "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr"
+    noteid: "nevent1qqs0qd3xuqstgqryxzv6n8nqsz558ufyfg9e46d72et5cxr0xysaxaqpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw"
     content: Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined."
 
   - name: "Marvin McKinney"

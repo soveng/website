@@ -142,6 +142,7 @@ const testimonialSectionCollection = defineCollection({
         avatar: z.string(),
         designation: z.string(),
         npub: z.string().optional(),
+        noteid: z.string().optional(),
         content: z.string(),
       }),
     ),
