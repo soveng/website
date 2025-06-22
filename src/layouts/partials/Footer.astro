@@ -9,11 +9,14 @@ import { markdownify } from "@/lib/utils/textConverter";
 const { footer }: { footer: { name: string; url: string }[] } = menu;
 ---
 
-<footer class="bg-light dark:bg-darkmode-light">
+<footer class="bg-black text-white border-t border-primary">
   <div class="container">
     <div class="row items-center py-10">
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
-        <Logo />
+        <div class="flex items-center justify-center lg:justify-start">
+          <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-8 h-8 mr-3" />
+          <span class="text-white font-bold">SOVEREIGN ENGINEERING</span>
+        </div>
       </div>
       <div class="mb-8 text-center lg:col-6 lg:mb-0">
         <ul>
@@ -24,6 +27,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
                 <li class="m-3 inline-block">
                   <a 
                     href={menu.url}
+                    class="text-white hover:text-primary transition-colors"
                     {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
                   >
                     {menu.name}
@@ -35,14 +39,12 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
         </ul>
       </div>
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
-        <Social source={social.main} className="social-icons" />
+        <Social source={social.main} className="social-icons text-white" />
       </div>
     </div>
   </div>
-  <div class="border-t border-border py-7 dark:border-darkmode-border">
-    <div
-      class="container text-center text-text-light dark:text-darkmode-text-light"
-    >
+  <div class="border-t border-primary py-7">
+    <div class="container text-center text-white">
       <p set:html={markdownify(config.params.copyright)} />
     </div>
   </div>

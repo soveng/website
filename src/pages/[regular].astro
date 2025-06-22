@@ -1,5 +1,5 @@
 ---
-import Base from "@/layouts/Base.astro";
+import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
 import { render } from "astro:content";
@@ -24,22 +24,22 @@ const { title, meta_title, description, image } = page.data;
 const { Content } = await render(page);
 ---
 
-<Base
+<BaseNoHeader
   title={title}
   meta_title={meta_title}
   description={description}
   image={image}
 >
-  <PageHeader title={title} />
-  <section class="section-sm">
+  <section class="section-sm bg-black text-white pt-24">
     <div class="container">
       <div class="row justify-center">
         <div class="lg:col-10">
-          <div class="content">
+          <h1 class="text-4xl mb-8 text-center">{title}</h1>
+          <div class="content prose prose-invert prose-lg max-w-none">
             <Content />
           </div>
         </div>
       </div>
     </div>
   </section>
-</Base>
+</BaseNoHeader>

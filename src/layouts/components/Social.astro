@@ -9,7 +9,7 @@ export interface ISocial {
 }
 ---
 
-<ul class={className}>
+<ul class={`${className} flex gap-2`}>
   {
     source.map((social: ISocial) => (
       <li>
@@ -18,9 +18,10 @@ export interface ISocial {
           href={social.link}
           target="_blank"
           rel="noopener noreferrer nofollow"
+          class="inline-flex items-center justify-center w-8 h-8 border-2 border-t-white border-l-white border-r-gray-600 border-b-gray-600 bg-gray-300 hover:bg-gray-200 active:border-t-gray-600 active:border-l-gray-600 active:border-r-white active:border-b-white active:translate-x-0.5 active:translate-y-0.5"
         >
           <span class="sr-only">{social.name}</span>
-          <DynamicIcon className="inline-block" icon={social.icon} />
+          <DynamicIcon className="inline-block w-4 h-4 text-black" icon={social.icon} />
         </a>
       </li>
     ))

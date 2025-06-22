@@ -1,5 +1,7 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
+import Win95Checkbox from "@/components/Win95Checkbox.astro";
+import Win95Card from "@/components/Win95Card.astro";
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
@@ -7,7 +9,6 @@ import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
-import { FaCheck } from "react-icons/fa";
 
 interface Homepage {
   banner: {
@@ -39,23 +40,70 @@ const { banner, features } = homepage.data as Homepage;
 // Pre-process markdown content
 const bannerTitle = await markdownify(banner.title);
 const bannerContent = await markdownify(banner.content);
+
+// Project showcase data from sec-website-bun
+const showcaseProjects = [
+  {
+    name: "Blossom",
+    description: "Decentralized file storage for nostr",
+    cohort: "SEC-01",
+    link: "https://github.com/hzrd149/blossom",
+    linkText: "github.com/hzrd149/blossom",
+  },
+  {
+    name: "Zapstore",
+    description: "Decentralized app store for Bitcoin apps",
+    cohort: "SEC-02",
+    link: "https://zapstore.dev",
+    linkText: "zapstore.dev",
+  },
+  {
+    name: "Nsite",
+    description: "Nostr-based website builder",
+    cohort: "SEC-02",
+    link: "https://github.com/lez/nsite",
+    linkText: "github.com/lez/nsite",
+  },
+  {
+    name: "Tollgate",
+    description: "Bitcoin paywall service",
+    cohort: "SEC-02",
+    link: "https://tollgate.me",
+    linkText: "tollgate.me",
+  },
+  {
+    name: "NIP-60: Nutzaps",
+    description: "Private zaps using Cashu",
+    cohort: "SEC-02",
+    link: "https://nips.nostr.com/60",
+    linkText: "nips.nostr.com/60",
+  },
+];
 ---
 
 <BaseNoHeader>
   <!-- Hero Section -->
   <header class="h-screen w-full flex flex-col text-white relative">
-    <!-- Header with logo -->
-    <div class="flex flex-col sm:flex-row justify-between items-center py-4 px-8 sm:px-16 gap-1 sm:gap-0">
-      <div class="text-sm order-2 sm:order-1">Build the tools.</div>
-      <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-[2.5rem] sm:w-[3rem] order-1 sm:order-2" />
-      <div class="text-sm order-3">Ship the future.</div>
-    </div>
+    <!-- Red background behind everything -->
+    <div class="absolute inset-0 bg-primary" style={{ zIndex: -2 }}></div>
     
     <!-- Background image with mix blend mode -->
     <div
       class="absolute inset-0 bg-center bg-no-repeat pointer-events-none"
-      style="background-image: url('/images/shining-city-in-cyberspace.png'); image-rendering: pixelated; mix-blend-mode: lighten; z-index: -1;"
+      style={{
+        backgroundImage: `url('/images/shining-city-in-cyberspace.png')`,
+        imageRendering: "pixelated",
+        mixBlendMode: "lighten",
+        zIndex: -1,
+      }}
     ></div>
+    
+    <!-- Header with logo -->
+    <div class="flex flex-col sm:flex-row justify-between items-center py-4 px-8 sm:px-16 gap-1 sm:gap-0">
+      <div class="order-2 sm:order-1">Build the tools.</div>
+      <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-[2.5rem] sm:w-[3rem] order-1 sm:order-2" />
+      <div class="order-3">Ship the future.</div>
+    </div>
 
     <div class="w-full flex-grow sm:flex-grow-0 text-center py-2 sm:py-16 flex items-center justify-center">
       <h1 class="text-[8vw] sm:text-[6vw] font-bold leading-none">SOVEREIGN ENGINEERING</h1>
@@ -66,7 +114,7 @@ const bannerContent = await markdownify(banner.content);
     </main>
 
     <footer class="w-full flex flex-col sm:flex-row justify-between items-center p-8 sm:p-16 gap-4 sm:gap-0">
-      <div class="text-sm text-center sm:text-left w-full sm:w-1/4 leading-none">
+      <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
         <p class="m-0 text-balance">
           Six weeks of ideation, experimentation, mentorship, and dialog.
         </p>
@@ -89,7 +137,7 @@ const bannerContent = await markdownify(banner.content);
         }
       </div>
 
-      <div class="text-sm text-center sm:text-right w-full sm:w-1/4 leading-none">
+      <div class="text-center sm:text-right w-full sm:w-1/4 leading-none">
         <p class="m-0 text-balance">
           Build applications, services, and businesses for a self-sovereign future.
         </p>
@@ -99,37 +147,86 @@ const bannerContent = await markdownify(banner.content);
   <!-- /Hero Section -->
 
   <!-- What is this section -->
-  <section class="w-full h-full text-white relative bg-black grid grid-cols-1 md:grid-cols-2 p-8 sm:p-16 gap-8">
-    <div class="">
-      <h2 class="text-3xl">What is this?</h2>
-      <p>
-        Sovereign Engineering Cohorts (SEC) are groups of focused builders
-        who <strong>re think and reimagine the internet</strong>. This is
-        not a conference. This is not a hackathon. Neither is this a school,
-        or an academy, or a workshop. This is something else.
-      </p>
-      <p>
-        The goal of the Sovereign Engineering Cohort is to bring the best
-        and brightest—those who have not given up on the Web or the
-        world—together in a beautiful place for a 6 weeks.
-      </p>
-      <p>
-        <em>
-          "If you want to build a ship, don't drum up the men to gather
-          wood, divide the work, and give orders. Instead,{" "}
-          <strong>teach them to yearn for the vast and endless sea.</strong>
-          " —Antoine de Saint-Exupéry
-        </em>
-      </p>
-      <p>
-        The vast and endless sea is the ocean of possibilities that bitcoin
-        & nostr and other freedom technologies open up. The ships are the
-        tools we're going to build; the wood is the software we're going to
-        write.
-      </p>
+  <section class="section-sm bg-black text-white">
+    <div class="container">
+      <div class="row items-center justify-between">
+        <div class="mb:md-0 mb-6 md:col-7 lg:col-6">
+          <h2 class="text-3xl mb-4 text-white">What is this?</h2>
+          <p class="mb-8 text-lg text-white">
+            Sovereign Engineering Cohorts (SEC) are groups of focused builders
+            who <strong>re think and reimagine the internet</strong>. This is
+            not a conference. This is not a hackathon. Neither is this a school,
+            or an academy, or a workshop. This is something else.
+          </p>
+          <p class="mb-8 text-lg text-white">
+            The goal of the Sovereign Engineering Cohort is to bring the best
+            and brightest—those who have not given up on the Web or the
+            world—together in a beautiful place for a 6 weeks.
+          </p>
+          <blockquote class="text-2xl italic tracking-tight text-primary my-8 border-l-4 border-primary pl-6">
+            "If you want to build a ship, don't drum up the men to gather
+            wood, divide the work, and give orders. Instead,{" "}
+            <strong>teach them to yearn for the vast and endless sea.</strong>
+            " —Antoine de Saint-Exupéry
+          </blockquote>
+          <p class="mb-8 text-lg text-white">
+            The vast and endless sea is the ocean of possibilities that bitcoin
+            & nostr and other freedom technologies open up. The ships are the
+            tools we're going to build; the wood is the software we're going to
+            write.
+          </p>
+        </div>
+        <div class="mb:md-0 mb-6 md:col-5">
+          <div class="bg-primary">
+            <img src="/images/men-wanted.png" alt="Men Wanted" class="mix-blend-darken w-full" />
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bg-primary self-start">
-      <img src="/images/men-wanted.png" alt="Men Wanted" class="mix-blend-darken" />
+  </section>
+
+  <!-- Project Showcase Section -->
+  <section class="w-full text-white bg-black py-8 sm:py-16">
+    <div class="px-8 sm:px-16">
+      <h2 class="text-2xl sm:text-3xl mb-8">SEC Project Showcase</h2>
+
+      <div class="overflow-x-auto">
+        <!-- Table Header - Hidden on mobile, shown on larger screens -->
+        <div class="hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b border-white text-sm font-bold uppercase tracking-wider">
+          <div>Project Info</div>
+          <div>Cohort #</div>
+          <div>Link</div>
+        </div>
+
+        <!-- Project Entries -->
+        {showcaseProjects.map((project, index) => (
+          <div
+            key={index}
+            class="flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-4 border-b border-white"
+          >
+            <div class="flex items-start">
+              <div>
+                <h4 class="text-xl">{project.name}</h4>
+                <p class="my-0 text-gray-300">{project.description}</p>
+              </div>
+            </div>
+            <div class="text-sm md:text-base">
+              <span class="md:hidden font-bold">Cohort: </span>
+              {project.cohort}
+            </div>
+            <div class="text-sm md:text-base">
+              <a
+                href={project.link}
+                class="text-white hover:text-primary transition-colors break-all"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.linkText}
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 
@@ -165,8 +262,8 @@ const bannerContent = await markdownify(banner.content);
                 <p set:html={featureContent} class="mb-8 text-lg text-white" />
                 <ul>
                   {bulletPoints.map((bullet: string) => (
-                    <li class="relative mb-4 pl-6 text-white">
-                      <FaCheck className={"absolute left-0 top-1.5 text-primary"} />
+                    <li class="flex items-start mb-4 text-white">
+                      <Win95Checkbox class="mr-3 mt-1 flex-shrink-0" />
                       <span set:html={bullet} />
                     </li>
                   ))}
