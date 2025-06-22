@@ -1,0 +1,21 @@
+---
+// Windows 95 style card component
+interface Props {
+  class?: string;
+}
+
+const { class: className = "" } = Astro.props;
+---
+
+<div class={`border-2 border-t-white border-l-white border-r-gray-600 border-b-gray-600 bg-gray-200 shadow-md ${className}`}>
+  <div class="p-4">
+    <slot />
+  </div>
+</div>
+
+<style>
+  /* Additional Windows 95 card styling */
+  div {
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+  }
+</style>

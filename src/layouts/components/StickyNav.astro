@@ -1,0 +1,171 @@
+---
+// Sticky navigation that appears after hero section
+import menu from "@/config/menu.json";
+const { main } = menu;
+---
+
+<nav id="sticky-nav" class="fixed top-0 left-0 right-0 z-50 bg-black border-b border-primary transform -translate-y-full transition-transform duration-300 ease-in-out">
+  <div class="container mx-auto px-8 py-4">
+    <div class="flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="/" class="flex items-center text-white hover:text-primary transition-colors">
+          <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-8 h-8 mr-3" />
+          <span class="font-bold">SOVEREIGN ENGINEERING</span>
+        </a>
+      </div>
+      
+      <div class="hidden md:flex items-center space-x-6">
+        {
+          main.map((menu) => {
+            const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+            
+            return menu.hasChildren ? (
+              <div class="group relative">
+                <span class="text-white hover:text-primary transition-colors cursor-pointer flex items-center">
+                  {menu.name}
+                  <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                  </svg>
+                </span>
+                <div class="invisible absolute top-full left-0 mt-1 w-48 bg-gray-300 border-2 border-t-white border-l-white border-r-gray-600 border-b-gray-600 opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 z-50 shadow-lg">
+                  {
+                    menu.children?.map((child) => {
+                      const isChildExternal = child.url.startsWith('http') || child.url.startsWith('mailto');
+                      return (
+                        <a
+                          href={child.url}
+                          class="block px-3 py-2 text-black hover:bg-primary hover:text-white transition-colors border-b border-gray-400 last:border-b-0"
+                          {...(isChildExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                        >
+                          {child.name}
+                        </a>
+                      );
+                    })
+                  }
+                </div>
+              </div>
+            ) : (
+              <a 
+                href={menu.url} 
+                class="text-white hover:text-primary transition-colors"
+                {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+              >
+                {menu.name}
+              </a>
+            );
+          })
+        }
+        <a href="https://sovereignengineering.typeform.com/SEC-05" class="btn-retro btn-retro-sm" target="_blank" rel="noopener noreferrer">
+          APPLY NOW
+        </a>
+      </div>
+      
+      <!-- Mobile menu button -->
+      <button id="mobile-menu-btn" class="md:hidden text-white">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4 border-t border-primary pt-4">
+      <div class="flex flex-col space-y-3">
+        {
+          main.map((menu) => {
+            const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+            
+            return menu.hasChildren ? (
+              <div>
+                <div class="text-white font-semibold mb-2">{menu.name}</div>
+                <div class="ml-4 flex flex-col space-y-2">
+                  {
+                    menu.children?.map((child) => {
+                      const isChildExternal = child.url.startsWith('http') || child.url.startsWith('mailto');
+                      return (
+                        <a
+                          href={child.url}
+                          class="text-white hover:text-primary transition-colors text-sm"
+                          {...(isChildExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                        >
+                          {child.name}
+                        </a>
+                      );
+                    })
+                  }
+                </div>
+              </div>
+            ) : (
+              <a 
+                href={menu.url} 
+                class="text-white hover:text-primary transition-colors"
+                {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+              >
+                {menu.name}
+              </a>
+            );
+          })
+        }
+        <a href="https://sovereignengineering.typeform.com/SEC-05" class="btn-retro btn-retro-sm inline-block w-fit" target="_blank" rel="noopener noreferrer">
+          APPLY NOW
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+  // Intersection Observer for sticky navigation
+  document.addEventListener('astro:page-load', () => {
+    const stickyNav = document.getElementById('sticky-nav');
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    if (!stickyNav) return;
+    
+    // Create observer for hero section
+    const heroSection = document.querySelector('header');
+    if (heroSection && heroSection.classList.contains('h-screen')) {
+      // Only observe if it's the full-screen hero section
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              // Hero is visible, hide nav
+              stickyNav.classList.add('-translate-y-full');
+            } else {
+              // Hero is not visible, show nav
+              stickyNav.classList.remove('-translate-y-full');
+            }
+          });
+        },
+        {
+          threshold: 0.1,
+          rootMargin: '-10px 0px 0px 0px'
+        }
+      );
+      
+      observer.observe(heroSection);
+    } else {
+      // No hero section or not a full-screen hero, show nav immediately
+      stickyNav.classList.remove('-translate-y-full');
+    }
+    
+    // Mobile menu toggle
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+      });
+      
+      // Close mobile menu when clicking nav links
+      const mobileLinks = mobileMenu.querySelectorAll('a');
+      mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+        });
+      });
+    }
+  });
+</script>

@@ -3,7 +3,13 @@ html {
 }
 
 body {
-  @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text;
+  @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text m-0 p-0 overflow-x-hidden;
+  font-family: "Times New Roman", Times, serif;
+}
+
+img {
+  image-rendering: pixelated;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 h1,
@@ -12,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary font-bold leading-tight text-text-dark dark:text-darkmode-text-dark;
+  @apply font-secondary font-normal leading-tight text-text-dark dark:text-darkmode-text-dark;
 }
 
 h1,

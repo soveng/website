@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "What is Sovereign Engineering?"
-    image: "/images/service-1.png"
+    image: "/images/hike.png"
     content: "Sovereign Engineering is a 6-week program that brings together 21 participants in Madeira for in-person collaboration, ideation, and building."
     bulletpoints:
       - "6 weeks of intensive collaboration"
@@ -27,7 +27,7 @@ features:
       link: ""
 
   - title: "How does it work?"
-    image: "/images/service-2.png"
+    image: "/images/athens.png"
     content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
     bulletpoints:
       - "**Monday Mornings:** Orientation and planning"
@@ -41,7 +41,7 @@ features:
       link: "https://sovereignengineering.typeform.com/SEC-05"
 
   - title: "Why Sovereign Engineering?"
-    image: "/images/service-3.png"
+    image: "/images/ocean.png"
     content: "We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future."
     bulletpoints:
       - "Build cool shit that actually gets shipped and used"
