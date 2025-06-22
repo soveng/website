@@ -1,5 +1,5 @@
 ---
-title: "FAQ"
+title: "FREQUENTLY ASKED QUESTIONS"
 description: "Frequently Asked Questions about Sovereign Engineering"
 layout: "page"
 ---
