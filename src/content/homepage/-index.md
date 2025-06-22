@@ -12,7 +12,7 @@ banner:
 # Features
 features:
   - title: "What is Sovereign Engineering?"
-    image: "/images/apple-guy.png"
+    image: "/images/hike.png"
     content: "Sovereign Engineering is a 6-week program that brings together 21 participants in Madeira for in-person collaboration, ideation, and building."
     bulletpoints:
       - "6 weeks of intensive collaboration"
