@@ -13,3 +13,13 @@
 .btn-outline-primary {
   @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
 }
+
+/* 90s-style retro button */
+.btn-retro {
+  @apply bg-gray-300 text-black font-bold py-2 px-4 text-sm border-2 border-t-white border-l-white border-r-gray-600 border-b-gray-600 hover:bg-gray-200 active:border-t-gray-600 active:border-l-gray-600 active:border-r-white active:border-b-white active:translate-x-0.5 active:translate-y-0.5;
+  border-style: solid;
+}
+
+.btn-retro-sm {
+  @apply py-1 px-2 text-xs;
+}
