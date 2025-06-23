@@ -5,12 +5,12 @@ const { main } = menu;
 ---
 
 <nav id="sticky-nav" class="fixed top-0 left-0 right-0 z-50 bg-black border-b border-primary transform -translate-y-full transition-transform duration-300 ease-in-out">
-  <div class="container mx-auto px-8 py-4">
+  <div class="container py-4">
     <div class="flex items-center justify-between">
       <div class="flex items-center">
         <a href="/" class="flex items-center text-white hover:text-primary transition-colors">
           <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-8 h-8 mr-3" />
-          <span class="font-bold">SOVEREIGN ENGINEERING</span>
+          <span class="font-bold uppercase" style="font-family: 'IM Fell Double Pica', Times, serif;">SOVEREIGN ENGINEERING</span>
         </a>
       </div>
       
@@ -21,7 +21,7 @@ const { main } = menu;
             
             return menu.hasChildren ? (
               <div class="group relative">
-                <span class="text-white hover:text-primary transition-colors cursor-pointer flex items-center">
+                <span class="text-white hover:text-primary transition-colors cursor-pointer flex items-center uppercase" style="font-family: 'IM Fell Double Pica', Times, serif;">
                   {menu.name}
                   <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
@@ -34,7 +34,8 @@ const { main } = menu;
                       return (
                         <a
                           href={child.url}
-                          class="block px-3 py-2 text-black hover:bg-primary hover:text-white transition-colors border-b border-gray-400 last:border-b-0"
+                          class="block px-3 py-2 text-black hover:bg-primary hover:text-white transition-colors border-b border-gray-400 last:border-b-0 uppercase"
+                          style="font-family: 'IM Fell Double Pica', Times, serif;"
                           {...(isChildExternal && { target: "_blank", rel: "noopener noreferrer" })}
                         >
                           {child.name}
@@ -47,7 +48,8 @@ const { main } = menu;
             ) : (
               <a 
                 href={menu.url} 
-                class="text-white hover:text-primary transition-colors"
+                class="text-white hover:text-primary transition-colors uppercase"
+                style="font-family: 'IM Fell Double Pica', Times, serif;"
                 {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
               >
                 {menu.name}
@@ -79,7 +81,7 @@ const { main } = menu;
             
             return menu.hasChildren ? (
               <div>
-                <div class="text-white font-semibold mb-2">{menu.name}</div>
+                <div class="text-white font-semibold mb-2 uppercase" style="font-family: 'IM Fell Double Pica', Times, serif;">{menu.name}</div>
                 <div class="ml-4 flex flex-col space-y-2">
                   {
                     menu.children?.map((child) => {
@@ -87,7 +89,8 @@ const { main } = menu;
                       return (
                         <a
                           href={child.url}
-                          class="text-white hover:text-primary transition-colors text-sm"
+                          class="text-white hover:text-primary transition-colors text-sm uppercase"
+                          style="font-family: 'IM Fell Double Pica', Times, serif;"
                           {...(isChildExternal && { target: "_blank", rel: "noopener noreferrer" })}
                         >
                           {child.name}
@@ -100,7 +103,8 @@ const { main } = menu;
             ) : (
               <a 
                 href={menu.url} 
-                class="text-white hover:text-primary transition-colors"
+                class="text-white hover:text-primary transition-colors uppercase"
+                style="font-family: 'IM Fell Double Pica', Times, serif;"
                 {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
               >
                 {menu.name}

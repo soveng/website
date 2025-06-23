@@ -6,6 +6,8 @@ import { plainify } from "@/lib/utils/textConverter";
 import Footer from "@/partials/Footer.astro";
 import Header from "@/partials/Header.astro";
 import "@/styles/main.css";
+import "@fontsource/im-fell-double-pica";
+import "@fontsource/im-fell-double-pica/400-italic.css";
 import {
   GoogleTagmanager,
   GoogleTagmanagerNoscript,
@@ -72,11 +74,11 @@ const { title, meta_title, description, image, noindex, canonical } =
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!-- system font css - Times New Roman -->
+    <!-- Fontsource font variables -->
     <style>
       :root {
-        --font-primary: "Times New Roman", Times, serif;
-        --font-secondary: "Times New Roman", Times, serif;
+        --font-primary: "IM Fell Double Pica", Georgia, Times, serif;
+        --font-secondary: "IM Fell Double Pica", Times, serif;
       }
     </style>
 

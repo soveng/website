@@ -1,6 +1,5 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
-import Win95Checkbox from "@/components/Win95Checkbox.astro";
 import Win95Card from "@/components/Win95Card.astro";
 import ProjectShowcase from "@/components/ProjectShowcase.astro";
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
@@ -65,21 +64,25 @@ const highlightedProjects = showcaseProjects.filter(project => project.highlight
     ></div>
     
     <!-- Header with logo -->
-    <div class="flex flex-col sm:flex-row justify-between items-center py-4 px-8 sm:px-16 gap-1 sm:gap-0">
+    <div class="container">
+      <div class="flex flex-col sm:flex-row justify-between items-center py-4 gap-1 sm:gap-0">
       <div class="order-2 sm:order-1">Build the tools.</div>
       <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-[2.5rem] sm:w-[3rem] order-1 sm:order-2" />
       <div class="order-3">Ship the future.</div>
+      </div>
     </div>
 
     <div class="w-full flex-grow sm:flex-grow-0 text-center py-2 sm:py-16 flex items-center justify-center">
-      <h1 class="text-[8vw] sm:text-[6vw] font-bold leading-none">SOVEREIGN ENGINEERING</h1>
+      <h1 class="text-[8vw] sm:text-[6vw] leading-none">SOVEREIGN ENGINEERING</h1>
     </div>
 
     <main class="flex-grow">
       <!-- The main content is the background image -->
     </main>
 
-    <footer class="w-full flex flex-col sm:flex-row justify-between items-center p-8 sm:p-16 gap-4 sm:gap-0">
+    <footer class="w-full">
+      <div class="container">
+        <div class="flex flex-col sm:flex-row justify-between items-center py-8 gap-4 sm:gap-0">
       <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
         <p class="m-0 text-balance">
           Six weeks of ideation, experimentation, mentorship, and dialog.
@@ -107,49 +110,12 @@ const highlightedProjects = showcaseProjects.filter(project => project.highlight
         <p class="m-0 text-balance">
           Build applications, services, and businesses for a self-sovereign future.
         </p>
+        </div>
       </div>
     </footer>
   </header>
   <!-- /Hero Section -->
 
-  <!-- What is this section -->
-  <section class="section-sm bg-black text-white">
-    <div class="container">
-      <div class="row items-center justify-between">
-        <div class="mb:md-0 mb-6 md:col-7 lg:col-6">
-          <h2 class="text-3xl mb-4 text-white">What is this?</h2>
-          <p class="mb-8 text-lg text-white">
-            Sovereign Engineering Cohorts (SEC) are groups of focused builders
-            who <strong>re think and reimagine the internet</strong>. This is
-            not a conference. This is not a hackathon. Neither is this a school,
-            or an academy, or a workshop. This is something else.
-          </p>
-          <p class="mb-8 text-lg text-white">
-            The goal of the Sovereign Engineering Cohort is to bring the best
-            and brightest—those who have not given up on the Web or the
-            world—together in a beautiful place for a 6 weeks.
-          </p>
-          <blockquote class="text-2xl italic tracking-tight text-primary my-8 border-l-4 border-primary pl-6">
-            "If you want to build a ship, don't drum up the men to gather
-            wood, divide the work, and give orders. Instead,{" "}
-            <strong>teach them to yearn for the vast and endless sea.</strong>
-            " —Antoine de Saint-Exupéry
-          </blockquote>
-          <p class="mb-8 text-lg text-white">
-            The vast and endless sea is the ocean of possibilities that bitcoin
-            & nostr and other freedom technologies open up. The ships are the
-            tools we're going to build; the wood is the software we're going to
-            write.
-          </p>
-        </div>
-        <div class="mb:md-0 mb-6 md:col-5">
-          <div class="bg-primary">
-            <img src="/images/ice.png" alt="Ice" class="w-full" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <ProjectShowcase 
     projects={highlightedProjects} 
@@ -176,22 +142,22 @@ const highlightedProjects = showcaseProjects.filter(project => project.highlight
               <div
                 class={`mb:md-0 mb-6 md:col-5 ${index % 2 !== 0 && "md:order-2"}`}
               >
-                <ImageMod
+                <img
                   src={feature.image}
                   height={480}
                   width={520}
                   alt={feature.title}
-                  format="webp"
+                  class="feature-image"
                 />
               </div>
               <div class={`md:col-7 lg:col-6 ${index % 2 !== 0 && "md:order-1"}`}>
-                <h2 set:html={featureTitle} class="mb-4 text-white" />
+                <h2 set:html={featureTitle} class="mb-4 text-white uppercase" style="font-size: 2rem;" />
                 <p set:html={featureContent} class="mb-8 text-lg text-white" />
                 <ul>
                   {bulletPoints.map((bullet: string) => (
-                    <li class="flex items-start mb-4 text-white">
-                      <Win95Checkbox class="mr-3 mt-1 flex-shrink-0" />
-                      <span set:html={bullet} />
+                    <li class="flex items-center mb-4 text-white text-lg">
+                      <span class="mr-3 flex-shrink-0 text-white">&#10022;</span>
+                      <span set:html={bullet} class="text-lg" />
                     </li>
                   ))}
                 </ul>
@@ -228,5 +194,14 @@ const highlightedProjects = showcaseProjects.filter(project => project.highlight
 
   .showcase-logo:hover {
     filter: none;
+  }
+
+  .feature-image {
+    image-rendering: auto !important;
+    image-rendering: smooth !important;
+    image-rendering: high-quality !important;
+    image-rendering: -webkit-optimize-contrast !important;
+    max-width: 100%;
+    height: auto;
   }
 </style>

@@ -1,7 +1,6 @@
 ---
 import { markdownify } from "@/lib/utils/textConverter";
 import ImageMod from "@/components/ImageMod.astro";
-import Win95Card from "@/components/Win95Card.astro";
 const { testimonial } = Astro.props;
 ---
 
@@ -15,83 +14,76 @@ const { testimonial } = Astro.props;
             <p set:html={markdownify(testimonial.data.description)} class="text-white" />
           </div>
           <div class="col-12">
-            <div class="swiper testimonial-slider">
-              <div class="swiper-wrapper">
-                {testimonial.data.testimonials.map(
-                  (item: {
-                    avatar: string;
-                    content: string;
-                    name: string;
-                    designation: string;
-                    npub?: string;
-                    noteid?: string;
-                  }) => (
-                    <div class="swiper-slide">
-                      <Win95Card class="h-full">
-                        <blockquote
-                          class="text-black italic mb-6"
-                          set:html={`"${item.content}"`}
-                        />
-                        <div class="flex items-center">
-                          <div class="text-black">
-                            {(item.noteid || item.npub) ? (
-                              <a
-                                href={`https://njump.me/${item.noteid || item.npub}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="cursor-pointer hover:opacity-80 transition-opacity"
-                              >
-                                <ImageMod
-                                  height={50}
-                                  width={50}
-                                  class="border-2 border-gray-600"
-                                  src={item.avatar}
-                                  alt={item.name}
-                                  format="webp"
-                                />
-                              </a>
-                            ) : (
-                              <ImageMod
-                                height={50}
-                                width={50}
-                                class="border-2 border-gray-600"
-                                src={item.avatar}
-                                alt={item.name}
-                                format="webp"
-                              />
-                            )}
-                          </div>
-                          <div class="ml-4">
-                            {(item.noteid || item.npub) ? (
-                              <a
-                                href={`https://njump.me/${item.noteid || item.npub}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                class="cursor-pointer hover:opacity-80 transition-opacity"
-                              >
-                                <h3
-                                  set:text={item.name}
-                                  class="h5 font-primary font-semibold text-black"
-                                />
-                              </a>
-                            ) : (
-                              <h3
-                                set:text={item.name}
-                                class="h5 font-primary font-semibold text-black"
-                              />
-                            )}
-                            <p
-                              set:text={item.designation}
-                              class="text-black"
+            <div class="columns-1 md:columns-2 lg:columns-3 gap-0 space-y-0">
+              {testimonial.data.testimonials.map(
+                (item: {
+                  avatar: string;
+                  content: string;
+                  name: string;
+                  designation: string;
+                  npub?: string;
+                  noteid?: string;
+                }) => (
+                  <div class="testimonial-card break-inside-avoid mb-0">
+                    <blockquote
+                      class="text-white italic mb-6 text-lg"
+                      set:text={item.content}
+                    />
+                    <div class="flex items-center">
+                      <div class="text-white">
+                        {(item.noteid || item.npub) ? (
+                          <a
+                            href={`https://njump.me/${item.noteid || item.npub}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="cursor-pointer hover:opacity-80 transition-opacity"
+                          >
+                            <img
+                              height={50}
+                              width={50}
+                              class="border border-white showcase-logo"
+                              src={item.avatar}
+                              alt={item.name}
                             />
-                          </div>
-                        </div>
-                      </Win95Card>
+                          </a>
+                        ) : (
+                          <img
+                            height={50}
+                            width={50}
+                            class="border border-white showcase-logo"
+                            src={item.avatar}
+                            alt={item.name}
+                          />
+                        )}
+                      </div>
+                      <div class="ml-4">
+                        {(item.noteid || item.npub) ? (
+                          <a
+                            href={`https://njump.me/${item.noteid || item.npub}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="cursor-pointer hover:opacity-80 transition-opacity"
+                          >
+                            <h3
+                              set:text={item.name}
+                              class="text-sm font-primary font-semibold text-white mb-1"
+                            />
+                          </a>
+                        ) : (
+                          <h3
+                            set:text={item.name}
+                            class="text-sm font-primary font-semibold text-white mb-1"
+                          />
+                        )}
+                        <p
+                          set:text={item.designation}
+                          class="text-white text-sm"
+                        />
+                      </div>
                     </div>
-                  )
-                )}
-              </div>
-              <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center" />
+                  </div>
+                )
+              )}
             </div>
           </div>
         </div>
@@ -100,69 +92,48 @@ const { testimonial } = Astro.props;
   )
 }
 
-<script>
-  import { Swiper } from "swiper";
-  import "swiper/css";
-  import "swiper/css/pagination";
-  import { Autoplay, Pagination } from "swiper/modules";
-
-  // astro:page-load event is fired when the page is loaded
-  document.addEventListener("astro:page-load", () => {
-    new Swiper(".testimonial-slider", {
-      modules: [Pagination, Autoplay],
-      spaceBetween: 24,
-      loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".testimonial-slider-pagination",
-        type: "bullets",
-        clickable: true,
-        renderBullet: function (index, className) {
-          return '<span class="' + className + '"></span>';
-        },
-      },
-      breakpoints: {
-        768: {
-          slidesPerView: 2,
-        },
-        992: {
-          slidesPerView: 3,
-        },
-      },
-    });
-  });
-</script>
-
 <style>
-  .testimonial-slider-pagination .swiper-pagination-bullet-active {
-    opacity: 1 !important;
-    color: #ED3238 !important;
+  .testimonial-card {
+    background-color: black;
+    padding: 1.5rem;
+    border-bottom: 1px solid white;
+    break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .showcase-logo img {
+    filter: contrast(1000%) grayscale(100%) !important;
+    image-rendering: pixelated !important;
+    image-rendering: crisp-edges !important;
+    transition: filter 0.3s ease !important;
+  }
+
+  .showcase-logo:hover img {
+    filter: none !important;
   }
   
-  .testimonial-slider-pagination .swiper-pagination-bullet-active::before {
-    content: '*' !important;
+  .showcase-logo {
+    filter: contrast(1000%) grayscale(100%) !important;
+    image-rendering: pixelated !important;
+    image-rendering: crisp-edges !important;
+    transition: filter 0.3s ease !important;
+  }
+
+  .showcase-logo:hover {
+    filter: none !important;
+  }
+
+  /* Fix quote marks to be straight quotes */
+  blockquote {
+    font-family: "IM Fell Double Pica", Times, serif;
   }
   
-  .testimonial-slider-pagination .swiper-pagination-bullet::before {
-    content: '.' !important;
+  blockquote::before {
+    content: '"';
   }
   
-  .testimonial-slider-pagination .swiper-pagination-bullet {
-    font-family: 'Times New Roman', Times, serif !important;
-    font-size: 24px !important;
-    line-height: 1 !important;
-    background: none !important;
-    width: auto !important;
-    height: auto !important;
-    border-radius: 0 !important;
-    margin: 0 4px !important;
-    opacity: 0.5 !important;
-    color: white !important;
-    cursor: pointer !important;
-    border: none !important;
+  blockquote::after {
+    content: '"';
   }
 </style>

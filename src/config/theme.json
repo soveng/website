@@ -31,9 +31,9 @@
   },
   "fonts": {
     "font_family": {
-      "primary": "Times New Roman, Times, serif",
+      "primary": "IM Fell Double Pica, Georgia, Times, serif",
       "primary_type": "serif",
-      "secondary": "Times New Roman, Times, serif",
+      "secondary": "IM Fell Double Pica, Times New Roman, Times, serif",
       "secondary_type": "serif"
     },
     "font_size": {
