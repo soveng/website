@@ -18,6 +18,10 @@
       "hasChildren": true,
       "children": [
         {
+          "name": "Projects",
+          "url": "/showcase"
+        },
+        {
           "name": "FAQ",
           "url": "/faq"
         },
@@ -52,6 +56,10 @@
     {
       "name": "Contact",
       "url": "mailto:info@sovereignengineering.io"
+    },
+    {
+      "name": "Projects",
+      "url": "/showcase"
     },
     {
       "name": "FAQ",
