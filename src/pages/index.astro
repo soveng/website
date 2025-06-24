@@ -2,6 +2,7 @@
 import ImageMod from "@/components/ImageMod.astro";
 import Win95Checkbox from "@/components/Win95Checkbox.astro";
 import Win95Card from "@/components/Win95Card.astro";
+import ProjectShowcase from "@/components/ProjectShowcase.astro";
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
@@ -9,6 +10,7 @@ import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
+import showcaseProjects from "@/data/showcaseProjects.js";
 
 interface Homepage {
   banner: {
@@ -41,44 +43,8 @@ const { banner, features } = homepage.data as Homepage;
 const bannerTitle = await markdownify(banner.title);
 const bannerContent = await markdownify(banner.content);
 
-// Project showcase data from sec-website-bun
-const showcaseProjects = [
-  {
-    name: "Blossom",
-    description: "Decentralized file storage for nostr",
-    cohort: "SEC-01",
-    link: "https://github.com/hzrd149/blossom",
-    linkText: "github.com/hzrd149/blossom",
-  },
-  {
-    name: "Zapstore",
-    description: "Decentralized app store for Bitcoin apps",
-    cohort: "SEC-02",
-    link: "https://zapstore.dev",
-    linkText: "zapstore.dev",
-  },
-  {
-    name: "Nsite",
-    description: "Nostr-based website builder",
-    cohort: "SEC-02",
-    link: "https://github.com/lez/nsite",
-    linkText: "github.com/lez/nsite",
-  },
-  {
-    name: "Tollgate",
-    description: "Bitcoin paywall service",
-    cohort: "SEC-02",
-    link: "https://tollgate.me",
-    linkText: "tollgate.me",
-  },
-  {
-    name: "NIP-60: Nutzaps",
-    description: "Private zaps using Cashu",
-    cohort: "SEC-02",
-    link: "https://nips.nostr.com/60",
-    linkText: "nips.nostr.com/60",
-  },
-];
+// Filter for highlighted projects only for homepage
+const highlightedProjects = showcaseProjects.filter(project => project.highlight);
 ---
 
 <BaseNoHeader>
@@ -185,50 +151,11 @@ const showcaseProjects = [
     </div>
   </section>
 
-  <!-- Project Showcase Section -->
-  <section class="w-full text-white bg-black py-8 sm:py-16">
-    <div class="px-8 sm:px-16">
-      <h2 class="text-2xl sm:text-3xl mb-8">SEC Project Showcase</h2>
-
-      <div class="overflow-x-auto">
-        <!-- Table Header - Hidden on mobile, shown on larger screens -->
-        <div class="hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b border-white text-sm font-bold uppercase tracking-wider">
-          <div>Project Info</div>
-          <div>Cohort #</div>
-          <div>Link</div>
-        </div>
-
-        <!-- Project Entries -->
-        {showcaseProjects.map((project, index) => (
-          <div
-            key={index}
-            class="flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-4 border-b border-white"
-          >
-            <div class="flex items-start">
-              <div>
-                <h4 class="text-xl">{project.name}</h4>
-                <p class="my-0 text-gray-300">{project.description}</p>
-              </div>
-            </div>
-            <div class="text-sm md:text-base">
-              <span class="md:hidden font-bold">Cohort: </span>
-              {project.cohort}
-            </div>
-            <div class="text-sm md:text-base">
-              <a
-                href={project.link}
-                class="text-white hover:text-primary transition-colors break-all"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {project.linkText}
-              </a>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  </section>
+  <ProjectShowcase 
+    projects={highlightedProjects} 
+    showCTA={true}
+    darkTheme={true}
+  />
 
   <!-- Features -->
   {
@@ -290,3 +217,16 @@ const showcaseProjects = [
   <Testimonial testimonial={testimonial} />
   <CallToAction call_to_action={call_to_action} />
 </BaseNoHeader>
+
+<style>
+  .showcase-logo {
+    filter: contrast(1000%) grayscale(100%);
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    transition: filter 0.3s ease;
+  }
+
+  .showcase-logo:hover {
+    filter: none;
+  }
+</style>
