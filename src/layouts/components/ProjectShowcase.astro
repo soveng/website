@@ -33,8 +33,8 @@ const containerClasses = darkTheme
   : "section bg-theme-light";
 
 const headerClasses = darkTheme 
-  ? "text-2xl sm:text-3xl mb-8" 
-  : "text-3xl mb-8";
+  ? "text-2xl mb-8 uppercase" 
+  : "text-3xl mb-8 uppercase";
 
 const titleClasses = darkTheme
   ? "text-4xl mb-8 pt-16 text-center text-white font-normal"
@@ -58,12 +58,12 @@ const linkClasses = darkTheme
 ---
 
 <section class={containerClasses}>
-  <div class={darkTheme ? "px-8 sm:px-16" : "container"}>
+  <div class="container">
     {showTitle && (
       <h1 class={titleClasses}>PROJECT SHOWCASE</h1>
     )}
     {!showTitle && (
-      <h2 class={headerClasses}>SEC Project Showcase</h2>
+      <h2 class={headerClasses} style="font-size: 2rem;">SEC PROJECT SHOWCASE</h2>
     )}
 
     <div class="overflow-x-auto">

@@ -4,7 +4,7 @@ html {
 
 body {
   @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text m-0 p-0 overflow-x-hidden;
-  font-family: "Times New Roman", Times, serif;
+  font-family: var(--font-primary);
 }
 
 img {
@@ -19,6 +19,7 @@ h4,
 h5,
 h6 {
   @apply font-secondary font-normal leading-tight text-text-dark dark:text-darkmode-text-dark;
+  text-transform: uppercase;
 }
 
 h1,
@@ -29,6 +30,7 @@ h1,
 h2,
 .h2 {
   @apply text-h2-sm md:text-h2;
+  text-transform: uppercase;
 }
 
 h3,
@@ -58,6 +60,11 @@ strong {
 
 code {
   @apply after:border-none;
+}
+
+blockquote {
+  font-family: "IM Fell Double Pica", Times, serif;
+  font-style: italic;
 }
 
 blockquote > p {

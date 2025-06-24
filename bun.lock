@@ -10,6 +10,7 @@
         "@astrojs/rss": "4.0.11",
         "@astrojs/sitemap": "3.3.1",
         "@digi4care/astro-google-tagmanager": "^1.4.0",
+        "@fontsource/im-fell-double-pica": "^5.2.6",
         "@justinribeiro/lite-youtube": "^1.8.0",
         "astro": "5.7.8",
         "astro-auto-import": "^0.4.4",
@@ -195,6 +196,8 @@
     "@eslint/object-schema": ["@eslint/object-schema@2.1.6", "", {}, "sha512-RBMg5FRL0I0gs51M/guSAj5/e14VQ4tpZnQNWwuDT66P14I43ItmPfIZRhO9fUVIPOAQXU47atlywZ/czoqFPA=="],
 
     "@eslint/plugin-kit": ["@eslint/plugin-kit@0.3.2", "", { "dependencies": { "@eslint/core": "^0.15.0", "levn": "^0.4.1" } }, "sha512-4SaFZCNfJqvk/kenHpI8xvN42DMaoycy4PzKc5otHxRswww1kAt82OlBuwRVLofCACCTZEcla2Ydxv8scMXaTg=="],
+
+    "@fontsource/im-fell-double-pica": ["@fontsource/im-fell-double-pica@5.2.6", "", {}, "sha512-9fjKePs1TgJ3MAUYtCz/UeKpm2x4OyCXuvtZhC3S7/SDBRRFti98cIOIaNiuJJPqQrDuFUwiRbVSc7YDyRq5xQ=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 
