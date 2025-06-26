@@ -16,6 +16,7 @@ interface Props {
   darkTheme?: boolean;
   showTitle?: boolean;
   title?: string;
+  groupByCohort?: boolean;
 }
 
 const { 
@@ -25,8 +26,25 @@ const {
   ctaLink = "/showcase",
   darkTheme = false,
   showTitle = false,
-  title = "SEC Project Showcase"
+  title = "SEC Project Showcase",
+  groupByCohort = true
 } = Astro.props;
+
+// Group projects by cohort
+const projectsByCohort = projects.reduce((acc, project) => {
+  if (!acc[project.cohort]) {
+    acc[project.cohort] = [];
+  }
+  acc[project.cohort].push(project);
+  return acc;
+}, {});
+
+// Sort cohorts in ascending order (SEC-01, SEC-02, SEC-03, SEC-04)
+const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
+  const numA = parseInt(a.replace('SEC-', ''));
+  const numB = parseInt(b.replace('SEC-', ''));
+  return numA - numB;
+});
 
 const containerClasses = darkTheme 
   ? "w-full text-white bg-black py-8 sm:py-16" 
@@ -55,6 +73,10 @@ const descriptionClasses = darkTheme
 const linkClasses = darkTheme 
   ? "text-white hover:text-primary transition-colors break-all" 
   : "text-primary hover:text-primary/80 transition-colors break-all font-medium";
+
+const cohortHeaderClasses = darkTheme
+  ? "text-3xl mb-6 mt-12 first:mt-0 uppercase font-normal"
+  : "text-3xl mb-6 mt-12 first:mt-0 uppercase";
 ---
 
 <section class={containerClasses}>
@@ -66,58 +88,132 @@ const linkClasses = darkTheme
       <h2 class={headerClasses} style="font-size: 2rem;">SEC PROJECT SHOWCASE</h2>
     )}
 
-    <div class="overflow-x-auto">
-      <!-- Table Header - Hidden on mobile, shown on larger screens -->
-      <div class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
-        <div>Project Info</div>
-        <div>Cohort #</div>
-        <div>Link</div>
-      </div>
+    {groupByCohort ? (
+      <>
+        {sortedCohorts.map((cohort, cohortIndex) => (
+          <div key={cohort} class={cohortIndex === 0 ? '' : 'mt-16'}>
+            <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+              {cohort}
+            </h2>
+            
+            <div class="overflow-x-auto">
+              <!-- Table Header - Hidden on mobile, shown on larger screens -->
+              {cohortIndex === 0 && (
+                <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+                  <div>Project Info</div>
+                  <div>Link</div>
+                </div>
+              )}
 
-      <!-- Project Entries -->
-      {projects.map((project, index) => (
-        <div
-          key={index}
-          class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
-        >
-          <div class="flex items-start gap-4">
-            {project.logo && (
-              <div class="flex-shrink-0">
-                <img 
-                  src={project.logo} 
-                  alt={`${project.name} logo`}
-                  class="w-12 h-12 object-contain showcase-logo"
-                />
-              </div>
-            )}
-            <div>
-              <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
-              <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
+              <!-- Project Entries for this cohort -->
+              {projectsByCohort[cohort].map((project, index) => (
+                <div
+                  key={index}
+                  class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+                >
+                  <div class="flex items-start gap-4">
+                    {project.logo && (
+                      <div class="flex-shrink-0">
+                        <img 
+                          src={project.logo} 
+                          alt={`${project.name} logo`}
+                          class="w-12 h-12 object-contain showcase-logo"
+                        />
+                      </div>
+                    )}
+                    <div>
+                      <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
+                      <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
+                    </div>
+                  </div>
+                  <div class="text-sm md:text-base">
+                    <a
+                      href={project.link}
+                      class={linkClasses}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.linkText}
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-          <div class="text-sm md:text-base">
-            <span class="md:hidden font-bold">Cohort: </span>
-            {darkTheme ? (
-              project.cohort
-            ) : (
-              <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary text-white">
-                {project.cohort}
-              </span>
-            )}
-          </div>
-          <div class="text-sm md:text-base">
-            <a
-              href={project.link}
-              class={linkClasses}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {project.linkText}
+        ))}
+        
+        {/* SEC-05 CTA Section */}
+        <div class="mt-16 text-center">
+          <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+            SEC-05
+          </h2>
+          <div class="py-12">
+            <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+              YOUR PROJECT HERE
+            </p>
+            <p class={`text-lg mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+              Join the next cohort and build the future you want to see.
+            </p>
+            <a href="/apply" class="btn-retro text-lg px-8 py-3">
+              APPLY NOW
             </a>
           </div>
         </div>
-      ))}
-    </div>
+      </>
+    ) : (
+      <div class="overflow-x-auto">
+        <!-- Table Header - Hidden on mobile, shown on larger screens -->
+        <div class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+          <div>Project Info</div>
+          <div>Cohort #</div>
+          <div>Link</div>
+        </div>
+
+        <!-- Project Entries -->
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+          >
+            <div class="flex items-start gap-4">
+              {project.logo && (
+                <div class="flex-shrink-0">
+                  <img 
+                    src={project.logo} 
+                    alt={`${project.name} logo`}
+                    class="w-12 h-12 object-contain showcase-logo"
+                  />
+                </div>
+              )}
+              <div>
+                <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
+                <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
+              </div>
+            </div>
+            <div class="text-sm md:text-base">
+              <span class="md:hidden font-bold">Cohort: </span>
+              {darkTheme ? (
+                project.cohort
+              ) : (
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary text-white">
+                  {project.cohort}
+                </span>
+              )}
+            </div>
+            <div class="text-sm md:text-base">
+              <a
+                href={project.link}
+                class={linkClasses}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {project.linkText}
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    )}
     
     {showCTA && (
       <div class="text-center mt-8">
