@@ -22,9 +22,9 @@ features:
       - "Focus on shipping real, usable applications"
       - "**Demo Day every Friday** - show what you've built"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "View the Outcome"
+      link: "/showcase"
 
   - title: "How does it work?"
     image: "/images/map.png"
