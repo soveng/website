@@ -2,6 +2,7 @@
   @apply inline-block rounded border border-transparent px-5 py-2 font-semibold uppercase transition;
   font-family: "IM Fell Double Pica", Times, serif;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .btn-sm {
@@ -22,8 +23,10 @@
   border-style: solid;
   font-family: "IM Fell Double Pica", Times, serif;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .btn-retro-sm {
   @apply py-1 px-2 text-xs;
+  text-decoration: none;
 }
