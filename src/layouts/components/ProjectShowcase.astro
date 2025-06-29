@@ -17,6 +17,7 @@ interface Props {
   showTitle?: boolean;
   title?: string;
   groupByCohort?: boolean;
+  showHighlights?: boolean;
 }
 
 const { 
@@ -27,7 +28,8 @@ const {
   darkTheme = false,
   showTitle = false,
   title = "SEC Project Showcase",
-  groupByCohort = true
+  groupByCohort = true,
+  showHighlights = false
 } = Astro.props;
 
 // Group projects by cohort
@@ -45,6 +47,16 @@ const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
   const numB = parseInt(b.replace('SEC-', ''));
   return numA - numB;
 });
+
+// Get highlighted projects (the ones mentioned in the homepage title)
+const highlightedProjectNames = ["Blossom", "Nutzaps", "Wikifreedia", "Nsite", "Tollgate", "Zapstore", "NIP-61"];
+const highlightedProjects = projects.filter(project => 
+  highlightedProjectNames.some(name => 
+    project.name.toLowerCase().includes(name.toLowerCase()) || 
+    (name === "Nutzaps" && project.name.includes("NIP-60")) ||
+    (name === "NIP-61" && project.name.includes("NIP-61"))
+  )
+);
 
 const containerClasses = darkTheme 
   ? "w-full text-white bg-black py-8 sm:py-16" 
@@ -86,6 +98,55 @@ const cohortHeaderClasses = darkTheme
     )}
     {!showTitle && (
       <h2 class={headerClasses} style="font-size: 2rem;">SEC PROJECT SHOWCASE</h2>
+    )}
+
+    {/* Highlights Section */}
+    {showHighlights && highlightedProjects.length > 0 && (
+      <div class="mb-16">
+        <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+          HIGHLIGHTS
+        </h2>
+        <div class="overflow-x-auto">
+          <!-- Table Header - Hidden on mobile, shown on larger screens -->
+          <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+            <div>Project Info</div>
+            <div>Link</div>
+          </div>
+
+          <!-- Highlighted Project Entries -->
+          {highlightedProjects.map((project, index) => (
+            <div
+              class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+            >
+              <div class="flex items-start gap-4">
+                {project.logo && (
+                  <div class="flex-shrink-0">
+                    <img 
+                      src={project.logo} 
+                      alt={`${project.name} logo`}
+                      class="w-12 h-12 object-contain showcase-logo"
+                    />
+                  </div>
+                )}
+                <div>
+                  <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
+                  <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
+                </div>
+              </div>
+              <div class="text-sm md:text-base">
+                <a
+                  href={project.link}
+                  class={linkClasses}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {project.linkText}
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     )}
 
     {groupByCohort ? (

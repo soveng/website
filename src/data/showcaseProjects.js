@@ -228,6 +228,15 @@ const showcaseProjects = [
     highlight: true,
   },
   {
+    name: "Zapstore",
+    description: "Decentralized marketplace for Lightning Network payments and nostr integration",
+    cohort: "SEC-02",
+    link: "https://zapstore.dev/",
+    linkText: "zapstore.dev",
+    logo: "/images/zapstore.svg",
+    highlight: true,
+  },
+  {
     name: "Kartapio",
     description: "Restaurant menu and ordering system with Bitcoin payments",
     cohort: "SEC-02",

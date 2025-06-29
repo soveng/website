@@ -1,7 +1,6 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
 import Win95Card from "@/components/Win95Card.astro";
-import ProjectShowcase from "@/components/ProjectShowcase.astro";
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
@@ -9,7 +8,6 @@ import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
-import showcaseProjects from "@/data/showcaseProjects.js";
 
 interface Homepage {
   banner: {
@@ -41,9 +39,6 @@ const { banner, features } = homepage.data as Homepage;
 // Pre-process markdown content
 const bannerTitle = await markdownify(banner.title);
 const bannerContent = await markdownify(banner.content);
-
-// Filter for highlighted projects only for homepage
-const highlightedProjects = showcaseProjects.filter(project => project.highlight);
 ---
 
 <BaseNoHeader>
@@ -122,14 +117,6 @@ const highlightedProjects = showcaseProjects.filter(project => project.highlight
     </footer>
   </header>
   <!-- /Hero Section -->
-
-
-  <ProjectShowcase 
-    projects={highlightedProjects} 
-    showCTA={true}
-    darkTheme={true}
-    groupByCohort={false}
-  />
 
   <!-- Features -->
   {
