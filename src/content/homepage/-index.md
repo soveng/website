@@ -37,7 +37,7 @@ features:
       - "**Friday Festivities** aka **Demo Day:** live demos of weekly progress & BBQ"
     button:
       enable: true
-      label: "See how it works"
+      label: "Learn Our Concept"
       link: "/concept"
 
   - title: "Why Sovereign Engineering?"
@@ -52,6 +52,6 @@ features:
       - "Escape the attention economy and parasitic web models"
     button:
       enable: true
-      label: "Read manifesto"
+      label: "Read Our Manifesto"
       link: "/philosophy"
 --- 
