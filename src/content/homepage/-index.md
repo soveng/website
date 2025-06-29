@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "The Program That Brought You [Blossom](https://github.com/hzrd149/blossom), [Nutzaps](https://github.com/nostr-protocol/nips/blob/master/61.md), [Wikifreedia](https://wikifreedia.xyz/), [Nsite](https://nsite.info/learn), [TollGate](https://tollgate.me/), [Zapstore](https://zapstore.dev/), and More"
+  title: "The Program That Brought You [Blossom](https://github.com/hzrd149/blossom), [Nutzaps](https://github.com/nostr-protocol/nips/blob/master/61.md), [Wikifreedia](https://wikifreedia.xyz/), [Nsite](https://nsite.info/learn), [TollGate](https://tollgate.me/), [Zapstore](https://zapstore.dev/), and [More](/showcase)"
   content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialogue, cross-pollination, and discussions on how to build kickass applications and services for a self-sovereign future."
   image: "/images/banner.png"
   button:
