@@ -37,8 +37,7 @@ features:
       - "**Friday:** Demo Day - live demos of weekly progress"
     button:
       enable: true
-      label: "Apply Now!"
-      link: "https://sovereignengineering.typeform.com/SEC-05"
+      label: "Learn More"
       link: "/concept"
 
   - title: "Why Sovereign Engineering?"
@@ -52,10 +51,7 @@ features:
       - "Build systems in the spirit of Bitcoin"
       - "Create the future of self-sovereign applications"
     button:
-      enable: false
-      label: ""
-      link: ""
       enable: true
       label: "Learn More"
       link: "/philosophy"
----
+--- 
