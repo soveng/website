@@ -21,20 +21,22 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       <div class="mb-8 lg:col-6 lg:mb-0">
         <ul class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 whitespace-nowrap overflow-x-auto">
           {
-            footer.filter(menu => menu.name !== "Contact").map((menu) => {
-              const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
-              return (
-                <li class="inline-block">
-                  <a 
-                    href={menu.url}
-                    class="text-white hover:text-primary transition-colors"
-                    {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
-                  >
-                    {menu.name}
-                  </a>
-                </li>
-              );
-            })
+            footer.filter(menu => menu.name !== "Contact" && menu.name !== "About")
+              .sort((a, b) => a.name.localeCompare(b.name))
+              .map((menu) => {
+                const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+                return (
+                  <li class="inline-block">
+                    <a 
+                      href={menu.url}
+                      class="text-white hover:text-primary transition-colors"
+                      {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                    >
+                      {menu.name}
+                    </a>
+                  </li>
+                );
+              })
           }
         </ul>
       </div>
