@@ -23,7 +23,7 @@ features:
       - "**Demo Day every Friday** - show what you've built"
     button:
       enable: true
-      label: "View the Outcome"
+      label: "View Results"
       link: "/showcase"
 
   - title: "How does it work?"
