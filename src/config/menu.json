@@ -22,6 +22,14 @@
           "url": "/showcase"
         },
         {
+          "name": "Concept",
+          "url": "/concept"
+        },
+        {
+          "name": "Philosophy",
+          "url": "/philosophy"
+        },
+        {
           "name": "FAQ",
           "url": "/faq"
         },
@@ -60,6 +68,14 @@
     {
       "name": "Projects",
       "url": "/showcase"
+    },
+    {
+      "name": "Concept",
+      "url": "/concept"
+    },
+    {
+      "name": "Philosophy",
+      "url": "/philosophy"
     },
     {
       "name": "FAQ",
