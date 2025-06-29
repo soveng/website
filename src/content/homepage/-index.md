@@ -39,6 +39,7 @@ features:
       enable: true
       label: "Apply Now!"
       link: "https://sovereignengineering.typeform.com/SEC-05"
+      link: "/concept"
 
   - title: "Why Sovereign Engineering?"
     image: "/images/boat2.png"
@@ -54,4 +55,7 @@ features:
       enable: false
       label: ""
       link: ""
+      enable: true
+      label: "Learn More"
+      link: "/philosophy"
 ---
