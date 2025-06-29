@@ -1,40 +1,36 @@
 ---
-import ImageMod from "@/components/ImageMod.astro";
 import Base from "@/layouts/Base.astro";
-import { markdownify } from "@/lib/utils/textConverter";
-import type { CollectionEntry } from "astro:content";
-import { getEntry, render } from "astro:content";
-
-const philosophy = (await getEntry("philosophy", "-index")) as CollectionEntry<"philosophy">;
-const { Content } = await render(philosophy);
-const { title, description, meta_title, image } = philosophy.data;
 ---
 
 <Base
-  title={title}
-  meta_title={meta_title}
-  description={description}
-  image={image}
+  title="Philosophy"
+  meta_title="PHILOSOPHY"
+  description="Our philosophy and principles"
 >
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
         <div class="text-center md:col-10 lg:col-7">
-          {
-            image && (
-              <ImageMod
-                class="mx-auto mb-6 rounded-lg"
-                src={image}
-                width={200}
-                height={200}
-                alt={title}
-                format="webp"
-              />
-            )
-          }
-          <h2 set:html={markdownify(title)} class="h3 mb-6" />
-          <div class="content">
-            <Content />
+          <h2 class="h3 mb-6">Philosophy</h2>
+          <div class="content text-left">
+            <p>Sovereign Engineering is grounded in the values articulated in <em>The Sovereign Individual</em> and embodied by Bitcoin: <strong>self-sovereignty, agency and censorship-resistance</strong>. We build technology that maximises individual freedom and minimises reliance on trusted third parties.</p>
+
+            <h3 class="h4 mt-8 mb-4">Freedom by Design</h3>
+            <p>Bitcoin, Lightning and Nostr demonstrate that protocols can guarantee freedoms—speech, assembly, movement—through carefully chosen design constraints. We strive to apply the same moral framework to every new system we prototype.</p>
+
+            <h3 class="h4 mt-8 mb-4">Distributed Cognition</h3>
+            <p>No one can solve ill-defined problems alone. By gathering bright minds in a trust-rich environment, we tap into the group&rsquo;s <em>distributed cognition</em>. Walking conversations, time-boxed demos and peer feedback keep us aligned and honest.</p>
+
+            <h3 class="h4 mt-8 mb-4">Explorers of a New Frontier</h3>
+            <p>Our logo is a ship for a reason. Freedom-tech opens an under-explored frontier similar to the high seas. We seek adventurers—builders who yearn for the &ldquo;wild and open sea,&rdquo; willing to take risks and test ideas in the real world.</p>
+
+            <h3 class="h4 mt-8 mb-4">In-Person, High-Bandwidth</h3>
+            <p>The magic happens face-to-face. Six weeks on Madeira foster trust, serendipity and high-bandwidth communication that no online forum can match.</p>
+
+            <h3 class="h4 mt-8 mb-4">Bias for Action</h3>
+            <p>We prototype first, critique later. Imperfect code is welcomed if it advances the conversation. Novelty &amp; experimentation trump polish.</p>
+
+            <p class="mt-8"><strong>In short:</strong> We are building resilient, decentralised systems that empower individuals and chart new territory. If that resonates, join the voyage.</p>
           </div>
         </div>
       </div>
