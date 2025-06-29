@@ -18,13 +18,13 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
           <a href="https://nostr.band/?q=%23SovEng" target="_blank" rel="noopener" class="text-white font-bold hover:text-primary transition-colors">#SovEng</a>
         </div>
       </div>
-      <div class="mb-8 text-center lg:col-6 lg:mb-0">
-        <ul>
+      <div class="mb-8 lg:col-6 lg:mb-0">
+        <ul class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 whitespace-nowrap overflow-x-auto">
           {
             footer.filter(menu => menu.name !== "Contact").map((menu) => {
               const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
               return (
-                <li class="m-3 inline-block">
+                <li class="inline-block">
                   <a 
                     href={menu.url}
                     class="text-white hover:text-primary transition-colors"
@@ -41,9 +41,8 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       <div class="mb-8 lg:col-3 lg:mb-0 lg:mt-0 flex justify-end items-center gap-3">
         <Social source={social.main} className="social-icons text-white" />
         <a href="mailto:info@sovereignengineering.io" class="text-white hover:text-primary transition-colors text-2xl" aria-label="Email">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 inline-block align-middle">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12l-4-4-4 4m8 0l-4 4-4-4" />
-            <rect width="20" height="14" x="2" y="5" rx="2"/>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 inline-block align-middle">
+            <path d="M2.25 6.75A2.25 2.25 0 0 1 4.5 4.5h15a2.25 2.25 0 0 1 2.25 2.25v10.5A2.25 2.25 0 0 1 19.5 19.5h-15A2.25 2.25 0 0 1 2.25 17.25V6.75zm1.5 0v.638l8.25 5.512 8.25-5.512V6.75a.75.75 0 0 0-.75-.75h-15a.75.75 0 0 0-.75.75zm16.5 1.862-7.72 5.16a.75.75 0 0 1-.81 0l-7.72-5.16V17.25c0 .414.336.75.75.75h15a.75.75 0 0 0 .75-.75V8.612z" />
           </svg>
         </a>
       </div>
