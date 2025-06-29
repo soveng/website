@@ -35,6 +35,7 @@ features:
       - "**Wednesday Workshops:** Hands-on workshops and building"
       - "**Thursday:** Time Off. Free time for experimentation, implementation, exploration."
       - "**Friday:** Demo Day - live demos of weekly progress"
+      - "**Friday Festivities aka Demo Day:** live demos of weekly progress & BBQ"
     button:
       enable: true
       label: "Learn More"
