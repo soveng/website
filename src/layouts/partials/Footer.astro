@@ -15,30 +15,32 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
         <div class="flex items-center justify-center lg:justify-start">
           <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-8 h-8 mr-3" />
-          <span class="text-white font-bold">SOVEREIGN ENGINEERING</span>
+          <a href="https://nostr.band/?q=%23SovEng" target="_blank" rel="noopener" class="text-white font-bold hover:text-primary transition-colors">#SovEng</a>
         </div>
       </div>
-      <div class="mb-8 text-center lg:col-6 lg:mb-0">
-        <ul>
+      <div class="mb-8 lg:col-6 lg:mb-0">
+        <ul class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 whitespace-nowrap overflow-x-auto">
           {
-            footer.map((menu) => {
-              const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
-              return (
-                <li class="m-3 inline-block">
-                  <a 
-                    href={menu.url}
-                    class="text-white hover:text-primary transition-colors"
-                    {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
-                  >
-                    {menu.name}
-                  </a>
-                </li>
-              );
-            })
+            footer.filter(menu => menu.name !== "Contact" && menu.name !== "About")
+              .sort((a, b) => a.name.localeCompare(b.name))
+              .map((menu) => {
+                const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+                return (
+                  <li class="inline-block">
+                    <a 
+                      href={menu.url}
+                      class="text-white hover:text-primary transition-colors"
+                      {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                    >
+                      {menu.name}
+                    </a>
+                  </li>
+                );
+              })
           }
         </ul>
       </div>
-      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:mt-0 lg:text-right">
+      <div class="mb-8 lg:col-3 lg:mb-0 lg:mt-0 flex justify-end items-center gap-3">
         <Social source={social.main} className="social-icons text-white" />
       </div>
     </div>

@@ -22,9 +22,9 @@ features:
       - "Focus on shipping real, usable applications"
       - "**Demo Day every Friday** - show what you've built"
     button:
-      enable: false
-      label: ""
-      link: ""
+      enable: true
+      label: "View Results"
+      link: "/showcase"
 
   - title: "How does it work?"
     image: "/images/map.png"
@@ -33,25 +33,25 @@ features:
       - "**Monday Mornings:** Orientation and planning"
       - "**Tuesday Talks:** Participants present relevant topics they find interesting"
       - "**Wednesday Workshops:** Hands-on workshops and building"
-      - "**Thursday:** No agenda - free time for experimentation"
-      - "**Friday:** Demo Day - live demos of weekly progress"
+      - "**Thursday:** Time Off. Free time for experimentation, implementation, exploration."
+      - "**Friday Festivities** aka **Demo Day:** live demos of weekly progress & BBQ"
     button:
       enable: true
-      label: "Apply Now!"
-      link: "https://sovereignengineering.typeform.com/SEC-05"
+      label: "Learn Our Concept"
+      link: "/concept"
 
   - title: "Why Sovereign Engineering?"
     image: "/images/boat2.png"
     content: "We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future."
     bulletpoints:
+      - "In-person collaboration and high-bandwidth communication"
       - "Build cool shit that actually gets shipped and used"
-      - "In-person collaboration enables high-bandwidth communication"
-      - "Focus on Bitcoin and Nostr technologies"
-      - "Escape the attention economy and parasitic web models"
+      - "Focus on value-aligned technologies"
       - "Build systems in the spirit of Bitcoin"
       - "Create the future of self-sovereign applications"
+      - "Escape the attention economy and parasitic web models"
     button:
-      enable: false
-      label: ""
-      link: ""
----
+      enable: true
+      label: "Read Our Manifesto"
+      link: "/philosophy"
+--- 

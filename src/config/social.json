@@ -9,6 +9,11 @@
       "name": "github",
       "icon": "FaGithub",
       "link": "https://github.com/soveng"
+    },
+    {
+      "name": "email",
+      "icon": "FaEnvelope",
+      "link": "mailto:info@sovereignengineering.io"
     }
   ]
 }
