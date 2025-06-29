@@ -149,6 +149,30 @@ const testimonialSectionCollection = defineCollection({
   }),
 });
 
+// concept collection schema
+const conceptCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/concept" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+// philosophy collection schema
+const philosophyCollection = defineCollection({
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "src/content/philosophy" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    image: z.string().optional(),
+    draft: z.boolean().optional(),
+  }),
+});
+
 // Export collections
 export const collections = {
   // Pages
@@ -158,6 +182,8 @@ export const collections = {
   pages: pagesCollection,
   about: aboutCollection,
   contact: contactCollection,
+  concept: conceptCollection,
+  philosophy: philosophyCollection,
 
   // sections
   ctaSection: ctaSectionCollection,

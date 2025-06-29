@@ -1,19 +1,40 @@
 ---
+import ImageMod from "@/components/ImageMod.astro";
 import Base from "@/layouts/Base.astro";
+import { markdownify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+import { getEntry, render } from "astro:content";
+
+const philosophy = (await getEntry("philosophy", "-index")) as CollectionEntry<"philosophy">;
+const { Content } = await render(philosophy);
+const { title, description, meta_title, image } = philosophy.data;
 ---
 
 <Base
-  title="Philosophy"
-  meta_title="PHILOSOPHY"
-  description="Our philosophy and principles"
+  title={title}
+  meta_title={meta_title}
+  description={description}
+  image={image}
 >
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
         <div class="text-center md:col-10 lg:col-7">
-          <h2 class="h3 mb-6">Philosophy</h2>
+          {
+            image && (
+              <ImageMod
+                class="mx-auto mb-6 rounded-lg"
+                src={image}
+                width={200}
+                height={200}
+                alt={title}
+                format="webp"
+              />
+            )
+          }
+          <h2 set:html={markdownify(title)} class="h3 mb-6" />
           <div class="content">
-            <!-- Content will be added here -->
+            <Content />
           </div>
         </div>
       </div>
