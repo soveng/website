@@ -34,25 +34,24 @@ features:
       - "**Tuesday Talks:** Participants present relevant topics they find interesting"
       - "**Wednesday Workshops:** Hands-on workshops and building"
       - "**Thursday:** Time Off. Free time for experimentation, implementation, exploration."
-      - "**Friday:** Demo Day - live demos of weekly progress"
-      - "**Friday Festivities aka Demo Day:** live demos of weekly progress & BBQ"
+      - "**Friday Festivities** aka **Demo Day:** live demos of weekly progress & BBQ"
     button:
       enable: true
-      label: "Learn More"
+      label: "See how it works"
       link: "/concept"
 
   - title: "Why Sovereign Engineering?"
     image: "/images/boat2.png"
     content: "We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future."
     bulletpoints:
+      - "In-person collaboration and high-bandwidth communication"
       - "Build cool shit that actually gets shipped and used"
-      - "In-person collaboration enables high-bandwidth communication"
-      - "Focus on Bitcoin and Nostr technologies"
-      - "Escape the attention economy and parasitic web models"
+      - "Focus on value-aligned technologies"
       - "Build systems in the spirit of Bitcoin"
       - "Create the future of self-sovereign applications"
+      - "Escape the attention economy and parasitic web models"
     button:
       enable: true
-      label: "Learn More"
+      label: "Read manifesto"
       link: "/philosophy"
 --- 
