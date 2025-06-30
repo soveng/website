@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "[The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More](/showcase)"
+  title: "[The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More](/projects)"
   content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialogue, cross-pollination, and discussions on how to build kickass applications and services for a self-sovereign future."
   image: "/images/banner.png"
   button:
@@ -24,7 +24,7 @@ features:
     button:
       enable: true
       label: "Demo Day Outcomes"
-      link: "/showcase"
+      link: "/projects"
 
   - title: "How does it work?"
     image: "/images/map.png"

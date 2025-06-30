@@ -24,10 +24,10 @@ const {
   projects, 
   showCTA = false, 
   ctaText = "See All Projects", 
-  ctaLink = "/showcase",
+  ctaLink = "/projects",
   darkTheme = false,
   showTitle = false,
-  title = "SEC Project Showcase",
+  title = "Demo Day Projects",
   groupByCohort = true,
   showHighlights = false
 } = Astro.props;
@@ -94,10 +94,15 @@ const cohortHeaderClasses = darkTheme
 <section class={containerClasses}>
   <div class="container">
     {showTitle && (
-      <h1 class={titleClasses}>PROJECT SHOWCASE</h1>
+      <>
+        <h1 class={titleClasses}>Demo Day Projects</h1>
+        <p class={`text-center text-lg mb-12 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+          Every Friday, participants showcase what they've built during the week. These are the real projects that emerged from our intensive collaboration and experimentation sessions.
+        </p>
+      </>
     )}
     {!showTitle && (
-      <h2 class={headerClasses} style="font-size: 2rem;">SEC PROJECT SHOWCASE</h2>
+      <h2 class={headerClasses} style="font-size: 2rem;">Demo Day Projects</h2>
     )}
 
     {/* Highlights Section */}
