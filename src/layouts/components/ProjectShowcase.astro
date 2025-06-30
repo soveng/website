@@ -161,7 +161,7 @@ const cohortHeaderClasses = darkTheme
     )}
     {/* Richard L. Evans Quote after highlights */}
     {showHighlights && (
-      <div class="w-full flex justify-center bg-black py-16">
+      <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
         <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
           &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote}&rdquo;
           <br />
@@ -220,9 +220,9 @@ const cohortHeaderClasses = darkTheme
                 ))}
               </div>
             </div>
-            {/* Insert Berdyaev quote after SEC-00 */}
+            {/* Berdyaev quote between SEC-00 and SEC-01 */}
             {cohort === 'SEC-00' && (
-              <div class="w-full flex justify-center bg-black py-16 mt-16">
+              <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
                 <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
                   &ldquo;{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote}&rdquo;
                   <br />
@@ -230,9 +230,9 @@ const cohortHeaderClasses = darkTheme
                 </blockquote>
               </div>
             )}
-            {/* Insert quote after SEC-01 */}
+            {/* Evans quote between SEC-01 and SEC-02 */}
             {cohort === 'SEC-01' && (
-              <div class="w-full flex justify-center bg-black py-16">
+              <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
                 <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
                   &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote}&rdquo;
                   <br />
