@@ -1,4 +1,6 @@
 ---
+import philosophyQuotes from "@/data/philosophy-quotes.json";
+
 interface Project {
   name: string;
   description: string;
@@ -33,7 +35,7 @@ const {
 } = Astro.props;
 
 // Group projects by cohort
-const projectsByCohort = projects.reduce((acc, project) => {
+const projectsByCohort: Record<string, Project[]> = projects.reduce((acc: Record<string, Project[]>, project: Project) => {
   if (!acc[project.cohort]) {
     acc[project.cohort] = [];
   }
@@ -119,7 +121,7 @@ const cohortHeaderClasses = darkTheme
           </div>
 
           <!-- Highlighted Project Entries -->
-          {highlightedProjects.map((project, index) => (
+          {highlightedProjects.map((project: Project, index: number) => (
             <div
               class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
             >
@@ -153,28 +155,35 @@ const cohortHeaderClasses = darkTheme
         </div>
       </div>
     )}
+    {/* Richard L. Evans Quote after highlights */}
+    {showHighlights && (
+      <div class="w-full flex justify-center bg-black py-8">
+        <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
+          &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote}&rdquo;
+          <br />
+          <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author}</span>
+        </blockquote>
+      </div>
+    )}
 
     {groupByCohort ? (
       <>
-        {sortedCohorts.map((cohort, cohortIndex) => (
-          <div key={cohort} class={cohortIndex === 0 ? '' : 'mt-16'}>
+        {sortedCohorts.map((cohort: string, cohortIndex: number) => (
+          <div class={cohortIndex === 0 ? '' : 'mt-16'}>
             <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
               {cohort}
             </h2>
-            
             <div class="overflow-x-auto">
-              <!-- Table Header - Hidden on mobile, shown on larger screens -->
+              {/* Table Header - Hidden on mobile, shown on larger screens */}
               {cohortIndex === 0 && (
                 <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
                   <div>Project Info</div>
                   <div>Link</div>
                 </div>
               )}
-
-              <!-- Project Entries for this cohort -->
-              {projectsByCohort[cohort].map((project, index) => (
+              {/* Project Entries for this cohort */}
+              {projectsByCohort[cohort].map((project: Project, index: number) => (
                 <div
-                  key={index}
                   class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
                 >
                   <div class="flex items-start gap-4">
