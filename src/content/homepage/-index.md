@@ -1,7 +1,7 @@
 ---
 # Banner
 banner:
-  title: "The Program That Brought You [Blossom](https://github.com/hzrd149/blossom), [Nutzaps](https://github.com/nostr-protocol/nips/blob/master/61.md), [Wikifreedia](https://wikifreedia.xyz/), [Nsite](https://nsite.info/learn), [TollGate](https://tollgate.me/), [Zapstore](https://zapstore.dev/), and [More](/showcase)"
+  title: "[The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More](/projects)"
   content: "Sovereign Engineering is a 6-week program of high-bandwidth ideation, experimentation, mentorship, dialogue, cross-pollination, and discussions on how to build kickass applications and services for a self-sovereign future."
   image: "/images/banner.png"
   button:
@@ -23,18 +23,19 @@ features:
       - "**Demo Day every Friday** - show what you've built"
     button:
       enable: true
-      label: "View Results"
-      link: "/showcase"
+      label: "Demo Day Outcomes"
+      link: "/projects"
 
   - title: "How does it work?"
     image: "/images/map.png"
     content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
+    weeklyRhythm: true
     bulletpoints:
-      - "**Monday Mornings:** Orientation and planning"
-      - "**Tuesday Talks:** Participants present relevant topics they find interesting"
-      - "**Wednesday Workshops:** Hands-on workshops and building"
-      - "**Thursday:** Time Off. Free time for experimentation, implementation, exploration."
-      - "**Friday Festivities** aka **Demo Day:** live demos of weekly progress & BBQ"
+      - "A relentless weekly cadence for creativity and shipping"
+      - "Walk, Show, Build: the loop that powers the program"
+      - "Mandatory group walks for distributed cognition"
+      - "Demo Day every Friday: show what you built"
+      - "Workshops, talks, and hands-on prototyping"
     button:
       enable: true
       label: "Learn Our Concept"
@@ -52,6 +53,6 @@ features:
       - "Escape the attention economy and parasitic web models"
     button:
       enable: true
-      label: "Read Our Manifesto"
+      label: "Explore our philosophy"
       link: "/philosophy"
 --- 

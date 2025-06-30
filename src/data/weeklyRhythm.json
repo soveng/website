@@ -1,0 +1,29 @@
+{
+  "description": "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects.",
+  "schedule": [
+    {
+      "day": "Monday Mornings",
+      "description": "Orientation and planning"
+    },
+    {
+      "day": "Tuesday Talks",
+      "description": "Participants present relevant topics they find interesting"
+    },
+    {
+      "day": "Wednesday Workshops",
+      "description": "Hands-on workshops and building"
+    },
+    {
+      "day": "Thursday",
+      "description": "Time Off. Free time for experimentation, implementation, exploration."
+    },
+    {
+      "day": "Friday Festivities",
+      "description": "aka Demo Day: live demos of weekly progress & BBQ"
+    },
+    {
+      "day": "Weekend Walks",
+      "description": "Group activities and beautiful outdoor walks"
+    }
+  ]
+} 

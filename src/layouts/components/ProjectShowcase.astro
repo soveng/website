@@ -1,4 +1,6 @@
 ---
+import philosophyQuotes from "@/data/philosophy-quotes.json";
+
 interface Project {
   name: string;
   description: string;
@@ -24,16 +26,16 @@ const {
   projects, 
   showCTA = false, 
   ctaText = "See All Projects", 
-  ctaLink = "/showcase",
+  ctaLink = "/projects",
   darkTheme = false,
   showTitle = false,
-  title = "SEC Project Showcase",
+  title = "Demo Day Projects",
   groupByCohort = true,
   showHighlights = false
 } = Astro.props;
 
 // Group projects by cohort
-const projectsByCohort = projects.reduce((acc, project) => {
+const projectsByCohort: Record<string, Project[]> = projects.reduce((acc: Record<string, Project[]>, project: Project) => {
   if (!acc[project.cohort]) {
     acc[project.cohort] = [];
   }
@@ -49,14 +51,20 @@ const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
 });
 
 // Get highlighted projects (the ones mentioned in the homepage title)
-const highlightedProjectNames = ["Blossom", "Nutzaps", "Wikifreedia", "Nsite", "Tollgate", "Zapstore", "NIP-61"];
-const highlightedProjects = projects.filter(project => 
-  highlightedProjectNames.some(name => 
-    project.name.toLowerCase().includes(name.toLowerCase()) || 
-    (name === "Nutzaps" && project.name.includes("NIP-60")) ||
-    (name === "NIP-61" && project.name.includes("NIP-61"))
-  )
-);
+const highlightedProjectNames = [
+  "Blossom",
+  "NIP-60",
+  "NIP-61",
+  "NIP-54",
+  "npub.cash",
+  "Nsite",
+  "Tollgate",
+  "Hypernote",
+  "DVMCP"
+];
+const highlightedProjects = highlightedProjectNames
+  .map(name => projects.find(project => project.name === name))
+  .filter(Boolean) as Project[];
 
 const containerClasses = darkTheme 
   ? "w-full text-white bg-black py-8 sm:py-16" 
@@ -94,15 +102,20 @@ const cohortHeaderClasses = darkTheme
 <section class={containerClasses}>
   <div class="container">
     {showTitle && (
-      <h1 class={titleClasses}>PROJECT SHOWCASE</h1>
+      <>
+        <h1 class={titleClasses}>Demo Day Projects</h1>
+        <p class={`text-center text-lg mb-12 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+          Every Friday, participants showcase what they've built during the week. These are the real projects that emerged from our intensive collaboration and experimentation sessions.
+        </p>
+      </>
     )}
     {!showTitle && (
-      <h2 class={headerClasses} style="font-size: 2rem;">SEC PROJECT SHOWCASE</h2>
+      <h2 class={headerClasses} style="font-size: 2rem;">Demo Day Projects</h2>
     )}
 
     {/* Highlights Section */}
     {showHighlights && highlightedProjects.length > 0 && (
-      <div class="mb-16">
+      <div class="mb-24">
         <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
           HIGHLIGHTS
         </h2>
@@ -114,10 +127,8 @@ const cohortHeaderClasses = darkTheme
           </div>
 
           <!-- Highlighted Project Entries -->
-          {highlightedProjects.map((project, index) => (
-            <div
-              class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
-            >
+          {highlightedProjects.map((project: Project, index: number) => (
+            <div class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}>
               <div class="flex items-start gap-4">
                 {project.logo && (
                   <div class="flex-shrink-0">
@@ -148,59 +159,88 @@ const cohortHeaderClasses = darkTheme
         </div>
       </div>
     )}
+    {/* Richard L. Evans Quote after highlights */}
+    {showHighlights && (
+      <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
+        <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
+          &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote}&rdquo;
+          <br />
+          <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author}</span>
+        </blockquote>
+      </div>
+    )}
 
     {groupByCohort ? (
       <>
-        {sortedCohorts.map((cohort, cohortIndex) => (
-          <div key={cohort} class={cohortIndex === 0 ? '' : 'mt-16'}>
-            <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-              {cohort}
-            </h2>
-            
-            <div class="overflow-x-auto">
-              <!-- Table Header - Hidden on mobile, shown on larger screens -->
-              {cohortIndex === 0 && (
-                <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
-                  <div>Project Info</div>
-                  <div>Link</div>
-                </div>
-              )}
-
-              <!-- Project Entries for this cohort -->
-              {projectsByCohort[cohort].map((project, index) => (
-                <div
-                  key={index}
-                  class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
-                >
-                  <div class="flex items-start gap-4">
-                    {project.logo && (
-                      <div class="flex-shrink-0">
-                        <img 
-                          src={project.logo} 
-                          alt={`${project.name} logo`}
-                          class="w-12 h-12 object-contain showcase-logo"
-                        />
+        {sortedCohorts.map((cohort: string, cohortIndex: number) => (
+          <>
+            <div class={cohortIndex === 0 ? 'mt-16' : 'mt-32'}>
+              <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+                {cohort}
+              </h2>
+              <div class="overflow-x-auto">
+                {/* Table Header - Hidden on mobile, shown on larger screens */}
+                {cohortIndex === 0 && (
+                  <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+                    <div>Project Info</div>
+                    <div>Link</div>
+                  </div>
+                )}
+                {/* Project Entries for this cohort */}
+                {projectsByCohort[cohort].map((project: Project, index: number) => (
+                  <div
+                    class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+                  >
+                    <div class="flex items-start gap-4">
+                      {project.logo && (
+                        <div class="flex-shrink-0">
+                          <img 
+                            src={project.logo} 
+                            alt={`${project.name} logo`}
+                            class="w-12 h-12 object-contain showcase-logo"
+                          />
+                        </div>
+                      )}
+                      <div>
+                        <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
+                        <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                       </div>
-                    )}
-                    <div>
-                      <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
-                      <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
+                    </div>
+                    <div class="text-sm md:text-base">
+                      <a
+                        href={project.link}
+                        class={linkClasses}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {project.linkText}
+                      </a>
                     </div>
                   </div>
-                  <div class="text-sm md:text-base">
-                    <a
-                      href={project.link}
-                      class={linkClasses}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {project.linkText}
-                    </a>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
+            {/* Berdyaev quote between SEC-00 and SEC-01 */}
+            {cohort === 'SEC-00' && (
+              <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
+                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
+                  &ldquo;{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote}&rdquo;
+                  <br />
+                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author}, <span class="italic">{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation}</span></span>
+                </blockquote>
+              </div>
+            )}
+            {/* Evans quote between SEC-01 and SEC-02 */}
+            {cohort === 'SEC-01' && (
+              <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
+                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
+                  &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote}&rdquo;
+                  <br />
+                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.author}</span>
+                </blockquote>
+              </div>
+            )}
+          </>
         ))}
         
         {/* SEC-05 CTA Section */}

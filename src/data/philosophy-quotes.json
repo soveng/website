@@ -1,0 +1,75 @@
+[
+  {
+    "id": "saint-exupery",
+    "quote": "If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea.",
+    "author": "Antoine de Saint-Exupéry",
+    "section": "Philosophy"
+  },
+  {
+    "id": "gigi-freedom-tech",
+    "quote": "Freedom Tech is rugpull-resistant technology.",
+    "author": "Gigi",
+    "section": "Freedom by Design"
+  },
+  {
+    "id": "saint-augustine",
+    "quote": "Solvitur ambulando.",
+    "author": "Saint Augustine",
+    "section": "Solved By Walking"
+  },
+  {
+    "id": "bell-labs",
+    "quote": "Re-invent the future.",
+    "author": "Bell Labs",
+    "section": "Explorers of a New Frontier"
+  },
+  {
+    "id": "african-proverb",
+    "quote": "If you want to go fast, go alone. If you want to go far, go together.",
+    "author": "African Proverb",
+    "section": "In-Person, High-Bandwidth"
+  },
+  {
+    "id": "unknown-direction",
+    "quote": "Direction is so much more important than speed. Many are going nowhere fast.",
+    "author": "Unknown",
+    "section": "Bias for Action"
+  },
+  {
+    "id": "hal-finney",
+    "quote": "The computer can be used as a tool to liberate and protect people, rather than to control them.",
+    "author": "Hal Finney",
+    "section": "Cypherpunks Write Code"
+  },
+  {
+    "id": "thomas-sowell",
+    "quote": "No solutions, only trade-offs.",
+    "author": "Thomas Sowell",
+    "section": "No Solutions"
+  },
+  {
+    "id": "shackleton",
+    "quote": "Fortitudine vincimus.",
+    "author": "Ernest Shackleton",
+    "section": "Endurance"
+  },
+  {
+    "id": "richard-evans-beginning",
+    "quote": "Any task in life is easier if we approach it with the one at a time attitude. ... To cite a whimsical saying; 'If you chase two rabbits, both of them will escape.' No one is adequate to do everything all at once. We have to select what is important, what is possible, and begin where we are, with what we have. And if we begin and if we keep going the weight, the worry, the doubt, the depression will begin to lift .... We can't do everything always, but we can do something now, and doing something will help to lift the weight and lessen the worry, 'The beginning,' said Plato, 'is the most important part.'",
+    "author": "Richard L. Evans",
+    "section": "The Beginning"
+  },
+  {
+    "id": "richard-evans-wrong-road",
+    "quote": "Just because we have taken one step down a wrong road is no reason why we have to take two.",
+    "author": "Richard L. Evans",
+    "section": "Course Correction"
+  },
+  {
+    "id": "berdyaev-beginning-end",
+    "quote": "What one needs to do at every moment of one's life is to put an end to the old world and to begin a new world.",
+    "author": "Nikolai Berdyaev",
+    "section": "The Beginning and the End",
+    "citation": "The Beginning and the End (1947)"
+  }
+] 
