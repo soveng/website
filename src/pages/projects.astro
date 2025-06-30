@@ -2,6 +2,7 @@
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import ProjectShowcase from "@/components/ProjectShowcase.astro";
 import showcaseProjects from "@/data/showcaseProjects.js";
+import philosophyQuotes from "@/data/philosophy-quotes.json";
 ---
 
 <BaseNoHeader
@@ -9,6 +10,13 @@ import showcaseProjects from "@/data/showcaseProjects.js";
   meta_title="Demo Day Projects"
   description="Explore projects built by Sovereign Engineering Cohort participants during their Demo Days"
 >
+  <div class="w-full flex justify-center bg-black py-8">
+    <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
+      &ldquo;{philosophyQuotes.find(q => q.id === "richard-evans-beginning")?.quote}&rdquo;
+      <br />
+      <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find(q => q.id === "richard-evans-beginning")?.author}</span>
+    </blockquote>
+  </div>
   <ProjectShowcase 
     projects={showcaseProjects} 
     darkTheme={true}
