@@ -66,14 +66,18 @@ More:
 
 # Footer
 
-- About: https://njump.me/sovereignengineering.io
-- Contact: info@sovereignengineering.io
-- Projects: /showcase
-- Concept: /concept
-- Philosophy: /philosophy
-- FAQ: /faq
-- Swag: https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
-- Media: https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
 - Alumni: https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19
-- Videos: https://castr.me/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Concept: /concept
+- FAQ: /faq
+- Media: https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Philosophy: /philosophy
 - Podcast: https://njump.me/nosolutions@sovereignengineering.io
+- Projects: /showcase
+- Swag: https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Videos: https://castr.me/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+
+# Social Links
+
+- Nostr: https://njump.me/sovereignengineering.io
+- GitHub: https://github.com/soveng
+- Email: info@sovereignengineering.io
