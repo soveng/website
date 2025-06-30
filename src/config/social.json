@@ -14,6 +14,11 @@
       "name": "email",
       "icon": "FaEnvelope",
       "link": "mailto:info@sovereignengineering.io"
+    },
+    {
+      "name": "media",
+      "icon": "FaImage",
+      "link": "https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
     }
   ]
 }
