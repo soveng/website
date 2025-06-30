@@ -220,6 +220,16 @@ const cohortHeaderClasses = darkTheme
                 ))}
               </div>
             </div>
+            {/* Insert Berdyaev quote after SEC-00 */}
+            {cohort === 'SEC-00' && (
+              <div class="w-full flex justify-center bg-black py-16">
+                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
+                  &ldquo;{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote}&rdquo;
+                  <br />
+                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author}, <span class="italic">{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation}</span></span>
+                </blockquote>
+              </div>
+            )}
             {/* Insert quote after SEC-01 */}
             {cohort === 'SEC-01' && (
               <div class="w-full flex justify-center bg-black py-16">
