@@ -29,13 +29,7 @@ features:
   - title: "How does it work?"
     image: "/images/map.png"
     content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
-    bulletpoints:
-      - "**Monday Mornings:** Orientation and planning"
-      - "**Tuesday Talks:** Participants present relevant topics they find interesting"
-      - "**Wednesday Workshops:** Hands-on workshops and building"
-      - "**Thursday:** Time Off. Free time for experimentation, implementation, exploration."
-      - "**Friday Festivities** aka **Demo Day:** live demos of weekly progress & BBQ"
-      - "**Weekend Walks:** Group activities and beautiful outdoor walks"
+    weeklyRhythm: true
     button:
       enable: true
       label: "Learn Our Concept"

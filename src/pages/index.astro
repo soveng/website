@@ -8,6 +8,7 @@ import Testimonial from "@/partials/Testimonial.astro";
 import type { Button, Feature } from "@/types";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
+import weeklyRhythmData from "@/data/weeklyRhythm.json";
 
 interface Homepage {
   banner: {
@@ -123,9 +124,16 @@ const bannerContent = await markdownify(banner.content);
     features.map(async (feature, index: number) => {
       const featureTitle = await markdownify(feature.title);
       const featureContent = await markdownify(feature.content);
-      const bulletPoints = await Promise.all(
-        feature.bulletpoints.map(async (bullet: string) => await markdownify(bullet))
-      );
+      
+      // Handle weekly rhythm or regular bullet points
+      let bulletPoints: string[] = [];
+      if (feature.weeklyRhythm) {
+        bulletPoints = weeklyRhythmData.schedule.map(item => `**${item.day}:** ${item.description}`);
+      } else if (feature.bulletpoints) {
+        bulletPoints = await Promise.all(
+          feature.bulletpoints.map(async (bullet: string) => await markdownify(bullet))
+        );
+      }
       
       return (
         <section 

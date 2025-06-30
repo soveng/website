@@ -1,5 +1,6 @@
 ---
 import Base from "@/layouts/Base.astro";
+import weeklyRhythmData from "@/data/weeklyRhythm.json";
 ---
 
 <Base
@@ -26,12 +27,9 @@ import Base from "@/layouts/Base.astro";
             <h3 class="h4 mt-8 mb-4">Weekly Rhythm</h3>
             <p>The loop is scaffolded by a simple, repeatable schedule:</p>
             <ul class="list-disc pl-6 space-y-1">
-              <li><strong>Monday Mornings</strong> – Orientation, theme setting, and group walk</li>
-              <li><strong>Tuesday Talks</strong> – Participant-led talks triggering lively, Oxford-comma-laden debate</li>
-              <li><strong>Wednesday Workshops</strong> – Hands-on skill-shares where prototypes are born</li>
-              <li><strong>Thursday: Time Off</strong> – Unstructured time (explore, hack, or hike)</li>
-              <li><strong>Friday Festivities</strong> – Demo-day &amp; barbecue</li>
-              <li><strong>Weekend Walks</strong> – Group activities / long walks</li>
+              {weeklyRhythmData.schedule.map((item) => (
+                <li><strong>{item.day}</strong> – {item.description}</li>
+              ))}
             </ul>
 
             <h3 class="h4 mt-8 mb-4">Why Madeira?</h3>
