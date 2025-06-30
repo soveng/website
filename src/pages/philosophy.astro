@@ -1,9 +1,13 @@
 ---
 import Base from "@/layouts/Base.astro";
-import slideShip from "@/data/common-slides/common-slides.001.jpeg";
-import slideFreedomTech from "@/data/common-slides/common-slides.014.jpeg";
-import slideWalk from "@/data/common-slides/common-slides.008.jpeg";
-import slideEndurance from "@/data/common-slides/common-slides.025.jpeg";
+import slideShip from "@/data/common-slides/pirate-ship.jpeg";
+import slideFreedomTech from "@/data/common-slides/surveillance-capitalism.jpeg";
+import slideWalk from "@/data/common-slides/walking.jpeg";
+import slideEndurance from "@/data/common-slides/endurance.jpeg";
+import slideExplorers from "@/data/common-slides/pirate-ship-2.jpeg";
+import slideInPerson from "@/data/common-slides/soveng-shirt.jpeg";
+import slideBias from "@/data/common-slides/show-talk-build-loop.jpeg";
+import slideCypherpunks from "@/data/common-slides/cypherpunks-write-code.jpeg";
 ---
 
 <Base
@@ -41,19 +45,38 @@ import slideEndurance from "@/data/common-slides/common-slides.025.jpeg";
             <p>Friday Demo Day then serves as an epistemic checkpoint.  Six minutes to show, two to discuss.  Brutal, illuminating, and endlessly inspiring.</p>
 
             <h3 class="h4 clear-both mt-8 mb-4">Explorers of a New Frontier</h3>
+            <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
+              <img src={slideExplorers.src} alt="Exploring the digital ocean" class="rounded-lg shadow-lg" loading="lazy" />
+            </figure>
             <p>Our logo is a ship for a reason. Bitcoin and Nostr open a digital ocean as uncharted as the Age of Discovery. We welcome builders who yearn for that &ldquo;wild and open sea,&rdquo; who embrace risk, and who delight in charting new waters.</p>
             <p>Like Shackleton's crew, participants must trust one another when storms hit, and celebrate together when new land appears on the horizon. The sea is vast, and so is the opportunity.</p>
             <p>Those who prefer calm harbours and predictable schedules need not apply.  We are optimised for the pirates, the adventurers, and the stubborn optimists who believe the internet can still astonish us.</p>
 
             <h3 class="h4 clear-both mt-8 mb-4">In-Person, High-Bandwidth</h3>
+            <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
+              <img src={slideInPerson.src} alt="Cohort collaboration" class="rounded-lg shadow-lg" loading="lazy" />
+            </figure>
             <p>The magic happens face-to-face. Six weeks of shared meals, shared walks, and shared victories forge bonds that bandwidth-limited Zoom calls simply cannot replicate. Trust is built in the queue for poncha, not in a Discord channel.</p>
             <p>Madeira's Bitcoin-friendly ecosystem (see the <a href="https://btcmap.org/community/free-madeira" target="_blank" rel="noopener">BTCMap</a> or visit <a href="https://freemadeira.org/" target="_blank" rel="noopener">FREE&nbsp;Madeira</a>) provides the perfect real-world playground to test ideas minutes after they compile.</p>
             <p>Prototype on Monday, spend it on Tuesday, iterate by Friday.  That feedback loop is only possible when hardware, merchants, and curious peers live within walking distance.</p>
 
             <h3 class="h4 clear-both mt-8 mb-4">Bias for Action</h3>
+            <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
+              <img src={slideBias.src} alt="Show-Talk-Build loop" class="rounded-lg shadow-lg" loading="lazy" />
+            </figure>
             <p>We prototype first, critique later. Imperfect code is welcomed if it advances the conversation. Novelty, experimentation, and rapid iteration trump premature optimisation.</p>
             <p>This bias for action produces tangible results: from <em>Blossom</em> to <em>ZapStore</em>, many cohort projects were conceived on a Monday walk and open-sourced before the next weekend. The world needs working code, not slide decks.</p>
             <p>Direction beats speed, yet speed still helps.  We chase the 80-20, knowing that the last 20 % can wait until the idea survives first contact with reality.</p>
+            <p class="italic mb-4">&ldquo;Direction is so much more important than speed. Many are going nowhere fast.&rdquo;</p>
+
+            <h3 class="h4 clear-both mt-8 mb-4">Build&nbsp;It&nbsp;Right</h3>
+            <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
+              <img src={slideCypherpunks.src} alt="Cypherpunks write code" class="rounded-lg shadow-lg" loading="lazy" />
+            </figure>
+            <p class="mb-4">&ldquo;The computer can be used as a tool to liberate and protect people, rather than to control them.&rdquo; —Hal&nbsp;Finney</p>
+            <p class="mb-4">&ldquo;Cypherpunks write code.&rdquo; —Eric&nbsp;Hughes</p>
+            <p class="mb-4"><em>&ldquo;What does it mean to &#39;build it right?&#39;&rdquo;</em> ask Pablo&nbsp;&amp;&nbsp;Gigi. It means writing code that the user can verify, fork, and <em>exit</em> from; choosing architectures that minimise trust; and favouring primitives that stand the test of decades.</p>
+            <p class="italic mb-4">&ldquo;No solutions, only trade-offs.&rdquo; &mdash;Thomas&nbsp;Sowell. Our job is to pick the trade-offs that maximise individual freedom.</p>
 
             <h3 class="h4 clear-both mt-8 mb-4">Endurance</h3>
             <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
@@ -63,7 +86,8 @@ import slideEndurance from "@/data/common-slides/common-slides.025.jpeg";
             <p>Freedom Tech is not built in fiscal quarters; it is forged across decades.  We favour antifragile tooling, small teams, and battle-tested primitives that will still compile when our grandchildren fork the repo.</p>
             <p>We endure because the mission matters: <strong>fix the money, fix the internet</strong>.  Everything else is a footnote.</p>
 
-            <p class="mt-8 clear-both"><strong>Re-invent the future.</strong>  Provide an environment that fosters deep conversations and fearless collaboration so that together we can solve the hard problems our descendants will face.</p>
+            <p class="mt-8 clear-both italic">&ldquo;Re-invent the future.&rdquo; &mdash;Bell&nbsp;Labs</p>
+            <p><strong>Ship the future.</strong> Provide an environment that fosters deep conversations and fearless collaboration so that together we can solve the hard problems our descendants will face.</p>
             <div class="text-center mt-10">
               <a href="/apply" class="btn-retro">Apply&nbsp;Now</a>
             </div>
