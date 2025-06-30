@@ -1,4 +1,36 @@
 const showcaseProjects = [
+  // SEC-00 Projects (Foundational/Reference)
+  {
+    name: "Highlighter",
+    description: "A social platform for sharing and discovering highlights from books, articles, and more.",
+    cohort: "SEC-00",
+    link: "https://highlighter.com/",
+    linkText: "highlighter.com",
+    logo: "",
+    highlight: false,
+  },
+  {
+    name: "Lightning Prisms",
+    description: "Programmable value splits for Lightning payments. See blog post for details.",
+    cohort: "SEC-00",
+    link: "https://dergigi.com/2023/03/12/lightning-prisms/",
+    linkText: "dergigi.com/2023/03/12/lightning-prisms/",
+    logo: "",
+    highlight: false,
+  },
+  {
+    name: "NIP-90: Data Vending Machines",
+    description: "Nostr protocol extension for on-demand computation and data vending. See NIP and reference site.",
+    cohort: "SEC-00",
+    link: "https://nips.nostr.com/90",
+    linkText: "nips.nostr.com/90",
+    logo: "",
+    highlight: false,
+    extraLinks: [
+      { link: "https://www.data-vending-machines.org/", linkText: "data-vending-machines.org" }
+    ]
+  },
+
   // SEC-01 Projects (Jan-Mar 2024)
   {
     name: "Blossom",
