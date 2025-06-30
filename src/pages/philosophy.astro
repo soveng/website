@@ -12,6 +12,12 @@ import slideWideOpenSea from "@/data/common-slides/wide-open-sea.jpeg";
 import slideBellLabs from "@/data/common-slides/bell-labs.jpeg";
 import slideSolvitur from "@/data/common-slides/solvitur-ambulando.jpeg";
 import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
+import philosophyQuotes from "@/data/philosophy-quotes.json";
+
+// Helper function to find quote by section
+const getQuote = (section: string) => {
+  return philosophyQuotes.find(q => q.section === section);
+};
 ---
 
 <Base
@@ -24,7 +30,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
       <div class="row justify-center">
         <div class="text-center md:col-10 lg:col-7">
           <h2 class="h3 mb-6">Philosophy</h2>
-          <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea.&rdquo; &mdash;Antoine de&nbsp;Saint-Exupéry</blockquote>
+          <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Philosophy")?.quote}&rdquo; &mdash;{getQuote("Philosophy")?.author}</blockquote>
           <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
             <img src={slideShip.src} alt="Yearn for the vast and endless sea" class="rounded-lg shadow-lg" loading="lazy" />
           </figure>
@@ -33,7 +39,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p>From <a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g" target="_blank" rel="noopener">"Fix the Money, Fix the Web"</a> we take the conviction that a sound monetary foundation is a moral imperative, and that Bitcoin's paradigm of extreme ownership demands equally sovereign applications. Likewise, <a href="https://sovereignengineering.io/nostr.html" target="_blank" rel="noopener">Nostr</a> reminds us that protocols, not platforms, will reclaim the vibrant, open experimentation that defined the early web.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">Freedom by Design</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;Freedom Tech is rugpull-resistant technology.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Gigi</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Freedom by Design")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("Freedom by Design")?.author}</cite></blockquote>
             <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
               <img src={slideGenesisBlock.src} alt="Genesis Block" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
@@ -42,7 +48,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p>This way of thinking is what we call <em>Freedom Tech</em>: technology that is rugpull-resistant by design.  When betrayal is impossible, trust becomes optional and collaboration scales.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">Solved By Walking</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;Solvitur ambulando.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Saint&nbsp;Augustine</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Solved By Walking")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("Solved By Walking")?.author}</cite></blockquote>
             <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
               <img src={slideSolvitur.src} alt="Solvitur ambulando" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
@@ -51,7 +57,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p>Friday's Demo Day then serves as an epistemic checkpoint.  Six minutes to show, two to discuss.  Brutal, illuminating, and endlessly inspiring.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">Explorers of a New Frontier</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;Re-invent the future.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Bell&nbsp;Labs</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Explorers of a New Frontier")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("Explorers of a New Frontier")?.author}</cite></blockquote>
             <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
               <img src={slideBellLabs.src} alt="Re-invent the future" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
@@ -60,7 +66,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p>Those who prefer calm harbours and predictable schedules need not apply.  We are optimised for the pirates, the adventurers, and the stubborn optimists who believe the internet can still astonish us.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">In-Person, High-Bandwidth</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;If you want to go fast, go alone. If you want to go far, go together.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;African&nbsp;Proverb</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("In-Person, High-Bandwidth")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("In-Person, High-Bandwidth")?.author}</cite></blockquote>
             <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
               <img src={slideInPerson.src} alt="Cohort collaboration" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
@@ -69,7 +75,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p>Prototype on Monday, ship it on Tuesday, receive sats on Wednesday, buy coffee on Thursday, iterate by Friday. That feedback loop is only possible when hardware, merchants, and curious peers live within walking distance.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">Bias for Action</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;Direction is so much more important than speed. Many are going nowhere fast.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Unknown</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Bias for Action")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("Bias for Action")?.author}</cite></blockquote>
             <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
               <a href="/concept">
                 <img src={slideBias.src} alt="Show-Talk-Build loop" class="rounded-lg shadow-lg" loading="lazy" />
@@ -81,14 +87,14 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p class="mt-4">Want to see how this rapid loop plays out week-by-week? Explore the full cadence in our <a href="/concept">Concept</a> section.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">Cypherpunks Write Code</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;The computer can be used as a tool to liberate and protect people, rather than to control them.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Hal&nbsp;Finney</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Cypherpunks Write Code")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("Cypherpunks Write Code")?.author}</cite></blockquote>
             <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
               <img src={slideCypherpunks.src} alt="Cypherpunks write code" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
             <p class="mb-4"><em>&ldquo;What does it mean to &#39;build it right?&#39;&rdquo;</em> ask Pablo&nbsp;&amp;&nbsp;Gigi. It means writing code that the user can verify, fork, and <em>exit</em> from; choosing architectures that minimise trust; and favouring primitives that stand the test of decades.</p>
             <p>Hal&nbsp;Finney's challenge calls for code that stands on its own—transparent, user-verifiable, and resilient to adversarial pressure.  We prize lean binaries, readable source, and simple dependency graphs so every sailor on this digital ocean can audit the hull before they board.</p>
             <h3 class="h4 clear-both mt-16 mb-4">No&nbsp;Solutions</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;No solutions, only trade-offs.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Thomas&nbsp;Sowell</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("No Solutions")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("No Solutions")?.author}</cite></blockquote>
             <figure class="my-8 md:float-right md:ml-6 md:w-1/2">
               <img src={slideWideOpenSea.src} alt="Wide open sea" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
@@ -96,7 +102,7 @@ import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
             <p>The <a href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n" target="_blank" rel="noopener">No&nbsp;Solutions&nbsp;podcast</a> is our experiment in <em>Dia-Logos</em>&mdash;capturing the same free-flowing, exploratory conversations that spark during every cohort and pressing&nbsp;record.</p>
 
             <h3 class="h4 clear-both mt-16 mb-4">Endurance</h3>
-            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;Fortitudine vincimus.&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;Ernest&nbsp;Shackleton</cite></blockquote>
+            <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote("Endurance")?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote("Endurance")?.author}</cite></blockquote>
             <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
               <img src={slideEndurance.src} alt="Endurance slide" class="rounded-lg shadow-lg" loading="lazy" />
             </figure>
