@@ -81,3 +81,7 @@ More:
 - Nostr: https://njump.me/sovereignengineering.io
 - GitHub: https://github.com/soveng
 - Email: info@sovereignengineering.io
+
+# Weekly Loop
+
+Show -> Talk -> Build
