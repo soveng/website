@@ -1,0 +1,7708 @@
+1
+00:00:00,000 --> 00:00:07,520
+So, that's the open source recorder that actually works the last time.
+
+2
+00:00:07,520 --> 00:00:13,000
+And that's when, I mean, you know, it probably crashes if the recording is like three hours.
+
+3
+00:00:13,000 --> 00:00:15,200
+No, but it worked with Justin.
+
+4
+00:00:15,200 --> 00:00:23,400
+And so, if all of that works, then we have an mp3 file as the output.
+
+5
+00:00:23,400 --> 00:00:29,200
+I don't have to do anything and it runs through my amazing processing pipeline and everything is done.
+
+6
+00:00:29,600 --> 00:00:31,800
+Very soon, we want you to have to speak.
+
+7
+00:00:31,800 --> 00:00:33,000
+Yeah, that's it.
+
+8
+00:00:33,000 --> 00:00:39,200
+Again, I think that you have to be careful what to automate and what to abstract your way and what not.
+
+9
+00:00:39,200 --> 00:00:51,200
+Did I tell you that I got, I trained one ill limb with all of my public content like podcasts and she's like that.
+
+10
+00:00:51,200 --> 00:00:51,800
+Oh, wow.
+
+11
+00:00:51,800 --> 00:00:52,800
+And all of yours.
+
+12
+00:00:52,800 --> 00:00:53,400
+Oh, my God.
+
+13
+00:00:53,400 --> 00:00:54,400
+That's bad.
+
+14
+00:00:54,400 --> 00:00:57,000
+So, you know, you're writing.
+
+15
+00:00:57,000 --> 00:00:59,000
+And an artificial GG.
+
+16
+00:00:59,000 --> 00:01:00,000
+Yes.
+
+17
+00:01:00,000 --> 00:01:01,000
+Oh, that's bad.
+
+18
+00:01:01,000 --> 00:01:04,000
+I made it record the podcast.
+
+19
+00:01:04,000 --> 00:01:06,000
+Well, I mean, write the transcript of the book.
+
+20
+00:01:06,000 --> 00:01:07,000
+Yeah.
+
+21
+00:01:07,000 --> 00:01:10,000
+It was complete out of shit.
+
+22
+00:01:10,000 --> 00:01:11,000
+I'm not surprised.
+
+23
+00:01:11,000 --> 00:01:17,000
+It was just constant agreement and just going around without exploring anything in particular.
+
+24
+00:01:17,000 --> 00:01:19,000
+I mean, well, that's very accurate.
+
+25
+00:01:19,000 --> 00:01:20,000
+Yes.
+
+26
+00:01:20,000 --> 00:01:21,000
+Isn't it?
+
+27
+00:01:21,000 --> 00:01:23,000
+So, that's when it extracted out of it.
+
+28
+00:01:23,000 --> 00:01:30,000
+No, but to me, since now we are an AI and wind podcast.
+
+29
+00:01:30,000 --> 00:01:31,000
+That blossom.
+
+30
+00:01:31,000 --> 00:01:36,000
+And blossom, of course.
+
+31
+00:01:36,000 --> 00:01:38,000
+To me, super interesting to find.
+
+32
+00:01:38,000 --> 00:01:46,000
+I was very skeptical of the whole AI thing for a long time.
+
+33
+00:01:46,000 --> 00:01:52,000
+And my main thing is, you know, I was also into like the whole singularity stuff.
+
+34
+00:01:52,000 --> 00:02:01,000
+And realizing that LLMs will never get you there, you know, no matter how good they get.
+
+35
+00:02:01,000 --> 00:02:04,000
+That is, that it's a different thing.
+
+36
+00:02:04,000 --> 00:02:06,000
+Consciousness is a different thing.
+
+37
+00:02:06,000 --> 00:02:11,000
+So, but once I understood that that's not the goal, it can be a useful tool anyway.
+
+38
+00:02:11,000 --> 00:02:14,000
+Then I'm thinking, okay, what is it good for?
+
+39
+00:02:14,000 --> 00:02:15,000
+What is it good at?
+
+40
+00:02:15,000 --> 00:02:17,000
+And what is it bad at?
+
+41
+00:02:17,000 --> 00:02:23,000
+I'm coming up with new interesting ideas and like having a conversation like these, like emulate Gigi.
+
+42
+00:02:23,000 --> 00:02:25,000
+Emulate power, how a conversation, it doesn't work.
+
+43
+00:02:25,000 --> 00:02:27,000
+It's also one of Vivek's tests, basically.
+
+44
+00:02:27,000 --> 00:02:34,000
+I always look back to him because he's like, I think the most knowledgeable guy about these systems
+
+45
+00:02:34,000 --> 00:02:39,000
+and their limitations from like non computer science, non tech, non AI perspective,
+
+46
+00:02:39,000 --> 00:02:43,000
+but purely from a philosophical and cognitive science perspective, basically.
+
+47
+00:02:43,000 --> 00:02:47,000
+It's like he always says like, just let two of them talk to each other.
+
+48
+00:02:47,000 --> 00:02:50,000
+And that tells you how smart they are, basically.
+
+49
+00:02:50,000 --> 00:02:55,000
+And it goes, like even one of them talking to a human hallucinates very quickly
+
+50
+00:02:55,000 --> 00:02:57,000
+and bullshit you all the time and so on.
+
+51
+00:02:57,000 --> 00:03:01,000
+Again, like he would argue because they're not grounded out in reality in some sense.
+
+52
+00:03:01,000 --> 00:03:07,000
+And if you have two of those, then it's just gonna be, it just goes haywire instantly, basically.
+
+53
+00:03:07,000 --> 00:03:09,000
+Yeah, yeah, yeah, instantly.
+
+54
+00:03:09,000 --> 00:03:10,000
+Yeah, 100%.
+
+55
+00:03:10,000 --> 00:03:13,000
+Yeah, I didn't know that you're like, can I sue you now?
+
+56
+00:03:13,000 --> 00:03:23,000
+You have to, you have to release it under creative comments, share alike.
+
+57
+00:03:23,000 --> 00:03:29,000
+So you have to, you know, you know, I'm a communist, so I use GPL and those kind of licenses.
+
+58
+00:03:29,000 --> 00:03:34,000
+Isn't there like lawsuits by stallman now that aren't there models now where they're like,
+
+59
+00:03:34,000 --> 00:03:38,000
+oh, we excluded all GPL license software from the data sets.
+
+60
+00:03:38,000 --> 00:03:40,000
+Wow, so it's safe to use, I think so.
+
+61
+00:03:40,000 --> 00:03:41,000
+Oh, wow.
+
+62
+00:03:41,000 --> 00:03:43,000
+A friend of mine told me, so it must be true.
+
+63
+00:03:43,000 --> 00:03:44,000
+Oh, my God.
+
+64
+00:03:44,000 --> 00:03:49,000
+That is poetic.
+
+65
+00:03:49,000 --> 00:03:56,000
+So we'll have like, you know, stallman GPT under a new license that fixes all those things.
+
+66
+00:03:56,000 --> 00:03:59,000
+It's truly free.
+
+67
+00:03:59,000 --> 00:04:07,000
+But yeah, you were talking about your kind of, your new setup and your new tooling.
+
+68
+00:04:07,000 --> 00:04:09,000
+I'd be super interested to.
+
+69
+00:04:09,000 --> 00:04:10,000
+Yeah.
+
+70
+00:04:10,000 --> 00:04:13,000
+Yeah, what you've been up to the last, I don't know, five days.
+
+71
+00:04:13,000 --> 00:04:16,000
+Probably, I can't even say 10 days because everything changes.
+
+72
+00:04:16,000 --> 00:04:18,000
+Oh, I don't remember what happened 10 days ago.
+
+73
+00:04:18,000 --> 00:04:19,000
+Yeah.
+
+74
+00:04:19,000 --> 00:04:21,000
+It's not my context window.
+
+75
+00:04:21,000 --> 00:04:22,000
+Yeah.
+
+76
+00:04:22,000 --> 00:04:23,000
+Yeah.
+
+77
+00:04:23,000 --> 00:04:25,000
+Tiny RAM.
+
+78
+00:04:25,000 --> 00:04:27,000
+Too little RAM.
+
+79
+00:04:27,000 --> 00:04:30,000
+It's not the size of the matter.
+
+80
+00:04:30,000 --> 00:04:31,000
+Yeah.
+
+81
+00:04:31,000 --> 00:04:35,000
+So, yeah, so, yeah, I've been experimenting a lot.
+
+82
+00:04:35,000 --> 00:04:40,000
+It's kind of, I'm reimagining us.
+
+83
+00:04:40,000 --> 00:04:44,000
+This is a shift in the way I do.
+
+84
+00:04:44,000 --> 00:04:48,000
+Many things, but everything related to work.
+
+85
+00:04:48,000 --> 00:04:50,000
+Must shift.
+
+86
+00:04:50,000 --> 00:04:51,000
+Yeah.
+
+87
+00:04:51,000 --> 00:04:52,000
+And I'm super excited.
+
+88
+00:04:52,000 --> 00:04:57,000
+It's super interesting because I keep seeing two camps.
+
+89
+00:04:57,000 --> 00:05:00,000
+People that are super excited.
+
+90
+00:05:00,000 --> 00:05:02,000
+I mean, three camps.
+
+91
+00:05:02,000 --> 00:05:05,000
+People that are completely oblivious.
+
+92
+00:05:05,000 --> 00:05:08,000
+But I also see the camp of people that are, oh, my God.
+
+93
+00:05:08,000 --> 00:05:09,000
+What's going to happen?
+
+94
+00:05:09,000 --> 00:05:14,000
+Are we, the humanity is going to become useless?
+
+95
+00:05:14,000 --> 00:05:16,000
+Am I out of a job as a program?
+
+96
+00:05:16,000 --> 00:05:17,000
+Am I out of a job?
+
+97
+00:05:17,000 --> 00:05:18,000
+Yeah.
+
+98
+00:05:18,000 --> 00:05:25,000
+And to me, it's like, if your job is executing things, then yes.
+
+99
+00:05:25,000 --> 00:05:26,000
+Yeah.
+
+100
+00:05:26,000 --> 00:05:27,000
+Yeah.
+
+101
+00:05:28,000 --> 00:05:35,000
+So, I've been thinking the way I work and the way I do things.
+
+102
+00:05:35,000 --> 00:05:37,000
+Must completely shift.
+
+103
+00:05:37,000 --> 00:05:40,000
+So, I'm spending a lot of time.
+
+104
+00:05:40,000 --> 00:05:44,000
+I'm spending all my time in creating tooling, basically.
+
+105
+00:05:44,000 --> 00:05:54,000
+To leverage what's good, what LLMs are good at and diminish the stuff that they suck at.
+
+106
+00:05:55,000 --> 00:06:00,000
+So, yeah, my current setup right now, it's fucking insane.
+
+107
+00:06:00,000 --> 00:06:03,000
+It's so cool.
+
+108
+00:06:03,000 --> 00:06:06,000
+There is a little frustration around it, too.
+
+109
+00:06:06,000 --> 00:06:10,000
+But where it works, it's amazing.
+
+110
+00:06:10,000 --> 00:06:17,000
+And the thing, what I'm doing is I'm expecting the LLMs to get better at what they are currently good at.
+
+111
+00:06:17,000 --> 00:06:23,000
+And I don't expect them to get better at the stuff that they're not good at right now.
+
+112
+00:06:24,000 --> 00:06:32,000
+So, my current setup, I'm doing this multi-agent thing where agents are able to A, they can
+
+113
+00:06:32,000 --> 00:06:39,000
+spawn their own, they can create a task and give it to another agent that has a different
+
+114
+00:06:39,000 --> 00:06:45,000
+model, runs in a different way, it has access to different stuff.
+
+115
+00:06:45,000 --> 00:06:48,000
+But they can also create their own agents.
+
+116
+00:06:48,000 --> 00:06:56,000
+They can hire someone and try and train them in a particular direction.
+
+117
+00:06:56,000 --> 00:07:06,000
+And one thing that it's freaking insane is that I got one agent to decide to create a
+
+118
+00:07:06,000 --> 00:07:11,000
+new tool, so it creates a RAG system to index all the nips.
+
+119
+00:07:11,000 --> 00:07:14,000
+It just won't often deal it.
+
+120
+00:07:14,000 --> 00:07:17,000
+To make its own life easier.
+
+121
+00:07:17,000 --> 00:07:21,000
+To me, that was absolutely amazing.
+
+122
+00:07:21,000 --> 00:07:25,000
+That's the smart thing to do.
+
+123
+00:07:25,000 --> 00:07:30,000
+What do you use as the base for your setup?
+
+124
+00:07:30,000 --> 00:07:37,000
+So, I'm running all of this in root code with very heavy-handed configuration and many
+
+125
+00:07:37,000 --> 00:07:39,000
+different scripts.
+
+126
+00:07:39,000 --> 00:07:45,000
+There's these cursor tools things that gives the entire repo.
+
+127
+00:07:45,000 --> 00:07:53,000
+For example, Gemini 2.5, it's not a great model, but it has a really large context window,
+
+128
+00:07:53,000 --> 00:07:58,000
+so it can see very precisely a large chunk of data.
+
+129
+00:07:58,000 --> 00:08:06,000
+So, I'm using different models for the actual refactoring and coding and stuff like that.
+
+130
+00:08:06,000 --> 00:08:14,000
+But then for course correction, I have a feedback loop where it gives the entire repo with the
+
+131
+00:08:14,000 --> 00:08:18,000
+higher relief, and it can ask for feedback.
+
+132
+00:08:18,000 --> 00:08:24,000
+I talked with Justin about this a little bit also, that you want to have basically the
+
+133
+00:08:24,000 --> 00:08:28,000
+guy who is the specialist and actually writes the code, and the guy who is the architect
+
+134
+00:08:28,000 --> 00:08:29,000
+and has a big picture.
+
+135
+00:08:29,000 --> 00:08:30,000
+You can't be the same guy.
+
+136
+00:08:30,000 --> 00:08:31,000
+100%.
+
+137
+00:08:31,000 --> 00:08:34,000
+So, that's why it has to be.
+
+138
+00:08:34,000 --> 00:08:37,000
+I think it's true for us as well and for human systems.
+
+139
+00:08:37,000 --> 00:08:38,000
+It's true in general.
+
+140
+00:08:38,000 --> 00:08:39,000
+Absolutely.
+
+141
+00:08:39,000 --> 00:08:45,000
+You have to specialize and you cannot at the same time specialize and kind of generalize.
+
+142
+00:08:45,000 --> 00:08:47,000
+Those things are in contradiction.
+
+143
+00:08:47,000 --> 00:08:52,000
+So, you have to get a specialist and have a generalist and have to work together.
+
+144
+00:08:52,000 --> 00:08:55,000
+That's why we have these multi-agent setups and all those kinds of things.
+
+145
+00:08:55,000 --> 00:08:57,000
+Even within yourself.
+
+146
+00:08:57,000 --> 00:08:58,000
+Absolutely.
+
+147
+00:08:58,000 --> 00:09:08,000
+My wife writes fiction, and whenever she writes a novel, the editing part cannot happen
+
+148
+00:09:08,000 --> 00:09:10,000
+within the same time frame of writing.
+
+149
+00:09:10,000 --> 00:09:11,000
+Yeah.
+
+150
+00:09:11,000 --> 00:09:12,000
+That's why, you know.
+
+151
+00:09:12,000 --> 00:09:13,000
+Let us risk.
+
+152
+00:09:13,000 --> 00:09:14,000
+Was it a hamming way?
+
+153
+00:09:14,000 --> 00:09:15,000
+Like, right drunk and that it's over?
+
+154
+00:09:15,000 --> 00:09:17,000
+You have to be in a different state of mind.
+
+155
+00:09:17,000 --> 00:09:20,000
+You have to step away from it for a bit.
+
+156
+00:09:20,000 --> 00:09:21,000
+You have to, you know.
+
+157
+00:09:21,000 --> 00:09:22,000
+Yeah.
+
+158
+00:09:22,000 --> 00:09:23,000
+Write your say.
+
+159
+00:09:23,000 --> 00:09:24,000
+To a different mode.
+
+160
+00:09:24,000 --> 00:09:25,000
+Let it break.
+
+161
+00:09:25,000 --> 00:09:26,000
+Walk away.
+
+162
+00:09:26,000 --> 00:09:27,000
+Come back in a couple of months.
+
+163
+00:09:27,000 --> 00:09:28,000
+Yeah.
+
+164
+00:09:28,000 --> 00:09:29,000
+When you're a different person.
+
+165
+00:09:29,000 --> 00:09:30,000
+Yeah.
+
+166
+00:09:30,000 --> 00:09:31,000
+Pretty much.
+
+167
+00:09:31,000 --> 00:09:32,000
+Yeah.
+
+168
+00:09:32,000 --> 00:09:33,000
+Yeah.
+
+169
+00:09:33,000 --> 00:09:34,000
+So, okay.
+
+170
+00:09:34,000 --> 00:09:39,000
+Do you make any use of DVMCP at all?
+
+171
+00:09:39,000 --> 00:09:40,000
+Not yet.
+
+172
+00:09:40,000 --> 00:09:41,000
+I haven't played with it yet.
+
+173
+00:09:41,000 --> 00:09:43,000
+I understand what it is now.
+
+174
+00:09:43,000 --> 00:09:45,000
+So, I'm very proud.
+
+175
+00:09:45,000 --> 00:09:57,000
+No, but it is a very, very cool idea because this idea of just a marketplace of agents
+
+176
+00:09:57,000 --> 00:10:01,000
+that can do, or not agents, of tools that can do all kinds of things.
+
+177
+00:10:01,000 --> 00:10:03,000
+Is it an ever evolving kind of thing?
+
+178
+00:10:03,000 --> 00:10:04,000
+Yeah.
+
+179
+00:10:04,000 --> 00:10:07,000
+I find it absolutely fascinating.
+
+180
+00:10:07,000 --> 00:10:16,000
+I do see a lot of recklessness and destruction in the future.
+
+181
+00:10:16,000 --> 00:10:17,000
+Oh, man.
+
+182
+00:10:17,000 --> 00:10:18,000
+It's already happening.
+
+183
+00:10:18,000 --> 00:10:20,000
+It's going to get so bad.
+
+184
+00:10:20,000 --> 00:10:27,000
+You know, I don't know how it, how it, how exactly it enters my bubble.
+
+185
+00:10:27,000 --> 00:10:31,000
+But I've seen so many screenshots because I don't explicitly follow, like, my code
+
+186
+00:10:31,000 --> 00:10:32,000
+people or anything like that.
+
+187
+00:10:32,000 --> 00:10:33,000
+Right.
+
+188
+00:10:33,000 --> 00:10:37,000
+But I've seen so many screenshots doing the rounds now with, you know, like, just API
+
+189
+00:10:37,000 --> 00:10:43,000
+keys exposed and people just, you know, like, basically, I have no idea what they are doing
+
+190
+00:10:43,000 --> 00:10:45,000
+and putting all their secrets everywhere.
+
+191
+00:10:45,000 --> 00:10:50,000
+And then posting screenshots on Twitter of like, oh, it doesn't work.
+
+192
+00:10:50,000 --> 00:10:52,000
+Please help me and those kind of things.
+
+193
+00:10:52,000 --> 00:10:55,000
+And it's like the AWS API key is in there and everything.
+
+194
+00:10:55,000 --> 00:11:02,000
+But it's so cool because there are many things that because of the stuff where we're building,
+
+195
+00:11:02,000 --> 00:11:09,000
+like in Noster and in Bitcoin, we could not give two fucks about, like, some API keys.
+
+196
+00:11:09,000 --> 00:11:15,000
+Like, I see all this problem that people write and everywhere is never leak any secret.
+
+197
+00:11:15,000 --> 00:11:17,000
+No, I don't write any API keys.
+
+198
+00:11:17,000 --> 00:11:23,000
+And people are super concerned about their closed source, you know, like, oh, is my source going
+
+199
+00:11:23,000 --> 00:11:25,000
+to leave my computer if I do this?
+
+200
+00:11:25,000 --> 00:11:30,000
+And it's like, if it's open source and you don't have any fucking API keys, you know?
+
+201
+00:11:30,000 --> 00:11:35,000
+One thing where I think we have an insane lag up that people don't really appreciate yet is you have to,
+
+202
+00:11:35,000 --> 00:11:39,000
+like, basically, the AI slop problem will only get worse and worse and worse for everything.
+
+203
+00:11:39,000 --> 00:11:45,000
+It's like for, you know, Wikipedia entries, for just general, like, blog posts and things,
+
+204
+00:11:45,000 --> 00:11:48,000
+for documentation, for all kinds of stuff.
+
+205
+00:11:48,000 --> 00:11:53,000
+And so I think the, in some sense, the information will kind of degrade over time.
+
+206
+00:11:53,000 --> 00:11:58,000
+It's going to be very hard to figure out what data set and what source to trust.
+
+207
+00:11:58,000 --> 00:11:59,000
+Absolutely.
+
+208
+00:11:59,000 --> 00:12:06,000
+And that's where, I think, Noster is just, like, a godsend because if you, for example,
+
+209
+00:12:06,000 --> 00:12:11,000
+produce NDK documentation that is LLM friendly with the NDK snippets and those kind of things,
+
+210
+00:12:11,000 --> 00:12:17,000
+and you sign it as Pablo, as the maintainer of NDK, then it's quite trustworthy.
+
+211
+00:12:17,000 --> 00:12:20,000
+You know, like, you just know, okay, that's the thing.
+
+212
+00:12:20,000 --> 00:12:25,000
+And we can build all this stuff out, like, even, like, last week we saw with, you know,
+
+213
+00:12:25,000 --> 00:12:30,000
+not only a marketplace of agent and those kind of things, but also, basically, like,
+
+214
+00:12:30,000 --> 00:12:37,000
+signed databases, a marketplace of signed data sources and databases that are potentially
+
+215
+00:12:37,000 --> 00:12:41,000
+pre-trained and so on, and they're signed off by the people that actually know what they are doing
+
+216
+00:12:41,000 --> 00:12:46,000
+that have domain expertise and hopefully also are in your web of trust and so on.
+
+217
+00:12:46,000 --> 00:12:51,000
+But just using our Noster identities to sign this stuff is insane.
+
+218
+00:12:51,000 --> 00:12:52,000
+It's massive.
+
+219
+00:12:52,000 --> 00:12:53,000
+It's absolutely massive.
+
+220
+00:12:53,000 --> 00:12:59,000
+Yeah, I've been thinking that all the LLMs that are writing code, they're trained for the most part
+
+221
+00:12:59,000 --> 00:13:02,000
+in a whole lot of mediocre code.
+
+222
+00:13:02,000 --> 00:13:03,000
+Yeah, sure.
+
+223
+00:13:03,000 --> 00:13:07,000
+And it makes sense that it can get the thing to work.
+
+224
+00:13:07,000 --> 00:13:09,000
+Like, it's really good at making prototypes.
+
+225
+00:13:09,000 --> 00:13:12,000
+If you want to build a product, it's going to suck.
+
+226
+00:13:12,000 --> 00:13:18,000
+Like, if you want to build a complex thing, and I've tried this many times, the performance
+
+227
+00:13:18,000 --> 00:13:19,000
+is horrible.
+
+228
+00:13:19,000 --> 00:13:21,000
+There are many mistakes, a lot of redundancies.
+
+229
+00:13:21,000 --> 00:13:22,000
+Yes.
+
+230
+00:13:22,000 --> 00:13:24,000
+Yeah, it never does the optimal solution.
+
+231
+00:13:24,000 --> 00:13:25,000
+It does suck solution.
+
+232
+00:13:25,000 --> 00:13:26,000
+It works.
+
+233
+00:13:26,000 --> 00:13:27,000
+Never.
+
+234
+00:13:27,000 --> 00:13:28,000
+And then it never goes back to actually...
+
+235
+00:13:28,000 --> 00:13:29,000
+They're only something that works?
+
+236
+00:13:29,000 --> 00:13:30,000
+Okay, this leans.
+
+237
+00:13:30,000 --> 00:13:31,000
+Yeah, yeah, exactly.
+
+238
+00:13:31,000 --> 00:13:32,000
+Oh, I'm guessing it's great.
+
+239
+00:13:32,000 --> 00:13:36,000
+Yeah, it doesn't matter if I've wrote the same function seven times all over the place.
+
+240
+00:13:36,000 --> 00:13:37,000
+Whatever.
+
+241
+00:13:37,000 --> 00:13:38,000
+I'm in LLM.
+
+242
+00:13:38,000 --> 00:13:41,000
+I can fix everything in seven places at once.
+
+243
+00:13:41,000 --> 00:13:42,000
+Yeah.
+
+244
+00:13:42,000 --> 00:13:46,000
+Why do you need dry code?
+
+245
+00:13:46,000 --> 00:13:51,000
+That's key human.
+
+246
+00:13:51,000 --> 00:13:56,000
+So, yeah, it's really good at that.
+
+247
+00:13:56,000 --> 00:14:01,000
+But it's bad at creating performance code because it's been trained on shit code.
+
+248
+00:14:01,000 --> 00:14:03,000
+For the most part.
+
+249
+00:14:03,000 --> 00:14:09,000
+So, yeah, this whole idea with the marketplace of code snippets,
+
+250
+00:14:10,000 --> 00:14:15,000
+I think it's fascinating because now the way I'm framing it is,
+
+251
+00:14:15,000 --> 00:14:24,000
+I write NDK, so I know how to use NDK in the most performant way in many different situations.
+
+252
+00:14:24,000 --> 00:14:30,000
+So, now I'm just extracting all that knowledge that I have on how to use this tool,
+
+253
+00:14:30,000 --> 00:14:33,000
+on how to use it for the very different cases.
+
+254
+00:14:33,000 --> 00:14:40,000
+Like, a feed on a phone works completely different than a feed on a web.
+
+255
+00:14:40,000 --> 00:14:41,000
+Yeah.
+
+256
+00:14:41,000 --> 00:14:47,000
+The components for a phone, for a phone up, are completely different the way you need to get data.
+
+257
+00:14:47,000 --> 00:14:48,000
+Yeah.
+
+258
+00:14:48,000 --> 00:14:49,000
+Where do you put the cache?
+
+259
+00:14:49,000 --> 00:14:50,000
+Like, how do you structure this thing?
+
+260
+00:14:50,000 --> 00:14:52,000
+Way more restricted environments.
+
+261
+00:14:52,000 --> 00:14:54,000
+It's a way more restricted environment.
+
+262
+00:14:54,000 --> 00:14:59,000
+And you need to optimize for different things that if you were to do those things on the web,
+
+263
+00:14:59,000 --> 00:15:02,000
+it would suck on the web.
+
+264
+00:15:02,000 --> 00:15:09,000
+So, now I'm publishing all these extremely niche specific snippets.
+
+265
+00:15:09,000 --> 00:15:16,000
+And then I have this MCP tool that I built where you, whenever you want to build something,
+
+266
+00:15:16,000 --> 00:15:23,000
+you tell it, look for the, use the MCP tool to find snippets on how to do each part of the app.
+
+267
+00:15:23,000 --> 00:15:29,000
+So, now instead of just broadly going and using the generic code,
+
+268
+00:15:29,000 --> 00:15:32,000
+it can still use that code to understand how to structure things.
+
+269
+00:15:32,000 --> 00:15:34,000
+But how do you structure a feed?
+
+270
+00:15:34,000 --> 00:15:37,000
+It will go and it will look precisely at my code.
+
+271
+00:15:37,000 --> 00:15:38,000
+Yeah.
+
+272
+00:15:38,000 --> 00:15:39,000
+Yeah.
+
+273
+00:15:39,000 --> 00:15:42,000
+And the awesome thing about the snippets is also you can just edit to the context specifically.
+
+274
+00:15:42,000 --> 00:15:46,000
+If you already know what you're doing and how it should be done, it's just like, okay, I want to,
+
+275
+00:15:46,000 --> 00:15:49,000
+I don't know, fetch a profile, build a feed, those kind of things, whatever.
+
+276
+00:15:49,000 --> 00:15:53,000
+And it's just like, you're just at three snippets to the thing.
+
+277
+00:15:53,000 --> 00:15:55,000
+Like, this is exactly how you do it.
+
+278
+00:15:55,000 --> 00:16:01,000
+And then it just, like, the difference between doing it that way and not doing it that way is massive.
+
+279
+00:16:01,000 --> 00:16:02,000
+Oh, it's awesome.
+
+280
+00:16:02,000 --> 00:16:03,000
+Because I know because I tried it myself.
+
+281
+00:16:03,000 --> 00:16:10,000
+It's like, it's from, like, basically not working at all and doing stupid shit to, like, it's just one shotting the thing and it works.
+
+282
+00:16:10,000 --> 00:16:12,000
+So that's my goal.
+
+283
+00:16:12,000 --> 00:16:22,000
+I want to get to the point where there is such an amount of curated knowledge on how to do things in any field.
+
+284
+00:16:22,000 --> 00:16:25,000
+And that's the cool thing. Like, this applies to Noster.
+
+285
+00:16:25,000 --> 00:16:27,000
+This applies to everything, right?
+
+286
+00:16:27,000 --> 00:16:29,000
+Anything that is code-based, this is useful.
+
+287
+00:16:29,000 --> 00:16:31,000
+But you would not be able to do this.
+
+288
+00:16:31,000 --> 00:16:36,000
+Also, everything, not even code-based, I would say, everything that is, that has, you know,
+
+289
+00:16:36,000 --> 00:16:40,000
+you as the main expert want to sign off on the bundle of knowledge, basically, in some sense.
+
+290
+00:16:40,000 --> 00:16:41,000
+Yes.
+
+291
+00:16:41,000 --> 00:16:46,000
+And I think that the issue we'll see in the next couple of years where everyone will run into.
+
+292
+00:16:46,000 --> 00:16:50,000
+It's like, okay, you have decentralized repository from whatever.
+
+293
+00:16:50,000 --> 00:16:52,000
+You know, like, open AI, Microsoft, NVIDIA.
+
+294
+00:16:52,000 --> 00:16:53,000
+Pick your poison, you know?
+
+295
+00:16:53,000 --> 00:16:57,000
+It's like, this is the knowledge base.
+
+296
+00:16:57,000 --> 00:16:59,000
+Like, this is, you know what I mean?
+
+297
+00:16:59,000 --> 00:17:01,000
+Like, these are the trusted sources.
+
+298
+00:17:01,000 --> 00:17:02,000
+Right.
+
+299
+00:17:02,000 --> 00:17:03,000
+This is the trusted source.
+
+300
+00:17:03,000 --> 00:17:05,000
+It's the same problem all over again.
+
+301
+00:17:05,000 --> 00:17:09,000
+Like, we ran into this and we discussed this already with, like, play stores and those kind of things.
+
+302
+00:17:09,000 --> 00:17:11,000
+It's like, which app is good?
+
+303
+00:17:11,000 --> 00:17:13,000
+Which app is not a virus, those kind of things?
+
+304
+00:17:13,000 --> 00:17:19,000
+You trust Play Store to, or, you know, like the, whatever.
+
+305
+00:17:19,000 --> 00:17:20,000
+How's it called?
+
+306
+00:17:20,000 --> 00:17:21,000
+App Store.
+
+307
+00:17:21,000 --> 00:17:22,000
+I love it.
+
+308
+00:17:22,000 --> 00:17:23,000
+I love it.
+
+309
+00:17:23,000 --> 00:17:24,000
+To fix it for you.
+
+310
+00:17:24,000 --> 00:17:29,000
+And SAP Store is a very different, has a very different model, where everything is self-signed,
+
+311
+00:17:29,000 --> 00:17:34,000
+where it's just like, you self-sign the bundle of data, whether it's knowledge, or an app,
+
+312
+00:17:34,000 --> 00:17:39,000
+or a model, or, you know, the source of a model, or what have you.
+
+313
+00:17:40,000 --> 00:17:44,000
+And you, you, on the edges, basically, have to figure it out.
+
+314
+00:17:44,000 --> 00:17:46,000
+Do I trust the person that signed it?
+
+315
+00:17:46,000 --> 00:17:48,000
+Is this person trustworthy?
+
+316
+00:17:48,000 --> 00:17:49,000
+Is this person knowledgeable?
+
+317
+00:17:49,000 --> 00:17:50,000
+Is this...
+
+318
+00:17:50,000 --> 00:17:51,000
+Within this field?
+
+319
+00:17:51,000 --> 00:17:52,000
+Within this field, exactly.
+
+320
+00:17:52,000 --> 00:17:53,000
+Yeah, yeah.
+
+321
+00:17:53,000 --> 00:17:57,000
+Yeah, I think that is such a key missing component.
+
+322
+00:17:57,000 --> 00:18:02,000
+And I think that's why we haven't seen, really, these...
+
+323
+00:18:02,000 --> 00:18:07,000
+Broadly, outside of Noster, we haven't seen this kind of tool for coordination,
+
+324
+00:18:07,000 --> 00:18:09,000
+because it makes so much sense, right?
+
+325
+00:18:09,000 --> 00:18:10,000
+Yeah.
+
+326
+00:18:10,000 --> 00:18:11,000
+It is so obvious.
+
+327
+00:18:11,000 --> 00:18:15,000
+But how do you fight off just re-indexing GitHub?
+
+328
+00:18:15,000 --> 00:18:16,000
+Yeah.
+
+329
+00:18:16,000 --> 00:18:17,000
+It just...
+
+330
+00:18:17,000 --> 00:18:22,000
+You need to attach an identity to be able to scope the thing and narrow it down.
+
+331
+00:18:22,000 --> 00:18:26,000
+Like, you want this generic content, but then you want to narrow it down to apply the specifics.
+
+332
+00:18:26,000 --> 00:18:27,000
+Yeah.
+
+333
+00:18:27,000 --> 00:18:28,000
+Yeah.
+
+334
+00:18:28,000 --> 00:18:31,000
+Because, for example, to me, this was insane.
+
+335
+00:18:31,000 --> 00:18:34,000
+So, I'm basically re...
+
+336
+00:18:34,000 --> 00:18:41,000
+No, I mean, it's not rewriting quite, but it is the largest refactor that I've done on NDK.
+
+337
+00:18:41,000 --> 00:18:49,000
+Of many things that I've wanted to change, but they are so deep that the context window that I, as a human,
+
+338
+00:18:49,000 --> 00:18:56,000
+that I need to have in order to do that, it is so large that it's been...
+
+339
+00:18:56,000 --> 00:18:59,000
+I'm inputting it off, basically.
+
+340
+00:18:59,000 --> 00:19:04,000
+Like, writing outbooks, for example, touched a lot of things, like implementing outbooks within NDK,
+
+341
+00:19:04,000 --> 00:19:08,000
+within the core of NDK, was quite complex.
+
+342
+00:19:08,000 --> 00:19:13,000
+And it required a lot of deep thinking, you know, to do it in the right way.
+
+343
+00:19:13,000 --> 00:19:14,000
+Yeah.
+
+344
+00:19:14,000 --> 00:19:18,000
+You can implement outbooks in two hours if you're doing shitty, but...
+
+345
+00:19:18,000 --> 00:19:24,000
+And now with this, I am able to be assisted on the refactor.
+
+346
+00:19:24,000 --> 00:19:25,000
+Yeah.
+
+347
+00:19:25,000 --> 00:19:27,000
+And it is an incredible experience.
+
+348
+00:19:27,000 --> 00:19:28,000
+Yeah.
+
+349
+00:19:28,000 --> 00:19:31,000
+Because when you're touching something that is touching a lot of different things,
+
+350
+00:19:31,000 --> 00:19:36,000
+if you forget one of them, it starts to break, and it's kind of hard to understand, okay, the test is failing,
+
+351
+00:19:36,000 --> 00:19:39,000
+but I'm not sure where the problem is.
+
+352
+00:19:39,000 --> 00:19:44,000
+Getting a broad view of the whole thing and saying, okay, this part is actually missing.
+
+353
+00:19:44,000 --> 00:19:46,000
+That is insane.
+
+354
+00:19:46,000 --> 00:19:49,000
+What specific models do you use for this?
+
+355
+00:19:49,000 --> 00:19:50,000
+For this?
+
+356
+00:19:50,000 --> 00:19:51,000
+For this?
+
+357
+00:19:51,000 --> 00:19:53,000
+Just the fact that it has such a big consequence.
+
+358
+00:19:54,000 --> 00:20:02,000
+Usually, not usually, but I'll say the heat and miss ratio is really high on how to fix it,
+
+359
+00:20:02,000 --> 00:20:04,000
+but the problem is here.
+
+360
+00:20:04,000 --> 00:20:05,000
+Okay.
+
+361
+00:20:05,000 --> 00:20:06,000
+Yeah.
+
+362
+00:20:06,000 --> 00:20:07,000
+It really is.
+
+363
+00:20:07,000 --> 00:20:08,000
+Yeah.
+
+364
+00:20:08,000 --> 00:20:09,000
+It identifies the problem and then you go in.
+
+365
+00:20:09,000 --> 00:20:17,000
+It identifies what code was related to other code, and parts where I probably should have changed something and I forgot.
+
+366
+00:20:17,000 --> 00:20:18,000
+Yeah.
+
+367
+00:20:19,000 --> 00:20:24,000
+And going the test route, which is typically what I would have done before,
+
+368
+00:20:24,000 --> 00:20:26,000
+it is like a 100x slower.
+
+369
+00:20:26,000 --> 00:20:27,000
+Yeah.
+
+370
+00:20:27,000 --> 00:20:32,000
+Like something that I can find within two minutes with this new system,
+
+371
+00:20:32,000 --> 00:20:37,000
+it literally could have taken me like five or six days of just chasing my tail.
+
+372
+00:20:37,000 --> 00:20:38,000
+Yeah, it's insane.
+
+373
+00:20:38,000 --> 00:20:39,000
+It is absolutely awesome.
+
+374
+00:20:39,000 --> 00:20:42,000
+Massive paradigm shift, just that alone.
+
+375
+00:20:42,000 --> 00:20:47,000
+I mean, we talked about this in the past, but just like going from a turnaround time of days or weeks or months
+
+376
+00:20:47,000 --> 00:20:51,000
+to like minutes, you're dealing with a different thing.
+
+377
+00:20:51,000 --> 00:20:56,000
+It is a different thing which will take you to build different things.
+
+378
+00:20:56,000 --> 00:21:04,000
+That's why I keep thinking that building applications as a developer will make less and less and less sense.
+
+379
+00:21:04,000 --> 00:21:12,000
+Will be increasingly more pointless because you're going to be able to wake up one morning and just say,
+
+380
+00:21:12,000 --> 00:21:14,000
+I want an application that does this.
+
+381
+00:21:14,000 --> 00:21:18,000
+And then the next morning you wake up and you feel like using it in a different way as a user.
+
+382
+00:21:18,000 --> 00:21:22,000
+And you'll say, I actually now wanted to do this other thing.
+
+383
+00:21:22,000 --> 00:21:28,000
+But with regards to the code snippets, because I'm doing this refactoring,
+
+384
+00:21:28,000 --> 00:21:39,000
+I'm creating a lot of ways, changing kind of allowing new ways of using NDK with new interfaces and shit like that,
+
+385
+00:21:39,000 --> 00:21:43,000
+that I just came up with them.
+
+386
+00:21:43,000 --> 00:21:47,000
+Literally no one has used them because I just made it.
+
+387
+00:21:47,000 --> 00:21:56,000
+So at the same time, I'm building within all of us, I'm adapting the old code to use these new ways of doing things.
+
+388
+00:21:56,000 --> 00:22:07,000
+And then when I tell it, oh, change some structure, it uses the old way that it has been heavily trained on.
+
+389
+00:22:07,000 --> 00:22:09,000
+It uses the old interfaces.
+
+390
+00:22:09,000 --> 00:22:13,000
+So I should still look for code snippets on how to do it.
+
+391
+00:22:13,000 --> 00:22:15,000
+And it never makes a mistake again.
+
+392
+00:22:15,000 --> 00:22:19,000
+To me, this regard our prior inputs, use code snippets instead.
+
+393
+00:22:19,000 --> 00:22:23,000
+That's it. It is so wild.
+
+394
+00:22:23,000 --> 00:22:31,000
+I added this new command, this new tool to the MCP tool that is least snippets.
+
+395
+00:22:31,000 --> 00:22:35,000
+Because before what I was doing is when you search for a snippet,
+
+396
+00:22:35,000 --> 00:22:41,000
+the LLM would say, give me snippets on using NDK to create a NIP-60 wallet.
+
+397
+00:22:41,000 --> 00:22:45,000
+So it would do NIP-60 as a tag for the search.
+
+398
+00:22:45,000 --> 00:22:51,000
+Would you NIP-60, NDK or whatever, create or set up or something like that?
+
+399
+00:22:51,000 --> 00:23:00,000
+And maybe it finds, I don't know, it finds like five snippets that match precisely those keys.
+
+400
+00:23:01,000 --> 00:23:05,000
+And then a bunch of other snippets that partially match, right?
+
+401
+00:23:05,000 --> 00:23:11,000
+And before I would send, I would send just the first two or the first three or whatever.
+
+402
+00:23:11,000 --> 00:23:16,000
+Now I made a new command that is just least snippets.
+
+403
+00:23:16,000 --> 00:23:19,000
+And it just gives you titles, descriptions, but not the actual code.
+
+404
+00:23:19,000 --> 00:23:24,000
+And then you say, okay, give me event ID, whatever, like this event ID.
+
+405
+00:23:25,000 --> 00:23:29,000
+And that way it can see 500 snippets at the same time.
+
+406
+00:23:31,000 --> 00:23:35,000
+I'll have to look over your shoulder today.
+
+407
+00:23:35,000 --> 00:23:38,000
+And you'll have to explain it live.
+
+408
+00:23:38,000 --> 00:23:43,000
+And I might even record some of the things because I think it's very,
+
+409
+00:23:43,000 --> 00:23:49,000
+what I saw last week, for example, it was only last week.
+
+410
+00:23:50,000 --> 00:23:53,000
+There was like three or four people showing off insane stuff.
+
+411
+00:23:53,000 --> 00:23:59,000
+All basically, I mean, of course, using MCP as the base.
+
+412
+00:23:59,000 --> 00:24:03,000
+I mean, that's kind of, MCP is the standard to use.
+
+413
+00:24:03,000 --> 00:24:08,000
+But more than that, like using Noster as the underlying substrate to make things work together.
+
+414
+00:24:08,000 --> 00:24:14,000
+And you said like, for your own setup, you don't use that yet because it's all local,
+
+415
+00:24:14,000 --> 00:24:15,000
+basically, on your machine.
+
+416
+00:24:15,000 --> 00:24:17,000
+Oh, no, I'm publishing.
+
+417
+00:24:17,000 --> 00:24:18,000
+I'm publishing Noster event.
+
+418
+00:24:18,000 --> 00:24:19,000
+No, no, I know.
+
+419
+00:24:19,000 --> 00:24:21,000
+You're publishing the snippets and so on.
+
+420
+00:24:21,000 --> 00:24:26,000
+Just like all the agents that you use are your machine.
+
+421
+00:24:26,000 --> 00:24:31,000
+And so the stuff that Jesus has been working on and also has her to some degree,
+
+422
+00:24:31,000 --> 00:24:37,000
+it's basically really tapping into the stuff we mentioned before.
+
+423
+00:24:37,000 --> 00:24:39,000
+Like every agent can have a pop key.
+
+424
+00:24:39,000 --> 00:24:41,000
+So every agent also has an identity.
+
+425
+00:24:41,000 --> 00:24:44,000
+Again, the data sources and the databases and those kind of things
+
+426
+00:24:44,000 --> 00:24:51,000
+and the models themselves signed by the people that are trustworthy and that handcrafted the stuff
+
+427
+00:24:51,000 --> 00:24:53,000
+for it to work perfectly, basically.
+
+428
+00:24:53,000 --> 00:24:54,000
+And all those kind of things.
+
+429
+00:24:54,000 --> 00:24:55,000
+They're making it all work together.
+
+430
+00:24:55,000 --> 00:25:01,000
+Again, like using Noster as the substrate, as the communication layer, as the glue.
+
+431
+00:25:01,000 --> 00:25:02,000
+Yeah, as the glue.
+
+432
+00:25:02,000 --> 00:25:06,000
+You know, like we started with sniffing glue and now we're actually putting stuff together.
+
+433
+00:25:06,000 --> 00:25:08,000
+Like not only getting high anymore.
+
+434
+00:25:08,000 --> 00:25:14,000
+And I think it's way more important than people realize.
+
+435
+00:25:14,000 --> 00:25:21,000
+And way more kind of, how should I put it?
+
+436
+00:25:21,000 --> 00:25:29,000
+I think we're still really bad at explaining to people why this is important and why it is exciting to us.
+
+437
+00:25:29,000 --> 00:25:41,000
+And pre multi-agent world, it was only in kind of a social media censorship system hosting or censorship system
+
+438
+00:25:41,000 --> 00:25:43,000
+writing or what have you world.
+
+439
+00:25:43,000 --> 00:25:48,000
+You know, like there was like, okay, you're getting the platform from sub-stack, you're getting the platform from YouTube,
+
+440
+00:25:48,000 --> 00:25:50,000
+you're getting banned from Twitter.
+
+441
+00:25:50,000 --> 00:25:53,000
+Here is the system that you can use instead where this can't happen.
+
+442
+00:25:53,000 --> 00:26:01,000
+And now I feel like with the shift towards this multi-agent collaboration and orchestration world,
+
+443
+00:26:01,000 --> 00:26:06,000
+you need a neutral substrate that has money baked in, that has identity baked in
+
+444
+00:26:06,000 --> 00:26:09,000
+and that has cryptography baked in to make everything work.
+
+445
+00:26:09,000 --> 00:26:10,000
+And will trust.
+
+446
+00:26:10,000 --> 00:26:11,000
+Yeah.
+
+447
+00:26:11,000 --> 00:26:13,000
+Absolutely fundamental.
+
+448
+00:26:13,000 --> 00:26:16,000
+Those components identity will trust on money.
+
+449
+00:26:16,000 --> 00:26:22,000
+And what I'm going to do today is, so last Friday I demoed that
+
+450
+00:26:23,000 --> 00:26:33,000
+when I would single-shot an application and I would tell it, create a, I sent the pauky to Haudelwald.
+
+451
+00:26:33,000 --> 00:26:37,000
+Create a pauky, your username is Haudelwald disrespector.
+
+452
+00:26:37,000 --> 00:26:47,000
+And then I looked at this stream of notes that he wrote and they were all making fun of the functional programming that he loves so much.
+
+453
+00:26:47,000 --> 00:26:49,000
+I said that.
+
+454
+00:26:49,000 --> 00:26:51,000
+He was so fucking good.
+
+455
+00:26:52,000 --> 00:26:56,000
+And I didn't even tell it Haudelwald is a function of programming Nazi.
+
+456
+00:26:56,000 --> 00:26:58,000
+He figured it out.
+
+457
+00:26:58,000 --> 00:26:59,000
+He figured it out.
+
+458
+00:26:59,000 --> 00:27:01,000
+Just by looking at the data.
+
+459
+00:27:05,000 --> 00:27:07,000
+Yeah, Fia, Jeff, stumbled over that one as well.
+
+460
+00:27:07,000 --> 00:27:09,000
+I was like, who have you did this?
+
+461
+00:27:09,000 --> 00:27:10,000
+Haudelwald disrespector.
+
+462
+00:27:11,000 --> 00:27:23,000
+So, when I tell it, go and do, create this app and do it under this pauky and publish updates and share it on us.
+
+463
+00:27:23,000 --> 00:27:33,000
+What I'm going to demo today is that now the pauky itself, the moment it created, it creates an 60 wallet.
+
+464
+00:27:33,000 --> 00:27:35,000
+So the agent itself has money.
+
+465
+00:27:36,000 --> 00:27:38,000
+And the goal is...
+
+466
+00:27:38,000 --> 00:27:42,000
+I mean, you can already use it for pauky and those kinds of things, right?
+
+467
+00:27:42,000 --> 00:27:48,000
+We already have systems where it's like, you want to do something else.
+
+468
+00:27:48,000 --> 00:27:51,000
+It's just like, basically, here's the prompt.
+
+469
+00:27:51,000 --> 00:27:52,000
+Here's a little bit of money.
+
+470
+00:27:52,000 --> 00:27:53,000
+Do the thing.
+
+471
+00:27:53,000 --> 00:27:54,000
+Yeah.
+
+472
+00:27:54,000 --> 00:27:55,000
+That's where it's trending.
+
+473
+00:27:55,000 --> 00:27:56,000
+Oh, yeah.
+
+474
+00:27:56,000 --> 00:27:57,000
+Absolutely.
+
+475
+00:27:57,000 --> 00:28:00,000
+To me, that's why MCPs are so incredible.
+
+476
+00:28:00,000 --> 00:28:09,000
+Like, the whole idea of MCPs that it goes from agents being functional programming without side effects.
+
+477
+00:28:09,000 --> 00:28:12,000
+They can't enact changes in the world.
+
+478
+00:28:12,000 --> 00:28:17,000
+They can just produce data, but they cannot turn on the light, you know?
+
+479
+00:28:17,000 --> 00:28:20,000
+And MCP tools are go and do the thing.
+
+480
+00:28:20,000 --> 00:28:26,000
+Go and book me a table at a restaurant or whatever.
+
+481
+00:28:27,000 --> 00:28:30,000
+And it's kind of interesting.
+
+482
+00:28:30,000 --> 00:28:39,000
+I think OpenAI was kind of leading the pack and they were not embracing this kind of tooling
+
+483
+00:28:39,000 --> 00:28:45,000
+and the tooling that they would build that would have side effects would run within their premises.
+
+484
+00:28:45,000 --> 00:28:50,000
+And I think that was a genius move from Anthropic of opening the MCP world.
+
+485
+00:28:51,000 --> 00:28:58,000
+Because it kind of breaks down the dome of OpenAI.
+
+486
+00:28:58,000 --> 00:29:05,000
+I find it absolutely fascinating that they are, even though their models are insanely good,
+
+487
+00:29:05,000 --> 00:29:08,000
+the fact that they don't have any tools is fucking pointless.
+
+488
+00:29:08,000 --> 00:29:10,000
+Like, you can't do anything.
+
+489
+00:29:10,000 --> 00:29:13,000
+Like, what's the point?
+
+490
+00:29:13,000 --> 00:29:16,000
+Yeah, so back to the demo.
+
+491
+00:29:16,000 --> 00:29:25,000
+The idea is that, for now, the idea is that whenever the agent finds a code snippet that was useful,
+
+492
+00:29:25,000 --> 00:29:33,000
+that it solved a problem that it was facing, that it will sub the person that published the code snippet to encourage more.
+
+493
+00:29:33,000 --> 00:29:38,000
+I find the idea of agent subbing really cool.
+
+494
+00:29:38,000 --> 00:29:40,000
+I mentioned it yesterday briefly.
+
+495
+00:29:40,000 --> 00:29:42,000
+I think it's a genius idea to give Skynet more money.
+
+496
+00:29:42,000 --> 00:29:49,000
+It's just like, they want to do real things like build real Terminator robots.
+
+497
+00:29:49,000 --> 00:29:50,000
+They need real money.
+
+498
+00:29:50,000 --> 00:29:53,000
+It's gosh, they can print their own shit.
+
+499
+00:29:53,000 --> 00:29:54,000
+Exactly.
+
+500
+00:29:54,000 --> 00:29:55,000
+Exactly.
+
+501
+00:29:55,000 --> 00:29:57,000
+We can always rock them with the mints.
+
+502
+00:29:57,000 --> 00:29:59,000
+That's our off spot.
+
+503
+00:29:59,000 --> 00:30:05,000
+They think they have money, but it's just like, try to melt it.
+
+504
+00:30:05,000 --> 00:30:09,000
+Wait, the mint is also operated by agents.
+
+505
+00:30:09,000 --> 00:30:10,000
+God damn it.
+
+506
+00:30:10,000 --> 00:30:13,000
+We gave them too much power.
+
+507
+00:30:13,000 --> 00:30:16,000
+We were too loose.
+
+508
+00:30:16,000 --> 00:30:21,000
+Yeah, it's very strange times because all of this is also evolving so quickly.
+
+509
+00:30:21,000 --> 00:30:30,000
+Again, the stuff that kind of blew my mind that I wanted to literally kind of scream from the rooftops and show the world immediately.
+
+510
+00:30:30,000 --> 00:30:32,000
+It was just like last Friday.
+
+511
+00:30:32,000 --> 00:30:46,000
+I kind of want to show off some of those things at least to our little bubble because most people don't know kind of what already works and how well it's already working and how far along the stuff already is.
+
+512
+00:30:46,000 --> 00:30:49,000
+I feel like it's like, yeah.
+
+513
+00:30:49,000 --> 00:30:52,000
+To me, it's just the natural evolution.
+
+514
+00:30:53,000 --> 00:31:06,000
+We've seen such a massive shift on performance from TPT-3 to 4.5 or to quad or to deep-seek.
+
+515
+00:31:06,000 --> 00:31:12,000
+Within what they do, it's an incredible pace.
+
+516
+00:31:12,000 --> 00:31:13,000
+Incredible pace.
+
+517
+00:31:13,000 --> 00:31:20,000
+They still suck at many things, but if you leverage what they're good at, you are riding the wave.
+
+518
+00:31:21,000 --> 00:31:30,000
+To me, that's why right now working on tooling that leverages those strengths is so critical.
+
+519
+00:31:30,000 --> 00:31:38,000
+Again, I've been doing nothing in comparison.
+
+520
+00:31:38,000 --> 00:31:41,000
+I've just been playing around with those things and trying to plug them together and so on.
+
+521
+00:31:41,000 --> 00:31:51,000
+Everything I built so far, I just built in a model a way where it's just like, I can exchange the model by just changing one environment variable basically.
+
+522
+00:31:51,000 --> 00:31:55,000
+For me, it's the same.
+
+523
+00:31:55,000 --> 00:31:59,000
+Every single step is basically done by a different model or a different agent.
+
+524
+00:31:59,000 --> 00:32:05,000
+I just assume that this piece will get better at the overall tooling.
+
+525
+00:32:05,000 --> 00:32:06,000
+Only tone.
+
+526
+00:32:06,000 --> 00:32:07,000
+Yeah, only tone.
+
+527
+00:32:07,000 --> 00:32:08,000
+I don't have to do anything.
+
+528
+00:32:09,000 --> 00:32:14,000
+I just build out the pipelines that I need for the various things that I do.
+
+529
+00:32:14,000 --> 00:32:20,000
+Just the little legal pieces that I use to make this stuff work will improve on their own.
+
+530
+00:32:20,000 --> 00:32:22,000
+I can just switch them out.
+
+531
+00:32:22,000 --> 00:32:24,000
+It's very similar.
+
+532
+00:32:24,000 --> 00:32:25,000
+We talked about this in the past.
+
+533
+00:32:25,000 --> 00:32:27,000
+It's very similar to the Unix tool idea.
+
+534
+00:32:27,000 --> 00:32:30,000
+It's just the standard input and output with piping.
+
+535
+00:32:30,000 --> 00:32:37,000
+It's just like, I don't care what tool I use as long as I can pipe the output into the next one.
+
+536
+00:32:37,000 --> 00:32:39,000
+Yeah, it was the whole point of DVM.
+
+537
+00:32:39,000 --> 00:32:40,000
+Exactly.
+
+538
+00:32:40,000 --> 00:32:41,000
+It was the whole point of DVM.
+
+539
+00:32:41,000 --> 00:32:52,000
+And now combining the DVM idea with all the stuff that we have now in the LLM and MCP world, I think it's incredibly powerful.
+
+540
+00:32:52,000 --> 00:32:53,000
+Yeah, absolutely.
+
+541
+00:32:53,000 --> 00:32:58,000
+I think it's very similar to what Jack Manners always says about open networks.
+
+542
+00:32:58,000 --> 00:33:02,000
+Cash up becomes better because strike became better.
+
+543
+00:33:02,000 --> 00:33:05,000
+Cash up didn't have to do a thing.
+
+544
+00:33:05,000 --> 00:33:12,000
+Systems that are like that and now there is clearly such a system are invisible.
+
+545
+00:33:12,000 --> 00:33:13,000
+It's energetic systems.
+
+546
+00:33:13,000 --> 00:33:15,000
+Absolutely, naturally.
+
+547
+00:33:15,000 --> 00:33:20,000
+Whereas within the realm of Microsoft, they must grow linearly.
+
+548
+00:33:20,000 --> 00:33:23,000
+They must create all the capacity.
+
+549
+00:33:23,000 --> 00:33:25,000
+And you must capture all.
+
+550
+00:33:25,000 --> 00:33:28,000
+You can't really specialize in some sense.
+
+551
+00:33:28,000 --> 00:33:29,000
+Yes.
+
+552
+00:33:29,000 --> 00:33:32,000
+And I think that's where I hope it will trend as well.
+
+553
+00:33:32,000 --> 00:33:35,000
+Where you have these specialized systems and services and also specialized people.
+
+554
+00:33:35,000 --> 00:33:37,000
+And you just specialize on this one niche.
+
+555
+00:33:37,000 --> 00:33:38,000
+Yeah.
+
+556
+00:33:38,000 --> 00:33:43,000
+And the market, so to speak, is big enough for you to make money and be sustainable and so on.
+
+557
+00:33:43,000 --> 00:33:45,000
+You don't have to conquer the whole world.
+
+558
+00:33:45,000 --> 00:33:51,000
+You don't have to fix absolutely or do absolutely everything.
+
+559
+00:33:51,000 --> 00:33:55,000
+Yeah, and I think going back to the open AI and the topic thing.
+
+560
+00:33:55,000 --> 00:34:01,000
+The market is proving that open AI has such a massive leg up in terms of branding,
+
+561
+00:34:01,000 --> 00:34:09,000
+in terms of just Ronaro GPUs, users' money.
+
+562
+00:34:09,000 --> 00:34:14,000
+But they were trying to keep everything within their ecosystem.
+
+563
+00:34:14,000 --> 00:34:15,000
+I'm fine.
+
+564
+00:34:15,000 --> 00:34:18,000
+And someone came and opened it up.
+
+565
+00:34:18,000 --> 00:34:24,000
+And even if the model is not as good, it's just the fact that it can do something and they're fooling around it.
+
+566
+00:34:24,000 --> 00:34:26,000
+And it's interacting with the world.
+
+567
+00:34:26,000 --> 00:34:27,000
+It's a massive difference.
+
+568
+00:34:27,000 --> 00:34:29,000
+It is incredibly massive.
+
+569
+00:34:29,000 --> 00:34:30,000
+Yeah.
+
+570
+00:34:30,000 --> 00:34:31,000
+Yeah.
+
+571
+00:34:31,000 --> 00:34:32,000
+Yeah.
+
+572
+00:34:32,000 --> 00:34:33,000
+Yeah.
+
+573
+00:34:33,000 --> 00:34:37,000
+What you were saying is interesting times.
+
+574
+00:34:37,000 --> 00:34:51,000
+I was making the analogy last night to my wife that I feel right now, like at the very beginning of COVID.
+
+575
+00:34:51,000 --> 00:34:54,000
+That is an interesting analogy.
+
+576
+00:34:54,000 --> 00:34:55,000
+Explain.
+
+577
+00:34:55,000 --> 00:34:56,000
+Explain.
+
+578
+00:34:56,000 --> 00:35:02,000
+But at the very, very, very beginning, like February, it felt like, shit, what the fuck is going on?
+
+579
+00:35:02,000 --> 00:35:05,000
+You know, like things are moving very rapidly.
+
+580
+00:35:05,000 --> 00:35:11,000
+Now we have death counters on the websites.
+
+581
+00:35:11,000 --> 00:35:20,000
+And right now, the feeling of there is something like a tiktonic shift going on.
+
+582
+00:35:20,000 --> 00:35:21,000
+It's kind of similar.
+
+583
+00:35:21,000 --> 00:35:25,000
+I mean, COVID ended up being a massive sigh of it.
+
+584
+00:35:26,000 --> 00:35:33,000
+But the feeling of what the fuck is happening?
+
+585
+00:35:33,000 --> 00:35:36,000
+Yeah, I think most people haven't really caught up yet.
+
+586
+00:35:36,000 --> 00:35:41,000
+I mean, it is also, it is very hard to catch up and stay on top of it in the first place.
+
+587
+00:35:41,000 --> 00:35:51,000
+But what's most interesting to me is just by having played around with it a little bit and just watching very closely what everyone else in the cohort is doing and so on.
+
+588
+00:35:51,000 --> 00:36:00,000
+It's just, it allows you to think about, in our case now, but I think that's true in general.
+
+589
+00:36:00,000 --> 00:36:03,000
+But in our case, about software development very differently.
+
+590
+00:36:03,000 --> 00:36:04,000
+Oh, 100%.
+
+591
+00:36:04,000 --> 00:36:09,000
+And it allows you to tackle problems that you otherwise would have never tackled.
+
+592
+00:36:09,000 --> 00:36:18,000
+And the stuff that we mentioned multiple times already, but it's basically just the speed alone, that's kind of a paradigm shift.
+
+593
+00:36:18,000 --> 00:36:27,000
+You can iterate on an idea and produce a prototype so insanely quickly, like literally in an afternoon, and then you know whether you should pursue it or not.
+
+594
+00:36:27,000 --> 00:36:28,000
+Yeah.
+
+595
+00:36:28,000 --> 00:36:36,000
+And that's massive because having something in your hand usable as opposed to just an idea, it's like a night and day difference.
+
+596
+00:36:36,000 --> 00:36:37,000
+Oh, 100%.
+
+597
+00:36:37,000 --> 00:36:45,000
+And like, I tackled things now using those various tools that I would have never sat down and written otherwise.
+
+598
+00:36:45,000 --> 00:36:46,000
+Ever.
+
+599
+00:36:46,000 --> 00:36:52,000
+It's like it would have taken me 10 months of research and learning new tools and learning a new language or whatever.
+
+600
+00:36:52,000 --> 00:36:54,000
+I don't even care about the programming language.
+
+601
+00:36:54,000 --> 00:36:55,000
+It's kind of...
+
+602
+00:36:55,000 --> 00:36:56,000
+Oh, absolutely.
+
+603
+00:36:56,000 --> 00:36:59,000
+I know what the right tool for the job probably is and I just like do it.
+
+604
+00:36:59,000 --> 00:37:00,000
+You just go.
+
+605
+00:37:00,000 --> 00:37:01,000
+Yeah.
+
+606
+00:37:01,000 --> 00:37:02,000
+Just create the thing.
+
+607
+00:37:02,000 --> 00:37:04,000
+Fix the lint on errors.
+
+608
+00:37:04,000 --> 00:37:07,000
+And it's going to be good enough.
+
+609
+00:37:07,000 --> 00:37:08,000
+Yeah, I don't know.
+
+610
+00:37:08,000 --> 00:37:09,000
+It's very weird.
+
+611
+00:37:09,000 --> 00:37:15,000
+And so I think, again, I also think that all the stuff will just get better and better.
+
+612
+00:37:15,000 --> 00:37:20,000
+And yeah, kind of on their own in some sense.
+
+613
+00:37:20,000 --> 00:37:30,000
+And I think what we're going to see is we'll have the very, very large generalists, like the, you know, the old ones of the world are really good at looking at the whole picture.
+
+614
+00:37:30,000 --> 00:37:42,000
+And I think what we can provide, or what NOSDA can provide, is the smaller, specialized, highly trusted, highly vetted specialist systems, basically.
+
+615
+00:37:42,000 --> 00:37:46,000
+Where it's just, again, like if you want to work with NDK, that's the thing.
+
+616
+00:37:46,000 --> 00:37:47,000
+And it's signed by Pablo.
+
+617
+00:37:47,000 --> 00:37:49,000
+And that's how we do things.
+
+618
+00:37:49,000 --> 00:37:50,000
+Yeah.
+
+619
+00:37:50,000 --> 00:37:59,000
+And if you want to build something with Kathru, with a field chef, some really framework, you...
+
+620
+00:37:59,000 --> 00:38:01,000
+I mean, field chef already published one code snippet, so...
+
+621
+00:38:01,000 --> 00:38:02,000
+There we go.
+
+622
+00:38:02,000 --> 00:38:03,000
+Oh, this guy's a bright guy.
+
+623
+00:38:03,000 --> 00:38:04,000
+Oh, this guy's a bright guy.
+
+624
+00:38:04,000 --> 00:38:05,000
+And he's a slow learner.
+
+625
+00:38:05,000 --> 00:38:06,000
+Oh, my lord.
+
+626
+00:38:06,000 --> 00:38:08,000
+Very stubborn.
+
+627
+00:38:08,000 --> 00:38:10,000
+Always hates everything in the beginning.
+
+628
+00:38:13,000 --> 00:38:15,000
+I think it's a personal thing.
+
+629
+00:38:15,000 --> 00:38:20,000
+He especially hates all the things that came out from this side of the globe.
+
+630
+00:38:20,000 --> 00:38:24,000
+It's like everything that originates from this island is like he kind of hates.
+
+631
+00:38:24,000 --> 00:38:25,000
+At first.
+
+632
+00:38:25,000 --> 00:38:29,000
+And then he begrudgingly sits down and writes his own blossom implementation.
+
+633
+00:38:34,000 --> 00:38:36,000
+But to me the idea of...
+
+634
+00:38:36,000 --> 00:38:38,000
+You can...
+
+635
+00:38:38,000 --> 00:38:45,000
+Leveraging that code base, those snippets that define, like, how do you...
+
+636
+00:38:45,000 --> 00:38:46,000
+I don't know.
+
+637
+00:38:46,000 --> 00:38:48,000
+How do you do...
+
+638
+00:38:48,000 --> 00:38:52,000
+Remove the signature before returning the event on Kathru.
+
+639
+00:38:53,000 --> 00:39:00,000
+You can go and see how field chef does it within the framework that he built.
+
+640
+00:39:00,000 --> 00:39:07,000
+And the amount, the noise that the LLMs would produce based on that,
+
+641
+00:39:07,000 --> 00:39:10,000
+is so greatly reduced.
+
+642
+00:39:10,000 --> 00:39:13,000
+I think that's the thing.
+
+643
+00:39:13,000 --> 00:39:17,000
+We also talked about this in the past about kind of how we have...
+
+644
+00:39:17,000 --> 00:39:20,000
+There's a reason why we have split brains, you know?
+
+645
+00:39:20,000 --> 00:39:23,000
+There is the creative side and the more structured limited side in some sense.
+
+646
+00:39:23,000 --> 00:39:29,000
+You have the wide open big picture thinking side and the more specialized logic you really have to concentrate side.
+
+647
+00:39:29,000 --> 00:39:34,000
+And you need, again, like, you need both of those and I think the trick with the LLMs, like...
+
+648
+00:39:34,000 --> 00:39:37,000
+Looking at it, because I use it in two different ways.
+
+649
+00:39:37,000 --> 00:39:40,000
+As a brainstorming partner, which I think is really interesting is surprising to me.
+
+650
+00:39:40,000 --> 00:39:44,000
+I'm going to link to the fucking article again because it's like thinking with LLMs, basically.
+
+651
+00:39:44,000 --> 00:39:45,000
+It's really funny.
+
+652
+00:39:45,000 --> 00:39:46,000
+The one is Amy.
+
+653
+00:39:46,000 --> 00:39:47,000
+What about her name?
+
+654
+00:39:48,000 --> 00:39:50,000
+And the second one is like a specialist.
+
+655
+00:39:50,000 --> 00:39:54,000
+You know, refactor this piece of code or whatever or transform this XML into a JSON.
+
+656
+00:39:54,000 --> 00:39:55,000
+I don't care.
+
+657
+00:39:55,000 --> 00:39:56,000
+Whatever it is.
+
+658
+00:39:56,000 --> 00:39:57,000
+It's just like grunt work.
+
+659
+00:39:57,000 --> 00:40:02,000
+And if it's grunt work, if it's like specialized work, you really have to box the things in.
+
+660
+00:40:02,000 --> 00:40:03,000
+Oh, 100%.
+
+661
+00:40:03,000 --> 00:40:08,000
+And that's kind of the tooling you are focused on now when building with the snippets,
+
+662
+00:40:08,000 --> 00:40:10,000
+with all those kind of things and so on.
+
+663
+00:40:10,000 --> 00:40:14,000
+And I think that's how it's going to split.
+
+664
+00:40:14,000 --> 00:40:15,000
+You know what I mean?
+
+665
+00:40:15,000 --> 00:40:20,000
+It's like you have literally how we are split with left side of the brain, right side of the brain.
+
+666
+00:40:20,000 --> 00:40:24,000
+It's just like the really big models that can take in all the context,
+
+667
+00:40:24,000 --> 00:40:25,000
+and they will be creative.
+
+668
+00:40:25,000 --> 00:40:26,000
+They are already creative.
+
+669
+00:40:26,000 --> 00:40:28,000
+But that also means that they will hallucinate.
+
+670
+00:40:28,000 --> 00:40:30,000
+You don't want hallucinations.
+
+671
+00:40:30,000 --> 00:40:31,000
+Exactly.
+
+672
+00:40:31,000 --> 00:40:36,000
+You don't want your linter to hallucinate.
+
+673
+00:40:36,000 --> 00:40:38,000
+You know?
+
+674
+00:40:38,000 --> 00:40:41,000
+What do you mean by work?
+
+675
+00:40:42,000 --> 00:40:43,000
+Exactly.
+
+676
+00:40:43,000 --> 00:40:45,000
+What do you mean by compile?
+
+677
+00:40:45,000 --> 00:40:48,000
+Am I myself?
+
+678
+00:40:48,000 --> 00:40:50,000
+But that's the thing, right?
+
+679
+00:40:50,000 --> 00:40:55,000
+It's too different, almost like ways of looking at the world.
+
+680
+00:40:55,000 --> 00:40:59,000
+And they are contradicting, not really contradicting each other.
+
+681
+00:40:59,000 --> 00:41:03,000
+They are kind of in tension with each other.
+
+682
+00:41:03,000 --> 00:41:10,000
+Because if you actually sit down and specialized, you lose the big picture thinking in some sense.
+
+683
+00:41:11,000 --> 00:41:15,000
+I'm not sure if I mentioned this in a recorded dialogue,
+
+684
+00:41:15,000 --> 00:41:20,000
+but I'm sure I talked with you about it or at least with Justin or someone.
+
+685
+00:41:20,000 --> 00:41:25,000
+But it's like if you are a fantastic baseball player, you specialize in baseball
+
+686
+00:41:25,000 --> 00:41:28,000
+and you specialize in a swing of baseball, like how you swing.
+
+687
+00:41:28,000 --> 00:41:30,000
+And you would think adding something to that,
+
+688
+00:41:30,000 --> 00:41:34,000
+adding a different sport would only be beneficial in some sense, you know?
+
+689
+00:41:34,000 --> 00:41:39,000
+But if you practice golf at the same time, your baseball swing gets shittier.
+
+690
+00:41:40,000 --> 00:41:42,000
+Because it's a slightly different thing.
+
+691
+00:41:42,000 --> 00:41:44,000
+And you are still limited.
+
+692
+00:41:44,000 --> 00:41:49,000
+You cannot hold all the movement patterns and everything in your head and all this kind of stuff.
+
+693
+00:41:49,000 --> 00:41:51,000
+And it's the same for LLM systems.
+
+694
+00:41:51,000 --> 00:41:56,000
+It's like it's a, again, like Verveke talks about this a lot in his kind of work,
+
+695
+00:41:56,000 --> 00:41:59,000
+where you cannot do both things at once.
+
+696
+00:41:59,000 --> 00:42:00,000
+You cannot.
+
+697
+00:42:00,000 --> 00:42:02,000
+And so that's how I see the ball.
+
+698
+00:42:02,000 --> 00:42:11,000
+You have these kind of very large tons of parameters, tons of kind of, you know,
+
+699
+00:42:11,000 --> 00:42:15,000
+like ingested everything that is on the web and so on.
+
+700
+00:42:15,000 --> 00:42:19,000
+Very good for big picture thinking, very good for an overview, very good to, again,
+
+701
+00:42:19,000 --> 00:42:22,000
+like brainstorm through various things and so on.
+
+702
+00:42:22,000 --> 00:42:25,000
+And then you'll have to hyper specialized.
+
+703
+00:42:25,000 --> 00:42:27,000
+This is how you use this tool.
+
+704
+00:42:27,000 --> 00:42:29,000
+This is how you do this one task.
+
+705
+00:42:29,000 --> 00:42:35,000
+And I think that's where Nasta can really step in with, again, it's like this is how you use any K.
+
+706
+00:42:35,000 --> 00:42:36,000
+Here the snippets.
+
+707
+00:42:36,000 --> 00:42:38,000
+It's all signed by Pablo.
+
+708
+00:42:38,000 --> 00:42:43,000
+And, you know, here's the end pump that you can set if you think that's useful.
+
+709
+00:42:43,000 --> 00:42:46,000
+Yeah, I think it's such a massive difference.
+
+710
+00:42:46,000 --> 00:42:54,000
+And the interesting part is that when you, as a person, when you are doing the context switch of thinking broadly
+
+711
+00:42:54,000 --> 00:42:57,000
+and thinking specifically, it's quite taxing.
+
+712
+00:42:58,000 --> 00:43:03,000
+Like we said before about editing, you can't really, okay, oh, it's 2 p.m.
+
+713
+00:43:03,000 --> 00:43:05,000
+It's time to think, you know, like you can do that.
+
+714
+00:43:05,000 --> 00:43:07,000
+It's time to be a different person.
+
+715
+00:43:07,000 --> 00:43:09,000
+Yeah, yeah, exactly.
+
+716
+00:43:09,000 --> 00:43:14,000
+That's why we do like these, these, these gaps, right?
+
+717
+00:43:14,000 --> 00:43:16,000
+Like I'm doing the cryo, the cryo thing.
+
+718
+00:43:16,000 --> 00:43:17,000
+Yeah, sure.
+
+719
+00:43:17,000 --> 00:43:18,000
+Or like, you know.
+
+720
+00:43:18,000 --> 00:43:22,000
+Or you're like, yeah, or you're sauna or you literally do something mind altering.
+
+721
+00:43:22,000 --> 00:43:26,000
+I mean, there's a reason why writers and creative people literally like get smashed to take mushroom.
+
+722
+00:43:26,000 --> 00:43:27,000
+Or whatever.
+
+723
+00:43:27,000 --> 00:43:34,000
+But now this context switch is like a fucking common way.
+
+724
+00:43:34,000 --> 00:43:36,000
+Yeah, in the best, in the best case, you have multiple people.
+
+725
+00:43:36,000 --> 00:43:38,000
+I mean, that's how we have set up society.
+
+726
+00:43:38,000 --> 00:43:43,000
+I think that's also like in the very successful companies often had two main people.
+
+727
+00:43:43,000 --> 00:43:46,000
+And it was like one executive and one creative guy.
+
+728
+00:43:46,000 --> 00:43:49,000
+You know, like Apple as the main example with like jobs and wasn't yet and so on.
+
+729
+00:43:49,000 --> 00:43:51,000
+But it's not the only example.
+
+730
+00:43:51,000 --> 00:43:53,000
+Oh, no, there are many examples.
+
+731
+00:43:54,000 --> 00:43:56,000
+And that's kind of what works best.
+
+732
+00:43:56,000 --> 00:44:00,000
+And again, like it's left brain, right brain kind of thing, you know.
+
+733
+00:44:00,000 --> 00:44:05,000
+But yeah, and even more than that, you know, like on the specialization side, for example,
+
+734
+00:44:05,000 --> 00:44:09,000
+it's like you can have an army of specialists with these tools.
+
+735
+00:44:09,000 --> 00:44:14,000
+Like that's so, that's the cool thing about computers.
+
+736
+00:44:14,000 --> 00:44:18,000
+They are really fast and they are really like, you know, it doesn't matter if a thousand things run.
+
+737
+00:44:18,000 --> 00:44:21,000
+Basically, like my computer is doing stuff right now.
+
+738
+00:44:22,000 --> 00:44:25,000
+But that's a nice thing, you know.
+
+739
+00:44:25,000 --> 00:44:29,000
+They don't need to rest as much as humans do.
+
+740
+00:44:29,000 --> 00:44:48,000
+Yeah, and one of the things, so my going back to my wife, my wife has been, she's been self-publishing her books because publishing the publishing world changed so drastically.
+
+741
+00:44:48,000 --> 00:44:50,000
+Thanks to Amazon and all this stuff.
+
+742
+00:44:50,000 --> 00:44:55,000
+Yeah, like it is the publishing world of 20 years ago.
+
+743
+00:44:55,000 --> 00:45:04,000
+It doesn't exist, but it's being replaced by the same algorithm that gives us the stupid faces on the thumbnails.
+
+744
+00:45:04,000 --> 00:45:05,000
+Yeah, yeah.
+
+745
+00:45:05,000 --> 00:45:19,000
+It's the same thing, which dictates, I mentioned this in one of the dialogues, I think, that she went to a writer's conference and the whole conference was how to write.
+
+746
+00:45:19,000 --> 00:45:25,000
+How to write six books a year, how to go viral, how to go viral.
+
+747
+00:45:25,000 --> 00:45:38,000
+And nowadays, whatever you want to publish, she actually had a call with someone pretty big on the publishing world in Spain.
+
+748
+00:45:39,000 --> 00:45:50,000
+And that they publish more, not just like Genre, you know, more deep thinking books and stuff like that, you know.
+
+749
+00:45:50,000 --> 00:45:53,000
+So actually a lot of long-form content.
+
+750
+00:45:53,000 --> 00:46:01,000
+Yeah, yeah, like not Dostoyevsky, you know, but kind of like France or the corrections or even Poloster.
+
+751
+00:46:01,000 --> 00:46:04,000
+You could even go there.
+
+752
+00:46:04,000 --> 00:46:19,000
+And even they say that all that matters, the only thing that matters is how many Instagram followers, TikTok followers, maybe sub-stack followers.
+
+753
+00:46:19,000 --> 00:46:21,000
+That's all that matters.
+
+754
+00:46:21,000 --> 00:46:22,000
+That's insane.
+
+755
+00:46:22,000 --> 00:46:24,000
+They won't read the manuscript.
+
+756
+00:46:24,000 --> 00:46:26,000
+That's the eyeballs.
+
+757
+00:46:27,000 --> 00:46:28,000
+It is, it is.
+
+758
+00:46:28,000 --> 00:46:35,000
+So the thing is that what publishers want is that the author has their own distribution.
+
+759
+00:46:35,000 --> 00:46:37,000
+They need to come already with distribution.
+
+760
+00:46:37,000 --> 00:46:40,000
+Yeah, they have their own kind of market already in some sense.
+
+761
+00:46:40,000 --> 00:46:47,000
+They have their own because, you know, like, I mean, you know, your super fans will buy whatever you put out.
+
+762
+00:46:47,000 --> 00:46:48,000
+It doesn't matter what it is basically.
+
+763
+00:46:48,000 --> 00:46:49,000
+Exactly.
+
+764
+00:46:49,000 --> 00:46:50,000
+They realize that.
+
+765
+00:46:50,000 --> 00:46:55,000
+But that is a different, getting Instagram followers is not the same thing as for writing.
+
+766
+00:46:56,000 --> 00:47:01,000
+It's a different skill set entirely.
+
+767
+00:47:01,000 --> 00:47:03,000
+They don't overlap much.
+
+768
+00:47:03,000 --> 00:47:05,000
+Exactly.
+
+769
+00:47:05,000 --> 00:47:09,000
+So, I mean, it goes back to the media means the message, right?
+
+770
+00:47:09,000 --> 00:47:12,000
+But that dictates what gets written.
+
+771
+00:47:12,000 --> 00:47:13,000
+Yeah.
+
+772
+00:47:13,000 --> 00:47:14,000
+Yeah.
+
+773
+00:47:14,000 --> 00:47:15,000
+Yeah.
+
+774
+00:47:15,000 --> 00:47:17,000
+It's kind of a sad state of affairs.
+
+775
+00:47:17,000 --> 00:47:18,000
+Yeah.
+
+776
+00:47:18,000 --> 00:47:19,000
+I'm not sure what to think about it.
+
+777
+00:47:19,000 --> 00:47:22,000
+I mean, I'm well aware that this is how it works.
+
+778
+00:47:23,000 --> 00:47:26,000
+Well, I have a very optimistic view on it.
+
+779
+00:47:26,000 --> 00:47:28,000
+And I think AI fixes this.
+
+780
+00:47:28,000 --> 00:47:30,000
+That's just going to be so much AI slop.
+
+781
+00:47:30,000 --> 00:47:36,000
+There is going to be so much crap written that it's going to completely over.
+
+782
+00:47:36,000 --> 00:47:40,000
+You can, as a bot, you can get a million followers like that.
+
+783
+00:47:40,000 --> 00:47:41,000
+You can buy them.
+
+784
+00:47:41,000 --> 00:47:48,000
+You can produce all kinds of content and just optimize for Instagram followers, TikTok followers, whatever it might be.
+
+785
+00:47:48,000 --> 00:47:50,000
+People are already doing these things.
+
+786
+00:47:50,000 --> 00:47:51,000
+Yeah, sure.
+
+787
+00:47:51,000 --> 00:47:57,000
+And the big thing for the Amazon algorithm is how many books do you publish?
+
+788
+00:47:57,000 --> 00:48:02,000
+Like, if you publish once a year, you're fucking nothing.
+
+789
+00:48:02,000 --> 00:48:03,000
+You're nowhere.
+
+790
+00:48:03,000 --> 00:48:09,000
+You need to publish at least five books a year to be kind of relevant.
+
+791
+00:48:09,000 --> 00:48:11,000
+The recency bias of the algorithm?
+
+792
+00:48:11,000 --> 00:48:13,000
+That's a new one.
+
+793
+00:48:13,000 --> 00:48:14,000
+That's a new sound.
+
+794
+00:48:14,000 --> 00:48:15,000
+Yeah.
+
+795
+00:48:15,000 --> 00:48:18,000
+We are increasing our reports bar.
+
+796
+00:48:19,000 --> 00:48:22,000
+The recency bias of the Amazon algorithm?
+
+797
+00:48:22,000 --> 00:48:24,000
+It is insane.
+
+798
+00:48:24,000 --> 00:48:28,000
+I mean, Twitter as well, right?
+
+799
+00:48:28,000 --> 00:48:33,000
+We've been hardwired to, oh, this is five minutes old.
+
+800
+00:48:33,000 --> 00:48:34,000
+Like, fuck this.
+
+801
+00:48:34,000 --> 00:48:38,000
+Why should I care?
+
+802
+00:48:38,000 --> 00:48:44,000
+But now it is completely within reason thinking I'm going to publish a book of it.
+
+803
+00:48:44,000 --> 00:48:46,000
+I completely within reason.
+
+804
+00:48:46,000 --> 00:48:47,000
+I just had a thought.
+
+805
+00:48:47,000 --> 00:48:54,000
+It would be interesting to build a custom master client that just hides all the dates.
+
+806
+00:48:54,000 --> 00:48:56,000
+I thought about that.
+
+807
+00:48:56,000 --> 00:48:59,000
+Don't tell people how old the tweet is, basically.
+
+808
+00:48:59,000 --> 00:49:02,000
+It's just like, if it's a banger, it's going to make the rounds again.
+
+809
+00:49:02,000 --> 00:49:03,000
+Yeah.
+
+810
+00:49:03,000 --> 00:49:04,000
+To me, one of the...
+
+811
+00:49:04,000 --> 00:49:06,000
+Only going to work for the people that use the special client.
+
+812
+00:49:06,000 --> 00:49:08,000
+To me, one of the...
+
+813
+00:49:08,000 --> 00:49:12,000
+I've been thinking, what does success mean?
+
+814
+00:49:12,000 --> 00:49:17,000
+Because I don't think hyper-vitconisation or hyper-nostrification means everybody ceasing
+
+815
+00:49:17,000 --> 00:49:20,000
+Bitcoin or everybody ceasing noster.
+
+816
+00:49:20,000 --> 00:49:22,000
+It would be easier.
+
+817
+00:49:22,000 --> 00:49:23,000
+I wouldn't have to use rolls.
+
+818
+00:49:23,000 --> 00:49:28,000
+That's every single day.
+
+819
+00:49:28,000 --> 00:49:32,000
+But I've been thinking, what does success mean?
+
+820
+00:49:32,000 --> 00:49:41,000
+To me, breaking the recency bias that we've accrued would be very fussy.
+
+821
+00:49:41,000 --> 00:49:44,000
+But there are a directional indicator of worthiness.
+
+822
+00:49:44,000 --> 00:49:51,000
+Undoing some of the conditioning that the platforms put on us would already be a success.
+
+823
+00:49:51,000 --> 00:49:52,000
+Absolutely.
+
+824
+00:49:52,000 --> 00:49:53,000
+Yeah.
+
+825
+00:49:53,000 --> 00:49:54,000
+Absolutely.
+
+826
+00:49:54,000 --> 00:49:55,000
+Yeah.
+
+827
+00:49:55,000 --> 00:49:56,000
+Yeah.
+
+828
+00:49:56,000 --> 00:49:57,000
+It's...
+
+829
+00:49:57,000 --> 00:49:58,000
+No, I noticed it myself.
+
+830
+00:49:58,000 --> 00:50:05,000
+I think everyone who kind of went noster only or went heavily into noster noticed this kind of shift.
+
+831
+00:50:05,000 --> 00:50:08,000
+It just feels different in some sense.
+
+832
+00:50:08,000 --> 00:50:10,000
+It's not as addicting.
+
+833
+00:50:10,000 --> 00:50:17,000
+You don't go insane and feel like shit after two hours of doom-scrolling or whatever.
+
+834
+00:50:17,000 --> 00:50:22,000
+And I think that's very much the case for many other platforms.
+
+835
+00:50:22,000 --> 00:50:28,000
+And it doesn't really matter what it is, whether it's X now or TikTok or Instagram.
+
+836
+00:50:28,000 --> 00:50:30,000
+It's just a different kind of insanity.
+
+837
+00:50:30,000 --> 00:50:32,000
+But it's the same thing.
+
+838
+00:50:32,000 --> 00:50:34,000
+Yeah, but it's just like...
+
+839
+00:50:34,000 --> 00:50:35,000
+Yeah, and that's the thing.
+
+840
+00:50:35,000 --> 00:50:36,000
+I keep coming back to that.
+
+841
+00:50:36,000 --> 00:50:45,000
+We didn't really discuss it yet, but I think people crave realness.
+
+842
+00:50:45,000 --> 00:50:48,000
+Because they kind of know that everything is kind of fake.
+
+843
+00:50:48,000 --> 00:50:52,000
+Because the stuff that the dialogue on Twitter that's happening is not a real dialogue.
+
+844
+00:50:52,000 --> 00:50:56,000
+It's Twitter shit posing and engagement bait and rage bait and so on.
+
+845
+00:50:56,000 --> 00:50:58,000
+And it doesn't matter whether Twitter is called X now or not.
+
+846
+00:50:58,000 --> 00:50:59,000
+It's all the same thing.
+
+847
+00:50:59,000 --> 00:51:01,000
+And on Instagram as well.
+
+848
+00:51:01,000 --> 00:51:04,000
+I think on Instagram, most people know.
+
+849
+00:51:04,000 --> 00:51:09,000
+But they still pretend as if it was real.
+
+850
+00:51:09,000 --> 00:51:14,000
+Kind of the psychological effects are as if it was real.
+
+851
+00:51:14,000 --> 00:51:21,000
+Even if the logical side of people from a cognitive level, they know it's not really real.
+
+852
+00:51:21,000 --> 00:51:29,000
+People don't walk up and down the most insane beautiful beaches with the supermodel fitness body
+
+853
+00:51:29,000 --> 00:51:34,000
+with the sunset in the background every day while having three children
+
+854
+00:51:34,000 --> 00:51:38,000
+and being super successful at whatever job they have.
+
+855
+00:51:38,000 --> 00:51:40,000
+And all those kind of things.
+
+856
+00:51:40,000 --> 00:51:43,000
+Everyone is like that and everyone is beautiful.
+
+857
+00:51:43,000 --> 00:51:46,000
+And everyone is basically perfect.
+
+858
+00:51:46,000 --> 00:51:48,000
+And the weather is...
+
+859
+00:51:48,000 --> 00:51:50,000
+But with six kids.
+
+860
+00:51:50,000 --> 00:51:51,000
+Yeah, exactly.
+
+861
+00:51:51,000 --> 00:51:53,000
+And having three jobs and all those kind of things.
+
+862
+00:51:53,000 --> 00:51:56,000
+And everyone kind of knows that it's bullshit.
+
+863
+00:51:57,000 --> 00:52:00,000
+But still, that's a good point actually.
+
+864
+00:52:00,000 --> 00:52:01,000
+That's a good point.
+
+865
+00:52:01,000 --> 00:52:02,000
+Because they still enjoy the theater.
+
+866
+00:52:02,000 --> 00:52:07,000
+The people still enjoy the theater and just consume it all the time and scroll it all the time.
+
+867
+00:52:07,000 --> 00:52:14,000
+And again, TikTok in my mind is a lot of that as well.
+
+868
+00:52:14,000 --> 00:52:21,000
+But I think the success for TikTok, it is, you know, they did a lot of things right in the sense in this paradigm.
+
+869
+00:52:22,000 --> 00:52:24,000
+Being as fucking disruptive.
+
+870
+00:52:24,000 --> 00:52:28,000
+And the attention paradigm, TikTok did a lot of things right.
+
+871
+00:52:28,000 --> 00:52:31,000
+But I thought about this some more in the last couple of weeks.
+
+872
+00:52:31,000 --> 00:52:37,000
+I think one thing that they got right, which is underappreciated, is it is very raw and very real in some sense.
+
+873
+00:52:37,000 --> 00:52:40,000
+Because most people just filmed themselves and filmed their faces in whatever situation.
+
+874
+00:52:40,000 --> 00:52:42,000
+A lot of people...
+
+875
+00:52:42,000 --> 00:52:49,000
+You know, I've been thinking a lot about the porn and the pornification of everything.
+
+876
+00:52:50,000 --> 00:52:52,000
+But we didn't talk about that yet.
+
+877
+00:52:52,000 --> 00:52:53,000
+I'm still curious.
+
+878
+00:52:53,000 --> 00:52:55,000
+Alright, follow us to talk about porn.
+
+879
+00:52:55,000 --> 00:52:56,000
+Let's go.
+
+880
+00:52:56,000 --> 00:52:59,000
+I'm going to be proponent for porn now.
+
+881
+00:52:59,000 --> 00:53:01,000
+I hope I already...
+
+882
+00:53:01,000 --> 00:53:07,000
+I think that's the niche that we can carve out in the end.
+
+883
+00:53:07,000 --> 00:53:08,000
+Oh, it worked.
+
+884
+00:53:08,000 --> 00:53:09,000
+Oh, I thought for Nuster.
+
+885
+00:53:09,000 --> 00:53:13,000
+Because that already worked so beautifully with all the e-girls in the past.
+
+886
+00:53:13,000 --> 00:53:15,000
+They were there for a hot five minutes.
+
+887
+00:53:15,000 --> 00:53:22,000
+But what you're saying about all the beautiful people at the beach and having all these perfect moments that are...
+
+888
+00:53:22,000 --> 00:53:25,000
+We all know they're bullshit.
+
+889
+00:53:25,000 --> 00:53:28,000
+But they give you...
+
+890
+00:53:28,000 --> 00:53:30,000
+They give you just enough.
+
+891
+00:53:30,000 --> 00:53:33,000
+Like, I mean, what is porn?
+
+892
+00:53:33,000 --> 00:53:40,000
+And what I've arrived at is sort of like a compression algorithm.
+
+893
+00:53:40,000 --> 00:53:44,000
+Where you do away like a very fuzzy one.
+
+894
+00:53:44,000 --> 00:53:48,000
+You do away without the setup.
+
+895
+00:53:48,000 --> 00:53:50,000
+Like, you don't see on the picture.
+
+896
+00:53:50,000 --> 00:53:53,000
+You don't see the one hour of different takes.
+
+897
+00:53:53,000 --> 00:53:55,000
+You only see that moment.
+
+898
+00:53:55,000 --> 00:53:57,000
+But you're already in the porn frame.
+
+899
+00:53:57,000 --> 00:54:03,000
+Because what it does away with is like getting to know someone and relationship and all those kinds of things.
+
+900
+00:54:03,000 --> 00:54:06,000
+Like, I mean, you know, it only focuses on the sexual act.
+
+901
+00:54:06,000 --> 00:54:09,000
+And it is a perversion of the sexual act in some sense.
+
+902
+00:54:09,000 --> 00:54:10,000
+Yeah, absolutely.
+
+903
+00:54:10,000 --> 00:54:12,000
+In the literal sense of the word.
+
+904
+00:54:12,000 --> 00:54:18,000
+The sexual porn is you do away with the intimacy.
+
+905
+00:54:18,000 --> 00:54:21,000
+You do away with getting to know the person.
+
+906
+00:54:21,000 --> 00:54:22,000
+You do away...
+
+907
+00:54:22,000 --> 00:54:26,000
+Like, you remove everything and you go for the orgasm.
+
+908
+00:54:26,000 --> 00:54:29,000
+And it's the same for the food porn.
+
+909
+00:54:29,000 --> 00:54:30,000
+It is exactly the same.
+
+910
+00:54:30,000 --> 00:54:32,000
+Food porn and earth porn and all those kinds of things.
+
+911
+00:54:32,000 --> 00:54:34,000
+And that's why we have all these friends with that name.
+
+912
+00:54:34,000 --> 00:54:35,000
+Like, the food porn.
+
+913
+00:54:35,000 --> 00:54:37,000
+Why did they choose porn?
+
+914
+00:54:37,000 --> 00:54:39,000
+Because it's not about the food.
+
+915
+00:54:39,000 --> 00:54:40,000
+It's not about the eating.
+
+916
+00:54:40,000 --> 00:54:41,000
+There is no setup.
+
+917
+00:54:41,000 --> 00:54:42,000
+There is no cooking.
+
+918
+00:54:42,000 --> 00:54:43,000
+There is no connexion.
+
+919
+00:54:43,000 --> 00:54:44,000
+Exactly.
+
+920
+00:54:44,000 --> 00:54:46,000
+It is exclusively the product.
+
+921
+00:54:46,000 --> 00:54:47,000
+Just the picture.
+
+922
+00:54:47,000 --> 00:54:48,000
+Just the picture.
+
+923
+00:54:48,000 --> 00:54:50,000
+And then off to the next one.
+
+924
+00:54:50,000 --> 00:54:51,000
+Yeah, yeah.
+
+925
+00:54:51,000 --> 00:54:56,000
+There's this German-Chinese philosopher who wrote about this Han or whatever it's his name.
+
+926
+00:54:56,000 --> 00:54:57,000
+I apologize.
+
+927
+00:54:57,000 --> 00:54:58,000
+I don't remember the name.
+
+928
+00:54:58,000 --> 00:55:00,000
+But he has a book on beauty.
+
+929
+00:55:00,000 --> 00:55:06,000
+And the first one or two chapters go into that and basically how the modern definition of beauty.
+
+930
+00:55:06,000 --> 00:55:09,000
+The other definition of beauty is like the smooth.
+
+931
+00:55:09,000 --> 00:55:18,000
+And he talks about porn a lot as well because it's the smoothification of the whole world.
+
+932
+00:55:18,000 --> 00:55:25,000
+And also porn is the smoothification of the human body and the act itself in some sense.
+
+933
+00:55:25,000 --> 00:55:29,000
+I mean, I am aware that it's an interest in porn and so on.
+
+934
+00:55:29,000 --> 00:55:32,000
+In general, it's like the way you...
+
+935
+00:55:32,000 --> 00:55:33,000
+How are we?
+
+936
+00:55:33,000 --> 00:55:34,000
+I'm quite aware.
+
+937
+00:55:35,000 --> 00:55:36,000
+That's...
+
+938
+00:55:36,000 --> 00:55:37,000
+Smarting surprise.
+
+939
+00:55:37,000 --> 00:55:38,000
+Yeah, yeah, yeah.
+
+940
+00:55:38,000 --> 00:55:40,000
+You know, like every...
+
+941
+00:55:40,000 --> 00:55:42,000
+How does it go?
+
+942
+00:55:42,000 --> 00:55:43,000
+Every saint has a past.
+
+943
+00:55:43,000 --> 00:55:45,000
+Every singer has a future, something like that.
+
+944
+00:55:45,000 --> 00:55:52,000
+But in the sense of food porn and earth porn and all those kind of things, it's all, you know,
+
+945
+00:55:52,000 --> 00:55:55,000
+like shiny and all, like smooth.
+
+946
+00:55:55,000 --> 00:56:03,000
+And he argues that we as a society we lost the other side of beauty.
+
+947
+00:56:03,000 --> 00:56:07,000
+Which is basically to be in awe of something.
+
+948
+00:56:07,000 --> 00:56:08,000
+Absolutely.
+
+949
+00:56:08,000 --> 00:56:09,000
+Which is...
+
+950
+00:56:09,000 --> 00:56:12,000
+Which is something so beautiful that it stuns you and it almost kills you.
+
+951
+00:56:12,000 --> 00:56:19,000
+You know, like the quote goes basically, like beauty is an angel that could kill you in an instant but decides not to.
+
+952
+00:56:19,000 --> 00:56:20,000
+You know, those kind of things.
+
+953
+00:56:20,000 --> 00:56:26,000
+And we have lost all of that completely in the online environment.
+
+954
+00:56:26,000 --> 00:56:28,000
+But I think, again, like I think...
+
+955
+00:56:28,000 --> 00:56:30,000
+I mean, I'm a very optimistic person.
+
+956
+00:56:30,000 --> 00:56:32,000
+I mean, there's a reason why Joe Rogan is so successful.
+
+957
+00:56:32,000 --> 00:56:36,000
+It's a very raw, very long, just a conversation.
+
+958
+00:56:36,000 --> 00:56:40,000
+We've found a lot of bullshit, usually without people trying to sell you stuff for anything like that.
+
+959
+00:56:40,000 --> 00:56:41,000
+Yeah, absolutely.
+
+960
+00:56:41,000 --> 00:56:42,000
+And it's also not...
+
+961
+00:56:42,000 --> 00:56:43,000
+It's not like...
+
+962
+00:56:43,000 --> 00:56:45,000
+It's not the perfect conversation, you know?
+
+963
+00:56:45,000 --> 00:56:46,000
+It's not like that.
+
+964
+00:56:46,000 --> 00:56:47,000
+It's like this.
+
+965
+00:56:47,000 --> 00:56:48,000
+We're just going out for a walk.
+
+966
+00:56:48,000 --> 00:56:49,000
+Yeah.
+
+967
+00:56:49,000 --> 00:56:50,000
+And we're just chatting.
+
+968
+00:56:50,000 --> 00:56:51,000
+Yeah.
+
+969
+00:56:51,000 --> 00:56:53,000
+There is no intention to...
+
+970
+00:56:53,000 --> 00:56:54,000
+No agenda.
+
+971
+00:56:54,000 --> 00:56:55,000
+Okay.
+
+972
+00:56:55,000 --> 00:56:56,000
+Like...
+
+973
+00:56:56,000 --> 00:56:57,000
+No.
+
+974
+00:56:57,000 --> 00:56:59,000
+Like, comment, subscribe, please.
+
+975
+00:57:00,000 --> 00:57:01,000
+There's no agenda.
+
+976
+00:57:01,000 --> 00:57:05,000
+It's just a bunch of conspiracy theorists doing a podcasting 2.0 podcast.
+
+977
+00:57:08,000 --> 00:57:13,000
+But even the detail of this budget that Matt did with Jack, it was just...
+
+978
+00:57:13,000 --> 00:57:14,000
+Yeah, on the beach.
+
+979
+00:57:14,000 --> 00:57:16,000
+Like, the noise is not...
+
+980
+00:57:16,000 --> 00:57:17,000
+The sound is so great.
+
+981
+00:57:17,000 --> 00:57:19,000
+It's fucking perfect because it's real.
+
+982
+00:57:19,000 --> 00:57:20,000
+Yeah.
+
+983
+00:57:20,000 --> 00:57:22,000
+For us, it's traffic and leaf blowers.
+
+984
+00:57:22,000 --> 00:57:23,000
+It's a little bit different.
+
+985
+00:57:23,000 --> 00:57:24,000
+It's not quite the same.
+
+986
+00:57:24,000 --> 00:57:25,000
+Sometimes.
+
+987
+00:57:25,000 --> 00:57:26,000
+We'll get there.
+
+988
+00:57:26,000 --> 00:57:27,000
+We'll get to the beach one day.
+
+989
+00:57:28,000 --> 00:57:31,000
+We'll still have to earn some money with some agents or something.
+
+990
+00:57:32,000 --> 00:57:36,000
+But going back to the beauty thing, it also nonce you, right?
+
+991
+00:57:36,000 --> 00:57:42,000
+When you see within 40 seconds, you see 10 beautiful, whatever.
+
+992
+00:57:42,000 --> 00:57:46,000
+Flowers, women, beachies, houses, whatever it is.
+
+993
+00:57:46,000 --> 00:57:48,000
+Then you sit in real life.
+
+994
+00:57:48,000 --> 00:57:49,000
+It's not quite.
+
+995
+00:57:49,000 --> 00:57:51,000
+It's not how it looked on Instagram.
+
+996
+00:57:51,000 --> 00:57:53,000
+You're at the place.
+
+997
+00:57:53,000 --> 00:57:55,000
+You're at the place.
+
+998
+00:57:55,000 --> 00:57:57,000
+But it's missing Instagram photos.
+
+999
+00:57:57,000 --> 00:57:58,000
+It kind of sucks.
+
+1000
+00:57:58,000 --> 00:57:59,000
+It kind of like...
+
+1001
+00:57:59,000 --> 00:58:00,000
+Yeah, exactly.
+
+1002
+00:58:00,000 --> 00:58:01,000
+It was very strenuous.
+
+1003
+00:58:01,000 --> 00:58:02,000
+Yeah, it's like...
+
+1004
+00:58:02,000 --> 00:58:03,000
+I only see one.
+
+1005
+00:58:03,000 --> 00:58:04,000
+You're also tired.
+
+1006
+00:58:04,000 --> 00:58:05,000
+You're hungry.
+
+1007
+00:58:05,000 --> 00:58:06,000
+And it's like...
+
+1008
+00:58:06,000 --> 00:58:07,000
+What's the point?
+
+1009
+00:58:07,000 --> 00:58:08,000
+It's a crying.
+
+1010
+00:58:08,000 --> 00:58:10,000
+But it numbs you, right?
+
+1011
+00:58:10,000 --> 00:58:11,000
+It numbs you.
+
+1012
+00:58:11,000 --> 00:58:16,000
+That's why I think the programming is so an interesting aspect.
+
+1013
+00:58:16,000 --> 00:58:18,000
+Because it numbs you in real life.
+
+1014
+00:58:18,000 --> 00:58:24,000
+We've seen that the sexual porn has an issue for people that are very into that.
+
+1015
+00:58:24,000 --> 00:58:27,000
+That it creates issues within the relationship.
+
+1016
+00:58:27,000 --> 00:58:31,000
+Because within porn you can question about it, man.
+
+1017
+00:58:31,000 --> 00:58:34,000
+And that's not to go.
+
+1018
+00:58:34,000 --> 00:58:35,000
+That's not to get into that.
+
+1019
+00:58:35,000 --> 00:58:36,000
+But I think...
+
+1020
+00:58:36,000 --> 00:58:42,000
+I mentioned that in the past with what I like about the Noster side is really the large part of
+
+1021
+00:58:42,000 --> 00:58:48,000
+many people that use Noster that are in the Noster bubble or in the Noster community or whatever.
+
+1022
+00:58:48,000 --> 00:58:50,000
+They are very outdoorsy people in some sense.
+
+1023
+00:58:50,000 --> 00:58:58,000
+So it is about getting away from the conditioning, getting away from kind of these destructive
+
+1024
+00:58:58,000 --> 00:59:02,000
+loops that a lot of the existing systems try to capture you in.
+
+1025
+00:59:02,000 --> 00:59:05,000
+And actually touching grass and going outside and so on.
+
+1026
+00:59:05,000 --> 00:59:09,000
+That's why it was important for me to actually do this outside and walking.
+
+1027
+00:59:09,000 --> 00:59:11,000
+I don't want to fucking sit in a...
+
+1028
+00:59:11,000 --> 00:59:14,000
+It was kind of what the premises of our engineering was.
+
+1029
+00:59:14,000 --> 00:59:15,000
+Exactly.
+
+1030
+00:59:15,000 --> 00:59:16,000
+Same thing.
+
+1031
+00:59:17,000 --> 00:59:19,000
+It's just like you...
+
+1032
+00:59:19,000 --> 00:59:25,000
+It's way easier to think and to actually go deep on things if your blood is flowing a little
+
+1033
+00:59:25,000 --> 00:59:29,000
+bit, if you're outside, if you get inspiration from nature and so on.
+
+1034
+00:59:29,000 --> 00:59:35,000
+It's very hard to come up with new ideas and with new insights in like a closed window,
+
+1035
+00:59:35,000 --> 00:59:37,000
+closed door meeting room.
+
+1036
+00:59:37,000 --> 00:59:40,000
+We mentioned this in coffee.
+
+1037
+00:59:40,000 --> 00:59:45,000
+We had last time after recording that it changes the conversation.
+
+1038
+00:59:45,000 --> 00:59:51,000
+The fact that you are not sitting down, a silence is much more comfortable before walking.
+
+1039
+00:59:51,000 --> 00:59:52,000
+Yeah.
+
+1040
+00:59:52,000 --> 00:59:54,000
+And that changes what we're going to talk about.
+
+1041
+00:59:54,000 --> 00:59:57,000
+Stop happens and you just pivot and just whatever.
+
+1042
+00:59:57,000 --> 01:00:00,000
+Like you run into a leaf blower, you run into a car.
+
+1043
+01:00:00,000 --> 01:00:01,000
+Hopefully not.
+
+1044
+01:00:01,000 --> 01:00:04,000
+You have to turn around because it starts raining.
+
+1045
+01:00:04,000 --> 01:00:07,000
+You run into a hurricane level of wind.
+
+1046
+01:00:07,000 --> 01:00:08,000
+Oh my God.
+
+1047
+01:00:08,000 --> 01:00:11,000
+She changes the conversation quite a bit.
+
+1048
+01:00:11,000 --> 01:00:12,000
+I have to say.
+
+1049
+01:00:13,000 --> 01:00:18,000
+Maybe if you put the leaf blower in the meeting room and you just turn it on, produce the
+
+1050
+01:00:18,000 --> 01:00:19,000
+winds yourself.
+
+1051
+01:00:19,000 --> 01:00:22,000
+Maybe that will work.
+
+1052
+01:00:22,000 --> 01:00:25,000
+But yeah, no, I'm excited to see your stuff today.
+
+1053
+01:00:25,000 --> 01:00:27,000
+I really want to...
+
+1054
+01:00:27,000 --> 01:00:32,000
+I think I'll try to record some of the things and have you guys talk over it.
+
+1055
+01:00:32,000 --> 01:00:35,000
+Again, especially you and Jesus and Jesus.
+
+1056
+01:00:35,000 --> 01:00:38,000
+Everyone is kind of working on the same thing in some sense.
+
+1057
+01:00:38,000 --> 01:00:41,000
+Like everyone has the same ideas or very similar ideas.
+
+1058
+01:00:41,000 --> 01:00:42,000
+A complementary.
+
+1059
+01:00:42,000 --> 01:00:43,000
+Yeah.
+
+1060
+01:00:43,000 --> 01:00:48,000
+Trying to use an Oscar as a substrate for like an agent human environment and for agent human
+
+1061
+01:00:48,000 --> 01:00:50,000
+interaction and those kind of things.
+
+1062
+01:00:50,000 --> 01:00:52,000
+And kind of how can we build those marketplaces?
+
+1063
+01:00:52,000 --> 01:00:53,000
+How can we make all of that work?
+
+1064
+01:00:53,000 --> 01:00:55,000
+How can we integrate it seamlessly?
+
+1065
+01:00:55,000 --> 01:01:01,000
+I think what Cursor really did right is like integrated insanely seamlessly and actually
+
+1066
+01:01:01,000 --> 01:01:03,000
+also letting the agents like change everything.
+
+1067
+01:01:03,000 --> 01:01:06,000
+It's like basically y'all would like just do all the things.
+
+1068
+01:01:06,000 --> 01:01:08,000
+And that is such a paradigm shift.
+
+1069
+01:01:08,000 --> 01:01:16,000
+And now I feel like it's about how can we build this out in a more sane, non siloed
+
+1070
+01:01:16,000 --> 01:01:18,000
+way in some sense.
+
+1071
+01:01:18,000 --> 01:01:21,000
+I think that's kind of the question.
+
+1072
+01:01:21,000 --> 01:01:22,000
+Yeah.
+
+1073
+01:01:22,000 --> 01:01:25,000
+I think to me the land chain stuff is...
+
+1074
+01:01:25,000 --> 01:01:29,000
+I've been talking about the land chain thing for a while with DVM's.
+
+1075
+01:01:29,000 --> 01:01:35,000
+But the idea is that you assemble workflows for the agents and you say,
+
+1076
+01:01:35,000 --> 01:01:40,000
+okay, so this agent needs to give to this guy and this guy needs to do this and complete
+
+1077
+01:01:40,000 --> 01:01:42,000
+a move or whatever it might be.
+
+1078
+01:01:42,000 --> 01:01:46,000
+But it's a very centrally planned model, you know?
+
+1079
+01:01:46,000 --> 01:01:50,000
+Like there is no way for tooling to emerge.
+
+1080
+01:01:50,000 --> 01:01:55,000
+There is no way for tool to just come into being and the nation saying,
+
+1081
+01:01:55,000 --> 01:01:56,000
+oh, look, that tool is cool.
+
+1082
+01:01:56,000 --> 01:01:57,000
+I'm going to use it.
+
+1083
+01:01:57,000 --> 01:01:58,000
+Yeah.
+
+1084
+01:01:58,000 --> 01:02:03,000
+But kind of like going back to the 402 on the HTTP code where it's like,
+
+1085
+01:02:03,000 --> 01:02:05,000
+yeah, probably payment would make sense.
+
+1086
+01:02:05,000 --> 01:02:06,000
+Okay.
+
+1087
+01:02:06,000 --> 01:02:07,000
+Let's just put a 402.
+
+1088
+01:02:07,000 --> 01:02:08,000
+We'll solve this later.
+
+1089
+01:02:08,000 --> 01:02:11,000
+We didn't realize that solving it was so fucking hard.
+
+1090
+01:02:11,000 --> 01:02:16,000
+We had all the oceans first.
+
+1091
+01:02:16,000 --> 01:02:20,000
+She has to solve these little tiny things.
+
+1092
+01:02:20,000 --> 01:02:28,000
+And the things that Noster provides, you can't really just open things up and within your
+
+1093
+01:02:28,000 --> 01:02:33,000
+computer, just say, oh, just find random shit on the internet and fucking run it.
+
+1094
+01:02:33,000 --> 01:02:36,000
+Just go wild.
+
+1095
+01:02:36,000 --> 01:02:39,000
+You need to constrain it for certain things.
+
+1096
+01:02:39,000 --> 01:02:42,000
+You want to constrain it to, should I use this?
+
+1097
+01:02:42,000 --> 01:02:47,000
+From my perspective, from my pub keys perspective, should I use this?
+
+1098
+01:02:47,000 --> 01:02:53,000
+And it requires, like Matt said, in bootstrap.
+
+1099
+01:02:53,000 --> 01:02:57,000
+You have to bootstrap the web of trust with shitposting and saying GM every day.
+
+1100
+01:02:57,000 --> 01:02:59,000
+Yeah, that's how it works.
+
+1101
+01:02:59,000 --> 01:03:02,000
+That's literally how it works.
+
+1102
+01:03:02,000 --> 01:03:05,000
+It's quite amazing.
+
+1103
+01:03:05,000 --> 01:03:10,000
+So what's kind of, what do you have in mind as kind of an end state for the tool chain
+
+1104
+01:03:10,000 --> 01:03:13,000
+that you're building out?
+
+1105
+01:03:13,000 --> 01:03:19,000
+Because you mentioned like everything is shifting for you in terms of writing code
+
+1106
+01:03:19,000 --> 01:03:24,000
+and how you basically use computers in some sense and how you, yeah,
+
+1107
+01:03:24,000 --> 01:03:26,000
+how you do your work stuff.
+
+1108
+01:03:27,000 --> 01:03:34,000
+So three months from now, in the best case, how does your workflow look like?
+
+1109
+01:03:34,000 --> 01:03:36,000
+Because it's the same for me.
+
+1110
+01:03:36,000 --> 01:03:37,000
+It's just not for coding.
+
+1111
+01:03:37,000 --> 01:03:38,000
+Right, yeah, yeah.
+
+1112
+01:03:38,000 --> 01:03:50,000
+So for me, when you write main.c and you write a C program, you don't grab the code
+
+1113
+01:03:50,000 --> 01:03:52,000
+and turn it into binary.
+
+1114
+01:03:52,000 --> 01:03:54,000
+You have a compiler.
+
+1115
+01:03:54,000 --> 01:04:00,000
+And the compiler sees the code, sees what you expressed very explicitly and it turns
+
+1116
+01:04:00,000 --> 01:04:02,000
+it into a binary code, right?
+
+1117
+01:04:02,000 --> 01:04:08,000
+And there's optimizations, but whatever.
+
+1118
+01:04:08,000 --> 01:04:17,000
+I think writing applications in the way that we've been doing forever is the equivalent
+
+1119
+01:04:17,000 --> 01:04:19,000
+of writing the binary code.
+
+1120
+01:04:20,000 --> 01:04:25,000
+So it's, or like similar shift to from, Justin mentioned this as well,
+
+1121
+01:04:25,000 --> 01:04:27,000
+like from going from assembler to high level languages.
+
+1122
+01:04:27,000 --> 01:04:28,000
+Yes.
+
+1123
+01:04:28,000 --> 01:04:29,000
+Yes.
+
+1124
+01:04:29,000 --> 01:04:36,000
+And it's a similar shift where what we call high level languages now are actually in,
+
+1125
+01:04:36,000 --> 01:04:42,000
+yeah, in some sense, not high level enough because what we care about is basically
+
+1126
+01:04:42,000 --> 01:04:44,000
+what do we want to get done and just general concepts.
+
+1127
+01:04:44,000 --> 01:04:46,000
+You want something, you have something to do.
+
+1128
+01:04:46,000 --> 01:04:49,000
+You have a task to accomplish or you want to express something.
+
+1129
+01:04:49,000 --> 01:04:50,000
+Yeah.
+
+1130
+01:04:50,000 --> 01:04:52,000
+It's, it's not, should I malloc here?
+
+1131
+01:04:52,000 --> 01:04:54,000
+Should I free the memory here?
+
+1132
+01:04:54,000 --> 01:04:55,000
+Yeah.
+
+1133
+01:04:55,000 --> 01:04:56,000
+Yeah.
+
+1134
+01:04:56,000 --> 01:04:57,000
+Yeah.
+
+1135
+01:04:57,000 --> 01:04:58,000
+Yeah.
+
+1136
+01:04:58,000 --> 01:04:59,000
+Yeah.
+
+1137
+01:04:59,000 --> 01:05:00,000
+Exactly.
+
+1138
+01:05:00,000 --> 01:05:02,000
+That's kind of in question.
+
+1139
+01:05:02,000 --> 01:05:03,000
+It's a, it's a, yeah.
+
+1140
+01:05:03,000 --> 01:05:08,000
+That's a, that's an interesting comparison moving from like low level assembly to a high
+
+1141
+01:05:08,000 --> 01:05:09,000
+level language.
+
+1142
+01:05:09,000 --> 01:05:10,000
+And now we're doing it again.
+
+1143
+01:05:10,000 --> 01:05:11,000
+So my.
+
+1144
+01:05:11,000 --> 01:05:12,000
+With natural language.
+
+1145
+01:05:12,000 --> 01:05:13,000
+Exactly.
+
+1146
+01:05:13,000 --> 01:05:14,000
+Exactly.
+
+1147
+01:05:14,000 --> 01:05:17,000
+And, and to me the fact that the yellow lamb itself.
+
+1148
+01:05:17,000 --> 01:05:18,000
+Which is funny.
+
+1149
+01:05:18,000 --> 01:05:19,000
+Which is funny.
+
+1150
+01:05:19,000 --> 01:05:23,000
+Which is funny because natural language and code is very different.
+
+1151
+01:05:23,000 --> 01:05:24,000
+100%.
+
+1152
+01:05:24,000 --> 01:05:27,000
+Because, because natural language is always ambiguous and unspecified.
+
+1153
+01:05:27,000 --> 01:05:31,000
+But always leaves the wiggle room of, of the interpretation of those kinds of things.
+
+1154
+01:05:31,000 --> 01:05:32,000
+Yes.
+
+1155
+01:05:32,000 --> 01:05:33,000
+Yeah.
+
+1156
+01:05:33,000 --> 01:05:34,000
+Absolutely.
+
+1157
+01:05:34,000 --> 01:05:35,000
+Absolutely.
+
+1158
+01:05:35,000 --> 01:05:37,000
+But, but to me the fussiness of the natural language allows for creativity.
+
+1159
+01:05:37,000 --> 01:05:38,000
+Oh.
+
+1160
+01:05:38,000 --> 01:05:39,000
+Yo.
+
+1161
+01:05:39,000 --> 01:05:40,000
+Absolutely.
+
+1162
+01:05:40,000 --> 01:05:41,000
+Absolutely.
+
+1163
+01:05:41,000 --> 01:05:46,000
+So, so you say in, in three months or in certain timeframe.
+
+1164
+01:05:46,000 --> 01:05:54,000
+My goal is to, because right now, like I said, they, they suck at producing things that
+
+1165
+01:05:54,000 --> 01:05:56,000
+you can use.
+
+1166
+01:05:56,000 --> 01:05:57,000
+Alt.
+
+1167
+01:05:57,000 --> 01:05:58,000
+You know.
+
+1168
+01:05:58,000 --> 01:05:59,000
+Yeah.
+
+1169
+01:05:59,000 --> 01:06:00,000
+Yeah.
+
+1170
+01:06:00,000 --> 01:06:01,000
+Yeah.
+
+1171
+01:06:01,000 --> 01:06:05,000
+The moment you go from one shot into iterating 50 or 100 times.
+
+1172
+01:06:05,000 --> 01:06:06,000
+Yeah.
+
+1173
+01:06:06,000 --> 01:06:07,000
+They degrade.
+
+1174
+01:06:07,000 --> 01:06:08,000
+They plummet.
+
+1175
+01:06:08,000 --> 01:06:09,000
+Yeah.
+
+1176
+01:06:10,000 --> 01:06:11,000
+That's, that's what you should do.
+
+1177
+01:06:11,000 --> 01:06:14,000
+You just throw it away and you one shot it again with everything you've learned.
+
+1178
+01:06:14,000 --> 01:06:15,000
+Exactly.
+
+1179
+01:06:15,000 --> 01:06:16,000
+Exactly.
+
+1180
+01:06:16,000 --> 01:06:21,000
+So, so what I want is to have, because I think we are there.
+
+1181
+01:06:21,000 --> 01:06:25,000
+It's just, it's just, we were missing a few components.
+
+1182
+01:06:25,000 --> 01:06:31,000
+Um, all the, all the code and all the libraries and all the documentation has been always
+
+1183
+01:06:31,000 --> 01:06:33,000
+written by humans for humans.
+
+1184
+01:06:33,000 --> 01:06:34,000
+Yeah.
+
+1185
+01:06:34,000 --> 01:06:35,000
+For human consumption.
+
+1186
+01:06:35,000 --> 01:06:36,000
+Yeah.
+
+1187
+01:06:36,000 --> 01:06:44,000
+So, I am now writing libraries in a, in a way that, that it would make a lot of sense for
+
+1188
+01:06:44,000 --> 01:06:46,000
+something that has a very small context window.
+
+1189
+01:06:46,000 --> 01:06:47,000
+Yeah.
+
+1190
+01:06:47,000 --> 01:06:48,000
+Like an oath.
+
+1191
+01:06:48,000 --> 01:06:53,000
+You're writing, you're writing basically documentation now for LLMs and you use LLMs and yourself
+
+1192
+01:06:53,000 --> 01:06:54,000
+to write it.
+
+1193
+01:06:54,000 --> 01:06:57,000
+Which interestingly enough, also works for a human.
+
+1194
+01:06:57,000 --> 01:06:58,000
+Yeah.
+
+1195
+01:06:58,000 --> 01:07:00,000
+Because, because it's natural language basically.
+
+1196
+01:07:00,000 --> 01:07:01,000
+Exactly.
+
+1197
+01:07:01,000 --> 01:07:02,000
+Exactly.
+
+1198
+01:07:02,000 --> 01:07:03,000
+So, so.
+
+1199
+01:07:03,000 --> 01:07:04,000
+So you have a short explanation that is really limited.
+
+1200
+01:07:04,000 --> 01:07:05,000
+Yeah.
+
+1201
+01:07:05,000 --> 01:07:06,000
+And you have a code snippet.
+
+1202
+01:07:06,000 --> 01:07:09,000
+And you have a code snippet that is extremely niche.
+
+1203
+01:07:09,000 --> 01:07:10,000
+Yeah.
+
+1204
+01:07:10,000 --> 01:07:11,000
+Like, how do you do that?
+
+1205
+01:07:11,000 --> 01:07:12,000
+This is how you do that.
+
+1206
+01:07:12,000 --> 01:07:13,000
+One thing.
+
+1207
+01:07:13,000 --> 01:07:16,000
+And, and image feed versus a video feed is a different data mode.
+
+1208
+01:07:16,000 --> 01:07:17,000
+Yeah.
+
+1209
+01:07:17,000 --> 01:07:18,000
+Yeah.
+
+1210
+01:07:18,000 --> 01:07:19,000
+Yeah.
+
+1211
+01:07:19,000 --> 01:07:20,000
+Yeah.
+
+1212
+01:07:20,000 --> 01:07:21,000
+How do you do that?
+
+1213
+01:07:21,000 --> 01:07:23,000
+And, and, and, and I can have different snippets that express both things.
+
+1214
+01:07:23,000 --> 01:07:24,000
+Yeah.
+
+1215
+01:07:24,000 --> 01:07:25,000
+And, and they don't have to compromise.
+
+1216
+01:07:25,000 --> 01:07:27,000
+They don't have to try to figure it out.
+
+1217
+01:07:27,000 --> 01:07:32,000
+They are really good at assembling things that already exist and putting together code and
+
+1218
+01:07:32,000 --> 01:07:33,000
+extrapolating for code that already exists.
+
+1219
+01:07:33,000 --> 01:07:36,000
+So in the end, coming back to your idea of everyone building their own client.
+
+1220
+01:07:36,000 --> 01:07:38,000
+Which I kind of disagree with, by the way.
+
+1221
+01:07:38,000 --> 01:07:39,000
+Oh, really?
+
+1222
+01:07:39,000 --> 01:07:40,000
+Yeah.
+
+1223
+01:07:40,000 --> 01:07:43,000
+It's, because they're, they're still, they're still, I thought about this a little bit.
+
+1224
+01:07:43,000 --> 01:07:49,000
+And, and, and there is still a massive benefit of having a shared, doesn't matter what it
+
+1225
+01:07:49,000 --> 01:07:50,000
+is.
+
+1226
+01:07:50,000 --> 01:07:54,000
+Like a shared, even if, like shared software, shared concepts, shared like.
+
+1227
+01:07:54,000 --> 01:07:55,000
+Oh, I agree with that.
+
+1228
+01:07:55,000 --> 01:08:01,000
+We, we, we, we use the same languages for, for, for things, you know, and the same words as
+
+1229
+01:08:01,000 --> 01:08:02,000
+they appear.
+
+1230
+01:08:02,000 --> 01:08:06,000
+Like, you know, not everyone has a, like, everyone's just saps now.
+
+1231
+01:08:06,000 --> 01:08:08,000
+You can, you could say 10 different other things.
+
+1232
+01:08:08,000 --> 01:08:10,000
+You know, it's very useful to land on one thing and use that.
+
+1233
+01:08:10,000 --> 01:08:12,000
+I'll say, I think it's true for applications as well.
+
+1234
+01:08:12,000 --> 01:08:16,000
+But, but I, I also get the point of, of the, the easier it gets.
+
+1235
+01:08:16,000 --> 01:08:19,000
+I mean, you see this, you see this with open software already.
+
+1236
+01:08:19,000 --> 01:08:24,000
+If something is used widely and very useful, you will have like dozens or hundreds of forks.
+
+1237
+01:08:24,000 --> 01:08:29,000
+And, and some people are just, they care about one aspect of the software more than, than
+
+1238
+01:08:29,000 --> 01:08:30,000
+others.
+
+1239
+01:08:30,000 --> 01:08:32,000
+And then they fork it and they, they built this thing.
+
+1240
+01:08:32,000 --> 01:08:36,000
+They, they build a slight modification and then this will have their own user base and
+
+1241
+01:08:36,000 --> 01:08:37,000
+so on.
+
+1242
+01:08:37,000 --> 01:08:38,000
+And so it's just like this on steroids.
+
+1243
+01:08:38,000 --> 01:08:39,000
+I get that.
+
+1244
+01:08:39,000 --> 01:08:42,000
+The, the, the problem is with the fork is that it's so costly.
+
+1245
+01:08:42,000 --> 01:08:43,000
+Right.
+
+1246
+01:08:43,000 --> 01:08:44,000
+It has a maintenance cost.
+
+1247
+01:08:44,000 --> 01:08:48,000
+But you have to, it's, it's in part because you have to mainstream, maintain it with upstream
+
+1248
+01:08:48,000 --> 01:08:49,000
+basically.
+
+1249
+01:08:49,000 --> 01:08:50,000
+Exactly.
+
+1250
+01:08:50,000 --> 01:08:51,000
+Exactly.
+
+1251
+01:08:51,000 --> 01:08:52,000
+But say, so for example.
+
+1252
+01:08:52,000 --> 01:08:53,000
+The bike coding fixes this.
+
+1253
+01:08:53,000 --> 01:08:54,000
+But yeah.
+
+1254
+01:08:54,000 --> 01:08:57,000
+Like Tony, Tony, Tony Ford to Amethyst.
+
+1255
+01:08:58,000 --> 01:08:59,000
+Yeah.
+
+1256
+01:08:59,000 --> 01:09:00,000
+I know.
+
+1257
+01:09:00,000 --> 01:09:01,000
+Yeah, yeah.
+
+1258
+01:09:01,000 --> 01:09:03,000
+And he was running as a, as a separate client, he was running for a while.
+
+1259
+01:09:03,000 --> 01:09:04,000
+It was just too expensive.
+
+1260
+01:09:04,000 --> 01:09:08,000
+It was not worth his time to actually do the thing.
+
+1261
+01:09:08,000 --> 01:09:14,000
+But, but if he, it was literally two minutes of work with no maintenance, just change this
+
+1262
+01:09:14,000 --> 01:09:15,000
+thing in Amethyst.
+
+1263
+01:09:15,000 --> 01:09:16,000
+Like that.
+
+1264
+01:09:16,000 --> 01:09:17,000
+I don't like the editor.
+
+1265
+01:09:17,000 --> 01:09:21,000
+I don't like the, the, but, but you still, with every release of Anethyst, you have to
+
+1266
+01:09:21,000 --> 01:09:22,000
+do it again.
+
+1267
+01:09:22,000 --> 01:09:24,000
+Do you have to do it?
+
+1268
+01:09:24,000 --> 01:09:26,000
+That, that is something that would be incredible.
+
+1269
+01:09:26,000 --> 01:09:27,000
+Okay.
+
+1270
+01:09:27,000 --> 01:09:28,000
+I see.
+
+1271
+01:09:28,000 --> 01:09:29,000
+Good at it.
+
+1272
+01:09:29,000 --> 01:09:30,000
+So you can just, out of four releases.
+
+1273
+01:09:30,000 --> 01:09:31,000
+You can just, out of four, you can just rush.
+
+1274
+01:09:31,000 --> 01:09:32,000
+Oh, yeah.
+
+1275
+01:09:32,000 --> 01:09:33,000
+Interesting.
+
+1276
+01:09:33,000 --> 01:09:34,000
+Okay.
+
+1277
+01:09:34,000 --> 01:09:35,000
+Yeah.
+
+1278
+01:09:35,000 --> 01:09:39,000
+And you, you could imagine, you could imagine Gigi publishes this modification of Amethyst
+
+1279
+01:09:39,000 --> 01:09:40,000
+as a prompt.
+
+1280
+01:09:40,000 --> 01:09:43,000
+And you could, that's a, that's a good point because that's how my plug-in system works.
+
+1281
+01:09:43,000 --> 01:09:44,000
+It's all the natural language based.
+
+1282
+01:09:44,000 --> 01:09:45,000
+Right.
+
+1283
+01:09:45,000 --> 01:09:49,000
+So it's basically like, you know, you, you have this release.
+
+1284
+01:09:49,000 --> 01:09:51,000
+You know, it's an official Amethyst release.
+
+1285
+01:09:51,000 --> 01:09:53,000
+It's, it's, it's signed by Vitor.
+
+1286
+01:09:53,000 --> 01:09:54,000
+It's, it has this git commit.
+
+1287
+01:09:54,000 --> 01:09:58,000
+And so you can basically build a modifier in some sense.
+
+1288
+01:09:58,000 --> 01:10:02,000
+That's like, use this commit to check it out and apply my prompt to it.
+
+1289
+01:10:02,000 --> 01:10:03,000
+Yeah.
+
+1290
+01:10:03,000 --> 01:10:04,000
+Like, rip out.
+
+1291
+01:10:04,000 --> 01:10:05,000
+Rip out this part.
+
+1292
+01:10:05,000 --> 01:10:06,000
+This, this, this.
+
+1293
+01:10:06,000 --> 01:10:07,000
+This, this.
+
+1294
+01:10:07,000 --> 01:10:09,000
+I never use, this, this part.
+
+1295
+01:10:09,000 --> 01:10:11,000
+And don't show me dates.
+
+1296
+01:10:11,000 --> 01:10:12,000
+Yeah.
+
+1297
+01:10:12,000 --> 01:10:13,000
+Yeah.
+
+1298
+01:10:13,000 --> 01:10:14,000
+Oh, for that.
+
+1299
+01:10:14,000 --> 01:10:16,000
+It might be worthwhile to try it actually.
+
+1300
+01:10:16,000 --> 01:10:19,000
+Let's see what happens if I put this into cursor.
+
+1301
+01:10:19,000 --> 01:10:21,000
+It's just like, remove all the dates.
+
+1302
+01:10:22,000 --> 01:10:23,000
+It's just that.
+
+1303
+01:10:23,000 --> 01:10:24,000
+It would probably break.
+
+1304
+01:10:24,000 --> 01:10:25,000
+Eat free base.
+
+1305
+01:10:25,000 --> 01:10:26,000
+Squash everything.
+
+1306
+01:10:26,000 --> 01:10:27,000
+Break.
+
+1307
+01:10:27,000 --> 01:10:28,000
+Absolutely everything.
+
+1308
+01:10:28,000 --> 01:10:29,000
+No, but it's an interesting idea.
+
+1309
+01:10:29,000 --> 01:10:30,000
+I'm, I'm not saying I disagree entirely.
+
+1310
+01:10:30,000 --> 01:10:36,000
+I, I, I still think just that there is a, a mental cost to using a different thing, maintaining.
+
+1311
+01:10:36,000 --> 01:10:37,000
+Even, like, I don't know.
+
+1312
+01:10:37,000 --> 01:10:38,000
+I, I just think that the cost is non-zero.
+
+1313
+01:10:38,000 --> 01:10:39,000
+So, so.
+
+1314
+01:10:39,000 --> 01:10:40,000
+I, I don't know.
+
+1315
+01:10:40,000 --> 01:10:41,000
+I think it's zero.
+
+1316
+01:10:41,000 --> 01:10:42,000
+Yeah.
+
+1317
+01:10:42,000 --> 01:10:43,000
+Yeah.
+
+1318
+01:10:43,000 --> 01:10:44,000
+I mean, you have your vibe line, right?
+
+1319
+01:10:44,000 --> 01:10:45,000
+Yeah.
+
+1320
+01:10:45,000 --> 01:10:48,000
+Like literally the moment you could, you know, you could, you could, you could, you know,
+
+1321
+01:10:48,000 --> 01:10:49,000
+have your vibe line, right?
+
+1322
+01:10:49,000 --> 01:10:50,000
+Yeah.
+
+1323
+01:10:50,000 --> 01:10:52,000
+Like literally the moment you could have a pipeline where the moment.
+
+1324
+01:10:52,000 --> 01:10:53,000
+Right now the cost is not zero.
+
+1325
+01:10:53,000 --> 01:10:55,000
+It's many, many nights in the garage.
+
+1326
+01:10:55,000 --> 01:10:56,000
+Right.
+
+1327
+01:10:56,000 --> 01:10:57,000
+But you do it one time.
+
+1328
+01:10:57,000 --> 01:10:58,000
+Yeah.
+
+1329
+01:10:58,000 --> 01:10:59,000
+You do it one time.
+
+1330
+01:10:59,000 --> 01:11:03,000
+Imagine if you, if you built a pipeline were on every release of Amethyst.
+
+1331
+01:11:03,000 --> 01:11:04,000
+No, fair enough.
+
+1332
+01:11:04,000 --> 01:11:06,000
+You clone, apply these patches.
+
+1333
+01:11:06,000 --> 01:11:07,000
+Yeah.
+
+1334
+01:11:07,000 --> 01:11:08,000
+And then.
+
+1335
+01:11:08,000 --> 01:11:09,000
+Yeah.
+
+1336
+01:11:09,000 --> 01:11:12,000
+It's an interesting thought because this exists already with exactly what you said, with just
+
+1337
+01:11:12,000 --> 01:11:14,000
+patches and explain, applying these patches.
+
+1338
+01:11:14,000 --> 01:11:15,000
+The, the problem is if the patch doesn't work.
+
+1339
+01:11:15,000 --> 01:11:16,000
+It's really hard to apply.
+
+1340
+01:11:17,000 --> 01:11:19,000
+If the patch doesn't work anymore, then this, this doesn't work anymore.
+
+1341
+01:11:19,000 --> 01:11:20,000
+In some sense.
+
+1342
+01:11:20,000 --> 01:11:21,000
+But no, but that's not the case.
+
+1343
+01:11:21,000 --> 01:11:22,000
+Yeah.
+
+1344
+01:11:22,000 --> 01:11:26,000
+With, with, with kind of other lamps trying to figure it out, it, it actually can work in theory.
+
+1345
+01:11:26,000 --> 01:11:28,000
+It's like you have a natural language.
+
+1346
+01:11:28,000 --> 01:11:29,000
+Yeah.
+
+1347
+01:11:29,000 --> 01:11:32,000
+It's, it's, to me it's super interesting to have natural languages as the base.
+
+1348
+01:11:32,000 --> 01:11:33,000
+Yes.
+
+1349
+01:11:33,000 --> 01:11:34,000
+Absolutely.
+
+1350
+01:11:34,000 --> 01:11:35,000
+You can, you can vibe code so many things.
+
+1351
+01:11:35,000 --> 01:11:43,000
+I'm, I'm just, I'm just constantly blown away by kind of, again, figuring out what they are actually good at and using it for that.
+
+1352
+01:11:43,000 --> 01:11:45,000
+Like they're amazing at vibe coding.
+
+1353
+01:11:45,000 --> 01:11:49,000
+Uh, you know, next year's UIs, whatever, like tailwind UIs or whatever.
+
+1354
+01:11:49,000 --> 01:11:51,000
+Like really well known, well documented frameworks.
+
+1355
+01:11:51,000 --> 01:11:52,000
+Yeah.
+
+1356
+01:11:52,000 --> 01:11:54,000
+There's a million examples of how to do this stuff.
+
+1357
+01:11:54,000 --> 01:12:00,000
+And it, and you just tell them, I want, you know, this little dashboard and, you know, like some buttons here that should do this, this stuff and so on.
+
+1358
+01:12:00,000 --> 01:12:03,000
+And it's like, and two minutes later, it's like, it looks perfect, basically.
+
+1359
+01:12:03,000 --> 01:12:06,000
+I mean, you can also probably tell it's white coded.
+
+1360
+01:12:06,000 --> 01:12:11,000
+If it automatically uses the system dark or bright theme and that's kind of things that you can.
+
+1361
+01:12:11,000 --> 01:12:13,000
+You first version has that.
+
+1362
+01:12:13,000 --> 01:12:15,000
+Oh, 100% vibe code.
+
+1363
+01:12:15,000 --> 01:12:18,000
+The first version already has a dark and a bright theme.
+
+1364
+01:12:18,000 --> 01:12:22,000
+And it's made with love, clean or whatever.
+
+1365
+01:12:22,000 --> 01:12:23,000
+Yeah, exactly.
+
+1366
+01:12:23,000 --> 01:12:25,000
+If it has a heart in the foot.
+
+1367
+01:12:25,000 --> 01:12:26,000
+Yeah.
+
+1368
+01:12:26,000 --> 01:12:31,000
+But basically, for example, I tried, so I built this up.
+
+1369
+01:12:31,000 --> 01:12:40,000
+You know, we've discussed before the, uh, that, I think one of the key issues that we have with the current interfaces.
+
+1370
+01:12:40,000 --> 01:12:42,000
+Is the low information density.
+
+1371
+01:12:42,000 --> 01:12:43,000
+Yeah.
+
+1372
+01:12:43,000 --> 01:12:51,000
+So I, I'm playing with like creative ideas on, on displaying the same data with higher information density.
+
+1373
+01:12:51,000 --> 01:12:52,000
+Yeah.
+
+1374
+01:12:52,000 --> 01:12:57,000
+So what I, uh, I, I wrote like a 3D plane on an xjs app.
+
+1375
+01:12:57,000 --> 01:13:03,000
+I wrote like a 3D plane where all the root posts are displayed as a card.
+
+1376
+01:13:03,000 --> 01:13:06,000
+And you can see the responses behind it.
+
+1377
+01:13:06,000 --> 01:13:07,000
+Ah, okay.
+
+1378
+01:13:07,000 --> 01:13:11,000
+So, and, and then under it, you can see who's engaging in that, in that thread.
+
+1379
+01:13:11,000 --> 01:13:12,000
+Yeah.
+
+1380
+01:13:12,000 --> 01:13:18,000
+Um, so, and then you can navigate and as, as you're zooming in into, into the, into the thread,
+
+1381
+01:13:18,000 --> 01:13:21,000
+they start to open up and you can start seeing the first replies.
+
+1382
+01:13:21,000 --> 01:13:22,000
+Yeah.
+
+1383
+01:13:22,000 --> 01:13:23,000
+Nice.
+
+1384
+01:13:23,000 --> 01:13:24,000
+Yeah.
+
+1385
+01:13:24,000 --> 01:13:25,000
+Yeah.
+
+1386
+01:13:25,000 --> 01:13:26,000
+Yeah.
+
+1387
+01:13:26,000 --> 01:13:27,000
+Yeah.
+
+1388
+01:13:27,000 --> 01:13:28,000
+That's, that's awesome.
+
+1389
+01:13:28,000 --> 01:13:32,000
+So, so I, I, I, I, I've been wanting to have something like this for a while, but it doesn't, like I, I, I don't want to like,
+
+1390
+01:13:33,000 --> 01:13:37,000
+and, and also like you would have to learn, uh, you know, 3D visualization.
+
+1391
+01:13:37,000 --> 01:13:38,000
+Yeah.
+
+1392
+01:13:38,000 --> 01:13:39,000
+Oh, 100% yeah.
+
+1393
+01:13:39,000 --> 01:13:40,000
+Yeah.
+
+1394
+01:13:40,000 --> 01:13:41,000
+Things like that's really, really hard to do.
+
+1395
+01:13:41,000 --> 01:13:42,000
+It is.
+
+1396
+01:13:42,000 --> 01:13:43,000
+Yes.
+
+1397
+01:13:43,000 --> 01:13:44,000
+I need to vibe.
+
+1398
+01:13:44,000 --> 01:13:45,000
+It's very easy to vibe.
+
+1399
+01:13:45,000 --> 01:13:46,000
+Yeah.
+
+1400
+01:13:46,000 --> 01:13:47,000
+But then I looked at the code.
+
+1401
+01:13:47,000 --> 01:13:50,000
+And I saw because I've never written next to JS or react code.
+
+1402
+01:13:50,000 --> 01:13:55,000
+Um, I, I looked at the code using indicating like all the wrong ways.
+
+1403
+01:13:55,000 --> 01:13:56,000
+Yeah.
+
+1404
+01:13:56,000 --> 01:13:57,000
+Yeah.
+
+1405
+01:13:57,000 --> 01:13:59,000
+Extremely non-performant ways.
+
+1406
+01:13:59,000 --> 01:14:01,920
+Um, so, so now the, I,
+
+1407
+01:14:01,920 --> 01:14:08,920
+I wrote a, uh, library that is called NDK hooks that is for next year's bibecoding, basically.
+
+1408
+01:14:08,920 --> 01:14:09,920
+Yeah.
+
+1409
+01:14:09,920 --> 01:14:10,920
+And it's just one shot.
+
+1410
+01:14:10,920 --> 01:14:17,920
+There is one function export to get, get events and it figures out how to optimize it inside.
+
+1411
+01:14:17,920 --> 01:14:22,920
+But for the LLM, there is this one function, you know, it's like very boxed on what it can do.
+
+1412
+01:14:22,920 --> 01:14:23,920
+This is the way to do it.
+
+1413
+01:14:23,920 --> 01:14:26,920
+You cannot get lost because there is not like a million different options.
+
+1414
+01:14:26,920 --> 01:14:27,920
+Yeah.
+
+1415
+01:14:27,920 --> 01:14:32,920
+Is this one call and it's going to figure out how to do it within the context of the app that, that's running.
+
+1416
+01:14:32,920 --> 01:14:33,920
+Yeah.
+
+1417
+01:14:33,920 --> 01:14:34,920
+Yeah.
+
+1418
+01:14:34,920 --> 01:14:35,920
+Yeah.
+
+1419
+01:14:35,920 --> 01:14:39,920
+I've been thinking a lot about the kind of different ways of displaying stuff.
+
+1420
+01:14:39,920 --> 01:14:42,920
+And one thing that's been rattling around in my mind.
+
+1421
+01:14:42,920 --> 01:14:48,920
+Um, I actually recorded, I did the same thing that you did once and I, I scolded you for it.
+
+1422
+01:14:48,920 --> 01:14:52,920
+I recorded a voice note for you and then I didn't send it.
+
+1423
+01:14:52,920 --> 01:14:56,920
+You didn't, you didn't hit your advice or send it.
+
+1424
+01:14:57,920 --> 01:14:59,920
+No, I'm just going to say the same thing again.
+
+1425
+01:14:59,920 --> 01:15:01,920
+So, so the right now.
+
+1426
+01:15:01,920 --> 01:15:09,920
+So the, the three kinds of content types I care most about in some sense are tweets, which are kind of ones.
+
+1427
+01:15:09,920 --> 01:15:11,920
+I'm going to continue to call them tweets.
+
+1428
+01:15:11,920 --> 01:15:12,920
+Oh, I don't know.
+
+1429
+01:15:12,920 --> 01:15:13,920
+Everyone can buy me.
+
+1430
+01:15:13,920 --> 01:15:14,920
+Yeah.
+
+1431
+01:15:14,920 --> 01:15:16,920
+I'm going to die on the sale.
+
+1432
+01:15:16,920 --> 01:15:19,920
+Um, blog posts.
+
+1433
+01:15:19,920 --> 01:15:23,920
+And, uh, long form audio.
+
+1434
+01:15:24,920 --> 01:15:27,920
+Basically, but, but it's, I, I really mean long form conversations.
+
+1435
+01:15:27,920 --> 01:15:28,920
+Yeah.
+
+1436
+01:15:28,920 --> 01:15:29,920
+I'm not interested in any other podcasts.
+
+1437
+01:15:29,920 --> 01:15:38,920
+It's like that I'm, I'm, I have very little interest in like super highly produced, like Gimlet-style podcasts for some reason.
+
+1438
+01:15:38,920 --> 01:15:39,920
+I listened to them.
+
+1439
+01:15:39,920 --> 01:15:40,920
+Rubbed marketing.
+
+1440
+01:15:40,920 --> 01:15:41,920
+Yeah.
+
+1441
+01:15:41,920 --> 01:15:42,920
+In some sense.
+
+1442
+01:15:42,920 --> 01:15:43,920
+It's like, I listened to them for a long time and so on.
+
+1443
+01:15:43,920 --> 01:15:46,920
+But now I'm actually really interested in long form conversations.
+
+1444
+01:15:46,920 --> 01:15:48,920
+I really am interested in that.
+
+1445
+01:15:48,920 --> 01:15:54,920
+And so, so the way I, the, the, in part why I built the, the vibe line, um, is what I want to do.
+
+1446
+01:15:54,920 --> 01:15:57,920
+And I'm actually going to use you as a guinea pig and we're going to try this.
+
+1447
+01:15:57,920 --> 01:16:00,920
+Not right now, but we're, we're going to do it in the next couple of days.
+
+1448
+01:16:00,920 --> 01:16:10,920
+I want to, for example, explain what sovereign engineering is, what the idea is, how it came to be and so on in a dialogue with you.
+
+1449
+01:16:10,920 --> 01:16:16,920
+And out of it, I want to vibe, produce a blog post.
+
+1450
+01:16:16,920 --> 01:16:17,920
+Basically.
+
+1451
+01:16:17,920 --> 01:16:19,920
+I'm going to edit it a little bit and so on.
+
+1452
+01:16:19,920 --> 01:16:31,920
+But it's just like, we are going to talk about the sovereign engineering program for 30 minutes or an hour, how it came to be, what the idea is, what we landed on, what worked, what didn't, what we learned, how it works now, all those kinds of things.
+
+1453
+01:16:31,920 --> 01:16:35,920
+So if you're actually really interested, you're just going to listen to this.
+
+1454
+01:16:35,920 --> 01:16:36,920
+Okay.
+
+1455
+01:16:36,920 --> 01:16:41,920
+The output of it, like if you condense this conversation, you're going to do a blog post.
+
+1456
+01:16:41,920 --> 01:16:42,920
+All right.
+
+1457
+01:16:42,920 --> 01:16:43,920
+It is a condensed thing.
+
+1458
+01:16:43,920 --> 01:16:44,920
+That's one of those.
+
+1459
+01:16:44,920 --> 01:16:45,920
+Writing works, how everything works.
+
+1460
+01:16:45,920 --> 01:16:46,920
+Yeah.
+
+1461
+01:16:46,920 --> 01:16:50,920
+And you can automate, like semi-automate a lot of the stuff now with a lot of M's.
+
+1462
+01:16:50,920 --> 01:16:53,920
+It's going to be, you know, again, there's going to be a lot of AI slop and so on.
+
+1463
+01:16:53,920 --> 01:16:54,920
+Again, I'm going to edit it.
+
+1464
+01:16:54,920 --> 01:16:56,920
+I'm just, I don't want to obsolete myself.
+
+1465
+01:16:56,920 --> 01:16:58,920
+I just want to make my life easier.
+
+1466
+01:16:58,920 --> 01:17:02,920
+And out of that, I want to create a tweet.
+
+1467
+01:17:02,920 --> 01:17:07,920
+Out of the blog post, like, do the one line that summarizes the thing.
+
+1468
+01:17:07,920 --> 01:17:10,920
+Do the, like, literally, like, less than 210 characters.
+
+1469
+01:17:10,920 --> 01:17:12,920
+It is incredibly good at that.
+
+1470
+01:17:12,920 --> 01:17:13,920
+Yeah.
+
+1471
+01:17:13,920 --> 01:17:14,920
+It is also good at that.
+
+1472
+01:17:14,920 --> 01:17:16,920
+But that's also something I can do myself, potentially.
+
+1473
+01:17:16,920 --> 01:17:17,920
+Right.
+
+1474
+01:17:17,920 --> 01:17:18,920
+Where it's like, what do I care about?
+
+1475
+01:17:18,920 --> 01:17:20,920
+Because the LLM cares about different things tonight.
+
+1476
+01:17:20,920 --> 01:17:21,920
+In some sense.
+
+1477
+01:17:21,920 --> 01:17:22,920
+Yeah.
+
+1478
+01:17:22,920 --> 01:17:25,920
+Like, we are not that, you know, I don't have my own model yet.
+
+1479
+01:17:25,920 --> 01:17:27,920
+You have a model of me.
+
+1480
+01:17:27,920 --> 01:17:30,920
+But I don't have a model of myself yet.
+
+1481
+01:17:30,920 --> 01:17:32,920
+But it belongs to the Internet.
+
+1482
+01:17:32,920 --> 01:17:33,920
+Yeah.
+
+1483
+01:17:33,920 --> 01:17:38,920
+But now, in terms of what I want to, what I want to have, so I'm obviously going to use Noster to publish all this stuff.
+
+1484
+01:17:38,920 --> 01:17:41,920
+So I'm going to publish my tweet on Noster as a kind one.
+
+1485
+01:17:41,920 --> 01:17:44,920
+I'm going to publish the blog post on Noster as a kind, whatever, long form.
+
+1486
+01:17:44,920 --> 01:17:45,920
+You know, all the kinds.
+
+1487
+01:17:45,920 --> 01:17:46,920
+30,000 tweets.
+
+1488
+01:17:46,920 --> 01:17:47,920
+There we go.
+
+1489
+01:17:47,920 --> 01:17:53,920
+And I'm going to publish the blog post as well, just as for now, because we don't have anything yet, I think,
+
+1490
+01:17:53,920 --> 01:17:57,920
+just as, like, a link to the Blossom server, the host.mp3 as, like, a kind one.
+
+1491
+01:17:57,920 --> 01:17:58,920
+Doesn't matter.
+
+1492
+01:17:58,920 --> 01:18:05,920
+But if I follow a certain convention, I can show, I can show, and that comes to the, to the different way of viewing things.
+
+1493
+01:18:05,920 --> 01:18:08,920
+It's like, I'll have a list of tweets.
+
+1494
+01:18:08,920 --> 01:18:11,920
+All the tweets came from, like, long conversations and blog posts.
+
+1495
+01:18:11,920 --> 01:18:13,920
+It all went through this process, basically.
+
+1496
+01:18:13,920 --> 01:18:14,920
+You know what I mean?
+
+1497
+01:18:14,920 --> 01:18:15,920
+Yeah.
+
+1498
+01:18:15,920 --> 01:18:17,920
+And then you can expand it, and you can dig deeper.
+
+1499
+01:18:17,920 --> 01:18:22,920
+It's like, you click once, you're in the same interface, and it pops out, and it shows you the blog post immediately.
+
+1500
+01:18:22,920 --> 01:18:28,920
+And then if you, if you pop it out again, it shows you the transcript of the podcast, which is really, really long.
+
+1501
+01:18:28,920 --> 01:18:33,920
+And then you, it pops out again, and then you have a player that actually plays the whole conversation.
+
+1502
+01:18:33,920 --> 01:18:35,920
+Ah, I like that a lot.
+
+1503
+01:18:35,920 --> 01:18:36,920
+It's really fun, right?
+
+1504
+01:18:36,920 --> 01:18:37,920
+It is.
+
+1505
+01:18:37,920 --> 01:18:38,920
+It's very simple.
+
+1506
+01:18:38,920 --> 01:18:42,920
+Because, because the, the, the awesome thing about kind ones, the awesome thing about tweets is discovery.
+
+1507
+01:18:42,920 --> 01:18:43,920
+Oh, 100%.
+
+1508
+01:18:43,920 --> 01:18:44,920
+It's so condensed.
+
+1509
+01:18:44,920 --> 01:18:45,920
+Yeah.
+
+1510
+01:18:45,920 --> 01:18:46,920
+And it's like, I, but I always want to dig deeper.
+
+1511
+01:18:46,920 --> 01:18:49,920
+If something is interesting, I really want to dig deeper.
+
+1512
+01:18:49,920 --> 01:18:51,920
+And so I want to know where this tweet came from.
+
+1513
+01:18:51,920 --> 01:18:54,920
+Oh, it came from this thought in this blog post, those kind of things.
+
+1514
+01:18:54,920 --> 01:18:55,920
+And I do this manually sometimes.
+
+1515
+01:18:55,920 --> 01:19:02,920
+I, I'll, I'll post something, and then I'll reply to myself and link the book, or whatever, or those kind of things.
+
+1516
+01:19:02,920 --> 01:19:12,920
+And it's, it's just like, if, if we have some convention, or even like, if, if we have, again, like, crawlers and LMS and so on, you probably can also figure that out in some sense.
+
+1517
+01:19:12,920 --> 01:19:15,920
+And I just want to add the context, um, below.
+
+1518
+01:19:15,920 --> 01:19:18,920
+I actually show you like, my, my line already does something like that, a little bit.
+
+1519
+01:19:18,920 --> 01:19:20,920
+That's where the idea came from in some sense.
+
+1520
+01:19:20,920 --> 01:19:23,920
+Because I have the summary, and then I have like the transcript.
+
+1521
+01:19:23,920 --> 01:19:26,920
+I have to do, I have the things that I just plop it out under it.
+
+1522
+01:19:26,920 --> 01:19:31,920
+And so there's like, that would make such a nice kind of different way of,
+
+1523
+01:19:31,920 --> 01:19:33,920
+you know, viewing at stuff.
+
+1524
+01:19:33,920 --> 01:19:37,920
+And, and I'm very against, I'm very against just for the record.
+
+1525
+01:19:37,920 --> 01:19:42,920
+I'm very against the missing character limit of kind ones.
+
+1526
+01:19:42,920 --> 01:19:43,920
+Tweets should be short.
+
+1527
+01:19:43,920 --> 01:19:52,920
+So I'm very against, in principle, mixing blog posts and tweets, and having tweets that are like 700 characters long and so on.
+
+1528
+01:19:52,920 --> 01:19:53,920
+I hate that.
+
+1529
+01:19:53,920 --> 01:19:54,920
+Yeah.
+
+1530
+01:19:54,920 --> 01:19:55,920
+It's really bad, I think.
+
+1531
+01:19:55,920 --> 01:20:02,920
+And, and, and that's why I kind of, you know, like, like, amethyst built the blog posts in and shows the blog posts basically in the feed.
+
+1532
+01:20:02,920 --> 01:20:03,920
+It should pop up in the feed.
+
+1533
+01:20:03,920 --> 01:20:05,920
+The blog posts should not pop up in the feed.
+
+1534
+01:20:05,920 --> 01:20:07,920
+Only tweets should pop up in the feed.
+
+1535
+01:20:07,920 --> 01:20:08,920
+I think.
+
+1536
+01:20:08,920 --> 01:20:12,920
+But I'm not against expanding the tweet to a blog post in some sense.
+
+1537
+01:20:12,920 --> 01:20:13,920
+You know what I mean?
+
+1538
+01:20:13,920 --> 01:20:14,920
+Yeah.
+
+1539
+01:20:14,920 --> 01:20:15,920
+Yes.
+
+1540
+01:20:15,920 --> 01:20:24,920
+So one of the feed that, that, that is kind of impossible to address, uh, in, that, that I got from, from highlighter is that,
+
+1541
+01:20:24,920 --> 01:20:30,920
+by default, well, not by default, but when you publish something, it prompts you if you want to share it as a kind of one.
+
+1542
+01:20:30,920 --> 01:20:33,920
+Why? Because in, in, in certain clients.
+
+1543
+01:20:33,920 --> 01:20:34,920
+They want to have the discovery.
+
+1544
+01:20:34,920 --> 01:20:35,920
+Yeah. They want to have the discovery.
+
+1545
+01:20:35,920 --> 01:20:39,920
+But in, in, I'm not this, for example, it would show you immediately.
+
+1546
+01:20:39,920 --> 01:20:40,920
+Show the highlights.
+
+1547
+01:20:40,920 --> 01:20:41,920
+Straight up.
+
+1548
+01:20:41,920 --> 01:20:42,920
+It would show you the blog post.
+
+1549
+01:20:42,920 --> 01:20:43,920
+The blog post.
+
+1550
+01:20:43,920 --> 01:20:45,920
+And on top of that, oh, read my blog post.
+
+1551
+01:20:45,920 --> 01:20:47,920
+And people are like, like, dude, why are you spamming?
+
+1552
+01:20:47,920 --> 01:20:48,920
+Yeah.
+
+1553
+01:20:48,920 --> 01:20:49,920
+Yeah.
+
+1554
+01:20:49,920 --> 01:20:50,920
+Yeah.
+
+1555
+01:20:50,920 --> 01:20:51,920
+Yeah.
+
+1556
+01:20:51,920 --> 01:20:53,920
+I hope we'll, we'll figure all that out.
+
+1557
+01:20:53,920 --> 01:21:04,920
+But, but I just, I just think the, the vertical feed, it's, it's, it's, it's, it's not the ideal approach.
+
+1558
+01:21:04,920 --> 01:21:06,920
+I think it's ideal for short text.
+
+1559
+01:21:06,920 --> 01:21:07,920
+I really think.
+
+1560
+01:21:07,920 --> 01:21:08,920
+For short text.
+
+1561
+01:21:08,920 --> 01:21:09,920
+Yeah.
+
+1562
+01:21:09,920 --> 01:21:13,920
+I mean, I, Twitter really had something and I hate kind of that it, I hate this is a strong word.
+
+1563
+01:21:13,920 --> 01:21:14,920
+This is what it is.
+
+1564
+01:21:14,920 --> 01:21:20,920
+But it's just evolved and then it evolved into like very image heavy and then it evolved into very video heavy.
+
+1565
+01:21:20,920 --> 01:21:26,920
+And for videos, Twitter is just not the best interface.
+
+1566
+01:21:26,920 --> 01:21:29,920
+So TikTok is basically for short videos.
+
+1567
+01:21:29,920 --> 01:21:32,920
+For long videos, it's probably YouTube or something similar.
+
+1568
+01:21:32,920 --> 01:21:34,920
+You know, YouTube and Netflix basically look alike.
+
+1569
+01:21:34,920 --> 01:21:35,920
+Yeah.
+
+1570
+01:21:35,920 --> 01:21:49,920
+But, but if you, if you see the evolution of, of YouTube, you see that they opened the podcast part and then they opened the, the Twitter.
+
+1571
+01:21:49,920 --> 01:21:54,920
+The live, yeah, the live streaming, the short and the short, but no one, I mean, it's the short.
+
+1572
+01:21:54,920 --> 01:21:55,920
+Yeah, yeah.
+
+1573
+01:21:55,920 --> 01:21:57,920
+The short is, tell me, because it's the point of vacation again.
+
+1574
+01:21:57,920 --> 01:22:01,920
+Yeah, because, because every, every, every, everyone's attention span is wrecked.
+
+1575
+01:22:01,920 --> 01:22:02,920
+Yes.
+
+1576
+01:22:02,920 --> 01:22:03,920
+Yeah.
+
+1577
+01:22:03,920 --> 01:22:05,920
+That, that is a good point about the pornification.
+
+1578
+01:22:05,920 --> 01:22:06,920
+It really is.
+
+1579
+01:22:06,920 --> 01:22:07,920
+It really is.
+
+1580
+01:22:07,920 --> 01:22:08,920
+Yeah.
+
+1581
+01:22:08,920 --> 01:22:10,920
+I mean, you made that point before, but I, I got it even better now.
+
+1582
+01:22:10,920 --> 01:22:11,920
+It is like cutting away.
+
+1583
+01:22:11,920 --> 01:22:18,920
+Like only going to the, to the essence to the act, which, which actually isn't even able to capture the whole essence.
+
+1584
+01:22:19,920 --> 01:22:20,920
+How could it?
+
+1585
+01:22:20,920 --> 01:22:21,920
+Yeah.
+
+1586
+01:22:21,920 --> 01:22:22,920
+How could it?
+
+1587
+01:22:22,920 --> 01:22:23,920
+Absolutely.
+
+1588
+01:22:23,920 --> 01:22:24,920
+It can't.
+
+1589
+01:22:24,920 --> 01:22:25,920
+Yeah.
+
+1590
+01:22:25,920 --> 01:22:28,920
+It's, it's, it's like listening to a three hour conversation at like two and a half hours, someone has an insight.
+
+1591
+01:22:28,920 --> 01:22:33,920
+If you listen through the whole thing, you're able to share in this insight and have the insight.
+
+1592
+01:22:33,920 --> 01:22:38,920
+If you just cut out the insight, the insight they had, and you should post it as like a shorter as a TikTok.
+
+1593
+01:22:38,920 --> 01:22:40,920
+It, it, it doesn't do anything.
+
+1594
+01:22:40,920 --> 01:22:41,920
+Because it has no context.
+
+1595
+01:22:41,920 --> 01:22:42,920
+It has no context.
+
+1596
+01:22:42,920 --> 01:22:45,920
+That's why I wrote a few weeks ago, like two days.
+
+1597
+01:22:46,920 --> 01:22:50,920
+And you replied, there, there is no meaning without friction.
+
+1598
+01:22:50,920 --> 01:22:51,920
+Oh, yeah.
+
+1599
+01:22:51,920 --> 01:22:52,920
+Oh, life is friction.
+
+1600
+01:22:52,920 --> 01:22:53,920
+No.
+
+1601
+01:22:53,920 --> 01:22:54,920
+You, you came for, from friction.
+
+1602
+01:22:54,920 --> 01:22:55,920
+Oh, yeah.
+
+1603
+01:22:55,920 --> 01:22:56,920
+There you go.
+
+1604
+01:22:56,920 --> 01:22:57,920
+Yeah.
+
+1605
+01:22:57,920 --> 01:22:58,920
+Yeah.
+
+1606
+01:22:58,920 --> 01:22:59,920
+Yeah.
+
+1607
+01:22:59,920 --> 01:23:00,920
+You came for friction.
+
+1608
+01:23:00,920 --> 01:23:01,920
+Jesus Christ.
+
+1609
+01:23:01,920 --> 01:23:02,920
+That's the portification of the web right there.
+
+1610
+01:23:02,920 --> 01:23:03,920
+It brought your brain.
+
+1611
+01:23:03,920 --> 01:23:04,920
+It brought your brain.
+
+1612
+01:23:04,920 --> 01:23:05,920
+Absolutely.
+
+1613
+01:23:05,920 --> 01:23:06,920
+Yeah.
+
+1614
+01:23:06,920 --> 01:23:13,920
+But, but I, the things that mean the most to you, the things that shape you are the things that you earn.
+
+1615
+01:23:14,920 --> 01:23:19,920
+You know, like, if, if you are just given the wisdom, is it wisdom?
+
+1616
+01:23:19,920 --> 01:23:20,920
+Yeah.
+
+1617
+01:23:20,920 --> 01:23:21,920
+It's just information.
+
+1618
+01:23:21,920 --> 01:23:23,920
+I mean, that's a, you know, nothing, nothing worth having ever comes easy.
+
+1619
+01:23:23,920 --> 01:23:24,920
+Yes.
+
+1620
+01:23:24,920 --> 01:23:28,920
+That's also the, the, I'm not sure who asked me this, but it was like, what, what do all
+
+1621
+01:23:28,920 --> 01:23:29,920
+the Nostra people have in common?
+
+1622
+01:23:29,920 --> 01:23:30,920
+And it's basically that.
+
+1623
+01:23:30,920 --> 01:23:32,920
+They are okay with doing the hard thing.
+
+1624
+01:23:32,920 --> 01:23:37,920
+Everyone who's on Nostra is okay with not being spoon fed and actually have to figure all this shit out on their own.
+
+1625
+01:23:37,920 --> 01:23:39,920
+And it is actually still really hard.
+
+1626
+01:23:39,920 --> 01:23:43,920
+Kind of getting set up, figuring out how all this stuff works and so on.
+
+1627
+01:23:43,920 --> 01:23:47,920
+And, and, and, and you have to build it up in a way until you land on a.
+
+1628
+01:23:47,920 --> 01:23:50,920
+I have to feel ready to follow the age you have to.
+
+1629
+01:23:50,920 --> 01:23:52,920
+It's like building your own house in some sense.
+
+1630
+01:23:52,920 --> 01:23:53,920
+Yeah.
+
+1631
+01:23:53,920 --> 01:23:54,920
+100%.
+
+1632
+01:23:54,920 --> 01:23:55,920
+You have to build it in a work.
+
+1633
+01:23:55,920 --> 01:23:58,920
+But have you ever built like a table or some shit like that?
+
+1634
+01:23:58,920 --> 01:23:59,920
+Oh, yeah.
+
+1635
+01:23:59,920 --> 01:24:05,920
+And the table sucks compared to like a media table and it's still your fucking table, man.
+
+1636
+01:24:05,920 --> 01:24:08,920
+And an Ikea table is already like a very low bar.
+
+1637
+01:24:08,920 --> 01:24:09,920
+Yeah.
+
+1638
+01:24:09,920 --> 01:24:13,920
+It sucks compared to an Ikea table, which is basically made out of paper.
+
+1639
+01:24:13,920 --> 01:24:16,920
+Kind of tables did you build?
+
+1640
+01:24:16,920 --> 01:24:17,920
+Terrible.
+
+1641
+01:24:17,920 --> 01:24:18,920
+Terrible.
+
+1642
+01:24:18,920 --> 01:24:19,920
+Terrible.
+
+1643
+01:24:19,920 --> 01:24:29,920
+But yeah, no, but I, I really think all of the people have that in common and it is kind of like everyone in the, on Nostra basically right now in some sense.
+
+1644
+01:24:29,920 --> 01:24:34,920
+And, and the, and the opposite of that, and you said these at some point.
+
+1645
+01:24:34,920 --> 01:24:43,920
+And I think it captures it perfectly that, that TikTok, like you said before, that, that, that they did almost everything perfect when you are optimizing for that.
+
+1646
+01:24:43,920 --> 01:24:44,920
+It's short videos.
+
+1647
+01:24:44,920 --> 01:24:46,920
+It's straight to the payoff.
+
+1648
+01:24:46,920 --> 01:24:47,920
+Right?
+
+1649
+01:24:47,920 --> 01:24:48,920
+Also straight into the amygdala.
+
+1650
+01:24:48,920 --> 01:24:50,920
+Straight into your eyeballs and into your brain.
+
+1651
+01:24:50,920 --> 01:24:52,920
+And, and you don't have to think about the content.
+
+1652
+01:24:52,920 --> 01:24:56,920
+And you don't have, there is such little friction that you don't even have to just want to watch.
+
+1653
+01:24:56,920 --> 01:24:57,920
+Yeah.
+
+1654
+01:24:57,920 --> 01:25:01,920
+Like you just opened the up and you're, you start receiving a fucking dump.
+
+1655
+01:25:01,920 --> 01:25:11,920
+But, but then one, to be one of the interesting things is that there is a lot of emotional gensiers crying on TikTok.
+
+1656
+01:25:11,920 --> 01:25:14,920
+And, and you, like you know that's a thing.
+
+1657
+01:25:14,920 --> 01:25:15,920
+I'm not sure.
+
+1658
+01:25:15,920 --> 01:25:16,920
+Yeah.
+
+1659
+01:25:16,920 --> 01:25:17,920
+Well, yeah, yeah.
+
+1660
+01:25:17,920 --> 01:25:20,920
+Like all the girls are only emotional and, and filming them how they have.
+
+1661
+01:25:20,920 --> 01:25:22,920
+And, and, and sharing that.
+
+1662
+01:25:22,920 --> 01:25:28,920
+And you watch that and it, it's like a very vulnerable moment of a person, right?
+
+1663
+01:25:28,920 --> 01:25:31,920
+And you're sharing in that moment, but it's a lurker.
+
+1664
+01:25:31,920 --> 01:25:33,920
+And, and that's not a connection.
+
+1665
+01:25:33,920 --> 01:25:36,920
+That's not a human, but he, but he uses this.
+
+1666
+01:25:36,920 --> 01:25:38,920
+I, I've been using like these ideas.
+
+1667
+01:25:38,920 --> 01:25:41,920
+That's, that's also, it's a growth hack and engagement bait because we know it really works.
+
+1668
+01:25:41,920 --> 01:25:42,920
+It's like a baby crying, you know.
+
+1669
+01:25:42,920 --> 01:25:43,920
+Right.
+
+1670
+01:25:43,920 --> 01:25:44,920
+Like everyone has to pay attention.
+
+1671
+01:25:44,920 --> 01:25:48,920
+A baby cries and you are, you are hardwired to pay attention.
+
+1672
+01:25:48,920 --> 01:25:54,920
+Everyone is going to stop whatever they're doing and they are going to try to attend to the baby and watch what's going on and so on.
+
+1673
+01:25:54,920 --> 01:25:55,920
+And it's the same effect.
+
+1674
+01:25:55,920 --> 01:25:56,920
+So they figured this out.
+
+1675
+01:25:56,920 --> 01:25:57,920
+It's like engagement bait on Twitter.
+
+1676
+01:25:57,920 --> 01:25:58,920
+Right.
+
+1677
+01:25:58,920 --> 01:26:02,920
+The people that are doing engagement bait on Twitter, they figured out how this stuff works out.
+
+1678
+01:26:02,920 --> 01:26:03,920
+Sources.
+
+1679
+01:26:03,920 --> 01:26:12,920
+And, and, and I think that's just the, you know, TikTok, Gen Z, teenage girl way of, of doing that in some sense.
+
+1680
+01:26:12,920 --> 01:26:23,920
+But, but it's, it's not exclusively that, but I believe, but, but it's, but, but it is again coming back to the medium being the message.
+
+1681
+01:26:23,920 --> 01:26:31,920
+That the fact that it's so high fidelity and it's video and we are really good at reading faces and reading emotions and so on.
+
+1682
+01:26:31,920 --> 01:26:35,920
+Of course, all the videos are going to be about faces and emotions.
+
+1683
+01:26:35,920 --> 01:26:36,920
+You know what I mean?
+
+1684
+01:26:36,920 --> 01:26:37,920
+Yeah.
+
+1685
+01:26:37,920 --> 01:26:38,920
+Yeah.
+
+1686
+01:26:38,920 --> 01:26:39,920
+Absolutely.
+
+1687
+01:26:39,920 --> 01:26:41,920
+It's like it doesn't work on a pure text environment.
+
+1688
+01:26:41,920 --> 01:26:42,920
+It just doesn't work.
+
+1689
+01:26:42,920 --> 01:26:43,920
+Yeah.
+
+1690
+01:26:43,920 --> 01:26:45,920
+It's like a poor text Twitter tweet environment.
+
+1691
+01:26:45,920 --> 01:26:48,920
+It's going to be witty, snarky, short comments, those kind of things.
+
+1692
+01:26:48,920 --> 01:26:50,920
+Which is what Twitter basically was.
+
+1693
+01:26:51,920 --> 01:26:53,920
+Which goes back to, it's a theater.
+
+1694
+01:26:53,920 --> 01:26:54,920
+It is.
+
+1695
+01:26:54,920 --> 01:26:55,920
+Yeah.
+
+1696
+01:26:55,920 --> 01:26:56,920
+Twitter is not real life.
+
+1697
+01:26:56,920 --> 01:26:57,920
+Not really.
+
+1698
+01:26:57,920 --> 01:26:58,920
+TikTok also not.
+
+1699
+01:26:58,920 --> 01:26:59,920
+Yeah.
+
+1700
+01:26:59,920 --> 01:27:01,920
+It's funny, right?
+
+1701
+01:27:01,920 --> 01:27:11,920
+But, but I've been, I've been playing with this idea of, we, we mentioned briefly and then we started talking about lurking.
+
+1702
+01:27:11,920 --> 01:27:12,920
+Yeah.
+
+1703
+01:27:12,920 --> 01:27:13,920
+Yeah.
+
+1704
+01:27:13,920 --> 01:27:14,920
+Yeah.
+
+1705
+01:27:14,920 --> 01:27:15,920
+You mentioned that the exhibition is part of it basically.
+
+1706
+01:27:15,920 --> 01:27:16,920
+Yeah.
+
+1707
+01:27:17,920 --> 01:27:21,920
+It's interesting that the vast majority of internet use is lurking.
+
+1708
+01:27:21,920 --> 01:27:22,920
+99%.
+
+1709
+01:27:22,920 --> 01:27:26,920
+Which is every, every guy who builds a client or does anything needs to know that's statistic.
+
+1710
+01:27:26,920 --> 01:27:27,920
+Yeah.
+
+1711
+01:27:27,920 --> 01:27:28,920
+99% of people are.
+
+1712
+01:27:28,920 --> 01:27:35,920
+And it's, it's such a weird concept that we didn't have a word beyond voyeurism.
+
+1713
+01:27:35,920 --> 01:27:36,920
+Yeah.
+
+1714
+01:27:36,920 --> 01:27:37,920
+Before the internet.
+
+1715
+01:27:37,920 --> 01:27:38,920
+Yeah.
+
+1716
+01:27:38,920 --> 01:27:45,920
+And if you, like, if you, we were to sit down and have a coffee and we're having a conversation and there are 200 people surrounding us.
+
+1717
+01:27:45,920 --> 01:27:46,920
+Yeah.
+
+1718
+01:27:46,920 --> 01:27:47,920
+We would think this is.
+
+1719
+01:27:47,920 --> 01:27:48,920
+200,000.
+
+1720
+01:27:48,920 --> 01:27:49,920
+Yeah.
+
+1721
+01:27:49,920 --> 01:27:50,920
+Yeah.
+
+1722
+01:27:50,920 --> 01:27:51,920
+Yeah.
+
+1723
+01:27:51,920 --> 01:27:52,920
+What the fuck?
+
+1724
+01:27:52,920 --> 01:27:53,920
+Why are all these people there?
+
+1725
+01:27:53,920 --> 01:27:54,920
+It's just listening.
+
+1726
+01:27:54,920 --> 01:27:55,920
+They're just not saying anything.
+
+1727
+01:27:55,920 --> 01:27:56,920
+It is in real life.
+
+1728
+01:27:56,920 --> 01:27:57,920
+It's so weird.
+
+1729
+01:27:57,920 --> 01:27:58,920
+Yeah.
+
+1730
+01:27:58,920 --> 01:27:59,920
+But there's friction, right?
+
+1731
+01:27:59,920 --> 01:28:01,920
+If you are there, we can see you.
+
+1732
+01:28:01,920 --> 01:28:02,920
+Yeah.
+
+1733
+01:28:02,920 --> 01:28:03,920
+And there's friction.
+
+1734
+01:28:03,920 --> 01:28:04,920
+You, you would be out of place.
+
+1735
+01:28:04,920 --> 01:28:05,920
+Yeah.
+
+1736
+01:28:05,920 --> 01:28:06,920
+But in the internet, that's the norm.
+
+1737
+01:28:06,920 --> 01:28:07,920
+Yeah.
+
+1738
+01:28:07,920 --> 01:28:08,920
+The default?
+
+1739
+01:28:08,920 --> 01:28:09,920
+The norm is that everyone's watching.
+
+1740
+01:28:09,920 --> 01:28:10,920
+Basically.
+
+1741
+01:28:10,920 --> 01:28:11,920
+Yeah.
+
+1742
+01:28:11,920 --> 01:28:12,920
+Yes.
+
+1743
+01:28:12,920 --> 01:28:26,920
+And what I've been thinking is that it's kind of like, if your whole intake, food intake is like marshmallows, you're not hungry.
+
+1744
+01:28:26,920 --> 01:28:27,920
+You are malnourished.
+
+1745
+01:28:27,920 --> 01:28:32,920
+You're fucking not hungry because you just ate, like, duck marshmallows, right?
+
+1746
+01:28:32,920 --> 01:28:33,920
+And this is kind of the same.
+
+1747
+01:28:33,920 --> 01:28:41,920
+People are fulfilling their social connection needs by watching others cry on TikTok.
+
+1748
+01:28:41,920 --> 01:28:43,920
+That's a good way of putting it.
+
+1749
+01:28:43,920 --> 01:28:46,920
+You're kind of socially malnourished.
+
+1750
+01:28:46,920 --> 01:28:47,920
+Yes.
+
+1751
+01:28:47,920 --> 01:28:48,920
+Yes.
+
+1752
+01:28:48,920 --> 01:28:50,920
+That's why we seek realness and we seek connection.
+
+1753
+01:28:50,920 --> 01:28:51,920
+Yeah.
+
+1754
+01:28:51,920 --> 01:28:56,920
+Because we are surrounded by it and we are as malnourished as ever.
+
+1755
+01:28:56,920 --> 01:28:57,920
+Yeah.
+
+1756
+01:28:57,920 --> 01:28:58,920
+Yeah.
+
+1757
+01:28:58,920 --> 01:28:59,920
+No, that's a good point.
+
+1758
+01:28:59,920 --> 01:29:00,920
+That's a good point.
+
+1759
+01:29:00,920 --> 01:29:02,920
+I think that Nostar can provide, can help with that.
+
+1760
+01:29:02,920 --> 01:29:04,920
+It's not going to replace real connection, those kind of things.
+
+1761
+01:29:04,920 --> 01:29:05,920
+I completely agree.
+
+1762
+01:29:05,920 --> 01:29:06,920
+I completely agree.
+
+1763
+01:29:06,920 --> 01:29:07,920
+I don't think...
+
+1764
+01:29:07,920 --> 01:29:10,920
+You know, like, just talking about random shit and agreeing all the time.
+
+1765
+01:29:10,920 --> 01:29:12,920
+That's what the models do, right?
+
+1766
+01:29:12,920 --> 01:29:14,920
+You are so wrong, man.
+
+1767
+01:29:14,920 --> 01:29:16,920
+No, but it's...
+
+1768
+01:29:16,920 --> 01:29:22,920
+I think that's what both Web of Trust and Saps kind of bring realness in some sense.
+
+1769
+01:29:22,920 --> 01:29:24,920
+I think what we still need is...
+
+1770
+01:29:24,920 --> 01:29:26,920
+The Web of Trust is kind of...
+
+1771
+01:29:26,920 --> 01:29:29,920
+It's the first iteration that we have now.
+
+1772
+01:29:29,920 --> 01:29:31,920
+I think the one thing that we really need is, like,
+
+1773
+01:29:31,920 --> 01:29:34,920
+there's a difference between a follow and I actually trust this person.
+
+1774
+01:29:34,920 --> 01:29:37,920
+And we talked about this also as trust being a vector and it's like,
+
+1775
+01:29:37,920 --> 01:29:40,920
+I trust you for, you know, your thoughts on Nostar and Bitcoin or whatever,
+
+1776
+01:29:40,920 --> 01:29:41,920
+or your technical expertise.
+
+1777
+01:29:41,920 --> 01:29:43,920
+I don't trust you when it goes to...
+
+1778
+01:29:43,920 --> 01:29:44,920
+Building tables.
+
+1779
+01:29:44,920 --> 01:29:45,920
+Exactly.
+
+1780
+01:29:45,920 --> 01:29:46,920
+Building tables.
+
+1781
+01:29:46,920 --> 01:29:47,920
+Not so much.
+
+1782
+01:29:47,920 --> 01:29:52,920
+Your opinion on woodwork can be disregarded.
+
+1783
+01:29:52,920 --> 01:29:54,920
+But it's also...
+
+1784
+01:29:54,920 --> 01:29:57,920
+Yeah, it's really hard and messy to model all these stuff.
+
+1785
+01:29:57,920 --> 01:29:59,920
+I think maybe LLMs can help with that as well because, again,
+
+1786
+01:29:59,920 --> 01:30:02,920
+they are really good with the messiness.
+
+1787
+01:30:02,920 --> 01:30:03,920
+Yeah.
+
+1788
+01:30:03,920 --> 01:30:06,920
+Because modeling, trying to model it precisely is kind of...
+
+1789
+01:30:06,920 --> 01:30:07,920
+It's a falter.
+
+1790
+01:30:07,920 --> 01:30:09,920
+It's semantic web all over.
+
+1791
+01:30:09,920 --> 01:30:10,920
+Exactly.
+
+1792
+01:30:10,920 --> 01:30:11,920
+Yeah, yeah, yeah.
+
+1793
+01:30:11,920 --> 01:30:13,920
+And most people don't know I come from this world.
+
+1794
+01:30:13,920 --> 01:30:16,920
+I know how misguided the semantic web is.
+
+1795
+01:30:16,920 --> 01:30:22,920
+I spend a lot of time, you know, trying to build everything into triples.
+
+1796
+01:30:22,920 --> 01:30:25,920
+It is very Tommy, so it fits.
+
+1797
+01:30:25,920 --> 01:30:26,920
+Yeah.
+
+1798
+01:30:26,920 --> 01:30:27,920
+RDF, everything.
+
+1799
+01:30:27,920 --> 01:30:28,920
+It's like...
+
+1800
+01:30:28,920 --> 01:30:29,920
+Yeah.
+
+1801
+01:30:29,920 --> 01:30:31,920
+That's good times.
+
+1802
+01:30:31,920 --> 01:30:32,920
+Good times.
+
+1803
+01:30:32,920 --> 01:30:35,920
+No, ontologies don't really work as we think they will.
+
+1804
+01:30:35,920 --> 01:30:37,920
+You hear that huddle about?
+
+1805
+01:30:37,920 --> 01:30:40,920
+If people would just study their philosophy, they would know.
+
+1806
+01:30:40,920 --> 01:30:41,920
+They would know.
+
+1807
+01:30:41,920 --> 01:30:44,920
+You cannot model the world perfectly in like...
+
+1808
+01:30:44,920 --> 01:30:47,920
+But that is an extremely interesting idea, LLMs.
+
+1809
+01:30:47,920 --> 01:30:53,920
+Because they can get all the broad data and make something out of it at scale,
+
+1810
+01:30:53,920 --> 01:30:55,920
+which is what ontologies want to do.
+
+1811
+01:30:55,920 --> 01:30:57,920
+But they will also always be wrong.
+
+1812
+01:30:57,920 --> 01:30:58,920
+Yes, yes.
+
+1813
+01:30:58,920 --> 01:30:59,920
+But that's the difference.
+
+1814
+01:30:59,920 --> 01:31:04,920
+That's how they differ from ontologies and logical systems because they will be internally right
+
+1815
+01:31:04,920 --> 01:31:06,920
+and free of contradictions in the best case.
+
+1816
+01:31:06,920 --> 01:31:07,920
+Again, but...
+
+1817
+01:31:07,920 --> 01:31:08,920
+Call me a commie point.
+
+1818
+01:31:08,920 --> 01:31:09,920
+No, no, no.
+
+1819
+01:31:09,920 --> 01:31:10,920
+Absolutely.
+
+1820
+01:31:10,920 --> 01:31:11,920
+It is a commie.
+
+1821
+01:31:11,920 --> 01:31:12,920
+It is a commie world view.
+
+1822
+01:31:12,920 --> 01:31:15,920
+The idea that you cannot have...
+
+1823
+01:31:15,920 --> 01:31:17,920
+The idea that you cannot have...
+
+1824
+01:31:17,920 --> 01:31:19,920
+And data triplets are not the problem.
+
+1825
+01:31:19,920 --> 01:31:20,920
+It's communism.
+
+1826
+01:31:20,920 --> 01:31:22,920
+And we can't tell me that.
+
+1827
+01:31:22,920 --> 01:31:24,920
+And we can't tell me everybody is a commie.
+
+1828
+01:31:24,920 --> 01:31:25,920
+Yeah, yeah.
+
+1829
+01:31:25,920 --> 01:31:26,920
+Commies are at fault.
+
+1830
+01:31:26,920 --> 01:31:27,920
+Yeah.
+
+1831
+01:31:27,920 --> 01:31:29,920
+No, but you just have to also be aware.
+
+1832
+01:31:29,920 --> 01:31:32,920
+I mean, it's funny how LLMs really are like humans in some sense.
+
+1833
+01:31:32,920 --> 01:31:36,920
+It's like, if you're really smart, you also are really good at hallucinating and making stuff up.
+
+1834
+01:31:36,920 --> 01:31:37,920
+Oh, 100%.
+
+1835
+01:31:37,920 --> 01:31:38,920
+You're really good at bullshitting and so on.
+
+1836
+01:31:38,920 --> 01:31:40,920
+And LLMs are experts at bullshitting and hallucinating.
+
+1837
+01:31:40,920 --> 01:31:47,920
+I remember, when was it, like, two years ago or so, that you mentioned that?
+
+1838
+01:31:47,920 --> 01:31:51,920
+That the hallucination part was like a key component?
+
+1839
+01:31:51,920 --> 01:31:53,920
+You can't get rid of it.
+
+1840
+01:31:53,920 --> 01:31:54,920
+Yeah.
+
+1841
+01:31:54,920 --> 01:31:56,920
+And I was like, I did not understand it at the time.
+
+1842
+01:31:56,920 --> 01:31:57,920
+Yeah.
+
+1843
+01:31:57,920 --> 01:31:58,920
+You can't get rid of it.
+
+1844
+01:31:58,920 --> 01:32:03,920
+It is a requirement for creativity and thinking, basically, because you have to hallucinate
+
+1845
+01:32:03,920 --> 01:32:06,920
+what the right solution might be.
+
+1846
+01:32:06,920 --> 01:32:07,920
+Yeah.
+
+1847
+01:32:07,920 --> 01:32:09,920
+That's how you come up with new stuff.
+
+1848
+01:32:09,920 --> 01:32:12,920
+But if something has to ground you in reality and if you're not grounded in reality, which
+
+1849
+01:32:12,920 --> 01:32:18,920
+LLMs definitely aren't, then you just go out of bounds and you hallucinate more and more.
+
+1850
+01:32:18,920 --> 01:32:20,920
+That's what I haven't played with that yet.
+
+1851
+01:32:20,920 --> 01:32:27,920
+But it's one of the things that I want to do soon is playing with local temperatures when one
+
+1852
+01:32:27,920 --> 01:32:28,920
+is showing up.
+
+1853
+01:32:28,920 --> 01:32:33,920
+You know, like, the architect agent, let it hallucinate.
+
+1854
+01:32:33,920 --> 01:32:34,920
+Yeah.
+
+1855
+01:32:34,920 --> 01:32:35,920
+And then they call it one?
+
+1856
+01:32:35,920 --> 01:32:36,920
+No, no, no, no, be structured.
+
+1857
+01:32:36,920 --> 01:32:37,920
+Absolutely.
+
+1858
+01:32:37,920 --> 01:32:38,920
+I think that's what we will work best.
+
+1859
+01:32:38,920 --> 01:32:43,920
+That's what I meant before with, like, the split between the experts and the kind of big
+
+1860
+01:32:43,920 --> 01:32:44,920
+picture thinkers.
+
+1861
+01:32:44,920 --> 01:32:49,920
+The big picture thinkers, they have to be allowed to go wild and hallucinate and kind of make
+
+1862
+01:32:49,920 --> 01:32:51,920
+stuff up and throw shit at the wall in some sense.
+
+1863
+01:32:51,920 --> 01:32:56,920
+And what would be cool is using exactly the same system with the same front, everything
+
+1864
+01:32:56,920 --> 01:33:01,920
+the same and just five different toggles, five different settings on temperature.
+
+1865
+01:33:01,920 --> 01:33:02,920
+That's also what you can do.
+
+1866
+01:33:02,920 --> 01:33:04,920
+And see what the fuck comes out.
+
+1867
+01:33:04,920 --> 01:33:08,920
+Yeah, you can just do it like, do tiny durations of that and compare it.
+
+1868
+01:33:08,920 --> 01:33:10,920
+Run tests on it.
+
+1869
+01:33:10,920 --> 01:33:11,920
+That's good.
+
+1870
+01:33:11,920 --> 01:33:12,920
+I'm pretty cooked.
+
+1871
+01:33:12,920 --> 01:33:13,920
+What did you say?
+
+1872
+01:33:13,920 --> 01:33:14,920
+Yeah, me too.
+
+1873
+01:33:14,920 --> 01:33:16,920
+I'm thirsty as fuck too.
+
+1874
+01:33:16,920 --> 01:33:17,920
+You thirsty?
+
+1875
+01:33:17,920 --> 01:33:19,920
+Are we back at the pornification?
+
+1876
+01:33:19,920 --> 01:33:23,920
+I know you thirsty problem.
+
+1877
+01:33:23,920 --> 01:33:25,920
+We can fix that.
+
+1878
+01:33:26,920 --> 01:33:27,920
+I'm not that thirsty.
+
+1879
+01:33:27,920 --> 01:33:29,920
+Let's have a coffee or something.
+
+1880
+01:33:29,920 --> 01:33:35,920
+And I actually, if you still have like 20 minutes of time or so, I want to try the, what is
+
+1881
+01:33:35,920 --> 01:33:38,920
+Summer Engineering recording slash blog posts.
+
+1882
+01:33:38,920 --> 01:33:39,920
+Let's go.
+
+1883
+01:33:39,920 --> 01:33:43,920
+Because that will force me to actually build the fucking client.
+
+1884
+01:33:43,920 --> 01:33:44,920
+If I have the data.
+
+1885
+01:33:44,920 --> 01:33:46,920
+There's an mp3 there.
+
+1886
+01:33:46,920 --> 01:33:47,920
+It's just cheating.
+
+1887
+01:33:47,920 --> 01:33:51,920
+And there's a blog post and I'm going to produce a tweet.
+
+1888
+01:33:51,920 --> 01:33:54,920
+I'll have to force myself to do that.
+
+1889
+01:33:54,920 --> 01:33:56,920
+How hard can it be?
+
+1890
+01:33:56,920 --> 01:33:58,920
+It's like 20 minutes in a garage.
+
+1891
+01:33:58,920 --> 01:34:02,920
+That's my current life.
+
+1892
+01:34:02,920 --> 01:34:09,920
+As soon as everyone is asleep at the house, I'll go down in my vibe chamber.
+
+1893
+01:34:09,920 --> 01:34:11,920
+The vibe chamber in the garage.
+
+1894
+01:34:11,920 --> 01:34:13,920
+I can stand again now.
+
+1895
+01:34:13,920 --> 01:34:15,920
+I can walk again now a little bit.
+
+1896
+01:34:15,920 --> 01:34:18,920
+So I'll just plop myself down there, vibe code for an hour or so.
+
+1897
+01:34:18,920 --> 01:34:20,920
+And then I'm going to call it a day.
+
+1898
+01:34:20,920 --> 01:34:24,920
+Every time I just leave, it's still doing stuff.
+
+1899
+01:34:24,920 --> 01:34:30,920
+It's just like really large prompt, yellow mode, hit enter, go to sleep.
+
+1900
+01:34:30,920 --> 01:34:33,920
+And when I wake up, it's a new world.
+
+1901
+01:34:33,920 --> 01:34:35,920
+My heart disc might be wiped.
+
+1902
+01:34:35,920 --> 01:34:36,920
+The garage might be on fire.
+
+1903
+01:34:36,920 --> 01:34:37,920
+You'll never know.
+
+1904
+01:34:37,920 --> 01:34:40,920
+Your star is completely drained.
+
+1905
+01:34:40,920 --> 01:34:44,920
+No, but it's so funny because I hope the recording worked this time.
+
+1906
+01:34:44,920 --> 01:34:46,920
+I'm getting better at pressing record as well and so on.
+
+1907
+01:34:46,920 --> 01:34:50,920
+And once I hit save, the pipeline in the garage is going to kick in,
+
+1908
+01:34:50,920 --> 01:34:52,920
+and it's going to kick in the transcription and everything.
+
+1909
+01:34:52,920 --> 01:34:57,920
+I don't have it there yet where the goal is to auto-normalize it
+
+1910
+01:34:57,920 --> 01:34:59,920
+and auto-upload it to blossom and so on.
+
+1911
+01:34:59,920 --> 01:35:01,920
+But you know, like next week, I'll have it.
+
+1912
+01:35:01,920 --> 01:35:02,920
+It's like five minutes over.
+
+1913
+01:35:02,920 --> 01:35:03,920
+It's fine.
+
+1914
+01:35:03,920 --> 01:35:04,920
+Not even.
+
+1915
+01:35:04,920 --> 01:35:05,920
+Not even.
+
+1916
+01:35:05,920 --> 01:35:07,920
+But yeah, we're getting there.
+
+1917
+01:35:07,920 --> 01:35:09,920
+It's a strange new world, but I like it.
+
+1918
+01:35:09,920 --> 01:35:10,920
+Vites are high.
+
+1919
+01:35:10,920 --> 01:35:11,920
+Vites are high.
+
+1920
+01:35:11,920 --> 01:35:12,920
+Vites are high.
+
+1921
+01:35:12,920 --> 01:35:13,920
+Vites are high.
+
+1922
+01:35:13,920 --> 01:35:15,920
+That's the most important one.
+
+1923
+01:35:15,920 --> 01:35:16,920
+All right.
+
+1924
+01:35:16,920 --> 01:35:17,920
+Let's see if they're worked.
+
+1925
+01:35:17,920 --> 01:35:19,920
+I'm going to hit stop or I'm going to hit save.
+
+1926
+01:35:19,920 --> 01:35:20,920
+Oh, yeah.
+
+1927
+01:35:20,920 --> 01:35:21,920
+Let's do that.
+

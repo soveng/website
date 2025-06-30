@@ -15,8 +15,10 @@ Elevator pitch: “Provide an environment that fosters deep conversations & coll
 IMPORTANT: “Solvitur ambulando.” —Saint Augustine (the defender of Truth)
 "By walking it shall be solved." 
 
+"Left foot right foot, left brain right brain."
+
 "The computer can be used as a tool to liberate and protect people, rather than to control them." --Hal Finney
-(Full quote: "It seemed so obvious to me: "Here we are faced with the problems of loss of privacy, creeping computerization, massive databases, more centralization - and [David] Chaum offers a completely different direction to go in, one which puts power into the hands of individuals rather than governments and corporations. The computer can be used as a tool to liberate and protect people, rather than to control them."")
+(Full quote: "It seemed so obvious to me: "Here we are faced with the problems of loss of privacy, creeping computerization, massive databases, more centralization - and [David] Chaum offers a completely different direction to go in, one which puts power into the hands of individuals rather an governments and corporations. The computer can be used as a tool to liberate and protect people, rather than to control them."")
 
 "Cypherpunks write Code." --Eric Hughes
 
@@ -42,3 +44,9 @@ ENDURANCE
 
 "Fortitudine vincimus" ("By endurance we conquer") -- Ernest Shackleton
 https://en.wikipedia.org/wiki/Endurance_(1912_ship)
+
+
+NO SOLUTIONS
+
+"No solutions, only trade-offs."
+(That's also where the "No Solutions" Podcast came from. Link: https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n )
