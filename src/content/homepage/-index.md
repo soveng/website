@@ -30,6 +30,12 @@ features:
     image: "/images/map.png"
     content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
     weeklyRhythm: true
+    bulletpoints:
+      - "A relentless weekly cadence for creativity and shipping"
+      - "Walk, Show, Build: the loop that powers the program"
+      - "Mandatory group walks for distributed cognition"
+      - "Demo Day every Friday: show what you built"
+      - "Workshops, talks, and hands-on prototyping"
     button:
       enable: true
       label: "Learn Our Concept"
