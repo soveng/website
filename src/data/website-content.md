@@ -1,7 +1,7 @@
 Title: Sovereign Engineering 
 Slogan: "Ship the future"
 
-Quote: “If you want to build a ship, don’t drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea.” —Antoine de Saint-Exupéry
+Quote: "If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea." —Antoine de Saint-Exupéry
 
 Summary: Six weeks of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications, services, and businesses for a self-sovereign future. 
 
@@ -56,14 +56,24 @@ More:
 - FAQ => /faq
 - Swag => https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
 - Media => https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
-- Alumni => https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19
+- Concept => /concept
 - Videos => https://castr.me/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
-- Podcast => https://njump.me/nosolutions@sovereignengineering.io 
+- Alumni => https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19
+- Podcast => https://njump.me/nosolutions@sovereignengineering.io
+- Projects => /showcase
+- Philosophy => /philosophy
 
 
 # Footer
 
 - About: https://njump.me/sovereignengineering.io
 - Contact: info@sovereignengineering.io
+- Projects: /showcase
+- Concept: /concept
+- Philosophy: /philosophy
 - FAQ: /faq
-- ...and everything under "More"
+- Swag: https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Media: https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Alumni: https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19
+- Videos: https://castr.me/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5
+- Podcast: https://njump.me/nosolutions@sovereignengineering.io
