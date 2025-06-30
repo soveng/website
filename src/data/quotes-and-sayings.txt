@@ -15,6 +15,8 @@ Elevator pitch: “Provide an environment that fosters deep conversations & coll
 IMPORTANT: “Solvitur ambulando.” —Saint Augustine (the defender of Truth)
 "By walking it shall be solved." 
 
+"Left foot right foot, left brain right brain."
+
 "The computer can be used as a tool to liberate and protect people, rather than to control them." --Hal Finney
 (Full quote: "It seemed so obvious to me: "Here we are faced with the problems of loss of privacy, creeping computerization, massive databases, more centralization - and [David] Chaum offers a completely different direction to go in, one which puts power into the hands of individuals rather an governments and corporations. The computer can be used as a tool to liberate and protect people, rather than to control them."")
 
