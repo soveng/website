@@ -2,26 +2,73 @@
 import Base from "@/layouts/Base.astro";
 ---
 
-<Base title="Page Not Found">
-  <section class="section-sm text-center">
+<Base title="Page Not Found - Lost at Sea">
+  <section class="section-sm text-center bg-gradient-to-b from-blue-900 to-blue-700 text-white min-h-screen flex items-center">
     <div class="container">
       <div class="row justify-center">
         <div class="sm:col-10 md:col-8 lg:col-6">
+          <!-- Pirate Ship ASCII Art -->
+          <div class="mb-8 text-yellow-300 font-mono text-sm">
+            <pre class="text-center">
+    ⛵
+   ⛵⛵
+  ⛵⛵⛵
+ ⛵⛵⛵⛵
+⛵⛵⛵⛵⛵
+            </pre>
+          </div>
+          
           <span
-            class="text-[8rem] block font-bold text-text-dark dark:text-darkmode-text-dark"
+            class="text-[8rem] block font-bold text-yellow-400 drop-shadow-lg"
+            style="font-family: 'IM Fell Double Pica', serif;"
           >
             404
           </span>
-          <h1 class="h2 mb-4">Page not found</h1>
-          <div class="content">
-            <p>
-              The page you are looking for might have been removed, had its name
-              changed, or is temporarily unavailable.
+          
+          <h1 class="h2 mb-4 text-yellow-300" style="font-family: 'IM Fell Double Pica', serif;">
+            Yarr! Page Not Found, Matey!
+          </h1>
+          
+          <div class="content mb-8">
+            <p class="text-lg text-blue-100">
+              Avast! The treasure ye be seekin' has sailed away into the digital depths! 
+              Either the page has been marooned, had its name changed by some scurvy dog, 
+              or it's temporarily lost in the Bermuda Triangle of the internet.
+            </p>
+            <p class="text-lg text-blue-100 mt-4">
+              Fear not, brave sailor! Set course for home port and continue yer quest there.
             </p>
           </div>
-          <a href="/" class="btn btn-primary mt-8">Back to home</a>
+          
+          <a href="/" class="btn-retro text-lg px-8 py-4 bg-yellow-500 hover:bg-yellow-400 text-black font-bold border-2 border-yellow-600 hover:border-yellow-500 transition-all transform hover:scale-105">
+            🏴‍☠️ Back to Home Port! 🏴‍☠️
+          </a>
+          
+          <!-- Pirate Quote -->
+          <div class="mt-12 text-yellow-200 italic">
+            <p class="text-sm">
+              "The sea is dangerous and its storms terrible, but these obstacles have never been sufficient reason to remain ashore." 
+              <br>
+              <span class="text-xs">— Captain Sovereign Engineering</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </Base>
+
+<style>
+  .btn-retro {
+    box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-retro:hover {
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-retro:active {
+    transform: translateY(2px);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+  }
+</style>
