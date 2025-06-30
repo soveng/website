@@ -1,5 +1,7 @@
 ---
 import Base from "@/layouts/Base.astro";
+import slideShip from "@/data/common-slides/common-slides.001.jpeg";
+import slideFreedomTech from "@/data/common-slides/common-slides.014.jpeg";
 ---
 
 <Base
@@ -13,6 +15,9 @@ import Base from "@/layouts/Base.astro";
         <div class="text-center md:col-10 lg:col-7">
           <h2 class="h3 mb-6">Philosophy</h2>
           <blockquote class="italic mb-6">&ldquo;If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea.&rdquo; &mdash;Antoine de&nbsp;Saint-Exupéry</blockquote>
+          <figure class="my-8">
+            <img src={slideShip.src} alt="Yearn for the vast and endless sea" class="rounded-lg shadow-lg" loading="lazy" />
+          </figure>
           <div class="content text-left">
             <p>Sovereign Engineering is grounded in the values articulated in <em>The Sovereign Individual</em> and embodied by Bitcoin: <strong>self-sovereignty, agency, and censorship-resistance</strong>. We build technology that maximises individual freedom, minimises reliance on trusted third parties, and treats the individual as the ultimate node in every network.</p>
             <p>From <a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g" target="_blank" rel="noopener">"Fix the Money, Fix the Web"</a> we take the conviction that a sound monetary foundation is a moral imperative, and that Bitcoin's paradigm of extreme ownership demands equally sovereign applications. Likewise, <a href="https://sovereignengineering.io/nostr.html" target="_blank" rel="noopener">our notes on Nostr</a> remind us that protocols, not platforms, will reclaim the vibrant, open experimentation that defined the early web.</p>
@@ -37,7 +42,33 @@ import Base from "@/layouts/Base.astro";
             <p>We prototype first, critique later. Imperfect code is welcomed if it advances the conversation. Novelty, experimentation, and rapid iteration trump premature optimisation.</p>
             <p>This bias for action produces tangible results: from <em>Blossom</em> to <em>ZapStore</em>, many cohort projects were conceived on a Monday walk and open-sourced before the next weekend. The world needs working code, not slide decks.</p>
 
-            <p class="mt-8"><strong>In short:</strong> We are building resilient, decentralised systems that empower individuals and chart new territory. If that resonates, step aboard.</p>
+            <h3 class="h4 mt-8 mb-4">Guiding Questions</h3>
+            <p class="mb-4 italic">&ldquo;No solutions, only trade-offs.&rdquo; If we must choose, we choose the trade-off that maximises individual freedom.</p>
+            <ul class="list-disc pl-6 space-y-2">
+              <li>Are you providing <em>value</em> or are you merely capturing your users?</li>
+              <li>Who can rug-pull you? Who can rug-pull your users?</li>
+              <li>Can <strong>you</strong> rug-pull your users?</li>
+              <li>What is the exit cost for your users? What is the exit cost for <em>you</em>?</li>
+            </ul>
+
+            <h3 class="h4 mt-8 mb-4">Freedom Tech</h3>
+            <p class="mb-4">&ldquo;Freedom Tech is rug-pull-resistant technology.&rdquo; —Gigi</p>
+            <p>When design choices flow from first principles, you don't have to ask users to <em>trust</em> you. The architecture itself makes betrayal impossible.</p>
+            <figure class="my-8">
+              <img src={slideFreedomTech.src} alt="Freedom Tech slide" class="rounded-lg shadow-lg" loading="lazy" />
+            </figure>
+
+            <h3 class="h4 mt-8 mb-4">Cypherpunks Write Code</h3>
+            <p class="mb-4">&ldquo;The computer can be used as a tool to liberate and protect people, rather than to control them.&rdquo; —Hal&nbsp;Finney</p>
+            <p class="mb-4">&ldquo;Cypherpunks write code.&rdquo; —Eric&nbsp;Hughes. We write code that liberates. We test ideas in the open. We ship the future.</p>
+
+            <h3 class="h4 mt-8 mb-4">Solvitur Ambulando</h3>
+            <p>Problems are solved by walking. Ideas crystallise on Madeira's trails, not in meeting rooms. Many of our best breakthroughs began with a stroll along the levadas.</p>
+
+            <h3 class="h4 mt-8 mb-4">Endurance</h3>
+            <p class="mb-4">&ldquo;Fortitudine vincimus&rdquo; —&nbsp;Ernest&nbsp;Shackleton. By endurance we conquer. Building sovereign systems is a marathon, not a sprint. We embrace the long game.</p>
+
+            <p class="mt-8"><strong>Re-invent the future.</strong> Provide an environment that fosters deep conversations &amp; collaboration so that we may solve hard problems for future generations.</p>
             <div class="text-center mt-10">
               <a href="/apply" class="btn-retro">Apply&nbsp;Now</a>
             </div>
