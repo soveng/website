@@ -1,0 +1,44 @@
+Slogan: "Ship the future"
+
+Quote: "If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea." —Antoine de Saint-Exupéry
+
+Summary: Six weeks of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications, services, and businesses for a self-sovereign future. 
+
+Elevator pitch: “Provide an environment that fosters deep conversations & collaboration so that we may solve hard problems for future generations.”
+
+“Re-invent the future." (Bell Labs)
+
+“Fix the money, fix the world.”
+...but the world is a big place, so:
+“Fix the money, fix the internet.”
+
+IMPORTANT: “Solvitur ambulando.” —Saint Augustine (the defender of Truth)
+"By walking it shall be solved." 
+
+"The computer can be used as a tool to liberate and protect people, rather than to control them." --Hal Finney
+(Full quote: "It seemed so obvious to me: "Here we are faced with the problems of loss of privacy, creeping computerization, massive databases, more centralization - and [David] Chaum offers a completely different direction to go in, one which puts power into the hands of individuals rather than governments and corporations. The computer can be used as a tool to liberate and protect people, rather than to control them."")
+
+"Cypherpunks write Code." --Eric Hughes
+
+"What does it mean to 'build it right?'" --Pablo & Gigi 
+
+Questions to ask:
+- "Are you providing value or are you capturing your users?"
+- "Who can rug-pull you?"
+- "Who can rug-pull your users?"
+- "Can YOU rug-pull your users?"
+- "What's the exit cost for your users?"
+- "What's the exit cost for you?"
+
+"Freedom Tech is rug-pull resistent technology." --Gigi
+
+"Direction is so much more important than speed. Many are going nowhere fast."
+
+"If you want to go fast, go alone. If you want to go far, go together."
+
+"A beautiful thing is never perfect."
+
+ENDURANCE
+
+"Fortitudine vincimus" ("By endurance we conquer") -- Ernest Shackleton
+https://en.wikipedia.org/wiki/Endurance_(1912_ship)
