@@ -62,11 +62,9 @@ const highlightedProjectNames = [
   "Hypernote",
   "DVMCP"
 ];
-const highlightedProjects = projects.filter(project => 
-  highlightedProjectNames.some(name => 
-    project.name.toLowerCase().includes(name.toLowerCase())
-  )
-);
+const highlightedProjects = highlightedProjectNames
+  .map(name => projects.find(project => project.name === name))
+  .filter(Boolean) as Project[];
 
 const containerClasses = darkTheme 
   ? "w-full text-white bg-black py-8 sm:py-16" 
@@ -130,9 +128,7 @@ const cohortHeaderClasses = darkTheme
 
           <!-- Highlighted Project Entries -->
           {highlightedProjects.map((project: Project, index: number) => (
-            <div
-              class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
-            >
+            <div class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}>
               <div class="flex items-start gap-4">
                 {project.logo && (
                   <div class="flex-shrink-0">
@@ -160,6 +156,15 @@ const cohortHeaderClasses = darkTheme
               </div>
             </div>
           ))}
+          {/* Static entry for other DVM stuff */}
+          <div class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}>
+            <div class="flex items-start gap-4">
+              <div>
+                <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>Lots of other DVM stuff (see SEC-01)</h4>
+              </div>
+            </div>
+            <div class="text-sm md:text-base"></div>
+          </div>
         </div>
       </div>
     )}
