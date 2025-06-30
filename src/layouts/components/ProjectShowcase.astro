@@ -51,12 +51,20 @@ const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
 });
 
 // Get highlighted projects (the ones mentioned in the homepage title)
-const highlightedProjectNames = ["Blossom", "Nutzaps", "Wikifreedia", "Nsite", "Tollgate", "Zapstore", "NIP-61"];
+const highlightedProjectNames = [
+  "Blossom",
+  "NIP-60",
+  "NIP-61",
+  "NIP-54",
+  "npub.cash",
+  "Nsite",
+  "Tollgate",
+  "Hypernote",
+  "DVMCP"
+];
 const highlightedProjects = projects.filter(project => 
   highlightedProjectNames.some(name => 
-    project.name.toLowerCase().includes(name.toLowerCase()) || 
-    (name === "Nutzaps" && project.name.includes("NIP-60")) ||
-    (name === "NIP-61" && project.name.includes("NIP-61"))
+    project.name.toLowerCase().includes(name.toLowerCase())
   )
 );
 
