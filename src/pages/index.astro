@@ -192,6 +192,18 @@ const bannerContent = await markdownify(banner.content);
               </a>
             </div>
           )}
+          {/* Insert Hal Finney quote after the second feature */}
+          {index === 1 && (
+            <div class="w-full flex justify-center bg-black py-8">
+              <a href="/concept" class="block max-w-2xl mx-auto no-underline hover:no-underline focus:no-underline">
+                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4 transition-colors duration-200 hover:text-primary focus:text-primary">
+                  &ldquo;{philosophyQuotes.find(q => q.id === "hal-finney")?.quote}&rdquo;
+                  <br />
+                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find(q => q.id === "hal-finney")?.author}</span>
+                </blockquote>
+              </a>
+            </div>
+          )}
         </>
       );
     })
