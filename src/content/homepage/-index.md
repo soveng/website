@@ -52,6 +52,6 @@ features:
       - "Escape the attention economy and parasitic web models"
     button:
       enable: true
-      label: "understand our philosophy"
+      label: "Explore our philosophy"
       link: "/philosophy"
 --- 
