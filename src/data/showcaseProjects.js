@@ -2,7 +2,7 @@ const showcaseProjects = [
   // SEC-00 Projects (Foundational/Reference)
   {
     name: "Highlighter",
-    description: "A social platform for sharing and discovering highlights from books, articles, and more.",
+    description: "A nostr client & NIP for sharing and discovering highlights from books, articles, and more.",
     cohort: "SEC-00",
     link: "https://highlighter.com/",
     linkText: "highlighter.com",
