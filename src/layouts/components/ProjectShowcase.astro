@@ -115,7 +115,7 @@ const cohortHeaderClasses = darkTheme
 
     {/* Highlights Section */}
     {showHighlights && highlightedProjects.length > 0 && (
-      <div class="mb-16">
+      <div class="mb-24">
         <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
           HIGHLIGHTS
         </h2>
@@ -161,7 +161,7 @@ const cohortHeaderClasses = darkTheme
     )}
     {/* Richard L. Evans Quote after highlights */}
     {showHighlights && (
-      <div class="w-full flex justify-center bg-black py-8">
+      <div class="w-full flex justify-center bg-black py-16">
         <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
           &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote}&rdquo;
           <br />
@@ -174,7 +174,7 @@ const cohortHeaderClasses = darkTheme
       <>
         {sortedCohorts.map((cohort: string, cohortIndex: number) => (
           <>
-            <div class={cohortIndex === 0 ? '' : 'mt-16'}>
+            <div class={cohortIndex === 0 ? 'mt-16' : 'mt-32'}>
               <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
                 {cohort}
               </h2>
@@ -222,7 +222,7 @@ const cohortHeaderClasses = darkTheme
             </div>
             {/* Insert quote after SEC-01 */}
             {cohort === 'SEC-01' && (
-              <div class="w-full flex justify-center bg-black py-8">
+              <div class="w-full flex justify-center bg-black py-16">
                 <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
                   &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote}&rdquo;
                   <br />
