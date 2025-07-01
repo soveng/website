@@ -71,5 +71,18 @@
     "author": "Nikolai Berdyaev",
     "section": "The Beginning and the End",
     "citation": "The Beginning and the End (1947)"
+  },
+  {
+    "id": "ts-eliot",
+    "quote": "I see more than this, more than I can tell you, More than there are words for.",
+    "author": "T. S. Eliot",
+    "section": "The Ineffable"
+  },
+  {
+    "id": "hermann-hesse-siddhartha",
+    "quote": "Words do not express thoughts very well. They always become a little different immediately after they are expressed, a little distorted, a little foolish. And yet it also pleases me and seems right that what is of value and wisdom to one man seems nonsense to another.",
+    "author": "Hermann Hesse",
+    "section": "The Ineffable",
+    "citation": "Siddhartha (1922)"
   }
 ] 

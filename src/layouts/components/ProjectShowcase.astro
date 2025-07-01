@@ -71,8 +71,8 @@ const containerClasses = darkTheme
   : "section bg-theme-light";
 
 const headerClasses = darkTheme 
-  ? "text-2xl mb-8 uppercase" 
-  : "text-3xl mb-8 uppercase";
+  ? "text-2xl mb-8" 
+  : "text-3xl mb-8";
 
 const titleClasses = darkTheme
   ? "text-4xl mb-8 pt-16 text-center text-white font-normal"
@@ -95,8 +95,8 @@ const linkClasses = darkTheme
   : "text-primary hover:text-primary/80 transition-colors break-all font-medium";
 
 const cohortHeaderClasses = darkTheme
-  ? "text-3xl mb-6 mt-12 first:mt-0 uppercase font-normal"
-  : "text-3xl mb-6 mt-12 first:mt-0 uppercase";
+  ? "text-3xl mb-6 mt-12 first:mt-0 font-normal"
+  : "text-3xl mb-6 mt-12 first:mt-0";
 ---
 
 <section class={containerClasses}>
@@ -121,7 +121,7 @@ const cohortHeaderClasses = darkTheme
         </h2>
         <div class="overflow-x-auto">
           <!-- Table Header - Hidden on mobile, shown on larger screens -->
-          <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+          <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
             <div>Project Info</div>
             <div>Link</div>
           </div>
@@ -181,7 +181,7 @@ const cohortHeaderClasses = darkTheme
               <div class="overflow-x-auto">
                 {/* Table Header - Hidden on mobile, shown on larger screens */}
                 {cohortIndex === 0 && (
-                  <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+                  <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
                     <div>Project Info</div>
                     <div>Link</div>
                   </div>
@@ -250,13 +250,13 @@ const cohortHeaderClasses = darkTheme
           </h2>
           <div class="py-12">
             <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
-              YOUR PROJECT HERE
+              Your Project Here
             </p>
             <p class={`text-lg mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
               Join the next cohort and build the future you want to see.
             </p>
             <a href="/apply" class="btn-retro text-lg px-8 py-3">
-              APPLY NOW
+              Apply Now
             </a>
           </div>
         </div>
@@ -264,7 +264,7 @@ const cohortHeaderClasses = darkTheme
     ) : (
       <div class="overflow-x-auto">
         <!-- Table Header - Hidden on mobile, shown on larger screens -->
-        <div class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+        <div class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
           <div>Project Info</div>
           <div>Cohort #</div>
           <div>Link</div>
