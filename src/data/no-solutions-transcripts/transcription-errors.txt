@@ -6,3 +6,4 @@ Noster => nostr
 Nostra => nostr 
 Cash up => CashApp
 pauky => pubkey
+end pub => npub
