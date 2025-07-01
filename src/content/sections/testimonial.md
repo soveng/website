@@ -54,7 +54,7 @@ testimonials:
     content: "Back on the farm after an incredible week of Sovereign Engineering."
 
   - name: "Pedro"
-    designation: "PubPay"
+    designation: "Anatomy of Bitcoin"
     avatar: "/images/avatar.png"
     npub: "npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c"
     noteid: "nevent1qqsvczx3tax5hwgu2e2u6vpy4ya6skdgc93jpmn4f87wfsfkpakjq4qpz9mhxue69uhkummnw3ezuamfdejj7q3q3nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqxpqqqqqqzcsmrea"
