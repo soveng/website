@@ -179,9 +179,16 @@ const { testimonial } = Astro.props;
     filter: none !important;
   }
 
-  /* Fix quote marks to be straight quotes */
+  /* Use a classic, readable serif font for blockquotes */
   blockquote {
-    font-family: "IM Fell Double Pica", Times, serif;
+    font-family: Georgia, Times, 'Times New Roman', serif !important;
+    font-size: 1.15rem;
+    font-style: normal;
+    color: #222;
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
   }
   
   blockquote::before {
