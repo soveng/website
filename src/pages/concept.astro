@@ -1,6 +1,7 @@
 ---
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
+import slideLoop from "@/data/common-slides/show-talk-build-loop.jpeg";
 ---
 
 <BaseNoHeader
@@ -15,11 +16,15 @@ import weeklyRhythmData from "@/data/weeklyRhythm.json";
           <h2 class="h3 mb-6">Concept</h2>
           <div class="content text-left">
             <p>Sovereign Engineering is a six-week, in-person &ldquo;un-hackathon&rdquo; held on the island of Madeira. Its sole purpose is to create the best possible environment for <strong>high-bandwidth ideation, collaboration, and rapid prototyping</strong> around freedom-tech such as Bitcoin, Lightning, and Nostr.</p>
-            <p>This environment is powered by a relentless weekly cadence designed for exploration: <em>Monday Mornings</em> set the theme, <em>Tuesday Talks</em> provoke discussion, and <em>Wednesday Workshops</em> transfer hands-on skills. By Friday&rsquo;s demo-day, every participant has lived through an entire <strong>walk &rarr; show &rarr; build</strong> loop, ready to reset and do it again the following week.</p>
+            <p>This environment is powered by a relentless weekly cadence designed for exploration: <em>Monday&nbsp;Mornings</em> set the theme, <em>Tuesday&nbsp;Talks</em> provoke discussion, and <em>Wednesday&nbsp;Workshops</em> transfer hands-on skills. By Friday&rsquo;s Demo&nbsp;Day, every participant has completed an entire <strong>walk &rarr; talk &rarr; show &rarr; build</strong> loop&mdash;ready to reset and do it again the following week.</p>
 
-            <h3 class="h4 mt-8 mb-4">The Weekly Loop &mdash; Walk • Show • Build</h3>
+            <figure class="my-8">
+              <img src={slideLoop.src} alt="Show • Talk • Build cycle" class="rounded-lg shadow-lg mx-auto" loading="lazy" />
+            </figure>
+
+            <h3 class="h4 mt-8 mb-4">The Weekly Loop &mdash; Walk • Talk • Show • Build</h3>
             <ul class="list-disc pl-6 space-y-2">
-              <li><strong>Walk&nbsp;&amp;&nbsp;Talk (Mon&nbsp;+ everyday)</strong> &mdash; Mandatory group walks (&gt;90 min, easy terrain, wide paths) designed to mix the group, spark free-flowing conversations and harness distributed cognition.</li>
+              <li><strong>Walk&nbsp;&amp;&nbsp;Talk (Mon&nbsp;+ everyday)</strong> &mdash; Mandatory group walks (&gt;90&nbsp;min, easy terrain, wide paths) designed to mix the group, spark free-flowing conversations and harness distributed cognition.</li>
               <li><strong>Show (Fri)</strong> &mdash; Time-boxed demo-day: 6-minute live demo &plus; 2-minute discussion. <em>No slides, no excuses</em>; you must show something that <u>compiles and runs</u>.</li>
               <li><strong>Build (the rest of the week)</strong> &mdash; Participants prototype ideas alone or in small teams, supported by peers. Imperfect code is fine&mdash;<em>novelty&nbsp;&gt;&nbsp;polish</em>.</li>
             </ul>
