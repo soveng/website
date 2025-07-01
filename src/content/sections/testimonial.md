@@ -1,7 +1,7 @@
 ---
 enable: true
 title: "What Others Are Saying"
-description: "Don't just take our word for it — hear from some of our [fans and alumni](https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19)! Check out the testimonials below to see what others are saying about the program."
+description: "Don't take our word for it. Here's what our fans and alumni have to say about Sovereign Engineering. Crypographically signed and broadcast on nostr, of course:"
 
 # Testimonials
 testimonials:
