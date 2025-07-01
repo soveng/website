@@ -52,4 +52,11 @@ testimonials:
     npub: "npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q"
     noteid: "nevent1qqstxektwr80ms5ly4muf920a0qd0hs4rx43cn46v8mdrzj7zlulgcszyz55xnhpvhksrv5xhm8uyac779c96dfh6pgm8peg3zvvcqx4ezzmuu9d9wy"
     content: "Back on the farm after an incredible week of Sovereign Engineering."
+
+  - name: "Pedro"
+    designation: "🧨"
+    avatar: "/images/avatar.png"
+    npub: "npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c"
+    noteid: "nevent1qqsvczx3tax5hwgu2e2u6vpy4ya6skdgc93jpmn4f87wfsfkpakjq4qpz9mhxue69uhkummnw3ezuamfdejj7q3q3nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqxpqqqqqqzcsmrea"
+    content: "Sovereign Engineering is the best place to focus on what you can do with the tech, but also pushing hard on the philosophical application of the Bitcoin+Lightning+Nostr+AI stack. Madeira island is like a paradise with one of the most advanced bitcoin economies I've ever seen. I highly recommend it, and I hope I can do another one soon."
 ---
