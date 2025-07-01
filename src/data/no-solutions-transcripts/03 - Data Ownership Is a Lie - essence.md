@@ -1,4 +1,4 @@
-# Essence of "Combined" (Episode 03)
+# Essence of "Data Ownership Is a Lie" (Episode 03)
 
 **Context:** A wide-ranging conversation that combines earlier threads—shipping imperfect work, refusing centralized "global" views, and designing rug-pull-proof systems—into a bigger picture of where Sovereign Engineering cohorts and Nostr are heading.
 
