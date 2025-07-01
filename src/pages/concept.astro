@@ -16,25 +16,23 @@ import slideLoop from "@/data/common-slides/show-talk-build-loop.jpeg";
           <h2 class="h3 mb-6">Concept</h2>
           <div class="content text-left">
             <p>Sovereign Engineering is a six-week, in-person &ldquo;un-hackathon&rdquo; held on the island of Madeira. Its sole purpose is to create the best possible environment for <strong>high-bandwidth ideation, collaboration, and rapid prototyping</strong> around freedom-tech such as Bitcoin, Lightning, and Nostr.</p>
-            <p>This environment is powered by a relentless weekly cadence designed for exploration: <em>Monday&nbsp;Mornings</em> set the theme, <em>Tuesday&nbsp;Talks</em> provoke discussion, and <em>Wednesday&nbsp;Workshops</em> transfer hands-on skills. By Friday&rsquo;s Demo&nbsp;Day, every participant has completed an entire <strong>walk &rarr; talk &rarr; show &rarr; build</strong> loop&mdash;ready to reset and do it again the following week.</p>
+            <p>This environment is powered by a relentless weekly cadence designed for exploration: <em>Monday&nbsp;Mornings</em> set the theme, <em>Tuesday&nbsp;Talks</em> provoke discussion, and <em>Wednesday&nbsp;Workshops</em> transfer hands-on skills. By Friday&rsquo;s Demo&nbsp;Day, every participant has completed an entire <strong>show &rarr; talk &rarr; build</strong> loop&mdash;ready to reset and do it again the following week.</p>
 
             <figure class="my-8">
               <img src={slideLoop.src} alt="Show • Talk • Build cycle" class="rounded-lg shadow-lg mx-auto" loading="lazy" />
             </figure>
 
             <h3 class="h4 mt-8 mb-4">The Weekly Loop</h3>
-            <ul class="list-disc pl-6 space-y-2">
-              <li><strong>Walk&nbsp;&amp;&nbsp;Talk (Mon&nbsp;+ everyday)</strong> &mdash; Mandatory group walks (&gt;90&nbsp;min, easy terrain, wide paths) designed to mix the group, spark free-flowing conversations and harness distributed cognition.</li>
-              <li><strong>Show (Fri)</strong> &mdash; Time-boxed demo-day: 6-minute live demo &plus; 2-minute discussion. <em>No slides, no excuses</em>; you must show something that <u>compiles and runs</u>.</li>
-              <li><strong>Build (the rest of the week)</strong> &mdash; Participants prototype ideas alone or in small teams, supported by peers. Imperfect code is fine&mdash;<em>novelty&nbsp;&gt;&nbsp;polish</em>.</li>
-            </ul>
+            <p>The week acts as a metronome for creativity.  Friday&rsquo;s <em>Show</em> sets a hard deadline that concentrates effort; the moment code compiles on stage it becomes shared reality.  Over the weekend and during Monday&rsquo;s orientation the cohort <em>Talks</em>&nbsp;&mdash;&nbsp;walking Madeira&rsquo;s levadas, swapping critiques, and letting distributed cognition surface better approaches.  From Tuesday onwards everyone <em>Builds</em> toward the next demo.  This tight loop rewards momentum over perfection and guarantees six fresh iterations in as many weeks.</p>
 
-            <p class="mt-6">The loop is scaffolded by a simple, repeatable schedule:</p>
+            <p class="mt-6">The cadence unfolds like this:</p>
             <ul class="list-disc pl-6 space-y-1">
               {weeklyRhythmData.schedule.map((item) => (
                 <li><strong>{item.day}</strong>&nbsp;– {item.description}</li>
               ))}
             </ul>
+
+            <p class="mt-6">Walks, workshops, and time-boxed demos are not décor&mdash;they are load-bearing rituals.  They mix the group, surface blind spots early, and keep exit-costs for bad ideas near zero.  When the bell rings on Friday everyone ships, learns, and immediately sets course for the next horizon.</p>
 
             <h3 class="h4 mt-8 mb-4">Weekly&nbsp;Captains</h3>
             <p>Each loop is stewarded by a rotating <em>Weekly Captain</em>. Their first duty is to <strong>shepherd the walks</strong>: setting a conversational pace, choosing wide paths that welcome side-by-side chat, and halting the group whenever the line stretches too thin. The Captain makes sure every participant mingles, every voice is heard, and no one is left trekking alone.</p>
