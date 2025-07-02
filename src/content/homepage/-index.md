@@ -32,9 +32,9 @@ features:
     weeklyRhythm: true
     bulletpoints:
       - "A relentless weekly cadence for creativity and shipping"
-      - "Walk, Show, Build: the loop that powers the program"
-      - "Mandatory group walks for distributed cognition"
-      - "Demo Day every Friday: show what you built"
+      - "Show, Talk, Build: the loop that powers the program"
+      - "Walking discussions to supercharge distributed cognition"
+      - "Demo Day every Friday: show us what you got!"
       - "Workshops, talks, and hands-on prototyping"
     button:
       enable: true
