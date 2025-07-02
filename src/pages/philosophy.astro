@@ -1,5 +1,5 @@
 ---
-import Base from "@/layouts/Base.astro";
+import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import slideShip from "@/data/common-slides/pirate-ship-2.jpeg";
 import slideFreedomTech from "@/data/common-slides/surveillance-capitalism.jpeg";
 import slideWalk from "@/data/common-slides/walking.jpeg";
@@ -20,7 +20,7 @@ const getQuote = (section: string) => {
 };
 ---
 
-<Base
+<BaseNoHeader
   title="Philosophy"
   meta_title="PHILOSOPHY"
   description="Our philosophy and principles"
@@ -118,4 +118,4 @@ const getQuote = (section: string) => {
       </div>
     </div>
   </section>
-</Base> 
+</BaseNoHeader> 
