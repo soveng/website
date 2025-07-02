@@ -1,0 +1,3956 @@
+1
+00:00:00,000 --> 00:00:07,340
+there we go now we're now we're good a little snap i'll just hand you this i don't know i'm
+
+2
+00:00:07,340 --> 00:00:14,560
+just gonna clip it so i don't have to hold it but yeah no walking today so it's gonna be an
+
+3
+00:00:14,560 --> 00:00:21,580
+outside sitting and yeah what happened what ended your walking career i i i built my whole
+
+4
+00:00:21,580 --> 00:00:26,880
+professional life around walking and i broke my ankle a couple days ago basically so
+
+5
+00:00:26,880 --> 00:00:33,660
+no uh change of plans i rock pulled myself walking is still very good for you and healthy but let's
+
+6
+00:00:33,660 --> 00:00:37,000
+see if we can get the brain juices flowing even if we're sitting
+
+7
+00:00:37,000 --> 00:00:44,960
+so what should we talk about nostr you have an awesome nostr t-shirt by the way oh thank you
+
+8
+00:00:44,960 --> 00:00:52,320
+this is the lightning store the no effects ripoff are we just being nostalgic about the old internet
+
+9
+00:00:52,320 --> 00:01:00,720
+yeah i've been thinking about that yes i think no i think what we're nostalgic for
+
+10
+00:01:00,720 --> 00:01:08,940
+is what we thought where we thought the internet was going what we thought we had yeah what we
+
+11
+00:01:08,940 --> 00:01:16,160
+thought we had i've been i've been trying to trace my interest in technology and i used to read the
+
+12
+00:01:16,160 --> 00:01:25,540
+tech magazines back the day and i just had this sense of of where things were going and it was
+
+13
+00:01:25,540 --> 00:01:34,380
+it was it was very optimistic and uh i was very excited about it i loved desktop uis and things
+
+14
+00:01:34,380 --> 00:01:39,780
+like that it's like where did i get all this love for all these things that now are kind of frustrating
+
+15
+00:01:39,780 --> 00:01:45,080
+in for me and it's like well i think they just stopped delivering on those promises like when
+
+16
+00:01:45,080 --> 00:01:52,240
+you had a good mac os 9 desktop ui you had this whole interface that was very in harmony
+
+17
+00:01:52,240 --> 00:01:59,160
+and a similar ui kind of for everything a similar use aesthetic even microsoft outlook on mac os 9
+
+18
+00:01:59,160 --> 00:02:06,180
+looked like a mac os 9 out everything drag and dropped onto each other yeah and then we built
+
+19
+00:02:06,180 --> 00:02:13,040
+the web browser which is kind of really it's an operating system inside of an operating system
+
+20
+00:02:13,040 --> 00:02:22,880
+and everything looks like a like a billboard ad on the side of the road yeah and everything behaves
+
+21
+00:02:22,880 --> 00:02:30,020
+kind of differently and then the business model is really for things to not talk to each other
+
+22
+00:02:30,020 --> 00:02:36,060
+maybe if you're lucky you can pay to unlock communication across your internet apps
+
+23
+00:02:36,060 --> 00:02:42,200
+and and so people who fell in love with the computers when they were this kind of you know
+
+24
+00:02:42,200 --> 00:02:50,660
+unified personal thing i think at least for me find you know the current state of things kind of
+
+25
+00:02:50,660 --> 00:02:56,100
+kind of frustrating do you think we have a chance of building our way out of the digital gulags
+
+26
+00:02:56,100 --> 00:03:02,740
+i think yes i think more than ever i think we just have to we actually just have to build it
+
+27
+00:03:02,740 --> 00:03:11,940
+i do think there's it's a mindset shift of uh this is done for me versus it turns out i kind of have
+
+28
+00:03:11,940 --> 00:03:17,780
+to do this for myself you know i i've hit this flip with my friends recently where all the best meals i
+
+29
+00:03:17,780 --> 00:03:25,920
+have are cooked by my friends like i have several friends who can do a better ribeye than the best
+
+30
+00:03:25,920 --> 00:03:32,960
+steakhouse i've been to in austin texas yeah so you know we need to become yeah we need to make
+
+31
+00:03:32,960 --> 00:03:39,760
+home-cooked meals of apps out of love for one another and that's i think how we can get better
+
+32
+00:03:39,760 --> 00:03:45,720
+software we we landed on this already in in one of those conversations where it's like the the whole
+
+33
+00:03:45,720 --> 00:03:52,880
+web switched from an active thing that you have to explore actively and you have to put some work in
+
+34
+00:03:52,880 --> 00:03:58,540
+but depending on what kind of work you put in you'll get you'll you'll get results like you'll
+
+35
+00:03:58,540 --> 00:04:02,700
+get something out of it and the more work you would put in the more you would get out of it and so on
+
+36
+00:04:02,700 --> 00:04:10,360
+to it's completely being flipped now with just like passive stuff with with tiktok being the epitome of
+
+37
+00:04:10,360 --> 00:04:17,860
+passivity where it's just like please entertain me you know like put like you're not you don't even
+
+38
+00:04:17,860 --> 00:04:22,720
+want to think for yourself anymore it's just like please do everything including the thinking for me
+
+39
+00:04:22,720 --> 00:04:28,180
+and just entertain me and it's just like passively scrolling through things and you know feeding the
+
+40
+00:04:28,180 --> 00:04:36,480
+slot machines for the next dopamine hit and so on so so it's it's in part like what i enjoy so much
+
+41
+00:04:36,480 --> 00:04:44,300
+about nostr is because it's so raw still and still so it requires active involvement um and the same for
+
+42
+00:04:44,300 --> 00:04:48,980
+bitcoin as well i mean it's it's like to to actually use bitcoin in a self-serving way you you actually
+
+43
+00:04:48,980 --> 00:04:54,720
+actually need to be actively involved and but that also means that you can actively shoot yourself
+
+44
+00:04:54,720 --> 00:05:03,680
+in the foot and i think this this i think that's that's something that out of necessity has to be
+
+45
+00:05:03,680 --> 00:05:11,820
+true going forward as well it's like you you if you want to empower users like it's there's always the
+
+46
+00:05:11,820 --> 00:05:16,400
+same comparisons right like the the if you have a sharp kitchen knife you can cut yourself you can
+
+47
+00:05:16,400 --> 00:05:20,980
+stab someone else yes if you if you want to if you teach someone to to defend themselves if you give
+
+48
+00:05:20,980 --> 00:05:26,540
+if you teach someone how to use a gun they can harm themselves very easily as well and i think i think
+
+49
+00:05:26,540 --> 00:05:32,720
+that's that's kind of what we're up against like but then when you get like a like a knife at a
+
+50
+00:05:32,720 --> 00:05:40,560
+restaurant that's like somehow made out of cardboard it folds on the first slice it's like oh i've been
+
+51
+00:05:40,560 --> 00:05:47,800
+saved from myself and from harming others but also i can't slice the steak anymore so personally i think
+
+52
+00:05:47,800 --> 00:05:52,980
+like paper straws are a great indication of the downfall of western civilization well they're illegal
+
+53
+00:05:52,980 --> 00:06:03,180
+now good good good sorry that you still have to suffer under this yeah no but that's it's it's it's
+
+54
+00:06:03,180 --> 00:06:07,380
+what i'm trying to say i think is like it's unavoidable if you want to have a powerful tool it's also
+
+55
+00:06:07,380 --> 00:06:13,540
+going to be a dangerous tool and you need to learn how to wield it and i think if we if we want to
+
+56
+00:06:13,540 --> 00:06:17,680
+build the next iteration of the internet with the next kind of tool sets and so on you need to
+
+57
+00:06:17,680 --> 00:06:23,260
+you we need to be okay with people getting wrecked and doing kind of dangerous borderline dangerous
+
+58
+00:06:23,260 --> 00:06:28,680
+stuff i feel like the last time society was okay with this was with the car like i feel like if
+
+59
+00:06:28,680 --> 00:06:34,920
+somebody introduced the car today it would be completely illegal yeah you can kill people yeah you
+
+60
+00:06:34,920 --> 00:06:42,480
+need you need like you need like like a five-year car like a pilot's license basically to drive you
+
+61
+00:06:42,480 --> 00:06:48,080
+around yeah because otherwise it's just it's much too dangerous yeah yeah that's a good point i think
+
+62
+00:06:48,080 --> 00:06:55,560
+i i hope when that we can kind of you know again like build our way out of it because i think also if
+
+63
+00:06:55,560 --> 00:07:01,460
+the if the if the tools exist and are accessible then they will be picked up by those that are brave enough
+
+64
+00:07:01,460 --> 00:07:09,720
+to explore the new world yeah yeah bravery and also you know it's personal responsibility i i talk
+
+65
+00:07:09,720 --> 00:07:18,560
+about this i do the austin bitcoin design club in austin with with saw hill and um every time i like
+
+66
+00:07:18,560 --> 00:07:26,040
+introduce the meetup it's just like bitcoin is something we do it's on us so you know if you're on a
+
+67
+00:07:26,040 --> 00:07:33,100
+shit coin a vc is paid for nice ux if you want nice ux and bitcoin you could take responsibility
+
+68
+00:07:33,100 --> 00:07:38,140
+on yourself to either make it yourself or just give really good feedback to the people who are building
+
+69
+00:07:38,140 --> 00:07:46,480
+and so you know i think nostr you're very much more obviously yeah it's like it's the nostr will
+
+70
+00:07:46,480 --> 00:07:56,140
+only be what diehards you know build it to be but i think this will also like already nostr clients
+
+71
+00:07:56,140 --> 00:08:00,100
+are way better than they used to be oh wow we're getting rock pulled all the time now it really
+
+72
+00:08:00,100 --> 00:08:09,500
+starts to rain we'll have to a canopy somewhere hop hop in somewhere should we should we slowly make
+
+73
+00:08:09,500 --> 00:08:19,380
+our way to somewhere where we won't get completely wet so is that a hospital we can get we can go up
+
+74
+00:08:19,380 --> 00:08:25,820
+there you could use a it's a it's a hospice or maybe we'll find a tree that that holds the water
+
+75
+00:08:25,820 --> 00:08:37,060
+better we'll see we'll figure it out the analogy i always use is uh somebody could give you a really
+
+76
+00:08:37,060 --> 00:08:44,700
+good exercise program they could even drive you to the gym but if you don't do the the lat pulldowns
+
+77
+00:08:44,700 --> 00:08:50,620
+using your own muscles you're not gonna you're not gonna gain strength so if the problem was that
+
+78
+00:08:50,620 --> 00:08:57,680
+somebody else is making the apps for you and they had bad a bad teleology they had bad ends in mind for
+
+79
+00:08:57,680 --> 00:09:06,860
+you uh it's not gonna be fixed necessarily by somebody else oh boy no that's really bad
+
+80
+00:09:06,860 --> 00:09:19,100
+where do you want to go i don't know is there can we sit just back at the restaurant
+
+81
+00:09:19,100 --> 00:09:25,280
+give me a second to think about it
+
+82
+00:09:25,280 --> 00:09:30,040
+oh wait wait under there under there there is a
+
+83
+00:09:30,040 --> 00:09:33,120
+i might have to stand
+
+84
+00:09:33,120 --> 00:09:38,540
+there we go that's better already there was like a 10 second shower
+
+85
+00:09:38,540 --> 00:09:44,620
+you and pablo haven't been rained out yet
+
+86
+00:09:44,620 --> 00:09:47,540
+nope not yet
+
+87
+00:09:47,540 --> 00:09:50,200
+i feel like it's been raining like
+
+88
+00:09:50,200 --> 00:09:53,100
+awesome it's the first
+
+89
+00:09:53,100 --> 00:10:06,820
+yeah let's go there let's just stand there yeah out there that's good okay
+
+90
+00:10:06,820 --> 00:10:12,620
+yeah i mean i keep bringing it back to responsibility a lot as well
+
+91
+00:10:12,620 --> 00:10:18,460
+in i mean freedom requires responsibility in the sense that no one can
+
+92
+00:10:18,460 --> 00:10:23,940
+completely handhold you through being free like that's the
+
+93
+00:10:23,940 --> 00:10:29,160
+the the other side of the freedom coin is responsibility itself
+
+94
+00:10:29,160 --> 00:10:33,040
+so oh that really hurt oh my lord
+
+95
+00:10:33,040 --> 00:10:36,140
+all right we're gonna make it
+
+96
+00:10:36,140 --> 00:10:38,380
+let's stay here for a little while
+
+97
+00:10:38,380 --> 00:10:46,220
+but yeah you were saying that you have to do the workout yourself and i i always i always break it down to the essentials it's like i mean
+
+98
+00:10:46,220 --> 00:10:49,660
+again we landed on all those memes in the bitcoin world with
+
+99
+00:10:49,660 --> 00:10:53,300
+not your keys not your coins which means if you're not in control of the private keys
+
+100
+00:10:53,300 --> 00:10:58,460
+it's actually not your money and if push comes to shove
+
+101
+00:10:58,460 --> 00:11:02,420
+then you'll feel that like someone else will take your money period
+
+102
+00:11:02,420 --> 00:11:05,920
+right and i feel like you can get a lot of the upside
+
+103
+00:11:05,920 --> 00:11:10,660
+of bitcoin like sailor right you can get a lot of the upside of bitcoin
+
+104
+00:11:10,660 --> 00:11:12,340
+without holding your own keys yeah
+
+105
+00:11:12,340 --> 00:11:17,140
+it works until it doesn't but it works still doesn't and also to get
+
+106
+00:11:17,140 --> 00:11:21,560
+the whole upside you have to take personal responsibility
+
+107
+00:11:21,560 --> 00:11:27,340
+and i think on the nostril side for example it relates a lot to
+
+108
+00:11:27,340 --> 00:11:30,100
+to kind of expressiveness in some sense
+
+109
+00:11:30,100 --> 00:11:37,620
+where it's like if you want to it's i always try to compare it to
+
+110
+00:11:37,620 --> 00:11:41,780
+i mean in in my mind we're talking about
+
+111
+00:11:41,780 --> 00:11:48,540
+freedom of speech and freedom of assembly and those kind of things the freedoms that we cherish
+
+112
+00:11:48,540 --> 00:11:55,220
+in meat space um where actually in meat space you you can prevent someone
+
+113
+00:11:55,220 --> 00:12:03,300
+like just by using sheer force to go somewhere somewhere like you can lock someone in a box and
+
+114
+00:12:03,300 --> 00:12:09,780
+so on or you can you know like uh shoot a grenade at an existing assembly and so on and so so the
+
+115
+00:12:09,780 --> 00:12:14,740
+freedom has to be granted politically in some sense like if there is a political structure if there
+
+116
+00:12:14,740 --> 00:12:20,580
+is other people around they can mess with your freedom of assembly in meat space they can also mess
+
+117
+00:12:20,580 --> 00:12:25,940
+with your freedom of speech and those kind of things yeah i never loved the public square analogy like
+
+118
+00:12:25,940 --> 00:12:31,780
+that does not seem like this perfect i used to live near union square and there would always be these
+
+119
+00:12:31,780 --> 00:12:37,860
+random protests and people giving speeches and stuff like that that was not the that's not the ideal of
+
+120
+00:12:37,860 --> 00:12:47,060
+human speech oh i agree i agree i agree but but it's it's the way i see it with um like now moving to
+
+121
+00:12:47,060 --> 00:12:54,340
+cyberspace it's cash in meat space cash gives you freedom of transactions in in that sense and it is
+
+122
+00:12:54,340 --> 00:13:02,660
+absolutely necessary for a society to work like you if you would need to know everything about absolutely
+
+123
+00:13:02,660 --> 00:13:09,780
+everyone you make economic transactions with then the society can scale like i'm convinced that society
+
+124
+00:13:09,780 --> 00:13:16,420
+without cash can scale meaningfully basically you need just like you need free speech to figure things
+
+125
+00:13:16,420 --> 00:13:23,780
+out and to figure out how to course correct society you need the free flow of money to to figure
+
+126
+00:13:23,780 --> 00:13:30,500
+certain things out and so on and um to actually have meaningful price signals emerge and and so on
+
+127
+00:13:30,500 --> 00:13:38,500
+and so forth like it's it plays a big part in distributed cognition in in cyberspace up until very recently i feel
+
+128
+00:13:38,500 --> 00:13:46,260
+like we had no way of guaranteeing those freedoms like you you uh in in the sense of like we had no
+
+129
+00:13:46,260 --> 00:13:52,820
+cash in cyberspace pre-bitcoin it just didn't exist at all and and in terms of freedom of assembly i i
+
+130
+00:13:52,820 --> 00:14:01,460
+think we we were able to do certain things now it's just i feel like it's it's it's it's going to be
+
+131
+00:14:01,460 --> 00:14:06,340
+easier and it's going to be more streamlined going forward where you just want to you know like even
+
+132
+00:14:06,340 --> 00:14:11,940
+temporarily open up a speaker's corner and invite people in uh and have something to say then you can't
+
+133
+00:14:11,940 --> 00:14:16,740
+just do that and it's not politically but cryptographically enforced i do think we lost
+
+134
+00:14:16,740 --> 00:14:22,820
+something the early internet people made their own websites and so there was like obviously there
+
+135
+00:14:22,820 --> 00:14:29,780
+weren't that many of them maybe in the millions but people were self-expressing to like a certain
+
+136
+00:14:29,780 --> 00:14:37,780
+extent and understand they were the publisher and then these platforms came along that did so much of
+
+137
+00:14:37,780 --> 00:14:44,740
+the work for you and even people like myself i probably published a lot more on twitter than
+
+138
+00:14:44,740 --> 00:14:50,020
+on my personal website i still even know how to make a personal website so i feel like we we actually
+
+139
+00:14:50,020 --> 00:14:57,060
+never lost the ability to self-publish now the the net the distribution and the network effects of
+
+140
+00:14:57,060 --> 00:15:01,700
+these social networks that's something we didn't have early on but at least the ability to self-publish we
+
+141
+00:15:01,700 --> 00:15:11,460
+really never lost we just were too lazy to keep at it or the i guess the rewards were somewhat minimal
+
+142
+00:15:11,460 --> 00:15:18,340
+yeah yeah yeah i guess the cost benefits didn't make sense you self-published yeah right yeah your
+
+143
+00:15:18,340 --> 00:15:27,220
+your your blog posts your when you counted to the number 21 right yeah you self-published and you found
+
+144
+00:15:27,220 --> 00:15:32,740
+distribution for that yeah but my main distribution channel was twitter i guess like i i don't think
+
+145
+00:15:32,740 --> 00:15:41,540
+anyone would have stumbled upon my stuff without already an existing twitter kind of space and by
+
+146
+00:15:41,540 --> 00:15:44,340
+that i don't mean twitter spaces i mean just uh
+
+147
+00:15:48,580 --> 00:15:56,340
+i had something that i could plug in to and it was just the existing bitcoin twitter community which i was
+
+148
+00:15:56,340 --> 00:16:01,860
+like deeply embedded in and i i had a very very small following in the beginning like when i was
+
+149
+00:16:01,860 --> 00:16:06,660
+even like when i started writing already but there was still like i immediately had a couple hundred
+
+150
+00:16:06,660 --> 00:16:11,700
+people that would read whatever anyone writes about bitcoin period because that's like back in the day
+
+151
+00:16:11,700 --> 00:16:17,780
+that was like maybe you know like no one wrote about bitcoin basically and so i i think i think that's
+
+152
+00:16:17,780 --> 00:16:23,620
+what the early internet there in my mind the early internet lacked it it it desperately lacked identity
+
+153
+00:16:23,620 --> 00:16:28,340
+and they lacked distribution and i think that's what you get now for free and i hope that we can
+
+154
+00:16:28,340 --> 00:16:35,700
+take all the good parts of the old internet so to speak and revive them in in in some sense of
+
+155
+00:16:35,700 --> 00:16:41,060
+re-explore them i think it's still very under explored and it relates to to the expression that i i
+
+156
+00:16:41,060 --> 00:16:47,060
+wanted to bring up it's like your your self-expression online is so limited in some sense because you are
+
+157
+00:16:47,060 --> 00:16:51,540
+currently bound to all the platforms and it's just like you know like it has to be exactly this form
+
+158
+00:16:51,540 --> 00:16:55,780
+every every fucking page looks the same and so there's very few exceptions there's very few
+
+159
+00:16:55,780 --> 00:17:01,860
+platforms that allow any kind of meaningful personalization and those kind of things and so
+
+160
+00:17:01,860 --> 00:17:08,100
+i i i mean i kind of i hope that we can bring some of that back i still you know remember the days of
+
+161
+00:17:08,820 --> 00:17:13,620
+geocities and myspace and winem skins that's that's kind of the examples i always bring up because it
+
+162
+00:17:13,620 --> 00:17:20,500
+was just fucking cool to to have like it's yeah and i wonder how much we if if people have the tools right
+
+163
+00:17:20,500 --> 00:17:27,060
+now like it's always going to be a small percentage that are the creators like anybody can upload to
+
+164
+00:17:27,060 --> 00:17:33,140
+youtube how many people actually upload to youtube it's it's definitely going to be a small percentage
+
+165
+00:17:33,140 --> 00:17:40,500
+but the you you see a lot more creativity on youtube than you saw on the broad broadcast television yeah
+
+166
+00:17:40,500 --> 00:17:44,820
+yeah that's fair yeah i mean that's uh the the medium is very unconstrained in that sense you're not
+
+167
+00:17:44,820 --> 00:17:53,380
+bound to like 10 minutes outbites that the the uh the the actual transmission bandwidth so to speak
+
+168
+00:17:53,380 --> 00:18:00,260
+is not scarce anymore it's like you can you can upload like 20 hour long youtube videos every single
+
+169
+00:18:00,260 --> 00:18:05,940
+day and and if no one watches them no one watches them the the thing that's cars nowadays of course is
+
+170
+00:18:05,940 --> 00:18:12,420
+attention so so distribution and attention which is kind of you know like uh uh has its own problems
+
+171
+00:18:12,420 --> 00:18:17,380
+i mean i i worry about that with
+
+172
+00:18:19,940 --> 00:18:28,180
+no i go on x a lot for design inspo and to see other uh like technical people like what are people
+
+173
+00:18:28,180 --> 00:18:35,380
+what are people vibe coding today what are people um what are solo entrepreneurs like making 50k a month
+
+174
+00:18:35,380 --> 00:18:42,260
+with that i could have done and just in a weekend but they did it instead and so i i there's a lot
+
+175
+00:18:42,420 --> 00:18:48,740
+there's a lot there and i feel like a lot of times i spend a lot of my time on the internet gathering
+
+176
+00:18:49,540 --> 00:18:56,980
+and i'm even i try to make better tools for i mostly use obsidian to store knowledge that i think i'm
+
+177
+00:18:56,980 --> 00:19:05,860
+going to use later but i'm mostly just storing yeah and i really that attention thing like i'm really i
+
+178
+00:19:05,860 --> 00:19:12,980
+almost want to like and i'm always prompting ai's i also want to like prompt myself when i log into the
+
+179
+00:19:12,980 --> 00:19:20,100
+computer yeah like what are you going to try to get done because you're like i'm sitting down you know
+
+180
+00:19:20,100 --> 00:19:25,780
+so like it's bad for my body and you know i'm like i'm getting all this blue light you know i'm taking on
+
+181
+00:19:25,780 --> 00:19:32,900
+a lot of risks health wise and mental health wise to be at a computer so what am i going to try to get out of
+
+182
+00:19:32,900 --> 00:19:42,420
+it uh i almost i almost kind of wish i had like a in info calories like you've consumed 3000 info
+
+183
+00:19:42,420 --> 00:19:49,620
+calories so you should write an essay you need to burn off these info calories like build something
+
+184
+00:19:49,620 --> 00:19:56,020
+write something be creative i mean a lot of people like me who like to create these personal knowledge
+
+185
+00:19:56,020 --> 00:20:02,500
+systems it's just end up with just the personal it's just like it's just it's just end up with all
+
+186
+00:20:02,500 --> 00:20:09,860
+this data and they're not using it for anything uh so i think ultimately yeah wait ultimately i want
+
+187
+00:20:10,740 --> 00:20:16,420
+you're talking about that kind of brain off thing like there's there's this ux design book called don't
+
+188
+00:20:16,420 --> 00:20:19,700
+make me think so it's very much the ux
+
+189
+00:20:19,700 --> 00:20:26,260
+uh so i'm always wary when people say bitcoin needs better ux because what do you mean by that
+
+190
+00:20:26,260 --> 00:20:35,620
+because the normie ux developer has a business model in mind so they have it ends in mind they
+
+191
+00:20:35,620 --> 00:20:43,140
+know what they want the users of their app to be doing yeah so they have a plan for you
+
+192
+00:20:43,140 --> 00:20:50,180
+do you have what is your plan yeah and are you using maybe maybe that's kind of part of the problem
+
+193
+00:20:50,180 --> 00:20:56,500
+right like the whole don't make me think design philosophy and the whole principle you know maybe
+
+194
+00:20:56,500 --> 00:21:03,060
+we want to build things that actually makes people think yeah yeah i've been thinking about this in
+
+195
+00:21:03,060 --> 00:21:11,940
+terms of you know one of the problems we had with mutiny was we made a pretty easy ux like your first
+
+196
+00:21:11,940 --> 00:21:18,260
+receive yeah would actually open a lightning channel yeah we just kind of call it fees network
+
+197
+00:21:18,260 --> 00:21:24,500
+fees or something like that right well a lightning channel can close and that can cost you money too
+
+198
+00:21:24,500 --> 00:21:28,660
+yeah and so we made it so easy to end up with a lightning channel that a lot of people ended up
+
+199
+00:21:28,660 --> 00:21:34,260
+with lightning channels that didn't know what that was yeah so they didn't know what they had signed up
+
+200
+00:21:34,260 --> 00:21:40,740
+for um and i'm sure obviously i'm sure there's a million examples in the normie world of like we've
+
+201
+00:21:40,740 --> 00:21:45,460
+done things that we didn't really know the implications of you know people are always
+
+202
+00:21:45,460 --> 00:21:53,060
+scandalized finding out what their personal data is used for so yeah that i i'm kind of thinking even
+
+203
+00:21:53,060 --> 00:21:58,260
+in terms of bitcoin ux like i think the next if i made something like mutiny again i would want to make
+
+204
+00:21:58,260 --> 00:22:01,540
+the part where you end up with a lightning channel if i decide that that's what you want
+
+205
+00:22:01,540 --> 00:22:13,860
+i decide to offer that as an option i'd want to make that weird like jarring somehow so that you
+
+206
+00:22:13,860 --> 00:22:20,340
+don't flow through it you know we we there are a lot of ux patterns that we're used to like if i keep
+
+207
+00:22:20,340 --> 00:22:26,500
+on pushing the button on the bottom right of the screen and it's not red i think it'll let me go on
+
+208
+00:22:26,500 --> 00:22:34,500
+with my day yeah and and so yeah i i want to like think more about like user interfaces that that um
+
+209
+00:22:35,780 --> 00:22:43,140
+jar people because they uh i think this is something that they should be mindful
+
+210
+00:22:43,140 --> 00:22:50,100
+during i think games some games are great at that where you just like you you uh especially some of
+
+211
+00:22:50,100 --> 00:22:56,180
+the older games where like it's actually mistakes are actually costly and you actually die and you have to
+
+212
+00:22:56,180 --> 00:23:00,980
+start from scratch again and replay the last 20 minutes right those kind of things where where
+
+213
+00:23:00,980 --> 00:23:07,060
+mistakes are actually costly you know that'd be great yeah like uh you know what's what's the one
+
+214
+00:23:08,900 --> 00:23:13,860
+you know you're scrolling or eula and it makes you scroll all the way to the bottom before you can
+
+215
+00:23:13,860 --> 00:23:19,700
+click the okay button you like time how fast they scroll and if they scroll faster than humans can read
+
+216
+00:23:19,700 --> 00:23:27,140
+you take them back to the total start of the flow just like you you lost the life better not mess up
+
+217
+00:23:28,820 --> 00:23:34,820
+yeah forcing the user to be careful i mean again like all this is yeah me kind of trying to decide
+
+218
+00:23:34,820 --> 00:23:40,180
+what the user should accomplish and how the user should be i think ultimately the goal for software
+
+219
+00:23:40,180 --> 00:23:46,580
+i mean you know the early you know some of the earliest software distribution is is you'd print a
+
+220
+00:23:46,580 --> 00:23:53,620
+magazine that had a basic program in it and be like one or two pages and so a kid would sit there
+
+221
+00:23:53,620 --> 00:24:01,860
+and patiently type in a program and now they would have some very minimal game and then they could just
+
+222
+00:24:01,860 --> 00:24:07,700
+start modifying it and that's you know i listened to like software developer podcasts and that's
+
+223
+00:24:07,700 --> 00:24:14,420
+very common either they were like hacking their uh texas instrument calculator or they were like you
+
+224
+00:24:14,420 --> 00:24:21,620
+yeah writing like basic um you know at least the old timers and so the idea that you that was like
+
+225
+00:24:21,620 --> 00:24:29,860
+what personal computing was originally there was very little distributed software this was a platform
+
+226
+00:24:29,860 --> 00:24:40,820
+for you to write programs into and i i if i think i think ai could really um potentially unlock that for
+
+227
+00:24:40,820 --> 00:24:46,180
+people where if you sat down at the computer and you knew what you wanted to do you actually thought
+
+228
+00:24:46,180 --> 00:24:54,500
+about what am i trying to accomplish you might be able to prompt an ai to build that tool for you to
+
+229
+00:24:54,500 --> 00:25:02,580
+do exactly what you wanted and so now you define the teleology you define the purpose of this tool and so
+
+230
+00:25:02,580 --> 00:25:08,660
+you can keep it aligned to what you want and you can't it's very hard to rug pull you wrote it yourself
+
+231
+00:25:08,660 --> 00:25:13,380
+you have the code right there you're running it on your own data and it's a total reversal of how
+
+232
+00:25:13,380 --> 00:25:21,380
+most of us use computers right now but i think we're like weirdly incredibly close to that being
+
+233
+00:25:21,380 --> 00:25:27,540
+yeah i agree i mean i you you showed me just last week like how far along all the vibe coding stuff
+
+234
+00:25:27,540 --> 00:25:34,980
+is and and i i really feel like putting cursor ai into autopilot really changed my mind on a lot of
+
+235
+00:25:34,980 --> 00:25:40,260
+those things because i was actually able to produce something meaning meaningful in like 20 minutes
+
+236
+00:25:40,260 --> 00:25:45,780
+and something that i you know always wanted to have built for the last 10 months or so and no one ever
+
+237
+00:25:45,780 --> 00:25:52,740
+sat down and built it and now i can just prompt it myself like into existence but i think it's you you
+
+238
+00:25:52,740 --> 00:26:01,620
+you actually have to know the hard part now it seems to me is to actually figure out what you want
+
+239
+00:26:01,620 --> 00:26:09,940
+yeah and also kind of collectively speaking so so to speak it's like what do we actually want
+
+240
+00:26:11,540 --> 00:26:17,700
+as a like how should the next iteration of the internet look like what what do we want to get out
+
+241
+00:26:17,700 --> 00:26:24,180
+of nostr how should you know the bitcoin wallets of the future actually operate and look like like how
+
+242
+00:26:24,180 --> 00:26:33,060
+easy should things be how and again like to to towards the the the kind of uh the reason why
+
+243
+00:26:33,060 --> 00:26:37,540
+we're standing here and talking to each other is like there are no perfect solutions so you have to
+
+244
+00:26:37,540 --> 00:26:43,700
+find the right trade-offs you have to be okay with people shooting themselves in the foot for example
+
+245
+00:26:43,700 --> 00:26:49,220
+it's like either you babysit people like almost completely or they are powerful enough
+
+246
+00:26:50,020 --> 00:26:54,340
+to shoot themselves in the foot and also like shoot others in the foot potentially like
+
+247
+00:26:54,340 --> 00:26:58,980
+depending on what we're talking about no but it's an unsolvable problem it's like with with like for
+
+248
+00:26:58,980 --> 00:27:08,820
+example um the it came up today with like policing content on nostr and those kind of things and it's
+
+249
+00:27:08,820 --> 00:27:14,820
+like where do you draw the line who can do the policing and what is kind of okay content and what
+
+250
+00:27:14,820 --> 00:27:20,660
+isn't it it it largely depends on your worldview what is okay and what isn't and also where do you
+
+251
+00:27:20,660 --> 00:27:26,180
+where do you draw the line when it comes to policing like do you police all text content all image content
+
+252
+00:27:26,180 --> 00:27:32,820
+all video content all audio content do you police do you police the namespace itself you know i mean
+
+253
+00:27:32,820 --> 00:27:39,540
+there's plenty of offensive twitter handles for example right which i mean you've been talking uh i
+
+254
+00:27:39,540 --> 00:27:44,340
+listened to this podcast uh and you've been talking a lot about like there is no global
+
+255
+00:27:46,180 --> 00:27:53,620
+but that's even there is no global is kind of a a globalist it's an absolutist it's an absolutist
+
+256
+00:27:53,620 --> 00:28:02,580
+it's well it's like um i mean think about that policing like i i think i find nostr is the best i want
+
+257
+00:28:02,580 --> 00:28:09,220
+to start using nostr for instance for like personal knowledge management tools right yeah so that's
+
+258
+00:28:09,220 --> 00:28:15,220
+obviously something i'm very interested in i could spin up a relay i could start blasting events to it
+
+259
+00:28:15,220 --> 00:28:20,660
+storing things that i find interesting storing my notes on there i have a blossom server store my memes
+
+260
+00:28:20,660 --> 00:28:28,820
+and media and things like that on there that's solving something for me and it's not i'm not i'm not
+
+261
+00:28:28,820 --> 00:28:37,220
+me and by not intending it to be global it can be global enough for me it can i can make it highly
+
+262
+00:28:37,220 --> 00:28:42,260
+available yeah yeah yeah no but that's not what we mean i know it's but like i think something's
+
+263
+00:28:42,260 --> 00:28:47,140
+there's something similar when you start to try to start thinking about like content policing very
+
+264
+00:28:47,140 --> 00:28:53,220
+subjectively oh my god it it doesn't uh it doesn't only solve the problem for you it solves the problem
+
+265
+00:28:53,220 --> 00:29:00,660
+for you and future you and that's a big that's a big thing because you're actually like everyone who
+
+266
+00:29:00,660 --> 00:29:04,500
+ever wrote code knows like you're not one person you're two people you're there's you and there's like
+
+267
+00:29:04,500 --> 00:29:08,180
+the guy who wrote the code two weeks ago and you have no idea what you did and how it works and
+
+268
+00:29:08,180 --> 00:29:14,020
+like and good luck figuring it out it's a different guy and so that's what i what i like i i jumped
+
+269
+00:29:14,020 --> 00:29:19,780
+through like 15 different kind of note-taking and knowledge systems already and the the they they
+
+270
+00:29:19,780 --> 00:29:24,660
+all worked for me at the time but they never worked for future me and and the reason why i like
+
+271
+00:29:24,660 --> 00:29:28,500
+nostril so much is because it is is future proof just like bitcoin is future proof i know bitcoin will
+
+272
+00:29:28,500 --> 00:29:34,180
+be there for me period right like it will be there for future me and so so by building that in a in a
+
+273
+00:29:34,740 --> 00:29:40,820
+like local first way that it it works for you on your local relay for your machine but that also means
+
+274
+00:29:40,820 --> 00:29:46,740
+it works for your machines and for like whatever will come next like you'll be able to export the
+
+275
+00:29:46,740 --> 00:29:51,220
+data and you'll be able to have it interoperable and those kind of things right like one of the things
+
+276
+00:29:51,220 --> 00:29:59,940
+that nostril as it just the network explores the possibility space has iterated on amazingly is
+
+277
+00:29:59,940 --> 00:30:06,500
+the relay technology so yeah it's more efficient people are making these relays to handle you know
+
+278
+00:30:06,500 --> 00:30:14,740
+thousands of users with millions of notes and so i love i always love that in technology when i could
+
+279
+00:30:14,740 --> 00:30:21,140
+take a something off the shelf that has just been hardened by incredible amounts of like sqlite
+
+280
+00:30:21,140 --> 00:30:27,780
+it's just been hardened by abuse over the years and i could just use it in the happiest of happy
+
+281
+00:30:27,780 --> 00:30:35,860
+paths for a solo user i love i love how i i think that's another reason why i'm bullish on this like
+
+282
+00:30:35,860 --> 00:30:43,780
+solo prompted software for solo use is that you your software doesn't have to be nearly as complex when
+
+283
+00:30:43,780 --> 00:30:49,300
+it's trying to serve i would say very specific use i i wouldn't say that's necessarily necessarily so
+
+284
+00:30:49,300 --> 00:30:55,300
+let's try to sit down again because my my my foot is swelling and i there's only so much pain i can
+
+285
+00:30:55,300 --> 00:31:02,660
+take it's like you know i i i only run one lightning no it's not like three anymore because there's only
+
+286
+00:31:02,660 --> 00:31:10,980
+so much pain i can take no but i think we'll have this the way i see it evolving now i mean again like
+
+287
+00:31:10,980 --> 00:31:16,500
+we have the you know kitchen sink uh nostril clients like amethyst that try to do everything and
+
+288
+00:31:16,500 --> 00:31:22,660
+it's on it that's perfectly fine as well like don't get me wrong i'm a fan but i i still think
+
+289
+00:31:22,660 --> 00:31:30,100
+we'll have very specialized tools just like in a unix world where like there's one tool and it has
+
+290
+00:31:30,100 --> 00:31:37,620
+existed for like 25 years and it does one thing and it does it better than any other tool and so you
+
+291
+00:31:37,620 --> 00:31:44,500
+just use that i i do that already on the nostril site for example to update my metadata and so on
+
+292
+00:31:44,500 --> 00:31:51,700
+um i'll go to metadata to the metadata client then i just set all the fields and do all the things
+
+293
+00:31:51,700 --> 00:31:59,060
+i don't use a regular client i love that yeah yeah the smaller and paulo was talking about this
+
+294
+00:31:59,060 --> 00:32:08,260
+sec you know when we think of nostril uh proposals when the more atomic they are you know the much
+
+295
+00:32:08,260 --> 00:32:16,020
+more tractable and in in the more uh composable they end up being i know you're a big like files maxi
+
+296
+00:32:16,020 --> 00:32:23,380
+yeah so i think of like the files abstraction has lasted so long i i think it you know in some
+
+297
+00:32:23,380 --> 00:32:30,340
+sense it underserves the modern world kids these days don't know what files are anymore no no they
+
+298
+00:32:30,340 --> 00:32:35,940
+don't the tick tock generation has no idea but but like meanwhile like every you know the web is all
+
+299
+00:32:35,940 --> 00:32:44,980
+about apis um and so you have bespoke weird data formats or probably several per company and then you
+
+300
+00:32:44,980 --> 00:32:53,300
+communicate if you're lucky you get to communicate with it with an api and so the yeah i'm so hopeful
+
+301
+00:32:53,300 --> 00:33:00,180
+that in nostril can slowly just be like a bit of a type system like here is a standardized way
+
+302
+00:33:00,980 --> 00:33:08,500
+um to publish something there's so so so much upside to that and it's a chicken and egg thing
+
+303
+00:33:08,500 --> 00:33:13,780
+like you know a lot more people will find nostril useful if there's a lot of stuff on it and a lot
+
+304
+00:33:13,780 --> 00:33:19,620
+more you know there'll be a lot more stuff on it if a lot of people are using it but i'm i'm very
+
+305
+00:33:19,620 --> 00:33:25,540
+i i you know i'm old enough that i've been through like several cycles with you know i've i've been
+
+306
+00:33:25,540 --> 00:33:32,660
+rug pulled by multiple note-taking solutions uh like you know amazon just shut off the ability or
+
+307
+00:33:32,660 --> 00:33:39,700
+i think they're going to the shut off the ability to download the uh file version of a oh the cable
+
+308
+00:33:39,700 --> 00:33:47,460
+so you can't jailbreak yeah uh you can't strip the drm yeah you can't you can't use the thing that
+
+309
+00:33:47,460 --> 00:33:54,820
+you theoretically possess as you wish to use it that's that's what it means and i uh there's a
+
+310
+00:33:54,820 --> 00:34:02,420
+i have readwise yeah which can amazon doesn't make an api for my book highlights
+
+311
+00:34:02,420 --> 00:34:12,660
+so but readwise has a browser extension and it loads up a website on amazon that is a list of my
+
+312
+00:34:12,660 --> 00:34:19,300
+highlights it scrapes them and turns them into a their own version of highlights a version of
+
+313
+00:34:19,300 --> 00:34:25,380
+highlights and then i can access the api so i feel like i'm like exfiltrate i feel like i'm like a
+
+314
+00:34:25,380 --> 00:34:32,500
+super hacker trying to get out my own data and i just painstakingly generated over years and years
+
+315
+00:34:32,500 --> 00:34:36,340
+and years and years that's kind of that's why i mentioned the digital gulags you know like you
+
+316
+00:34:36,340 --> 00:34:43,060
+are oh yes you're you're total an iphone user i'm i mean so many nested digital gulags
+
+317
+00:34:44,820 --> 00:34:51,940
+gulag within gulags the russian nested dolls of gulags you're in the center yeah it's weird
+
+318
+00:34:51,940 --> 00:34:56,420
+readwise is great by the way in in the the way it it's it's a really good reader it's a really
+
+319
+00:34:56,420 --> 00:35:02,660
+good reader app like it does highlights really well uh hint hint pablo fix highlighter and it it
+
+320
+00:35:02,660 --> 00:35:07,300
+does the text to speech really well and it does also does this cool something i wanted to make
+
+321
+00:35:07,300 --> 00:35:13,220
+myself is like a spaced repetition for my highlights yeah oh i want again talking about how do i actually
+
+322
+00:35:13,220 --> 00:35:19,540
+make value out of all these things i'm collecting you know it also it integrates nicely with with uh it
+
+323
+00:35:19,540 --> 00:35:23,940
+it has auto summarization and this ghost reader the like gpt system that you can
+
+324
+00:35:23,940 --> 00:35:29,620
+ask questions on your stuff and also on the stuff you read and so but as great as all that is that
+
+325
+00:35:29,620 --> 00:35:34,980
+should have been like two prompts probably two different apps that i prompted yeah that should
+
+326
+00:35:34,980 --> 00:35:39,220
+have been you know if i had my highlights as my own notes i can make the space repetition
+
+327
+00:35:39,220 --> 00:35:46,740
+yeah like a prompt and yeah that's uh so like i'm like i and i feel like i just rolled the dice
+
+328
+00:35:46,740 --> 00:35:53,780
+and i happen to end up with readwise yeah yeah i'm lucky that somebody did it right yeah and they
+
+329
+00:35:53,780 --> 00:36:01,380
+have an api i'm lucky but for most things in my life i i don't i don't i'm there i'm getting snake
+
+330
+00:36:01,380 --> 00:36:08,260
+eyes but but they still have the same problem like everyone else because they are in charge they have
+
+331
+00:36:08,260 --> 00:36:13,620
+to host all the data they need to be in business they can go out of business and if they go out of
+
+332
+00:36:13,620 --> 00:36:18,820
+business everything is gone it does and so that's it's just that i can't it's not it's not tenable
+
+333
+00:36:18,820 --> 00:36:24,100
+especially the older i get yeah more of these cycles i've been through yeah the more more times
+
+334
+00:36:24,100 --> 00:36:30,100
+i've been rugged by the exactly exactly exactly it's like the the rug pulls must continue until
+
+335
+00:36:30,100 --> 00:36:35,940
+morale improves yeah but that's why i always bring up the you know crazy computer science professors that
+
+336
+00:36:35,940 --> 00:36:42,180
+have the same static html page for the last 35 years that runs on a toaster somewhere because they they
+
+337
+00:36:42,180 --> 00:36:47,940
+it's like one html file it's self-contained it never goes down you can put it somewhere else and
+
+338
+00:36:47,940 --> 00:36:52,740
+it's it's there again like they know what they're doing uh like just by by experience and understanding
+
+339
+00:36:52,740 --> 00:36:58,900
+this stuff and and so on and and i feel like the that that's why i became a file maxi like my whole
+
+340
+00:36:58,900 --> 00:37:05,140
+compute setup is built around the file systems and i just synchronize everything using sync thing
+
+341
+00:37:05,140 --> 00:37:09,860
+and like my books and my audio books and my music and absolutely everything like my my downloads my memes
+
+342
+00:37:09,860 --> 00:37:16,660
+my photos everything is synced with my swarm and i just have certain folders that are the root folders
+
+343
+00:37:16,660 --> 00:37:23,860
+for for like whatever like my my audio books that are and and i always have i have like a three-tiered
+
+344
+00:37:23,860 --> 00:37:29,060
+system i have the deep big archive that holds everything that's like terabytes of raid servers
+
+345
+00:37:29,060 --> 00:37:34,260
+and so on i have the working memory so to speak that's large enough to be on laptops and good phones and
+
+346
+00:37:34,260 --> 00:37:40,420
+then i have like the you know just mobile like where i drag and i'll drag and drop in like three
+
+347
+00:37:40,420 --> 00:37:45,540
+audio books that i'm gonna listen to for the next month or whatever and or the books i just want to
+
+348
+00:37:45,540 --> 00:37:49,380
+read that i have like the mobile folders and everything is set up that way it works beautifully because the
+
+349
+00:37:49,380 --> 00:37:57,060
+files are actually self-contained and i i try to use apps that um basically like my my audio book app
+
+350
+00:37:57,060 --> 00:38:03,700
+for example the audio book player that i use it will store every single note and bookmark that i
+
+351
+00:38:03,700 --> 00:38:09,540
+make in in separate files and it will have a position file like position dot that which means
+
+352
+00:38:10,180 --> 00:38:16,020
+like there's gonna be no conflict between the things and it just updates across the swarm and if
+
+353
+00:38:16,020 --> 00:38:20,340
+i use a different phone to continue to listen to the audiobook it's just everything is already there
+
+354
+00:38:20,340 --> 00:38:27,140
+it's very nostr style yeah would you do you even need to nostrify what would the upside be if this
+
+355
+00:38:27,140 --> 00:38:37,620
+was on nostr so what i would love to have is plug nostr into existing things like that already especially
+
+356
+00:38:37,620 --> 00:38:44,100
+for uh app configuration and those kind of things when i get a new phone i have to set up most of the
+
+357
+00:38:44,100 --> 00:38:49,620
+things from scratch i just want to log log in with my nostr identity basically and then it knows what to
+
+358
+00:38:49,620 --> 00:38:54,340
+do that's kind of it would be the best case i mean we we have this across you know like again like
+
+359
+00:38:54,340 --> 00:38:58,580
+if you if you're in the apple ecosystem you get a new iphone you log in and it's the same as the
+
+360
+00:38:58,580 --> 00:39:03,540
+old iphone just upgraded hardware if you're if you use a modern browser like you usually use browser
+
+361
+00:39:03,540 --> 00:39:07,620
+sync and so on and so all your extensions are synchronized all your bookmarks are synchronized
+
+362
+00:39:07,620 --> 00:39:14,820
+all those kind of things and and those are but those are all like they're their own siloed systems
+
+363
+00:39:14,820 --> 00:39:20,900
+and and and that's i think where where nostr can be very beneficial where it's like you can do the
+
+364
+00:39:20,900 --> 00:39:26,820
+same thing but in a non-siloed way i guess that's kind of how i feel with the the files a little bit
+
+365
+00:39:26,820 --> 00:39:36,740
+like they they somehow end up like i want to like kind of link things up a bit somehow make these cross
+
+366
+00:39:36,740 --> 00:39:46,580
+references between things like you know the audio book highlight i want that to be highlighted in the
+
+367
+00:39:46,580 --> 00:39:52,820
+kindle version and vice versa you know or i'd like to be able to make notes that like reference a
+
+368
+00:39:52,820 --> 00:39:59,780
+specific scene in a movie i feel like there's a lot of i feel like there's a lot of things that we
+
+369
+00:39:59,780 --> 00:40:06,260
+would have as personal knowledge tools if all of our things weren't built so siloed and drm'd and
+
+370
+00:40:06,260 --> 00:40:11,860
+stuff i feel like there's so much to explore there and maybe this is just me just loving
+
+371
+00:40:13,140 --> 00:40:19,780
+the idea of collecting data more than maybe i would actually use this very little but i think there is
+
+372
+00:40:19,780 --> 00:40:25,220
+an obvious need for that there's a reason why clips took off so massively for example both for podcasts
+
+373
+00:40:25,220 --> 00:40:31,460
+and also for just everything you know it's just all the platforms kind of had to build
+
+374
+00:40:32,100 --> 00:40:38,100
+clipping into their systems because the people they they wanted to they did this anyway you know
+
+375
+00:40:38,100 --> 00:40:47,140
+one thing about so in the olden days it was very common as a reader to keep a commonplace book you would
+
+376
+00:40:47,140 --> 00:40:51,940
+read a book and you'd have a book next to the book where you would write your thoughts on the book
+
+377
+00:40:51,940 --> 00:40:59,940
+as it happened um jonathan edwards has this like bible that's like think of a one page of the bible
+
+378
+00:40:59,940 --> 00:41:06,500
+as the top left corner so like one quarter of the page and then three blank pages yeah where he could
+
+379
+00:41:06,500 --> 00:41:12,900
+put notes so for every page of the bible he could write just tons and tons of notes and he also had an
+
+380
+00:41:12,900 --> 00:41:19,220
+indexing system for his like he had a notebook about like observations of nature and just like a
+
+381
+00:41:19,220 --> 00:41:25,620
+miscellaneous one and like a sermon notes so he had the kind of interlinking system but i just think
+
+382
+00:41:25,620 --> 00:41:30,340
+you know if if part of the problem you said what do we want to do what are we trying to get out of this
+
+383
+00:41:30,340 --> 00:41:40,980
+and i think with the personal knowledge stuff it's like i'm i'm taking in information to reflect on it on
+
+384
+00:41:40,980 --> 00:41:49,140
+how i can better act in the world and to better understand the world so even if i'm watching like
+
+385
+00:41:49,780 --> 00:41:58,500
+netflix slop with like lindsey lohan in it if i had a an important thing if i did some noticing and some
+
+386
+00:41:58,500 --> 00:42:08,020
+important uh insight i i want to pause it clip it like maybe voice prompt a very short essay about
+
+387
+00:42:08,020 --> 00:42:11,620
+or something and then i could resume you know like sometimes like if you're watching something
+
+388
+00:42:11,620 --> 00:42:15,940
+with a friend or something like maybe pause the movie like oh yeah let me explain this part to you
+
+389
+00:42:16,500 --> 00:42:22,340
+um i do that by the way i do that i have like uh my current workflow it evolved over the last 10
+
+390
+00:42:22,340 --> 00:42:29,380
+years massively but but again coming back to the note taking knowledge graph apps and so on so i use
+
+391
+00:42:29,380 --> 00:42:34,260
+standard notes a lot i i use it so much that it has trouble syncing because i have so much stuff in
+
+392
+00:42:34,260 --> 00:42:40,260
+there um so um it works reasonably well still but i'll i think i'll have to file a bug report soon
+
+393
+00:42:41,380 --> 00:42:50,020
+but i i start my day with a blank notes of the day note every day no matter what and it's just like a
+
+394
+00:42:50,020 --> 00:42:56,020
+bullet point list that is check box formed so it i'll put some to do's there i'll put random thoughts
+
+395
+00:42:56,020 --> 00:43:01,700
+there and i i have ways to annotate it and so on and i have ways to categorize it and and and but if i
+
+396
+00:43:01,700 --> 00:43:07,700
+have an inside reading something i'll note it down and i always have some device with me that's linked
+
+397
+00:43:07,700 --> 00:43:12,580
+up to standard notes to to this file and that's also why i like standard notes because you can you
+
+398
+00:43:12,580 --> 00:43:17,860
+can automatically like it syncs to the file system like every single note is like a you know whatever
+
+399
+00:43:17,860 --> 00:43:23,780
+markdown file and so on but uh so i'm not trapped in standard notes forever i know that
+
+400
+00:43:23,780 --> 00:43:31,460
+i'm already not but but it's it's it's so so i have the same need and i'll do this also when i
+
+401
+00:43:31,460 --> 00:43:35,860
+watch the movie you know i'll i'll note the name of the movie and i'll i'll note the inside and maybe
+
+402
+00:43:35,860 --> 00:43:42,500
+later i'll come back to it and make something out of it like you know wait and it's maybe this is such
+
+403
+00:43:42,500 --> 00:43:48,660
+a small quality life improvement but like why yeah why don't my digital devices know i'm watching this
+
+404
+00:43:48,660 --> 00:43:55,460
+movie i'm at this spot in the movie here's a frame grab from it and so what i like to take a quick
+
+405
+00:43:55,460 --> 00:44:02,820
+note i have the context of like whatever else i was doing packaged along and i feel like that should
+
+406
+00:44:02,820 --> 00:44:10,900
+be just so easy to do now and you you alluded to it when you were talking about um you know like the
+
+407
+00:44:10,900 --> 00:44:15,460
+old mac systems where everything kind of looked the same everything was integrated and so on
+
+408
+00:44:15,460 --> 00:44:21,220
+and so so what what you are describing i'm already doing but i'm doing i'm doing lots of things
+
+409
+00:44:21,220 --> 00:44:29,220
+manually like i posted a bunch of movie screens i just i just use vlc or whatever to go exactly to
+
+410
+00:44:29,220 --> 00:44:35,060
+where i was like i have my ways to do this rather quickly and then i'll just i'll just i'll just put it
+
+411
+00:44:35,060 --> 00:44:41,140
+in my file system and then i'll take my phone or whatever and it syncs you know with my with my
+
+412
+00:44:41,140 --> 00:44:46,660
+folder where i put my things and i'll post it out on noster but but we could do this in a way more
+
+413
+00:44:46,660 --> 00:44:51,940
+beautiful way where you just have a and always on working space you know like a very intelligent
+
+414
+00:44:51,940 --> 00:44:57,780
+dropbox where you can just put stuff in and and just if you want blast it out and that was kind of
+
+415
+00:44:57,780 --> 00:45:02,900
+the idea for highlighter as well for example like you know like it's and again coming back to readwise
+
+416
+00:45:02,900 --> 00:45:11,060
+reader you you have potentially so much stuff in there that's that's not it's not necessarily like
+
+417
+00:45:11,060 --> 00:45:16,180
+super private like highlights are not necessarily super private margin notes might be and so on but
+
+418
+00:45:16,180 --> 00:45:20,580
+if you want to publish it you could decide to publish it it might be useful to other people
+
+419
+00:45:20,580 --> 00:45:24,740
+and then you have suddenly uh uh you know like what i call swarm highlights where you can just
+
+420
+00:45:24,740 --> 00:45:33,460
+what does my my network think about this passage of the book what are the margin notes that people
+
+421
+00:45:33,460 --> 00:45:38,580
+publish those kind of things one one of the things that i i one of the apps i've always wanted to make
+
+422
+00:45:38,580 --> 00:45:46,660
+is called family bible and you make a tiny little social network with your family centered around the
+
+423
+00:45:46,660 --> 00:45:53,300
+bible so my family is all over the country and uh we all attend different churches so that means we're
+
+424
+00:45:53,300 --> 00:45:59,940
+having a different passage explained to us on any given sunday right i take a lot of notes at church
+
+425
+00:45:59,940 --> 00:46:05,460
+so i have and you know the pastor's always jumping around through verses so i have references a
+
+426
+00:46:05,460 --> 00:46:10,500
+commentary basically on tons of stuff and then all of us if we have a personal devotional time are
+
+427
+00:46:10,500 --> 00:46:16,020
+reading the bible separately and highlighting it separately and having thoughts about it and it's
+
+428
+00:46:16,020 --> 00:46:20,980
+not something you'd really want to publish broadly yeah but it's something you'd love to be able to
+
+429
+00:46:20,980 --> 00:46:26,900
+because it's a way of you'd love to share yeah and you're increasing serendipity among each other
+
+430
+00:46:26,900 --> 00:46:36,100
+yeah uh i i love that and it's like yeah because you know why do we do these social things ideal
+
+431
+00:46:36,660 --> 00:46:40,900
+ideally it's so that we can feel more present with each other when we're not physically present
+
+432
+00:46:41,700 --> 00:46:47,220
+you know if you if you go online and that makes you feel isolated and shitty
+
+433
+00:46:47,220 --> 00:46:55,700
+uh then something's wrong yeah and so but if you can go online and it like you spot a reminder of
+
+434
+00:46:55,700 --> 00:47:01,060
+why you should call that person or it makes you just you know remember them fondly or think of them
+
+435
+00:47:01,700 --> 00:47:08,020
+uh you know that's that's a win that's something that uh technology also another thing i thought
+
+436
+00:47:08,020 --> 00:47:14,500
+about earlier this is a bit of a tangent but i feel like you know you're talking about the manual process
+
+437
+00:47:14,500 --> 00:47:19,460
+you could already do this but it has a manual process i think one of the best indicators of when
+
+438
+00:47:19,460 --> 00:47:26,660
+we're using a computer well is that we're getting computers to do computer work for us yeah it's like of
+
+439
+00:47:26,660 --> 00:47:32,980
+all the things that it would be nice if a computer did it would be nice if it did some of my computer work
+
+440
+00:47:32,980 --> 00:47:40,180
+for me yeah because that is almost always a pure win i'm sure that there are trade-offs i'm sure but
+
+441
+00:47:40,180 --> 00:47:48,660
+uh if if something can be automated it should be automated basically yes yes and uh and ultimately
+
+442
+00:47:48,660 --> 00:47:56,660
+because ultimately the goal the end is not being on the computer yes i have an end in mind and if i can
+
+443
+00:47:56,660 --> 00:48:02,740
+get it done with less time on the computer that's just yes that's that's that's also i think that's
+
+444
+00:48:02,740 --> 00:48:08,900
+it's it's very interesting observing that in the in the wider noster culture basically there's lots
+
+445
+00:48:08,900 --> 00:48:14,260
+of people that are like trying to be outside as much as they can trying to make the apps and the
+
+446
+00:48:14,260 --> 00:48:22,580
+things that they build as like least addictive as they can be those kind of things um i i think
+
+447
+00:48:23,940 --> 00:48:28,980
+i think we've kind of lost the plot when it comes to technology or by we i mean like you know the
+
+448
+00:48:28,980 --> 00:48:33,940
+current iteration of silicon valley and and the the whole tech crowd where it's just like the name
+
+449
+00:48:33,940 --> 00:48:40,500
+of the game is making everyone as addicted as possible and it relates to the attention piece
+
+450
+00:48:40,500 --> 00:48:47,780
+that we talked about because if you have to you know use attention as your monetization proxy then
+
+451
+00:48:47,780 --> 00:48:54,100
+you need to maximize addiction to drive profits that's what you need to do so technology actually
+
+452
+00:48:54,900 --> 00:49:00,660
+doesn't serve us anymore like the the modern silicon valley technology most of the time doesn't serve
+
+453
+00:49:00,660 --> 00:49:06,340
+it's users it's it's the users are working for the platforms to maximize the profits and so on so
+
+454
+00:49:06,340 --> 00:49:12,820
+it's all kind of you know like lopsided but but um i i i i like where it's going with the with
+
+455
+00:49:12,820 --> 00:49:20,500
+the nostra crowd where it's you know like people um uh you know like actually touching grass and uh
+
+456
+00:49:20,500 --> 00:49:26,100
+being in the water and actually being outside that's also why i you know like i i wanted to
+
+457
+00:49:26,100 --> 00:49:31,220
+have these conversations not centered around screens and not sitting together and staring
+
+458
+00:49:31,220 --> 00:49:39,060
+into laptops and and sitting in in like a closed room like i i just i think we also to think about
+
+459
+00:49:39,060 --> 00:49:45,060
+things properly you have to be outside and like yeah find inspiration from nature and the other things
+
+460
+00:49:45,060 --> 00:49:54,580
+to figure out how we could how we could steer this into a more sensible also more human-centered
+
+461
+00:49:54,580 --> 00:49:56,900
+direction yeah i think we really go
+
+462
+00:49:59,220 --> 00:50:02,180
+astray when we're doing something that we have a hard time
+
+463
+00:50:02,820 --> 00:50:10,020
+analogizing to the real world like uh it's potentially a sign of but but there is also
+
+464
+00:50:10,020 --> 00:50:14,100
+there's also novel things that are kind of that we don't have in the real world and and you you
+
+465
+00:50:14,100 --> 00:50:19,220
+mentioned previously like you want to share it with your family for example the family bible idea
+
+466
+00:50:19,220 --> 00:50:25,140
+and so it's not necessarily public but it's also not like super private uh in it like not only for
+
+467
+00:50:25,140 --> 00:50:34,660
+you and and i think we like the whole internet evolved in that direction um where um like
+
+468
+00:50:35,860 --> 00:50:42,740
+group chats are the biggest thing on the internet basically right now i love group chats so so like i
+
+469
+00:50:42,740 --> 00:50:46,660
+don't know what the estimates are so i'm gonna pull a number out my ass but it's like 80 of the
+
+470
+00:50:46,660 --> 00:50:51,860
+the internet is like happening in group chats basically when compared to more open things like
+
+471
+00:50:51,860 --> 00:50:58,420
+you know twitter and and facebook public pages and so on so most people are hiding in like whatsapp
+
+472
+00:50:58,420 --> 00:51:03,540
+signal telegram private chats basically hiding quote unquote like they're not actually hiding it's just
+
+473
+00:51:03,540 --> 00:51:09,060
+like i want to share this but i only share with my i only want to share with my group of people
+
+474
+00:51:09,060 --> 00:51:14,500
+that's i think why why bitcoin twitter and now also nostor feels so nice because it's yes you're
+
+475
+00:51:14,500 --> 00:51:19,300
+publishing it globally but you also know it will only be seen by those people like no one else is
+
+476
+00:51:19,300 --> 00:51:25,540
+gonna care so it kind of is like a group chat a little bit it also isn't like for for for from
+
+477
+00:51:25,540 --> 00:51:31,220
+from a pure like technical privacy standpoint and so on but still like the the group chat issue is
+
+478
+00:51:31,220 --> 00:51:35,460
+always how private is a group chat if there's like more than five people in it you'll always have
+
+479
+00:51:35,460 --> 00:51:40,020
+a mole you know like someone is going to take a screenshot and just send it into a bigger group or
+
+480
+00:51:40,020 --> 00:51:44,980
+whatever so so so so you don't have any strong privacy assumptions in group chats in the first
+
+481
+00:51:44,980 --> 00:51:52,340
+place and so so so but we don't have that the reason why i bring this up is we we kind of have that
+
+482
+00:51:52,340 --> 00:51:56,980
+it's like if you're sitting at a bar and you're having a conversation or like right here we're sitting
+
+483
+00:51:56,980 --> 00:52:02,260
+in the park we're having a conversation we it it looks and feels as if we are alone but there might
+
+484
+00:52:02,260 --> 00:52:05,780
+be a guy like behind the bush listening to everything we say and in the bar the same thing
+
+485
+00:52:05,780 --> 00:52:15,140
+i'll join too but but in in a bar like that's why my my go-to joke for bitcoin twitter was always
+
+486
+00:52:15,140 --> 00:52:19,940
+like because people people got always so butthurt about like whatever drama and so on and they don't
+
+487
+00:52:19,940 --> 00:52:26,100
+realize that it's like okay this is it's not only like a meeting room or like a sports club where
+
+488
+00:52:26,100 --> 00:52:31,940
+people hang out and it's also a bar you know where it's also a playground like some people might be like
+
+489
+00:52:31,940 --> 00:52:37,620
+drunk right now you're arguing with them on twitter and getting upset and the guy might be out of his
+
+490
+00:52:37,620 --> 00:52:45,140
+mind high you know or he might be 14 like you don't know you know and and so so we don't i don't think we
+
+491
+00:52:45,140 --> 00:52:53,620
+have we have some things that we can compare with some meatspace things like again bars and and parks and
+
+492
+00:52:53,620 --> 00:52:59,780
+so on that we that where we can draw comparisons but it's still strictly novel and i think the main issue
+
+493
+00:52:59,780 --> 00:53:06,100
+with online discourse is that we unless you grew up on the internet we we lack good
+
+494
+00:53:07,540 --> 00:53:12,180
+instincts and heuristics of how to deal with people and let's just one one one more thing
+
+495
+00:53:12,180 --> 00:53:16,660
+then i'll stop the rant but there's people like jordan peterson who is completely butthurt about
+
+496
+00:53:16,660 --> 00:53:22,260
+online anonymity i think he's very misguided about this and and there's people that are better with
+
+497
+00:53:22,900 --> 00:53:28,740
+dealing with online trolls and toxicity for example like call it whatever you want but it's like
+
+498
+00:53:28,740 --> 00:53:34,660
+in real life we're really good with that because if the town drunk comes up to you and tells you
+
+499
+00:53:34,660 --> 00:53:41,060
+that you're an asshole or whatever or a liar you're you're not going to be upset it's the town drunk
+
+500
+00:53:41,620 --> 00:53:45,300
+the the difference with twitter is or with online environments is there might be a hundred town
+
+501
+00:53:45,300 --> 00:53:50,100
+drunks coming to you and just saying whatever outrageous stuff yeah i don't i don't quite know what
+
+502
+00:53:50,100 --> 00:53:57,540
+i think about the public timelines i i feel like something i've noticed about myself is that i'm way
+
+503
+00:53:57,540 --> 00:54:07,140
+better at loving people in the abstract than loving gg loving a person you know like um and so i think
+
+504
+00:54:07,140 --> 00:54:14,500
+there's something how do you mean that you'll have to explain it the concept of people i'd be much more
+
+505
+00:54:14,500 --> 00:54:22,260
+likely to do something for civilization rather than like if my brother asked me to go run an errand for
+
+506
+00:54:22,260 --> 00:54:29,540
+him i'd be like right like oh really okay interesting and i you know i i don't know if it's it there's
+
+507
+00:54:29,540 --> 00:54:35,940
+something about maybe it's just kind of this tech mindset that i've been in of kind of thinking of
+
+508
+00:54:35,940 --> 00:54:43,300
+people as kind of like just kind of the abstract people just the term people i i remember somebody
+
+509
+00:54:43,300 --> 00:54:49,940
+pointing this out about and you can you could hear it um when obama would say the word folks
+
+510
+00:54:51,540 --> 00:54:57,780
+you'd hear it in his speeches like he had he always had two terms for people there's like a big bucket of
+
+511
+00:54:57,780 --> 00:55:02,500
+undifferentiated people that i i may be able to pretend to care about but i don't necessarily really
+
+512
+00:55:02,500 --> 00:55:09,700
+care about and then there's like you know your wife your kids your family or somebody you know even if
+
+513
+00:55:09,700 --> 00:55:16,500
+they're a stranger that you have a actual personal moment with and you help them or you talk to them
+
+514
+00:55:16,980 --> 00:55:24,340
+or and those are two different things and i feel like when the group chat says small i'm dealing with
+
+515
+00:55:24,340 --> 00:55:34,260
+like i know these guys i'm talking to them specifically with their in mind that like uh we were talking
+
+516
+00:55:34,260 --> 00:55:40,100
+earlier uh before the pod about like theory of mind like i have a theory of mind how all these guys
+
+517
+00:55:40,100 --> 00:55:44,900
+are going to react i'm i'm trying to make all of them laugh or all of them think i'm racist or whatever
+
+518
+00:55:45,460 --> 00:55:50,260
+i'm trying to do in this group chat if it's small enough and when you get to a certain size
+
+519
+00:55:50,820 --> 00:55:57,860
+you're talking about your you have to compress it into an abstraction but but then also like it's very
+
+520
+00:55:57,860 --> 00:56:03,380
+uh you'll have high coherence in small groups and the coherence dissipates the larger the group gets
+
+521
+00:56:03,380 --> 00:56:10,900
+automatically uh so sort of stuff uh like like the the the the theory of mind that you have
+
+522
+00:56:11,460 --> 00:56:18,900
+of the group like the the the you don't have a literal group think anymore you can't like once
+
+523
+00:56:18,900 --> 00:56:25,220
+there's a couple hundred people have you seen that that that graph that shows like the liberals um
+
+524
+00:56:25,220 --> 00:56:34,980
+think more about like the plight of the like the remote person oh there's a it's really there's a
+
+525
+00:56:34,980 --> 00:56:40,820
+oh shoot i wish i could think of the proper nouns for this but but yeah so it's like basically the
+
+526
+00:56:40,820 --> 00:56:46,340
+conservative tendency is to think a lot more about your family and immediate friends and stuff like
+
+527
+00:56:46,340 --> 00:56:53,140
+that and you'll see it's you see it clustered in this chart right around the center people closest to
+
+528
+00:56:53,140 --> 00:56:59,140
+me are the people i think most about yeah and i care most about whereas the liberal
+
+529
+00:57:01,300 --> 00:57:08,900
+on this chart thinks the most and cares the most about like animal welfare yeah yeah in africa yeah
+
+530
+00:57:09,700 --> 00:57:16,420
+people far away from them i think that's kind of this idea and i think i personally just have actually
+
+531
+00:57:16,420 --> 00:57:23,860
+have that tendency okay so you you you care more about society or like the state of the internet
+
+532
+00:57:23,860 --> 00:57:29,860
+than abstract person rather than the person right next to me that actually okay interesting and so i
+
+533
+00:57:29,860 --> 00:57:37,860
+feel like that's something that i struggle with online of yeah the socializing online is um
+
+534
+00:57:37,860 --> 00:57:45,700
+kind of colored by that yeah yeah yeah i i still i mean a lot of the things that we we just went
+
+535
+00:57:45,700 --> 00:57:53,780
+through i think i feel like it's all related to web of trust but we don't have a good understanding yet
+
+536
+00:57:53,780 --> 00:58:01,220
+how a web of trust actually works in some sense because i mean some of the things that the people that
+
+537
+00:58:01,220 --> 00:58:06,260
+are working on this already ran into is like it's very hard to put it into one score for example it's
+
+538
+00:58:06,260 --> 00:58:12,740
+it's like it's like a it's like a it's multiple vectors basically you know it's like a it's because
+
+539
+00:58:12,740 --> 00:58:20,180
+lucky it's yeah yeah if we're lucky but it's like because it's also and i think pablo and i we talked
+
+540
+00:58:20,180 --> 00:58:29,140
+about this this this briefly but it's like it's you know like you have this uh i i keep i i always feel
+
+541
+00:58:29,140 --> 00:58:31,780
+bad when i repeat exactly the same things but i just i i
+
+542
+00:58:31,780 --> 00:58:41,620
+to make it through the rain and everything else but it's it's you are not one person and you're
+
+543
+00:58:41,620 --> 00:58:46,900
+kind of in in the middle of the overlap of multiple groups so your identity is not self-assigned first
+
+544
+00:58:46,900 --> 00:58:51,300
+and foremost it's like other people will tell you who you are that's why you also lose your identity
+
+545
+00:58:51,300 --> 00:58:54,980
+when you're in social isolation you go completely insane and everything else but it's like let's say
+
+546
+00:58:54,980 --> 00:59:00,900
+i'm a bitcoiner i'm also you know a skateboarder i'm also an austrian i'm also you know like a guy
+
+547
+00:59:00,900 --> 00:59:08,180
+who is on australia and so on and and so if i like i trust my group of bitcoin friends for example
+
+548
+00:59:08,740 --> 00:59:13,700
+with various things but especially on the bitcoin side or bitcoin adjacent things you know like i don't
+
+549
+00:59:13,700 --> 00:59:19,300
+trust them with on absolutely everything and that's just how it works that's how every web of trust
+
+550
+00:59:19,300 --> 00:59:25,380
+works and we don't have great ways to model this in in in cyberspace in meat space that becomes natural
+
+551
+00:59:25,380 --> 00:59:32,340
+it's like if you need help with i don't know like your gun you go to your gun nut friend you know
+
+552
+00:59:32,340 --> 00:59:37,140
+and you'll whatever he says what is wrong with your gun you'll trust him if you need help how to prepare
+
+553
+00:59:37,140 --> 00:59:42,260
+meat you'll go to your butcher or to whatever butcher friend or to your to your friend who is an awesome
+
+554
+00:59:42,260 --> 00:59:46,820
+cook or chef or whatever and so on if you need help with a computer and you need trustworthy input in
+
+555
+00:59:46,820 --> 00:59:53,380
+that department you'll go to someone who knows there like even if you disagree with him about like
+
+556
+00:59:53,380 --> 00:59:59,540
+almost everything else and so on and and so so that's i think it relates to the to the to the
+
+557
+00:59:59,540 --> 01:00:03,780
+group chat dynamic that's why for example you're you're and i'm sure that's true for everyone but
+
+558
+01:00:03,780 --> 01:00:09,620
+you're in multiple groups with the same people and it happens all the time and it's like we we're not
+
+559
+01:00:09,620 --> 01:00:14,180
+going to bring up sports or whatever in this group it's about this thing yeah this group is about this
+
+560
+01:00:14,180 --> 01:00:19,140
+thing with these people and there's a big overlap with with the people in it and so on yeah also you
+
+561
+01:00:19,140 --> 01:00:23,700
+said yeah you're not the same person with different people also you're not the same person over time
+
+562
+01:00:23,700 --> 01:00:32,740
+not at all i know that's also another like social insecurity of mine is tend to take the absolute
+
+563
+01:00:32,740 --> 01:00:40,740
+last the tail the tail last five minutes of interaction oh i think i i saw the hint of a frown
+
+564
+01:00:42,020 --> 01:00:46,660
+in the last five minutes this person clearly wants to write me out of their life they're just trying to
+
+565
+01:00:46,660 --> 01:00:52,660
+find a good opportunity to escape doesn't the bible uh talk about forgiveness uh yes well that you
+
+566
+01:00:52,660 --> 01:00:58,660
+know i i wrote a bunch of uh not nearly as successful as your writing but i wrote a bunch of essays on
+
+567
+01:00:58,660 --> 01:01:06,820
+trust and uh one of them was this idea of repeat games so you you could design a trust system where as
+
+568
+01:01:06,820 --> 01:01:13,220
+soon as somebody makes a mistake you just like write them off they're dead to you yeah it doesn't work
+
+569
+01:01:13,220 --> 01:01:20,340
+long but you there's not yeah you get the best if you have some yeah tit for tat that's actually the
+
+570
+01:01:20,340 --> 01:01:25,460
+best some a little bit of forgiveness yeah you're like hey i'm gonna assume that was a mistake yeah
+
+571
+01:01:25,460 --> 01:01:33,780
+um and and they actually i feel like they more capable like the bigger forgiveness budget that you can
+
+572
+01:01:33,780 --> 01:01:40,900
+muster yourself yeah you actually there's so much upside to it yeah uh no i think they ran actually like
+
+573
+01:01:40,900 --> 01:01:44,660
+they ran simulations and studies and all kinds of things on that and it's like turns out tit for
+
+574
+01:01:44,660 --> 01:01:49,620
+that tit for tat is actually the best strategy and for repeat interaction it's like it's it's literally
+
+575
+01:01:49,620 --> 01:01:55,140
+like what society has been saying all the time it's like three strikes and you're out basically if you
+
+576
+01:01:55,140 --> 01:02:00,980
+if you repeat the game with known participants and so on if you fool me three times then it's like
+
+577
+01:02:00,980 --> 01:02:05,140
+you're then you're off the table like there's it's going to be very hard to recover from that but but
+
+578
+01:02:05,140 --> 01:02:10,580
+just if you if you if you move to a new city for example it's like the best strategy is tit for that i'm
+
+579
+01:02:10,580 --> 01:02:16,580
+gonna trust you i'm gonna be open-minded and if you if you fuck me i'm gonna retaliate but then i'm
+
+580
+01:02:16,580 --> 01:02:21,380
+gonna be open-minded again basically i'm gonna be forgiving again this whole kind of a tangent but
+
+581
+01:02:21,380 --> 01:02:27,140
+the mission moving to new city i feel like something that we could maybe try to learn from nature is you
+
+582
+01:02:27,140 --> 01:02:35,300
+know it was much more common historically for people to be born in one town live in that town and die in
+
+583
+01:02:35,300 --> 01:02:42,340
+that town yeah and uh especially i think maybe before my generation but especially my generation
+
+584
+01:02:42,340 --> 01:02:48,420
+has moved all over the us and my family specifically we've come all moved away from where our parents
+
+585
+01:02:48,420 --> 01:02:54,020
+and i my brother's doing some genealogy i kind of have like a history of that like you know like
+
+586
+01:02:54,820 --> 01:02:58,980
+you know not too many generations ago a lot of my ancestors were in europe and then they like for
+
+587
+01:02:58,980 --> 01:03:03,620
+whatever original religious persecution moved to a different country in europe and then like this
+
+588
+01:03:03,620 --> 01:03:09,780
+isn't working out so they come to the u.s and then they moved around in the u.s and so i'm sure i'm
+
+589
+01:03:09,780 --> 01:03:17,220
+you know like bitadels bitcoiners talk about citadels and i do think there's something there's a yearning
+
+590
+01:03:17,220 --> 01:03:26,500
+for what if we were truly established and what would that mean to have a good enough space that my kids not
+
+591
+01:03:26,500 --> 01:03:31,620
+only want to stay here because they have a free house or whatever but they want to stay here because
+
+592
+01:03:31,620 --> 01:03:37,540
+this is where they think they'll thrive and create something like a multi-generational because i think
+
+593
+01:03:37,540 --> 01:03:46,260
+a lot of the the idea of yourself as an atomic individual bopping around and just completely
+
+594
+01:03:46,260 --> 01:03:56,100
+unmoored is not very human and we kind of represent ourselves and act like that online a lot but i don't
+
+595
+01:03:56,100 --> 01:04:03,060
+think that's actually very in line with who we're actually designed to be and i know i'm discovering
+
+596
+01:04:03,060 --> 01:04:08,820
+that more of that yearning myself in the meat space of wanting like what would it take for me to find a
+
+597
+01:04:08,820 --> 01:04:14,340
+place that i thought i would thrive and i thought my kids would thrive and we're going to build we're
+
+598
+01:04:14,340 --> 01:04:21,060
+going to build a town called millersville or whatever it is uh i i i i find that yearning
+
+599
+01:04:21,860 --> 01:04:30,260
+um and and this idea that it's so common for young people to think that they kind of have to invent
+
+600
+01:04:30,260 --> 01:04:38,820
+their purpose it's a tall order especially at the age of 18 yeah and um i think some people are
+
+601
+01:04:38,820 --> 01:04:44,900
+going to have weird ideas and need to go invent their purpose but i don't think that hasn't been
+
+602
+01:04:45,460 --> 01:04:53,540
+the norm for all it also usually doesn't work right it's like you you it's um just like you can't you
+
+603
+01:04:53,540 --> 01:05:00,900
+know self-identify and just make anything up you can't really you you don't define your purpose you you
+
+604
+01:05:00,900 --> 01:05:08,180
+if you're lucky you find your purpose but it's it's it's always something that finds you and that pulls you
+
+605
+01:05:08,180 --> 01:05:13,300
+and that you find really interesting for some reason you can't you can't choose what you find
+
+606
+01:05:13,300 --> 01:05:19,220
+interesting you you really can't you can you can the the only thing you can do is like if you really
+
+607
+01:05:19,220 --> 01:05:24,020
+want to pick something up if you want to learn how to i don't know like play the violin or play
+
+608
+01:05:24,020 --> 01:05:28,100
+chess or whatever you can maneuver yourself in situations where you're surrounded by people that
+
+609
+01:05:28,100 --> 01:05:32,180
+do that all the time but where does the impulse come from like where why why are you interested
+
+610
+01:05:32,180 --> 01:05:37,460
+in doing that in the first place you know it's like it's it's because and i i say this out of
+
+611
+01:05:37,460 --> 01:05:44,020
+personal experience like i didn't choose to burn down my old life and my my my existing career to
+
+612
+01:05:44,020 --> 01:05:50,020
+go like all into bitcoin and go full-time into the insanity of that all like it really really really
+
+613
+01:05:50,020 --> 01:05:55,620
+pulled me and and similar to to to the last stuff now it's like it's it's it really pulls me because
+
+614
+01:05:55,620 --> 01:06:03,220
+i see so much potential in it i can't help but be interested in it it's it's it's it's and uh you know
+
+615
+01:06:03,220 --> 01:06:07,460
+i i disagree with parker heavily i don't think it's a distraction i think it's essential to have
+
+616
+01:06:07,460 --> 01:06:11,540
+like an identity layer that is actually permissionless on the internet to have
+
+617
+01:06:12,340 --> 01:06:17,540
+self-sovereign self-sovereignty in cyberspace to have something that allows for maximum agency it's
+
+618
+01:06:17,540 --> 01:06:21,140
+like because the alternative is like you'll you'll choose your gulag is the alternative
+
+619
+01:06:22,740 --> 01:06:27,700
+which is not a great alternative and and i i really like what you what you what you said about the
+
+620
+01:06:27,700 --> 01:06:33,700
+the the time aspect that the multi-generational aspect that's on i feel like as a society we lost
+
+621
+01:06:33,700 --> 01:06:39,060
+all of that like we we had you know like the indigenous people had like they based their
+
+622
+01:06:39,060 --> 01:06:47,700
+decisions on in part like how will this affect our family seven generations down the line we don't do
+
+623
+01:06:47,700 --> 01:06:52,980
+anything like that but i think especially in cyberspace with the stuff that we're building now i feel like
+
+624
+01:06:52,980 --> 01:06:58,500
+we should you know like it's i i feel like we kind of do like bitcoin is very low time preference
+
+625
+01:06:59,220 --> 01:07:05,300
+also from an engineering perspective you know emission stops in the year 2140 so that tells you
+
+626
+01:07:05,300 --> 01:07:09,620
+something about the time preference of the whole system already and so whatever you build but i think
+
+627
+01:07:09,620 --> 01:07:15,380
+also on the industrial side like whatever it whatever you build like will my grandkids be able to use that
+
+628
+01:07:15,380 --> 01:07:21,860
+just as just as we design it just as we architect it right now because the fucking unix tools for
+
+629
+01:07:21,860 --> 01:07:27,540
+example to come back to that yeah they build it that way i still use you know grapple whatever that
+
+630
+01:07:27,540 --> 01:07:34,020
+like some guy is cooked programming language yeah i i think that's something beautiful and i think that's
+
+631
+01:07:34,020 --> 01:07:41,540
+part of it it's like by building tools with your grandchildren in mind that is potentially something
+
+632
+01:07:41,540 --> 01:07:49,860
+that they can stick around for it's like if you are an atomic economic unit and the things that you make
+
+633
+01:07:49,860 --> 01:07:57,940
+are just in service of a one specific company what what part of that company are you passing on to
+
+634
+01:07:57,940 --> 01:08:03,460
+your kids unless you have like stock options but even then like what is what is it for them to do what
+
+635
+01:08:03,460 --> 01:08:11,780
+is it for them to carry on like what part of the job um is it is is it is the is there to work on
+
+636
+01:08:11,780 --> 01:08:16,340
+because we're not going to finish it we're just trying to go in the right direction like we're we're
+
+637
+01:08:16,340 --> 01:08:21,940
+trying to lay a foundation of a cathedral and i'm hoping my grandchild is really great at stained
+
+638
+01:08:21,940 --> 01:08:32,100
+glass when the time when the time comes yeah i think i i i you you you touched on it uh briefly but i
+
+639
+01:08:32,100 --> 01:08:40,100
+think the i mean we we cite the sovereign individual thesis a lot because i think the book got a lot of
+
+640
+01:08:40,100 --> 01:08:47,300
+things right when it comes to the inversion of power that cryptography brings with it uh like i i
+
+641
+01:08:47,300 --> 01:08:52,500
+mentioned it briefly today i think where it's like the the the superpower that cryptography
+
+642
+01:08:54,260 --> 01:09:01,780
+gives you is that you have a shield that force cannot break like if you encrypt something and you
+
+643
+01:09:01,780 --> 01:09:09,700
+know what you're doing like even if the us and china and russia would collude to try to brute force your
+
+644
+01:09:09,700 --> 01:09:15,620
+thing they can't like that's very very powerful the second thing is that there is no barrier to
+
+645
+01:09:15,620 --> 01:09:21,220
+entry anyone can use it it's just math basically so i always bring up the the thought experiment which
+
+646
+01:09:21,220 --> 01:09:26,580
+is way more than a thought experiment like i i know people that actually did it and for some of my keys
+
+647
+01:09:26,580 --> 01:09:34,020
+i did this myself where you actually you can you can lock yourself in the bathroom where you where you
+
+648
+01:09:34,020 --> 01:09:41,700
+have high assurances of privacy flip a coin a couple times and you come out with a working bitcoin
+
+649
+01:09:41,700 --> 01:09:46,340
+private key which means a working way to receive bitcoin like you basically you come out with a
+
+650
+01:09:46,340 --> 01:09:52,500
+bitcoin wallet so to speak you know and so so so those two things the permission less nature of it just
+
+651
+01:09:52,500 --> 01:10:00,340
+being math and the force inversion basically that that like you you basically have a thing that no
+
+652
+01:10:00,340 --> 01:10:07,700
+amount of violence in the world can break open that's what that's what affords you all the you know
+
+653
+01:10:08,900 --> 01:10:13,220
+all the it affords yourself sovereignty in cyberspace but i think where a lot of
+
+654
+01:10:14,420 --> 01:10:20,980
+a lot of uh think boys turned the wrong way it's like that doesn't mean that you're you're gonna be
+
+655
+01:10:20,980 --> 01:10:26,740
+the the so the sovereign individual thesis doesn't mean that you're completely self-sufficient about
+
+656
+01:10:26,740 --> 01:10:33,860
+absolutely everything you're not an atomized thing bumping around in the void you will always be
+
+657
+01:10:33,860 --> 01:10:42,100
+embedded in a social fabric to get anything done like or to stay sane even to have an identity even and
+
+658
+01:10:42,100 --> 01:10:47,780
+you'll always be dependent on outside factors even if it's just the environment you know it's and you
+
+659
+01:10:47,780 --> 01:10:52,740
+you hope also that people would be dependent on you yes you want to be of service right like in
+
+660
+01:10:52,740 --> 01:10:57,620
+the best case it's like you you want to do something useful with your life everyone who ever tried to
+
+661
+01:10:57,620 --> 01:11:02,340
+retire probably knows this it's like you you're hanging out on the beach and sipping margaritas for
+
+662
+01:11:02,340 --> 01:11:07,620
+two weeks and it's like what are you gonna do it's like you'll be depressed instantly but but
+
+663
+01:11:07,620 --> 01:11:13,780
+the reason why i bring all this up is because you even in a sovereign individual environment so to
+
+664
+01:11:13,780 --> 01:11:19,220
+speak it's like you're still gonna need social connection you're still gonna need reputation
+
+665
+01:11:19,220 --> 01:11:23,620
+all those kind of things all the all the things that that we're working on on the nostra side
+
+666
+01:11:23,620 --> 01:11:32,180
+because you need a functioning social structure to make anything work really like i mean the austrians
+
+667
+01:11:32,180 --> 01:11:38,100
+know this is like you know i pencil what do you need to create a pencil from scratch the no single
+
+668
+01:11:38,100 --> 01:11:42,580
+person can ever create a pencil from scratch and and and i think what we are kind of
+
+669
+01:11:44,180 --> 01:11:49,700
+hoping to do with the next iteration of the internet is like break open that silos and let
+
+670
+01:11:49,700 --> 01:11:56,980
+the whole thing self-organize as opposed to like you know like three gigantic platforms dictate how
+
+671
+01:11:56,980 --> 01:12:01,940
+the whole thing works i think that's kind of the underlying ethos and i think it's not it's not a self
+
+672
+01:12:01,940 --> 01:12:08,820
+organization like a borg consciousness no it's more like a jungle self-organizing yeah yeah i think
+
+673
+01:12:08,820 --> 01:12:15,540
+there's a like a i think there's a real low role for leadership that i think i think bitcoiners are
+
+674
+01:12:15,540 --> 01:12:23,060
+naturally contrarian and anti-authoritarian and a lot of them have been burned by specific bad leaders
+
+675
+01:12:23,780 --> 01:12:30,020
+but if you think of like why do we have the good things that we have it's mostly because one
+
+676
+01:12:30,020 --> 01:12:36,500
+one individual thought really hard about something worked really hard on something pushed really
+
+677
+01:12:36,500 --> 01:12:42,100
+hard and then you know sometimes you could just push it off the shore and it works you know sometimes
+
+678
+01:12:42,100 --> 01:12:51,140
+you have to sometimes you need a captain on the ship you know i i think i think humans naturally crave
+
+679
+01:12:53,780 --> 01:12:58,340
+leadership and authority and it doesn't that doesn't mean by decree it's different than
+
+680
+01:12:59,140 --> 01:13:05,460
+because i said so like fiat i love when jimmy song says like fiat is latin for because yeah yeah
+
+681
+01:13:06,180 --> 01:13:11,220
+it's different than because i said it looks let there be light there's an earned form of leadership
+
+682
+01:13:11,220 --> 01:13:19,300
+where you defer to someone who's put in the work and it has risked something and is pushing hard for
+
+683
+01:13:19,300 --> 01:13:25,300
+something and we don't always have to defer to everybody all the time but i think we should be on the
+
+684
+01:13:25,300 --> 01:13:32,100
+lookout for uh for leaders and interesting it's interesting that you say that i'm not sure if i
+
+685
+01:13:32,100 --> 01:13:40,820
+agree it's in the in the sense of i know that the human like all humans like leaders and especially
+
+686
+01:13:41,620 --> 01:13:48,100
+charismatic leaders and so on like everyone kind of tries to find someone to to lead the way and and
+
+687
+01:13:48,100 --> 01:13:53,780
+kind of you know steer the ship and those kind of things but i when i when i wanna when i hope
+
+688
+01:13:57,380 --> 01:14:03,300
+i and it's it's it's it's fascinating to me that you're saying this because what what christianity
+
+689
+01:14:03,300 --> 01:14:09,060
+shows like as a christian you're saying this it's like i i'm in some sense yes christians are following
+
+690
+01:14:09,060 --> 01:14:16,900
+jesus yes but in in my mind and maybe i'm very wrong about it but it's it's like it's the right story
+
+691
+01:14:16,900 --> 01:14:21,700
+it's the right story to tell it's like it's it's not even yes it's the right person to follow but
+
+692
+01:14:21,700 --> 01:14:26,820
+it's it's it's in in my in my mind it's even bigger than that it's like it's like what what is the
+
+693
+01:14:26,820 --> 01:14:32,900
+vision you know like what is the vision what is the what is something that is worth aiming at and
+
+694
+01:14:33,940 --> 01:14:38,660
+that's what i want to figure out for i think that's the that's the peterson
+
+695
+01:14:38,660 --> 01:14:48,260
+heresy fair enough fair enough oh we found an archetype fair enough where jesus says i am
+
+696
+01:14:48,260 --> 01:14:54,020
+the way yeah yeah i am the truth i am the life but that's the but that's you said you just said i
+
+697
+01:14:54,020 --> 01:14:59,940
+don't and and i mean everyone who who who uh you know knows a little bit about this stuff knows this
+
+698
+01:14:59,940 --> 01:15:06,180
+but it's the early followers of of jesus of nazareth were uh um the followers of the way
+
+699
+01:15:06,180 --> 01:15:12,820
+and he said he was the way and the embodiment of the way so to speak and and and so so in the taoist
+
+700
+01:15:12,820 --> 01:15:18,820
+tradition that there is only the way you know there is like the uh and and i i feel like that
+
+701
+01:15:18,820 --> 01:15:23,140
+bringing it back to cyberspace and to the current iteration of the internet i feel like we lost the way
+
+702
+01:15:23,940 --> 01:15:29,780
+massively and i'm not sure if a person can bring it back i don't think elon is gonna save us i don't
+
+703
+01:15:29,780 --> 01:15:35,780
+think doge is gonna save us i don't think trump is gonna save us i think what we we have to ask ourselves
+
+704
+01:15:35,780 --> 01:15:41,780
+the really hard questions is like what should the internet be i i well yes we should ask ourselves
+
+705
+01:15:41,780 --> 01:15:48,100
+that question we should discuss amongst ourselves i think the thing is you know that this podcast is
+
+706
+01:15:48,100 --> 01:15:52,820
+no solutions only trade us right we're humans we're not none of us so if we don't have a person
+
+707
+01:15:52,820 --> 01:15:59,380
+none of us is going to be the jesus of the internet i hope not but what you i'm sure you've been involved
+
+708
+01:15:59,380 --> 01:16:07,620
+in things that are a design by committee versus designed by an individual a sahil
+
+709
+01:16:08,980 --> 01:16:15,780
+big one designer talks about this is the throat to choke you don't end up with an inspired design that
+
+710
+01:16:16,420 --> 01:16:25,380
+considers trade-offs when you when you are designed by committee you're settling for something that
+
+711
+01:16:25,380 --> 01:16:34,340
+doesn't piss anybody off yeah leader is able to to push for something that is going to make 20 of
+
+712
+01:16:34,340 --> 01:16:41,140
+the people really sad no great art was ever done by a committee yes yeah yes and i think we need a
+
+713
+01:16:41,140 --> 01:16:49,140
+little bit more of that art i see i see i see yeah that kind of makes sense now i i definitely agree that
+
+714
+01:16:49,140 --> 01:16:55,460
+um i don't know that's another balance to strike i feel like there are some systems that really
+
+715
+01:16:56,660 --> 01:17:06,340
+thrive on not putting too much weight on a single individual um again like i i pablo mentioned this
+
+716
+01:17:06,340 --> 01:17:10,820
+briefly like i'm i'm a huge believer in distributed cognition that's why i think like having these
+
+717
+01:17:10,820 --> 01:17:15,940
+conversations is super important having the having the the constant dialogue about this stuff is super
+
+718
+01:17:15,940 --> 01:17:21,060
+important because no single person is going to figure everything out it's just like there's going
+
+719
+01:17:21,060 --> 01:17:26,660
+to be a little nugget of insight here a little nugget of of insight there and like uh uh again
+
+720
+01:17:26,660 --> 01:17:32,100
+we're coining new terms and phrases as we move along because we're trying to think through those things and
+
+721
+01:17:32,100 --> 01:17:37,460
+we are i'm still convinced like we're missing most of the vocabulary to meaningfully talk about
+
+722
+01:17:37,460 --> 01:17:44,180
+this stuff and like uh like pablo and i we we already talked about like the the the um the data being
+
+723
+01:17:44,180 --> 01:17:49,380
+bearer and it's like uh um we landed on a different term just like yesterday which was uh
+
+724
+01:17:50,660 --> 01:17:54,660
+self-sufficient data or something like that now i'm blanking on the term again self-verifying
+
+725
+01:17:54,660 --> 01:17:59,940
+self-verifying where where it's just like if you have the data you have everything you need
+
+726
+01:17:59,940 --> 01:18:04,900
+where it comes from there there is no authority yeah it removes the authority from the equation
+
+727
+01:18:04,900 --> 01:18:10,660
+and then when i talked with with kelly like we landed on on a blinded custodian you know like it's
+
+728
+01:18:10,660 --> 01:18:14,340
+there's a difference between a custodian a regular custodian and the blinded custodian
+
+729
+01:18:14,340 --> 01:18:19,300
+there's a big difference and so we're figuring out all these all these terms and and we're doing
+
+730
+01:18:19,300 --> 01:18:25,060
+it by you know like participating in this distributed cognition i think saps is a great example for
+
+731
+01:18:25,060 --> 01:18:30,260
+example as well saps are not payments they can be payments but they are not exclusively payments
+
+732
+01:18:30,260 --> 01:18:36,900
+saps are also not tips i think and i think it was fantastic of will to not call them tips like i i you
+
+733
+01:18:36,900 --> 01:18:40,420
+uh you know i had a little bit of a say in that because i was like if you call them tips you're
+
+734
+01:18:40,420 --> 01:18:44,820
+only gonna get tips and it's just gonna be like you're exhibiting some leadership yeah no no
+
+735
+01:18:47,700 --> 01:18:52,500
+you know the thing with cheeses is that he ends up on the cross that's uh that's uh no no
+
+736
+01:18:52,500 --> 01:18:59,620
+fuck that not at all and and um like i i didn't come up with saps i didn't uh you know like not at
+
+737
+01:18:59,620 --> 01:19:04,420
+all i know the leader doesn't come up with everything no no but don't try to bully me into becoming a
+
+738
+01:19:04,420 --> 01:19:11,140
+leader of anything i i try to remove myself the the goal of this experiment by the way is to to to
+
+739
+01:19:11,140 --> 01:19:18,900
+to end it and potentially i think what we can do in uh these leaderless maloos is find people that we
+
+740
+01:19:18,900 --> 01:19:25,540
+tend to agree who have been have great track records like in bitcoin i love uh like uh bitstein
+
+741
+01:19:25,540 --> 01:19:32,100
+and piero shark oh fantastic what a track fantastic they started talking again uh by the way as well
+
+742
+01:19:32,100 --> 01:19:38,020
+like broadcasting yes that's great yes that's great to hear yeah yeah but reorg so many early
+
+743
+01:19:38,020 --> 01:19:43,140
+called shots yeah and i you know i love that so like people who have a long track record of being
+
+744
+01:19:43,140 --> 01:19:52,260
+right yeah um that you like have a good vibe about uh and that are speaking you know since i think are
+
+745
+01:19:52,260 --> 01:19:59,140
+are people that you you can like because yes one person can't make all the decisions but also as an
+
+746
+01:19:59,140 --> 01:20:06,420
+individual i am under indexed on all the knowledge i need to make the right decision for myself a lot
+
+747
+01:20:06,420 --> 01:20:15,300
+of times so i i'm hopefully looking to people that i view as wise as quality yes yes yes yes and i was
+
+748
+01:20:15,300 --> 01:20:24,820
+just about to say i feel like we have way too many leaders and way too few wise people and i i i so not
+
+749
+01:20:24,820 --> 01:20:31,540
+want to want to be a leader i can see myself smoking a pipe on the porch having a gray beard and trying
+
+750
+01:20:31,540 --> 01:20:39,780
+to you know just uh you know talk to the youngsters of of what they might not have considered you know
+
+751
+01:20:39,780 --> 01:20:45,780
+like we we have very few old people with experience that have seen that know
+
+752
+01:20:45,780 --> 01:20:52,100
+shit and and they're they're completely excluded from these conversations where and and verveke
+
+753
+01:20:52,100 --> 01:20:58,100
+always always asks us like where do you go for wisdom in today's day and age because people where
+
+754
+01:20:58,100 --> 01:21:01,620
+do you go for information where do you go for knowledge and where do you go for wisdom the
+
+755
+01:21:01,620 --> 01:21:05,620
+information is easy it's like you go to google chat computer whatever where do you go for knowledge
+
+756
+01:21:05,620 --> 01:21:10,020
+like it used to be the library all those kind of things and so where do you go for wisdom everyone
+
+757
+01:21:10,020 --> 01:21:16,180
+draws a blank there is no place to go for wisdom so i i don't think we need need leaders necessarily
+
+758
+01:21:16,180 --> 01:21:21,860
+like in the sense of oh we're gonna dictate like how this needs to be done but but i i i i think we
+
+759
+01:21:21,860 --> 01:21:27,220
+need i wise people i think when you even when you said that i it's uh the weather disagrees it starts
+
+760
+01:21:27,220 --> 01:21:33,860
+raining again so so god is angry with my me not stepping up oh yeah thanks
+
+761
+01:21:33,860 --> 01:21:44,900
+should we should we try to make the same move sure let's try you up to it let's try i'll see i can i
+
+762
+01:21:44,900 --> 01:21:50,580
+can walk again a little bit maybe with crutches and everything up easier than the stairs yeah let's
+
+763
+01:21:50,580 --> 01:21:58,260
+take the stairs but yeah no i think i just you know bitcoin as a leaderless system i think it's just
+
+764
+01:21:58,260 --> 01:22:06,580
+allergic to i don't think so at all i think bitcoin had a leader you know satoshi nakamoto and then he
+
+765
+01:22:06,580 --> 01:22:13,140
+left and then when i showed up to bitcoin uh it had a technically it had a a peter willa
+
+766
+01:22:15,140 --> 01:22:21,940
+that's an awesome peter willa meme it's like rough consensus like it's a scooby-doo meme where it's like
+
+767
+01:22:22,500 --> 01:22:28,100
+rips off the face that the bad guy is hiding under and it's like now we'll finally know
+
+768
+01:22:28,100 --> 01:22:37,380
+who we are consensus yeah i guess you have a point so you i think that's the thing is is there
+
+769
+01:22:38,980 --> 01:22:42,740
+that's my current belief is that there isn't such a thing as a leaderless system
+
+770
+01:22:43,620 --> 01:22:51,140
+people might not know uh exactly who it's like you know we all knew that uh joe biden wasn't
+
+771
+01:22:51,140 --> 01:22:56,900
+president we didn't necessarily knew know who was but i don't think anybody really thought that
+
+772
+01:22:56,900 --> 01:23:04,820
+there was some sort of like rough consensus going on at the white house yeah fair enough i mean it's
+
+773
+01:23:04,820 --> 01:23:11,140
+i don't know i again like i don't i don't i don't have the answers my best i can do right now is to
+
+774
+01:23:11,140 --> 01:23:18,500
+talk about stuff and i think i think i hope that we'll just figure it out along the way and my again
+
+775
+01:23:18,500 --> 01:23:21,780
+my main worry is that we're just going to repeat the mistakes of the past
+
+776
+01:23:21,780 --> 01:23:28,420
+and that's kind of like also what i mean by that's usually what the old wise guy is for you know
+
+777
+01:23:28,420 --> 01:23:32,980
+he's been around and he saw the things and he had the wisdom passed down from you know his granddad and
+
+778
+01:23:32,980 --> 01:23:38,820
+so on and so he knows what not to do he doesn't know what to do right but he at least knows what not
+
+779
+01:23:38,820 --> 01:23:49,300
+to do and i find in my life that i usually don't listen to the guy who tells me what not to do
+
+780
+01:23:50,260 --> 01:23:58,980
+and i do it but then i realize he was right yeah and so i recover from that mistake a lot quicker
+
+781
+01:23:58,980 --> 01:24:06,500
+with a lot sharper understanding of what just happened because my new mistake that i otherwise
+
+782
+01:24:06,500 --> 01:24:11,300
+you'd be lost probably yeah yeah so i mean i know that for you know i've been a christian my
+
+783
+01:24:11,300 --> 01:24:19,060
+whole life i read the bible i've got a million sermons you know i have so much wisdom from god
+
+784
+01:24:21,780 --> 01:24:25,140
+buried several layers deep under like a folder of tiktoks
+
+785
+01:24:26,740 --> 01:24:32,100
+in my brain and so when i make a mistake and i feel the pain of that mistake
+
+786
+01:24:32,100 --> 01:24:39,060
+i can it kind of reinforces the wisdom that i receive from the bible and also kind of like
+
+787
+01:24:39,060 --> 01:24:44,820
+prompts me okay let's go back what was the bible say what was the specifics of that passage what else
+
+788
+01:24:44,820 --> 01:24:49,620
+could we like really lock in this learning that is one of the most frustrating things getting older
+
+789
+01:24:50,260 --> 01:24:55,540
+making the same mistake over and over it's bad enough to do it one time but making the same mistake
+
+790
+01:24:55,540 --> 01:25:00,740
+a bunch of times that's really that's really yeah i like the saying let's make new mistakes you know
+
+791
+01:25:00,740 --> 01:25:08,420
+like that's that's way better do you prompt the bible at all uh i um i kind of use it first i'll
+
+792
+01:25:08,420 --> 01:25:14,260
+use a ai for search of the bible okay what was the passage all right what's diverse that mentions this
+
+793
+01:25:14,260 --> 01:25:18,500
+and that okay if i'm like i can't remember the exact text because i as far as i'm aware people
+
+794
+01:25:18,500 --> 01:25:24,020
+build systems where you actually can talk to the bible basically in some sense and respond in some way
+
+795
+01:25:24,020 --> 01:25:39,620
+i mean i just there is so the they um there's a a thinking in christianity of of being what's called a
+
+796
+01:25:39,620 --> 01:25:47,460
+confessional church which is a church that is modeling its theology on like the old confessions of
+
+797
+01:25:47,460 --> 01:25:53,940
+faith like i believe in god the father son you know like the those kind of uh the idea that there
+
+798
+01:25:53,940 --> 01:26:02,740
+has been a corpus of um theological truths that have been derived from scripture over the history
+
+799
+01:26:02,740 --> 01:26:11,140
+and that i build on those and so i don't just uh go to the bible without any context or help so i have
+
+800
+01:26:11,140 --> 01:26:18,180
+i have like two thousands of two thousand years of historical good teaching on the layers build up
+
+801
+01:26:18,180 --> 01:26:28,900
+on that yeah yeah and so uh i wouldn't trust the ai to like mix those carefully chosen words written
+
+802
+01:26:28,900 --> 01:26:36,500
+like hundreds or thousands of years ago into like a new sentence no i wouldn't trust the precision
+
+803
+01:26:36,500 --> 01:26:41,860
+all right so be careful with bible flop yeah don't be careful with javascript
+
+804
+01:26:41,860 --> 01:26:48,580
+slop no it's not as dangerous there's no confessional javascript yet
+
+805
+01:26:55,060 --> 01:27:00,420
+no i just i just i just i i was assuming that you would because i i see you prompting
+
+806
+01:27:00,980 --> 01:27:06,340
+you know almost everything now uh you're a prompt expert in my book you showed me the ways
+
+807
+01:27:06,340 --> 01:27:14,260
+of cursor and all that stuff so i love the i love the sensation of moving quickly and i think
+
+808
+01:27:14,260 --> 01:27:21,860
+a lot of it is this based on like what am i really bringing to the table here it's the intent like the
+
+809
+01:27:21,860 --> 01:27:28,660
+why and the how or not the how the why and the what yeah i'm deciding what should happen and why it
+
+810
+01:27:28,660 --> 01:27:35,780
+should be happening i was never the world's greatest coder yeah it's always shipping some bugs so now i
+
+811
+01:27:35,780 --> 01:27:44,100
+can ship the ai's bugs and i can move like 10 times faster so i love it for that um but you know
+
+812
+01:27:44,100 --> 01:27:49,140
+it's interesting you know you know that thing with like when you see an article in the newspaper on a
+
+813
+01:27:49,140 --> 01:27:54,180
+topic that you actually know a lot about and you see how many mistakes it makes and we forget that then
+
+814
+01:27:54,180 --> 01:28:00,340
+you turn the page yeah all of the articles are probably that mistakey i know for instance with like
+
+815
+01:28:00,340 --> 01:28:06,900
+creative writing because i used to you know write uh professionally like write essays and stuff like
+
+816
+01:28:06,900 --> 01:28:17,620
+that ai can't come close to uh what i would like out of an essay it is so far from inspired in that
+
+817
+01:28:17,620 --> 01:28:24,980
+sense yeah yeah i actually think i think code ends up being ai is really good at code because it's such a
+
+818
+01:28:24,980 --> 01:28:32,100
+small subset of language yeah it's actually it's it's impressive how good it is at language but it's
+
+819
+01:28:32,100 --> 01:28:40,340
+so far from the level we use language at yeah we'll see how all that evolves like i keep being impressed
+
+820
+01:28:40,340 --> 01:28:47,140
+um and like i mentioned like i i i read all the ai books back in the day and was a big like
+
+821
+01:28:47,140 --> 01:28:53,140
+you know part of the singularity crowd basically and just like we're gonna hit the knee of the curve
+
+822
+01:28:53,140 --> 01:28:57,540
+anytime now i feel like we're all we're very close to the knee of the curve now with just um
+
+823
+01:28:58,660 --> 01:29:04,820
+the way that the llms work and still improve and there is no tapering off in terms of improvements
+
+824
+01:29:04,820 --> 01:29:14,900
+really again like verveki has great arguments about why ai won't reach like sagi status anytime soon
+
+825
+01:29:14,900 --> 01:29:23,620
+unless we decide to embody it and like actually give actually put uh the llms into robots and let them
+
+826
+01:29:23,620 --> 01:29:28,980
+learn by experience as an embodied thing in the real world and all those kind of things like he has long
+
+827
+01:29:28,980 --> 01:29:33,700
+long chains of arguments around it but it's still it's still very impressive to me what the
+
+828
+01:29:34,260 --> 01:29:40,900
+things can do and it's especially impressive on the coding side because you can single prompt your
+
+829
+01:29:40,900 --> 01:29:46,020
+way to glory into something that like basically works and i agree on the writing side like when
+
+830
+01:29:46,020 --> 01:29:51,460
+it comes to creative writing they're not great and you can most of the time spot still spot when
+
+831
+01:29:51,460 --> 01:29:58,580
+if something is generated or not like it always has kind of the same feel to it in some way and uh i mean
+
+832
+01:29:58,580 --> 01:30:04,020
+you know like they are not truly agentic yet because they're not self-motivated and thus they are not
+
+833
+01:30:04,020 --> 01:30:10,820
+inspiring to use your words you know like they can't inspire they they can't even inspire themselves
+
+834
+01:30:11,380 --> 01:30:17,380
+yeah well there's a lot of there's a lot of thinking on like where where new information comes
+
+835
+01:30:17,380 --> 01:30:25,780
+from and i kind of have a theory that like if you you could think of if you think of the universe as a
+
+836
+01:30:25,780 --> 01:30:33,700
+closed system humans are accessing a lot of the universe and therefore are discovering more about it
+
+837
+01:30:33,700 --> 01:30:41,460
+and then we learn new information that is at least new to our corpus of texts and discoveries
+
+838
+01:30:41,460 --> 01:30:46,420
+and stuff like that and then that's what we feed into the ai so it's possible that the embodied ai
+
+839
+01:30:46,980 --> 01:30:53,780
+will have access to to such a broad something more like you know the actual universe so therefore
+
+840
+01:30:54,580 --> 01:31:02,100
+so much more information but i don't think that a closed system can invent new
+
+841
+01:31:02,980 --> 01:31:10,500
+information well well i think we'll find out well uh someone is gonna you know some crazy chinese or
+
+842
+01:31:10,500 --> 01:31:17,380
+russian guy is gonna is gonna try and put these things into a dog robot i have to admit i've been
+
+843
+01:31:17,380 --> 01:31:25,860
+very underestimating the the reach of ai as much as i love it right now uh i mean ai has been
+
+844
+01:31:26,580 --> 01:31:32,820
+the wildest shift in technology i've experienced in my life and i was paying very much attention
+
+845
+01:31:33,700 --> 01:31:45,860
+when we went online and when uh the um the web 2.0 era and the iphone era i was paying very close
+
+846
+01:31:45,860 --> 01:31:51,860
+attention for several a couple of those i was a technology journalist and i've never felt something
+
+847
+01:31:51,860 --> 01:31:57,060
+that especially probably because my profession is coding and it's that's the profession most impacted
+
+848
+01:31:57,060 --> 01:32:05,220
+by this it's wild that like a year ago i was handwriting code yeah it's like it's like a year ago
+
+849
+01:32:06,020 --> 01:32:13,460
+i was a like it was a different era as a shovel digger yeah and now there exists like you know bulldozers
+
+850
+01:32:13,460 --> 01:32:17,300
+yeah sandwich said it well today where it's like if you know what you're doing you basically have
+
+851
+01:32:17,300 --> 01:32:24,820
+200 like very capable coding peons under you you know that just can like if you divvy up the tasks
+
+852
+01:32:24,820 --> 01:32:32,180
+correctly and if you know what you want to do and build the right kind of um system for the agents
+
+853
+01:32:32,980 --> 01:32:37,940
+they will just build all the things and what would have taken you a team of 20 people in six months you
+
+854
+01:32:37,940 --> 01:32:44,020
+can do solo in like an hour and what i love about this is a part of it is exposing what are humans
+
+855
+01:32:44,020 --> 01:32:50,260
+actually for yeah i feel like we're in a constant discovery process like turns out you know the
+
+856
+01:32:50,260 --> 01:32:55,860
+there's a famous do you know the john john henry story no this is like an old american folk tale of
+
+857
+01:32:55,860 --> 01:33:04,420
+john henry he's like basically the world's greatest um steel driving man so he's hammering rail ties
+
+858
+01:33:05,620 --> 01:33:12,020
+and then they came out with a machine that could hammer rail ties so they put in the machine
+
+859
+01:33:12,020 --> 01:33:17,620
+against john henry and john henry went as fast as he could and he beat the machine but then he dies
+
+860
+01:33:20,020 --> 01:33:23,620
+and so it's like it's like the swan song of the steel driving man
+
+861
+01:33:24,580 --> 01:33:28,340
+and so it's like we you know we put our identity in the one
+
+862
+01:33:29,300 --> 01:33:32,660
+it's the it's the german fairy tale version of a happy ending you know
+
+863
+01:33:33,620 --> 01:33:36,820
+he beats the machine then he burns alive or something like that
+
+864
+01:33:36,820 --> 01:33:42,580
+yeah so that's the you know we're always you know i i think i feel the same
+
+865
+01:33:43,540 --> 01:33:50,100
+i strongly disagree about with tucker that we shouldn't let the ai take over like truck driving
+
+866
+01:33:50,100 --> 01:34:00,180
+for instance because the truck driver that is not who that guy is that guy that guy has an incredible
+
+867
+01:34:00,180 --> 01:34:05,300
+that guy is responsible for carrying millions of dollars worth of goods around he can wake up in
+
+868
+01:34:05,300 --> 01:34:11,860
+the morning he's he could be upstanding pillar of a society but he's gone on the road all the time
+
+869
+01:34:11,860 --> 01:34:18,740
+and so um you know if somebody finds all you know absolutely just loves being in a truck all the time
+
+870
+01:34:18,740 --> 01:34:24,020
+i'm sure we you know they could find i mean we saw that with horses right it's like everyone had to
+
+871
+01:34:24,020 --> 01:34:28,340
+ride horses for transportation and now it's like if you really want to ride horses and it's your thing
+
+872
+01:34:28,340 --> 01:34:35,140
+yeah you can i think we'll still need good training data of what good try driving actually looks like
+
+873
+01:34:35,140 --> 01:34:42,180
+yeah i think i think we'll you know i'd say with code we need we need luddites who hate ai
+
+874
+01:34:43,220 --> 01:34:49,940
+to write really great code in new programming languages so that we can trade ai yeah we need a
+
+875
+01:34:49,940 --> 01:34:55,780
+trading set of of carefully thought through information yeah we'll see i think i'll link
+
+876
+01:34:55,780 --> 01:35:00,260
+to i'll have to send it to you um again very can makes a great argument about
+
+877
+01:35:03,300 --> 01:35:08,820
+like he has a theory of mind i would say where
+
+878
+01:35:10,980 --> 01:35:18,740
+he may he makes a great argument like what would be missing like why why why is ai not wise right now
+
+879
+01:35:18,740 --> 01:35:25,860
+like if we if we could have silicon sages then he would be in favor of having them like if we could
+
+880
+01:35:25,860 --> 01:35:34,900
+build ai that is as wise as as jesus or as laute or like pick your you know as buddha you know um
+
+881
+01:35:34,900 --> 01:35:39,860
+then that would be fantastic like you have your own personal jesus in your pocket basically that that
+
+882
+01:35:39,860 --> 01:35:46,820
+will never mislead you and will always have right have will always point you into into the right
+
+883
+01:35:46,820 --> 01:35:52,500
+direction you'll have a wise sage at your side but he has great arguments of like why we can't
+
+884
+01:35:52,500 --> 01:35:58,020
+have that yet and what is still missing until we reach that point and kind of we have to make a
+
+885
+01:35:59,380 --> 01:36:03,940
+decision as a society if we would want to have that for example because it's it's not going to be
+
+886
+01:36:03,940 --> 01:36:06,820
+all sunshines and sunshine and rainbows think of two
+
+887
+01:36:06,820 --> 01:36:20,100
+counterfactuals for why that could exist i think of the conscience and uh the um the muse i think we
+
+888
+01:36:20,100 --> 01:36:28,100
+have reference to two things that are you know you do not build up a conscience by like going through
+
+889
+01:36:28,100 --> 01:36:32,900
+like the utilitarian arguments until you derive morality like conscience i think is something that's
+
+890
+01:36:32,900 --> 01:36:42,340
+built into a human i think it's god given and then the muse you creative people have been visited by
+
+891
+01:36:42,900 --> 01:36:52,740
+yeah something yeah over the ages that leads them to do something new and i don't i don't think it's
+
+892
+01:36:52,740 --> 01:36:57,940
+just derived from their collection of experiences necessarily i think that's something there's something
+
+893
+01:36:57,940 --> 01:37:04,740
+more to it yeah yeah i don't have an answer to that at all like i'm not sure if the muse will
+
+894
+01:37:05,940 --> 01:37:09,460
+visit you know claude sonnet hasn't yet
+
+895
+01:37:13,300 --> 01:37:19,060
+but we'll see we'll find it out all right i think i'll need to lie down now okay my foot is swollen
+
+896
+01:37:19,780 --> 01:37:26,500
+my brain is fried we it was a walking thing after all because we got rained on and we had to walk twice
+
+897
+01:37:26,500 --> 01:37:35,940
+at least 40 steps into this conversation and yeah no i i i feel like we we we there were like
+
+898
+01:37:35,940 --> 01:37:41,860
+five things that i wanted to hit on with you and we we kind of didn't it's maybe maybe let's end on
+
+899
+01:37:41,860 --> 01:37:48,100
+that i i i want to i want to i want to pick your brain a little bit like purely on the current
+
+900
+01:37:48,100 --> 01:37:59,620
+nostril development side so um you've been you've been working on hypernode for a little while now it
+
+901
+01:37:59,620 --> 01:38:04,180
+was an experiment of the of the first cohort and came out of that and i was super excited about it
+
+902
+01:38:04,180 --> 01:38:08,660
+because i was like okay we're gonna we're gonna bring back the good parts of the old internet in
+
+903
+01:38:08,660 --> 01:38:16,660
+some way um what are your current thoughts about it and i i think it evolved like the last time you
+
+904
+01:38:16,660 --> 01:38:24,020
+showed it off just just last week uh there was lots of new thought in there so what's your let's
+
+905
+01:38:24,020 --> 01:38:32,980
+end on the intention what's your intention for for the project is it's it's it's really twofold it's
+
+906
+01:38:32,980 --> 01:38:42,820
+it's it's geo cities the just the pure personal expression and then it's micro app development
+
+907
+01:38:43,940 --> 01:38:51,620
+so you know before we had the web there was hyper card and that was a very easy to use
+
+908
+01:38:51,620 --> 01:38:58,580
+gooey drag and drop way to make like an app for the mac like mist was originally written as a hyper card
+
+909
+01:38:58,580 --> 01:39:08,820
+so you can make these interactive applications with very minimal scripting and so you know right now
+
+910
+01:39:08,820 --> 01:39:16,820
+the way we make software for the web is we're piling a ton of shit on top of each other to to make it
+
+911
+01:39:16,820 --> 01:39:23,060
+happen and everything's kind of written from scratch right like in some sense it's like the way i i read
+
+912
+01:39:23,060 --> 01:39:28,500
+it what you were saying is like you'll have the vision for hyper node would be to have predefined
+
+913
+01:39:28,500 --> 01:39:34,100
+elements that work out of the box just like html forms for example or those those elements right
+
+914
+01:39:34,100 --> 01:39:44,580
+or hyperlinks yeah um and but that are like highly composable and also customizable and styleable
+
+915
+01:39:44,580 --> 01:39:50,820
+right did i get this right somehow in some sense yeah yeah i think i think so so yeah it's like it's
+
+916
+01:39:50,820 --> 01:40:02,340
+basically if you have um it's a good example if you have the intent to make an app uh and you have
+
+917
+01:40:02,340 --> 01:40:08,500
+you already we already have a win we already gave you a back in for free yeah so you have nostr as your
+
+918
+01:40:08,500 --> 01:40:14,980
+back end so now what do you want to do with the app well you you have to decide what should the app do
+
+919
+01:40:14,980 --> 01:40:22,500
+and you also have a user database uh a social graph login everything built in you have these dvms
+
+920
+01:40:22,500 --> 01:40:30,420
+you can have all these compute built in yeah so what i think we could have is kind of a standardized set
+
+921
+01:40:30,420 --> 01:40:38,020
+of elements just like you know the the web got you links to link to other hypertext documents
+
+922
+01:40:38,020 --> 01:40:47,060
+and forms with buttons to post yeah information to a server yeah that was basically what the web and
+
+923
+01:40:47,060 --> 01:40:54,820
+you could express ebay and google yeah and yahoo and like basically most of the web 1.0 that we know
+
+924
+01:40:54,820 --> 01:41:02,340
+was you know fairly javascript free and you could express really great apps so if you had elements
+
+925
+01:41:02,340 --> 01:41:10,340
+that represented like here's a profile here's a zap button you know the things that we already use
+
+926
+01:41:10,340 --> 01:41:18,980
+nostr for let's make a hypermedia representation of them that you can import into your app so yeah i think
+
+927
+01:41:18,980 --> 01:41:26,260
+of it as kind of like an easy way to make a nostr app um also and hopefully and this is where it gets
+
+928
+01:41:26,260 --> 01:41:33,300
+harder and why i think it's going to take some iteration hopefully a way to express an interface
+
+929
+01:41:33,940 --> 01:41:41,380
+for a novel nip so i have a new thing that i want to add to nostr but there's no clients that support
+
+930
+01:41:41,380 --> 01:41:48,020
+it yet and so i can express the interface for that as a hypernote and publish that hypernote and now
+
+931
+01:41:48,020 --> 01:41:54,260
+clients that support hypernote have at least a placeholder ui for it before they want to integrate
+
+932
+01:41:54,260 --> 01:42:02,180
+it themselves or maybe they never need to or want to um and so in the long run i mean you know i
+
+933
+01:42:02,180 --> 01:42:08,500
+really want to make an operating system so if this becomes a good way to define applications and i and
+
+934
+01:42:08,500 --> 01:42:14,820
+the operating system is built around like a personal relay you know then you're making little apps you
+
+935
+01:42:14,820 --> 01:42:19,300
+know you sit down on your computer you decide what you want to do you pray about it and you build a
+
+936
+01:42:19,300 --> 01:42:27,220
+little app that does the thing and that's a that would be a good day um you know what we have now
+
+937
+01:42:27,780 --> 01:42:36,180
+we have so many layers of legacy i mean literally the easiest way to make an app for your phone
+
+938
+01:42:36,180 --> 01:42:44,260
+is to use this thing called react native yeah which is like a using react which is an abstraction upon
+
+939
+01:42:44,260 --> 01:42:50,020
+top of javascript and this thing called jsx which is a version it's kind of like the dom but it's not
+
+940
+01:42:50,020 --> 01:42:56,100
+the dom and then you run a javascript runtime and then that's orchestrating swift ui components
+
+941
+01:42:56,100 --> 01:43:01,300
+which is all pretty still kind of based on objective c and then the actual operating system is written
+
+942
+01:43:01,300 --> 01:43:07,220
+in c you know there we have so much so many layers of complexity in our current tech stack and a lot of
+
+943
+01:43:07,220 --> 01:43:14,340
+that is incidental to it being written by like trillion dollar companies and when when we need
+
+944
+01:43:14,340 --> 01:43:20,340
+to work in the small we actually can't afford to have that much complexity we can't maintain that much
+
+945
+01:43:20,340 --> 01:43:27,940
+complexity so i hope that we can find simpler more direct ways to do things and i hope hypernote
+
+946
+01:43:27,940 --> 01:43:35,060
+could be a part a part of that and also maybe it will just be like a resurrection of adobe flash
+
+947
+01:43:37,140 --> 01:43:43,300
+oh my lord i remember these days let's let's maybe not bring everything back let's be selective
+
+948
+01:43:46,020 --> 01:43:51,700
+but yeah no i'm i'm super excited about it i i like where where stuff is going just in general i i feel
+
+949
+01:43:51,700 --> 01:43:57,700
+a lot of the things are currently converging i think the building blocks that we already have are
+
+950
+01:43:57,700 --> 01:44:03,700
+are being understood by more and more people so that has me uh quite optimistic as well and i mean
+
+951
+01:44:03,700 --> 01:44:10,820
+the the um you know the llms in particular like it's what's so amazing to me is that you can actually
+
+952
+01:44:11,780 --> 01:44:16,980
+you know like today like i i did nothing else for the last couple days now it's just like you can just
+
+953
+01:44:18,180 --> 01:44:26,660
+prompt the thing to hey use pablo's ndk use like the new vertex dvm that came out last like last week to
+
+954
+01:44:26,660 --> 01:44:32,580
+calculate a web of trust core and so on and it will grab all the info from github and docs and
+
+955
+01:44:32,580 --> 01:44:39,060
+whatever and it will throw it together and it will work so that sure as hell is gonna accelerate things
+
+956
+01:44:39,060 --> 01:44:46,340
+as well like accelerate um you know things on our side for building freedom tech for sure as well and
+
+957
+01:44:46,340 --> 01:44:51,780
+i appreciate this podcast this that this attempt to share some of this wisdom and so that we don't
+
+958
+01:44:51,780 --> 01:44:57,220
+have to make the same mistakes we'll have to land on wisdom first uh sure that would be nice but
+
+959
+01:44:57,780 --> 01:44:59,220
+vendors can be choosers
+
+960
+01:45:03,540 --> 01:45:10,820
+no but it's like that that's why like i i really appreciate the conversation because i i knew that
+
+961
+01:45:10,820 --> 01:45:17,780
+you were going through the early days of the internet very very closely like you were very close to all of
+
+962
+01:45:17,780 --> 01:45:24,420
+that it's very apparent by just you know like the listening to you speak and and watching what you
+
+963
+01:45:24,420 --> 01:45:31,860
+put out and so on and i i feel like our kind of um generation and the people like even older than us
+
+964
+01:45:31,860 --> 01:45:39,060
+we're we aren't dead old yet but i think we learned a lot by living through the early iterations of the
+
+965
+01:45:39,060 --> 01:45:44,500
+internet yeah and and sawing the platforms rise and fall and and and again like everyone everyone has the
+
+966
+01:45:44,500 --> 01:45:48,740
+same story like it's it's it's it's not the first knowledge system that you use you know like it's
+
+967
+01:45:48,740 --> 01:45:57,540
+probably the tenth and yeah and so i hope that we can explain this properly and like pass this on to
+
+968
+01:45:58,260 --> 01:46:03,460
+the young guns the early 20 somethings that are building this stuff if i could be so bold as to
+
+969
+01:46:04,020 --> 01:46:09,380
+give some assigned reading for something i wrote back when i was at the verge you know google glass came
+
+970
+01:46:09,380 --> 01:46:15,460
+out it really creeped people yeah they called them the glass holes the glass holes yeah and so i
+
+971
+01:46:16,580 --> 01:46:21,860
+always loved the idea of wearable computing because i grew up reading wired magazine which would profile
+
+972
+01:46:21,860 --> 01:46:29,140
+like the mit wearable compute lab and stuff and so i ended up writing a piece for the verge about um
+
+973
+01:46:29,140 --> 01:46:33,300
+wearable computing and the history of wearable computing and it was this idea of
+
+974
+01:46:33,300 --> 01:46:43,860
+hyper personal compute that we really lost track of and we can't we're we we at least are smart enough
+
+975
+01:46:43,860 --> 01:46:50,820
+that we don't trust facebook and google with things so we actually can't allow computers to reach this
+
+976
+01:46:50,820 --> 01:46:58,020
+like level of to even enter up basically yeah we can't use computers how they were used in the personal
+
+977
+01:46:58,020 --> 01:47:06,580
+computer era because we're so dependent on these really scary foreign aggressive antagonistic
+
+978
+01:47:06,900 --> 01:47:12,660
+forces yeah we'll fix that too blinded compute will fix that like serial knowledge compute will fix that
+
+979
+01:47:12,660 --> 01:47:16,980
+i talked with kelly about this that's that's gonna that's gonna be a thing as well and like
+
+980
+01:47:17,540 --> 01:47:23,780
+that already like it already works not even like in theory it really already works and and so you can do any compute
+
+981
+01:47:23,780 --> 01:47:29,780
+in a blinded manner where you then then you don't have to trust facebook or google there's nothing they
+
+982
+01:47:29,780 --> 01:47:36,820
+can gleam from it so it's gonna lead to i think very pure marketplaces of compute and also of storage
+
+983
+01:47:36,820 --> 01:47:40,580
+and so on and well i think we'll see this integrated in nostril with dbms and all the other things but
+
+984
+01:47:40,580 --> 01:47:46,660
+it's like it's still a little bit of prompting to do prompting and praying prompting and praying
+
+985
+01:47:46,660 --> 01:47:52,420
+what we'll have to do to bring all that about absolutely all right that was lovely i'll give
+
+986
+01:47:52,420 --> 01:48:00,100
+you a hug and then we're gonna we're gonna we're gonna see if we can make it out alive out of this
+
+987
+01:48:00,100 --> 01:48:08,260
+park all right thanks so much for that that was fantastic so i'll do one more snap before we turn
+
+988
+01:48:08,260 --> 01:48:13,860
+it off just to make sure in case i i don't know i want to cut something in the middle that's still
+
+989
+01:48:13,860 --> 01:48:17,620
+beeping okay let's turn it off
+
