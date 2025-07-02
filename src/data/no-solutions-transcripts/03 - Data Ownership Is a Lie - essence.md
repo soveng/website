@@ -30,7 +30,7 @@
 
 7. **Distributed Cognition & Dialogue**  
    • Hard problems (reinventing the internet) can't be solved by one coder—dialogue and cohorts surface better trade-offs.  
-   • SE gatherings foster shared memes ("Nostr is testnet") and weekly demo pressure that bakes these lessons in.
+   • Sovereign Engineering gatherings foster shared memes ("Nostr is testnet") and weekly demo pressure that bakes these lessons in.
 
 ## Takeaways for Sovereign Engineering Cohorts
 

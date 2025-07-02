@@ -1,6 +1,6 @@
 # Essence of "There is No Global" (Episode 02)
 
-**Context:** A roaming dialogue that digs into why a single, all-knowing "global view" is impossible in distributed systems and how that insight shapes Nostr, Bitcoin, and Sovereign Engineering (SE) design philosophy.
+**Context:** A roaming dialogue that digs into why a single, all-knowing "global view" is impossible in distributed systems and how that insight shapes Nostr, Bitcoin, and Sovereign Engineering design philosophy.
 
 ## Core Themes & Principles
 
@@ -30,7 +30,7 @@
 
 6. **Distributed Cognition**  
    • Hard problems (re-inventing the internet) require ongoing, public dialogue.  
-   • SE cohorts, No Solutions chats, and walking meetings cultivate shared language and memes ("Nostr is testnet").
+   • Sovereign Engineering cohorts, No Solutions chats, and walking meetings cultivate shared language and memes ("Nostr is testnet").
 
 ## Implications for Sovereign Engineering Cohorts
 

@@ -6,7 +6,7 @@
 
 1. **Walking as Cognitive Technology**  
    • Movement unburdens working memory, freeing space for insight.  
-   • SE cohorts schedule weekly "long walks" to spark cross-pollination.
+   • Sovereign Engineering cohorts schedule weekly "long walks" to spark cross-pollination.
 
 2. **Embodied Dialogue**  
    • Conversations while walking feel less performative; hierarchy dissolves when everyone is out of breath.  
@@ -29,7 +29,7 @@
    • Record voice notes on-trail for later transcription via local AI.  
    • Publish photo+route as Nostr kind 304 for posterity (and zaps!).
 
-## Implications for SE Cohorts
+## Implications for Sovereign Engineering Cohorts
 
 • Protect weekly walk time; treat as sacred as demo day.  
 • Encourage newcomers to prepare one "stuck" question to discuss en-route.  

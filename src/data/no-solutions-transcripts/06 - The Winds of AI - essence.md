@@ -17,7 +17,7 @@
    • What matters is the effect on the audience, not whether GPUs or graphite produced the stroke.
 
 4. **Shipping Experiments Quickly**  
-   • Mid-journey prompts, Nostr bots, and AI-assisted pipelines exemplify SE's "start ugly" ethos—iterate in public, learn fast.  
+   • Mid-journey prompts, Nostr bots, and AI-assisted pipelines exemplify Sovereign Engineering's "start ugly" ethos—iterate in public, learn fast.  
    • Weekly cohort demo cadence meshes with rapid AI prototyping.
 
 5. **Economics of Realness**  

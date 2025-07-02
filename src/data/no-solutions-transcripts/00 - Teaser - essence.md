@@ -20,13 +20,13 @@
    • Weekly meet-ups maintain connection among busy builders who rarely see each other despite proximity.  
    • Invitation to broaden the circle—"get other people involved."
 
-5. **Learning From SE Cohorts**  
-   • Past cohorts revealed common stumbling blocks; the podcast aims to address them.  
+5. **Learning From Sovereign Engineering Cohorts**  
+   • Past Sovereign Engineering cohorts revealed common stumbling blocks; the podcast aims to address them.  
    • Sharing mistakes accelerates collective progress.
 
 6. **Alignment With Nostr & Self-Sovereignty**  
    • Conversations center on Nostr development and sovereign tech.  
-   • Reflects SE's mission: empower builders through open protocols.
+   • Reflects Sovereign Engineering's mission: empower builders through open protocols.
 
 ## Essence
 A meta-conversation about *why* to record future conversations: preserve the serendipity and insights that arise when sovereign engineers walk together, embrace imperfection, and share their ongoing exploration with a wider audience.

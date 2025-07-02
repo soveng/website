@@ -15,7 +15,7 @@
 
 3. **Habits & Identity**  
    • If you repeatedly delay launches, you *become* someone who doesn't ship.  
-   • SE cohorts cultivate opposite habits via weekly demo pressure.
+   • Sovereign Engineering cohorts cultivate opposite habits via weekly demo pressure.
 
 4. **Self-Sovereignty & Responsibility**  
    • Parallels to Bitcoin's "Not your keys, not your coins."  
@@ -32,7 +32,7 @@
    • "Lemonade stands in cyberspace": small, sustainable, user-centric ventures trump VC-fuelled land-grabs.
 
 7. **Walk-and-Talk Method**  
-   • Mirroring SE cohort rituals, walking removes screen distraction, forcing discussion of *why* before *how*.
+   • Mirroring Sovereign Engineering cohort rituals, walking removes screen distraction, forcing discussion of *why* before *how*.
 
 ## Takeaways for Sovereign Engineering Cohorts
 

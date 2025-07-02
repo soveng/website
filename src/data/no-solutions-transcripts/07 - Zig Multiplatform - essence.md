@@ -1,6 +1,6 @@
 # Essence of "Zig Multiplatform" (Episode 07)
 
-**Context:** A deep dive into developer tooling—especially the Zig language/tool-chain—and how local-first, file-centric workflows align with Sovereign Engineering (SE) principles.
+**Context:** A deep dive into developer tooling—especially the Zig language/tool-chain—and how local-first, file-centric workflows align with Sovereign Engineering principles.
 
 ## Core Themes & Insights
 
@@ -19,7 +19,7 @@
 
 4. **Fuse/Virtual FS Ideas for Blossom**  
    • Discuss turning Blossom storage into a mounted drive à la Dropbox—editing a file locally auto-publishes to decentralized storage.  
-   • Raises deduplication/versioning challenges (typo vs new file); mirrors SE explorations of trade-offs.
+   • Raises deduplication/versioning challenges (typo vs new file); mirrors Sovereign Engineering explorations of trade-offs.
 
 5. **Start Ugly & Iterate**  
    • Pipeline will begin as a ThinkPad + scripts; polish later.  
@@ -32,4 +32,4 @@
 • Showcase end-to-end local pipelines as templates for "build, ship, own" philosophy.
 
 ---
-By marrying Zig's cross-platform tooling with file-first workflows and decentralized storage, SE builders can own every step—from keystroke to published artifact—without cloud lock-in or fragile configs. 
+By marrying Zig's cross-platform tooling with file-first workflows and decentralized storage, Sovereign Engineering builders can own every step—from keystroke to published artifact—without cloud lock-in or fragile configs. 

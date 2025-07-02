@@ -1,6 +1,6 @@
 # Essence of "Prompt and Pray" (Episode 05)
 
-**Context:** An ankle-injured walk-turned-park-chat where Gigi and Ben riff on AI-assisted "vibe coding," nostalgia for the early web, and how Sovereign Engineering (SE) cohorts can avoid repeating Silicon-Valley mistakes.
+**Context:** An ankle-injured walk-turned-park-chat where Gigi and Paul riff on AI-assisted "vibe coding," nostalgia for the early web, and how Sovereign Engineering cohorts can avoid repeating Silicon-Valley mistakes.
 
 ## Core Themes & Insights
 
@@ -24,7 +24,7 @@
    • Rate-limiting with sats > KYC; privacy by math, not policy.
 
 5. **Wisdom > Information**  
-   • The web confuses data with knowledge; SE looks for "old-wise-guy" patterns to avoid past failures.  
+   • The web confuses data with knowledge; Sovereign Engineering looks for "old-wise-guy" patterns to avoid past failures.  
    • Distributed cognition (walk-and-talk, group chat, public Nostr threads) surfaces better vocabulary—e.g., *blinded custodian*, *self-verifying data*.
 
 6. **Multi-Generational Mindset**  
@@ -41,4 +41,4 @@
 
 > "Computers should do computer work—so humans can touch grass and build cathedrals." —Episode takeaway
 
-Episode 05 underscores SE's bias for action: wield AI and open protocols to reclaim *personal* computing, but keep humans in the loop for meaning and long-term stewardship. 
+Episode 05 underscores Sovereign Engineering's bias for action: wield AI and open protocols to reclaim *personal* computing, but keep humans in the loop for meaning and long-term stewardship. 

@@ -1,6 +1,6 @@
 # Essence of "10x Less Productive" Conversation
 
-**Context:** A reflective discussion on productivity systems, AI-powered "vibe coding," and learnings from running multiple Sovereign Engineering (SE) cohorts.
+**Context:** A reflective discussion on productivity systems, AI-powered "vibe coding," and learnings from running multiple Sovereign Engineering cohorts.
 
 ## Core Values & Principles
 
@@ -9,7 +9,7 @@
    • Build atop Bitcoin, Lightning, eCash, Nostr and other open protocols that empower individuals.
 
 2. **Exploration Over Monetization**  
-   • Early monetisation biases exploration; SE deliberately excludes financial incentives, badges or VC cheques.  
+   • Early monetisation biases exploration; Sovereign Engineering deliberately excludes financial incentives, badges or VC cheques.  
    • Participants join for shared curiosity, not for payouts — "shared poverty" is a feature, not a bug.
 
 3. **Chaos Within Bounds**  

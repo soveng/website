@@ -1,6 +1,6 @@
 # Essence of "No Strudelutions" (Episode 09)
 
-**Context:** A free-flowing conversation touching on iteration culture (“no strudelutions”), experimentation islands, and scaling Sovereign Engineering (SE) mindsets beyond the cohort.
+**Context:** A free-flowing conversation touching on iteration culture (“no strudelutions”), experimentation islands, and scaling Sovereign Engineering mindsets beyond the cohort.
 
 ## Core Themes & Insights
 
@@ -10,7 +10,7 @@
 
 2. **Islands of Experimentation**  
    • Physical retreats/co-living stints give builders temporal focus and peer pressure.  
-   • SE cohorts function as pop-up islands where wild ideas cross-pollinate.
+   • Sovereign Engineering cohorts function as pop-up islands where wild ideas cross-pollinate.
 
 3. **Cross-Domain Inspiration**  
    • Story swaps span food culture, urban design, and software—showing how small hacks propagate.  
@@ -24,11 +24,11 @@
    • Advocate recording demo sessions, walks, and post-mortems; raw logs become later teaching assets.  
    • Blossom/Nostr publishing keeps history public and remixable.
 
-6. **Scaling SE Vibe Without Dilution**  
+6. **Scaling Sovereign Engineering Vibe Without Dilution**  
    • Danger: growing cohorts too large diminishes intimacy and feedback loops.  
    • Proposal: spawn parallel micro-cohorts instead of megaprograms.
 
-## Implications for SE Cohorts
+## Implications for Sovereign Engineering Cohorts
 
 • Keep cohort size ~21; spin off new batches rather than expand one.  
 • Maintain “no strudelutions” checklist: minimal UI, raw feature, real users, shipped in <1 week.  
