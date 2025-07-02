@@ -175,51 +175,51 @@ const cohortHeaderClasses = darkTheme
         {sortedCohorts.map((cohort: string, cohortIndex: number) => (
           <>
             <div class={cohortIndex === 0 ? 'mt-16' : 'mt-32'}>
-              <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-                {cohort}
-              </h2>
-              <div class="overflow-x-auto">
+            <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+              {cohort}
+            </h2>
+            <div class="overflow-x-auto">
                 {/* Table Header - Hidden on mobile, shown on larger screens */}
-                {cohortIndex === 0 && (
-                  <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
-                    <div>Project Info</div>
-                    <div>Link</div>
-                  </div>
-                )}
+              {cohortIndex === 0 && (
+                <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold uppercase tracking-wider`}>
+                  <div>Project Info</div>
+                  <div>Link</div>
+                </div>
+              )}
                 {/* Project Entries for this cohort */}
                 {projectsByCohort[cohort].map((project: Project, index: number) => (
-                  <div
-                    class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
-                  >
-                    <div class="flex items-start gap-4">
-                      {project.logo && (
-                        <div class="flex-shrink-0">
-                          <img 
-                            src={project.logo} 
-                            alt={`${project.name} logo`}
-                            class="w-12 h-12 object-contain showcase-logo"
-                          />
-                        </div>
-                      )}
-                      <div>
-                        <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
-                        <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
+                <div
+                  class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+                >
+                  <div class="flex items-start gap-4">
+                    {project.logo && (
+                      <div class="flex-shrink-0">
+                        <img 
+                          src={project.logo} 
+                          alt={`${project.name} logo`}
+                          class="w-12 h-12 object-contain showcase-logo"
+                        />
                       </div>
-                    </div>
-                    <div class="text-sm md:text-base">
-                      <a
-                        href={project.link}
-                        class={linkClasses}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {project.linkText}
-                      </a>
+                    )}
+                    <div>
+                      <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
+                      <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                     </div>
                   </div>
-                ))}
-              </div>
+                  <div class="text-sm md:text-base">
+                    <a
+                      href={project.link}
+                      class={linkClasses}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.linkText}
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
+          </div>
             {/* Berdyaev quote between SEC-00 and SEC-01 */}
             {cohort === 'SEC-00' && (
               <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">

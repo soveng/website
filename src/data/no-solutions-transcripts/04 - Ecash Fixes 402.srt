@@ -1,0 +1,3948 @@
+1
+00:00:00,000 --> 00:00:05,480
+there we go i found an open source an open source voice recorder it actually works
+
+2
+00:00:05,480 --> 00:00:15,080
+all right i think that's it are we on yeah that should work all right i'll trust it again
+
+3
+00:00:15,080 --> 00:00:22,540
+which didn't serve me well so far every single time i said like i trusted something went wrong
+
+4
+00:00:22,540 --> 00:00:25,880
+and i had to do some manual recovery
+
+5
+00:00:25,880 --> 00:00:29,480
+but we made it that far
+
+6
+00:00:29,480 --> 00:00:36,380
+all right yeah let's just go there
+
+7
+00:00:36,380 --> 00:00:46,760
+and we'll we'll see where our feet and our conversation leads us okay so yeah i think
+
+8
+00:00:46,760 --> 00:00:52,560
+we both agree that the internet is fucked i really like the title that you gave one of your talks
+
+9
+00:00:52,560 --> 00:00:59,080
+which was the internet is fucked yeah i completely agree the thing is the internet is the best thing
+
+10
+00:00:59,080 --> 00:01:05,320
+that we've ever invented and it's so fucked because our expectations were so high about it
+
+11
+00:01:05,320 --> 00:01:14,660
+i remember this from my youth and childhood when the overarching theme was that the internet is going
+
+12
+00:01:14,660 --> 00:01:23,240
+to be this massive intense uh technology that's going to unite us and elevate us the human spirit
+
+13
+00:01:23,240 --> 00:01:30,680
+will reach a new level and the sphere free access to information free access to knowledge
+
+14
+00:01:30,680 --> 00:01:37,640
+free everything at your fingertips yes and like uh kind of a uprising of the human soul
+
+15
+00:01:37,640 --> 00:01:44,620
+yeah to the powers that be yeah and and now we have memes and porn and misinformation memes porn
+
+16
+00:01:44,620 --> 00:01:51,500
+misinformation violence political manipulation crazy people finding each other on the internet
+
+17
+00:01:51,500 --> 00:01:58,820
+starting cults yeah i mean i think as i as i'm getting like i don't want to say as i'm getting older
+
+18
+00:01:58,820 --> 00:02:07,120
+but looking at how things turned out and i become less disappointed about it at the same time though
+
+19
+00:02:07,120 --> 00:02:11,440
+so i'm kind of finding my peace with the developments that we've been seeing because
+
+20
+00:02:11,440 --> 00:02:19,400
+maybe um i think maybe our expectations have been a bit too naive about how things going to work out and
+
+21
+00:02:19,400 --> 00:02:25,300
+maybe just maybe the things that we're seeing now as the internet perpetrates or penetrates the entire
+
+22
+00:02:25,300 --> 00:02:31,840
+world the frictions that we see that you just mentioned maybe are just part of the process
+
+23
+00:02:31,840 --> 00:02:39,600
+and you know it's like you know a child expecting like the the gift and then you get the gift and
+
+24
+00:02:39,600 --> 00:02:44,720
+you realize it's not like what you imagine it to be yeah but you still get something out of it and
+
+25
+00:02:44,720 --> 00:02:50,520
+you only when you grow up you see that it was something actually towards that goal that you
+
+26
+00:02:50,520 --> 00:02:56,940
+anticipated and i'm kind of thinking maybe for example misinformation or cults or just you know
+
+27
+00:02:56,940 --> 00:03:05,740
+the crazy people finding each other maybe that's an unavoidable point in the path on the path towards
+
+28
+00:03:05,740 --> 00:03:11,700
+this original vision what the internet would have brought us you know yeah i mean i think it's also
+
+29
+00:03:11,700 --> 00:03:16,240
+it's also good that crazy people find each other i mean we found each other on the internet as well
+
+30
+00:03:16,240 --> 00:03:22,440
+correct i mean we're also crazy people but it's it's the the thing is that um you know it's always
+
+31
+00:03:22,440 --> 00:03:30,820
+a two-sided coin or a you know like a uh uh what's the saying with the sword yeah double-sided
+
+32
+00:03:30,820 --> 00:03:35,720
+double-edged sword double-edged sword that's right yeah and and so you can't have the good without
+
+33
+00:03:35,720 --> 00:03:41,160
+the bad and i think all all the wisdom traditions will tell you this as well you know and that's what i
+
+34
+00:03:41,160 --> 00:03:48,140
+think is that i think that was the main mistake that the early internet people they equated
+
+35
+00:03:48,140 --> 00:03:54,580
+information with knowledge and with wisdom and those are three very distinct things like if you're
+
+36
+00:03:54,580 --> 00:03:58,220
+lucky you get from information to knowledge and if you're very lucky you get from knowledge to wisdom
+
+37
+00:03:58,220 --> 00:04:05,180
+but but it doesn't come just because and it doesn't come for free and i think we were very naive
+
+38
+00:04:05,180 --> 00:04:11,000
+and what i kind of hope that i mean in some sense we're trying to build the next version of the
+
+39
+00:04:11,000 --> 00:04:15,220
+internet right now in some sense yes and what i'm worried about is that we're going to make the same
+
+40
+00:04:15,220 --> 00:04:19,100
+mistakes so i really hope that we're not going to make the same mistakes and so i don't want to be
+
+41
+00:04:19,100 --> 00:04:24,640
+utopic about you know bitcoin and oscar and e-cash and all those kind of things because it's not
+
+42
+00:04:24,640 --> 00:04:30,140
+going to be utopia i i mentioned i mentioned as many times already but i really like john riveki's line
+
+43
+00:04:30,140 --> 00:04:37,640
+neither nostalgia nor utopia so so both of those are misguided we have to learn from the past and
+
+44
+00:04:37,640 --> 00:04:44,640
+extract the good things from the past and kind of aim for have a utopic vision in some sense but we're
+
+45
+00:04:44,640 --> 00:04:49,600
+never gonna have any utopia ever and i think that's where the early internet people they got a lot of
+
+46
+00:04:49,600 --> 00:04:55,840
+things right like net neutrality for example um which of course you know it's debatable whether we
+
+47
+00:04:55,840 --> 00:05:01,660
+still have that and so on um but i think they got a lot of things wrong as well which which was kind
+
+48
+00:05:01,660 --> 00:05:09,460
+of you know being convinced that we will usher in the utopia yes and i mean looking back at the
+
+49
+00:05:09,460 --> 00:05:17,820
+cypherpunks the cypherpunk movement itself uh defined itself through uh making everyone aware of the
+
+50
+00:05:17,820 --> 00:05:25,580
+terrifying world that we could end up in if the internet if the world digitizes and we yeah we become
+
+51
+00:05:25,580 --> 00:05:33,380
+more connected it's not a utopic vision per se um it is even stronger i think i would say is the
+
+52
+00:05:33,380 --> 00:05:39,240
+dystopic vision is the thing that you're trying to avoid the insights that speaking of things trying
+
+53
+00:05:39,240 --> 00:05:42,640
+to avoid i was like let's walk here i'm sure there isn't it's going to be it's not going to be that
+
+54
+00:05:42,640 --> 00:05:47,440
+noisy and there's like you know a jackhammer like it's it's really terrible instruction everywhere
+
+55
+00:05:47,440 --> 00:05:54,880
+so let's see these mics they are pretty good all right so that's closed off anyway so fuck it let's
+
+56
+00:05:54,880 --> 00:06:00,160
+turn around because i wanted i wanted to to get up there but everything's closed okay so that's
+
+57
+00:06:00,160 --> 00:06:06,300
+construction let's just for the listeners this is uninteresting we're just turning around in circles
+
+58
+00:06:06,300 --> 00:06:10,700
+basically walking in circles that's gonna be the the future of the internet it's like
+
+59
+00:06:10,700 --> 00:06:18,940
+so the long arc of history is getting back to the to the warnings the early warning signs i think
+
+60
+00:06:18,940 --> 00:06:27,260
+like they're also in bitcoin you'll find some of the i think interesting voices uh made us aware of
+
+61
+00:06:27,260 --> 00:06:32,780
+the dangers of a hyperbitconized world for example oh yeah not everything should be purely optimistic
+
+62
+00:06:32,780 --> 00:06:39,860
+you need to think about what happens let's say if nation states adopt bitcoin and uh use it
+
+63
+00:06:39,860 --> 00:06:45,540
+as a weapon to oppress their own people yeah it can be it's not like just because the tech is there
+
+64
+00:06:45,540 --> 00:06:51,020
+everything will turn out fine yeah there is the the the idea and the fundamentals of the tech are the
+
+65
+00:06:51,020 --> 00:06:58,260
+most important i think we all agree on that but obviously the way it's implemented is a whole like
+
+66
+00:06:58,260 --> 00:07:05,220
+it's it's undefined until it's done yeah yeah yeah and i think it's it's i mean that's a
+
+67
+00:07:05,220 --> 00:07:12,420
+that's just kind of by definition always true you know it's but i flip flop on this because it's like
+
+68
+00:07:12,420 --> 00:07:17,160
+you know it's just a tool technology it's just a tool it depends on how you use it and so on and you
+
+69
+00:07:17,160 --> 00:07:22,720
+have i don't know let's let's take nuclear power you know like you can have uh clean abundant energy
+
+70
+00:07:22,720 --> 00:07:28,480
+forever and you you have nuclear weapons it's the same tech kind of you know you have a great kitchen
+
+71
+00:07:28,480 --> 00:07:34,920
+knife it's like you can murder someone with it or you can cook a great meal and and and so so the
+
+72
+00:07:34,920 --> 00:07:39,160
+technologists will tell you that technology is neutral but the reason why i flip flop on this is
+
+73
+00:07:39,160 --> 00:07:45,220
+is because i feel like there's some technologies that aren't neutral like reading and writing for
+
+74
+00:07:45,220 --> 00:07:49,640
+example i don't think are like it's it's i don't think it's super neutral in some sense or i i don't
+
+75
+00:07:49,640 --> 00:07:55,520
+know i'm again i haven't made up my mind on this yet but the the reason why i bring it up is because
+
+76
+00:07:55,520 --> 00:07:57,760
+i think the
+
+77
+00:07:57,760 --> 00:08:05,540
+there is such a thing as a certain ethos embedded in various technologies like the car for example
+
+78
+00:08:05,540 --> 00:08:11,020
+there's there's there are arguments that that personal transportation is what in part would
+
+79
+00:08:11,020 --> 00:08:15,420
+brought out the brought down the soviet union because it's basically it's hyper personalized you
+
+80
+00:08:15,420 --> 00:08:19,580
+know it's like you can go anywhere you just you fill up your car and you can go anywhere it's it's
+
+81
+00:08:19,580 --> 00:08:23,820
+freedom technology in that sense you increase the ability of people to move you increase agency
+
+82
+00:08:23,820 --> 00:08:27,680
+you increase agency and that's why why i i brought reading and writing as well because
+
+83
+00:08:27,680 --> 00:08:33,960
+reading also increases agency in the sense that that it expands your horizon and it expands your
+
+84
+00:08:33,960 --> 00:08:38,060
+knowledge and those kind of things and i think i think it's undeniable that there is a certain
+
+85
+00:08:38,060 --> 00:08:43,600
+ethos embedded in bitcoin for example and it truly changes people i mean i've seen this over and over and
+
+86
+00:08:43,600 --> 00:08:49,100
+over again and it changed me as well and like that's why lots of people wrote about this and and i think
+
+87
+00:08:49,100 --> 00:08:54,800
+that's this by now this is a known fact and so that's why i'm not sure if technology if all technology
+
+88
+00:08:54,800 --> 00:09:00,840
+is truly neutral in some sense but i don't know so my my the reason why i bring all this up is because
+
+89
+00:09:00,840 --> 00:09:09,560
+i my hope is that we can have a kind of and i'm not even sure if technological is the right word like
+
+90
+00:09:09,560 --> 00:09:16,780
+i was about to say that we can have a technological substrate that brings more agency and thus also more
+
+91
+00:09:16,780 --> 00:09:23,080
+responsibility to society but i'm not sure if it's the right word it's like i mean there's a reason
+
+92
+00:09:23,080 --> 00:09:33,020
+why we go through great lengths to you know to to the things we have to do so that almost everyone
+
+93
+00:09:33,020 --> 00:09:38,980
+in society can rewrite it's like insane it's insane it takes like years and years and years of education
+
+94
+00:09:38,980 --> 00:09:45,580
+it's like our whole society is geared towards this you know towards literacy and numeracy and so on
+
+95
+00:09:45,580 --> 00:09:52,160
+so so we obviously think that this is valuable and we obviously think that this is beneficial
+
+96
+00:09:52,160 --> 00:10:00,620
+to everyone and and and so with the with the internet right now for example we don't do anything
+
+97
+00:10:00,620 --> 00:10:06,400
+like that and someone just a couple days ago brought up an excellent point that the current where the
+
+98
+00:10:06,400 --> 00:10:11,600
+internet is trending right now with internet with tiktok and all all this bullshit it's completely
+
+99
+00:10:11,600 --> 00:10:18,520
+passive it's like i'm here now entertain me yes give me all the recommendations even like amazon
+
+100
+00:10:18,520 --> 00:10:23,860
+shopping is like that you don't even you know go out to look for the thing that you need you're just
+
+101
+00:10:23,860 --> 00:10:30,440
+like yeah please dear algorithm tell me what i need on average the agency of the individual
+
+102
+00:10:30,440 --> 00:10:37,200
+is on average is reduced at the number of people with higher agency probably increases but as more and
+
+103
+00:10:37,200 --> 00:10:43,840
+more people use the internet we ended up in a point where most people are pure consumers that was
+
+104
+00:10:43,840 --> 00:10:52,260
+always the case that most people will be consumers but um i think we both can agree that
+
+105
+00:10:52,260 --> 00:10:59,740
+the morality of the question whether something is good or bad only depends on the human itself
+
+106
+00:10:59,740 --> 00:11:08,800
+technology itself just can never exist in a pure vacuum it has no meaning in a pure vacuum it always
+
+107
+00:11:08,800 --> 00:11:15,020
+needs to be applied for human and whether it's used for human good or human bad depends on the
+
+108
+00:11:15,020 --> 00:11:20,960
+individual situation i think we we can all agree on that so the the thing itself is neither good
+
+109
+00:11:20,960 --> 00:11:27,480
+nor bad i'm i'm a strong proponent of stoic philosophy and stoic philosophy basically dictates
+
+110
+00:11:27,480 --> 00:11:36,180
+that also technology and everything outside of your control has no moral meaning the fact that it can
+
+111
+00:11:36,180 --> 00:11:44,100
+be used by a totalitarian regime to control its people and the same technology can be used by the
+
+112
+00:11:44,100 --> 00:11:49,100
+people to topple the totalitarian regime shows that very very distinctly very obviously
+
+113
+00:11:49,100 --> 00:12:00,080
+yeah yeah i like the i like the stoic thought uh you know basically it's it's it's it's in in eastern
+
+114
+00:12:00,080 --> 00:12:06,740
+philosophy as well right where it's you know if if you can do something about it then do the thing
+
+115
+00:12:06,740 --> 00:12:11,520
+and stop worrying about it and if you can't do something about it then worrying about it won't do it
+
+116
+00:12:11,520 --> 00:12:23,380
+any good right same same thing but yeah i i mean my my hope is kind of that with what we've learned
+
+117
+00:12:23,380 --> 00:12:28,900
+now from the current iteration of the internet and i i view i view i mean this is still all ongoing
+
+118
+00:12:28,900 --> 00:12:34,800
+and it's like you know ai is like proliferating and everything is algorithmically driven and it's
+
+119
+00:12:34,800 --> 00:12:42,300
+kind of it's in some sense i hope that we'll build stuff that allows those who want to
+
+120
+00:12:42,300 --> 00:12:49,460
+position themselves in the driver's seat to be back in the driver's seat and actually have a say
+
+121
+00:12:49,460 --> 00:12:56,300
+in kind of what happens to their money what happens to their compute what happens like how they
+
+122
+00:12:56,300 --> 00:13:02,800
+like have agency in cyberspace basically yes and increase the number of agents also like yeah we will
+
+123
+00:13:02,800 --> 00:13:08,540
+always there will always be something new that enables those who adapt it first to gain more
+
+124
+00:13:08,540 --> 00:13:14,740
+power and influence and what i find interesting is all the technological breaks that we encounter on
+
+125
+00:13:14,740 --> 00:13:23,820
+the way um sometimes equal the playing field again yeah right now it's ai it doesn't i mean it's
+
+126
+00:13:23,820 --> 00:13:30,380
+ambivalent i think because you can see that the larger companies that were you know uh developing this
+
+127
+00:13:30,380 --> 00:13:37,260
+technologies such as google amazon maybe apple as well they have a head start yeah but at the same
+
+128
+00:13:37,260 --> 00:13:44,720
+time the models are getting so much faster and more efficient that suddenly like thousands and
+
+129
+00:13:44,720 --> 00:13:50,560
+thousands of new people can build products that really rival those big ones yeah you know that's
+
+130
+00:13:50,560 --> 00:13:55,020
+the best thing that can happen that's like that's the that's really the best thing that can happen
+
+131
+00:13:55,020 --> 00:14:01,580
+because there is no other moral direction as we have discussed before there's no ai is not going
+
+132
+00:14:01,580 --> 00:14:08,500
+to be just good yeah but we can increase the chance of it being good by making sure that more people have
+
+133
+00:14:08,500 --> 00:14:16,140
+access to it and more people can use it to fulfill their dreams and their goals instead of like the few
+
+134
+00:14:16,140 --> 00:14:22,560
+one company dictating already have their goals already know where things need to go to to benefit
+
+135
+00:14:22,560 --> 00:14:29,940
+themselves yeah yeah yeah i think it's it's interesting to watch this happen over and over
+
+136
+00:14:29,940 --> 00:14:38,260
+again that that kind of uh you know like the the cost gets driven down and and also the open models now
+
+137
+00:14:38,260 --> 00:14:43,080
+catching up and stuff gets smaller and easier and cheaper and that means more people can use it and
+
+138
+00:14:43,080 --> 00:14:47,120
+have access to it that's the most exciting thing and the same thing happened also with bitcoin yeah
+
+139
+00:14:47,120 --> 00:14:51,960
+absolutely the banking system the entire finance anything that has to do with money like literally
+
+140
+00:14:51,960 --> 00:14:58,740
+anything from payments to saving to whatever you want to come up with 15 years ago there were maybe
+
+141
+00:14:58,740 --> 00:15:04,400
+like you know hundreds of entities in the world that could do those things yeah now we have hundreds
+
+142
+00:15:04,400 --> 00:15:10,600
+of thousands of people who can build this and deploy this and just go with it because of bitcoin
+
+143
+00:15:10,600 --> 00:15:16,560
+because we have like completely equalized the access to financial systems to find to financial
+
+144
+00:15:16,560 --> 00:15:22,480
+operations on the internet and we're going to see the same with intelligence hopefully like actually
+
+145
+00:15:22,480 --> 00:15:28,220
+like i'm so impressed with by what's happening one year ago i remember this very clearly that i said
+
+146
+00:15:28,220 --> 00:15:34,040
+to someone it's like i don't think that we'll be able to build uh you know that we'll have
+
+147
+00:15:34,040 --> 00:15:41,380
+competitive on-device ai because of the big of this huge gap between large data centers and the local
+
+148
+00:15:41,380 --> 00:15:48,100
+llms that people have been using one year ago and this has changed now like a couple months ago i was
+
+149
+00:15:48,100 --> 00:15:56,000
+telling someone else the same i did the same uh wrong prediction by saying now we're in this regime of
+
+150
+00:15:56,000 --> 00:16:03,400
+um excuse me what is called like the the thinking models um the ones that you know first produce
+
+151
+00:16:03,400 --> 00:16:07,700
+uh the chain of thoughts that's that's what it's called like chain of thoughts models and then you
+
+152
+00:16:07,700 --> 00:16:15,180
+make the actual uh synthesis of data yeah and i was like convinced this is a new paradigm this is going
+
+153
+00:16:15,180 --> 00:16:20,860
+to you know win over the old paradigm which turned out to be true now everyone does thinking models but i
+
+154
+00:16:20,860 --> 00:16:28,920
+thought because it uses so much energy local llms will never be able to compete with large data
+
+155
+00:16:28,920 --> 00:16:35,780
+centers that now offer this uh you know prediction time compute basically uh that that requires so much
+
+156
+00:16:35,780 --> 00:16:43,640
+compute during prediction and deep seek v3 just came out you know a month ago and just shattered that
+
+157
+00:16:43,640 --> 00:16:50,180
+prediction again so it's like this force of equalizing is the most the strongest force
+
+158
+00:16:50,180 --> 00:16:56,360
+that that that i can think of it really like on an economic level forces everyone to rethink
+
+159
+00:16:56,360 --> 00:17:01,800
+what they've been doing and adjust to the new status quo and i like that's why i'm so in love
+
+160
+00:17:01,800 --> 00:17:06,340
+i mean technology that's that's what that's what free markets usually do right but but i i feel like
+
+161
+00:17:06,340 --> 00:17:11,600
+not every technology works like that and not all systems work like that and i feel like we have to be
+
+162
+00:17:11,600 --> 00:17:19,440
+i briefly uh touched with this on on on pablo in one of the conversations um that we have to
+
+163
+00:17:19,440 --> 00:17:26,200
+be very careful to distinguish with stuff and systems that gets better over time which is what
+
+164
+00:17:26,200 --> 00:17:31,980
+you just described it gets more uh you know more democratic to use the term over time more people
+
+165
+00:17:31,980 --> 00:17:36,900
+will have more access and so on and other things that have a centralizing tendency that centralize
+
+166
+00:17:36,900 --> 00:17:43,540
+over time and can get kind of worse over time it's like um i don't know i feel do you see it in a
+
+167
+00:17:43,540 --> 00:17:49,120
+similar way or do you think it's always going to be kind of nature works in a way that it's it's
+
+168
+00:17:49,120 --> 00:17:55,800
+automatically tending towards the good no i don't i don't think that it's uh it's an automatic thing
+
+169
+00:17:55,800 --> 00:18:01,840
+there are systems that get you know that benefit from centralization some things just scale better
+
+170
+00:18:01,840 --> 00:18:05,980
+when you centralize them and that's like the opposing force to what i just described
+
+171
+00:18:05,980 --> 00:18:13,420
+um and network things are very good examples of that social networks are like the best example of
+
+172
+00:18:13,420 --> 00:18:18,400
+that it's it's known as the network effect yeah the more people participate in a network the more
+
+173
+00:18:18,400 --> 00:18:25,360
+valuable the network becomes that means like inherent to the way this system works means that competition
+
+174
+00:18:25,360 --> 00:18:30,540
+is really hard to bootstrap you can make a social network with your five friends but it's not going to
+
+175
+00:18:30,540 --> 00:18:37,280
+do anything sure i mean that that was the that was the bane of uh like every single time uh bitcoin
+
+176
+00:18:37,280 --> 00:18:41,300
+has tried to move away from bitcoin twitter it didn't work because of network effects i think we're
+
+177
+00:18:41,300 --> 00:18:47,580
+now now with nostr it's the first time where it has a chance of working yeah and i agree and uh with
+
+178
+00:18:47,580 --> 00:18:55,380
+nostr we've we've kind of unlocked one thing that the closed systems will never be able to unlock
+
+179
+00:18:55,380 --> 00:19:01,400
+because they cannot cooperate in their they don't have synergies in their dna they must compete yeah
+
+180
+00:19:01,400 --> 00:19:06,280
+this is the only thing that keeps them alive yeah is the competition they must steal each other's
+
+181
+00:19:06,280 --> 00:19:11,680
+uses from each other forever because they cannot transition into a different model yeah many people
+
+182
+00:19:11,680 --> 00:19:17,360
+have tried that it's why jack dorsey left twitter at the end yeah it's why so many protocols in the
+
+183
+00:19:17,360 --> 00:19:22,500
+past that were supposed to be adopted by you know the large players for example facebook or meta
+
+184
+00:19:22,500 --> 00:19:29,260
+adopted 80 proto uh for for their instagram twitter clone whatever it's called and it's like it's
+
+185
+00:19:29,260 --> 00:19:35,760
+irrelevant no one interrupts with them no one even you can't you kind of just with blue sky like the
+
+186
+00:19:35,760 --> 00:19:44,040
+same to to you know mention the b word it's it's if you if you need like uh billions of dollars to run
+
+187
+00:19:44,040 --> 00:19:50,940
+one node then no one will ever interrupt it's like it's it's not an open it's it's open in name only
+
+188
+00:19:50,940 --> 00:19:56,140
+right it's like you you need you need so much money to run the single master node that is required of
+
+189
+00:19:56,140 --> 00:20:02,880
+the system that you just can't it's just like you know try joining the the swift node banking system
+
+190
+00:20:02,880 --> 00:20:07,820
+you know it's like yes it's it's you can in theory but you need like billions of dollars and we are
+
+191
+00:20:07,820 --> 00:20:13,520
+doing it with noster we are literally doing it with not with noster it's like my same nsec i can use it
+
+192
+00:20:13,520 --> 00:20:21,220
+to stream videos i can sell stuff with shopster i can use it as my wallet on noster i can like i can
+
+193
+00:20:21,220 --> 00:20:25,980
+do so many things with the same identity now and all of these systems benefit from each other yeah
+
+194
+00:20:25,980 --> 00:20:31,400
+because they have not been founded on this premise of becoming the big thing yeah none of these
+
+195
+00:20:31,400 --> 00:20:38,040
+small subsystems of noster want to become the only thing that is around because they kind of
+
+196
+00:20:38,040 --> 00:20:44,140
+you know they know that noster will fail so their entire system will fail if they are the only thing
+
+197
+00:20:44,140 --> 00:20:49,400
+yeah right so even like let's take primal as an example primal is like the most walled garden
+
+198
+00:20:49,400 --> 00:20:54,860
+experience that you'll get on noster and it's also sometimes makes compromises you know on on
+
+199
+00:20:54,860 --> 00:21:02,120
+decentralization and whatnot like people know that but even primal knows exactly that if only primal is
+
+200
+00:21:02,120 --> 00:21:06,460
+used at the end of the day everything else breaks yeah none of their business models will work out
+
+201
+00:21:06,460 --> 00:21:12,200
+like we've we've found the system in which synergies are rewarded yeah exactly it's the same thing in
+
+202
+00:21:12,200 --> 00:21:17,320
+bitcoin like i look at the bitcoin space and i see all these different companies and i've never seen
+
+203
+00:21:17,320 --> 00:21:22,660
+this in my life before we are all in the same boat you can feel that people think that they're in the
+
+204
+00:21:22,660 --> 00:21:29,900
+same team you have competing companies that produce for example like two wallet providers that both
+
+205
+00:21:29,900 --> 00:21:39,700
+compete for number of users maybe like but both of them know that they both improve the bitcoin
+
+206
+00:21:39,700 --> 00:21:44,800
+ecosystem with their products yeah and everyone's working on the same mission bitcoin fails we all
+
+207
+00:21:44,800 --> 00:21:50,900
+fail yeah i think i think that's a perfect way to put the incentives out there it's new it's never
+
+208
+00:21:50,900 --> 00:21:55,900
+been done before it's so exciting to witness this yeah no i think i think that's what what the
+
+209
+00:21:55,900 --> 00:22:02,960
+the the current like platform style building of internet systems is like it's it's it's pure
+
+210
+00:22:02,960 --> 00:22:09,060
+competition basically without any any symbiosis and we had no underlying substrate that allowed for
+
+211
+00:22:09,060 --> 00:22:14,840
+symbiosis no and i think if you look at nature like the the most successful systems are symbiotic
+
+212
+00:22:14,840 --> 00:22:19,260
+systems it's like nature is full of symbiotic relationships that's what a lot of the you know like
+
+213
+00:22:19,260 --> 00:22:26,920
+uh i i feel like a lot of people gloss over this fact that it's not all the jungle is not all
+
+214
+00:22:26,920 --> 00:22:31,740
+like competition competition and like only the strongest will survive and all those kind of
+
+215
+00:22:31,740 --> 00:22:35,720
+things i mean in that case we would have probably only one single species left at the end of the day
+
+216
+00:22:35,720 --> 00:22:47,480
+like if that were the case yeah no i i i i but i think coming back to the you know stuff gets better
+
+217
+00:22:47,480 --> 00:22:54,800
+over time and stuff gets worse over time uh what are your thoughts on what still i feel like is the
+
+218
+00:22:54,800 --> 00:23:01,340
+main criticism in in bitcoin especially from outsiders but also also like some some people
+
+219
+00:23:01,340 --> 00:23:06,720
+that know a lot about bitcoin will tell you that you know mining is centralized lightning will centralize
+
+220
+00:23:06,720 --> 00:23:13,980
+over time uh um like cashew is a terrible idea because who will run the mints and we'll only have
+
+221
+00:23:13,980 --> 00:23:18,720
+a couple of big mints that they will be like banks or what have you what's your what's your response to
+
+222
+00:23:18,720 --> 00:23:26,760
+all of that i mean um i let's steal minute for a second uh with lightning i think we have a good
+
+223
+00:23:26,760 --> 00:23:34,340
+example of a system where the network effect again plays uh has a strong strong effect on how the how the
+
+224
+00:23:34,340 --> 00:23:41,640
+system develops in you know this in network theory the stronger hub becomes the more efficient the system
+
+225
+00:23:41,640 --> 00:23:45,940
+becomes right so there is an incentive to centralize in lightning this is just simply
+
+226
+00:23:45,940 --> 00:23:54,100
+true and we've been seeing it and you can measure it in in lightning and you see it happen but the the
+
+227
+00:23:54,100 --> 00:24:03,660
+the important point in lightning is that it allows you to participate in the system without asking for
+
+228
+00:24:03,660 --> 00:24:07,780
+anyone's permission yeah and i know this phrase is being said over and over again permission that's lost
+
+229
+00:24:07,780 --> 00:24:13,460
+its meaning yeah it's being said over and over again but i just want to you know make this more
+
+230
+00:24:13,460 --> 00:24:19,300
+concrete and uh how this and make this more concrete and show how this specifically applies to lightning
+
+231
+00:24:19,300 --> 00:24:28,780
+as as an l2 system also different from others lightning is the only thing that we have that invites
+
+232
+00:24:28,780 --> 00:24:35,440
+everyone to join without signing up anywhere so you can spin anyone invites anyone anyone anyone's
+
+233
+00:24:35,440 --> 00:24:41,140
+join we know mathematically impossible to invite everyone yes correct like if i said everyone then i
+
+234
+00:24:41,140 --> 00:24:49,840
+need to correct myself there so um lightning is the only decentralized layer two system so even if
+
+235
+00:24:49,840 --> 00:25:00,880
+the the incentives drive it slowly towards decentralization uh sorry drive it mildly to centralization
+
+236
+00:25:00,880 --> 00:25:07,460
+that means that doesn't mean that you cannot run your own node and connect to the system and
+
+237
+00:25:07,460 --> 00:25:11,620
+offer an alternative to a subsystem or something like that i think there is also an important
+
+238
+00:25:11,620 --> 00:25:18,720
+difference between a centralizing force and a monopolizing force right because if you fuck up
+
+239
+00:25:18,720 --> 00:25:22,940
+you're dead immediately and someone else will take your place and that's not true in the monopoly
+
+240
+00:25:22,940 --> 00:25:28,880
+but even if you're the biggest player and so on oh my lord we're good we're almost getting run over
+
+241
+00:25:28,880 --> 00:25:35,900
+we're actually getting run over by a truck we are still alive all right okay thank you
+
+242
+00:25:35,900 --> 00:25:42,800
+so yeah this is this is the exciting thing about recording a podcast in the wild that's why that's why
+
+243
+00:25:42,800 --> 00:25:48,140
+that's why most people uh are are pusses and build a studio and hide in the studio no no we don't need
+
+244
+00:25:48,140 --> 00:25:51,200
+they can't take the the jungle of the street
+
+245
+00:25:51,200 --> 00:26:00,700
+but yeah i think i think that's an and the reason why i want to have all these conversations is because
+
+246
+00:26:00,700 --> 00:26:06,040
+again i feel like we are missing the vocabulary the right way to talk about those things because
+
+247
+00:26:06,040 --> 00:26:11,260
+there is a big difference between between centralization and monopolization there is a big difference
+
+248
+00:26:11,260 --> 00:26:17,980
+just like for example like just two days ago we talked about um custodians and so on and it's the
+
+249
+00:26:17,980 --> 00:26:24,640
+first time i i stumbled into the phrase of a blinded custodian a blinded custodian is distinctly
+
+250
+00:26:24,640 --> 00:26:30,240
+different from a regular custodian and i think i think just having that word just having that phrase
+
+251
+00:26:30,240 --> 00:26:34,540
+blinded custodian makes it so much easier for me to talk about those things and think through these
+
+252
+00:26:34,540 --> 00:26:40,500
+things and so so i i think you you hit on something let's take the example of cashew there
+
+253
+00:26:40,500 --> 00:26:48,340
+uh because like that's kind of that was the dream for such a long time is okay so we have custodians
+
+254
+00:26:48,340 --> 00:26:52,900
+we have blinded custodians we can talk about the specific meaning of the blinded custodian later
+
+255
+00:26:52,900 --> 00:26:58,520
+but you know an e-cash system with a blinded custodian that offers you great privacy
+
+256
+00:26:58,520 --> 00:27:06,420
+with a single entity that gives you that service let's say a bank a one single bank would
+
+257
+00:27:06,420 --> 00:27:13,360
+would develop like an e-cash system and provide this for their users that bank could fuck up it
+
+258
+00:27:13,360 --> 00:27:19,900
+could blow up it could fractionally fractional do fractional reserve and then like all its users
+
+259
+00:27:19,900 --> 00:27:27,640
+would be you know left holding the bag for example so it could just break very easily what we have
+
+260
+00:27:27,640 --> 00:27:34,500
+tried to do and what i think we're we're really you know achieving at this point is to allow anyone
+
+261
+00:27:34,500 --> 00:27:42,080
+to spin up an alternative system if they want cashew is super easy to deploy and it really like the the
+
+262
+00:27:42,080 --> 00:27:47,540
+only thing that you need is a lightning note and you can become uh you can spin up a custodian or a
+
+263
+00:27:47,540 --> 00:27:53,040
+service and offer it to all the users what we've done like none of the cashew wallets out there
+
+264
+00:27:53,040 --> 00:27:58,340
+assume that you're going to use a single mint yeah for example all of them kind of assume that there
+
+265
+00:27:58,340 --> 00:28:03,400
+will be many different mints and you can connect multiple mints to your single wallet and that's
+
+266
+00:28:03,400 --> 00:28:09,420
+exactly what we've been seeing like there are 30 to 40 different mints out there run by people and
+
+267
+00:28:09,420 --> 00:28:15,700
+like some of them will blow up some of them will fractional reserve some of them will rock their
+
+268
+00:28:15,700 --> 00:28:20,060
+users i'm sorry there's like no way to prevent it it's a custodian system but the thing is like there
+
+269
+00:28:20,060 --> 00:28:26,820
+are 39 different mints out there still alive yeah and even if that happens like a small part of the
+
+270
+00:28:26,820 --> 00:28:32,700
+system breaks but the entire system keeps growing yeah and like that's what we're trying to achieve
+
+271
+00:28:32,700 --> 00:28:37,140
+like even and it's the same principle everywhere right like if one bitcoin note goes down it doesn't
+
+272
+00:28:37,140 --> 00:28:41,200
+matter if one lightning note goes down it doesn't matter if one computer on the internet goes down it
+
+273
+00:28:41,200 --> 00:28:47,120
+doesn't matter and so on and so forth yes and i think that i mean that's what to my mind the the
+
+274
+00:28:47,120 --> 00:28:53,260
+whole nostril architecture it's so simple and so ingenious because you just default you default to
+
+275
+00:28:53,260 --> 00:28:58,880
+you default to you know a couple different relays and and you just blast everything out to like five
+
+276
+00:28:58,880 --> 00:29:03,740
+six different ones by default and so if one goes away even if it's a big one you don't even feel it
+
+277
+00:29:03,740 --> 00:29:08,760
+it doesn't matter at all i was just asked this this like yesterday this question about like what
+
+278
+00:29:08,760 --> 00:29:14,080
+happens if that if that relay goes down and my answer to that was it's like you won't even notice that
+
+279
+00:29:14,080 --> 00:29:19,540
+the relay goes down it's like you have eight relays or ten relays in your client yeah i have no
+
+280
+00:29:19,540 --> 00:29:25,220
+emotional connection to my relay if it goes down whatever man i'll just use the next exactly and
+
+281
+00:29:25,220 --> 00:29:31,300
+and you can have that again relays are not necessarily blinded in that sense but but they
+
+282
+00:29:31,300 --> 00:29:36,680
+don't have any real power over you and that's what we we discussed when we said like it's it's like the
+
+283
+00:29:36,680 --> 00:29:42,460
+data is bearer you know like you sign the data and it's almost like if you if you if you look at
+
+284
+00:29:42,460 --> 00:29:46,920
+storage for example you can have a blinded custodian when it comes to storage because you
+
+285
+00:29:46,920 --> 00:29:51,960
+can you can just split stuff up and encrypt the charts only knew what's there and and like okay
+
+286
+00:29:51,960 --> 00:29:56,360
+i give you my hard disk whatever you store there i cannot even know that's also how a lot of the
+
+287
+00:29:56,360 --> 00:30:01,520
+modern you know email providers and so on work where it's just like the provider doesn't have the
+
+288
+00:30:01,520 --> 00:30:06,160
+keys to access the data so they don't know what's going on they just they just provide the system and i
+
+289
+00:30:06,160 --> 00:30:11,160
+think that's a again i feel like we're we're we're missing the succinct vocabulary to talk about
+
+290
+00:30:11,160 --> 00:30:17,300
+these things because that's a very very different power dynamic um than what we've had previously
+
+291
+00:30:17,300 --> 00:30:20,860
+where you know like your email provider reads absolutely everything knows absolutely everything
+
+292
+00:30:20,860 --> 00:30:26,560
+and if the government comes and and and and says you know like oh you have to get mr snowden off
+
+293
+00:30:26,560 --> 00:30:31,320
+your platform or something then then exactly those are like two different and very important things
+
+294
+00:30:31,320 --> 00:30:37,160
+to distinguish there as well you have one is the service provider that either knows what's happening
+
+295
+00:30:37,160 --> 00:30:43,300
+and can therefore individually sensor in the users or course individual users and the second thing
+
+296
+00:30:43,300 --> 00:30:50,000
+is that the provider itself could be forced to to censor an individual or rock an individual so
+
+297
+00:30:50,000 --> 00:30:56,740
+uh the state might from like from external information that the state has acquired about a certain user go to
+
+298
+00:30:56,740 --> 00:31:02,560
+that provider and say just stop this provider if you have a blind system then neither the provider can
+
+299
+00:31:02,560 --> 00:31:08,300
+uh rug you specifically nor can it be coerced to rug you specifically exactly those are two different
+
+300
+00:31:08,300 --> 00:31:15,780
+things that the the provider can protect itself from and the user of that provider can protect and it
+
+301
+00:31:15,780 --> 00:31:20,300
+makes a big difference because then it's like an all or nothing like if if if someone with a really
+
+302
+00:31:20,300 --> 00:31:25,320
+large stick knocks at your door and tells you okay we have reasons to believe that you know like
+
+303
+00:31:25,320 --> 00:31:29,420
+problematic person is using your system then you have to you would have to shut down absolutely
+
+304
+00:31:29,420 --> 00:31:34,520
+everything for everyone yes and that's what what like uh i mean if you know your i'm sure you do
+
+305
+00:31:34,520 --> 00:31:40,240
+but if you know your cypherpunk history it's like with love a bit you know it's like okay a problematic
+
+306
+00:31:40,240 --> 00:31:46,080
+person used uh love a bit email provider uh please hand over you're you're legally obliged to hand over
+
+307
+00:31:46,080 --> 00:31:51,740
+all encryption keys all everything and so you know the absolute legend of the guy printed everything out
+
+308
+00:31:51,740 --> 00:31:57,280
+with the printer and as the printer was printing the keys he shut down and nuked everything and that was
+
+309
+00:31:57,280 --> 00:32:03,640
+the end of love a bit so a little bit of history for everyone here fantastic that's how but then
+
+310
+00:32:03,640 --> 00:32:08,820
+then you at least kind of you know you have a way a meaningful way to protect your users basically
+
+311
+00:32:08,820 --> 00:32:16,780
+and you have a meaningful way of of also kind of um you don't want to have all the liability on your
+
+312
+00:32:16,780 --> 00:32:21,500
+shoulders and i think that's what we what we see now happening with the next iteration of the internet
+
+313
+00:32:21,500 --> 00:32:27,500
+so to speak it's user data in general is a liability yes it's absolutely it's treated as an asset with
+
+314
+00:32:27,500 --> 00:32:33,180
+the current platforms people to step in and provide services for others yeah it's like you have to be
+
+315
+00:32:33,180 --> 00:32:39,940
+afraid of you know knowing too much about the people that you serve absolutely so the way to protect
+
+316
+00:32:39,940 --> 00:32:45,780
+yourself is to apply cryptography so that you cannot know anything and you cannot hand over anything
+
+317
+00:32:45,780 --> 00:32:51,680
+and you'll be in a much better spot if if things go south exactly and and the reason why i say like
+
+318
+00:32:51,680 --> 00:32:57,320
+i think this is what we see happening now because for some businesses and for some people um user data
+
+319
+00:32:57,320 --> 00:33:02,380
+is an extreme liability and that's of course you know like um vpn providers and those kind of things
+
+320
+00:33:02,380 --> 00:33:08,380
+and so the first people naturally that uh accept bitcoin accept lightning and so on is something like
+
+321
+00:33:08,380 --> 00:33:14,800
+a mulvat vpn or obscura vpn or silent.link and so on and and i think this will continue to happen like we
+
+322
+00:33:14,800 --> 00:33:21,820
+we will see continue this adoption will continue to happen at the edges where you absolutely do not
+
+323
+00:33:21,820 --> 00:33:27,760
+want to know anything about your users so you will accept e-cash for example it's just like here is your
+
+324
+00:33:27,760 --> 00:33:34,680
+user id you pay that's it and that's all the service needs to know about you i want to go one step deeper
+
+325
+00:33:34,680 --> 00:33:39,640
+because we're talking about the internet right and like i like our theme it's it's a bit like a fractal
+
+326
+00:33:39,640 --> 00:33:44,860
+but we're trying to trying to keep it like focused on you want to go from the internet is
+
+327
+00:33:44,860 --> 00:33:49,800
+fuck to everything is fuck everything is no but like one good example that just came to my mind when
+
+328
+00:33:49,800 --> 00:33:54,520
+you said this was i want to talk a bit about internet infrastructure i think that's that's
+
+329
+00:33:54,520 --> 00:34:01,020
+something that we talk so little about because we have almost like almost no power as users oh yeah
+
+330
+00:34:01,020 --> 00:34:06,680
+yeah yeah run your own isp yeah run your own fucking email yeah yeah try that you know and
+
+331
+00:34:06,680 --> 00:34:12,460
+if you run your own isp and there are very brave individuals who run their own isp and offer this
+
+332
+00:34:12,460 --> 00:34:18,760
+as a service to their local community for example local city and so on like if you can know which
+
+333
+00:34:18,760 --> 00:34:25,320
+every isp that uses standard techniques kind of has to know who uses your your service who the
+
+334
+00:34:25,320 --> 00:34:30,560
+individual users ip addresses are what services they connect to then you're going to run into
+
+335
+00:34:30,560 --> 00:34:35,980
+into problems that's why it's like scary to run an isp yeah and like there are countries where you
+
+336
+00:34:35,980 --> 00:34:42,140
+cannot host a wi-fi for example it's a very simple problem that many people know about you have a cafe
+
+337
+00:34:42,140 --> 00:34:48,840
+and you host a wi-fi like you become kind of responsible for what happens on your wi-fi because
+
+338
+00:34:48,840 --> 00:34:54,820
+because people people can just point towards your cafe and say like something bad happened at your
+
+339
+00:34:54,820 --> 00:34:59,340
+cafe and now you're responsible for that figure out who did that and hand me all overall
+
+340
+00:34:59,340 --> 00:35:04,420
+information like we're still at the very very beginning of what we could do there and i think one
+
+341
+00:35:04,420 --> 00:35:11,860
+example of how we can fix this is you know exemplified through tor and many you know similar techniques
+
+342
+00:35:11,860 --> 00:35:18,900
+that try to kind of use encryption and other techniques to to hide user data and again like running
+
+343
+00:35:18,900 --> 00:35:25,660
+a tor relay that takes you know data from the tor network and and relays it forward to the tor network
+
+344
+00:35:25,660 --> 00:35:32,300
+is super safe it's like you can do it at your home it's there is almost nothing that can happen to you
+
+345
+00:35:32,300 --> 00:35:36,520
+the data is encrypted just because you don't know who sent it and you don't know who where it's going
+
+346
+00:35:36,520 --> 00:35:41,720
+and you can run a tor relay that's no problem the problem with tor relays rather is like the entry
+
+347
+00:35:41,720 --> 00:35:47,280
+node and the exit node again the points where someone can point to and say now you have to hand over the
+
+348
+00:35:47,280 --> 00:35:53,920
+data or you're responsible for this kind of traffic that flew flowed through your node so i think in in
+
+349
+00:35:53,920 --> 00:35:59,400
+terms of internet infrastructure now when we go down the stack really really down the stack and even to
+
+350
+00:35:59,400 --> 00:36:06,220
+the hardware level we haven't even started that process yet that we've been talking about with you
+
+351
+00:36:06,220 --> 00:36:14,940
+know social networks and money social networks being noster money being bitcoin the all services all
+
+352
+00:36:14,940 --> 00:36:22,860
+infrastructure that we rely on is still in the hands of the of the you know powerful isps because
+
+353
+00:36:22,860 --> 00:36:32,340
+we haven't developed yet alternative ways wherein like an uncle jim isp can just spin up a network
+
+354
+00:36:32,340 --> 00:36:38,000
+for their for for their community for their village or something like that and be protected himself
+
+355
+00:36:38,000 --> 00:36:44,080
+not have all the liability of everyone using that infrastructure i mean to to to be fair like to be
+
+356
+00:36:44,080 --> 00:36:48,840
+fair to to our society and civilization uh pre-cryptography all of this was impossible
+
+357
+00:36:48,840 --> 00:36:54,180
+because we had to rely on authority like there was no other way to to build these systems and scale
+
+358
+00:36:54,180 --> 00:37:01,940
+these systems and so on and i think uh also like i'm convinced and i i have very technical reasons
+
+359
+00:37:01,940 --> 00:37:06,580
+for that i'm convinced that bitcoin is the only solution to like proof of work is the only solution
+
+360
+00:37:06,580 --> 00:37:14,740
+to um again i have this big talk and thing about uh cryptography is not enough so you still need
+
+361
+00:37:14,740 --> 00:37:19,860
+like an arrow of time in cyberspace and you need an authority that that you cannot get with
+
+362
+00:37:19,860 --> 00:37:24,680
+cryptography alone and bitcoin provides this with proof of work and you basically like it's a long
+
+363
+00:37:24,680 --> 00:37:28,220
+long long argument i'm not going to go into it but i'm convinced we need this we need this this
+
+364
+00:37:28,220 --> 00:37:33,140
+substrate and the only way to build it out um we need entropy in cyberspace and we don't have
+
+365
+00:37:33,140 --> 00:37:37,560
+entropy in cyberspace and bitcoin provides entropy in cyberspace and the only way to provide it is
+
+366
+00:37:37,560 --> 00:37:42,700
+actually with proof of work provable randomness that's what you mean yes yeah and but but that's
+
+367
+00:37:42,700 --> 00:37:47,060
+also how you build up an arrow of time like you need provable randomness to build up an arrow of
+
+368
+00:37:47,060 --> 00:37:51,820
+it's so interesting because also you know in in physics itself the definition of the arrow of time
+
+369
+00:37:51,820 --> 00:37:55,960
+it's the same thing no that's why i'm convinced it's the only way like physics works in the same way
+
+370
+00:37:55,960 --> 00:38:00,480
+all physical laws are symmetric in time and the only thing that is asymmetric in physics except for
+
+371
+00:38:00,480 --> 00:38:07,980
+like symmetry breaking or crazy quantum and or fundamental physics is entropy basically space
+
+372
+00:38:07,980 --> 00:38:13,360
+time emerges out of entropy delta s always larger than zero yes and and and and so so so we now
+
+373
+00:38:13,360 --> 00:38:18,420
+know kind of you know i mean that's where everything's heading uh space time emerges out of entropy out of
+
+374
+00:38:18,420 --> 00:38:21,600
+irreversible processes and all those kind of things it's the same we need the same in cyberspace
+
+375
+00:38:21,600 --> 00:38:26,320
+so and that's what bitcoin provides and so so it's a it's a long-winded way of saying kind of
+
+376
+00:38:26,320 --> 00:38:32,500
+we have to also forgive ourself and forgive society and forgive the banks and everyone else
+
+377
+00:38:32,500 --> 00:38:38,800
+and the ice piece and so on it was quite impossible to build that up um i mean you know this as well
+
+378
+00:38:38,800 --> 00:38:43,280
+like pre-bitcoin it was quite impossible to build all this up same with e-cash you know having large
+
+379
+00:38:43,280 --> 00:38:48,260
+scale deployed e-cash systems on top of fiat would be an improvement yes but it's kind of you know it's a
+
+380
+00:38:48,260 --> 00:38:53,620
+band-aid it's like it's bitcoin really makes it work as we've just said before it's like it's going to
+
+381
+00:38:53,620 --> 00:38:58,140
+be jp morgan who builds this and it will be offered to jp morgan's clients and that's it
+
+382
+00:38:58,140 --> 00:39:03,720
+and if jp morgan goes down the whole system goes down yeah like without bitcoin you cannot do this
+
+383
+00:39:03,720 --> 00:39:08,600
+in a meaningful way you need the underlying substrate that's actually fair and open to everyone
+
+384
+00:39:08,600 --> 00:39:17,560
+and provides kind of a you know to have a marketplace you first need physics you first need an actual
+
+385
+00:39:17,560 --> 00:39:23,320
+substrate where you can build a marketplace on and that's kind of how i see it and and i think
+
+386
+00:39:23,320 --> 00:39:27,760
+i think it's all going in that direction as you mentioned where where we have we can actually
+
+387
+00:39:27,760 --> 00:39:32,760
+build those systems out now where you are kind of zero knowledge about your customers and you are
+
+388
+00:39:32,760 --> 00:39:36,920
+zero knowledge about certain things and we see this now with tollgate for example you know it's one
+
+389
+00:39:36,920 --> 00:39:42,800
+of the one of the experiments currently going on where you basically you you you use e-cash to pay
+
+390
+00:39:42,800 --> 00:39:48,500
+for internet access and in this way the you know the mini isp basically your local isp
+
+391
+00:39:48,500 --> 00:39:53,060
+doesn't know anything about you can't know anything about you and and that's fantastic because it's
+
+392
+00:39:53,060 --> 00:39:57,660
+actually it it allows for an equal playing field in terms of who will actually provide the best
+
+393
+00:39:57,660 --> 00:40:03,500
+service can we just please for a second appreciate this wonderful fact that you can finally pay for
+
+394
+00:40:03,500 --> 00:40:09,660
+things online without having to kyc yeah i know i like i mean we're both hardcore bitcoiners and we
+
+395
+00:40:09,660 --> 00:40:15,380
+kind of sometimes forget about the hey this guy recognizes us as bitcoin bitcoin is great
+
+396
+00:40:15,380 --> 00:40:24,660
+so you know there is so much stuff on the internet that you could purchase and buy and like
+
+397
+00:40:24,660 --> 00:40:32,680
+many also privacy improving technologies vpn as the best example like the only way to pay for a vpn
+
+398
+00:40:32,680 --> 00:40:39,500
+was a kyc credit card for the entire existence of the internet and again there are technical reasons
+
+399
+00:40:39,500 --> 00:40:43,280
+there are technical reasons for it there are technical reasons you needed you needed bitcoin
+
+400
+00:40:43,280 --> 00:40:49,120
+before you before you could fix that because because before that all it's so funny that like
+
+401
+00:40:49,120 --> 00:40:58,100
+in the white paper it says electronic cash you know it says electronic cash and in my mind the
+
+402
+00:40:58,100 --> 00:41:03,140
+electronic says already something about the whole system because you need to push electrons around to
+
+403
+00:41:03,140 --> 00:41:08,860
+make the thing work so so so the proof of work stuff is kind of embedded in the title it's not digital
+
+404
+00:41:08,860 --> 00:41:14,080
+cash that's why it's so distinct from cbdc and so on and and and in the digital world purely digital
+
+405
+00:41:14,080 --> 00:41:19,240
+world if you remove electronics if you remove proof of work you're immediately in credit there is no
+
+406
+00:41:19,240 --> 00:41:23,840
+other way to do it it can be just a representation of like exactly because there is no link between the
+
+407
+00:41:23,840 --> 00:41:28,200
+the physical world and the digital world yes and so you always need a trusted authority to resolve any
+
+408
+00:41:28,200 --> 00:41:34,880
+conflicts that will inevitably arise and so so if you have digital money it is credit money period
+
+409
+00:41:34,880 --> 00:41:42,240
+and credit implies identity and implies thus kyc because i need to know who you are because if
+
+410
+00:41:42,240 --> 00:41:47,740
+there are conflicts or the credit goes bad then i need to find you with the police in my back you
+
+411
+00:41:47,740 --> 00:41:53,520
+know that's that's how it works and that's why if you pre-bitcoin if you bought a anything like a
+
+412
+00:41:53,520 --> 00:41:58,780
+a domain or a vpn or what have you you had like you had to use credit rates there was no other way
+
+413
+00:41:58,780 --> 00:42:04,840
+it's it's it's like once you truly understand this stuff it's like okay okay that's but now we have it now
+
+414
+00:42:04,880 --> 00:42:09,300
+we can actually rebuild it and build it properly absolutely and the thing is like this is a
+
+415
+00:42:09,300 --> 00:42:17,600
+like a slight philosophical take but we see these very obvious truths only when the alternative is
+
+416
+00:42:17,600 --> 00:42:22,720
+presented to us yes yeah like this is something absolutely that that thought was almost worthless
+
+417
+00:42:22,720 --> 00:42:28,420
+yeah insight was almost worthless without being able to point to the alternative yeah and today we
+
+418
+00:42:28,420 --> 00:42:34,100
+can see like we can just say as like a lemma yeah credit means you need a gun yeah without guns
+
+419
+00:42:34,100 --> 00:42:38,700
+credits credits doesn't work yeah it doesn't scale or what what have you like you need to
+
+420
+00:42:38,700 --> 00:42:45,780
+at least kyc and in order for kyc to make any sense you need a gun because like what what benefit do you
+
+421
+00:42:45,780 --> 00:42:50,160
+have to know that joe owes you money if you can force joe to pay you back basically it's all about
+
+422
+00:42:50,160 --> 00:42:54,540
+enforcement in the end then yeah and that's the neat thing about bitcoin it does the enforcement for
+
+423
+00:42:54,540 --> 00:43:00,400
+you and that's still true on lightning so that's i think that's why that's why it allows anyone to
+
+424
+00:43:00,400 --> 00:43:05,100
+participate anyone to participate because you don't need a lawyer you don't need an army
+
+425
+00:43:05,100 --> 00:43:11,360
+like to actually be your own bank in bitcoin and have a self-sovereign monetary policy you don't need
+
+426
+00:43:11,360 --> 00:43:17,620
+a standing army that's kind of a big innovation let's tie it back again i'm trying so go ahead
+
+427
+00:43:17,620 --> 00:43:22,940
+in terms of e-cash no no you're you're great i love listening to you i'm sure everyone everyone
+
+428
+00:43:22,940 --> 00:43:28,780
+else does as well i derail every single conversation you you tend to sometimes
+
+429
+00:43:28,780 --> 00:43:36,020
+go on a tangent you go ahead no no like let's get back to the internet and why the internet looks
+
+430
+00:43:36,020 --> 00:43:39,860
+like it is today and i think this is also something that both of us have thought about a lot
+
+431
+00:43:39,860 --> 00:43:47,900
+is the way that the internet developed due to a lack of being able to finance itself yeah i think the the
+
+432
+00:43:47,900 --> 00:43:53,400
+word here is micropayments it sounds like a small part you know a small feature of something but
+
+433
+00:43:53,400 --> 00:43:59,940
+when you look into the history of micropayments and what people wrote about it and so on it kind of
+
+434
+00:43:59,940 --> 00:44:05,680
+it's not just about you know paying your coffee and being able to make a transaction with low fees
+
+435
+00:44:05,680 --> 00:44:14,860
+it was seen as the way that this cyberspace like the the electronic sphere that uh that is built
+
+436
+00:44:14,860 --> 00:44:20,340
+that is kind of finding a way how the electronic sphere itself can finance itself from within
+
+437
+00:44:20,340 --> 00:44:26,680
+you want we see that you cannot offer a service for free it's just everything takes resources so
+
+438
+00:44:26,680 --> 00:44:32,360
+you need to refinance it some way and the early visions of the internet thought that we are going
+
+439
+00:44:32,360 --> 00:44:38,480
+to find uh a way like you have talked about this with pablo in the last episode about 402 that was
+
+440
+00:44:38,480 --> 00:44:44,240
+kind of added as the error code and then you know we'll find a way to to to make payments in a
+
+441
+00:44:44,240 --> 00:44:48,720
+couple years and then we'll we'll be able to use that error code yeah it was kind of baked in into
+
+442
+00:44:48,720 --> 00:44:55,120
+the assumption that the internet would grow on an ability to make payments for things online and
+
+443
+00:44:55,120 --> 00:45:01,240
+that's why i you know i'm so bullish on on e-cash because it kind of finally gives us a very simple
+
+444
+00:45:01,240 --> 00:45:08,200
+way to to make payments online for services that we use online in a microscopic scale you need to be
+
+445
+00:45:08,200 --> 00:45:14,580
+able to pay like one cent or less than a cent for some things you need to be able to pay per second
+
+446
+00:45:14,580 --> 00:45:22,200
+if you don't want to rely on credit so if you want like a better access to a service and then be able
+
+447
+00:45:22,200 --> 00:45:26,240
+to use that immediately and the service provider can shut you down immediately if you don't pay
+
+448
+00:45:26,240 --> 00:45:32,100
+if you want that dynamic you need like a bear token that can move instantly for almost for free
+
+449
+00:45:32,100 --> 00:45:39,280
+and in any arbitrary amount that you want and like i'm so bullish about e-cash because in my mind it
+
+450
+00:45:39,280 --> 00:45:45,500
+opens this possibility of this new internet the internet kind of bifurcated in the 90s
+
+451
+00:45:45,500 --> 00:45:52,680
+when everyone thought that we are going to have a cyber economy and we will be able to finance all
+
+452
+00:45:52,680 --> 00:45:58,360
+these services from within we saw that no it's not going to happen it's not happening with credit
+
+453
+00:45:58,360 --> 00:46:04,260
+cards and people do not enter their kyc data into a form to make like a 10 cent i don't even i don't
+
+454
+00:46:04,260 --> 00:46:07,940
+even think that's the issue it is the 10 cent payment because it's impossible with credit cards
+
+455
+00:46:07,940 --> 00:46:12,900
+and so you have to batch payments because otherwise otherwise the counterparty risk kills you even the
+
+456
+00:46:12,900 --> 00:46:17,720
+10 cent payment must be a fake payment that's why every single subscription that you you'll ever see
+
+457
+00:46:17,720 --> 00:46:23,180
+online is like at least five bucks a month and it's mostly paid annually so that it's like 20 bucks
+
+458
+00:46:23,180 --> 00:46:28,020
+the bottom is dictated by the transaction fees of the entire system basically yeah or like the risk
+
+459
+00:46:28,020 --> 00:46:33,480
+inside the system exactly yeah so so it was impossible and just to interject for for a brief
+
+460
+00:46:33,480 --> 00:46:40,660
+moment but i think one of the guys who who wrote most kind of lucidly about this was uh i think um
+
+461
+00:46:40,660 --> 00:46:46,240
+the book's name is who owns the future and it was i think jared lanier he was very early on vr stuff as
+
+462
+00:46:46,240 --> 00:46:54,040
+well and he wrote about kind of um uh in the best case money flows through the whole internet and and
+
+463
+00:46:54,040 --> 00:46:59,360
+these kind of levies build up where we're just like wherever the value is provided like um that's
+
+464
+00:46:59,360 --> 00:47:03,420
+where the value will flow and his main criticism at the time was there was the book was written like
+
+465
+00:47:03,420 --> 00:47:07,500
+well over 10 years ago i i don't know exactly when but it's it's an old book in internet standards
+
+466
+00:47:07,500 --> 00:47:12,580
+and and he was one of the early critics of like the big players like facebook and those kind of
+
+467
+00:47:12,580 --> 00:47:19,640
+things where basically um there is lots of value provided but the whole value flows to one central
+
+468
+00:47:19,640 --> 00:47:27,060
+point and for i think he didn't know uh like you know big commie and so on he thought it was only for
+
+469
+00:47:27,060 --> 00:47:32,520
+for structural political reasons not for technical reasons i'm convinced it's mostly for for technical
+
+470
+00:47:32,520 --> 00:47:37,860
+reasons where you just you can't do it basically you can you cannot enter the space and become a
+
+471
+00:47:37,860 --> 00:47:42,780
+competition exactly like you will always end up with a monopoly if there was no one else can can
+
+472
+00:47:42,780 --> 00:47:48,120
+and also if there are any micro payments in the thing you still would have to kyc to receive payouts
+
+473
+00:47:48,120 --> 00:47:52,060
+and so on and so forth and it's like very high barrier to entry and it's like you get in the best
+
+474
+00:47:52,060 --> 00:47:57,720
+case you get facebook points like reddit karma you know and then to to pay like to actually exit the
+
+475
+00:47:57,720 --> 00:48:04,700
+system again you'll have to go through the whole you know kyc everything is so stupid yeah it's so
+
+476
+00:48:04,700 --> 00:48:11,320
+fucked like it's so fucked like if we continue on this path just think ahead like 10 years
+
+477
+00:48:11,320 --> 00:48:18,280
+is the is the is the realistic expectation that every person will have like 50 subscription at some
+
+478
+00:48:18,280 --> 00:48:23,460
+point yeah yeah that's the other thing is this how you're going to live on the internet you're you're
+
+479
+00:48:23,460 --> 00:48:28,000
+limited to only like 20 services because that's what you can pay for because you need like five
+
+480
+00:48:28,000 --> 00:48:32,940
+dollars minimum per month to be able to access them yeah it's like so stupid that's why i showed the
+
+481
+00:48:32,940 --> 00:48:36,820
+comic with like the pirate bay you know ah netflix comes around and it's like ah i don't need you
+
+482
+00:48:36,820 --> 00:48:41,920
+anymore and he puts away the pirate bay hat and then it's like netflix and disney plus and hulu
+
+483
+00:48:41,920 --> 00:48:48,220
+and youtube premium and whatnot and then like 10 years later he gets back into oh yeah my old
+
+484
+00:48:48,220 --> 00:48:55,200
+friend hello my dear old friend i made this i made this development myself so much like i'm so in love
+
+485
+00:48:55,200 --> 00:49:00,740
+with torrents right now and you know to resolve this issue to to really make sure that torrents can
+
+486
+00:49:00,740 --> 00:49:06,120
+survive forever which i think like i'm such a big fan of torrent for me it's like there are three
+
+487
+00:49:06,120 --> 00:49:11,820
+systems in the world that i think are really well done this is bitcoin torrent and nosta you know
+
+488
+00:49:11,820 --> 00:49:18,700
+torrent was there since the beginning and it will survive every nuclear disaster that we have like i love
+
+489
+00:49:18,700 --> 00:49:25,620
+it but torrent has no economics incentives built in that's the biggest weak point of torrents and when
+
+490
+00:49:25,620 --> 00:49:32,660
+i saw bitcoin for the first time a long time ago because also about the name overlap of bit torrent
+
+491
+00:49:32,660 --> 00:49:38,040
+and bitcoin i kind of automatically assumed that this will be used for online file sharing immediately
+
+492
+00:49:38,040 --> 00:49:44,320
+like it's just you know we're in the cyber world we have exchange of value in terms of data people
+
+493
+00:49:44,320 --> 00:49:51,040
+seed data people leech data and obviously like things cost money so let me just pay for for the data
+
+494
+00:49:51,040 --> 00:49:57,320
+that i download from you it's a very natural exchange basically as we all know we haven't
+
+495
+00:49:57,320 --> 00:50:02,080
+reached that point with bitcoin yet and that's due to technical reasons only like i'm convinced we would
+
+496
+00:50:02,080 --> 00:50:07,220
+we would see this already if we could make like micropayments with pure bitcoin and we can still do
+
+497
+00:50:07,220 --> 00:50:12,120
+it with lightning because we cannot force everyone to run to run a lightning note just to see it torrents
+
+498
+00:50:12,120 --> 00:50:19,040
+with ecash things look very different if we both share a mint then we can do micropayments for
+
+499
+00:50:19,040 --> 00:50:24,360
+for every kilobyte of data that you sent me i can send you like a satoshi and that's totally doable
+
+500
+00:50:24,360 --> 00:50:31,280
+and i i really hope that we will see this so it's also just again i'm i know i hate to interject but
+
+501
+00:50:31,280 --> 00:50:35,420
+it's also it's also about rate limiting because that's like every open system has this issue as well
+
+502
+00:50:35,420 --> 00:50:39,860
+and so it's not only about payments payments are a great way to rate limit stuff because the other
+
+503
+00:50:39,860 --> 00:50:44,200
+way to rate limit stuff is to kyc even if it's pseudonymous and so on it's like you have to create an
+
+504
+00:50:44,200 --> 00:50:48,740
+account and so on but it's like one one satoshi per whatever you know kilobyte or megabyte
+
+505
+00:50:48,740 --> 00:50:54,060
+don't pick your thing it's a fantastic way to rate limit yeah absolutely and like uh again lemma from
+
+506
+00:50:54,060 --> 00:51:00,040
+that so either to rate limit someone either you need to know their identity so you can say like
+
+507
+00:51:00,040 --> 00:51:07,600
+this identity now you had enough stop doing that or if you want privacy which we all want then you
+
+508
+00:51:07,600 --> 00:51:14,220
+have no solution other than payments yeah right and that's that's so beautiful to see and satoshi
+
+509
+00:51:14,220 --> 00:51:19,680
+says that the signal actually says that to himself proof of work exactly that if you want a anonymous
+
+510
+00:51:19,680 --> 00:51:24,840
+system where everyone like an open set of people everyone can join and leave whenever they want they
+
+511
+00:51:24,840 --> 00:51:30,900
+do not have to register they have no identity then you must find a way to slow them down and the way
+
+512
+00:51:30,900 --> 00:51:37,640
+to slow them down is to make them pay and the only way to do it like internally inside cyberspace
+
+513
+00:51:37,640 --> 00:51:41,860
+without going out it's we all know it's compute it's proof of work and the funny thing is like
+
+514
+00:51:41,860 --> 00:51:47,420
+at the end of the day you would use like for example if you would use cashew for that is that
+
+515
+00:51:47,420 --> 00:51:53,820
+you you peg on the proof of work that has been provided earlier by some miner yeah by mining that
+
+516
+00:51:53,820 --> 00:51:59,860
+satoshi the real satoshi that is represented by that by that cashew token so you kind of only can
+
+517
+00:51:59,860 --> 00:52:07,500
+piggyback on real energy being spent and it's so clean yeah it's like almost the the universe giving
+
+518
+00:52:07,500 --> 00:52:13,520
+you a signal there's only one single way that we know of like there might be maybe another super
+
+519
+00:52:13,520 --> 00:52:20,520
+revolutionary idea but there's only like anonymous systems need proof of work which is bitcoin or you
+
+520
+00:52:20,520 --> 00:52:25,620
+have no anonymous system yeah yeah yeah that's that's also why like like from first principles
+
+521
+00:52:25,620 --> 00:52:30,580
+i think that's why also you can dismiss absolutely everything that doesn't have proof of work baked in
+
+522
+00:52:30,580 --> 00:52:36,260
+outright it's like all that's why once once i had this insight i just i was able to dismiss everything
+
+523
+00:52:36,260 --> 00:52:41,680
+else and if you if you look at the proof of work share yeah in the world it's like it's only bitcoin
+
+524
+00:52:41,680 --> 00:52:47,840
+so it's only bitcoin i reasoned myself into maximalism i did not absolutely i get that 100
+
+525
+00:52:47,840 --> 00:52:53,120
+percent and also proof of stake i think like proof of stake as an example as an alternative example
+
+526
+00:52:53,120 --> 00:53:00,420
+to proof of work i'm like strongly convinced that this all these systems are like super unstable and
+
+527
+00:53:00,420 --> 00:53:05,500
+the reason why they are still around is because bitcoin is still around yeah like we see it all the time
+
+528
+00:53:05,500 --> 00:53:10,260
+take bitcoin out of the equation yeah all of that would collapse like it's funny because they kind
+
+529
+00:53:10,260 --> 00:53:16,800
+of you know in a hidden way yeah or not to mention they're hiding behind the shield kind of all hiding
+
+530
+00:53:16,800 --> 00:53:20,800
+behind that proof of work sheet of bitcoin no no absolutely but you see it with the with the
+
+531
+00:53:20,800 --> 00:53:27,860
+shittiest uh uh proof of stake systems with like i don't know like is it solana that restarts every
+
+532
+00:53:27,860 --> 00:53:35,120
+week and so on no but but there there's plenty that just have to kind of uh you know reset themselves
+
+533
+00:53:35,120 --> 00:53:39,460
+like every couple weeks and so on because they run into unresolvable conflicts and then you have to
+
+534
+00:53:39,460 --> 00:53:45,480
+ask a quorum which can't agree on what is right um like what is the actual state of the system and
+
+535
+00:53:45,480 --> 00:53:50,340
+you cannot know without proof of work you cannot know and then you just have to all right like this
+
+536
+00:53:50,340 --> 00:53:55,120
+is the checkpoint this is like we dictate now this is the actual state of the system and then we
+
+537
+00:53:55,120 --> 00:54:00,220
+continue again and that's a political process of course and so so i mean everyone should know this
+
+538
+00:54:00,220 --> 00:54:08,080
+by now but but but basically the beauty of gold was to move the question of of um monetary policy
+
+539
+00:54:08,080 --> 00:54:13,260
+to the realm of physics yes away from the realm of politics to the realm of physics it's a kind of
+
+540
+00:54:13,260 --> 00:54:19,020
+like objectivism about what the state of a system is and yeah it removes humans from the equation can
+
+541
+00:54:19,020 --> 00:54:25,060
+only be based on physics yeah and bitcoin does the same thing just in cyberspace it it it it shifts the
+
+542
+00:54:25,060 --> 00:54:31,820
+question of monetary policy away from humans into physics so so physics dictates what the monetary
+
+543
+00:54:31,820 --> 00:54:37,480
+policy is and you can you know whatever you can be angry at you know physics as much as you want but
+
+544
+00:54:37,480 --> 00:54:44,580
+it's going to be no use don't be the angry man shouting at clouds yeah they won't shout back
+
+545
+00:54:44,580 --> 00:54:54,880
+so what would the internet look like if we were able to uh if we would have been able to build it
+
+546
+00:54:54,880 --> 00:55:01,020
+without without having to and i i kind of skipped over this fact before when i had my made my rant
+
+547
+00:55:01,020 --> 00:55:07,200
+about the bifurcation of the internet because the other path the world the path that we actually went
+
+548
+00:55:07,200 --> 00:55:13,680
+on was the monetization through advertisement through attention i would say yes attention exactly
+
+549
+00:55:13,680 --> 00:55:19,820
+attention attention is the currency yeah and advertisement is the way to to kind of monetize
+
+550
+00:55:19,820 --> 00:55:27,140
+that maybe yeah but um so that's what we ended up with the entire internet has now basically two modes
+
+551
+00:55:27,140 --> 00:55:33,200
+either you pay a subscription fee or you consume yeah ads or you pay with your eyeballs or you pay with
+
+552
+00:55:33,200 --> 00:55:40,760
+your eyeballs oh that's nice i i hope the listeners can hear the church bell ringing
+
+553
+00:55:40,760 --> 00:55:47,040
+mics will pick it up it's loud enough what do you think like what what what would we what would
+
+554
+00:55:47,040 --> 00:55:53,000
+the internet look like first of all for sure i'm sure that we wouldn't have this you know the world
+
+555
+00:55:53,000 --> 00:55:59,100
+that you're either a netflix subscriber or a disney plus subscriber and you know you just cannot
+
+556
+00:55:59,100 --> 00:56:07,360
+afford like five million different subscriptions so you must kind of become a separated folk from the
+
+557
+00:56:07,360 --> 00:56:13,260
+others like oh sorry i cannot watch that series because i i don't subscribe to that platform i i think
+
+558
+00:56:13,260 --> 00:56:18,700
+we would have less monopolies in general i think you know like going back to a very old book the
+
+559
+00:56:18,700 --> 00:56:24,560
+cathedral and the bazaar which talked about the ways to the different ways to develop software it was
+
+560
+00:56:24,560 --> 00:56:32,420
+like you know microsoft versus unix systems basically and i think the because we had to monetize
+
+561
+00:56:32,420 --> 00:56:40,940
+attention we kind of it favors monopolies it favors like you you you scale to like a half billion
+
+562
+00:56:40,940 --> 00:56:46,740
+users and then you're able to monetize and the the you know the user base is large enough that you
+
+563
+00:56:46,740 --> 00:56:52,240
+actually make money and then you squeeze them and then you do it all over again i think i think
+
+564
+00:56:52,240 --> 00:56:58,380
+it's not smart for us to go up that steep i think we'll just we'll just do a loop around all right
+
+565
+00:56:58,380 --> 00:57:07,960
+and can i have a look of just all right can i have a look again yeah sure we've been recording for one
+
+566
+00:57:07,960 --> 00:57:14,300
+hour oh okay good yes because as i told you after 90 minutes my brain is usually fried no we have 30
+
+567
+00:57:14,300 --> 00:57:20,760
+more minutes of your juicy brain to squeeze let's see let's see let's see you might need another coffee
+
+568
+00:57:20,760 --> 00:57:28,860
+i i will i will try this once just to just fuck it and just sit down and and go i i want to bring
+
+569
+00:57:28,860 --> 00:57:35,960
+someone to a shisha bar or something and just go really wild just record it all but anyway i i think
+
+570
+00:57:35,960 --> 00:57:43,720
+i think it would have evolved very differently and i think with the beauty to me of noser and and
+
+571
+00:57:43,720 --> 00:57:49,840
+with baked in e-cash right now is that it doesn't matter who you are it doesn't matter what you are you
+
+572
+00:57:49,840 --> 00:57:55,380
+can be a bot you can be a dog you can be a kid you can be from a sanctioned country whatever you
+
+573
+00:57:55,380 --> 00:58:00,540
+one click create a cryptographic identity and you immediately can receive money that's so
+
+574
+00:58:00,540 --> 00:58:05,760
+revolutionary like people it feels so not revolutionary but if you actually know what's
+
+575
+00:58:05,760 --> 00:58:13,640
+happening underneath like that's that is revolutionary and and if you allow people to make money things just
+
+576
+00:58:13,640 --> 00:58:20,640
+change very quickly things like i think i think because with the with the kind of current iteration
+
+577
+00:58:20,640 --> 00:58:27,040
+of the internet you the the barrier to receiving money is really high like you need a bank account
+
+578
+00:58:27,040 --> 00:58:32,120
+you need a credit line you need basically you need to be able to create a paypal account those kind of
+
+579
+00:58:32,120 --> 00:58:37,380
+things there's so many people that can't do that but absolutely anyone can you know like for example sign
+
+580
+00:58:37,380 --> 00:58:42,400
+up to all us and just receive saps immediately anyone can do that and so i think the internet would have
+
+581
+00:58:42,400 --> 00:58:47,980
+evolved very very differently just because of look at look at how the world works in general like
+
+582
+00:58:47,980 --> 00:58:53,740
+how many shops are in in this city there isn't only one there isn't just like one amazon that you go
+
+583
+00:58:53,740 --> 00:58:57,880
+to and you get everything there's like hundreds and hundreds and hundreds of shops and there's people
+
+584
+00:58:57,880 --> 00:59:02,220
+like you know standing at street corners making money absolutely everywhere and we don't see this
+
+585
+00:59:02,220 --> 00:59:08,320
+we don't see this online yes without without cash you cannot like you cannot imagine a world where just
+
+586
+00:59:08,320 --> 00:59:14,020
+someone sets up a rogue store yeah that's why i use the lemonade sells sells there try to set up a
+
+587
+00:59:14,020 --> 00:59:19,120
+lemonade stand without without cash exactly it's it's it's impossible you'll have to fill out forms of
+
+588
+00:59:19,120 --> 00:59:24,940
+regulations and everything we will also lose that if we don't you know if we are not aware of what cash
+
+589
+00:59:24,940 --> 00:59:29,700
+brings us we will lose many of those nuances that we see right now and i think the same analogy
+
+590
+00:59:29,700 --> 00:59:35,820
+applies to the internet as well you have this you know media outlets crying out loud for years you know
+
+591
+00:59:35,820 --> 00:59:42,560
+oh like print media is dying no one buys stuff anymore and then they're begging for your credit card
+
+592
+00:59:42,560 --> 00:59:47,720
+number so you can like pay a little bit for the article that you're paying and at the same time you have
+
+593
+00:59:47,720 --> 00:59:53,520
+like customers when you do when you ask people like would you be able would you be willing to pay if you
+
+594
+00:59:53,520 --> 00:59:58,020
+could without any mental barriers like everyone says yes like of course i will pay like 10 cents
+
+595
+00:59:58,020 --> 01:00:01,880
+50 cents yeah but it's also i don't believe the customers in some way just like oh everyone will
+
+596
+01:00:01,880 --> 01:00:09,980
+buy the all natural uh buy a you know bio raised good meat chicken whatever and they just usually
+
+597
+01:00:09,980 --> 01:00:16,240
+don't they just usually don't it's like if you if if if you ask people they will tell you something
+
+598
+01:00:16,240 --> 01:00:22,140
+else and if they if you let them vote with their wallet they will behave very differently so so i would
+
+599
+01:00:22,140 --> 01:00:25,820
+be careful with that but i think also the mistake that the new york times and everyone is making
+
+600
+01:00:25,820 --> 01:00:30,640
+is they're trying to sell the wrong thing and i keep coming back to this i hate talking about the
+
+601
+01:00:30,640 --> 01:00:34,880
+fucking nft retards every single time but it's like you cannot sell a jpeg just like you cannot
+
+602
+01:00:34,880 --> 01:00:41,160
+sell a blog post there is no market that can form around a blog post because it's not this car's
+
+603
+01:00:41,160 --> 01:00:46,720
+thing so i think i think the people that that force you into these subscription models they are they're
+
+604
+01:00:46,720 --> 01:00:52,180
+trying to sell you the wrong thing well they can only do that because as you say there it doesn't have a
+
+605
+01:00:52,180 --> 01:00:56,780
+defined price you can just pick the price out of the yeah you have to make it up because there is
+
+606
+01:00:56,780 --> 01:01:01,060
+no supply and demand because i can take a screenshot of the blog post and send it to everyone for free
+
+607
+01:01:01,060 --> 01:01:07,140
+and so there is there is no like the supply is infinity and once one supply approaches infinity
+
+608
+01:01:07,140 --> 01:01:11,400
+market prices make no sense so they're selling the wrong thing and i think twitch figured that out for
+
+609
+01:01:11,400 --> 01:01:16,540
+example like twitch and like the streaming world and also to some extent the free-to-play games
+
+610
+01:01:16,540 --> 01:01:21,100
+figured that out what can you sell on twitch they are not selling the mp4 files they are not selling
+
+611
+01:01:21,100 --> 01:01:25,160
+access to the streams they're selling access to a community access to super chat and so on and i
+
+612
+01:01:25,160 --> 01:01:29,480
+think for journalism it could be the same way where it's like okay like maybe maybe you have tier
+
+613
+01:01:29,480 --> 01:01:33,980
+subscriptions and whatever but it's like you get access to the journalist you know and you get access
+
+614
+01:01:33,980 --> 01:01:39,260
+to whatever like was whatever was discussed in this thing and so on you you have to sell something that
+
+615
+01:01:39,260 --> 01:01:43,800
+is actually scarce and the blog post itself is not actually scarce and i feel like people are
+
+616
+01:01:43,800 --> 01:01:49,420
+insanely confused about this because they still try to sell blog posts and jpegs and mp4 files and so on
+
+617
+01:01:49,420 --> 01:01:53,360
+it's like oh i'm gonna build a youtube killer and it's like a paywall for every single video
+
+618
+01:01:53,360 --> 01:01:59,340
+it's like it it it does not work at all because also you're limiting the spread of the information
+
+619
+01:01:59,340 --> 01:02:04,200
+which is never a good idea you want to you you have to sell information wants to be free information
+
+620
+01:02:04,200 --> 01:02:09,760
+can be freely copied as well and and it's it's you have to sell something else and that's what
+
+621
+01:02:09,760 --> 01:02:14,920
+what i kind of want to that's why i keep harping on it because like almost everyone is still confused
+
+622
+01:02:14,920 --> 01:02:20,420
+about it and we see it already trending in a very different direction just because you it it like
+
+623
+01:02:20,420 --> 01:02:26,320
+everyone real like the market dictates that but we i think we can also if you know that beforehand
+
+624
+01:02:26,320 --> 01:02:31,420
+you can build something that you don't need like 25 iterations of until you land on something that
+
+625
+01:02:31,420 --> 01:02:35,660
+works like you can actually figure out what is cars in the first place and sell that but anyway
+
+626
+01:02:35,660 --> 01:02:40,100
+long round over no no explain this to me then like how this works with torrents because
+
+627
+01:02:40,100 --> 01:02:46,080
+like i would private trackers are scars yeah i would the trackers are scars it's not the files
+
+628
+01:02:46,080 --> 01:02:49,760
+the kilobytes and the things are not scars that doesn't mean that we shouldn't add e-cash to the
+
+629
+01:02:49,760 --> 01:02:53,740
+things because of the rate limiting issue and all those kind of things i but but that's not going
+
+630
+01:02:53,740 --> 01:02:58,780
+to be the you you it's very it's going to be very hard to have market dynamics around this and it's
+
+631
+01:02:58,780 --> 01:03:04,020
+also like metering everything doesn't necessarily make sense just because of mental transaction costs
+
+632
+01:03:04,020 --> 01:03:07,760
+that's why we have flat rates for everything that's why you get a flat rate for your gym and a flat
+
+633
+01:03:07,760 --> 01:03:14,460
+rate for your internet access and so on and and but um having high quality curation for example
+
+634
+01:03:14,460 --> 01:03:20,760
+that's something people should and could pay for it's like it's we see it with relays it's like we
+
+635
+01:03:20,760 --> 01:03:28,500
+have relays that are paid i assume because they are paid it's it's higher quality you know less spam
+
+636
+01:03:28,500 --> 01:03:35,680
+um higher availability all those kind of things and that's actually a service that is scarce and that's
+
+637
+01:03:35,680 --> 01:03:42,600
+worth paying for but you're not paying for you know like for the notes yeah you know but but
+
+638
+01:03:42,600 --> 01:03:48,300
+anyway like i'm trying to to to figure all these out again by by just picking the brains of of
+
+639
+01:03:48,300 --> 01:03:53,520
+everyone it's like figure out what is actually scarce in cyberspace and the easiest one of course is
+
+640
+01:03:53,520 --> 01:03:59,560
+compute and that's why i think i mean you we started uh talking about other lamps and so on and i think
+
+641
+01:03:59,560 --> 01:04:05,380
+that's why why why this is a match made in heaven like especially like e-cash and ai agents i think it's a
+
+642
+01:04:05,380 --> 01:04:11,180
+match made in heaven because you don't necessarily want to sign up for you know jet gbd or whatever
+
+643
+01:04:11,180 --> 01:04:17,600
+with your credit card and and you know like you i mean jet gbd obviously is what killed google no one
+
+644
+01:04:17,600 --> 01:04:21,920
+is using google anymore everyone is just like querying and and just like you know having a
+
+645
+01:04:21,920 --> 01:04:26,580
+conversation with their ai agent for absolutely everything with so paul you know like just like
+
+646
+01:04:26,580 --> 01:04:32,440
+coding is if you if you like learn to code is like a dad hashtag because you have to learn learn to
+
+647
+01:04:32,440 --> 01:04:39,140
+prompt i really want to i really want to see us go down that road because as we said before the
+
+648
+01:04:39,140 --> 01:04:43,960
+question of hardware and like hardware is inherently scarce because it's physical
+
+649
+01:04:43,960 --> 01:04:50,120
+anything physical is inherently scarce there is nothing physical that is not scarce yeah in a sense
+
+650
+01:04:50,120 --> 01:04:54,400
+like you can say yeah molecules there are enough air molecules for everyone but it's not an infinite
+
+651
+01:04:54,400 --> 01:05:01,600
+amount of air molecules and i don't know maybe in a dystopian uh world war three situation the
+
+652
+01:05:01,600 --> 01:05:08,140
+submarine you might have to pay for the oxygen as well exactly so uh that's really why where i want to
+
+653
+01:05:08,140 --> 01:05:15,100
+see us and i think like that would set us on a path of so much more freedom if we could create
+
+654
+01:05:15,100 --> 01:05:23,200
+markets for hardware-based services on the internet that starts with an isp but i think the more generic
+
+655
+01:05:23,200 --> 01:05:32,020
+form of it is compute as you said if we you know if we could even dream of a world where we do not
+
+656
+01:05:32,020 --> 01:05:39,000
+have to rely on gigantic centralized super clusters of compute that are controlled by a small amount
+
+657
+01:05:39,000 --> 01:05:46,620
+of companies but where we can actually have a market on-demand market where everyone could pay for
+
+658
+01:05:46,620 --> 01:05:53,320
+the resources that they that they use for that specific purpose and you know compute is universal
+
+659
+01:05:53,320 --> 01:06:00,280
+you could do ai with the same hardware you could you know do all sorts of different different ai
+
+660
+01:06:00,280 --> 01:06:06,020
+models on it you could mine bitcoin with the same hardware and you know who knows what in in the future
+
+661
+01:06:06,020 --> 01:06:11,580
+because the hardware itself a general purpose and yeah i mean in some sense that's what airbnb
+
+662
+01:06:11,580 --> 01:06:17,320
+uh figured out and same for uber it's like okay to pick all the hotels in the world world which are
+
+663
+01:06:17,320 --> 01:06:22,700
+like that like in our analogy now the big data centers the big compute super clusters there is many
+
+664
+01:06:22,700 --> 01:06:27,660
+hotels and there's big hotels but take all the you know living rooms of all the people in the world
+
+665
+01:06:27,660 --> 01:06:32,500
+there's way more of those and so so switching to that like in some other areas that already happened
+
+666
+01:06:32,500 --> 01:06:39,180
+and and uh i think you know if you actually allow people to make money with their living room
+
+667
+01:06:39,180 --> 01:06:43,740
+they will rent it out and they will make money and it will proliferate so we see this that is work
+
+668
+01:06:43,740 --> 01:06:48,120
+same for uber and and everything else you know like most people have cars and so on and they don't
+
+669
+01:06:48,120 --> 01:06:53,780
+need it all the time so same for graphics cards and same for hard disks and everything and and so you
+
+670
+01:06:53,780 --> 01:06:59,920
+just need to be able to to pay for that and build a system that actually scales and scales in a trustless
+
+671
+01:06:59,920 --> 01:07:06,840
+manner basically yes and so uber unlocked this because um it was the apps that kind of unlocked this
+
+672
+01:07:06,840 --> 01:07:13,100
+like the missing link for that uber success story was our phones and the applications that connect us
+
+673
+01:07:13,100 --> 01:07:19,720
+yeah but and they were able to build this empire um while still being like the centralized party in
+
+674
+01:07:19,720 --> 01:07:25,420
+between navigating yeah everyone from from and to yeah and also the the payments going through them
+
+675
+01:07:25,420 --> 01:07:31,200
+yeah like payments existed before uber and then the apps came and connected everyone online now
+
+676
+01:07:31,200 --> 01:07:35,460
+everyone could use these services and boom you have like the biggest taxi service in the world
+
+677
+01:07:35,460 --> 01:07:42,380
+doesn't own a taxi yeah right so um if we think this one step further and we want to get rid of uber
+
+678
+01:07:42,380 --> 01:07:46,280
+at that point i mean again this is already happening i think like because then you have competition and
+
+679
+01:07:46,280 --> 01:07:49,740
+you have the same thing happen that happened to netflix where it's like 15 other things pop up and
+
+680
+01:07:49,740 --> 01:07:53,680
+then everyone hates it again because you actually want the stuff that interrupts and you don't want
+
+681
+01:07:53,680 --> 01:07:58,920
+to be locked in one silo and uber is a silo yeah uber is a silo and we can replace uber with nostr
+
+682
+01:07:58,920 --> 01:08:04,500
+yeah we we don't need the company in between that tells you what you can rent and what you cannot
+
+683
+01:08:04,500 --> 01:08:11,000
+rent but you would still you know without bitcoin you still couldn't do it because uber uber depends
+
+684
+01:08:11,000 --> 01:08:15,800
+on the credit card system all the payments need to go through uber and otherwise it's not possible
+
+685
+01:08:15,800 --> 01:08:21,480
+like with the right combination especially for compute you can't do it because because the more
+
+686
+01:08:21,480 --> 01:08:28,920
+micro something get the more the smaller the the kind of um yes the smaller the packets so to speak
+
+687
+01:08:28,920 --> 01:08:33,300
+that you want to sell uh are the harder it's going to be on credit rails that's why you need like an
+
+688
+01:08:33,300 --> 01:08:38,800
+instant payment system that is better absolutely and you want to pay for uh one second of compute
+
+689
+01:08:38,800 --> 01:08:43,220
+you want to be able to a single second of compute and once you stop paying you just turn off the
+
+690
+01:08:43,220 --> 01:08:48,280
+computer and i think the last step that's missing and that's coming now is blinded compute
+
+691
+01:08:48,280 --> 01:08:53,780
+and i think that's gonna be that's gonna be fantastic because that's we know that this
+
+692
+01:08:53,780 --> 01:08:58,820
+already works like again coming back to the torrents like people exactly even without payment people are
+
+693
+01:08:58,820 --> 01:09:04,360
+seeding torrents even without payment people ran sati at home and we're trying to search for
+
+694
+01:09:04,360 --> 01:09:08,640
+extraterrestrial life and or do protein folding and all those kind of things yes but what about the
+
+695
+01:09:08,640 --> 01:09:12,960
+risk of storing someone's data on your hard drive right yes and do you really want to go that risk
+
+696
+01:09:12,960 --> 01:09:17,760
+i don't know but if you cannot decrypt the data that is stored on your hard drive then you're fine
+
+697
+01:09:17,760 --> 01:09:25,360
+yeah so blinded compute and uh especially for ai i mean it's a two-sided coin again it's good for
+
+698
+01:09:25,360 --> 01:09:29,880
+privacy for the individual user but again also for the service provider you cannot become a service
+
+699
+01:09:29,880 --> 01:09:35,220
+provider if you don't like have a huge team of lawyers protecting yourself or being a company with
+
+700
+01:09:35,220 --> 01:09:40,720
+the resources of that but once you cannot look into what's happening the risk basically goes to zero
+
+701
+01:09:40,720 --> 01:09:44,360
+there is nothing you could have done and nothing you can be coerced to
+
+702
+01:09:44,360 --> 01:09:51,840
+yeah and i how how far along do you think are we i i i know that you know a little bit about the
+
+703
+01:09:51,840 --> 01:09:56,780
+you know zero knowledge compute stuff and all those kind of things i know very very little uh the only
+
+704
+01:09:56,780 --> 01:10:04,040
+thing that i know is that a lot of you know very smart people are currently looking into this working
+
+705
+01:10:04,040 --> 01:10:10,920
+on this and also trying to wet this stuff with nostr dvms yeah which i think is going to be
+
+706
+01:10:10,920 --> 01:10:17,380
+quite oh i think i think zero knowledge computation is going to be like the you know the next thing
+
+707
+01:10:17,380 --> 01:10:25,380
+it's like what we have with bitcoin and what it feels like is happening now with ai i think the next
+
+708
+01:10:25,380 --> 01:10:31,640
+step looking like 10 years ahead or something is going to be zero knowledge compute because it it's a
+
+709
+01:10:31,640 --> 01:10:38,420
+whole new paradigm of compute it basically like a summary is you can make computations on a machine
+
+710
+01:10:38,420 --> 01:10:43,380
+where the machine itself doesn't know what's being computed and this sounds like but you can prove
+
+711
+01:10:43,380 --> 01:10:48,380
+that it's right right you can prove that it's right and you can do crazy things with it like one
+
+712
+01:10:48,380 --> 01:10:56,780
+thing that for example i i can imagine us seeing at some point is you know you can make unruggable
+
+713
+01:10:56,780 --> 01:11:03,040
+compute in a sense you can pay for someone to calculate something for you but you know that they
+
+714
+01:11:03,040 --> 01:11:08,280
+couldn't have manipulated the calculation yeah and that's like a very very important point especially
+
+715
+01:11:08,280 --> 01:11:13,300
+if you want to rely on these services right so you cannot let's say i don't know which is what we
+
+716
+01:11:13,300 --> 01:11:17,040
+already use on the nostril and the bitcoin side just with cryptographic signatures basically you know
+
+717
+01:11:17,040 --> 01:11:22,480
+that you you yes but that's the static data yeah yeah exactly you can attest to the to the static
+
+718
+01:11:22,480 --> 01:11:27,920
+data that comes from the same from the correct source and hasn't been tampered with but how that data was
+
+719
+01:11:27,920 --> 01:11:32,660
+computed we cannot prove that yet yeah so with zero knowledge compute like i just want to make an
+
+720
+01:11:32,660 --> 01:11:38,460
+example with uh with what we are looking into for cashier right now so in cashier we have i hope
+
+721
+01:11:38,460 --> 01:11:43,240
+this is not too technical we have like spending conditions in cashier so it's it's similar to a
+
+722
+01:11:43,240 --> 01:11:49,440
+bitcoin spending condition so uh i pay you a coin and you can only you can only withdraw that coin or
+
+723
+01:11:49,440 --> 01:11:56,120
+receive that coin if you know the uh the result of a secret like of a riddle for example you have to
+
+724
+01:11:56,120 --> 01:12:00,780
+for example sign it with your private key or something like that yeah so that's how that's
+
+725
+01:12:00,780 --> 01:12:05,600
+also how you can lock e-cash to an endpub right exactly like we call that pay to public key and we
+
+726
+01:12:05,600 --> 01:12:09,920
+have another spending condition which is called an htlc a hash time lock contract it works the same way
+
+727
+01:12:09,920 --> 01:12:14,960
+as an htlc in bitcoin so you can only spend the coin if you know the pre-image to a hash or after a
+
+728
+01:12:14,960 --> 01:12:20,160
+time lock you can withdraw it so we have two different spending conditions in in cashier and people
+
+729
+01:12:20,160 --> 01:12:24,880
+always ask us like hey can we not add a third one and this idea and that idea and like all these cool
+
+730
+01:12:24,880 --> 01:12:29,880
+ideas of how to make more spending conditions but we have the problem in cashier that we want
+
+731
+01:12:29,880 --> 01:12:36,460
+incredible privacy so the more ways you add to spend the coin the worse the privacy for everyone
+
+732
+01:12:36,460 --> 01:12:42,780
+else becomes you make the unknown sets smaller and smaller because the mint needs to execute the
+
+733
+01:12:42,780 --> 01:12:47,560
+spending condition and so it needs to see the spending condition so like it's a complicated way
+
+734
+01:12:47,560 --> 01:12:53,520
+of saying if the two of us have a contract of how to spend a coin we need to show the mint the
+
+735
+01:12:53,520 --> 01:12:58,300
+contract and your signature for example on top of that and the mint would look at the contract and
+
+736
+01:12:58,300 --> 01:13:04,100
+see like public key a public key b and time log and blah blah blah okay it's valid you can get the
+
+737
+01:13:04,100 --> 01:13:10,040
+coin right so that's how it works today with a what we've been looking into is a zero knowledge
+
+738
+01:13:10,040 --> 01:13:17,320
+spending condition and this is this is based on work by people at startware who have built a vm called
+
+739
+01:13:17,320 --> 01:13:25,900
+cairo and in cairo cairo is a vm in which you can build uh spending conditions or programs in zero
+
+740
+01:13:25,900 --> 01:13:32,820
+knowledge what that means is that you write normal code and you can then execute this code and while
+
+741
+01:13:32,820 --> 01:13:39,080
+executing you can also produce a proof that you have correctly executed the code so basically i could
+
+742
+01:13:39,080 --> 01:13:44,280
+give you the proof after executing the program i could give you the proof without showing you the
+
+743
+01:13:44,280 --> 01:13:48,800
+program i can prove to you that i have executed it correctly yeah yeah and like that's the magic
+
+744
+01:13:48,800 --> 01:13:55,180
+point so getting back to cashew what we want want to see at at some point is a spending condition that
+
+745
+01:13:55,180 --> 01:14:01,500
+is zero knowledge so that you and me can make a contract and you can say like i want a signature
+
+746
+01:14:01,500 --> 01:14:06,780
+from this public key i want time to has passed until this point and so on and so forth i want the moon
+
+747
+01:14:06,780 --> 01:14:13,140
+to be in a special position and the weather in in madeira to be this and that degree like all these
+
+748
+01:14:13,140 --> 01:14:18,400
+different uh variables inside there which make it a very specific spending condition which means it's
+
+749
+01:14:18,400 --> 01:14:24,080
+very bad for privacy if we would release this spending condition to the mint and what what you
+
+750
+01:14:24,080 --> 01:14:29,540
+can do instead with zero knowledge compute is we can agree on that very complicated contract you and me
+
+751
+01:14:29,540 --> 01:14:36,100
+and then we can put it into cairo and produce a proof that we have correctly executed the proof and now we
+
+752
+01:14:36,100 --> 01:14:42,300
+can go to the mint and say hey mint me and this other user have come to an agreement of a certain
+
+753
+01:14:42,300 --> 01:14:46,760
+contract and we are not going to show you the contract but we're just going to show you that
+
+754
+01:14:46,760 --> 01:14:51,320
+we have correctly executed the contract without even telling you what the specific details are
+
+755
+01:14:51,320 --> 01:14:56,780
+and the mint can then verify this proof and say okay you guys seem to agree so you can make the
+
+756
+01:14:56,780 --> 01:15:03,640
+transaction so this is one example of how you can make a computation applied to cashew where we don't
+
+757
+01:15:03,640 --> 01:15:10,500
+have to tell the the verifier which is in this case the mint what we actually did so coming back to
+
+758
+01:15:10,500 --> 01:15:17,960
+the earlier example if i could rent a piece of compute from a server and i could just tell it
+
+759
+01:15:17,960 --> 01:15:26,180
+you know i want to compute uh some kind of operation on my data set that is like a for example it's a
+
+760
+01:15:26,180 --> 01:15:29,780
+secret data set i'm a company with secrets or something like that i don't want to share the
+
+761
+01:15:29,780 --> 01:15:36,460
+data set but i still want you to make a computation on the data set i could give that to you in a form
+
+762
+01:15:36,460 --> 01:15:42,480
+that is hidden so it's this is called you know sometimes homomorphic encryption but you can do
+
+763
+01:15:42,480 --> 01:15:49,140
+operations on that and give me the results and i can verify that you've done the correct operations
+
+764
+01:15:49,140 --> 01:15:55,400
+on top of it without me ever showing you what the data was yeah so i know this all sounds a bit weird
+
+765
+01:15:55,400 --> 01:16:01,980
+and crazy and zero knowledge proofs are weird and crazy but they open up a whole new world of
+
+766
+01:16:01,980 --> 01:16:08,080
+computation so i want to end this monologue with one vision that i really want to see in like 10
+
+767
+01:16:08,080 --> 01:16:16,920
+years is we today rely on hardware security modules to make sure that our hardware has not been
+
+768
+01:16:16,920 --> 01:16:21,700
+tempered with this is in bitcoin hardware wallace this is sometimes also in phones these days and so
+
+769
+01:16:21,700 --> 01:16:29,760
+on so forth i can see a future where we carry a phone in our pocket that runs the os in a zero
+
+770
+01:16:29,760 --> 01:16:38,360
+knowledge vm and at the same time produces a proof that the vm executed the code of the os correctly
+
+771
+01:16:38,360 --> 01:16:43,740
+and some other part of it that checks this so we can look in the moment where someone tampers with
+
+772
+01:16:43,740 --> 01:16:50,060
+your phone you can immediately detect that something has gone wrong without relying on specific hardware
+
+773
+01:16:50,060 --> 01:16:54,860
+that again relies on the fact that no one can look into the hardware like a hardware security module
+
+774
+01:16:54,860 --> 01:17:03,460
+so yeah zero knowledge is definitely going to have like a massive effect on things how we can prove
+
+775
+01:17:03,460 --> 01:17:08,880
+things in cyberspace without showing what we prove which is a condition for most of the things that we
+
+776
+01:17:08,880 --> 01:17:14,080
+want to that we want to do like we have so much private data and we need to operate on the private data
+
+777
+01:17:14,080 --> 01:17:18,560
+but we don't want to share it with anyone you think 10 years is a realistic time frame
+
+778
+01:17:18,560 --> 01:17:25,360
+i mean you usually underestimate how fast things go into the future so it's probably it's probably even
+
+779
+01:17:25,360 --> 01:17:30,980
+too bearish to be honest it's probably too bearish that's a good point yeah that's a good point it's
+
+780
+01:17:30,980 --> 01:17:38,020
+especially now with uh i really feel that stuff is accelerating um in in terms of kind of also
+
+781
+01:17:38,020 --> 01:17:44,140
+compute innovation in some sense i think the llms are just kind of you know um kicking things into
+
+782
+01:17:44,140 --> 01:17:50,980
+high gear because you can just iterate so much more quickly in on so many things and i mean material
+
+783
+01:17:50,980 --> 01:17:54,840
+science is another or i mentioned protein folding before you know it's just like you throw the llms
+
+784
+01:17:54,840 --> 01:18:00,140
+on it and suddenly it's like oh okay we have new stuff and a new material that we can synthesize that
+
+785
+01:18:00,140 --> 01:18:05,700
+is stable or like new proteins and i view code as the same way where it's just like you you shoot the llms
+
+786
+01:18:05,700 --> 01:18:10,620
+at it and and something comes out that you after the fact maybe understand basically
+
+787
+01:18:10,620 --> 01:18:17,180
+and that will just accelerate stuff things are going freaking exponential yeah yeah it's it's uh
+
+788
+01:18:17,180 --> 01:18:25,260
+you know i was big on the on the singularity idea uh um in my past and and oh yeah me too and
+
+789
+01:18:25,260 --> 01:18:30,400
+you know like kurzweil and those people they were onto something i still don't think that we're gonna
+
+790
+01:18:30,400 --> 01:18:35,660
+upload ourselves into the cloud and you know live in utopia ever after in cyberspace like not at all
+
+791
+01:18:35,660 --> 01:18:43,820
+and i'm not optimistic but i i think yes i would also bet on the fact that he will die
+
+792
+01:18:43,820 --> 01:18:51,620
+but um you know big innovations happen stepwise it's so hard to predict what's going to happen
+
+793
+01:18:51,620 --> 01:18:57,660
+no one would have thought you know i've just recently saw this video about uh the number of
+
+794
+01:18:57,660 --> 01:19:03,820
+proteins that we have identified and this was a tedious process and people were like building
+
+795
+01:19:03,820 --> 01:19:09,180
+algorithms to predict the folding structure of proteins for years and years and we had like
+
+796
+01:19:09,180 --> 01:19:13,740
+one thousand per year and then we had like maybe like one thousand five hundred it was an exponential
+
+797
+01:19:13,740 --> 01:19:21,660
+two thousand per year and then um we built an llm that can do it and the number of of identified
+
+798
+01:19:21,660 --> 01:19:27,260
+proteins just shot up like by i don't know it's like you don't even see the graph anymore
+
+799
+01:19:27,260 --> 01:19:31,420
+of all the proteins when you hit the knee of the curve right it's like it goes up and up and
+
+800
+01:19:31,420 --> 01:19:36,220
+the problem is solved and this was with with the genome as well so hard to predict so hard to
+
+801
+01:19:36,220 --> 01:19:42,060
+predict real innovation comes in unpredictable steps yeah so we really don't know how things
+
+802
+01:19:42,060 --> 01:19:47,740
+will work out but but it's still like a lot of the things that's kind of what what surprises me
+
+803
+01:19:47,740 --> 01:19:53,900
+all the time it's also very hard to predict like what yeah just again it's it's i love the phrase
+
+804
+01:19:53,900 --> 01:19:59,900
+it's very hard to make predictions especially about the future you know um but for example the switch
+
+805
+01:19:59,900 --> 01:20:10,140
+from ip4 ipv4 to ipv6 is still you know like far off from done like like upgrading a network it
+
+806
+01:20:10,140 --> 01:20:17,100
+it turns out it's like really hard and and so it's funny that some things happen really quickly
+
+807
+01:20:17,100 --> 01:20:23,820
+way more quickly than you would think they would and other things way like take way longer or even
+
+808
+01:20:23,820 --> 01:20:32,220
+to pick another example um that might be actually a good a good analogy like in in in developing
+
+809
+01:20:32,220 --> 01:20:39,660
+countries they completely skipped the infrastructure that we needed to arrive at cell phones so we needed
+
+810
+01:20:39,660 --> 01:20:47,260
+you know like copper wires and then uh you know like the landlines yeah exactly and and i think like to
+
+811
+01:20:47,260 --> 01:20:55,500
+bring it back to to to lightning and e-cash and so on it's like if if our assumptions are correct
+
+812
+01:20:55,500 --> 01:21:01,820
+and e-cash will actually uh be the thing that you know fixes 402 and and and allows all these things
+
+813
+01:21:01,820 --> 01:21:07,900
+to happen that we just kind of sketched out i think in a lot of systems and areas not only geographically
+
+814
+01:21:07,900 --> 01:21:13,980
+geographic areas but just like cyberspace areas you can just use e-cash without knowing anything about
+
+815
+01:21:13,980 --> 01:21:17,260
+bitcoin or lightning or whatever it's like you know like maybe you know a little bit about
+
+816
+01:21:17,260 --> 01:21:20,540
+lightning if you're running mint but that's it but you can just build it into your thing
+
+817
+01:21:21,100 --> 01:21:26,700
+leapfrogging all this stuff and just like in a in a developing country you have a phone and that's it
+
+818
+01:21:27,420 --> 01:21:31,420
+you have e-cash and that's it does that make sense yes it makes sense and we need to find like
+
+819
+01:21:31,420 --> 01:21:37,660
+more ways how we can accelerate the exponential growth and the use of bitcoin at the end of the day
+
+820
+01:21:38,220 --> 01:21:43,580
+i think like i've been observing the development and spreading of bitcoin really eagerly
+
+821
+01:21:43,980 --> 01:21:50,540
+in the past years and it is slower than most people anticipated that's for sure like most
+
+822
+01:21:50,540 --> 01:21:54,700
+people thought that we'd be paying for most like you would have the option to pay with bitcoin
+
+823
+01:21:55,740 --> 01:22:02,380
+everywhere by this time it's very local it's it's very local it's very hard and similar to hardware
+
+824
+01:22:02,380 --> 01:22:09,740
+and networks as you said it grows much slower than people thought yeah because you have to upgrade the
+
+825
+01:22:09,740 --> 01:22:15,100
+network of merchants basically so merchant adoption uh that was the first kind of you know like uh
+
+826
+01:22:15,740 --> 01:22:21,660
+the scam kind of wave of bitcoin adoption oh it's all the merchants but but but i think the the current
+
+827
+01:22:21,660 --> 01:22:27,180
+wave is very different because the most people that um i mean i know a little bit about this stuff
+
+828
+01:22:27,180 --> 01:22:34,300
+just by being in places where bitcoin is accepted most merchants they hold all the bitcoin so the previous
+
+829
+01:22:34,300 --> 01:22:39,900
+adoption waves were always like as used as a payment rail and now it's kind of uh used as a
+
+830
+01:22:40,940 --> 01:22:46,620
+you know savings yeah so that's a big difference i feel like so i think it won't go away should we do
+
+831
+01:22:46,620 --> 01:22:50,940
+one more ring around the rosie and then we can end in like a maybe a spot where there isn't too much
+
+832
+01:22:50,940 --> 01:22:56,140
+wind sounds good yeah that's but i'm i'm getting close to my limit in terms of i think it's just walking
+
+833
+01:22:56,140 --> 01:23:05,100
+in the sun also like i'm at the end of my mental capabilities but i think just being in the sun
+
+834
+01:23:05,100 --> 01:23:12,460
+makes it worse it makes thinking even harder but it's nice right so that is a pretty butterfly
+
+835
+01:23:13,180 --> 01:23:17,180
+yeah look at this butterfly oh wow that's what she said but there was a lady who just made us aware
+
+836
+01:23:17,180 --> 01:23:24,540
+of a beautiful butterfly butterflies are rare these days but yeah i i hope that nostr will accelerate
+
+837
+01:23:24,540 --> 01:23:30,620
+things in some way but that's that's what i kind of i mean i'm very biased i know that i'm i'm
+
+838
+01:23:30,620 --> 01:23:36,460
+insanely biased i'm kind of like in a bubble of a bubble i surround myself with with like i pick my
+
+839
+01:23:36,460 --> 01:23:43,020
+i curate my echo chamber very very very carefully and i live in a very bubbly place as well but it's
+
+840
+01:23:43,020 --> 01:23:48,380
+the way i see it is like i i met a bunch of people now and i know people from online they had no idea
+
+841
+01:23:48,380 --> 01:23:53,420
+about bitcoin had no idea about lightning didn't know what sets were signed up to nostr got sapped and it
+
+842
+01:23:53,420 --> 01:23:58,300
+was fun and cool and so on and then later on they found out what's kind of going on and what happened
+
+843
+01:23:58,300 --> 01:24:03,580
+and so on and i think i hope that this will continue to happen where you just you you sign up to obscura
+
+844
+01:24:03,580 --> 01:24:07,740
+and and you just you just want to get a vpn and there's a new thing of payment whatever you just do
+
+845
+01:24:07,740 --> 01:24:11,900
+it ah i can do this and then that's on you don't even know what what happened i see the same thing
+
+846
+01:24:11,900 --> 01:24:17,420
+happening now with with nostr with things like olas i really love it like people sign up to olas
+
+847
+01:24:17,420 --> 01:24:22,140
+because they want to try this thing and then they know oh my god there's a whole universe attached to
+
+848
+01:24:22,140 --> 01:24:26,380
+your olas that i didn't know about or you didn't have to know about and that's how kind of the
+
+849
+01:24:26,380 --> 01:24:31,500
+internet worked right that's why why i to me nostr feels so much like the early internet where you
+
+850
+01:24:31,500 --> 01:24:36,620
+have one entry point and it was i don't know what it was back in the day but just i mean i i still
+
+851
+01:24:36,620 --> 01:24:41,980
+remember the days where i would go through computer magazines and i would manually write down urls so
+
+852
+01:24:41,980 --> 01:24:46,940
+you're like oh my it's not only aol i thought it's just the start page of aol
+
+853
+01:24:48,220 --> 01:24:54,860
+and then you you discover this is this vast universe of stuff so now we live in an echo chamber okay but
+
+854
+01:24:54,860 --> 01:24:59,580
+it feels like to me still that the topics that we care about are universal it's not like small topics
+
+855
+01:24:59,580 --> 01:25:06,220
+that we care about we we care about the bigger bigger things so and that's where like it all comes
+
+856
+01:25:06,220 --> 01:25:12,380
+together so nicely i really think we're getting back to bitcoin adoption as well merchant adoption
+
+857
+01:25:12,380 --> 01:25:18,060
+is slow individuals understanding bitcoin is super slow education itself is like super slow
+
+858
+01:25:18,620 --> 01:25:24,700
+and i applaud everyone who puts their energy into into these endeavors i really really respect that
+
+859
+01:25:25,260 --> 01:25:34,140
+but what i really hope to see and this was my first thought when i discovered bitcoin is i thought
+
+860
+01:25:34,140 --> 01:25:40,300
+it's the perfect thing for the internet the money of the internet it's the internet's own money and so
+
+861
+01:25:40,300 --> 01:25:47,980
+what i want to see in 10 15 20 years us doing is for all of our activity where we make transactions
+
+862
+01:25:47,980 --> 01:25:53,820
+online there is no question it's going to be bitcoin it's going to be based on bitcoin and it's going
+
+863
+01:25:53,820 --> 01:25:59,100
+to be so much larger than the payments that you make at the store here and it's going to spread so much
+
+864
+01:25:59,100 --> 01:26:05,020
+faster than the merchants accepting bitcoin in a pos system in a store here these are all important
+
+865
+01:26:05,020 --> 01:26:11,100
+things that we also need to work on but the internet is only going to grow the number of people
+
+866
+01:26:11,100 --> 01:26:16,540
+using the internet is only going to grow the services that you're going to consume the number of services
+
+867
+01:26:16,540 --> 01:26:23,020
+only going to grow all of these things just point completely upwards and what we need to make sure
+
+868
+01:26:23,020 --> 01:26:29,340
+is that we can connect all these things with a system like nostra and make sure that we can pay
+
+869
+01:26:29,340 --> 01:26:35,580
+with for all these things with a system like bitcoin and then it's like the sky is the limit it's the
+
+870
+01:26:35,580 --> 01:26:43,420
+the pie is so big the pie is so big the only ones eating the pie right now are facebook meta and like
+
+871
+01:26:43,420 --> 01:26:49,340
+credit card systems what do you see what do you see as the next step because i i i completely agree but i i
+
+872
+01:26:49,340 --> 01:26:58,300
+kind of what i what i uh sometimes wreck my brain about is what's the the next plausible step that
+
+873
+01:26:58,300 --> 01:27:03,980
+we could take that someone could build that someone could do like on a general level i have like i
+
+874
+01:27:03,980 --> 01:27:09,020
+cannot give you like an idea for a specific app or something but on a general level i think we need to
+
+875
+01:27:09,020 --> 01:27:16,220
+bring down the cost of entry for everything as soon as someone just automatically can join these systems
+
+876
+01:27:16,220 --> 01:27:21,740
+and naturally receive naturally have an identity that they connect with other applications i think
+
+877
+01:27:21,740 --> 01:27:26,460
+like that's the best way we can do because that's our superpower we don't like the others don't have
+
+878
+01:27:26,460 --> 01:27:31,980
+the superpower they all they need to compete something only we can take away not saps for example
+
+879
+01:27:31,980 --> 01:27:37,820
+not saps is only something we can do yes that's not something that only we can do not saps is like a
+
+880
+01:27:37,820 --> 01:27:44,300
+zap on on on nostra with e-cash no one can build an alternative to this system and i think if we can
+
+881
+01:27:44,300 --> 01:27:49,980
+lower the barrier of entry such that you don't even have to spend a single cycle of your brain to be
+
+882
+01:27:49,980 --> 01:27:55,100
+able to use these systems this is how we're going to this is how we're going to win we we have to we
+
+883
+01:27:55,100 --> 01:27:59,980
+have to kind of you know get people where they're at i think that's why why olas for example works
+
+884
+01:27:59,980 --> 01:28:05,500
+really well because everyone knows kind of comparable systems like instagram and so on it's it's but
+
+885
+01:28:05,500 --> 01:28:09,180
+again like i mentioned this a couple of times in the past but it's like the the power that i see the
+
+886
+01:28:09,180 --> 01:28:14,140
+power of cryptographic identities is basically it's it's one click setup yes this is part of it you don't need to
+
+887
+01:28:14,140 --> 01:28:19,100
+make an account like why would you need one click you're in and the power of nuts apps you don't need
+
+888
+01:28:19,100 --> 01:28:24,140
+an account to receive cash on your in your store that you pop up exactly and the power of nuts apps
+
+889
+01:28:24,140 --> 01:28:28,140
+is like you you one click create your account and immediately like you you suddenly have money in
+
+890
+01:28:28,140 --> 01:28:32,940
+your in your in your pocket you can receive instantly and no one asks you who you are yeah now do this please
+
+891
+01:28:32,940 --> 01:28:37,740
+yeah eight billion people yeah no that's very very powerful so i'll share one of my ideas that i've been
+
+892
+01:28:37,740 --> 01:28:43,580
+stewing on for at least the last like six or ten months or so so as you might know the internet
+
+893
+01:28:43,580 --> 01:28:50,140
+archive almost went down just because of a lawsuit and and so so i would love to see
+
+894
+01:28:51,820 --> 01:28:58,220
+um i would love to see us rebuild the internet archive and do it properly so that this cannot
+
+895
+01:28:58,220 --> 01:29:04,380
+happen again we talked about this very very briefly over coffee that it's like it's funny how the
+
+896
+01:29:04,380 --> 01:29:09,660
+internet is both forever and the internet remembers everything but at the same time stuff goes away and
+
+897
+01:29:09,660 --> 01:29:14,220
+and links 404 and uh you have link rot and bit rot and all those kind of things so both are kind
+
+898
+01:29:14,220 --> 01:29:18,780
+of true at the same time i think if something is juicy and spicy enough the internet will remember
+
+899
+01:29:18,780 --> 01:29:24,620
+forever if something is kind of supposed to be forgotten yeah exactly if something is embarrassing
+
+900
+01:29:24,620 --> 01:29:30,620
+it will stay around forever and and and many other things but just just go away so we have like
+
+901
+01:29:30,620 --> 01:29:36,220
+little little fires of uh the library of alexandria like all the time you know stuff just goes away and
+
+902
+01:29:36,220 --> 01:29:42,300
+and i'm i'm i'm somewhat of an of an of an archivist so so i uh you know like i'm a
+
+903
+01:29:43,340 --> 01:29:47,500
+hunter and gatherer in cyberspace and i i really i i hate losing stuff
+
+904
+01:29:49,260 --> 01:29:57,580
+and so what the the shift that i see that i hope will happen in the next couple of years is not only a
+
+905
+01:29:57,580 --> 01:30:05,260
+move away from silos to you know uh to to bitcoin industrial to the underlying substrates that allow for
+
+906
+01:30:05,260 --> 01:30:09,980
+marketplace style of doing things um so i really hope that but again like
+
+907
+01:30:11,980 --> 01:30:16,060
+the issue i see right now it is related to what you said education and all those kind of things
+
+908
+01:30:16,060 --> 01:30:20,540
+because it doesn't come for free you have to take responsibility for it and so we have to also
+
+909
+01:30:20,540 --> 01:30:26,220
+educate users and and not everyone is going to make the jump because it actually you have to take
+
+910
+01:30:26,220 --> 01:30:30,300
+responsibility for at least for your keys for example and those kind of things so so it's not it's not
+
+911
+01:30:30,300 --> 01:30:35,420
+it's not like super super easy but it's still it increases your agency and i think that's why it
+
+912
+01:30:35,420 --> 01:30:38,860
+will happen on the edges like people that will get the platform people that will get the banked
+
+913
+01:30:38,860 --> 01:30:45,020
+and so on they will discover those things early on earlier than most but anyway i hope that we can
+
+914
+01:30:45,020 --> 01:30:52,140
+so the move that i see is from a global view and we see this like in in society at large where you
+
+915
+01:30:52,140 --> 01:30:56,700
+you know like uh think global act local those kind of things that people going back to their local
+
+916
+01:30:56,700 --> 01:31:00,780
+farmers and those kind of things and i hope that we'll have we'll have the same thing in cyberspace
+
+917
+01:31:00,780 --> 01:31:08,700
+in some in some sense um so so what i hope to see is the stuff that you really care about personally
+
+918
+01:31:09,740 --> 01:31:16,460
+you can archive it in a i hate this word i'm gonna use it anyway in a decentralized way
+
+919
+01:31:16,460 --> 01:31:21,100
+you can archive it on your home relay or on your like phone relay even or what have you
+
+920
+01:31:21,100 --> 01:31:26,780
+and that we have just kind of like there's a swarm of people just like we talked with with
+
+921
+01:31:26,780 --> 01:31:32,460
+airbnb and this kind of things like if you want to invite people into your house you can and you can
+
+922
+01:31:32,460 --> 01:31:40,140
+get paid if you want to invite websites and youtube videos and uh and songs into your local relay or
+
+923
+01:31:40,140 --> 01:31:46,940
+into your local blossom server or what have you you can and i think i think that's a way way smarter way of
+
+924
+01:31:46,940 --> 01:31:52,220
+of building an internet archive where you have local archives that can if they want to talk to
+
+925
+01:31:52,220 --> 01:31:57,580
+each other and that way i think we we we just kind of re-decentralize the internet in some way because
+
+926
+01:31:57,580 --> 01:32:02,700
+i the reason why i work on all this stuff is like i just like you i really care about the internet
+
+927
+01:32:02,700 --> 01:32:08,700
+i'm still i i grew up with the utopic vision of the internet i i grew up with all that stuff and i
+
+928
+01:32:08,700 --> 01:32:14,940
+really think again i don't believe in utopia anymore i'm i'm too old for that but but i i still
+
+929
+01:32:14,940 --> 01:32:20,140
+think the internet is amazing and i i hate to see it go to shit and i think that what i see with
+
+930
+01:32:20,140 --> 01:32:27,580
+nostr is kind of like a a rebirth where where it aims for amazing again and to me like nostr feels
+
+931
+01:32:27,580 --> 01:32:34,700
+looks and feels amazing and and i i hope that like with the right ideas basically and with the right
+
+932
+01:32:34,700 --> 01:32:39,980
+principles and morals embedded in the whole thing i really think we can get one step closer to the
+
+933
+01:32:39,980 --> 01:32:44,300
+vision that the early internet people had it's again it's not going to be utopia again it's like and
+
+934
+01:32:44,300 --> 01:32:48,780
+there's going to be like terrible side effects and other things as well like i know that much
+
+935
+01:32:48,780 --> 01:32:53,420
+we learned so much i know that i know that stuff was going to be shit as well but still i i think i
+
+936
+01:32:53,420 --> 01:32:59,740
+think trying to to rebuild an internet archive for example would be would be an awesome next step
+
+937
+01:32:59,740 --> 01:33:04,460
+and then we can take things from there because everything shares the same architecture in some
+
+938
+01:33:04,460 --> 01:33:09,100
+sense like the the architecture is universal the principles are universal and it applies to so many
+
+939
+01:33:09,100 --> 01:33:14,620
+things and and also we see it now with journalism and and writing and so on i i one last tangent
+
+940
+01:33:14,620 --> 01:33:20,220
+and it's tangent after tangent but it's like the reason my books are so great is because books are
+
+941
+01:33:20,220 --> 01:33:25,820
+inherently decentralized it's like e-readers and so on are great too but but if you just pull your
+
+942
+01:33:25,820 --> 01:33:30,380
+stuff from amazon then it sucks because then it's just like one finger snip and and the book is gone
+
+943
+01:33:30,380 --> 01:33:35,980
+books are so great try to get rid of of books try to get rid of one single edition of a book if
+
+944
+01:33:35,980 --> 01:33:40,380
+there's like 10 000 copies and they're all over the world well good luck and it's crazy that we
+
+945
+01:33:40,380 --> 01:33:44,940
+have not achieved this in the digital realm yet it's it's insane right and you know we don't have
+
+946
+01:33:44,940 --> 01:33:49,100
+it inside space and there's anna's archive now yeah we have it with torrents and with some of the
+
+947
+01:33:49,100 --> 01:33:53,980
+single projects and like the cedars you can look at the statistics it's like one to two sources we
+
+948
+01:33:53,980 --> 01:33:58,940
+have the biggest sources of information that the world has ever produced we have this marvelous
+
+949
+01:33:58,940 --> 01:34:03,820
+technology of the internet that connects us all all our hardware all our resources yeah but we're
+
+950
+01:34:03,820 --> 01:34:10,940
+still at a point where like a single server basically can burn and we lose massive amounts
+
+951
+01:34:10,940 --> 01:34:17,100
+of information that humanity has produced until now we can still have alexandria moments we can
+
+952
+01:34:17,100 --> 01:34:21,020
+still have alexandria that's what we've been building we've been building libraries of alexandria for
+
+953
+01:34:21,020 --> 01:34:26,300
+everything yes and i really hope that we can get out of silos yeah and and so so that's why i'm a huge
+
+954
+01:34:26,300 --> 01:34:31,100
+fan of local copies and because because and there are these communities of people that know this you
+
+955
+01:34:31,100 --> 01:34:35,580
+know like there there are the people that build anna's archive and those kind of things there is
+
+956
+01:34:35,580 --> 01:34:40,860
+a group of people that knows this and they will store their files on their own hard disks and and
+
+957
+01:34:40,860 --> 01:34:45,180
+and periodically will make backups and put the hard disks in the bunkers that they have and so on you
+
+958
+01:34:45,180 --> 01:34:50,540
+know and so we i feel like we need to tap into those people and make this this style of dealing with
+
+959
+01:34:50,540 --> 01:34:55,340
+data way easier and it's the noster native way of doing things that's why i think the marriage of
+
+960
+01:34:55,340 --> 01:34:59,740
+noster and those kind of things is is so awesome because because in the end like i'll i mean i've
+
+961
+01:34:59,740 --> 01:35:05,180
+spoke about this a million times basically but i i feel like i'm a broken record but but the way
+
+962
+01:35:05,180 --> 01:35:10,700
+that youtube works youtube doesn't have one server if you if you're in germany and you fetch a youtube
+
+963
+01:35:10,700 --> 01:35:15,500
+video it will come from a german youtube server so so so so just to be efficient you have to build things
+
+964
+01:35:16,460 --> 01:35:21,260
+everyone knows that you have to build content delivery networks and and it has to be replicated and so on
+
+965
+01:35:21,260 --> 01:35:27,900
+and so noster does this by default yes and so so so you get so much for free in the noster world
+
+966
+01:35:27,900 --> 01:35:32,460
+where it's like you you maybe have a relay on your phone you maybe have a relay on your home server
+
+967
+01:35:32,460 --> 01:35:37,660
+maybe like a synology or start nine or what have you and depending on the context and depending on
+
+968
+01:35:37,660 --> 01:35:42,220
+what you care about stuff will be stored in this relay and i think what ecash brings to the table
+
+969
+01:35:42,220 --> 01:35:46,380
+what i'm so excited about is like okay let's build all up all these archives and we're like
+
+970
+01:35:46,380 --> 01:35:50,540
+beyond early with all this stuff we don't even have the archives really yet but make it easy to build
+
+971
+01:35:50,540 --> 01:35:55,500
+up local archives and if you share the underlying substrate and if things can talk to each other
+
+972
+01:35:55,500 --> 01:35:58,940
+which which they can by default if again if you build it right if you build it on noster and all
+
+973
+01:35:58,940 --> 01:36:04,940
+those kind of things you can by marrying it with ecash open it up and create a marketplace you can for
+
+974
+01:36:04,940 --> 01:36:09,500
+example create a marketplace for hashes you know you want this book you know you want this pdf you know
+
+975
+01:36:09,500 --> 01:36:15,500
+you want this meme whatever and and and who can give it to me fastest i'm willing to pay sets for it
+
+976
+01:36:15,500 --> 01:36:20,860
+all those kind of things you know and so so i really hope that we can we can we can you know
+
+977
+01:36:20,860 --> 01:36:25,340
+like learn from the mistakes of the past and stop building libraries of alexander it's so beautiful
+
+978
+01:36:25,340 --> 01:36:33,420
+like we we converge on this is the early values are still the most important values it's the distribution
+
+979
+01:36:33,420 --> 01:36:41,100
+of information it's the commerce between peer-to-peer commerce between people and making it's the knowledge
+
+980
+01:36:41,100 --> 01:36:44,780
+which that is embedded in the market and it's also net neutrality because zero knowledge compute
+
+981
+01:36:45,500 --> 01:36:50,780
+it is it is natural net neutrality in the same sense blinded custodians and blinded compute and
+
+982
+01:36:50,780 --> 01:36:57,260
+all those kind of things it it leads to neutrality neutrality of money yeah yes yeah that's a nice
+
+983
+01:36:57,260 --> 01:37:02,540
+that's a nice way to end it right yes it's a beautiful way to end it awesome let's let's build it out
+
+984
+01:37:02,540 --> 01:37:08,380
+man i appreciate you really i appreciate you too like i i i i hope that we can make it happen i'm
+
+985
+01:37:08,380 --> 01:37:13,660
+becoming all emotional thank you for this conversation yeah that was great let's see
+
+986
+01:37:13,660 --> 01:37:18,460
+let's see let's see if we if we if we managed or if we fucked it up maybe it was just between us too
+
+987
+01:37:18,460 --> 01:37:19,820
+that would be it would be nice too
+
