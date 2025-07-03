@@ -8,9 +8,8 @@ const metaParagraph = `Across a dozen walk-and-talk sessions the No Solutions cr
 const metaQuote = `"Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion."`;
 
 const pageTitle = "No Solutions";
-const subtitle = "No solutions, only trade-offs.";
 const byline = "Walking towards a better internet since 882,690.";
-const pageDescription = subtitle; // used in meta tags
+const pageDescription = "No Solutions podcast";
 
 ---
 
@@ -21,7 +20,6 @@ const pageDescription = subtitle; // used in meta tags
         <div class="text-center md:col-10 lg:col-7">
           <img src="/images/nosolutions-cover.jpg" alt="No Solutions Podcast Cover" class="mx-auto mb-6 w-48 h-48 rounded-lg shadow-lg object-cover" />
           <h1 class="h2 mb-4">{pageTitle}</h1>
-          <p class="text-xl font-secondary italic mb-6">{subtitle}</p>
           <p class="text-sm uppercase tracking-wider mb-12">{byline}</p>
           <p class="text-lg leading-relaxed mb-12" set:html={metaParagraph} />
           <blockquote class="italic text-xl font-secondary text-primary max-w-prose mx-auto mb-12">{metaQuote}</blockquote>
