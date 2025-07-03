@@ -168,3 +168,25 @@
   @apply prose-tr:border-border dark:prose-tr:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] dark:prose-td:text-darkmode-text;
 }
+
+/* podcast accordion overrides */
+.podcast-accordion {
+  @apply bg-[#111111] border-primary;
+}
+
+.podcast-accordion .accordion-header {
+  @apply text-white font-secondary text-xl;
+}
+
+.podcast-accordion .accordion-content {
+  @apply text-white leading-relaxed;
+}
+
+.podcast-accordion .accordion-content h1,
+.podcast-accordion .accordion-content h2,
+.podcast-accordion .accordion-content h3,
+.podcast-accordion .accordion-content h4,
+.podcast-accordion .accordion-content h5,
+.podcast-accordion .accordion-content h6 {
+  @apply text-primary mt-6 mb-3;
+}
