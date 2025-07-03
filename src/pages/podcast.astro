@@ -1,5 +1,6 @@
 ---
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Accordion from "@/shortcodes/Accordion.tsx";
 
 // Eagerly import all show-note ("essence") files that live in the transcripts folder.
 // The glob is relative to *this* file (src/pages), so we step back once to reach src/data.
@@ -36,15 +37,15 @@ const pageDescription = "Essence files (show notes) for every episode of the No 
 
       {
         episodes.map(({ episodeNumber, title, Content }) => (
-          <article id={`episode-${episodeNumber}`} class="mb-16">
-            <header class="mb-6">
-              <h2 class="h3">Episode {episodeNumber}: {title}</h2>
-              {/* Placeholder for future audio / external links */}
-            </header>
+          <Accordion
+            client:load
+            title={`Episode ${episodeNumber}: ${title}`}
+            className="mb-6"
+          >
             <div class="content prose max-w-none">
               <Content />
             </div>
-          </article>
+          </Accordion>
         ))
       }
     </div>
