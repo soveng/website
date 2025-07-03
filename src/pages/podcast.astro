@@ -1,5 +1,6 @@
 ---
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import DynamicIcon from "@/helpers/DynamicIcon";
 
 // Meta-essence distilled manually from all episode notes
 const metaParagraph = `Across a dozen walk-and-talk sessions the No Solutions crew keeps circling the same north star: **freedom is an engineering practice**. Start ugly, ship weekly, and invite the world's critique. Momentum replaces perfection, open protocols replace gate-keepers, and conversations on the trail turn wild ideas into code that empowers the individual.`;
@@ -55,7 +56,8 @@ const pageDescription = subtitle; // used in meta tags
               rel="noopener noreferrer"
               class="btn-retro"
             >
-              Nostr Profile
+              <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
+              <span class="sr-only">Nostr Profile</span>
             </a>
           </div>
         </div>
