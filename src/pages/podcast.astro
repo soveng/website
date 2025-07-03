@@ -1,0 +1,52 @@
+---
+import Base from "@/layouts/Base.astro";
+
+// Eagerly import all show-note ("essence") files that live in the transcripts folder.
+// The glob is relative to *this* file (src/pages), so we step back once to reach src/data.
+const essenceModules = import.meta.glob("../data/no-solutions-transcripts/* essence.md", {
+  eager: true,
+});
+
+interface Episode {
+  episodeNumber: string;
+  title: string;
+  Content: any;
+}
+
+// Transform the imported modules into a strongly-typed, sorted episode list.
+const episodes: Episode[] = Object.entries(essenceModules).map(([filePath, mod]: [string, any]) => {
+  const fileName = filePath.split("/").pop() ?? "";
+  // Example filename: "01 - Start Ugly - essence.md"
+  const match = fileName.match(/^(\d{2})\s+-\s+(.*?)\s+-\s+essence\.md$/);
+  const episodeNumber = match ? match[1] : "";
+  const title = match ? match[2] : fileName.replace(/\.md$/, "");
+  const Content = mod.default;
+  return { episodeNumber, title, Content };
+}).sort((a, b) => Number(b.episodeNumber) - Number(a.episodeNumber)); // Newest first
+
+const pageTitle = "Podcast – Show Notes";
+const pageDescription = "Essence files (show notes) for every episode of the No Solutions podcast.";
+---
+
+<Base title={pageTitle} description={pageDescription}>
+  <section class="section-sm">
+    <div class="container">
+      <h1 class="h2 text-center mb-8">{pageTitle}</h1>
+      <p class="text-center mb-12">{pageDescription}</p>
+
+      {
+        episodes.map(({ episodeNumber, title, Content }) => (
+          <article id={`episode-${episodeNumber}`} class="mb-16">
+            <header class="mb-6">
+              <h2 class="h3">Episode {episodeNumber}: {title}</h2>
+              {/* Placeholder for future audio / external links */}
+            </header>
+            <div class="content prose max-w-none">
+              <Content />
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</Base> 
