@@ -1,5 +1,5 @@
 ---
-import Base from "@/layouts/Base.astro";
+import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 
 // Eagerly import all show-note ("essence") files that live in the transcripts folder.
 // The glob is relative to *this* file (src/pages), so we step back once to reach src/data.
@@ -28,7 +28,7 @@ const pageTitle = "Podcast – Show Notes";
 const pageDescription = "Essence files (show notes) for every episode of the No Solutions podcast.";
 ---
 
-<Base title={pageTitle} description={pageDescription}>
+<BaseNoHeader title={pageTitle} description={pageDescription}>
   <section class="section-sm">
     <div class="container">
       <h1 class="h2 text-center mb-8">{pageTitle}</h1>
@@ -49,4 +49,4 @@ const pageDescription = "Essence files (show notes) for every episode of the No 
       }
     </div>
   </section>
-</Base> 
+</BaseNoHeader> 
