@@ -171,15 +171,15 @@
 
 /* podcast accordion overrides */
 .podcast-accordion {
-  @apply bg-[#111111] border-primary;
+  @apply bg-[#18181b] border border-[#e5e7eb] shadow-lg;
 }
 
 .podcast-accordion .accordion-header {
-  @apply text-white font-secondary text-xl;
+  @apply text-white font-secondary text-2xl px-10 py-6 bg-[#232326] border-b border-[#e5e7eb] rounded-t-lg;
 }
 
 .podcast-accordion .accordion-content {
-  @apply text-white leading-relaxed;
+  @apply text-white text-lg leading-relaxed px-10 py-8 bg-[#18181b] rounded-b-lg;
 }
 
 .podcast-accordion .accordion-content h1,
@@ -188,5 +188,9 @@
 .podcast-accordion .accordion-content h4,
 .podcast-accordion .accordion-content h5,
 .podcast-accordion .accordion-content h6 {
-  @apply text-primary mt-6 mb-3;
+  @apply text-white font-bold mt-8 mb-4;
+}
+
+.podcast-accordion .accordion-content a {
+  @apply text-primary underline hover:text-white;
 }
