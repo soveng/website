@@ -1,0 +1,69 @@
+---
+import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import DynamicIcon from "@/helpers/DynamicIcon";
+
+// Meta-essence distilled manually from all episode notes
+const metaParagraph = `Across a dozen walking dialogues the <strong>No Solutions</strong> crew keeps circling the same north star: <strong>freedom is an engineering practice</strong>. Start ugly, ship weekly, and invite the world's critique. Momentum replaces perfection, open protocols replace gate-keepers, and conversations on the trail turn wild ideas into code that empowers the individual.`;
+
+const metaQuote = `"Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion."`;
+
+const pageTitle = "No Solutions";
+const byline = `Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.`;
+const pageDescription = "No Solutions podcast";
+
+---
+
+<BaseNoHeader title={pageTitle} description={pageDescription}>
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center md:col-10 lg:col-7">
+          <a href="https://podcastindex.org/podcast/7206062" target="_blank" rel="noopener noreferrer">
+            <img src="/images/nosolutions-cover.jpg" alt="No Solutions Podcast Cover" class="mx-auto mb-6 w-48 h-48 rounded-lg shadow-lg object-cover" />
+          </a>
+          <h1 class="h2 mb-4">{pageTitle}</h1>
+          <p class="text-sm uppercase tracking-wider mb-12" set:html={byline} />
+          <p class="text-lg leading-relaxed mb-12" set:html={metaParagraph} />
+          <blockquote class="italic text-xl font-secondary text-primary max-w-prose mx-auto my-16">{metaQuote}</blockquote>
+
+          <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <a
+              href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              castr.me
+            </a>
+            <a
+              href="https://podcastindex.org/podcast/7206062"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              Podcast Index
+            </a>
+            <a
+              href="https://sovereignengineering.io/dialogues.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
+              RSS
+            </a>
+            <a
+              href="https://njump.me/nosolutions@sovereignengineering.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
+              <span class="sr-only">Nostr Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseNoHeader>
