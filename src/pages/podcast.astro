@@ -15,46 +15,51 @@ const pageDescription = subtitle; // used in meta tags
 
 <BaseNoHeader title={pageTitle} description={pageDescription}>
   <section class="section-sm">
-    <div class="container mx-auto md:w-3/4 lg:w-2/3 text-center">
-      <h1 class="h2 mb-4">{pageTitle}</h1>
-      <p class="text-xl font-secondary italic mb-6">{subtitle}</p>
-      <p class="text-sm uppercase tracking-wider mb-8">{byline}</p>
-      <div class="flex flex-wrap justify-center gap-4 mb-12">
-        <a
-          href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-retro"
-        >
-          Listen on Castr
-        </a>
-        <a
-          href="https://podcastindex.org/podcast/7206062"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-retro"
-        >
-          Podcast Index
-        </a>
-        <a
-          href="https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-retro"
-        >
-          Episodes.fm
-        </a>
-        <a
-          href="https://njump.me/nosolutions@sovereignengineering.io"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-retro"
-        >
-          Nostr Profile
-        </a>
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center md:col-10 lg:col-7">
+          <h1 class="h2 mb-4">{pageTitle}</h1>
+          <p class="text-xl font-secondary italic mb-6">{subtitle}</p>
+          <p class="text-sm uppercase tracking-wider mb-12">{byline}</p>
+          <p class="text-lg leading-relaxed mb-12" set:html={metaParagraph} />
+          <blockquote class="italic text-xl font-secondary text-primary max-w-prose mx-auto mb-12">{metaQuote}</blockquote>
+
+          <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <a
+              href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              Listen on Castr
+            </a>
+            <a
+              href="https://podcastindex.org/podcast/7206062"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              Podcast Index
+            </a>
+            <a
+              href="https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              Episodes.fm
+            </a>
+            <a
+              href="https://njump.me/nosolutions@sovereignengineering.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              Nostr Profile
+            </a>
+          </div>
+        </div>
       </div>
-      <p class="text-lg leading-relaxed mb-12" set:html={metaParagraph} />
-      <blockquote class="italic text-xl font-secondary text-primary max-w-prose mx-auto">{metaQuote}</blockquote>
     </div>
   </section>
 </BaseNoHeader>
