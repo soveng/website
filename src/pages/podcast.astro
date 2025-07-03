@@ -6,15 +6,19 @@ const metaParagraph = `Across a dozen walk-and-talk sessions the No Solutions cr
 
 const metaQuote = `"Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion."`;
 
-const pageTitle = "Podcast – Meta Essence";
-const pageDescription = "A distilled takeaway from every No Solutions conversation.";
+const pageTitle = "No Solutions";
+const subtitle = "No solutions, only trade-offs.";
+const byline = "Walking towards a better internet since 882,690.";
+const pageDescription = subtitle; // used in meta tags
 
 ---
 
 <BaseNoHeader title={pageTitle} description={pageDescription}>
   <section class="section-sm">
     <div class="container mx-auto md:w-3/4 lg:w-2/3 text-center">
-      <h1 class="h2 mb-8">{pageTitle}</h1>
+      <h1 class="h2 mb-4">{pageTitle}</h1>
+      <p class="text-xl font-secondary italic mb-6">{subtitle}</p>
+      <p class="text-sm uppercase tracking-wider mb-12">{byline}</p>
       <p class="text-lg leading-relaxed mb-12" set:html={metaParagraph} />
       <blockquote class="italic text-xl font-secondary text-primary max-w-prose mx-auto">{metaQuote}</blockquote>
     </div>
