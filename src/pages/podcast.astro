@@ -8,7 +8,7 @@ const metaParagraph = `Across a dozen walk-and-talk sessions the <a href="https:
 const metaQuote = `"Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion."`;
 
 const pageTitle = "No Solutions";
-const byline = "Walking towards a better internet since 882,690.";
+const byline = `Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.`;
 const pageDescription = "No Solutions podcast";
 
 ---
@@ -20,7 +20,7 @@ const pageDescription = "No Solutions podcast";
         <div class="text-center md:col-10 lg:col-7">
           <img src="/images/nosolutions-cover.jpg" alt="No Solutions Podcast Cover" class="mx-auto mb-6 w-48 h-48 rounded-lg shadow-lg object-cover" />
           <h1 class="h2 mb-4">{pageTitle}</h1>
-          <p class="text-sm uppercase tracking-wider mb-12">{byline}</p>
+          <p class="text-sm uppercase tracking-wider mb-12" set:html={byline} />
           <p class="text-lg leading-relaxed mb-12" set:html={metaParagraph} />
           <blockquote class="italic text-xl font-secondary text-primary max-w-prose mx-auto mb-12">{metaQuote}</blockquote>
 
