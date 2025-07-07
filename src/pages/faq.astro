@@ -23,7 +23,7 @@ const { title, meta_title, description, intro, sections, cta } = faq.data;
   <ContentLead
     title={title}
     content={intro.content}
-    image=""
+    image="/images/funchal.jpg"
     quote=""
     author=""
   />
@@ -39,17 +39,4 @@ const { title, meta_title, description, intro, sections, cta } = faq.data;
       fullWidthImage={true}
     />
   ))}
-
-  <!-- Call to Action -->
-  <section class="section-sm bg-black text-white">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="lg:col-7 md:col-9 text-center">
-          <a href={cta.link} class="btn-retro btn-lg">
-            {cta.text}
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
 </Base> 
