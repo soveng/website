@@ -1,7 +1,7 @@
 ---
 interface Props {
   quote: string;
-  author: string;
+  author?: string;
   href?: string;
   left?: boolean;
 }
@@ -22,7 +22,7 @@ const { quote, author, href, left = false } = Astro.props;
     <blockquote class={`${left ? 'max-w-prose text-left' : 'max-w-3xl mx-auto text-center'} ${left ? '' : 'px-4'} text-balance`}>
       &ldquo;{quote}&rdquo;
       <br />
-      <span>&mdash; {author}</span>
+      {author && <span>&mdash; {author}</span>}
     </blockquote>
   )}
 </div> 
