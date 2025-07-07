@@ -1,0 +1,53 @@
+---
+import { markdownify } from "@/lib/utils/textConverter";
+import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
+
+interface Props {
+  title: string;
+  content: string;
+  image: string;
+  quote: string;
+  author: string;
+}
+
+const { title, content, image, quote, author } = Astro.props;
+
+// Pre-process markdown content
+const leadContent = await markdownify(content, true); // div: true for paragraph processing
+---
+
+<section class="section-sm bg-black text-white">
+  <div class="container">
+    <!-- Header -->
+    <div class="row justify-center">
+      <div class="col-12 text-center">
+        <h1 class="mb-8 text-white uppercase" style="font-size: 3rem;">{title}</h1>
+      </div>
+    </div>
+    
+    <!-- Centered Quote -->
+    <BigBlockQuote 
+      quote={quote}
+      author={author}
+    />
+    
+    <!-- Full Width Image -->
+    <div class="row justify-center">
+      <div class="col-12">
+        <img
+          src={image}
+          alt={title}
+          class="w-full mb-8 rounded-lg"
+          loading="lazy"
+        />
+      </div>
+    </div>
+    
+    <!-- Full Width Content -->
+    <div class="row justify-center">
+      <div class="md:col-10 lg:col-8">
+        <div set:html={leadContent} class="content [&>p]:text-xl [&>p]:text-white" />
+      </div>
+    </div>
+  </div>
+</section> 

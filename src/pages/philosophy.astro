@@ -2,6 +2,7 @@
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
+import ContentLead from "@/layouts/components/ContentLead.astro";
 import slideShip from "@/data/common-slides/pirate-ship-2.jpeg";
 import slideFreedomTech from "@/data/common-slides/surveillance-capitalism.jpeg";
 import slideWalk from "@/data/common-slides/walking.jpeg";
@@ -53,17 +54,13 @@ const slideMap: Record<string, any> = {
   meta_title={meta_title}
   description={description}
 >
-  <!-- Intro Section with Full Width Image -->
-  <ContentSection
+  <!-- Intro Lead Section -->
+  <ContentLead
     title={title}
     content={intro.content}
     image={slideMap[intro.image].src}
-    index={0}
-    fullWidthImage={true}
-    pullquote={{
-      quote: getQuote(intro.quote_section)?.quote || "",
-      author: getQuote(intro.quote_section)?.author || ""
-    }}
+    quote={getQuote(intro.quote_section)?.quote || ""}
+    author={getQuote(intro.quote_section)?.author || ""}
   />
 
   <!-- Content Sections -->
@@ -72,7 +69,7 @@ const slideMap: Record<string, any> = {
       title={section.title}
       content={section.content}
       image={slideMap[section.image].src}
-      index={index + 1}
+      index={index}
       pullquote={{
         quote: getQuote(section.quote_section)?.quote || "",
         author: getQuote(section.quote_section)?.author || "",
