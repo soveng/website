@@ -33,8 +33,8 @@ const slideMap: Record<string, any> = {
   "soveng-shirt.jpeg": slideInPerson,
   "cypherpunks-write-code.jpeg": slideCypherpunks,
   "wide-open-sea.jpeg": slideWideOpenSea,
-  "revealed-on-walk.jpg": slideWalk, // fallback to walking slide
-  "smooth-sea.jpg": slideWideOpenSea, // fallback to wide open sea slide
+  "revealed-on-walk.jpg": { src: "/images/revealed-on-walk.jpg" },
+  "smooth-sea.jpg": { src: "/images/smooth-sea.jpg" },
 };
 
 // Process sections to add special handling for weekly-loop
@@ -76,6 +76,7 @@ const processedSections = sections.map((section: any) => {
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
+      float={section.float}
       pullquote={{
         quote: "",
         author: "",
