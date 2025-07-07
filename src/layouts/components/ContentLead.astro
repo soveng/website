@@ -48,7 +48,7 @@ const leadContent = await markdownify(content, true); // div: true for paragraph
     <!-- Full Width Content -->
     <div class="row justify-center">
       <div class="max-w-[960px] mx-auto">
-        <div set:html={leadContent} class="content [&>p]:text-xl [&>p]:text-white" />
+        <div set:html={leadContent} class="prose-content [&>p]:text-xl [&>p]:text-white" />
       </div>
     </div>
   </div>

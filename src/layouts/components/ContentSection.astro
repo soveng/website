@@ -64,7 +64,7 @@ const processedBulletPoints = await Promise.all(
             />
           )}
           
-          <div set:html={featureContent} class="content mb-8 [&>p]:text-xl [&>p]:text-white" />
+          <div set:html={featureContent} class="prose-content mb-8 [&>p]:text-xl [&>p]:text-white" />
           {processedBulletPoints.length > 0 && (
             <ul>
               {processedBulletPoints.map((bullet: string) => (
@@ -102,7 +102,7 @@ const processedBulletPoints = await Promise.all(
             />
           )}
           
-          <div set:html={featureContent} class="content mb-8 [&>p]:text-xl [&>p]:text-white" />
+          <div set:html={featureContent} class="prose-content mb-8 [&>p]:text-xl [&>p]:text-white" />
           {processedBulletPoints.length > 0 && (
             <ul>
               {processedBulletPoints.map((bullet: string) => (

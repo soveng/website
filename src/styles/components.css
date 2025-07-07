@@ -146,8 +146,8 @@
   @apply absolute right-3 top-3 h-8 w-8 rounded-full bg-light text-center leading-8 text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark;
 }
 
-/* content style */
-.content {
+/* Prose content - only apply when explicitly needed */
+.prose-content {
   @apply prose max-w-none;
   @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-text-dark dark:prose-headings:text-darkmode-text-dark;
   @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
@@ -169,42 +169,46 @@
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] dark:prose-td:text-darkmode-text;
 }
 
-/* FAQ content overrides - global styles to fix bullet points */
+/* Basic content styling without aggressive prose */
+.content {
+  @apply text-lg leading-relaxed;
+}
+
+.content p {
+  @apply mb-4;
+}
+
+.content a {
+  @apply text-white underline hover:text-primary transition-colors;
+}
+
+.content ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.content li {
+  @apply mb-2;
+}
+
+/* FAQ content - clean styles that work with the cascade */
+.faq-content {
+  @apply text-lg leading-relaxed text-white;
+}
+
 .faq-content p {
-  font-size: 1.125rem !important;
-  color: white !important;
-  margin-bottom: 1rem !important;
-  line-height: 1.6 !important;
+  @apply mb-4 text-lg text-white;
 }
 
 .faq-content ul {
-  margin-bottom: 1rem !important;
-  list-style-type: disc !important;
-  padding-left: 1.5rem !important;
-  margin-left: 0 !important;
+  @apply list-disc pl-6 mb-4;
 }
 
 .faq-content li {
-  font-size: 1.125rem !important;
-  color: white !important;
-  margin-bottom: 0.5rem !important;
-  line-height: 1.6 !important;
-  list-style-type: disc !important;
+  @apply mb-2 text-lg text-white;
 }
 
-.faq-content a,
-.faq-content li a {
-  font-size: 1.125rem !important;
-  color: white !important;
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
-  transition: color 0.2s ease !important;
-}
-
-.faq-content a:hover,
-.faq-content li a:hover {
-  color: #10b981 !important;
-  text-decoration: underline !important;
+.faq-content a {
+  @apply text-white underline decoration-2 underline-offset-2 hover:text-green-400 transition-colors;
 }
 
 /* podcast accordion overrides */
