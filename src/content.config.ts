@@ -173,28 +173,14 @@ const faqCollection = defineCollection({
     description: z.string().optional(),
     intro: z.object({
       content: z.string(),
-      image: z.string(),
     }),
     sections: z.array(
       z.object({
         id: z.string(),
         title: z.string(),
-        image: z.string(),
-        questions: z.array(
-          z.object({
-            question: z.string(),
-            answer: z.string(),
-          }),
-        ),
+        content: z.string(),
       }),
     ),
-    contact: z.object({
-      title: z.string(),
-      content: z.string(),
-      email: z.string(),
-      nostr: z.string(),
-      address: z.string(),
-    }),
     cta: z.object({
       text: z.string(),
       link: z.string(),
