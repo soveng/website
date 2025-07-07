@@ -54,13 +54,12 @@ const processedBulletPoints = await Promise.all(
           <h2 set:html={featureTitle} class="mb-4 text-white uppercase text-center" style="font-size: 2rem;" />
           
           {pullquote && (
-            <div class="mb-8 text-left">
-              <blockquote class="italic text-xl font-secondary text-primary max-w-prose">
-                &ldquo;{pullquote.quote}&rdquo;
-                <br />
-                <span class="text-base text-gray-400">&mdash; {pullquote.author}</span>
-              </blockquote>
-            </div>
+            <BigBlockQuote
+              quote={pullquote.quote}
+              author={pullquote.author}
+              href={pullquote.href}
+              left={true}
+            />
           )}
           
           <div set:html={featureContent} class="content mb-8 [&>p]:text-xl [&>p]:text-white" />
@@ -93,13 +92,12 @@ const processedBulletPoints = await Promise.all(
           <h2 set:html={featureTitle} class="mb-4 text-white uppercase" style="font-size: 2rem;" />
           
           {pullquote && (
-            <div class="mb-8 text-left">
-              <blockquote class="italic text-xl font-secondary text-primary max-w-prose">
-                &ldquo;{pullquote.quote}&rdquo;
-                <br />
-                <span class="text-base text-gray-400">&mdash; {pullquote.author}</span>
-              </blockquote>
-            </div>
+            <BigBlockQuote
+              quote={pullquote.quote}
+              author={pullquote.author}
+              href={pullquote.href}
+              left={true}
+            />
           )}
           
           <div set:html={featureContent} class="content mb-8 [&>p]:text-xl [&>p]:text-white" />
