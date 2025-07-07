@@ -26,10 +26,12 @@ const leadContent = await markdownify(content, true); // div: true for paragraph
     </div>
     
     <!-- Centered Quote -->
-    <BigBlockQuote 
-      quote={quote}
-      author={author}
-    />
+    {quote && author && (
+      <BigBlockQuote 
+        quote={quote}
+        author={author}
+      />
+    )}
     
     <!-- Full Width Image -->
     <div class="row justify-center">
