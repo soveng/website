@@ -1,6 +1,7 @@
 ---
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
+import ContentSection from "@/layouts/components/ContentSection.astro";
 import slideShip from "@/data/common-slides/pirate-ship-2.jpeg";
 import slideFreedomTech from "@/data/common-slides/surveillance-capitalism.jpeg";
 import slideWalk from "@/data/common-slides/walking.jpeg";
@@ -46,14 +47,8 @@ const slideMap: Record<string, any> = {
   "genesis-block.png": slideGenesisBlock,
 };
 
-// Process markdown content
+// Process markdown content for intro
 const introContent = await markdownify(intro.content);
-const processedSections = await Promise.all(
-  sections.map(async (section: any) => ({
-    ...section,
-    content: await markdownify(section.content),
-  }))
-);
 ---
 
 <BaseNoHeader
@@ -61,6 +56,7 @@ const processedSections = await Promise.all(
   meta_title={meta_title}
   description={description}
 >
+  <!-- Page Header Section -->
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
@@ -74,30 +70,32 @@ const processedSections = await Promise.all(
             <img src={slideMap[intro.image].src} alt="Yearn for the vast and endless sea" class="rounded-lg shadow-lg" loading="lazy" />
           </figure>
           <div class="content text-left" set:html={introContent}></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-          {processedSections.map((section) => (
-            <>
-              <h3 class="h4 clear-both mt-16 mb-4">{section.title}</h3>
-              <BigBlockQuote 
-                quote={getQuote(section.quote_section)?.quote || ""} 
-                author={getQuote(section.quote_section)?.author || ""} 
-              />
-              <figure class={`my-8 md:${section.float === "left" ? "float-left md:mr-6" : "float-right md:ml-6"} md:w-1/2`}>
-                {section.link ? (
-                  <a href={section.link}>
-                    <img src={slideMap[section.image].src} alt={section.title} class="rounded-lg shadow-lg" loading="lazy" />
-                  </a>
-                ) : (
-                  <img src={slideMap[section.image].src} alt={section.title} class="rounded-lg shadow-lg" loading="lazy" />
-                )}
-              </figure>
-              <div class="content text-left" set:html={section.content}></div>
-            </>
-          ))}
+  <!-- Content Sections -->
+  {sections.map((section: any, index: number) => (
+    <ContentSection
+      title={section.title}
+      content={section.content}
+      image={slideMap[section.image].src}
+      index={index}
+      pullquote={{
+        quote: getQuote(section.quote_section)?.quote || "",
+        author: getQuote(section.quote_section)?.author || "",
+        href: section.link
+      }}
+    />
+  ))}
 
-          <div class="text-center mt-20">
-            <a href={cta.link} class="btn-retro">{cta.text}</a>
-          </div>
+  <!-- Call to Action -->
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="text-center">
+          <a href={cta.link} class="btn-retro">{cta.text}</a>
         </div>
       </div>
     </div>
