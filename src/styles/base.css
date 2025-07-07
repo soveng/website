@@ -3,9 +3,12 @@ html {
 }
 
 body {
-  @apply bg-body text-base dark:bg-darkmode-body font-primary font-normal leading-relaxed text-text dark:text-darkmode-text m-0 p-0 overflow-x-hidden;
+  @apply bg-body text-base dark:bg-darkmode-body font-primary leading-relaxed text-text dark:text-darkmode-text m-0 p-0 overflow-x-hidden;
   font-family: var(--font-primary);
   font-size: 1.125rem;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img {
@@ -61,14 +64,4 @@ strong {
 
 code {
   @apply after:border-none;
-}
-
-blockquote {
-  font-family: "IM Fell Double Pica", Times, serif;
-  font-style: italic;
-  border: none !important;
-}
-
-blockquote > p {
-  @apply my-0!;
 }

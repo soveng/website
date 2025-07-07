@@ -23,8 +23,8 @@
         "dark": "#ffffff"
       },
       "text_color": {
-        "text": "#ffffff",
-        "text-dark": "#ffffff",
+        "text": "#E5E7EB",
+        "text-dark": "#E5E7EB",
         "text-light": "#B4AFB6"
       }
     }

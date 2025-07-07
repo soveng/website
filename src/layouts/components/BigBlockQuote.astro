@@ -10,7 +10,7 @@ const { quote, author, href } = Astro.props;
 
 <div class="w-full flex justify-center py-8 font-primary text-white italic text-2xl">
   {href ? (
-    <a href={href} class="max-w-2xl mx-auto block no-underline hover:no-underline focus:no-underline">
+    <a href={href} class="max-w-3xl mx-auto block no-underline hover:no-underline focus:no-underline">
       <blockquote class="text-center px-4 transition-colors duration-200 hover:text-primary focus:text-primary">
         &ldquo;{quote}&rdquo;
         <br />
@@ -18,7 +18,7 @@ const { quote, author, href } = Astro.props;
       </blockquote>
     </a>
   ) : (
-    <blockquote class="max-w-2xl mx-auto text-center px-4">
+    <blockquote class="max-w-3xl mx-auto text-center px-4">
       &ldquo;{quote}&rdquo;
       <br />
       <span>&mdash; {author}</span>
