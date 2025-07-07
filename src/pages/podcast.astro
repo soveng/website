@@ -1,5 +1,5 @@
 ---
-import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Base from "@/layouts/Base.astro";
 import DynamicIcon from "@/helpers/DynamicIcon";
 
 // Meta-essence distilled manually from all episode notes
@@ -13,7 +13,7 @@ const pageDescription = "No Solutions podcast";
 
 ---
 
-<BaseNoHeader title={pageTitle} description={pageDescription}>
+<Base title={pageTitle} description={pageDescription}>
   <section class="section-sm">
     <div class="container">
       <div class="row justify-center">
@@ -66,4 +66,4 @@ const pageDescription = "No Solutions podcast";
       </div>
     </div>
   </section>
-</BaseNoHeader>
+</Base>

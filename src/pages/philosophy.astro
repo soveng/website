@@ -1,5 +1,5 @@
 ---
-import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Base from "@/layouts/Base.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
@@ -49,7 +49,7 @@ const slideMap: Record<string, any> = {
 };
 ---
 
-<BaseNoHeader
+<Base
   title={title}
   meta_title={meta_title}
   description={description}
@@ -88,4 +88,4 @@ const slideMap: Record<string, any> = {
       </div>
     </div>
   </section>
-</BaseNoHeader> 
+</Base> 

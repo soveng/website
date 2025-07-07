@@ -1,7 +1,7 @@
 ---
 import ImageMod from "@/components/ImageMod.astro";
 import Win95Card from "@/components/Win95Card.astro";
-import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Base from "@/layouts/Base.astro";
 import FeatureSection from "@/layouts/components/FeatureSection.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -45,7 +45,7 @@ const bannerTitle = await markdownify(banner.title);
 const bannerContent = await markdownify(banner.content);
 ---
 
-<BaseNoHeader>
+<Base>
   <!-- Hero Section -->
   <header class="h-screen w-full flex flex-col text-white relative">
     <!-- Red background behind everything -->
@@ -170,7 +170,7 @@ const bannerContent = await markdownify(banner.content);
 
   <Testimonial testimonial={testimonial} />
   <CallToAction call_to_action={call_to_action} />
-</BaseNoHeader>
+</Base>
 
 <style>
   .showcase-logo {

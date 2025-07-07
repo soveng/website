@@ -1,5 +1,5 @@
 ---
-import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Base from "@/layouts/Base.astro";
 import slideLoop from "@/data/common-slides/show-talk-build-loop.jpeg";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
 import { markdownify } from "@/lib/utils/textConverter";
@@ -24,7 +24,7 @@ const processedSections = await Promise.all(
 );
 ---
 
-<BaseNoHeader
+<Base
   title={title}
   meta_title={meta_title}
   description={description}
@@ -73,4 +73,4 @@ const processedSections = await Promise.all(
       </div>
     </div>
   </section>
-</BaseNoHeader> 
+</Base> 

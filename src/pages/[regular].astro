@@ -1,5 +1,5 @@
 ---
-import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Base from "@/layouts/Base.astro";
 import Win95Card from "@/components/Win95Card.astro";
 import { getSinglePage } from "@/lib/contentParser.astro";
 import PageHeader from "@/partials/PageHeader.astro";
@@ -25,7 +25,7 @@ const { title, meta_title, description, image } = page.data;
 const { Content } = await render(page);
 ---
 
-<BaseNoHeader
+<Base
   title={title}
   meta_title={meta_title}
   description={description}
@@ -180,4 +180,4 @@ const { Content } = await render(page);
       margin-top: 4rem;
     }
   </style>
-</BaseNoHeader>
+</Base>
