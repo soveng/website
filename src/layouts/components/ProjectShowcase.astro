@@ -1,5 +1,6 @@
 ---
 import philosophyQuotes from "@/data/philosophy-quotes.json";
+import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 
 interface Project {
   name: string;
@@ -161,13 +162,11 @@ const cohortHeaderClasses = darkTheme
     )}
     {/* Richard L. Evans Quote after highlights */}
     {showHighlights && (
-      <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
-        <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
-          &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote}&rdquo;
-          <br />
-          <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author}</span>
-        </blockquote>
-      </div>
+      <BigBlockQuote
+        quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote || ""}
+        author={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author || ""}
+        left={true}
+      />
     )}
 
     {groupByCohort ? (
@@ -222,23 +221,19 @@ const cohortHeaderClasses = darkTheme
           </div>
             {/* Berdyaev quote between SEC-00 and SEC-01 */}
             {cohort === 'SEC-00' && (
-              <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
-                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
-                  &ldquo;{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote}&rdquo;
-                  <br />
-                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author}, <span class="italic">{philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation}</span></span>
-                </blockquote>
-              </div>
+              <BigBlockQuote
+                quote={philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote || ""}
+                author={`${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation || ""}`}
+                left={true}
+              />
             )}
             {/* Evans quote between SEC-01 and SEC-02 */}
             {cohort === 'SEC-01' && (
-              <div class="w-full flex justify-center bg-black py-16 mt-16 mb-16">
-                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4">
-                  &ldquo;{philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote}&rdquo;
-                  <br />
-                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.author}</span>
-                </blockquote>
-              </div>
+              <BigBlockQuote
+                quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote || ""}
+                author={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.author || ""}
+                left={true}
+              />
             )}
           </>
         ))}
@@ -273,7 +268,6 @@ const cohortHeaderClasses = darkTheme
         <!-- Project Entries -->
         {projects.map((project, index) => (
           <div
-            key={index}
             class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
           >
             <div class="flex items-start gap-4">

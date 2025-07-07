@@ -62,21 +62,15 @@ sections:
     title: "Still Have Questions?"
     content: |
       Make sure to consult the Frequently Asked Questions if you have any questions. If the FAQ doesn't answer your question, please reach out to us using the contact information below.
+    questions:
+      - question: "Email"
+        answer: "[info@sovereignengineering.io](mailto:info@sovereignengineering.io)"
 
-      ## Email
+      - question: "Nostr"
+        answer: "[@sovereignengineering.io](https://njump.me/sovereignengineering.io)"
 
-      [info@sovereignengineering.io](mailto:info@sovereignengineering.io)
-
-      ## Nostr
-
-      [@sovereignengineering.io](https://njump.me/sovereignengineering.io)
-
-      ## Address
-
-      Sovereign Engineering Shipyard  
-      Rua das Mercês 41  
-      Funchal, Funchal 9000-224  
-      Madeira, Portugal
+      - question: "Address"
+        answer: "Sovereign Engineering Shipyard\nRua das Mercês 41\nFunchal, Funchal 9000-224\nMadeira, Portugal"
 
 # Call to action
 cta:
