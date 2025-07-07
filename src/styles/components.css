@@ -179,11 +179,16 @@
 }
 
 .content ul {
-  @apply list-disc pl-6 mb-4;
+  @apply list-none pl-0 mb-4;
 }
 
 .content li {
-  @apply mb-2 text-lg text-white;
+  @apply flex items-center mb-4 text-lg text-white;
+}
+
+.content li::before {
+  content: "✦";
+  @apply mr-3 flex-shrink-0 text-white;
 }
 
 .content a {
