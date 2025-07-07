@@ -23,7 +23,7 @@ const { title, content, image, bulletpoints = [], button, index, id, pullquote, 
 
 // Pre-process markdown content
 const featureTitle = await markdownify(title);
-const featureContent = await markdownify(content);
+const featureContent = await markdownify(content, true); // Add div: true for paragraph processing
 
 // Process bullet points
 const processedBulletPoints = await Promise.all(
