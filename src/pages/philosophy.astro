@@ -46,9 +46,6 @@ const slideMap: Record<string, any> = {
   "solvitur-ambulando.jpeg": slideSolvitur,
   "genesis-block.png": slideGenesisBlock,
 };
-
-// Process markdown content for intro
-const introContent = await markdownify(intro.content);
 ---
 
 <BaseNoHeader
@@ -56,24 +53,18 @@ const introContent = await markdownify(intro.content);
   meta_title={meta_title}
   description={description}
 >
-  <!-- Page Header Section -->
-  <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="text-center md:col-10 lg:col-7">
-          <h2 class="h3 mb-6">{title}</h2>
-          <BigBlockQuote 
-            quote={getQuote(intro.quote_section)?.quote || ""} 
-            author={getQuote(intro.quote_section)?.author || ""} 
-          />
-          <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
-            <img src={slideMap[intro.image].src} alt="Yearn for the vast and endless sea" class="rounded-lg shadow-lg" loading="lazy" />
-          </figure>
-          <div class="content text-left" set:html={introContent}></div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Intro Section with Full Width Image -->
+  <ContentSection
+    title={title}
+    content={intro.content}
+    image={slideMap[intro.image].src}
+    index={0}
+    fullWidthImage={true}
+    pullquote={{
+      quote: getQuote(intro.quote_section)?.quote || "",
+      author: getQuote(intro.quote_section)?.author || ""
+    }}
+  />
 
   <!-- Content Sections -->
   {sections.map((section: any, index: number) => (
@@ -81,7 +72,7 @@ const introContent = await markdownify(intro.content);
       title={section.title}
       content={section.content}
       image={slideMap[section.image].src}
-      index={index}
+      index={index + 1}
       pullquote={{
         quote: getQuote(section.quote_section)?.quote || "",
         author: getQuote(section.quote_section)?.author || "",
