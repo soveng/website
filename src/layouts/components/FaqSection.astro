@@ -85,31 +85,41 @@ const processedQuestions = await Promise.all(
     padding-bottom: 0;
   }
 
+  /* Override prose styles for FAQ content */
   .faq-content p {
     font-size: 1.125rem !important; /* text-lg */
     color: white !important;
     margin-bottom: 1rem !important;
+    line-height: 1.6 !important;
   }
 
   .faq-content ul {
     margin-bottom: 1rem !important;
     list-style-type: disc !important;
     padding-left: 1.5rem !important;
+    margin-left: 0 !important;
   }
 
   .faq-content li {
     font-size: 1.125rem !important; /* text-lg */
     color: white !important;
     margin-bottom: 0.5rem !important;
+    line-height: 1.6 !important;
+    list-style-type: disc !important;
   }
 
-  .faq-content a {
+  .faq-content a,
+  .faq-content li a {
     font-size: 1.125rem !important; /* text-lg */
     color: white !important;
     text-decoration: underline !important;
+    text-underline-offset: 2px !important;
+    transition: color 0.2s ease !important;
   }
 
-  .faq-content a:hover {
+  .faq-content a:hover,
+  .faq-content li a:hover {
     color: #10b981 !important; /* primary color */
+    text-decoration: underline !important;
   }
 </style> 
