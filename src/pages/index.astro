@@ -3,6 +3,7 @@ import ImageMod from "@/components/ImageMod.astro";
 import Win95Card from "@/components/Win95Card.astro";
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
 import FeatureSection from "@/layouts/components/FeatureSection.astro";
+import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
 import Testimonial from "@/partials/Testimonial.astro";
@@ -147,27 +148,19 @@ const bannerContent = await markdownify(banner.content);
           />
           {/* Insert quote after the first feature */}
           {index === 0 && (
-            <div class="w-full flex justify-center bg-black py-8">
-              <a href="/philosophy" class="block max-w-2xl mx-auto no-underline hover:no-underline focus:no-underline">
-                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4 transition-colors duration-200 hover:text-primary focus:text-primary">
-                  &ldquo;{philosophyQuotes.find(q => q.id === "saint-exupery")?.quote}&rdquo;
-                  <br />
-                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find(q => q.id === "saint-exupery")?.author}</span>
-                </blockquote>
-              </a>
-            </div>
+            <BigBlockQuote
+              quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote!}
+              author={philosophyQuotes.find(q => q.id === "saint-exupery")?.author!}
+              href="/philosophy"
+            />
           )}
           {/* Insert Hal Finney quote after the second feature */}
           {index === 1 && (
-            <div class="w-full flex justify-center bg-black py-8">
-              <a href="/concept" class="block max-w-2xl mx-auto no-underline hover:no-underline focus:no-underline">
-                <blockquote class="italic text-xl text-gray-200 max-w-2xl mx-auto text-center px-4 transition-colors duration-200 hover:text-primary focus:text-primary">
-                  &ldquo;{philosophyQuotes.find(q => q.id === "hal-finney")?.quote}&rdquo;
-                  <br />
-                  <span class="text-base text-gray-400">&mdash; {philosophyQuotes.find(q => q.id === "hal-finney")?.author}</span>
-                </blockquote>
-              </a>
-            </div>
+            <BigBlockQuote
+              quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote!}
+              author={philosophyQuotes.find(q => q.id === "hal-finney")?.author!}
+              href="/concept"
+            />
           )}
         </>
       );
