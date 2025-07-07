@@ -12,9 +12,10 @@ interface Props {
   index: number;
   id?: string;
   image?: string;
+  content?: string;
 }
 
-const { title, questions, index, id, image } = Astro.props;
+const { title, questions, index, id, image, content } = Astro.props;
 
 // Pre-process markdown content
 const sectionTitle = await markdownify(title);
@@ -36,6 +37,10 @@ const processedQuestions = await Promise.all(
     <div class="row justify-center">
       <div class="md:col-10 lg:col-8">
         <h2 set:html={sectionTitle} class="mb-8 text-white uppercase text-center" style="font-size: 2rem;" />
+
+        {content && (
+          <div class="space-y-8 mb-8 text-xl text-white [&>p]:text-lg [&>p]:text-white [&>p]:mb-4 [&>ul]:mb-4 [&>li]:text-lg [&>a]:text-white" set:html={content} />
+        )}
         
         <div class="space-y-8">
           {processedQuestions.map((qa: any) => (
