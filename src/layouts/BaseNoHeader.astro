@@ -17,21 +17,9 @@ import {
 import { ClientRouter } from "astro:transitions";
 import SearchModal from "./helpers/SearchModal";
 
-// font families
-const pf = theme.fonts.font_family.primary;
-const sf = theme.fonts.font_family.secondary;
-
-let fontPrimary, fontSecondary;
-if (theme.fonts.font_family.primary) {
-  fontPrimary = theme.fonts.font_family.primary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;.]+/gi, "");
-}
-if (theme.fonts.font_family.secondary) {
-  fontSecondary = theme.fonts.font_family.secondary
-    .replace(/\+/g, " ")
-    .replace(/:[ital,]*[ital@]*[wght@]*[0-9,;.]+/gi, "");
-}
+// Get fonts directly from theme
+const fontPrimary = theme.fonts.font_family.primary;
+const fontSecondary = theme.fonts.font_family.secondary;
 
 // types for frontmatters
 export interface Props {
@@ -79,11 +67,11 @@ const processedDescription = await plainify(description ? description : config.m
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <!-- Fontsource font variables -->
+    <!-- Font variables from theme -->
     <style>
       :root {
-        --font-primary: "EB Garamond", Georgia, Times, serif;
-        --font-secondary: "IM Fell Double Pica", Times, serif;
+        --font-primary: {fontPrimary};
+        --font-secondary: {fontSecondary};
       }
     </style>
 
