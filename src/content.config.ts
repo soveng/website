@@ -137,6 +137,33 @@ const philosophyCollection = defineCollection({
   }),
 });
 
+// Concept collection schema  
+const conceptCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/concept" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    intro: z.object({
+      content: z.string(),
+      image: z.string(),
+    }),
+    sections: z.array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        content: z.string(),
+        image: z.string().optional(),
+        float: z.string().optional(),
+      }),
+    ),
+    cta: z.object({
+      text: z.string(),
+      link: z.string(),
+    }),
+  }),
+});
+
 // Call to Action collection schema
 const ctaSectionCollection = defineCollection({
   loader: glob({
@@ -184,6 +211,7 @@ export const collections = {
   // Pages
   homepage: homepageCollection,
   philosophy: philosophyCollection,
+  concept: conceptCollection,
   blog: blogCollection,
   authors: authorsCollection,
   pages: pagesCollection,
