@@ -178,7 +178,13 @@ const faqCollection = defineCollection({
       z.object({
         id: z.string(),
         title: z.string(),
-        content: z.string(),
+        questions: z.array(
+          z.object({
+            question: z.string(),
+            answer: z.string(),
+          }),
+        ).optional(),
+        content: z.string().optional(),
       }),
     ),
     cta: z.object({

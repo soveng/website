@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
+import FaqSection from "@/layouts/components/FaqSection.astro";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
@@ -39,13 +40,22 @@ const leadQuote = getQuoteById("ts-eliot");
 
   <!-- FAQ Sections -->
   {sections.map((section: any, index: number) => (
-    <ContentSection
-      title={section.title}
-      content={section.content}
-      image=""
-      index={index}
-      id={section.id}
-      fullWidthImage={true}
-    />
+    section.questions ? (
+      <FaqSection
+        title={section.title}
+        questions={section.questions}
+        index={index}
+        id={section.id}
+      />
+    ) : (
+      <ContentSection
+        title={section.title}
+        content={section.content}
+        image=""
+        index={index}
+        id={section.id}
+        fullWidthImage={true}
+      />
+    )
   ))}
 </Base> 
