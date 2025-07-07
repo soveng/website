@@ -68,7 +68,7 @@ const highlightedProjects = highlightedProjectNames
   .filter(Boolean) as Project[];
 
 const containerClasses = darkTheme 
-  ? "w-full text-white bg-black py-8 sm:py-16" 
+  ? "w-full text-white bg-black py-8 sm:py-16 max-w-[960px] mx-auto" 
   : "section bg-theme-light";
 
 const headerClasses = darkTheme 
@@ -105,7 +105,7 @@ const cohortHeaderClasses = darkTheme
     {showTitle && (
       <>
         <h1 class={titleClasses}>Demo Day Projects</h1>
-        <p class={`text-center text-lg mb-12 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+        <p class={`text-center text-xl mb-12 ${darkTheme ? 'text-white' : 'text-text'}`}>
           Every Friday, participants showcase what they've built during the week. These are the real projects that emerged from our intensive collaboration and experimentation sessions.
         </p>
       </>
@@ -120,7 +120,7 @@ const cohortHeaderClasses = darkTheme
         <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
           HIGHLIGHTS
         </h2>
-        <div class="overflow-x-auto">
+        <div class="overflow-x-auto mb-8">
           <!-- Table Header - Hidden on mobile, shown on larger screens -->
           <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
             <div>Project Info</div>
@@ -165,7 +165,6 @@ const cohortHeaderClasses = darkTheme
       <BigBlockQuote
         quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote || ""}
         author={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author || ""}
-        left={true}
       />
     )}
 
@@ -177,7 +176,7 @@ const cohortHeaderClasses = darkTheme
             <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
               {cohort}
             </h2>
-            <div class="overflow-x-auto">
+            <div class="overflow-x-auto mb-8">
                 {/* Table Header - Hidden on mobile, shown on larger screens */}
                 {cohortIndex === 0 && (
                   <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
@@ -224,7 +223,6 @@ const cohortHeaderClasses = darkTheme
               <BigBlockQuote
                 quote={philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote || ""}
                 author={`${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation || ""}`}
-                left={true}
               />
             )}
             {/* Evans quote between SEC-01 and SEC-02 */}
@@ -232,7 +230,6 @@ const cohortHeaderClasses = darkTheme
               <BigBlockQuote
                 quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote || ""}
                 author={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.author || ""}
-                left={true}
               />
             )}
           </>
@@ -250,14 +247,11 @@ const cohortHeaderClasses = darkTheme
             <p class={`text-lg mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
               Join the next cohort and build the future you want to see.
             </p>
-            <a href="/apply" class="btn-retro text-lg px-8 py-3">
-              Apply Now
-            </a>
           </div>
         </div>
       </>
     ) : (
-      <div class="overflow-x-auto">
+      <div class="overflow-x-auto mb-8">
         <!-- Table Header - Hidden on mobile, shown on larger screens -->
         <div class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
           <div>Project Info</div>
@@ -307,14 +301,6 @@ const cohortHeaderClasses = darkTheme
             </div>
           </div>
         ))}
-      </div>
-    )}
-    
-    {showCTA && (
-      <div class="text-center mt-8">
-        <a href={ctaLink} class="btn-retro">
-          {ctaText}
-        </a>
       </div>
     )}
   </div>
