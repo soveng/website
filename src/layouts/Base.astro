@@ -68,10 +68,10 @@ const processedDescription = await plainify(description ? description : config.m
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
     <!-- Font variables from theme -->
-    <style>
+    <style define:vars={{ fontPrimary, fontSecondary }}>
       :root {
-        --font-primary: {fontPrimary};
-        --font-secondary: {fontSecondary};
+        --font-primary: var(--fontPrimary);
+        --font-secondary: var(--fontSecondary);
       }
     </style>
 
