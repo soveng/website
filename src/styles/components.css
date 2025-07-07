@@ -169,17 +169,13 @@
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] dark:prose-td:text-darkmode-text;
 }
 
-/* Basic content styling without aggressive prose */
+/* Consistent content styling everywhere - no special cases */
 .content {
-  @apply text-lg leading-relaxed;
+  @apply text-lg leading-relaxed text-white;
 }
 
 .content p {
-  @apply mb-4;
-}
-
-.content a {
-  @apply text-white underline hover:text-primary transition-colors;
+  @apply mb-4 text-lg text-white;
 }
 
 .content ul {
@@ -187,28 +183,16 @@
 }
 
 .content li {
-  @apply mb-2;
-}
-
-/* FAQ content - clean styles that work with the cascade */
-.faq-content {
-  @apply text-lg leading-relaxed text-white;
-}
-
-.faq-content p {
-  @apply mb-4 text-lg text-white;
-}
-
-.faq-content ul {
-  @apply list-disc pl-6 mb-4;
-}
-
-.faq-content li {
   @apply mb-2 text-lg text-white;
 }
 
-.faq-content a {
-  @apply text-white underline decoration-2 underline-offset-2 hover:text-green-400 transition-colors;
+.content a {
+  @apply text-white underline decoration-2 underline-offset-2 hover:text-primary transition-colors;
+}
+
+/* FAQ content inherits all styling from .content - no overrides needed */
+.faq-content {
+  /* All styling inherited from .content above */
 }
 
 /* podcast accordion overrides */
