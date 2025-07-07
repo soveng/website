@@ -16,12 +16,12 @@ const { title, content, image, quote, author } = Astro.props;
 const leadContent = await markdownify(content, true); // div: true for paragraph processing
 ---
 
-<section class="section-sm bg-black text-white">
+<section class="section-sm bg-black text-white pt-[8rem]">
   <div class="container">
     <!-- Header -->
     <div class="row justify-center">
       <div class="col-12 text-center">
-        <h1 class="mb-8 text-white uppercase" style="font-size: 3rem;">{title}</h1>
+        <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">{title}</h1>
       </div>
     </div>
     
