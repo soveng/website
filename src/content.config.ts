@@ -164,6 +164,44 @@ const conceptCollection = defineCollection({
   }),
 });
 
+// FAQ collection schema
+const faqCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/faq" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    intro: z.object({
+      content: z.string(),
+      image: z.string(),
+    }),
+    sections: z.array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        image: z.string(),
+        questions: z.array(
+          z.object({
+            question: z.string(),
+            answer: z.string(),
+          }),
+        ),
+      }),
+    ),
+    contact: z.object({
+      title: z.string(),
+      content: z.string(),
+      email: z.string(),
+      nostr: z.string(),
+      address: z.string(),
+    }),
+    cta: z.object({
+      text: z.string(),
+      link: z.string(),
+    }),
+  }),
+});
+
 // Call to Action collection schema
 const ctaSectionCollection = defineCollection({
   loader: glob({
@@ -212,6 +250,7 @@ export const collections = {
   homepage: homepageCollection,
   philosophy: philosophyCollection,
   concept: conceptCollection,
+  faq: faqCollection,
   blog: blogCollection,
   authors: authorsCollection,
   pages: pagesCollection,

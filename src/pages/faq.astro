@@ -1,0 +1,130 @@
+---
+import Base from "@/layouts/Base.astro";
+import ContentLead from "@/layouts/components/ContentLead.astro";
+import slideConversation from "@/data/common-slides/2-hours-of-conversation.jpeg";
+import slideSolvitur from "@/data/common-slides/solvitur-ambulando.jpeg";
+import { markdownify } from "@/lib/utils/textConverter";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+// Get FAQ content
+const faq = (await getEntry(
+  "faq",
+  "-index"
+)) as CollectionEntry<"faq">;
+
+const { title, meta_title, description, intro, sections, contact, cta } = faq.data;
+
+// Map image filenames to imported slide objects or public asset URLs
+const slideMap: Record<string, any> = {
+  "2-hours-of-conversation.jpeg": slideConversation,
+  "solvitur-ambulando.jpeg": slideSolvitur,
+  "pretty-madeira.png": { src: "/images/pretty-madeira.png" },
+  "smooth-sea.jpg": { src: "/images/smooth-sea.jpg" },
+  "men-wanted.png": { src: "/images/men-wanted.png" },
+};
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+>
+  <!-- Intro Lead Section -->
+  <ContentLead
+    title={title}
+    content={intro.content}
+    image={slideMap[intro.image].src}
+    quote=""
+    author=""
+  />
+
+  <!-- FAQ Sections -->
+  {sections.map((section: any, index: number) => (
+    <section class={`section-sm ${index % 2 === 0 ? 'bg-transparent' : 'bg-body'}`}>
+      <div class="container">
+        <div class="row g-5 justify-content-center">
+          <div class="lg:col-7 md:col-9">
+            <div class="text-center">
+              <h2 set:html={markdownify(section.title)} class="mb-4" />
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="row g-4">
+              {/* Section Image */}
+              <div class="lg:col-6 order-1 lg:order-1">
+                {slideMap[section.image] && (
+                  <img
+                    class="mx-auto h-[400px] w-full rounded-2xl object-cover"
+                    src={slideMap[section.image].src}
+                    alt={section.title}
+                  />
+                )}
+              </div>
+              {/* Questions and Answers */}
+              <div class="lg:col-6 order-0 lg:order-2">
+                <div class="space-y-6">
+                  {section.questions.map((qa: any) => (
+                    <div class="faq-item">
+                      <h3 class="h4 mb-3 text-dark" set:html={markdownify(qa.question)} />
+                      <div class="content text-light" set:html={markdownify(qa.answer)} />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  ))}
+
+  <!-- Contact Section -->
+  <section class="section-sm bg-body">
+    <div class="container">
+      <div class="row g-5 justify-content-center">
+        <div class="lg:col-7 md:col-9">
+          <div class="text-center">
+            <h2 set:html={markdownify(contact.title)} class="mb-4" />
+            <p class="content" set:html={markdownify(contact.content)} />
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row g-4 justify-content-center">
+            <div class="lg:col-4 md:col-6">
+              <div class="text-center">
+                <h3 class="h4 mb-3">Email</h3>
+                <p><a href={`mailto:${contact.email}`} class="text-primary">{contact.email}</a></p>
+              </div>
+            </div>
+            <div class="lg:col-4 md:col-6">
+              <div class="text-center">
+                <h3 class="h4 mb-3">Nostr</h3>
+                <p><a href="https://njump.me/sovereignengineering.io" class="text-primary">{contact.nostr}</a></p>
+              </div>
+            </div>
+            <div class="lg:col-4 md:col-6">
+              <div class="text-center">
+                <h3 class="h4 mb-3">Address</h3>
+                <p class="content" set:html={markdownify(contact.address)} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="section-sm bg-transparent">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="lg:col-7 md:col-9 text-center">
+          <a href={cta.link} class="btn btn-primary btn-lg">
+            {cta.text}
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base> 

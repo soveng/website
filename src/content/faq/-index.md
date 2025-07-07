@@ -1,0 +1,76 @@
+---
+# FAQ Page Content
+title: "Frequently Asked Questions"
+meta_title: "FAQ"
+description: "Frequently Asked Questions about Sovereign Engineering"
+
+# Main introduction section
+intro:
+  content: |
+    Got questions about the Sovereign Engineering program? You're not alone. Here are the most common questions we receive from potential participants, along with our detailed answers.
+
+    If your question isn't covered here, don't hesitate to reach out to us via [email](mailto:info@sovereignengineering.io) or [nostr](https://njump.me/sovereignengineering.io).
+  image: "2-hours-of-conversation.jpeg"
+
+# FAQ sections
+sections:
+  - id: "program-basics"
+    title: "Program Basics"
+    image: "solvitur-ambulando.jpeg"
+    questions:
+      - question: "When does the next Sovereign Engineering Cohort start?"
+        answer: "If you are selected for SEC-05, we expect and welcome you on Monday **Sept 1st** 2025 at 9am."
+      
+      - question: "Where does the Sovereign Engineering Cohort take place?"
+        answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal"
+      
+      - question: "Is this a free program?"
+        answer: "Yes, it is. If you are selected, the program is free for you. We'll take care of the shared coworking space and make sure you feel at home. This location will be our homebase until the final Demo Day.\n\nThat said, we are not going to work 24/7. Grant yourself some time off after our working sessions to relax and enjoy the island."
+
+  - id: "logistics"
+    title: "Travel & Accommodation"
+    image: "pretty-madeira.png"
+    questions:
+      - question: "Do you pay for flights and accommodation?"
+        answer: "No, we don't. If you commit yourself to the program you have to organize your flights and accommodation yourself. If you, for any reason, are not able to do this, please send us a message via the contact form."
+      
+      - question: "Do you provide accommodation?"
+        answer: "No, but you can search for a roof over your head on:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\nThere's also madeirafriends.org which is a community that can help with many things."
+      
+      - question: "How do I need to prepare for the six weeks?"
+        answer: "There's of course a difference if you travel to Madeira on your own, or with a family. Besides this, your preparations should be approached like a longer than normal working holiday of six weeks. So, pack enough clothes and hardware that you'll be needing for living out of your suitcase for a while.\n\nIf you have special needs, please send us a message through the contact form and we'll see how we can help you settle in."
+
+  - id: "cost-living"
+    title: "Cost of Living"
+    image: "smooth-sea.jpg"
+    questions:
+      - question: "What is the cost of living in Madeira?"
+        answer: "If you are invited to come after you're selected, you need to take care of a personal budget for 6 weeks, including flight tickets, rent for accommodation, spending money for daily expenses such as breakfast, lunch and dinner. Pocket money for the weekend outings is also not a bad idea, since you'll be able to explore beautiful Madeira once you're there.\n\nA so-called ballpark figure is hard to calculate in general, as Madeira might be cheaper for participants who come from the US or north-west Europe. If you come from southern Europe or Asia or the Americas it might be more expensive. Besides this it also depends on your personal preferences for accommodation, etc.\n\nBe sure to check out:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Satlantis - Madeira Stats & Facts](https://satlantis.com)"
+
+  - id: "application"
+    title: "Application & Contact"
+    image: "men-wanted.png"
+    questions:
+      - question: "How do I apply?"
+        answer: "By filling out the [SEC-05 application form](https://sovereignengineering.typeform.com/SEC-05)."
+      
+      - question: "How do I best contact you?"
+        answer: "You can contact us via the contact form, via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io), or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."
+
+# Contact information
+contact:
+  title: "Still Have Questions?"
+  content: "Make sure to consult the Frequently Asked Questions if you have any questions. If the FAQ doesn't answer your question, please reach out to us using the contact information below."
+  email: "info@sovereignengineering.io"
+  nostr: "@sovereignengineering.io"
+  address: |
+    Sovereign Engineering Shipyard  
+    Rua das Mercês 41  
+    Funchal, Funchal 9000-224  
+    Madeira, Portugal
+
+# Call to action
+cta:
+  text: "Apply Now"
+  link: "https://sovereignengineering.typeform.com/SEC-05"
+--- 
