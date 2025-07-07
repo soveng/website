@@ -190,11 +190,6 @@
   @apply text-white underline decoration-2 underline-offset-2 hover:text-primary transition-colors;
 }
 
-/* FAQ content inherits all styling from .content - no overrides needed */
-.faq-content {
-  /* All styling inherited from .content above */
-}
-
 /* podcast accordion overrides */
 .podcast-accordion {
   @apply bg-[#18181b] border border-[#e5e7eb] shadow-lg;
