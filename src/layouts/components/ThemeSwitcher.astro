@@ -86,6 +86,4 @@ const { className }: { className?: string } = Astro.props;
 
   // Runs on initial navigation
   setDarkMode();
-  // Runs on view transitions navigation
-  document.addEventListener("astro:after-swap", setDarkMode);
 </script>
