@@ -1,5 +1,6 @@
 ---
 import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import slideShip from "@/data/common-slides/pirate-ship-2.jpeg";
 import slideFreedomTech from "@/data/common-slides/surveillance-capitalism.jpeg";
 import slideWalk from "@/data/common-slides/walking.jpeg";
@@ -65,7 +66,10 @@ const processedSections = await Promise.all(
       <div class="row justify-center">
         <div class="text-center md:col-10 lg:col-7">
           <h2 class="h3 mb-6">{title}</h2>
-          <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote(intro.quote_section)?.quote}&rdquo; &mdash;{getQuote(intro.quote_section)?.author}</blockquote>
+          <BigBlockQuote 
+            quote={getQuote(intro.quote_section)?.quote || ""} 
+            author={getQuote(intro.quote_section)?.author || ""} 
+          />
           <figure class="my-8 md:float-left md:mr-6 md:w-1/2">
             <img src={slideMap[intro.image].src} alt="Yearn for the vast and endless sea" class="rounded-lg shadow-lg" loading="lazy" />
           </figure>
@@ -74,7 +78,10 @@ const processedSections = await Promise.all(
           {processedSections.map((section) => (
             <>
               <h3 class="h4 clear-both mt-16 mb-4">{section.title}</h3>
-              <blockquote class="italic mb-3 pl-2 bg-transparent rounded-none text-gray-200">&ldquo;{getQuote(section.quote_section)?.quote}&rdquo; <cite class="not-italic font-normal text-gray-400 text-sm ml-2">&mdash;{getQuote(section.quote_section)?.author}</cite></blockquote>
+              <BigBlockQuote 
+                quote={getQuote(section.quote_section)?.quote || ""} 
+                author={getQuote(section.quote_section)?.author || ""} 
+              />
               <figure class={`my-8 md:${section.float === "left" ? "float-left md:mr-6" : "float-right md:ml-6"} md:w-1/2`}>
                 {section.link ? (
                   <a href={section.link}>
