@@ -15,6 +15,7 @@ import {
   GoogleTagmanager,
   GoogleTagmanagerNoscript,
 } from "@digi4care/astro-google-tagmanager";
+import { ClientRouter } from "astro:transitions";
 import SearchModal from "./helpers/SearchModal";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
@@ -106,6 +107,8 @@ const call_to_action = showCallToAction ? (await getEntry(
       name="description"
       content={processedDescription}
     />
+
+    <ClientRouter />
 
     <!-- author from config.json -->
     <meta name="author" content={config.metadata.meta_author} />
