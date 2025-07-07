@@ -1,5 +1,5 @@
 import { plainify, titleify } from "@/lib/utils/textConverter";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export interface ISearchItem {
   group: string;
@@ -97,33 +97,53 @@ const SearchResult = ({
     );
   };
 
-  // match content
-  const matchContent = (content: string, substring: string) => {
-    const plainContent = plainify(content);
-    const position = plainContent
-      .toLowerCase()
-      .indexOf(substring.toLowerCase());
+  // async content matcher component
+  const AsyncContentMatcher = ({ content, substring }: { content: string; substring: string }) => {
+    const [matchedContent, setMatchedContent] = useState<React.ReactNode>("");
 
-    // Find the start of the word containing the substring
-    let wordStart = position;
-    while (wordStart > 0 && plainContent[wordStart - 1] !== " ") {
-      wordStart--;
-    }
+    useEffect(() => {
+      const processContent = async () => {
+        try {
+          const plainContent = await plainify(content);
+          const position = plainContent
+            .toLowerCase()
+            .indexOf(substring.toLowerCase());
 
-    const matches = plainContent.substring(
-      wordStart,
-      substring.length + position,
-    );
-    const matchesAfter = plainContent.substring(
-      substring.length + position,
-      substring.length + position + 80,
-    );
-    return (
-      <>
-        {matchMarker(matches, substring)}
-        {matchesAfter}
-      </>
-    );
+          if (position === -1) {
+            setMatchedContent("");
+            return;
+          }
+
+          // Find the start of the word containing the substring
+          let wordStart = position;
+          while (wordStart > 0 && plainContent[wordStart - 1] !== " ") {
+            wordStart--;
+          }
+
+          const matches = plainContent.substring(
+            wordStart,
+            substring.length + position,
+          );
+          const matchesAfter = plainContent.substring(
+            substring.length + position,
+            substring.length + position + 80,
+          );
+          
+          setMatchedContent(
+            <>
+              {matchMarker(matches, substring)}
+              {matchesAfter}
+            </>
+          );
+        } catch (error) {
+          setMatchedContent("");
+        }
+      };
+
+      processContent();
+    }, [content, substring]);
+
+    return <>{matchedContent}</>;
   };
 
   return (
@@ -168,7 +188,7 @@ const SearchResult = ({
                       )}
                       {item.content && (
                         <p className="search-result-item-content">
-                          {matchContent(item.content, searchString)}
+                          <AsyncContentMatcher content={item.content} substring={searchString} />
                         </p>
                       )}
                       <div className="search-result-item-taxonomies">
