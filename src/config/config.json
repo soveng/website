@@ -1,15 +1,15 @@
 {
   "site": {
     "title": "Sovereign Engineering",
-    "base_url": "https://soveng2.netlify.app",
+    "base_url": "https://soveng2.vercel.app",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
+    "favicon": "/images/favicon.ico",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
     "logo_height": "30",
-    "logo_text": "Astroplate"
+    "logo_text": "Sovereign Engineering"
   },
 
   "settings": {
