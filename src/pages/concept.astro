@@ -12,7 +12,7 @@ const concept = (await getEntry(
   "-index"
 )) as CollectionEntry<"concept">;
 
-const { title, meta_title, description, intro, sections, cta } = concept.data;
+const { title, meta_title, description, intro, sections } = concept.data;
 
 // Process markdown content
 const introContent = await markdownify(intro.content);
@@ -65,9 +65,6 @@ const processedSections = await Promise.all(
                 )}
               </>
             ))}
-          </div>
-          <div class="text-center mt-10">
-            <a href={cta.link} class="btn-retro">{cta.text}</a>
           </div>
         </div>
       </div>

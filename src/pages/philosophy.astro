@@ -26,7 +26,7 @@ const philosophy = (await getEntry(
   "-index"
 )) as CollectionEntry<"philosophy">;
 
-const { title, meta_title, description, intro, sections, cta } = philosophy.data;
+const { title, meta_title, description, intro, sections } = philosophy.data;
 
 // Helper function to find quote by section (preserving existing quote system)
 const getQuote = (section: string) => {
@@ -77,15 +77,4 @@ const slideMap: Record<string, any> = {
       }}
     />
   ))}
-
-  <!-- Call to Action -->
-  <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="text-center">
-          <a href={cta.link} class="btn-retro">{cta.text}</a>
-        </div>
-      </div>
-    </div>
-  </section>
 </Base> 
