@@ -1,8 +1,14 @@
 ---
 import Base from "@/layouts/Base.astro";
+import ContentLead from "@/layouts/components/ContentLead.astro";
+import ContentSection from "@/layouts/components/ContentSection.astro";
 import slideLoop from "@/data/common-slides/show-talk-build-loop.jpeg";
+import slideWalk from "@/data/common-slides/walking.jpeg";
+import slideEndurance from "@/data/common-slides/endurance.jpeg";
+import slideInPerson from "@/data/common-slides/soveng-shirt.jpeg";
+import slideCypherpunks from "@/data/common-slides/cypherpunks-write-code.jpeg";
+import slideWideOpenSea from "@/data/common-slides/wide-open-sea.jpeg";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
-import { markdownify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 
@@ -14,14 +20,37 @@ const concept = (await getEntry(
 
 const { title, meta_title, description, intro, sections } = concept.data;
 
-// Process markdown content
-const introContent = await markdownify(intro.content);
-const processedSections = await Promise.all(
-  sections.map(async (section: any) => ({
-    ...section,
-    content: await markdownify(section.content),
-  }))
-);
+// Helper function for quotes (empty for now, can be populated later)
+const getQuote = (section: string) => {
+  return { quote: "", author: "" };
+};
+
+// Map image filenames to imported slide objects
+const slideMap: Record<string, any> = {
+  "show-talk-build-loop.jpeg": slideLoop,
+  "walking.jpeg": slideWalk,
+  "endurance.jpeg": slideEndurance,
+  "soveng-shirt.jpeg": slideInPerson,
+  "cypherpunks-write-code.jpeg": slideCypherpunks,
+  "wide-open-sea.jpeg": slideWideOpenSea,
+  "revealed-on-walk.jpg": slideWalk, // fallback to walking slide
+  "smooth-sea.jpg": slideWideOpenSea, // fallback to wide open sea slide
+};
+
+// Process sections to add special handling for weekly-loop
+const processedSections = sections.map((section: any) => {
+  if (section.id === "weekly-loop") {
+    // Convert weekly rhythm schedule to bulletpoints
+    const scheduleBullets = weeklyRhythmData.schedule.map((item) => 
+      `**${item.day}** – ${item.description}`
+    );
+    return {
+      ...section,
+      bulletpoints: scheduleBullets
+    };
+  }
+  return section;
+});
 ---
 
 <Base
@@ -29,45 +58,29 @@ const processedSections = await Promise.all(
   meta_title={meta_title}
   description={description}
 >
-  <section class="section-sm">
-    <div class="container">
-      <div class="row justify-center">
-        <div class="text-center md:col-10 lg:col-7">
-          <h2 class="h3 mb-6">{title}</h2>
-          <div class="content text-left">
-            <figure class="my-8">
-              <img src={slideLoop.src} alt="Show • Talk • Build cycle" class="rounded-lg shadow-lg mx-auto" loading="lazy" />
-            </figure>
-            <div set:html={introContent}></div>
+  <!-- Intro Lead Section -->
+  <ContentLead
+    title={title}
+    content={intro.content}
+    image={slideMap[intro.image].src}
+    quote=""
+    author=""
+  />
 
-            {processedSections.map((section) => (
-              <>
-                <h3 class="h4 mt-8 mb-4">{section.title}</h3>
-                <div class="content text-left" set:html={section.content}></div>
-                {section.id === "weekly-loop" && (
-                  <>
-                    <p class="mt-6">The cadence unfolds like this:</p>
-                    <ul class="list-disc pl-6 space-y-1">
-                      {weeklyRhythmData.schedule.map((item) => (
-                        <li><strong>{item.day}</strong>&nbsp;– {item.description}</li>
-                      ))}
-                    </ul>
-                    <p class="mt-6">Walks, workshops, and time-boxed demos are not décor—they are load-bearing rituals. They mix the group, surface blind spots early, and keep exit-costs for bad ideas near zero. When the bell rings on Friday everyone ships, learns, and immediately sets course for the next horizon.</p>
-                  </>
-                )}
-                {section.image && (
-                  <img 
-                    src={`/images/${section.image}`} 
-                    alt={section.title} 
-                    loading="lazy" 
-                    class={`w-1/2 md:w-1/3 lg:w-1/4 ${section.float === "left" ? "float-left mr-4" : "float-right ml-4"} mb-4 rounded-lg shadow-lg`} 
-                  />
-                )}
-              </>
-            ))}
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- Content Sections -->
+  {processedSections.map((section: any, index: number) => (
+    <ContentSection
+      title={section.title}
+      content={section.content}
+      image={slideMap[section.image]?.src || slideLoop.src}
+      index={index}
+      id={section.id}
+      bulletpoints={section.bulletpoints || []}
+      pullquote={{
+        quote: "",
+        author: "",
+        href: section.link
+      }}
+    />
+  ))}
 </Base> 
