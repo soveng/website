@@ -8,6 +8,8 @@ import Header from "@/partials/Header.astro";
 import "@/styles/main.css";
 import "@fontsource/im-fell-double-pica";
 import "@fontsource/im-fell-double-pica/400-italic.css";
+import "@fontsource/eb-garamond";
+import "@fontsource/eb-garamond/400-italic.css";
 import {
   GoogleTagmanager,
   GoogleTagmanagerNoscript,
@@ -45,6 +47,10 @@ export interface Props {
 // destructure frontmatter
 const { title, meta_title, description, image, noindex, canonical } =
   Astro.props;
+
+// process text content
+const processedTitle = await plainify(meta_title ? meta_title : title ? title : config.site.title);
+const processedDescription = await plainify(description ? description : config.metadata.meta_description);
 ---
 
 <!doctype html>
@@ -77,7 +83,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- Fontsource font variables -->
     <style>
       :root {
-        --font-primary: "IM Fell Double Pica", Georgia, Times, serif;
+        --font-primary: "EB Garamond", Georgia, Times, serif;
         --font-secondary: "IM Fell Double Pica", Times, serif;
       }
     </style>
@@ -90,7 +96,7 @@ const { title, meta_title, description, image, noindex, canonical } =
 
     <!-- title -->
     <title>
-      {plainify(meta_title ? meta_title : title ? title : config.site.title)}
+      {processedTitle}
     </title>
 
     <!-- canonical url -->
@@ -102,9 +108,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- meta-description -->
     <meta
       name="description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
+      content={processedDescription}
     />
 
     <ClientRouter />
@@ -115,17 +119,13 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- og-title -->
     <meta
       property="og:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title
-      )}
+      content={processedTitle}
     />
 
     <!-- og-description -->
     <meta
       property="og:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
+      content={processedDescription}
     />
     <meta property="og:type" content="website" />
     <meta
@@ -136,17 +136,13 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- twitter-title -->
     <meta
       name="twitter:title"
-      content={plainify(
-        meta_title ? meta_title : title ? title : config.site.title
-      )}
+      content={processedTitle}
     />
 
     <!-- twitter-description -->
     <meta
       name="twitter:description"
-      content={plainify(
-        description ? description : config.metadata.meta_description
-      )}
+      content={processedDescription}
     />
 
     <!-- og-image -->
