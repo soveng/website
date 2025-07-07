@@ -16,10 +16,7 @@
     "search": true,
     "sticky_header": true,
     "theme_switcher": true,
-    "default_theme": "dark",
-    "pagination": 2,
-    "summary_length": 200,
-    "blog_folder": "blog"
+    "default_theme": "dark"
   },
 
   "params": {
@@ -39,8 +36,8 @@
   },
 
   "disqus": {
-    "enable": true,
-    "shortname": "themefisher-template",
+    "enable": false,
+    "shortname": "",
     "settings": {}
   },
 
