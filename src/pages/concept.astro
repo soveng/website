@@ -76,7 +76,7 @@ const processedSections = sections.map((section: any) => {
     <ContentSection
       title={section.title}
       content={section.content}
-      image={slideMap[section.image]?.src || slideLoop.src}
+      image={slideMap[section.image]?.src}
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
