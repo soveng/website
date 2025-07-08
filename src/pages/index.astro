@@ -47,9 +47,9 @@ const bannerContent = await markdownify(banner.content);
 
 <Base showCallToAction={false}>
   <!-- Hero Section -->
-  <header class="h-screen w-full flex flex-col text-white relative bg-primary">
+  <header class="h-screen w-full flex flex-col text-white relative bg-primary font-primary text-xl">
     <!-- Top Navigation / Logo Row -->
-    <div class="container py-4 flex-shrink-0">
+    <div class="container pt-4 flex-shrink-0">
       <div class="flex items-center justify-between gap-3">
         <a href="/projects" class="hover:underline whitespace-nowrap">Build the tools.</a>
         <img
@@ -62,8 +62,8 @@ const bannerContent = await markdownify(banner.content);
     </div>
 
     <!-- Hero Title -->
-    <div class="w-full text-center py-4 flex-shrink-0">
-      <h1 class="text-[8vw] sm:text-[6vw] leading-none">SOVEREIGN ENGINEERING</h1>
+    <div class="w-full text-center pt-4 flex-shrink-0">
+      <h1 class="text-[calc(max(6vw, 4rem))] leading-none">SOVEREIGN ENGINEERING</h1>
     </div>
 
     <!-- Main Content - Image -->
@@ -71,33 +71,33 @@ const bannerContent = await markdownify(banner.content);
       <img
         src="/images/shining-city-in-cyberspace.png"
         alt="Person looking at a shining city in cyberspace"
-        class="w-full max-w-[90%] sm:max-w-[70%] h-auto max-h-full object-contain pointer-events-none"
-        style={{ imageRendering: "pixelated" }}
+        class="w-full h-auto max-h-full object-contain pointer-events-none"
+        style={{ imageRendering: "pixelated", mixBlendMode: "lighten" }}
       />
     </main>
 
     <!-- Subtitle Section -->
-    <div class="w-full text-center py-4 flex-shrink-0">
+    <div class="w-full text-center py-4 flex-shrink-0 mb-4 sm:mb-0">
       <div class="container">
-        <div class="mx-auto w-full md:w-1/2 text-[4vw] sm:text-[2.5vw] leading-tight text-white" set:html={bannerTitle}></div>
+        <div class="mx-auto w-3/4 md:text-4xl leading-none text-white text-balance" set:html={bannerTitle}></div>
       </div>
     </div>
 
     <!-- Call to Action Button and Bottom Text -->
-    <div class="w-full py-4 flex-shrink-0">
+    <div class="w-full py-4 flex-shrink-0 mb-8">
       <div class="container">
-        <div class="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+        <div class="flex flex-col sm:flex-row justify-between items-center sm:gap-0">
           <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
             <p class="m-0 text-balance">
               Six weeks of high-bandwidth ideation, dialog, and experimentation.
             </p>
           </div>
 
-          <div class="text-center order-first sm:order-none">
+          <div class="text-center order-first sm:order-none mb-12 sm:mb-0">
             {
               banner.button.enable && (
                 <a
-                  class="btn-retro text-lg px-8 py-4"
+                  class="btn-retro px-8 py-4"
                   href={banner.button.link}
                   target={
                     banner.button.link.startsWith("http") ? "_blank" : "_self"
