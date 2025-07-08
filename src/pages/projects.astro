@@ -1,11 +1,11 @@
 ---
-import BaseNoHeader from "@/layouts/BaseNoHeader.astro";
+import Base from "@/layouts/Base.astro";
 import ProjectShowcase from "@/components/ProjectShowcase.astro";
 import showcaseProjects from "@/data/showcaseProjects.js";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 ---
 
-<BaseNoHeader
+<Base
   title="Demo Day Projects"
   meta_title="Demo Day Projects"
   description="Explore projects built by Sovereign Engineering Cohort participants during their Demo Days"
@@ -16,4 +16,4 @@ import philosophyQuotes from "@/data/philosophy-quotes.json";
     showTitle={true}
     showHighlights={true}
   />
-</BaseNoHeader>
+</Base>

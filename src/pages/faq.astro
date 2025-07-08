@@ -1,0 +1,62 @@
+---
+import Base from "@/layouts/Base.astro";
+import ContentLead from "@/layouts/components/ContentLead.astro";
+import ContentSection from "@/layouts/components/ContentSection.astro";
+import FaqSection from "@/layouts/components/FaqSection.astro";
+import philosophyQuotes from "@/data/philosophy-quotes.json";
+import type { CollectionEntry } from "astro:content";
+import { getEntry } from "astro:content";
+
+// Get FAQ content
+const faq = (await getEntry(
+  "faq",
+  "-index"
+)) as CollectionEntry<"faq">;
+
+const { title, meta_title, description, intro, sections, cta } = faq.data;
+
+// Helper function to find quote by ID
+const getQuoteById = (id: string) => {
+  return philosophyQuotes.find(q => q.id === id);
+};
+
+// Get the T.S. Eliot quote for the ContentLead
+const leadQuote = getQuoteById("ts-eliot");
+---
+
+<Base
+  title={title}
+  meta_title={meta_title}
+  description={description}
+>
+  <!-- Intro Lead Section -->
+  <ContentLead
+    title={title}
+    content={intro.content}
+    image="/images/funchal.jpg"
+    quote={leadQuote?.quote || ""}
+    author={leadQuote?.author || ""}
+  />
+
+  <!-- FAQ Sections -->
+  {sections.map((section: any, index: number) => (
+    section.questions ? (
+      <FaqSection
+        title={section.title}
+        questions={section.questions}
+        content={section.content}
+        index={index}
+        id={section.id}
+      />
+    ) : (
+      <ContentSection
+        title={section.title}
+        content={section.content}
+        image=""
+        index={index}
+        id={section.id}
+        fullWidthImage={true}
+      />
+    )
+  ))}
+</Base> 

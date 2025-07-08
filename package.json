@@ -7,12 +7,11 @@
   "type": "module",
   "packageManager": "yarn@1.22.22",
   "scripts": {
-    "dev": "yarn generate-json && astro dev",
-    "build": "yarn generate-json && astro build",
+    "dev": "astro dev",
+    "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
     "format": "prettier -w ./src",
-    "generate-json": "node scripts/jsonGenerator.js",
     "remove-darkmode": "node scripts/removeDarkmode.js && yarn format"
   },
   "dependencies": {
@@ -22,6 +21,7 @@
     "@astrojs/rss": "4.0.11",
     "@astrojs/sitemap": "3.3.1",
     "@digi4care/astro-google-tagmanager": "^1.4.0",
+    "@fontsource/eb-garamond": "^5.2.6",
     "@fontsource/im-fell-double-pica": "^5.2.6",
     "@justinribeiro/lite-youtube": "^1.8.0",
     "astro": "5.7.8",

@@ -65,7 +65,7 @@ const showcaseProjects = [
     cohort: "SEC-01",
     link: "https://github.com/hzrd149/blossom-drive",
     linkText: "github.com/hzrd149/blossom-drive",
-    logo: "/images/showcase/blossom-logo.jpg",
+    logo: "/images/showcase/blossom-logo.png",
     highlight: false,
   },
   {

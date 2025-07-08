@@ -9,7 +9,7 @@
 
 /* container */
 .container {
-  @apply mx-auto max-w-[1200px] px-4;
+  @apply mx-auto max-w-[960px] px-4;
 }
 
 /* social icons */
@@ -20,7 +20,7 @@
   @apply inline-block;
 }
 .social-icons li a {
-  @apply flex h-9 w-9 items-center justify-center rounded-sm bg-primary text-center leading-9 text-white dark:bg-darkmode-primary dark:text-text-dark;
+  @apply flex h-9 w-9 items-center justify-center bg-primary text-center leading-9 text-white dark:bg-darkmode-primary dark:text-text-dark;
 }
 .social-icons li a svg {
   @apply h-5 w-5;
@@ -146,8 +146,8 @@
   @apply absolute right-3 top-3 h-8 w-8 rounded-full bg-light text-center leading-8 text-text-dark dark:bg-darkmode-light dark:text-darkmode-text-dark;
 }
 
-/* content style */
-.content {
+/* Prose content - only apply when explicitly needed */
+.prose-content {
   @apply prose max-w-none;
   @apply prose-headings:mb-[.3em] prose-headings:mt-[.6em] prose-headings:text-text-dark dark:prose-headings:text-darkmode-text-dark;
   @apply prose-h1:text-h1-sm md:prose-h1:text-h1;
@@ -167,6 +167,32 @@
   @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-text-dark dark:prose-th:text-darkmode-text;
   @apply prose-tr:border-border dark:prose-tr:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] dark:prose-td:text-darkmode-text;
+}
+
+/* Consistent content styling everywhere - no special cases */
+.content {
+  @apply text-lg leading-relaxed text-white;
+}
+
+.content p {
+  @apply mb-4 text-lg text-white;
+}
+
+.content ul {
+  @apply list-none pl-0 mb-4;
+}
+
+.content li {
+  @apply flex items-center mb-4 text-lg text-white;
+}
+
+.content li::before {
+  content: "✦";
+  @apply mr-3 flex-shrink-0 text-white;
+}
+
+.content a {
+  @apply text-white underline decoration-2 underline-offset-2 hover:text-primary transition-colors;
 }
 
 /* podcast accordion overrides */
