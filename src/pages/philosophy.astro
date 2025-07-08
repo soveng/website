@@ -3,18 +3,18 @@ import Base from "@/layouts/Base.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
-import slideShip from "@/data/common-slides/pirate-ship-2.jpeg";
-import slideFreedomTech from "@/data/common-slides/surveillance-capitalism.jpeg";
-import slideWalk from "@/data/common-slides/walking.jpeg";
-import slideEndurance from "@/data/common-slides/endurance.jpeg";
-import slideExplorers from "@/data/common-slides/pirate-ship-2.jpeg";
-import slideInPerson from "@/data/common-slides/soveng-shirt.jpeg";
-import slideBias from "@/data/common-slides/show-talk-build-loop.jpeg";
-import slideCypherpunks from "@/data/common-slides/cypherpunks-write-code.jpeg";
-import slideWideOpenSea from "@/data/common-slides/wide-open-sea.jpeg";
-import slideBellLabs from "@/data/common-slides/bell-labs.jpeg";
-import slideSolvitur from "@/data/common-slides/solvitur-ambulando.jpeg";
-import slideGenesisBlock from "@/data/common-slides/genesis-block.png";
+import slideShip from "@/assets/images/pirate-ship-2.jpeg";
+import slideFreedomTech from "@/assets/images/surveillance-capitalism.jpeg";
+import slideWalk from "@/assets/images/walking.jpeg";
+import slideEndurance from "@/assets/images/endurance.jpeg";
+import slideExplorers from "@/assets/images/pirate-ship-2.jpeg";
+import slideInPerson from "@/assets/images/soveng-shirt.jpeg";
+import slideBias from "@/assets/images/show-talk-build-loop.jpeg";
+import slideCypherpunks from "@/assets/images/cypherpunks-write-code.jpeg";
+import slideWideOpenSea from "@/assets/images/wide-open-sea.jpeg";
+import slideBellLabs from "@/assets/images/bell-labs.jpeg";
+import slideSolvitur from "@/assets/images/solvitur-ambulando.jpeg";
+import slideGenesisBlock from "@/assets/images/genesis-block.png";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { CollectionEntry } from "astro:content";
@@ -33,7 +33,7 @@ const getQuote = (section: string) => {
   return philosophyQuotes.find(q => q.section === section);
 };
 
-// Map image filenames to imported slide objects
+// Map image filenames to imported slide objects (now optimized assets)
 const slideMap: Record<string, any> = {
   "pirate-ship-2.jpeg": slideShip,
   "surveillance-capitalism.jpeg": slideFreedomTech,

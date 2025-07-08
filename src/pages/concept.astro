@@ -2,12 +2,12 @@
 import Base from "@/layouts/Base.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
-import slideLoop from "@/data/common-slides/show-talk-build-loop.jpeg";
-import slideWalk from "@/data/common-slides/walking.jpeg";
-import slideEndurance from "@/data/common-slides/endurance.jpeg";
-import slideInPerson from "@/data/common-slides/soveng-shirt.jpeg";
-import slideCypherpunks from "@/data/common-slides/cypherpunks-write-code.jpeg";
-import slideWideOpenSea from "@/data/common-slides/wide-open-sea.jpeg";
+import slideLoop from "@/assets/images/show-talk-build-loop.jpeg";
+import slideWalk from "@/assets/images/walking.jpeg";
+import slideEndurance from "@/assets/images/endurance.jpeg";
+import slideInPerson from "@/assets/images/soveng-shirt.jpeg";
+import slideCypherpunks from "@/assets/images/cypherpunks-write-code.jpeg";
+import slideWideOpenSea from "@/assets/images/wide-open-sea.jpeg";
 import revealedOnWalkImage from "@/assets/images/revealed-on-walk.jpg";
 import smoothSeaImage from "@/assets/images/smooth-sea.jpg";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
@@ -31,7 +31,7 @@ const getQuoteById = (id: string) => {
 // Get the Berdyaev quote for the ContentLead
 const leadQuote = getQuoteById("berdyaev-beginning-end");
 
-// Map image filenames to imported slide objects
+// Map image filenames to imported slide objects (now optimized assets)
 const slideMap: Record<string, any> = {
   "show-talk-build-loop.jpeg": slideLoop,
   "walking.jpeg": slideWalk,
