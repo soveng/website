@@ -14,8 +14,7 @@ import { getEntry } from "astro:content";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 
-// Import optimized images
-import heroImage from "@/assets/images/shining-city-in-cyberspace.png";
+// Import optimized images (logo only - hero stays unoptimized for pixelated aesthetic)
 import logoImage from "@/assets/images/sec-05-sec-05-brandmark-white-rgb.svg";
 
 interface Homepage {
@@ -73,13 +72,12 @@ const bannerContent = await markdownify(banner.content);
 
     <!-- Main Content - Image -->
     <main class="flex-grow flex items-center justify-center min-h-0">
-      <Image
-        src={heroImage}
+      <img
+        src="/images/shining-city-in-cyberspace.png"
         alt="Person looking at a shining city in cyberspace"
         class="w-full h-auto max-h-full object-contain pointer-events-none"
         style={{ imageRendering: "pixelated", mixBlendMode: "lighten" }}
         loading="eager"
-        format="webp"
       />
     </main>
 
