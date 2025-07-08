@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import ImageMod from "@/components/ImageMod.astro";
 import Win95Card from "@/components/Win95Card.astro";
 import Base from "@/layouts/Base.astro";
@@ -12,6 +13,9 @@ import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
+
+// Import optimized images (logo only - hero stays unoptimized for pixelated aesthetic)
+import logoImage from "@/assets/images/sec-05-sec-05-brandmark-white-rgb.svg";
 
 interface Homepage {
   banner: {
@@ -47,78 +51,78 @@ const bannerContent = await markdownify(banner.content);
 
 <Base showCallToAction={false}>
   <!-- Hero Section -->
-  <header class="h-screen w-full flex flex-col text-white relative">
-    <!-- Red background behind everything -->
-    <div class="absolute inset-0 bg-primary" style={{ zIndex: -2 }}></div>
-    
-    <!-- Background image with mix blend mode -->
-    <div
-      class="absolute inset-0 bg-center bg-no-repeat pointer-events-none"
-      style={{
-        backgroundImage: `url('/images/shining-city-in-cyberspace.png')`,
-        imageRendering: "pixelated",
-        mixBlendMode: "lighten",
-        zIndex: -1,
-      }}
-    ></div>
-    
-    <!-- Header with logo -->
-    <div class="container">
-      <div class="flex flex-col sm:flex-row justify-between items-center py-4 gap-1 sm:gap-0">
-      <div class="order-2 sm:order-1"><a href="/projects" class="hover:underline">Build the tools.</a></div>
-      <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-[2.5rem] sm:w-[3rem] order-1 sm:order-2" />
-      <div class="order-3"><a href="/concept" class="hover:underline">Ship the future.</a></div>
+  <header class="h-screen w-full flex flex-col text-white relative bg-primary font-primary text-lg">
+    <!-- Top Navigation / Logo Row -->
+    <div class="container pt-4 flex-shrink-0">
+      <div class="flex items-center justify-between gap-3">
+        <a href="/projects" class="hover:underline whitespace-nowrap">Build the tools.</a>
+        <Image
+          src={logoImage}
+          alt="Sovereign Engineering"
+          class="w-[2.5rem] sm:w-[3rem]"
+        />
+        <a href="/concept" class="hover:underline whitespace-nowrap">Ship the future.</a>
       </div>
     </div>
 
-    <div class="w-full flex-grow sm:flex-grow-0 text-center py-2 sm:py-16 flex items-center justify-center">
-      <h1 class="text-[8vw] sm:text-[6vw] leading-none">SOVEREIGN ENGINEERING</h1>
+    <!-- Hero Title -->
+    <div class="w-full text-center pt-4 flex-shrink-0">
+      <h1 class="text-[calc(max(6vw, 4rem))] leading-none">SOVEREIGN ENGINEERING</h1>
     </div>
 
-    <main class="flex-grow">
-      <!-- The main content is the background image -->
+    <!-- Main Content - Image -->
+    <main class="flex-grow flex items-center justify-center min-h-0">
+      <img
+        src="/images/shining-city-in-cyberspace.png"
+        alt="Person looking at a shining city in cyberspace"
+        class="w-full h-auto max-h-full object-contain pointer-events-none"
+        style={{ imageRendering: "pixelated", mixBlendMode: "lighten" }}
+        loading="eager"
+      />
     </main>
 
-    <!-- Dynamic title section -->
-    <div class="w-full text-center py-8">
+    <!-- Subtitle Section -->
+    <div class="w-full text-center py-4 flex-shrink-0 mb-0">
       <div class="container">
-        <div class="mx-auto w-full md:w-1/2 text-[4vw] sm:text-[2.5vw] leading-tight text-white" set:html={bannerTitle}></div>
+        <div class="mx-auto w-3/4 md:text-4xl leading-none text-white text-balance" set:html={bannerTitle}></div>
       </div>
     </div>
 
-    <footer class="w-full">
+    <!-- Call to Action Button and Bottom Text -->
+    <div class="w-full py-4 flex-shrink-0 mb-4">
       <div class="container">
-        <div class="flex flex-col sm:flex-row justify-between items-center py-8 gap-4 sm:gap-0">
-      <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
-        <p class="m-0 text-balance">
-          Six weeks of high-bandwidth ideation, dialog, and experimentation.
-        </p>
-      </div>
+        <div class="flex flex-col sm:flex-row justify-between items-center sm:gap-0">
+          <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
+            <p class="m-0 text-balance">
+              Six weeks of high-bandwidth ideation, dialog, and experimentation.
+            </p>
+          </div>
 
-      <div class="text-center order-first sm:order-none">
-        {
-          banner.button.enable && (
-            <a
-              class="btn-retro text-lg px-8 py-4"
-              href={banner.button.link}
-              target={
-                banner.button.link.startsWith("http") ? "_blank" : "_self"
-              }
-              rel="noopener"
-            >
-              {banner.button.label}
-            </a>
-          )
-        }
-      </div>
+          <div class="text-center order-first sm:order-none mb-8 sm:mb-0">
+            {
+              banner.button.enable && (
+                <a
+                  class="btn-retro px-8 py-4"
+                  href={banner.button.link}
+                  target={
+                    banner.button.link.startsWith("http") ? "_blank" : "_self"
+                  }
+                  rel="noopener"
+                >
+                  {banner.button.label}
+                </a>
+              )
+            }
+          </div>
 
-      <div class="text-center sm:text-right w-full sm:w-1/4 leading-none">
-        <p class="m-0 text-balance">
-          Build applications and services for a self-sovereign future.
-        </p>
+          <div class="text-center sm:text-right w-full sm:w-1/4 leading-none">
+            <p class="m-0 text-balance">
+              Build applications and services for a self-sovereign future.
+            </p>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
   </header>
   <!-- /Hero Section -->
 

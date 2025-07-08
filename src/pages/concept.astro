@@ -2,12 +2,14 @@
 import Base from "@/layouts/Base.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
-import slideLoop from "@/data/common-slides/show-talk-build-loop.jpeg";
-import slideWalk from "@/data/common-slides/walking.jpeg";
-import slideEndurance from "@/data/common-slides/endurance.jpeg";
-import slideInPerson from "@/data/common-slides/soveng-shirt.jpeg";
-import slideCypherpunks from "@/data/common-slides/cypherpunks-write-code.jpeg";
-import slideWideOpenSea from "@/data/common-slides/wide-open-sea.jpeg";
+import slideLoop from "@/assets/images/show-talk-build-loop.jpeg";
+import slideWalk from "@/assets/images/walking.jpeg";
+import slideEndurance from "@/assets/images/endurance.jpeg";
+import slideInPerson from "@/assets/images/soveng-shirt.jpeg";
+import slideCypherpunks from "@/assets/images/cypherpunks-write-code.jpeg";
+import slideWideOpenSea from "@/assets/images/wide-open-sea.jpeg";
+import revealedOnWalkImage from "@/assets/images/revealed-on-walk.jpg";
+import smoothSeaImage from "@/assets/images/smooth-sea.jpg";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 import type { CollectionEntry } from "astro:content";
@@ -29,7 +31,7 @@ const getQuoteById = (id: string) => {
 // Get the Berdyaev quote for the ContentLead
 const leadQuote = getQuoteById("berdyaev-beginning-end");
 
-// Map image filenames to imported slide objects
+// Map image filenames to imported slide objects (now optimized assets)
 const slideMap: Record<string, any> = {
   "show-talk-build-loop.jpeg": slideLoop,
   "walking.jpeg": slideWalk,
@@ -37,8 +39,8 @@ const slideMap: Record<string, any> = {
   "soveng-shirt.jpeg": slideInPerson,
   "cypherpunks-write-code.jpeg": slideCypherpunks,
   "wide-open-sea.jpeg": slideWideOpenSea,
-  "revealed-on-walk.jpg": { src: "/images/revealed-on-walk.jpg" },
-  "smooth-sea.jpg": { src: "/images/smooth-sea.jpg" },
+  "revealed-on-walk.jpg": revealedOnWalkImage,
+  "smooth-sea.jpg": smoothSeaImage,
 };
 
 // Process sections to add special handling for weekly-loop
@@ -66,7 +68,7 @@ const processedSections = sections.map((section: any) => {
   <ContentLead
     title={title}
     content={intro.content}
-    image={slideMap[intro.image].src}
+    image={slideMap[intro.image]}
     quote={leadQuote?.quote || ""}
     author={leadQuote?.author || ""}
   />
@@ -76,7 +78,7 @@ const processedSections = sections.map((section: any) => {
     <ContentSection
       title={section.title}
       content={section.content}
-      image={slideMap[section.image]?.src}
+      image={slideMap[section.image]}
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}

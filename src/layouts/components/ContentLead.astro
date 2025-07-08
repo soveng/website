@@ -1,11 +1,13 @@
 ---
+import { Image } from "astro:assets";
 import { markdownify } from "@/lib/utils/textConverter";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
+import type { ImageMetadata } from "astro";
 
 interface Props {
   title: string;
   content: string;
-  image: string;
+  image: string | ImageMetadata;
   quote: string;
   author: string;
 }
@@ -14,6 +16,9 @@ const { title, content, image, quote, author } = Astro.props;
 
 // Pre-process markdown content
 const leadContent = await markdownify(content, true); // div: true for paragraph processing
+
+// Check if image is an imported asset or a string path
+const isOptimizedImage = typeof image === 'object' && image !== null;
 ---
 
 <section class="section-sm bg-black text-white pt-[8rem]">
@@ -36,12 +41,23 @@ const leadContent = await markdownify(content, true); // div: true for paragraph
     <!-- Full Width Image -->
     <div class="row justify-center">
       <div class="col-12">
-        <img
-          src={image}
-          alt={title}
-          class="w-full mb-8"
-          loading="lazy"
-        />
+        {isOptimizedImage ? (
+          <Image
+            src={image as ImageMetadata}
+            alt={title}
+            class="w-full mb-8"
+            loading="eager"
+            format="webp"
+            quality={85}
+          />
+        ) : (
+          <img
+            src={image as string}
+            alt={title}
+            class="w-full mb-8"
+            loading="eager"
+          />
+        )}
       </div>
     </div>
     
