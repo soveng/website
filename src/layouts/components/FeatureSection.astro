@@ -80,18 +80,19 @@ const imageRight = index % 2 !== 0;
         {useOptimizedImage ? (
           <Image
             src={optimizedImage}
-            height={480}
-            width={520}
+            height={960}
+            width={1040}
             alt={altText}
             class={`feature-image ${shouldBePixelated ? 'pixelated' : ''}`}
             format="webp"
             loading="lazy"
+            quality={85}
           />
         ) : (
           <img
             src={image}
-            height={480}
-            width={520}
+            height={960}
+            width={1040}
             alt={altText}
             class={`feature-image ${shouldBePixelated ? 'pixelated' : ''}`}
           />

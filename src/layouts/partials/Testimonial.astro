@@ -45,20 +45,22 @@ const { testimonial } = Astro.props;
                                 class="cursor-pointer hover:opacity-80 transition-opacity"
                               >
                                 <ImageMod
-                                  height={50}
-                                  width={50}
+                                  height={100}
+                                  width={100}
                                   src={item.avatar}
                                   alt={item.name}
                                   format="webp"
+                                  class="w-[50px] h-[50px]"
                                 />
                               </a>
                             ) : (
                               <ImageMod
-                                height={50}
-                                width={50}
+                                height={100}
+                                width={100}
                                 src={item.avatar}
                                 alt={item.name}
                                 format="webp"
+                                class="w-[50px] h-[50px]"
                               />
                             )}
                           </div>
