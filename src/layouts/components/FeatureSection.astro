@@ -35,6 +35,15 @@ const imageMap: Record<string, any> = {
 const optimizedImage = imageMap[image] || image;
 const useOptimizedImage = imageMap[image] !== undefined;
 
+// Define which images should have pixelated rendering
+const pixelatedImages = [
+  "/images/boat1.png",
+  "/images/boat2.png", 
+  "/images/map.png",
+  "/images/men-wanted.png"
+];
+const shouldBePixelated = pixelatedImages.includes(image);
+
 // Pre-process markdown content
 const featureTitle = await markdownify(title);
 const featureContent = await markdownify(content);
@@ -63,7 +72,7 @@ const imageRight = index % 2 !== 0;
             height={480}
             width={520}
             alt={title}
-            class="feature-image"
+            class={`feature-image ${shouldBePixelated ? 'pixelated' : ''}`}
             format="webp"
             loading="lazy"
           />
@@ -73,7 +82,7 @@ const imageRight = index % 2 !== 0;
             height={480}
             width={520}
             alt={title}
-            class="feature-image"
+            class={`feature-image ${shouldBePixelated ? 'pixelated' : ''}`}
           />
         )}
       </div>
@@ -107,11 +116,20 @@ const imageRight = index % 2 !== 0;
 
 <style>
   .feature-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .feature-image:not(.pixelated) {
     image-rendering: auto !important;
     image-rendering: smooth !important;
     image-rendering: high-quality !important;
     image-rendering: -webkit-optimize-contrast !important;
-    max-width: 100%;
-    height: auto;
+  }
+  
+  .feature-image.pixelated {
+    image-rendering: pixelated !important;
+    image-rendering: -moz-crisp-edges !important;
+    image-rendering: crisp-edges !important;
   }
 </style> 
