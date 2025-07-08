@@ -47,13 +47,10 @@ const bannerContent = await markdownify(banner.content);
 
 <Base showCallToAction={false}>
   <!-- Hero Section -->
-  <header class="h-screen w-full flex flex-col text-white relative">
-    <!-- Red background behind everything -->
-    <div class="absolute inset-0 bg-primary" style={{ zIndex: -2 }}></div>
-
-    <!-- Navigation / Logo Row -->
-    <div class="container">
-      <div class="flex items-center justify-between py-4 gap-3">
+  <header class="h-screen w-full flex flex-col text-white relative bg-primary">
+    <!-- Top Navigation / Logo Row -->
+    <div class="container py-4 flex-shrink-0">
+      <div class="flex items-center justify-between gap-3">
         <a href="/projects" class="hover:underline whitespace-nowrap">Build the tools.</a>
         <img
           src="/images/sec-05-sec-05-brandmark-white-rgb.svg"
@@ -65,60 +62,62 @@ const bannerContent = await markdownify(banner.content);
     </div>
 
     <!-- Hero Title -->
-    <div class="w-full text-center py-4 sm:py-8">
+    <div class="w-full text-center py-4 flex-shrink-0">
       <h1 class="text-[8vw] sm:text-[6vw] leading-none">SOVEREIGN ENGINEERING</h1>
     </div>
 
-    <!-- Image shown as standalone content (never behind text) -->
+    <!-- Main Content - Image -->
     <main class="flex-grow flex items-center justify-center min-h-0">
       <img
         src="/images/shining-city-in-cyberspace.png"
         alt="Person looking at a shining city in cyberspace"
-        class="w-full max-w-[90%] sm:max-w-[70%] h-auto max-h-full pointer-events-none"
+        class="w-full max-w-[90%] sm:max-w-[70%] h-auto max-h-full object-contain pointer-events-none"
         style={{ imageRendering: "pixelated" }}
       />
     </main>
 
-    <!-- Dynamic title section -->
-    <div class="w-full text-center py-4 sm:py-8">
+    <!-- Subtitle Section -->
+    <div class="w-full text-center py-4 flex-shrink-0">
       <div class="container">
         <div class="mx-auto w-full md:w-1/2 text-[4vw] sm:text-[2.5vw] leading-tight text-white" set:html={bannerTitle}></div>
       </div>
     </div>
 
-    <footer class="w-full">
+    <!-- Call to Action Button and Bottom Text -->
+    <div class="w-full py-4 flex-shrink-0">
       <div class="container">
-        <div class="flex flex-col sm:flex-row justify-between items-center py-4 sm:py-8 gap-4 sm:gap-0">
-      <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
-        <p class="m-0 text-balance">
-          Six weeks of high-bandwidth ideation, dialog, and experimentation.
-        </p>
-      </div>
+        <div class="flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+          <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
+            <p class="m-0 text-balance">
+              Six weeks of high-bandwidth ideation, dialog, and experimentation.
+            </p>
+          </div>
 
-      <div class="text-center order-first sm:order-none">
-        {
-          banner.button.enable && (
-            <a
-              class="btn-retro text-lg px-8 py-4"
-              href={banner.button.link}
-              target={
-                banner.button.link.startsWith("http") ? "_blank" : "_self"
-              }
-              rel="noopener"
-            >
-              {banner.button.label}
-            </a>
-          )
-        }
-      </div>
+          <div class="text-center order-first sm:order-none">
+            {
+              banner.button.enable && (
+                <a
+                  class="btn-retro text-lg px-8 py-4"
+                  href={banner.button.link}
+                  target={
+                    banner.button.link.startsWith("http") ? "_blank" : "_self"
+                  }
+                  rel="noopener"
+                >
+                  {banner.button.label}
+                </a>
+              )
+            }
+          </div>
 
-      <div class="text-center sm:text-right w-full sm:w-1/4 leading-none">
-        <p class="m-0 text-balance">
-          Build applications and services for a self-sovereign future.
-        </p>
+          <div class="text-center sm:text-right w-full sm:w-1/4 leading-none">
+            <p class="m-0 text-balance">
+              Build applications and services for a self-sovereign future.
+            </p>
+          </div>
         </div>
       </div>
-    </footer>
+    </div>
   </header>
   <!-- /Hero Section -->
 
