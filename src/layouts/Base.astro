@@ -16,7 +16,6 @@ import {
   GoogleTagmanagerNoscript,
 } from "@digi4care/astro-google-tagmanager";
 import { ClientRouter } from "astro:transitions";
-import SearchModal from "./helpers/SearchModal";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 
@@ -169,7 +168,6 @@ const call_to_action = showCallToAction ? (await getEntry(
 
     <TwSizeIndicator />
     <StickyNav />
-    <SearchModal client:load />
     <main id="main-content">
       <slot />
     </main>
