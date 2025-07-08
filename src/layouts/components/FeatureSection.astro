@@ -44,6 +44,17 @@ const pixelatedImages = [
 ];
 const shouldBePixelated = pixelatedImages.includes(image);
 
+// Create descriptive alt text instead of just using title
+const imageAltMap: Record<string, string> = {
+  "/images/boat1.png": "Sailing ship on blue waters representing collaboration and exploration",
+  "/images/boat2.png": "Pixelated sailing vessel symbolizing building towards a self-sovereign future", 
+  "/images/map.png": "Strategic map view of Madeira showing weekly program structure",
+  "/images/banner.png": "Abstract design representing the Sovereign Engineering program",
+  "/images/men-wanted.png": "Vintage recruitment poster encouraging applications",
+};
+
+const altText = imageAltMap[image] || `Illustration for ${title}`;
+
 // Pre-process markdown content
 const featureTitle = await markdownify(title);
 const featureContent = await markdownify(content);
@@ -71,7 +82,7 @@ const imageRight = index % 2 !== 0;
             src={optimizedImage}
             height={480}
             width={520}
-            alt={title}
+            alt={altText}
             class={`feature-image ${shouldBePixelated ? 'pixelated' : ''}`}
             format="webp"
             loading="lazy"
@@ -81,7 +92,7 @@ const imageRight = index % 2 !== 0;
             src={image}
             height={480}
             width={520}
-            alt={title}
+            alt={altText}
             class={`feature-image ${shouldBePixelated ? 'pixelated' : ''}`}
           />
         )}
