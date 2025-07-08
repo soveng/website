@@ -4,6 +4,7 @@ import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
 import FaqSection from "@/layouts/components/FaqSection.astro";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
+import funchalImage from "@/assets/images/funchal.jpg";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 
@@ -33,7 +34,7 @@ const leadQuote = getQuoteById("ts-eliot");
   <ContentLead
     title={title}
     content={intro.content}
-    image="/images/funchal.jpg"
+    image={funchalImage}
     quote={leadQuote?.quote || ""}
     author={leadQuote?.author || ""}
   />

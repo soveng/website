@@ -1,12 +1,14 @@
 ---
+import { Image } from "astro:assets";
 import { markdownify } from "@/lib/utils/textConverter";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import type { Button } from "@/types";
+import type { ImageMetadata } from "astro";
 
 interface Props {
   title: string;
   content: string;
-  image: string;
+  image: string | ImageMetadata;
   bulletpoints?: string[];
   button?: Button;
   index: number;
@@ -20,6 +22,9 @@ interface Props {
 }
 
 const { title, content, image, bulletpoints = [], button, index, id, pullquote, fullWidthImage = false } = Astro.props;
+
+// Check if image is an imported asset or a string path
+const isOptimizedImage = typeof image === 'object' && image !== null;
 
 // Pre-process markdown content
 const featureTitle = await markdownify(title);
@@ -41,13 +46,26 @@ const processedBulletPoints = await Promise.all(
       {image && (
         <div class="row justify-center">
           <div class="col-12">
-            <img
-              src={image}
-              height={480}
-              width={1200}
-              alt={title}
-              class="feature-image w-full mb-8"
-            />
+            {isOptimizedImage ? (
+              <Image
+                src={image as ImageMetadata}
+                height={960}
+                width={2400}
+                alt={title}
+                class="feature-image w-full mb-8"
+                format="webp"
+                quality={85}
+                loading="lazy"
+              />
+            ) : (
+              <img
+                src={image as string}
+                height={480}
+                width={1200}
+                alt={title}
+                class="feature-image w-full mb-8"
+              />
+            )}
           </div>
         </div>
       )}
@@ -125,13 +143,26 @@ const processedBulletPoints = await Promise.all(
           )}
         </div>
         <div class="mb:md-0 mb-6 md:col-5">
-          <img
-            src={image}
-            height={480}
-            width={520}
-            alt={title}
-            class="feature-image"
-          />
+          {isOptimizedImage ? (
+            <Image
+              src={image as ImageMetadata}
+              height={960}
+              width={1040}
+              alt={title}
+              class="feature-image"
+              format="webp"
+              quality={85}
+              loading="lazy"
+            />
+          ) : (
+            <img
+              src={image as string}
+              height={480}
+              width={520}
+              alt={title}
+              class="feature-image"
+            />
+          )}
         </div>
       </div>
     )}
