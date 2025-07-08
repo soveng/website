@@ -1,6 +1,14 @@
 ---
+import { Image } from "astro:assets";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { Button } from "@/types";
+
+// Import optimized images
+import boat1Image from "@/assets/images/boat1.png";
+import boat2Image from "@/assets/images/boat2.png";
+import mapImage from "@/assets/images/map.png";
+import bannerImage from "@/assets/images/banner.png";
+import menWantedImage from "@/assets/images/men-wanted.png";
 
 interface Props {
   title: string;
@@ -13,6 +21,19 @@ interface Props {
 }
 
 const { title, content, image, bulletpoints = [], button, index, id } = Astro.props;
+
+// Map public image paths to optimized imports
+const imageMap: Record<string, any> = {
+  "/images/boat1.png": boat1Image,
+  "/images/boat2.png": boat2Image,
+  "/images/map.png": mapImage,
+  "/images/banner.png": bannerImage,
+  "/images/men-wanted.png": menWantedImage,
+};
+
+// Get optimized image or fallback to original path
+const optimizedImage = imageMap[image] || image;
+const useOptimizedImage = imageMap[image] !== undefined;
 
 // Pre-process markdown content
 const featureTitle = await markdownify(title);
@@ -36,13 +57,25 @@ const imageRight = index % 2 !== 0;
       <div
         class={`mb:md-0 mb-6 md:col-5 ${imageRight && "md:order-2"}`}
       >
-        <img
-          src={image}
-          height={480}
-          width={520}
-          alt={title}
-          class="feature-image"
-        />
+        {useOptimizedImage ? (
+          <Image
+            src={optimizedImage}
+            height={480}
+            width={520}
+            alt={title}
+            class="feature-image"
+            format="webp"
+            loading="lazy"
+          />
+        ) : (
+          <img
+            src={image}
+            height={480}
+            width={520}
+            alt={title}
+            class="feature-image"
+          />
+        )}
       </div>
       <div class={`md:col-7 lg:col-6 ${imageRight && "md:order-1"}`}>
         <h2 set:html={featureTitle} class="mb-4 text-white uppercase" style="font-size: 2rem;" />
