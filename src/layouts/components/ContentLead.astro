@@ -46,7 +46,7 @@ const isOptimizedImage = typeof image === 'object' && image !== null;
             src={image as ImageMetadata}
             alt={title}
             class="w-full mb-8"
-            loading="lazy"
+            loading="eager"
             format="webp"
             quality={85}
           />
@@ -55,7 +55,7 @@ const isOptimizedImage = typeof image === 'object' && image !== null;
             src={image as string}
             alt={title}
             class="w-full mb-8"
-            loading="lazy"
+            loading="eager"
           />
         )}
       </div>
