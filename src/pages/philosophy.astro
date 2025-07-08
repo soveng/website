@@ -58,7 +58,7 @@ const slideMap: Record<string, any> = {
   <ContentLead
     title={title}
     content={intro.content}
-    image={slideMap[intro.image].src}
+    image={slideMap[intro.image]}
     quote={getQuote(intro.quote_section)?.quote || ""}
     author={getQuote(intro.quote_section)?.author || ""}
   />
@@ -68,7 +68,7 @@ const slideMap: Record<string, any> = {
     <ContentSection
       title={section.title}
       content={section.content}
-      image={slideMap[section.image].src}
+      image={slideMap[section.image]}
       index={index}
       pullquote={{
         quote: getQuote(section.quote_section)?.quote || "",

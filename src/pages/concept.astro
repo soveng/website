@@ -68,7 +68,7 @@ const processedSections = sections.map((section: any) => {
   <ContentLead
     title={title}
     content={intro.content}
-    image={slideMap[intro.image].src}
+    image={slideMap[intro.image]}
     quote={leadQuote?.quote || ""}
     author={leadQuote?.author || ""}
   />
@@ -78,7 +78,7 @@ const processedSections = sections.map((section: any) => {
     <ContentSection
       title={section.title}
       content={section.content}
-      image={slideMap[section.image]?.src}
+      image={slideMap[section.image]}
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
