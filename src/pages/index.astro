@@ -50,21 +50,9 @@ const bannerContent = await markdownify(banner.content);
   <header class="h-screen w-full flex flex-col text-white relative">
     <!-- Red background behind everything -->
     <div class="absolute inset-0 bg-primary" style={{ zIndex: -2 }}></div>
-    
-    <!-- Background image with mix blend mode -->
-    <div
-      class="absolute inset-0 bg-center bg-no-repeat bg-cover pointer-events-none"
-      style={{
-        backgroundImage: `url('/images/shining-city-in-cyberspace.png')`,
-        imageRendering: "pixelated",
-        mixBlendMode: "lighten",
-        zIndex: -1,
-      }}
-    ></div>
-    
-    <!-- Header with logo -->
+
+    <!-- Navigation / Logo Row -->
     <div class="container">
-      <!-- Top navigation/brand row -->
       <div class="flex items-center justify-between py-4 gap-3">
         <a href="/projects" class="hover:underline whitespace-nowrap">Build the tools.</a>
         <img
@@ -76,12 +64,19 @@ const bannerContent = await markdownify(banner.content);
       </div>
     </div>
 
-    <div class="w-full flex-grow sm:flex-grow-0 text-center py-2 sm:py-16 flex items-center justify-center">
+    <!-- Hero Title -->
+    <div class="w-full text-center py-2 sm:py-16">
       <h1 class="text-[8vw] sm:text-[6vw] leading-none">SOVEREIGN ENGINEERING</h1>
     </div>
 
-    <main class="flex-grow">
-      <!-- The main content is the background image -->
+    <!-- Image shown as standalone content (never behind text) -->
+    <main class="flex-grow flex items-center justify-center">
+      <img
+        src="/images/shining-city-in-cyberspace.png"
+        alt="Person looking at a shining city in cyberspace"
+        class="w-full max-w-[90%] sm:max-w-[70%] h-auto pointer-events-none"
+        style={{ imageRendering: "pixelated" }}
+      />
     </main>
 
     <!-- Dynamic title section -->
