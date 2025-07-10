@@ -24,7 +24,7 @@ const sectionTitle = await markdownify(title);
 const processedQuestions = await Promise.all(
   questions.map(async (qa: Question) => ({
     question: await markdownify(qa.question),
-    answer: (await markdownify(qa.answer, true)).replace(/\n/g, '<br>')
+    answer: await markdownify(qa.answer, true)
   }))
 );
 ---
