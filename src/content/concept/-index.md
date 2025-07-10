@@ -30,6 +30,7 @@ sections:
       **Six Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Leadership rotates, keeping the program tight without feeling top-down.
 
       **In-Person Intensity**: Being physically present on a remote island creates the commitment and focus needed for deep work. High-bandwidth communication, trust building, and ideation only work in person.
+    image: "2-hours-of-conversation.jpeg"
 
   - id: "weekly-loop"
     title: "The Weekly Loop"
