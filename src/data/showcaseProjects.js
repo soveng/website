@@ -363,6 +363,15 @@ const showcaseProjects = [
 
   // SEC-04 Projects (Mar-Apr 2025)
   {
+    name: "castr.me",
+    description: "Nostr-native streaming platform for live content and broadcasts",
+    cohort: "SEC-04",
+    link: "https://github.com/dergigi/castr.me",
+    linkText: "github.com/dergigi/castr.me",
+    logo: "/images/showcase/nostr-logo.png",
+    highlight: false,
+  },
+  {
     name: "soveng/nsite",
     description: "Enhanced version of nsite for hosting static websites on nostr",
     cohort: "SEC-04",
