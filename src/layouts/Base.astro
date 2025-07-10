@@ -60,6 +60,11 @@ const call_to_action = showCallToAction ? (await getEntry(
     }
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="/images/favicons/site.webmanifest" />
+    <link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
     <!-- theme meta -->
     <meta name="theme-name" content="astroplate" />
     <meta name="msapplication-TileColor" content="#000000" />
@@ -75,6 +80,11 @@ const call_to_action = showCallToAction ? (await getEntry(
     />
     <meta name="generator" content={Astro.generator} />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Sovereign Engineering" />
 
     <!-- Font variables from theme -->
     <style define:vars={{ fontPrimary, fontSecondary }}>
@@ -106,6 +116,11 @@ const call_to_action = showCallToAction ? (await getEntry(
       name="description"
       content={processedDescription}
     />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="keywords" content="sovereign engineering, bitcoin, nostr, blossom, nutzaps, wikifreedia, nsites, tollgate, zapstore, decentralized, privacy, sovereignty" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow" />
 
     <ClientRouter />
 
@@ -157,6 +172,32 @@ const call_to_action = showCallToAction ? (await getEntry(
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@sovereigneng" />
+    <meta name="twitter:creator" content="@dergigi" />
+    
+    <!-- Additional Social Media Meta Tags -->
+    <meta property="og:site_name" content="Sovereign Engineering" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Sovereign Engineering - The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Sovereign Engineering",
+        "url": "${config.site.base_url}",
+        "logo": "${config.site.base_url}${config.site.logo}",
+        "description": "${processedDescription}",
+        "sameAs": [
+          "https://njump.me/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8",
+          "https://njump.me/npub1330v3vee2mdvn2npdkquka2upmlrlsp0dl2c6kfnzwhpq6dvkjgq0d2k82",
+          "https://dergigi.com"
+        ]
+      }
+    </script>
   </head>
   <body>
     {/* google tag manager noscript */}

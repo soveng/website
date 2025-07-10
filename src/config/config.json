@@ -4,7 +4,7 @@
     "base_url": "https://sovereignengineering.io",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.ico",
+    "favicon": "/images/favicons/favicon.ico",
     "logo": "/images/logo.png",
     "logo_darkmode": "/images/logo-darkmode.png",
     "logo_width": "150",
@@ -42,8 +42,8 @@
   },
 
   "metadata": {
-    "meta_author": "zeon.studio",
+    "meta_author": "Sovereign Engineering",
     "meta_image": "/images/og-image.png",
-    "meta_description": "astro and tailwind boilerplate"
+    "meta_description": "The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More"
   }
 }
