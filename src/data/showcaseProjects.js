@@ -363,8 +363,17 @@ const showcaseProjects = [
 
   // SEC-04 Projects (Mar-Apr 2025)
   {
+    name: "castr.me",
+    description: "Effortlessly turn any npub into a podcast feed.",
+    cohort: "SEC-04",
+    link: "https://github.com/dergigi/castr.me",
+    linkText: "github.com/dergigi/castr.me",
+    logo: "/images/showcase/nostr-logo.png",
+    highlight: false,
+  },
+  {
     name: "soveng/nsite",
-    description: "Enhanced version of nsite for hosting static websites on nostr",
+    description: "Auto-deploy your GitHub page to nsite",
     cohort: "SEC-04",
     link: "https://github.com/soveng/nsite",
     linkText: "github.com/soveng/nsite",
@@ -506,15 +515,7 @@ const showcaseProjects = [
     logo: "/images/showcase/nostr-logo.png",
     highlight: false,
   },
-  {
-    name: "VibeTools",
-    description: "Social analytics and engagement tools for nostr communities",
-    cohort: "SEC-04",
-    link: "https://vibetools-xyz.vercel.app/",
-    linkText: "vibetools-xyz.vercel.app",
-    logo: "/images/showcase/vibetools-logo.png",
-    highlight: false,
-  },
+
 ];
 
 export default showcaseProjects;
