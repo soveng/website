@@ -23,7 +23,7 @@ sections:
 
       **The Weekly Loop**: The relentless show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure, creating a metronome for creativity.
 
-      **The Walks**: Three-hour weekend hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
+      **The Walks**: Moderate hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
 
       **Friday Demo Days**: Where the rubber meets the road—every participant must demo working code every week, no exceptions. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
 

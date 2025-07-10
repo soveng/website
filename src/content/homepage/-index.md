@@ -31,11 +31,11 @@ features:
     content: "The program is powered by five core pillars that create the conditions for magical collaboration and rapid prototyping."
     weeklyRhythm: true
     bulletpoints:
-      - "**The Weekly Loop**: Show → Talk → Build rhythm that drives momentum"
-      - "**The Walks**: Three-hour weekend hikes for creative thought and group mixing"
-      - "**Friday Demo Days**: Every participant demos working code every week"
-      - "**Six Captains**: Rotating leadership keeps the program organic, not top-down"
       - "**In-Person Intensity**: Physical presence on Madeira creates deep focus"
+      - "**The Weekly Loop**: Show → Talk → Build rhythm that drives momentum"
+      - "**The Walks**: Moderate hikes for creative thought and free-flowing conversations"
+      - "**Six Captains**: Rotating leadership keeps the program organic, not top-down"
+      - "**Friday Demo Days**: Every participant demos working code every week"
     button:
       enable: true
       label: "Learn Our Concept"
