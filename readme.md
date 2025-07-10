@@ -1,6 +1,10 @@
 # Sovereign Engineering
 
-Sovereign Engineering organizes cohorts for open-source developers, focusing on how to best leverage freedom tech and emerging AI technologies to create systems that maximize human agency and eliminate tyranny. The upcoming cohort "SEC-05: YOLO Mode" will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment.
+Sovereign Engineering organizes cohorts for open-source developers, focusing on how to best leverage freedom tech and emerging AI technologies to create systems that maximize human agency and eliminate tyranny.
+
+## 🚀 SEC-05: YOLO Mode
+
+The upcoming cohort, **SEC-05: YOLO Mode**, will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment. [Apply or learn more here.](https://sovereignengineering.typeform.com/SEC-05)
 
 Sovereign Engineering is grounded in the philosophy that technology should empower individuals, not control them. We believe in building systems that maximize human agency, foster collaboration, and resist centralized forms of tyranny. To learn more about our guiding principles and vision, visit the [Philosophy page](https://sovereignengineering.io/philosophy).
 
