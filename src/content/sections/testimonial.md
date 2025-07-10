@@ -10,7 +10,7 @@ testimonials:
     avatar: "/images/justin-moon-avatar.png"
     npub: "npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"
     noteid: "nevent1qqsd62at55e5lq2zd886huvdv57c89h4nky84ygu05345u772lgz0ssppamhxue69uhkummnw3ezumt0d5pzqyde4z2qfklnqd88uxyxh2wuf3knwmernggcyuda9mzk02yfs5xwyck7k0"
-    content: "You should apply to Sovereign Engineering.\n\nhttps://sovereignengineering.io"
+    content: "You should apply to Sovereign Engineering."
 
   - name: "Arjen"
     designation: "Tollgate"
