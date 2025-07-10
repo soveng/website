@@ -129,13 +129,7 @@ sections:
       We're looking for **21 value-aligned builders** who know what they're doing and want to see more cool stuff built. We don't have any official requirements—we're very open and just want to be surrounded by people who are value-aligned.
 
       **The Ideal Participant**:
-      - Experienced builders who resonate with the Bitcoin ethos
-      - Can code independently and are eager to explore the frontier
-      - Excited rather than terrified by demoing half-baked prototypes
-      - Crave long, oxytocin-fueled walks and thrive on rapid feedback
-      - Believe that freedom-tech is the moral imperative of our time
-      - Want to build the future they want to see
-      - Are willing to be fully present and participate in the full program
+      The ideal participant is an experienced builder who resonates with the Bitcoin ethos, can code independently, and is eager to explore the frontier. They are excited—rather than terrified—by the prospect of demoing half-baked prototypes, and they crave long, oxytocin-fueled walks and thrive on rapid feedback. They believe that freedom-tech is the moral imperative of our time, want to build the future they want to see, and are willing to be fully present and participate in the full program.
 
       **The Magic Formula**: When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
 
