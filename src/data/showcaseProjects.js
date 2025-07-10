@@ -515,15 +515,7 @@ const showcaseProjects = [
     logo: "/images/showcase/nostr-logo.png",
     highlight: false,
   },
-  {
-    name: "VibeTools",
-    description: "Social analytics and engagement tools for nostr communities",
-    cohort: "SEC-04",
-    link: "https://vibetools-xyz.vercel.app/",
-    linkText: "vibetools-xyz.vercel.app",
-    logo: "/images/showcase/vibetools-logo.png",
-    highlight: false,
-  },
+
 ];
 
 export default showcaseProjects;
