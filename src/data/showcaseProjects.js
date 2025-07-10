@@ -262,7 +262,7 @@ const showcaseProjects = [
   {
     name: "Zapstore",
     description: "Decentralized marketplace for Lightning Network payments and nostr integration",
-    cohort: "SEC-02",
+    cohort: "SEC-01",
     link: "https://zapstore.dev/",
     linkText: "zapstore.dev",
     logo: "/images/zapstore.svg",
@@ -345,7 +345,7 @@ const showcaseProjects = [
   {
     name: "Alphaama",
     description: "Advanced nostr client with enhanced features and functionality",
-    cohort: "SEC-03",
+    cohort: "SEC-01",
     link: "https://github.com/eskema/alphaama",
     linkText: "github.com/eskema/alphaama",
     logo: "/images/showcase/nostr-logo.png",
