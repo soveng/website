@@ -3,27 +3,27 @@
   "schedule": [
     {
       "day": "Monday Mornings",
-      "description": "Orientation and planning"
+      "description": "Orientation and setting the tone for the week"
     },
     {
       "day": "Tuesday Talks",
-      "description": "Participants present relevant topics they find interesting"
+      "description": "Participants present slides, share ideas, and give talks"
     },
     {
       "day": "Wednesday Workshops",
-      "description": "Hands-on workshops and building"
+      "description": "Hands-on sessions teaching practical skills and building"
     },
     {
       "day": "Thursday",
       "description": "Time Off. Free time for experimentation, implementation, exploration."
     },
     {
-      "day": "Friday Festivities",
-      "description": "aka Demo Day: live demos & BBQ"
+      "day": "Friday: Demo Day",
+      "description": "Demos and discussions, followed by BBQ."
     },
     {
       "day": "Weekend Walks",
-      "description": "Group activities and beautiful outdoor walks"
+      "description": "Hikes for natural group mixing and free-flowing conversations."
     }
   ]
 } 

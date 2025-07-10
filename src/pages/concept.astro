@@ -14,6 +14,15 @@ import weeklyRhythmData from "@/data/weeklyRhythm.json";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
+import weeklyLoopSchedule from "@/assets/images/weekly-loop-schedule.png";
+import walkToTopImage from "@/assets/images/walk-to-top.jpg";
+import demoDayImage from "@/assets/images/demo-day.jpeg";
+import optOutImage from "@/assets/images/opt-out.jpg";
+import madeiraImage from "@/assets/images/madeira.jpg";
+import twoHoursConversationImage from "@/assets/images/2-hours-of-conversation.jpeg";
+import stayWeirdImage from "@/assets/images/stay-weird.jpg";
+import flowersImage from "@/assets/images/flowers.jpg";
+import wwwLifePathImage from "@/assets/images/www-life-path.png";
 
 // Get concept content
 const concept = (await getEntry(
@@ -41,6 +50,15 @@ const slideMap: Record<string, any> = {
   "wide-open-sea.jpeg": slideWideOpenSea,
   "revealed-on-walk.jpg": revealedOnWalkImage,
   "smooth-sea.jpg": smoothSeaImage,
+  "weekly-loop-schedule.png": weeklyLoopSchedule,
+  "walk-to-top.jpg": walkToTopImage,
+  "demo-day.jpeg": demoDayImage,
+  "opt-out.jpg": optOutImage,
+  "madeira.jpg": madeiraImage,
+  "2-hours-of-conversation.jpeg": twoHoursConversationImage,
+  "stay-weird.jpg": stayWeirdImage,
+  "flowers.jpg": flowersImage,
+  "www-life-path.png": wwwLifePathImage,
 };
 
 // Process sections to add special handling for weekly-loop
