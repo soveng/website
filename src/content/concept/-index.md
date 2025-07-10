@@ -102,6 +102,7 @@ sections:
 
   - id: "madeira-bitcoin"
     title: "Madeira: The Bitcoin Island"
+    image: "madeira.jpg"
     content: |
       Madeira isn't just a beautiful location—it's a **Bitcoin-friendly breeding ground** for the future. Thanks to the efforts of André and Free Madeira, there are 150+ merchants on the island accepting Bitcoin. It's so normal to pay in Bitcoin here that you don't even think about it anymore.
 
