@@ -11,7 +11,7 @@ intro:
 
     This environment is powered by a relentless weekly cadence designed for exploration: *Monday Mornings* set the theme, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day, every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
-    The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny.
+    The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
   image: "show-talk-build-loop.jpeg"
 
 # Concept sections
@@ -21,15 +21,15 @@ sections:
     content: |
       Sovereign Engineering rests on five fundamental pillars that create the conditions for magical collaboration:
 
-      **The Weekly Loop**: The relentless show → talk → build rhythm that drives momentum and prevents perfectionism paralysis.
+      **The Weekly Loop**: The relentless show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure, creating a metronome for creativity.
 
-      **The Walks**: Three-hour weekend hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation.
+      **The Walks**: Three-hour weekend hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
 
-      **Friday Demo Days**: Where the rubber meets the road—every participant must demo working code every week, no exceptions.
+      **Friday Demo Days**: Where the rubber meets the road—every participant must demo working code every week, no exceptions. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
 
-      **Six Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction.
+      **Six Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Leadership rotates, keeping the program tight without feeling top-down.
 
-      **In-Person Intensity**: Being physically present on a remote island creates the commitment and focus needed for deep work.
+      **In-Person Intensity**: Being physically present on a remote island creates the commitment and focus needed for deep work. High-bandwidth communication, trust building, and ideation only work in person.
 
   - id: "weekly-loop"
     title: "The Weekly Loop"
@@ -56,6 +56,8 @@ sections:
       **Natural Group Mixing**: With 21 participants, the walks naturally mix the group. You'll have many different conversational partners during a three-hour walk. Two guides—one at the front, one at the back—ensure the group stays together by stopping every 20 minutes to enjoy views, take water breaks, and let everyone catch up.
 
       **The Alternative**: Contrast this with sitting around a long table for dinner—you'd have at most three conversational partners (left, right, front) and the group wouldn't mix. Walking creates the natural group formation and spontaneous conversations we need.
+
+      **The Path Requirements**: The path must be wide enough so people can walk next to each other (not single-file), mostly flat so anyone can participate, and comfortable enough that you can talk while walking. The guides must keep the group together and stop regularly to let everyone catch up.
 
       The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. Exposure to sun, wind, and ocean spray anchors discussions in sensory memory; participants can later reference "that idea above the cloud layer" and everyone knows the exact moment.
     image: "revealed-on-walk.jpg"
@@ -128,6 +130,7 @@ sections:
       - Crave long, oxytocin-fueled walks and thrive on rapid feedback
       - Believe that freedom-tech is the moral imperative of our time
       - Want to build the future they want to see
+      - Are willing to be fully present and participate in the full program
 
       **The Magic Formula**: When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
 
