@@ -30,7 +30,7 @@ const processedQuestions = await Promise.all(
 ---
 
 <section 
-  class="section-sm bg-black text-white mb-8"
+  class="section-sm bg-black text-white mb-4"
   id={id}
 >
   <div class="container">
@@ -42,7 +42,7 @@ const processedQuestions = await Promise.all(
           <div class="space-y-8 mb-8 content" set:html={content} />
         )}
         
-        <div class="space-y-8 mb-4 mt-6">
+        <div class="space-y-8 mb-2 mt-6">
           {processedQuestions.map((qa: any) => (
             <div class="faq-item">
               <h3
