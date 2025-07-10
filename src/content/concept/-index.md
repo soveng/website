@@ -12,7 +12,7 @@ intro:
     This environment is powered by a relentless weekly cadence designed for exploration: *Monday Mornings* set the theme, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day, every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
     The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
-  image: "show-talk-build-loop.jpeg"
+  image: "open-source-everything.jpg"
 
 # Concept sections
 sections:
