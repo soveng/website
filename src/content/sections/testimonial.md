@@ -60,7 +60,7 @@ testimonials:
     noteid: "nevent1qqsvczx3tax5hwgu2e2u6vpy4ya6skdgc93jpmn4f87wfsfkpakjq4qpz9mhxue69uhkummnw3ezuamfdejj7q3q3nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqxpqqqqqqzcsmrea"
     content: "Sovereign Engineering is the best place to focus on what you can do with the tech, but also pushing hard on the philosophical application of the Bitcoin+Lightning+Nostr+AI stack. Madeira island is like a paradise with one of the most advanced bitcoin economies I've ever seen. I highly recommend it, and I hope I can do another one soon."
   - name: "Chiefmonkey"
-    designation: "Nostr"
+    designation: "plebeian.market"
     avatar: "/images/chiefmonkey-laser-eyes.png"
     npub: "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6"
     noteid: "nevent1qqsxuf3drahkye4fvs4hws2ntrg67yr2dn5h0sr03vrleg99qcgkemgzyrk8ndtghh4x8jnqj86msjcvvwwppgy3nct4lgy6fh332nuzjphj25x6uuw"
