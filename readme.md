@@ -8,7 +8,11 @@ Sovereign Engineering is grounded in the philosophy that technology should empow
 
 The upcoming cohort, **SEC-05: YOLO Mode**, will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment. [Apply or learn more here.](https://sovereignengineering.typeform.com/SEC-05)
 
-Sovereign Engineering is a modern, content-driven website built with Astro, Tailwind CSS, and TypeScript. It serves as the public home for the Sovereign Engineering community, featuring podcasts, philosophy, FAQs, and more.
+---
+
+This is a content-driven website built with Astro, Tailwind CSS, and TypeScript.
+It serves as the public home for the Sovereign Engineering project, featuring
+podcasts, philosophy, FAQs, and more.
 
 ## 🌐 Live Site
 
@@ -17,6 +21,8 @@ Visit: [https://sovereignengineering.io](https://sovereignengineering.io)
 ## 🎙️ Podcast Feed
 
 The podcast XML feed is available at: [https://sovereignengineering.io/dialogues.xml](https://sovereignengineering.io/dialogues.xml)
+
+It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n).
 
 ## 📂 Public Resources
 
