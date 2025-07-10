@@ -36,16 +36,6 @@ sections:
     title: "The Weekly Loop"
     content: |
       The week acts as a metronome for creativity. Friday's *Show* sets a hard deadline that concentrates effort—every participant must demo something they wrote or prompted into existence themselves. The moment code compiles on stage it becomes shared reality. Over the weekend and during Monday's orientation the cohort *Talks*—walking Madeira's levadas, swapping critiques, and letting distributed cognition surface better approaches. From Tuesday onwards everyone *Builds* toward the next demo.
-
-      **Monday Mornings**: Orientation and setting the tone. The first week introduces the concept, while subsequent weeks set course for new directions using maritime metaphors—we're exploring the wide, unexplored cryptographic sea opened by Bitcoin and Nostr.
-
-      **Tuesday Talks**: Participants present slides, share ideas, and give talks. The weekly captain often leads discussions, and organizers share insights, especially in the first week.
-
-      **Wednesday Workshops**: Hands-on sessions where participants teach each other practical skills—setting up Nostr relays, configuring Blossom servers, working with Lightning networks, and more.
-
-      **Thursday Time Off**: A day for exploration, experimentation, or refining work. Madeira's beauty provides the perfect backdrop for reflection.
-
-      **Friday Festivities**: Demo day starting after lunch, with 6-minute demos and 2-minute discussions, followed by a standing barbecue that encourages natural group mixing.
     image: "show-talk-build-loop.jpeg"
 
   - id: "walks"
