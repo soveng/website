@@ -1,5 +1,7 @@
 # Sovereign Engineering
 
+Sovereign Engineering organizes cohorts for open-source developers, focusing on how to best leverage freedom tech and emerging AI technologies to create systems that maximize human agency and eliminate tyranny. The upcoming cohort "SEC-05: YOLO Mode" will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment.
+
 Sovereign Engineering is a modern, content-driven website built with Astro, Tailwind CSS, and TypeScript. It serves as the public home for the Sovereign Engineering community, featuring podcasts, philosophy, FAQs, and more.
 
 ## 🌐 Live Site
