@@ -65,4 +65,10 @@ testimonials:
     npub: "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6"
     noteid: "nevent1qqsxuf3drahkye4fvs4hws2ntrg67yr2dn5h0sr03vrleg99qcgkemgzyrk8ndtghh4x8jnqj86msjcvvwwppgy3nct4lgy6fh332nuzjphj25x6uuw"
     content: "Sovereign Engineering is Bletchley Park ²\n\nA mind melding brain melting cornucopia of creative coding for humanity\n\nIt’s all quite bonkers"
+  - name: "gsovereignty"
+    designation: "Nostr"
+    avatar: "/images/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg"
+    npub: "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p"
+    noteid: "nevent1qqstqvklttmzuj6ygartj2y4tqzly8zvhsmcs4kcu65223la90uveqqzyrv3ry0rpcqygju59s8g9jk5wzej4ut3wexzyad7uz7ejdm7l4q82g9s7y2"
+    content: "I went to the first cohort of Sovereign Engineering last year and felt a profound sense of being in the right place at the right time with the right people.\n\nBitcoin and nostr are not just protocols, they are a rallying point for people who know we can do better and want to contribute to something bigger than ourselves, and Sovereign Engineering is a catalyst for making that happen.\n\nMore importantly than all that though, I made friends for life."
 ---
