@@ -45,7 +45,16 @@ const processedQuestions = await Promise.all(
         <div class="space-y-8">
           {processedQuestions.map((qa: any) => (
             <div class="faq-item">
-              <h3 class="text-xl font-bold text-white mb-4 uppercase" set:html={qa.question} />
+              <h3
+                class="text-xl font-bold text-white mb-4 uppercase"
+                id={qa.question
+                  .replace(/<[^>]+>/g, "") // Remove HTML tags
+                  .toLowerCase()
+                  .replace(/[^a-z0-9]+/g, "-")
+                  .replace(/(^-|-$)/g, "")
+                }
+                set:html={qa.question}
+              />
               <div set:html={qa.answer} class="content" />
             </div>
           ))}
