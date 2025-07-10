@@ -21,12 +21,12 @@ const leadContent = await markdownify(content, true); // div: true for paragraph
 const isOptimizedImage = typeof image === 'object' && image !== null;
 ---
 
-<section class="section-sm bg-black text-white pt-[8rem]">
+<section class="section-sm bg-black text-white pt-20 sm:pt-24">
   <div class="container">
     <!-- Header -->
     <div class="row justify-center">
       <div class="col-12 text-center">
-        <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">{title}</h1>
+        <h1 class="mb-4 text-white uppercase mt-12 sm:mt-16" style="font-size: 3rem;">{title}</h1>
       </div>
     </div>
     
