@@ -364,7 +364,7 @@ const showcaseProjects = [
   // SEC-04 Projects (Mar-Apr 2025)
   {
     name: "castr.me",
-    description: "Nostr-native streaming platform for live content and broadcasts",
+    description: "Effortlessly turn any npub into a podcast feed.",
     cohort: "SEC-04",
     link: "https://github.com/dergigi/castr.me",
     linkText: "github.com/dergigi/castr.me",
