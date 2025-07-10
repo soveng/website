@@ -72,7 +72,7 @@ testimonials:
     noteid: "nevent1qqstqvklttmzuj6ygartj2y4tqzly8zvhsmcs4kcu65223la90uveqqzyrv3ry0rpcqygju59s8g9jk5wzej4ut3wexzyad7uz7ejdm7l4q82g9s7y2"
     content: "I went to the first cohort of Sovereign Engineering last year and felt a profound sense of being in the right place at the right time with the right people.\n\nBitcoin and nostr are not just protocols, they are a rallying point for people who know we can do better and want to contribute to something bigger than ourselves, and Sovereign Engineering is a catalyst for making that happen.\n\nMore importantly than all that though, I made friends for life."
   - name: "dr. calle"
-    designation: "Nostr"
+    designation: "Cashu"
     avatar: "/images/dr-calle-github-avatar.png"
     npub: "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg"
     noteid: "nevent1qqs0nfs9hjq56gnt9vnww8wxtp6cplw72k8us0amsqfw9mffq50mt3gzypgdjn7zmpvqc6ptqud9gtutrcc6yq9s2z96h9dr80hss4wl9qwkxr4qlle"
