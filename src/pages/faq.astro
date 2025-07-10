@@ -14,7 +14,9 @@ const faq = (await getEntry(
   "-index"
 )) as CollectionEntry<"faq">;
 
-const { title, meta_title, description, intro, sections, cta } = faq.data;
+const { description, intro, sections, cta } = faq.data;
+const title = 'FAQ';
+const meta_title = 'FAQ';
 
 // Helper function to find quote by ID
 const getQuoteById = (id: string) => {
