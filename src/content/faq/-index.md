@@ -70,7 +70,7 @@ sections:
         answer: "[@sovereignengineering.io](https://njump.me/sovereignengineering.io)"
 
       - question: "Address"
-        answer: "Sovereign Engineering Shipyard\nRua das Mercês 41\nFunchal, Funchal 9000-224\nMadeira, Portugal"
+        answer: "Sovereign Engineering Shipyard\nRua das Mercês 41\nFunchal, Funchal\n9000-224 Madeira\nPortugal"
 
 # Call to action
 cta:
