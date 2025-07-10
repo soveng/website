@@ -10,7 +10,7 @@ intro:
   content: |
     Sovereign Engineering is grounded in the values embodied by Bitcoin: **self-sovereignty, agency, and censorship-resistance**. We build technology that maximises individual freedom, minimises reliance on trusted third parties, and treats the individual as the ultimate node in every network.
 
-    From ["Fix the Money, Fix the Web"](https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g) we take the conviction that a sound monetary foundation is a moral imperative, and that Bitcoin's paradigm of extreme ownership demands equally sovereign applications. Likewise, [Nostr](https://sovereignengineering.io/nostr.html) reminds us that protocols, not platforms, will reclaim the vibrant, open experimentation that defined the early web.
+    From ["Fix the Money, Fix the Web"](https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g) we take the conviction that a sound monetary foundation is a moral imperative, and that Bitcoin's paradigm of extreme ownership demands equally sovereign applications. Likewise, [Nostr](https://nostr-resources.com/) reminds us that protocols, not platforms, will reclaim the vibrant, open experimentation that defined the early web.
   image: "pirate-ship-2.jpeg"
 
 # Philosophy sections

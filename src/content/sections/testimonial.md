@@ -16,8 +16,7 @@ testimonials:
     designation: "Zig Evangelist"
     avatar: "/images/justin-moon-avatar.png"
     npub: "npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"
-    noteid: "nevent1qqsd62at55e5lq2zd886huvdv57c89h4nky84ygu05345u772lgz0ssppamhxue69uhkummnw3ezumt0d5pzqyde4z2qfklnqd88uxyxh2wuf3knwmernggcyuda9mzk02yfs5xwyck7k0"
-    content: "You should apply to Sovereign Engineering."
+    content: "I'm surprised that I'm still here! (Uttered during the last week of SEC-04, after moving flights twice.)"
 
   - name: "Pedro"
     designation: "Anatomy of Bitcoin"
@@ -39,6 +38,14 @@ testimonials:
     npub: "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr"
     noteid: "nevent1qqs0qd3xuqstgqryxzv6n8nqsz558ufyfg9e46d72et5cxr0xysaxaqpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw"
     content: "Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined."
+
+  - name: "Justin Moon"
+    designation: "Zig Evangelist"
+    avatar: "/images/justin-moon-avatar.png"
+    npub: "npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"
+    noteid: "nevent1qqsd62at55e5lq2zd886huvdv57c89h4nky84ygu05345u772lgz0ssppamhxue69uhkummnw3ezumt0d5pzqyde4z2qfklnqd88uxyxh2wuf3knwmernggcyuda9mzk02yfs5xwyck7k0"
+    content: "You should apply to Sovereign Engineering."
+
 
   - name: "miljan"
     designation: "Primal"
