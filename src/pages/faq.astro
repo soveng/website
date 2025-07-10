@@ -14,9 +14,7 @@ const faq = (await getEntry(
   "-index"
 )) as CollectionEntry<"faq">;
 
-const { description, intro, sections, cta } = faq.data;
-const title = 'FAQ';
-const meta_title = 'FAQ';
+const { title, meta_title, description, intro, sections, cta } = faq.data;
 
 // Helper function to find quote by ID
 const getQuoteById = (id: string) => {
@@ -32,7 +30,6 @@ const leadQuote = getQuoteById("ts-eliot");
   meta_title={meta_title}
   description={description}
 >
-  <div class="h-12" />
   <!-- Intro Lead Section -->
   <ContentLead
     title={title}
@@ -40,7 +37,6 @@ const leadQuote = getQuoteById("ts-eliot");
     image={funchalImage}
     quote={leadQuote?.quote || ""}
     author={leadQuote?.author || ""}
-    showFaqHeadline={true}
   />
 
   <!-- FAQ Sections -->
