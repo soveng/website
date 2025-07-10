@@ -9,7 +9,7 @@ interface Props {
 const { quote, author, href, left = false } = Astro.props;
 ---
 
-<div class={`w-full flex ${left ? 'justify-start' : 'justify-center'} ${left ? 'py-0 mb-8' : 'py-8'} font-primary text-[#E5E7EB] italic text-2xl`}>
+<div class={`w-full flex ${left ? 'justify-start' : 'justify-center'} py-12 font-primary text-[#E5E7EB] italic text-2xl`}>
   {href ? (
     <a href={href} class={`${left ? 'max-w-prose' : 'max-w-3xl mx-auto'} block no-underline hover:no-underline focus:no-underline`}>
       <blockquote class={`${left ? 'text-left' : 'text-center'} ${left ? '' : 'px-4'} transition-colors duration-200 hover:text-primary focus:text-primary text-balance`}>
