@@ -45,6 +45,7 @@ sections:
       **Thursday Time Off**: A day for exploration, experimentation, or refining work. Madeira's beauty provides the perfect backdrop for reflection.
 
       **Friday Festivities**: Demo day starting after lunch, with 6-minute demos and 2-minute discussions, followed by a standing barbecue that encourages natural group mixing.
+    image: "show-talk-build-loop.jpeg"
 
   - id: "walks"
     title: "The Walks"
@@ -60,7 +61,7 @@ sections:
       **The Path Requirements**: The path must be wide enough so people can walk next to each other (not single-file), mostly flat so anyone can participate, and comfortable enough that you can talk while walking. The guides must keep the group together and stop regularly to let everyone catch up.
 
       The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. Exposure to sun, wind, and ocean spray anchors discussions in sensory memory; participants can later reference "that idea above the cloud layer" and everyone knows the exact moment.
-    image: "revealed-on-walk.jpg"
+    image: "walk-to-top.jpg"
     float: "right"
 
   - id: "demo-day"
@@ -75,6 +76,7 @@ sections:
       **The Celebration**: After demos, we have a standing barbecue (no pre-arranged seating) that encourages natural group mixing. Friends and family are invited to join, creating a bridge between the private program and the broader community.
 
       **The Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
+    image: "demo-day.jpeg"
 
   - id: "in-person-off-record"
     title: "In Person, Off the Record"
@@ -88,6 +90,7 @@ sections:
       **The Balance**: Once ideas are robust, they're exported to the open sea—published on Nostr, open-sourced on GitHub, or demoed publicly. The off-record space ensures critique targets the work, not internet clout.
 
       **Presence**: We encourage participants to be fully present—leave phones at home or put them in airplane mode. If an idea is really good, you won't need to write it down—it will stay with you or someone else will remember it.
+    image: "opt-out.jpg"
 
   - id: "weekly-captains"
     title: "6 Weeks, 6 Captains"
@@ -104,6 +107,7 @@ sections:
       **The Rotation**: By rotating leadership every week, the cohort practices the very autonomy it preaches. Leadership is shared, logistics are decentralized, and the program stays tight without feeling top-down.
 
       **The Exception**: One week (week 4 or 5) is designated as "time off" because the program is quite intense. We learned over time that we need this break.
+    image: "weekly-loop-schedule.png"
 
   - id: "madeira-bitcoin"
     title: "Madeira: The Bitcoin Island"
