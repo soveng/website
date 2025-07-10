@@ -111,7 +111,7 @@ sections:
       **The Community**: There are many Bitcoiners on the island, and the merchant adoption is through the roof. It's a fantastic place to run a Sovereign Engineering cohort because it's super Bitcoin-friendly and allows immediate testing of new protocols and tools.
 
   - id: "target-audience"
-    title: "Who Should Apply"
+    title: "Who Should Apply?"
     content: |
       We're looking for **21 value-aligned builders** who know what they're doing and want to see more cool stuff built. We don't have any official requirements—we're very open and just want to be surrounded by people who are value-aligned.
 
