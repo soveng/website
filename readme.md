@@ -1,132 +1,101 @@
-<h1 align=center>Astro + Tailwind CSS + TypeScript Starter and Boilerplate</h1>
+# Sovereign Engineering
 
-<p align=center>Astroplate is a free starter template built with Astro, TailwindCSS & TypeScript, providing everything you need to jumpstart your Astro project and save valuable time.</p>
+[Sovereign Engineering](https://sovereignengineering.io) organizes cohorts for open-source developers, focusing on how to best leverage freedom tech and emerging AI technologies to create systems that maximize human agency and eliminate tyranny.
 
-<p align=center>Made with ♥ by <a href="https://zeon.studio/">Zeon Studio</a></p>
+[The program](https://sovereignengineering.io/concept) is grounded in the philosophy that technology should empower individuals, not control them. We believe in building systems that maximize human agency, foster collaboration, and resist centralized forms of control. To learn more about our guiding principles and vision, visit the [Philosophy page](https://sovereignengineering.io/philosophy).
 
-<p align=center> If you find this project useful, please give it a ⭐ to show your support. </p>
+## 🚀 SEC-05: YOLO Mode
 
-<h2 align="center"> <a target="_blank" href="https://astroplate.netlify.app/" rel="nofollow">👀 Demo</a> | <a target="_blank" href="https://astroplate-multilang.netlify.app/" rel="nofollow">👀 Demo Multilang</a> | <a  target="_blank" href="https://pagespeed.web.dev/analysis/https-astroplate-netlify-app/yzx3foum3w?form_factor=desktop">Page Speed (100%)🚀</a>
-</h2>
+The upcoming cohort, **SEC-05: YOLO Mode**, will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment. [Apply or learn more here.](https://sovereignengineering.typeform.com/SEC-05)
 
-<p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.7.8">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.7&color=000&logo=astro"  alt="Astro Version 5.7"/>
-  </a>
+---
 
-  <a href="https://sovereignengineering.typeform.com/SEC-05">
-    <img src="https://img.shields.io/github/license/zeon-studio/astroplate" alt="license"></a>
+This is a content-driven website built with Astro, Tailwind CSS, and TypeScript.
+It serves as the public home for the Sovereign Engineering project, featuring
+podcasts, philosophy, FAQs, and more.
 
-  <img src="https://img.shields.io/github/languages/code-size/zeon-studio/astroplate" alt="code size">
+## 🌐 Live Site
 
-  <a href="https://sovereignengineering.typeform.com/SEC-05">
-    <img src="https://img.shields.io/github/contributors/zeon-studio/astroplate" alt="contributors"></a>
-</p>
+Visit: [https://sovereignengineering.io](https://sovereignengineering.io)
 
-## 📌 Key Features
+## 🎙️ Podcast Feed
 
-- 👥 Multi-Authors
-- 🌐 Multilingual
-- 🎯 Similar Posts Suggestion
-- 🔍 Search Functionality
-- 🌑 Dark Mode
-- 🏷️ Tags & Categories
-- 🔗 Netlify setting pre-configured
-- 📞 Support contact form
-- 📱 Fully responsive
-- 📝 Write and update content in Markdown / MDX
-- 📎 Google Tag Manager
-- 💬 Disqus Comment
-- 🔳 Syntax Highlighting
+The podcast XML feed is available at: [https://sovereignengineering.io/dialogues.xml](https://sovereignengineering.io/dialogues.xml)
 
-### 📄 15+ Pre-designed Pages
+It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n).
 
-- 🏠 Homepage
-- 👤 About
-- 📞 Contact
-- 👥 Authors
-- 👤 Author Single
-- 📝 Blog
-- 📝 Blog Single
-- 🚫 Custom 404
-- 💡 Elements
-- 📄 Privacy Policy
-- 🏷️ Tags
-- 🏷️ Tag Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 🔍 Search
+## 📂 Public Resources
 
-## 🔗 Integrations
+- **.well-known**: Exposes public metadata for services and verification ([RFC 8615](https://datatracker.ietf.org/doc/html/rfc8615)).
+- **dialogues.xml**: Podcast feed for syndication.
 
-- astro/react
-- astro/sitemap
-- astro/tailwind
+## ✨ Features
+
+- Astro + Tailwind CSS + TypeScript
+- Markdown/MDX content for easy editing
+- Responsive design
+- Project and podcast showcases
+- Public `.well-known` directory
+- Custom podcast XML feed
 
 ## 🚀 Getting Started
 
-### 📦 Dependencies
+### Prerequisites
+- Node.js v20+
+- Yarn or npm
 
-- astro v5.7+
-- node v20.10+
-- yarn v1.22+
-- tailwind v4+
-
-### 👉 Install Dependencies
+### Install Dependencies
 
 ```bash
 yarn install
-```
-
-### 👉 Development Command
-
-```bash
-yarn run dev
-```
-
-### 👉 Build Command
-
-```bash
-yarn run build
-```
-
-### 👉 Build and Run With Docker
-
-```bash
-docker build -t astroplate .
 # or
-# docker --build-arg INSTALLER=npm build -t astroplate .
-# or
-# docker --build-arg INSTALLER=pnpm build -t astroplate .
-
-docker run -p 3000:80 astroplate
-# or
-# docker run --rm -p 3000:80 astroplate
+npm install
 ```
 
-To access the shell within the container:
+### Development
 
 ```bash
-docker run -it --rm astroplate ash
+yarn dev
+# or
+npm run dev
 ```
 
-<!-- reporting issue -->
+### Build for Production
 
-## 🐞 Reporting Issues
+```bash
+yarn build
+# or
+npm run build
+```
 
-We use GitHub Issues as the official bug tracker for this Template. Please Search [existing issues](https://sovereignengineering.typeform.com/SEC-05). It's possible someone has already reported the same problem.
-If your problem or idea has not been addressed yet, feel free to [open a new issue](https://sovereignengineering.typeform.com/SEC-05).
+### Preview Production Build
 
-<!-- licence -->
+```bash
+yarn preview
+# or
+npm run preview
+```
+
+## 🐳 Docker
+
+Build and run with Docker:
+
+```bash
+docker build -t sovereignengineering .
+docker run -p 3000:80 sovereignengineering
+```
+
+## 🛠️ Project Structure
+
+- `src/` — Source files (content, layouts, components, styles)
+- `public/` — Static files served at the site root
+- `.well-known/` — Public metadata (inside `public/`)
+- `dialogues.xml` — Podcast feed (inside `public/`)
 
 ## 📝 License
 
-Copyright (c) 2023 - Present, Designed & Developed by [Zeon Studio](https://zeon.studio/)
+MIT License. See [LICENSE](./LICENSE) for details.
 
-**Code License:** Released under the [MIT](https://sovereignengineering.typeform.com/SEC-05) license.
+---
 
-**Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
-
-## 💻 Need Custom Development Services?
-
-If you need a custom theme, theme customization, or complete website development services from scratch you can [Hire Us](https://zeon.studio/).
+For questions, suggestions, or contributions, please open an issue or pull request.
