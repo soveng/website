@@ -28,14 +28,14 @@ features:
 
   - title: "How does it work?"
     image: "/images/map.png"
-    content: "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects."
+    content: "The program is powered by five core pillars that create the conditions for magical collaboration and rapid prototyping."
     weeklyRhythm: true
     bulletpoints:
-      - "A relentless weekly cadence for creativity and shipping"
-      - "Show, Talk, Build: the loop that powers the program"
-      - "Walking discussions to supercharge distributed cognition"
-      - "Demo Day every Friday: show us what you got!"
-      - "Workshops, talks, and hands-on prototyping"
+      - "**The Weekly Loop**: Show → Talk → Build rhythm that drives momentum"
+      - "**The Walks**: Three-hour weekend hikes for creative thought and group mixing"
+      - "**Friday Demo Days**: Every participant demos working code every week"
+      - "**Six Captains**: Rotating leadership keeps the program organic, not top-down"
+      - "**In-Person Intensity**: Physical presence on Madeira creates deep focus"
     button:
       enable: true
       label: "Learn Our Concept"

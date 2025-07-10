@@ -1,29 +1,25 @@
 {
-  "description": "Every week follows the same structure, designed to maximize creativity, collaboration, and shipping real projects.",
+  "description": "The program is powered by five core pillars that create the conditions for magical collaboration and rapid prototyping.",
   "schedule": [
     {
-      "day": "Monday Mornings",
-      "description": "Orientation and setting the tone for the week"
+      "day": "The Weekly Loop",
+      "description": "Show → Talk → Build rhythm that drives momentum and prevents perfectionism paralysis"
     },
     {
-      "day": "Tuesday Talks",
-      "description": "Participants present slides, share ideas, and give talks"
+      "day": "The Walks",
+      "description": "Three-hour weekend hikes for creative thought and natural group mixing"
     },
     {
-      "day": "Wednesday Workshops",
-      "description": "Hands-on sessions teaching practical skills and building"
+      "day": "Friday Demo Days",
+      "description": "Every participant must demo working code every week, no exceptions"
     },
     {
-      "day": "Thursday",
-      "description": "Time Off. Free time for experimentation, implementation, exploration."
+      "day": "Six Captains",
+      "description": "Rotating leadership keeps the program organic rather than top-down"
     },
     {
-      "day": "Friday: Demo Day",
-      "description": "Demos and discussions, followed by BBQ."
-    },
-    {
-      "day": "Weekend Walks",
-      "description": "Hikes for natural group mixing and free-flowing conversations."
+      "day": "In-Person Intensity",
+      "description": "Physical presence on Madeira creates the commitment and focus for deep work"
     }
   ]
 } 
