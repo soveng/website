@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Disallow: /api/*
+
+# Sitemap
+Sitemap: https://sovereignengineering.io/sitemap-index.xml
