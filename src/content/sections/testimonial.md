@@ -61,7 +61,7 @@ testimonials:
     content: "Sovereign Engineering is the best place to focus on what you can do with the tech, but also pushing hard on the philosophical application of the Bitcoin+Lightning+Nostr+AI stack. Madeira island is like a paradise with one of the most advanced bitcoin economies I've ever seen. I highly recommend it, and I hope I can do another one soon."
   - name: ""
     designation: ""
-    avatar: ""
+    avatar: "/images/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg"
     npub: ""
     noteid: "nevent1qqstqvklttmzuj6ygartj2y4tqzly8zvhsmcs4kcu65223la90uveqqzyrv3ry0rpcqygju59s8g9jk5wzej4ut3wexzyad7uz7ejdm7l4q82g9s7y2"
     content: ""
