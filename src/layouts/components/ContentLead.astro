@@ -10,10 +10,9 @@ interface Props {
   image: string | ImageMetadata;
   quote: string;
   author: string;
-  showFaqHeadline?: boolean;
 }
 
-const { title, content, image, quote, author, showFaqHeadline = false } = Astro.props;
+const { title, content, image, quote, author } = Astro.props;
 
 // Pre-process markdown content
 const leadContent = await markdownify(content, true); // div: true for paragraph processing
@@ -22,15 +21,12 @@ const leadContent = await markdownify(content, true); // div: true for paragraph
 const isOptimizedImage = typeof image === 'object' && image !== null;
 ---
 
-<section class="section-sm bg-black text-white pt-[4rem]">
+<section class="section-sm bg-black text-white pt-16">
   <div class="container">
     <!-- Header -->
     <div class="row justify-center">
       <div class="col-12 text-center">
         <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">{title}</h1>
-        {showFaqHeadline && (
-          <h2 class="text-2xl font-bold text-white text-center mb-8 mt-2">Frequently Asked Questions</h2>
-        )}
       </div>
     </div>
     
