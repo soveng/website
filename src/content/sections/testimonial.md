@@ -66,7 +66,7 @@ testimonials:
     noteid: "nevent1qqsxuf3drahkye4fvs4hws2ntrg67yr2dn5h0sr03vrleg99qcgkemgzyrk8ndtghh4x8jnqj86msjcvvwwppgy3nct4lgy6fh332nuzjphj25x6uuw"
     content: "Sovereign Engineering is Bletchley Park ²\n\nA mind melding brain melting cornucopia of creative coding for humanity\n\nIt’s all quite bonkers"
   - name: "gsovereignty"
-    designation: "Nostr"
+    designation: "Nostrovia"
     avatar: "/images/gsovereignty-nostr.jpg"
     npub: "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p"
     noteid: "nevent1qqstqvklttmzuj6ygartj2y4tqzly8zvhsmcs4kcu65223la90uveqqzyrv3ry0rpcqygju59s8g9jk5wzej4ut3wexzyad7uz7ejdm7l4q82g9s7y2"
