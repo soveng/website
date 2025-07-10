@@ -62,7 +62,7 @@ sections:
       **The Path Requirements**: The path must be wide enough so people can walk next to each other (not single-file), mostly flat so anyone can participate, and comfortable enough that you can talk while walking. The guides must keep the group together and stop regularly to let everyone catch up.
 
       The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. Exposure to sun, wind, and ocean spray anchors discussions in sensory memory; participants can later reference "that idea above the cloud layer" and everyone knows the exact moment.
-    image: "walk-to-top.jpg"
+    image: "walking.jpeg"
     float: "right"
 
   - id: "demo-day"
