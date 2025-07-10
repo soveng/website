@@ -1,8 +1,8 @@
 # Sovereign Engineering
 
-Sovereign Engineering organizes cohorts for open-source developers, focusing on how to best leverage freedom tech and emerging AI technologies to create systems that maximize human agency and eliminate tyranny.
+[Sovereign Engineering](https://sovereignengineering.io) organizes cohorts for open-source developers, focusing on how to best leverage freedom tech and emerging AI technologies to create systems that maximize human agency and eliminate tyranny.
 
-Sovereign Engineering is grounded in the philosophy that technology should empower individuals, not control them. We believe in building systems that maximize human agency, foster collaboration, and resist centralized forms of control. To learn more about our guiding principles and vision, visit the [Philosophy page](https://sovereignengineering.io/philosophy).
+[The program](https://sovereignengineering.io/concept) is grounded in the philosophy that technology should empower individuals, not control them. We believe in building systems that maximize human agency, foster collaboration, and resist centralized forms of control. To learn more about our guiding principles and vision, visit the [Philosophy page](https://sovereignengineering.io/philosophy).
 
 ## 🚀 SEC-05: YOLO Mode
 
