@@ -373,7 +373,7 @@ const showcaseProjects = [
   },
   {
     name: "soveng/nsite",
-    description: "Enhanced version of nsite for hosting static websites on nostr",
+    description: "Auto-deploy your GitHub page to nsite",
     cohort: "SEC-04",
     link: "https://github.com/soveng/nsite",
     linkText: "github.com/soveng/nsite",
