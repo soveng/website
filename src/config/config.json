@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Sovereign Engineering",
-    "base_url": "https://soveng2.vercel.app",
+    "base_url": "https://sovereignengineering.io",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.ico",
