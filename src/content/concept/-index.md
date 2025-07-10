@@ -89,11 +89,7 @@ sections:
       Each week has a dedicated captain who steers the ship through that week's journey. The captain is the person who basically steers the ship through each week, ensuring organic emergence rather than top-down direction.
 
       **Captain Responsibilities**: 
-      - Shepherd the walks: setting conversational pace, choosing wide paths, ensuring group mixing
-      - Time-box Friday demos and keep Monday orientations on track
-      - Organize Wednesday workshops and find time slots
-      - Arrange rooms appropriately for different activities (talks, workshops, demos)
-      - Give talks and presentations when appropriate
+      Captain responsibilities include shepherding the walks by setting the conversational pace, choosing wide paths, and ensuring group mixing. Captains also time-box Friday demos, keep Monday orientations on track, organize Wednesday workshops and find time slots, arrange rooms appropriately for different activities (talks, workshops, demos), and give talks and presentations when appropriate.
 
       **The Rotation**: By rotating leadership every week, the cohort practices the very autonomy it preaches. Leadership is shared, logistics are decentralized, and the program stays tight without feeling top-down.
 
