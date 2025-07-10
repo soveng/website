@@ -70,7 +70,7 @@ sections:
         answer: "[@sovereignengineering.io](https://njump.me/sovereignengineering.io)"
 
       - question: "Address"
-        answer: "Sovereign Engineering Shipyard · Rua das Mercês 41 · Funchal, Funchal · 9000-224 Madeira · Portugal · [what3words](https://what3words.com/teamed.wiser.cans)"
+        answer: "[///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)\nSovereign Engineering Shipyard · Rua das Mercês 41 · Funchal, Funchal · 9000-224 Madeira · Portugal · [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
 
 # Call to action
 cta:
