@@ -140,6 +140,7 @@ sections:
       **The Magic Formula**: When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
 
       **The Goal**: We want to see awesome stuff being built, expand the impact that freedom tech can have, come up with new ideas and protocols, test them immediately, and have a good time while doing it.
+    image: "stay-weird.jpg"
 
 # Call to action
 cta:
