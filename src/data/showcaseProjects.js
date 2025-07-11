@@ -360,6 +360,15 @@ const showcaseProjects = [
     logo: "/images/showcase/nostr-logo.png",
     highlight: false,
   },
+  {
+    name: "Plebeian Market",
+    description: "A content management system and marketplace that provides normies and communities infrastructure for circular economies and the move towards localisation",
+    cohort: "SEC-04",
+    link: "https://plebeian.market/",
+    linkText: "plebeian.market",
+    logo: "/images/showcase/plebeian-logo.png",
+    highlight: false,
+  },
 
   // SEC-04 Projects (Mar-Apr 2025)
   {
@@ -531,15 +540,6 @@ const showcaseProjects = [
     link: "https://github.com/totemize",
     linkText: "github.com/totemize",
     logo: "/images/showcase/nostr-logo.png",
-    highlight: false,
-  },
-  {
-    name: "Plebeian Market",
-    description: "A content management system and marketplace that provides normies and communities infrastructure for circular economies and the move towards localisation",
-    cohort: "SEC-04",
-    link: "https://plebeian.market/",
-    linkText: "plebeian.market",
-    logo: "/images/showcase/plebeian-logo.png",
     highlight: false,
   },
 
