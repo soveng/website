@@ -35,5 +35,4 @@
 • Publish cohort knowledge natively on Nostr to keep history portable and zap-able.
 
 ---
-
-By marrying authentic dialogues with light-touch AI tooling and Nostr publishing, builders can share real vibes at internet speed—embodying Sovereign Engineering's principle: talk, build, show, iterate.
+By marrying authentic dialogues with light-touch AI tooling and Nostr publishing, builders can share real vibes at internet speed—embodying Sovereign Engineering's principle: talk, build, show, iterate. 

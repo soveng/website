@@ -28,17 +28,16 @@ const { testimonial } = Astro.props;
                     <div class="swiper-slide">
                       <div class="px-7 py-10 dark:bg-darkmode-light testimonial-card">
                         <div class="text-text-dark dark:text-white">
-                          <span class="text-[4rem] font-secondary text-primary leading-none">
-                            &ldquo;
-                          </span>
+                          <span class="text-[4rem] font-secondary text-primary leading-none">&ldquo;</span>
                         </div>
                         <blockquote
                           class="font-primary italic text-xl"
                           set:html={markdownify(item.content)}
-                        ></blockquote>
+                        >
+                        </blockquote>
                         <div class="mt-11 flex items-center">
                           <div class="text-text-dark dark:text-white">
-                            {item.noteid || item.npub ? (
+                            {(item.noteid || item.npub) ? (
                               <a
                                 href={`https://njump.me/${item.noteid || item.npub}`}
                                 target="_blank"
@@ -66,7 +65,7 @@ const { testimonial } = Astro.props;
                             )}
                           </div>
                           <div class="ml-4">
-                            {item.noteid || item.npub ? (
+                            {(item.noteid || item.npub) ? (
                               <a
                                 href={`https://njump.me/${item.noteid || item.npub}`}
                                 target="_blank"
@@ -92,7 +91,7 @@ const { testimonial } = Astro.props;
                         </div>
                       </div>
                     </div>
-                  ),
+                  )
                 )}
               </div>
               <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center" />
@@ -139,6 +138,7 @@ const { testimonial } = Astro.props;
 </script>
 
 <style>
+  
   .testimonial-card {
     width: 100%;
     background-image: url("/images/dither-bg.png");
@@ -157,7 +157,7 @@ const { testimonial } = Astro.props;
   .showcase-logo:hover img {
     filter: none !important;
   }
-
+  
   .showcase-logo {
     filter: contrast(1000%) grayscale(100%) !important;
     image-rendering: pixelated !important;

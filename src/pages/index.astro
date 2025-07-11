@@ -29,17 +29,17 @@ interface Homepage {
 
 const homepage = (await getEntry(
   "homepage",
-  "-index",
+  "-index"
 )) as CollectionEntry<"homepage">;
 
 const testimonial = (await getEntry(
   "testimonialSection",
-  "testimonial",
+  "testimonial"
 )) as CollectionEntry<"testimonialSection">;
 
 const call_to_action = (await getEntry(
   "ctaSection",
-  "call-to-action",
+  "call-to-action"
 )) as CollectionEntry<"ctaSection">;
 
 const { banner, features } = homepage.data as Homepage;
@@ -51,31 +51,23 @@ const bannerContent = await markdownify(banner.content);
 
 <Base showCallToAction={false}>
   <!-- Hero Section -->
-  <header
-    class="h-screen w-full flex flex-col text-white relative bg-primary font-primary text-lg"
-  >
+  <header class="h-screen w-full flex flex-col text-white relative bg-primary font-primary text-lg">
     <!-- Top Navigation / Logo Row -->
     <div class="container pt-4 flex-shrink-0">
       <div class="flex items-center justify-between gap-3">
-        <a href="/projects" class="hover:underline whitespace-nowrap"
-          >Build the tools.</a
-        >
+        <a href="/projects" class="hover:underline whitespace-nowrap">Build the tools.</a>
         <Image
           src={logoImage}
           alt="Sovereign Engineering"
           class="w-[2.5rem] sm:w-[3rem]"
         />
-        <a href="/concept" class="hover:underline whitespace-nowrap"
-          >Ship the future.</a
-        >
+        <a href="/concept" class="hover:underline whitespace-nowrap">Ship the future.</a>
       </div>
     </div>
 
     <!-- Hero Title -->
     <div class="w-full text-center pt-4 flex-shrink-0">
-      <h1 class="text-[calc(max(6vw, 4rem))] leading-none">
-        SOVEREIGN ENGINEERING
-      </h1>
+      <h1 class="text-[calc(max(6vw, 4rem))] leading-none">SOVEREIGN ENGINEERING</h1>
     </div>
 
     <!-- Main Content - Image -->
@@ -92,19 +84,14 @@ const bannerContent = await markdownify(banner.content);
     <!-- Subtitle Section -->
     <div class="w-full text-center py-4 flex-shrink-0 mb-0">
       <div class="container">
-        <div
-          class="mx-auto w-3/4 md:text-4xl leading-none text-white text-balance"
-          set:html={bannerTitle}
-        />
+        <div class="mx-auto w-3/4 md:text-4xl leading-none text-white text-balance" set:html={bannerTitle}></div>
       </div>
     </div>
 
     <!-- Call to Action Button and Bottom Text -->
     <div class="w-full py-4 flex-shrink-0 mb-4">
       <div class="container">
-        <div
-          class="flex flex-col sm:flex-row justify-between items-center sm:gap-0 mt-8"
-        >
+        <div class="flex flex-col sm:flex-row justify-between items-center sm:gap-0 mt-8">
           <div class="text-center sm:text-left w-full sm:w-1/4 leading-none">
             <p class="m-0 text-balance">
               Six weeks of high-bandwidth ideation, dialog, and experimentation.
@@ -145,16 +132,13 @@ const bannerContent = await markdownify(banner.content);
       // Handle weekly rhythm or regular bullet points
       let bulletPoints: string[] = [];
       if (feature.weeklyRhythm) {
-        bulletPoints = weeklyRhythmData.schedule.map(
-          (item) => `**${item.day}:** ${item.description}`,
-        );
+        bulletPoints = weeklyRhythmData.schedule.map(item => `**${item.day}:** ${item.description}`);
       } else if (feature.bulletpoints) {
         bulletPoints = feature.bulletpoints;
       }
-
-      const sectionId =
-        index === 0 ? "what" : index === 1 ? "how" : index === 2 ? "why" : "";
-
+      
+      const sectionId = index === 0 ? "what" : index === 1 ? "how" : index === 2 ? "why" : "";
+      
       return (
         <>
           <FeatureSection
@@ -169,24 +153,16 @@ const bannerContent = await markdownify(banner.content);
           {/* Insert quote after the first feature */}
           {index === 0 && (
             <BigBlockQuote
-              quote={
-                philosophyQuotes.find((q) => q.id === "saint-exupery")?.quote!
-              }
-              author={
-                philosophyQuotes.find((q) => q.id === "saint-exupery")?.author!
-              }
+              quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote!}
+              author={philosophyQuotes.find(q => q.id === "saint-exupery")?.author!}
               href="/philosophy"
             />
           )}
           {/* Insert Hal Finney quote after the second feature */}
           {index === 1 && (
             <BigBlockQuote
-              quote={
-                philosophyQuotes.find((q) => q.id === "hal-finney")?.quote!
-              }
-              author={
-                philosophyQuotes.find((q) => q.id === "hal-finney")?.author!
-              }
+              quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote!}
+              author={philosophyQuotes.find(q => q.id === "hal-finney")?.author!}
               href="/concept"
             />
           )}

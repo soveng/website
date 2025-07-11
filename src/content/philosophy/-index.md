@@ -6,7 +6,7 @@ description: "Our philosophy and principles"
 
 # Main introduction section
 intro:
-  quote_section: "Philosophy" # References philosophy-quotes.json
+  quote_section: "Philosophy"  # References philosophy-quotes.json
   content: |
     Sovereign Engineering is grounded in the values embodied by Bitcoin: **self-sovereignty, agency, and censorship-resistance**. We build technology that maximises individual freedom, minimises reliance on trusted third parties, and treats the individual as the ultimate node in every network.
 
@@ -17,7 +17,7 @@ intro:
 sections:
   - id: "freedom-by-design"
     title: "Freedom by Design"
-    quote_section: "Freedom by Design" # References philosophy-quotes.json
+    quote_section: "Freedom by Design"  # References philosophy-quotes.json
     image: "genesis-block.png"
     float: "right"
     content: |
@@ -29,7 +29,7 @@ sections:
 
   - id: "solved-by-walking"
     title: "Solved By Walking"
-    quote_section: "Solved By Walking" # References philosophy-quotes.json
+    quote_section: "Solved By Walking"  # References philosophy-quotes.json
     image: "solvitur-ambulando.jpeg"
     float: "left"
     content: |
@@ -41,7 +41,7 @@ sections:
 
   - id: "explorers-of-a-new-frontier"
     title: "Explorers of a New Frontier"
-    quote_section: "Explorers of a New Frontier" # References philosophy-quotes.json
+    quote_section: "Explorers of a New Frontier"  # References philosophy-quotes.json
     image: "bell-labs.jpeg"
     float: "right"
     content: |
@@ -53,7 +53,7 @@ sections:
 
   - id: "in-person-high-bandwidth"
     title: "In-Person, High-Bandwidth"
-    quote_section: "In-Person, High-Bandwidth" # References philosophy-quotes.json
+    quote_section: "In-Person, High-Bandwidth"  # References philosophy-quotes.json
     image: "soveng-shirt.jpeg"
     float: "left"
     content: |
@@ -65,7 +65,7 @@ sections:
 
   - id: "bias-for-action"
     title: "Bias for Action"
-    quote_section: "Bias for Action" # References philosophy-quotes.json
+    quote_section: "Bias for Action"  # References philosophy-quotes.json
     image: "show-talk-build-loop.jpeg"
     float: "right"
     link: "/concept"
@@ -80,7 +80,7 @@ sections:
 
   - id: "cypherpunks-write-code"
     title: "Cypherpunks Write Code"
-    quote_section: "Cypherpunks Write Code" # References philosophy-quotes.json
+    quote_section: "Cypherpunks Write Code"  # References philosophy-quotes.json
     image: "cypherpunks-write-code.jpeg"
     float: "left"
     content: |
@@ -90,7 +90,7 @@ sections:
 
   - id: "no-solutions"
     title: "No Solutions"
-    quote_section: "No Solutions" # References philosophy-quotes.json
+    quote_section: "No Solutions"  # References philosophy-quotes.json
     image: "wide-open-sea.jpeg"
     float: "right"
     content: |
@@ -100,7 +100,7 @@ sections:
 
   - id: "endurance"
     title: "Endurance"
-    quote_section: "Endurance" # References philosophy-quotes.json
+    quote_section: "Endurance"  # References philosophy-quotes.json
     image: "endurance.jpeg"
     float: "left"
     content: |
@@ -114,4 +114,4 @@ sections:
 cta:
   text: "Apply Now"
   link: "/apply"
----
+--- 

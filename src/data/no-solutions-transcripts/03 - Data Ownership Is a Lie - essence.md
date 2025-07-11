@@ -39,5 +39,4 @@
 • Encourage local-first UX patterns and direct sats flows in all cohort apps.
 
 ---
-
-Embrace messy, local, user-owned systems. Ship early, iterate publicly, earn sats without gatekeepers—this is Sovereign Engineering's path forward.
+Embrace messy, local, user-owned systems. Ship early, iterate publicly, earn sats without gatekeepers—this is Sovereign Engineering's path forward. 

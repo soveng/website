@@ -18,7 +18,7 @@ const { title, content, image, quote, author } = Astro.props;
 const leadContent = await markdownify(content, true); // div: true for paragraph processing
 
 // Check if image is an imported asset or a string path
-const isOptimizedImage = typeof image === "object" && image !== null;
+const isOptimizedImage = typeof image === 'object' && image !== null;
 ---
 
 <section class="section-sm bg-black text-white pt-20 sm:pt-24">
@@ -26,52 +26,46 @@ const isOptimizedImage = typeof image === "object" && image !== null;
     <!-- Header -->
     <div class="row justify-center">
       <div class="col-12 text-center">
-        <h1
-          class="mb-4 text-white uppercase mt-12 sm:mt-16"
-          style="font-size: 3rem;"
-        >
-          {title}
-        </h1>
+        <h1 class="mb-4 text-white uppercase mt-12 sm:mt-16" style="font-size: 3rem;">{title}</h1>
       </div>
     </div>
-
+    
     <!-- Centered Quote -->
-    {quote && author && <BigBlockQuote quote={quote} author={author} />}
-
+    {quote && author && (
+      <BigBlockQuote 
+        quote={quote}
+        author={author}
+      />
+    )}
+    
     <!-- Full Width Image -->
     <div class="row justify-center">
       <div class="col-12">
-        {
-          isOptimizedImage ? (
-            <Image
-              src={image as ImageMetadata}
-              alt={title}
-              class="w-full mb-8"
-              loading="eager"
-              format="webp"
-              quality={85}
-            />
-          ) : (
-            <img
-              src={image as string}
-              alt={title}
-              class="w-full mb-8"
-              loading="eager"
-            />
-          )
-        }
+        {isOptimizedImage ? (
+          <Image
+            src={image as ImageMetadata}
+            alt={title}
+            class="w-full mb-8"
+            loading="eager"
+            format="webp"
+            quality={85}
+          />
+        ) : (
+          <img
+            src={image as string}
+            alt={title}
+            class="w-full mb-8"
+            loading="eager"
+          />
+        )}
       </div>
     </div>
-
+    
     <!-- Full Width Content -->
     <div class="row justify-center">
       <div class="max-w-[960px] mx-auto">
-        <div
-          set:html={leadContent}
-          class="content [&>p]:text-xl [&>p]:text-white"
-        />
+        <div set:html={leadContent} class="content [&>p]:text-xl [&>p]:text-white" />
       </div>
     </div>
   </div>
-</section>
-
+</section> 

@@ -12,6 +12,7 @@ const metaQuote = `Start ugly, iterate publicly, and keep walking—this is Sove
 const pageTitle = "No Solutions";
 const byline = `Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.`;
 const pageDescription = "No Solutions podcast";
+
 ---
 
 <Base title={pageTitle} description={pageDescription}>
@@ -21,27 +22,14 @@ const pageDescription = "No Solutions podcast";
       <!-- Header -->
       <div class="row justify-center">
         <div class="col-12 text-center">
-          <a
-            href="https://podcastindex.org/podcast/7206062"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/nosolutions-cover.jpg"
-              alt="No Solutions Podcast Cover"
-              class="mx-auto mb-6 w-48 h-48 shadow-lg object-cover"
-            />
+          <a href="https://podcastindex.org/podcast/7206062" target="_blank" rel="noopener noreferrer">
+            <img src="/images/nosolutions-cover.jpg" alt="No Solutions Podcast Cover" class="mx-auto mb-6 w-48 h-48 shadow-lg object-cover" />
           </a>
-          <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">
-            {pageTitle}
-          </h1>
-          <p
-            class="text-xl font-primary uppercase tracking-wider mb-8"
-            set:html={byline}
-          />
+          <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">{pageTitle}</h1>
+          <p class="text-xl font-primary uppercase tracking-wider mb-8 " set:html={byline} />
         </div>
       </div>
-
+      
       <!-- Content Section -->
       <div class="row justify-center">
         <div class="max-w-[960px] mx-auto">
@@ -50,6 +38,8 @@ const pageDescription = "No Solutions podcast";
           </div>
         </div>
       </div>
+
+
 
       <!-- Platform Links -->
       <div class="row justify-center">
@@ -77,10 +67,7 @@ const pageDescription = "No Solutions podcast";
               rel="noopener noreferrer"
               class="btn-retro"
             >
-              <DynamicIcon
-                icon="FaRss"
-                className="inline-block w-4 h-4 mr-2 align-text-bottom"
-              />
+              <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
               RSS
             </a>
             <a
@@ -97,7 +84,9 @@ const pageDescription = "No Solutions podcast";
       </div>
 
       <!-- Centered Quote -->
-      <BigBlockQuote quote={metaQuote} />
+      <BigBlockQuote 
+        quote={metaQuote}
+      />
     </div>
   </section>
 </Base>

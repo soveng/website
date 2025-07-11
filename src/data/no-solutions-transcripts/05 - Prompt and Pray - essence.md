@@ -6,16 +6,16 @@
 
 1. **Prompt → Pray → Ship**  
    • Large-language models feel like hiring 200 junior devs—if you give clear prompts.  
-   • The hard part shifts to intent-design: decide _why_ & _what_ before invoking the machines.  
+   • The hard part shifts to intent-design: decide *why* & *what* before invoking the machines.  
    • "Prompt-and-pray" is a feature, not a bug—rapid iterations beat perfect plans.
 
 2. **Hyper-Personal Computing**  
-   • Early PCs were _yours_; today's browser/phone is a billboard in a walled garden.  
+   • Early PCs were *yours*; today's browser/phone is a billboard in a walled garden.  
    • Ben's Hypernote idea revives GeoCities-style self-hosting plus micro-apps powered by Nostr/NDK.  
    • Goal: one-click deploy of file-centric, local-first tools that sync via relays—no SaaS trap.
 
 3. **Agency Requires Mistake Space**  
-   • Sharp knives cut steak _and_ fingers; freedom implies risk.  
+   • Sharp knives cut steak *and* fingers; freedom implies risk.  
    • UX shouldn't over-nanny Bitcoin/Lightning users—better to let newcomers learn (and recover) than hide complexity forever.  
    • Forgiveness & versioning (tit-for-tat) build robust communities.
 
@@ -25,7 +25,7 @@
 
 5. **Wisdom > Information**  
    • The web confuses data with knowledge; Sovereign Engineering looks for "old-wise-guy" patterns to avoid past failures.  
-   • Distributed cognition (walk-and-talk, group chat, public Nostr threads) surfaces better vocabulary—e.g., _blinded custodian_, _self-verifying data_.
+   • Distributed cognition (walk-and-talk, group chat, public Nostr threads) surfaces better vocabulary—e.g., *blinded custodian*, *self-verifying data*.
 
 6. **Multi-Generational Mindset**  
    • Tech should be built like cathedrals: grandchildren can still use it.  
@@ -41,4 +41,4 @@
 
 > "Computers should do computer work—so humans can touch grass and build cathedrals." —Episode takeaway
 
-Episode 05 underscores Sovereign Engineering's bias for action: wield AI and open protocols to reclaim _personal_ computing, but keep humans in the loop for meaning and long-term stewardship.
+Episode 05 underscores Sovereign Engineering's bias for action: wield AI and open protocols to reclaim *personal* computing, but keep humans in the loop for meaning and long-term stewardship. 

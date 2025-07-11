@@ -32,16 +32,8 @@ const { call_to_action } = Astro.props;
               <a
                 class="btn-retro inline-block"
                 href={call_to_action.data.button.link}
-                target={
-                  call_to_action.data.button.link.startsWith("http")
-                    ? "_blank"
-                    : "_self"
-                }
-                rel={
-                  call_to_action.data.button.link.startsWith("http")
-                    ? "noopener noreferrer"
-                    : ""
-                }
+                target={call_to_action.data.button.link.startsWith("http") ? "_blank" : "_self"}
+                rel={call_to_action.data.button.link.startsWith("http") ? "noopener noreferrer" : ""}
               >
                 {call_to_action.data.button.label}
               </a>

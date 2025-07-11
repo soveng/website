@@ -46,6 +46,7 @@ testimonials:
     noteid: "nevent1qqsd62at55e5lq2zd886huvdv57c89h4nky84ygu05345u772lgz0ssppamhxue69uhkummnw3ezumt0d5pzqyde4z2qfklnqd88uxyxh2wuf3knwmernggcyuda9mzk02yfs5xwyck7k0"
     content: "You should apply to Sovereign Engineering."
 
+
   - name: "miljan"
     designation: "Primal"
     avatar: "/images/miljan-avatar.jpg"
@@ -87,4 +88,5 @@ testimonials:
     npub: "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6"
     noteid: "nevent1qqsxuf3drahkye4fvs4hws2ntrg67yr2dn5h0sr03vrleg99qcgkemgzyrk8ndtghh4x8jnqj86msjcvvwwppgy3nct4lgy6fh332nuzjphj25x6uuw"
     content: "Sovereign Engineering is Bletchley Park ²\n\nA mind melding brain melting cornucopia of creative coding for humanity\n\nIt’s all quite bonkers"
+
 ---
