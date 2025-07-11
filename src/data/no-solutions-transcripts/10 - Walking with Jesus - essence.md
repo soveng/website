@@ -36,4 +36,5 @@
 • Integrate walking transcripts into cohort knowledge base via Blossom.
 
 ---
-Walking isn't downtime—it's moving R&D. By lacing up and stepping out, Sovereign Engineers find clarity, camaraderie, and sometimes a little grace along the path. 
+
+Walking isn't downtime—it's moving R&D. By lacing up and stepping out, Sovereign Engineers find clarity, camaraderie, and sometimes a little grace along the path.

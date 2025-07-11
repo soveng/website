@@ -8,11 +8,13 @@ export const slugify = (content: string) => {
 
 // markdownify
 export const markdownify = async (content: string, div?: boolean) => {
-  const html = await (div ? marked.parse(content) : marked.parseInline(content));
+  const html = await (div
+    ? marked.parse(content)
+    : marked.parseInline(content));
   // Add target="_blank" and rel="noopener noreferrer" to external links
   return html.replace(
     /<a href="(https?:\/\/[^"]+)"([^>]*)>/g,
-    '<a href="$1"$2 target="_blank" rel="noopener noreferrer">'
+    '<a href="$1"$2 target="_blank" rel="noopener noreferrer">',
   );
 };
 

@@ -27,14 +27,14 @@ import wwwLifePathImage from "@/assets/images/www-life-path.png";
 // Get concept content
 const concept = (await getEntry(
   "concept",
-  "-index"
+  "-index",
 )) as CollectionEntry<"concept">;
 
 const { title, meta_title, description, intro, sections } = concept.data;
 
 // Helper function to find quote by ID
 const getQuoteById = (id: string) => {
-  return philosophyQuotes.find(q => q.id === id);
+  return philosophyQuotes.find((q) => q.id === id);
 };
 
 // Get the Berdyaev quote for the ContentLead
@@ -65,23 +65,19 @@ const slideMap: Record<string, any> = {
 const processedSections = sections.map((section: any) => {
   if (section.id === "weekly-loop") {
     // Convert weekly rhythm schedule to bulletpoints
-    const scheduleBullets = weeklyRhythmData.schedule.map((item) => 
-      `**${item.day}** – ${item.description}`
+    const scheduleBullets = weeklyRhythmData.schedule.map(
+      (item) => `**${item.day}** – ${item.description}`,
     );
     return {
       ...section,
-      bulletpoints: scheduleBullets
+      bulletpoints: scheduleBullets,
     };
   }
   return section;
 });
 ---
 
-<Base
-  title={title}
-  meta_title={meta_title}
-  description={description}
->
+<Base title={title} meta_title={meta_title} description={description}>
   <!-- Intro Lead Section -->
   <ContentLead
     title={title}
@@ -92,19 +88,22 @@ const processedSections = sections.map((section: any) => {
   />
 
   <!-- Content Sections -->
-  {processedSections.map((section: any, index: number) => (
-    <ContentSection
-      title={section.title}
-      content={section.content}
-      image={slideMap[section.image]}
-      index={index}
-      id={section.id}
-      bulletpoints={section.bulletpoints || []}
-      pullquote={{
-        quote: "",
-        author: "",
-        href: section.link
-      }}
-    />
-  ))}
-</Base> 
+  {
+    processedSections.map((section: any, index: number) => (
+      <ContentSection
+        title={section.title}
+        content={section.content}
+        image={slideMap[section.image]}
+        index={index}
+        id={section.id}
+        bulletpoints={section.bulletpoints || []}
+        pullquote={{
+          quote: "",
+          author: "",
+          href: section.link,
+        }}
+      />
+    ))
+  }
+</Base>
+

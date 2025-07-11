@@ -23,14 +23,14 @@ import { getEntry } from "astro:content";
 // Get philosophy content
 const philosophy = (await getEntry(
   "philosophy",
-  "-index"
+  "-index",
 )) as CollectionEntry<"philosophy">;
 
 const { title, meta_title, description, intro, sections } = philosophy.data;
 
 // Helper function to find quote by section (preserving existing quote system)
 const getQuote = (section: string) => {
-  return philosophyQuotes.find(q => q.section === section);
+  return philosophyQuotes.find((q) => q.section === section);
 };
 
 // Map image filenames to imported slide objects (now optimized assets)
@@ -49,11 +49,7 @@ const slideMap: Record<string, any> = {
 };
 ---
 
-<Base
-  title={title}
-  meta_title={meta_title}
-  description={description}
->
+<Base title={title} meta_title={meta_title} description={description}>
   <!-- Intro Lead Section -->
   <ContentLead
     title={title}
@@ -64,17 +60,20 @@ const slideMap: Record<string, any> = {
   />
 
   <!-- Content Sections -->
-  {sections.map((section: any, index: number) => (
-    <ContentSection
-      title={section.title}
-      content={section.content}
-      image={slideMap[section.image]}
-      index={index}
-      pullquote={{
-        quote: getQuote(section.quote_section)?.quote || "",
-        author: getQuote(section.quote_section)?.author || "",
-        href: section.link
-      }}
-    />
-  ))}
-</Base> 
+  {
+    sections.map((section: any, index: number) => (
+      <ContentSection
+        title={section.title}
+        content={section.content}
+        image={slideMap[section.image]}
+        index={index}
+        pullquote={{
+          quote: getQuote(section.quote_section)?.quote || "",
+          author: getQuote(section.quote_section)?.author || "",
+          href: section.link,
+        }}
+      />
+    ))
+  }
+</Base>
+

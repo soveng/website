@@ -30,26 +30,27 @@
 
 ## Cohort Rhythm (Weekly)
 
-| Day | Focus | Example Activities |
-| --- | ----- | ------------------ |
-| Monday | Orientation | Set intentions, form teams |
-| Tuesday | Talks | Idea sharing, lightning talks |
-| Wednesday | Workshops | Hands-on skill transfer (e.g. setting up Bitaxe with eCash payouts) |
-| Thursday | Independent Work / Walks | Deep work, outdoor walks for ideation |
-| Friday | Demo Day | Ship & showcase weekly experiments, collective review |
+| Day       | Focus                    | Example Activities                                                  |
+| --------- | ------------------------ | ------------------------------------------------------------------- |
+| Monday    | Orientation              | Set intentions, form teams                                          |
+| Tuesday   | Talks                    | Idea sharing, lightning talks                                       |
+| Wednesday | Workshops                | Hands-on skill transfer (e.g. setting up Bitaxe with eCash payouts) |
+| Thursday  | Independent Work / Walks | Deep work, outdoor walks for ideation                               |
+| Friday    | Demo Day                 | Ship & showcase weekly experiments, collective review               |
 
 ## Notable Outcomes From Past Cohorts
 
-- **Blossom** — Nostr-native media hosting now widely adopted.  
-- **NIP-16 / NIP-61** — Protocol extensions born in cohort.  
+- **Blossom** — Nostr-native media hosting now widely adopted.
+- **NIP-16 / NIP-61** — Protocol extensions born in cohort.
 - **Wiki-Freedia**, **Tollgate**, **In-Sight** and more.
 
 ## Why It Works
 
 • High talent density + shared mission.  
 • Psychological safety to explore "crazy ideas" without judgement on worth, only on execution.  
-• Physical & mental walks break fixation on *how* and clarify *why*.  
+• Physical & mental walks break fixation on _how_ and clarify _why_.  
 • Frequent demos create accountability and accelerate learning cycles.
 
 ---
-Built for builders who choose autonomy over permission. This is Sovereign Engineering in action. 
+
+Built for builders who choose autonomy over permission. This is Sovereign Engineering in action.

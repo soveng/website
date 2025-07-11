@@ -32,4 +32,5 @@
 • Showcase end-to-end local pipelines as templates for "build, ship, own" philosophy.
 
 ---
-By marrying Zig's cross-platform tooling with file-first workflows and decentralized storage, Sovereign Engineering builders can own every step—from keystroke to published artifact—without cloud lock-in or fragile configs. 
+
+By marrying Zig's cross-platform tooling with file-first workflows and decentralized storage, Sovereign Engineering builders can own every step—from keystroke to published artifact—without cloud lock-in or fragile configs.

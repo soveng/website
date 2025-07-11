@@ -14,29 +14,57 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
     <div class="row items-center py-10">
       <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
         <div class="flex items-center justify-center lg:justify-start">
-          <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-8 h-8 mr-3" />
-          <a href="https://nostr.band/?q=%23SovEng" target="_blank" rel="noopener" class="text-white font-bold hover:text-primary transition-colors">#SovEng</a>
+          <img
+            src="/images/sec-05-sec-05-brandmark-white-rgb.svg"
+            alt="Sovereign Engineering"
+            class="w-8 h-8 mr-3"
+          />
+          <a
+            href="https://nostr.band/?q=%23SovEng"
+            target="_blank"
+            rel="noopener"
+            class="text-white font-bold hover:text-primary transition-colors"
+            >#SovEng</a
+          >
         </div>
       </div>
       <div class="mb-8 lg:col-6 lg:mb-0">
-        <ul class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 whitespace-nowrap overflow-x-auto">
+        <ul
+          class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 whitespace-nowrap overflow-x-auto"
+        >
           {
-            footer.filter(menu => menu.name !== "Contact" && menu.name !== "About")
+            footer
+              .filter(
+                (menu) => menu.name !== "Contact" && menu.name !== "About",
+              )
               .sort((a, b) => a.name.localeCompare(b.name))
               .map((menu) => {
-                const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+                const isExternal =
+                  menu.url.startsWith("http") || menu.url.startsWith("mailto");
                 return (
                   <li class="inline-block">
-                    <a 
+                    <a
                       href={menu.url}
                       class="text-white hover:text-primary transition-colors flex items-center"
-                      {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                      {...(isExternal && {
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                      })}
                     >
                       <span>{menu.name}</span>
                       {isExternal && (
-                        <svg class="w-3 h-3 ml-1 opacity-60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                          <path d="M13 5H19V11"/>
-                          <path d="M19 5L5 19"/>
+                        <svg
+                          class="w-3 h-3 ml-1 opacity-60"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path d="M13 5H19V11" />
+                          <path d="M19 5L5 19" />
                         </svg>
                       )}
                     </a>
@@ -46,7 +74,9 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
           }
         </ul>
       </div>
-      <div class="mb-8 lg:col-3 lg:mb-0 lg:mt-0 flex justify-end items-center gap-3">
+      <div
+        class="mb-8 lg:col-3 lg:mb-0 lg:mt-0 flex justify-end items-center gap-3"
+      >
         <Social source={social.main} className="social-icons text-white" />
       </div>
     </div>

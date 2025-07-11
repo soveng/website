@@ -2,7 +2,8 @@ const showcaseProjects = [
   // SEC-00 Projects (Foundational/Reference)
   {
     name: "Highlighter",
-    description: "A nostr client & NIP for sharing and discovering highlights from books, articles, and more.",
+    description:
+      "A nostr client & NIP for sharing and discovering highlights from books, articles, and more.",
     cohort: "SEC-00",
     link: "https://highlighter.com/",
     linkText: "highlighter.com",
@@ -11,7 +12,8 @@ const showcaseProjects = [
   },
   {
     name: "Lightning Prisms",
-    description: "Programmable value splits for Lightning payments. See blog post for details.",
+    description:
+      "Programmable value splits for Lightning payments. See blog post for details.",
     cohort: "SEC-00",
     link: "https://dergigi.com/2023/03/12/lightning-prisms/",
     linkText: "dergigi.com/2023/03/12/lightning-prisms/",
@@ -20,21 +22,26 @@ const showcaseProjects = [
   },
   {
     name: "NIP-90: Data Vending Machines",
-    description: "Nostr protocol extension for on-demand computation and data vending. See NIP and reference site.",
+    description:
+      "Nostr protocol extension for on-demand computation and data vending. See NIP and reference site.",
     cohort: "SEC-00",
     link: "https://nips.nostr.com/90",
     linkText: "nips.nostr.com/90",
     logo: "",
     highlight: false,
     extraLinks: [
-      { link: "https://www.data-vending-machines.org/", linkText: "data-vending-machines.org" }
-    ]
+      {
+        link: "https://www.data-vending-machines.org/",
+        linkText: "data-vending-machines.org",
+      },
+    ],
   },
 
   // SEC-01 Projects (Jan-Mar 2024)
   {
     name: "Blossom",
-    description: "A specification for HTTP endpoints that allow users to store blobs of data on publicly accessible servers",
+    description:
+      "A specification for HTTP endpoints that allow users to store blobs of data on publicly accessible servers",
     cohort: "SEC-01",
     link: "https://github.com/hzrd149/blossom",
     linkText: "github.com/hzrd149/blossom",
@@ -43,7 +50,8 @@ const showcaseProjects = [
   },
   {
     name: "npub.cash",
-    description: "A nostr native Lightning Address service that provides Lightning addresses for everyone using Cashu eCash",
+    description:
+      "A nostr native Lightning Address service that provides Lightning addresses for everyone using Cashu eCash",
     cohort: "SEC-01",
     link: "https://npub.cash/",
     linkText: "npub.cash",
@@ -52,7 +60,8 @@ const showcaseProjects = [
   },
   {
     name: "Nostr-idb",
-    description: "Collection of helper methods for storing nostr events in IndexedDB",
+    description:
+      "Collection of helper methods for storing nostr events in IndexedDB",
     cohort: "SEC-01",
     link: "https://github.com/hzrd149/nostr-idb",
     linkText: "github.com/hzrd149/nostr-idb",
@@ -61,7 +70,8 @@ const showcaseProjects = [
   },
   {
     name: "Blossom Drive",
-    description: "A cloud drive built using blossom servers and nostr for decentralized file storage",
+    description:
+      "A cloud drive built using blossom servers and nostr for decentralized file storage",
     cohort: "SEC-01",
     link: "https://github.com/hzrd149/blossom-drive",
     linkText: "github.com/hzrd149/blossom-drive",
@@ -70,7 +80,8 @@ const showcaseProjects = [
   },
   {
     name: "Wikifreedia",
-    description: "Wikipedia on nostr enables a myriad of interesting and novel concepts that have captured the imagination of people outside the freedom tech ecosystem, including the founder of Wikipedia itself. Wikifreedia was born within SEC-01 with the radical idea of, instead of reducing bias in canonical wiki entries, a readily apparent pursuit, embrace bias and make it technologically impossible for a canonical entry to exist. Truth via the integration of opposites.",
+    description:
+      "Wikipedia on nostr enables a myriad of interesting and novel concepts that have captured the imagination of people outside the freedom tech ecosystem, including the founder of Wikipedia itself. Wikifreedia was born within SEC-01 with the radical idea of, instead of reducing bias in canonical wiki entries, a readily apparent pursuit, embrace bias and make it technologically impossible for a canonical entry to exist. Truth via the integration of opposites.",
     cohort: "SEC-01",
     link: "https://github.com/pablof7z/wikifreedia",
     linkText: "github.com/pablof7z/wikifreedia",
@@ -79,7 +90,8 @@ const showcaseProjects = [
   },
   {
     name: "noStrudel on StartOS",
-    description: "noStrudel nostr client packaged for StartOS self-sovereign computing platform",
+    description:
+      "noStrudel nostr client packaged for StartOS self-sovereign computing platform",
     cohort: "SEC-01",
     link: "https://github.com/hzrd149/nostrudel-startos",
     linkText: "github.com/hzrd149/nostrudel-startos",
@@ -88,7 +100,8 @@ const showcaseProjects = [
   },
   {
     name: "nsecBunker on StartOS",
-    description: "nsecBunker remote signing service packaged for StartOS platform",
+    description:
+      "nsecBunker remote signing service packaged for StartOS platform",
     cohort: "SEC-01",
     link: "https://github.com/hzrd149/nsecbunker-startos",
     linkText: "github.com/hzrd149/nsecbunker-startos",
@@ -115,7 +128,8 @@ const showcaseProjects = [
   },
   {
     name: "Malware DVMs",
-    description: "Data Vending Machines for malware analysis and security services",
+    description:
+      "Data Vending Machines for malware analysis and security services",
     cohort: "SEC-01",
     link: "https://github.com/sebdeveloper6952/malware.dvms.app",
     linkText: "github.com/sebdeveloper6952/malware.dvms.app",
@@ -151,7 +165,8 @@ const showcaseProjects = [
   },
   {
     name: "Nostrocket",
-    description: "Decentralized organization and project management platform on nostr",
+    description:
+      "Decentralized organization and project management platform on nostr",
     cohort: "SEC-01",
     link: "https://nostrocket.org",
     linkText: "nostrocket.org",
@@ -169,7 +184,7 @@ const showcaseProjects = [
   },
   {
     name: "keyNest",
-    description: "Secure key management solution for nostr and Bitcoin",
+    description: "Secure key management solution for nostr",
     cohort: "SEC-01",
     link: "https://github.com/gzuuus/keynest",
     linkText: "github.com/gzuuus/keynest",
@@ -178,7 +193,8 @@ const showcaseProjects = [
   },
   {
     name: "LowEnt",
-    description: "Low entropy key generation and management tool",
+    description:
+      "Anonymous chat and messaging platform based on low entropy keys",
     cohort: "SEC-01",
     link: "https://github.com/gzuuus/lowent",
     linkText: "github.com/gzuuus/lowent",
@@ -189,7 +205,8 @@ const showcaseProjects = [
   // SEC-02 Projects (May-Jun 2024)
   {
     name: "Nsite",
-    description: "Host static websites on Nostr using blossom servers for storage and nostr relays for mapping",
+    description:
+      "Host static websites on Nostr using blossom servers for storage and nostr relays for mapping",
     cohort: "SEC-02",
     link: "https://nsite.run/",
     linkText: "nsite.run",
@@ -198,7 +215,8 @@ const showcaseProjects = [
   },
   {
     name: "NIP-60",
-    description: "Nutsacks: enable any and all nostr apps to match the convenience of a built-in KYC wallet, minus the KYC, while supercharging the wallet with the same interoperability freedom tech users expect: receive money in one app, spend in another, seamlessly.",
+    description:
+      "Nutsacks: enable any and all nostr apps to match the convenience of a built-in KYC wallet, minus the KYC, while supercharging the wallet with the same interoperability freedom tech users expect: receive money in one app, spend in another, seamlessly.",
     cohort: "SEC-02",
     link: "https://nips.nostr.com/60",
     linkText: "nips.nostr.com/60",
@@ -207,7 +225,8 @@ const showcaseProjects = [
   },
   {
     name: "NIP-61",
-    description: "Nutzaps: Receiving—and verifying— zaps, has always been a weak point in nostr. Nutzaps have enabled a new, more straightforward and verifiable way to participate in the zap-economy.",
+    description:
+      "Nutzaps: Receiving—and verifying— zaps, has always been a weak point in nostr. Nutzaps have enabled a new, more straightforward and verifiable way to participate in the zap-economy.",
     cohort: "SEC-02",
     link: "https://nips.nostr.com/61",
     linkText: "nips.nostr.com/61",
@@ -234,7 +253,8 @@ const showcaseProjects = [
   },
   {
     name: "PubPay",
-    description: "Public key-based payment system for seamless Bitcoin transactions",
+    description:
+      "Public key-based payment system for seamless Bitcoin transactions",
     cohort: "SEC-02",
     link: "https://pubpay.me/",
     linkText: "pubpay.me",
@@ -252,7 +272,8 @@ const showcaseProjects = [
   },
   {
     name: "Tollgate",
-    description: "Pay-as-you-go internet access on open networks powered by Bitcoin Lightning and eCash",
+    description:
+      "Pay-as-you-go internet access on open networks powered by Bitcoin Lightning and eCash",
     cohort: "SEC-02",
     link: "https://tollgate.me/",
     linkText: "tollgate.me",
@@ -261,7 +282,8 @@ const showcaseProjects = [
   },
   {
     name: "Zapstore",
-    description: "Decentralized marketplace for Lightning Network payments and nostr integration",
+    description:
+      "Decentralized marketplace for Lightning Network payments and nostr integration",
     cohort: "SEC-01",
     link: "https://zapstore.dev/",
     linkText: "zapstore.dev",
@@ -326,7 +348,8 @@ const showcaseProjects = [
   },
   {
     name: "Novia",
-    description: "Social platform built on nostr with enhanced privacy features",
+    description:
+      "Social platform built on nostr with enhanced privacy features",
     cohort: "SEC-03",
     link: "https://github.com/teamnovia/novia",
     linkText: "github.com/teamnovia/novia",
@@ -344,7 +367,8 @@ const showcaseProjects = [
   },
   {
     name: "Alphaama",
-    description: "Advanced nostr client with enhanced features and functionality",
+    description:
+      "Advanced nostr client with enhanced features and functionality",
     cohort: "SEC-01",
     link: "https://github.com/eskema/alphaama",
     linkText: "github.com/eskema/alphaama",
@@ -353,10 +377,41 @@ const showcaseProjects = [
   },
   {
     name: "nostr-epoxy",
-    description: "Reverse proxy for nostr relays with enhanced performance and caching",
+    description:
+      "Reverse proxy for nostr relays with enhanced performance and caching",
     cohort: "SEC-03",
     link: "https://github.com/Origami74/nostr-epoxy-reverse-proxy",
     linkText: "github.com/Origami74/nostr-epoxy-reverse-proxy",
+    logo: "/images/showcase/nostr-logo.png",
+    highlight: false,
+  },
+  {
+    name: "mimoty",
+    description:
+      "A personal relay which is also a remote signing service for nostr",
+    cohort: "SEC-03",
+    link: "https://github.com/gzuuus/mimoty",
+    linkText: "github.com/gzuuus/mimoty",
+    logo: "/images/showcase/nostr-logo.png",
+    highlight: false,
+  },
+  {
+    name: "mimoty",
+    description:
+      "A personal relay which is also a remote signing service for nostr",
+    cohort: "SEC-03",
+    link: "https://github.com/gzuuus/mimoty",
+    linkText: "github.com/gzuuus/mimoty",
+    logo: "/images/showcase/nostr-logo.png",
+    highlight: false,
+  },
+  {
+    name: "note mixer relay",
+    description:
+      "A Nostr relay that mixes and anonymizes events using the Khatru framework.",
+    cohort: "SEC-03",
+    link: "https://github.com/gzuuus/note-mixer-relay",
+    linkText: "github.com/gzuuus/note-mixer-relay",
     logo: "/images/showcase/nostr-logo.png",
     highlight: false,
   },
@@ -391,16 +446,18 @@ const showcaseProjects = [
   },
   {
     name: "DVMCP",
-    description: "Bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine (DVM) ecosystem",
+    description:
+      "Bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine (DVM) ecosystem",
     cohort: "SEC-04",
-    link: "https://mcp.so/server/dvmcp",
-    linkText: "mcp.so/server/dvmcp",
+    link: "https://github.com/gzuuus/dvmcp/",
+    linkText: "github.com/gzuuus/dvmcp/",
     logo: "/images/showcase/nostr-logo.png",
     highlight: false,
   },
   {
     name: "next.nostr.watch",
-    description: "Next-generation nostr relay monitoring and analytics platform",
+    description:
+      "Next-generation nostr relay monitoring and analytics platform",
     cohort: "SEC-04",
     link: "https://next.nostr.watch/",
     linkText: "next.nostr.watch",
@@ -409,7 +466,8 @@ const showcaseProjects = [
   },
   {
     name: "NIP-66",
-    description: "Relay monitoring and discovery specification for nostr network health",
+    description:
+      "Relay monitoring and discovery specification for nostr network health",
     cohort: "SEC-04",
     link: "https://nips.nostr.com/66",
     linkText: "nips.nostr.com/66",
@@ -427,7 +485,8 @@ const showcaseProjects = [
   },
   {
     name: "Cassette",
-    description: "WASM-based Nostr relay implementation for the Cassette platform",
+    description:
+      "WASM-based Nostr relay implementation for the Cassette platform",
     cohort: "SEC-04",
     link: "https://github.com/dskvr/cassette",
     linkText: "github.com/dskvr/cassette",
@@ -481,7 +540,8 @@ const showcaseProjects = [
   },
   {
     name: "TENEX",
-    description: "Orchestrate the orchestrators. Autonomous, agentic learning through distributed cognition through nostr.",
+    description:
+      "Orchestrate the orchestrators. Autonomous, agentic learning through distributed cognition through nostr.",
     cohort: "SEC-04",
     link: "https://github.com/pablof7z/tenex",
     linkText: "https://github.com/pablof7z/tenex",
@@ -533,7 +593,6 @@ const showcaseProjects = [
     logo: "/images/showcase/nostr-logo.png",
     highlight: false,
   },
-
 ];
 
 export default showcaseProjects;

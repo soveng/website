@@ -35,18 +35,31 @@ export interface Props {
 }
 
 // destructure frontmatter
-const { title, meta_title, description, image, noindex, canonical, showCallToAction = true } =
-  Astro.props;
+const {
+  title,
+  meta_title,
+  description,
+  image,
+  noindex,
+  canonical,
+  showCallToAction = true,
+} = Astro.props;
 
 // process text content
-const processedTitle = await plainify(meta_title ? meta_title : title ? title : config.site.title);
-const processedDescription = await plainify(description ? description : config.metadata.meta_description);
+const processedTitle = await plainify(
+  meta_title ? meta_title : title ? title : config.site.title,
+);
+const processedDescription = await plainify(
+  description ? description : config.metadata.meta_description,
+);
 
 // Get call-to-action data if needed
-const call_to_action = showCallToAction ? (await getEntry(
-  "ctaSection",
-  "call-to-action"
-)) as CollectionEntry<"ctaSection"> : null;
+const call_to_action = showCallToAction
+  ? ((await getEntry(
+      "ctaSection",
+      "call-to-action",
+    )) as CollectionEntry<"ctaSection">)
+  : null;
 ---
 
 <!doctype html>
@@ -60,11 +73,25 @@ const call_to_action = showCallToAction ? (await getEntry(
     }
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicons/favicon-16x16.png"
+    />
     <link rel="manifest" href="/images/favicons/site.webmanifest" />
     <link rel="apple-touch-icon" href="/images/favicons/apple-touch-icon.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/favicons/apple-touch-icon.png"
+    />
     <!-- theme meta -->
     <meta name="theme-name" content="astroplate" />
     <meta name="msapplication-TileColor" content="#000000" />
@@ -83,7 +110,10 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta name="referrer" content="strict-origin-when-cross-origin" />
     <meta name="format-detection" content="telephone=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <meta name="apple-mobile-web-app-title" content="Sovereign Engineering" />
 
     <!-- Font variables from theme -->
@@ -112,14 +142,17 @@ const call_to_action = showCallToAction ? (await getEntry(
     {noindex && <meta name="robots" content="noindex,nofollow" />}
 
     <!-- meta-description -->
-    <meta
-      name="description"
-      content={processedDescription}
-    />
-    
+    <meta name="description" content={processedDescription} />
+
     <!-- Additional SEO Meta Tags -->
-    <meta name="keywords" content="sovereign engineering, bitcoin, nostr, blossom, nutzaps, wikifreedia, nsites, tollgate, zapstore, decentralized, privacy, sovereignty" />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta
+      name="keywords"
+      content="sovereign engineering, bitcoin, nostr, blossom, nutzaps, wikifreedia, nsites, tollgate, zapstore, decentralized, privacy, sovereignty"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
     <meta name="googlebot" content="index, follow" />
 
     <ClientRouter />
@@ -128,16 +161,10 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta name="author" content={config.metadata.meta_author} />
 
     <!-- og-title -->
-    <meta
-      property="og:title"
-      content={processedTitle}
-    />
+    <meta property="og:title" content={processedTitle} />
 
     <!-- og-description -->
-    <meta
-      property="og:description"
-      content={processedDescription}
-    />
+    <meta property="og:description" content={processedDescription} />
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
@@ -145,16 +172,10 @@ const call_to_action = showCallToAction ? (await getEntry(
     />
 
     <!-- twitter-title -->
-    <meta
-      name="twitter:title"
-      content={processedTitle}
-    />
+    <meta name="twitter:title" content={processedTitle} />
 
     <!-- twitter-description -->
-    <meta
-      name="twitter:description"
-      content={processedDescription}
-    />
+    <meta name="twitter:description" content={processedDescription} />
 
     <!-- og-image -->
     <meta
@@ -174,14 +195,17 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@sovereigneng" />
     <meta name="twitter:creator" content="@dergigi" />
-    
+
     <!-- Additional Social Media Meta Tags -->
     <meta property="og:site_name" content="Sovereign Engineering" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Sovereign Engineering - The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More" />
-    
+    <meta
+      property="og:image:alt"
+      content="Sovereign Engineering - The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More"
+    />
+
     <!-- Structured Data -->
     <script type="application/ld+json">
       {
@@ -212,9 +236,11 @@ const call_to_action = showCallToAction ? (await getEntry(
     <main id="main-content">
       <slot />
     </main>
-    {showCallToAction && call_to_action && (
-      <CallToAction call_to_action={call_to_action} />
-    )}
+    {
+      showCallToAction && call_to_action && (
+        <CallToAction call_to_action={call_to_action} />
+      )
+    }
     <Footer />
   </body>
 </html>

@@ -61,7 +61,7 @@ const philosophyCollection = defineCollection({
   }),
 });
 
-// Concept collection schema  
+// Concept collection schema
 const conceptCollection = defineCollection({
   loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/concept" }),
   schema: z.object({
@@ -102,12 +102,14 @@ const faqCollection = defineCollection({
       z.object({
         id: z.string(),
         title: z.string(),
-        questions: z.array(
-          z.object({
-            question: z.string(),
-            answer: z.string(),
-          }),
-        ).optional(),
+        questions: z
+          .array(
+            z.object({
+              question: z.string(),
+              answer: z.string(),
+            }),
+          )
+          .optional(),
         content: z.string().optional(),
       }),
     ),

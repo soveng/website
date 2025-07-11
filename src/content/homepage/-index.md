@@ -55,4 +55,4 @@ features:
       enable: true
       label: "Explore our philosophy"
       link: "/philosophy"
---- 
+---
