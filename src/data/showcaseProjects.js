@@ -410,7 +410,7 @@ const showcaseProjects = [
   {
     name: "NIP-66",
     description: "Relay monitoring and discovery specification for nostr network health",
-    cohort: "SEC-04",
+    cohort: "SEC-01",
     link: "https://nips.nostr.com/66",
     linkText: "nips.nostr.com/66",
     logo: "/images/showcase/nostr-logo.png",
@@ -527,7 +527,7 @@ const showcaseProjects = [
   {
     name: "Totem",
     description: "Decentralized identity and reputation system",
-    cohort: "SEC-04",
+    cohort: "SEC-03",
     link: "https://github.com/totemize",
     linkText: "github.com/totemize",
     logo: "/images/showcase/nostr-logo.png",
