@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { Button } from "@/types";
+import type { ImageMetadata } from "astro";
 
 // Import optimized images
 import boat1Image from "@/assets/images/boat1.png";
@@ -22,7 +23,7 @@ interface Props {
 const { title, content, image, bulletpoints = [], button, index, id } = Astro.props;
 
 // Map public image paths to optimized imports
-const imageMap: Record<string, any> = {
+const imageMap: Record<string, ImageMetadata | string> = {
   "/images/boat1.png": boat1Image,
   "/images/boat2.png": boat2Image,
   "/images/map.png": mapImage,
@@ -31,12 +32,12 @@ const imageMap: Record<string, any> = {
 
 // Get optimized image or fallback to original path
 const optimizedImage = imageMap[image] || image;
-const useOptimizedImage = imageMap[image] !== undefined;
+const useOptimizedImage = typeof optimizedImage === 'object';
 
 // Define which images should have pixelated rendering
 const pixelatedImages = [
   "/images/boat1.png",
-  "/images/boat2.png", 
+  "/images/boat2.png",
   "/images/map.png",
   "/images/men-wanted.png"
 ];
@@ -45,7 +46,7 @@ const shouldBePixelated = pixelatedImages.includes(image);
 // Create descriptive alt text instead of just using title
 const imageAltMap: Record<string, string> = {
   "/images/boat1.png": "Sailing ship on blue waters representing collaboration and exploration",
-  "/images/boat2.png": "Pixelated sailing vessel symbolizing building towards a self-sovereign future", 
+  "/images/boat2.png": "Pixelated sailing vessel symbolizing building towards a self-sovereign future",
   "/images/map.png": "Strategic map view of Madeira showing weekly program structure",
   "/images/men-wanted.png": "Vintage recruitment poster encouraging applications",
 };
@@ -65,7 +66,7 @@ const processedBulletPoints = await Promise.all(
 const imageRight = index % 2 !== 0;
 ---
 
-<section 
+<section
   class="section-sm bg-black text-white"
   id={id}
 >
@@ -76,7 +77,7 @@ const imageRight = index % 2 !== 0;
       >
         {useOptimizedImage ? (
           <Image
-            src={optimizedImage}
+            src={optimizedImage as ImageMetadata}
             height={960}
             width={1040}
             alt={altText}
@@ -109,8 +110,8 @@ const imageRight = index % 2 !== 0;
           </ul>
         )}
         {button?.enable && (
-          <a 
-            class="btn-retro mt-5 inline-block" 
+          <a
+            class="btn-retro mt-5 inline-block"
             href={button.link}
             target={button.link.startsWith("http") ? "_blank" : "_self"}
             rel={button.link.startsWith("http") ? "noopener noreferrer" : ""}
@@ -128,17 +129,17 @@ const imageRight = index % 2 !== 0;
     max-width: 100%;
     height: auto;
   }
-  
+
   .feature-image:not(.pixelated) {
     image-rendering: auto !important;
     image-rendering: smooth !important;
     image-rendering: high-quality !important;
     image-rendering: -webkit-optimize-contrast !important;
   }
-  
+
   .feature-image.pixelated {
     image-rendering: pixelated !important;
     image-rendering: -moz-crisp-edges !important;
     image-rendering: crisp-edges !important;
   }
-</style> 
+</style>

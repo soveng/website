@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
@@ -61,7 +62,7 @@ const philosophyCollection = defineCollection({
   }),
 });
 
-// Concept collection schema  
+// Concept collection schema
 const conceptCollection = defineCollection({
   loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/concept" }),
   schema: z.object({

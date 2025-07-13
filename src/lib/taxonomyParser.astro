@@ -3,12 +3,14 @@ import { getSinglePage } from "@/lib/contentParser.astro";
 import { slugify } from "@/lib/utils/textConverter";
 
 // get taxonomy from frontmatter
-export const getTaxonomy = async (collection: any, name: string) => {
-  const singlePages = await getSinglePage(collection);
-  const taxonomyPages = singlePages.map((page: any) => page.data[name]);
-  let taxonomies: string[] = [];
+export const getTaxonomy = async (collection: unknown, name: string) => {
+  const singlePages = await getSinglePage(collection as unknown as string);
+  const taxonomyPages = singlePages.map(
+    (page: { data: Record<string, unknown> }) => page.data[name]
+  );
+  const taxonomies: string[] = [];
   for (let i = 0; i < taxonomyPages.length; i++) {
-    const categoryArray = taxonomyPages[i];
+    const categoryArray = taxonomyPages[i] as string[];
     for (let j = 0; j < categoryArray.length; j++) {
       taxonomies.push(slugify(categoryArray[j]));
     }
@@ -18,12 +20,14 @@ export const getTaxonomy = async (collection: any, name: string) => {
 };
 
 // get all taxonomies from frontmatter
-export const getAllTaxonomy = async (collection: any, name: string) => {
-  const singlePages = await getSinglePage(collection);
-  const taxonomyPages = singlePages.map((page: any) => page.data[name]);
-  let taxonomies: string[] = [];
+export const getAllTaxonomy = async (collection: unknown, name: string) => {
+  const singlePages = await getSinglePage(collection as string);
+  const taxonomyPages = singlePages.map(
+    (page: { data: Record<string, unknown> }) => page.data[name]
+  );
+  const taxonomies: string[] = [];
   for (let i = 0; i < taxonomyPages.length; i++) {
-    const categoryArray = taxonomyPages[i];
+    const categoryArray = taxonomyPages[i] as string[];
     for (let j = 0; j < categoryArray.length; j++) {
       taxonomies.push(slugify(categoryArray[j]));
     }

@@ -1,8 +1,8 @@
 ---
 # Concept Page Content
-title: "Concept"
-meta_title: "CONCEPT"
-description: "Our concept and approach"
+title: 'Concept'
+meta_title: 'CONCEPT'
+description: 'Our concept and approach'
 
 # Main introduction section
 intro:
@@ -12,12 +12,12 @@ intro:
     This environment is powered by a relentless weekly cadence designed for exploration: *Monday Mornings* set the theme, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day, every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
     The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
-  image: "www-life-path.png"
+  image: 'www-life-path.png'
 
 # Concept sections
 sections:
-  - id: "core-pillars"
-    title: "Core Pillars"
+  - id: 'core-pillars'
+    title: 'Core Pillars'
     content: |
       Sovereign Engineering rests on five fundamental pillars that create the conditions for magical collaboration:
 
@@ -30,16 +30,16 @@ sections:
       **Six Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Leadership rotates, keeping the program tight without feeling top-down.
 
       **In-Person Intensity**: Being physically present on a remote island creates the commitment and focus needed for deep work. High-bandwidth communication, trust building, and ideation only work in person.
-    image: "2-hours-of-conversation.jpeg"
+    image: '2-hours-of-conversation.jpeg'
 
-  - id: "weekly-loop"
-    title: "The Weekly Loop"
+  - id: 'weekly-loop'
+    title: 'The Weekly Loop'
     content: |
       The week acts as a metronome for creativity. Friday's *Show* sets a hard deadline that concentrates effort—every participant must demo something they wrote or prompted into existence themselves. The moment code compiles on stage it becomes shared reality. Over the weekend and during Monday's orientation the cohort *Talks*—walking Madeira's levadas, swapping critiques, and letting distributed cognition surface better approaches. From Tuesday onwards everyone *Builds* toward the next demo.
-    image: "show-talk-build-loop.jpeg"
+    image: 'show-talk-build-loop.jpeg'
 
-  - id: "walks"
-    title: "The Walks"
+  - id: 'walks'
+    title: 'The Walks'
     content: |
       Walking isn't downtime—it's moving *R&D*. The weekend walks are the absolute core pillar of Sovereign Engineering, designed for light-to-moderate two- to three-hour hikes at a comfortable pace where participants can walk side-by-side and have conversations without breaking a sweat.
 
@@ -52,11 +52,11 @@ sections:
       **The Path Requirements**: The path must be wide enough so people can walk next to each other (not single-file), mostly flat so anyone can participate, and comfortable enough that you can talk while walking. The guides must keep the group together and stop regularly to let everyone catch up.
 
       The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. Exposure to sun, wind, and ocean spray anchors discussions in sensory memory; participants can later reference "that idea above the cloud layer" and everyone knows the exact moment.
-    image: "walking.jpeg"
-    float: "right"
+    image: 'walking.jpeg'
+    float: 'right'
 
-  - id: "demo-day"
-    title: "Friday: Demo Day"
+  - id: 'demo-day'
+    title: 'Friday: Demo Day'
     content: |
       Nothing concentrates the mind like a live demo. Every Friday afternoon the cohort gathers to **show whatever runs**. Polish is optional, honesty is mandatory. The rule is simple: you must demo something new every week—either related to ongoing work or completely fresh ideas.
 
@@ -67,10 +67,10 @@ sections:
       **The Celebration**: After demos, we have a standing barbecue (no pre-arranged seating) that encourages natural group mixing. Friends and family are invited to join, creating a bridge between the private program and the broader community.
 
       **The Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
-    image: "demo-day.jpeg"
+    image: 'demo-day.jpeg'
 
-  - id: "in-person-off-record"
-    title: "In Person, Off the Record"
+  - id: 'in-person-off-record'
+    title: 'In Person, Off the Record'
     content: |
       This is a **private, off the record event**—a core principle that cannot be overstated. You cannot do proper thinking completely out in the open. You have to be able to think in private and communicate in private without worrying about the online mob coming after you for having a crazy, weird, or stupid idea.
 
@@ -81,10 +81,10 @@ sections:
       **The Balance**: Once ideas are robust, they're exported to the open sea—published on Nostr, open-sourced on GitHub, or demoed publicly. The off-record space ensures critique targets the work, not internet clout.
 
       **Presence**: We encourage participants to be fully present—leave phones at home or put them in airplane mode. If an idea is really good, you won't need to write it down—it will stay with you or someone else will remember it.
-    image: "opt-out.jpg"
+    image: 'opt-out.jpg'
 
-  - id: "weekly-captains"
-    title: "6 Weeks, 6 Captains"
+  - id: 'weekly-captains'
+    title: '6 Weeks, 6 Captains'
     content: |
       Each week has a dedicated captain who steers the ship through that week's journey. The captain is the person who basically steers the ship through each week, ensuring organic emergence rather than top-down direction.
 
@@ -94,11 +94,11 @@ sections:
       **The Rotation**: By rotating leadership every week, the cohort practices the very autonomy it preaches. Leadership is shared, logistics are decentralized, and the program stays tight without feeling top-down.
 
       **The Exception**: One week (week 4 or 5) is designated as "time off" because the program is quite intense. We learned over time that we need this break.
-    image: "weekly-loop-schedule.png"
+    image: 'weekly-loop-schedule.png'
 
-  - id: "madeira-bitcoin"
-    title: "Madeira: The Bitcoin Island"
-    image: "madeira.jpg"
+  - id: 'madeira-bitcoin'
+    title: 'Madeira: The Bitcoin Island'
+    image: 'madeira.jpg'
     content: |
       Madeira isn't just a beautiful location—it's a **Bitcoin-friendly breeding ground** for the future. Thanks to the efforts of André and Free Madeira, there are 150+ merchants on the island accepting Bitcoin. It's so normal to pay in Bitcoin here that you don't even think about it anymore.
 
@@ -110,8 +110,8 @@ sections:
 
       **The Community**: There are many Bitcoiners on the island, and the merchant adoption is through the roof. It's a fantastic place to run a Sovereign Engineering cohort because it's super Bitcoin-friendly and allows immediate testing of new protocols and tools.
 
-  - id: "target-audience"
-    title: "Who Should Apply?"
+  - id: 'target-audience'
+    title: 'Who Should Apply?'
     content: |
       We're looking for **21 value-aligned builders** who know what they're doing and want to see more cool stuff built. We don't have any official requirements—we're very open and just want to be surrounded by people who are value-aligned.
 
@@ -121,10 +121,10 @@ sections:
       **The Magic Formula**: When you bring 21 value-aligned people together in a place that's super Bitcoin-friendly, beautiful, and allows for spontaneous creation, magical things are bound to happen.
 
       **The Goal**: We want to see awesome stuff being built, expand the impact that freedom tech can have, come up with new ideas and protocols, test them immediately, and have a good time while doing it.
-    image: "stay-weird.jpg"
+    image: 'stay-weird.jpg'
 
 # Call to action
 cta:
-  text: "Apply Now"
-  link: "/apply"
---- 
+  text: 'Apply Now'
+  link: '/apply'
+---

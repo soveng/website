@@ -1,6 +1,6 @@
 .btn {
   @apply inline-block rounded border border-transparent px-5 py-2 font-semibold uppercase transition;
-  font-family: "IM Fell Double Pica", Times, serif;
+  font-family: 'IM Fell Double Pica', Times, serif;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -10,23 +10,23 @@
 }
 
 .btn-primary {
-  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark text-white dark:bg-darkmode-primary;
+  @apply border-primary bg-primary dark:border-darkmode-primary dark:text-text-dark dark:bg-darkmode-primary text-white;
 }
 
 .btn-outline-primary {
-  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark bg-transparent hover:text-white dark:border-darkmode-primary dark:text-white dark:hover:bg-darkmode-primary;
+  @apply border-dark text-text-dark hover:bg-dark dark:hover:text-text-dark dark:border-darkmode-primary dark:hover:bg-darkmode-primary bg-transparent hover:text-white dark:text-white;
 }
 
 /* 90s-style retro button */
 .btn-retro {
-  @apply bg-gray-300 text-black font-bold py-2 px-4 border-2 border-t-white border-l-white border-r-gray-600 border-b-gray-600 hover:bg-gray-200 active:border-t-gray-600 active:border-l-gray-600 active:border-r-white active:border-b-white active:translate-x-0.5 active:translate-y-0.5 uppercase;
+  @apply border-2 border-t-white border-r-gray-600 border-b-gray-600 border-l-white bg-gray-300 px-4 py-2 font-bold text-black uppercase hover:bg-gray-200 active:translate-x-0.5 active:translate-y-0.5 active:border-t-gray-600 active:border-r-white active:border-b-white active:border-l-gray-600;
   border-style: solid;
-  font-family: "IM Fell Double Pica", Times, serif;
+  font-family: 'IM Fell Double Pica', Times, serif;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 
 .btn-retro-sm {
-  @apply py-1 px-2 text-xs;
+  @apply px-2 py-1 text-xs;
   text-decoration: none;
 }

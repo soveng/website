@@ -19,8 +19,8 @@
 }
 
 .nav-link {
-  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block p-3 cursor-pointer font-semibold transition lg:px-2 lg:py-3;
-  font-family: "IM Fell Double Pica", Times, serif;
+  @apply text-text-dark hover:text-primary dark:text-darkmode-text-dark dark:hover:text-darkmode-primary block cursor-pointer p-3 font-semibold transition lg:px-2 lg:py-3;
+  font-family: 'IM Fell Double Pica', Times, serif;
 }
 
 .nav-dropdown {
@@ -36,7 +36,7 @@
 }
 
 .nav-dropdown-list {
-  @apply bg-body dark:bg-darkmode-body z-10 min-w-[180px] rounded p-4 shadow-sm hidden lg:invisible lg:absolute lg:block lg:opacity-0;
+  @apply bg-body dark:bg-darkmode-body z-10 hidden min-w-[180px] rounded p-4 shadow-sm lg:invisible lg:absolute lg:block lg:opacity-0;
 }
 
 .nav-dropdown-item {
@@ -45,28 +45,5 @@
 
 .nav-dropdown-link {
   @apply text-text-dark hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary block py-1 font-semibold transition;
-  font-family: "IM Fell Double Pica", Times, serif;
-}
-
-/* theme-switcher */
-.theme-switcher {
-  @apply inline-flex;
-
-  label {
-    @apply bg-border relative inline-block h-4 w-6 cursor-pointer rounded-2xl lg:w-10;
-  }
-
-  input {
-    @apply absolute opacity-0;
-  }
-
-  span {
-    @apply bg-dark absolute -top-1 left-0 flex h-6 w-6 items-center justify-center rounded-full transition-all duration-300 dark:bg-white;
-  }
-
-  input:checked + label {
-    span {
-      @apply lg:left-4;
-    }
-  }
+  font-family: 'IM Fell Double Pica', Times, serif;
 }

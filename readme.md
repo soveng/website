@@ -41,6 +41,7 @@ It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js v20+
 - Yarn or npm
 

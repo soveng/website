@@ -13,12 +13,12 @@ const { main } = menu;
           <span class="font-bold uppercase" style="font-family: 'IM Fell Double Pica', Times, serif;">SOVEREIGN ENGINEERING</span>
         </a>
       </div>
-      
+
       <div class="hidden md:flex items-center space-x-6">
         {
           main.map((menu) => {
             const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
-            
+
             return menu.hasChildren ? (
               <div class="group relative">
                 <span class="text-white hover:text-primary transition-colors cursor-pointer flex items-center" style="font-family: 'IM Fell Double Pica', Times, serif;">
@@ -52,8 +52,8 @@ const { main } = menu;
                 </div>
               </div>
             ) : (
-              <a 
-                href={menu.url} 
+              <a
+                href={menu.url}
                 class="text-white hover:text-primary transition-colors"
                 style="font-family: 'IM Fell Double Pica', Times, serif;"
                 {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
@@ -67,7 +67,7 @@ const { main } = menu;
           APPLY NOW
         </a>
       </div>
-      
+
       <!-- Mobile menu button -->
       <button id="mobile-menu-btn" class="md:hidden text-white" aria-label="Toggle mobile menu" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -78,14 +78,14 @@ const { main } = menu;
         </svg>
       </button>
     </div>
-    
+
     <!-- Mobile menu -->
     <div id="mobile-menu" class="md:hidden hidden mt-4 pb-4 border-t border-primary pt-4">
       <div class="flex flex-col space-y-3">
         {
           main.map((menu) => {
             const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
-            
+
             return menu.hasChildren ? (
               <div>
                 <div class="text-white font-semibold mb-2" style="font-family: 'IM Fell Double Pica', Times, serif;">{menu.name}</div>
@@ -114,8 +114,8 @@ const { main } = menu;
                 </div>
               </div>
             ) : (
-              <a 
-                href={menu.url} 
+              <a
+                href={menu.url}
                 class="text-white hover:text-primary transition-colors"
                 style="font-family: 'IM Fell Double Pica', Times, serif;"
                 {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
@@ -139,9 +139,9 @@ const { main } = menu;
     const stickyNav = document.getElementById('sticky-nav');
     const mobileMenuBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
-    
-    if (!stickyNav) return;
-    
+
+    if (!stickyNav) {return;}
+
     // Create observer for hero section
     const heroSection = document.querySelector('header');
     if (heroSection && heroSection.classList.contains('h-screen')) {
@@ -163,20 +163,20 @@ const { main } = menu;
           rootMargin: '-10px 0px 0px 0px'
         }
       );
-      
+
       observer.observe(heroSection);
     } else {
       // No hero section or not a full-screen hero, show nav immediately
       stickyNav.classList.remove('-translate-y-full');
     }
-    
+
     // Mobile menu toggle
     if (mobileMenuBtn && mobileMenu) {
       mobileMenuBtn.addEventListener('click', () => {
         const isHidden = mobileMenu.classList.toggle('hidden');
         mobileMenuBtn.setAttribute('aria-expanded', !isHidden ? 'true' : 'false');
       });
-      
+
       // Close mobile menu when clicking nav links
       const mobileLinks = mobileMenu.querySelectorAll('a');
       mobileLinks.forEach(link => {

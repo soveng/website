@@ -1,35 +1,29 @@
 // similar products
-const similarItems = (currentItem: any, allItems: any[]) => {
-  let categories: string[] = [];
-  let tags: string[] = [];
-
+const similarItems = (
+  currentItem: { data: { categories: string[]; tags: string[] }; id: string },
+  allItems: { data: { categories: string[]; tags: string[] }; id: string }[]
+) => {
   // set categories
-  if (currentItem.data.categories.length > 0) {
-    categories = currentItem.data.categories;
-  }
+  const { categories = [] } = currentItem.data.categories.length > 0 ? { categories: currentItem.data.categories } : {};
 
   // set tags
-  if (currentItem.data.tags.length > 0) {
-    tags = currentItem.data.tags;
-  }
+  const { tags = [] } = currentItem.data.tags.length > 0 ? { tags: currentItem.data.tags } : {};
 
   // filter by categories
-  const filterByCategories = allItems.filter((item: any) =>
-    categories.find((category) => item.data.categories.includes(category)),
+  const filterByCategories = allItems.filter((item: { data: { categories: string[]; tags: string[] }; id: string }) =>
+    categories.find((category) => item.data.categories.includes(category))
   );
 
   // filter by tags
-  const filterByTags = allItems.filter((item: any) =>
-    tags.find((tag) => item.data.tags.includes(tag)),
+  const filterByTags = allItems.filter((item: { data: { categories: string[]; tags: string[] }; id: string }) =>
+    tags.find((tag) => item.data.tags.includes(tag))
   );
 
   // merged after filter
   const mergedItems = [...new Set([...filterByCategories, ...filterByTags])];
 
   // filter by slug
-  const filterBySlug = mergedItems.filter(
-    (product) => product.id !== currentItem.id,
-  );
+  const filterBySlug = mergedItems.filter((product) => product.id !== currentItem.id);
 
   return filterBySlug;
 };

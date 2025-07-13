@@ -14,7 +14,7 @@
    • Get the idea into other people's heads—let it evolve outside your laptop.
 
 3. **Habits & Identity**  
-   • If you repeatedly delay launches, you *become* someone who doesn't ship.  
+   • If you repeatedly delay launches, you _become_ someone who doesn't ship.  
    • Sovereign Engineering cohorts cultivate opposite habits via weekly demo pressure.
 
 4. **Self-Sovereignty & Responsibility**  
@@ -32,13 +32,14 @@
    • "Lemonade stands in cyberspace": small, sustainable, user-centric ventures trump VC-fuelled land-grabs.
 
 7. **Walk-and-Talk Method**  
-   • Mirroring Sovereign Engineering cohort rituals, walking removes screen distraction, forcing discussion of *why* before *how*.
+   • Mirroring Sovereign Engineering cohort rituals, walking removes screen distraction, forcing discussion of _why_ before _how_.
 
 ## Takeaways for Sovereign Engineering Cohorts
 
-• Cohort participants are pushed to ship something—anything—each week, reinforcing the *Start Ugly* ethos.  
+• Cohort participants are pushed to ship something—anything—each week, reinforcing the _Start Ugly_ ethos.  
 • Shared language/memes (e.g., "Nostr is testnet") help newcomers bypass repeat mistakes.  
 • Success is measured in exploration and learning, not perfection or early monetization.
 
 ---
-Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion. 
+
+Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion.

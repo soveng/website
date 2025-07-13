@@ -23,20 +23,17 @@ interface Props {
   showHighlights?: boolean;
 }
 
-const { 
-  projects, 
-  showCTA = false, 
-  ctaText = "See All Projects", 
-  ctaLink = "/projects",
+const {
+  projects,
   darkTheme = false,
   showTitle = false,
-  title = "Demo Day Projects",
   groupByCohort = true,
   showHighlights = false
 } = Astro.props;
 
 // Group projects by cohort
-const projectsByCohort: Record<string, Project[]> = projects.reduce((acc: Record<string, Project[]>, project: Project) => {
+const projectsByCohort: Record<string, Project[]> = projects.reduce(
+  (acc: Record<string, Project[]>, project: Project) => {
   if (!acc[project.cohort]) {
     acc[project.cohort] = [];
   }
@@ -67,32 +64,28 @@ const highlightedProjects = highlightedProjectNames
   .map(name => projects.find(project => project.name === name))
   .filter(Boolean) as Project[];
 
-const containerClasses = darkTheme 
-  ? "w-full text-white bg-black py-8 sm:py-16 max-w-[960px] mx-auto" 
+const containerClasses = darkTheme
+  ? "w-full text-white bg-black py-8 sm:py-16 max-w-[960px] mx-auto"
   : "section bg-theme-light";
 
-const headerClasses = darkTheme 
-  ? "text-2xl mb-8" 
+const headerClasses = darkTheme
+  ? "text-2xl mb-8"
   : "text-3xl mb-8";
 
 const titleClasses = darkTheme
   ? "text-4xl mb-8 pt-16 text-center text-white font-normal"
   : "text-4xl mb-8 text-center";
 
-const borderClasses = darkTheme 
-  ? "border-white" 
+const borderClasses = darkTheme
+  ? "border-white"
   : "border-border";
 
-const textClasses = darkTheme 
-  ? "text-white" 
+const descriptionClasses = darkTheme
+  ? "text-gray-300"
   : "text-text";
 
-const descriptionClasses = darkTheme 
-  ? "text-gray-300" 
-  : "text-text";
-
-const linkClasses = darkTheme 
-  ? "text-white hover:text-primary transition-colors break-all" 
+const linkClasses = darkTheme
+  ? "text-white hover:text-primary transition-colors break-all"
   : "text-primary hover:text-primary/80 transition-colors break-all font-medium";
 
 const cohortHeaderClasses = darkTheme
@@ -106,7 +99,8 @@ const cohortHeaderClasses = darkTheme
       <>
         <h1 class={titleClasses}>Demo Day Projects</h1>
         <p class={`text-center text-xl mb-12 ${darkTheme ? 'text-white' : 'text-text'}`}>
-          Every Friday, participants showcase what they've built during the week. These are the real projects that emerged from our intensive collaboration and experimentation sessions.
+          Every Friday, participants showcase what they've built during the week.
+          These are the real projects that emerged from our intensive collaboration and experimentation sessions.
         </p>
       </>
     )}
@@ -128,13 +122,13 @@ const cohortHeaderClasses = darkTheme
           </div>
 
           <!-- Highlighted Project Entries -->
-          {highlightedProjects.map((project: Project, index: number) => (
+          {highlightedProjects.map((project: Project) => (
             <div class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}>
               <div class="flex items-start gap-4">
                 {project.logo && (
                   <div class="flex-shrink-0">
-                    <img 
-                      src={project.logo} 
+                    <img
+                      src={project.logo}
                       alt={`${project.name} logo`}
                       class="w-12 h-12 object-contain showcase-logo"
                     />
@@ -163,8 +157,8 @@ const cohortHeaderClasses = darkTheme
     {/* Richard L. Evans Quote after highlights */}
     {showHighlights && (
       <BigBlockQuote
-        quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote || ""}
-        author={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author || ""}
+        quote={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-beginning")?.quote || ""}
+        author={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-beginning")?.author || ""}
       />
     )}
 
@@ -185,15 +179,15 @@ const cohortHeaderClasses = darkTheme
                   </div>
                 )}
                 {/* Project Entries for this cohort */}
-                {projectsByCohort[cohort].map((project: Project, index: number) => (
+                {projectsByCohort[cohort].map((project: Project) => (
                 <div
                   class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
                 >
                   <div class="flex items-start gap-4">
                     {project.logo && (
                       <div class="flex-shrink-0">
-                        <img 
-                          src={project.logo} 
+                        <img
+                          src={project.logo}
                           alt={`${project.name} logo`}
                           class="w-12 h-12 object-contain showcase-logo"
                         />
@@ -221,20 +215,22 @@ const cohortHeaderClasses = darkTheme
             {/* Berdyaev quote between SEC-00 and SEC-01 */}
             {cohort === 'SEC-00' && (
               <BigBlockQuote
-                quote={philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote || ""}
-                author={`${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation || ""}`}
+                quote={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "berdyaev-beginning-end")?.quote || ""}
+                author={
+                  `${philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "berdyaev-beginning-end")?.citation || ""}`
+                }
               />
             )}
             {/* Evans quote between SEC-01 and SEC-02 */}
             {cohort === 'SEC-01' && (
               <BigBlockQuote
-                quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote || ""}
-                author={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.author || ""}
+                quote={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-wrong-road")?.quote || ""}
+                author={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-wrong-road")?.author || ""}
               />
             )}
           </>
         ))}
-        
+
         {/* SEC-05 CTA Section */}
         <div class="mt-16 text-center">
           <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
@@ -260,15 +256,15 @@ const cohortHeaderClasses = darkTheme
         </div>
 
         <!-- Project Entries -->
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <div
             class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
           >
             <div class="flex items-start gap-4">
               {project.logo && (
                 <div class="flex-shrink-0">
-                  <img 
-                    src={project.logo} 
+                  <img
+                    src={project.logo}
                     alt={`${project.name} logo`}
                     class="w-12 h-12 object-contain showcase-logo"
                   />

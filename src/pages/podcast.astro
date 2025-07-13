@@ -1,16 +1,23 @@
 ---
 import Base from "@/layouts/Base.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
-import ContentSection from "@/layouts/components/ContentSection.astro";
+
 import DynamicIcon from "@/helpers/DynamicIcon";
 
 // Meta-essence distilled manually from all episode notes
-const metaParagraph = `Across a dozen walking dialogues the <strong>No Solutions</strong> crew keeps circling the same north star: <strong>freedom is an engineering practice</strong>. Start ugly, ship weekly, and invite the world's critique. Momentum replaces perfection, open protocols replace gate-keepers, and conversations on the trail turn wild ideas into code that empowers the individual.`;
+const metaParagraph =
+  `Across a dozen walking dialogues the <strong>No Solutions</strong> crew keeps circling the same north star: ` +
+  `<strong>freedom is an engineering practice</strong>. Start ugly, ship weekly, and invite the world's critique. ` +
+  `Momentum replaces perfection, open protocols replace gate-keepers, and conversations on the trail turn wild ideas into code that empowers the individual.`;
 
 const metaQuote = `Start ugly, iterate publicly, and keep walking—this is Sovereign Engineering in motion.`;
 
 const pageTitle = "No Solutions";
-const byline = `Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.`;
+const byline = `Walking towards a better internet since \
+  <a href="https://mempool.space/block/882690"\
+    target="_blank"\
+    rel="noopener noreferrer"\
+  >882,690</a>.`;
 const pageDescription = "No Solutions podcast";
 
 ---
@@ -29,7 +36,7 @@ const pageDescription = "No Solutions podcast";
           <p class="text-xl font-primary uppercase tracking-wider mb-8 " set:html={byline} />
         </div>
       </div>
-      
+
       <!-- Content Section -->
       <div class="row justify-center">
         <div class="max-w-[960px] mx-auto">
@@ -38,7 +45,6 @@ const pageDescription = "No Solutions podcast";
           </div>
         </div>
       </div>
-
 
 
       <!-- Platform Links -->
@@ -84,7 +90,7 @@ const pageDescription = "No Solutions podcast";
       </div>
 
       <!-- Centered Quote -->
-      <BigBlockQuote 
+      <BigBlockQuote
         quote={metaQuote}
       />
     </div>

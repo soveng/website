@@ -15,7 +15,7 @@ interface Props {
   content?: string;
 }
 
-const { title, questions, index, id, image, content } = Astro.props;
+const { title, questions, id, image, content } = Astro.props;
 
 // Pre-process markdown content
 const sectionTitle = await markdownify(title);
@@ -29,7 +29,7 @@ const processedQuestions = await Promise.all(
 );
 ---
 
-<section 
+<section
   class="section-sm bg-black text-white mb-2"
   id={id}
 >
@@ -41,9 +41,9 @@ const processedQuestions = await Promise.all(
         {content && (
           <div class="space-y-8 mb-8 content" set:html={content} />
         )}
-        
+
         <div class="space-y-8 mb-1 mt-6">
-          {processedQuestions.map((qa: any) => (
+          {processedQuestions.map((qa: { question: string; answer: string }) => (
             <div class="faq-item">
               <h3
                 class="text-xl font-bold text-white mb-4 uppercase scroll-mt-32"
@@ -83,16 +83,16 @@ const processedQuestions = await Promise.all(
     max-width: 100%;
     height: auto;
   }
-  
+
   .faq-item {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     padding-bottom: 2rem;
   }
-  
+
   .faq-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
   }
 
 
-</style> 
+</style>

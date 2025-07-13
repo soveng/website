@@ -1,5 +1,4 @@
 ---
-import Logo from "@/components/Logo.astro";
 import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
@@ -27,7 +26,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
                 const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
                 return (
                   <li class="inline-block">
-                    <a 
+                    <a
                       href={menu.url}
                       class="text-white hover:text-primary transition-colors flex items-center"
                       {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}

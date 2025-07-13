@@ -40,7 +40,9 @@ const { title, meta_title, description, image, noindex, canonical, showCallToAct
 
 // process text content
 const processedTitle = await plainify(meta_title ? meta_title : title ? title : config.site.title);
-const processedDescription = await plainify(description ? description : config.metadata.meta_description);
+const processedDescription = await plainify(
+  description ? description : config.metadata.meta_description
+);
 
 // Get call-to-action data if needed
 const call_to_action = showCallToAction ? (await getEntry(
@@ -116,9 +118,12 @@ const call_to_action = showCallToAction ? (await getEntry(
       name="description"
       content={processedDescription}
     />
-    
+
     <!-- Additional SEO Meta Tags -->
-    <meta name="keywords" content="sovereign engineering, bitcoin, nostr, blossom, nutzaps, wikifreedia, nsites, tollgate, zapstore, decentralized, privacy, sovereignty" />
+    <meta
+      name="keywords"
+      content="sovereign engineering, bitcoin, nostr, blossom, nutzaps, wikifreedia, nsites, tollgate, zapstore, decentralized, privacy, sovereignty"
+    />
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <meta name="googlebot" content="index, follow" />
 
@@ -174,16 +179,16 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@sovereigneng" />
     <meta name="twitter:creator" content="@dergigi" />
-    
+
     <!-- Additional Social Media Meta Tags -->
     <meta property="og:site_name" content="Sovereign Engineering" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Sovereign Engineering - The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More" />
-    
+
     <!-- Structured Data -->
-    <script type="application/ld+json">
+    <script type="application/ld+json" is:inline>
       {
         "@context": "https://schema.org",
         "@type": "Organization",

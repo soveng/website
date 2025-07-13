@@ -8,20 +8,22 @@ interface Props {
 const { checked = true, class: className = "" } = Astro.props;
 ---
 
-<div class={`inline-flex items-center justify-center w-4 h-4 border-2 border-t-gray-600 border-l-gray-600 border-r-white border-b-white bg-gray-300 ${className}`}>
+<div
+  class={`inline-flex items-center justify-center w-4 h-4 border-2 border-t-gray-600 border-l-gray-600 border-r-white border-b-white bg-gray-300 ${className}`}
+>
   {checked && (
-    <svg 
-      width="10" 
-      height="10" 
-      viewBox="0 0 10 10" 
-      fill="none" 
+    <svg
+      width="10"
+      height="10"
+      viewBox="0 0 10 10"
+      fill="none"
       class="pixelated-svg"
     >
-      <path 
-        d="M1 4L4 7L9 1" 
-        stroke="black" 
-        stroke-width="1.5" 
-        stroke-linecap="square" 
+      <path
+        d="M1 4L4 7L9 1"
+        stroke="black"
+        stroke-width="1.5"
+        stroke-linecap="square"
         stroke-linejoin="miter"
         style="image-rendering: pixelated;"
       />
