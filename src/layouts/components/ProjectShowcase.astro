@@ -25,12 +25,8 @@ interface Props {
 
 const {
   projects,
-  showCTA = false,
-  ctaText = "See All Projects",
-  ctaLink = "/projects",
   darkTheme = false,
   showTitle = false,
-  title = "Demo Day Projects",
   groupByCohort = true,
   showHighlights = false
 } = Astro.props;
@@ -83,9 +79,7 @@ const borderClasses = darkTheme
   ? "border-white"
   : "border-border";
 
-const textClasses = darkTheme
-  ? "text-white"
-  : "text-text";
+
 
 const descriptionClasses = darkTheme
   ? "text-gray-300"
@@ -128,7 +122,7 @@ const cohortHeaderClasses = darkTheme
           </div>
 
           <!-- Highlighted Project Entries -->
-          {highlightedProjects.map((project: Project, index: number) => (
+          {highlightedProjects.map((project: Project) => (
             <div class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}>
               <div class="flex items-start gap-4">
                 {project.logo && (
@@ -185,7 +179,7 @@ const cohortHeaderClasses = darkTheme
                   </div>
                 )}
                 {/* Project Entries for this cohort */}
-                {projectsByCohort[cohort].map((project: Project, index: number) => (
+                {projectsByCohort[cohort].map((project: Project) => (
                 <div
                   class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
                 >
@@ -260,7 +254,7 @@ const cohortHeaderClasses = darkTheme
         </div>
 
         <!-- Project Entries -->
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <div
             class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
           >

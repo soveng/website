@@ -15,7 +15,7 @@ interface Props {
   content?: string;
 }
 
-const { title, questions, index, id, image, content } = Astro.props;
+const { title, questions, id, image, content } = Astro.props;
 
 // Pre-process markdown content
 const sectionTitle = await markdownify(title);

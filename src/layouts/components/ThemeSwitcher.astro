@@ -69,7 +69,7 @@ const { className }: { className?: string } = Astro.props;
     const themeSwitch = document.querySelectorAll("[data-theme-switcher]");
     toggleTheme(themeSwitch);
     themeSwitch.forEach((sw) => {
-      sw.addEventListener("click", function () {
+      sw.addEventListener("click", () => {
         const defaulTheme =
           settings.default_theme === "system"
             ? matchMedia.matches

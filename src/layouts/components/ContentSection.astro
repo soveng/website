@@ -21,7 +21,7 @@ interface Props {
   fullWidthImage?: boolean;
 }
 
-const { title, content, image, bulletpoints = [], button, index, id, pullquote, fullWidthImage = false } = Astro.props;
+const { title, content, image, bulletpoints = [], button, id, pullquote, fullWidthImage = false } = Astro.props;
 
 // Check if image is an imported asset or a string path
 const isOptimizedImage = typeof image === 'object' && image !== null;
@@ -36,7 +36,7 @@ const processedBulletPoints = await Promise.all(
 );
 ---
 
-<section 
+<section
   class="section-sm bg-black text-white"
   id={id}
 >
@@ -73,7 +73,7 @@ const processedBulletPoints = await Promise.all(
         <div class="row justify-center">
           <div class="md:col-10 lg:col-8">
             <h2 set:html={featureTitle} class="mb-4 text-white uppercase text-center" style="font-size: 2rem;" />
-            
+
             {pullquote && pullquote.quote && pullquote.author && (
               <BigBlockQuote
                 quote={pullquote.quote}
@@ -82,7 +82,7 @@ const processedBulletPoints = await Promise.all(
                 left={true}
               />
             )}
-            
+
             <div set:html={featureContent} class="prose-content mb-8 [&>p]:text-xl [&>p]:text-white" />
             {processedBulletPoints.length > 0 && (
               <ul>
@@ -95,8 +95,8 @@ const processedBulletPoints = await Promise.all(
               </ul>
             )}
             {button?.enable && (
-              <a 
-                class="btn-retro mt-5 inline-block" 
+              <a
+                class="btn-retro mt-5 inline-block"
                 href={button.link}
                 target={button.link.startsWith("http") ? "_blank" : "_self"}
                 rel={button.link.startsWith("http") ? "noopener noreferrer" : ""}
@@ -113,7 +113,7 @@ const processedBulletPoints = await Promise.all(
         <div class="row items-start justify-between">
           <div class="md:col-7 lg:col-6">
             <h2 set:html={featureTitle} class="mb-4 text-white uppercase" style="font-size: 2rem;" />
-            
+
             {pullquote && pullquote.quote && pullquote.author && (
               <BigBlockQuote
                 quote={pullquote.quote}
@@ -122,7 +122,7 @@ const processedBulletPoints = await Promise.all(
                 left={true}
               />
             )}
-            
+
             <div set:html={featureContent} class="prose-content mb-8 [&>p]:text-xl [&>p]:text-white" />
             {processedBulletPoints.length > 0 && (
               <ul>
@@ -135,8 +135,8 @@ const processedBulletPoints = await Promise.all(
               </ul>
             )}
             {button?.enable && (
-              <a 
-                class="btn-retro mt-5 inline-block" 
+              <a
+                class="btn-retro mt-5 inline-block"
                 href={button.link}
                 target={button.link.startsWith("http") ? "_blank" : "_self"}
                 rel={button.link.startsWith("http") ? "noopener noreferrer" : ""}
@@ -182,4 +182,4 @@ const processedBulletPoints = await Promise.all(
     max-width: 100%;
     height: auto;
   }
-</style> 
+</style>

@@ -1,7 +1,6 @@
 ---
 import { Image } from "astro:assets";
-import ImageMod from "@/components/ImageMod.astro";
-import Win95Card from "@/components/Win95Card.astro";
+
 import Base from "@/layouts/Base.astro";
 import FeatureSection from "@/layouts/components/FeatureSection.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
@@ -46,7 +45,7 @@ const { banner, features } = homepage.data as Homepage;
 
 // Pre-process markdown content
 const bannerTitle = await markdownify(banner.title);
-const bannerContent = await markdownify(banner.content);
+
 ---
 
 <Base showCallToAction={false}>
