@@ -17,7 +17,17 @@ interface Props {
 }
 
 // Destructuring Astro.props to get the component's props
-const { src: srcProp, alt, width, height, loading, decoding, class: className, format, style } = Astro.props;
+const {
+  src: srcProp,
+  alt,
+  width,
+  height,
+  loading,
+  decoding,
+  class: className,
+  format,
+  style
+} = Astro.props;
 
 const src = `/public${srcProp}`;
 
@@ -29,6 +39,7 @@ const isValidPath = images[src] ? true : false;
 
 // Log a warning message in red if the image is not found
 if (!isValidPath) {
+  // eslint-disable-next-line no-console
   console.error(
     `\x1b[31mImage not found - ${src}.\x1b[0m Make sure the image is in the /public/images folder.`,
   );

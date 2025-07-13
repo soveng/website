@@ -62,7 +62,8 @@ const slideMap: Record<string, unknown> = {
 };
 
 // Process sections to add special handling for weekly-loop
-const processedSections = sections.map((section: { id: string; title: string; content: string; image: string; bulletpoints?: string[]; link?: string }) => {
+const processedSections = sections.map(
+  (section: { id: string; title: string; content: string; image: string; bulletpoints?: string[]; link?: string }) => {
   if (section.id === "weekly-loop") {
     // Convert weekly rhythm schedule to bulletpoints
     const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
@@ -92,7 +93,8 @@ const processedSections = sections.map((section: { id: string; title: string; co
   />
 
   <!-- Content Sections -->
-  {processedSections.map((section: { id: string; title: string; content: string; image: string; bulletpoints?: string[]; link?: string }, index: number) => (
+  {processedSections.map(
+    (section: { id: string; title: string; content: string; image: string; bulletpoints?: string[]; link?: string }, index: number) => (
     <ContentSection
       title={section.title}
       content={section.content}

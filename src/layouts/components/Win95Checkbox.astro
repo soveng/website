@@ -8,7 +8,9 @@ interface Props {
 const { checked = true, class: className = "" } = Astro.props;
 ---
 
-<div class={`inline-flex items-center justify-center w-4 h-4 border-2 border-t-gray-600 border-l-gray-600 border-r-white border-b-white bg-gray-300 ${className}`}>
+<div
+  class={`inline-flex items-center justify-center w-4 h-4 border-2 border-t-gray-600 border-l-gray-600 border-r-white border-b-white bg-gray-300 ${className}`}
+>
   {checked && (
     <svg
       width="10"

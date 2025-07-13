@@ -32,7 +32,8 @@ const {
 } = Astro.props;
 
 // Group projects by cohort
-const projectsByCohort: Record<string, Project[]> = projects.reduce((acc: Record<string, Project[]>, project: Project) => {
+const projectsByCohort: Record<string, Project[]> = projects.reduce(
+  (acc: Record<string, Project[]>, project: Project) => {
   if (!acc[project.cohort]) {
     acc[project.cohort] = [];
   }
@@ -98,7 +99,8 @@ const cohortHeaderClasses = darkTheme
       <>
         <h1 class={titleClasses}>Demo Day Projects</h1>
         <p class={`text-center text-xl mb-12 ${darkTheme ? 'text-white' : 'text-text'}`}>
-          Every Friday, participants showcase what they've built during the week. These are the real projects that emerged from our intensive collaboration and experimentation sessions.
+          Every Friday, participants showcase what they've built during the week.
+          These are the real projects that emerged from our intensive collaboration and experimentation sessions.
         </p>
       </>
     )}

@@ -62,7 +62,8 @@ const slideMap: Record<string, unknown> = {
   />
 
   <!-- Content Sections -->
-  {sections.map((section: { title: string; content: string; image: string; quote_section?: string; link?: string }, index: number) => (
+  {sections.map(
+    (section: { title: string; content: string; image: string; quote_section?: string; link?: string }, index: number) => (
     <ContentSection
       title={section.title}
       content={section.content}

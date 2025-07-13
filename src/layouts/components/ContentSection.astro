@@ -21,7 +21,16 @@ interface Props {
   fullWidthImage?: boolean;
 }
 
-const { title, content, image, bulletpoints = [], button, id, pullquote, fullWidthImage = false } = Astro.props;
+const {
+  title,
+  content,
+  image,
+  bulletpoints = [],
+  button,
+  id,
+  pullquote,
+  fullWidthImage = false
+} = Astro.props;
 
 // Check if image is an imported asset or a string path
 const isOptimizedImage = typeof image === 'object' && image !== null;
