@@ -12,7 +12,7 @@ const { className }: { className?: string } = Astro.props;
   theme_switcher && (
     <div class={`theme-switcher ${className}`}>
       <input id="theme-switcher" data-theme-switcher type="checkbox" />
-      <label for="theme-switcher">
+      <label for="theme-switcher" aria-label="Toggle dark mode">
         <span class="sr-only">theme switcher</span>
         <span>
           <svg

@@ -32,7 +32,7 @@ const getQuote = (section: string) => {
 };
 
 // Map image filenames to imported slide objects (now optimized assets)
-const slideMap: Record<string, any> = {
+const slideMap: Record<string, unknown> = {
   "pirate-ship-2.jpeg": slideShip,
   "surveillance-capitalism.jpeg": slideFreedomTech,
   "walking.jpeg": slideWalk,
@@ -62,7 +62,7 @@ const slideMap: Record<string, any> = {
   />
 
   <!-- Content Sections -->
-  {sections.map((section: any, index: number) => (
+  {sections.map((section: { title: string; content: string; image: string; quote_section?: string; link?: string }, index: number) => (
     <ContentSection
       title={section.title}
       content={section.content}

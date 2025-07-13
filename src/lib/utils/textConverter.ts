@@ -38,7 +38,7 @@ export const titleify = (content: string) => {
 
 // plainify
 export const plainify = async (content: string) => {
-  const parseMarkdown: any = await marked.parse(content);
+  const parseMarkdown: string = await marked.parse(content);
   const filterBrackets = parseMarkdown.replace(/<\/?[^>]+(>|$)/gm, '');
   const filterSpaces = filterBrackets.replace(/[\r\n]\s*[\r\n]/gm, '');
   const stripHTML = htmlEntityDecoder(filterSpaces);

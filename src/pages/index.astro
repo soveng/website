@@ -152,16 +152,16 @@ const bannerTitle = await markdownify(banner.title);
           {/* Insert quote after the first feature */}
           {index === 0 && (
             <BigBlockQuote
-              quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote!}
-              author={philosophyQuotes.find(q => q.id === "saint-exupery")?.author!}
+              quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote || ""}
+              author={philosophyQuotes.find(q => q.id === "saint-exupery")?.author || ""}
               href="/philosophy"
             />
           )}
           {/* Insert Hal Finney quote after the second feature */}
           {index === 1 && (
             <BigBlockQuote
-              quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote!}
-              author={philosophyQuotes.find(q => q.id === "hal-finney")?.author!}
+              quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote || ""}
+              author={philosophyQuotes.find(q => q.id === "hal-finney")?.author || ""}
               href="/concept"
             />
           )}
