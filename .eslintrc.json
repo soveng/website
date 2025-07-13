@@ -28,10 +28,7 @@
     "import/resolver": {
       "typescript": {}
     },
-    "import/ignore": [
-      "astro:.*",
-      "virtual:.*"
-    ],
+    "import/ignore": ["astro:.*", "virtual:.*"],
     "import/external-module-folders": ["node_modules", ".astro"]
   },
   "overrides": [
@@ -68,21 +65,11 @@
         "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
         "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/no-var-requires": "error",
-        "react-refresh/only-export-components": [
-          "warn",
-          { "allowConstantExport": true }
-        ],
+        "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }],
         "import/order": [
           "error",
           {
-            "groups": [
-              "builtin",
-              "external",
-              "internal",
-              "parent",
-              "sibling",
-              "index"
-            ],
+            "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
             "newlines-between": "always",
             "alphabetize": {
               "order": "asc",
@@ -178,11 +165,5 @@
     "es2022": true,
     "node": true
   },
-  "ignorePatterns": [
-    "dist/",
-    "node_modules/",
-    ".astro/",
-    "*.config.js",
-    "*.config.mjs"
-  ]
+  "ignorePatterns": ["dist/", "node_modules/", ".astro/", "*.config.js", "*.config.mjs"]
 }
