@@ -15,13 +15,14 @@ interface DynamicIconProps {
   icon: string;
   size?: number;
   color?: string;
+  className?: string;
 }
 
 const iconLibraries: { [key: string]: IconMap } = {
   fa: FaIcons,
 };
 
-const DynamicIcon: React.FC<DynamicIconProps> = ({ icon, ...props }) => {
+const DynamicIcon: React.FC<DynamicIconProps> = ({ icon, className, ...props }) => {
   const IconLibrary = getIconLibrary(icon);
   const Icon = IconLibrary ? IconLibrary[icon] : undefined;
 
@@ -29,7 +30,7 @@ const DynamicIcon: React.FC<DynamicIconProps> = ({ icon, ...props }) => {
     return <span className="text-sm">Icon not found</span>;
   }
 
-  return <Icon {...props} />;
+  return <Icon className={className} {...props} />;
 };
 
 const getIconLibrary = (icon: string): IconMap | undefined => {

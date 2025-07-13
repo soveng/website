@@ -98,7 +98,9 @@ const cohortHeaderClasses = darkTheme
     {showTitle && (
       <>
         <h1 class={titleClasses}>Demo Day Projects</h1>
-        <p class={`text-center text-xl mb-12 ${darkTheme ? 'text-white' : 'text-text'}`}>
+        <p
+          class={`text-center text-xl mb-12 ${darkTheme ? 'text-white' : 'text-text'}`}
+        >
           Every Friday, participants showcase what they've built during the week.
           These are the real projects that emerged from our intensive collaboration and experimentation sessions.
         </p>
@@ -116,14 +118,18 @@ const cohortHeaderClasses = darkTheme
         </h2>
         <div class="overflow-x-auto mb-8">
           <!-- Table Header - Hidden on mobile, shown on larger screens -->
-          <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
+          <div
+            class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}
+          >
             <div>Project Info</div>
             <div>Link</div>
           </div>
 
           <!-- Highlighted Project Entries -->
           {highlightedProjects.map((project: Project) => (
-            <div class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}>
+            <div
+              class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+            >
               <div class="flex items-start gap-4">
                 {project.logo && (
                   <div class="flex-shrink-0">
@@ -135,7 +141,11 @@ const cohortHeaderClasses = darkTheme
                   </div>
                 )}
                 <div>
-                  <h4 class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}>{project.name}</h4>
+                  <h4
+                    class={`${darkTheme ? 'text-xl' : 'text-xl font-semibold'} ${darkTheme ? '' : 'mb-2'}`}
+                  >
+                    {project.name}
+                  </h4>
                   <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                 </div>
               </div>
@@ -157,8 +167,14 @@ const cohortHeaderClasses = darkTheme
     {/* Richard L. Evans Quote after highlights */}
     {showHighlights && (
       <BigBlockQuote
-        quote={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-beginning")?.quote || ""}
-        author={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-beginning")?.author || ""}
+        quote={philosophyQuotes.find(
+          (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+            q.id === "richard-evans-beginning"
+        )?.quote || ""}
+        author={philosophyQuotes.find(
+          (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+            q.id === "richard-evans-beginning"
+        )?.author || ""}
       />
     )}
 
@@ -173,7 +189,9 @@ const cohortHeaderClasses = darkTheme
             <div class="overflow-x-auto mb-8">
                 {/* Table Header - Hidden on mobile, shown on larger screens */}
                 {cohortIndex === 0 && (
-                  <div class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
+                  <div
+                  class={`hidden md:grid grid-cols-[3fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}
+                >
                     <div>Project Info</div>
                     <div>Link</div>
                   </div>
@@ -181,7 +199,9 @@ const cohortHeaderClasses = darkTheme
                 {/* Project Entries for this cohort */}
                 {projectsByCohort[cohort].map((project: Project) => (
                 <div
-                  class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+                  class={`flex flex-col md:grid md:grid-cols-[3fr_1fr] gap-4 md:gap-8 py-${
+                    darkTheme ? '4' : '6'
+                  } border-b ${borderClasses}`}
                 >
                   <div class="flex items-start gap-4">
                     {project.logo && (
@@ -215,17 +235,32 @@ const cohortHeaderClasses = darkTheme
             {/* Berdyaev quote between SEC-00 and SEC-01 */}
             {cohort === 'SEC-00' && (
               <BigBlockQuote
-                quote={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "berdyaev-beginning-end")?.quote || ""}
+                quote={philosophyQuotes.find(
+                  (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+                    q.id === "berdyaev-beginning-end"
+                )?.quote || ""}
                 author={
-                  `${philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "berdyaev-beginning-end")?.citation || ""}`
+                  `${philosophyQuotes.find(
+                    (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+                      q.id === "berdyaev-beginning-end"
+                  )?.author || ""}, ${philosophyQuotes.find(
+                    (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+                      q.id === "berdyaev-beginning-end"
+                  )?.citation || ""}`
                 }
               />
             )}
             {/* Evans quote between SEC-01 and SEC-02 */}
             {cohort === 'SEC-01' && (
               <BigBlockQuote
-                quote={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-wrong-road")?.quote || ""}
-                author={philosophyQuotes.find((q: { id: string, quote: string, author: string, section: string, citation?: string }) => q.id === "richard-evans-wrong-road")?.author || ""}
+                quote={philosophyQuotes.find(
+                  (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+                    q.id === "richard-evans-wrong-road"
+                )?.quote || ""}
+                author={philosophyQuotes.find(
+                  (q: { id: string, quote: string, author: string, section: string, citation?: string }) =>
+                    q.id === "richard-evans-wrong-road"
+                )?.author || ""}
               />
             )}
           </>
@@ -249,7 +284,9 @@ const cohortHeaderClasses = darkTheme
     ) : (
       <div class="overflow-x-auto mb-8">
         <!-- Table Header - Hidden on mobile, shown on larger screens -->
-        <div class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}>
+        <div
+          class={`hidden md:grid grid-cols-[2fr_1fr_1fr] gap-8 py-4 border-b ${borderClasses} text-sm font-bold tracking-wider`}
+        >
           <div>Project Info</div>
           <div>Cohort #</div>
           <div>Link</div>
@@ -258,7 +295,9 @@ const cohortHeaderClasses = darkTheme
         <!-- Project Entries -->
         {projects.map((project) => (
           <div
-            class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${darkTheme ? '4' : '6'} border-b ${borderClasses}`}
+            class={`flex flex-col md:grid md:grid-cols-[2fr_1fr_1fr] gap-4 md:gap-8 py-${
+              darkTheme ? '4' : '6'
+            } border-b ${borderClasses}`}
           >
             <div class="flex items-start gap-4">
               {project.logo && (
