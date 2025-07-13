@@ -40,7 +40,9 @@ const { title, meta_title, description, image, noindex, canonical, showCallToAct
 
 // process text content
 const processedTitle = await plainify(meta_title ? meta_title : title ? title : config.site.title);
-const processedDescription = await plainify(description ? description : config.metadata.meta_description);
+const processedDescription = await plainify(
+  description ? description : config.metadata.meta_description
+);
 
 // Get call-to-action data if needed
 const call_to_action = showCallToAction ? (await getEntry(
