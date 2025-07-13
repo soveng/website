@@ -26,16 +26,15 @@
       "version": "detect"
     },
     "import/resolver": {
-      "typescript": {
-        "alwaysTryTypes": true,
-        "project": "./tsconfig.json"
-      },
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx", ".astro"]
-      },
       "alias": {
-        "map": [["@", "./src"]],
-        "extensions": [".js", ".jsx", ".ts", ".tsx", ".astro"]
+        "map": [
+          ["@", "./src"],
+          ["@/components", "./src/layouts/components"],
+          ["@/shortcodes", "./src/layouts/shortcodes"],
+          ["@/helpers", "./src/layouts/helpers"],
+          ["@/partials", "./src/layouts/partials"]
+        ],
+        "extensions": [".ts", ".tsx", ".js", ".jsx", ".astro"]
       }
     }
   },
@@ -111,6 +110,30 @@
       },
       "rules": {
         "@typescript-eslint/no-var-requires": "off"
+      }
+    },
+    {
+      "files": ["*.astro"],
+      "extends": ["plugin:astro/recommended"],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [".astro"],
+        "sourceType": "module"
+      },
+      "rules": {
+        "react/jsx-key": "off",
+        "react/jsx-no-target-blank": "off",
+        "react/no-unescaped-entities": "off",
+        "react/jsx-no-undef": "off",
+        "react/react-in-jsx-scope": "off",
+        "import/no-unresolved": "off",
+        "import/namespace": "off",
+        "import/default": "off",
+        "import/no-duplicates": "off",
+        "import/no-named-as-default": "off",
+        "import/no-named-as-default-member": "off",
+        "import/order": "off"
       }
     }
   ],
