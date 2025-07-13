@@ -26,16 +26,7 @@
       "version": "detect"
     },
     "import/resolver": {
-      "alias": {
-        "map": [
-          ["@", "./src"],
-          ["@/components", "./src/layouts/components"],
-          ["@/shortcodes", "./src/layouts/shortcodes"],
-          ["@/helpers", "./src/layouts/helpers"],
-          ["@/partials", "./src/layouts/partials"]
-        ],
-        "extensions": [".ts", ".tsx", ".js", ".jsx", ".astro"]
-      }
+      "typescript": {}
     },
     "import/ignore": [
       "astro:.*",
