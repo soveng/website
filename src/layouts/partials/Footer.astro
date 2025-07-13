@@ -27,7 +27,7 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
                 const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
                 return (
                   <li class="inline-block">
-                    <a 
+                    <a
                       href={menu.url}
                       class="text-white hover:text-primary transition-colors flex items-center"
                       {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}

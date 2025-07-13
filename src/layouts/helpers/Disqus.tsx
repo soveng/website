@@ -1,6 +1,7 @@
-import config from '@/config/config.json';
 import { DiscussionEmbed } from 'disqus-react';
 import React from 'react';
+
+import config from '@/config/config.json';
 
 const Disqus = ({ className }: { className?: string }) => {
   const { disqus } = config;

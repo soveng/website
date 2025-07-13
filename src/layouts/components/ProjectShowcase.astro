@@ -23,10 +23,10 @@ interface Props {
   showHighlights?: boolean;
 }
 
-const { 
-  projects, 
-  showCTA = false, 
-  ctaText = "See All Projects", 
+const {
+  projects,
+  showCTA = false,
+  ctaText = "See All Projects",
   ctaLink = "/projects",
   darkTheme = false,
   showTitle = false,
@@ -67,32 +67,32 @@ const highlightedProjects = highlightedProjectNames
   .map(name => projects.find(project => project.name === name))
   .filter(Boolean) as Project[];
 
-const containerClasses = darkTheme 
-  ? "w-full text-white bg-black py-8 sm:py-16 max-w-[960px] mx-auto" 
+const containerClasses = darkTheme
+  ? "w-full text-white bg-black py-8 sm:py-16 max-w-[960px] mx-auto"
   : "section bg-theme-light";
 
-const headerClasses = darkTheme 
-  ? "text-2xl mb-8" 
+const headerClasses = darkTheme
+  ? "text-2xl mb-8"
   : "text-3xl mb-8";
 
 const titleClasses = darkTheme
   ? "text-4xl mb-8 pt-16 text-center text-white font-normal"
   : "text-4xl mb-8 text-center";
 
-const borderClasses = darkTheme 
-  ? "border-white" 
+const borderClasses = darkTheme
+  ? "border-white"
   : "border-border";
 
-const textClasses = darkTheme 
-  ? "text-white" 
+const textClasses = darkTheme
+  ? "text-white"
   : "text-text";
 
-const descriptionClasses = darkTheme 
-  ? "text-gray-300" 
+const descriptionClasses = darkTheme
+  ? "text-gray-300"
   : "text-text";
 
-const linkClasses = darkTheme 
-  ? "text-white hover:text-primary transition-colors break-all" 
+const linkClasses = darkTheme
+  ? "text-white hover:text-primary transition-colors break-all"
   : "text-primary hover:text-primary/80 transition-colors break-all font-medium";
 
 const cohortHeaderClasses = darkTheme
@@ -133,8 +133,8 @@ const cohortHeaderClasses = darkTheme
               <div class="flex items-start gap-4">
                 {project.logo && (
                   <div class="flex-shrink-0">
-                    <img 
-                      src={project.logo} 
+                    <img
+                      src={project.logo}
                       alt={`${project.name} logo`}
                       class="w-12 h-12 object-contain showcase-logo"
                     />
@@ -192,8 +192,8 @@ const cohortHeaderClasses = darkTheme
                   <div class="flex items-start gap-4">
                     {project.logo && (
                       <div class="flex-shrink-0">
-                        <img 
-                          src={project.logo} 
+                        <img
+                          src={project.logo}
                           alt={`${project.name} logo`}
                           class="w-12 h-12 object-contain showcase-logo"
                         />
@@ -234,7 +234,7 @@ const cohortHeaderClasses = darkTheme
             )}
           </>
         ))}
-        
+
         {/* SEC-05 CTA Section */}
         <div class="mt-16 text-center">
           <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
@@ -267,8 +267,8 @@ const cohortHeaderClasses = darkTheme
             <div class="flex items-start gap-4">
               {project.logo && (
                 <div class="flex-shrink-0">
-                  <img 
-                    src={project.logo} 
+                  <img
+                    src={project.logo}
                     alt={`${project.name} logo`}
                     class="w-12 h-12 object-contain showcase-logo"
                   />

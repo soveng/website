@@ -61,7 +61,7 @@ const philosophyCollection = defineCollection({
   }),
 });
 
-// Concept collection schema  
+// Concept collection schema
 const conceptCollection = defineCollection({
   loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/concept" }),
   schema: z.object({

@@ -65,7 +65,7 @@ const slideMap: Record<string, any> = {
 const processedSections = sections.map((section: any) => {
   if (section.id === "weekly-loop") {
     // Convert weekly rhythm schedule to bulletpoints
-    const scheduleBullets = weeklyRhythmData.schedule.map((item) => 
+    const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
       `**${item.day}** – ${item.description}`
     );
     return {
@@ -107,4 +107,4 @@ const processedSections = sections.map((section: any) => {
       }}
     />
   ))}
-</Base> 
+</Base>

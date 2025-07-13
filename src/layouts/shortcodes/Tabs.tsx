@@ -8,7 +8,7 @@ const Tabs = ({ children }: { children: React.ReactElement }) => {
   const tabRefs: React.RefObject<HTMLElement[]> = useRef([]);
   useEffect(() => {
     if (defaultFocus) {
-      //@ts-ignore
+      // @ts-ignore
       tabRefs.current[active]?.focus();
     } else {
       setDefaultFocus(true);
@@ -41,7 +41,7 @@ const Tabs = ({ children }: { children: React.ReactElement }) => {
             tabIndex={index === active ? 0 : -1}
             onKeyDown={(event) => handleKeyDown(event, index)}
             onClick={() => setActive(index)}
-            //@ts-ignore
+            // @ts-ignore
             ref={(ref) => (tabRefs.current[index] = ref)}
           >
             {item.name}
