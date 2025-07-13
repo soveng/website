@@ -6,7 +6,7 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Apply Now!"
+    label: "Apply Today!"
     link: "#apply"
 
 # Features
