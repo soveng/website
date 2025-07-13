@@ -163,8 +163,8 @@ const cohortHeaderClasses = darkTheme
     {/* Richard L. Evans Quote after highlights */}
     {showHighlights && (
       <BigBlockQuote
-        quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.quote || ""}
-        author={philosophyQuotes.find((q: any) => q.id === "richard-evans-beginning")?.author || ""}
+        quote={philosophyQuotes.find((q: unknown) => q.id === "richard-evans-beginning")?.quote || ""}
+        author={philosophyQuotes.find((q: unknown) => q.id === "richard-evans-beginning")?.author || ""}
       />
     )}
 
@@ -221,15 +221,15 @@ const cohortHeaderClasses = darkTheme
             {/* Berdyaev quote between SEC-00 and SEC-01 */}
             {cohort === 'SEC-00' && (
               <BigBlockQuote
-                quote={philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.quote || ""}
-                author={`${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: any) => q.id === "berdyaev-beginning-end")?.citation || ""}`}
+                quote={philosophyQuotes.find((q: unknown) => q.id === "berdyaev-beginning-end")?.quote || ""}
+                author={`${philosophyQuotes.find((q: unknown) => q.id === "berdyaev-beginning-end")?.author || ""}, ${philosophyQuotes.find((q: unknown) => q.id === "berdyaev-beginning-end")?.citation || ""}`}
               />
             )}
             {/* Evans quote between SEC-01 and SEC-02 */}
             {cohort === 'SEC-01' && (
               <BigBlockQuote
-                quote={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.quote || ""}
-                author={philosophyQuotes.find((q: any) => q.id === "richard-evans-wrong-road")?.author || ""}
+                quote={philosophyQuotes.find((q: unknown) => q.id === "richard-evans-wrong-road")?.quote || ""}
+                author={philosophyQuotes.find((q: unknown) => q.id === "richard-evans-wrong-road")?.author || ""}
               />
             )}
           </>

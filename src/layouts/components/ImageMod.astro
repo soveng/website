@@ -12,11 +12,11 @@ interface Props {
   decoding?: "async" | "auto" | "sync" | null | undefined;
   format?: "auto" | "avif" | "jpeg" | "png" | "svg" | "webp";
   class?: string;
-  style?: any;
+  style?: unknown;
 }
 
 // Destructuring Astro.props to get the component's props
-let {
+const {
   src,
   alt,
   width,

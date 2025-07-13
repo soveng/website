@@ -14,8 +14,8 @@ const {
 }: {
   logo: string;
   logo_darkmode: string;
-  logo_width: any;
-  logo_height: any;
+  logo_width: unknown;
+  logo_height: unknown;
   logo_text: string;
   title: string;
 } = config.site;
@@ -30,12 +30,12 @@ const { theme_switcher }: { theme_switcher: boolean } = config.settings;
         <ImageMod
           src={src ? src : logo}
           class={`inline-block ${theme_switcher && "dark:hidden"}`}
-          width={logo_width.replace("px", "") * 2}
-          height={logo_height.replace("px", "") * 2}
+          width={logo_width as number * 2}
+          height={logo_height as number * 2}
           alt={title}
           style={{
-            height: `${logo_height.replace("px", "")  }px`,
-            width: `${logo_width.replace("px", "")  }px`,
+            height: `${logo_height as number  }px`,
+            width: `${logo_width as number  }px`,
           }}
           format="webp"
         />
@@ -43,12 +43,12 @@ const { theme_switcher }: { theme_switcher: boolean } = config.settings;
           <ImageMod
             src={srcDarkmode ? srcDarkmode : logo_darkmode}
             class={"hidden dark:inline-block"}
-            width={logo_width.replace("px", "") * 2}
-            height={logo_height.replace("px", "") * 2}
+            width={logo_width as number * 2}
+            height={logo_height as number * 2}
             alt={title}
             style={{
-              height: `${logo_height.replace("px", "")  }px`,
-              width: `${logo_width.replace("px", "")  }px`,
+              height: `${logo_height as number  }px`,
+              width: `${logo_width as number  }px`,
             }}
             format="webp"
           />
