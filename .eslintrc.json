@@ -11,15 +11,6 @@
     "plugin:import/typescript",
     "prettier"
   ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    },
-    "project": "./tsconfig.json"
-  },
   "plugins": [
     "@typescript-eslint",
     "astro",
@@ -41,6 +32,10 @@
       },
       "node": {
         "extensions": [".js", ".jsx", ".ts", ".tsx", ".astro"]
+      },
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".js", ".jsx", ".ts", ".tsx", ".astro"]
       }
     }
   },
@@ -53,24 +48,47 @@
         "extraFileExtensions": [".astro"],
         "sourceType": "module"
       },
+      "extends": ["plugin:astro/recommended"],
       "rules": {
         "astro/no-conflict-set-directives": "error",
         "astro/no-unused-define-vars-in-style": "error",
-        "astro/valid-compile": "error"
+        "astro/valid-compile": "error",
+        // Disable React/JSX rules for Astro files
+        "react/jsx-uses-react": "off",
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-uses-vars": "off",
+        "react/jsx-no-undef": "off",
+        "react/no-unknown-property": "off",
+        "jsx-a11y/heading-has-content": "off"
       }
     },
     {
       "files": ["*.ts", "*.tsx"],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./tsconfig.json",
+        "sourceType": "module"
+      },
       "rules": {
         "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
         "@typescript-eslint/no-explicit-any": "warn",
         "@typescript-eslint/prefer-const": "error",
         "@typescript-eslint/no-var-requires": "error",
-        "react-refresh/only-export-components": ["warn", { "allowConstantExport": true }],
+        "react-refresh/only-export-components": [
+          "warn",
+          { "allowConstantExport": true }
+        ],
         "import/order": [
           "error",
           {
-            "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+            "groups": [
+              "builtin",
+              "external",
+              "internal",
+              "parent",
+              "sibling",
+              "index"
+            ],
             "newlines-between": "always",
             "alphabetize": {
               "order": "asc",
@@ -84,6 +102,14 @@
     },
     {
       "files": ["*.js", "*.jsx"],
+      "parser": "espree",
+      "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      },
       "rules": {
         "@typescript-eslint/no-var-requires": "off"
       }
@@ -134,5 +160,11 @@
     "es2022": true,
     "node": true
   },
-  "ignorePatterns": ["dist/", "node_modules/", ".astro/", "*.config.js", "*.config.mjs"]
+  "ignorePatterns": [
+    "dist/",
+    "node_modules/",
+    ".astro/",
+    "*.config.js",
+    "*.config.mjs"
+  ]
 }
