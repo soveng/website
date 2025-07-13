@@ -70,7 +70,7 @@ const slideMap: Record<string, string | ImageMetadata> = {
       <ContentSection
         title={section.title || ""}
         content={section.content || ""}
-        image={slideMap[section.image || ""] as ImageMetadata}
+        image={slideMap[section.image || ""] as any}
         index={index}
         pullquote={{
           quote: String(getQuote(section.quote_section ?? "")?.quote ?? ""),

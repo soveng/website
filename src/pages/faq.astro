@@ -45,7 +45,7 @@ const leadQuote = getQuoteById("ts-eliot");
       section,
       index
     ) =>
-      section.questions ? (
+      (section.questions ? (
         <FaqSection
           title={section.title || ""}
           questions={section.questions}
@@ -62,6 +62,6 @@ const leadQuote = getQuoteById("ts-eliot");
           id={section.id || ""}
           fullWidthImage={true}
         />
-      )
+      ))
   )}
 </Base>
