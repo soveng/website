@@ -130,47 +130,56 @@ const bannerTitle = await markdownify(banner.title);
 
   <!-- Features -->
   {
-    features.map((feature, index: number) => {
-      // Handle weekly rhythm or regular bullet points
-      let bulletPoints: string[] = [];
-      if (feature.weeklyRhythm) {
-        bulletPoints = weeklyRhythmData.schedule.map(item => `**${item.day}:** ${item.description}`);
-      } else if (feature.bulletpoints) {
-        bulletPoints = feature.bulletpoints;
+    features.map(
+      (
+        feature,
+        index: number
+      ) => {
+        // Handle weekly rhythm or regular bullet points
+        let bulletPoints: string[] = [];
+        if (feature.weeklyRhythm) {
+          bulletPoints = weeklyRhythmData.schedule.map(item => `**${item.day}:** ${item.description}`);
+        } else if (feature.bulletpoints) {
+          bulletPoints = feature.bulletpoints;
+        }
+
+        const sectionId =
+          index === 0 ? "what"
+          : index === 1 ? "how"
+          : index === 2 ? "why"
+          : "";
+
+        return (
+          <>
+            <FeatureSection
+              title={feature.title}
+              content={feature.content}
+              image={feature.image}
+              bulletpoints={bulletPoints}
+              button={feature.button}
+              index={index}
+              id={sectionId}
+            />
+            {/* Insert quote after the first feature */}
+            {index === 0 && (
+              <BigBlockQuote
+                quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote || ""}
+                author={philosophyQuotes.find(q => q.id === "saint-exupery")?.author || ""}
+                href="/philosophy"
+              />
+            )}
+            {/* Insert Hal Finney quote after the second feature */}
+            {index === 1 && (
+              <BigBlockQuote
+                quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote || ""}
+                author={philosophyQuotes.find(q => q.id === "hal-finney")?.author || ""}
+                href="/concept"
+              />
+            )}
+          </>
+        );
       }
-
-      const sectionId = index === 0 ? "what" : index === 1 ? "how" : index === 2 ? "why" : "";
-
-      return (
-        <>
-          <FeatureSection
-            title={feature.title}
-            content={feature.content}
-            image={feature.image}
-            bulletpoints={bulletPoints}
-            button={feature.button}
-            index={index}
-            id={sectionId}
-          />
-          {/* Insert quote after the first feature */}
-          {index === 0 && (
-            <BigBlockQuote
-              quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote || ""}
-              author={philosophyQuotes.find(q => q.id === "saint-exupery")?.author || ""}
-              href="/philosophy"
-            />
-          )}
-          {/* Insert Hal Finney quote after the second feature */}
-          {index === 1 && (
-            <BigBlockQuote
-              quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote || ""}
-              author={philosophyQuotes.find(q => q.id === "hal-finney")?.author || ""}
-              href="/concept"
-            />
-          )}
-        </>
-      );
-    })
+    )
   }
   <!-- /Features -->
 
