@@ -41,24 +41,27 @@ const leadQuote = getQuoteById("ts-eliot");
 
   <!-- FAQ Sections -->
   {sections.map(
-    (section: { title: string; content: string; questions?: { question: string; answer: string }[]; id?: string }, index: number) => (
-    section.questions ? (
-      <FaqSection
-        title={section.title}
-        questions={section.questions}
-        content={section.content}
-        index={index}
-        id={section.id}
-      />
-    ) : (
-      <ContentSection
-        title={section.title}
-        content={section.content}
-        image=""
-        index={index}
-        id={section.id}
-        fullWidthImage={true}
-      />
-    )
-  ))}
+    (
+      section,
+      index
+    ) =>
+      section.questions ? (
+        <FaqSection
+          title={section.title || ""}
+          questions={section.questions}
+          content={section.content}
+          index={index}
+          id={section.id || ""}
+        />
+      ) : (
+        <ContentSection
+          title={section.title || ""}
+          content={section.content}
+          image=""
+          index={index}
+          id={section.id || ""}
+          fullWidthImage={true}
+        />
+      )
+  )}
 </Base>
