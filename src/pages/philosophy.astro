@@ -17,6 +17,7 @@ import philosophyQuotes from "@/data/philosophy-quotes.json";
 
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
+import type { ImageMetadata } from "astro";
 
 // Get philosophy content
 const philosophy = (await getEntry(
@@ -32,7 +33,7 @@ const getQuote = (section: string) => {
 };
 
 // Map image filenames to imported slide objects (now optimized assets)
-const slideMap: Record<string, any> = {
+const slideMap: Record<string, ImageMetadata | string> = {
   "pirate-ship-2.jpeg": slideShip,
   "surveillance-capitalism.jpeg": slideFreedomTech,
   "walking.jpeg": slideWalk,
@@ -45,6 +46,16 @@ const slideMap: Record<string, any> = {
   "solvitur-ambulando.jpeg": slideSolvitur,
   "genesis-block.png": slideGenesisBlock,
 };
+
+interface Section {
+  id: string;
+  title: string;
+  quote_section: string;
+  image: string;
+  float: string;
+  content: string;
+  link?: string;
+}
 ---
 
 <Base
@@ -63,7 +74,7 @@ const slideMap: Record<string, any> = {
 
   <!-- Content Sections -->
   {sections.map(
-    (section: any, index: number) => (
+    (section: Section, index: number) => (
     <ContentSection
       title={section.title}
       content={section.content}

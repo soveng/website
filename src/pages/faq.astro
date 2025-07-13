@@ -23,6 +23,13 @@ const getQuoteById = (id: string) => {
 
 // Get the T.S. Eliot quote for the ContentLead
 const leadQuote = getQuoteById("ts-eliot");
+
+interface Section {
+  id: string;
+  title: string;
+  questions?: { question: string; answer: string }[];
+  content?: string;
+}
 ---
 
 <Base
@@ -41,7 +48,7 @@ const leadQuote = getQuoteById("ts-eliot");
 
   <!-- FAQ Sections -->
   {sections.map(
-    (section: any, index: number) => (
+    (section: Section, index: number) => (
     section.questions ? (
       <FaqSection
         title={section.title}
@@ -53,7 +60,7 @@ const leadQuote = getQuoteById("ts-eliot");
     ) : (
       <ContentSection
         title={section.title}
-        content={section.content}
+        content={section.content || ""}
         image=""
         index={index}
         id={section.id}

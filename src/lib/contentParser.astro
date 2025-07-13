@@ -1,9 +1,5 @@
 ---
-import {
-  getCollection,
-  type CollectionEntry,
-  type CollectionKey,
-} from "astro:content";
+import { getCollection } from "astro:content";
 
 type PageData = {
   title: string;
@@ -13,10 +9,11 @@ type PageData = {
   draft?: boolean;
 };
 
-export const getSinglePage = async <C extends CollectionKey>(
-  collectionName: C
-): Promise<CollectionEntry<C>[]> => {
-  const allPages = await getCollection(collectionName);
+export const getSinglePage = async (
+  collectionName: string
+): Promise<Array<{ id: string; data: Record<string, unknown> }>> => {
+  // @ts-expect-error: dynamic collection name
+  const allPages = await getCollection(collectionName) as Array<{ id: string; data: Record<string, unknown> }>;
 
   const removeIndex = allPages.filter((data) => data.id.match(/^(?!-)/));
 

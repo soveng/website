@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import { markdownify } from "@/lib/utils/textConverter";
 import type { Button } from "@/types";
+import type { ImageMetadata } from "astro";
 
 // Import optimized images
 import boat1Image from "@/assets/images/boat1.png";
@@ -22,7 +23,7 @@ interface Props {
 const { title, content, image, bulletpoints = [], button, index, id } = Astro.props;
 
 // Map public image paths to optimized imports
-const imageMap: Record<string, any> = {
+const imageMap: Record<string, ImageMetadata | string> = {
   "/images/boat1.png": boat1Image,
   "/images/boat2.png": boat2Image,
   "/images/map.png": mapImage,
@@ -31,7 +32,7 @@ const imageMap: Record<string, any> = {
 
 // Get optimized image or fallback to original path
 const optimizedImage = imageMap[image] || image;
-const useOptimizedImage = imageMap[image] !== undefined;
+const useOptimizedImage = typeof optimizedImage === 'object';
 
 // Define which images should have pixelated rendering
 const pixelatedImages = [
@@ -76,7 +77,7 @@ const imageRight = index % 2 !== 0;
       >
         {useOptimizedImage ? (
           <Image
-            src={optimizedImage}
+            src={optimizedImage as ImageMetadata}
             height={960}
             width={1040}
             alt={altText}
