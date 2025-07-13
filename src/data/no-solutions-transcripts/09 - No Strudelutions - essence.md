@@ -35,4 +35,5 @@
 • Record and publish each iteration publicly to inspire future cohorts.
 
 ---
-Skip the sugary layers; bake the simple loaf, share a bite, refine the recipe. That’s Sovereign Engineering—no strudelutions required. 
+
+Skip the sugary layers; bake the simple loaf, share a bite, refine the recipe. That’s Sovereign Engineering—no strudelutions required.

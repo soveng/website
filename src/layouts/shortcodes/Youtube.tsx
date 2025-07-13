@@ -1,16 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-const Youtube = ({
-  id,
-  title,
-  ...rest
-}: {
-  id: string;
-  title: string;
-  [key: string]: any;
-}) => {
+const Youtube = ({ id, title, ...rest }: { id: string; title: string; [key: string]: any }) => {
   useEffect(() => {
-    import("@justinribeiro/lite-youtube");
+    import('@justinribeiro/lite-youtube');
   }, []);
 
   // @ts-ignore

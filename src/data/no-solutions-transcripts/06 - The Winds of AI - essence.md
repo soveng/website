@@ -36,4 +36,5 @@
 • Focus on real-time, local-first prototypes; AI can generate code or art, but cohorts judge on shipped demos.
 
 ---
-AI will keep blowing harder. By anchoring work in cryptographic identity, direct value exchange, and public iteration, Sovereign Engineering turns the winds of AI into propulsion rather than turbulence. 
+
+AI will keep blowing harder. By anchoring work in cryptographic identity, direct value exchange, and public iteration, Sovereign Engineering turns the winds of AI into propulsion rather than turbulence.

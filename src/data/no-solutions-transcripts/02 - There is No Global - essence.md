@@ -39,4 +39,5 @@
 • Conversations like this serve as time-capsules, refining the story newcomers hear: build local-first, expect conflicts, leverage sats, avoid rugpulls.
 
 ---
-Freedom demands embracing decentralised messiness. Ignore promises of "one global truth," build resilient local pieces, sync when you can, and let sats—and ideas—flow. This is Sovereign Engineering in practice. 
+
+Freedom demands embracing decentralised messiness. Ignore promises of "one global truth," build resilient local pieces, sync when you can, and let sats—and ideas—flow. This is Sovereign Engineering in practice.

@@ -25,6 +25,7 @@ yarn generate-json      # Generate search index files manually
 **Astro Islands Architecture**: React components are selectively hydrated using `client:load` directives. The site uses file-based routing with Astro components in `src/pages/`.
 
 **Content Collections**: Strongly-typed content management using Zod schemas defined in `src/content.config.ts`. Collections include:
+
 - `homepage` - Landing page sections (banner, features, CTA)
 - `blog` - Articles with author, category, and tag support
 - `authors` - Multi-author system with social links

@@ -1,5 +1,5 @@
 body {
-  @apply bg-body text-base dark:bg-darkmode-body font-primary leading-relaxed text-text dark:text-darkmode-text m-0 p-0 overflow-x-hidden;
+  @apply bg-body dark:bg-darkmode-body font-primary text-text dark:text-darkmode-text m-0 overflow-x-hidden p-0 text-base leading-relaxed;
   font-family: var(--font-primary);
   font-size: 1.125rem;
   font-weight: 400;
@@ -7,14 +7,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  @apply font-secondary font-normal leading-tight text-text-dark dark:text-darkmode-text-dark;
+  @apply font-secondary text-text-dark dark:text-darkmode-text-dark leading-tight font-normal;
   text-transform: uppercase;
 }
 

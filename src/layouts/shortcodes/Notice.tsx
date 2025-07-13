@@ -1,17 +1,11 @@
-import { humanize } from "@/lib/utils/textConverter";
-import React from "react";
+import { humanize } from '@/lib/utils/textConverter';
+import React from 'react';
 
-function Notice({
-  type,
-  children,
-}: {
-  type: string;
-  children: React.ReactNode;
-}) {
+function Notice({ type, children }: { type: string; children: React.ReactNode }) {
   return (
     <div className={`notice ${type}`}>
       <div className="notice-head">
-        {type === "tip" ? (
+        {type === 'tip' ? (
           <svg
             width="20"
             height="20"
@@ -26,7 +20,7 @@ function Notice({
               fill="currentColor"
             />
           </svg>
-        ) : type === "info" ? (
+        ) : type === 'info' ? (
           <svg
             width="20"
             height="20"
@@ -43,7 +37,7 @@ function Notice({
               fill="currentColor"
             />
           </svg>
-        ) : type === "warning" ? (
+        ) : type === 'warning' ? (
           <svg
             width="20"
             height="20"

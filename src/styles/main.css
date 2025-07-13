@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @plugin "../tailwind-plugin/tw-theme";
 @plugin "../tailwind-plugin/tw-bs-grid";
 @plugin "@tailwindcss/forms";
@@ -6,15 +6,15 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-@import "./safe.css";
-@import "./utilities.css";
+@import './safe.css';
+@import './utilities.css';
 
 @layer base {
-  @import "./base.css";
+  @import './base.css';
 }
 
 @layer components {
-  @import "./components.css";
-  @import "./navigation.css";
-  @import "./buttons.css";
+  @import './components.css';
+  @import './navigation.css';
+  @import './buttons.css';
 }
