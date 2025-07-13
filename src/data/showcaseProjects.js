@@ -2,8 +2,7 @@ const showcaseProjects = [
   // SEC-00 Projects (Foundational/Reference)
   {
     name: 'Highlighter',
-    description:
-      'A nostr client & NIP for sharing and discovering highlights from books, articles, and more.',
+    description: 'A nostr client & NIP for sharing and discovering highlights from books, articles, and more.',
     cohort: 'SEC-00',
     link: 'https://highlighter.com/',
     linkText: 'highlighter.com',
@@ -21,23 +20,19 @@ const showcaseProjects = [
   },
   {
     name: 'NIP-90: Data Vending Machines',
-    description:
-      'Nostr protocol extension for on-demand computation and data vending. See NIP and reference site.',
+    description: 'Nostr protocol extension for on-demand computation and data vending. See NIP and reference site.',
     cohort: 'SEC-00',
     link: 'https://nips.nostr.com/90',
     linkText: 'nips.nostr.com/90',
     logo: '',
     highlight: false,
-    extraLinks: [
-      { link: 'https://www.data-vending-machines.org/', linkText: 'data-vending-machines.org' },
-    ],
+    extraLinks: [{ link: 'https://www.data-vending-machines.org/', linkText: 'data-vending-machines.org' }],
   },
 
   // SEC-01 Projects (Jan-Mar 2024)
   {
     name: 'Blossom',
-    description:
-      'A specification for HTTP endpoints that allow users to store blobs of data on publicly accessible servers',
+    description: 'A specification for HTTP endpoints that allow users to store blobs of data on publicly accessible servers',
     cohort: 'SEC-01',
     link: 'https://github.com/hzrd149/blossom',
     linkText: 'github.com/hzrd149/blossom',
@@ -46,8 +41,7 @@ const showcaseProjects = [
   },
   {
     name: 'npub.cash',
-    description:
-      'A nostr native Lightning Address service that provides Lightning addresses for everyone using Cashu eCash',
+    description: 'A nostr native Lightning Address service that provides Lightning addresses for everyone using Cashu eCash',
     cohort: 'SEC-01',
     link: 'https://npub.cash/',
     linkText: 'npub.cash',
@@ -65,8 +59,7 @@ const showcaseProjects = [
   },
   {
     name: 'Blossom Drive',
-    description:
-      'A cloud drive built using blossom servers and nostr for decentralized file storage',
+    description: 'A cloud drive built using blossom servers and nostr for decentralized file storage',
     cohort: 'SEC-01',
     link: 'https://github.com/hzrd149/blossom-drive',
     linkText: 'github.com/hzrd149/blossom-drive',
@@ -195,8 +188,7 @@ const showcaseProjects = [
   // SEC-02 Projects (May-Jun 2024)
   {
     name: 'Nsite',
-    description:
-      'Host static websites on Nostr using blossom servers for storage and nostr relays for mapping',
+    description: 'Host static websites on Nostr using blossom servers for storage and nostr relays for mapping',
     cohort: 'SEC-02',
     link: 'https://nsite.run/',
     linkText: 'nsite.run',
@@ -261,8 +253,7 @@ const showcaseProjects = [
   },
   {
     name: 'Tollgate',
-    description:
-      'Pay-as-you-go internet access on open networks powered by Bitcoin Lightning and eCash',
+    description: 'Pay-as-you-go internet access on open networks powered by Bitcoin Lightning and eCash',
     cohort: 'SEC-02',
     link: 'https://tollgate.me/',
     linkText: 'tollgate.me',
@@ -411,8 +402,7 @@ const showcaseProjects = [
   },
   {
     name: 'DVMCP',
-    description:
-      "Bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine (DVM) ecosystem",
+    description: "Bridge implementation that connects Model Context Protocol (MCP) servers to Nostr's Data Vending Machine (DVM) ecosystem",
     cohort: 'SEC-04',
     link: 'https://mcp.so/server/dvmcp',
     linkText: 'mcp.so/server/dvmcp',
@@ -502,8 +492,7 @@ const showcaseProjects = [
   },
   {
     name: 'TENEX',
-    description:
-      'Orchestrate the orchestrators. Autonomous, agentic learning through distributed cognition through nostr.',
+    description: 'Orchestrate the orchestrators. Autonomous, agentic learning through distributed cognition through nostr.',
     cohort: 'SEC-04',
     link: 'https://github.com/pablof7z/tenex',
     linkText: 'https://github.com/pablof7z/tenex',
