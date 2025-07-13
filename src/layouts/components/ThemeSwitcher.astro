@@ -11,8 +11,8 @@ const { className }: { className?: string } = Astro.props;
 {
   theme_switcher && (
     <div class={`theme-switcher ${className}`}>
-      <input id="theme-switcher" data-theme-switcher type="checkbox" />
-      <label for="theme-switcher" aria-label="Toggle dark mode">
+      <input id="theme-switcher" data-theme-switcher type="checkbox" aria-label="Toggle dark mode" />
+      <label for="theme-switcher">
         <span class="sr-only">theme switcher</span>
         <span>
           <svg
@@ -61,7 +61,7 @@ const { className }: { className?: string } = Astro.props;
         : settings.default_theme;
     const currentTheme = localStorage.getItem("theme") || defaulTheme;
     const isDarkTheme = currentTheme === "dark";
-    themeSwitch.forEach((sw) => (sw.checked = isDarkTheme));
+    themeSwitch.forEach((sw) => ((sw as HTMLInputElement).checked = isDarkTheme));
     document.documentElement.classList.toggle("dark", isDarkTheme);
   }
 
