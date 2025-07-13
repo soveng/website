@@ -134,6 +134,7 @@ const ctaSectionCollection = defineCollection({
       label: z.string(),
       link: z.string(),
     }),
+    dates: z.string().optional(),
   }),
 });
 

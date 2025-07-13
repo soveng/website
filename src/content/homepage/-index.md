@@ -6,8 +6,8 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Apply Now!"
-    link: "https://sovereignengineering.typeform.com/SEC-05"
+    label: "Apply Today!"
+    link: "#apply"
 
 # Features
 features:

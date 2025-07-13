@@ -6,7 +6,7 @@ const { call_to_action } = Astro.props;
 
 {
   call_to_action.data.enable && (
-    <section class="w-full bg-primary text-white py-16 xl:py-20">
+    <section id="apply" class="w-full bg-primary text-white py-16 xl:py-20">
       <div class="container">
         <div class="row items-center justify-between">
           <div class="mb-10 md:col-5 lg:col-4 md:order-2 md:mb-0">
@@ -28,16 +28,23 @@ const { call_to_action } = Astro.props;
               set:html={markdownify(call_to_action.data.description)}
               class="mb-6 text-white"
             />
-            {call_to_action.data.button.enable && (
-              <a
-                class="btn-retro inline-block"
-                href={call_to_action.data.button.link}
-                target={call_to_action.data.button.link.startsWith("http") ? "_blank" : "_self"}
-                rel={call_to_action.data.button.link.startsWith("http") ? "noopener noreferrer" : ""}
-              >
-                {call_to_action.data.button.label}
-              </a>
-            )}
+            <div class="flex items-center gap-6">
+              {call_to_action.data.button.enable && (
+                <a
+                  class="btn-retro inline-block"
+                  href={call_to_action.data.button.link}
+                  target={call_to_action.data.button.link.startsWith("http") ? "_blank" : "_self"}
+                  rel={call_to_action.data.button.link.startsWith("http") ? "noopener noreferrer" : ""}
+                >
+                  {call_to_action.data.button.label}
+                </a>
+              )}
+              {call_to_action.data.dates && (
+                <span class="text-white text-lg font-medium">
+                  {call_to_action.data.dates}
+                </span>
+              )}
+            </div>
           </div>
         </div>
       </div>
