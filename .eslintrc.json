@@ -36,7 +36,12 @@
         ],
         "extensions": [".ts", ".tsx", ".js", ".jsx", ".astro"]
       }
-    }
+    },
+    "import/ignore": [
+      "astro:.*",
+      "virtual:.*"
+    ],
+    "import/external-module-folders": ["node_modules", ".astro"]
   },
   "overrides": [
     {
@@ -127,13 +132,13 @@
         "react/no-unescaped-entities": "off",
         "react/jsx-no-undef": "off",
         "react/react-in-jsx-scope": "off",
-        "import/no-unresolved": "off",
         "import/namespace": "off",
         "import/default": "off",
         "import/no-duplicates": "off",
         "import/no-named-as-default": "off",
         "import/no-named-as-default-member": "off",
-        "import/order": "off"
+        "import/order": "off",
+        "import/no-unresolved": ["error", { "ignore": ["^astro:", "^virtual:"] }]
       }
     }
   ],
