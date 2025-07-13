@@ -41,7 +41,7 @@ const getQuoteById = (id: string) => {
 const leadQuote = getQuoteById("berdyaev-beginning-end");
 
 // Map image filenames to imported slide objects (now optimized assets)
-const slideMap: Record<string, unknown> = {
+const slideMap: Record<string, any> = {
   "show-talk-build-loop.jpeg": slideLoop,
   "walking.jpeg": slideWalk,
   "endurance.jpeg": slideEndurance,
@@ -63,7 +63,7 @@ const slideMap: Record<string, unknown> = {
 
 // Process sections to add special handling for weekly-loop
 const processedSections = sections.map(
-  (section: { id: string; title: string; content: string; image: string; bulletpoints?: string[]; link?: string }) => {
+  (section: any) => {
   if (section.id === "weekly-loop") {
     // Convert weekly rhythm schedule to bulletpoints
     const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
@@ -94,7 +94,7 @@ const processedSections = sections.map(
 
   <!-- Content Sections -->
   {processedSections.map(
-    (section: { id: string; title: string; content: string; image: string; bulletpoints?: string[]; link?: string }, index: number) => (
+    (section: any, index: number) => (
     <ContentSection
       title={section.title}
       content={section.content}

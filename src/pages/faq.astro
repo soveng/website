@@ -41,7 +41,7 @@ const leadQuote = getQuoteById("ts-eliot");
 
   <!-- FAQ Sections -->
   {sections.map(
-    (section: { title: string; content: string; questions?: { question: string; answer: string }[]; id?: string }, index: number) => (
+    (section: any, index: number) => (
     section.questions ? (
       <FaqSection
         title={section.title}
