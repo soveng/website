@@ -32,7 +32,7 @@ const getQuote = (section: string) => {
 };
 
 // Map image filenames to imported slide objects (now optimized assets)
-const slideMap: Record<string, unknown> = {
+const slideMap: Record<string, string | ImageMetadata> = {
   "pirate-ship-2.jpeg": slideShip,
   "surveillance-capitalism.jpeg": slideFreedomTech,
   "walking.jpeg": slideWalk,
@@ -63,17 +63,21 @@ const slideMap: Record<string, unknown> = {
 
   <!-- Content Sections -->
   {sections.map(
-    (section: { title: string; content: string; image: string; quote_section?: string; link?: string }, index: number) => (
-    <ContentSection
-      title={section.title}
-      content={section.content}
-      image={slideMap[section.image]}
-      index={index}
-      pullquote={{
-        quote: getQuote(section.quote_section)?.quote || "",
-        author: getQuote(section.quote_section)?.author || "",
-        href: section.link
-      }}
-    />
-  ))}
+    (
+      section: { title: string; content: string; image: string; quote_section?: string; link?: string },
+      index: number
+    ) => (
+      <ContentSection
+        title={section.title || ""}
+        content={section.content || ""}
+        image={slideMap[section.image || ""] as ImageMetadata}
+        index={index}
+        pullquote={{
+          quote: String(getQuote(section.quote_section ?? "")?.quote ?? ""),
+          author: String(getQuote(section.quote_section ?? "")?.author ?? ""),
+          href: section.link ?? ""
+        }}
+      />
+    )
+  )}
 </Base>
