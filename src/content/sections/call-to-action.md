@@ -7,5 +7,5 @@ button:
   enable: true
   label: "Apply Today!"
   link: "https://sovereignengineering.typeform.com/SEC-05"
-dates: "6 weeks, starting Sept 1"
+dates: "Sep 01 - Oct 10"
 ---
