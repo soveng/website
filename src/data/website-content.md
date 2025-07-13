@@ -3,7 +3,7 @@ Slogan: "Ship the future"
 
 Quote: "If you want to build a ship, don't drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea." —Antoine de Saint-Exupéry
 
-Summary: Six weeks of high-bandwidth ideation, experimentation, mentorship, dialog, cross-pollination and discussions on how to build kickass applications, services, and businesses for a self-sovereign future. 
+Summary: Six weeks of high-bandwidth ideation, experimentation, mentorship, dialogue, cross-pollination and discussions on how to build kickass applications, services, and businesses for a self-sovereign future. 
 
 # What is Sovereign Engineering?
 
