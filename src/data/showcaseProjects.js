@@ -386,19 +386,17 @@ const showcaseProjects = [
     highlight: false,
   },
   {
-    name: "mimoty",
-    description:
-      "A personal relay which is also a remote signing service for nostr",
-    cohort: "SEC-03",
-    link: "https://github.com/gzuuus/mimoty",
-    linkText: "github.com/gzuuus/mimoty",
-    logo: "/images/showcase/nostr-logo.png",
+    name: "Plebeian Market",
+    description: "A content management system and marketplace that provides normies and communities infrastructure for circular economies and the move towards localisation",
+    cohort: "SEC-04",
+    link: "https://plebeian.market/",
+    linkText: "plebeian.market",
+    logo: "/images/showcase/plebeian-logo.png",
     highlight: false,
   },
   {
     name: "mimoty",
-    description:
-      "A personal relay which is also a remote signing service for nostr",
+    description: "A personal relay which is also a remote signing service for nostr",
     cohort: "SEC-03",
     link: "https://github.com/gzuuus/mimoty",
     linkText: "github.com/gzuuus/mimoty",
@@ -407,8 +405,7 @@ const showcaseProjects = [
   },
   {
     name: "note mixer relay",
-    description:
-      "A Nostr relay that mixes and anonymizes events using the Khatru framework.",
+    description: "A Nostr relay that mixes and anonymizes events using the Khatru framework.",
     cohort: "SEC-03",
     link: "https://github.com/gzuuus/note-mixer-relay",
     linkText: "github.com/gzuuus/note-mixer-relay",
@@ -466,9 +463,8 @@ const showcaseProjects = [
   },
   {
     name: "NIP-66",
-    description:
-      "Relay monitoring and discovery specification for nostr network health",
-    cohort: "SEC-04",
+    description: "Relay monitoring and discovery specification for nostr network health",
+    cohort: "SEC-01",
     link: "https://nips.nostr.com/66",
     linkText: "nips.nostr.com/66",
     logo: "/images/showcase/nostr-logo.png",
@@ -587,7 +583,7 @@ const showcaseProjects = [
   {
     name: "Totem",
     description: "Decentralized identity and reputation system",
-    cohort: "SEC-04",
+    cohort: "SEC-03",
     link: "https://github.com/totemize",
     linkText: "github.com/totemize",
     logo: "/images/showcase/nostr-logo.png",
