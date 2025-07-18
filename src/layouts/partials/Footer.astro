@@ -4,34 +4,80 @@ import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 import social from "@/config/social.json";
 import { markdownify } from "@/lib/utils/textConverter";
+import { getFooterMenuItems } from "@/lib/utils/menuItems";
 
-const { footer }: { footer: { name: string; url: string }[] } = menu;
+// Use the same menu items as mobile nav
+const footerMenuItems = getFooterMenuItems(menu);
 ---
 
 <footer class="bg-black text-white border-t border-primary">
-  <div class="container">
-    <div class="row items-center py-10">
-      <div class="mb-8 text-center lg:col-3 lg:mb-0 lg:text-left">
-        <div class="flex items-center justify-center lg:justify-start">
+  <div class="container py-10">
+    <!-- Mobile and Medium Width Layout -->
+    <div class="lg:hidden">
+      <!-- Logo and Brand -->
+      <div class="text-center mb-6">
+        <div class="flex items-center justify-center mb-4">
+          <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-10 h-10 mr-3" />
+          <a href="https://nostr.band/?q=%23SovEng" target="_blank" rel="noopener" class="text-white font-bold hover:text-primary transition-colors text-xl">#SovEng</a>
+        </div>
+
+        <!-- Navigation Links -->
+        <nav class="mb-6">
+          <ul class="grid grid-cols-2 gap-1 max-w-xs mx-auto">
+            {
+              footerMenuItems.map((menuItem) => {
+                const isExternal = menuItem.url.startsWith('http') || menuItem.url.startsWith('mailto');
+                return (
+                  <li>
+                    <a
+                      href={menuItem.url}
+                      class="text-white hover:text-primary hover:bg-white/10 transition-all py-2 px-4 text-base flex items-center justify-between"
+                      style="font-family: 'IM Fell Double Pica', Times, serif;"
+                      {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+                    >
+                      <span>{menuItem.name}</span>
+                      {isExternal && (
+                        <svg class="w-4 h-4 opacity-60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M13 5H19V11"/>
+                          <path d="M19 5L5 19"/>
+                        </svg>
+                      )}
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </nav>
+
+        <!-- Social Icons -->
+        <div class="flex justify-center items-center gap-4">
+          <Social source={social.main} className="social-icons text-white" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Layout -->
+    <div class="hidden lg:block">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center">
           <img src="/images/sec-05-sec-05-brandmark-white-rgb.svg" alt="Sovereign Engineering" class="w-8 h-8 mr-3" />
           <a href="https://nostr.band/?q=%23SovEng" target="_blank" rel="noopener" class="text-white font-bold hover:text-primary transition-colors">#SovEng</a>
         </div>
-      </div>
-      <div class="mb-8 lg:col-6 lg:mb-0">
-        <ul class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2 whitespace-nowrap overflow-x-auto">
-          {
-            footer.filter(menu => menu.name !== "Contact" && menu.name !== "About")
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map((menu) => {
-                const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+
+        <nav class="flex-1 mx-8">
+          <ul class="flex flex-wrap justify-center items-center gap-x-6 gap-y-2">
+            {
+              footerMenuItems.map((menuItem) => {
+                const isExternal = menuItem.url.startsWith('http') || menuItem.url.startsWith('mailto');
                 return (
-                  <li class="inline-block">
+                  <li>
                     <a
-                      href={menu.url}
-                      class="text-white hover:text-primary transition-colors flex items-center"
+                      href={menuItem.url}
+                      class="text-white hover:text-primary transition-colors inline-flex items-center"
                       {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
                     >
-                      <span>{menu.name}</span>
+                      <span>{menuItem.name}</span>
                       {isExternal && (
                         <svg class="w-3 h-3 ml-1 opacity-60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                           <path d="M13 5H19V11"/>
@@ -42,11 +88,13 @@ const { footer }: { footer: { name: string; url: string }[] } = menu;
                   </li>
                 );
               })
-          }
-        </ul>
-      </div>
-      <div class="mb-8 lg:col-3 lg:mb-0 lg:mt-0 flex justify-end items-center gap-3">
-        <Social source={social.main} className="social-icons text-white" />
+            }
+          </ul>
+        </nav>
+
+        <div class="flex items-center gap-3">
+          <Social source={social.main} className="social-icons text-white" />
+        </div>
       </div>
     </div>
   </div>
