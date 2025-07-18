@@ -20,6 +20,7 @@
         { "name": "Projects", "url": "/projects" },
         { "name": "Philosophy", "url": "/philosophy" },
         { "name": "Concept", "url": "/concept" },
+        { "name": "Loop", "url": "/loop" },
         { "name": "FAQ", "url": "/faq" },
         { "name": "Podcast", "url": "/podcast" },
         {
@@ -57,6 +58,10 @@
     {
       "name": "Concept",
       "url": "/concept"
+    },
+    {
+      "name": "Loop",
+      "url": "/loop"
     },
     {
       "name": "Philosophy",

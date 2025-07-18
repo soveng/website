@@ -9,7 +9,9 @@ interface Props {
   title: string;
   content: string;
   image: string | ImageMetadata;
+  imageLink?: string;
   bulletpoints?: string[];
+  afterContent?: string;
   button?: Button;
   index: number;
   id?: string;
@@ -25,7 +27,9 @@ const {
   title,
   content,
   image,
+  imageLink,
   bulletpoints = [],
+  afterContent,
   button,
   id,
   pullquote,
@@ -43,6 +47,9 @@ const featureContent = await markdownify(content, true); // Add div: true for pa
 const processedBulletPoints = await Promise.all(
   bulletpoints.map(async (bullet: string) => await markdownify(bullet))
 );
+
+// Process after content
+const processedAfterContent = afterContent ? await markdownify(afterContent) : null;
 ---
 
 <section
@@ -57,24 +64,28 @@ const processedBulletPoints = await Promise.all(
           <div class="row justify-center">
             <div class="col-12">
               {isOptimizedImage ? (
-                <Image
-                  src={image as ImageMetadata}
-                  height={960}
-                  width={2400}
-                  alt={title}
-                  class="feature-image w-full mb-8"
-                  format="webp"
-                  quality={85}
-                  loading="lazy"
-                />
+                <a href={imageLink}>
+                  <Image
+                    src={image as ImageMetadata}
+                    height={960}
+                    width={2400}
+                    alt={title}
+                    class="feature-image w-full mb-8"
+                    format="webp"
+                    quality={85}
+                    loading="lazy"
+                  />
+                </a>
               ) : (
-                <img
-                  src={image as string}
-                  height={480}
-                  width={1200}
-                  alt={title}
-                  class="feature-image w-full mb-8"
-                />
+                <a href={imageLink}>
+                  <img
+                    src={image as string}
+                    height={480}
+                    width={1200}
+                    alt={title}
+                    class="feature-image w-full mb-8"
+                  />
+                </a>
               )}
             </div>
           </div>
@@ -102,6 +113,9 @@ const processedBulletPoints = await Promise.all(
                   </li>
                 ))}
               </ul>
+            )}
+            {processedAfterContent && (
+              <div set:html={processedAfterContent} class="prose-content [&>p]:text-xl [&>p]:text-white" />
             )}
             {button?.enable && (
               <a
@@ -143,6 +157,9 @@ const processedBulletPoints = await Promise.all(
                 ))}
               </ul>
             )}
+            {processedAfterContent && (
+              <div set:html={processedAfterContent} class="prose-content [&>p]:text-xl [&>p]:text-white" />
+            )}
             {button?.enable && (
               <a
                 class="btn-retro mt-5 inline-block"
@@ -156,24 +173,28 @@ const processedBulletPoints = await Promise.all(
           </div>
           <div class="mb:md-0 mb-6 md:col-5">
             {isOptimizedImage ? (
-              <Image
-                src={image as ImageMetadata}
-                height={960}
-                width={1040}
-                alt={title}
-                class="feature-image"
-                format="webp"
-                quality={85}
-                loading="lazy"
-              />
+              <a href={imageLink}>
+                <Image
+                  src={image as ImageMetadata}
+                  height={960}
+                  width={1040}
+                  alt={title}
+                  class="feature-image"
+                  format="webp"
+                  quality={85}
+                  loading="lazy"
+                />
+              </a>
             ) : (
-              <img
-                src={image as string}
-                height={480}
-                width={520}
-                alt={title}
-                class="feature-image"
-              />
+              <a href={imageLink}>
+                <img
+                  src={image as string}
+                  height={480}
+                  width={520}
+                  alt={title}
+                  class="feature-image"
+                />
+              </a>
             )}
           </div>
         </div>

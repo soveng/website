@@ -69,6 +69,7 @@ interface Section {
   image?: string;
   float?: string;
   bulletpoints?: string[];
+  afterContent?: string;
   link?: string;
 }
 
@@ -78,13 +79,31 @@ const processedSections = sections.map(
   if (section.id === "weekly-loop") {
     // Convert weekly rhythm schedule to bulletpoints
     const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
-      `**${item.day}** – ${item.description}`
+      `**${item.day}** – ${item.short_description}`
     );
+    // Create the "Learn More" link
+    const link = `**[Learn more about the weekly rhythm →](/loop)**`;
+
     return {
       ...section,
-      bulletpoints: scheduleBullets
+      bulletpoints: scheduleBullets,
+      afterContent: link,
     };
   }
+
+  if (section.id === "core-pillars") {
+    // Make "The Weekly Loop" text a link to /loop
+    const updatedContent = section.content.replace(
+      /\*\*The Weekly Loop\*\*: /g,
+      '**[The Weekly Loop](/loop)**: '
+    );
+
+    return {
+      ...section,
+      content: updatedContent,
+    };
+  }
+
   return section;
 });
 ---
@@ -110,9 +129,11 @@ const processedSections = sections.map(
       title={section.title}
       content={section.content}
       image={section.image ? slideMap[section.image] : ""}
+      imageLink={section.id === "weekly-loop" ? "/loop" : undefined}
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
+      afterContent={section.afterContent}
       pullquote={{
         quote: "",
         author: "",
