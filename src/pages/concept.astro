@@ -80,9 +80,12 @@ const processedSections = sections.map(
     const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
       `**${item.day}** – ${item.short_description}`
     );
+    // Add the "Learn More" link after the bullet points
+    const link = `\n\n**[Learn more about the weekly rhythm →](/loop)**`;
     return {
       ...section,
-      bulletpoints: scheduleBullets
+      bulletpoints: scheduleBullets,
+      content: section.content + link,
     };
   }
   return section;

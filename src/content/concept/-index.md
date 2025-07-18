@@ -36,8 +36,6 @@ sections:
     title: 'The Weekly Loop'
     content: |
       The week acts as a metronome for creativity. Friday's *Show* sets a hard deadline that concentrates effort—every participant must demo something they wrote or prompted into existence themselves. The moment code compiles on stage it becomes shared reality. Over the weekend and during Monday's orientation the cohort *Talks*—walking Madeira's levadas, swapping critiques, and letting distributed cognition surface better approaches. From Tuesday onwards everyone *Builds* toward the next demo.
-
-      **[Learn more about the weekly rhythm →](/loop)**
     image: 'show-talk-build-loop.jpeg'
 
   - id: 'walks'
