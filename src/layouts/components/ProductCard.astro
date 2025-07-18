@@ -1,0 +1,79 @@
+---
+import type { NostrProduct } from '@/lib/nostr/types';
+
+export interface Props {
+  product: NostrProduct;
+}
+
+const { product } = Astro.props;
+
+// Format price
+const formatPrice = (amount: number, currency: string) => {
+  if (currency === 'USD') {
+    return `$${amount.toFixed(2)}`;
+  }
+  return `${amount} ${currency}`;
+};
+
+// Get first image or placeholder
+const imageUrl = product.images[0] || '/images/placeholder-product.svg';
+---
+
+<article class="bg-gray-300 border-2 border-t-white border-l-white border-r-gray-600 border-b-gray-600 p-4 hover:bg-gray-200 transition-colors">
+  <a href={`https://shopstr.store/${product.naddr}`} target="_blank" rel="noopener noreferrer" class="block">
+    <div class="aspect-square mb-4 overflow-hidden bg-white">
+      <img 
+        src={imageUrl} 
+        alt={product.name}
+        class="w-full h-full object-contain"
+        loading="lazy"
+      />
+    </div>
+    
+    <h3 class="font-bold text-lg mb-2 line-clamp-2" style="font-family: 'IM Fell Double Pica', Times, serif;">
+      {product.name}
+    </h3>
+    
+    <p class="text-sm text-gray-700 mb-3 line-clamp-3">
+      {product.description}
+    </p>
+    
+    <div class="flex items-center justify-between">
+      <span class="text-xl font-bold text-primary">
+        {formatPrice(product.price.amount, product.price.currency)}
+      </span>
+      
+      {product.stock !== undefined && (
+        <span class="text-xs text-gray-600">
+          {product.stock > 0 ? `${product.stock} in stock` : 'Out of stock'}
+        </span>
+      )}
+    </div>
+    
+    {product.categories.length > 0 && (
+      <div class="mt-3 flex flex-wrap gap-1">
+        {product.categories.slice(0, 3).map(cat => (
+          <span class="text-xs bg-gray-400 px-2 py-1 inline-block">
+            {cat}
+          </span>
+        ))}
+      </div>
+    )}
+  </a>
+</article>
+
+<style>
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+</style>

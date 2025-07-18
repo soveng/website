@@ -1,0 +1,23 @@
+---
+import ProductCard from './ProductCard.astro';
+import type { NostrProduct } from '@/lib/nostr/types';
+
+export interface Props {
+  products: NostrProduct[];
+}
+
+const { products } = Astro.props;
+---
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+  {products.map(product => (
+    <ProductCard product={product} />
+  ))}
+</div>
+
+{products.length === 0 && (
+  <div class="text-center py-12">
+    <p class="text-xl text-gray-600">No products available at this time.</p>
+    <p class="mt-2 text-gray-500">Please check back later!</p>
+  </div>
+)}

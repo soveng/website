@@ -1,0 +1,50 @@
+---
+import Base from "@/layouts/Base.astro";
+import ProductGrid from "@/components/ProductGrid.astro";
+import { fetchProducts } from "@/lib/nostr/fetchProducts";
+
+// Fetch products at build time
+let products = [];
+try {
+  products = await fetchProducts();
+} catch (error) {
+  console.error('Failed to fetch products:', error);
+  // Continue with empty products array so build doesn't fail
+}
+
+// SEO metadata
+const title = "Swag - Sovereign Engineering";
+const description = "Official Sovereign Engineering merchandise and products. Support the mission with exclusive gear.";
+---
+
+<Base title={title} description={description}>
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="mx-auto lg:col-10 text-center">
+          <h1 class="mb-4" style="font-family: 'IM Fell Double Pica', Times, serif;">
+            Sovereign Engineering Swag
+          </h1>
+          <p class="text-lg mb-8">
+            Support the mission and represent Sovereign Engineering with our official merchandise.
+          </p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-12">
+          <ProductGrid products={products} />
+        </div>
+      </div>
+      
+      <div class="row mt-8">
+        <div class="mx-auto lg:col-8 text-center">
+          <p class="text-sm text-gray-600">
+            All products are sold through our Nostr-powered marketplace. 
+            Clicking on a product will take you to the checkout page.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>
