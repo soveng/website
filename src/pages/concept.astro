@@ -87,7 +87,7 @@ const processedSections = sections.map(
     return {
       ...section,
       // Combine original content, the new list, and the link
-      content: section.content + '\n\n' + scheduleList + link,
+      content: `${section.content}\n\n${scheduleList}${link}`,
       // Clear the bulletpoints array so it's not rendered separately
       bulletpoints: [],
     };
