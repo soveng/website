@@ -8,8 +8,6 @@ const RELAYS = ['wss://relay.damus.io', 'wss://nos.lol', 'wss://purplepag.es', '
 const MERCHANT_NPUB = 'npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5';
 
 export async function fetchProducts(): Promise<NostrProduct[]> {
-  console.log('Fetching products with SimplePool...');
-
   const pool = new SimplePool();
 
   try {
@@ -19,7 +17,6 @@ export async function fetchProducts(): Promise<NostrProduct[]> {
       throw new Error('Invalid npub');
     }
     const pubkey = decoded.data as string;
-    console.log('Merchant pubkey:', pubkey);
 
     // Create filter for product events
     const filter = {
@@ -27,15 +24,11 @@ export async function fetchProducts(): Promise<NostrProduct[]> {
       authors: [pubkey],
     };
 
-    console.log('Fetching with filter:', filter);
-
     // Fetch events with timeout
     const events = await Promise.race([
       pool.querySync(RELAYS, filter),
       new Promise<Event[]>((_, reject) => setTimeout(() => reject(new Error('Fetch timeout')), 15000)),
     ]);
-
-    console.log(`Found ${events.length} product events`);
 
     // Transform to NDK-like format for our transformer
     const products = events
@@ -47,14 +40,11 @@ export async function fetchProducts(): Promise<NostrProduct[]> {
       .filter((product) => product.name && product.price.amount > 0)
       .sort((a, b) => a.name.localeCompare(b.name));
 
-    console.log(`Transformed ${products.length} valid products`);
-
     // Close connections
     pool.close(RELAYS);
 
     return products;
-  } catch (error) {
-    console.error('Error fetching products:', error);
+  } catch {
     pool.close(RELAYS);
     return [];
   }

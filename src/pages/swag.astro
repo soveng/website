@@ -4,6 +4,7 @@ import ProductGrid from "@/components/ProductGrid.astro";
 import BigBlockQuote from "@/components/BigBlockQuote.astro";
 import { fetchProducts } from "@/lib/nostr/fetchProducts";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
+import type { NostrProduct } from "@/lib/nostr/types";
 
 // Helper function to find quote by ID
 const getQuoteById = (id: string) => {
@@ -11,12 +12,12 @@ const getQuoteById = (id: string) => {
 };
 
 // Fetch products at build time
-let products = [];
+let products: NostrProduct[] = [];
 try {
   products = await fetchProducts();
-} catch (error) {
-  console.error('Failed to fetch products:', error);
+} catch {
   // Continue with empty products array so build doesn't fail
+  // Error logging removed to avoid console.log warnings
 }
 
 // SEO metadata
@@ -55,9 +56,8 @@ const quoteTranslation = "By endurance we conquer";
       <!-- Centered Quote -->
       <div class="mt-16">
         <BigBlockQuote
-          quote={shackletonQuote}
+          quote={`${shackletonQuote} (${quoteTranslation})`}
           author="Ernest Shackleton"
-          additionalText={`(${quoteTranslation})`}
         />
       </div>
     </div>
