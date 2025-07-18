@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
+import Button from "@/layouts/shortcodes/Button.tsx";
 import slideLoop from "@/assets/images/show-talk-build-loop.jpeg";
 import slideWalk from "@/assets/images/walking.jpeg";
 import slideEndurance from "@/assets/images/endurance.jpeg";
@@ -70,6 +71,11 @@ interface Section {
   float?: string;
   bulletpoints?: string[];
   link?: string;
+  button?: {
+    enable: boolean;
+    label: string;
+    link: string;
+  };
 }
 
 // Process sections to add special handling for weekly-loop
@@ -81,15 +87,18 @@ const processedSections = sections.map(
       `* **${item.day}** – ${item.short_description}`
     ).join('\n');
 
-    // Create the "Learn More" link
-    const link = `\n\n**[Learn more about the weekly rhythm →](/loop)**`;
-
     return {
       ...section,
       // Combine original content, the new list, and the link
-      content: `${section.content}\n\n${scheduleList}${link}`,
+      content: `${section.content}\n\n${scheduleList}`,
       // Clear the bulletpoints array so it's not rendered separately
       bulletpoints: [],
+      // Add button for the weekly loop section
+      button: {
+        enable: true,
+        label: "Learn more about the weekly rhythm",
+        link: "/loop"
+      }
     };
   }
   return section;
@@ -121,6 +130,7 @@ const processedSections = sections.map(
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
+      button={section.button}
       pullquote={{
         quote: "",
         author: "",
