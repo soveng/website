@@ -90,6 +90,20 @@ const processedSections = sections.map(
       afterContent: link,
     };
   }
+  
+  if (section.id === "core-pillars") {
+    // Make "The Weekly Loop" text a link to /loop
+    const updatedContent = section.content.replace(
+      /\*\*The Weekly Loop\*\*: /g,
+      '**[The Weekly Loop](/loop)**: '
+    );
+    
+    return {
+      ...section,
+      content: updatedContent,
+    };
+  }
+  
   return section;
 });
 ---
