@@ -55,22 +55,42 @@ function cleanGoogleDocsData(): GoogleDocsProject[] {
   // Remove the markdown code block markers
   const jsonContent = rawData.replace(/```json\n?/, '').replace(/\n?```$/, '');
   
+  // Helper function to extract first valid URL from complex image_url strings
+  function extractFirstValidUrl(urlString: string): string {
+    if (!urlString) return '';
+    
+    // Remove citation markers
+    let cleaned = urlString.replace(/\s*\[cite:\s*\d+\]\s*/g, '').trim();
+    
+    // Extract URLs from various patterns - stop at common delimiters
+    const urlRegex = /https:\/\/[^\s"]*?(?=\s|"|$|Light:|Dark:|Vector:|Logo:|Badge:|App Icon:|Original logo:)/g;
+    const urls = cleaned.match(urlRegex);
+    
+    if (urls && urls.length > 0) {
+      // Return the first URL found, cleaned up
+      return urls[0].replace(/[,\s]*$/, ''); // Remove trailing commas/spaces
+    }
+    
+    return '';
+  }
+
   // Clean up the malformed JSON
-  const cleanedContent = jsonContent
+  let cleanedContent = jsonContent
+    // Remove [cite_start] markers first
+    .replace(/\[cite_start\]/g, '')
     // Remove citation references like [cite: 13]
     .replace(/\s*\[cite:\s*\d+\]\s*/g, '')
-    // Remove [cite_start] markers
-    .replace(/\[cite_start\]/g, '')
-    // Fix image URLs with multiple variants (Dark:, Light:, etc.)
-    .replace(/"image_url":\s*"[^"]*Dark:([^"]*?)Light:([^"]*?)Vector:([^"]*?)"/g, '"image_url": "$1"')
-    // Fix other malformed image URLs
-    .replace(/"image_url":\s*"([^"]*?)\s+\[cite[^"]*"/g, '"image_url": "$1"')
-    // Clean up descriptions with citation markers
-    .replace(/"description":\s*"([^"]*?)\s*\[cite[^"]*"/g, '"description": "$1"')
-    // Fix URLs that got mangled
-    .replace(/"image_url":\s*"([^"]*?)\s+([^"]*?)"/g, '"image_url": "$1"')
     // Remove trailing commas before closing braces
     .replace(/,(\s*[}\]])/g, '$1');
+
+  // Fix complex image_url fields by extracting the first valid URL
+  cleanedContent = cleanedContent.replace(
+    /"image_url":\s*"([^"]+)"/g,
+    (match, urlString) => {
+      const cleanUrl = extractFirstValidUrl(urlString);
+      return `"image_url": "${cleanUrl}"`;
+    }
+  );
   
   try {
     const parsed = JSON.parse(cleanedContent);
@@ -110,10 +130,25 @@ function generateProposedChanges(
   let changeId = 1;
 
   for (const gdProject of googleDocsProjects) {
-    const currentProject = currentProjects.find(p => 
-      p.name.toLowerCase().includes(gdProject.project.toLowerCase()) ||
-      gdProject.project.toLowerCase().includes(p.name.toLowerCase())
-    );
+    // Use exact matching to avoid false positives with similar project names
+    // This ensures different versions of projects (like "Hypernote" vs "Hypernote.md") are treated separately
+    const currentProject = currentProjects.find(p => {
+      const pName = p.name.toLowerCase().trim();
+      const gdName = gdProject.project.toLowerCase().trim();
+      
+      // Exact match only
+      if (pName === gdName) return true;
+      
+      // Handle specific known variations that are truly the same project
+      if (pName === 'nip-60' && gdName === 'nip-60: nostr-based cashu wallets') return true;
+      if (pName === 'shopstr' && gdName === 'shopstr (nip-60/61 integration)') return true;
+      
+      // Very conservative partial matching for clear aliases only
+      if (pName === 'alphaama' && gdName === 'alphaama') return true;
+      if (pName === 'confidential computing research' && gdName === 'confidential computing research') return true;
+      
+      return false;
+    });
 
     if (!currentProject) {
       // New project
@@ -143,9 +178,24 @@ function generateProposedChanges(
       });
     }
 
-    // Check for image changes (only if current is a generic logo)
-    if (gdProject.image_url && gdProject.image_url.trim() !== '' && 
-        isGenericLogo(currentProject.logo)) {
+    // Check for image changes (if current is generic logo OR if current is external URL that should be downloaded)
+    const hasGenericLogo = isGenericLogo(currentProject.logo);
+    const hasExternalUrl = currentProject.logo && currentProject.logo.startsWith('http');
+    const hasNewImageUrl = gdProject.image_url && gdProject.image_url.trim() !== '';
+    
+    // Only propose change if:
+    // 1. Replacing generic logo with custom image, OR
+    // 2. External URL is different from current external URL
+    // And the proposed URL looks like an image (has image extension or is from known image hosts)
+    const isImageUrl = (url: string) => {
+      const imageExtensions = ['.png', '.jpg', '.jpeg', '.gif', '.svg', '.webp'];
+      const imageHosts = ['cdn.satellite.earth', 'blob.satellite.earth', 'nostr.download', 'image.nostr.build', 'm.primal.net'];
+      
+      return imageExtensions.some(ext => url.toLowerCase().includes(ext)) ||
+             imageHosts.some(host => url.includes(host));
+    };
+    
+    if (hasNewImageUrl && isImageUrl(gdProject.image_url) && hasGenericLogo) {
       changes.push({
         id: `change_${changeId++}`,
         projectName: gdProject.project,
@@ -154,10 +204,20 @@ function generateProposedChanges(
         proposedValue: gdProject.image_url,
         reason: 'Custom image found to replace generic logo'
       });
+    } else if (hasNewImageUrl && isImageUrl(gdProject.image_url) && hasExternalUrl && gdProject.image_url !== currentProject.logo) {
+      changes.push({
+        id: `change_${changeId++}`,
+        projectName: gdProject.project,
+        changeType: 'image',
+        currentValue: currentProject.logo,
+        proposedValue: gdProject.image_url,
+        reason: 'Different external image URL found - will download to local folder'
+      });
     }
 
-    // Check for link changes (only if current link is empty or github)
+    // Check for link changes (only if current link is empty or github, AND the link is actually different)
     if (gdProject.link && gdProject.link.trim() !== '' && 
+        gdProject.link !== currentProject.link &&
         (!currentProject.link || currentProject.link.includes('github.com'))) {
       changes.push({
         id: `change_${changeId++}`,
@@ -207,20 +267,30 @@ function getLinkText(link: string): string {
 // Download image from URL
 async function downloadImage(url: string, filename: string): Promise<boolean> {
   try {
+    console.log(`📥 Downloading: ${url}`);
     const response = await fetch(url);
     if (!response.ok) {
-      throw new Error(`Failed to download image: ${response.statusText}`);
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
     }
     
+    console.log(`📦 Received ${response.headers.get('content-length') || 'unknown'} bytes`);
     const buffer = await response.arrayBuffer();
     const imagePath = join('public/images/showcase', filename);
     
     // Ensure directory exists
     mkdirSync('public/images/showcase', { recursive: true });
     
+    // Write file and verify it exists
     writeFileSync(imagePath, Buffer.from(buffer));
-    console.log(`✓ Downloaded: ${filename}`);
-    return true;
+    
+    // Verify file was written successfully
+    if (require('fs').existsSync(imagePath)) {
+      const stats = require('fs').statSync(imagePath);
+      console.log(`✓ Downloaded: ${filename} (${stats.size} bytes)`);
+      return true;
+    } else {
+      throw new Error('File was not written successfully');
+    }
   } catch (error) {
     console.error(`✗ Failed to download ${filename}:`, error);
     return false;
@@ -310,7 +380,7 @@ function applyApprovedChanges(
         cohort: gdProject.cohort,
         link: gdProject.link || '',
         linkText: gdProject.link ? getLinkText(gdProject.link) : '',
-        logo: gdProject.image_url || '/images/showcase/nostr-logo.png',
+        logo: '/images/showcase/nostr-logo.png', // Will be updated by image download if approved
         highlight: false
       };
       updatedProjects.push(newProject);
