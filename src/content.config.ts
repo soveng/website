@@ -99,19 +99,23 @@ const loopCollection = defineCollection({
     intro: z.object({
       content: z.string(),
     }),
-    sections: z.array(
-      z.object({
-        id: z.string(),
-        title: z.string(),
-        content: z.string(),
-        image: z.string().optional(),
-        float: z.string().optional(),
-      }),
-    ),
-    cta: z.object({
-      text: z.string(),
-      link: z.string(),
-    }),
+    sections: z
+      .array(
+        z.object({
+          id: z.string(),
+          title: z.string(),
+          content: z.string(),
+          image: z.string().optional(),
+          float: z.string().optional(),
+        }),
+      )
+      .optional(),
+    cta: z
+      .object({
+        text: z.string(),
+        link: z.string(),
+      })
+      .optional(),
   }),
 });
 

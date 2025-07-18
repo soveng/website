@@ -5,7 +5,8 @@
       "day": "Monday Mornings",
       "tagline": "Orientation & Tone Setting",
       "goal": "Align the cohort on the week's theme, goals, and energy, with the weekly captain taking the helm.",
-      "description": "The week kicks off with an orientation led by the designated captain. It's about setting the theme, clarifying logistics like room assignments and workshop schedules, and ensuring everyone is aligned for the creative flow of the week."
+      "description": "The week kicks off with an orientation led by the designated captain. It's about setting the theme, clarifying logistics like room assignments and workshop schedules, and ensuring everyone is aligned for the creative flow of the week.",
+      "image": "weekly-loop-schedule.png"
     },
     {
       "day": "Tuesday Talks",
@@ -25,7 +26,8 @@
       "day": "Thursday",
       "tagline": "Deep Work & Experimentation",
       "goal": "Provide unstructured time for deep work, individual exploration, and turning the week's ideas into prototypes for Friday's demo.",
-      "description": "A deliberately unstructured day for coding, pair programming, and experimentation. This is where the most surprising and innovative results often emerge, as participants have the freedom to test, build, and even alpha-test their creations in Madeira's Bitcoin-friendly ecosystem."
+      "description": "A deliberately unstructured day for coding, pair programming, and experimentation. This is where the most surprising and innovative results often emerge, as participants have the freedom to test, build, and even alpha-test their creations in Madeira's Bitcoin-friendly ecosystem.",
+      "image": "cypherpunks-write-code.jpeg"
     },
     {
       "day": "Friday: Demo Day",
