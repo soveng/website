@@ -113,6 +113,7 @@ const processedSections = sections.map(
       title={section.title}
       content={section.content}
       image={section.image ? slideMap[section.image] : ""}
+      imageLink={section.id === "weekly-loop" ? "/loop" : undefined}
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
