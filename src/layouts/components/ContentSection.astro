@@ -11,6 +11,7 @@ interface Props {
   image: string | ImageMetadata;
   imageLink?: string;
   bulletpoints?: string[];
+  afterContent?: string;
   button?: Button;
   index: number;
   id?: string;
@@ -28,6 +29,7 @@ const {
   image,
   imageLink,
   bulletpoints = [],
+  afterContent,
   button,
   id,
   pullquote,
@@ -109,6 +111,9 @@ const processedBulletPoints = await Promise.all(
                 ))}
               </ul>
             )}
+            {afterContent && (
+              <div set:html={afterContent} class="prose-content [&>p]:text-xl [&>p]:text-white" />
+            )}
             {button?.enable && (
               <a
                 class="btn-retro mt-5 inline-block"
@@ -148,6 +153,9 @@ const processedBulletPoints = await Promise.all(
                   </li>
                 ))}
               </ul>
+            )}
+            {afterContent && (
+              <div set:html={afterContent} class="prose-content [&>p]:text-xl [&>p]:text-white" />
             )}
             {button?.enable && (
               <a

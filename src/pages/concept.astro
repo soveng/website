@@ -2,7 +2,6 @@
 import Base from "@/layouts/Base.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
-import Button from "@/layouts/shortcodes/Button.tsx";
 import slideLoop from "@/assets/images/show-talk-build-loop.jpeg";
 import slideWalk from "@/assets/images/walking.jpeg";
 import slideEndurance from "@/assets/images/endurance.jpeg";
@@ -70,35 +69,25 @@ interface Section {
   image?: string;
   float?: string;
   bulletpoints?: string[];
+  afterContent?: string;
   link?: string;
-  button?: {
-    enable: boolean;
-    label: string;
-    link: string;
-  };
 }
 
 // Process sections to add special handling for weekly-loop
 const processedSections = sections.map(
   (section: Section) => {
   if (section.id === "weekly-loop") {
-    // Generate markdown for the bullet list
-    const scheduleList = weeklyRhythmData.schedule.map((item) =>
-      `* **${item.day}** – ${item.short_description}`
-    ).join('\n');
+    // Convert weekly rhythm schedule to bulletpoints
+    const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
+      `**${item.day}** – ${item.short_description}`
+    );
+    // Create the "Learn More" link
+    const link = `**[Learn more about the weekly rhythm →](/loop)**`;
 
     return {
       ...section,
-      // Combine original content, the new list, and the link
-      content: `${section.content}\n\n${scheduleList}`,
-      // Clear the bulletpoints array so it's not rendered separately
-      bulletpoints: [],
-      // Add button for the weekly loop section
-      button: {
-        enable: true,
-        label: "Learn more about the weekly rhythm",
-        link: "/loop"
-      }
+      bulletpoints: scheduleBullets,
+      afterContent: link,
     };
   }
   return section;
@@ -130,7 +119,7 @@ const processedSections = sections.map(
       index={index}
       id={section.id}
       bulletpoints={section.bulletpoints || []}
-      button={section.button}
+      afterContent={section.afterContent}
       pullquote={{
         quote: "",
         author: "",
