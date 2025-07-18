@@ -11,16 +11,7 @@
     "plugin:import/typescript",
     "prettier"
   ],
-  "plugins": [
-    "@typescript-eslint",
-    "astro",
-    "react",
-    "react-hooks",
-    "react-refresh",
-    "jsx-a11y",
-    "import",
-    "prettier"
-  ],
+  "plugins": ["@typescript-eslint", "astro", "react", "react-hooks", "react-refresh", "jsx-a11y", "import", "prettier"],
   "settings": {
     "react": {
       "version": "detect"

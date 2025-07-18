@@ -6,10 +6,10 @@ export interface MenuItem {
 
 export function getAllMenuItems(menu: any): MenuItem[] {
   const { main } = menu;
-  
+
   // Get all items from the "More" dropdown
-  const moreItems = main.find((item: any) => item.name === "More")?.children || [];
-  
+  const moreItems = main.find((item: any) => item.name === 'More')?.children || [];
+
   // Return items in the order they appear in the mobile nav
   return moreItems;
 }
