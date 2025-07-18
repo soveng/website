@@ -1,5 +1,4 @@
-import NDK from '@nostr-dev-kit/ndk';
-import { nip19 } from 'nostr-tools';
+import { SimplePool, nip19, type Event } from 'nostr-tools';
 
 import { transformEventToProduct } from './productTransform';
 import type { NostrProduct } from './types';
@@ -9,28 +8,18 @@ const RELAYS = ['wss://relay.damus.io', 'wss://nos.lol', 'wss://purplepag.es', '
 const MERCHANT_NPUB = 'npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5';
 
 export async function fetchProducts(): Promise<NostrProduct[]> {
-  console.log('Fetching products from Nostr...');
+  console.log('Fetching products with SimplePool...');
 
-  const ndk = new NDK({
-    explicitRelayUrls: RELAYS,
-    autoConnectUserRelays: false,
-    autoFetchUserMutelist: false,
-  });
+  const pool = new SimplePool();
 
   try {
-    // Set a timeout for connection
-    const connectPromise = ndk.connect();
-    const timeoutPromise = new Promise((_, reject) => setTimeout(() => reject(new Error('Connection timeout')), 10000));
-
-    await Promise.race([connectPromise, timeoutPromise]);
-    console.log('Connected to Nostr relays');
-
     // Decode npub to get pubkey
     const decoded = nip19.decode(MERCHANT_NPUB);
     if (decoded.type !== 'npub') {
       throw new Error('Invalid npub');
     }
-    const pubkey = decoded.data;
+    const pubkey = decoded.data as string;
+    console.log('Merchant pubkey:', pubkey);
 
     // Create filter for product events
     const filter = {
@@ -38,30 +27,35 @@ export async function fetchProducts(): Promise<NostrProduct[]> {
       authors: [pubkey],
     };
 
-    console.log('Fetching events with filter:', filter);
+    console.log('Fetching with filter:', filter);
 
     // Fetch events with timeout
-    const fetchPromise = ndk.fetchEvents(filter);
-    const fetchTimeoutPromise = new Promise<Set<any>>((_, reject) => setTimeout(() => reject(new Error('Fetch timeout')), 15000));
+    const events = await Promise.race([
+      pool.querySync(RELAYS, filter),
+      new Promise<Event[]>((_, reject) => setTimeout(() => reject(new Error('Fetch timeout')), 15000)),
+    ]);
 
-    const events = await Promise.race([fetchPromise, fetchTimeoutPromise]);
-    console.log(`Found ${events.size} product events`);
+    console.log(`Found ${events.length} product events`);
 
-    // Transform events to products
-    const products = Array.from(events)
-      .map(transformEventToProduct)
+    // Transform to NDK-like format for our transformer
+    const products = events
+      .map((event) => ({
+        ...event,
+        tags: event.tags || [],
+      }))
+      .map((event) => transformEventToProduct(event as any))
       .filter((product) => product.name && product.price.amount > 0)
       .sort((a, b) => a.name.localeCompare(b.name));
 
     console.log(`Transformed ${products.length} valid products`);
 
-    // Disconnect from relays
-    await ndk.destroy();
+    // Close connections
+    pool.close(RELAYS);
 
     return products;
   } catch (error) {
     console.error('Error fetching products:', error);
-    // Return empty array on error so build doesn't fail
+    pool.close(RELAYS);
     return [];
   }
 }

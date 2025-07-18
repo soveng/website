@@ -2,7 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import ProductGrid from "@/components/ProductGrid.astro";
 import BigBlockQuote from "@/components/BigBlockQuote.astro";
-import { fetchProductsSimple } from "@/lib/nostr/simpleFetch";
+import { fetchProducts } from "@/lib/nostr/fetchProducts";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 
 // Helper function to find quote by ID
@@ -13,7 +13,7 @@ const getQuoteById = (id: string) => {
 // Fetch products at build time
 let products = [];
 try {
-  products = await fetchProductsSimple();
+  products = await fetchProducts();
 } catch (error) {
   console.error('Failed to fetch products:', error);
   // Continue with empty products array so build doesn't fail
