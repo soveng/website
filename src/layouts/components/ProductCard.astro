@@ -23,39 +23,39 @@ const imageUrl = product.images[0] || '/images/placeholder-product.svg';
   <div class="flex flex-col items-center text-center">
     <!-- Product Image -->
     <div class="w-48 h-48 mb-6 overflow-hidden">
-      <img 
-        src={imageUrl} 
+      <img
+        src={imageUrl}
         alt={product.name}
         class="w-full h-full object-contain"
         loading="lazy"
       />
     </div>
-    
+
     <!-- Product Name -->
     <h3 class="text-white text-2xl mb-4 uppercase font-secondary text-balance">
       {product.name}
     </h3>
-    
+
     <!-- Product Description -->
     <p class="text-white/80 mb-6 font-primary italic text-lg text-balance">
       {product.description}
     </p>
-    
+
     <!-- Price -->
     <p class="text-white text-3xl font-bold mb-8 font-secondary">
       {formatPrice(product.price.amount, product.price.currency)}
     </p>
-    
+
     <!-- Buy Button -->
-    <a 
-      href="https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5" 
-      target="_blank" 
-      rel="noopener noreferrer" 
+    <a
+      href="https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
+      target="_blank"
+      rel="noopener noreferrer"
       class="btn-retro btn-retro-lg"
     >
       BUY NOW
     </a>
-    
+
     {product.shipping && product.shipping.length > 0 && (
       <p class="text-white text-base mt-4 font-semibold">
         + {formatPrice(product.shipping[0].cost, product.price.currency)} shipping
@@ -72,7 +72,7 @@ const imageUrl = product.images[0] || '/images/placeholder-product.svg';
     image-rendering: pixelated !important;
     image-rendering: crisp-edges !important;
   }
-  
+
   .btn-retro-lg {
     padding: 1rem 3rem;
     font-size: 1.25rem;

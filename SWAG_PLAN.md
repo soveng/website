@@ -1,44 +1,41 @@
 # Swag Page Implementation Plan
 
 ## Overview
+
 Build a static swag page that fetches product data from Nostr at build time, creating a fully static page with no runtime dependencies.
 
 ## Architecture
 
 ### 1. Dependencies
+
 - Add `@nostr-dev-kit/ndk` as a dev dependency (only needed at build time)
 - No runtime Nostr dependencies needed since we're building static
 
 ### 2. Data Fetching Strategy
 
 #### Build-time Script (`src/lib/nostr/fetchProducts.ts`)
+
 ```typescript
 import NDK from '@nostr-dev-kit/ndk';
 import { nip19 } from 'nostr-tools';
 
-const RELAYS = [
-  "wss://relay.damus.io",
-  "wss://nos.lol",
-  "wss://purplepag.es",
-  "wss://relay.primal.net",
-  "wss://relay.nostr.band"
-];
+const RELAYS = ['wss://relay.damus.io', 'wss://nos.lol', 'wss://purplepag.es', 'wss://relay.primal.net', 'wss://relay.nostr.band'];
 
-const MERCHANT_NPUB = "npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5";
+const MERCHANT_NPUB = 'npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5';
 
 export async function fetchProducts() {
   const ndk = new NDK({ explicitRelayUrls: RELAYS });
   await ndk.connect();
-  
+
   const pubkey = nip19.decode(MERCHANT_NPUB).data;
-  
+
   const filter = {
     kinds: [30402],
-    authors: [pubkey]
+    authors: [pubkey],
   };
-  
+
   const events = await ndk.fetchEvents(filter);
-  
+
   // Transform events to product data
   return Array.from(events).map(transformEventToProduct);
 }
@@ -47,6 +44,7 @@ export async function fetchProducts() {
 ### 3. Content Collection Approach
 
 #### Option A: Dynamic Import in Astro Page (Recommended)
+
 - Create `/src/pages/swag.astro`
 - Fetch products directly in the page frontmatter
 - No need for intermediate storage
@@ -62,15 +60,14 @@ const products = await fetchProducts();
 ---
 
 <SwagLayout>
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    {products.map(product => (
-      <ProductCard product={product} />
-    ))}
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+    {products.map((product) => <ProductCard product={product} />)}
   </div>
 </SwagLayout>
 ```
 
 #### Option B: Generate JSON at Build Time
+
 - Add a prebuild script that fetches products and saves to JSON
 - Import JSON in Astro page
 - Useful if you want to inspect/version control the data
@@ -81,16 +78,16 @@ Based on NIP-99, transform Nostr events to:
 
 ```typescript
 interface Product {
-  id: string;              // d-tag identifier
-  naddr: string;           // Full naddr for deep linking
-  name: string;            // From title tag
-  description: string;     // Event content
+  id: string; // d-tag identifier
+  naddr: string; // Full naddr for deep linking
+  name: string; // From title tag
+  description: string; // Event content
   price: {
     amount: number;
     currency: string;
   };
-  images: string[];        // From image tags
-  categories: string[];    // From t tags
+  images: string[]; // From image tags
+  categories: string[]; // From t tags
   shipping?: {
     id: string;
     cost: number;
@@ -103,20 +100,24 @@ interface Product {
 ### 5. Implementation Steps
 
 1. **Install Dependencies**
+
    ```bash
    yarn add -D @nostr-dev-kit/ndk nostr-tools
    ```
 
 2. **Create Fetch Utility**
+
    - `/src/lib/nostr/fetchProducts.ts` - Main fetching logic
    - `/src/lib/nostr/productTransform.ts` - Event to Product transformation
 
 3. **Create Components**
+
    - `/src/components/ProductCard.astro` - Individual product display
    - `/src/components/ProductGrid.astro` - Grid layout wrapper
    - `/src/components/ProductImage.astro` - Image with fallback handling
 
 4. **Create Swag Page**
+
    - `/src/pages/swag.astro` - Main swag page
    - Use existing base layout
    - Add proper SEO metadata
@@ -140,12 +141,13 @@ interface Product {
 ### 8. Build Configuration
 
 Add to `astro.config.mjs` if needed:
+
 ```js
 export default defineConfig({
   build: {
     // Ensure fresh data on each build
-    cache: false
-  }
+    cache: false,
+  },
 });
 ```
 
