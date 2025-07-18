@@ -104,9 +104,9 @@ const processedBulletPoints = await Promise.all(
             {processedBulletPoints.length > 0 && (
               <ul>
                 {processedBulletPoints.map((bullet: string) => (
-                  <li class="flex items-center mb-4 text-white text-lg">
-                    <span class="mr-3 flex-shrink-0 text-white">&#10022;</span>
-                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white" />
+                  <li class="flex items-start mb-4 text-white text-lg">
+                    <span class="mr-3 flex-shrink-0 text-white mt-1">&#10022;</span>
+                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white flex-1" />
                   </li>
                 ))}
               </ul>
@@ -147,9 +147,9 @@ const processedBulletPoints = await Promise.all(
             {processedBulletPoints.length > 0 && (
               <ul>
                 {processedBulletPoints.map((bullet: string) => (
-                  <li class="flex items-center mb-4 text-white text-lg">
-                    <span class="mr-3 flex-shrink-0 text-white">&#10022;</span>
-                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white" />
+                  <li class="flex items-start mb-4 text-white text-lg">
+                    <span class="mr-3 flex-shrink-0 text-white mt-1">&#10022;</span>
+                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white flex-1" />
                   </li>
                 ))}
               </ul>
