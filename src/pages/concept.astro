@@ -78,7 +78,7 @@ const processedSections = sections.map(
   if (section.id === "weekly-loop") {
     // Convert weekly rhythm schedule to bulletpoints
     const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
-      `**${item.day}** – ${item.description}`
+      `**${item.day}** – ${item.short_description}`
     );
     return {
       ...section,

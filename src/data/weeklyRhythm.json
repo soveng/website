@@ -3,6 +3,7 @@
   "schedule": [
     {
       "day": "Monday Mornings",
+      "short_description": "Orientation and setting the tone for the week.",
       "tagline": "Orientation & Tone Setting",
       "goal": "Align the cohort on the week's theme, goals, and energy, with the weekly captain taking the helm.",
       "description": "The week kicks off with an orientation led by the designated captain. It's about setting the theme, clarifying logistics like room assignments and workshop schedules, and ensuring everyone is aligned for the creative flow of the week.",
@@ -10,6 +11,7 @@
     },
     {
       "day": "Tuesday Talks",
+      "short_description": "Participants present slides, share ideas, and give talks.",
       "tagline": "Sparking Ideas & Collective Intelligence",
       "goal": "Surface the best ideas through collective intelligence and distributed cognition, where the whole becomes greater than the sum of its parts.",
       "description": "Participants share knowledge and spark ideas through flexible presentations, from technical deep-dives to philosophical explorations. The semi-circular seating arrangement is intentional, fostering a collaborative discussion rather than a one-way lecture.",
@@ -17,6 +19,7 @@
     },
     {
       "day": "Wednesday Workshops",
+      "short_description": "Hands-on sessions teaching practical skills and building.",
       "tagline": "Hands-On Skill Transfer",
       "goal": "Transfer practical, hands-on skills that can be immediately applied. Knowledge transfer happens fastest when you're building something real.",
       "description": "Theory meets practice. Participants learn by doing in hands-on workshops, often with concurrent sessions for different skill levels. The flexible room layout with group tables is designed for collaboration and rapid iteration.",
@@ -24,6 +27,7 @@
     },
     {
       "day": "Thursday: Time Off",
+      "short_description": "Free time for experimentation, implementation, and exploration.",
       "tagline": "Deep Work & Experimentation",
       "goal": "Provide unstructured time for deep work, individual exploration, and turning the week's ideas into prototypes for Friday's demo.",
       "description": "A deliberately unstructured day for coding, pair programming, and experimentation. This is where the most surprising and innovative results often emerge, as participants have the freedom to test, build, and even alpha-test their creations in Madeira's Bitcoin-friendly ecosystem.",
@@ -31,6 +35,7 @@
     },
     {
       "day": "Friday: Demo Day",
+      "short_description": "Demos and discussions, followed by a celebratory BBQ.",
       "tagline": "Show What Runs & Public Ledger",
       "goal": "Concentrate the mind and create a public ledger of progress by forcing the creation of thin vertical slices over speculative architecture.",
       "description": "The rubber meets the road. Every participant demos something they built—no polish required, just honesty. The format is aggressively time-boxed (6-min demo, 2-min discussion) to prevent perfectionism. The day concludes with a celebratory BBQ where friends and family are welcome.",
@@ -38,6 +43,7 @@
     },
     {
       "day": "Weekend Walks",
+      "short_description": "Hikes for natural group mixing and free-flowing conversations.",
       "tagline": "Moving R&D & Natural Group Mixing",
       "goal": "Stimulate creative thought and facilitate the free flow of ideas through light physical activity and spontaneous, high-bandwidth conversations.",
       "description": "An absolutely crucial pillar of the program. Light-to-moderate 2-3 hour hikes on wide paths allow for natural group mixing and side-by-side conversations. Guided to ensure the group stays together, these walks are 'moving R&D' and the primary engine for ideation.",
