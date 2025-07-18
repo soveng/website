@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import ContentLead from "@/layouts/components/ContentLead.astro";
 import ContentSection from "@/layouts/components/ContentSection.astro";
+import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import weeklyRhythmData from "@/data/weeklyRhythm.json";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 import type { CollectionEntry } from "astro:content";
@@ -61,15 +62,16 @@ const imageMap: Record<string, ImageMetadata | string> = {
     author={leadQuote?.author || ""}
   />
 
+  <!-- Separator Quote -->
+  <BigBlockQuote
+    quote={mondayQuote?.quote || ""}
+    author={mondayQuote?.author || ""}
+  />
+
   <!-- Weekly Rhythm Sections -->
   {weeklyRhythmData.schedule.map(
     (day, index) => {
-      // Add the Epictetus quote only before the first section (Monday)
-      const pullquote = index === 0 ? {
-        quote: mondayQuote?.quote || "",
-        author: mondayQuote?.author || "",
-        href: ""
-      } : {
+      const pullquote = {
         quote: day.tagline,
         author: day.goal,
         href: ""
