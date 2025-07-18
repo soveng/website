@@ -89,6 +89,32 @@ const conceptCollection = defineCollection({
   }),
 });
 
+// Loop collection schema
+const loopCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/loop" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    intro: z.object({
+      content: z.string(),
+    }),
+    sections: z.array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        content: z.string(),
+        image: z.string().optional(),
+        float: z.string().optional(),
+      }),
+    ),
+    cta: z.object({
+      text: z.string(),
+      link: z.string(),
+    }),
+  }),
+});
+
 // FAQ collection schema
 const faqCollection = defineCollection({
   loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/faq" }),
@@ -168,6 +194,7 @@ export const collections = {
   homepage: homepageCollection,
   philosophy: philosophyCollection,
   concept: conceptCollection,
+  loop: loopCollection,
   faq: faqCollection,
 
   // sections
