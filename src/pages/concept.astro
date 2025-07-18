@@ -76,16 +76,20 @@ interface Section {
 const processedSections = sections.map(
   (section: Section) => {
   if (section.id === "weekly-loop") {
-    // Convert weekly rhythm schedule to bulletpoints
-    const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
-      `**${item.day}** – ${item.short_description}`
-    );
-    // Add the "Learn More" link after the bullet points
+    // Generate markdown for the bullet list
+    const scheduleList = weeklyRhythmData.schedule.map((item) =>
+      `* **${item.day}** – ${item.short_description}`
+    ).join('\n');
+
+    // Create the "Learn More" link
     const link = `\n\n**[Learn more about the weekly rhythm →](/loop)**`;
+
     return {
       ...section,
-      bulletpoints: scheduleBullets,
-      content: section.content + link,
+      // Combine original content, the new list, and the link
+      content: section.content + '\n\n' + scheduleList + link,
+      // Clear the bulletpoints array so it's not rendered separately
+      bulletpoints: [],
     };
   }
   return section;
