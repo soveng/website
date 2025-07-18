@@ -1,12 +1,12 @@
 ---
 import Base from "@/layouts/Base.astro";
 import ProductGrid from "@/components/ProductGrid.astro";
-import { fetchProducts } from "@/lib/nostr/fetchProducts";
+import { fetchProductsSimple } from "@/lib/nostr/simpleFetch";
 
 // Fetch products at build time
 let products = [];
 try {
-  products = await fetchProducts();
+  products = await fetchProductsSimple();
 } catch (error) {
   console.error('Failed to fetch products:', error);
   // Continue with empty products array so build doesn't fail
