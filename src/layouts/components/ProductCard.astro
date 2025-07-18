@@ -32,12 +32,12 @@ const imageUrl = product.images[0] || '/images/placeholder-product.svg';
     </div>
     
     <!-- Product Name -->
-    <h3 class="text-white text-2xl mb-4 uppercase font-secondary">
+    <h3 class="text-white text-2xl mb-4 uppercase font-secondary text-balance">
       {product.name}
     </h3>
     
     <!-- Product Description -->
-    <p class="text-white/80 mb-6 font-primary italic text-lg">
+    <p class="text-white/80 mb-6 font-primary italic text-lg text-balance">
       {product.description}
     </p>
     
@@ -57,7 +57,7 @@ const imageUrl = product.images[0] || '/images/placeholder-product.svg';
     </a>
     
     {product.shipping && product.shipping.length > 0 && (
-      <p class="text-white/60 text-sm mt-4">
+      <p class="text-white text-base mt-4 font-semibold">
         + {formatPrice(product.shipping[0].cost, product.price.currency)} shipping
       </p>
     )}
