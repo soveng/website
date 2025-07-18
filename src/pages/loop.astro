@@ -31,8 +31,9 @@ const getQuoteById = (id: string) => {
   return philosophyQuotes.find(q => q.id === id);
 };
 
-// Get a relevant quote for the ContentLead
-const leadQuote = getQuoteById("epictetus-habits");
+// Get quotes for the page
+const leadQuote = getQuoteById("will-durant-excellence");
+const mondayQuote = getQuoteById("epictetus-habits");
 
 // Map image filenames to imported slide objects
 const imageMap: Record<string, ImageMetadata | string> = {
@@ -62,18 +63,28 @@ const imageMap: Record<string, ImageMetadata | string> = {
 
   <!-- Weekly Rhythm Sections -->
   {weeklyRhythmData.schedule.map(
-    (day, index) => (
-    <ContentSection
-      title={day.day}
-      content={day.description}
-      image={day.image ? imageMap[day.image] : ""}
-      index={index}
-      id={slugify(day.day)}
-      pullquote={{
+    (day, index) => {
+      // Add the Epictetus quote only before the first section (Monday)
+      const pullquote = index === 0 ? {
+        quote: mondayQuote?.quote || "",
+        author: mondayQuote?.author || "",
+        href: ""
+      } : {
         quote: day.tagline,
         author: day.goal,
         href: ""
-      }}
-    />
-  ))}
+      };
+
+      return (
+        <ContentSection
+          title={day.day}
+          content={day.description}
+          image={day.image ? imageMap[day.image] : ""}
+          index={index}
+          id={slugify(day.day)}
+          pullquote={pullquote}
+        />
+      )
+    }
+  )}
 </Base> 
