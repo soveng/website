@@ -3,6 +3,12 @@ import Base from "@/layouts/Base.astro";
 import ProductGrid from "@/components/ProductGrid.astro";
 import BigBlockQuote from "@/components/BigBlockQuote.astro";
 import { fetchProductsSimple } from "@/lib/nostr/simpleFetch";
+import philosophyQuotes from "@/data/philosophy-quotes.json";
+
+// Helper function to find quote by ID
+const getQuoteById = (id: string) => {
+  return philosophyQuotes.find(q => q.id === id);
+};
 
 // Fetch products at build time
 let products = [];
@@ -18,56 +24,51 @@ const pageTitle = "Sovereign Engineering Swag";
 const pageDescription = "Official Sovereign Engineering merchandise and products. Support the mission with exclusive gear.";
 
 // Shackleton quote
-const shackletonQuote = "Fortitudine vincimus.";
+const shackletonQuoteData = getQuoteById('shackleton');
+const shackletonQuote = shackletonQuoteData?.quote || "Fortitudine vincimus.";
 const quoteTranslation = "By endurance we conquer";
 ---
 
 <Base title={pageTitle} description={pageDescription}>
   <!-- Hero Section with consistent styling from podcast page -->
-  <section class="section-sm bg-black text-white pt-[8rem]">
+  <section class="section bg-black text-white pt-[8rem]">
     <div class="container">
       <!-- Header -->
       <div class="row justify-center">
         <div class="col-12 text-center">
-          <h1 class="mb-4 text-white uppercase" style="font-size: 3rem; font-family: 'IM Fell Double Pica', Times, serif;">
+          <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">
             {pageTitle}
           </h1>
-          <p class="text-xl font-primary uppercase tracking-wider mb-8 text-white">
-            Support the mission and represent Sovereign Engineering with our official merchandise.
+          <p class="text-xl font-primary uppercase tracking-wider mb-12 text-white">
+            Support the mission with official merchandise
           </p>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <!-- Products Section on light background -->
-  <section class="section bg-gray-100">
-    <div class="container">
-      <div class="row">
+      
+      <!-- Products -->
+      <div class="row justify-center">
         <div class="col-12">
           <ProductGrid products={products} />
         </div>
       </div>
       
-      <div class="row mt-8">
-        <div class="mx-auto lg:col-8 text-center">
-          <p class="text-base text-gray-700">
-            All products are sold through our Nostr-powered marketplace. 
-            Clicking on a product will take you to the checkout page.
+      <!-- Marketplace Note -->
+      <div class="row justify-center mt-12">
+        <div class="md:col-10 lg:col-8 text-center">
+          <p class="text-white/80">
+            All products are sold through our Nostr-powered marketplace.
           </p>
         </div>
       </div>
-    </div>
-  </section>
-  
-  <!-- Quote Section -->
-  <section class="section-sm bg-black text-white">
-    <div class="container">
-      <BigBlockQuote
-        quote={shackletonQuote}
-        author="Ernest Shackleton"
-        additionalText={`(${quoteTranslation})`}
-      />
+      
+      <!-- Centered Quote -->
+      <div class="mt-16">
+        <BigBlockQuote
+          quote={shackletonQuote}
+          author="Ernest Shackleton"
+          additionalText={`(${quoteTranslation})`}
+        />
+      </div>
     </div>
   </section>
 </Base>
