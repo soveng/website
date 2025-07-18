@@ -1,6 +1,7 @@
 ---
 import Base from "@/layouts/Base.astro";
 import ProductGrid from "@/components/ProductGrid.astro";
+import BigBlockQuote from "@/components/BigBlockQuote.astro";
 import { fetchProductsSimple } from "@/lib/nostr/simpleFetch";
 
 // Fetch products at build time
@@ -13,24 +14,35 @@ try {
 }
 
 // SEO metadata
-const title = "Swag - Sovereign Engineering";
-const description = "Official Sovereign Engineering merchandise and products. Support the mission with exclusive gear.";
+const pageTitle = "Sovereign Engineering Swag";
+const pageDescription = "Official Sovereign Engineering merchandise and products. Support the mission with exclusive gear.";
+
+// Shackleton quote
+const shackletonQuote = "Fortitudine vincimus.";
+const quoteTranslation = "By endurance we conquer";
 ---
 
-<Base title={title} description={description}>
-  <section class="section">
+<Base title={pageTitle} description={pageDescription}>
+  <!-- Hero Section with consistent styling from podcast page -->
+  <section class="section-sm bg-black text-white pt-[8rem]">
     <div class="container">
-      <div class="row">
-        <div class="mx-auto lg:col-10 text-center">
-          <h1 class="mb-4" style="font-family: 'IM Fell Double Pica', Times, serif;">
-            Sovereign Engineering Swag
+      <!-- Header -->
+      <div class="row justify-center">
+        <div class="col-12 text-center">
+          <h1 class="mb-4 text-white uppercase" style="font-size: 3rem; font-family: 'IM Fell Double Pica', Times, serif;">
+            {pageTitle}
           </h1>
-          <p class="text-lg mb-8">
+          <p class="text-xl font-primary uppercase tracking-wider mb-8 text-white">
             Support the mission and represent Sovereign Engineering with our official merchandise.
           </p>
         </div>
       </div>
-      
+    </div>
+  </section>
+  
+  <!-- Products Section on light background -->
+  <section class="section bg-gray-100">
+    <div class="container">
       <div class="row">
         <div class="col-12">
           <ProductGrid products={products} />
@@ -39,12 +51,23 @@ const description = "Official Sovereign Engineering merchandise and products. Su
       
       <div class="row mt-8">
         <div class="mx-auto lg:col-8 text-center">
-          <p class="text-sm text-gray-600">
+          <p class="text-base text-gray-700">
             All products are sold through our Nostr-powered marketplace. 
             Clicking on a product will take you to the checkout page.
           </p>
         </div>
       </div>
+    </div>
+  </section>
+  
+  <!-- Quote Section -->
+  <section class="section-sm bg-black text-white">
+    <div class="container">
+      <BigBlockQuote
+        quote={shackletonQuote}
+        author="Ernest Shackleton"
+        additionalText={`(${quoteTranslation})`}
+      />
     </div>
   </section>
 </Base>
