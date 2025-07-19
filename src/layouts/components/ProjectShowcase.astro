@@ -167,7 +167,7 @@ const cohortHeaderClasses = darkTheme
         {sortedCohorts.map((cohort: string, cohortIndex: number) => (
           <>
             <div class={cohortIndex === 0 ? 'mt-16' : 'mt-32'}>
-            <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+            <h2 id={cohort} class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
               {cohort}
             </h2>
             <div class="overflow-x-auto mb-8">
