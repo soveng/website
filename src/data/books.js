@@ -3,7 +3,7 @@ const books = [
     title: "The Sovereign Individual",
     author: "James Dale Davidson & William Rees-Mogg",
     description: "Mastering the Transition to the Information Age.",
-    cover: "/images/books/the-sovereign-individual.jpg",
+    cover: "/images/books/placeholder.svg",
     links: [
       {
         name: "Amazon",
@@ -20,7 +20,7 @@ const books = [
     author: "Eric S. Raymond",
     description:
       "Musings on Linux and Open Source by an Accidental Revolutionary.",
-    cover: "/images/books/the-cathedral-and-the-bazaar.jpg",
+    cover: "/images/books/placeholder.svg",
     links: [
       {
         name: "Amazon",
@@ -37,7 +37,7 @@ const books = [
     author: "Richard Stallman",
     description:
       "Selected Essays of Richard M. Stallman. When we speak of free software, we are referring to freedom, not price.",
-    cover: "/images/books/free-software-free-society.jpg",
+    cover: "/images/books/placeholder.svg",
     links: [
       {
         name: "Official Website",
