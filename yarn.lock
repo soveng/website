@@ -433,6 +433,11 @@
   resolved "https://registry.npmjs.org/@fontsource/im-fell-double-pica/-/im-fell-double-pica-5.2.6.tgz"
   integrity sha512-9fjKePs1TgJ3MAUYtCz/UeKpm2x4OyCXuvtZhC3S7/SDBRRFti98cIOIaNiuJJPqQrDuFUwiRbVSc7YDyRq5xQ==
 
+"@fortawesome/fontawesome-free@^7.0.0":
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-7.0.0.tgz"
+  integrity sha512-X48nISrSOa89zu2VMljC4XaRf8NmgTwQBVHfS2Nu5G00ZwM31oOVrAtGxZF3b6wDYf9lJsf/Eq4cCSFKIkOWPQ==
+
 "@humanwhocodes/config-array@^0.13.0":
   version "0.13.0"
   resolved "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.13.0.tgz"

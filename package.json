@@ -27,6 +27,7 @@
     "@digi4care/astro-google-tagmanager": "^1.4.0",
     "@fontsource/eb-garamond": "^5.2.6",
     "@fontsource/im-fell-double-pica": "^5.2.6",
+    "@fortawesome/fontawesome-free": "^7.0.0",
     "@justinribeiro/lite-youtube": "^1.8.2",
     "astro": "5.7.8",
     "astro-auto-import": "^0.4.4",
