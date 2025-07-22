@@ -12,3 +12,16 @@ export type Button = {
   label: string;
   link: string;
 };
+
+export interface Link {
+  name: string;
+  url: string;
+}
+
+export interface Book {
+  title: string;
+  author: string;
+  description: string;
+  cover: string;
+  links: Link[];
+}

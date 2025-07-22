@@ -1,6 +1,7 @@
 ---
 import Base from "@/layouts/Base.astro";
 import books from "@/data/books.js";
+import type { Book, Link } from "@/types";
 const page_title = "Books";
 ---
 
@@ -14,7 +15,7 @@ const page_title = "Books";
       </div>
       <div class="row gy-4 justify-center">
         {
-          books.map((book: any) => (
+          books.map((book: Book) => (
             <div class="col-12 sm:col-6 md:col-4">
               <div class="rounded-lg bg-theme-light p-8 text-center dark:bg-darkmode-theme-light">
                 <a
@@ -42,7 +43,7 @@ const page_title = "Books";
                 <p class="mb-2">{book.author}</p>
                 <p class="mb-4">{book.description}</p>
                 <ul class="book-links">
-                  {book.links.map((link: any) => (
+                  {book.links.map((link: Link) => (
                     <li>
                       <a
                         href={link.url}
@@ -64,4 +65,4 @@ const page_title = "Books";
       </div>
     </div>
   </section>
-</Base> 
+</Base>
