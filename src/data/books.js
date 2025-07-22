@@ -37,6 +37,19 @@ const books = [
       },
     ],
   },
+  {
+    title: "Property, Freedom, and Society",
+    author: "Hans-Hermann Hoppe",
+    description:
+      "Essays in Honor of Hans-Hermann Hoppe.",
+    cover: "/images/books/property-freedom-and-society.jpg",
+    links: [
+      {
+        name: "Read",
+        url: "https://mises.org/library/book/property-freedom-and-society-essays-honor-hans-hermann-hoppe",
+      },
+    ],
+  },
 ];
 
 export default books; 
