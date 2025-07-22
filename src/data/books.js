@@ -3,7 +3,7 @@ const books = [
     title: "The Sovereign Individual",
     author: "James Dale Davidson & William Rees-Mogg",
     description: "Mastering the Transition to the Information Age.",
-    cover: "/images/books/placeholder.svg",
+    cover: "/images/books/the-sovereign-individual.jpg",
     links: [
       {
         name: "Amazon",
