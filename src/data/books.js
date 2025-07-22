@@ -72,7 +72,7 @@ const books = [
     ],
   },
   {
-    title: 'Endurance: Shackleton\'s Incredible Voyage',
+    title: "Endurance: Shackleton's Incredible Voyage",
     author: 'Alfred Lansing',
     description: 'A tale of survival by Shackleton and all 27 of his men for over a year on the ice-bound Antarctice seas defined heroism',
     cover: 'public/images/books/EnduranceShackleton_sIncredibleVoyagetotheAntarctic_AlfredLansing_580x.webp',
