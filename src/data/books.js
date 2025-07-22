@@ -20,7 +20,7 @@ const books = [
     author: "Eric S. Raymond",
     description:
       "Musings on Linux and Open Source by an Accidental Revolutionary.",
-    cover: "/images/books/placeholder.svg",
+    cover: "/images/books/the-cathedral-and-the-bazaar.jpg",
     links: [
       {
         name: "Amazon",
