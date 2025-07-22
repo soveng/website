@@ -46,7 +46,7 @@ const books = [
     links: [
       {
         name: "Read",
-        url: "https://mises.org/library/book/property-freedom-and-society-essays-honor-hans-hermann-hoppe",
+        url: "https://cdn.mises.org/Property,%20Freedom,%20and%20Society%20Essays%20in%20Honor%20of%20Hans-Hermann%20Hoppe_2.pdf",
       },
     ],
   },
