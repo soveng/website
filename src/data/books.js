@@ -7,7 +7,7 @@ const books = [
     links: [
       {
         name: "Read",
-        url: "https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720",
+        url: "https://archive.org/details/the-sovereign-individual",
       },
     ],
   },
