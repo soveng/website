@@ -6,12 +6,8 @@ const books = [
     cover: "/images/books/the-sovereign-individual.jpg",
     links: [
       {
-        name: "Amazon",
+        name: "Read",
         url: "https://www.amazon.com/Sovereign-Individual-Mastering-Transition-Information/dp/0684832720",
-      },
-      {
-        name: "Audible",
-        url: "https://www.audible.com/pd/The-Sovereign-Individual-Audiobook/B07X3Z4T5G",
       },
     ],
   },
@@ -23,11 +19,7 @@ const books = [
     cover: "/images/books/the-cathedral-and-the-bazaar.jpg",
     links: [
       {
-        name: "Amazon",
-        url: "https://www.amazon.com/Cathedral-Bazaar-Musings-Accidental-Revolutionary/dp/0596001088",
-      },
-      {
-        name: "Read for free",
+        name: "Read",
         url: "http://www.catb.org/~esr/writings/cathedral-bazaar/",
       },
     ],
@@ -40,15 +32,7 @@ const books = [
     cover: "/images/books/free-software-free-society.jpg",
     links: [
       {
-        name: "Official Website",
-        url: "https://www.gnu.org/philosophy/fsfs/fsfs.html",
-      },
-      {
-        name: "Amazon",
-        url: "https://www.amazon.com/Free-Software-Society-Selected-Stallman/dp/1441499533",
-      },
-      {
-        name: "Read for free",
+        name: "Read",
         url: "https://www.gnu.org/philosophy/fsfs/rms-essays.pdf",
       },
     ],
