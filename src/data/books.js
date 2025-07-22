@@ -37,7 +37,7 @@ const books = [
     author: "Richard Stallman",
     description:
       "Selected Essays of Richard M. Stallman. When we speak of free software, we are referring to freedom, not price.",
-    cover: "/images/books/placeholder.svg",
+    cover: "/images/books/free-software-free-society.jpg",
     links: [
       {
         name: "Official Website",
