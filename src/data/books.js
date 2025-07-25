@@ -75,11 +75,11 @@ const books = [
     title: "Endurance: Shackleton's Incredible Voyage",
     author: 'Alfred Lansing',
     description: 'A tale of survival by Shackleton and all 27 of his men for over a year on the ice-bound Antarctice seas defined heroism',
-    cover: 'images/books/EnduranceShackleton_sIncredibleVoyagetotheAntarctic_AlfredLansing_580x.webp',
+    cover: 'images/books/Endurance-Shackletons_incredible_voyage.jpg',
     links: [
       {
         name: 'Read',
-        url: 'https://wbsg8v.xyz/d3/y/1753227810/10000/g2/ia1lcpdf/e/enduranceshackle00lans.pdf~/Yz0rjMad4g0rDDdnTBs8wA/Endurance%20%3A%20Shackleton%27s%20Incredible%20Voyage%20--%20Alfred%20Lansing%2C%20Elena%20Grau%20--%20First%20Carroll%20and%20Graf%20edition%2C%20New%20York%2C%20%5BPlace%20of%20--%20Carroll%20%26%20Graf%20--%209780881841787%20--%20bd4e36a05f61ebab9d1ffbd4f59b187f%20--%20Anna%E2%80%99s%20Archive.pdf',
+        url: 'https://archive.org/details/enduranceshackle0000lans_n0v5',
       },
     ],
   },
@@ -91,7 +91,7 @@ const books = [
     links: [
       {
         name: 'Read',
-        url: 'https://b4mcx2ml.net/d3/y/1753228638/10000/g2/ia1lcpdf/f/finiteinfinitega00carsrich.pdf~/CYlBOmgWOcUCAvQSo7GSFw/Finite%20and%20Infinite%20Games%3A%20A%20Vision%20of%20Life%20as%20Play%20and%20--%20Carse%2C%20James%20P_%20--%20New%20York%2C%20New%20York%20State%2C%201987%20--%20New%20York%3A%20Ballantine%20Books%20--%209780345341846%20--%20e922daaacac8827a3d2e235fc1b2bfcd%20--%20Anna%E2%80%99s%20Archive.pdf',
+        url: 'https://archive.org/details/finiteinfinitega00carsrich',
       },
     ],
   },
@@ -103,7 +103,7 @@ const books = [
     links: [
       {
         name: 'Read',
-        url: 'https://wbsg8v.xyz/d3/y/1753228159/10000/g4/libgenrs_nonfiction/libgenrs_nonfiction/3311000/c53bb69f97073edc380ce4f88fa68a3c~/hA7Rgih3tteruRK8n1AtoA/The%20Network%20State%3A%20How%20To%20Start%20A%20New%20Country%20--%20Balaji%20Srinivasan%20--%20First%2C%202022%20--%20c53bb69f97073edc380ce4f88fa68a3c%20--%20Anna%E2%80%99s%20Archive.pdf',
+        url: 'https://thenetworkstate.com/',
       },
     ],
   },
