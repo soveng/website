@@ -3,7 +3,7 @@ const books = [
     title: 'The Sovereign Individual',
     author: 'James Dale Davidson & William Rees-Mogg',
     description: 'Mastering the Transition to the Information Age.',
-    cover: '/images/books/the-sovereign-individual.jpg',
+    cover: 'images/books/the-sovereign-individual.jpg',
     links: [
       {
         name: 'Read',
@@ -63,7 +63,7 @@ const books = [
     title: 'A Lodging of Wayfaring Men',
     author: 'Paul Rosenberg',
     description: 'A novel that explores the concept of freedom-seekers creating an alternative society on the Internet',
-    cover: 'public/images/books/a_lodging_of_wayfaring_men.jpg',
+    cover: 'images/books/a_lodging_of_wayfaring_men.jpg',
     links: [
       {
         name: 'Read',
@@ -75,7 +75,7 @@ const books = [
     title: "Endurance: Shackleton's Incredible Voyage",
     author: 'Alfred Lansing',
     description: 'A tale of survival by Shackleton and all 27 of his men for over a year on the ice-bound Antarctice seas defined heroism',
-    cover: 'public/images/books/EnduranceShackleton_sIncredibleVoyagetotheAntarctic_AlfredLansing_580x.webp',
+    cover: 'images/books/EnduranceShackleton_sIncredibleVoyagetotheAntarctic_AlfredLansing_580x.webp',
     links: [
       {
         name: 'Read',
@@ -87,7 +87,7 @@ const books = [
     title: 'Finite and Infinite Games',
     author: 'James P. Carse',
     description: 'A vision of life as play and possibility',
-    cover: 'public/images/books/finite_and_infinite_games-carse.jpg',
+    cover: 'images/books/finite_and_infinite_games-carse.jpg',
     links: [
       {
         name: 'Read',
@@ -99,7 +99,7 @@ const books = [
     title: 'The Network State',
     author: 'Balaji Shrinivasan',
     description: 'How to start a new country',
-    cover: 'public/images/books/the_network_state-balaji.jpg',
+    cover: 'images/books/the_network_state-balaji.jpg',
     links: [
       {
         name: 'Read',
