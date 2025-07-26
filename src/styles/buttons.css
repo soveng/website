@@ -30,3 +30,7 @@
   @apply px-2 py-1 text-xs;
   text-decoration: none;
 }
+
+.btn-icon {
+  @apply inline-flex items-center;
+}

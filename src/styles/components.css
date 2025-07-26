@@ -220,3 +220,8 @@
 .podcast-accordion .accordion-content a {
   @apply text-primary underline hover:text-white;
 }
+
+/* book links */
+.book-links {
+  @apply flex flex-col space-y-2;
+}
