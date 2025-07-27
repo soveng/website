@@ -51,6 +51,14 @@ import { Image } from "astro:assets";
                   onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt.jpeg', 'SEC01 Shirt')"
                 />
               </div>
+              <div class="bg-transparent cursor-pointer group">
+                <img
+                  src="/images/swag/SEC01_Shirt2.jpg"
+                  alt="SEC01 Shirt 2"
+                  class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
+                  onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt2.jpg', 'SEC01 Shirt 2')"
+                />
+              </div>
             </div>
           </div>
           <div class="lg:w-1/2">
@@ -93,6 +101,56 @@ import { Image } from "astro:assets";
               </p>
               <p>
                 Wearing this hat is a statement of allegiance to the core mission: creating technology that serves people, not corporations, and building systems that enable true digital autonomy.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEC02 Additional Hat Variants - Left -->
+      <div class="mb-24">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="lg:w-1/2">
+            <!-- Main large image display -->
+            <div class="bg-transparent mb-6">
+              <img
+                id="sec02-variants-main"
+                src="/images/swag/SEC02_Hat2.png"
+                alt="SEC02 Hat Variant 2"
+                class="w-full h-auto rounded-lg shadow-xl bg-transparent transition-all duration-300"
+              />
+            </div>
+            <!-- Thumbnail navigation -->
+            <div class="flex gap-4 justify-center">
+              <div class="bg-transparent cursor-pointer group">
+                <img
+                  src="/images/swag/SEC02_Hat2.png"
+                  alt="SEC02 Hat Variant 2"
+                  class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
+                  onclick="changeMainImage('sec02-variants-main', '/images/swag/SEC02_Hat2.png', 'SEC02 Hat Variant 2')"
+                />
+              </div>
+              <div class="bg-transparent cursor-pointer group">
+                <img
+                  src="/images/swag/SEC02_Hat3.png"
+                  alt="SEC02 Hat Variant 3"
+                  class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
+                  onclick="changeMainImage('sec02-variants-main', '/images/swag/SEC02_Hat3.png', 'SEC02 Hat Variant 3')"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/2">
+            <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-02: Additional Variants</h3>
+            <div class="space-y-4 text-lg text-gray-300">
+              <p>
+                Explore additional variations of the SEC-02 hat design, each offering unique perspectives on operational security and digital sovereignty.
+              </p>
+              <p>
+                These variants maintain the core principles of the original design while offering different aesthetic approaches to the same fundamental message of privacy and autonomy.
+              </p>
+              <p>
+                Each variant represents a different facet of the operational security mindset, from subtle expressions to bold statements of digital independence.
               </p>
             </div>
           </div>
