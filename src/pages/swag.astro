@@ -270,7 +270,7 @@ import { Image } from "astro:assets";
               <div class="bg-transparent cursor-pointer group">
                 <img
                   src="/images/swag/SEC05_Back.png"
-                  alt="SEC05 Shirt Back"
+                  alt="SEC-05 Shirt Back"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
                   onclick="changeMainImage('sec05-main', '/images/swag/SEC05_Back.png', 'SEC-05 Shirt Back')"
                 />
@@ -319,11 +319,36 @@ import { Image } from "astro:assets";
   <script>
     // Function to change main image
     function changeMainImage(elementId: string, imageSrc: string, imageAlt: string) {
+      console.log('changeMainImage called:', elementId, imageSrc, imageAlt);
       const mainImage = document.getElementById(elementId) as HTMLImageElement;
       if (mainImage) {
         mainImage.src = imageSrc;
         mainImage.alt = imageAlt;
+        console.log('Image updated successfully');
+      } else {
+        console.log('Main image element not found:', elementId);
       }
     }
+
+    // Add event listeners when DOM is loaded
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add click event listeners to all thumbnail images
+      const thumbnails = document.querySelectorAll('img[onclick]');
+      thumbnails.forEach(thumbnail => {
+        const onclick = thumbnail.getAttribute('onclick');
+        if (onclick && onclick.includes('changeMainImage')) {
+          // Remove the onclick attribute and add proper event listener
+          thumbnail.removeAttribute('onclick');
+          thumbnail.addEventListener('click', function() {
+            // Extract parameters from the original onclick string
+            const match = onclick.match(/changeMainImage\('([^']+)',\s*'([^']+)',\s*'([^']+)'\)/);
+            if (match) {
+              const [, elementId, imageSrc, imageAlt] = match;
+              changeMainImage(elementId, imageSrc, imageAlt);
+            }
+          });
+        }
+      });
+    });
   </script>
 </Base> 
