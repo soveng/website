@@ -158,9 +158,9 @@ import { Image } from "astro:assets";
     
     .parallax-image {
       position: absolute;
-      top: 0;
+      top: 50%;
       left: 0;
-      transform: translateY(0);
+      transform: translateY(-50%);
       transition: transform 0.1s ease-out;
     }
   </style>
@@ -184,8 +184,8 @@ import { Image } from "astro:assets";
         // Only apply parallax when header is in view
         if (scrollTop >= headerTop && scrollTop <= headerBottom) {
           const progress = (scrollTop - headerTop) / headerHeight;
-          const translateY = -progress * maxScroll;
-          parallaxImage.style.transform = `translateY(${translateY}px)`;
+          const translateY = -50 + (-progress * maxScroll);
+          parallaxImage.style.transform = `translateY(${translateY}%)`;
         }
       }
       
