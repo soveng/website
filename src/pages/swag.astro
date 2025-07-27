@@ -64,6 +64,48 @@ import { Image } from "astro:assets";
         </div>
       </div>
 
+      <!-- SEC01 Shirt - Left -->
+      <div class="mb-24">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="lg:w-1/2">
+            <!-- Main large image display -->
+            <div class="bg-transparent mb-6">
+              <img
+                id="sec01-main"
+                src="/images/swag/SEC01_Shirt.jpeg"
+                alt="SEC01 Shirt"
+                class="w-full h-auto rounded-lg shadow-xl bg-transparent transition-all duration-300"
+              />
+            </div>
+            <!-- Thumbnail navigation -->
+            <div class="flex gap-4">
+              <div class="bg-transparent cursor-pointer group">
+                <img
+                  src="/images/swag/SEC01_Shirt.jpeg"
+                  alt="SEC01 Shirt"
+                  class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
+                  onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt.jpeg', 'SEC01 Shirt')"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/2">
+            <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-01: The Beginning</h3>
+            <div class="space-y-4 text-lg text-gray-300">
+              <p>
+                The SEC-01 shirt represents the very beginning of the sovereign engineering journey. This inaugural design captures the essence of what it means to start building tools for digital sovereignty.
+              </p>
+              <p>
+                As the first piece in our collection, it embodies the foundational spirit and raw energy that drives the sovereign engineering movement forward. It's a reminder of where we started and the principles that continue to guide our work.
+              </p>
+              <p>
+                Wearing this shirt is a statement of commitment to the core mission: creating technology that serves individuals and communities, not corporations or governments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- SEC03 Shirt - Left -->
       <div class="mb-24">
         <div class="flex flex-col lg:flex-row items-center gap-12">
