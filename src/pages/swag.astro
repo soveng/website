@@ -1,6 +1,5 @@
 ---
 import Base from "@/layouts/Base.astro";
-import { Image } from "astro:assets";
 ---
 
 <Base
@@ -24,7 +23,11 @@ import { Image } from "astro:assets";
       <div class="text-center mb-16">
         <h2 class="text-4xl mb-8 pt-8 text-center text-white font-normal">The Story of Our Swag</h2>
         <p class="text-xl text-gray-300 max-w-3xl mx-auto mt-4">
-          This collection tells a story—the story of Sovereign Engineering. It's an chronicle of the <a href="/projects" class="underline hover:text-white transition-colors">tools we build</a> and the <a href="/philosophy" class="underline hover:text-white transition-colors">principles</a> we uphold. Each design is a chapter in our ongoing journey to create technology that empowers the individual and secures our digital freedom.
+          This collection tells a story—the story of Sovereign Engineering. It's an chronicle of the
+          <a href="/projects" class="underline hover:text-white transition-colors">tools we build</a>
+          and the <a href="/philosophy" class="underline hover:text-white transition-colors">principles</a>
+          we uphold. Each design is a chapter in our ongoing journey to create technology that empowers
+          the individual and secures our digital freedom.
         </p>
       </div>
 
@@ -43,40 +46,56 @@ import { Image } from "astro:assets";
             </div>
             <!-- Thumbnail navigation -->
             <div class="flex gap-4 justify-center">
-              <div class="bg-transparent cursor-pointer group">
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt.jpg', 'SEC-01 Shirt')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec01-main', '/images/swag/SEC01_Shirt.jpg', 'SEC-01 Shirt')"
+              >
                 <img
                   src="/images/swag/SEC01_Shirt.jpg"
                   alt="SEC-01 Shirt"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt.jpg', 'SEC-01 Shirt')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt2.jpg', 'SEC-01 Shirt 2')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec01-main', '/images/swag/SEC01_Shirt2.jpg', 'SEC-01 Shirt 2')"
+              >
                 <img
                   src="/images/swag/SEC01_Shirt2.jpg"
                   alt="SEC-01 Shirt 2"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt2.jpg', 'SEC-01 Shirt 2')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt3.jpg', 'SEC-01 Shirt 3')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec01-main', '/images/swag/SEC01_Shirt3.jpg', 'SEC-01 Shirt 3')"
+              >
                 <img
                   src="/images/swag/SEC01_Shirt3.jpg"
                   alt="SEC-01 Shirt 3"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec01-main', '/images/swag/SEC01_Shirt3.jpg', 'SEC-01 Shirt 3')"
                 />
-              </div>
+              </button>
             </div>
           </div>
           <div class="lg:w-1/2">
             <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-01: The Beginning</h3>
             <div class="space-y-4 text-lg text-gray-300">
               <p>
-                It all starts with an idea and the will to build. This shirt is a tribute to that first step, the moment you decide to create something new instead of complaining about the old. It's a reminder that every journey begins with a single line of code, and that to build a better future, you must first be willing to <a href="/podcast" class="underline hover:text-white transition-colors">start ugly</a>.
+                It all starts with an idea and the will to build. This shirt is a tribute to that first step,
+                the moment you decide to create something new instead of complaining about the old. It's a
+                reminder that every journey begins with a single line of code, and that to build a better
+                future, you must first be willing to
+                <a href="/podcast" class="underline hover:text-white transition-colors">start ugly</a>.
               </p>
               <p>
-                Perfection is the enemy of progress, and this design is a badge of honor for those who understand that. It’s for the builders, the creators, and the pioneers who aren’t afraid to ship imperfect things. It separates the talkers from the doers, and it's a public declaration that you are here to build.
+                Perfection is the enemy of progress, and this design is a badge of honor for those who
+                understand that. It's for the builders, the creators, and the pioneers who aren't afraid
+                to ship imperfect things. It separates the talkers from the doers, and it's a public
+                declaration that you are here to build.
               </p>
             </div>
           </div>
@@ -98,40 +117,56 @@ import { Image } from "astro:assets";
             </div>
             <!-- Thumbnail navigation -->
             <div class="flex gap-4 justify-center">
-              <div class="bg-transparent cursor-pointer group">
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec02-main', '/images/swag/SEC02_Hat.png', 'SEC-02 Hat')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec02-main', '/images/swag/SEC02_Hat.png', 'SEC-02 Hat')"
+              >
                 <img
                   src="/images/swag/SEC02_Hat.png"
                   alt="SEC-02 Hat"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec02-main', '/images/swag/SEC02_Hat.png', 'SEC-02 Hat')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec02-main', '/images/swag/SEC02_Hat2.png', 'SEC-02 Hat Variant 2')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec02-main', '/images/swag/SEC02_Hat2.png', 'SEC-02 Hat Variant 2')"
+              >
                 <img
                   src="/images/swag/SEC02_Hat2.png"
                   alt="SEC-02 Hat Variant 2"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec02-main', '/images/swag/SEC02_Hat2.png', 'SEC-02 Hat Variant 2')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec02-main', '/images/swag/SEC02_Hat3.png', 'SEC-02 Hat Variant 3')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec02-main', '/images/swag/SEC02_Hat3.png', 'SEC-02 Hat Variant 3')"
+              >
                 <img
                   src="/images/swag/SEC02_Hat3.png"
                   alt="SEC-02 Hat Variant 3"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec02-main', '/images/swag/SEC02_Hat3.png', 'SEC-02 Hat Variant 3')"
                 />
-              </div>
+              </button>
             </div>
           </div>
           <div class="lg:w-1/2">
             <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-02: Opsec Friendly</h3>
             <div class="space-y-4 text-lg text-gray-300">
               <p>
-                In a world of total surveillance, privacy is not a feature; it's a precondition for freedom. This hat is for those who understand that true sovereignty begins with operational security. It's a nod to the cypherpunks who taught us that <a href="https://dergigi.com/2020/07/21/true-names-not-required/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">True Names</a> are not required.
+                In a world of total surveillance, privacy is not a feature; it's a precondition for freedom.
+                This hat is for those who understand that true sovereignty begins with operational security.
+                It's a nod to the cypherpunks who taught us that
+                <a href="https://dergigi.com/2020/07/21/true-names-not-required/" target="_blank"
+                   rel="noopener noreferrer" class="underline hover:text-white transition-colors">True Names</a>
+                are not required.
               </p>
               <p>
-                It's a subtle signal to those in the know, a quiet acknowledgment of the invisible war being waged for our minds and our data. It’s a reminder to stay vigilant, to question authority, and to build systems that can't be evil. Stay low, stay safe, stay sovereign.
+                It's a subtle signal to those in the know, a quiet acknowledgment of the invisible war being
+                waged for our minds and our data. It's a reminder to stay vigilant, to question authority,
+                and to build systems that can't be evil. Stay low, stay safe, stay sovereign.
               </p>
             </div>
           </div>
@@ -153,32 +188,44 @@ import { Image } from "astro:assets";
             </div>
             <!-- Thumbnail navigation -->
             <div class="flex gap-4 justify-center">
-              <div class="bg-transparent cursor-pointer group">
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec03-main', '/images/swag/SEC03_Front.png', 'SEC-03 Shirt Front')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec03-main', '/images/swag/SEC03_Front.png', 'SEC-03 Shirt Front')"
+              >
                 <img
                   src="/images/swag/SEC03_Front.png"
                   alt="SEC-03 Shirt Front"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec03-main', '/images/swag/SEC03_Front.png', 'SEC-03 Shirt Front')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec03-main', '/images/swag/SEC03_Back.png', 'SEC-03 Shirt Back')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec03-main', '/images/swag/SEC03_Back.png', 'SEC-03 Shirt Back')"
+              >
                 <img
                   src="/images/swag/SEC03_Back.png"
                   alt="SEC-03 Shirt Back"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec03-main', '/images/swag/SEC03_Back.png', 'SEC-03 Shirt Back')"
                 />
-              </div>
+              </button>
             </div>
           </div>
           <div class="lg:w-1/2">
             <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-03: Ecash</h3>
             <div class="space-y-4 text-lg text-gray-300">
               <p>
-                Before Bitcoin, there was ecash. This design is a tribute to the pioneers who dreamed of digital cash and the cypherpunks who fought for it. The burning cassette symbolizes the creative destruction of the old financial system, a necessary step to build a new one on a foundation of freedom.
+                Before Bitcoin, there was ecash. This design is a tribute to the pioneers who dreamed of
+                digital cash and the cypherpunks who fought for it. The burning cassette symbolizes the
+                creative destruction of the old financial system, a necessary step to build a new one on
+                a foundation of freedom.
               </p>
               <p>
-                For decades, ecash was a dream deferred, a powerful idea waiting for its moment. Bitcoin finally provided the missing piece: a trustless, decentralized bearer asset. Now, combined with a simple, open protocol like nostr, ecash is not just viable; it's a match made in heaven, ready to power a new generation of sovereign applications.
+                For decades, ecash was a dream deferred, a powerful idea waiting for its moment. Bitcoin
+                finally provided the missing piece: a trustless, decentralized bearer asset. Now, combined
+                with a simple, open protocol like nostr, ecash is not just viable; it's a match made in
+                heaven, ready to power a new generation of sovereign applications.
               </p>
             </div>
           </div>
@@ -200,32 +247,50 @@ import { Image } from "astro:assets";
             </div>
             <!-- Thumbnail navigation -->
             <div class="flex gap-4 justify-center">
-              <div class="bg-transparent cursor-pointer group">
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec04-main', '/images/swag/SEC04_Front.png', 'SEC-04 Shirt Front')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec04-main', '/images/swag/SEC04_Front.png', 'SEC-04 Shirt Front')"
+              >
                 <img
                   src="/images/swag/SEC04_Front.png"
                   alt="SEC-04 Shirt Front"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec04-main', '/images/swag/SEC04_Front.png', 'SEC-04 Shirt Front')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec04-main', '/images/swag/SEC04_Back.png', 'SEC-04 Shirt Back')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec04-main', '/images/swag/SEC04_Back.png', 'SEC-04 Shirt Back')"
+              >
                 <img
                   src="/images/swag/SEC04_Back.png"
                   alt="SEC-04 Shirt Back"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec04-main', '/images/swag/SEC04_Back.png', 'SEC-04 Shirt Back')"
                 />
-              </div>
+              </button>
             </div>
           </div>
           <div class="lg:w-1/2">
             <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-04: Trilemmas</h3>
             <div class="space-y-4 text-lg text-gray-300">
               <p>
-                There are no <a href="/podcast" class="underline hover:text-white transition-colors">perfect solutions</a>, only trade-offs. This shirt is a nod to the fundamental trilemmas that govern our world, from the classic "<a href="https://press.rebus.community/requirementsengineering/chapter/the-engineering-triangle/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">Good, Fast, Cheap</a>" to the <a href="https://en.wikipedia.org/wiki/Impossible_trinity" target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">impossible trinity</a> of monetary policy. It’s an acknowledgment that reality has constraints, and that pretending otherwise is a recipe for disaster.
+                There are no <a href="/podcast" class="underline hover:text-white transition-colors">perfect solutions</a>,
+                only trade-offs. This shirt is a nod to the fundamental trilemmas that govern our world,
+                from the classic
+                <a href="https://press.rebus.community/requirementsengineering/chapter/the-engineering-triangle/"
+                   target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">Good, Fast, Cheap</a>
+                to the
+                <a href="https://en.wikipedia.org/wiki/Impossible_trinity" target="_blank"
+                   rel="noopener noreferrer" class="underline hover:text-white transition-colors">impossible trinity</a>
+                of monetary policy. It's an acknowledgment that reality has constraints, and that pretending
+                otherwise is a recipe for disaster.
               </p>
               <p>
-                The compass reminds us that while the path may be fraught with impossible choices, we must always navigate by the star of our principles. It’s about making conscious, informed trade-offs, not wishful thinking. Understanding these constraints is the first step to overcoming them.
+                The compass reminds us that while the path may be fraught with impossible choices, we must
+                always navigate by the star of our principles. It's about making conscious, informed
+                trade-offs, not wishful thinking. Understanding these constraints is the first step to
+                overcoming them.
               </p>
             </div>
           </div>
@@ -247,33 +312,47 @@ import { Image } from "astro:assets";
             </div>
             <!-- Thumbnail navigation -->
             <div class="flex gap-4 justify-center">
-              <div class="bg-transparent cursor-pointer group">
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec05-main', '/images/swag/SEC05_Front.png', 'SEC-05 Shirt Front')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec05-main', '/images/swag/SEC05_Front.png', 'SEC-05 Shirt Front')"
+              >
                 <img
                   src="/images/swag/SEC05_Front.png"
                   alt="SEC-05 Shirt Front"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec05-main', '/images/swag/SEC05_Front.png', 'SEC-05 Shirt Front')"
                 />
-              </div>
-              <div class="bg-transparent cursor-pointer group">
+              </button>
+              <button
+                class="bg-transparent cursor-pointer group border-none p-0"
+                onclick="changeMainImage('sec05-main', '/images/swag/SEC05_Back.png', 'SEC-05 Shirt Back')"
+                onkeydown="if(event.key==='Enter'||event.key===' ') changeMainImage('sec05-main', '/images/swag/SEC05_Back.png', 'SEC-05 Shirt Back')"
+              >
                 <img
                   src="/images/swag/SEC05_Back.png"
                   alt="SEC-05 Shirt Back"
                   class="w-24 h-auto rounded-lg shadow-lg bg-transparent transition-all duration-200 group-hover:shadow-xl group-hover:scale-105"
-                  onclick="changeMainImage('sec05-main', '/images/swag/SEC05_Back.png', 'SEC-05 Shirt Back')"
                 />
-              </div>
+              </button>
             </div>
           </div>
           <div class="lg:w-1/2">
             <h3 class="text-3xl mb-6 mt-12 first:mt-0 font-normal">SEC-05: YOLO Mode</h3>
             <div class="space-y-4 text-lg text-gray-300">
               <p>
-                The future is not something you wait for; it's something you build. This design is for those who are done asking for permission and are ready to enter <a href="https://www.thewayofcode.com/" target="_blank" rel="noopener noreferrer" class="underline hover:text-white transition-colors">YOLO mode</a>, building the world they want to live in, starting now.
+                The future is not something you wait for; it's something you build. This design is for
+                those who are done asking for permission and are ready to enter
+                <a href="https://www.thewayofcode.com/" target="_blank" rel="noopener noreferrer"
+                   class="underline hover:text-white transition-colors">YOLO mode</a>, building the world
+                they want to live in, starting now.
               </p>
-                              <p>
-                  Because Bitcoin and nostr are permissionless, we don't have to ask for anyone's approval to build. This allows us to lean heavily into the vibe, creating systems that are not only uncensorable but also aligned with our vision of a freer, more sovereign future. This shirt is a declaration that we're not here to reform the old system; we're here to make it obsolete.
-                </p>
+              <p>
+                Because Bitcoin and nostr are permissionless, we don't have to ask for anyone's approval
+                to build. This allows us to lean heavily into the vibe, creating systems that are not
+                only uncensorable but also aligned with our vision of a freer, more sovereign future.
+                This shirt is a declaration that we're not here to reform the old system; we're here to
+                make it obsolete.
+              </p>
             </div>
           </div>
         </div>
@@ -295,24 +374,21 @@ import { Image } from "astro:assets";
     </div>
   </section>
 
-
-
   <script>
     // Function to change main image
-    function changeMainImage(elementId: string, imageSrc: string, imageAlt: string) {
-      console.log('changeMainImage called:', elementId, imageSrc, imageAlt);
-      const mainImage = document.getElementById(elementId) as HTMLImageElement;
-      if (mainImage) {
+    // @ts-expect-error - Astro script context doesn't support TypeScript types
+    function changeMainImage(elementId, imageSrc, imageAlt) {
+      const mainImage = document.getElementById(elementId);
+      if (mainImage && mainImage.tagName === 'IMG') {
+        // @ts-expect-error - HTMLElement type doesn't include img properties
         mainImage.src = imageSrc;
+        // @ts-expect-error - HTMLElement type doesn't include img properties
         mainImage.alt = imageAlt;
-        console.log('Image updated successfully');
-      } else {
-        console.log('Main image element not found:', elementId);
       }
     }
 
     // Add event listeners when DOM is loaded
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', () => {
       // Add click event listeners to all thumbnail images
       const thumbnails = document.querySelectorAll('img[onclick]');
       thumbnails.forEach(thumbnail => {
@@ -320,7 +396,7 @@ import { Image } from "astro:assets";
         if (onclick && onclick.includes('changeMainImage')) {
           // Remove the onclick attribute and add proper event listener
           thumbnail.removeAttribute('onclick');
-          thumbnail.addEventListener('click', function() {
+          thumbnail.addEventListener('click', () => {
             // Extract parameters from the original onclick string
             const match = onclick.match(/changeMainImage\('([^']+)',\s*'([^']+)',\s*'([^']+)'\)/);
             if (match) {
@@ -332,4 +408,4 @@ import { Image } from "astro:assets";
       });
     });
   </script>
-</Base> 
+</Base>
