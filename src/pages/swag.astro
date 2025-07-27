@@ -24,106 +24,125 @@ import { Image } from "astro:assets";
   <!-- Products Section -->
   <section class="py-16 bg-gray-50">
     <div class="container mx-auto px-4">
-      <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold mb-4">Available Shirts</h2>
-        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-          Wear your commitment to sovereign engineering with our premium quality merchandise
+      <div class="text-center mb-16">
+        <h2 class="text-4xl font-bold mb-4">The Story of Our Swag</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+          Each piece tells a story of sovereign engineering - from the tools we build to the principles we uphold
         </p>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-8">
-        <!-- SEC03 Shirt -->
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div class="relative">
-            <img
-              src="/images/swag/SEC03_Front.png"
-              alt="SEC03 Shirt Front"
-              class="w-full h-80 object-cover"
-            />
-            <div class="absolute top-4 right-4 bg-black text-white px-3 py-1 rounded-full text-sm font-semibold">
-              SEC03
-            </div>
-          </div>
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-3">SEC03 Collection</h3>
-            <p class="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <div class="flex gap-2 mb-4">
+      <!-- SEC03 Shirt - Left -->
+      <div class="mb-24">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="lg:w-1/2">
+            <div class="relative">
               <img
                 src="/images/swag/SEC03_Front.png"
-                alt="SEC03 Front"
-                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+                alt="SEC03 Shirt Front"
+                class="w-full h-auto rounded-lg shadow-xl"
               />
+              <div class="absolute top-4 right-4 bg-black text-white px-4 py-2 rounded-full text-sm font-semibold">
+                SEC03
+              </div>
+            </div>
+            <div class="mt-6">
               <img
                 src="/images/swag/SEC03_Back.png"
-                alt="SEC03 Back"
-                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+                alt="SEC03 Shirt Back"
+                class="w-full h-auto rounded-lg shadow-xl"
               />
             </div>
           </div>
-        </div>
-
-        <!-- SEC04 Shirt -->
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div class="relative">
-            <img
-              src="/images/swag/SEC04_Front.png"
-              alt="SEC04 Shirt Front"
-              class="w-full h-80 object-cover"
-            />
-            <div class="absolute top-4 right-4 bg-black text-white px-3 py-1 rounded-full text-sm font-semibold">
-              SEC04
+          <div class="lg:w-1/2">
+            <h3 class="text-3xl font-bold mb-6">SEC03: The Foundation</h3>
+            <div class="space-y-4 text-lg text-gray-700">
+              <p>
+                The SEC03 collection represents the foundational principles of sovereign engineering. The front design features a stylized building engulfed in flames, symbolizing the destruction of old systems and the birth of new ones.
+              </p>
+              <p>
+                On the back, you'll find our core mantra: "Build the tools. Ship the future." This phrase encapsulates our mission to create the infrastructure that enables true digital sovereignty.
+              </p>
+              <p>
+                The red and black color scheme represents the intensity of our commitment to breaking free from centralized control and building systems that serve individuals, not corporations.
+              </p>
             </div>
           </div>
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-3">SEC04 Collection</h3>
-            <p class="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <div class="flex gap-2 mb-4">
+        </div>
+      </div>
+
+      <!-- SEC04 Shirt - Right -->
+      <div class="mb-24">
+        <div class="flex flex-col lg:flex-row-reverse items-center gap-12">
+          <div class="lg:w-1/2">
+            <div class="relative">
               <img
                 src="/images/swag/SEC04_Front.png"
-                alt="SEC04 Front"
-                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+                alt="SEC04 Shirt Front"
+                class="w-full h-auto rounded-lg shadow-xl"
               />
+              <div class="absolute top-4 right-4 bg-black text-white px-4 py-2 rounded-full text-sm font-semibold">
+                SEC04
+              </div>
+            </div>
+            <div class="mt-6">
               <img
                 src="/images/swag/SEC04_Back.png"
-                alt="SEC04 Back"
-                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+                alt="SEC04 Shirt Back"
+                class="w-full h-auto rounded-lg shadow-xl"
               />
+            </div>
+          </div>
+          <div class="lg:w-1/2">
+            <h3 class="text-3xl font-bold mb-6">SEC04: The Compass</h3>
+            <div class="space-y-4 text-lg text-gray-700">
+              <p>
+                The SEC04 design features a compass rose, representing our commitment to navigating the complex landscape of digital sovereignty. The intricate red pattern on black symbolizes the precision and care required in our work.
+              </p>
+              <p>
+                The back design incorporates elements that guide us: the stars of navigation, the tools of our trade, and the principles that keep us oriented toward true north - individual autonomy and technological freedom.
+              </p>
+              <p>
+                This piece embodies the spirit of exploration and discovery that drives sovereign engineering forward, always seeking new ways to empower individuals through technology.
+              </p>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- SEC05 Shirt -->
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-          <div class="relative">
-            <img
-              src="/images/swag/SEC05_Front.png"
-              alt="SEC05 Shirt Front"
-              class="w-full h-80 object-cover"
-            />
-            <div class="absolute top-4 right-4 bg-black text-white px-3 py-1 rounded-full text-sm font-semibold">
-              SEC05
-            </div>
-          </div>
-          <div class="p-6">
-            <h3 class="text-2xl font-bold mb-3">SEC05 Collection</h3>
-            <p class="text-gray-600 mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <div class="flex gap-2 mb-4">
+      <!-- SEC05 Shirt - Left -->
+      <div class="mb-24">
+        <div class="flex flex-col lg:flex-row items-center gap-12">
+          <div class="lg:w-1/2">
+            <div class="relative">
               <img
                 src="/images/swag/SEC05_Front.png"
-                alt="SEC05 Front"
-                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+                alt="SEC05 Shirt Front"
+                class="w-full h-auto rounded-lg shadow-xl"
               />
+              <div class="absolute top-4 right-4 bg-black text-white px-4 py-2 rounded-full text-sm font-semibold">
+                SEC05
+              </div>
+            </div>
+            <div class="mt-6">
               <img
                 src="/images/swag/SEC05_Back.png"
-                alt="SEC05 Back"
-                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+                alt="SEC05 Shirt Back"
+                class="w-full h-auto rounded-lg shadow-xl"
               />
+            </div>
+          </div>
+          <div class="lg:w-1/2">
+            <h3 class="text-3xl font-bold mb-6">SEC05: The Future</h3>
+            <div class="space-y-4 text-lg text-gray-700">
+              <p>
+                The SEC05 collection represents the future we're building - a world where technology serves humanity, not the other way around. The circuit-like design on the front symbolizes the interconnected systems we create.
+              </p>
+              <p>
+                The back features a more abstract representation of the digital landscape, showing how individual nodes connect to form resilient networks that can't be controlled by any single entity.
+              </p>
+              <p>
+                The green and brown color palette represents growth, sustainability, and the organic nature of truly decentralized systems that evolve and adapt naturally.
+              </p>
             </div>
           </div>
         </div>
