@@ -9,16 +9,13 @@ import { Image } from "astro:assets";
   description="Get your Sovereign Engineering merchandise - shirts, hoodies, and more"
   showCallToAction={false}
 >
-  <!-- Hero Section with Black-on-Black Image -->
-  <header class="relative h-[420px] w-full overflow-hidden bg-black">
-    <div class="parallax-container">
-              <img
-          src="/images/swag/black-hat.png"
-          alt="Sovereign Engineering Black Hat Design"
-          class="parallax-image w-full h-[800px] object-contain opacity-80"
-        />
-    </div>
-
+  <!-- Hero Section with Black Hat Image -->
+  <header class="relative h-[420px] w-full overflow-hidden bg-black flex items-center justify-center">
+    <img
+      src="/images/swag/black-hat.png"
+      alt="Sovereign Engineering Black Hat Design"
+      class="w-full h-auto object-contain opacity-80"
+    />
   </header>
 
   <!-- Products Section -->
@@ -201,21 +198,7 @@ import { Image } from "astro:assets";
     </div>
   </section>
 
-  <style>
-    .parallax-container {
-      position: relative;
-      height: 100%;
-      overflow: hidden;
-    }
-    
-    .parallax-image {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-      transition: transform 0.1s ease-out;
-    }
-  </style>
+
 
   <script>
     // Function to change main image
@@ -226,35 +209,5 @@ import { Image } from "astro:assets";
         mainImage.alt = imageAlt;
       }
     }
-
-    document.addEventListener('DOMContentLoaded', function() {
-      const parallaxImage = document.querySelector('.parallax-image') as HTMLElement;
-      const header = document.querySelector('header') as HTMLElement;
-      
-      if (!parallaxImage || !header) return;
-      
-      const headerHeight = header.offsetHeight;
-      const imageHeight = 800; // Height of the image
-      const maxScroll = imageHeight - headerHeight;
-      
-      function updateParallax() {
-        const scrollTop = window.pageYOffset;
-        const headerTop = header.offsetTop;
-        const headerBottom = headerTop + headerHeight;
-        
-        // Only apply parallax when header is in view
-        if (scrollTop >= headerTop && scrollTop <= headerBottom) {
-          const progress = (scrollTop - headerTop) / headerHeight;
-          const translateY = -50 + (-progress * maxScroll);
-          parallaxImage.style.transform = `translateY(${translateY}%)`;
-        }
-      }
-      
-      window.addEventListener('scroll', updateParallax);
-      window.addEventListener('resize', updateParallax);
-      
-      // Initial call
-      updateParallax();
-    });
   </script>
 </Base> 
