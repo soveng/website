@@ -374,23 +374,24 @@ import Base from "@/layouts/Base.astro";
     </div>
   </section>
 
-  <script>
-    // Function to change main image
-    // @ts-expect-error - Astro script context doesn't support TypeScript types
-    function changeMainImage(elementId, imageSrc, imageAlt) {
-      console.log('changeMainImage called with:', elementId, imageSrc, imageAlt);
-      const mainImage = document.getElementById(elementId);
-      console.log('Found mainImage:', mainImage);
-      if (mainImage && mainImage.tagName === 'IMG') {
-        console.log('Updating image src and alt');
-        // @ts-expect-error - HTMLElement type doesn't include img properties
-        mainImage.src = imageSrc;
-        // @ts-expect-error - HTMLElement type doesn't include img properties
-        mainImage.alt = imageAlt;
-        console.log('Image updated successfully');
-      } else {
-        console.log('Main image element not found or not an img tag');
-      }
-    }
-  </script>
 </Base>
+
+<script>
+  // Function to change main image
+  // @ts-expect-error - Astro script context doesn't support TypeScript types
+  function changeMainImage(elementId, imageSrc, imageAlt) {
+    console.log('changeMainImage called with:', elementId, imageSrc, imageAlt);
+    const mainImage = document.getElementById(elementId);
+    console.log('Found mainImage:', mainImage);
+    if (mainImage && mainImage.tagName === 'IMG') {
+      console.log('Updating image src and alt');
+      // @ts-expect-error - HTMLElement type doesn't include img properties
+      mainImage.src = imageSrc;
+      // @ts-expect-error - HTMLElement type doesn't include img properties
+      mainImage.alt = imageAlt;
+      console.log('Image updated successfully');
+    } else {
+      console.log('Main image element not found or not an img tag');
+    }
+  }
+</script>
