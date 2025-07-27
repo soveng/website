@@ -1,0 +1,154 @@
+---
+import Base from "@/layouts/Base.astro";
+import { Image } from "astro:assets";
+---
+
+<Base
+  title="Swag"
+  meta_title="Sovereign Engineering Swag"
+  description="Get your Sovereign Engineering merchandise - shirts, hoodies, and more"
+  showCallToAction={false}
+>
+  <!-- Hero Section with Black-on-Black Image -->
+  <header class="relative h-96 w-full flex items-center justify-center overflow-hidden">
+    <img
+      src="/images/swag/black-on-black.png"
+      alt="Sovereign Engineering Black on Black Design"
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+      <div class="text-center text-white">
+        <h1 class="text-5xl md:text-7xl font-bold mb-4">SOVEREIGN ENGINEERING</h1>
+        <p class="text-xl md:text-2xl">Official Merchandise</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Products Section -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4">Available Shirts</h2>
+        <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          Wear your commitment to sovereign engineering with our premium quality merchandise
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- SEC03 Shirt -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative">
+            <img
+              src="/images/swag/SEC03_Front.png"
+              alt="SEC03 Shirt Front"
+              class="w-full h-80 object-cover"
+            />
+            <div class="absolute top-4 right-4 bg-black text-white px-3 py-1 rounded-full text-sm font-semibold">
+              SEC03
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">SEC03 Collection</h3>
+            <p class="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="flex gap-2 mb-4">
+              <img
+                src="/images/swag/SEC03_Front.png"
+                alt="SEC03 Front"
+                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+              />
+              <img
+                src="/images/swag/SEC03_Back.png"
+                alt="SEC03 Back"
+                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- SEC04 Shirt -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative">
+            <img
+              src="/images/swag/SEC04_Front.png"
+              alt="SEC04 Shirt Front"
+              class="w-full h-80 object-cover"
+            />
+            <div class="absolute top-4 right-4 bg-black text-white px-3 py-1 rounded-full text-sm font-semibold">
+              SEC04
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">SEC04 Collection</h3>
+            <p class="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="flex gap-2 mb-4">
+              <img
+                src="/images/swag/SEC04_Front.png"
+                alt="SEC04 Front"
+                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+              />
+              <img
+                src="/images/swag/SEC04_Back.png"
+                alt="SEC04 Back"
+                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- SEC05 Shirt -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="relative">
+            <img
+              src="/images/swag/SEC05_Front.png"
+              alt="SEC05 Shirt Front"
+              class="w-full h-80 object-cover"
+            />
+            <div class="absolute top-4 right-4 bg-black text-white px-3 py-1 rounded-full text-sm font-semibold">
+              SEC05
+            </div>
+          </div>
+          <div class="p-6">
+            <h3 class="text-2xl font-bold mb-3">SEC05 Collection</h3>
+            <p class="text-gray-600 mb-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="flex gap-2 mb-4">
+              <img
+                src="/images/swag/SEC05_Front.png"
+                alt="SEC05 Front"
+                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+              />
+              <img
+                src="/images/swag/SEC05_Back.png"
+                alt="SEC05 Back"
+                class="w-16 h-16 object-cover rounded border cursor-pointer hover:opacity-75 transition-opacity"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="py-16 bg-black text-white">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-6">Ready to Get Your Swag?</h2>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">
+        Visit our webshop to browse the full collection and place your order
+      </p>
+      <a
+        href="https://shop.soveng.org"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-block bg-white text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200"
+      >
+        Visit Webshop →
+      </a>
+    </div>
+  </section>
+</Base> 

@@ -25,7 +25,7 @@
         { "name": "Podcast", "url": "/podcast" },
         {
           "name": "Swag",
-          "url": "https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
+          "url": "/swag"
         },
         {
           "name": "Media",
@@ -73,7 +73,7 @@
     },
     {
       "name": "Swag",
-      "url": "https://shopstr.store/marketplace/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
+      "url": "/swag"
     },
     {
       "name": "Alumni",
