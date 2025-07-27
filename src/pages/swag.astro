@@ -386,26 +386,5 @@ import Base from "@/layouts/Base.astro";
         mainImage.alt = imageAlt;
       }
     }
-
-    // Add event listeners when DOM is loaded
-    document.addEventListener('DOMContentLoaded', () => {
-      // Add click event listeners to all thumbnail images
-      const thumbnails = document.querySelectorAll('img[onclick]');
-      thumbnails.forEach(thumbnail => {
-        const onclick = thumbnail.getAttribute('onclick');
-        if (onclick && onclick.includes('changeMainImage')) {
-          // Remove the onclick attribute and add proper event listener
-          thumbnail.removeAttribute('onclick');
-          thumbnail.addEventListener('click', () => {
-            // Extract parameters from the original onclick string
-            const match = onclick.match(/changeMainImage\('([^']+)',\s*'([^']+)',\s*'([^']+)'\)/);
-            if (match) {
-              const [, elementId, imageSrc, imageAlt] = match;
-              changeMainImage(elementId, imageSrc, imageAlt);
-            }
-          });
-        }
-      });
-    });
   </script>
 </Base>
