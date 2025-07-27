@@ -10,13 +10,13 @@ import { Image } from "astro:assets";
   showCallToAction={false}
 >
   <!-- Hero Section with Black-on-Black Image -->
-  <header class="relative h-96 w-full flex items-center justify-center overflow-hidden">
+  <header class="relative h-96 w-full flex items-center justify-center overflow-hidden bg-black">
     <img
       src="/images/swag/black-on-black.png"
       alt="Sovereign Engineering Black on Black Design"
-      class="w-full h-full object-cover"
+      class="w-full h-full object-contain opacity-80"
     />
-    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+    <div class="absolute inset-0 flex items-center justify-center">
       <div class="text-center text-white">
         <h1 class="text-5xl md:text-7xl font-bold mb-4">SOVEREIGN ENGINEERING</h1>
         <p class="text-xl md:text-2xl">Official Merchandise</p>
