@@ -10,13 +10,13 @@ import { Image } from "astro:assets";
   showCallToAction={false}
 >
   <!-- Hero Section with Black-on-Black Image -->
-  <header class="relative h-[210px] w-full overflow-hidden bg-black">
+  <header class="relative h-[420px] w-full overflow-hidden bg-black">
     <div class="parallax-container">
-      <img
-        src="/images/swag/black-hat.png"
-        alt="Sovereign Engineering Black Hat Design"
-        class="parallax-image w-full h-[1152px] object-contain opacity-80"
-      />
+              <img
+          src="/images/swag/black-hat.png"
+          alt="Sovereign Engineering Black Hat Design"
+          class="parallax-image w-full h-[800px] object-contain opacity-80"
+        />
     </div>
 
   </header>
@@ -173,7 +173,7 @@ import { Image } from "astro:assets";
       if (!parallaxImage || !header) return;
       
       const headerHeight = header.offsetHeight;
-      const imageHeight = 1152; // Height of the image
+      const imageHeight = 800; // Height of the image
       const maxScroll = imageHeight - headerHeight;
       
       function updateParallax() {
