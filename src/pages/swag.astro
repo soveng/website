@@ -10,12 +10,14 @@ import { Image } from "astro:assets";
   showCallToAction={false}
 >
   <!-- Hero Section with Black-on-Black Image -->
-  <header class="relative h-[1152px] w-full flex items-center justify-center overflow-hidden bg-black">
-    <img
-      src="/images/swag/black-hat.png"
-      alt="Sovereign Engineering Black Hat Design"
-      class="w-full h-full object-contain opacity-80"
-    />
+  <header class="relative h-[210px] w-full overflow-hidden bg-black">
+    <div class="parallax-container">
+      <img
+        src="/images/swag/black-hat.png"
+        alt="Sovereign Engineering Black Hat Design"
+        class="parallax-image w-full h-[1152px] object-contain opacity-80"
+      />
+    </div>
 
   </header>
 
@@ -146,4 +148,52 @@ import { Image } from "astro:assets";
       </a>
     </div>
   </section>
+
+  <style>
+    .parallax-container {
+      position: relative;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    .parallax-image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translateY(0);
+      transition: transform 0.1s ease-out;
+    }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const parallaxImage = document.querySelector('.parallax-image') as HTMLElement;
+      const header = document.querySelector('header') as HTMLElement;
+      
+      if (!parallaxImage || !header) return;
+      
+      const headerHeight = header.offsetHeight;
+      const imageHeight = 1152; // Height of the image
+      const maxScroll = imageHeight - headerHeight;
+      
+      function updateParallax() {
+        const scrollTop = window.pageYOffset;
+        const headerTop = header.offsetTop;
+        const headerBottom = headerTop + headerHeight;
+        
+        // Only apply parallax when header is in view
+        if (scrollTop >= headerTop && scrollTop <= headerBottom) {
+          const progress = (scrollTop - headerTop) / headerHeight;
+          const translateY = -progress * maxScroll;
+          parallaxImage.style.transform = `translateY(${translateY}px)`;
+        }
+      }
+      
+      window.addEventListener('scroll', updateParallax);
+      window.addEventListener('resize', updateParallax);
+      
+      // Initial call
+      updateParallax();
+    });
+  </script>
 </Base> 
