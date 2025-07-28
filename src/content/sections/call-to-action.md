@@ -7,5 +7,5 @@ button:
   enable: false
   label: 'Apply Now!'
   link: 'https://sovereignengineering.typeform.com/SEC-05'
-dates: 'SEC-05 is starting September 1st. SEC-06 will commence in spring 2026.'
+dates: 'SEC-05 is starting September 1st.\nSEC-06 will commence in spring 2026.'
 ---
