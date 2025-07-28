@@ -40,9 +40,12 @@ const { call_to_action } = Astro.props;
                 </a>
               )}
               {call_to_action.data.dates && (
-                <span class="text-white text-lg font-medium">
-                  {call_to_action.data.dates}
-                </span>
+                <div class="text-white text-lg font-medium">
+                  <div>{call_to_action.data.dates}</div>
+                  {call_to_action.data.dates2 && (
+                    <div>{call_to_action.data.dates2}</div>
+                  )}
+                </div>
               )}
             </div>
           </div>

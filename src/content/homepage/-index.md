@@ -6,8 +6,8 @@ banner:
   image: '/images/banner.png'
   button:
     enable: true
-    label: 'Apply Today!'
-    link: '#apply'
+    label: 'Learn More'
+    link: '#what'
 
 # Features
 features:

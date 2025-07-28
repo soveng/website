@@ -125,6 +125,6 @@ sections:
 
 # Call to action
 cta:
-  text: 'Apply Now'
-  link: '/apply'
+  text: 'Applications Closed'
+  link: '#'
 ---
