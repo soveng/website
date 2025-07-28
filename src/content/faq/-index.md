@@ -53,7 +53,7 @@ sections:
     title: 'Application & Contact'
     questions:
       - question: 'How do I apply?'
-        answer: 'By filling out the [SEC-05 application form](https://sovereignengineering.typeform.com/SEC-05).'
+        answer: 'Applications for SEC-05 are now closed. Stay tuned for future opportunities to join our community of builders.'
 
       - question: 'How do I best contact you?'
         answer: "You can contact us via the contact form, via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io), or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."
@@ -74,6 +74,6 @@ sections:
 
 # Call to action
 cta:
-  text: 'Apply Now'
-  link: 'https://sovereignengineering.typeform.com/SEC-05'
+  text: 'Applications Closed'
+  link: '#'
 ---

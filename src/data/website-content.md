@@ -33,7 +33,7 @@ We assume that you know what Bitcoin is and why it is important. We assume that 
 
 We are looking for people with passion and an eagerness to build. Other than that, we don't have any requirements.
 
-Apply here: https://sovereignengineering.typeform.com/SEC-05
+Applications for SEC-05 are now closed. Stay tuned for future opportunities.
 
 # Why Sovereign Engineering?
 

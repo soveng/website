@@ -6,7 +6,7 @@
 
 ## 🚀 SEC-05: YOLO Mode
 
-The upcoming cohort, **SEC-05: YOLO Mode**, will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment. [Apply or learn more here.](https://sovereignengineering.typeform.com/SEC-05)
+The upcoming cohort, **SEC-05: YOLO Mode**, will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment. Applications are now closed.
 
 ---
 

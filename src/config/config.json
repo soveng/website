@@ -25,9 +25,9 @@
   },
 
   "navigation_button": {
-    "enable": true,
-    "label": "Apply Now!",
-    "link": "https://sovereignengineering.typeform.com/SEC-05"
+    "enable": false,
+    "label": "Applications Closed",
+    "link": "#"
   },
 
   "google_tag_manager": {
