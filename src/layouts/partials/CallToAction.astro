@@ -40,9 +40,11 @@ const { call_to_action } = Astro.props;
                 </a>
               )}
               {call_to_action.data.dates && (
-                <span class="text-white text-lg font-medium">
-                  {call_to_action.data.dates}
-                </span>
+                <div class="text-white text-lg font-medium">
+                  {call_to_action.data.dates.split('\n').map((line: string, index: number) => (
+                    <div>{line}</div>
+                  ))}
+                </div>
               )}
             </div>
           </div>
