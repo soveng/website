@@ -22,6 +22,8 @@ export function getAllMenuItems(menu: Menu): MenuItem[] {
 }
 
 export function getFooterMenuItems(menu: Menu): MenuItem[] {
-  // Use the same items as mobile nav, maintaining the same order
-  return getAllMenuItems(menu);
+  // Get all items from the "More" dropdown but exclude Media and Videos
+  // since they're already covered by social media buttons
+  const allItems = getAllMenuItems(menu);
+  return allItems.filter((item) => item.name !== 'Media' && item.name !== 'Videos');
 }
