@@ -166,6 +166,7 @@ const ctaSectionCollection = defineCollection({
       link: z.string(),
     }),
     dates: z.string().optional(),
+    dates2: z.string().optional(),
   }),
 });
 
