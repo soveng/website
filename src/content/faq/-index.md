@@ -26,7 +26,7 @@ sections:
         answer: 'If you are selected for SEC-05, we expect and welcome you on Monday **Sept 1st** 2025 at 9am.'
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
-        answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\n[///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
+        answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation Pin:[///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
 
       - question: 'Is this a free program?'
         answer: "Yes, it is. If you are selected, the program is free for you. We'll take care of the shared coworking space and make sure you feel at home. This location will be our homebase until the final Demo Day.\n\nThat said, we are not going to work 24/7. Grant yourself some time off after our working sessions to relax and enjoy the island."
