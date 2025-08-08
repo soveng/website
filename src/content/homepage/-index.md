@@ -15,8 +15,8 @@ features:
     image: '/images/boat2.png'
     content: 'We love the internet—it is one of the most important inventions in human history and essential for a free, flourishing society. But parts of today''s web are failing us. Bitcoin and Nostr point toward a healthier architecture: open, permissionless, and self-sovereign.'
     bulletpoints:
-      - 'Build systems in the spirit of Bitcoin'
       - 'Focus on value-aligned technologies'
+      - 'Build systems in the spirit of Bitcoin'
       - 'Create the future of self-sovereign applications'
       - 'Escape the attention economy and parasitic web models'
       - 'Design for censorship resistance and permissionless access'
