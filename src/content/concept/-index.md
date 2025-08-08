@@ -11,7 +11,7 @@ intro:
 
       The program runs on a relentless [weekly loop](/loop) designed for exploration: Monday orientation sets the theme, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
-      The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly, beautiful, and conducive to spontaneous creation, and remarkable things follow.
+      The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
   image: 'www-life-path.png'
 
 # Concept sections
@@ -88,7 +88,7 @@ sections:
 
       **Alpha-Testing the Future**: Build a wallet on Thursday, pay with it on Friday. Hardware, merchants, and curious peers live within walking distance, collapsing the feedback loop.
 
-      **The Filter and the Place**: You have to fly here and commit for six weeks—a natural filter. The volcanic island, subtropical climate, and dramatic topography spark spontaneous creation.
+      **The Filter and the Place**: You have to fly here and commit for six weeks—a natural filter. The volcanic island, subtropical climate, and dramatic topography create the space for fresh perspectives and new ideas to emerge.
 
   - id: 'target-audience'
     title: 'Who Should Apply?'
@@ -98,7 +98,7 @@ sections:
       **The Ideal Participant**:
       The ideal participant is an experienced builder who resonates with the Bitcoin ethos, can code independently, and is eager to explore the frontier. They are excited—rather than terrified—by the prospect of demoing half-baked prototypes, crave long, oxytocin-fueled walks, and thrive on rapid feedback. They believe that Freedom Tech is the moral imperative of our time, want to build the future they want to see, and are willing to be fully present for the full program.
 
-      **The Magic Formula**: Bring 21 aligned people together in a place that is highly Bitcoin-friendly, beautiful, and conducive to spontaneous creation, and magical things are bound to happen.
+      **The Magic Formula**: Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, and you get the perspective shift needed for new ideas to take root.
 
       **The Goal**: We want to see awesome stuff being built, expand the impact that freedom tech can have, come up with new ideas and protocols, test them immediately, and have a good time while doing it.
     image: 'stay-weird.jpg'
