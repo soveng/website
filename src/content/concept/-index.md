@@ -82,7 +82,7 @@ sections:
     title: 'The Environment'
     image: 'madeira.jpg'
     content: |
-      Madeira isn't just beautiful—it's a **Bitcoin-friendly proving ground**. Thanks to the efforts of André and FREE Madeira, there are 150+ merchants accepting Bitcoin. Paying in sats is normal.
+      Madeira isn't just beautiful—it's a **Bitcoin-friendly proving ground**. Thanks to the efforts of André and FREE Madeira, there are [150+ merchants](https://btcmap.org/community/free-madeira/merchants) accepting Bitcoin. Paying in sats is normal.
 
       **Off the Record, In Person**: We combine high-bandwidth in-person time with a private, off-the-record space. That safety lets wild ideas breathe before they ship to the open sea.
 
