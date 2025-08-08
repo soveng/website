@@ -9,7 +9,7 @@ intro:
   content: |
       Sovereign Engineering is a six-week, in-person program on the island of Madeira. Its purpose is to create the best possible environment for **high-bandwidth ideation, collaboration, and rapid prototyping** around Freedom Tech such as Bitcoin, Lightning, and Nostr.
 
-      The program runs on a relentless [weekly loop](/loop) designed for exploration: Monday orientation sets the theme, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
+      The program runs on a relentless [weekly loop](/loop) designed for exploration: Monday mornings set the theme for the week, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
       The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
   image: 'www-life-path.png'
