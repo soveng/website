@@ -110,6 +110,8 @@ sections:
       Freedom Tech is not built in fiscal quarters; it is forged across decades. We favor antifragile tooling, small teams, and battle-tested primitives that will still compile when our grandchildren fork the repo.
 
       We endure because the mission matters: **fix the money, fix the internet**. Everything else is a footnote.
+    afterContent: |
+      <p class="mt-6 text-center"><a href="/concept">Next: Explore the Concept →</a></p>
 
 # Call to action
 cta:
