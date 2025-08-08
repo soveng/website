@@ -53,6 +53,7 @@ const philosophyCollection = defineCollection({
         float: z.string(),
         content: z.string(),
         link: z.string().optional(),
+        afterContent: z.string().optional(),
       }),
     ),
     cta: z.object({
@@ -80,6 +81,7 @@ const conceptCollection = defineCollection({
         content: z.string(),
         image: z.string().optional(),
         float: z.string().optional(),
+        afterContent: z.string().optional(),
       }),
     ),
     cta: z.object({

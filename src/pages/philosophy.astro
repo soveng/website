@@ -55,6 +55,7 @@ interface Section {
   float: string;
   content: string;
   link?: string;
+  afterContent?: string;
 }
 ---
 
@@ -80,6 +81,7 @@ interface Section {
       content={section.content}
       image={slideMap[section.image]}
       index={index}
+      afterContent={section.afterContent}
       pullquote={{
         quote: getQuote(section.quote_section || "")?.quote || "",
         author: getQuote(section.quote_section || "")?.author || "",

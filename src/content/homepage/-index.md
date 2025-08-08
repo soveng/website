@@ -13,14 +13,14 @@ banner:
 features:
   - title: 'Why Sovereign Engineering?'
     image: '/images/boat2.png'
-    content: 'We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future.'
+    content: 'We love the internet—it is one of the most important inventions in human history and essential for a free, flourishing society. But parts of today''s web are failing us. Bitcoin and Nostr point toward a healthier architecture: open, permissionless, and self-sovereign.'
     bulletpoints:
-      - 'Build systems in the spirit of Bitcoin'
       - 'Focus on value-aligned technologies'
+      - 'Build systems in the spirit of Bitcoin'
       - 'Create the future of self-sovereign applications'
       - 'Escape the attention economy and parasitic web models'
       - 'Design for censorship resistance and permissionless access'
-      - 'Build cool shit that actually gets shipped and used'
+      - 'Build cool shit that actually gets shipped and used. No shitcoins.'
     button:
       enable: true
       label: 'Read our philosophy'
@@ -43,7 +43,7 @@ features:
 
   - title: 'How does it work?'
     image: '/images/map.png'
-    content: 'The program is powered by five core pillars that create the conditions for magical collaboration and rapid prototyping.'
+    content: 'The program is powered by five core pillars that create the conditions for meaningful collaboration and rapid prototyping.'
     weeklyRhythm: true
     bulletpoints:
       - '**In-Person Intensity**: Physical presence on Madeira creates deep focus'

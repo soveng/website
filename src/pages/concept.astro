@@ -24,6 +24,7 @@ import twoHoursConversationImage from "@/assets/images/2-hours-of-conversation.j
 import stayWeirdImage from "@/assets/images/stay-weird.jpg";
 import flowersImage from "@/assets/images/flowers.jpg";
 import wwwLifePathImage from "@/assets/images/www-life-path.png";
+import { slugify } from "@/lib/utils/textConverter";
 
 // Get concept content
 const concept = (await getEntry(
@@ -77,17 +78,15 @@ interface Section {
 const processedSections = sections.map(
   (section: Section) => {
   if (section.id === "weekly-loop") {
-    // Convert weekly rhythm schedule to bulletpoints
-    const scheduleBullets = weeklyRhythmData.schedule.map((item) =>
-      `**${item.day}** – ${item.short_description}`
-    );
-    // Create the "Learn More" link
-    const link = `**[Learn more about the weekly rhythm →](/loop)**`;
+    // Convert weekly rhythm schedule to bulletpoints with anchor links to /loop
+    const scheduleBullets = weeklyRhythmData.schedule.map((item) => {
+      const anchor = slugify(item.day);
+      return `**[${item.day}](/loop#${anchor})** – ${item.short_description}`;
+    });
 
     return {
       ...section,
       bulletpoints: scheduleBullets,
-      afterContent: link,
     };
   }
 
