@@ -45,12 +45,6 @@ sections:
 
       **Why Walking Works**: Research shows walking stimulates creative thought. As one participant put it: "left foot, right foot, left brain, right brain." The physical movement activates your whole being and creates the perfect conditions for free-flowing ideas.
 
-      **Natural Group Mixing**: With 21 participants, the walks naturally mix the group. You'll have many different conversational partners during a three-hour walk. Two guides—one at the front, one at the back—ensure the group stays together by stopping every 20 minutes to enjoy views, take water breaks, and let everyone catch up.
-
-      **The Alternative**: Contrast this with sitting around a long table for dinner—you'd have at most three conversational partners (left, right, front) and the group wouldn't mix. Walking creates the natural group formation and spontaneous conversations we need.
-
-      **The Path Requirements**: Paths must be wide enough for side-by-side walking (not single-file), mostly flat so anyone can participate, and comfortable enough for conversation. Guides keep the group together, stopping regularly to let everyone catch up.
-
       The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. Exposure to sun, wind, and ocean spray anchors discussions in sensory memory; participants can later reference "that idea above the cloud layer" and everyone knows the exact moment.
     image: 'walking.jpeg'
     float: 'right'
