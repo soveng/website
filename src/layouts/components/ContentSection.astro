@@ -109,7 +109,7 @@ const processedAfterContent = afterContent ? await markdownify(afterContent) : n
                 {processedBulletPoints.map((bullet: string) => (
                   <li class="flex items-center mb-4 text-white text-lg">
                     <span class="mr-3 flex-shrink-0 text-white">&#10022;</span>
-                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white" />
+                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white [&_a]:underline [&_a]:decoration-2 [&_a]:underline-offset-2 hover:[&_a]:text-primary" />
                   </li>
                 ))}
               </ul>
@@ -152,7 +152,7 @@ const processedAfterContent = afterContent ? await markdownify(afterContent) : n
                 {processedBulletPoints.map((bullet: string) => (
                   <li class="flex items-center mb-4 text-white text-lg">
                     <span class="mr-3 flex-shrink-0 text-white">&#10022;</span>
-                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white" />
+                    <span set:html={bullet} class="text-lg [&_a]:text-lg [&_a]:text-white [&_a]:underline [&_a]:decoration-2 [&_a]:underline-offset-2 hover:[&_a]:text-primary" />
                   </li>
                 ))}
               </ul>
