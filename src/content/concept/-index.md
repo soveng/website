@@ -45,7 +45,7 @@ sections:
 
       **Why Walking Works**: Research shows walking stimulates creative thought. As one participant put it: "left foot, right foot, left brain, right brain." The physical movement activates your whole being and creates the perfect conditions for free-flowing ideas.
 
-      The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. Exposure to sun, wind, and ocean spray anchors discussions in sensory memory; participants can later reference "that idea above the cloud layer" and everyone knows the exact moment.
+      The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. The sensory experience of sun, wind, and ocean spray anchors discussions in memory, making ideas easier to recall and reference later.
     image: 'walking.jpeg'
     float: 'right'
 
