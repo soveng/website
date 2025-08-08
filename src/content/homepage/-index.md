@@ -43,7 +43,7 @@ features:
 
   - title: 'How does it work?'
     image: '/images/map.png'
-    content: 'The program is powered by five core pillars that create the conditions for magical collaboration and rapid prototyping.'
+    content: 'The program is powered by five core pillars that create the conditions for meaningful collaboration and rapid prototyping.'
     weeklyRhythm: true
     bulletpoints:
       - '**In-Person Intensity**: Physical presence on Madeira creates deep focus'

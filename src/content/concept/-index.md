@@ -11,7 +11,7 @@ intro:
 
       The program runs on a relentless [weekly loop](/loop) designed for exploration: Monday orientation sets the theme, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
-      The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly, beautiful, and conducive to spontaneous creation, and magical things follow.
+      The program is **private and off the record**—a safe space where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly, beautiful, and conducive to spontaneous creation, and remarkable things follow.
   image: 'www-life-path.png'
 
 # Concept sections
@@ -19,9 +19,9 @@ sections:
   - id: 'core-pillars'
     title: 'Core Pillars'
     content: |
-      Sovereign Engineering rests on five fundamental pillars that create the conditions for magical collaboration:
+      Sovereign Engineering rests on five fundamental pillars that create the conditions for meaningful collaboration:
 
-      **The Weekly Loop**: The relentless show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure—a metronome for creativity.
+      **The Weekly Loop**: A steady show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure—a metronome for creativity.
 
       **The Walks**: Moderate hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
 
