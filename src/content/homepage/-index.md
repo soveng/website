@@ -38,7 +38,7 @@ features:
       - "**Demo Day every Friday** - show what you've built"
     button:
       enable: true
-      label: 'Demo Day Outcomes'
+      label: 'Explore the Outcomes'
       link: '/projects'
 
   - title: 'How does it work?'
