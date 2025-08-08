@@ -19,6 +19,7 @@ features:
       - 'Focus on value-aligned technologies'
       - 'Create the future of self-sovereign applications'
       - 'Escape the attention economy and parasitic web models'
+      - 'Design for censorship resistance and permissionless access'
       - 'Build cool shit that actually gets shipped and used'
     button:
       enable: true
