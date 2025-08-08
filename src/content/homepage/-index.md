@@ -20,7 +20,7 @@ features:
       - 'Create the future of self-sovereign applications'
       - 'Escape the attention economy and parasitic web models'
       - 'Design for censorship resistance and permissionless access'
-      - 'Build cool shit that actually gets shipped and used'
+      - 'Build cool shit that actually gets shipped and used. No shitcoins.'
     button:
       enable: true
       label: 'Read our philosophy'
