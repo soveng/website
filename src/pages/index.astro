@@ -134,7 +134,7 @@ const bannerTitle = await markdownify(banner.title);
         bulletPoints = feature.bulletpoints;
       }
 
-      const sectionId = index === 0 ? "what" : index === 1 ? "how" : index === 2 ? "why" : "";
+      const sectionId = index === 0 ? "why" : index === 1 ? "what" : index === 2 ? "how" : "";
 
       return (
         <>
@@ -147,7 +147,7 @@ const bannerTitle = await markdownify(banner.title);
             index={index}
             id={sectionId}
           />
-          {/* Insert quote after the first feature */}
+          {/* Insert quote after the first feature (Why) */}
           {index === 0 && (
             <BigBlockQuote
               quote={philosophyQuotes.find(q => q.id === "saint-exupery")?.quote || ""}
@@ -155,7 +155,7 @@ const bannerTitle = await markdownify(banner.title);
               href="/philosophy"
             />
           )}
-          {/* Insert Hal Finney quote after the second feature */}
+          {/* Insert Hal Finney quote after the second feature (What) */}
           {index === 1 && (
             <BigBlockQuote
               quote={philosophyQuotes.find(q => q.id === "hal-finney")?.quote || ""}

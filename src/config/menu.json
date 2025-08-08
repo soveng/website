@@ -1,16 +1,16 @@
 {
   "main": [
     {
+      "name": "Why?",
+      "url": "/#why"
+    },
+    {
       "name": "What?",
       "url": "/#what"
     },
     {
       "name": "How?",
       "url": "/#how"
-    },
-    {
-      "name": "Why?",
-      "url": "/#why"
     },
     {
       "name": "More",

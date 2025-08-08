@@ -7,10 +7,25 @@ banner:
   button:
     enable: true
     label: 'Learn More'
-    link: '#what'
+    link: '#why'
 
 # Features
 features:
+  - title: 'Why Sovereign Engineering?'
+    image: '/images/boat2.png'
+    content: 'We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future.'
+    bulletpoints:
+      - 'In-person collaboration and high-bandwidth communication'
+      - 'Build cool shit that actually gets shipped and used'
+      - 'Focus on value-aligned technologies'
+      - 'Build systems in the spirit of Bitcoin'
+      - 'Create the future of self-sovereign applications'
+      - 'Escape the attention economy and parasitic web models'
+    button:
+      enable: true
+      label: 'Explore our philosophy'
+      link: '/philosophy'
+
   - title: 'What is Sovereign Engineering?'
     image: '/images/boat1.png'
     content: 'Sovereign Engineering is a 6-week program that brings together 21 participants in Madeira for in-person collaboration, ideation, and building.'
@@ -40,19 +55,4 @@ features:
       enable: true
       label: 'Learn Our Concept'
       link: '/concept'
-
-  - title: 'Why Sovereign Engineering?'
-    image: '/images/boat2.png'
-    content: 'We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future.'
-    bulletpoints:
-      - 'In-person collaboration and high-bandwidth communication'
-      - 'Build cool shit that actually gets shipped and used'
-      - 'Focus on value-aligned technologies'
-      - 'Build systems in the spirit of Bitcoin'
-      - 'Create the future of self-sovereign applications'
-      - 'Escape the attention economy and parasitic web models'
-    button:
-      enable: true
-      label: 'Explore our philosophy'
-      link: '/philosophy'
 ---
