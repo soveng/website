@@ -58,7 +58,7 @@ sections:
 
       **The Philosophy**: We highly encourage trying bold ideas every week. It doesn't matter if it's half-broken or half-baked—just give it your best shot and show it on Friday. The point is to ship thin vertical slices and learn fast.
 
-      **The Celebration**: After demos, we have a [beefsteak-style](https://archive.is/S3LjP) standing barbecue (no pre-arranged seating) that encourages natural group mixing. Friends and family are invited to join, creating a bridge between the private program and the broader community.
+      **The Celebration**: After demos, we have a [beefsteak-style](https://archive.is/S3LjP) standing barbecue (no pre-arranged seating) that invites relaxed, free-flowing conversation. Friends and family are invited to join, creating a bridge between the private program and the broader community.
 
       **The Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
     image: 'demo-day.jpeg'
@@ -75,7 +75,7 @@ sections:
 
       **The Rotation**: By rotating leadership every week, the cohort practices the very autonomy it preaches. Leadership is shared, logistics are decentralized, and the program stays tight without feeling top-down.
 
-      **The Exception**: One week (week 4 or 5) is designated as "time off" because the program is quite intense. We learned over time that we need this break.
+      **The Exception**: Week 4 is designated as "time off" because the program is quite intense. We learned over time that we need this break.
     image: 'weekly-loop-schedule.png'
 
   - id: 'environment'
