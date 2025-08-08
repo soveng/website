@@ -103,6 +103,7 @@ sections:
     quote_section: 'Endurance' # References philosophy-quotes.json
     image: 'endurance.jpeg'
     float: 'left'
+    link: '/books'
     content: |
       Building self-sovereign systems is a **marathon**, not a sprint; endurance and steady iteration win the day.
 
