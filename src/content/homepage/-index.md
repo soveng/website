@@ -23,7 +23,7 @@ features:
       - 'Build cool shit that actually gets shipped and used'
     button:
       enable: true
-      label: 'Explore our philosophy'
+      label: 'Read our philosophy'
       link: '/philosophy'
 
   - title: 'What is Sovereign Engineering?'
