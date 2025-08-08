@@ -11,7 +11,7 @@ intro:
 
       The program runs on a relentless [weekly loop](/loop) designed for exploration: *Monday Mornings* set the theme for the week, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
-      The program is **private and off the record**—a protected environment where 21 value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
+      The program is **private and off the record**—a protected environment where value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
   image: 'www-life-path.png'
 
 # Concept sections
