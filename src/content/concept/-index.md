@@ -21,15 +21,15 @@ sections:
     content: |
       Sovereign Engineering rests on five fundamental pillars that create the conditions for magical collaboration:
 
-      **The Weekly Loop**: The relentless show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure, creating a metronome for creativity.
+      **The Weekly Loop**: The relentless show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure—a metronome for creativity.
 
       **The Walks**: Moderate hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
 
-      **Friday Demo Days**: Where the rubber meets the road—every participant demos working code every week. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
+      **The Demo Days**: Where the rubber meets the road—every participant demos working code every week. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
 
-      **Six Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Rotating leadership keeps the program tight without feeling top-down.
+      **The Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Rotating leadership keeps the program tight without feeling top-down.
 
-      **In-Person Intensity**: Being physically present on a remote island creates the commitment and focus needed for deep work. High-bandwidth communication, trust building, and ideation only work in person.
+      **The Environment**: Madeira makes ideas tangible fast—Bitcoin-friendly merchants, high-bandwidth in-person time, and an off-the-record space for bold exploration. Privacy, presence, and immediacy compound.
     image: '2-hours-of-conversation.jpeg'
 
   - id: 'weekly-loop'
@@ -56,7 +56,7 @@ sections:
     float: 'right'
 
   - id: 'demo-day'
-    title: 'Friday: Demo Day'
+    title: 'The Demo Days'
     content: |
       Nothing concentrates the mind like a live demo. Every Friday afternoon the cohort gathers to **show whatever runs**. Polish is optional, honesty is mandatory. The rule is simple: you must demo something new every week—either related to ongoing work or completely fresh ideas.
 
@@ -69,22 +69,10 @@ sections:
       **The Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
     image: 'demo-day.jpeg'
 
-  - id: 'in-person-off-record'
-    title: 'In Person, Off the Record'
-    content: |
-      This is a **private, off-the-record event**—a core principle that cannot be overstated. You cannot do proper thinking completely out in the open. You have to be able to think in private and communicate in private without worrying about the online mob coming after you for having a crazy, weird, or stupid idea.
-
-      **Why Privacy Matters**: We want to build out in the open and care deeply about open source, but ideation and experimentation require a safe space. You only want criticism from people who are actually on your side—otherwise you might destroy a gem of an idea too early.
-
-      **The Experience**: We've learned this through hard experience. Bringing outside people into the group too early destroys the dynamic and trust built over weeks. The private space allows for unconstrained thinking and the discussion of more radical ideas.
-
-      **The Balance**: Once ideas are robust, they're exported to the open sea—published on Nostr, open-sourced on GitHub, or demoed publicly. The off-record space ensures critique targets the work, not internet clout.
-
-      **Presence**: We encourage participants to be fully present—leave phones at home or put them in airplane mode. If an idea is really good, you won't need to write it down—it will stay with you or someone else will remember it.
-    image: 'opt-out.jpg'
+  
 
   - id: 'weekly-captains'
-    title: '6 Weeks, 6 Captains'
+    title: 'The Captains'
     content: |
       Each week has a dedicated captain who steers the ship through that week's journey, ensuring organic emergence rather than top-down direction.
 
@@ -96,19 +84,17 @@ sections:
       **The Exception**: One week (week 4 or 5) is designated as "time off" because the program is quite intense. We learned over time that we need this break.
     image: 'weekly-loop-schedule.png'
 
-  - id: 'madeira-bitcoin'
-    title: 'Madeira: The Bitcoin Island'
+  - id: 'environment'
+    title: 'The Environment'
     image: 'madeira.jpg'
     content: |
-      Madeira isn't just a beautiful location—it's a **Bitcoin-friendly breeding ground** for the future. Thanks to the efforts of André and FREE Madeira, there are 150+ merchants on the island accepting Bitcoin. Paying in Bitcoin is so normal here that you barely think about it.
+      Madeira isn't just beautiful—it's a **Bitcoin-friendly proving ground**. Thanks to the efforts of André and FREE Madeira, there are 150+ merchants accepting Bitcoin. Paying in sats is normal.
 
-      **The Alpha Test Experience**: Build a new wallet on Thursday, then go to a coffee shop on Friday and pay with the wallet you built yesterday. It works—and it's an amazing feeling. In some ways, you can alpha test the future in Madeira.
+      **Off the Record, In Person**: We combine high-bandwidth in-person time with a private, off-the-record space. That safety lets wild ideas breathe before they ship to the open sea.
 
-      **The Filter Effect**: You can't just swing by and leave—you have to fly there. This creates a natural filter ensuring participants are committed to the full six-week experience.
+      **Alpha-Testing the Future**: Build a wallet on Thursday, pay with it on Friday. Hardware, merchants, and curious peers live within walking distance, collapsing the feedback loop.
 
-      **The Environment**: Madeira is a volcanic island with a subtropical climate, dark volcanic cliffs, and breathtaking topography. It's a magical place that enables spontaneous creation and the spawning of new ideas.
-
-      **The Community**: There are many Bitcoiners on the island, and merchant adoption is through the roof. It's a fantastic place to run a Sovereign Engineering cohort because it's highly Bitcoin-friendly and allows immediate testing of new protocols and tools.
+      **The Filter and the Place**: You have to fly here and commit for six weeks—a natural filter. The volcanic island, subtropical climate, and dramatic topography spark spontaneous creation.
 
   - id: 'target-audience'
     title: 'Who Should Apply?'
