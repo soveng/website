@@ -41,7 +41,7 @@ sections:
   - id: 'walks'
     title: 'The Walks'
     content: |
-      Walking isn't downtime—it's moving *R&D*. The weekend walks are the absolute core pillar of Sovereign Engineering, designed for light-to-moderate two- to three-hour hikes at a comfortable pace where participants can walk side-by-side and have conversations without breaking a sweat.
+      Walking isn't downtime—it's moving *R&D*. The weekend walks are a crucial component of Sovereign Engineering, designed for light-to-moderate two- to three-hour hikes at a comfortable pace where participants can walk side-by-side and have conversations without breaking a sweat.
 
       **Why Walking Works**: Research shows walking stimulates creative thought. As one participant put it: "left foot, right foot, left brain, right brain." The physical movement activates your whole being and creates the perfect conditions for free-flowing ideas.
 
