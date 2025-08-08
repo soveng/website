@@ -123,7 +123,7 @@ sections:
       **The Goal**: We want to see awesome stuff being built, expand the impact that freedom tech can have, come up with new ideas and protocols, test them immediately, and have a good time while doing it.
     image: 'stay-weird.jpg'
     afterContent: |
-      <p class="mt-6 text-center"><a href="/loop">Next: See the Weekly Loop →</a></p>
+      <p class="mt-6"><a href="/loop">Next: See the Weekly Loop →</a></p>
 
 # Call to action
 cta:

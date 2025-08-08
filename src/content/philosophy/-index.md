@@ -111,7 +111,7 @@ sections:
 
       We endure because the mission matters: **fix the money, fix the internet**. Everything else is a footnote.
     afterContent: |
-      <p class="mt-6 text-center"><a href="/concept">Next: Explore the Concept →</a></p>
+      <p class="mt-6"><a href="/concept">Next: Explore the Concept →</a></p>
 
 # Call to action
 cta:
