@@ -21,15 +21,15 @@ sections:
     content: |
       Sovereign Engineering rests on five fundamental pillars that create the conditions for meaningful collaboration:
 
-      **The Weekly Loop**: A steady show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure—a metronome for creativity.
+      **[The Weekly Loop](#weekly-loop)**: A steady show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure—a metronome for creativity.
 
-      **The Walks**: Moderate hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
+      **[The Walks](#walks)**: Moderate hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
 
-      **The Demo Days**: Where the rubber meets the road—every participant demos working code every week. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
+      **[The Demo Days](#demo-day)**: Where the rubber meets the road—every participant demos working code every week. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
 
-      **The Captains**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Rotating leadership keeps the program tight without feeling top-down.
+      **[The Captains](#weekly-captains)**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Rotating leadership keeps the program tight without feeling top-down.
 
-      **The Environment**: Madeira makes ideas tangible fast—Bitcoin-friendly merchants, high-bandwidth in-person time, and an off-the-record space for bold exploration. Privacy, presence, and immediacy compound.
+      **[The Environment](#environment)**: Madeira makes ideas tangible fast—Bitcoin-friendly merchants, high-bandwidth in-person time, and an off-the-record space for bold exploration. Privacy, presence, and immediacy compound.
     image: '2-hours-of-conversation.jpeg'
 
   - id: 'weekly-loop'
