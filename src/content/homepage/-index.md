@@ -15,12 +15,11 @@ features:
     image: '/images/boat2.png'
     content: 'We believe the internet is broken and we can do better. Bitcoin and nostr have crucial roles to play in fixing the Web and building a self-sovereign future.'
     bulletpoints:
-      - 'In-person collaboration and high-bandwidth communication'
-      - 'Build cool shit that actually gets shipped and used'
-      - 'Focus on value-aligned technologies'
       - 'Build systems in the spirit of Bitcoin'
+      - 'Focus on value-aligned technologies'
       - 'Create the future of self-sovereign applications'
       - 'Escape the attention economy and parasitic web models'
+      - 'Build cool shit that actually gets shipped and used'
     button:
       enable: true
       label: 'Explore our philosophy'
