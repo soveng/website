@@ -21,23 +21,23 @@ sections:
     image: 'genesis-block.png'
     float: 'right'
     content: |
-      Bitcoin, Lightning, and Nostr prove that code can embed freedom at the protocol layer: freedom of speech, assembly, movement, and of course financial freedom.  We strive to reproduce that super-power in every system we touch, so that liberty is enforced by mathematics rather than maintained by promises.
+      Bitcoin, Lightning, and Nostr prove that code can embed freedom at the protocol layer: speech, assembly, movement—and of course financial freedom. We strive to reproduce that superpower in every system we touch, so liberty is enforced by mathematics rather than maintained by promises.
 
-      Good design begins with values.  We minimise dependencies, maximise verifiability, and keep exit-costs asymptotically close to zero. When the design is right, freedom is a property—not a permission.
+      Good design begins with values. We minimize dependencies, maximize verifiability, and keep exit costs asymptotically close to zero. When the design is right, freedom is a property—not a permission.
 
-      This way of thinking is what we call *Freedom Tech*: technology that is rugpull-resistant by design.  When betrayal is impossible, trust becomes optional and collaboration scales.
+      This way of thinking is what we call *Freedom Tech*: technology that is rug-pull-resistant by design. When betrayal is impossible, trust becomes optional and collaboration scales.
 
   - id: 'solved-by-walking'
-    title: 'Solved By Walking'
+    title: 'Solved by Walking'
     quote_section: 'Solved By Walking' # References philosophy-quotes.json
     image: 'solvitur-ambulando.jpeg'
     float: 'left'
     content: |
-      No ill-defined problem was ever solved in isolation.  By gathering bright minds in a high-trust setting we tap into what cognitive scientist [John Vervaeke](https://johnvervaeke.com/series/awakening-from-the-meaning-crisis/) calls *distributed cognition*.  Ideas bounce, mutate, and compound until entirely new solution-spaces appear.
+      No ill-defined problem was ever solved in isolation. By gathering bright minds in a high-trust setting we tap into what cognitive scientist [John Vervaeke](https://johnvervaeke.com/series/awakening-from-the-meaning-crisis/) calls *distributed cognition*. Ideas bounce, mutate, and compound until entirely new solution-spaces appear.
 
-      The fuel for that process is conversation, and the best conversations happen while *walking*.  Saint Augustine called it *Solvitur ambulando*—"by walking it shall be solved." Madeira's levadas offer kilometres of cognitive runway.
+      The fuel for that process is conversation, and the best conversations happen while *walking*. Saint Augustine called it *Solvitur ambulando*—"by walking it shall be solved." Madeira's levadas offer kilometers of cognitive runway.
 
-      Friday's Demo Day then serves as an epistemic checkpoint.  Six minutes to show, two to discuss.  Brutal, illuminating, and endlessly inspiring.
+      Friday's Demo Day serves as an epistemic checkpoint. Six minutes to show, two to discuss. Brutal, illuminating, and endlessly inspiring.
 
   - id: 'explorers-of-a-new-frontier'
     title: 'Explorers of a New Frontier'
@@ -49,7 +49,7 @@ sections:
 
       Like Shackleton's crew, participants must trust one another when storms hit, and celebrate together when new land appears on the horizon. The sea is vast, and so is the opportunity.
 
-      Those who prefer calm harbours and predictable schedules need not apply.  We are optimised for the pirates, the adventurers, and the stubborn optimists who believe the internet can still astonish us.
+      Those who prefer calm harbors and predictable schedules need not apply. We are optimized for the pirates, the adventurers, and the stubborn optimists who believe the internet can still astonish us.
 
   - id: 'in-person-high-bandwidth'
     title: 'In-Person, High-Bandwidth'
@@ -70,13 +70,13 @@ sections:
     float: 'right'
     link: '/concept'
     content: |
-      We prototype first, critique later. Imperfect code is welcomed if it advances the conversation. Novelty, experimentation, and rapid iteration trump premature optimisation.
+      We prototype first, critique later. Imperfect code is welcomed if it advances the conversation. Novelty, experimentation, and rapid iteration trump premature optimization.
 
       This bias for action produces tangible results: from *Blossom* to *ZapStore*, many [cohort projects](/projects) were conceived on a Monday walk and open-sourced before the next weekend. The world needs working code, not slide decks.
 
-      Direction beats speed, yet speed still helps.  We chase the 80-20, knowing that the last 20 % can wait until the idea survives first contact with reality.
+      Direction beats speed, yet speed still helps. We chase the 80–20, knowing that the last 20% can wait until the idea survives first contact with reality.
 
-      Want to see how this rapid loop plays out week-by-week? Explore the full cadence in our [Concept](/concept) section.
+      Want to see how this rapid loop plays out week by week? Explore the full cadence in our [Concept](/concept) section.
 
   - id: 'cypherpunks-write-code'
     title: 'Cypherpunks Write Code'
@@ -84,9 +84,9 @@ sections:
     image: 'cypherpunks-write-code.jpeg'
     float: 'left'
     content: |
-      *"What does it mean to 'build it right'?"* ask Pablo & Gigi. It means writing code that the user can verify, fork, and *exit* from; choosing architectures that minimise trust; and favouring primitives that stand the test of decades.
+      *"What does it mean to 'build it right'?"* ask Pablo & Gigi. It means writing code that the user can verify, fork, and *exit* from; choosing architectures that minimize trust; and favoring primitives that stand the test of decades.
 
-      Hal Finney's challenge calls for code that stands on its own—transparent, user-verifiable, and resilient to adversarial pressure.  We prize lean binaries, readable source, and simple dependency graphs so every sailor on this digital ocean can audit the hull before they board.
+      Hal Finney's challenge calls for code that stands on its own—transparent, user-verifiable, and resilient to adversarial pressure. We prize lean binaries, readable source, and simple dependency graphs so every sailor on this digital ocean can audit the hull before they board.
 
   - id: 'no-solutions'
     title: 'No Solutions'
@@ -94,7 +94,7 @@ sections:
     image: 'wide-open-sea.jpeg'
     float: 'right'
     content: |
-      Our craft is the art of choosing the right compromises—those that maximise sovereignty, minimise trust, and preserve optionality for generations of builders to come.
+      Our craft is the art of choosing the right compromises—those that maximize sovereignty, minimize trust, and preserve optionality for generations of builders to come.
 
       The [No Solutions podcast](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n) is our experiment in *Dia-Logos*—capturing the same free-flowing, exploratory conversations that spark during every cohort and pressing record.
 
@@ -106,9 +106,9 @@ sections:
     content: |
       Building self-sovereign systems is a **marathon**, not a sprint; endurance and steady iteration win the day.
 
-      Freedom Tech is not built in fiscal quarters; it is forged across decades.  We favour antifragile tooling, small teams, and battle-tested primitives that will still compile when our grandchildren fork the repo.
+      Freedom Tech is not built in fiscal quarters; it is forged across decades. We favor antifragile tooling, small teams, and battle-tested primitives that will still compile when our grandchildren fork the repo.
 
-      We endure because the mission matters: **fix the money, fix the internet**.  Everything else is a footnote.
+      We endure because the mission matters: **fix the money, fix the internet**. Everything else is a footnote.
 
 # Call to action
 cta:
