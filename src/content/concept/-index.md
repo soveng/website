@@ -54,13 +54,13 @@ sections:
     content: |
       Nothing concentrates the mind like a live demo. Every Friday afternoon the cohort gathers to **show whatever runs**. Polish is optional, honesty is mandatory. The rule is simple: you must demo something new every week—either related to ongoing work or completely fresh ideas.
 
-      **The Format**: Aggressively time-boxed with 6 minutes of demo time and 2 minutes of discussion. With 20+ demos, we take breaks after every 6-7 presentations, usually running three sessions. The day typically ends around 6 PM.
+      **Format**: Aggressively time-boxed with 6 minutes of demo time and 2 minutes of discussion. With 20+ demos, we take breaks after every 6-7 presentations, usually running three sessions. The day typically ends around 6 PM.
 
-      **The Philosophy**: We highly encourage trying bold ideas every week. It doesn't matter if it's half-broken or half-baked—just give it your best shot and show it on Friday. The point is to ship thin vertical slices and learn fast.
+      **Philosophy**: We highly encourage trying bold ideas every week. It doesn't matter if it's half-broken or half-baked—just give it your best shot and show it on Friday. The point is to ship thin vertical slices and learn fast.
 
-      **The Celebration**: After demos, we have a [beefsteak-style](https://archive.is/S3LjP) standing barbecue (no pre-arranged seating) that invites relaxed, free-flowing conversation. Friends and family are invited to join, creating a bridge between the private program and the broader community.
+      **Celebration**: After demos, we have a [beefsteak-style](https://archive.is/S3LjP) standing barbecue (no pre-arranged seating) that invites relaxed, free-flowing conversation. Friends and family are invited to join, creating a bridge between the private program and the broader community.
 
-      **The Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
+      **Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
     image: 'demo-day.jpeg'
 
   
