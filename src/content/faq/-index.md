@@ -35,7 +35,7 @@ sections:
     title: 'Travel & Accommodation'
     questions:
       - question: 'Do you pay for flights and accommodation?'
-        answer: "No, we don't. If you commit yourself to the program you have to organize your flights and accommodation yourself. If you, for any reason, are not able to do this, please send us a message via the contact form."
+        answer: "No, we don't. If you commit yourself to the program you have to organize your flights and accommodation yourself. If you, for any reason, are not able to do this, please reach out to us."
 
       - question: 'Do you provide accommodation?'
         answer: "No, but you can search for a roof over your head on:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\nThere's also [madeirafriends.org](https://madeirafriends.org) which is a community that can help with many things."
