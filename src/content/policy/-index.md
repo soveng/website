@@ -20,7 +20,7 @@ sections:
   - id: 'partner-personnel-review'
     title: 'Partner and Personnel Review Policy'
     content: |
-      We maintain a written policy requiring review of potential partners, employees, and contractors to ensure they do not support authoritarian or partially-authoritarian regimes. All personnel and partnerships are evaluated based on their public record, professional conduct, and alignment with our commitment to open, merit-based collaboration and non-violent principles.
+      We maintain a written policy requiring review of potential partners, employees, and contractors to ensure they do not support authoritarian or partially-authoritarian regimes as categorized in the [Political Regime Classifications](https://ourworldindata.org/grapher/political-regime). All personnel and partnerships are evaluated based on their public record, professional conduct, and alignment with our commitment to open, merit-based collaboration and non-violent principles.
   
   - id: 'non-violence'
     title: 'Non-Violence Commitment'
