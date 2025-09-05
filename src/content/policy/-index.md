@@ -7,7 +7,7 @@ description: 'Our selection policy and commitment to merit-based participation'
 # Main introduction section
 intro:
   content: |
-    Our policies and guidelines reflect our commitment to merit-based collaboration, non-violence, and principled partnerships.
+    We are committed to building anti-authoritarian technology that empowers individuals over third parties. Our policies ensure merit-based collaboration, non-violence, and principled partnerships aligned with this mission.
   image: 'school-of-athens-sketch.jpg'
 
 # Policy sections
