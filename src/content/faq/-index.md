@@ -41,7 +41,7 @@ sections:
         answer: "No, but you can search for a roof over your head on:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\nThere's also [madeirafriends.org](https://madeirafriends.org) which is a community that can help with many things."
 
       - question: 'How do I need to prepare for the six weeks?'
-        answer: "There's of course a difference if you travel to Madeira on your own, or with a family. Besides this, your preparations should be approached like a longer than normal working holiday of six weeks. So, pack enough clothes and hardware that you'll be needing for living out of your suitcase for a while.\n\nIf you have special needs, please send us a message through the contact form and we'll see how we can help you settle in."
+        answer: "There's of course a difference if you travel to Madeira on your own, or with a family. Besides this, your preparations should be approached like a longer than normal working holiday of six weeks. So, pack enough clothes and hardware that you'll be needing for living out of your suitcase for a while.\n\nIf you have special needs, please reach out to us and we'll see how we can help you settle in."
 
   - id: 'cost-living'
     title: 'Cost of Living'
