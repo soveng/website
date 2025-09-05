@@ -7,11 +7,11 @@ description: 'Our concept and approach'
 # Main introduction section
 intro:
   content: |
-      Sovereign Engineering is a six-week, in-person program on the island of Madeira. Its purpose is to create the best possible environment for **high-bandwidth ideation, collaboration, and rapid prototyping** around Freedom Tech such as Bitcoin, Lightning, and Nostr.
+    Sovereign Engineering is a six-week, in-person program on the island of Madeira. Its purpose is to create the best possible environment for **high-bandwidth ideation, collaboration, and rapid prototyping** around Freedom Tech such as Bitcoin, Lightning, and Nostr.
 
-      The program runs on a relentless [weekly loop](/loop) designed for exploration: *Monday Mornings* set the theme for the week, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
+    The program runs on a relentless [weekly loop](/loop) designed for exploration: *Monday Mornings* set the theme for the week, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* offers time for reflection and experimentation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
 
-      The program is **private and off the record**—a protected environment where value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of too much public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
+    The program is **private and off the record**—a protected environment where value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of too much public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
   image: 'www-life-path.png'
 
 # Concept sections
@@ -62,8 +62,6 @@ sections:
 
       **Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
     image: 'demo-day.jpeg'
-
-  
 
   - id: 'weekly-captains'
     title: 'The Captains'

@@ -13,7 +13,7 @@ banner:
 features:
   - title: 'Why Sovereign Engineering?'
     image: '/images/boat2.png'
-    content: 'We love the internet—it is one of the most important inventions in human history and essential for a free, flourishing society. But parts of today''s web are failing us. Bitcoin and Nostr point toward a healthier architecture: open, permissionless, and self-sovereign.'
+    content: "We love the internet—it is one of the most important inventions in human history and essential for a free, flourishing society. But parts of today's web are failing us. Bitcoin and Nostr point toward a healthier architecture: open, permissionless, and self-sovereign."
     bulletpoints:
       - 'Focus on value-aligned technologies'
       - 'Build systems in the spirit of Bitcoin'

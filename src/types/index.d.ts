@@ -25,3 +25,11 @@ export interface Book {
   cover: string;
   links: Link[];
 }
+
+export interface PhilosophyQuote {
+  id: string;
+  quote: string;
+  author: string;
+  section?: string;
+  citation?: string;
+}
