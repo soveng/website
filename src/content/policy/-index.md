@@ -11,7 +11,7 @@ intro:
 
     We do not discriminate in our selection process based on race, ethnicity, creed, color, age, national origin, ancestry, religion, political opinion, gender, sexual orientation, gender identity, disability, genetic information, veteran status, military status, or any other such status.
 
-    This non-discrimination policy also applies to our organization internally, including officers, directors, board members, and employees who serve in leadership positions.
+    This non-discrimination policy also applies to our organization internally, including officers, directors, board members, advisors, employees, and contractors.
 
 # Policy sections
 sections: []
