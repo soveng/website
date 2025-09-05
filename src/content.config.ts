@@ -160,7 +160,7 @@ const policyCollection = defineCollection({
     description: z.string().optional(),
     intro: z.object({
       content: z.string(),
-      image: z.string(),
+      image: z.string().optional(),
     }),
     sections: z.array(
       z.object({

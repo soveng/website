@@ -48,7 +48,7 @@ interface Section {
   <ContentLead
     title={title}
     content={intro.content}
-    image={slideMap[intro.image]}
+    image={intro.image ? slideMap[intro.image] : ""}
     quote={leadQuote?.quote || ""}
     author={leadQuote?.author || ""}
   />
