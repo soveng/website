@@ -94,5 +94,11 @@
     "id": "will-durant-excellence",
     "quote": "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
     "author": "Will Durant"
+  },
+  {
+    "id": "merit-based-selection",
+    "quote": "We accept participants based on merit, public proof-of-work, and their alignment with our philosophy.",
+    "author": "Sovereign Engineering",
+    "section": "Policy"
   }
 ]
