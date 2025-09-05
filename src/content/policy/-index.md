@@ -1,6 +1,6 @@
 ---
 # Policy Page Content
-title: 'POLICY'
+title: 'Policies and Guidelines'
 meta_title: 'Policy'
 description: 'Our selection policy and commitment to merit-based participation'
 
