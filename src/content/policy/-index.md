@@ -7,7 +7,7 @@ description: 'Our selection policy and commitment to merit-based participation'
 # Main introduction section
 intro:
   content: |
-    We accept participants based on merit, public proof-of-work, and their alignment with our [philosophy](/philosophy). We welcome anyone with an npub and relevant public commit history.
+    We accept participants based on merit, public proof-of-work, and their alignment with our [philosophy](/philosophy). We welcome anyone with an [npub](https://npub.world/) and relevant public commit history.
 
     We do not discriminate in our selection process based on race, ethnicity, creed, color, age, national origin, ancestry, religion, political opinion, gender, sexual orientation, gender identity, disability, genetic information, veteran status, military status, or any other such status.
 
