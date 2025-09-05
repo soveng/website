@@ -54,7 +54,7 @@ interface Section {
   />
 
   <!-- Policy Sections -->
-  {sections.map(
+  {sections && sections.length > 0 && sections.map(
     (section: Section, index: number) => (
     <ContentSection
       title={section.title}
