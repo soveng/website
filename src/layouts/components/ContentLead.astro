@@ -39,27 +39,29 @@ const isOptimizedImage = typeof image === 'object' && image !== null;
     )}
 
     <!-- Full Width Image -->
-    <div class="row justify-center">
-      <div class="col-12">
-        {isOptimizedImage ? (
-          <Image
-            src={image as ImageMetadata}
-            alt={title}
-            class="w-full mb-8"
-            loading="eager"
-            format="webp"
-            quality={85}
-          />
-        ) : (
-          <img
-            src={image as string}
-            alt={title}
-            class="w-full mb-8"
-            loading="eager"
-          />
-        )}
+    {image && (
+      <div class="row justify-center">
+        <div class="col-12">
+          {isOptimizedImage ? (
+            <Image
+              src={image as ImageMetadata}
+              alt={title}
+              class="w-full mb-8"
+              loading="eager"
+              format="webp"
+              quality={85}
+            />
+          ) : (
+            <img
+              src={image as string}
+              alt={title}
+              class="w-full mb-8"
+              loading="eager"
+            />
+          )}
+        </div>
       </div>
-    </div>
+    )}
 
     <!-- Full Width Content -->
     <div class="row justify-center">
