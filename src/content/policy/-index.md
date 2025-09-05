@@ -6,6 +6,7 @@ description: 'Our selection policy and commitment to merit-based participation'
 
 # Main introduction section
 intro:
+  title: 'Selection and Non-Discrimination Policy'
   content: |
     We accept participants based on merit, public proof-of-work, and their alignment with our [philosophy](/philosophy). We welcome anyone with an [npub](https://npub.world/) and relevant public commit history.
 
