@@ -151,6 +151,34 @@ const faqCollection = defineCollection({
   }),
 });
 
+// Policy collection schema
+const policyCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/policy" }),
+  schema: z.object({
+    title: z.string(),
+    meta_title: z.string().optional(),
+    description: z.string().optional(),
+    intro: z.object({
+      content: z.string(),
+      image: z.string().optional(),
+    }),
+    sections: z.array(
+      z.object({
+        id: z.string(),
+        title: z.string(),
+        content: z.string(),
+        image: z.string().optional(),
+        float: z.string().optional(),
+        afterContent: z.string().optional(),
+      }),
+    ),
+    cta: z.object({
+      text: z.string(),
+      link: z.string(),
+    }),
+  }),
+});
+
 // Call to Action collection schema
 const ctaSectionCollection = defineCollection({
   loader: glob({
@@ -203,6 +231,7 @@ export const collections = {
   concept: conceptCollection,
   loop: loopCollection,
   faq: faqCollection,
+  policy: policyCollection,
 
   // sections
   ctaSection: ctaSectionCollection,
