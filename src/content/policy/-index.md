@@ -20,6 +20,11 @@ sections:
     title: 'Partner and Personnel Review Policy'
     content: |
       We maintain a written policy requiring review of potential partners, employees, and contractors to ensure they do not support authoritarian or partially-authoritarian regimes. All personnel and partnerships are evaluated based on their public record, professional conduct, and alignment with our commitment to open, merit-based collaboration and non-violent principles.
+  
+  - id: 'non-violence'
+    title: 'Non-Violence Commitment'
+    content: |
+      Bitcoin is non-violent, and we are too. We are committed to peaceful, voluntary interactions and reject the use of force or coercion in all our activities. Our organization operates on principles of voluntary cooperation, mutual respect, and peaceful collaboration.
 
 # Call to action
 cta:
