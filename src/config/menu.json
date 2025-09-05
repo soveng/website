@@ -21,9 +21,10 @@
         { "name": "Philosophy", "url": "/philosophy" },
         { "name": "Concept", "url": "/concept" },
         { "name": "Loop", "url": "/loop" },
-        { "name": "FAQ", "url": "/faq" },
         { "name": "Podcast", "url": "/podcast" },
         { "name": "Books", "url": "/books" },
+        { "name": "FAQ", "url": "/faq" },
+        { "name": "Policy", "url": "/policy" },
         {
           "name": "Swag",
           "url": "/swag"
