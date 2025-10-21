@@ -796,5 +796,320 @@
     "linkText": "",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": false
+  },
+  {
+    "name": "NEET",
+    "description": "P2P calls via Nostr using Iroh for hole punching",
+    "cohort": "SEC-05",
+    "link": "https://github.com/justinmoon/neet-native",
+    "linkText": "github.com/justinmoon/neet-native",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Marmot Chat",
+    "description": "Audio/video calls using Nostr IDs with E2EE and MLS, MOQ for data transfer",
+    "cohort": "SEC-05",
+    "link": "https://github.com/justinmoon/av-demo",
+    "linkText": "github.com/justinmoon/av-demo",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Innpub",
+    "description": "Location sensitive voice meetup app using Media over QUIC (MoQ)",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/innpub",
+    "linkText": "github.com/futurepaul/innpub",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Local++",
+    "description": "Mobile app for local LLM models with dynamic online/offline switching using Routstr/OTRTA",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "OTRTA (Routstr client)",
+    "description": "Openrouter over nostr using Cashu for selling local/API compute",
+    "cohort": "SEC-05",
+    "link": "https://github.com/Routstr/otrta-client",
+    "linkText": "github.com/Routstr/otrta-client",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Spotstr",
+    "description": "Maps on Nostr with encrypted group sharing and importing BTCMaps data",
+    "cohort": "SEC-05",
+    "link": "https://github.com/k0sti/spotstr",
+    "linkText": "github.com/k0sti/spotstr",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Earthly.city",
+    "description": "Maps stored and served as blobs",
+    "cohort": "SEC-05",
+    "link": "https://earthly.city/",
+    "linkText": "earthly.city",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostr Globe",
+    "description": "Mapping map overlay data on the globe - very pretty",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Gather",
+    "description": "Spontaneous event publishing with temporary postings",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "BloVM",
+    "description": "Blossom server monitor & indexer with blob health checks, also uses ContextVM",
+    "cohort": "SEC-05",
+    "link": "https://github.com/ContextVM/blovm",
+    "linkText": "github.com/ContextVM/blovm",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Blob Box",
+    "description": "Simple blossom server built for UmbrelOS",
+    "cohort": "SEC-05",
+    "link": "https://github.com/hzrd149/umbrel-blob-box",
+    "linkText": "github.com/hzrd149/umbrel-blob-box",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "hashpool",
+    "description": "Improvements on hashpool - mining pools, eHash & chasu",
+    "cohort": "SEC-05",
+    "link": "https://github.com/vnprc/hashpool",
+    "linkText": "github.com/vnprc/hashpool",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Paygress",
+    "description": "VM provisioning and VPN purchasing over Nostr with Kubernetes integration",
+    "cohort": "SEC-05",
+    "link": "https://github.com/DhananjayPurohit/paygress",
+    "linkText": "github.com/DhananjayPurohit/paygress",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "noPorts",
+    "description": "NGrok-like service over Nostr with smart reverse proxy",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "noDNS",
+    "description": "DNS over Nostr",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPs",
+    "description": "Fuck IPs using bloom filters",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Chrysalis",
+    "description": "Atomic Cashu mint migration with 'traveling server' concept",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nutoff",
+    "description": "Cashu wallet using ContextVM for remote access",
+    "cohort": "SEC-05",
+    "link": "https://github.com/gzuuus/nutoff-wallet",
+    "linkText": "github.com/gzuuus/nutoff-wallet",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Wally",
+    "description": "Desktop native wallet with NWC",
+    "cohort": "SEC-05",
+    "link": "https://github.com/Origami74/wally",
+    "linkText": "github.com/Origami74/wally",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Beacon",
+    "description": "AI and Bitcoin stuffed in chat apps, WhatsApp/Signal/Qual using ContextVM",
+    "cohort": "SEC-05",
+    "link": "https://github.com/orgs/beacon21m/repositories",
+    "linkText": "github.com/beacon21m",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "ANTS",
+    "description": "Left of the curve Nostr search done well",
+    "cohort": "SEC-05",
+    "link": "https://search.dergigi.com/",
+    "linkText": "search.dergigi.com",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Boris",
+    "description": "Highlighter done right - finally!",
+    "cohort": "SEC-05",
+    "link": "https://read.withboris.com",
+    "linkText": "read.withboris.com",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Seekstr",
+    "description": "Semantic multimedia search across Nostr data incl images, videos, audio, etc.",
+    "cohort": "SEC-05",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Window.nostrdb.js",
+    "description": "A polyfill for window.nostrdb",
+    "cohort": "SEC-05",
+    "link": "https://github.com/hzrd149/window.nostrdb.js",
+    "linkText": "github.com/hzrd149/window.nostrdb.js",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Backyard Explorer",
+    "description": "An example search app for window.nostrdb",
+    "cohort": "SEC-05",
+    "link": "https://github.com/hzrd149/backyard-explorer",
+    "linkText": "github.com/hzrd149/backyard-explorer",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostr Bucket",
+    "description": "Browser extension that provides a nostr event cache to all web apps",
+    "cohort": "SEC-05",
+    "link": "https://github.com/hzrd149/nostr-bucket",
+    "linkText": "github.com/hzrd149/nostr-bucket",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostr Gatekeeper",
+    "description": "A nostr connect bunker that actually works",
+    "cohort": "SEC-05",
+    "link": "https://github.com/hzrd149/nostr-gatekeeper",
+    "linkText": "github.com/hzrd149/nostr-gatekeeper",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Wingman",
+    "description": "AI Development remote assistant app",
+    "cohort": "SEC-05",
+    "link": "https://github.com/humansinstitute/wingman",
+    "linkText": "github.com/humansinstitute/wingman",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Retired in a field",
+    "description": "Solving developer funding and using ContextVM",
+    "cohort": "SEC-05",
+    "link": "https://github.com/humansinstitute/retired_in_a_field",
+    "linkText": "github.com/humansinstitute/retired_in_a_field",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Craig David",
+    "description": "Get roasted by Craig David(AI), because no matter what he's having a better week than you.",
+    "cohort": "SEC-05",
+    "link": "https://github.com/humansinstitute/craigdavid",
+    "linkText": "github.com/humansinstitute/craigdavid",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Hypernote",
+    "description": "Note-taking with multiple repositories (stories, elements, OS) and Zig implementation",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/hypernote",
+    "linkText": "github.com/futurepaul/hypernote",
+    "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": true
+  },
+  {
+    "name": "Hypernote Stories",
+    "description": "Story feature extension for Hypernote",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/hypernote-stories",
+    "linkText": "github.com/futurepaul/hypernote-stories",
+    "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": false
+  },
+  {
+    "name": "Hypernote Elements",
+    "description": "UI elements library for Hypernote",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/hypernote-elements",
+    "linkText": "github.com/futurepaul/hypernote-elements",
+    "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": false
+  },
+  {
+    "name": "Hypernote OS",
+    "description": "Operating system integration for Hypernote",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/hypernote-os",
+    "linkText": "github.com/futurepaul/hypernote-os",
+    "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": false
+  },
+  {
+    "name": "Hypernote Pages",
+    "description": "Page management system for Hypernote",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/hypernote-pages",
+    "linkText": "github.com/futurepaul/hypernote-pages",
+    "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": false
   }
 ]
