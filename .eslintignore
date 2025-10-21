@@ -105,7 +105,7 @@ jest.config.js
 
 # Lock files
 package-lock.json
-bun.lockb
+bun.lock
 
 # Documentation
 *.md 

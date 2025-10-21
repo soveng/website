@@ -95,7 +95,7 @@ Thumbs.db
 
 # Lock files
 package-lock.json
-bun.lockb
+bun.lock
 pnpm-lock.yaml
 
 # Config files that should not be formatted
