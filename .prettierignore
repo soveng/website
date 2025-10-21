@@ -18,8 +18,8 @@ out/
 
 # Logs
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+bun-debug.log*
+bun-error.log*
 pnpm-debug.log*
 
 # Runtime data
@@ -95,7 +95,7 @@ Thumbs.db
 
 # Lock files
 package-lock.json
-yarn.lock
+bun.lockb
 pnpm-lock.yaml
 
 # Config files that should not be formatted
