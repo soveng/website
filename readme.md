@@ -43,12 +43,12 @@ It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y
 ### Prerequisites
 
 - Node.js v20+
-- Yarn or npm
+- Bun (recommended) or npm/yarn
 
 ### Install Dependencies
 
 ```bash
-yarn install
+bun install
 # or
 npm install
 ```
@@ -56,7 +56,7 @@ npm install
 ### Development
 
 ```bash
-yarn dev
+bun dev
 # or
 npm run dev
 ```
@@ -64,7 +64,7 @@ npm run dev
 ### Build for Production
 
 ```bash
-yarn build
+bun build
 # or
 npm run build
 ```
@@ -72,7 +72,7 @@ npm run build
 ### Preview Production Build
 
 ```bash
-yarn preview
+bun preview
 # or
 npm run preview
 ```
