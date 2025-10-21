@@ -196,8 +196,9 @@
 }
 
 /* CTA section link styling for bg-primary background */
-.bg-primary p a {
-  @apply text-[#dddddd] underline hover:text-[#ffa200] transition-colors;
+.bg-primary p a,
+.bg-primary div a {
+  @apply text-[#eeeeee] underline hover:text-[#ffc96b] transition-colors;
 }
 
 /* podcast accordion overrides */
