@@ -817,7 +817,7 @@
   },
   {
     "name": "Innpub",
-    "description": "Location sensitive voice meetup app using Media over QUIC (MoQ)",
+    "description": "Location sensitive voice meetup app using MoQ",
     "cohort": "SEC-05",
     "link": "https://github.com/futurepaul/innpub",
     "linkText": "github.com/futurepaul/innpub",
@@ -828,14 +828,14 @@
     "name": "Local++",
     "description": "Mobile app for local LLM models with dynamic online/offline switching using Routstr/OTRTA",
     "cohort": "SEC-05",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/Routstr/local-plus-plus",
+    "linkText": "github.com/Routstr/local-plus-plus",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
   {
     "name": "OTRTA (Routstr client)",
-    "description": "Openrouter over nostr using Cashu for selling local/API compute",
+    "description": "Openrouter over Nostr using Cashu for selling local/API compute in a self-custodial manner",
     "cohort": "SEC-05",
     "link": "https://github.com/Routstr/otrta-client",
     "linkText": "github.com/Routstr/otrta-client",
@@ -844,7 +844,7 @@
   },
   {
     "name": "Spotstr",
-    "description": "Maps on Nostr with encrypted group sharing and importing BTCMaps data",
+    "description": "Maps on Nostr with encrypted group sharing of locations and importing BTCMaps data",
     "cohort": "SEC-05",
     "link": "https://github.com/k0sti/spotstr",
     "linkText": "github.com/k0sti/spotstr",
@@ -853,7 +853,7 @@
   },
   {
     "name": "Earthly.city",
-    "description": "Maps stored and served as blobs",
+    "description": "Maps stitched, stored, and served as blobs",
     "cohort": "SEC-05",
     "link": "https://earthly.city/",
     "linkText": "earthly.city",
@@ -897,13 +897,41 @@
     "highlight": false
   },
   {
+    "name": "NUT-XX: Deterministic NUT-13 Derivation Paths",
+    "description": "Cashu NUT proposal for deterministic NUT-13 derivation paths",
+    "cohort": "SEC-05",
+    "link": "https://github.com/cashubtc/nuts/pull/292",
+    "linkText": "github.com/cashubtc/nuts/pull/292",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "NUT-XX: Mining Share Payment Method",
+    "description": "Cashu NUT proposal for mining share payment method",
+    "cohort": "SEC-05",
+    "link": "https://github.com/cashubtc/nuts/pull/293",
+    "linkText": "github.com/cashubtc/nuts/pull/293",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
     "name": "hashpool",
-    "description": "Improvements on hashpool - mining pools, eHash & chasu",
+    "description": "Improvements on hashpool - mining pools, eHash & Cashu",
     "cohort": "SEC-05",
     "link": "https://github.com/vnprc/hashpool",
     "linkText": "github.com/vnprc/hashpool",
     "logo": "/images/showcase/bitcoin-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://pool.hashpool.dev/",
+        "linkText": "dashboard"
+      },
+      {
+        "link": "https://proxy.hashpool.dev/",
+        "linkText": "proxy"
+      }
+    ]
   },
   {
     "name": "Paygress",
@@ -978,26 +1006,26 @@
     "highlight": false
   },
   {
-    "name": "ANTS",
-    "description": "Left of the curve Nostr search done well",
+    "name": "ants",
+    "description": "Left-side of the curve Nostr search done reasonably well",
     "cohort": "SEC-05",
-    "link": "https://search.dergigi.com/",
-    "linkText": "search.dergigi.com",
+    "link": "https://ants.sh/",
+    "linkText": "ants.sh",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
   {
     "name": "Boris",
-    "description": "Highlighter done right - finally!",
+    "description": "Highlighter fixed and done right - finally!",
     "cohort": "SEC-05",
-    "link": "https://read.withboris.com",
-    "linkText": "read.withboris.com",
+    "link": "https://readwithboris.com",
+    "linkText": "readwithboris.com",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
   {
     "name": "Seekstr",
-    "description": "Semantic multimedia search across Nostr data incl images, videos, audio, etc.",
+    "description": "Semantic multimedia search across Nostr data",
     "cohort": "SEC-05",
     "link": "",
     "linkText": "",
@@ -1042,7 +1070,7 @@
   },
   {
     "name": "Wingman",
-    "description": "AI Development remote assistant app",
+    "description": "AI Development remote assistant app, which now can use many LLM providers",
     "cohort": "SEC-05",
     "link": "https://github.com/humansinstitute/wingman",
     "linkText": "github.com/humansinstitute/wingman",
@@ -1051,7 +1079,7 @@
   },
   {
     "name": "Retired in a field",
-    "description": "Solving developer funding and using ContextVM",
+    "description": "Solving developer funding using ContextVM",
     "cohort": "SEC-05",
     "link": "https://github.com/humansinstitute/retired_in_a_field",
     "linkText": "github.com/humansinstitute/retired_in_a_field",
@@ -1060,7 +1088,7 @@
   },
   {
     "name": "Craig David",
-    "description": "Get roasted by Craig David(AI), because no matter what he's having a better week than you.",
+    "description": "Get roasted by Craig David(AI), because no matter what, he's having a better week than you",
     "cohort": "SEC-05",
     "link": "https://github.com/humansinstitute/craigdavid",
     "linkText": "github.com/humansinstitute/craigdavid",
@@ -1069,7 +1097,7 @@
   },
   {
     "name": "Hypernote",
-    "description": "Note-taking with multiple repositories (stories, elements, OS) and Zig implementation",
+    "description": "Main idea of the hypermedia system built on Nostr",
     "cohort": "SEC-05",
     "link": "https://github.com/futurepaul/hypernote",
     "linkText": "github.com/futurepaul/hypernote",
@@ -1096,7 +1124,7 @@
   },
   {
     "name": "Hypernote OS",
-    "description": "Operating system integration for Hypernote",
+    "description": "Hypernote imagined as an operating system",
     "cohort": "SEC-05",
     "link": "https://github.com/futurepaul/hypernote-os",
     "linkText": "github.com/futurepaul/hypernote-os",
@@ -1105,11 +1133,74 @@
   },
   {
     "name": "Hypernote Pages",
-    "description": "Page management system for Hypernote",
+    "description": "Component-oriented version of Hypernote OS using zig-mdx and zig-nostr-loader for building reactive Nostr applications",
     "cohort": "SEC-05",
     "link": "https://github.com/futurepaul/hypernote-pages",
     "linkText": "github.com/futurepaul/hypernote-pages",
     "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": false
+  },
+  {
+    "name": "Routstr",
+    "description": "Protocol to buy and sell LLM compute using Cashu payments over Nostr",
+    "cohort": "SEC-05",
+    "link": "https://github.com/orgs/Routstr",
+    "linkText": "github.com/Routstr",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Opencode UI",
+    "description": "Web companion for managing remote opencode instances",
+    "cohort": "SEC-05",
+    "link": "https://github.com/justinmoon/opencode-ui",
+    "linkText": "github.com/justinmoon/opencode-ui",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Frontier Browser",
+    "description": "The Web is Dead, Long Live the Web! A browser built from the ground up",
+    "cohort": "SEC-05",
+    "link": "https://github.com/justinmoon/frontier",
+    "linkText": "github.com/justinmoon/frontier",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "noDNS BIP353 & BOLT12",
+    "description": "BIP353 & BOLT12 payments over noDNS",
+    "cohort": "SEC-05",
+    "link": "https://github.com/bencoin21/nodns_bip353_bolt12_silentpayment",
+    "linkText": "github.com/bencoin21/nodns_bip353_bolt12_silentpayment",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "bitcoin-nostr-relay",
+    "description": "A Rust library for relaying Bitcoin transactions over Nostr",
+    "cohort": "SEC-05",
+    "link": "https://crates.io/crates/bitcoin-nostr-relay",
+    "linkText": "crates.io/crates/bitcoin-nostr-relay",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Zig MDX",
+    "description": "An MDX (Markdown with JSX) tokenizer and parser written in Zig",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/zig-mdx",
+    "linkText": "github.com/futurepaul/zig-mdx",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Zig Nostr Loader",
+    "description": "A WASM-first Nostr event loader built with Zig, designed for high-performance caching and deduplication",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/zig-nostr-loader",
+    "linkText": "github.com/futurepaul/zig-nostr-loader",
+    "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   }
 ]

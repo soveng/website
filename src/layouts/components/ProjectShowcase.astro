@@ -3,6 +3,11 @@ import philosophyQuotes from "@/data/philosophy-quotes.json";
 import type { PhilosophyQuote } from "@/types";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 
+interface ExtraLink {
+  link: string;
+  linkText: string;
+}
+
 interface Project {
   name: string;
   description: string;
@@ -10,6 +15,7 @@ interface Project {
   link: string;
   linkText: string;
   logo?: string;
+  extraLinks?: ExtraLink[];
 }
 
 interface Props {
@@ -144,7 +150,7 @@ const cohortHeaderClasses = darkTheme
                   <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                 </div>
               </div>
-              <div class="text-sm md:text-base">
+              <div class="text-sm md:text-base flex flex-col gap-2">
                 <a
                   href={project.link}
                   class={linkClasses}
@@ -153,6 +159,16 @@ const cohortHeaderClasses = darkTheme
                 >
                   {project.linkText}
                 </a>
+                {project.extraLinks && project.extraLinks.map((extraLink: ExtraLink) => (
+                  <a
+                    href={extraLink.link}
+                    class={`${linkClasses} text-sm opacity-80`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {extraLink.linkText}
+                  </a>
+                ))}
               </div>
             </div>
           ))}
@@ -203,7 +219,7 @@ const cohortHeaderClasses = darkTheme
                       <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                     </div>
                   </div>
-                  <div class="text-sm md:text-base">
+                  <div class="text-sm md:text-base flex flex-col gap-2">
                     <a
                       href={project.link}
                       class={linkClasses}
@@ -212,6 +228,16 @@ const cohortHeaderClasses = darkTheme
                     >
                       {project.linkText}
                     </a>
+                    {project.extraLinks && project.extraLinks.map((extraLink: ExtraLink) => (
+                      <a
+                        href={extraLink.link}
+                        class={`${linkClasses} text-sm opacity-80`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {extraLink.linkText}
+                      </a>
+                    ))}
                   </div>
                 </div>
               ))}
