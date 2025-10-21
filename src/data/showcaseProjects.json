@@ -825,11 +825,11 @@
     "highlight": false
   },
   {
-    "name": "Local++",
-    "description": "Mobile app for local LLM models with dynamic online/offline switching using Routstr/OTRTA",
+    "name": "Routstr",
+    "description": "Protocol to buy and sell LLM compute using Cashu payments over Nostr",
     "cohort": "SEC-05",
-    "link": "https://github.com/Routstr/local-plus-plus",
-    "linkText": "github.com/Routstr/local-plus-plus",
+    "link": "https://github.com/orgs/Routstr",
+    "linkText": "github.com/Routstr",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -839,6 +839,15 @@
     "cohort": "SEC-05",
     "link": "https://github.com/Routstr/otrta-client",
     "linkText": "github.com/Routstr/otrta-client",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Local++",
+    "description": "Mobile app for local LLM models with dynamic online/offline switching using Routstr/OTRTA",
+    "cohort": "SEC-05",
+    "link": "https://github.com/Routstr/local-plus-plus",
+    "linkText": "github.com/Routstr/local-plus-plus",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -934,6 +943,15 @@
     ]
   },
   {
+    "name": "Zig Nostr Loader",
+    "description": "A WASM-first Nostr event loader built with Zig, designed for high-performance caching and deduplication",
+    "cohort": "SEC-05",
+    "link": "https://github.com/futurepaul/zig-nostr-loader",
+    "linkText": "github.com/futurepaul/zig-nostr-loader",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
     "name": "Paygress",
     "description": "VM provisioning and VPN purchasing over Nostr with Kubernetes integration",
     "cohort": "SEC-05",
@@ -955,8 +973,8 @@
     "name": "noDNS",
     "description": "DNS over Nostr",
     "cohort": "SEC-05",
-    "link": "",
-    "linkText": "",
+    "link": "https://ants.sh/?q=noDNS+by%3Aarjen",
+    "linkText": "ants.sh/?q=noDNS+by%3Aarjen",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -993,6 +1011,15 @@
     "cohort": "SEC-05",
     "link": "https://github.com/Origami74/wally",
     "linkText": "github.com/Origami74/wally",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "noDNS BIP353 & BOLT12",
+    "description": "BIP353 & BOLT12 payments over noDNS",
+    "cohort": "SEC-05",
+    "link": "https://github.com/bencoin21/nodns_bip353_bolt12_silentpayment",
+    "linkText": "github.com/bencoin21/nodns_bip353_bolt12_silentpayment",
     "logo": "/images/showcase/bitcoin-logo.png",
     "highlight": false
   },
@@ -1078,6 +1105,15 @@
     "highlight": false
   },
   {
+    "name": "Opencode UI",
+    "description": "Web companion for managing remote opencode instances",
+    "cohort": "SEC-05",
+    "link": "https://github.com/justinmoon/opencode-ui",
+    "linkText": "github.com/justinmoon/opencode-ui",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
     "name": "Retired in a field",
     "description": "Solving developer funding using ContextVM",
     "cohort": "SEC-05",
@@ -1097,66 +1133,30 @@
   },
   {
     "name": "Hypernote",
-    "description": "Main idea of the hypermedia system built on Nostr",
+    "description": "Main idea of the hypermedia system built on Nostr. Includes Stories (story feature extension), Elements (UI elements library), OS (imagined as an operating system), and Pages (component-oriented version using zig-mdx and zig-nostr-loader for building reactive Nostr applications)",
     "cohort": "SEC-05",
     "link": "https://github.com/futurepaul/hypernote",
     "linkText": "github.com/futurepaul/hypernote",
     "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": true
-  },
-  {
-    "name": "Hypernote Stories",
-    "description": "Story feature extension for Hypernote",
-    "cohort": "SEC-05",
-    "link": "https://github.com/futurepaul/hypernote-stories",
-    "linkText": "github.com/futurepaul/hypernote-stories",
-    "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": false
-  },
-  {
-    "name": "Hypernote Elements",
-    "description": "UI elements library for Hypernote",
-    "cohort": "SEC-05",
-    "link": "https://github.com/futurepaul/hypernote-elements",
-    "linkText": "github.com/futurepaul/hypernote-elements",
-    "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": false
-  },
-  {
-    "name": "Hypernote OS",
-    "description": "Hypernote imagined as an operating system",
-    "cohort": "SEC-05",
-    "link": "https://github.com/futurepaul/hypernote-os",
-    "linkText": "github.com/futurepaul/hypernote-os",
-    "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": false
-  },
-  {
-    "name": "Hypernote Pages",
-    "description": "Component-oriented version of Hypernote OS using zig-mdx and zig-nostr-loader for building reactive Nostr applications",
-    "cohort": "SEC-05",
-    "link": "https://github.com/futurepaul/hypernote-pages",
-    "linkText": "github.com/futurepaul/hypernote-pages",
-    "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": false
-  },
-  {
-    "name": "Routstr",
-    "description": "Protocol to buy and sell LLM compute using Cashu payments over Nostr",
-    "cohort": "SEC-05",
-    "link": "https://github.com/orgs/Routstr",
-    "linkText": "github.com/Routstr",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
-    "name": "Opencode UI",
-    "description": "Web companion for managing remote opencode instances",
-    "cohort": "SEC-05",
-    "link": "https://github.com/justinmoon/opencode-ui",
-    "linkText": "github.com/justinmoon/opencode-ui",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
+    "highlight": true,
+    "extraLinks": [
+      {
+        "link": "https://github.com/futurepaul/hypernote-stories",
+        "linkText": "stories"
+      },
+      {
+        "link": "https://github.com/futurepaul/hypernote-elements",
+        "linkText": "elements"
+      },
+      {
+        "link": "https://github.com/futurepaul/hypernote-os",
+        "linkText": "OS"
+      },
+      {
+        "link": "https://github.com/futurepaul/hypernote-pages",
+        "linkText": "pages"
+      }
+    ]
   },
   {
     "name": "Frontier Browser",
@@ -1165,15 +1165,6 @@
     "link": "https://github.com/justinmoon/frontier",
     "linkText": "github.com/justinmoon/frontier",
     "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
-    "name": "noDNS BIP353 & BOLT12",
-    "description": "BIP353 & BOLT12 payments over noDNS",
-    "cohort": "SEC-05",
-    "link": "https://github.com/bencoin21/nodns_bip353_bolt12_silentpayment",
-    "linkText": "github.com/bencoin21/nodns_bip353_bolt12_silentpayment",
-    "logo": "/images/showcase/bitcoin-logo.png",
     "highlight": false
   },
   {
@@ -1191,15 +1182,6 @@
     "cohort": "SEC-05",
     "link": "https://github.com/futurepaul/zig-mdx",
     "linkText": "github.com/futurepaul/zig-mdx",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
-    "name": "Zig Nostr Loader",
-    "description": "A WASM-first Nostr event loader built with Zig, designed for high-performance caching and deduplication",
-    "cohort": "SEC-05",
-    "link": "https://github.com/futurepaul/zig-nostr-loader",
-    "linkText": "github.com/futurepaul/zig-nostr-loader",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   }
