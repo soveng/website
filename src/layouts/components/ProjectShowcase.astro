@@ -42,7 +42,7 @@ const projectsByCohort: Record<string, Project[]> = projects.reduce(
   return acc;
 }, {});
 
-// Sort cohorts in ascending order (SEC-01, SEC-02, SEC-03, SEC-04)
+// Sort cohorts in ascending order (SEC-01, SEC-02, SEC-03 .. SEC-XX )
 const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
   const numA = parseInt(a.replace('SEC-', ''));
   const numB = parseInt(b.replace('SEC-', ''));
@@ -232,10 +232,10 @@ const cohortHeaderClasses = darkTheme
           </>
         ))}
 
-        {/* SEC-05 CTA Section */}
+        {/* SEC-06 CTA Section */}
         <div class="mt-16 text-center">
           <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-            SEC-05
+            SEC-06
           </h2>
           <div class="py-12">
             <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
