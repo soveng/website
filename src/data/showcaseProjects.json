@@ -48,7 +48,13 @@
     "link": "https://github.com/hzrd149/blossom",
     "linkText": "github.com/hzrd149/blossom",
     "logo": "/images/showcase/blossom-logo.png",
-    "highlight": true
+    "highlight": true,
+    "extraLinks": [
+      {
+        "link": "https://github.com/hzrd149/awesome-blossom",
+        "linkText": "awesome-blossom"
+      }
+    ]
   },
   {
     "name": "Blossom Drive",
