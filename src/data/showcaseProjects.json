@@ -865,15 +865,15 @@
     "extraLinks": [
       {
         "link": "https://read.withboris.com/",
-        "linkText": "read.withboris.com"
+        "linkText": "App"
       },
       {
         "link": "https://github.com/dergigi/boris",
-        "linkText": "GitHub"
+        "linkText": "GitHub (App)"
       },
       {
         "link": "https://github.com/dergigi/boris-landing",
-        "linkText": "Landing"
+        "linkText": "GitHub (Landing Page)"
       }
     ]
   },
