@@ -456,15 +456,6 @@
     "highlight": false
   },
   {
-    "name": "Sigit Rebranding",
-    "description": "A proposal to rebrand Sigitio including a full Landing page design to better market the product (never implemented)",
-    "cohort": "SEC-03",
-    "link": "Landing page (desktop + Mobile) proposal here",
-    "linkText": "Landing page (desktop + Mobile) proposal here",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
     "name": "TollGate Branding and Landing page",
     "description": "Landing page plus all the branding assets currently in use 👇",
     "cohort": "SEC-03",
