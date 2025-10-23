@@ -5,7 +5,7 @@
   "author": "sovereignengineering.io",
   "license": "MIT",
   "type": "module",
-  "packageManager": "yarn@1.22.22",
+  "packageManager": "bun@latest",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
@@ -16,7 +16,7 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write . && eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix",
-    "remove-darkmode": "node scripts/removeDarkmode.js && yarn format"
+    "remove-darkmode": "node scripts/removeDarkmode.js && bun format"
   },
   "dependencies": {
     "@astrojs/check": "0.9.4",
