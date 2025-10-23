@@ -204,6 +204,11 @@
   @apply text-white no-underline hover:underline hover:text-gray-200 transition-colors;
 }
 
+/* Ensure retro buttons remain high-contrast on primary background */
+.bg-primary a.btn-retro {
+  @apply text-black hover:text-black no-underline hover:no-underline;
+}
+
 /* podcast accordion overrides */
 .podcast-accordion {
   @apply border border-[#e5e7eb] bg-[#18181b] shadow-lg;
