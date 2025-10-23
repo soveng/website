@@ -1138,7 +1138,7 @@
     "link": "https://github.com/futurepaul/hypernote",
     "linkText": "github.com/futurepaul/hypernote",
     "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": true,
+    "highlight": false,
     "extraLinks": [
       {
         "link": "https://github.com/futurepaul/hypernote-stories",
