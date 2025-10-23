@@ -8,4 +8,5 @@ button:
   label: 'Apply Now!'
   link: 'https://sovereignengineering.typeform.com/SEC-06'
 dates: 'SEC-06 will commence in Spring 2026.'
+dates2: ''
 ---
