@@ -1,6 +1,6 @@
 {
-  "buildCommand": "yarn build",
+  "buildCommand": "bun run build",
   "outputDirectory": "dist",
   "framework": "astro",
-  "installCommand": "yarn install"
+  "installCommand": "bun install"
 }

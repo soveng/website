@@ -195,6 +195,15 @@
   @apply hover:text-primary text-white underline decoration-2 underline-offset-2 transition-colors;
 }
 
+/* CTA section link styling for bg-primary background */
+.bg-primary .cta-description a {
+  @apply text-white underline hover:text-gray-200 transition-colors;
+}
+
+.bg-primary div a {
+  @apply text-white no-underline hover:underline hover:text-gray-200 transition-colors;
+}
+
 /* podcast accordion overrides */
 .podcast-accordion {
   @apply border border-[#e5e7eb] bg-[#18181b] shadow-lg;

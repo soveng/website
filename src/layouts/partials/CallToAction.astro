@@ -33,7 +33,7 @@ const { call_to_action } = Astro.props;
             />
             <p
               set:html={markdownify(call_to_action.data.description)}
-              class="mb-6 text-white"
+              class="mb-6 text-white cta-description"
             />
             <div class="flex items-center gap-6">
               {call_to_action.data.button.enable && (
