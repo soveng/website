@@ -1184,5 +1184,14 @@
     "linkText": "github.com/futurepaul/zig-mdx",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Hypernote Elements",
+    "description": "Another rewrite of Hypernote",
+    "cohort": "SEC-05",
+    "link": "https://hypernote-elements.vercel.app",
+    "linkText": "hypernote-elements.vercel.app",
+    "logo": "/images/showcase/hypernote-logo.gif",
+    "highlight": false
   }
 ]
