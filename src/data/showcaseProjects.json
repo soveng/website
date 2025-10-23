@@ -1193,5 +1193,20 @@
     "linkText": "hypernote-elements.vercel.app",
     "logo": "/images/showcase/hypernote-logo.gif",
     "highlight": false
+  },
+  {
+    "name": "ContextVM",
+    "description": "A protocol that bridges Nostr and Model Context Protocol (MCP) to enable decentralized access and exposure of computational services. Provides SDK for JavaScript/TypeScript with core modules, transports, proxy, gateway, relay, and signer components.",
+    "cohort": "SEC-06",
+    "link": "https://docs.contextvm.org/",
+    "linkText": "docs.contextvm.org",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/contextvm/ts-sdk",
+        "linkText": "GitHub SDK"
+      }
+    ]
   }
 ]
