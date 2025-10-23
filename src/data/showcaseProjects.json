@@ -801,7 +801,13 @@
     "link": "https://ants.sh/",
     "linkText": "ants.sh",
     "logo": "/images/showcase/ants-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/dergigi/ants/",
+        "linkText": "GitHub"
+      }
+    ]
   },
   {
     "name": "Backyard Explorer",
