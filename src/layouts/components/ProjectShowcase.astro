@@ -3,6 +3,11 @@ import philosophyQuotes from "@/data/philosophy-quotes.json";
 import type { PhilosophyQuote } from "@/types";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 
+interface ExtraLink {
+  link: string;
+  linkText: string;
+}
+
 interface Project {
   name: string;
   description: string;
@@ -10,6 +15,7 @@ interface Project {
   link: string;
   linkText: string;
   logo?: string;
+  extraLinks?: ExtraLink[];
 }
 
 interface Props {
@@ -55,11 +61,20 @@ const highlightedProjectNames = [
   "NIP-60",
   "NIP-61",
   "NIP-54",
-  "npub.cash",
   "Nsite",
   "Tollgate",
   "Hypernote",
-  "DVMCP"
+  "Routstr",
+  "Innpub",
+  "hashpool",
+  "Paygress",
+  "noDNS",
+  "FIPs",
+  "Beacon",
+  "Window.nostr.db",
+  "ants",
+  "Boris",
+  "Retired in a field"
 ];
 const highlightedProjects = highlightedProjectNames
   .map(name => projects.find(project => project.name === name))
@@ -140,7 +155,7 @@ const cohortHeaderClasses = darkTheme
                   <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                 </div>
               </div>
-              <div class="text-sm md:text-base">
+              <div class="text-sm md:text-base flex flex-col gap-2">
                 <a
                   href={project.link}
                   class={linkClasses}
@@ -149,6 +164,16 @@ const cohortHeaderClasses = darkTheme
                 >
                   {project.linkText}
                 </a>
+                {project.extraLinks && project.extraLinks.map((extraLink: ExtraLink) => (
+                  <a
+                    href={extraLink.link}
+                    class={`${linkClasses} text-sm opacity-80`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {extraLink.linkText}
+                  </a>
+                ))}
               </div>
             </div>
           ))}
@@ -199,7 +224,7 @@ const cohortHeaderClasses = darkTheme
                       <p class={`${darkTheme ? 'my-0' : ''} ${descriptionClasses}`}>{project.description}</p>
                     </div>
                   </div>
-                  <div class="text-sm md:text-base">
+                  <div class="text-sm md:text-base flex flex-col gap-2">
                     <a
                       href={project.link}
                       class={linkClasses}
@@ -208,6 +233,16 @@ const cohortHeaderClasses = darkTheme
                     >
                       {project.linkText}
                     </a>
+                    {project.extraLinks && project.extraLinks.map((extraLink: ExtraLink) => (
+                      <a
+                        href={extraLink.link}
+                        class={`${linkClasses} text-sm opacity-80`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {extraLink.linkText}
+                      </a>
+                    ))}
                   </div>
                 </div>
               ))}
@@ -232,10 +267,10 @@ const cohortHeaderClasses = darkTheme
           </>
         ))}
 
-        {/* SEC-05 CTA Section */}
+        {/* SEC-06 CTA Section */}
         <div class="mt-16 text-center">
           <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-            SEC-05
+            SEC-06
           </h2>
           <div class="py-12">
             <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>

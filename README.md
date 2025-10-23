@@ -4,9 +4,11 @@
 
 [The program](https://sovereignengineering.io/concept) is grounded in the philosophy that technology should empower individuals, not control them. We believe in building systems that maximize human agency, foster collaboration, and resist centralized forms of control. To learn more about our guiding principles and vision, visit the [Philosophy page](https://sovereignengineering.io/philosophy).
 
-## 🚀 SEC-05: YOLO Mode
+## SEC-05: YOLO Mode
 
-The upcoming cohort, **SEC-05: YOLO Mode**, will focus on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment. Applications are now closed.
+**SEC-05: YOLO Mode**, has concluded and focused on nostr as a substrate for agent-to-agent and agent-to-human communication and payments, as well as multi-agent orchestration in an open and collaborative environment.
+
+You can read the SEC-05 YOLO Report [here](https://primal.net/soveng/sec-05-yolo-mode-report).
 
 ---
 
@@ -14,22 +16,22 @@ This is a content-driven website built with Astro, Tailwind CSS, and TypeScript.
 It serves as the public home for the Sovereign Engineering project, featuring
 podcasts, philosophy, FAQs, and more.
 
-## 🌐 Live Site
+## Live Site
 
 Visit: [https://sovereignengineering.io](https://sovereignengineering.io)
 
-## 🎙️ Podcast Feed
+## Podcast Feed
 
 The podcast XML feed is available at: [https://sovereignengineering.io/dialogues.xml](https://sovereignengineering.io/dialogues.xml)
 
 It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n).
 
-## 📂 Public Resources
+## Public Resources
 
 - **.well-known**: Exposes public metadata for services and verification ([RFC 8615](https://datatracker.ietf.org/doc/html/rfc8615)).
 - **dialogues.xml**: Podcast feed for syndication.
 
-## ✨ Features
+## Features
 
 - Astro + Tailwind CSS + TypeScript
 - Markdown/MDX content for easy editing
@@ -38,7 +40,7 @@ It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y
 - Public `.well-known` directory
 - Custom podcast XML feed
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -77,7 +79,7 @@ bun preview
 npm run preview
 ```
 
-## 🐳 Docker
+## Docker
 
 Build and run with Docker:
 
@@ -86,14 +88,14 @@ docker build -t sovereignengineering .
 docker run -p 3000:80 sovereignengineering
 ```
 
-## 🛠️ Project Structure
+## Project Structure
 
 - `src/` — Source files (content, layouts, components, styles)
 - `public/` — Static files served at the site root
 - `.well-known/` — Public metadata (inside `public/`)
 - `dialogues.xml` — Podcast feed (inside `public/`)
 
-## 📝 License
+## License
 
 MIT License. See [LICENSE](./LICENSE) for details.
 
