@@ -1197,7 +1197,7 @@
   {
     "name": "ContextVM",
     "description": "A protocol that bridges Nostr and Model Context Protocol (MCP) to enable decentralized access and exposure of computational services. Provides SDK for JavaScript/TypeScript with core modules, transports, proxy, gateway, relay, and signer components.",
-    "cohort": "SEC-06",
+    "cohort": "SEC-05",
     "link": "https://docs.contextvm.org/",
     "linkText": "docs.contextvm.org",
     "logo": "/images/showcase/nostr-logo.png",
