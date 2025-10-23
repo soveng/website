@@ -10,14 +10,14 @@ This is **Sovereign Engineering's website** built with Astro 5.7.8, React 19.1.0
 
 ```bash
 # Development workflow
-yarn dev                 # Start dev server (auto-generates search JSON)
-yarn build              # Production build (auto-generates search JSON)
-yarn preview            # Preview production build
-yarn check              # Astro type checking
+bun dev                 # Start dev server (auto-generates search JSON)
+bun build              # Production build (auto-generates search JSON)
+bun preview            # Preview production build
+bun check              # Astro type checking
 
 # Utilities
-yarn format             # Format with Prettier
-yarn generate-json      # Generate search index files manually
+bun format             # Format with Prettier
+bun generate-json      # Generate search index files manually
 ```
 
 ## Architecture Overview
