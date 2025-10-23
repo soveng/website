@@ -1144,14 +1144,14 @@
     "name": "Retired in a field",
     "description": "Solving developer funding using ContextVM",
     "cohort": "SEC-05",
-    "link": "https://github.com/humansinstitute/retired_in_a_field",
-    "linkText": "github.com/humansinstitute/retired_in_a_field",
+    "link": "https://retired.otherstuff.ai/",
+    "linkText": "retired.otherstuff.ai",
     "logo": "/images/showcase/retired-in-a-field.png",
     "highlight": false,
     "extraLinks": [
       {
-        "link": "https://retired.otherstuff.ai/",
-        "linkText": "retired.otherstuff.ai"
+        "link": "https://github.com/humansinstitute/retired_in_a_field",
+        "linkText": "GitHub"
       }
     ]
   },
