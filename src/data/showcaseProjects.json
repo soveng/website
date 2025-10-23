@@ -5,7 +5,7 @@
     "cohort": "SEC-00",
     "link": "https://highlighter.com/",
     "linkText": "highlighter.com",
-    "logo": "",
+    "logo": "/images/showcase/boris-logo.png",
     "highlight": false
   },
   {
@@ -14,7 +14,7 @@
     "cohort": "SEC-00",
     "link": "https://dergigi.com/2023/03/12/lightning-prisms/",
     "linkText": "dergigi.com/2023/03/12/lightning-prisms/",
-    "logo": "",
+    "logo": "/images/showcase/lightning-logo.png",
     "highlight": false
   },
   {
@@ -23,7 +23,7 @@
     "cohort": "SEC-00",
     "link": "https://nips.nostr.com/90",
     "linkText": "nips.nostr.com/90",
-    "logo": "",
+    "logo": "/images/showcase/nostr-logo.png",
     "highlight": false,
     "extraLinks": [
       {
@@ -67,9 +67,9 @@
   },
   {
     "name": "Confidential computing research",
-    "description": "Description to be added",
+    "description": "Non-exhaustive research notes of building blocks for a better, more decentralized internet.",
     "cohort": "SEC-01",
-    "link": "ungovernable.tech",
+    "link": "https://ungovernable.tech",
     "linkText": "ungovernable.tech",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
@@ -224,7 +224,7 @@
     "cohort": "SEC-01",
     "link": "https://zapstore.dev/",
     "linkText": "zapstore.dev",
-    "logo": "/images/zapstore.svg",
+    "logo": "/images/showcase/zapstore.svg",
     "highlight": true
   },
   {
@@ -267,8 +267,8 @@
     "name": "Nostr Safebox",
     "description": "Nostr Safebox is the concept of a ‘safebox’ for Nostr. It’s a generalization of the wallet concept for storing secure, private personal information.The idea is that the safebox contains different item types, wallets, records, etc. You can give a client access by providing the nsec of the safebox. If you no longer trust the client, you can transfer the data to another safebox and delete the current one (no guarantees on deletion, of course)",
     "cohort": "SEC-02",
-    "link": "GetSafebox",
-    "linkText": "getsafebox",
+    "link": "https://getsafebox.app",
+    "linkText": "getsafebox.app",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -330,7 +330,7 @@
     "name": "Sov.Biz",
     "description": "Sovereign business platform for decentralized commerce",
     "cohort": "SEC-02",
-    "link": "http://Sov.Biz",
+    "link": "http://sov.biz",
     "linkText": "sov.biz",
     "logo": "/images/showcase/bitcoin-logo.png",
     "highlight": false
@@ -399,15 +399,6 @@
     "highlight": false
   },
   {
-    "name": "nostr-epoxy reverse proxy",
-    "description": "Monetizable websocket proxy to proxy relay connections",
-    "cohort": "SEC-03",
-    "link": "",
-    "linkText": "",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
     "name": "note mixer relay",
     "description": "A Nostr relay that mixes and anonymizes events using the Khatru framework.",
     "cohort": "SEC-03",
@@ -438,7 +429,7 @@
     "name": "Nutstash v2 Re-Design",
     "description": "Redesign and rebuild Nutstash wallet from scratch. Implementining Nostr and Backup functionalities, together with Contacts and Chat (over nostr obviously)  Now available at wallet.Nutstack.app as v2.1.0",
     "cohort": "SEC-03",
-    "link": "wallet.Nutstack.app",
+    "link": "https://wallet.Nutstack.app",
     "linkText": "wallet.nutstack.app",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": false
@@ -456,7 +447,7 @@
     "name": "SATS’N’FACTS Website",
     "description": "Crystallize all the organization and planning into a website (https://satsnfacts.btc.pub,) with full bitcoin ticketing system and merch store (powered by LNbits)",
     "cohort": "SEC-03",
-    "link": "https://satsnfacts.btc.pub,",
+    "link": "https://satsnfacts.btc.pub",
     "linkText": "satsnfacts.btc.pub,",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
@@ -555,8 +546,8 @@
     "name": "Hypernote Stories",
     "description": "Instagram Stories on Hypernote",
     "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/futurepaul/hypernote-stories",
+    "linkText": "github.com/futurepaul/hypernote-stories",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -616,7 +607,7 @@
   },
   {
     "name": "NIP-37",
-    "description": "Description to be added",
+    "description": "Transport method announcement. A way for services to decouple from a single network or protocol.",
     "cohort": "SEC-04",
     "link": "https://github.com/nostr-protocol/nips/pull/1585",
     "linkText": "github.com",
@@ -796,7 +787,7 @@
   },
   {
     "name": "ants",
-    "description": "Left-side of the curve Nostr search done reasonably well",
+    "description": "Left-side of the curve Nostr search done well",
     "cohort": "SEC-05",
     "link": "https://ants.sh/",
     "linkText": "ants.sh",
