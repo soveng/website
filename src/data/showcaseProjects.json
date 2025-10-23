@@ -861,7 +861,21 @@
     "link": "https://readwithboris.com",
     "linkText": "readwithboris.com",
     "logo": "/images/showcase/boris-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://read.withboris.com/",
+        "linkText": "read.withboris.com"
+      },
+      {
+        "link": "https://github.com/dergigi/boris",
+        "linkText": "GitHub"
+      },
+      {
+        "link": "https://github.com/dergigi/boris-landing",
+        "linkText": "Landing"
+      }
+    ]
   },
   {
     "name": "Chrysalis",
