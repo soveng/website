@@ -2,7 +2,7 @@
 enable: true
 title: 'SEC-06: Coming Soon'
 image: '/images/men-wanted.png'
-description: 'We are excited you are interested in SEC-06! Applications will open shortly. In the meantime, explore what our community accomplished in the SEC-05 report at https://primal.net/soveng/sec-05-yolo-mode-report.'
+description: 'Applications for the next cohort will open shortly. In the meantime, explore what was built last cohort by reading our [SEC-05 report](https://primal.net/soveng/sec-05-yolo-mode-report).'
 button:
   enable: false
   label: 'Apply Now!'
