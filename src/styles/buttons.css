@@ -19,7 +19,7 @@
 
 /* 90s-style retro button */
 .btn-retro {
-  @apply border-2 border-t-white border-r-gray-600 border-b-gray-600 border-l-white bg-gray-300 px-4 py-2 font-bold text-black uppercase hover:bg-gray-100 hover:text-gray-800 active:translate-x-0.5 active:translate-y-0.5 active:border-t-gray-600 active:border-r-white active:border-b-white active:border-l-gray-600;
+  @apply border-2 border-t-white border-r-gray-600 border-b-gray-600 border-l-white bg-gray-300 px-4 py-2 font-bold text-black uppercase hover:bg-gray-100 hover:text-black active:translate-x-0.5 active:translate-y-0.5 active:border-t-gray-600 active:border-r-white active:border-b-white active:border-l-gray-600;
   border-style: solid;
   font-family: 'IM Fell Double Pica', Times, serif;
   letter-spacing: 0.03em;
