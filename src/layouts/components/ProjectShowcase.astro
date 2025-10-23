@@ -48,7 +48,7 @@ const projectsByCohort: Record<string, Project[]> = projects.reduce(
   return acc;
 }, {});
 
-// Sort cohorts in ascending order (SEC-01, SEC-02, SEC-03, SEC-04)
+// Sort cohorts in ascending order (SEC-01, SEC-02, SEC-03 .. SEC-XX )
 const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
   const numA = parseInt(a.replace('SEC-', ''));
   const numB = parseInt(b.replace('SEC-', ''));

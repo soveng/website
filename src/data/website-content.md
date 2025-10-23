@@ -33,7 +33,7 @@ We assume that you know what Bitcoin is and why it is important. We assume that 
 
 We are looking for people with passion and an eagerness to build. Other than that, we don't have any requirements.
 
-Applications for SEC-05 are now closed. Stay tuned for future opportunities.
+Applications for SEC-06 will open in November 2026. Stay tuned for future opportunities.
 
 # Why Sovereign Engineering?
 

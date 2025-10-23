@@ -23,13 +23,13 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: 'SEC-05 is scheduled to start on Monday **Sept 1st** 2025 at 9am. Applications for this cohort are now closed.'
+        answer: 'SEC-06 is scheduled for Spring 2026 and the dates will be announced soon. Applications will open in November 2025.'
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
         answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation Pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
 
       - question: 'Is this a free program?'
-        answer: "Yes, it is. If you are selected, the program is free for you. We'll take care of the shared coworking space and make sure you feel at home. This location will be our homebase until the final Demo Day.\n\nThat said, we are not going to work 24/7. Grant yourself some time off after our working sessions to relax and enjoy the island.\n\n**Note:** Applications for SEC-05 are now closed."
+        answer: "Yes, it is. If you are selected, the program is free for you. We'll take care of the shared coworking space and make sure you feel at home. This location will be our homebase until the final Demo Day.\n\nThat said, we are not going to work 24/7. Grant yourself some time off after our working sessions to relax and enjoy the island."
 
   - id: 'travel-accommodation'
     title: 'Travel & Accommodation'
@@ -47,13 +47,13 @@ sections:
     title: 'Cost of Living'
     questions:
       - question: 'What is the cost of living in Madeira?'
-        answer: "If you are invited to come after you're selected, you need to take care of a personal budget for 6 weeks, including flight tickets, rent for accommodation, spending money for daily expenses such as breakfast, lunch and dinner. Pocket money for the weekend outings is also not a bad idea, since you'll be able to explore beautiful Madeira once you're there.\n\nA so-called ballpark figure is hard to calculate in general, as Madeira might be cheaper for participants who come from the US or north-west Europe. If you come from southern Europe or Asia or the Americas it might be more expensive. Besides this it also depends on your personal preferences for accommodation, etc.\n\nBe sure to check out:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)\n\n**Note:** Applications for SEC-05 are now closed."
+        answer: "If you are invited to come after you're selected, you need to take care of a personal budget for 6 weeks, including flight tickets, rent for accommodation, spending money for daily expenses such as breakfast, lunch and dinner. Pocket money for the weekend outings is also not a bad idea, since you'll be able to explore beautiful Madeira once you're there.\n\nA so-called ballpark figure is hard to calculate in general, as Madeira might be cheaper for participants who come from the US or north-west Europe. If you come from southern Europe or Asia or the Americas it might be more expensive. Besides this it also depends on your personal preferences for accommodation, etc.\n\nBe sure to check out:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
 
   - id: 'application-contact'
     title: 'Application & Contact'
     questions:
       - question: 'How do I apply?'
-        answer: 'Applications for SEC-05 are now closed. Stay tuned for future opportunities to join our community of builders.'
+        answer: 'Applications for SEC-06 will open in November 2025. Stay tuned for future opportunities to join our community of builders.'
 
       - question: 'How do I best contact you?'
         answer: "You can contact us via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io) or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."
