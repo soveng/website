@@ -927,8 +927,8 @@
     "name": "FIPs",
     "description": "Fuck IPs using bloom filters",
     "cohort": "SEC-05",
-    "link": "",
-    "linkText": "",
+    "link": "https://gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
+    "linkText": "gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
