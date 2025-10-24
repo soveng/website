@@ -37,11 +37,255 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Sovereign Feeds</managingEditor>
-    <pubDate>Fri, 24 Oct 2025 19:57:13 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Oct 2025 19:57:13 +0000</lastBuildDate>
+    <pubDate>Fri, 24 Oct 2025 21:17:20 +0000</pubDate>
+    <lastBuildDate>Fri, 24 Oct 2025 21:17:20 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>#13: The Linux of Social Media</title>
+      <description><![CDATA[<p><span style="font-weight: 400;">"The identity should be outside of the computer."</span></p>
+<p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
+<p><span style="font-weight: 400;">Libraries &amp; apps mentioned:</span></p>
+<ul>
+<li><a href="https://github.com/hzrd149/applesauce"><span style="font-weight: 400;">Applesauce</span></a></li>
+<li><a href="https://www.readwithboris.com/"><span style="font-weight: 400;">Boris</span></a></li>
+<li><a href="https://github.com/greenart7c3/Citrine"><span style="font-weight: 400;">Citrine</span></a></li>
+<li><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Automation &amp; robot armies</span></li>
+<li><span style="font-weight: 400;">If this than that (</span><a href="https://ifttt.com/"><span style="font-weight: 400;">IFTTT</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Permissioned vs permissionless automation</span></li>
+<li><span style="font-weight: 400;">Self-hosting and the </span><a href="https://www.localfirstconf.com/"><span style="font-weight: 400;">local-first</span></a><span style="font-weight: 400;"> people</span></li>
+<li><span style="font-weight: 400;">"The identity should be outside of the computer"</span></li>
+<li><span style="font-weight: 400;">Private vs public, local vs remote</span></li>
+<li><a href="https://www.gnu.org/philosophy/opposing-drm.html"><span style="font-weight: 400;">DRM</span></a><span style="font-weight: 400;"> and other nonsense</span></li>
+<li><span style="font-weight: 400;">Private means encrypted with my key</span></li>
+<li><span style="font-weight: 400;">Nostr apps should be local-first, thanks to local relays</span></li>
+<li><span style="font-weight: 400;">All nostr apps should work in flight mode, somewhat</span></li>
+<li><span style="font-weight: 400;">Outbox model, writing, and reading&nbsp;</span></li>
+<li><span style="font-weight: 400;">Search &amp; </span><a href="https://github.com/nostr-protocol/nips/blob/master/50.md"><span style="font-weight: 400;">NIP-50</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Ants &amp; </span><a href="http://thisishowyougetants.com"><span style="font-weight: 400;">thisishowyougetants.com&nbsp;</span></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Six_degrees_of_separation"><span style="font-weight: 400;">6 degrees</span></a><span style="font-weight: 400;"> of separation &amp; </span><a href="https://en.wikipedia.org/wiki/Friend_of_a_friend"><span style="font-weight: 400;">FoaF</span></a></li>
+<li><a href="https://ants.sh/?q=by%3Adergigi+WoT"><span style="font-weight: 400;">WoT</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Friend list curation &amp; "</span><a href="https://google.fandom.com/wiki/Google%2B_Circles"><span style="font-weight: 400;">circles</span></a><span style="font-weight: 400;">"&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Don't touch my follow list"</span></li>
+<li><span style="font-weight: 400;">Bootstrapping a network by </span><a href="https://ants.sh/?q=by%3Adergigi+GM"><span style="font-weight: 400;">saying GM</span></a><span style="font-weight: 400;"> a lot</span></li>
+<li><span style="font-weight: 400;">Recommendations usually suck</span></li>
+<li><span style="font-weight: 400;">Nostr can shine</span></li>
+<li><a href="https://vertexlab.io/"><span style="font-weight: 400;">Vertex</span></a><span style="font-weight: 400;"> &amp; figuring out who </span><a href="https://ants.sh/?q=p%3Ajohn"><span style="font-weight: 400;">John</span></a><span style="font-weight: 400;"> is</span></li>
+<li><span style="font-weight: 400;">NIP-05 &amp; realness</span></li>
+<li><span style="font-weight: 400;">Root-level domains &amp; realness (e.g. </span><a href="https://ants.sh/?q=%40dergigi.com"><span style="font-weight: 400;">@dergigi.com</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Zaps &amp; realness</span></li>
+<li><span style="font-weight: 400;">Nutzaps &amp; realness&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local-first &amp; local algorithms&nbsp;</span></li>
+<li><a href="https://github.com/damus-io/nostrdb"><span style="font-weight: 400;">nostrdb</span></a><span style="font-weight: 400;"> VS local relays&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local data &amp; relevancy&nbsp;</span></li>
+<li><a href="https://ants.sh/?q=noDNS+by%3Aarjen"><span style="font-weight: 400;">noDNS</span></a><span style="font-weight: 400;">, locality, local preference, and "good enough"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Mostly online vs mostly offline&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Servers aren't bad. Getting rugpulled is bad."</span></li>
+<li><span style="font-weight: 400;">"Information is easy to spread but hard to stifle"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local hubs, community hubs, global hubs</span></li>
+<li><span style="font-weight: 400;">"nostr was built for broadcasting"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Building stuff badly &amp; nerd-sniping people</span></li>
+<li><span style="font-weight: 400;">Gigi's </span><a href="https://ants.sh/e/nevent1qqstgekdlmaeu3n6gf3ss7nnlq4f0hfx3nm3nmy0pf84xs7e98wyt2ssw5p34"><span style="font-weight: 400;">ants video</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Walking in circles&nbsp;</span></li>
+<li><span style="font-weight: 400;">DM metadata leakage&nbsp;</span></li>
+<li><a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqxnzd3cxqmrzv3exgmr2wfesgsmew"><span style="font-weight: 400;">"It shouldn't matter where the data comes from"</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Deleting data is a lie"&nbsp;</span></li>
+<li><span style="font-weight: 400;">The impossibility of proving deletion&nbsp;</span></li>
+<li><span style="font-weight: 400;">Bitrot &amp; data loss</span></li>
+<li><span style="font-weight: 400;">Fighting bitrot with duplication &amp; rebroadcasting&nbsp;</span></li>
+<li><a href="https://bouquet.slidestr.net/"><span style="font-weight: 400;">Bouquet</span></a><span style="font-weight: 400;">, </span><a href="https://github.com/hzrd149/blossom"><span style="font-weight: 400;">blossom</span></a><span style="font-weight: 400;">, and self-healing links</span></li>
+<li><span style="font-weight: 400;">Local-first vs local-also&nbsp;</span></li>
+<li><span style="font-weight: 400;">Left-side of the bellcurve CDN&nbsp;</span></li>
+<li><span style="font-weight: 400;">The one </span><a href="https://topic.relays.land/whales"><span style="font-weight: 400;">whale relay</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Topic-based relays&nbsp;</span></li>
+<li><a href="https://pyramid.fiatjaf.com/"><span style="font-weight: 400;">fiatjaf's pyramid relay</span></a></li>
+<li><span style="font-weight: 400;">Torrents, early video content, game installers&nbsp;</span></li>
+<li><a href="https://fiatjaf.com/d5031e5b.html"><span style="font-weight: 400;">fiatjaf&rsquo;s take on IPFS</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Why not rebuild Cloudflare?&nbsp;</span></li>
+<li><span style="font-weight: 400;">Censorship-resistance = 100% uptime = no rugpulls&nbsp;</span></li>
+<li><span style="font-weight: 400;">Getting offered weed on the streets&nbsp;</span></li>
+<li><span style="font-weight: 400;">Every app works in flight mode</span></li>
+<li><span style="font-weight: 400;">No developer needs an API key&nbsp;</span></li>
+<li><span style="font-weight: 400;">"The data accumulates where it needs to accumulate"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Browser history as an example of local data &amp; user interests&nbsp;</span></li>
+<li><span style="font-weight: 400;">WoT is kinda local&nbsp;</span></li>
+<li><a href="http://wot.dergigi.com"><span style="font-weight: 400;">wot.dergigi.com</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Blossom is different; blobs are heavy&nbsp;</span></li>
+<li><span style="font-weight: 400;">American HODL's vlogs&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Step 1 is to build a shitty version"&nbsp;</span></li>
+<li><a href="https://github.com/bitvora/haven"><span style="font-weight: 400;">HAVEN</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Nostr Repair Kit (Nostr pacemaker)&nbsp;</span></li>
+<li><span style="font-weight: 400;">Shout-out to Pablo's highlighter (fucking hell)&nbsp;</span></li>
+<li><span style="font-weight: 400;">Open-source &amp; scratching your own itch&nbsp;</span></li>
+<li><a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqxkzursd3jhxct4vdjj6a35zywsv8"><span style="font-weight: 400;">Applesauce v4</span></a></li>
+<li><span style="font-weight: 400;">"It's almost done" - famous last words!&nbsp;</span></li>
+<li><span style="font-weight: 400;">Outbox in applesauce, and how it makes everything more difficult&nbsp;</span></li>
+<li><span style="font-weight: 400;">Waves, </span><a href="https://routstr.com/"><span style="font-weight: 400;">routstr</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=44231922884"><span style="font-weight: 400;">Pete</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=35419852277"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=35009806060"><span style="font-weight: 400;">Paul</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=36418346296"><span style="font-weight: 400;">Gzuuus</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Hzrd's </span><a href="https://primal.net/soveng/sec-05-yolo-mode-report"><span style="font-weight: 400;">SEC-05 highlights</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><a href="https://ants.sh/?q=noDNS+by%3Aarjen"><span style="font-weight: 400;">noDNS</span></a></li>
+<li><a href="https://github.com/Origami74/wally"><span style="font-weight: 400;">Wally</span></a><span style="font-weight: 400;"> &amp; Cashu Wallet Connect&nbsp;</span></li>
+<li><span style="font-weight: 400;">Crazy idea =&gt; Consensus =&gt; Implementation&nbsp;</span></li>
+<li><span style="font-weight: 400;">Difference between idea &amp; implementation</span></li>
+<li><span style="font-weight: 400;">"Domains are shitcoins"&nbsp;</span></li>
+<li><span style="font-weight: 400;">We've been living in a post-domain world for a while&nbsp;</span></li>
+<li><span style="font-weight: 400;">Independent browsers &amp; project </span><a href="https://ladybird.org/"><span style="font-weight: 400;">Ladybird</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Nostr-native browser - who will build it?&nbsp;</span></li>
+<li><span style="font-weight: 400;">"A different way of doing internet infrastructure"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Is a world without APIs possible?&nbsp;</span></li>
+<li><span style="font-weight: 400;">Mainframe =&gt; Personal Computer =&gt; Smartphones&nbsp;</span></li>
+<li><span style="font-weight: 400;">Online sometimes =&gt; Offline sometimes&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local LLMs</span></li>
+<li><span style="font-weight: 400;">Nostr allows you to build less</span></li>
+<li><span style="font-weight: 400;">Thin layers &amp; special-purpose apps&nbsp;</span></li>
+<li><a href="https://github.com/nostr-protocol/nips/blob/master/60.md"><span style="font-weight: 400;">NIP-60</span></a><span style="font-weight: 400;"> and finding spare change under the couch&nbsp;</span></li>
+<li><span style="font-weight: 400;">Does </span><a href="https://github.com/nostr-protocol/nips/blob/master/77.md"><span style="font-weight: 400;">negentropy</span></a><span style="font-weight: 400;"> fix NIP-60 synchronization?&nbsp;</span></li>
+<li><span style="font-weight: 400;">Nostr is synergistic&nbsp;</span></li>
+<li><span style="font-weight: 400;">The beauty of </span><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a></li>
+<li><span style="font-weight: 400;">Nostr works. We've come far!</span></li>
+<li><span style="font-weight: 400;">It's all coming together</span></li>
+<li><a href="https://www.readwithboris.com/"><span style="font-weight: 400;">Boris</span></a></li>
+<li><span style="font-weight: 400;">"You can always go back and build it right"</span></li>
+<li><span style="font-weight: 400;">Just begin again.</span></li>
+<li><span style="font-weight: 400;">Just begin again.</span></li>
+<li><span style="font-weight: 400;">Just begin again.</span></li>
+</ul>
+<p>&nbsp;</p>]]></description>
+      <itunes:image href="https://haven.sovereignengineering.io/e888e7f64b8cedc553a44ac5e3ed05e5de81abb3c033b6d620cf798211718dcf.jpg"/>
+      <enclosure url="https://haven.sovereignengineering.io/e256db47fb840f116395e36ddb9dee41b17ac884602b2fdb028d056db00d1956.m4a" length="63024184" type="audio/mpeg"/>
+      <podcast:person href="https://hzrd149.com/" img="https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png" group="cast" role="guest">hzrd149</podcast:person>
+      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:transcript url="https://haven.sovereignengineering.io/45251a336512a568f13f98909ab04aab44259340e6b2a07920af5a8b14ae1743.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
+        <podcast:valueRecipient name="Hzrd" type="lnaddress" address="hzrd1499@minibits.cash" split="100"/>
+      </podcast:value>
+      <guid isPermaLink="false">06082b2d-58ce-4100-a363-af79c5109871</guid>
+      <itunes:subtitle>#13: The Linux of Social Media</itunes:subtitle>
+      <itunes:duration>5150</itunes:duration>
+      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqqsqavtcdas03svjy60tfwquanz8xd6lh7p0257y46tdrcjcunndr2qgunjfe</link>
+      <pubDate>Fri, 24 Oct 2025 21:14:39 +0000</pubDate>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>nostr, development, sovereign engineering, shipping, relays, web, internet, conversation, dialog</itunes:keywords>
+      <itunes:summary><![CDATA[<p><span style="font-weight: 400;">"The identity should be outside of the computer."</span></p>
+<p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
+<p><span style="font-weight: 400;">Libraries &amp; apps mentioned:</span></p>
+<ul>
+<li><a href="https://github.com/hzrd149/applesauce"><span style="font-weight: 400;">Applesauce</span></a></li>
+<li><a href="https://www.readwithboris.com/"><span style="font-weight: 400;">Boris</span></a></li>
+<li><a href="https://github.com/greenart7c3/Citrine"><span style="font-weight: 400;">Citrine</span></a></li>
+<li><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Automation &amp; robot armies</span></li>
+<li><span style="font-weight: 400;">If this than that (</span><a href="https://ifttt.com/"><span style="font-weight: 400;">IFTTT</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Permissioned vs permissionless automation</span></li>
+<li><span style="font-weight: 400;">Self-hosting and the </span><a href="https://www.localfirstconf.com/"><span style="font-weight: 400;">local-first</span></a><span style="font-weight: 400;"> people</span></li>
+<li><span style="font-weight: 400;">"The identity should be outside of the computer"</span></li>
+<li><span style="font-weight: 400;">Private vs public, local vs remote</span></li>
+<li><a href="https://www.gnu.org/philosophy/opposing-drm.html"><span style="font-weight: 400;">DRM</span></a><span style="font-weight: 400;"> and other nonsense</span></li>
+<li><span style="font-weight: 400;">Private means encrypted with my key</span></li>
+<li><span style="font-weight: 400;">Nostr apps should be local-first, thanks to local relays</span></li>
+<li><span style="font-weight: 400;">All nostr apps should work in flight mode, somewhat</span></li>
+<li><span style="font-weight: 400;">Outbox model, writing, and reading&nbsp;</span></li>
+<li><span style="font-weight: 400;">Search &amp; </span><a href="https://github.com/nostr-protocol/nips/blob/master/50.md"><span style="font-weight: 400;">NIP-50</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Ants &amp; </span><a href="http://thisishowyougetants.com"><span style="font-weight: 400;">thisishowyougetants.com&nbsp;</span></a></li>
+<li><a href="https://en.wikipedia.org/wiki/Six_degrees_of_separation"><span style="font-weight: 400;">6 degrees</span></a><span style="font-weight: 400;"> of separation &amp; </span><a href="https://en.wikipedia.org/wiki/Friend_of_a_friend"><span style="font-weight: 400;">FoaF</span></a></li>
+<li><a href="https://ants.sh/?q=by%3Adergigi+WoT"><span style="font-weight: 400;">WoT</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Friend list curation &amp; "</span><a href="https://google.fandom.com/wiki/Google%2B_Circles"><span style="font-weight: 400;">circles</span></a><span style="font-weight: 400;">"&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Don't touch my follow list"</span></li>
+<li><span style="font-weight: 400;">Bootstrapping a network by </span><a href="https://ants.sh/?q=by%3Adergigi+GM"><span style="font-weight: 400;">saying GM</span></a><span style="font-weight: 400;"> a lot</span></li>
+<li><span style="font-weight: 400;">Recommendations usually suck</span></li>
+<li><span style="font-weight: 400;">Nostr can shine</span></li>
+<li><a href="https://vertexlab.io/"><span style="font-weight: 400;">Vertex</span></a><span style="font-weight: 400;"> &amp; figuring out who </span><a href="https://ants.sh/?q=p%3Ajohn"><span style="font-weight: 400;">John</span></a><span style="font-weight: 400;"> is</span></li>
+<li><span style="font-weight: 400;">NIP-05 &amp; realness</span></li>
+<li><span style="font-weight: 400;">Root-level domains &amp; realness (e.g. </span><a href="https://ants.sh/?q=%40dergigi.com"><span style="font-weight: 400;">@dergigi.com</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Zaps &amp; realness</span></li>
+<li><span style="font-weight: 400;">Nutzaps &amp; realness&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local-first &amp; local algorithms&nbsp;</span></li>
+<li><a href="https://github.com/damus-io/nostrdb"><span style="font-weight: 400;">nostrdb</span></a><span style="font-weight: 400;"> VS local relays&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local data &amp; relevancy&nbsp;</span></li>
+<li><a href="https://ants.sh/?q=noDNS+by%3Aarjen"><span style="font-weight: 400;">noDNS</span></a><span style="font-weight: 400;">, locality, local preference, and "good enough"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Mostly online vs mostly offline&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Servers aren't bad. Getting rugpulled is bad."</span></li>
+<li><span style="font-weight: 400;">"Information is easy to spread but hard to stifle"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local hubs, community hubs, global hubs</span></li>
+<li><span style="font-weight: 400;">"nostr was built for broadcasting"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Building stuff badly &amp; nerd-sniping people</span></li>
+<li><span style="font-weight: 400;">Gigi's </span><a href="https://ants.sh/e/nevent1qqstgekdlmaeu3n6gf3ss7nnlq4f0hfx3nm3nmy0pf84xs7e98wyt2ssw5p34"><span style="font-weight: 400;">ants video</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Walking in circles&nbsp;</span></li>
+<li><span style="font-weight: 400;">DM metadata leakage&nbsp;</span></li>
+<li><a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqxnzd3cxqmrzv3exgmr2wfesgsmew"><span style="font-weight: 400;">"It shouldn't matter where the data comes from"</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Deleting data is a lie"&nbsp;</span></li>
+<li><span style="font-weight: 400;">The impossibility of proving deletion&nbsp;</span></li>
+<li><span style="font-weight: 400;">Bitrot &amp; data loss</span></li>
+<li><span style="font-weight: 400;">Fighting bitrot with duplication &amp; rebroadcasting&nbsp;</span></li>
+<li><a href="https://bouquet.slidestr.net/"><span style="font-weight: 400;">Bouquet</span></a><span style="font-weight: 400;">, </span><a href="https://github.com/hzrd149/blossom"><span style="font-weight: 400;">blossom</span></a><span style="font-weight: 400;">, and self-healing links</span></li>
+<li><span style="font-weight: 400;">Local-first vs local-also&nbsp;</span></li>
+<li><span style="font-weight: 400;">Left-side of the bellcurve CDN&nbsp;</span></li>
+<li><span style="font-weight: 400;">The one </span><a href="https://topic.relays.land/whales"><span style="font-weight: 400;">whale relay</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Topic-based relays&nbsp;</span></li>
+<li><a href="https://pyramid.fiatjaf.com/"><span style="font-weight: 400;">fiatjaf's pyramid relay</span></a></li>
+<li><span style="font-weight: 400;">Torrents, early video content, game installers&nbsp;</span></li>
+<li><a href="https://fiatjaf.com/d5031e5b.html"><span style="font-weight: 400;">fiatjaf&rsquo;s take on IPFS</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Why not rebuild Cloudflare?&nbsp;</span></li>
+<li><span style="font-weight: 400;">Censorship-resistance = 100% uptime = no rugpulls&nbsp;</span></li>
+<li><span style="font-weight: 400;">Getting offered weed on the streets&nbsp;</span></li>
+<li><span style="font-weight: 400;">Every app works in flight mode</span></li>
+<li><span style="font-weight: 400;">No developer needs an API key&nbsp;</span></li>
+<li><span style="font-weight: 400;">"The data accumulates where it needs to accumulate"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Browser history as an example of local data &amp; user interests&nbsp;</span></li>
+<li><span style="font-weight: 400;">WoT is kinda local&nbsp;</span></li>
+<li><a href="http://wot.dergigi.com"><span style="font-weight: 400;">wot.dergigi.com</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Blossom is different; blobs are heavy&nbsp;</span></li>
+<li><span style="font-weight: 400;">American HODL's vlogs&nbsp;</span></li>
+<li><span style="font-weight: 400;">"Step 1 is to build a shitty version"&nbsp;</span></li>
+<li><a href="https://github.com/bitvora/haven"><span style="font-weight: 400;">HAVEN</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Nostr Repair Kit (Nostr pacemaker)&nbsp;</span></li>
+<li><span style="font-weight: 400;">Shout-out to Pablo's highlighter (fucking hell)&nbsp;</span></li>
+<li><span style="font-weight: 400;">Open-source &amp; scratching your own itch&nbsp;</span></li>
+<li><a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqxkzursd3jhxct4vdjj6a35zywsv8"><span style="font-weight: 400;">Applesauce v4</span></a></li>
+<li><span style="font-weight: 400;">"It's almost done" - famous last words!&nbsp;</span></li>
+<li><span style="font-weight: 400;">Outbox in applesauce, and how it makes everything more difficult&nbsp;</span></li>
+<li><span style="font-weight: 400;">Waves, </span><a href="https://routstr.com/"><span style="font-weight: 400;">routstr</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=44231922884"><span style="font-weight: 400;">Pete</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=35419852277"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=35009806060"><span style="font-weight: 400;">Paul</span></a><span style="font-weight: 400;">, </span><a href="https://podcastindex.org/podcast/7206062?episode=36418346296"><span style="font-weight: 400;">Gzuuus</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Hzrd's </span><a href="https://primal.net/soveng/sec-05-yolo-mode-report"><span style="font-weight: 400;">SEC-05 highlights</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><a href="https://ants.sh/?q=noDNS+by%3Aarjen"><span style="font-weight: 400;">noDNS</span></a></li>
+<li><a href="https://github.com/Origami74/wally"><span style="font-weight: 400;">Wally</span></a><span style="font-weight: 400;"> &amp; Cashu Wallet Connect&nbsp;</span></li>
+<li><span style="font-weight: 400;">Crazy idea =&gt; Consensus =&gt; Implementation&nbsp;</span></li>
+<li><span style="font-weight: 400;">Difference between idea &amp; implementation</span></li>
+<li><span style="font-weight: 400;">"Domains are shitcoins"&nbsp;</span></li>
+<li><span style="font-weight: 400;">We've been living in a post-domain world for a while&nbsp;</span></li>
+<li><span style="font-weight: 400;">Independent browsers &amp; project </span><a href="https://ladybird.org/"><span style="font-weight: 400;">Ladybird</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Nostr-native browser - who will build it?&nbsp;</span></li>
+<li><span style="font-weight: 400;">"A different way of doing internet infrastructure"&nbsp;</span></li>
+<li><span style="font-weight: 400;">Is a world without APIs possible?&nbsp;</span></li>
+<li><span style="font-weight: 400;">Mainframe =&gt; Personal Computer =&gt; Smartphones&nbsp;</span></li>
+<li><span style="font-weight: 400;">Online sometimes =&gt; Offline sometimes&nbsp;</span></li>
+<li><span style="font-weight: 400;">Local LLMs</span></li>
+<li><span style="font-weight: 400;">Nostr allows you to build less</span></li>
+<li><span style="font-weight: 400;">Thin layers &amp; special-purpose apps&nbsp;</span></li>
+<li><a href="https://github.com/nostr-protocol/nips/blob/master/60.md"><span style="font-weight: 400;">NIP-60</span></a><span style="font-weight: 400;"> and finding spare change under the couch&nbsp;</span></li>
+<li><span style="font-weight: 400;">Does </span><a href="https://github.com/nostr-protocol/nips/blob/master/77.md"><span style="font-weight: 400;">negentropy</span></a><span style="font-weight: 400;"> fix NIP-60 synchronization?&nbsp;</span></li>
+<li><span style="font-weight: 400;">Nostr is synergistic&nbsp;</span></li>
+<li><span style="font-weight: 400;">The beauty of </span><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a></li>
+<li><span style="font-weight: 400;">Nostr works. We've come far!</span></li>
+<li><span style="font-weight: 400;">It's all coming together</span></li>
+<li><a href="https://www.readwithboris.com/"><span style="font-weight: 400;">Boris</span></a></li>
+<li><span style="font-weight: 400;">"You can always go back and build it right"</span></li>
+<li><span style="font-weight: 400;">Just begin again.</span></li>
+<li><span style="font-weight: 400;">Just begin again.</span></li>
+<li><span style="font-weight: 400;">Just begin again.</span></li>
+</ul>
+<p>&nbsp;</p>]]></itunes:summary>
+    </item>
     <item>
       <title>#12: The Windy Lawnmower Stuff</title>
       <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
