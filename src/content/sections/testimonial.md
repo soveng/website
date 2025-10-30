@@ -89,7 +89,7 @@ testimonials:
     content: "Sovereign Engineering is Bletchley Park ²\n\nA mind melding brain melting cornucopia of creative coding for humanity\n\nIt's all quite bonkers"
 
   - name: 'vnprc'
-    designation: 'Alumni'
+    designation: 'Hashpool'
     avatar: '/images/vnprc-avatar.jpg'
     content: "I returned to the real world three weeks ago and I'm still fired up to ship every week. It's been a life changing experience."
 ---
