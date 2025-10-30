@@ -86,5 +86,10 @@ testimonials:
     avatar: '/images/chiefmonkey-laser-eyes.png'
     npub: 'npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6'
     noteid: 'nevent1qqsxuf3drahkye4fvs4hws2ntrg67yr2dn5h0sr03vrleg99qcgkemgzyrk8ndtghh4x8jnqj86msjcvvwwppgy3nct4lgy6fh332nuzjphj25x6uuw'
-    content: "Sovereign Engineering is Bletchley Park ²\n\nA mind melding brain melting cornucopia of creative coding for humanity\n\nIt’s all quite bonkers"
+    content: "Sovereign Engineering is Bletchley Park ²\n\nA mind melding brain melting cornucopia of creative coding for humanity\n\nIt's all quite bonkers"
+
+  - name: 'vnprc'
+    designation: 'Alumni'
+    avatar: '/images/image-placeholder.png'
+    content: "I returned to the real world three weeks ago and I'm still fired up to ship every week. It's been a life changing experience."
 ---
