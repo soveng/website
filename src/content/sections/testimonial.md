@@ -90,6 +90,6 @@ testimonials:
 
   - name: 'vnprc'
     designation: 'Alumni'
-    avatar: '/images/image-placeholder.png'
+    avatar: '/images/vnprc-avatar.jpg'
     content: "I returned to the real world three weeks ago and I'm still fired up to ship every week. It's been a life changing experience."
 ---
