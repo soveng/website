@@ -38,7 +38,7 @@ const { call_to_action } = Astro.props;
             <div class="flex items-center gap-6">
               {call_to_action.data.button.enable && (
                 <a
-                  class="btn btn-primary inline-block"
+                  class="btn-retro px-8 py-4"
                   href={call_to_action.data.button.link}
                   target={call_to_action.data.button.link.startsWith("http") ? "_blank" : "_self"}
                   rel={call_to_action.data.button.link.startsWith("http") ? "noopener noreferrer" : ""}

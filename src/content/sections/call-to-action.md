@@ -1,12 +1,12 @@
 ---
 enable: true
-title: 'SEC-06: Coming Soon'
+title: 'SEC-06: Identity and Signers'
 image: '/images/men-wanted.png'
-description: 'Applications for the next cohort will open shortly. In the meantime, explore what was built last cohort by reading our [SEC-05: YOLO Report](https://primal.net/soveng/sec-05-yolo-mode-report).'
+description: 'Join us for SEC-06, where we focus on **Identity and Signers**. Our North Star team for SEC-06 is [**Portal**](https://getportal.cc/docs/index.html), led by Alekos Felini, building the Portal SDK for businesses to authenticate, get paid, and issue tickets over Nostr.'
 button:
-  enable: false
+  enable: true
   label: 'Apply Now!'
-  link: 'https://sovereignengineering.typeform.com/SEC-06'
-dates: 'SEC-06 will commence in Spring 2026.'
-dates2: ''
+  link: 'https://sovereignengineering.typeform.com/to/Hn4xHV3a'
+dates: 'SEC-06 runs from March 2nd - 20th, 2026'
+dates2: 'in Funchal, Madeira'
 ---

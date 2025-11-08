@@ -23,7 +23,7 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: 'SEC-06 is scheduled for Spring 2026 and the dates will be announced soon. Applications will open in November 2025.'
+        answer: 'SEC-06 runs from March 2nd - 20th, 2026 in Funchal, Madeira.'
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
         answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation Pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
@@ -53,7 +53,7 @@ sections:
     title: 'Application & Contact'
     questions:
       - question: 'How do I apply?'
-        answer: 'Applications for SEC-06 will open in November 2025. Stay tuned for future opportunities to join our community of builders.'
+        answer: 'Applications for SEC-06 are now open! The theme is Identity and Signers. Apply [here](https://sovereignengineering.typeform.com/to/Hn4xHV3a).'
 
       - question: 'How do I best contact you?'
         answer: "You can contact us via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io) or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."

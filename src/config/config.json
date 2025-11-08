@@ -25,9 +25,9 @@
   },
 
   "navigation_button": {
-    "enable": false,
-    "label": "Applications Closed",
-    "link": "#"
+    "enable": true,
+    "label": "Apply Now",
+    "link": "https://sovereignengineering.typeform.com/to/Hn4xHV3a"
   },
 
   "google_tag_manager": {
