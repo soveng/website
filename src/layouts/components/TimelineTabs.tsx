@@ -68,12 +68,19 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           </div>
 
           {/* Timeline Visualization */}
-          <div className="timeline-wrapper mb-12 px-4">
-            <div className="timeline-year text-white text-sm mb-4 text-center font-mono">2026</div>
+          <div className="timeline-wrapper mb-8 px-4">
+            <div className="timeline-year text-white text-sm mb-4 font-mono">2026</div>
 
-            <div className="relative flex items-center max-w-3xl mx-auto">
-              {/* Timeline Line */}
-              <div className="absolute left-0 right-0 h-0.5 bg-gray-600 top-1/2 -translate-y-1/2 z-0"></div>
+            <div className="relative flex items-center">
+              {/* Timeline Line with Arrow - extends beyond last node */}
+              <svg className="absolute left-0 right-0 top-1/2 -translate-y-1/2 z-0 w-full" style={{ height: '2px' }} preserveAspectRatio="none">
+                <defs>
+                  <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+                    <polygon points="0 0, 12 6, 0 12" fill="#9ca3af" />
+                  </marker>
+                </defs>
+                <line x1="0" y1="1" x2="calc(100% + 60px)" y2="1" stroke="#9ca3af" strokeWidth="2" markerEnd="url(#arrowhead)" />
+              </svg>
 
               {/* Timeline Nodes */}
               {sortedCohorts.map((cohort, index) => {
@@ -107,7 +114,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                       }`}>
                         {cohort.data.id}
                       </div>
-                      <div className={`text-xs md:text-sm mb-2 font-semibold ${
+                      <div className={`text-sm md:text-base mb-2 font-semibold ${
                         isActive ? 'text-white' : 'text-gray-200'
                       }`}>
                         {cohort.data.theme}
@@ -121,14 +128,11 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                   </button>
                 );
               })}
-
-              {/* Arrow */}
-              <div className="absolute -right-4 text-gray-600 text-2xl z-0">→</div>
             </div>
           </div>
 
-          {/* Active Cohort Content */}
-          <div className="cohort-content">
+          {/* Active Cohort Content - Tab Styled */}
+          <div className="cohort-content bg-black/30 border-2 border-white/20 rounded-lg p-6 shadow-lg">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
               {activeCohort.data.id}: {activeCohort.data.theme}
             </h3>
@@ -140,9 +144,9 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             <p className="text-lg text-white/90 mb-6 leading-relaxed">{activeCohort.data.description}</p>
 
             {activeCohort.data.northStar && (
-              <div className="mb-6 p-4 bg-white/5 rounded border border-gray-600">
-                <p className="text-base font-bold text-white mb-2">North Star Team</p>
-                <p className="text-base text-white/90 leading-relaxed">
+              <div className="mb-6 p-5 bg-black/40 rounded border border-gray-600">
+                <p className="text-lg font-bold text-white mb-3">North Star Team</p>
+                <p className="text-lg text-white/90 leading-relaxed">
                   <a
                     href={activeCohort.data.northStar.link}
                     target="_blank"
