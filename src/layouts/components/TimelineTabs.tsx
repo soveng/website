@@ -58,57 +58,48 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
 
   return (
     <div className="timeline-tabs-container">
-      {/* Main Layout: Timeline/Content on Left, Image on Right */}
+      {/* Main Layout: Tabs on Left, Image on Right */}
       <div className="flex flex-col lg:flex-row gap-8 items-start">
-        {/* Left Side: Timeline + Content */}
+        {/* Left Side: Tabs */}
         <div className="flex-1 lg:w-3/5">
-          {/* Timeline Header */}
+          {/* Header */}
           <div className="text-center mb-8">
             <h2 className="text-3xl md:text-4xl font-bold text-white">Apply To SEC</h2>
+            <p className="text-sm text-white/70 mt-2 font-mono">2026</p>
           </div>
 
-          {/* Timeline Visualization */}
-          <div className="timeline-wrapper mb-8 px-4">
-            <div className="timeline-year text-white text-sm mb-4 font-mono">2026</div>
-
-            <div className="relative flex items-center">
-              {/* Timeline Line with Arrow - extends beyond last node */}
-              <svg className="absolute left-0 right-0 top-1/2 -translate-y-1/2 z-0 w-full" style={{ height: '2px' }} preserveAspectRatio="none">
-                <defs>
-                  <marker id="arrowhead" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-                    <polygon points="0 0, 12 6, 0 12" fill="#9ca3af" />
-                  </marker>
-                </defs>
-                <line x1="0" y1="1" x2="calc(100% + 60px)" y2="1" stroke="#9ca3af" strokeWidth="2" markerEnd="url(#arrowhead)" />
-              </svg>
-
-              {/* Timeline Nodes */}
+          {/* Horizontal Tabs */}
+          <div className="flex flex-col">
+            {/* Tab Headers Row */}
+            <div className="flex gap-2 mb-0">
               {sortedCohorts.map((cohort, index) => {
                 const badge = getStatusBadge(cohort.data.status);
                 const isActive = index === activeIndex;
-                const flexGrow = getSpacingFlex(index);
 
                 return (
                   <button
                     key={cohort.data.id}
                     onClick={() => setActiveIndex(index)}
-                    className={`timeline-node relative z-10 flex flex-col items-center cursor-pointer group ${getStatusStyle(cohort.data.status, isActive)}`}
-                    style={{ flexGrow }}
+                    className={`flex-1 p-4 rounded-t-lg transition-all duration-300 ${
+                      isActive
+                        ? 'bg-black/30 border-2 border-b-0 border-white/20'
+                        : 'bg-transparent border-2 border-transparent hover:bg-black/10'
+                    }`}
                     disabled={cohort.data.status === 'closed'}
                   >
                     {/* Dot */}
-                    <div className={`w-6 h-6 rounded-full mb-3 border-4 ${
+                    <div className={`w-6 h-6 rounded-full mx-auto mb-3 border-4 transition-all ${
                       isActive
                         ? 'bg-white border-white scale-125'
                         : cohort.data.status === 'open'
-                        ? 'bg-green-500 border-green-500 group-hover:scale-110'
+                        ? 'bg-green-500 border-green-500'
                         : cohort.data.status === 'closed'
                         ? 'bg-gray-500 border-gray-500'
-                        : 'bg-yellow-500 border-yellow-500 group-hover:scale-110'
+                        : 'bg-yellow-500 border-yellow-500'
                     }`}></div>
 
                     {/* Label */}
-                    <div className="text-center min-w-[100px]">
+                    <div className="text-center">
                       <div className={`font-bold text-sm md:text-base mb-1 ${
                         isActive ? 'text-white' : 'text-gray-300'
                       }`}>
@@ -129,10 +120,9 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                 );
               })}
             </div>
-          </div>
 
-          {/* Active Cohort Content - Tab Styled */}
-          <div className="cohort-content bg-black/30 border-2 border-white/20 rounded-lg p-6 shadow-lg">
+            {/* Active Tab Content */}
+            <div className="bg-black/30 border-2 border-t-0 border-white/20 rounded-b-lg p-6 shadow-lg">
             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">
               {activeCohort.data.id}: {activeCohort.data.theme}
             </h3>
@@ -192,6 +182,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                 Applications Opening Soon
               </div>
             )}
+          </div>
           </div>
         </div>
 
