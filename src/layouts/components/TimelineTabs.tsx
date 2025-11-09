@@ -107,8 +107,8 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                       }`}>
                         {cohort.data.id}
                       </div>
-                      <div className={`text-xs md:text-sm mb-2 ${
-                        isActive ? 'text-gray-200' : 'text-gray-400'
+                      <div className={`text-xs md:text-sm mb-2 font-semibold ${
+                        isActive ? 'text-white' : 'text-gray-200'
                       }`}>
                         {cohort.data.theme}
                       </div>
@@ -140,24 +140,22 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             <p className="text-lg text-white/90 mb-6 leading-relaxed">{activeCohort.data.description}</p>
 
             {activeCohort.data.northStar && (
-              <div className="mb-6 p-4 bg-black/50 rounded border border-gray-600">
-                <p className="text-lg text-white-400 mb-2">North Star Team:</p>
-                <p className="text-white font-bold mb-1">
+              <div className="mb-6 p-4 bg-white/5 rounded border border-gray-600">
+                <p className="text-base font-bold text-white mb-2">North Star Team</p>
+                <p className="text-base text-white/90 leading-relaxed">
                   <a
                     href={activeCohort.data.northStar.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="hover:underline"
+                    className="text-white underline decoration-2 underline-offset-2 hover:text-primary transition-colors"
                   >
                     {activeCohort.data.northStar.name}
                   </a>
                   {activeCohort.data.northStar.lead && (
-                    <span className="text-gray-400 font-normal text-sm ml-2">
-                      led by {activeCohort.data.northStar.lead}
-                    </span>
+                    <span> led by {activeCohort.data.northStar.lead}</span>
                   )}
+                  {' '}{activeCohort.data.northStar.description}
                 </p>
-                <p className="text-sm text-gray-300">{activeCohort.data.northStar.description}</p>
               </div>
             )}
 
@@ -194,12 +192,12 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Right Side: Image */}
-        <div className="lg:w-2/5 flex items-center">
+        <div className="lg:w-2/5 flex items-center justify-center">
           <a
             href="https://en.wikipedia.org/wiki/Endurance_(1912_ship)"
             target="_blank"
             rel="noopener noreferrer"
-            className="block w-full"
+            className="block"
           >
             <img
               src="/images/men-wanted.png"
