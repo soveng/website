@@ -223,6 +223,34 @@ const testimonialSectionCollection = defineCollection({
   }),
 });
 
+// Cohorts collection schema
+const cohortsCollection = defineCollection({
+  loader: glob({
+    pattern: "*.{md,mdx}",
+    base: "src/content/cohorts",
+  }),
+  schema: z.object({
+    id: z.string(),
+    status: z.enum(['open', 'closed', 'upcoming']),
+    theme: z.string(),
+    dates: z.object({
+      start: z.string(),
+      end: z.string(),
+    }),
+    location: z.string(),
+    northStar: z.object({
+      name: z.string(),
+      description: z.string(),
+      lead: z.string().optional(),
+      link: z.string(),
+    }).optional(),
+    applicationUrl: z.string(),
+    description: z.string(),
+    image: z.string().optional(),
+    additionalInfo: z.string().optional(),
+  }),
+});
+
 // Export collections
 export const collections = {
   // Pages
@@ -236,4 +264,7 @@ export const collections = {
   // sections
   ctaSection: ctaSectionCollection,
   testimonialSection: testimonialSectionCollection,
+
+  // cohorts
+  cohorts: cohortsCollection,
 };

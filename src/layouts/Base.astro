@@ -45,11 +45,7 @@ const processedDescription = await plainify(
   description ? description : config.metadata.meta_description
 );
 
-// Get call-to-action data if needed
-const call_to_action = showCallToAction ? (await getEntry(
-  "ctaSection",
-  "call-to-action"
-)) as CollectionEntry<"ctaSection"> : null;
+// Call-to-action now fetches cohorts data internally
 ---
 
 <!doctype html>
@@ -218,8 +214,8 @@ const call_to_action = showCallToAction ? (await getEntry(
     <main id="main-content">
       <slot />
     </main>
-    {showCallToAction && call_to_action && (
-      <CallToAction call_to_action={call_to_action} />
+    {showCallToAction && (
+      <CallToAction />
     )}
     <Footer />
   </body>
