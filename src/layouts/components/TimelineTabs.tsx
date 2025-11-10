@@ -15,15 +15,6 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
 
   const activeCohort = sortedCohorts[activeIndex];
 
-  // Calculate spacing between cohorts based on weeks
-  const getSpacingFlex = (index: number) => {
-    if (index === 0) return 1; // First item
-    const prevDate = new Date(sortedCohorts[index - 1].data.dates.start);
-    const currentDate = new Date(sortedCohorts[index].data.dates.start);
-    const weeksBetween = Math.round((currentDate.getTime() - prevDate.getTime()) / (7 * 24 * 60 * 60 * 1000));
-    return weeksBetween; // Use weeks as flex grow value
-  };
-
   const getStatusBadge = (status: string) => {
     switch (status) {
       case 'open':
@@ -34,23 +25,6 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         return { text: 'OPENING SOON', className: 'bg-yellow-500 text-gray-900' };
       default:
         return { text: '', className: '' };
-    }
-  };
-
-  const getStatusStyle = (status: string, isActive: boolean) => {
-    const base = 'transition-all duration-300';
-    if (isActive) {
-      return `${base} scale-110 shadow-lg`;
-    }
-    switch (status) {
-      case 'open':
-        return `${base} hover:scale-105`;
-      case 'closed':
-        return `${base} opacity-50`;
-      case 'upcoming':
-        return `${base} hover:scale-105`;
-      default:
-        return base;
     }
   };
 
@@ -76,7 +50,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                 onClick={() => setActiveIndex(index)}
                 className={`flex-1 p-4 transition-all duration-300 ${
                   isActive
-                    ? 'border-t-2 border-l-2 border-r-2 border-white/30 bg-black/40 shadow-[inset_2px_2px_0px_rgba(255,255,255,0.3),inset_-2px_0px_0px_rgba(0,0,0,0.5)] relative z-10'
+                    ? 'relative z-10 border-t-2 border-r-2 border-l-2 border-white/30 bg-black/40 shadow-[inset_2px_2px_0px_rgba(255,255,255,0.3),inset_-2px_0px_0px_rgba(0,0,0,0.5)]'
                     : 'border-2 border-white/20 bg-black/20 shadow-[inset_-2px_-2px_0px_rgba(255,255,255,0.1),inset_2px_2px_0px_rgba(0,0,0,0.3)] hover:bg-black/30'
                 }`}
                 disabled={cohort.data.status === 'closed'}
@@ -95,7 +69,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="border-x-2 border-b-2 border-white/30 bg-black/40 p-5 h-[360px] flex flex-col">
+        <div className="flex h-[360px] flex-col border-x-2 border-b-2 border-white/30 bg-black/40 p-5">
           <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
@@ -104,12 +78,13 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             {activeCohort.data.dates.start} - {activeCohort.data.dates.end} · {activeCohort.data.location}
           </p>
 
-          <div className="mb-6 border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
-            <p className="text-base leading-relaxed text-white/90 line-clamp-3">
+          <div className="mb-6 h-[8rem] overflow-hidden border border-gray-600 bg-black/40 p-4">
+            <p className="line-clamp-3 text-base leading-relaxed text-white/90">
               {activeCohort.data.description}
               {activeCohort.data.northStar && activeCohort.data.northStar.name && (
                 <>
-                  {' '}North Star Team for {activeCohort.data.id} is{' '}
+                  {' '}
+                  North Star Team for {activeCohort.data.id} is{' '}
                   <a
                     href={activeCohort.data.northStar.link}
                     target="_blank"
@@ -126,8 +101,8 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           </div>
 
           {activeCohort.data.additionalInfo && (
-            <div className="mb-6 border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
-              <p className="text-sm text-blue-100 font-semibold line-clamp-2">{activeCohort.data.additionalInfo}</p>
+            <div className="mb-6 h-16 overflow-hidden border border-blue-700 bg-blue-900/20 p-4">
+              <p className="line-clamp-2 text-sm font-semibold text-blue-100">{activeCohort.data.additionalInfo}</p>
             </div>
           )}
 
@@ -140,16 +115,10 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             )}
 
             {activeCohort.data.status === 'closed' && (
-              <div className="inline-block px-8 py-4 bg-gray-700 text-gray-400 cursor-not-allowed">
-                Applications Closed
-              </div>
+              <div className="inline-block cursor-not-allowed bg-gray-700 px-8 py-4 text-gray-400">Applications Closed</div>
             )}
 
-            {activeCohort.data.status === 'upcoming' && (
-              <div className="inline-block px-8 py-4 bg-yellow-700/50 text-yellow-200">
-                Opening Soon
-              </div>
-            )}
+            {activeCohort.data.status === 'upcoming' && <div className="inline-block bg-yellow-700/50 px-8 py-4 text-yellow-200">Opening Soon</div>}
           </div>
         </div>
       </div>
