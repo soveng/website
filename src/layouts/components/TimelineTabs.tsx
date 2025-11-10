@@ -65,7 +65,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
       {/* Horizontal Tabs */}
       <div className="flex flex-col shadow-2xl">
         {/* Tab Headers Row */}
-        <div className="mb-0 flex gap-2">
+        <div className="flex">
           {sortedCohorts.map((cohort, index) => {
             const badge = getStatusBadge(cohort.data.status);
             const isActive = index === activeIndex;
@@ -76,7 +76,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                 onClick={() => setActiveIndex(index)}
                 className={`flex-1 p-4 transition-all duration-300 ${
                   isActive
-                    ? 'border-2 border-b-0 border-white/30 bg-black/40 shadow-[inset_2px_2px_0px_rgba(255,255,255,0.3),inset_-2px_-2px_0px_rgba(0,0,0,0.5)] relative z-10'
+                    ? 'border-t-2 border-l-2 border-r-2 border-white/30 bg-black/40 shadow-[inset_2px_2px_0px_rgba(255,255,255,0.3),inset_-2px_0px_0px_rgba(0,0,0,0.5)] relative z-10'
                     : 'border-2 border-white/20 bg-black/20 shadow-[inset_-2px_-2px_0px_rgba(255,255,255,0.1),inset_2px_2px_0px_rgba(0,0,0,0.3)] hover:bg-black/30'
                 }`}
                 disabled={cohort.data.status === 'closed'}
@@ -95,7 +95,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="border-l-2 border-r-2 border-b-2 border-white/30 bg-black/40 p-5 h-[360px] flex flex-col">
+        <div className="border-x-2 border-b-2 border-white/30 bg-black/40 p-5 h-[360px] flex flex-col">
           <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
