@@ -95,35 +95,35 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="rounded-b-lg border-2 border-t-0 border-white/30 bg-black/40 p-5 min-h-[320px]">
+        <div className="rounded-b-lg border-2 border-t-0 border-white/30 bg-black/40 p-5 h-[360px]">
           <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
 
-          <p className="mb-3 text-base font-semibold text-white">
+          <p className="mb-3 text-lg font-semibold text-white">
             {activeCohort.data.dates.start} - {activeCohort.data.dates.end} · {activeCohort.data.location}
           </p>
 
-          <div className="mb-4 h-[3.25rem] overflow-hidden">
-            <p className="text-base leading-relaxed text-white/90">{activeCohort.data.description}</p>
+          <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
+            <p className="text-base leading-relaxed text-white/90 line-clamp-3">
+              {activeCohort.data.description}
+              {activeCohort.data.northStar && (
+                <>
+                  {' '}North Star Team for {activeCohort.data.id} is{' '}
+                  <a
+                    href={activeCohort.data.northStar.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-primary text-white underline decoration-2 underline-offset-2 transition-colors"
+                  >
+                    {activeCohort.data.northStar.name}
+                  </a>
+                  {activeCohort.data.northStar.lead && <> led by {activeCohort.data.northStar.lead}</>}
+                  {activeCohort.data.northStar.description && <> {activeCohort.data.northStar.description}</>}
+                </>
+              )}
+            </p>
           </div>
-
-          {activeCohort.data.northStar && (
-            <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4 h-[6.5rem] overflow-hidden">
-              <p className="mb-2 text-base font-bold text-white">North Star Team</p>
-              <p className="text-base leading-relaxed text-white/90 line-clamp-2">
-                <a
-                  href={activeCohort.data.northStar.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-primary text-white underline decoration-2 underline-offset-2 transition-colors"
-                >
-                  {activeCohort.data.northStar.name}
-                </a>
-                {activeCohort.data.northStar.lead && <span> led by {activeCohort.data.northStar.lead}</span>} {activeCohort.data.northStar.description}
-              </p>
-            </div>
-          )}
 
           {activeCohort.data.additionalInfo && (
             <div className="mb-4 rounded border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
