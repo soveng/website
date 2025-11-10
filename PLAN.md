@@ -15,7 +15,6 @@ Enhance the retro design with authentic Windows 95 UI components and improve the
 ### ✅ Phase 2: Windows 95 UI Components
 
 - [x] **Create Windows 95 Checkmark Component**
-
   - Design retro checkbox with inset border styling
   - Replace FaCheck icons in feature lists
   - Maintain pixelated aesthetic
@@ -36,13 +35,11 @@ Enhance the retro design with authentic Windows 95 UI components and improve the
 ### ✅ Phase 4: Content Updates
 
 - [x] **Extract Project Showcase Data**
-
   - Copy project list from sec-website-bun App.tsx (5 projects: Blossom, Zapstore, Nsite, Tollgate, NIP-60: Nutzaps)
   - Update project showcase section with complete data
   - Maintain existing table layout structure
 
 - [x] **Update Images**
-
   - Replace "How does it work?" image with athens.png
   - Add hike.png to final CTA section
   - Ensure proper pixelated rendering

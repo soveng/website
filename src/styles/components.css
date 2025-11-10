@@ -197,16 +197,16 @@
 
 /* CTA section link styling for bg-primary background */
 .bg-primary .cta-description a {
-  @apply text-white underline hover:text-gray-200 transition-colors;
+  @apply text-white underline transition-colors hover:text-gray-200;
 }
 
 .bg-primary div a {
-  @apply text-white no-underline hover:underline hover:text-gray-200 transition-colors;
+  @apply text-white no-underline transition-colors hover:text-gray-200 hover:underline;
 }
 
 /* Ensure retro buttons remain high-contrast on primary background */
 .bg-primary a.btn-retro {
-  @apply text-black hover:text-black no-underline hover:no-underline;
+  @apply text-black no-underline hover:text-black hover:no-underline;
 }
 
 /* podcast accordion overrides */

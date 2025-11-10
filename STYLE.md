@@ -35,7 +35,6 @@ This document tracks the migration of visual styles from the new Bun/React desig
 ### ✅ Phase 2: Core Style Updates
 
 - [x] **Update Color Scheme** (src/config/theme.json:3-30)
-
   - Replace primary color with #ED3238
   - Change body background to black (#000000)
   - Update text colors to white/light variants
@@ -50,7 +49,6 @@ This document tracks the migration of visual styles from the new Bun/React desig
 ### ✅ Phase 3: Visual Effects & Components
 
 - [x] **Visual Effects**
-
   - Add pixelated image rendering styles
   - Implement 90s-style button components with inset borders
   - Add background blend mode support for hero images
