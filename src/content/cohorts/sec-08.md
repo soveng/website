@@ -6,8 +6,12 @@ dates:
   start: 'July 20, 2026'
   end: 'August 28, 2026'
 location: 'Funchal, Madeira'
+northStar:
+  name: ''
+  description: ''
+  link: ''
 applicationUrl: 'https://sovereignengineering.typeform.com/to/Hn4xHV3a'
-description: 'SEC-08 details coming soon. Stay tuned for the theme announcement and North Star team reveal.'
+description: 'Stay tuned for the theme and North Star team announcement.'
 image: '/images/men-wanted.png'
-additionalInfo: 'This cohort culminates with the BTC++ conference on August 29-30, 2026, providing participants with an opportunity to showcase their work and connect with the broader Bitcoin community.'
+additionalInfo: '* This cohort culminates with the BTC++ conference on August 29-30, 2026 in Funchal, Madeira.'
 ---

@@ -12,6 +12,6 @@ northStar:
   lead: 'Alekos Felini'
   link: 'https://getportal.cc/docs/index.html'
 applicationUrl: 'https://sovereignengineering.typeform.com/to/Hn4xHV3a'
-description: ''
+description: 'We explore building everyday services on top of cryptographic identities.'
 image: '/images/men-wanted.png'
 ---

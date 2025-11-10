@@ -1,6 +1,6 @@
 ---
 id: 'SEC-07'
-status: 'open'
+status: 'upcoming'
 theme: 'Networking'
 dates:
   start: 'March 30, 2026'
@@ -8,9 +8,9 @@ dates:
 location: 'Funchal, Madeira'
 northStar:
   name: 'Tollgate'
-  description: 'Freedom-enhancing internet infrastructure enabling mesh network adoption through permissionless payments and captive portal access control.'
+  description: 'enabling pay-as-you-go internet access on open networks and rethinking the entire Network stack.'
   link: 'https://tollgate.me/'
 applicationUrl: 'https://sovereignengineering.typeform.com/to/Hn4xHV3a'
-description: 'Build the next generation of decentralized networking solutions with SEC-07, focusing on permissionless infrastructure and mesh networks.'
+description: 'We explore the harder problems of DNS and IPs over Nostr.'
 image: '/images/men-wanted.png'
 ---
