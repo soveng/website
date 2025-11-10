@@ -76,8 +76,8 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                 onClick={() => setActiveIndex(index)}
                 className={`flex-1 p-4 transition-all duration-300 ${
                   isActive
-                    ? 'border-2 border-b-0 border-white/30 bg-black/40'
-                    : 'border-2 border-transparent bg-transparent hover:bg-black/10'
+                    ? 'border-2 border-b-0 border-white/30 bg-black/40 shadow-[inset_2px_2px_0px_rgba(255,255,255,0.3),inset_-2px_-2px_0px_rgba(0,0,0,0.5)] relative z-10'
+                    : 'border-2 border-white/20 bg-black/20 shadow-[inset_-2px_-2px_0px_rgba(255,255,255,0.1),inset_2px_2px_0px_rgba(0,0,0,0.3)] hover:bg-black/30'
                 }`}
                 disabled={cohort.data.status === 'closed'}
               >
@@ -95,7 +95,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="border-2 border-t-0 border-white/30 bg-black/40 p-5 h-[360px]">
+        <div className="border-l-2 border-r-2 border-b-2 border-white/30 bg-black/40 p-5 h-[360px] flex flex-col">
           <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
@@ -104,7 +104,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             {activeCohort.data.dates.start} - {activeCohort.data.dates.end} · {activeCohort.data.location}
           </p>
 
-          <div className="mb-4 border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
+          <div className="mb-6 border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
             <p className="text-base leading-relaxed text-white/90 line-clamp-3">
               {activeCohort.data.description}
               {activeCohort.data.northStar && activeCohort.data.northStar.name && (
@@ -126,25 +126,31 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           </div>
 
           {activeCohort.data.additionalInfo && (
-            <div className="mb-4 border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
+            <div className="mb-6 border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
               <p className="text-sm text-blue-100 font-semibold line-clamp-2">{activeCohort.data.additionalInfo}</p>
             </div>
           )}
 
           {/* Action Button */}
-          {activeCohort.data.status === 'open' && (
-            <a href={activeCohort.data.applicationUrl} target="_blank" rel="noopener noreferrer" className="btn-retro inline-block px-8 py-4">
-              Apply Now
-            </a>
-          )}
+          <div>
+            {activeCohort.data.status === 'open' && (
+              <a href={activeCohort.data.applicationUrl} target="_blank" rel="noopener noreferrer" className="btn-retro px-8 py-4">
+                Apply Now
+              </a>
+            )}
 
-          {activeCohort.data.status === 'closed' && (
-            <div className="inline-block cursor-not-allowed rounded bg-gray-700 px-8 py-4 text-gray-400">Applications Closed</div>
-          )}
+            {activeCohort.data.status === 'closed' && (
+              <div className="inline-block px-8 py-4 bg-gray-700 text-gray-400 cursor-not-allowed">
+                Applications Closed
+              </div>
+            )}
 
-          {activeCohort.data.status === 'upcoming' && (
-            <div className="inline-block rounded bg-yellow-700/50 px-8 py-4 text-yellow-200">Opening Soon</div>
-          )}
+            {activeCohort.data.status === 'upcoming' && (
+              <div className="inline-block px-8 py-4 bg-yellow-700/50 text-yellow-200">
+                Opening Soon
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
