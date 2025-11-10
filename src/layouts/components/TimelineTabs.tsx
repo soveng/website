@@ -63,7 +63,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
       </div>
 
       {/* Horizontal Tabs */}
-      <div className="flex flex-col shadow-2xl rounded-lg">
+      <div className="flex flex-col shadow-2xl">
         {/* Tab Headers Row */}
         <div className="mb-0 flex gap-2">
           {sortedCohorts.map((cohort, index) => {
@@ -74,7 +74,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
               <button
                 key={cohort.data.id}
                 onClick={() => setActiveIndex(index)}
-                className={`flex-1 rounded-t-lg p-4 transition-all duration-300 ${
+                className={`flex-1 p-4 transition-all duration-300 ${
                   isActive
                     ? 'border-2 border-b-0 border-white/30 bg-black/40'
                     : 'border-2 border-transparent bg-transparent hover:bg-black/10'
@@ -95,7 +95,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="rounded-b-lg border-2 border-t-0 border-white/30 bg-black/40 p-5 h-[360px]">
+        <div className="border-2 border-t-0 border-white/30 bg-black/40 p-5 h-[360px]">
           <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
@@ -104,7 +104,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             {activeCohort.data.dates.start} - {activeCohort.data.dates.end} · {activeCohort.data.location}
           </p>
 
-          <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
+          <div className="mb-4 border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
             <p className="text-base leading-relaxed text-white/90 line-clamp-3">
               {activeCohort.data.description}
               {activeCohort.data.northStar && activeCohort.data.northStar.name && (
@@ -126,7 +126,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           </div>
 
           {activeCohort.data.additionalInfo && (
-            <div className="mb-4 rounded border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
+            <div className="mb-4 border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
               <p className="text-sm text-blue-100 font-semibold line-clamp-2">{activeCohort.data.additionalInfo}</p>
             </div>
           )}
