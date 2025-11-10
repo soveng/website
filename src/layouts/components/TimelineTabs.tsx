@@ -107,7 +107,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4 h-[8rem] overflow-hidden">
             <p className="text-base leading-relaxed text-white/90 line-clamp-3">
               {activeCohort.data.description}
-              {activeCohort.data.northStar && (
+              {activeCohort.data.northStar && activeCohort.data.northStar.name && (
                 <>
                   {' '}North Star Team for {activeCohort.data.id} is{' '}
                   <a
