@@ -57,13 +57,13 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
   return (
     <div className="timeline-tabs-container">
       {/* Header */}
-      <div className="mb-8 text-center">
-        <h2 className="text-3xl font-bold text-white md:text-4xl">Apply To SEC</h2>
-        <p className="mt-2 font-mono text-sm text-white/70">2026</p>
+      <div className="mb-6 text-center">
+        <h2 className="text-2xl font-bold text-white md:text-3xl">Apply To SEC</h2>
+        <p className="mt-1 font-mono text-base font-semibold text-white">2026</p>
       </div>
 
       {/* Horizontal Tabs */}
-      <div className="flex flex-col">
+      <div className="flex flex-col shadow-2xl rounded-lg">
         {/* Tab Headers Row */}
         <div className="mb-0 flex gap-2">
           {sortedCohorts.map((cohort, index) => {
@@ -75,27 +75,16 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
                 key={cohort.data.id}
                 onClick={() => setActiveIndex(index)}
                 className={`flex-1 rounded-t-lg p-4 transition-all duration-300 ${
-                  isActive ? 'border-2 border-b-0 border-white/20 bg-black/30' : 'border-2 border-transparent bg-transparent hover:bg-black/10'
+                  isActive
+                    ? 'border-2 border-b-0 border-white/30 bg-black/40'
+                    : 'border-2 border-transparent bg-transparent hover:bg-black/10'
                 }`}
                 disabled={cohort.data.status === 'closed'}
               >
-                {/* Dot */}
-                <div
-                  className={`mx-auto mb-3 h-6 w-6 rounded-full border-4 transition-all ${
-                    isActive
-                      ? 'scale-125 border-white bg-white'
-                      : cohort.data.status === 'open'
-                        ? 'border-green-500 bg-green-500'
-                        : cohort.data.status === 'closed'
-                          ? 'border-gray-500 bg-gray-500'
-                          : 'border-yellow-500 bg-yellow-500'
-                  }`}
-                ></div>
-
                 {/* Label */}
                 <div className="text-center">
-                  <div className={`mb-1 text-sm font-bold md:text-base ${isActive ? 'text-white' : 'text-gray-300'}`}>{cohort.data.id}</div>
-                  <div className={`mb-2 text-sm font-semibold md:text-base ${isActive ? 'text-white' : 'text-gray-200'}`}>{cohort.data.theme}</div>
+                  <div className={`mb-1 text-lg font-bold md:text-xl ${isActive ? 'text-white' : 'text-gray-900'}`}>{cohort.data.id}</div>
+                  <div className={`mb-2 text-sm font-semibold md:text-base ${isActive ? 'text-white' : 'text-gray-800'}`}>{cohort.data.theme}</div>
 
                   {/* Status Badge */}
                   <span className={`inline-block rounded px-2 py-1 text-xs font-bold ${badge.className}`}>{badge.text}</span>
@@ -106,21 +95,21 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="rounded-b-lg border-2 border-t-0 border-white/20 bg-black/30 p-6 shadow-lg">
-          <h3 className="mb-4 text-2xl font-bold text-white md:text-3xl">
+        <div className="rounded-b-lg border-2 border-t-0 border-white/30 bg-black/40 p-5">
+          <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
 
-          <p className="mb-4 text-lg font-semibold text-white">
+          <p className="mb-3 text-base font-semibold text-white">
             {activeCohort.data.dates.start} - {activeCohort.data.dates.end} · {activeCohort.data.location}
           </p>
 
-          <p className="mb-6 text-lg leading-relaxed text-white/90">{activeCohort.data.description}</p>
+          <p className="mb-4 text-base leading-relaxed text-white/90">{activeCohort.data.description}</p>
 
           {activeCohort.data.northStar && (
-            <div className="mb-6 rounded border border-gray-600 bg-black/40 p-5">
-              <p className="mb-3 text-lg font-bold text-white">North Star Team</p>
-              <p className="text-lg leading-relaxed text-white/90">
+            <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4">
+              <p className="mb-2 text-base font-bold text-white">North Star Team</p>
+              <p className="text-base leading-relaxed text-white/90">
                 <a
                   href={activeCohort.data.northStar.link}
                   target="_blank"

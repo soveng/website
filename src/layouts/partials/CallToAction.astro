@@ -7,9 +7,9 @@ import ImageMod from "@/components/ImageMod.astro";
 const cohorts = await getCollection("cohorts");
 ---
 
-<section id="apply" class="w-full bg-primary text-white py-16 xl:py-20">
+<section id="apply" class="w-full bg-primary text-white py-12 xl:py-16">
   <div class="container">
-    <div class="flex flex-col lg:flex-row gap-8 items-center">
+    <div class="flex flex-col lg:flex-row gap-6 items-center">
       <div class="flex-1 lg:w-3/5">
         <TimelineTabs cohorts={cohorts} client:load />
       </div>
