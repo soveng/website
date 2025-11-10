@@ -31,7 +31,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
       case 'closed':
         return { text: 'CLOSED', className: 'bg-gray-600 text-gray-300' };
       case 'upcoming':
-        return { text: 'COMING SOON', className: 'bg-yellow-600 text-white' };
+        return { text: 'OPENING SOON', className: 'bg-yellow-500 text-gray-900' };
       default:
         return { text: '', className: '' };
     }
@@ -58,8 +58,8 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
     <div className="timeline-tabs-container">
       {/* Header */}
       <div className="mb-6 text-center">
-        <h2 className="text-2xl font-bold text-white md:text-3xl">Apply To SEC</h2>
-        <p className="mt-1 font-mono text-base font-semibold text-white">2026</p>
+        <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">Apply To SEC</h2>
+        <p className="mt-1 font-mono text-lg font-semibold text-gray-900">2026</p>
       </div>
 
       {/* Horizontal Tabs */}
@@ -127,14 +127,14 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
 
           {activeCohort.data.additionalInfo && (
             <div className="mb-4 rounded border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
-              <p className="text-sm text-blue-200 line-clamp-2">{activeCohort.data.additionalInfo}</p>
+              <p className="text-sm text-blue-100 font-semibold line-clamp-2">{activeCohort.data.additionalInfo}</p>
             </div>
           )}
 
           {/* Action Button */}
           {activeCohort.data.status === 'open' && (
             <a href={activeCohort.data.applicationUrl} target="_blank" rel="noopener noreferrer" className="btn-retro inline-block px-8 py-4">
-              Apply Now!
+              Apply Now
             </a>
           )}
 
@@ -143,7 +143,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           )}
 
           {activeCohort.data.status === 'upcoming' && (
-            <div className="inline-block rounded bg-yellow-700/50 px-8 py-4 text-yellow-200">Applications Opening Soon</div>
+            <div className="inline-block rounded bg-yellow-700/50 px-8 py-4 text-yellow-200">Opening Soon</div>
           )}
         </div>
       </div>
