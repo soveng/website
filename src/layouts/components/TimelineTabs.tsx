@@ -95,7 +95,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
         </div>
 
         {/* Active Tab Content */}
-        <div className="rounded-b-lg border-2 border-t-0 border-white/30 bg-black/40 p-5">
+        <div className="rounded-b-lg border-2 border-t-0 border-white/30 bg-black/40 p-5 min-h-[320px]">
           <h3 className="mb-3 text-xl font-bold text-white md:text-2xl">
             {activeCohort.data.id}: {activeCohort.data.theme}
           </h3>
@@ -104,12 +104,14 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
             {activeCohort.data.dates.start} - {activeCohort.data.dates.end} · {activeCohort.data.location}
           </p>
 
-          <p className="mb-4 text-base leading-relaxed text-white/90">{activeCohort.data.description}</p>
+          <div className="mb-4 h-[3.25rem] overflow-hidden">
+            <p className="text-base leading-relaxed text-white/90">{activeCohort.data.description}</p>
+          </div>
 
           {activeCohort.data.northStar && (
-            <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4">
+            <div className="mb-4 rounded border border-gray-600 bg-black/40 p-4 h-[6.5rem] overflow-hidden">
               <p className="mb-2 text-base font-bold text-white">North Star Team</p>
-              <p className="text-base leading-relaxed text-white/90">
+              <p className="text-base leading-relaxed text-white/90 line-clamp-2">
                 <a
                   href={activeCohort.data.northStar.link}
                   target="_blank"
@@ -124,8 +126,8 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           )}
 
           {activeCohort.data.additionalInfo && (
-            <div className="mb-6 rounded border border-blue-700 bg-blue-900/20 p-4">
-              <p className="text-sm text-blue-200">{activeCohort.data.additionalInfo}</p>
+            <div className="mb-4 rounded border border-blue-700 bg-blue-900/20 p-4 h-16 overflow-hidden">
+              <p className="text-sm text-blue-200 line-clamp-2">{activeCohort.data.additionalInfo}</p>
             </div>
           )}
 
