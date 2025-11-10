@@ -134,7 +134,7 @@ const TimelineTabs: React.FC<TimelineTabsProps> = ({ cohorts }) => {
           {/* Action Button */}
           <div>
             {activeCohort.data.status === 'open' && (
-              <a href={activeCohort.data.applicationUrl} target="_blank" rel="noopener noreferrer" className="btn-retro px-8 py-4">
+              <a href={activeCohort.data.applicationUrl} target="_blank" rel="noopener noreferrer" className="btn-retro inline-block px-8 py-4">
                 Apply Now
               </a>
             )}
