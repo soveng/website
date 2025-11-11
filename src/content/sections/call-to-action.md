@@ -1,6 +1,6 @@
 ---
 enable: true
-title: 'SEC-06: Coming Soon'
+title: 'Ready to start your journey into the unknown?'
 image: '/images/men-wanted.png'
 description: 'Applications for the next cohort will open shortly.'
 button:
