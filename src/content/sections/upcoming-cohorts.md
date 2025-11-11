@@ -7,7 +7,7 @@ cohorts:
     duration: '3 weeks'
     dates: 'March 02 - March 20'
   - name: 'SEC-07'
-    description: 'Identity'
+    description: 'Networking'
     duration: '3 weeks'
     dates: 'March 30 - April 17'
   - name: 'SEC-08'
