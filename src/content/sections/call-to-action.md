@@ -2,7 +2,7 @@
 enable: true
 title: 'Ready for adventure?'
 image: '/images/men-wanted.png'
-description: 'Applications for the next cohort will open shortly.'
+description: 'Experience, build, and alpha-test the future of self-sovereign technology in beautiful Madeira. Don't miss the opportunity of a lifetime.'
 button:
   enable: true
   label: 'Apply Now!'
