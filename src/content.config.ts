@@ -196,8 +196,6 @@ const ctaSectionCollection = defineCollection({
       link: z.string(),
     }),
     dates: z.string().optional(),
-    sec07: z.string().optional(),
-    sec08: z.string().optional(),
   }),
 });
 
