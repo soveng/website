@@ -1,6 +1,6 @@
 ---
 enable: true
-title: 'Ready to start your journey into the unknown?'
+title: 'Ready for adventure?'
 image: '/images/men-wanted.png'
 description: 'Applications for the next cohort will open shortly.'
 button:
