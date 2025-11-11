@@ -23,8 +23,8 @@ const { upcoming_cohorts } = Astro.props;
                     .replace('August', 'Aug');
                   return (
                     <div class="text-lg font-medium text-text-dark dark:text-white">
-                      <strong>{cohort.name}</strong>:
-                      <span class="hidden md:inline">{cohort.description ? ` ${cohort.description}` : ''}</span>
+                      <strong>{cohort.name}</strong>
+                      <span class="hidden md:inline">{descriptionPart}</span>
                       {` (`}
                       <span class="hidden md:inline">{durationDesktop}</span>
                       <span class="md:hidden">{durationMobile}</span>
