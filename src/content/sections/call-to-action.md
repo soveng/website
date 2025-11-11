@@ -2,7 +2,7 @@
 enable: true
 title: 'SEC-06: Coming Soon'
 image: '/images/men-wanted.png'
-description: 'Applications for the next cohort will open shortly. In the meantime, explore what was built last cohort by reading our [SEC-05: YOLO Report](https://primal.net/soveng/sec-05-yolo-mode-report).'
+description: 'Applications for the next cohort will open shortly.'
 button:
   enable: false
   label: 'Apply Now!'
