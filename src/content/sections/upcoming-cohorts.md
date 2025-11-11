@@ -2,6 +2,10 @@
 enable: true
 title: 'Upcoming Cohorts'
 cohorts:
+  - name: 'SEC-06'
+    description: 'Identity'
+    duration: '3 weeks'
+    dates: 'March 02 - March 20'
   - name: 'SEC-07'
     description: 'Identity'
     duration: '3 weeks'
