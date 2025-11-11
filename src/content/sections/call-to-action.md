@@ -1,6 +1,6 @@
 ---
 enable: true
-title: 'Ready for adventure?'
+title: 'SEC-06: Identity / Mar 02 - Mar 20'
 image: '/images/men-wanted.png'
 description: "Experience, build, and alpha-test the future of self-sovereign technology in beautiful Madeira. Don't miss the opportunity of a lifetime."
 button:
