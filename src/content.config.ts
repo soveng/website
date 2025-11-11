@@ -224,6 +224,24 @@ const testimonialSectionCollection = defineCollection({
   }),
 });
 
+// Upcoming Cohorts Section collection schema
+const upcomingCohortsSectionCollection = defineCollection({
+  loader: glob({
+    pattern: "upcoming-cohorts.{md,mdx}",
+    base: "src/content/sections",
+  }),
+  schema: z.object({
+    enable: z.boolean(),
+    title: z.string(),
+    cohorts: z.array(
+      z.object({
+        name: z.string(),
+        dates: z.string(),
+      }),
+    ),
+  }),
+});
+
 // Export collections
 export const collections = {
   // Pages
@@ -237,4 +255,5 @@ export const collections = {
   // sections
   ctaSection: ctaSectionCollection,
   testimonialSection: testimonialSectionCollection,
+  upcomingCohortsSection: upcomingCohortsSectionCollection,
 };

@@ -6,6 +6,7 @@ import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import CallToAction from "@/partials/CallToAction.astro";
 import Testimonial from "@/partials/Testimonial.astro";
+import UpcomingCohorts from "@/partials/UpcomingCohorts.astro";
 import type { Button, Feature } from "@/types";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
@@ -39,6 +40,11 @@ const call_to_action = (await getEntry(
   "ctaSection",
   "call-to-action"
 )) as CollectionEntry<"ctaSection">;
+
+const upcoming_cohorts = (await getEntry(
+  "upcomingCohortsSection",
+  "upcoming-cohorts"
+)) as CollectionEntry<"upcomingCohortsSection">;
 
 const { banner, features } = homepage.data as Homepage;
 
@@ -171,6 +177,7 @@ const bannerTitle = await markdownify(banner.title);
 
   <Testimonial testimonial={testimonial} />
   <CallToAction call_to_action={call_to_action} />
+  <UpcomingCohorts upcoming_cohorts={upcoming_cohorts} />
 </Base>
 
 <style>
