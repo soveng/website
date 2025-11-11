@@ -14,13 +14,28 @@ const { upcoming_cohorts } = Astro.props;
               {upcoming_cohorts.data.cohorts.map(
                 (cohort: { name: string; description?: string; duration?: string; dates: string; link?: string }) => {
                   const descriptionPart = cohort.description ? `: ${cohort.description}` : '';
-                  const durationPart = cohort.duration ? `${cohort.duration}, ` : '';
-                  const restOfText = `${descriptionPart} (${durationPart}${cohort.dates})`;
+                  const durationDesktop = cohort.duration ? `${cohort.duration}, ` : '';
+                  const durationMobile = cohort.duration ? `${cohort.duration.replace('weeks', 'wks')}, ` : '';
+                  const datesMobile = cohort.dates
+                    .replace('March', 'Mar')
+                    .replace('April', 'Apr')
+                    .replace('July', 'Jul')
+                    .replace('August', 'Aug');
                   return (
                     <div class="text-lg font-medium text-text-dark dark:text-white">
-                      <strong>{cohort.name}</strong>{restOfText}
+                      <strong>{cohort.name}</strong>
+                      <span class="hidden md:inline">{descriptionPart}</span>
+                      {` (`}
+                      <span class="hidden md:inline">{durationDesktop}</span>
+                      <span class="md:hidden">{durationMobile}</span>
+                      <span class="hidden md:inline">{cohort.dates}</span>
+                      <span class="md:hidden">{datesMobile}</span>
+                      {`)`}
                       {cohort.link && (
-                        <> - <a href={cohort.link} target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">Apply now!</a></>
+                        <> - <a href={cohort.link} target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">
+                          <span class="hidden md:inline">Apply now!</span>
+                          <span class="md:hidden">Apply</span>
+                        </a></>
                       )}
                     </div>
                   );
