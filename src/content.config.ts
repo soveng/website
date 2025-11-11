@@ -234,6 +234,8 @@ const upcomingCohortsSectionCollection = defineCollection({
     cohorts: z.array(
       z.object({
         name: z.string(),
+        description: z.string().optional(),
+        duration: z.string().optional(),
         dates: z.string(),
       }),
     ),

@@ -3,8 +3,12 @@ enable: true
 title: 'Upcoming Cohorts'
 cohorts:
   - name: 'SEC-07'
-    dates: 'Mar 30 - Apr 17'
+    description: 'Identity'
+    duration: '3 weeks'
+    dates: 'March 30 - April 17'
   - name: 'SEC-08'
-    dates: 'Jul 20 - Aug 28'
+    description: ''
+    duration: '3 weeks'
+    dates: 'July 20 - August 28'
 ---
 

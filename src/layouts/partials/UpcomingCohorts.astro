@@ -12,12 +12,16 @@ const { upcoming_cohorts } = Astro.props;
             <h2 set:html={markdownify(upcoming_cohorts.data.title)} class="mb-4" />
             <div class="flex flex-col gap-2">
               {upcoming_cohorts.data.cohorts.map(
-                (cohort: { name: string; dates: string }) => (
-                  <div>
-                    <div class="text-lg font-medium mb-1">{cohort.name}</div>
-                    <div class="text-text-dark dark:text-white">{cohort.dates}</div>
-                  </div>
-                )
+                (cohort: { name: string; description?: string; duration?: string; dates: string }) => {
+                  const descriptionPart = cohort.description ? `: ${cohort.description}` : '';
+                  const durationPart = cohort.duration ? `${cohort.duration}, ` : '';
+                  const fullText = `${cohort.name}${descriptionPart} (${durationPart}${cohort.dates})`;
+                  return (
+                    <div class="text-lg font-medium text-text-dark dark:text-white">
+                      {fullText}
+                    </div>
+                  );
+                }
               )}
             </div>
           </div>
