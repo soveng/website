@@ -8,7 +8,7 @@ cohorts:
     dates: 'starting March 2'
     link: 'https://sovereignengineering.typeform.com/SEC-06'
   - name: 'SEC-07'
-    description: 'Networking'
+    description: 'Mesh Networking'
     duration: '3 weeks'
     dates: 'starting March 30'
   - name: 'SEC-08'
