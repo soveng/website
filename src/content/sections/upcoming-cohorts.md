@@ -11,8 +11,8 @@ cohorts:
     duration: '3 weeks'
     dates: 'March 30 - April 17'
   - name: 'SEC-08'
-    description: ''
-    duration: '3 weeks'
+    description: 'Summer Cohort'
+    duration: '6 weeks'
     dates: 'July 20 - August 28'
 ---
 
