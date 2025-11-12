@@ -196,7 +196,6 @@ const ctaSectionCollection = defineCollection({
       link: z.string(),
     }),
     dates: z.string().optional(),
-    dates2: z.string().optional(),
   }),
 });
 
@@ -223,6 +222,27 @@ const testimonialSectionCollection = defineCollection({
   }),
 });
 
+// Upcoming Cohorts Section collection schema
+const upcomingCohortsSectionCollection = defineCollection({
+  loader: glob({
+    pattern: "upcoming-cohorts.{md,mdx}",
+    base: "src/content/sections",
+  }),
+  schema: z.object({
+    enable: z.boolean(),
+    title: z.string(),
+    cohorts: z.array(
+      z.object({
+        name: z.string(),
+        description: z.string().optional(),
+        duration: z.string().optional(),
+        dates: z.string(),
+        link: z.string().optional(),
+      }),
+    ),
+  }),
+});
+
 // Export collections
 export const collections = {
   // Pages
@@ -236,4 +256,5 @@ export const collections = {
   // sections
   ctaSection: ctaSectionCollection,
   testimonialSection: testimonialSectionCollection,
+  upcomingCohortsSection: upcomingCohortsSectionCollection,
 };

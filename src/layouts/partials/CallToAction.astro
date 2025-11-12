@@ -38,7 +38,7 @@ const { call_to_action } = Astro.props;
             <div class="flex items-center gap-6">
               {call_to_action.data.button.enable && (
                 <a
-                  class="btn btn-primary inline-block"
+                  class="btn-retro inline-block px-8 py-4 text-lg min-w-[225px] text-center"
                   href={call_to_action.data.button.link}
                   target={call_to_action.data.button.link.startsWith("http") ? "_blank" : "_self"}
                   rel={call_to_action.data.button.link.startsWith("http") ? "noopener noreferrer" : ""}
@@ -48,13 +48,13 @@ const { call_to_action } = Astro.props;
               )}
               {call_to_action.data.dates && (
                 <div class="text-white text-lg font-medium">
-                  <div>{call_to_action.data.dates}</div>
-                  {call_to_action.data.dates2 && (
-                    <div>{call_to_action.data.dates2}</div>
-                  )}
+                  {call_to_action.data.dates}
                 </div>
               )}
             </div>
+            <p class="mt-4 text-white text-lg">
+              Can't make March? Check the dates of our <a href="/#upcoming-cohorts" class="underline hover:no-underline">upcoming cohorts</a>.
+            </p>
           </div>
         </div>
       </div>
