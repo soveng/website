@@ -238,6 +238,7 @@ const upcomingCohortsSectionCollection = defineCollection({
         duration: z.string().optional(),
         dates: z.string(),
         link: z.string().optional(),
+        blogLink: z.string().optional(),
       }),
     ),
   }),
