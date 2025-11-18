@@ -12,7 +12,7 @@ const { upcoming_cohorts } = Astro.props;
             <h2 set:html={markdownify(upcoming_cohorts.data.title)} class="mb-4" />
             <div class="flex flex-col gap-2">
               {upcoming_cohorts.data.cohorts.map(
-                (cohort: { name: string; description?: string; duration?: string; dates: string; link?: string }) => {
+                (cohort: { name: string; description?: string; duration?: string; dates: string; link?: string; blogLink?: string }) => {
                   const descriptionPart = cohort.description ? `: ${cohort.description}` : '';
                   const durationDesktop = cohort.duration ? `${cohort.duration}, ` : '';
                   const durationMobile = cohort.duration ? `${cohort.duration.replace('weeks', 'wks')}, ` : '';
@@ -21,10 +21,20 @@ const { upcoming_cohorts } = Astro.props;
                     .replace('April', 'Apr')
                     .replace('July', 'Jul')
                     .replace('August', 'Aug');
-                  return (
-                    <div class="text-lg font-medium text-text-dark dark:text-white">
+                  const nameAndDescription = cohort.blogLink ? (
+                    <a href={cohort.blogLink} target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">
                       <strong>{cohort.name}</strong>
                       <span class="hidden md:inline">{descriptionPart}</span>
+                    </a>
+                  ) : (
+                    <>
+                      <strong>{cohort.name}</strong>
+                      <span class="hidden md:inline">{descriptionPart}</span>
+                    </>
+                  );
+                  return (
+                    <div class="text-lg font-medium text-text-dark dark:text-white">
+                      {nameAndDescription}
                       {` (`}
                       <span class="hidden md:inline">{durationDesktop}</span>
                       <span class="md:hidden">{durationMobile}</span>
