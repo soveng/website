@@ -12,6 +12,7 @@ import "@fontsource/eb-garamond/400-italic.css";
 import "@fontsource/im-fell-double-pica";
 import "@fontsource/im-fell-double-pica/400-italic.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Fathom } from "astro-fathom";
 import {
   GoogleTagmanager,
   GoogleTagmanagerNoscript,
@@ -55,6 +56,9 @@ const call_to_action = showCallToAction ? (await getEntry(
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- fathom analytics -->
+    <Fathom />
+
     <!-- google tag manager -->
     {
       config.google_tag_manager.enable && (
