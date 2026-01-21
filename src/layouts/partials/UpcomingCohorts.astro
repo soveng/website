@@ -16,7 +16,7 @@ const { upcoming_cohorts } = Astro.props;
                   <div class="mb-4">
                     {cohort.blogLink ? (
                       <a href={cohort.blogLink} target="_blank" rel="noopener noreferrer" class="hover:text-primary">
-                        <h3 class="text-xl font-bold text-text-dark dark:text-white mb-1">{cohort.name}</h3>
+                        <h3 class="text-xl font-bold text-text-dark dark:text-white mb-1 underline">{cohort.name}</h3>
                       </a>
                     ) : (
                       <h3 class="text-xl font-bold text-text-dark dark:text-white mb-1">{cohort.name}</h3>
