@@ -7,55 +7,50 @@ const { upcoming_cohorts } = Astro.props;
   upcoming_cohorts.data.enable && (
     <section id="upcoming-cohorts" class="section">
       <div class="container">
-        <div class="row">
-          <div class="md:col-7">
-            <h2 set:html={markdownify(upcoming_cohorts.data.title)} class="mb-4" />
-            <div class="flex flex-col gap-2">
-              {upcoming_cohorts.data.cohorts.map(
-                (cohort: { name: string; description?: string; duration?: string; dates: string; link?: string; blogLink?: string }) => {
-                  const descriptionPart = cohort.description ? `: ${cohort.description}` : '';
-                  const durationDesktop = cohort.duration ? `${cohort.duration}, ` : '';
-                  const durationMobile = cohort.duration ? `${cohort.duration.replace('weeks', 'wks')}, ` : '';
-                  const datesMobile = cohort.dates
-                    .replace('March', 'Mar')
-                    .replace('April', 'Apr')
-                    .replace('July', 'Jul')
-                    .replace('August', 'Aug');
-                  const nameAndDescription = cohort.blogLink ? (
-                    <a href={cohort.blogLink} target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">
-                      <strong>{cohort.name}</strong>
-                      <span class="hidden md:inline">{descriptionPart}</span>
-                    </a>
-                  ) : (
-                    <>
-                      <strong>{cohort.name}</strong>
-                      <span class="hidden md:inline">{descriptionPart}</span>
-                    </>
-                  );
-                  return (
-                    <div class="text-lg font-medium text-text-dark dark:text-white">
-                      {nameAndDescription}
-                      {` (`}
-                      <span class="hidden md:inline">{durationDesktop}</span>
-                      <span class="md:hidden">{durationMobile}</span>
-                      <span class="hidden md:inline">{cohort.dates}</span>
-                      <span class="md:hidden">{datesMobile}</span>
-                      {`)`}
-                      {cohort.link && (
-                        <> - <a href={cohort.link} target="_blank" rel="noopener noreferrer" class="underline hover:no-underline">
-                          <span class="hidden md:inline">Apply now!</span>
-                          <span class="md:hidden">Apply</span>
-                        </a></>
-                      )}
-                    </div>
-                  );
-                }
-              )}
-            </div>
-          </div>
+        <h2 set:html={markdownify(upcoming_cohorts.data.title)} class="mb-8 text-center" />
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {upcoming_cohorts.data.cohorts.map(
+            (cohort: { name: string; description?: string; duration?: string; dates: string; link?: string; blogLink?: string }) => (
+              <div class="border border-border dark:border-darkmode-border rounded-lg p-6 bg-theme-light dark:bg-darkmode-theme-light">
+                <div class="flex flex-col h-full">
+                  <div class="mb-4">
+                    {cohort.blogLink ? (
+                      <a href={cohort.blogLink} target="_blank" rel="noopener noreferrer" class="hover:text-primary">
+                        <h3 class="text-xl font-bold text-text-dark dark:text-white mb-1">{cohort.name}</h3>
+                      </a>
+                    ) : (
+                      <h3 class="text-xl font-bold text-text-dark dark:text-white mb-1">{cohort.name}</h3>
+                    )}
+                    {cohort.description && (
+                      <p class="text-text dark:text-darkmode-text font-medium">{cohort.description}</p>
+                    )}
+                  </div>
+                  <div class="text-sm text-text dark:text-darkmode-text mb-4">
+                    {cohort.duration && <p>{cohort.duration}</p>}
+                    <p>{cohort.dates}</p>
+                  </div>
+                  <div class="mt-auto">
+                    {cohort.link ? (
+                      <a
+                        href={cohort.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn btn-primary btn-sm w-full text-center font-bold"
+                      >
+                        Apply
+                      </a>
+                    ) : (
+                      <span class="btn btn-outline-primary btn-sm w-full opacity-50 cursor-not-allowed">
+                        Coming soon
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )
+          )}
         </div>
       </div>
     </section>
   )
 }
-
