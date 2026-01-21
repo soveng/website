@@ -19,6 +19,6 @@ cohorts:
     duration: '6 weeks'
     dates: 'starting July 20'
     link: 'https://sovereignengineering.typeform.com/SEC-08'
-    # bloglink: 'https://primal.net/soveng/sec-08-yolo++'
+    bloglink: 'https://primal.net/soveng/sec-08-yolo++'
 ---
 
