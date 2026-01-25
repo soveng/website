@@ -6,7 +6,7 @@ cohorts:
     description: 'Identity'
     duration: '3 weeks'
     dates: 'starting March 2'
-    link: 'https://sovereignengineering.typeform.com/SEC-06'
+    closed: true
     blogLink: 'https://primal.net/soveng/sec-06-identity--signers'
   - name: 'SEC-07'
     description: 'Networks'
