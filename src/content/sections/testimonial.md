@@ -27,14 +27,14 @@ testimonials:
 
   - name: 'Tim Bouma'
     designation: 'Safebox'
-    avatar: '/images/tim-bouma-avatar.png'
+    avatar: '/images/tim-bouma-avatar.webp'
     npub: 'npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5'
     noteid: 'nevent1qqsgfy2hscuw4lufwz7djfkql3yccvs7ypkh30gzh95nmmslcs3ednqpp4mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw'
     content: "Don't miss the opportunity of a lifetime."
 
   - name: 'Arjen'
     designation: 'Tollgate'
-    avatar: '/images/arjen-avatar.jpg'
+    avatar: '/images/arjen-avatar.webp'
     npub: 'npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr'
     noteid: 'nevent1qqs0qd3xuqstgqryxzv6n8nqsz558ufyfg9e46d72et5cxr0xysaxaqpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw'
     content: 'Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined.'
