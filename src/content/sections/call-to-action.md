@@ -6,6 +6,6 @@ description: "Experience, build, and alpha-test the future of self-sovereign tec
 button:
   enable: true
   label: 'Apply Now!'
-  link: 'https://sovereignengineering.typeform.com/SEC-06'
-dates: 'Mar 02 - Mar 20'
+  link: 'https://sovereignengineering.typeform.com/SEC-07'
+dates: 'Mar 30 - Apr 17'
 ---
