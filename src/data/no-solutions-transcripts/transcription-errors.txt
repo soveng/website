@@ -1,9 +1,0 @@
-Fiat Jeff => fiatjaf
-Fia Jeff => fiatjaf
-Fia, Jeff => fiatjaf
-Haudelwald => hodlbod
-Noster => nostr 
-Nostra => nostr 
-Cash up => CashApp
-pauky => pubkey
-end pub => npub
