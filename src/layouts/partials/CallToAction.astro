@@ -1,7 +1,17 @@
 ---
-import ImageMod from "@/components/ImageMod.astro";
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
 import { markdownify } from "@/lib/utils/textConverter";
+import menWantedImage from "@/assets/images/men-wanted.png";
+
 const { call_to_action } = Astro.props;
+
+// Map content paths to imported images
+const imageMap: Record<string, ImageMetadata> = {
+  "/images/men-wanted.png": menWantedImage,
+};
+
+const resolvedImage = imageMap[call_to_action.data.image] || null;
 ---
 
 {
@@ -16,14 +26,16 @@ const { call_to_action } = Astro.props;
               rel="noopener noreferrer"
               class="block"
             >
-              <ImageMod
-                class="w-full mix-blend-darken"
-                src={call_to_action.data.image}
-                width={392 * 2}
-                height={390 * 2}
-                alt="Vintage recruitment poster encouraging applications"
-                format="webp"
-              />
+              {resolvedImage && (
+                <Image
+                  class="w-full mix-blend-darken"
+                  src={resolvedImage}
+                  width={392 * 2}
+                  height={390 * 2}
+                  alt="Vintage recruitment poster encouraging applications"
+                  format="webp"
+                />
+              )}
             </a>
           </div>
           <div class="md:col-7 md:order-1">
