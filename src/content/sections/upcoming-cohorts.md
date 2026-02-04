@@ -13,6 +13,7 @@ cohorts:
     description: 'Networks'
     duration: '3 weeks'
     dates: 'starting March 30'
+    status: 'Closing soon!'
     link: 'https://sovereignengineering.typeform.com/SEC-07'
     blogLink: 'https://primal.net/soveng/sec-07-the-network-stack'
   - name: 'SEC-08'
