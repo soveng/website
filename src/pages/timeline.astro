@@ -99,12 +99,12 @@ const milestones = [
         <!-- Mobile line -->
         <div class="absolute left-[20px] top-0 bottom-0 w-[2px] bg-[#333] md:hidden"></div>
 
-        {milestones.map((m, i) => (
+        {milestones.map((m) => (
           <div class={`relative mb-16 md:mb-20 ${m.side === 'left' ? 'md:pr-[calc(50%+40px)]' : 'md:pl-[calc(50%+40px)]'} pl-[52px] md:pl-0`}>
-            
+
             {/* Node on the line - desktop */}
             <div class={`absolute top-2 left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 hidden md:block ${
-              m.isUpcoming ? 'border-[#555] bg-black' : 
+              m.isUpcoming ? 'border-[#555] bg-black' :
               m.isCurrent ? 'border-[#ED3238] bg-[#ED3238] shadow-[0_0_12px_rgba(237,50,56,0.5)]' :
               m.isPodcast ? 'border-[#ff6600] bg-[#ff6600]' :
               'border-white bg-white'
@@ -112,7 +112,7 @@ const milestones = [
 
             {/* Node on the line - mobile */}
             <div class={`absolute top-2 left-[20px] -translate-x-1/2 w-4 h-4 rounded-full border-2 md:hidden ${
-              m.isUpcoming ? 'border-[#555] bg-black' : 
+              m.isUpcoming ? 'border-[#555] bg-black' :
               m.isCurrent ? 'border-[#ED3238] bg-[#ED3238] shadow-[0_0_12px_rgba(237,50,56,0.5)]' :
               m.isPodcast ? 'border-[#ff6600] bg-[#ff6600]' :
               'border-white bg-white'
@@ -121,7 +121,7 @@ const milestones = [
             {/* Content */}
             <div class={`${m.isUpcoming ? 'opacity-50' : ''}`}>
               <p class={`text-sm uppercase tracking-widest mb-1 ${
-                m.isCurrent ? 'text-[#ED3238]' : 
+                m.isCurrent ? 'text-[#ED3238]' :
                 m.isPodcast ? 'text-[#ff6600]' :
                 'text-[#888]'
               }`}>
