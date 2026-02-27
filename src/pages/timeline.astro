@@ -11,6 +11,7 @@ const milestones = [
     title: "SEC-00 · Genesis",
     description: "The pilot cohort. A small group gathers in Madeira to test the idea: bring builders together, walk, talk, and ship. Highlighter, Lightning Prisms, and Data Vending Machines emerge.",
     projects: 3,
+    link: "/projects",
     side: "left",
   },
   {
@@ -18,6 +19,7 @@ const milestones = [
     title: "SEC-01 · First Full Cohort",
     description: "21 participants, 21 projects. The weekly Show → Talk → Build loop takes shape. Blossom, npub.cash, Wikifreedia, and Zapstore are born.",
     projects: 21,
+    link: "/projects",
     side: "right",
   },
   {
@@ -25,6 +27,7 @@ const milestones = [
     title: "SEC-02 · Ecash & Infrastructure",
     description: "NIP-60 and NIP-61 define Cashu wallets on Nostr. Nsite brings websites to the protocol. TollGate reimagines network access. Shopstr launches decentralized commerce.",
     projects: 13,
+    link: "/projects",
     side: "left",
   },
   {
@@ -32,12 +35,14 @@ const milestones = [
     title: "SEC-03 · Hardening",
     description: "The ecosystem matures. Nutstash gets a full redesign. TollGate gets branding and a landing page. Cashu tooling deepens with Safebox, Athenut, and Bolt12 prisms.",
     projects: 15,
+    link: "/projects",
     side: "right",
   },
   {
     date: "Feb 2025",
     title: "No Solutions Podcast",
     description: "Walking dialogues go public. The No Solutions podcast launches at block 882,690 — conversations about freedom, code, and sovereign engineering, recorded on Madeira's levadas.",
+    link: "/podcast",
     side: "left",
     isPodcast: true,
   },
@@ -46,6 +51,7 @@ const milestones = [
     title: "SEC-04 · Explosion",
     description: "The biggest cohort yet. 34 projects ship, including castr.me, HTTPN, Hypernote, DVMCP, gitworkshop.dev, and the nginx 402 payment module. The ecosystem goes wide.",
     projects: 34,
+    link: "/projects",
     side: "right",
   },
   {
@@ -53,12 +59,14 @@ const milestones = [
     title: "SEC-05 · Scale",
     description: "41 projects — a new record. Marmot Chat, Boris, ContextVM, hashpool, Frontier Browser, and dozens more. The community now spans relay infrastructure, mining, browsers, and AI.",
     projects: 41,
+    link: "/projects",
     side: "left",
   },
   {
     date: "Mar 2026",
     title: "SEC-06 · Identity",
     description: "Focus narrows to the identity layer: signers, key management, and the infrastructure that makes self-sovereign identity real.",
+    link: "https://primal.net/soveng/sec-06-identity--signers",
     side: "right",
     isCurrent: true,
   },
@@ -66,6 +74,7 @@ const milestones = [
     date: "Mar 30, 2026",
     title: "SEC-07 · Networks",
     description: "The network stack. Relays, transports, connectivity — building the plumbing that makes everything else possible.",
+    link: "https://primal.net/soveng/sec-07-the-network-stack",
     side: "left",
     isUpcoming: true,
   },
@@ -73,6 +82,7 @@ const milestones = [
     date: "Jul 20, 2026",
     title: "SEC-08 · YOLO++",
     description: "Six weeks. No constraints. The builders decide what matters.",
+    link: "https://primal.net/soveng/sec-08-yolo",
     side: "right",
     isUpcoming: true,
   },
@@ -130,14 +140,25 @@ const milestones = [
               <h3 class={`text-xl md:text-2xl mb-2 ${
                 m.isCurrent ? 'text-[#ED3238]' : 'text-white'
               }`} style="text-transform: none;">
-                {m.title}
+                {m.link ? (
+                  <a
+                    href={m.link}
+                    target={m.link.startsWith('http') ? '_blank' : undefined}
+                    rel={m.link.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    class="hover:underline decoration-2 underline-offset-4"
+                  >
+                    {m.title} →
+                  </a>
+                ) : m.title}
               </h3>
               <p class="text-[#bbb] text-base leading-relaxed">
                 {m.description}
               </p>
               {m.projects && (
                 <p class="mt-2 text-sm text-[#666]">
-                  {m.projects} projects shipped
+                  <a href="/projects" class="hover:text-[#999] hover:underline">
+                    {m.projects} projects shipped →
+                  </a>
                 </p>
               )}
             </div>
