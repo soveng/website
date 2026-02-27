@@ -1,0 +1,167 @@
+---
+import Base from "@/layouts/Base.astro";
+
+const pageTitle = "Timeline";
+const metaTitle = "Timeline — The Evolution of Sovereign Engineering";
+const pageDescription = "From a small pilot in Madeira to a global movement shipping freedom tech. Trace the milestones of Sovereign Engineering.";
+
+const milestones = [
+  {
+    date: "2023",
+    title: "SEC-00 · Genesis",
+    description: "The pilot cohort. A small group gathers in Madeira to test the idea: bring builders together, walk, talk, and ship. Highlighter, Lightning Prisms, and Data Vending Machines emerge.",
+    projects: 3,
+    side: "left",
+  },
+  {
+    date: "Jan–Mar 2024",
+    title: "SEC-01 · First Full Cohort",
+    description: "21 participants, 21 projects. The weekly Show → Talk → Build loop takes shape. Blossom, npub.cash, Wikifreedia, and Zapstore are born.",
+    projects: 21,
+    side: "right",
+  },
+  {
+    date: "May–Jun 2024",
+    title: "SEC-02 · Ecash & Infrastructure",
+    description: "NIP-60 and NIP-61 define Cashu wallets on Nostr. Nsite brings websites to the protocol. TollGate reimagines network access. Shopstr launches decentralized commerce.",
+    projects: 13,
+    side: "left",
+  },
+  {
+    date: "Oct–Dec 2024",
+    title: "SEC-03 · Hardening",
+    description: "The ecosystem matures. Nutstash gets a full redesign. TollGate gets branding and a landing page. Cashu tooling deepens with Safebox, Athenut, and Bolt12 prisms.",
+    projects: 15,
+    side: "right",
+  },
+  {
+    date: "Feb 2025",
+    title: "No Solutions Podcast",
+    description: "Walking dialogues go public. The No Solutions podcast launches at block 882,690 — conversations about freedom, code, and sovereign engineering, recorded on Madeira's levadas.",
+    side: "left",
+    isPodcast: true,
+  },
+  {
+    date: "Mar–Apr 2025",
+    title: "SEC-04 · Explosion",
+    description: "The biggest cohort yet. 34 projects ship, including castr.me, HTTPN, Hypernote, DVMCP, gitworkshop.dev, and the nginx 402 payment module. The ecosystem goes wide.",
+    projects: 34,
+    side: "right",
+  },
+  {
+    date: "2025",
+    title: "SEC-05 · Scale",
+    description: "41 projects — a new record. Marmot Chat, Boris, ContextVM, hashpool, Frontier Browser, and dozens more. The community now spans relay infrastructure, mining, browsers, and AI.",
+    projects: 41,
+    side: "left",
+  },
+  {
+    date: "Mar 2026",
+    title: "SEC-06 · Identity",
+    description: "Focus narrows to the identity layer: signers, key management, and the infrastructure that makes self-sovereign identity real.",
+    side: "right",
+    isCurrent: true,
+  },
+  {
+    date: "Mar 30, 2026",
+    title: "SEC-07 · Networks",
+    description: "The network stack. Relays, transports, connectivity — building the plumbing that makes everything else possible.",
+    side: "left",
+    isUpcoming: true,
+  },
+  {
+    date: "Jul 20, 2026",
+    title: "SEC-08 · YOLO++",
+    description: "Six weeks. No constraints. The builders decide what matters.",
+    side: "right",
+    isUpcoming: true,
+  },
+];
+---
+
+<Base title={pageTitle} meta_title={metaTitle} description={pageDescription}>
+  <section class="section-sm bg-black text-white pt-[8rem]">
+    <div class="container">
+      <!-- Header -->
+      <div class="row justify-center">
+        <div class="col-12 text-center mb-16">
+          <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">Timeline</h1>
+          <p class="text-xl font-primary tracking-wider max-w-[640px] mx-auto">
+            From a pilot cohort to a global movement shipping freedom tech.
+          </p>
+        </div>
+      </div>
+
+      <!-- Timeline -->
+      <div class="relative max-w-[800px] mx-auto">
+        <!-- Central line -->
+        <div class="absolute left-1/2 top-0 bottom-0 w-[2px] bg-[#333] -translate-x-1/2 hidden md:block"></div>
+        <!-- Mobile line -->
+        <div class="absolute left-[20px] top-0 bottom-0 w-[2px] bg-[#333] md:hidden"></div>
+
+        {milestones.map((m, i) => (
+          <div class={`relative mb-16 md:mb-20 ${m.side === 'left' ? 'md:pr-[calc(50%+40px)]' : 'md:pl-[calc(50%+40px)]'} pl-[52px] md:pl-0`}>
+            
+            {/* Node on the line - desktop */}
+            <div class={`absolute top-2 left-1/2 -translate-x-1/2 w-4 h-4 rounded-full border-2 hidden md:block ${
+              m.isUpcoming ? 'border-[#555] bg-black' : 
+              m.isCurrent ? 'border-[#ED3238] bg-[#ED3238] shadow-[0_0_12px_rgba(237,50,56,0.5)]' :
+              m.isPodcast ? 'border-[#ff6600] bg-[#ff6600]' :
+              'border-white bg-white'
+            }`} />
+
+            {/* Node on the line - mobile */}
+            <div class={`absolute top-2 left-[20px] -translate-x-1/2 w-4 h-4 rounded-full border-2 md:hidden ${
+              m.isUpcoming ? 'border-[#555] bg-black' : 
+              m.isCurrent ? 'border-[#ED3238] bg-[#ED3238] shadow-[0_0_12px_rgba(237,50,56,0.5)]' :
+              m.isPodcast ? 'border-[#ff6600] bg-[#ff6600]' :
+              'border-white bg-white'
+            }`} />
+
+            {/* Content */}
+            <div class={`${m.isUpcoming ? 'opacity-50' : ''}`}>
+              <p class={`text-sm uppercase tracking-widest mb-1 ${
+                m.isCurrent ? 'text-[#ED3238]' : 
+                m.isPodcast ? 'text-[#ff6600]' :
+                'text-[#888]'
+              }`}>
+                {m.date}
+              </p>
+              <h3 class={`text-xl md:text-2xl mb-2 ${
+                m.isCurrent ? 'text-[#ED3238]' : 'text-white'
+              }`} style="text-transform: none;">
+                {m.title}
+              </h3>
+              <p class="text-[#bbb] text-base leading-relaxed">
+                {m.description}
+              </p>
+              {m.projects && (
+                <p class="mt-2 text-sm text-[#666]">
+                  {m.projects} projects shipped
+                </p>
+              )}
+            </div>
+          </div>
+        ))}
+
+        {/* End marker */}
+        <div class="relative">
+          <div class="absolute left-1/2 -translate-x-1/2 w-2 h-2 rounded-full bg-[#333] hidden md:block" />
+          <div class="absolute left-[20px] -translate-x-1/2 w-2 h-2 rounded-full bg-[#333] md:hidden" />
+        </div>
+      </div>
+
+      <!-- Footer stats -->
+      <div class="text-center mt-16 mb-8">
+        <p class="text-[#666] text-lg">
+          8 cohorts · 127+ projects · countless walks
+        </p>
+        <p class="mt-6">
+          <a href="/projects" class="underline decoration-2 underline-offset-2 hover:text-primary">
+            Explore all projects →
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+</Base>
