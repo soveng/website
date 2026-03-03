@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 
 const pageTitle = "Timeline";
 const metaTitle = "Timeline — The Evolution of Sovereign Engineering";
-const pageDescription = "From a small pilot in Madeira to a global movement shipping freedom tech. Trace the milestones of Sovereign Engineering.";
+const pageDescription = "From a crazy idea to a global movement shipping freedom tech. Trace the milestones of Sovereign Engineering.";
 const dialoguesFeedPath = new URL("../../public/dialogues.xml", import.meta.url);
 const podcastEpisodes = (readFileSync(dialoguesFeedPath, "utf-8").match(/<item>/g) ?? []).length;
 
@@ -101,7 +101,7 @@ const milestones = [
         <div class="col-12 text-center mb-16">
           <h1 class="mb-4 text-white uppercase" style="font-size: 3rem;">Timeline</h1>
           <p class="text-xl font-primary tracking-wider max-w-[640px] mx-auto">
-            From a pilot cohort to a global movement shipping freedom tech.
+            From a crazy idea to a global movement shipping freedom tech.
           </p>
         </div>
       </div>
