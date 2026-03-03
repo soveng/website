@@ -1,9 +1,12 @@
 ---
 import Base from "@/layouts/Base.astro";
+import { readFileSync } from "node:fs";
 
 const pageTitle = "Timeline";
 const metaTitle = "Timeline — The Evolution of Sovereign Engineering";
 const pageDescription = "From a small pilot in Madeira to a global movement shipping freedom tech. Trace the milestones of Sovereign Engineering.";
+const dialoguesFeedPath = new URL("../../public/dialogues.xml", import.meta.url);
+const podcastEpisodes = (readFileSync(dialoguesFeedPath, "utf-8").match(/<item>/g) ?? []).length;
 
 const milestones = [
   {
@@ -43,6 +46,7 @@ const milestones = [
     title: "No Solutions Podcast",
     description: "Walking dialogues go public. The No Solutions podcast launches at block 882,690 — conversations about freedom, code, and sovereign engineering, recorded on Madeira's levadas.",
     link: "/podcast",
+    episodes: podcastEpisodes,
     side: "left",
     isPodcast: true,
   },
@@ -56,7 +60,7 @@ const milestones = [
   },
   {
     date: "2025",
-    title: "SEC-05 · Scale",
+    title: "SEC-05 · YOLO",
     description: "41 projects — a new record. Marmot Chat, Boris, ContextVM, hashpool, Frontier Browser, and dozens more. The community now spans relay infrastructure, mining, browsers, and AI.",
     projects: 41,
     link: "/projects",
@@ -158,6 +162,13 @@ const milestones = [
                 <p class="mt-2 text-sm text-[#666]">
                   <a href="/projects" class="hover:text-[#999] hover:underline">
                     {m.projects} projects shipped →
+                  </a>
+                </p>
+              )}
+              {m.episodes && (
+                <p class="mt-2 text-sm text-[#666]">
+                  <a href="/podcast" class="hover:text-[#999] hover:underline">
+                    {m.episodes} episodes shipped →
                   </a>
                 </p>
               )}
