@@ -157,7 +157,7 @@
   },
   {
     "name": "Nostrocket",
-    "description": "Decentralized organization and project management platform on nostr",
+    "description": "Non-custodial coordination layer for sovereign individuals. Connects proof of work directly to satflow without any entity controlling resources. Replaces the company model with a protocol for allocating time and resources towards shared goals.",
     "cohort": "SEC-01",
     "link": "https://nostrocket.org",
     "linkText": "nostrocket.org",
