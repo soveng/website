@@ -454,10 +454,10 @@
   },
   {
     "name": "TollGate Branding and Landing page",
-    "description": "Landing page plus all the branding assets currently in use 👇",
+    "description": "Branding, design, and landing page for TollGate — the pay-as-you-go Bitcoin ecash WiFi network. No KYC, no subscriptions, no sign-ups. Share your internet with your community and earn sats.",
     "cohort": "SEC-03",
-    "link": "Design and build TollGate.me",
-    "linkText": "Design and build TollGate.me",
+    "link": "https://tollgate.me/",
+    "linkText": "tollgate.me",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
