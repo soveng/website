@@ -591,8 +591,8 @@
     "name": "next.nostr.watch",
     "description": "Next-generation nostr relay monitoring and analytics platform",
     "cohort": "SEC-04",
-    "link": "https://next.nostr.watch/",
-    "linkText": "next.nostr.watch",
+    "link": "https://nostr.watch/",
+    "linkText": "nostr.watch",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
