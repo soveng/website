@@ -445,10 +445,10 @@
   },
   {
     "name": "SATS’N’FACTS Website",
-    "description": "Crystallize all the organization and planning into a website (https://satsnfacts.btc.pub,) with full bitcoin ticketing system and merch store (powered by LNbits)",
+    "description": "Bitcoin technical unconference in Thailand. Hackathons, art exhibitions, and community events bringing together Bitcoin and Nostr builders in Asia. Bitcoin ticketing and merch store powered by LNbits.",
     "cohort": "SEC-03",
-    "link": "https://satsnfacts.btc.pub",
-    "linkText": "satsnfacts.btc.pub,",
+    "link": "https://stacker.news/items/868441",
+    "linkText": "stacker.news/items/868441",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
