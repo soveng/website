@@ -175,10 +175,10 @@
   },
   {
     "name": "Note Duel",
-    "description": "Competitive note-taking and content creation platform",
+    "description": "Wager nostr notes on real-world outcomes using DLCs. Pick a Superposition oracle event, choose your side, and write winning/losing notes — cryptographically enforced smart contracts decide which note gets published from your profile.",
     "cohort": "SEC-01",
-    "link": "https://noteduel.com",
-    "linkText": "noteduel.com",
+    "link": "https://blog.mutinywallet.com/note-duel-superposition/#note-duel",
+    "linkText": "blog.mutinywallet.com",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
