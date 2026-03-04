@@ -357,8 +357,8 @@
     "name": "Bolt12 prisms",
     "description": "Lightning Network payment splitting and distribution system",
     "cohort": "SEC-03",
-    "link": "https://www.roygbiv.guide/",
-    "linkText": "roygbiv.guide",
+    "link": "https://primal.net/thread/7bfc7747f029a34f3345943f347e04de427104d1e04922e727ff795a59696f32",
+    "linkText": "primal.net",
     "logo": "/images/showcase/lightning-logo.png",
     "highlight": false
   },
