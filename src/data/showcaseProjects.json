@@ -1220,11 +1220,17 @@
   },
   {
     "name": "nihao",
-    "description": "Nostr identity setup and health-check CLI. Creates a complete Nostr identity (keypair, profile, relay list, DM relays, lightning address, Cashu wallet) in one command. Audits existing npub health with a 0–8 score. Single Go binary, non-interactive, agent-friendly.",
+    "description": "Nostr identity setup and health-check CLI. Creates a complete Nostr identity (keypair, profile, relay list, DM relays, lightning address, Cashu wallet) in one command. Audits existing npub health with a 0–8 score. Single Go binary, non-interactive, agent-friendly. Also available as an OpenClaw skill.",
     "cohort": "SEC-06",
     "link": "https://github.com/dergigi/nihao",
     "linkText": "github.com/dergigi/nihao",
     "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://clawhub.ai/dergigi/nihao",
+        "linkText": "clawhub.ai/dergigi/nihao"
+      }
+    ]
   }
 ]
