@@ -5,7 +5,7 @@
     "cohort": "SEC-00",
     "link": "https://highlighter.com/",
     "linkText": "highlighter.com",
-    "logo": "/images/showcase/boris-logo.png",
+    "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
   {
@@ -478,7 +478,7 @@
   },
   {
     "name": "voca",
-    "description": "Privacy preserving offline text to speech app for graphene D",
+    "description": "Privacy-preserving offline text-to-speech app for GrapheneOS",
     "cohort": "SEC-03",
     "link": "",
     "linkText": "",
@@ -486,12 +486,12 @@
     "highlight": false
   },
   {
-    "name": "Billboard (NextBlock)",
-    "description": "First implementation of the PROMO Protocol. Ethical advertising where people price their attention in Bitcoin and advertisers bid on it through marketplace mechanics, with complete control over preferences stored through Nostr. (Launching Summer 2025)",
+    "name": "NextBlock",
+    "description": "Sovereign digital infrastructure project. Includes the PROMO Protocol (attention marketplace on Nostr), Billboard (ethical advertising where people price their attention in Bitcoin), and Telescope (Bitcoin-based temporal system).",
     "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
-    "logo": "/images/showcase/nostr-logo.png",
+    "link": "https://joinnextblock.com/",
+    "linkText": "joinnextblock.com",
+    "logo": "/images/showcase/nextblock-logo.png",
     "highlight": false
   },
   {
@@ -523,7 +523,7 @@
   },
   {
     "name": "gitworkshop.dev",
-    "description": "GitHub Actions integration and workflow automation platform",
+    "description": "Nostr-native git collaboration platform for code review and patch management, built on ngit",
     "cohort": "SEC-04",
     "link": "https://gitworkshop.dev/",
     "linkText": "gitworkshop.dev",
@@ -577,20 +577,11 @@
   },
   {
     "name": "Nescrow",
-    "description": "Open Escrow Protocol where and Escrow is a client, doesn’t need to run LN infrastructure with Escrow discovery, ratings & reviews.",
+    "description": "Open Escrow Protocol where an Escrow is a client, doesn’t need to run LN infrastructure with Escrow discovery, ratings & reviews.",
     "cohort": "SEC-04",
     "link": "",
     "linkText": "",
     "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
-    "name": "next block",
-    "description": "Bitcoin block explorer and network analysis platform",
-    "cohort": "SEC-04",
-    "link": "https://joinnextblock.com/",
-    "linkText": "joinnextblock.com",
-    "logo": "/images/showcase/nextblock-logo.png",
     "highlight": false
   },
   {
@@ -645,15 +636,6 @@
     "link": "https://wallet.cashu.me/",
     "linkText": "wallet.cashu.me",
     "logo": "/images/showcase/cashu-nutmoji-logo.png",
-    "highlight": false
-  },
-  {
-    "name": "Observatory (NextBlock)",
-    "description": "First Implementation of Telescope. Timing mechanism that Billboard uses for its PROMO Protocol implementation, creating a temporal framework aligned with Bitcoin's natural rhythm.",
-    "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
-    "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
   {
@@ -738,30 +720,12 @@
     "highlight": false
   },
   {
-    "name": "Telescope (NextBlock)",
-    "description": "Open-source Bitcoin-based Temporal System. Open source library that powers the Observatory's calculations.",
-    "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
     "name": "TENEX",
     "description": "Orchestrate the orchestrators. Autonomous, agentic learning through distributed cognition through nostr.",
     "cohort": "SEC-04",
     "link": "https://github.com/pablof7z/tenex",
     "linkText": "github.com/pablof7z/tenex",
     "logo": "/images/showcase/tenex-logo.webp",
-    "highlight": false
-  },
-  {
-    "name": "The PROMO Protocol (NextBlock)",
-    "description": "Open-source attention marketplace standard for Nostr. Decentralized protocol that turns attention into a tradeable asset on Nostr.",
-    "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
-    "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
   {
@@ -853,7 +817,7 @@
   },
   {
     "name": "Boris",
-    "description": "Highlighter fixed and done right - finally!",
+    "description": "Nostr-native reading and highlighting app. Bookmarks, social highlights, zap splits, offline-first with local relay support.",
     "cohort": "SEC-05",
     "link": "https://readwithboris.com",
     "linkText": "readwithboris.com",
