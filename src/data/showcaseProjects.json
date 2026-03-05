@@ -189,7 +189,7 @@
     "link": "https://npub.cash/",
     "linkText": "npub.cash",
     "logo": "/images/showcase/npub-cash-logo.jpg",
-    "highlight": false
+    "highlight": true
   },
   {
     "name": "nsecBunker on StartOS",
@@ -267,7 +267,7 @@
     "link": "https://nips.nostr.com/61",
     "linkText": "nips.nostr.com/61",
     "logo": "/images/showcase/cashu-logo.png",
-    "highlight": false
+    "highlight": true
   },
   {
     "name": "Nostr Safebox",

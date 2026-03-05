@@ -1,7 +1,7 @@
 ---
 enable: true
 title: 'What Others Are Saying'
-description: "Don't take our word for it. Here's what our fans and alumni have to say about Sovereign Engineering. Crypographically signed and broadcast on nostr, of course:"
+description: "Don't take our word for it. Here's what our fans and alumni have to say about Sovereign Engineering. Cryptographically signed and broadcast on nostr, of course:"
 
 # Testimonials
 testimonials:
