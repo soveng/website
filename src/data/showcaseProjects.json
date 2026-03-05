@@ -267,8 +267,8 @@
     "name": "Nostr Safebox",
     "description": "Nostr Safebox is the concept of a ‘safebox’ for Nostr. It’s a generalization of the wallet concept for storing secure, private personal information.The idea is that the safebox contains different item types, wallets, records, etc. You can give a client access by providing the nsec of the safebox. If you no longer trust the client, you can transfer the data to another safebox and delete the current one (no guarantees on deletion, of course)",
     "cohort": "SEC-02",
-    "link": "https://getsafebox.app",
-    "linkText": "getsafebox.app",
+    "link": "https://safebox.dev/",
+    "linkText": "safebox.dev",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -438,8 +438,8 @@
     "name": "Safebox",
     "description": "Secure storage solution for Bitcoin and nostr keys",
     "cohort": "SEC-03",
-    "link": "https://github.com/Nostr-Safebox/safebox",
-    "linkText": "github.com/Nostr-Safebox/safebox",
+    "link": "https://github.com/trbouma/safebox",
+    "linkText": "github.com/trbouma/safebox",
     "logo": "/images/showcase/safebox-logo.png",
     "highlight": false
   },
