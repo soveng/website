@@ -433,10 +433,10 @@
   },
   {
     "name": "Nutstash v2 Re-Design",
-    "description": "Redesign and rebuild Nutstash wallet from scratch. Implementining Nostr and Backup functionalities, together with Contacts and Chat (over nostr obviously)  Now available at wallet.Nutstack.app as v2.1.0",
+    "description": "Multi-mint Cashu wallet rebuilt from scratch. Send ecash to nostr keys, backup via nostr, contacts and chat built in. Multi-platform, self-custodial, privacy-first.",
     "cohort": "SEC-03",
-    "link": "https://wallet.Nutstack.app",
-    "linkText": "wallet.nutstack.app",
+    "link": "https://github.com/gandlafbtc/nutstash-wallet/releases/tag/nutstash-v2.0.1",
+    "linkText": "github.com/gandlafbtc/nutstash-wallet",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": false
   },
