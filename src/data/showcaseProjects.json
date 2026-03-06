@@ -358,10 +358,16 @@
     "name": "Athenut",
     "description": "Privacy-preserving Web Search Powered by Kagi & Cashu",
     "cohort": "SEC-03",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/thesimplekid/athenut-frontend",
+    "linkText": "GitHub",
     "logo": "/images/showcase/cashu-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/thesimplekid/athenut-mint",
+        "linkText": "athenut-mint"
+      }
+    ]
   },
   {
     "name": "Bolt12 prisms",
@@ -394,8 +400,8 @@
     "name": "Nostr-based Tollgate",
     "description": "Decentralized internet access using nostr for communication and discovery. Enables mesh network adoption by transferring infrastructure costs to users permissionlessly. Uses captive portals and MAC address tracking to allow anonymous internet access while still enabling proper accounting of purchased access.",
     "cohort": "SEC-03",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/OpenTollGate/tollgate",
+    "linkText": "github.com/OpenTollGate/tollgate",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -544,29 +550,11 @@
     "highlight": false
   },
   {
-    "name": "Hypernote",
-    "description": "A hypermedia system built on nostr",
-    "cohort": "SEC-04",
-    "link": "https://www.hypernote.club/",
-    "linkText": "hypernote.club",
-    "logo": "/images/showcase/hypernote-logo.gif",
-    "highlight": false
-  },
-  {
     "name": "Hypernote Stories",
     "description": "Instagram Stories on Hypernote",
     "cohort": "SEC-04",
     "link": "https://github.com/futurepaul/hypernote-stories",
     "linkText": "github.com/futurepaul/hypernote-stories",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
-    "name": "Hypernote.md",
-    "description": "Microapps on Hypernote without HTML",
-    "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -754,8 +742,8 @@
     "name": "wifistr",
     "description": "Open wifi map on nostr",
     "cohort": "SEC-04",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/coderinf/wifistr",
+    "linkText": "github.com/coderinf/wifistr",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -1044,10 +1032,10 @@
   },
   {
     "name": "Nostr Globe",
-    "description": "Mapping map overlay data on the globe - very pretty",
+    "description": "Privacy-first 3D globe visualization of upcoming Nostr events. Interactive filtering by date, radius, tags, and keywords. No trackers — data fetched directly from configured relays.",
     "cohort": "SEC-05",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/fanyiy/nostr-globe",
+    "linkText": "github.com/fanyiy/nostr-globe",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -1131,10 +1119,10 @@
   },
   {
     "name": "Seekstr",
-    "description": "Semantic multimedia search across Nostr data",
+    "description": "Nostr media event summarizer and transcription service. Indexes multimedia content from relays and makes it searchable.",
     "cohort": "SEC-05",
-    "link": "",
-    "linkText": "",
+    "link": "https://github.com/9qeklajc/seekstr",
+    "linkText": "github.com/9qeklajc/seekstr",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
