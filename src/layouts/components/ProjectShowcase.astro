@@ -15,6 +15,7 @@ interface Project {
   link: string;
   linkText: string;
   logo?: string;
+  highlight?: boolean;
   extraLinks?: ExtraLink[];
 }
 
@@ -56,20 +57,9 @@ const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
 });
 
 // Get highlighted projects (the ones mentioned in the homepage title)
-const highlightedProjectNames = [
-  "Blossom",
-  "NIP-60",
-  "NIP-61",
-  "NIP-54",
-  "Nsite",
-  "npub.cash",
-  "Tollgate",
-  "Window.nostr.db",
-  "Zapstore"
-];
-const highlightedProjects = highlightedProjectNames
-  .map(name => projects.find(project => project.name === name))
-  .filter(Boolean) as Project[];
+const highlightedProjects = projects.filter(
+  (project: Project) => project.highlight
+);
 
 const containerClasses = darkTheme
   ? "w-full text-white bg-black py-8 sm:py-16 max-w-[960px] mx-auto"
@@ -258,10 +248,10 @@ const cohortHeaderClasses = darkTheme
           </>
         ))}
 
-        {/* SEC-06 CTA Section */}
+        {/* CTA Section */}
         <div class="mt-16 text-center">
           <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-            SEC-06
+            SEC-07
           </h2>
           <div class="py-12">
             <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
