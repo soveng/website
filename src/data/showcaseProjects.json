@@ -1032,7 +1032,7 @@
   },
   {
     "name": "Nostr Globe",
-    "description": "Mapping map overlay data on the globe - very pretty",
+    "description": "Privacy-first 3D globe visualization of upcoming Nostr events. Interactive filtering by date, radius, tags, and keywords. No trackers — data fetched directly from configured relays.",
     "cohort": "SEC-05",
     "link": "https://github.com/fanyiy/nostr-globe",
     "linkText": "github.com/fanyiy/nostr-globe",
@@ -1119,7 +1119,7 @@
   },
   {
     "name": "Seekstr",
-    "description": "Semantic multimedia search across Nostr data",
+    "description": "Nostr media event summarizer and transcription service. Indexes multimedia content from relays and makes it searchable.",
     "cohort": "SEC-05",
     "link": "https://github.com/9qeklajc/seekstr",
     "linkText": "github.com/9qeklajc/seekstr",
