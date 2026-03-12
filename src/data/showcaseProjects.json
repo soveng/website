@@ -1194,5 +1194,14 @@
         "linkText": "clawhub.ai/dergigi/nihao"
       }
     ]
+  },
+  {
+    "name": "One Npub",
+    "description": "Single npub backed by FROST threshold signatures. Distributes key shares in a 2-of-3 multisig style for nostr identities. If one share is compromised, rotate shares while keeping the npub safe.",
+    "cohort": "SEC-06",
+    "link": "https://primal.net/e/nevent1qqs0e68rmd88x5y0utelj6w5plcmplnafhx9t382wjgjgpvldpnn4mqssqv2w",
+    "linkText": "primal.net",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
