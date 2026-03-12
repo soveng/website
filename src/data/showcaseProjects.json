@@ -1277,30 +1277,6 @@
     "highlight": false
   },
   {
-    "name": "Portal SDK",
-    "description": "Identity and payment layer for bitcoin-native applications. Passwordless auth via nostr, one-time and recurring Lightning payments, NWC-compatible outbound payments, and non-monetary Cashu tokens for access control. No accounts, no KYC, no payment processor.",
-    "cohort": "SEC-06",
-    "link": "https://github.com/jodobear/tack",
-    "linkText": "github.com/jodobear/tack",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false,
-    "extraLinks": [
-      {
-        "link": "https://tack.tomatech.xyz/",
-        "linkText": "tack.tomatech.xyz"
-      }
-    ]
-  },
-  {
-    "name": "Pika",
-    "description": "Chat via MLS (Messaging Layer Security) over nostr. End-to-end encrypted group messaging with forward secrecy. Includes an OpenClaw plugin for agent integration.",
-    "cohort": "SEC-06",
-    "link": "https://github.com/sledtools/pika",
-    "linkText": "github.com/sledtools/pika",
-    "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
-  },
-  {
     "name": "CashuTube",
     "description": "Video streaming platform with Cashu ecash micropayments. Spilman payment channels for pay-per-view without accounts or subscriptions. HLS adaptive bitrate streaming with Cashu wallet integration.",
     "cohort": "SEC-06",
