@@ -1194,5 +1194,95 @@
         "linkText": "clawhub.ai/dergigi/nihao"
       }
     ]
+  },
+  {
+    "name": "One Npub",
+    "description": "Single npub backed by FROST threshold signatures. Distributes key shares in a 2-of-3 multisig style for nostr identities. If one share is compromised, rotate shares while keeping the npub safe.",
+    "cohort": "SEC-06",
+    "link": "https://primal.net/e/nevent1qqs0e68rmd88x5y0utelj6w5plcmplnafhx9t382wjgjgpvldpnn4mqssqv2w",
+    "linkText": "primal.net",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nomen",
+    "description": "Persistent, searchable memory for AI agents using nostr as the sync layer. WoT-integrated with five visibility tiers from public to agent-private, hybrid search combining semantic vectors and full-text, and sleep-inspired consolidation. Works as MCP server, Context-VM, or embedded Rust library.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/k0sti/nomen",
+    "linkText": "github.com/k0sti/nomen",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Fleetgner",
+    "description": "Delegated nostr signer that runs as an MCP server. Granular access controls where admin grants specific users permission to sign with specific keys, with optional policies constraining what can be signed. NIP-46 support for existing clients plus CVM/MCP tools for agents.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/ContextVM/fleetgner",
+    "linkText": "github.com/ContextVM/fleetgner",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostr Signal",
+    "description": "Discover and rank trusted local businesses using nostr reputation signals. Combines activity mentions, endorsements, and zaps with customisable weights. Client-side posting via nostr browser extensions, no server needed.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/alexxie16/nostr-signal",
+    "linkText": "github.com/alexxie16/nostr-signal",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Chatstr",
+    "description": "Sane defaults for nostr. Apps pull defaults from your nostr activity or your web of trust for a better, customized experience with fewer footguns.",
+    "cohort": "SEC-06",
+    "link": "https://app.chatstr.ai/",
+    "linkText": "app.chatstr.ai",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Decentralized DNS via Namecoin",
+    "description": "Flutter app for censorship-resistant, human-readable nostr identities via Namecoin. Resolves names like alice.bit to nostr pubkeys stored on-chain, replacing NIP-05 which relies on censorable web servers. Supports NIP-17 encrypted DMs.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/ethicnology/sec-6-decentralized-dns-nostr",
+    "linkText": "github.com/ethicnology/sec-6-decentralized-dns-nostr",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "OAuth Bunker",
+    "description": "Bridges OAuth providers (Google, GitHub, Microsoft, Apple) with nostr identity via NIP-46 remote signing. Split architecture keeps nsecs in an isolated LAN-only bunker. Admin panel protected by NIP-98 HTTP auth with scoped signing permissions.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/flox1an/oauth-bunker",
+    "linkText": "github.com/flox1an/oauth-bunker",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Silent Payments via NIP-05",
+    "description": "Send bitcoin to human-readable nostr identities instead of 118-char silent payment addresses. Resolves NIP-05 names to BIP 352 addresses via nostr profile lookup with Schnorr signature verification. Implemented as a resolver for Sparrow Wallet.",
+    "cohort": "SEC-06",
+    "link": "https://gist.github.com/BoltTouring/dde944661df330ec5119af8ef94159e1",
+    "linkText": "gist.github.com/BoltTouring",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FriendPub",
+    "description": "Secure key rotation for nostr using threshold cryptography and NIP-17 encrypted DMs. 2-of-3 guardian threshold signature scheme where at least two trusted guardians must approve a rotation. Publishes rotation proofs publicly for network verification.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/tidley/friendpub",
+    "linkText": "github.com/tidley/friendpub",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "CashuTube",
+    "description": "Video streaming platform with Cashu ecash micropayments. Spilman payment channels for pay-per-view without accounts or subscriptions. HLS adaptive bitrate streaming with Cashu wallet integration.",
+    "cohort": "SEC-06",
+    "link": "https://cashutube.satsandsports.cash/",
+    "linkText": "cashutube.satsandsports.cash",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
   }
 ]
