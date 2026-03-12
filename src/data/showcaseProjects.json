@@ -1212,5 +1212,14 @@
     "linkText": "github.com/k0sti/nomen",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Fleetgner",
+    "description": "Delegated nostr signer that runs as an MCP server. Granular access controls where admin grants specific users permission to sign with specific keys, with optional policies constraining what can be signed. NIP-46 support for existing clients plus CVM/MCP tools for agents.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/ContextVM/fleetgner",
+    "linkText": "github.com/ContextVM/fleetgner",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
