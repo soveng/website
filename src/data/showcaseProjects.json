@@ -1230,5 +1230,14 @@
     "linkText": "github.com/alexxie16/nostr-signal",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Chatstr",
+    "description": "Sane defaults for nostr. Apps pull defaults from your nostr activity or your web of trust for a better, customized experience with fewer footguns.",
+    "cohort": "SEC-06",
+    "link": "https://app.chatstr.ai/",
+    "linkText": "app.chatstr.ai",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
