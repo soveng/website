@@ -1266,5 +1266,14 @@
     "linkText": "gist.github.com/BoltTouring",
     "logo": "/images/showcase/bitcoin-logo.png",
     "highlight": false
+  },
+  {
+    "name": "FriendPub",
+    "description": "Secure key rotation for nostr using threshold cryptography and NIP-17 encrypted DMs. 2-of-3 guardian threshold signature scheme where at least two trusted guardians must approve a rotation. Publishes rotation proofs publicly for network verification.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/tidley/friendpub",
+    "linkText": "github.com/tidley/friendpub",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
