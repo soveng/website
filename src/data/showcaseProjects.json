@@ -1203,5 +1203,14 @@
     "linkText": "primal.net",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Nomen",
+    "description": "Persistent, searchable memory for AI agents using nostr as the sync layer. WoT-integrated with five visibility tiers from public to agent-private, hybrid search combining semantic vectors and full-text, and sleep-inspired consolidation. Works as MCP server, Context-VM, or embedded Rust library.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/k0sti/nomen",
+    "linkText": "github.com/k0sti/nomen",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
