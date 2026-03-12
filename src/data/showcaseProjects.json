@@ -1248,5 +1248,14 @@
     "linkText": "github.com/ethicnology/sec-6-decentralized-dns-nostr",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "OAuth Bunker",
+    "description": "Bridges OAuth providers (Google, GitHub, Microsoft, Apple) with nostr identity via NIP-46 remote signing. Split architecture keeps nsecs in an isolated LAN-only bunker. Admin panel protected by NIP-98 HTTP auth with scoped signing permissions.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/flox1an/oauth-bunker",
+    "linkText": "github.com/flox1an/oauth-bunker",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
