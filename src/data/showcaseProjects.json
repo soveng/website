@@ -1239,5 +1239,14 @@
     "linkText": "app.chatstr.ai",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Decentralized DNS via Namecoin",
+    "description": "Flutter app for censorship-resistant, human-readable nostr identities via Namecoin. Resolves names like alice.bit to nostr pubkeys stored on-chain, replacing NIP-05 which relies on censorable web servers. Supports NIP-17 encrypted DMs.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/ethicnology/sec-6-decentralized-dns-nostr",
+    "linkText": "github.com/ethicnology/sec-6-decentralized-dns-nostr",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
