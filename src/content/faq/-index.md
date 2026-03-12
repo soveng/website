@@ -12,7 +12,7 @@ intro:
     - [Is this a free program?](#is-this-a-free-program)
     - [Do you pay for flights and accommodation?](#do-you-pay-for-flights-and-accommodation)
     - [Do you provide accommodation?](#do-you-provide-accommodation)
-    - [How do I need to prepare for the six weeks?](#how-do-i-need-to-prepare-for-the-six-weeks)
+    - [How do I need to prepare for the program?](#how-do-i-need-to-prepare-for-the-program)
     - [What is the cost of living in Madeira?](#what-is-the-cost-of-living-in-madeira)
     - [How do I best contact you?](#how-do-i-best-contact-you)
     - [How do I apply?](#how-do-i-apply)
@@ -23,7 +23,7 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: 'SEC-06 is scheduled for Spring 2026 and the dates will be announced soon. Applications will open in November 2025.'
+        answer: 'SEC-08 (YOLO++) starts July 20, 2026 and runs for six weeks. Check the [upcoming cohorts](/#upcoming-cohorts) section for the latest info and application links.'
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
         answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation Pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
@@ -40,20 +40,20 @@ sections:
       - question: 'Do you provide accommodation?'
         answer: "No, but you can search for a roof over your head on:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\nThere's also [madeirafriends.org](https://madeirafriends.org) which is a community that can help with many things."
 
-      - question: 'How do I need to prepare for the six weeks?'
-        answer: "There's of course a difference if you travel to Madeira on your own, or with a family. Besides this, your preparations should be approached like a longer than normal working holiday of six weeks. So, pack enough clothes and hardware that you'll be needing for living out of your suitcase for a while.\n\nIf you have special needs, please reach out to us and we'll see how we can help you settle in."
+      - question: 'How do I need to prepare for the program?'
+        answer: "There's of course a difference if you travel to Madeira on your own, or with a family. Besides this, your preparations should be approached like a longer than normal working holiday. Pack enough clothes and hardware that you'll be needing for living out of your suitcase for a while. Check the cohort duration — it varies between three and six weeks depending on the cohort.\n\nIf you have special needs, please reach out to us and we'll see how we can help you settle in."
 
   - id: 'cost-living'
     title: 'Cost of Living'
     questions:
       - question: 'What is the cost of living in Madeira?'
-        answer: "If you are invited to come after you're selected, you need to take care of a personal budget for 6 weeks, including flight tickets, rent for accommodation, spending money for daily expenses such as breakfast, lunch and dinner. Pocket money for the weekend outings is also not a bad idea, since you'll be able to explore beautiful Madeira once you're there.\n\nA so-called ballpark figure is hard to calculate in general, as Madeira might be cheaper for participants who come from the US or north-west Europe. If you come from southern Europe or Asia or the Americas it might be more expensive. Besides this it also depends on your personal preferences for accommodation, etc.\n\nBe sure to check out:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
+        answer: "If you are invited to come after you're selected, you need to take care of a personal budget for the duration of the cohort, including flight tickets, rent for accommodation, spending money for daily expenses such as breakfast, lunch and dinner. Pocket money for the weekend outings is also not a bad idea, since you'll be able to explore beautiful Madeira once you're there.\n\nA so-called ballpark figure is hard to calculate in general, as Madeira might be cheaper for participants who come from the US or north-west Europe. If you come from southern Europe or Asia or the Americas it might be more expensive. Besides this it also depends on your personal preferences for accommodation, etc.\n\nBe sure to check out:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
 
   - id: 'application-contact'
     title: 'Application & Contact'
     questions:
       - question: 'How do I apply?'
-        answer: 'Applications for SEC-06 will open in November 2025. Stay tuned for future opportunities to join our community of builders.'
+        answer: 'Applications for SEC-08 are open. Apply via the [upcoming cohorts](/#upcoming-cohorts) section on the homepage.'
 
       - question: 'How do I best contact you?'
         answer: "You can contact us via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io) or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."
@@ -74,6 +74,6 @@ sections:
 
 # Call to action
 cta:
-  text: 'Applications Closed'
-  link: '#'
+  text: 'Apply for SEC-08'
+  link: 'https://sovereignengineering.typeform.com/SEC-08'
 ---
