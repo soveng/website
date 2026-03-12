@@ -1299,5 +1299,14 @@
     "linkText": "github.com/sledtools/pika",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "CashuTube",
+    "description": "Video streaming platform with Cashu ecash micropayments. Spilman payment channels for pay-per-view without accounts or subscriptions. HLS adaptive bitrate streaming with Cashu wallet integration.",
+    "cohort": "SEC-06",
+    "link": "https://cashutube.satsandsports.cash/",
+    "linkText": "cashutube.satsandsports.cash",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
   }
 ]
