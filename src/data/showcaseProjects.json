@@ -1290,5 +1290,14 @@
         "linkText": "tack.tomatech.xyz"
       }
     ]
+  },
+  {
+    "name": "Pika",
+    "description": "Chat via MLS (Messaging Layer Security) over nostr. End-to-end encrypted group messaging with forward secrecy. Includes an OpenClaw plugin for agent integration.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/sledtools/pika",
+    "linkText": "github.com/sledtools/pika",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
