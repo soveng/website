@@ -1221,5 +1221,14 @@
     "linkText": "github.com/ContextVM/fleetgner",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Nostr Signal",
+    "description": "Discover and rank trusted local businesses using nostr reputation signals. Combines activity mentions, endorsements, and zaps with customisable weights. Client-side posting via nostr browser extensions, no server needed.",
+    "cohort": "SEC-06",
+    "link": "https://github.com/alexxie16/nostr-signal",
+    "linkText": "github.com/alexxie16/nostr-signal",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
   }
 ]
