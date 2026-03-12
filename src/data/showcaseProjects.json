@@ -1257,5 +1257,14 @@
     "linkText": "github.com/flox1an/oauth-bunker",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Silent Payments via NIP-05",
+    "description": "Send bitcoin to human-readable nostr identities instead of 118-char silent payment addresses. Resolves NIP-05 names to BIP 352 addresses via nostr profile lookup with Schnorr signature verification. Implemented as a resolver for Sparrow Wallet.",
+    "cohort": "SEC-06",
+    "link": "https://gist.github.com/BoltTouring/dde944661df330ec5119af8ef94159e1",
+    "linkText": "gist.github.com/BoltTouring",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
   }
 ]
