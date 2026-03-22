@@ -36,6 +36,22 @@ function formatDuration(seconds: number): string {
   return hours > 0 ? `${hours}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}` : `${mins}:${String(secs).padStart(2, '0')}`;
 }
 
+function cleanDescriptionHtml(html: string): string {
+  let s = html;
+  // Strip <span style="font-weight: 400;"> wrappers (editor noise)
+  s = s.replace(/<span\s+style="font-weight:\s*400;?">/g, '');
+  s = s.replace(/<\/span>/g, '');
+  // Strip &nbsp;
+  s = s.replace(/&nbsp;/g, ' ');
+  // Ensure space before opening <a> if preceded by text
+  s = s.replace(/([^\s>])(<a\s)/g, '$1 $2');
+  // Ensure space after closing </a> if followed by text
+  s = s.replace(/(<\/a>)([^\s<])/g, '$1 $2');
+  // Collapse multiple spaces
+  s = s.replace(/ {2,}/g, ' ');
+  return s.trim();
+}
+
 function parseItems(xml: string): Episode[] {
   const items: Episode[] = [];
   const itemRegex = /<item>([\s\S]*?)<\/item>/g;
@@ -96,7 +112,7 @@ function parseItems(xml: string): Episode[] {
       guestHref,
       guestRole,
       subtitle,
-      descriptionHtml: descRaw,
+      descriptionHtml: cleanDescriptionHtml(descRaw),
       transcriptUrl: getAttr('podcast:transcript', 'url'),
     });
   }
