@@ -105,14 +105,14 @@ function parseItems(xml: string): Episode[] {
       durationFormatted: formatDuration(durationSec),
       pubDate,
       pubDateISO,
-      link: get('link'),
+      link: get('link').replace('njump.me', 'njump.to'),
       imageUrl: getAttr('itunes:image', 'href'),
       guestName,
       guestImg,
       guestHref,
       guestRole,
       subtitle,
-      descriptionHtml: cleanDescriptionHtml(descRaw),
+      descriptionHtml: cleanDescriptionHtml(descRaw).replace(/njump\.me/g, 'njump.to'),
       transcriptUrl: getAttr('podcast:transcript', 'url'),
     });
   }
