@@ -1,4 +1,4 @@
-const RSS_URL = "https://sovereignengineering.io/dialogues.xml";
+const RSS_URL = 'https://sovereignengineering.io/dialogues.xml';
 
 export interface Episode {
   title: string;
@@ -22,10 +22,10 @@ export interface Episode {
 
 function toSlug(title: string): string {
   return title
-    .replace(/^#/, "")
-    .replace(/[^a-zA-Z0-9\s-]/g, "")
+    .replace(/^#/, '')
+    .replace(/[^a-zA-Z0-9\s-]/g, '')
     .trim()
-    .replace(/\s+/g, "-")
+    .replace(/\s+/g, '-')
     .toLowerCase();
 }
 
@@ -33,9 +33,7 @@ function formatDuration(seconds: number): string {
   const hours = Math.floor(seconds / 3600);
   const mins = Math.floor((seconds % 3600) / 60);
   const secs = seconds % 60;
-  return hours > 0
-    ? `${hours}:${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`
-    : `${mins}:${String(secs).padStart(2, "0")}`;
+  return hours > 0 ? `${hours}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}` : `${mins}:${String(secs).padStart(2, '0')}`;
 }
 
 function parseItems(xml: string): Episode[] {
@@ -47,74 +45,59 @@ function parseItems(xml: string): Episode[] {
     const block = match[1];
 
     const get = (tag: string) => {
-      const m = block.match(
-        new RegExp(
-          `<${tag}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${tag}>`,
-        ),
-      );
-      return m ? m[1].trim() : "";
+      const m = block.match(new RegExp(`<${tag}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${tag}>`));
+      return m ? m[1].trim() : '';
     };
 
     const getAttr = (tag: string, attr: string) => {
-      const m = block.match(
-        new RegExp(`<${tag}[^>]*?${attr}="([^"]*)"`, "s"),
-      );
-      return m ? m[1] : "";
+      const m = block.match(new RegExp(`<${tag}[^>]*?${attr}="([^"]*)"`, 's'));
+      return m ? m[1] : '';
     };
 
-    const title = get("title");
-    const durationSec = parseInt(get("itunes:duration") || "0", 10);
+    const title = get('title');
+    const durationSec = parseInt(get('itunes:duration') || '0', 10);
 
-    const pubDateRaw = get("pubDate");
+    const pubDateRaw = get('pubDate');
     const pubDate = pubDateRaw
-      ? new Date(pubDateRaw).toLocaleDateString("en-US", {
-          year: "numeric",
-          month: "short",
-          day: "numeric",
+      ? new Date(pubDateRaw).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'short',
+          day: 'numeric',
         })
-      : "";
-    const pubDateISO = pubDateRaw
-      ? new Date(pubDateRaw).toISOString()
-      : "";
+      : '';
+    const pubDateISO = pubDateRaw ? new Date(pubDateRaw).toISOString() : '';
 
     // First podcast:person in the item
-    const personMatch = block.match(
-      /<podcast:person([^>]*)>([^<]*)<\/podcast:person>/,
-    );
-    const personAttrs = personMatch ? personMatch[1] : "";
-    const guestName = personMatch ? personMatch[2].trim() : "";
-    const guestRole =
-      (personAttrs.match(/role="([^"]*)"/) || [])[1] || "";
-    const guestImg =
-      (personAttrs.match(/img="([^"]*)"/) || [])[1] || "";
-    const guestHref =
-      (personAttrs.match(/href="([^"]*)"/) || [])[1] || "";
+    const personMatch = block.match(/<podcast:person([^>]*)>([^<]*)<\/podcast:person>/);
+    const personAttrs = personMatch ? personMatch[1] : '';
+    const guestName = personMatch ? personMatch[2].trim() : '';
+    const guestRole = (personAttrs.match(/role="([^"]*)"/) || [])[1] || '';
+    const guestImg = (personAttrs.match(/img="([^"]*)"/) || [])[1] || '';
+    const guestHref = (personAttrs.match(/href="([^"]*)"/) || [])[1] || '';
 
     // Description: full HTML and plain-text subtitle (first <p>)
-    const descRaw = get("description");
+    const descRaw = get('description');
     const firstPMatch = descRaw.match(/<p[^>]*>([\s\S]*?)<\/p>/);
-    const subtitle = firstPMatch
-      ? firstPMatch[1].replace(/<[^>]+>/g, "").trim()
-      : "";
+    const subtitle = firstPMatch ? firstPMatch[1].replace(/<[^>]+>/g, '').trim() : '';
 
     items.push({
       title,
       slug: toSlug(title),
-      audioUrl: getAttr("enclosure", "url"),
-      audioType: getAttr("enclosure", "type"),
+      audioUrl: getAttr('enclosure', 'url'),
+      audioType: getAttr('enclosure', 'type'),
       durationSeconds: durationSec,
       durationFormatted: formatDuration(durationSec),
       pubDate,
       pubDateISO,
-      link: get("link"),
-      imageUrl: getAttr("itunes:image", "href"),
+      link: get('link'),
+      imageUrl: getAttr('itunes:image', 'href'),
       guestName,
       guestImg,
       guestHref,
       guestRole,
       subtitle,
       descriptionHtml: descRaw,
-      transcriptUrl: getAttr("podcast:transcript", "url"),
+      transcriptUrl: getAttr('podcast:transcript', 'url'),
     });
   }
 
@@ -124,14 +107,13 @@ function parseItems(xml: string): Episode[] {
 let _cache: Episode[] | null = null;
 
 export async function getEpisodes(): Promise<Episode[]> {
-  if (_cache) return _cache;
+  if (_cache) {
+    return _cache;
+  }
   const res = await fetch(RSS_URL);
   const xml = await res.text();
   const episodes = parseItems(xml);
-  episodes.sort(
-    (a, b) =>
-      new Date(b.pubDateISO).getTime() - new Date(a.pubDateISO).getTime(),
-  );
+  episodes.sort((a, b) => new Date(b.pubDateISO).getTime() - new Date(a.pubDateISO).getTime());
   _cache = episodes;
   return episodes;
 }
