@@ -1,10 +1,9 @@
 ---
 import Base from "@/layouts/Base.astro";
 import BigBlockQuote from "@/layouts/components/BigBlockQuote.astro";
-
 import DynamicIcon from "@/helpers/DynamicIcon";
+import { getEpisodes } from "@/lib/podcast";
 
-// Meta-essence distilled manually from all episode notes
 const metaParagraph =
   `Across a dozen walking dialogues the <strong>No Solutions</strong> crew keeps circling the same north star: ` +
   `<strong>freedom is an engineering practice</strong>. Start ugly, ship weekly, and invite the world's critique. ` +
@@ -21,6 +20,7 @@ const byline = `Walking towards a better internet since \
   >882,690</a>.`;
 const pageDescription = "Walking dialogues about freedom, code, and sovereign engineering. Listen to the No Solutions podcast by Sovereign Engineering.";
 
+const episodes = await getEpisodes();
 ---
 
 <Base title={pageTitle} meta_title={metaTitle} description={pageDescription} image="/images/nosolutions-og.jpg">
@@ -46,7 +46,6 @@ const pageDescription = "Walking dialogues about freedom, code, and sovereign en
           </div>
         </div>
       </div>
-
 
       <!-- Platform Links -->
       <div class="row justify-center">
@@ -78,7 +77,7 @@ const pageDescription = "Walking dialogues about freedom, code, and sovereign en
               RSS
             </a>
             <a
-              href="https://njump.me/nosolutions@sovereignengineering.io"
+              href="https://njump.to/nosolutions@sovereignengineering.io"
               target="_blank"
               rel="noopener noreferrer"
               class="btn-retro"
@@ -94,10 +93,73 @@ const pageDescription = "Walking dialogues about freedom, code, and sovereign en
       <BigBlockQuote
         quote={metaQuote}
       />
+
+      <!-- Episodes -->
+      <div class="row justify-center">
+        <div class="max-w-[960px] mx-auto w-full">
+          <h2 class="text-white uppercase text-2xl mt-24 mb-8 font-primary tracking-wider text-center">Episodes</h2>
+          <div class="space-y-6">
+            {episodes.map((ep) => (
+              <article
+                class="group border-2 border-t-white border-r-gray-700 border-b-gray-700 border-l-white bg-[#1a1a1a] hover:bg-[#222] transition-colors"
+              >
+                <a href={`/podcast/${ep.slug}`} class="no-underline hover:no-underline block">
+                  <div class="flex flex-col sm:flex-row gap-4 p-4">
+                    {/* Episode artwork */}
+                    <div class="shrink-0">
+                      <img
+                        src={ep.imageUrl}
+                        alt={ep.title}
+                        class="w-full sm:w-32 sm:h-32 object-cover"
+                        loading="lazy"
+                      />
+                    </div>
+
+                    {/* Episode info */}
+                    <div class="flex-1 min-w-0">
+                      <h3 class="text-white text-lg font-bold font-primary uppercase leading-tight group-hover:text-primary transition-colors mb-1">
+                        {ep.title}
+                      </h3>
+
+                      {/* Meta line: guest, date, duration */}
+                      <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-400 mb-2 font-primary">
+                        {ep.guestName && (
+                          <span class="inline-flex items-center gap-1.5">
+                            {ep.guestImg && (
+                              <img
+                                src={ep.guestImg}
+                                alt={ep.guestName}
+                                class="w-5 h-5 rounded-full object-cover"
+                                loading="lazy"
+                              />
+                            )}
+                            <span class="text-gray-300">{ep.guestName}</span>
+                            <span class="text-gray-600">({ep.guestRole})</span>
+                          </span>
+                        )}
+                        <span>{ep.pubDate}</span>
+                        <span>{ep.durationFormatted}</span>
+                      </div>
+
+                      {/* First paragraph / quote */}
+                      {ep.subtitle && (
+                        <p class="text-gray-400 text-sm italic line-clamp-2">
+                          {ep.subtitle}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <!-- Next Link -->
       <section class="section-sm bg-black text-white">
         <div class="container">
-          <p class="mt-6"><a href="/projects" class="underline decoration-2 underline-offset-2 hover:text-primary">Next: Explore the projects we discuss →</a></p>
+          <p class="mt-6"><a href="/projects" class="underline decoration-2 underline-offset-2 hover:text-primary">Next: Explore the projects we discuss &rarr;</a></p>
         </div>
       </section>
     </div>

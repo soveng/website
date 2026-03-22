@@ -1,0 +1,131 @@
+---
+import Base from "@/layouts/Base.astro";
+import { getEpisodes } from "@/lib/podcast";
+import type { Episode } from "@/lib/podcast";
+
+export async function getStaticPaths() {
+  const episodes = await getEpisodes();
+  return episodes.map((ep) => ({
+    params: { slug: ep.slug },
+    props: { episode: ep },
+  }));
+}
+
+interface Props {
+  episode: Episode;
+}
+
+const { episode: ep } = Astro.props;
+const metaTitle = `${ep.title} — No Solutions`;
+const metaDescription = ep.subtitle || `Listen to ${ep.title} from the No Solutions podcast by Sovereign Engineering.`;
+---
+
+<Base title={ep.title} meta_title={metaTitle} description={metaDescription} image={ep.imageUrl}>
+  <section class="section-sm bg-black text-white pt-[8rem]">
+    <div class="container">
+      <div class="max-w-[960px] mx-auto">
+
+        {/* Back link */}
+        <p class="mb-8">
+          <a
+            href="/podcast"
+            class="text-gray-400 hover:text-primary no-underline hover:no-underline transition-colors font-primary uppercase text-sm"
+          >
+            &larr; All Episodes
+          </a>
+        </p>
+
+        {/* Header: artwork + info */}
+        <div class="flex flex-col sm:flex-row gap-6 mb-8">
+          <div class="shrink-0">
+            <img
+              src={ep.imageUrl}
+              alt={ep.title}
+              class="w-full sm:w-48 sm:h-48 object-cover border-2 border-t-white border-r-gray-700 border-b-gray-700 border-l-white"
+            />
+          </div>
+
+          <div class="flex-1 min-w-0">
+            <h1 class="text-white uppercase font-primary text-3xl mb-2 leading-tight">
+              {ep.title}
+            </h1>
+
+            {/* Meta */}
+            <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-gray-400 mb-4 font-primary">
+              {ep.guestName && (
+                <span class="inline-flex items-center gap-2">
+                  {ep.guestImg && (
+                    <img
+                      src={ep.guestImg}
+                      alt={ep.guestName}
+                      class="w-6 h-6 rounded-full object-cover"
+                    />
+                  )}
+                  <a
+                    href={ep.guestHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="text-gray-300 hover:text-primary no-underline hover:no-underline transition-colors"
+                  >
+                    {ep.guestName}
+                  </a>
+                  <span class="text-gray-600">({ep.guestRole})</span>
+                </span>
+              )}
+              <span>{ep.pubDate}</span>
+              <span>{ep.durationFormatted}</span>
+            </div>
+
+            {/* Audio player */}
+            {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+            <audio
+              controls
+              preload="none"
+              class="w-full h-10 mb-4"
+            >
+              <source src={ep.audioUrl} type={ep.audioType || "audio/mpeg"} />
+            </audio>
+
+            {/* Action links */}
+            <div class="flex flex-wrap gap-3 text-xs font-primary uppercase">
+              <a
+                href={ep.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn-retro btn-retro-sm"
+              >
+                Nostr
+              </a>
+              {ep.transcriptUrl && (
+                <a
+                  href={ep.transcriptUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-retro btn-retro-sm"
+                >
+                  Transcript
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Full episode description */}
+        <div class="content [&>p]:text-white [&>p]:text-base [&>p]:mb-4 [&>ul]:text-gray-300 [&>ul]:mb-4 [&>ul]:list-disc [&>ul]:pl-6 [&>li]:mb-1 [&>a]:text-primary [&>a]:underline [&_a]:text-primary [&_a]:underline [&_a]:hover:text-white mb-12">
+          <Fragment set:html={ep.descriptionHtml} />
+        </div>
+
+        {/* Navigation */}
+        <div class="border-t border-gray-800 pt-6">
+          <a
+            href="/podcast"
+            class="text-gray-400 hover:text-primary no-underline hover:no-underline transition-colors font-primary uppercase text-sm"
+          >
+            &larr; All Episodes
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</Base>
