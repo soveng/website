@@ -21,6 +21,108 @@ const byline = `Walking towards a better internet since \
   >882,690</a>.`;
 const pageDescription = "Walking dialogues about freedom, code, and sovereign engineering. Listen to the No Solutions podcast by Sovereign Engineering.";
 
+// --- Fetch and parse the RSS feed at build time ---
+const rssUrl = "https://sovereignengineering.io/dialogues.xml";
+const rssResponse = await fetch(rssUrl);
+const rssText = await rssResponse.text();
+
+// Lightweight XML parsing for the RSS items
+function parseItems(xml: string) {
+  const items: Array<{
+    title: string;
+    slug: string;
+    audioUrl: string;
+    audioType: string;
+    duration: string;
+    pubDate: string;
+    link: string;
+    imageUrl: string;
+    guestName: string;
+    guestImg: string;
+    guestHref: string;
+    guestRole: string;
+    descriptionHtml: string;
+    transcriptUrl: string;
+  }> = [];
+
+  const itemRegex = /<item>([\s\S]*?)<\/item>/g;
+  let match;
+  while ((match = itemRegex.exec(xml)) !== null) {
+    const block = match[1];
+    const get = (tag: string) => {
+      const m = block.match(new RegExp(`<${tag}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?<\\/${tag}>`));
+      return m ? m[1].trim() : "";
+    };
+    const getAttr = (tag: string, attr: string) => {
+      const m = block.match(new RegExp(`<${tag}[^>]*?${attr}="([^"]*)"`, "s"));
+      return m ? m[1] : "";
+    };
+
+    const title = get("title");
+    // Create URL-friendly slug from title: "#13: The Linux of Social Media" → "13-the-linux-of-social-media"
+    const slug = title
+      .replace(/^#/, "")
+      .replace(/[^a-zA-Z0-9\s-]/g, "")
+      .trim()
+      .replace(/\s+/g, "-")
+      .toLowerCase();
+
+    const durationSec = parseInt(get("itunes:duration") || "0", 10);
+    const hours = Math.floor(durationSec / 3600);
+    const mins = Math.floor((durationSec % 3600) / 60);
+    const secs = durationSec % 60;
+    const durationFormatted = hours > 0
+      ? `${hours}:${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`
+      : `${mins}:${String(secs).padStart(2, "0")}`;
+
+    const pubDateRaw = get("pubDate");
+    const pubFormatted = pubDateRaw
+      ? new Date(pubDateRaw).toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" })
+      : "";
+
+    // Extract first podcast:person (guest/co-host for this episode)
+    const personMatch = block.match(/<podcast:person([^>]*)>([^<]*)<\/podcast:person>/);
+    const personAttrs = personMatch ? personMatch[1] : "";
+    const guestName = personMatch ? personMatch[2].trim() : "";
+    const guestRole = (personAttrs.match(/role="([^"]*)"/) || [])[1] || "";
+    const guestImg = (personAttrs.match(/img="([^"]*)"/) || [])[1] || "";
+    const guestHref = (personAttrs.match(/href="([^"]*)"/) || [])[1] || "";
+
+    // Extract first paragraph from description as subtitle
+    const descRaw = get("description");
+    const firstPMatch = descRaw.match(/<p[^>]*>([\s\S]*?)<\/p>/);
+    const firstP = firstPMatch ? firstPMatch[1].replace(/<[^>]+>/g, "").trim() : "";
+
+    const transcriptUrl = getAttr("podcast:transcript", "url");
+
+    items.push({
+      title,
+      slug,
+      audioUrl: getAttr("enclosure", "url"),
+      audioType: getAttr("enclosure", "type"),
+      duration: durationFormatted,
+      pubDate: pubFormatted,
+      link: get("link"),
+      imageUrl: getAttr("itunes:image", "href"),
+      guestName,
+      guestImg,
+      guestHref,
+      guestRole,
+      descriptionHtml: firstP,
+      transcriptUrl,
+    });
+  }
+  return items;
+}
+
+const episodes = parseItems(rssText);
+// Sort newest first (they already are from the feed, but be explicit)
+episodes.sort((a, b) => {
+  const da = new Date(a.pubDate).getTime();
+  const db = new Date(b.pubDate).getTime();
+  return db - da;
+});
+
 ---
 
 <Base title={pageTitle} meta_title={metaTitle} description={pageDescription} image="/images/nosolutions-og.jpg">
@@ -94,6 +196,115 @@ const pageDescription = "Walking dialogues about freedom, code, and sovereign en
       <BigBlockQuote
         quote={metaQuote}
       />
+
+      <!-- Episodes -->
+      <div class="row justify-center">
+        <div class="max-w-[960px] mx-auto w-full">
+          <h2 class="text-white uppercase text-2xl mb-8 font-primary tracking-wider text-center">Episodes</h2>
+          <div class="space-y-6">
+            {episodes.map((ep) => (
+              <article
+                id={ep.slug}
+                class="group border-2 border-t-white border-r-gray-700 border-b-gray-700 border-l-white bg-[#1a1a1a] scroll-mt-32 target:ring-2 target:ring-primary transition-all"
+              >
+                <div class="flex flex-col sm:flex-row gap-4 p-4">
+                  {/* Episode artwork */}
+                  <div class="shrink-0">
+                    <a href={ep.link} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={ep.imageUrl}
+                        alt={ep.title}
+                        class="w-full sm:w-32 sm:h-32 object-cover"
+                        loading="lazy"
+                      />
+                    </a>
+                  </div>
+
+                  {/* Episode info */}
+                  <div class="flex-1 min-w-0">
+                    <div class="flex items-start justify-between gap-2">
+                      <a href={`#${ep.slug}`} class="no-underline hover:no-underline">
+                        <h3 class="text-white text-lg font-bold font-primary uppercase leading-tight hover:text-primary transition-colors mb-1">
+                          {ep.title}
+                        </h3>
+                      </a>
+                    </div>
+
+                    {/* Meta line: guest, date, duration */}
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-gray-400 mb-2 font-primary">
+                      {ep.guestName && (
+                        <span class="inline-flex items-center gap-1.5">
+                          {ep.guestImg && (
+                            <img
+                              src={ep.guestImg}
+                              alt={ep.guestName}
+                              class="w-5 h-5 rounded-full object-cover"
+                              loading="lazy"
+                            />
+                          )}
+                          <a
+                            href={ep.guestHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-gray-300 hover:text-primary no-underline hover:no-underline transition-colors"
+                          >
+                            {ep.guestName}
+                          </a>
+                          <span class="text-gray-600">({ep.guestRole})</span>
+                        </span>
+                      )}
+                      <span>{ep.pubDate}</span>
+                      <span>{ep.duration}</span>
+                    </div>
+
+                    {/* First paragraph / quote */}
+                    {ep.descriptionHtml && (
+                      <p class="text-gray-400 text-sm italic line-clamp-2 mb-3">
+                        {ep.descriptionHtml}
+                      </p>
+                    )}
+
+                    {/* Audio player */}
+                    <audio controls preload="none" class="w-full h-8 [&::-webkit-media-controls-panel]:bg-[#2a2a2a]">
+                      <source src={ep.audioUrl} type={ep.audioType || "audio/mpeg"} />
+                    </audio>
+
+                    {/* Links row */}
+                    <div class="flex flex-wrap gap-3 mt-2 text-xs font-primary uppercase">
+                      <a
+                        href={ep.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-gray-500 hover:text-primary no-underline hover:no-underline transition-colors"
+                      >
+                        Nostr
+                      </a>
+                      {ep.transcriptUrl && (
+                        <a
+                          href={ep.transcriptUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="text-gray-500 hover:text-primary no-underline hover:no-underline transition-colors"
+                        >
+                          Transcript
+                        </a>
+                      )}
+                      <a
+                        href={`#${ep.slug}`}
+                        class="text-gray-500 hover:text-primary no-underline hover:no-underline transition-colors ml-auto"
+                        title="Copy link to this episode"
+                      >
+                        🔗
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <!-- Next Link -->
       <section class="section-sm bg-black text-white">
         <div class="container">
