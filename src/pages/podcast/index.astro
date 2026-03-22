@@ -90,16 +90,14 @@ const episodes = await getEpisodes();
       </div>
 
       <!-- Centered Quote -->
-      <div class="mt-32">
-        <BigBlockQuote
-          quote={metaQuote}
-        />
-      </div>
+      <BigBlockQuote
+        quote={metaQuote}
+      />
 
       <!-- Episodes -->
       <div class="row justify-center">
         <div class="max-w-[960px] mx-auto w-full">
-          <h2 class="text-white uppercase text-2xl mt-32 mb-8 font-primary tracking-wider text-center">Episodes</h2>
+          <h2 class="text-white uppercase text-2xl mt-24 mb-8 font-primary tracking-wider text-center">Episodes</h2>
           <div class="space-y-6">
             {episodes.map((ep) => (
               <article
