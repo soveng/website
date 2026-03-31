@@ -94,7 +94,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li><span style="font-weight: 400;">Nerd-sniped into implementing Mosaic in Zig, then dropping it in two days</span></li>
 <li><span style="font-weight: 400;">What Nostr got right: "good enough"</span></li>
 <li><span style="font-weight: 400;">Binary transport for Nostr relays</span></li>
-<li><span style="font-weight: 400;">Getting rid of DNS: a theme every week at SovEng</span></li>
+<li><span style="font-weight: 400;">Getting rid of DNS: a theme every week at SovEng (</span><a href="https://njump.me/nevent1qqspc3kxtdk8kh6f7auamcwl6ykfkq2dnjxrgtgqnpdm5hvrj00yu4cmuzx4c"><span style="font-weight: 400;">noDNS</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Claiming names via Nostr events, no .com needed</span></li>
 <li><span style="font-weight: 400;">Web of trust for conflict resolution</span></li>
 <li><span style="font-weight: 400;">Self-signed TLS certs trusted through Nostr identity</span></li>
