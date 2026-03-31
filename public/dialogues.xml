@@ -315,6 +315,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li><span style="font-weight: 400;">"You're gonna miss your flight"</span></li>
 </ul>
 <p>&nbsp;</p>]]></description>
+      <itunes:image href="https://haven.dergigi.com/32a7a7734748536ceafdbeb143e497b368014b9813df05ebb3e487599d89ac0d.jpg"/>
       <enclosure url="https://haven.dergigi.com/4ab19ca3d197abfe6fa5bb870f0a730ea054ef6c5b9bdbe6fa27e12b6dc52e40.m4a" length="22154846" type="audio/mpeg"/>
       <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Justin</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
