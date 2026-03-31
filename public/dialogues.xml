@@ -20,7 +20,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:category text=""/>
     <podcast:medium>podcast</podcast:medium>
     <podcast:person href="https://dergigi.com/" img="https://dergigi.com/assets/images/avatars/09.png" group="cast" role="host">Gigi</podcast:person>
-    <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="co-host">Pablo</podcast:person>
     <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
       <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
       <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
@@ -670,7 +669,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/213e610e05523e77984284fdb851b6d7f29948a25b1550e0a35723d2e1d472c4.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/5b28e6fddd03815a3d3a1df1cbe3d80929e3384038daac6c20838721b8079073.m4a" length="142120278" type="audio/mpeg"/>
-      <podcast:person href="https://www.otherstuff.studio/thegoodstuff" img="https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg" group="cast" role="co-host">Pete</podcast:person>
+      <podcast:person href="https://www.otherstuff.studio/thegoodstuff" img="https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg" group="cast" role="guest">Pete</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/6229f6f36c99bf5c417cb2d0de2321b808001188ffff2b16a13241d0134048c0.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -866,7 +865,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/54aa09044b01c04cd2e39e8845863fe6c8af70a1a70d2ffc979b5c5f92d6acc4.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/12176c5d069e539b4df09f6ab83b7dd49212f78a23d4e1efeb41a36ca9e02992.m4a" length="53256658" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/6946c79d6247791592b17097a9d63ccf67655640eebbbd4e19510bc4e889ea36.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1530,7 +1529,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p><br /><br /></p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/4332ee0d3237589630450057f5a8643b7dadd5be9fc8906fee8b3fd3619d5fdc.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/163991993992a3ba54e22d8c1516bd2fdec4fb228e698931cb9474b80ced7dc5.m4a" length="51138377" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/ef91b4cb73b93aefd5804c4e74237c2e8c5ca8ce9140c81e6976c7a102805b0f.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1809,7 +1808,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/0e94404df275cb94e64c424fb58267accce316cbe0102561052a81074d5a35a4.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/3468fad22a44ed15ca63aa20be91fbf53a38250558ba13b8c4994d9178687c12.m4a" length="89611955" type="audio/mpeg"/>
-      <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Justin</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/c5ceb682b9a1200d1b6e82f31bcf000a47fc93ef73209051d3e93dda9d9a2da3.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -2085,7 +2084,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/e2fd652ae95de02b27c0e65667c67dff3e46a55d807ef37e78c0e8951beba240.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/a4c661358690b68e5cce8583111c8ab3bb9fef1a9e4e1a347cf543b7dc76c4fb.mpga" length="76009770" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://avatars.githubusercontent.com/u/779813?v=4" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/f7z.io" img="https://avatars.githubusercontent.com/u/779813?v=4" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/82506d2dad88ac901241d87d21fc13cd1d7dea41ba5c5e62025e4fee87e834ba.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -2599,7 +2598,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/79d1c142837197308b8ec89478d33de473a87c3f27a1e14d25585c12bae15723.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/d6cba62896e2db1220038210de2941420dbe768cef819327fdd0c55c71b0d46f.mp3" length="43295852" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
@@ -2719,7 +2718,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p><br /><br /></p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/47751a709b26379178c6da4817bae2c7ec0df90ac56c5660a72f805268e54525.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/454ec3ebf261084fe0abbcb6b31409cb29db23ed97784f896b60d7226bfe17ba.mp3" length="57403392" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
@@ -2822,7 +2821,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/ecb05eff1c32855b96048f97b94580c7a4d9ee053245afd2051c433c64b39c20.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/efd05ea087e894bfa056803f881e8de25e775cee3d65f2ae303c1f282b619a61.mp3" length="34303296" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
@@ -2878,7 +2877,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <description><![CDATA[<p>A teaser.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/5c534684d544b519bbb09cc126ac0095f093949498091ca818a55baee26e0e44.png"/>
       <enclosure url="https://haven.sovereignengineering.io/d8b969dcdd4e956b581ac66933076b1a9080d219aeddf03110c768bec43e842f.ogg" length="1649225" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="co-host">Pablo</podcast:person>
+      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
