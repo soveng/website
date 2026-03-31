@@ -37,11 +37,71 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Sovereign Feeds</managingEditor>
-    <pubDate>Mon, 31 Mar 2026 08:10:00 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2026 08:10:00 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2026 11:52:00 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2026 11:52:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>#15: Make Localhost Great Again</title>
+      <description><![CDATA[<p><span style="font-weight: 400;">"127.0.0.1 -- that's the only IP address we're gonna need."</span></p>
+<p><span style="font-weight: 400;">The crew passes the mic around on a pirate boat. Recorded October 2025.</span></p>
+<p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
+<ul>
+<li><a href="https://njump.to/nevent1qqsv7fuzd6u78cflu5hprvhq3f3pnw6dd8ejwmt2lkwumw4kqv0kqrq6gkpzl"><span style="font-weight: 400;">Beacon</span></a></li>
+<li><a href="https://njump.to/nevent1qqspc3kxtdk8kh6f7auamcwl6ykfkq2dnjxrgtgqnpdm5hvrj00yu4cmuzx4c"><span style="font-weight: 400;">noDNS</span></a></li>
+<li><a href="https://innpub.dergigi.com/"><span style="font-weight: 400;">innpub</span></a></li>
+<li><a href="https://datatracker.ietf.org/wg/moq/about/"><span style="font-weight: 400;">MOQ</span></a><span style="font-weight: 400;"> (Media Over QUIC)</span></li>
+<li><a href="https://www.contextvm.org/"><span style="font-weight: 400;">ContextVM</span></a></li>
+<li><a href="https://sovereignengineering.io/projects"><span style="font-weight: 400;">Chrysalis</span></a><span style="font-weight: 400;"> (self-replicating Cashu mint)</span></li>
+<li><a href="https://sovereignengineering.io/projects"><span style="font-weight: 400;">Paygress</span></a><span style="font-weight: 400;"> (VM provisioning over Nostr)</span></li>
+<li><a href="https://sovereignengineering.io/projects"><span style="font-weight: 400;">BloVM</span></a><span style="font-weight: 400;"> (blossom server monitor)</span></li>
+<li><a href="https://github.com/futurepaul/hypernote/"><span style="font-weight: 400;">HyperNote</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<ul>
+<li><span style="font-weight: 400;">"How was Sovereign Engineering for you?" -- "Inspiring. Stressful."</span></li>
+<li><span style="font-weight: 400;">Most exciting demo? Beacon has been trending</span></li>
+<li><span style="font-weight: 400;">noDNS mentioned by basically everyone</span></li>
+<li><span style="font-weight: 400;">Mapping projects: putting OpenStreetMap tiles on Nostr/Blossom</span></li>
+<li><span style="font-weight: 400;">MOQ working live in innpub, eight people hanging out yesterday</span></li>
+<li><span style="font-weight: 400;">Pete's demo day race condition: a literal race to claim e-cash</span></li>
+<li><span style="font-weight: 400;">"There is no global, but there's also kind of a global"</span></li>
+<li><span style="font-weight: 400;">Chrysalis: a self-replicating Cashu mint that pays for itself and moves</span></li>
+<li><span style="font-weight: 400;">"Who's gonna run the mints?" -- "Nobody. They're gonna run themselves."</span></li>
+<li><span style="font-weight: 400;">Andreas Antonopoulos talked about self-sustaining Bitcoin services eight years ago</span></li>
+<li><span style="font-weight: 400;">noDNS explained like I'm five and drunk: "Websites and you don't have to ask daddy"</span></li>
+<li><span style="font-weight: 400;">Instead of buying domain names, you claim yours via your npub</span></li>
+<li><span style="font-weight: 400;">Conflicts resolved with web of trust and proof of work</span></li>
+<li><span style="font-weight: 400;">Self-signed TLS certs trusted through Nostr identity</span></li>
+<li><span style="font-weight: 400;">HTTPS websites with zero certificate authority involved</span></li>
+<li><span style="font-weight: 400;">"That's also what triggered Justin into writing his own browser"</span></li>
+<li><span style="font-weight: 400;">"Most browsers like to babysit their users quite a bit"</span></li>
+<li><span style="font-weight: 400;">Dolphin sounds</span></li>
+<li><span style="font-weight: 400;">ContextVM: MCP over Nostr as a transport layer</span></li>
+<li><span style="font-weight: 400;">"MCP is not just for LLMs, it's a protocol for anything"</span></li>
+<li><span style="font-weight: 400;">"Make localhost great again" -- 127.0.0.1 is the only IP we need</span></li>
+<li><span style="font-weight: 400;">Interrupting chicken (the joke didn't land)</span></li>
+<li><span style="font-weight: 400;">"Europe who?" (Australian humor)</span></li>
+<li><span style="font-weight: 400;">Ending on a hug, as always</span></li>
+</ul>
+<p>&nbsp;</p>]]></description>
+      <enclosure url="https://haven.dergigi.com/693116528a4819fcfbfa7082030aff90d02dafa6f18fc00a745ea72eab8dbbf8.m4a" length="8063784" type="audio/mpeg"/>
+      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
+      </podcast:value>
+      <guid isPermaLink="false">d4e8f1a2-7b3c-4d9e-a5f6-2c8b9e1d3f7a</guid>
+      <itunes:subtitle>#15: Make Localhost Great Again</itunes:subtitle>
+      <itunes:duration>900</itunes:duration>
+      <link>https://njump.to/nevent1qqs0n4a25x8yn4068hw27f4zy2yedf2xlqgtr9q5sa0t05qzth37r7c8sdwtp</link>
+      <pubDate>Mon, 31 Mar 2026 11:52:00 +0000</pubDate>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>nostr, development, sovereign engineering, shipping, dns, localhost, internet, conversation, dialog</itunes:keywords>
+    </item>
     <item>
       <title>#14: Building Browsers</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"I want Nostr to be the perfect thing just for me."</span></p>
