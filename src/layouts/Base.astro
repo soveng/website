@@ -169,17 +169,19 @@ const call_to_action = showCallToAction ? (await getEntry(
     <!-- og-image -->
     <meta
       property="og:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={(() => {
+        const img = image || config.metadata.meta_image;
+        return img.startsWith('http') ? img : `${config.site.base_url}${img}`;
+      })()}
     />
 
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={`${config.site.base_url}${
-        image ? image : config.metadata.meta_image
-      }`}
+      content={(() => {
+        const img = image || config.metadata.meta_image;
+        return img.startsWith('http') ? img : `${config.site.base_url}${img}`;
+      })()}
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@sovereigneng" />
