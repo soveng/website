@@ -6,7 +6,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <language>en</language>
     <itunes:image href="https://haven.sovereignengineering.io/29995d6f3c18f5cd881519e08a34292ccbd2f0996df288e9b125dea69d259eee.jpg"/>
     <link>https://njump.me/no-solutions@sovereignengineering.io</link>
-    <generator>Sovereign Feeds</generator>
+    <generator>No Solutions</generator>
     <image>
       <url>https://haven.sovereignengineering.io/29995d6f3c18f5cd881519e08a34292ccbd2f0996df288e9b125dea69d259eee.jpg</url>
       <link>https://njump.me/no-solutions@sovereignengineering.io</link>
@@ -22,7 +22,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <podcast:person href="https://dergigi.com/" img="https://dergigi.com/assets/images/avatars/09.png" group="cast" role="host">Gigi</podcast:person>
     <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
       <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-      <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
     </podcast:value>
     <podcast:complete>no</podcast:complete>
     <podcast:block>no</podcast:block>
@@ -34,7 +33,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
-    <managingEditor>Sovereign Feeds</managingEditor>
+    <managingEditor>Gigi</managingEditor>
     <pubDate>Mon, 31 Mar 2026 15:55:00 +0000</pubDate>
     <lastBuildDate>Mon, 31 Mar 2026 15:55:00 +0000</lastBuildDate>
     <category>Technology</category>
@@ -115,7 +114,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.dergigi.com/9c8afb1c899ac1473ac5bb95aba651b0e67326f9e01aec5922f3c9f41d3a4c0d.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Arjen" type="lnaddress" address="iwillnot@getalby.com" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">40b68fa9-0d3b-430b-b8c2-20d098a40ca1</guid>
@@ -177,7 +175,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.dergigi.com/dd6bef5b9fefeb3a3c5530115860ea0f3e406077050f1c6aff1975b619095e71.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">70586a3f-6aa2-4d0a-a64f-82b51305c571</guid>
       <itunes:subtitle>#16: One Click and Run w/ SEC-05</itunes:subtitle>
@@ -238,7 +235,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.dergigi.com/33a73e498a7041893f398087fa8dd2ad4cf9266c25aa9368baca26989c4e0916.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">8d5e0f83-e204-489f-808b-ae33531c4b29</guid>
       <itunes:subtitle>#15: Make Localhost Great Again w/ SEC-05</itunes:subtitle>
@@ -321,7 +317,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.dergigi.com/e5c2b3d3429d87b3cd86652b10470ce17f80f4f667acf2733688f7287b977694.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">fd60490d-4dc8-4b88-8dac-86d1eb88333a</guid>
@@ -454,7 +449,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/45251a336512a568f13f98909ab04aab44259340e6b2a07920af5a8b14ae1743.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Hzrd" type="lnaddress" address="hzrd1499@minibits.cash" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">06082b2d-58ce-4100-a363-af79c5109871</guid>
@@ -674,7 +668,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/6229f6f36c99bf5c417cb2d0de2321b808001188ffff2b16a13241d0134048c0.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Pete" type="lnaddress" address="pw@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">f9b3fc29-a5c5-4c50-b0d0-2f18d6ab66d3</guid>
@@ -870,7 +863,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/6946c79d6247791592b17097a9d63ccf67655640eebbbd4e19510bc4e889ea36.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">a88dafec-bab2-43e6-96f3-c5ac26c12822</guid>
       <itunes:subtitle>#11: 10x Less Productive w/ Pablo</itunes:subtitle>
@@ -1080,7 +1072,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/40dcfcace21401f84692fa154a82ea41bce86b80b18ac4da988f700d39f5319b.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Gzuuus" type="lnaddress" address="nostrkid@coinos.io" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">10e17f5a-826b-4892-803d-089012bd16f7</guid>
@@ -1302,7 +1293,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/45f48be7c416c93640606e29a0963cae8505f2b88e25c0c4d1b7b62b3f24912f.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="hzrd149" type="lnaddress" address="hzrd1499@minibits.cash" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">f1987107-22ff-4572-8dca-af4c9a8ce549</guid>
@@ -1534,7 +1524,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/ef91b4cb73b93aefd5804c4e74237c2e8c5ca8ce9140c81e6976c7a102805b0f.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">51b918d9-dc3c-4bb9-87f1-60f674f5f5eb</guid>
@@ -1813,7 +1802,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/c5ceb682b9a1200d1b6e82f31bcf000a47fc93ef73209051d3e93dda9d9a2da3.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">7469e24d-3bde-4554-9b53-9f6bb27d9b52</guid>
@@ -2089,7 +2077,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:transcript url="https://haven.sovereignengineering.io/82506d2dad88ac901241d87d21fc13cd1d7dea41ba5c5e62025e4fee87e834ba.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">732a61fd-bd8e-4618-a2fb-42f3014e6b23</guid>
@@ -2306,7 +2293,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Paul" type="lnaddress" address="futurepaul@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">35ccd902-2bf8-4e61-8212-e7a770a9faa4</guid>
@@ -2472,7 +2458,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
         <podcast:valueRecipient name="Calle" type="lnaddress" address="calle@npub.cash" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">099bb458-3a70-4f38-b178-dbaa883e9256</guid>
@@ -2603,7 +2588,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">61015ff9-beb2-448d-84a1-cc1db2e8e70c</guid>
       <itunes:subtitle>#03: Data Ownership is a Lie w/ Pablo</itunes:subtitle>
@@ -2723,7 +2707,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">4222eeb9-a217-487d-8fa5-a9d7e4489691</guid>
       <itunes:subtitle>#02: There is No Global w/ Pablo</itunes:subtitle>
@@ -2826,7 +2809,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">cecd9520-2fc8-4d45-9161-34d58e563e0f</guid>
       <itunes:subtitle>#01: Start Ugly w/ Pablo</itunes:subtitle>
@@ -2882,7 +2864,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
-        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">424cb8ef-a99a-4a0b-b7ce-02b960283814</guid>
       <itunes:subtitle>#00: Test Recording / Teaser w/ Pablo</itunes:subtitle>
