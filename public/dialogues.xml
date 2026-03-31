@@ -37,11 +37,98 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Sovereign Feeds</managingEditor>
-    <pubDate>Mon, 31 Mar 2026 13:37:00 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2026 13:37:00 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2026 15:55:00 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2026 15:55:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>#17: Organic Tech w/ Arjen</title>
+      <description><![CDATA[<p><span style="font-weight: 400;">"Nostr is organic tech. Data will flow more naturally instead of going out and fetch, going out and coming back, going out and coming back."</span></p>
+<p><a href="https://njump.to/npub1aljm5gq3ychx5rrjm5kqmnjsgfwx3mqlkm7v39nu5sq7ergpzc2q60z5fp"><span style="font-weight: 400;">Arjen</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> take a long walk. Recorded October 2025.</span></p>
+<p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
+<ul>
+<li><a href="https://github.com/hzrd149/blossom"><span style="font-weight: 400;">Blossom</span></a><span style="font-weight: 400;"> (self-healing links)</span></li>
+<li><a href="https://njump.to/nevent1qqspc3kxtdk8kh6f7auamcwl6ykfkq2dnjxrgtgqnpdm5hvrj00yu4cmuzx4c"><span style="font-weight: 400;">noDNS</span></a></li>
+<li><a href="https://tollgate.me/"><span style="font-weight: 400;">Tollgate</span></a><span style="font-weight: 400;"> (router-to-router payments)</span></li>
+<li><a href="https://github.com/Origami74/wally"><span style="font-weight: 400;">Wally</span></a><span style="font-weight: 400;"> (Cashu wallet connect)</span></li>
+<li><a href="https://github.com/futurepaul/innpub"><span style="font-weight: 400;">innpub</span></a><span style="font-weight: 400;"> (positional audio, </span><a href="https://innpub.dergigi.com/"><span style="font-weight: 400;">innpub.dergigi.com</span></a><span style="font-weight: 400;">)</span></li>
+<li><a href="https://github.com/greenart7c3/Citrine"><span style="font-weight: 400;">Citrine</span></a><span style="font-weight: 400;"> (Android local relay)</span></li>
+<li><a href="https://github.com/greenart7c3/Amber"><span style="font-weight: 400;">Amber</span></a><span style="font-weight: 400;"> (Android signer)</span></li>
+<li><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a></li>
+<li><a href="https://github.com/hzrd149/applesauce"><span style="font-weight: 400;">Applesauce</span></a><span style="font-weight: 400;"> (code snippets)</span></li>
+<li><a href="https://github.com/humansinstitute/wingman"><span style="font-weight: 400;">Wingman</span></a><span style="font-weight: 400;"> (remote dev assistant)</span></li>
+<li><a href="https://github.com/cashubtc/cdk"><span style="font-weight: 400;">CDK</span></a><span style="font-weight: 400;"> (Cashu dev kit)</span></li>
+<li><a href="https://nips.nostr.com/3"><span style="font-weight: 400;">NIP-03</span></a><span style="font-weight: 400;"> (OpenTimestamps)</span></li>
+<li><a href="https://ants.sh/"><span style="font-weight: 400;">ants</span></a><span style="font-weight: 400;"> (Nostr search)</span></li>
+<li><a href="https://github.com/orgs/Routstr"><span style="font-weight: 400;">OTRTA / Routstr</span></a><span style="font-weight: 400;"> (pay for LLM compute with Cashu)</span></li>
+<li><a href="https://damus.io/notedeck/"><span style="font-weight: 400;">Notedeck</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://github.com/damus-io/nostrdb"><span style="font-weight: 400;">nostrdb</span></a></li>
+<li><a href="https://gitworkshop.dev/"><span style="font-weight: 400;">gitworkshop.dev</span></a><span style="font-weight: 400;"> (Nostr-native git collaboration)</span></li>
+<li><a href="https://readwithboris.com/"><span style="font-weight: 400;">Boris</span></a><span style="font-weight: 400;"> (reading and highlighting)</span></li>
+<li><a href="https://github.com/k0sti/spotstr"><span style="font-weight: 400;">Spotstr</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://earthly.city/"><span style="font-weight: 400;">Earthly.city</span></a><span style="font-weight: 400;"> (maps on Nostr)</span></li>
+</ul>
+<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Convincing hzrd to make Blossom more of a protocol</span></li>
+<li><span style="font-weight: 400;">Self-healing links: content addressing like Nostr but for blobs</span></li>
+<li><span style="font-weight: 400;">Blossom pacemaker: a tool that monitors your notes and blobs, rebroadcasts and re-uploads as needed</span></li>
+<li><span style="font-weight: 400;">Local first: local relays, local blossom, local cash, local signers</span></li>
+<li><span style="font-weight: 400;">"I still get shit for the audio quality"</span></li>
+<li><span style="font-weight: 400;">Verschlimmbesserung: the German word for making something worse by trying to improve it</span></li>
+<li><span style="font-weight: 400;">"We should reclaim localhost"</span></li>
+<li><span style="font-weight: 400;">Every Nostr app should work in airplane mode</span></li>
+<li><span style="font-weight: 400;">Citrine roadmap: auto-rebroadcast local events once you're online again</span></li>
+<li><span style="font-weight: 400;">Tollgate v0.2.0: router-to-router payments, released at btc++</span></li>
+<li><span style="font-weight: 400;">"Some people just hate e-cash" -- "Those people can't be helped"</span></li>
+<li><span style="font-weight: 400;">Cashu and CDK: making it easy for devs to use e-cash without managing wallets</span></li>
+<li><span style="font-weight: 400;">Wally: Cashu wallet connect, like NWC but for e-cash, runs local</span></li>
+<li><span style="font-weight: 400;">Install Wally and you're good to go with everything Nostr</span></li>
+<li><span style="font-weight: 400;">Special-purpose components that do one thing well</span></li>
+<li><span style="font-weight: 400;">Zero configuration: if there's a local relay, use it; if there's a local signer, use it</span></li>
+<li><span style="font-weight: 400;">innpub jukebox: zap the jukebox 200 sats to play a song with positional audio</span></li>
+<li><span style="font-weight: 400;">Moving away from subscription hell: attach e-cash to your requests</span></li>
+<li><span style="font-weight: 400;">noDNS deep dive: traditional DNS records published on Nostr instead of Cloudflare</span></li>
+<li><span style="font-weight: 400;">Self-signed TLS certs verified through Nostr identity</span></li>
+<li><span style="font-weight: 400;">The human approach: ask around your group of friends vs the authoritarian approach: one central authority</span></li>
+<li><span style="font-weight: 400;">Pi-hole would be perfectly fine running noDNS</span></li>
+<li><span style="font-weight: 400;">NIP-03 / OpenTimestamps: indisputable proof of profile existence over time</span></li>
+<li><span style="font-weight: 400;">"We went back to basically having mainframes and thin clients"</span></li>
+<li><span style="font-weight: 400;">The vision: everything is a relay, offline or online shouldn't matter</span></li>
+<li><span style="font-weight: 400;">Damus relay wiped multiple times, nobody cared -- that's resilience</span></li>
+<li><span style="font-weight: 400;">Data should accumulate in the right places by your pattern of usage</span></li>
+<li><span style="font-weight: 400;">The Nosterverse: every client is a different lens, there is no global</span></li>
+<li><span style="font-weight: 400;">"Nostr is organic tech"</span></li>
+<li><span style="font-weight: 400;">Vibe coding setup: Roo Code, Claude, code snippets from hzrd and Pablo</span></li>
+<li><span style="font-weight: 400;">"Claude 4.5 is very agreeable -- I could rile it up and start a revolution together"</span></li>
+<li><span style="font-weight: 400;">The dream flow: just speak voice memos into your phone, code updates 20 minutes later</span></li>
+<li><span style="font-weight: 400;">Screenless coding: the underutilized interface</span></li>
+<li><span style="font-weight: 400;">ants search: took npub.world plus nostr.band, crossbred them</span></li>
+<li><span style="font-weight: 400;">"Software evolution is crossbreeding, not merging back into the original repo"</span></li>
+<li><span style="font-weight: 400;">Maps on Nostr: the social part is what makes Google Maps useful, Nostr can provide it</span></li>
+<li><span style="font-weight: 400;">Sovereign Engineering cohort 5: "we really know what we're doing now"</span></li>
+<li><span style="font-weight: 400;">"The future is already here, we just have a lot of building to do"</span></li>
+<li><span style="font-weight: 400;">"If you want to build something, the easiest way right now is Nostr"</span></li>
+<li><span style="font-weight: 400;">We're gonna make torrents great again</span></li>
+</ul>
+<p>&nbsp;</p>]]></description>
+      <enclosure url="https://haven.dergigi.com/7e26d75964d18459d8aebd61532c2119bbf9eff687bceb0477bb0fc93b98c6fa.m4a" length="39328626" type="audio/mpeg"/>
+      <podcast:person href="https://njump.to/npub1aljm5gq3ychx5rrjm5kqmnjsgfwx3mqlkm7v39nu5sq7ergpzc2q60z5fp" img="" group="cast" role="guest">Arjen</podcast:person>
+      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:transcript url="https://haven.dergigi.com/9c8afb1c899ac1473ac5bb95aba651b0e67326f9e01aec5922f3c9f41d3a4c0d.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
+      </podcast:value>
+      <guid isPermaLink="false">f6a0b3c4-9d5e-4f1a-c8e7-4e0d1f3b5c9d</guid>
+      <itunes:subtitle>#17: Organic Tech w/ Arjen</itunes:subtitle>
+      <itunes:duration>4392</itunes:duration>
+      <link>https://njump.to/nevent1qqs9cjjgptr4ugx85mh3l22jk74f9ref3uxcty8pakcg9m4l5hpu8xgezpme0</link>
+      <pubDate>Mon, 31 Mar 2026 15:55:00 +0000</pubDate>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>nostr, development, sovereign engineering, shipping, local-first, dns, internet, conversation, dialog</itunes:keywords>
+    </item>
     <item>
       <title>#16: One Click and Run</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"You have a roaming army of servers."</span></p>
