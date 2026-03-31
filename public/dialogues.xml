@@ -110,12 +110,13 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>
 <p>&nbsp;</p>]]></description>
       <enclosure url="https://haven.dergigi.com/7e26d75964d18459d8aebd61532c2119bbf9eff687bceb0477bb0fc93b98c6fa.m4a" length="39328626" type="audio/mpeg"/>
-      <podcast:person href="https://njump.to/npub1aljm5gq3ychx5rrjm5kqmnjsgfwx3mqlkm7v39nu5sq7ergpzc2q60z5fp" img="" group="cast" role="guest">Arjen</podcast:person>
+      <podcast:person href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr" img="" group="cast" role="guest">Arjen</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.dergigi.com/9c8afb1c899ac1473ac5bb95aba651b0e67326f9e01aec5922f3c9f41d3a4c0d.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
+        <podcast:valueRecipient name="Arjen" type="lnaddress" address="iwillnot@getalby.com" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">40b68fa9-0d3b-430b-b8c2-20d098a40ca1</guid>
       <itunes:subtitle>#17: Organic Tech w/ Arjen</itunes:subtitle>
