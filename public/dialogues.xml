@@ -117,6 +117,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Arjen" type="lnaddress" address="iwillnot@getalby.com" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq8nzdeddaexwctwd93j6ar9vd5qygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rsqhrp4p">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">40b68fa9-0d3b-430b-b8c2-20d098a40ca1</guid>
       <itunes:subtitle>#17: Organic Tech w/ Arjen</itunes:subtitle>
       <itunes:duration>4392</itunes:duration>
@@ -179,6 +180,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Sovereign Engineering" type="lnaddress" address="soveng@coinos.io" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq2rzd3ddahx2ttrd35kx6edv9hxgttjw4hqygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rskn4cew">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">70586a3f-6aa2-4d0a-a64f-82b51305c571</guid>
       <itunes:subtitle>#16: One Click and Run w/ SEC-05</itunes:subtitle>
       <itunes:duration>575</itunes:duration>
@@ -241,6 +243,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Sovereign Engineering" type="lnaddress" address="soveng@coinos.io" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqwnzdfdd4skkefdd3hkxctvdphhxapdvaex2ct594skwctfdcpzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqvzqqqr4gu56ljaw">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">8d5e0f83-e204-489f-808b-ae33531c4b29</guid>
       <itunes:subtitle>#15: Make Localhost Great Again w/ SEC-05</itunes:subtitle>
       <itunes:duration>900</itunes:duration>
@@ -325,6 +328,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq2rzdpdvf6kjmryd9hxwttzwfhhwum9wfesygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rsknn40s">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">fd60490d-4dc8-4b88-8dac-86d1eb88333a</guid>
       <itunes:subtitle>#14: Building Browsers w/ Justin</itunes:subtitle>
       <itunes:duration>1347</itunes:duration>
@@ -457,6 +461,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Hzrd" type="lnaddress" address="hzrd1499@minibits.cash" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqwrzvedw35x2ttvd9h827pddanz6um0vd5kzmpdd4jkg6tpqgsfhhjzzjgl86k34ssm68gpvea2h9rlfswy4mv8vfx0yfemqm9q22crqsqqqa28648qpt">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">06082b2d-58ce-4100-a363-af79c5109871</guid>
       <itunes:subtitle>#13: The Linux of Social Media w/ hzrd149</itunes:subtitle>
       <itunes:duration>5150</itunes:duration>
@@ -676,6 +681,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pete" type="lnaddress" address="pw@primal.net" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqwrzv3dw35x2tthd9hxg7fdd3shwmnddamk2u3dwd682enxqgsfhhjzzjgl86k34ssm68gpvea2h9rlfswy4mv8vfx0yfemqm9q22crqsqqqa28qsfnr7">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">f9b3fc29-a5c5-4c50-b0d0-2f18d6ab66d3</guid>
       <itunes:subtitle>#12: The Windy Lawnmower Stuff w/ Pete</itunes:subtitle>
       <itunes:duration>5798</itunes:duration>
@@ -870,6 +876,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqtrzvfdxyc8sttvv4ehxttswfhkgatrw35hvegzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkqcyqqq823c0hkrsk">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">a88dafec-bab2-43e6-96f3-c5ac26c12822</guid>
       <itunes:subtitle>#11: 10x Less Productive w/ Pablo</itunes:subtitle>
       <itunes:duration>5953</itunes:duration>
@@ -2085,6 +2092,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqvnqd3d235x2t2hd9hxgueddanz6s2f94jnye3kve4sygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rsdpwqft">Show Notes</podcast:contentLink>
       <guid isPermaLink="false">732a61fd-bd8e-4618-a2fb-42f3014e6b23</guid>
       <itunes:subtitle>#06: The Winds of AI w/ Pablo</itunes:subtitle>
       <itunes:duration>5955</itunes:duration>

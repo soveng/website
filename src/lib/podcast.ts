@@ -18,6 +18,7 @@ export interface Episode {
   subtitle: string;
   descriptionHtml: string;
   transcriptUrl: string;
+  showNotesUrl: string;
 }
 
 function toSlug(title: string): string {
@@ -114,6 +115,7 @@ function parseItems(xml: string): Episode[] {
       subtitle,
       descriptionHtml: cleanDescriptionHtml(descRaw).replace(/njump\.me/g, 'njump.to'),
       transcriptUrl: getAttr('podcast:transcript', 'url'),
+      showNotesUrl: getAttr('podcast:contentLink', 'href'),
     });
   }
 

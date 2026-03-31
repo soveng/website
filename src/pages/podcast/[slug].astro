@@ -96,6 +96,16 @@ const metaDescription = ep.subtitle || `Listen to ${ep.title} from the No Soluti
               >
                 Nostr
               </a>
+              {ep.showNotesUrl && (
+                <a
+                  href={ep.showNotesUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="btn-retro btn-retro-sm"
+                >
+                  Show Notes
+                </a>
+              )}
               {ep.transcriptUrl && (
                 <a
                   href={ep.transcriptUrl}
