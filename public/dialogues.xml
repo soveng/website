@@ -37,11 +37,71 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Sovereign Feeds</managingEditor>
-    <pubDate>Mon, 31 Mar 2026 11:52:00 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2026 11:52:00 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2026 13:37:00 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2026 13:37:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>#16: One Click and Run</title>
+      <description><![CDATA[<p><span style="font-weight: 400;">"You have a roaming army of servers."</span></p>
+<p><span style="font-weight: 400;">The crew continues on the pirate boat. Recorded October 2025.</span></p>
+<p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
+<ul>
+<li><a href="https://sovereignengineering.io/projects"><span style="font-weight: 400;">Paygress</span></a><span style="font-weight: 400;"> (VM provisioning over Nostr)</span></li>
+<li><a href="https://err402.com/"><span style="font-weight: 400;">Error 402</span></a><span style="font-weight: 400;"> (HTTP payment required)</span></li>
+<li><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a></li>
+<li><a href="https://pyramid.fiatjaf.com/"><span style="font-weight: 400;">Pyramid Relay</span></a></li>
+<li><a href="https://castr.me"><span style="font-weight: 400;">castr.me</span></a></li>
+<li><span style="font-weight: 400;">PM Tiles (offline maps)</span></li>
+</ul>
+<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<ul>
+<li><span style="font-weight: 400;">The dream: press record, press save, everything auto-publishes to Nostr</span></li>
+<li><span style="font-weight: 400;">Zero post-processing, zero editing</span></li>
+<li><span style="font-weight: 400;">Error 402: endpoints that can be paid over the protocol level</span></li>
+<li><span style="font-weight: 400;">nginx 402 module: it takes lightning, it takes e-cash</span></li>
+<li><span style="font-weight: 400;">Paygress: buy a VPS just knowing an npub</span></li>
+<li><span style="font-weight: 400;">Get an IP address, a Docker container, SSH access, and a VPN</span></li>
+<li><span style="font-weight: 400;">"You have a roaming army of servers"</span></li>
+<li><span style="font-weight: 400;">Self-healing infrastructure: move your servers around like Blossom relays</span></li>
+<li><span style="font-weight: 400;">"Who will run the mints?" -- hide them behind Paygress, move them around</span></li>
+<li><span style="font-weight: 400;">We're still underutilizing payment required</span></li>
+<li><span style="font-weight: 400;">Paid relays, but also: attach e-cash when you want reliability</span></li>
+<li><span style="font-weight: 400;">Free but unreliable vs paid and reliable</span></li>
+<li><span style="font-weight: 400;">First Bitcoin client was an executable on Windows because Satoshi wanted it easy to start</span></li>
+<li><a href="https://github.com/CodyTseng/nostr-relay-tray"><span style="font-weight: 400;">nostr-relay-tray</span></a><span style="font-weight: 400;">: one of the easiest ways to run a local relay</span></li>
+<li><span style="font-weight: 400;">"We need to dockerize everything and make it really easy to run"</span></li>
+<li><span style="font-weight: 400;">Sane defaults, one click and run</span></li>
+<li><span style="font-weight: 400;">uTorrent: you just clicked it and it worked</span></li>
+<li><span style="font-weight: 400;">Enough weird people on Nostr willing to run mints, blossom servers, relays</span></li>
+<li><span style="font-weight: 400;">"It's still too hard to set up"</span></li>
+<li><span style="font-weight: 400;">The bar is higher now: demos improved thanks to vibe coding</span></li>
+<li><span style="font-weight: 400;">Vibe coding is more art than science</span></li>
+<li><span style="font-weight: 400;">"The more you do it, the more you learn"</span></li>
+<li><span style="font-weight: 400;">Maps and location data on Nostr</span></li>
+<li><span style="font-weight: 400;">Almost every data has some kind of location</span></li>
+<li><span style="font-weight: 400;">PM Tiles: offline maps you can download and use</span></li>
+<li><span style="font-weight: 400;">Local relay as the universal cache: don't build your own, just use a relay</span></li>
+<li><span style="font-weight: 400;">48 hours left in the cohort, more demos to come</span></li>
+</ul>
+<p>&nbsp;</p>]]></description>
+      <enclosure url="https://haven.dergigi.com/90cc86cea9b5d00eced2c171ca5c405c34bb5e4e0a22eba2486b036c06ca8b66.m4a" length="5156804" type="audio/mpeg"/>
+      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
+      </podcast:value>
+      <guid isPermaLink="false">e5f9a2b3-8c4d-4e0f-b7d3-3d9c0f2e4a8b</guid>
+      <itunes:subtitle>#16: One Click and Run</itunes:subtitle>
+      <itunes:duration>575</itunes:duration>
+      <link>https://njump.to/nevent1qqsqmwa4ap25jfhfp34hmql6nf8pg20zf0kddrayqmsh9xu5wn62ufcgl5sfx</link>
+      <pubDate>Mon, 31 Mar 2026 13:37:00 +0000</pubDate>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>nostr, development, sovereign engineering, shipping, servers, payments, internet, conversation, dialog</itunes:keywords>
+    </item>
     <item>
       <title>#15: Make Localhost Great Again</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"127.0.0.1 -- that's the only IP address we're gonna need."</span></p>
