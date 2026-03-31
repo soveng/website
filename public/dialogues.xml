@@ -88,6 +88,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></description>
       <enclosure url="https://haven.dergigi.com/90cc86cea9b5d00eced2c171ca5c405c34bb5e4e0a22eba2486b036c06ca8b66.m4a" length="5156804" type="audio/mpeg"/>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:transcript url="https://haven.dergigi.com/dd6bef5b9fefeb3a3c5530115860ea0f3e406077050f1c6aff1975b619095e71.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
