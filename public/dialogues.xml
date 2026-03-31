@@ -37,11 +37,95 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Sovereign Feeds</managingEditor>
-    <pubDate>Fri, 24 Oct 2025 21:17:20 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Oct 2025 21:17:20 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Mar 2026 08:10:00 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Mar 2026 08:10:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>#14: Building Browsers</title>
+      <description><![CDATA[<p><span style="font-weight: 400;">"I want Nostr to be the perfect thing just for me."</span></p>
+<p><a href="https://njump.me/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> drive to the airport.</span></p>
+<p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
+<ul>
+<li><a href="https://github.com/DioxusLabs/blitz"><span style="font-weight: 400;">Blitz</span></a><span style="font-weight: 400;"> (Rust HTML/CSS renderer)</span></li>
+<li><a href="https://bellard.org/quickjs/"><span style="font-weight: 400;">QuickJS</span></a><span style="font-weight: 400;"> (lightweight JavaScript engine)</span></li>
+<li><a href="https://dioxuslabs.com/"><span style="font-weight: 400;">Dioxus</span></a><span style="font-weight: 400;"> (Rust UI framework)</span></li>
+<li><a href="https://github.com/n0-computer/iroh"><span style="font-weight: 400;">Iroh</span></a><span style="font-weight: 400;"> (peer-to-peer networking)</span></li>
+<li><a href="https://datatracker.ietf.org/wg/moq/about/"><span style="font-weight: 400;">MOQ</span></a><span style="font-weight: 400;"> (Media Over QUIC)</span></li>
+<li><a href="https://www.whitenoise.chat/"><span style="font-weight: 400;">White Noise</span></a><span style="font-weight: 400;"> (MLS-based private messaging on Nostr)</span></li>
+<li><a href="https://ladybird.org/"><span style="font-weight: 400;">Ladybird</span></a><span style="font-weight: 400;"> (independent browser by Andreas Kling)</span></li>
+<li><a href="https://hello.vrchat.com/"><span style="font-weight: 400;">VRChat</span></a></li>
+</ul>
+<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<ul>
+<li><span style="font-weight: 400;">Driving to the airport</span></li>
+<li><span style="font-weight: 400;">"Don't say anything that could be used against you"</span></li>
+<li><span style="font-weight: 400;">The low quality of this podcast focuses the mind of the listener</span></li>
+<li><span style="font-weight: 400;">You need proper headphones</span></li>
+<li><span style="font-weight: 400;">Walking focuses you, and stops you after 90 minutes</span></li>
+<li><span style="font-weight: 400;">Justin's adoption curve: hater first, builder later</span></li>
+<li><span style="font-weight: 400;">"I'm the ascending left curve"</span></li>
+<li><span style="font-weight: 400;">Bitcoin hating, Lightning hating, Nostr hating</span></li>
+<li><span style="font-weight: 400;">Audio calling with npubs: Nostr as signaling &amp; identity layer</span></li>
+<li><span style="font-weight: 400;">First version: </span><a href="https://github.com/n0-computer/iroh"><span style="font-weight: 400;">Iroh</span></a><span style="font-weight: 400;"> for peer-to-peer, Nostr for lookup</span></li>
+<li><span style="font-weight: 400;">Calling Paul Miller's npub from a CLI</span></li>
+<li><a href="https://inpub.brcsl.app"><span style="font-weight: 400;">inpub</span></a><span style="font-weight: 400;">: a 2D pixel art level with rooms you can hang out in</span></li>
+<li><span style="font-weight: 400;">The killer feature of positional audio</span></li>
+<li><a href="https://hello.vrchat.com/"><span style="font-weight: 400;">VRChat</span></a><span style="font-weight: 400;"> Bitcoin meetups during COVID, thanks to Udi</span></li>
+<li><span style="font-weight: 400;">Twitter Spaces, Clubhouse, and why one big room encourages attention seeking</span></li>
+<li><span style="font-weight: 400;">Positional audio lets you hide in a corner</span></li>
+<li><a href="https://webrtc.org/"><span style="font-weight: 400;">WebRTC</span></a><span style="font-weight: 400;"> is Google Meet shipped as a "web standard"</span></li>
+<li><span style="font-weight: 400;">Safari and Firefox just shipped Google's code</span></li>
+<li><a href="https://datatracker.ietf.org/wg/moq/about/"><span style="font-weight: 400;">MOQ</span></a><span style="font-weight: 400;"> (Media Over QUIC) as the simple alternative</span></li>
+<li><span style="font-weight: 400;">CDN-style mesh relays for binary data</span></li>
+<li><span style="font-weight: 400;">What if MOQ relays were Nostr-style, and you'd pay to relay?</span></li>
+<li><span style="font-weight: 400;">E2E encrypted group audio in the browser using </span><a href="https://www.whitenoise.chat/"><span style="font-weight: 400;">White Noise</span></a><span style="font-weight: 400;"> / MLS compiled to WASM</span></li>
+<li><span style="font-weight: 400;">"Let's make Nostr fast"</span></li>
+<li><span style="font-weight: 400;">The web is dying: Chrome blocked ad blockers and Justin just stopped visiting websites</span></li>
+<li><span style="font-weight: 400;">No SQLite in the browser, no TypeScript in the browser</span></li>
+<li><span style="font-weight: 400;">Why do I need a domain name? Why certificate authorities?</span></li>
+<li><span style="font-weight: 400;">Building a browser in 3 days</span></li>
+<li><a href="https://github.com/DioxusLabs/blitz"><span style="font-weight: 400;">Blitz</span></a><span style="font-weight: 400;"> + </span><a href="https://bellard.org/quickjs/"><span style="font-weight: 400;">QuickJS</span></a><span style="font-weight: 400;"> = a browser that runs a React counter app</span></li>
+<li><span style="font-weight: 400;">"This would have taken me months"</span></li>
+<li><a href="https://www.youtube.com/@awesomekling"><span style="font-weight: 400;">Andreas Kling</span></a><span style="font-weight: 400;">: built a browser as part of a 12-step program</span></li>
+<li><a href="https://ladybird.org/"><span style="font-weight: 400;">Ladybird</span></a><span style="font-weight: 400;"> proving that you can build a browser from scratch</span></li>
+<li><span style="font-weight: 400;">Vibe coding: 20-30 projects in six weeks</span></li>
+<li><span style="font-weight: 400;">Nerd-sniped into implementing Mosaic in Zig, then dropping it in two days</span></li>
+<li><span style="font-weight: 400;">What Nostr got right: "good enough"</span></li>
+<li><span style="font-weight: 400;">Binary transport for Nostr relays</span></li>
+<li><span style="font-weight: 400;">Getting rid of DNS: a theme every week at SovEng</span></li>
+<li><span style="font-weight: 400;">Claiming names via Nostr events, no .com needed</span></li>
+<li><span style="font-weight: 400;">Web of trust for conflict resolution</span></li>
+<li><span style="font-weight: 400;">Self-signed TLS certs trusted through Nostr identity</span></li>
+<li><span style="font-weight: 400;">Social handles already replaced URLs in practice</span></li>
+<li><span style="font-weight: 400;">"Build for the nerds, not the mass market"</span></li>
+<li><span style="font-weight: 400;">"I want Nostr to be the perfect thing just for me"</span></li>
+<li><span style="font-weight: 400;">Building blocks crystallizing: mesh networking, noDNS, better relays, search</span></li>
+<li><span style="font-weight: 400;">Relays in the browser</span></li>
+<li><span style="font-weight: 400;">The synergistic ecosystem</span></li>
+<li><span style="font-weight: 400;">"You're gonna miss your flight"</span></li>
+</ul>
+<p>&nbsp;</p>]]></description>
+      <enclosure url="https://haven.dergigi.com/4ab19ca3d197abfe6fa5bb870f0a730ea054ef6c5b9bdbe6fa27e12b6dc52e40.m4a" length="22154846" type="audio/mpeg"/>
+      <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Justin</podcast:person>
+      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:transcript url="https://haven.dergigi.com/e5c2b3d3429d87b3cd86652b10470ce17f80f4f667acf2733688f7287b977694.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
+        <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
+      </podcast:value>
+      <guid isPermaLink="false">b3f7a2c1-9e4d-4f8a-b6c2-1d5e8f3a7b9c</guid>
+      <itunes:subtitle>#14: Building Browsers</itunes:subtitle>
+      <itunes:duration>1347</itunes:duration>
+      <link>https://njump.me/nevent1qqsywrx2z0qgz7z07rzuw6ppdxgnwgrlp5aaxn45drhykkcm5cye0pqvcl4ys</link>
+      <pubDate>Mon, 31 Mar 2026 08:10:00 +0000</pubDate>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>No</itunes:explicit>
+      <itunes:keywords>nostr, development, sovereign engineering, shipping, browsers, web, internet, conversation, dialog</itunes:keywords>
+    </item>
     <item>
       <title>#13: The Linux of Social Media</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"The identity should be outside of the computer."</span></p>
