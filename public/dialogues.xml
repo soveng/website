@@ -130,7 +130,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <itunes:keywords>nostr, development, sovereign engineering, shipping, local-first, dns, internet, conversation, dialog</itunes:keywords>
     </item>
     <item>
-      <title>#16: One Click and Run</title>
+      <title>#16: One Click and Run w/ SEC-05</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"You have a roaming army of servers."</span></p>
 <p><span style="font-weight: 400;">The crew continues on the pirate boat. Recorded October 2025.</span></p>
 <p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
@@ -181,7 +181,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">e5f9a2b3-8c4d-4e0f-b7d3-3d9c0f2e4a8b</guid>
-      <itunes:subtitle>#16: One Click and Run</itunes:subtitle>
+      <itunes:subtitle>#16: One Click and Run w/ SEC-05</itunes:subtitle>
       <itunes:duration>575</itunes:duration>
       <link>https://njump.to/nevent1qqsqmwa4ap25jfhfp34hmql6nf8pg20zf0kddrayqmsh9xu5wn62ufcgl5sfx</link>
       <pubDate>Mon, 31 Mar 2026 13:37:00 +0000</pubDate>
@@ -191,7 +191,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <itunes:keywords>nostr, development, sovereign engineering, shipping, servers, payments, internet, conversation, dialog</itunes:keywords>
     </item>
     <item>
-      <title>#15: Make Localhost Great Again</title>
+      <title>#15: Make Localhost Great Again w/ SEC-05</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"127.0.0.1 -- that's the only IP address we're gonna need."</span></p>
 <p><span style="font-weight: 400;">The crew passes the mic around on a pirate boat. Recorded October 2025.</span></p>
 <p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
@@ -242,7 +242,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">d4e8f1a2-7b3c-4d9e-a5f6-2c8b9e1d3f7a</guid>
-      <itunes:subtitle>#15: Make Localhost Great Again</itunes:subtitle>
+      <itunes:subtitle>#15: Make Localhost Great Again w/ SEC-05</itunes:subtitle>
       <itunes:duration>900</itunes:duration>
       <link>https://njump.to/nevent1qqs0n4a25x8yn4068hw27f4zy2yedf2xlqgtr9q5sa0t05qzth37r7c8sdwtp</link>
       <pubDate>Mon, 31 Mar 2026 11:52:00 +0000</pubDate>
@@ -252,7 +252,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <itunes:keywords>nostr, development, sovereign engineering, shipping, dns, localhost, internet, conversation, dialog</itunes:keywords>
     </item>
     <item>
-      <title>#14: Building Browsers</title>
+      <title>#14: Building Browsers w/ Justin</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"I want Nostr to be the perfect thing just for me."</span></p>
 <p><a href="https://njump.me/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> drive to the airport. Recorded October 2025.</span></p>
 <p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
@@ -326,7 +326,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">b3f7a2c1-9e4d-4f8a-b6c2-1d5e8f3a7b9c</guid>
-      <itunes:subtitle>#14: Building Browsers</itunes:subtitle>
+      <itunes:subtitle>#14: Building Browsers w/ Justin</itunes:subtitle>
       <itunes:duration>1347</itunes:duration>
       <link>https://njump.me/nevent1qqsywrx2z0qgz7z07rzuw6ppdxgnwgrlp5aaxn45drhykkcm5cye0pqvcl4ys</link>
       <pubDate>Mon, 31 Mar 2026 08:10:00 +0000</pubDate>
@@ -336,7 +336,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <itunes:keywords>nostr, development, sovereign engineering, shipping, browsers, web, internet, conversation, dialog</itunes:keywords>
     </item>
     <item>
-      <title>#13: The Linux of Social Media</title>
+      <title>#13: The Linux of Social Media w/ hzrd149</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"The identity should be outside of the computer."</span></p>
 <p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
 <p><span style="font-weight: 400;">Libraries &amp; apps mentioned:</span></p>
@@ -459,7 +459,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Hzrd" type="lnaddress" address="hzrd1499@minibits.cash" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">06082b2d-58ce-4100-a363-af79c5109871</guid>
-      <itunes:subtitle>#13: The Linux of Social Media</itunes:subtitle>
+      <itunes:subtitle>#13: The Linux of Social Media w/ hzrd149</itunes:subtitle>
       <itunes:duration>5150</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqqsqavtcdas03svjy60tfwquanz8xd6lh7p0257y46tdrcjcunndr2qgunjfe</link>
       <pubDate>Fri, 24 Oct 2025 21:14:39 +0000</pubDate>
@@ -580,7 +580,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
-      <title>#12: The Windy Lawnmower Stuff</title>
+      <title>#12: The Windy Lawnmower Stuff w/ Pete</title>
       <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
 <p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> and </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
@@ -679,7 +679,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Pete" type="lnaddress" address="pw@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">f9b3fc29-a5c5-4c50-b0d0-2f18d6ab66d3</guid>
-      <itunes:subtitle>#12: The Windy Lawnmower Stuff</itunes:subtitle>
+      <itunes:subtitle>#12: The Windy Lawnmower Stuff w/ Pete</itunes:subtitle>
       <itunes:duration>5798</itunes:duration>
       <link>https://njump.me/nevent1qqs2dh6025kja8y0l3rscjq3f4v8vcmw5e9w8va03rc696qn96jw4ngzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkwes805</link>
       <pubDate>Fri, 24 Oct 2025 19:49:52 +0000</pubDate>
@@ -776,7 +776,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
-      <title>#11: 10x Less Productive</title>
+      <title>#11: 10x Less Productive w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
 <p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
@@ -874,7 +874,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">a88dafec-bab2-43e6-96f3-c5ac26c12822</guid>
-      <itunes:subtitle>#11: 10x Less Productive</itunes:subtitle>
+      <itunes:subtitle>#11: 10x Less Productive w/ Pablo</itunes:subtitle>
       <itunes:duration>5953</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqswyqle9fs9mg93p3kqg7uhz5kwsp8mnup7uch8r7kcnv9tjrdudagp50y35</link>
       <pubDate>Fri, 21 Jun 2025 19:42:06 +0000</pubDate>
@@ -971,7 +971,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
-      <title>#10 - Walking with Jesus</title>
+      <title>#10: Walking with Jesus w/ gzuuus</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"It's gonna be permissionless or hell."</span></p>
 <p><a href="https://npub.world/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> and </span><a href="https://npub.world/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds"><span style="font-weight: 400;">gzuuus</span></a><span style="font-weight: 400;"> are vibing towards dystopia.</span></p>
 <p>&nbsp;</p>
@@ -1085,7 +1085,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gzuuus" type="lnaddress" address="nostrkid@coinos.io" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">10e17f5a-826b-4892-803d-089012bd16f7</guid>
-      <itunes:subtitle>#10 - Walking with Jesus</itunes:subtitle>
+      <itunes:subtitle>#10: Walking with Jesus w/ gzuuus</itunes:subtitle>
       <itunes:duration>5772</itunes:duration>
       <link>https://njump.me/nevent1qqsw5epa7rac25et6t7vcnp3q0ht8cjccps4hkx3tnxhfrhp382lf5gpz3mhxue69uhhyetvv9ujuerpd46hxtnfduqs7amnwvaz7tmwdaehgu3wd4hk6q3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sp9s3vf</link>
       <pubDate>Tue, 22 Apr 2025 18:05:02 +0000</pubDate>
@@ -1197,7 +1197,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
-      <title>#09 - No Strudelutions</title>
+      <title>#09: No Strudelutions w/ hzrd149</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"It isn&rsquo;t obvious that the world had to work this way. But somehow the universe smiles on encryption."</span></p>
 <p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> take a stroll along the shore of cryptographic identities.</span></p>
 <p><span style="font-weight: 400;">This dialogue explores how cryptographic signatures fundamentally shift power dynamics in social networks, moving control from servers to key holders. We discuss the concept of "setting data free" through cryptographic verification, the evolving role of relays in the ecosystem, and the challenges of building trust in decentralized systems. We examine the tension between convenience and decentralization, particularly around features like private data and data synchronization. What are the philosophical foundations of building truly decentralized social networks? And how can small architectural decisions have profound implications for user autonomy and data sovereignty?</span></p>
@@ -1307,7 +1307,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="hzrd149" type="lnaddress" address="hzrd1499@minibits.cash" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">f1987107-22ff-4572-8dca-af4c9a8ce549</guid>
-      <itunes:subtitle>#09 - No Strudelutions</itunes:subtitle>
+      <itunes:subtitle>#09: No Strudelutions w/ hzrd149</itunes:subtitle>
       <itunes:duration>6905</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqs807qeg24nhkjq6s2pjfeua23praq35cquqnhguxw9vfuqcc2ctrsau3uaz</link>
       <pubDate>Fri, 18 Apr 2025 16:04:11 +0000</pubDate>
@@ -1415,7 +1415,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p><br /><br /></p>]]></itunes:summary>
     </item>
     <item>
-      <title>#08 - Navigating the Vibe</title>
+      <title>#08: Navigating the Vibe w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"With the shift towards this multi-agent collaboration and orchestration world, you need a neutral substrate that has money, identity, cryptography, and web-of-trust&nbsp; baked in, to make everything work."</span></p>
 <p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> are getting high on <span style="text-decoration: line-through;">glue</span> nostr.</span></p>
 <p>&nbsp;</p>
@@ -1539,7 +1539,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">51b918d9-dc3c-4bb9-87f1-60f674f5f5eb</guid>
-      <itunes:subtitle>#08 - Navigating the Vibe</itunes:subtitle>
+      <itunes:subtitle>#08: Navigating the Vibe w/ Pablo</itunes:subtitle>
       <itunes:duration>5728</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsdpepvgml06dcsfuuy0x0jhka9jtwpvqrh5ue6qxmtva2xje7n9aqs5852f</link>
       <pubDate>Wed, 04 Apr 2025 10:21:21 +0000</pubDate>
@@ -1661,7 +1661,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p><br /><br /></p>]]></itunes:summary>
     </item>
     <item>
-      <title>#07 - Zig Multiplatform</title>
+      <title>#07: Zig Multiplatform w/ Justin</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;The age of the idea guys has begun.&rdquo;</span></p>
 <p><a href="https://njump.me/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp;</span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> vibe about Zig.</span></p>
 <p><span style="font-weight: 400;">Articles mentioned:</span></p>
@@ -1818,7 +1818,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">7469e24d-3bde-4554-9b53-9f6bb27d9b52</guid>
-      <itunes:subtitle>#07 - Zig Multiplatform</itunes:subtitle>
+      <itunes:subtitle>#07: Zig Multiplatform w/ Justin</itunes:subtitle>
       <itunes:duration>10003</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqs277h3vlkd8720wxkqmxf6lx8v0n0nuj07p59a3lf5tu9l8jha82seg4jef</link>
       <pubDate>Fri, 28 Mar 2025 23:07:55 +0000</pubDate>
@@ -1973,7 +1973,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
-      <title>#06 - The Winds of AI</title>
+      <title>#06: The Winds of AI w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;The human spirit should remain in charge.&rdquo;</span></p>
 <p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> talk about the wind.</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
@@ -2094,7 +2094,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">732a61fd-bd8e-4618-a2fb-42f3014e6b23</guid>
-      <itunes:subtitle>#06 - The Winds of AI</itunes:subtitle>
+      <itunes:subtitle>#06: The Winds of AI w/ Pablo</itunes:subtitle>
       <itunes:duration>5955</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqszlf337y0lkg4sz5ax9ath4y5vk6rpqn9tfewaln2989zavvqrg4cpt2krs</link>
       <pubDate>Thu, 27 Mar 2025 17:23:24 +0000</pubDate>
@@ -2213,7 +2213,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>]]></itunes:summary>
     </item>
     <item>
-      <title><![CDATA[#05 - Prompt & Pray]]></title>
+      <title><![CDATA[#05: Prompt & Pray w/ Paul]]></title>
       <description><![CDATA[<p><span style="font-weight: 400;">"What should the next iteration of the internet look like?"&nbsp;</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
@@ -2311,7 +2311,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Paul" type="lnaddress" address="futurepaul@primal.net" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">35ccd902-2bf8-4e61-8212-e7a770a9faa4</guid>
-      <itunes:subtitle><![CDATA[#05 - Prompt & Pray]]></itunes:subtitle>
+      <itunes:subtitle><![CDATA[#05: Prompt & Pray w/ Paul]]></itunes:subtitle>
       <itunes:duration>6498</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsfcc4s4duhjfv6kv5dnp32qf5eud3p05ljc4kyvdwjgv8ldqctd7q8h0pj5</link>
       <pubDate>Tue, 18 Mar 2025 15:23:09 +0000</pubDate>
@@ -2408,7 +2408,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>]]></itunes:summary>
     </item>
     <item>
-      <title>#04 - Ecash Fixes 402</title>
+      <title>#04: Ecash Fixes 402 w/ Calle</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;I don&rsquo;t believe in Utopia anymore. I&rsquo;m too old for that.&rdquo;</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
@@ -2477,7 +2477,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Calle" type="lnaddress" address="calle@npub.cash" split="100"/>
       </podcast:value>
       <guid isPermaLink="false">099bb458-3a70-4f38-b178-dbaa883e9256</guid>
-      <itunes:subtitle>#04 - Ecash Fixes 402</itunes:subtitle>
+      <itunes:subtitle>#04: Ecash Fixes 402 w/ Calle</itunes:subtitle>
       <itunes:duration>5842</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsyrnlzpnfedcznf3elhucax6dpjffhm85uw6yee0y4e4arhs3p2wqskdwhx</link>
       <pubDate>Thu, 13 Mar 2025 21:21:21 +0000</pubDate>
@@ -2545,7 +2545,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>]]></itunes:summary>
     </item>
     <item>
-      <title>#03 - Data Ownership is a Lie</title>
+      <title>#03: Data Ownership is a Lie w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;You&rsquo;ll get all that for free if you build it right&rdquo;</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
@@ -2607,7 +2607,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">61015ff9-beb2-448d-84a1-cc1db2e8e70c</guid>
-      <itunes:subtitle>#03 - Data Ownership is a Lie</itunes:subtitle>
+      <itunes:subtitle>#03: Data Ownership is a Lie w/ Pablo</itunes:subtitle>
       <itunes:duration>5412</itunes:duration>
       <link>https://njump.me/nevent1qqsv9qtr2afluu7wea4qnd8syucaecudwysws4h6vdn3up7mm7wnayszyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkdtwwk6</link>
       <pubDate>Sun, 23 Feb 2025 18:39:32 +0000</pubDate>
@@ -2668,7 +2668,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
-      <title>#02 - There is No Global</title>
+      <title>#02: There is No Global w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;We do not have the answers."</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
@@ -2727,7 +2727,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">4222eeb9-a217-487d-8fa5-a9d7e4489691</guid>
-      <itunes:subtitle>#02 - There is No Global</itunes:subtitle>
+      <itunes:subtitle>#02: There is No Global w/ Pablo</itunes:subtitle>
       <itunes:duration>4524</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsgkx392393mpne6kepe03jvsk3rpq7pcnuxmggjyxhdwp4x3qrc0casaqag</link>
       <pubDate>Sat, 15 Feb 2025 19:08:23 +0000</pubDate>
@@ -2785,7 +2785,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <p><br /><br /></p>]]></itunes:summary>
     </item>
     <item>
-      <title>#01 - Start Ugly</title>
+      <title>#01: Start Ugly w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;We have the chance of building the next iteration of the internet, and hopefully, not repeat the mistakes of the past."</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
@@ -2830,7 +2830,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">cecd9520-2fc8-4d45-9161-34d58e563e0f</guid>
-      <itunes:subtitle>#01 - Start Ugly</itunes:subtitle>
+      <itunes:subtitle>#01: Start Ugly w/ Pablo</itunes:subtitle>
       <itunes:duration>2798</itunes:duration>
       <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsq92p3qgyjnqn9rm7k87fdaq4aqqhwpdteuaam2q0s7dqjsf9lpgq27jj59</link>
       <pubDate>Sun, 09 Feb 2025 09:53:46 +0000</pubDate>
@@ -2874,7 +2874,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 </ul>]]></itunes:summary>
     </item>
     <item>
-      <title>#00 - Test Recording / Teaser</title>
+      <title>#00: Test Recording / Teaser w/ Pablo</title>
       <description><![CDATA[<p>A teaser.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/5c534684d544b519bbb09cc126ac0095f093949498091ca818a55baee26e0e44.png"/>
       <enclosure url="https://haven.sovereignengineering.io/d8b969dcdd4e956b581ac66933076b1a9080d219aeddf03110c768bec43e842f.ogg" length="1649225" type="audio/mpeg"/>
@@ -2886,7 +2886,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Sovereign Feeds" address="035ad2c954e264004986da2d9499e1732e5175e1dcef2453c921c6cdcc3536e9d8" type="node" fee="true" split="1"/>
       </podcast:value>
       <guid isPermaLink="false">424cb8ef-a99a-4a0b-b7ce-02b960283814</guid>
-      <itunes:subtitle>#00 - Test Recording / Teaser</itunes:subtitle>
+      <itunes:subtitle>#00: Test Recording / Teaser w/ Pablo</itunes:subtitle>
       <itunes:duration>229</itunes:duration>
       <link>https://njump.me/nevent1qqs8h87t6xu22nsxlu5pa6jfztlfchsvm894h8qt2w5kadrvjs7j6fgzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkdw4nl9</link>
       <pubDate>Fri, 07 Feb 2025 10:00:00 +0000</pubDate>
