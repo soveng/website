@@ -34,11 +34,77 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
-    <pubDate>Tue, 01 Apr 2026 16:22:00 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Apr 2026 16:22:00 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2026 19:52:00 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2026 19:52:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>19: Romantically Shitting on Paywalls w/ Pablo</title>
+      <description><![CDATA[<p>"I need to build something to test the thing."</p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk. Recorded December 2025.</p>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://github.com/pablof7z/tenex">TENEX</a> (multi-agent coordination on Nostr)</li>
+<li><a href="https://agorawlc.com/">Agora</a> (Nostr client for local communities, by Pablo &amp; Leopoldo Lopez)</li>
+<li><a href="https://github.com/nostr-dev-kit/ndk">NDK Swift &amp; NDK Kotlin</a> (native ports of NDK)</li>
+<li><a href="https://github.com/damus-io/nostrdb">nostrdb</a> (embedded Nostr database)</li>
+<li><a href="https://nips.nostr.com/60">NIP-60</a> (Cashu wallets on Nostr)</li>
+<li><a href="https://podcastindex.org/">Podcasting 2.0</a> (open podcast ecosystem)</li>
+<li><a href="https://nostrudel.ninja/t/demu">#DeMu</a> (decentralized music on Nostr)</li>
+<li><a href="https://olas.app/">Olas</a> (rebuilt with TENEX agents)</li>
+<li><a href="https://castr.me">castr.me</a> (Nostr-to-RSS podcast feed)</li>
+<li><a href="https://ants.sh/">ants</a> (Nostr search)</li>
+<li><a href="https://readwithboris.com/">Boris</a> (reading and highlighting)</li>
+<li><a href="https://kk.org/thetechnium/1000-true-fans/">Kevin Kelly's 1,000 True Fans</a></li>
+</ul>
+<p>In this dialogue:</p>
+<ul>
+<li>Agents tried to fix world hunger: made a Google Doc and a React app, nothing worked, world hunger still not fixed</li>
+<li>"We're behaving like LLM agents: never learn"</li>
+<li>Everything Pablo builds is a way to test TENEX: "I need to build something to test the thing"</li>
+<li>Agora: a Nostr client starting from the premise that you only care about your immediate surroundings</li>
+<li>Invitation-based trust networks: cryptographic proof of who invited whom into a relay</li>
+<li>Citizen journalism use case: pseudonymous publishing where a known figure vouches for a source without revealing identity</li>
+<li>NIP-60 wallet baked into Agora: your key is no longer just identity, it's also money</li>
+<li>Social key recovery via Shamir secret sharing: select people you can reach (not necessarily trust), hidden behind follow events</li>
+<li>Identity migration for stolen keys vs. key loss recovery: two different problems, solvable with similar tools</li>
+<li>"Fiatjaf had the right ideas around community-based backup and recovery"</li>
+<li>Romantically shitting on paywalls: you cannot box content in, no matter how hard you try</li>
+<li>What you can monetize is not the content itself but the relationship, the access, the live interaction</li>
+<li>Twitch figured it out: everything is free, everywhere, always. People pay for something else entirely.</li>
+<li>Substack's unfixable problem: it's a function of size, always Pareto, 20 people making a killing out of millions</li>
+<li>"You're prostituting yourself for nothing because you're playing in a winner-takes-most market where there is already a winner"</li>
+<li>The Matthew principle: to those who have everything, more will be given</li>
+<li>All content types competing under the same lens: why every platform turns into TikTok</li>
+<li>"Scaling Nostr is hard, so it will always fragment" -- and that's the feature</li>
+<li>Nostr's promise: many small markets strictly superior to one big centrally planned instance</li>
+<li>Digital fast food: platforms serve maximally engaging slop, like lucid dreams generated on the fly</li>
+<li>The health food analogy: McDonald's still exists, but a whole industry grew around health-conscious people. Digital health is next.</li>
+<li>Young people craving real connections over influencer slop, drawn to vinyl and gramophones for the same reason</li>
+<li>Walking the Roman path: 3,000-year-old cart tracks still visible, "look at the UX of that thing"</li>
+<li>"I switched my whole online identity to Nostr because this thing has legs and will still work 30 years from now"</li>
+<li>Email marketers already know: own the list, everything else is a funnel</li>
+<li>Relays as magazines: you don't quit magazines because one magazine is bad</li>
+<li>Most people perceive Nostr as "the crypto app" -- we're not at the "email is a protocol" stage yet</li>
+<li>Special-purpose clients: a posting-only client with an empty text field, ants for search, Boris for highlights</li>
+<li>"I'm amazed at how well things work. Blossom every day without thinking about it."</li>
+<li>"We've been on this professionalizing mode for the past six to nine months. Technically, we're in very good shape."</li>
+</ul>]]></description>
+      <link>https://njump.to/nevent1qqszwskhme0ez2vqhd94dmcc872y3r6ukalj87xxvul4wdcrysd8ptqqfmet4</link>
+      <enclosure url="https://haven.dergigi.com/a173d38bd86aadffac3cc00afd90eca8d97d3ff7d1861fb00b41f71a1f51103b.m4a" length="70324499" type="audio/mp4"/>
+      <guid isPermaLink="false">407f1bea-29c7-4039-8c15-295a0b0beb92</guid>
+      <pubDate>Tue, 01 Apr 2026 19:52:00 +0000</pubDate>
+      <itunes:duration>4235</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/1bb6d77f7465203df0edb2004b6f4bb1bb2f60dc55eb7a92b2174e2ad25b6ceb.jpg"/>
+      <podcast:person href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft" img="" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/5909b76ff9685e3c5234cc8844b9ac51a5b6331a1c682e7168675e4d236b3805.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqjrzwfdwfhk6ctww35kxctvd3uj6umgd968g6twvukk7m3dwpshjampd3k8xq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sxpqqqp65wavn6wq">Show Notes</podcast:contentLink>
+    </item>
     <item>
       <title>18: Rewriting TENEX w/ Pablo</title>
       <description><![CDATA[<p>"You're yelling at someone who is lying to you."</p>
