@@ -110,6 +110,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <title>18: Rewriting TENEX w/ Pablo</title>
       <description><![CDATA[<p>"You're yelling at someone who is lying to you."</p>
 <p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a drive. Recorded December 2025.</p>
+<p><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">Listen on sovereignengineering.io</a></p>
 <p>Projects &amp; tech mentioned:</p>
 <ul>
 <li><a href="https://github.com/pablof7z/tenex">TENEX</a> (multi-agent coordination on Nostr)</li>
@@ -155,7 +156,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
       <guid isPermaLink="false">69ecfbb3-d028-4db2-ab99-eeeb4bbe93a5</guid>
       <pubDate>Tue, 01 Apr 2026 16:22:00 +0000</pubDate>
       <itunes:duration>2769</itunes:duration>
-      <itunes:image href="https://haven.dergigi.com/7c8ef2e798e3f7c50254bf8773411dc3296eb7a44809bebc78c758048fa2c4cc.jpg"/>
+      <itunes:image href="https://haven.dergigi.com/a9e141e553980b3b93ed3e4b2489c7bdb784eb702ae6adaad08883cd0504dfc2.jpg"/>
       <podcast:person href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft" img="" group="cast" role="guest">Pablo</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/e145f449565c20e8a55459252bcd5bc58b8bc4814f95afbacc0fda2be5e45fc7.srt" type="application/srt"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
