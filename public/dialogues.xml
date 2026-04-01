@@ -34,11 +34,69 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
-    <pubDate>Mon, 31 Mar 2026 15:55:00 +0000</pubDate>
-    <lastBuildDate>Mon, 31 Mar 2026 15:55:00 +0000</lastBuildDate>
+    <pubDate>Tue, 01 Apr 2026 16:22:00 +0000</pubDate>
+    <lastBuildDate>Tue, 01 Apr 2026 16:22:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>#18: Rewriting TENEX w/ Pablo</title>
+      <description><![CDATA[<p>"You're yelling at someone who is lying to you."</p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a drive. Recorded December 2025.</p>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://github.com/pablof7z/tenex">TENEX</a> (multi-agent coordination on Nostr)</li>
+<li><a href="https://github.com/nostr-dev-kit/ndk">NDK</a> (Nostr Development Kit)</li>
+<li>NDK Swift &amp; NDK Kotlin (native ports of NDK, vibe-coded)</li>
+<li><a href="https://github.com/damus-io/nostrdb">nostrdb</a> (embedded Nostr database)</li>
+<li><a href="https://github.com/hoytech/negentropy">Negentropy / NIP-77</a> (efficient event sync)</li>
+<li><a href="https://nips.nostr.com/60">NIP-60</a> (Cashu wallets on Nostr)</li>
+<li><a href="https://ai-sdk.dev/">Vercel AI SDK</a> (multi-provider LLM abstraction)</li>
+<li><a href="https://damus.io/notedeck/">Notedeck</a> &amp; <a href="https://nostur.com/">Nostur</a></li>
+<li><a href="https://olas.app/">Olas</a> (rebuilt with TENEX agents)</li>
+</ul>
+<p>In this dialogue:</p>
+<ul>
+<li>Bitcoiners in cars getting coffee: recording from the sun visor, Seinfeld style</li>
+<li>TENEX rewritten "about a hundred times," now in TypeScript on Vercel AI SDK</li>
+<li>The pain of supporting every LLM provider: Gemini returns encrypted reasoning tokens, every API has different subtleties</li>
+<li>Removing structure to improve performance: deleting 80% of agent code makes agents work better</li>
+<li>Agents defining their own workflow phases instead of having phases imposed on them</li>
+<li>Composable workflows: the CEO agent doesn't need to know what the engineering director's workflow looks like</li>
+<li>The parallel to human organizations: you can't hold all the information in your own mind</li>
+<li><a href="https://www.listennotes.com/podcasts/dr-john-vervaeke/what-ai-can-never-be-john-FuAWO49i3_h/">John Vervaeke</a> and the idea that dialogue is how you solve the really hard problems</li>
+<li>Participatory knowing: you don't understand Bitcoin until you actually use it</li>
+<li>Agent wallets removed because "there was nothing for them to actually buy" -- a commune with no walls</li>
+<li>$700/month running Opus for everything, replacing "like fucking 30 people"</li>
+<li>Context windows are a non-issue when the hierarchy is deep enough: each atomic agent finishes fast</li>
+<li>Henry Ford's insight applied to agents: each worker does an incredibly stupid task that takes five minutes</li>
+<li>Agents are bad at self-correction, so they delegate competing implementations in disposable work trees, then compare notes</li>
+<li>Confidence scores: the delegating agent monitors every 5-10 messages, checks if the sub-agent is going off the rails</li>
+<li>"Once they are convinced that humans have seven legs, they will make up scientific papers to prove it to you"</li>
+<li>NDK ported to Swift and Kotlin without looking at a single line of code: outbox compilation, negentropy syncing, offline publishing, NIP-60 support</li>
+<li>Cross-platform frameworks are dead: "if you're just programming in English, React Native makes no sense"</li>
+<li>The developer experience right now is "as bad as it's been, at least in our lifetimes"</li>
+<li>"You're basically yelling at someone that is lying to you, that will take all the shortcuts"</li>
+<li>Vibe coding flow state: sculpting code like marble, micro-adjustments every five seconds</li>
+<li>"What if all I know of development is actually problematic? What if I just let go?"</li>
+<li>Non-developers building real apps on Nostr thanks to vibe coding</li>
+<li>The naming podcast: "Claude Opus, make up a name. Just put a U."</li>
+<li>"I'm on vacation. The agents have been running the entire time. They've done amazing work."</li>
+</ul>]]></description>
+      <link>https://njump.to/nevent1qqsvw57h26gt3x7nr97fx4zcrzpuxcfnamt7vjrm8eynsm8xezgrpysnrghap</link>
+      <enclosure url="https://haven.dergigi.com/84427041ddf2052feb6427555f8eee7d3a3619c10bd426e490b1e87e30d8594c.m4a" length="45739907" type="audio/mp4"/>
+      <guid isPermaLink="false">69ecfbb3-d028-4db2-ab99-eeeb4bbe93a5</guid>
+      <pubDate>Tue, 01 Apr 2026 16:22:00 +0000</pubDate>
+      <itunes:duration>2769</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/7c8ef2e798e3f7c50254bf8773411dc3296eb7a44809bebc78c758048fa2c4cc.jpg"/>
+      <podcast:person href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft" img="" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/e145f449565c20e8a55459252bcd5bc58b8bc4814f95afbacc0fda2be5e45fc7.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqfrzwpdwfjhwunfw35kueedw3jkuetcqgsfhhjzzjgl86k34ssm68gpvea2h9rlfswy4mv8vfx0yfemqm9q22crqsqqqa28m0htzf">Show Notes</podcast:contentLink>
+    </item>
     <item>
       <title>#17: Organic Tech w/ Arjen</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"Nostr is organic tech. Data will flow more naturally instead of going out and fetch, going out and coming back, going out and coming back."</span></p>
