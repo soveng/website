@@ -56,6 +56,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li><a href="https://castr.me">castr.me</a> (Nostr-to-RSS podcast feed)</li>
 <li><a href="https://ants.sh/">ants</a> (Nostr search)</li>
 <li><a href="https://readwithboris.com/">Boris</a> (reading and highlighting)</li>
+<li><a href="https://github.com/fiatjaf/pyramid">Pyramid</a> (fiatjaf's invite-tree relay)</li>
 <li><a href="https://kk.org/thetechnium/1000-true-fans/">Kevin Kelly's 1,000 True Fans</a></li>
 </ul>
 <p>In this dialogue:</p>
@@ -64,7 +65,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li>"We're behaving like LLM agents: never learn"</li>
 <li>Everything Pablo builds is a way to test TENEX: "I need to build something to test the thing"</li>
 <li>Agora: a Nostr client starting from the premise that you only care about your immediate surroundings</li>
-<li>Invitation-based trust networks: cryptographic proof of who invited whom into a relay</li>
+<li>Invitation-based trust networks: cryptographic proof of who invited whom into a relay, similar to fiatjaf's <a href="https://github.com/fiatjaf/pyramid">Pyramid</a></li>
 <li>Citizen journalism use case: pseudonymous publishing where a known figure vouches for a source without revealing identity</li>
 <li>NIP-60 wallet baked into Agora: your key is no longer just identity, it's also money</li>
 <li>Social key recovery via Shamir secret sharing: select people you can reach (not necessarily trust), hidden behind follow events</li>
