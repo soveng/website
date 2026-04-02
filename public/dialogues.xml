@@ -34,11 +34,71 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
-    <pubDate>Tue, 01 Apr 2026 19:52:00 +0000</pubDate>
-    <lastBuildDate>Tue, 01 Apr 2026 19:52:00 +0000</lastBuildDate>
+    <pubDate>Wed, 02 Apr 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Wed, 02 Apr 2026 16:00:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>20: Archipelago Meshtadels w/ Shadrach</title>
+      <description><![CDATA[<p>"Bitcoin doesn't need more believers. Bitcoin needs more understanders."</p>
+<p><a href="https://njump.to/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx">Shadrach</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
+<p><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">Listen on sovereignengineering.io</a></p>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://archipelago.indeehub.studio/">Archipelago</a> (sovereign home node and mesh network platform)</li>
+<li><a href="https://archipelago-foundation.org/">Archipelago Foundation</a></li>
+<li><a href="https://www.lancobitco.in/archi.mp4">Archipelago promo video</a></li>
+<li><a href="https://www.atobitcoin.io/">AtoB</a> (interoperable service protocol, co-authored with Gzuuus)</li>
+<li><a href="https://angor.io/">Angor</a> (Bitcoin-native crowdfunding; Archipelago placed 2nd in the <a href="https://njump.to/nevent1qqs0e9ejwnkwvkv00d68pvvx0dasftt0u9rwnz0tscgvl9n7mffljqqck75vg">Angor pitch contest</a>)</li>
+<li><a href="https://podcastindex.org/">Podcasting 2.0</a> (open podcast ecosystem)</li>
+<li><a href="https://nostrudel.ninja/t/demu">#DeMu</a> (decentralized music on Nostr)</li>
+<li><a href="https://fountain.fm/">Fountain</a> (podcasting app with value-for-value)</li>
+<li><a href="https://castr.me">castr.me</a> (Nostr-to-RSS podcast feed)</li>
+<li><a href="https://archipelago.indeehub.studio/">Indie Hub</a> (independent film distribution on Archipelago)</li>
+<li><a href="https://plebeian.market/">Plebeian Market</a> / <a href="https://shopstr.store/">Shopstr</a> / Conduit (Nostr marketplaces)</li>
+<li><a href="https://zapstore.dev/">Zap Store</a> (Nostr-based app store)</li>
+<li><a href="https://fedimint.org/">Fedimint</a> (federated eCash) / <a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin)</li>
+<li><a href="https://frame.work/">Framework</a> (modular laptop hardware)</li>
+<li><a href="https://meshtastic.org/">Meshtastic</a> / Meshcore (mesh networking)</li>
+<li><a href="https://start9.com/">Start9</a> / <a href="https://umbrel.com/">Umbrel</a> (existing node platforms)</li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a> (privacy-focused Android)</li>
+</ul>
+<p>In this dialogue:</p>
+<ul>
+<li>The episode opens discussing the podcasting 2.0 publishing workflow: AI models can now generate the XML spec, value splits and all</li>
+<li>Spencer's idea: every venue gets an npub, the venue starts the live stream rather than the artist</li>
+<li>Shadrach's #DeMu journey: tried to orange pill Austin musicians, but they were too disillusioned. Pay-to-play venues, Spotify killing label revenue.</li>
+<li>Value for value as social signaling: free-to-play games make millions from cosmetic skins. Adam Curry gets it -- his listeners aren't listeners, they're producers.</li>
+<li>Shadrach's path: punk rock DIY ethos to sysadmin, industrial Bitcoin mining in Texas, S9 miners sold for scrap metal</li>
+<li>The Meshtadel: a network of citadels meshed together. Any node can be taken out and the system routes around the failure.</li>
+<li>"I'm here to orange pill the Amish": moved to Lancaster, PA for food security, rented a farmer's market stall just to talk about Bitcoin</li>
+<li>Printed Cashu certificates for the Amish, horse and buggy to the Bitcoin bank drive-through. Fedimint stability pools make this feasible.</li>
+<li>"Bitcoin doesn't need more believers. Bitcoin needs more understanders."</li>
+<li>Archipelago: sovereign home node on Framework laptop hardware, plugs into your TV, companion app, modular and upgradeable</li>
+<li>Indie Hub: independent films on day one, directors set their own pricing, distributed via paid torrents</li>
+<li>The reversed marketplace: broadcast what you want to buy as an encrypted blob on Nostr. Agents match buyers and sellers.</li>
+<li>"Salespeople will hate it." -- "I know."</li>
+<li>AtoB protocol: made ride-sharing apps (Ridester, Drivester, Trotter) interoperable. Two devs refactored in a day using AI.</li>
+<li>Web of trust is Nostr's killer feature: people wrote about it in the seventies, PGP signing parties never caught on</li>
+<li>Nostr VPN: every device gets an npub, devices find each other the same way people do on Nostr</li>
+<li>SovEng: "the most incredible experience I've ever had in my life" and "some of the most exhausting"</li>
+<li>"We are back again in the early days. And we just have to make it work."</li>
+</ul>]]></description>
+      <link>https://njump.to/nevent1qqsg9vz65hh6jmhnsw3jdjeqk0fa2qls8dsljs0qjh7q8ntfxlnm4gcremmhp</link>
+      <enclosure url="https://haven.dergigi.com/0b9d8cbbbdd7fcd9dcb9ed84a2046d1e52dadd5c8b65bc79d3ebe050149a1f3d.m4a" length="102774553" type="audio/mp4"/>
+      <guid isPermaLink="false">21e99e6d-9467-49ac-a118-86dd898b125c</guid>
+      <pubDate>Wed, 02 Apr 2026 16:00:00 +0000</pubDate>
+      <itunes:duration>6220</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/9f6f0d2a6880016b258182008d2013b3c2abcb6f44beb2f3e0e0deb07ec1af24.jpg"/>
+      <podcast:person href="https://njump.to/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx" img="" group="cast" role="guest">Shadrach</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/4736e08d3ac3f3e75195990f11c9ecaa213ae5a7e0d3b07508f418ffd238e9b3.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Shadrach" type="lnaddress" address="shadrach@cluborange.org" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqvnyvpdv9exx6rfwpjkcct8dukk6etndp6xzer9d3esygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rs6c7utm">Show Notes</podcast:contentLink>
+    </item>
     <item>
       <title>19: Romantically Shitting on Paywalls w/ Pablo</title>
       <description><![CDATA[<p>"I need to build something to test the thing."</p>
