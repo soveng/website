@@ -63,6 +63,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li>Content addressing as the foundation: files live in multiple places, links don't break, peers cache data from their social graph. DNS-like caching but without the hierarchical trust. <a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">"No global"</a> is a feature.</li>
 <li>Local agents as a privacy layer: if your AI agent is your interface, platforms can't fingerprint your typing patterns. Even traffic analysis becomes harder with noise-based bandwidth usage.</li>
 <li><a href="https://fips.network/">FIPS</a> is Martti's most exciting Nostr project outside his own work: public key-based network routing that replaces IP addresses. Low-level infrastructure that could underpin everything else.</li>
+<li><a href="https://fips.network/">FIPS</a> is Martti's most exciting Nostr project outside his own work: public key-based network routing that replaces IP addresses. Low-level infrastructure that could underpin everything else.</li>
 <li><a href="https://iris.to/search/%23SovEng">SovEng</a> experience: "awesome", intense from morning to evening, a teenage dream of hacking with people on a beautiful island. Came on short notice after Jonathan reached out following the <a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> release.</li>
 <li>Martti's ask: use <a href="https://hashtree.cc">Hashtree</a>, default your repos to hashtree remotes, solve real problems. "Nostr VPN actually solved a real problem. Scratch your own itch."</li>
 </ul>
@@ -112,6 +113,8 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li><a href="https://en.wikipedia.org/wiki/Eternal_September">Eternal September</a> (what happens when a subculture scales)</li>
 <li><a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko's Triangle</a> (the naming trilemma: human-meaningful, secure, decentralized)</li>
 <li><a href="https://github.com/nostrver-se/awesome-nsite">nsite</a> (Nostr-based web hosting)</li>
+<li><a href="https://en.wikipedia.org/wiki/Commander_Keen">Commander Keen</a> (DOS-era classic)</li>
+<li><a href="https://en.wikipedia.org/wiki/IPX/SPX">IPX/SPX</a> (LAN party networking protocol)</li>
 <li><a href="https://thepiratebay.org/">Pirate Bay</a> (decentralized resilience patterns that Nostr echoes, <a href="https://www.vice.com/en/article/pirate-bay-founder-peter-sunde-i-have-given-up/">Peter Sunde: "I Have Given Up"</a>, <a href="https://youtu.be/MVlsOLvBdw4">keynote</a>)</li>
 </ul>]]></description>
       <link>https://njump.to/nevent1qqspgr0k3zc9vmqj6gl09hvf4xcyy26m738l3vupak0f6rvxpn8etzs09spxn</link>
