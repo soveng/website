@@ -34,11 +34,89 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
-    <pubDate>Wed, 02 Apr 2026 16:00:00 +0000</pubDate>
-    <lastBuildDate>Wed, 02 Apr 2026 16:00:00 +0000</lastBuildDate>
+    <pubDate>Fri, 04 Apr 2026 20:00:00 +0000</pubDate>
+    <lastBuildDate>Fri, 04 Apr 2026 20:00:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</title>
+      <description><![CDATA[<p>"We have this window of opportunity to steer the LLMs and the future of technology into a freedom-tech direction."</p>
+<p><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
+<p><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">Listen on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>Martti's GitHub annoyance spawned <a href="https://hashtree.cc">Hashtree</a>: a content-addressed file system on top of <a href="https://github.com/hzrd149/blossom">Blossom</a> that adds directories, file chunking, and encryption. Everything encrypted by default using content hash key encryption (inspired by <a href="https://en.wikipedia.org/wiki/Freenet">Freenet</a>), so Blossom server operators have cryptographic deniability about what they host.</li>
+<li><a href="https://hashtree.cc/#/dev/git-without-github">git remote hashtree</a>: set up a hashtree remote for any Git repo, push to your Blossom server. Martti uses it for all <a href="https://iris.to">Iris</a> development, with GitHub only as a backup mirror. The web interface at <a href="https://git.iris.to">git.iris.to</a> supports NIP-34 issues and pull requests.</li>
+<li>The <a href="https://github.com/mmalmi/hashtree/tree/master/ts/packages/hashtree-nostr/src/webrtc">WebRTC mesh</a> layer complements Blossom: peers find each other via Nostr relays for the initial handshake, then communicate directly. Requests route through peers with hops-to-live (starts around 15, probabilistically varied for privacy). No domain names, TLS certs, or IP addresses needed.</li>
+<li><a href="https://github.com/mmalmi/iris-browser">Iris Browser</a> loads apps from Hashtree URLs, bypassing web hosting entirely. Same idea as the old Freenet concept: content addressing means links don't break when servers go down.</li>
+<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> was born from Martti's refusal to use <a href="https://tailscale.com/">Tailscale</a>'s Google/GitHub login. Built in two days. WireGuard underneath, Nostr relays for peer discovery and IP negotiation. Every device gets an npub. Exit node functionality coming, with a future <a href="https://cashu.space/">Cashu</a>-incentivized exit node marketplace.</li>
+<li><a href="https://github.com/mmalmi/nostr-double-ratchet">Double Ratchet</a> messaging on Nostr: works well for two-party sessions, complexity grows with multi-device per user and group chats. Tested at SEC-07 via <a href="https://chat.iris.to">chat.iris.to</a> with QR code invites. Martti prefers Double Ratchet over <a href="https://www.whitenoise.chat/">MLS</a> for Nostr because MLS has stricter consensus requirements that conflict with decentralized relay sets.</li>
+<li>"Coding is going to be done by AI agents pretty soon." Martti writes basically zero code by hand now. Claude Opus (late 2025) was the inflection point that enabled Hashtree. He expects fully capable local models within a year.</li>
+<li>The window of opportunity: if freedom tech developers stop building now, Stripe, Cloudflare, and GitHub win by default because that's all the LLMs know. Getting freedom tech into the training data matters while models are still being shaped. Gwern wrote about this dynamic years ago in <a href="https://gwern.net/bitcoin-is-worse-is-better">Bitcoin is Worse is Better</a>, and his <a href="https://gwern.net/scaling-hypothesis">Scaling Hypothesis</a> hints at where the AI side is headed.</li>
+<li>AI agents will eat network effects: your agent queries ten platforms, posts to all of them. The bundled interface becomes irrelevant. Big tech's moat dissolves. "An ouroboros effect, the snake of big tech eating its own tail." As <a href="https://njump.to/nevent1qqswn8nres9nute8w3h460gexpe2qqf44cvccqhgazt4ljrjsu7vafcpr9mhxue69uhhqun9d45h2mfwwpexjmtpdshxuet59upzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyg22l70">Jack Dorsey recently put it</a>, the killer feature of Bitcoin and Nostr is that they're permissionless.</li>
+<li>Pre-Nostr, Martti built Iris on <a href="https://gun.eco/">Gun.js</a> as a public-key-based social network. No traction after two or three years. When Jack Dorsey joined Nostr and it gained community, Martti ported Iris over quickly.</li>
+<li>The Ethereum confession: social nouns NFTs, Ethereum login in early Iris. "Every saint has a past, every sinner a future." The Bitcoin community's cultural friction was an interesting experience, but Martti found the maximalists more admirable than other groups.</li>
+<li>Early Bitcoin: first commit around early 2010, ran bitcoin.org, built the first exchange (bitcoinmarket.com), sold over 30,000 bitcoins through it. Life happened, moved on, came back through Nostr.</li>
+<li>Identity is prismatic: as moot argued in his <a href="https://youtu.be/e3Zs74IH0mc">SXSW talk</a>, you're not the same person at church, the nightclub, or work. Nostr enables multiple npubs for different contexts. But spam is the trade-off with free identity creation, and social graph is the only proper solution. Web of trust filtering in Iris means no NSFW spam, at the cost of possibly missing new users.</li>
+<li>Content addressing as the foundation: files live in multiple places, links don't break, peers cache data from their social graph. DNS-like caching but without the hierarchical trust. <a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">"No global"</a> is a feature.</li>
+<li>Local agents as a privacy layer: if your AI agent is your interface, platforms can't fingerprint your typing patterns. Even traffic analysis becomes harder with noise-based bandwidth usage.</li>
+<li><a href="https://fips.network/">FIPS</a> is Martti's most exciting Nostr project outside his own work: public key-based network routing that replaces IP addresses. Low-level infrastructure that could underpin everything else.</li>
+<li><a href="https://iris.to/search/%23SovEng">SovEng</a> experience: "awesome", intense from morning to evening, a teenage dream of hacking with people on a beautiful island. Came on short notice after Jonathan reached out following the <a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> release.</li>
+<li>Martti's ask: use <a href="https://hashtree.cc">Hashtree</a>, default your repos to hashtree remotes, solve real problems. "Nostr VPN actually solved a real problem. Scratch your own itch."</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin Moon</a> (browser discussion, GitHub stars feature request)</li>
+<li><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Jonathan Corgan</a> (FIPS creator, invited Martti to Madeira)</li>
+<li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> (Nostr Signer / Nsec Bunker)</li>
+<li><a href="https://njump.to/npub1v0lxxxxutpvrelsksy8cdhgfux9l6a42hsj2qzquu2zk7vc9qnkszrqj49">Kieran</a> (social graph library usage in Snort/ZapStream)</li>
+<li><a href="https://njump.to/npub1jt97tpsul3fp8hvf7zn0vzzysmu9umcrel4hpgflg4vnsytyxwuqt8la9y">Knut Svanholm</a> (<a href="https://youtu.be/mZ8vA8vj5Cw">early Bitcoin history conversation with Martti</a>)</li>
+<li><a href="https://gwern.net/">Gwern</a></li>
+<li><a href="https://njump.to/npub1utx00neqgqln72j22kej3ux7803c2k986henvvha4thuwfkper4s7r50e8">utxo the webmaster</a> (Wisp creator)</li>
+<li><a href="https://njump.to/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s">jb55</a> (Damus / Notedeck)</li>
+<li><a href="https://en.wikipedia.org/wiki/Christopher_Poole">Christopher Poole / moot</a> (4chan founder)</li>
+<li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://hashtree.cc">Hashtree</a> (content-addressed file system on top of Blossom: directories, file chunking, encryption by default)</li>
+<li><a href="https://hashtree.cc/#/dev/git-without-github">git remote hashtree</a> (decentralized Git using Hashtree storage, replacing GitHub remotes)</li>
+<li><a href="https://git.iris.to">git.iris.to</a> (web-based Git interface with NIP-34 support: issues, pull requests, likes)</li>
+<li><a href="https://iris.to">Iris</a> (Nostr social client with built-in social graph filtering)</li>
+<li><a href="https://github.com/mmalmi/iris-browser">Iris Browser</a> (loads websites and apps from Hashtree URLs in a content-addressed way)</li>
+<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> (WireGuard tunnels using Nostr relays for peer discovery and signaling, no accounts needed)</li>
+<li><a href="https://github.com/mmalmi/nostr-double-ratchet">Nostr Double Ratchet</a> (Signal-style encrypted messaging on Nostr with group chat support, demo at <a href="https://chat.iris.to">chat.iris.to</a>)</li>
+<li><a href="https://github.com/hzrd149/blossom">Blossom</a> (content-addressed blob storage)</li>
+<li><a href="https://github.com/mmalmi/hashtree/tree/master/ts/packages/hashtree-nostr/src/webrtc">WebRTC mesh</a> (peer-to-peer data transfer, works in browsers and servers, probabilistic routing with hops-to-live)</li>
+<li><a href="https://fips.network/">FIPS</a> (Nostr public key-based network routing, by Jonathan Corgan)</li>
+<li><a href="https://reticulum.network/">Reticulum</a> (low-bandwidth mesh networking stack)</li>
+<li><a href="https://www.whitenoise.chat/">MLS / White Noise</a> (encrypted group messaging on Nostr)</li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot Protocol</a> (encrypted messaging protocol for Nostr)</li>
+<li><a href="https://en.wikipedia.org/wiki/Freenet">Freenet</a> (early content-addressed peer-to-peer network, inspiration for Hashtree's encryption)</li>
+<li><a href="https://ladybird.org/">Ladybird</a> (independent browser implementation)</li>
+<li><a href="https://openclaw.ai">OpenClaw</a> (open-source AI agent harness)</li>
+<li><a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin, future incentivized exit node payments)</li>
+<li><a href="https://trymaple.ai/">Maple</a> (privacy-preserving AI inference)</li>
+<li><a href="https://github.com/greenart7c3/Amber">Amber</a> (Nostr signer for Android)</li>
+<li><a href="https://github.com/ZharlieW/Aegis">Aegis</a> (Nostr signer for iOS)</li>
+<li><a href="https://wisp.mobile/">Wisp</a> (Nostr micro-client)</li>
+<li><a href="https://damus.io/notedeck/">Damus Notedeck</a> (Nostr client with app shell, built on <a href="https://github.com/damus-io/nostrdb">nostrdb</a>)</li>
+<li><a href="https://thepiratebay.org/">Pirate Bay</a> (decentralized resilience patterns that Nostr echoes, <a href="https://www.vice.com/en/article/pirate-bay-founder-peter-sunde-i-have-given-up/">Peter Sunde: "I Have Given Up"</a>, <a href="https://youtu.be/MVlsOLvBdw4">keynote</a>)</li>
+</ul>]]></description>
+      <link>https://njump.to/nevent1qqspgr0k3zc9vmqj6gl09hvf4xcyy26m738l3vupak0f6rvxpn8etzs09spxn</link>
+      <enclosure url="https://haven.dergigi.com/cb217a5cdc6d5eb9d50525eaa4b332eca914857bf750b9c29c2d259887b41011.m4a" length="78818861" type="audio/mp4"/>
+      <guid isPermaLink="false">77f35c76-55a1-46c3-b35c-9e501a5080a7</guid>
+      <pubDate>Fri, 04 Apr 2026 20:00:00 +0000</pubDate>
+      <itunes:duration>4679</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/7ba994b11ea5b7a7413c4feeed1e214db56ea150a009020d360988e7adff2727.jpg"/>
+      <podcast:person href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk" img="" group="cast" role="guest">Martti Malmi</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/cd8cce4d4cd2e327788a79e221e8437da24a297b707f1f8a0b0ef835846202c4.srt" type="application/srt"/>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Martti Malmi" type="lnaddress" address="npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk@npub.cash" split="100"/>
+      </podcast:value>
+    </item>
     <item>
       <title>20: Archipelago Meshtadels w/ Shadrach</title>
       <description><![CDATA[<p>"Bitcoin doesn't need more believers. Bitcoin needs more understanders."</p>
