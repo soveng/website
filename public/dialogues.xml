@@ -79,6 +79,8 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li><a href="https://njump.to/npub1xtscya34g58tk0z605fvr788k263gsu6cy9x0mhnm87echrgufzsevkk5s">jb55</a> (Damus / Notedeck)</li>
 <li><a href="https://en.wikipedia.org/wiki/Christopher_Poole">Christopher Poole / moot</a> (4chan founder)</li>
 <li><a href="https://njump.to/npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z">Vitor Pamplona</a> (Amethyst)</li>
+<li><a href="https://njump.to/npub17nd4yu9anyd3004pumgrtazaacujjxwzj36thtqsxskjy0r5urgqf6950x">isolabellart</a> (Nostr-native artist, <a href="https://isolabellart.it.com/">isolabellart.it.com</a>)</li>
+<li><a href="https://njump.to/npub1jk9h2jsa8hjmtm9qlcca942473gnyhuynz5rmgve0dlu6hpeazxqc3lqz7">Sir Sleepy</a> (prismatic identity)</li>
 <li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
 </ul>
 <p>Projects &amp; tech mentioned:</p>
@@ -102,8 +104,13 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
 <li><a href="https://openclaw.ai">OpenClaw</a> (open-source AI agent harness)</li>
 <li><a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin, future incentivized exit node payments)</li>
 <li><a href="https://trymaple.ai/">Maple</a> (privacy-preserving AI inference)</li>
+<li><a href="https://21lessons.com/16/">Trusting Trust</a> (the problem of trust in computing)</li>
+<li><a href="https://routstr.com/">Routstr</a> (Nostr-based AI routing)</li>
+<li><a href="https://ppq.ai/">PPQ</a> (decentralized AI inference)</li>
 <li><a href="https://github.com/greenart7c3/Amber">Amber</a> (Nostr signer for Android)</li>
 <li><a href="https://github.com/ZharlieW/Aegis">Aegis</a> (Nostr signer for iOS)</li>
+<li><a href="https://plebeian.market/">Plebeian Market</a> (Nostr marketplace)</li>
+<li><a href="https://shopstr.store/">Shopstr</a> (Nostr marketplace)</li>
 <li><a href="https://amethyst.social/">Amethyst</a> (Nostr client for Android)</li>
 <li><a href="https://wisp.mobile/">Wisp</a> (Nostr micro-client)</li>
 <li><a href="https://damus.io/notedeck/">Damus Notedeck</a> (Nostr client with app shell, built on <a href="https://github.com/damus-io/nostrdb">nostrdb</a>)</li>
