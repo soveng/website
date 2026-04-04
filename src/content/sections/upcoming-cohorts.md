@@ -23,4 +23,3 @@ cohorts:
     link: 'https://sovereignengineering.typeform.com/SEC-08'
     blogLink: 'https://primal.net/soveng/sec-08-yolo'
 ---
-

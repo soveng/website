@@ -24,7 +24,7 @@ sections:
     title: 'Partner and Personnel Review Policy'
     content: |
       All personnel and partnerships are evaluated based on their public record, professional conduct, and alignment with our commitment to open, merit-based collaboration and non-violent principles. We review our potential partners, employees, and contractors to ensure they do not support authoritarian or [partially-authoritarian](https://ourworldindata.org/grapher/political-regime) regimes. Our efforts are focused on anti-authoritarian technology, i.e. systems that put the individual in charge as opposed to a third party. "Can't be evil" as opposed to "don't be evil."
-  
+
   - id: 'non-violence'
     title: 'Non-Violence Commitment'
     content: |
