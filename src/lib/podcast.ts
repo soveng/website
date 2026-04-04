@@ -46,8 +46,8 @@ function cleanDescriptionHtml(html: string): string {
   s = s.replace(/&nbsp;/g, ' ');
   // Ensure space before opening <a> if preceded by text
   s = s.replace(/([^\s>])(<a\s)/g, '$1 $2');
-  // Ensure space after closing </a> if followed by text
-  s = s.replace(/(<\/a>)([^\s<])/g, '$1 $2');
+  // Ensure space after closing </a> only before a word (avoid "Link :", "Tailscale 's", "SEC-07 .")
+  s = s.replace(/(<\/a>)([a-zA-Z0-9])/g, '$1 $2');
   // Collapse multiple spaces
   s = s.replace(/ {2,}/g, ' ');
   return s.trim();

@@ -195,6 +195,31 @@
   @apply hover:text-primary text-white underline decoration-2 underline-offset-2 transition-colors;
 }
 
+/* RSS episode HTML: <li> contains flowing text with multiple inline <a>; reset flex “feature list” layout */
+.content.podcast-shownotes ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.content.podcast-shownotes li {
+  display: list-item;
+  margin-bottom: 0.35em;
+  align-items: unset;
+}
+
+.content.podcast-shownotes li::before {
+  content: none;
+  display: none;
+  margin: 0;
+}
+
+.content.podcast-shownotes a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
 /* CTA section link styling for bg-primary background */
 .bg-primary .cta-description a {
   @apply text-white underline hover:text-gray-200 transition-colors;
