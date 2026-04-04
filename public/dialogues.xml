@@ -129,6 +129,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Martti Malmi" type="lnaddress" address="npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk@npub.cash" split="100"/>
       </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq0ryvfddpshx6r5wfjk2ttwdaehgu3dwecxuttpdejz66tjd9esygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rs6uxmn9">Show Notes</podcast:contentLink>
     </item>
     <item>
       <title>20: Archipelago Meshtadels w/ Shadrach</title>
