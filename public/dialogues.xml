@@ -34,11 +34,37 @@ Est. 882,690. Inspired by Sovereign Engineering https://njump.me/no-solutions@so
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
-    <pubDate>Fri, 04 Apr 2026 20:00:00 +0000</pubDate>
-    <lastBuildDate>Fri, 04 Apr 2026 20:00:00 +0000</lastBuildDate>
+    <pubDate>Sat, 05 Apr 2026 16:00:00 +0000</pubDate>
+    <lastBuildDate>Sat, 05 Apr 2026 16:00:00 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>22: Sovereign Engineering w/ Yo</title>
+      <description><![CDATA[<p>"Permissionless, permissionless, permissionless."</p>
+<p><a href="https://njump.to/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm">Yo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
+<p><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">Listen on sovereignengineering.io</a></p>]]></description>
+      <itunes:image href="https://haven.dergigi.com/f331687d9f69dbce56d93252fd25ae2c14f96a67455293ee1d0b6d58a6cbeb1c.jpg"/>
+      <enclosure url="https://haven.dergigi.com/15400b0ee1467bfd2ba928c122971a88e5dad464246f15bdad42cb0c043bcf88.m4a" length="66928872" type="audio/mpeg"/>
+      <podcast:person href="https://njump.to/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm" img="" group="cast" role="guest">Yo</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/0a0884a6eab6a84657c6e433f580f35a187bb00965113dca15a738541f1a1e7c.srt" type="application/srt"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Yo" type="lnaddress" address="fancysnail10@primal.net" split="100"/>
+      </podcast:value>
+      <guid isPermaLink="false">2aa85495-ac25-4ac3-87d5-c02f14c2a598</guid>
+      <itunes:subtitle>22: Sovereign Engineering w/ Yo</itunes:subtitle>
+      <itunes:duration>4028</itunes:duration>
+      <link>https://njump.to/nevent1qqs0mn0f07vmnpxve8zj9yktjv6jawgy27vx5ajafsn3gdst9s5hllqx506uf</link>
+      <pubDate>Sat, 05 Apr 2026 16:00:00 +0000</pubDate>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>nostr, sovereign engineering, identity, FIPS, mesh networking, vibe coding, bitcoin, freedom tech</itunes:keywords>
+      <itunes:summary><![CDATA[<p>"Permissionless, permissionless, permissionless." Yo &amp; Gigi take a walk in Madeira during SEC-07, covering Yo's journey from non-programmer to SovEng team member, identity proposals from SEC-06, FIPS parties replacing LAN parties, and why the internet needs fixing.</p>]]></itunes:summary>
+      <podcast:contentLink href="https://njump.to/naddr1qqwnyv3dwdhhvetjv45kwm3dv4hxw6twv4jhy6twvukhwttedupzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqvzqqqr4gu7lk89n">Show Notes</podcast:contentLink>
+    </item>
     <item>
       <title>21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</title>
       <description><![CDATA[<p>"We have this window of opportunity to steer the LLMs and the future of technology into a freedom-tech direction."</p>
