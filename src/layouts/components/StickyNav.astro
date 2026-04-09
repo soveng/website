@@ -15,6 +15,14 @@ const { main } = menu;
       </div>
 
       <div class="hidden md:flex items-center space-x-6">
+        <a
+          href="/podcast"
+          class="text-white hover:text-primary transition-colors text-xl leading-none"
+          aria-label="Podcast"
+          title="Podcast"
+        >
+          🎙️
+        </a>
         {
           main.map((menu) => {
             const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
