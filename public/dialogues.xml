@@ -35,7 +35,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
     <pubDate>Mon, 13 Apr 2026 18:29:09 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 18:56:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 19:04:14 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
@@ -166,7 +166,8 @@ messaging experiments for OpenClaw)</li>
 memory, and task execution)</li>
 <li><a href="https://zapstore.dev/">ZapStore</a> (permission-minimized
 Android app distribution)</li>
-<li>Pokey (Nostr notification aggregation for power users)</li>
+<li><a href="https://github.com/KoalaSat/pokey">Pokey</a> (Nostr
+notification aggregation for power users)</li>
 <li><a href="https://deno.com/">Deno</a> (runtime for TypeScript apps on
 the phone)</li>
 <li><a href="https://nixos.org/">Nix</a> (reproducible builds,
@@ -326,7 +327,8 @@ messaging experiments for OpenClaw)</li>
 memory, and task execution)</li>
 <li><a href="https://zapstore.dev/">ZapStore</a> (permission-minimized
 Android app distribution)</li>
-<li>Pokey (Nostr notification aggregation for power users)</li>
+<li><a href="https://github.com/KoalaSat/pokey">Pokey</a> (Nostr
+notification aggregation for power users)</li>
 <li><a href="https://deno.com/">Deno</a> (runtime for TypeScript apps on
 the phone)</li>
 <li><a href="https://nixos.org/">Nix</a> (reproducible builds,
