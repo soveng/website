@@ -18,9 +18,10 @@ interface Props {
 const { episode: ep } = Astro.props;
 const metaTitle = `${ep.title} — No Solutions`;
 const metaDescription = ep.subtitle || `Listen to ${ep.title} from the No Solutions podcast by Sovereign Engineering.`;
+const socialImage = `/podcast-social/${ep.slug}.png`;
 ---
 
-<Base title={ep.title} meta_title={metaTitle} description={metaDescription} image={ep.imageUrl}>
+<Base title={ep.title} meta_title={metaTitle} description={metaDescription} image={socialImage}>
   <section class="section-sm bg-black text-white pt-[8rem]">
     <div class="container">
       <div class="max-w-[960px] mx-auto">
