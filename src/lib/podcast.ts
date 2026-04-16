@@ -19,6 +19,7 @@ export interface Episode {
   descriptionHtml: string;
   transcriptUrl: string;
   showNotesUrl: string;
+  blockHeight: string;
 }
 
 function toSlug(title: string): string {
@@ -97,6 +98,10 @@ function parseItems(xml: string): Episode[] {
     const firstPMatch = descRaw.match(/<p[^>]*>([\s\S]*?)<\/p>/);
     const subtitle = firstPMatch ? firstPMatch[1].replace(/<[^>]+>/g, '').trim() : '';
 
+    // Block height from "Recorded at <a href="https://mempool.space/block/NNNNNN">NNN,NNN</a>"
+    const blockHeightMatch = descRaw.match(/mempool\.space\/block\/(\d+)[^>]*>([^<]+)</);
+    const blockHeight = blockHeightMatch ? blockHeightMatch[2].trim() : '';
+
     items.push({
       title,
       slug: toSlug(title),
@@ -116,6 +121,7 @@ function parseItems(xml: string): Episode[] {
       descriptionHtml: cleanDescriptionHtml(descRaw).replace(/njump\.me/g, 'njump.to'),
       transcriptUrl: getAttr('podcast:transcript', 'url'),
       showNotesUrl: getAttr('podcast:contentLink', 'href'),
+      blockHeight,
     });
   }
 

@@ -144,8 +144,8 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
     .map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`)
     .join("");
 
-  const guestLine = episode.guestName ? `with ${episode.guestName}` : "Walking dialogue";
-  const metaLine = `${guestLine} • ${episode.pubDate || "No Solutions"}`;
+  const heightLine = episode.blockHeight ? `${episode.blockHeight}` : "";
+  const metaLine = [heightLine, episode.pubDate].filter(Boolean).join(" • ") || "No Solutions";
   const subtitleLines = wrapText(episode.subtitle || "No solutions, only trade-offs.", SUBTITLE_MAX_UNITS, 2);
   const subtitleTspans = subtitleLines
     .map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 32}">${escapeXml(line)}</tspan>`)
