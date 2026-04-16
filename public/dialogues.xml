@@ -34,11 +34,110 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
     <managingEditor>Gigi</managingEditor>
-    <pubDate>Mon, 13 Apr 2026 18:29:09 +0000</pubDate>
-    <lastBuildDate>Mon, 13 Apr 2026 19:21:27 +0000</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2026 14:24:22 +0000</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2026 14:26:35 +0000</lastBuildDate>
     <category>Technology</category>
     <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>24: Building FIPS w/ Johnathan Corgan</title>
+      <description><![CDATA[<p>“Don’t be afraid of going your own way.”</p>
+<p><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan Corgan</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
+<p><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">Listen on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>Why <a href="https://fips.network/">FIPS</a> started with Arjen asking for networking that does not depend on registrars, central authorities, or yankable domain names</li>
+<li>Johnathan disappearing for a month after Costa Rica, then returning with a protocol design that scratched the itch</li>
+<li>FIPS as a self-organizing peer mesh: no privileged coordinator, only what each node can enforce locally</li>
+<li>Transport-agnostic networking: Ethernet, Bluetooth, UDP overlays, Tor, serial links, and whatever else can move packets</li>
+<li>A hilariously impractical but very useful test: tunneling FIPS over Nostr relays, with ping times measured in seconds, and it still worked</li>
+<li>Why robustness under ugly conditions matters more than looking elegant on the happy path</li>
+<li>150 nodes already on the FIPS testnet, and what has to change to get from 150 to 1,500 to 15,000</li>
+<li><a href="https://sovereignengineering.io/loop#friday-demo-day">Friday Demo Day</a> as the forcing function: build it, show it, let other people poke holes in it</li>
+<li>The next FIPS release: fewer unnecessary pieces, stronger protocol negotiation, harder internals, more battle testing</li>
+<li>“Try to break it” so friends can fix it before hostile actors do</li>
+<li>Costa Rica and SEC-07 as a return to the early <a href="https://en.wikipedia.org/wiki/Cypherpunk">Cypherpunk</a> and early Bitcoin energy: do not reform the old system, route around it</li>
+<li>Why Nostr feels miraculous if you remember the world before it, even if normies still see it as half-baked</li>
+<li>“Rough consensus and running code”: academic rigor, design review, and why code still has to survive contact with reality</li>
+<li>Johnathan’s critique of “shower thought to <a href="https://zapstore.dev/">ZapStore</a> in six hours” culture: speed helps, but engineering still matters</li>
+<li><a href="https://www.anthropic.com/claude-code">Claude Code</a> wrote most of FIPS only after two months of protocol iteration and roughly 30,000 words of design docs</li>
+<li>Agentic coding as a force multiplier, not a substitute for thought: bad programmers get worse, good programmers get faster, non-programmers can finally build</li>
+<li>Drive-by AI pull requests, effort-matching reviews, and why maintainers should not do all the thinking for you</li>
+<li>Advice to younger builders: dissent, trust your own judgment, stop scrolling, and start doing stuff</li>
+<li>“You can just do things”</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr">Arjen</a> (brought the original itch from Costa Rica, noDNS instincts, freedom-tech networking)</li>
+<li><a href="https://njump.to/npub1k03rader0vm94j5ee8fg7pc2x9xkr2phu77sljas7qu5mh8mvgvqpe8rty">Cobrador</a> (<a href="https://tollgate.me/">TollGate</a>, weird deployment constraints, “I didn’t think this would exist for 10 more years”)</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://fips.network/">FIPS</a> (Free Internetworking Peering System, a transport-agnostic encrypted mesh)</li>
+<li><a href="https://nostr.com/">Nostr</a> (identity, relays, and even absurd packet transport experiments)</li>
+<li><a href="https://tollgate.me/">TollGate</a> (connectivity sold by the packet in hostile or weird environments)</li>
+<li><a href="https://www.torproject.org/">Tor</a> (one of the transports FIPS can ride on)</li>
+<li><a href="https://zapstore.dev/">ZapStore</a> (the shorthand for too-fast, under-designed implementation culture)</li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/945297">945,297</a>.</p>]]></description>
+      <link>https://njump.to/nevent1qqs8rqtvclt6cd3gnxfm75jh9laeszrtpyju9gklclf4jz7xc5rurvgpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftuvlj5f</link>
+      <enclosure url="https://haven.dergigi.com/30666a178bbf95e04642d889fa7defabd5d0f97704015f60ee33e975d9f48880.m4a" length="19051765" type="audio/mp4"/>
+      <guid isPermaLink="false">3b02a30d-0ad1-444a-aaf1-61da8b58ebf9</guid>
+      <pubDate>Thu, 16 Apr 2026 14:24:22 +0000</pubDate>
+      <itunes:duration>2146</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/eef84efed7fbe86ae2b2e82fe4511eff12510a92d22c48493b9d0b1c26dc9a80.jpg"/>
+      <podcast:person href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k" img="" group="cast" role="guest">Johnathan Corgan</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/69f783d5a36a8780ac1f1fc4e4d279fd908a424cf6129e3d4ec80c97d3f9ec35.srt" type="application/srt"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq3nydpdvf6kjmryd9hxwttxd9c8xtth944x76rwv96xsctw943k7un8v9hqz9mhwden5te0dpshvetw9ejx2un8d9nkjtnrdaksz9thwden5te0wahhgtnyv4exw6t8dyhxxmmdqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqpp4mhxue69uhkummn9ekx7mqzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkqcyqqq823c2mk2jv">Show Notes</podcast:contentLink>
+      <itunes:subtitle>24: Building FIPS w/ Johnathan Corgan</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>fips, mesh networking, nostr, cypherpunk, freedom tech, sovereign engineering, networking, agents, conversation, dialog</itunes:keywords>
+      <itunes:summary><![CDATA[<p>“Don’t be afraid of going your own way.”</p>
+<p><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan Corgan</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
+<p><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">Listen on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>Why <a href="https://fips.network/">FIPS</a> started with Arjen asking for networking that does not depend on registrars, central authorities, or yankable domain names</li>
+<li>Johnathan disappearing for a month after Costa Rica, then returning with a protocol design that scratched the itch</li>
+<li>FIPS as a self-organizing peer mesh: no privileged coordinator, only what each node can enforce locally</li>
+<li>Transport-agnostic networking: Ethernet, Bluetooth, UDP overlays, Tor, serial links, and whatever else can move packets</li>
+<li>A hilariously impractical but very useful test: tunneling FIPS over Nostr relays, with ping times measured in seconds, and it still worked</li>
+<li>Why robustness under ugly conditions matters more than looking elegant on the happy path</li>
+<li>150 nodes already on the FIPS testnet, and what has to change to get from 150 to 1,500 to 15,000</li>
+<li><a href="https://sovereignengineering.io/loop#friday-demo-day">Friday Demo Day</a> as the forcing function: build it, show it, let other people poke holes in it</li>
+<li>The next FIPS release: fewer unnecessary pieces, stronger protocol negotiation, harder internals, more battle testing</li>
+<li>“Try to break it” so friends can fix it before hostile actors do</li>
+<li>Costa Rica and SEC-07 as a return to the early <a href="https://en.wikipedia.org/wiki/Cypherpunk">Cypherpunk</a> and early Bitcoin energy: do not reform the old system, route around it</li>
+<li>Why Nostr feels miraculous if you remember the world before it, even if normies still see it as half-baked</li>
+<li>“Rough consensus and running code”: academic rigor, design review, and why code still has to survive contact with reality</li>
+<li>Johnathan’s critique of “shower thought to <a href="https://zapstore.dev/">ZapStore</a> in six hours” culture: speed helps, but engineering still matters</li>
+<li><a href="https://www.anthropic.com/claude-code">Claude Code</a> wrote most of FIPS only after two months of protocol iteration and roughly 30,000 words of design docs</li>
+<li>Agentic coding as a force multiplier, not a substitute for thought: bad programmers get worse, good programmers get faster, non-programmers can finally build</li>
+<li>Drive-by AI pull requests, effort-matching reviews, and why maintainers should not do all the thinking for you</li>
+<li>Advice to younger builders: dissent, trust your own judgment, stop scrolling, and start doing stuff</li>
+<li>“You can just do things”</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr">Arjen</a> (brought the original itch from Costa Rica, noDNS instincts, freedom-tech networking)</li>
+<li><a href="https://njump.to/npub1k03rader0vm94j5ee8fg7pc2x9xkr2phu77sljas7qu5mh8mvgvqpe8rty">Cobrador</a> (<a href="https://tollgate.me/">TollGate</a>, weird deployment constraints, “I didn’t think this would exist for 10 more years”)</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://fips.network/">FIPS</a> (Free Internetworking Peering System, a transport-agnostic encrypted mesh)</li>
+<li><a href="https://nostr.com/">Nostr</a> (identity, relays, and even absurd packet transport experiments)</li>
+<li><a href="https://tollgate.me/">TollGate</a> (connectivity sold by the packet in hostile or weird environments)</li>
+<li><a href="https://www.torproject.org/">Tor</a> (one of the transports FIPS can ride on)</li>
+<li><a href="https://zapstore.dev/">ZapStore</a> (the shorthand for too-fast, under-designed implementation culture)</li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/945297">945,297</a>.</p>]]></itunes:summary>
+    </item>
     <item>
       <title>23: Shipping Violently w/ Justin Moon</title>
       <description><![CDATA[<p>“I want to optimize for hackability and customization.”</p>
