@@ -1,0 +1,97 @@
+---
+interface ExtraLink {
+  link: string;
+  linkText: string;
+}
+
+interface Project {
+  name: string;
+  description: string;
+  cohort: string;
+  link: string;
+  linkText: string;
+  logo?: string;
+  highlight?: boolean;
+  extraLinks?: ExtraLink[];
+}
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+---
+
+<article
+  class="flex flex-col overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950 p-6 transition hover:border-zinc-700"
+>
+  {/* Header row: logo + cohort label */}
+  <div class="flex items-center gap-3 mb-4">
+    {
+      project.logo ? (
+        <img
+          src={project.logo}
+          alt={`${project.name} logo`}
+          class="rounded-full object-cover bg-white p-1 flex-shrink-0"
+          style="width: 40px; height: 40px;"
+        />
+      ) : (
+        <div
+          class="rounded-full bg-zinc-800 flex items-center justify-center text-zinc-500 text-xs font-bold flex-shrink-0"
+          style="width: 40px; height: 40px;"
+        >
+          {project.name.charAt(0).toUpperCase()}
+        </div>
+      )
+    }
+    <div class="flex flex-col leading-tight">
+      <span class="text-sm font-medium text-zinc-100">{project.cohort}</span>
+      {
+        project.highlight && (
+          <span
+            class="uppercase tracking-wider"
+            style="font-size: 10px; color: #ED3238;"
+          >
+            Highlight
+          </span>
+        )
+      }
+    </div>
+  </div>
+
+  {/* Title */}
+  <h3 class="text-lg font-semibold leading-tight text-white mb-3">
+    {project.name}
+  </h3>
+
+  {/* Description */}
+  <p class="text-sm leading-relaxed text-zinc-300 mb-4 flex-1">
+    {project.description}
+  </p>
+
+  {/* Links */}
+  <div class="flex flex-col gap-1.5 mt-auto pt-2 border-t border-zinc-800">
+    <a
+      href={project.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="text-sm font-medium hover:underline project-link"
+      style="color: #ED3238;"
+    >
+      {project.linkText} →
+    </a>
+    {
+      project.extraLinks &&
+        project.extraLinks.map((extra) => (
+          <a
+            href={extra.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-xs text-zinc-500 hover:text-zinc-300 hover:underline"
+          >
+            {extra.linkText} →
+          </a>
+        ))
+    }
+  </div>
+</article>

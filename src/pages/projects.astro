@@ -1,21 +1,116 @@
 ---
 import Base from "@/layouts/Base.astro";
-import ProjectShowcase from "@/components/ProjectShowcase.astro";
+import CohortDropdown from "@/components/CohortDropdown.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
 import showcaseProjects from "@/data/showcaseProjects.js";
 
+interface ExtraLink {
+  link: string;
+  linkText: string;
+}
+
+interface Project {
+  name: string;
+  description: string;
+  cohort: string;
+  link: string;
+  linkText: string;
+  logo?: string;
+  highlight?: boolean;
+  extraLinks?: ExtraLink[];
+}
+
+const highlights = (showcaseProjects as Project[]).filter((p) => p.highlight);
 ---
 
 <Base
-  title="Demo Day Projects"
-  meta_title="Demo Day Projects"
-  description="Explore projects built by Sovereign Engineering Cohort participants during their Demo Days"
+  title="Highlights — Demo Day Projects"
+  meta_title="Highlights — Demo Day Projects"
+  description="Featured projects from Sovereign Engineering Cohort participants — the standout demos selected from across all cohorts."
 >
-  <ProjectShowcase
-    projects={showcaseProjects}
-    darkTheme={true}
-    showTitle={true}
-    showHighlights={true}
-  />
+  <CohortDropdown />
 
-  <!-- No Next link here; flow handled from /podcast -->
+  <section class="cohort-section">
+    <div class="cohort-container">
+      <header class="cohort-header">
+        <h1
+          class="cohort-title"
+          style="font-family: 'IM Fell Double Pica', Times, serif;"
+        >
+          Highlights
+        </h1>
+        <p class="cohort-subtitle">
+          Standout projects featured from across all Sovereign Engineering cohorts.
+        </p>
+      </header>
+
+      <div class="cohort-masonry">
+        {highlights.map((project) => <ProjectCard project={project} />)}
+      </div>
+    </div>
+  </section>
 </Base>
+
+<style>
+  .cohort-section {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cohort-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @media (min-width: 1024px) {
+    .cohort-container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+  .cohort-header {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .cohort-title {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+  }
+  .cohort-subtitle {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: rgb(161, 161, 170);
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cohort-masonry {
+    column-count: 1;
+    column-gap: 4rem;
+  }
+  .cohort-masonry > * {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 3.5rem;
+  }
+  @media (min-width: 640px) {
+    .cohort-masonry {
+      column-count: 2;
+      column-gap: 5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .cohort-masonry {
+      column-count: 3;
+      column-gap: 6rem;
+    }
+  }
+</style>
