@@ -151,6 +151,11 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
     .map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 28}">${escapeXml(line)}</tspan>`)
     .join("");
 
+  const TITLE_Y = 203;
+  const titleBottom = TITLE_Y + (titleLines.length - 1) * 58;
+  const metaY = titleBottom + 50;
+  const subtitleY = metaY + 45;
+
   const fallbackMarkup = hasCover
     ? ""
     : `<rect x="${COVER_X}" y="${COVER_Y}" width="${COVER_SIZE}" height="${COVER_SIZE}" rx="18" fill="#121212" />
@@ -163,9 +168,9 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
     ${fallbackMarkup}
     <text x="${TEXT_X}" y="125" fill="#F7931A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0.06em">NO SOLUTIONS.</text>
     <text x="${TEXT_X + 208}" y="125" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0.06em">ONLY DIALOGUES.</text>
-    <text x="${TEXT_X}" y="203" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">${titleTspans}</text>
-    <text x="${TEXT_X}" y="444" fill="#B5B5B5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">${escapeXml(metaLine)}</text>
-    <text x="${TEXT_X}" y="497" fill="#E6E6E6" font-family="Arial, Helvetica, sans-serif" font-size="27">${subtitleTspans}</text>
+    <text x="${TEXT_X}" y="${TITLE_Y}" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">${titleTspans}</text>
+    <text x="${TEXT_X}" y="${metaY}" fill="#B5B5B5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">${escapeXml(metaLine)}</text>
+    <text x="${TEXT_X}" y="${subtitleY}" fill="#E6E6E6" font-family="Arial, Helvetica, sans-serif" font-size="27">${subtitleTspans}</text>
     <text x="${TEXT_X}" y="575" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="22">sovereignengineering.io/podcast</text>
   </svg>`;
 
