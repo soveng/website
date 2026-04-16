@@ -146,7 +146,7 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
 
   const heightLine = episode.blockHeight ? `${episode.blockHeight}` : "";
   const metaLine = [heightLine, episode.pubDate].filter(Boolean).join(" • ") || "No Solutions";
-  const subtitleLines = wrapText(episode.subtitle || "No solutions, only trade-offs.", SUBTITLE_MAX_UNITS, 3);
+  const subtitleLines = wrapText(episode.subtitle || "No solutions, only trade-offs.", SUBTITLE_MAX_UNITS, 6);
   const subtitleTspans = subtitleLines
     .map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 28}">${escapeXml(line)}</tspan>`)
     .join("");
