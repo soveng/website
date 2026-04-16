@@ -61,6 +61,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>“Rough consensus and running code”: academic rigor, design review, and why code still has to survive contact with reality</li>
 <li>Johnathan’s critique of “shower thought to <a href="https://zapstore.dev/">ZapStore</a> in six hours” culture: speed helps, but engineering still matters</li>
 <li><a href="https://www.anthropic.com/claude-code">Claude Code</a> wrote most of FIPS only after two months of protocol iteration and roughly 30,000 words of design docs</li>
+<li>Johnathan read every file and every line of code his agents produced, which is probably the only sane way to use them</li>
 <li>Agentic coding as a force multiplier, not a substitute for thought: bad programmers get worse, good programmers get faster, non-programmers can finally build</li>
 <li>Drive-by AI pull requests, effort-matching reviews, and why maintainers should not do all the thinking for you</li>
 <li>Advice to younger builders: dissent, trust your own judgment, stop scrolling, and start doing stuff</li>
@@ -119,6 +120,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>“Rough consensus and running code”: academic rigor, design review, and why code still has to survive contact with reality</li>
 <li>Johnathan’s critique of “shower thought to <a href="https://zapstore.dev/">ZapStore</a> in six hours” culture: speed helps, but engineering still matters</li>
 <li><a href="https://www.anthropic.com/claude-code">Claude Code</a> wrote most of FIPS only after two months of protocol iteration and roughly 30,000 words of design docs</li>
+<li>Johnathan read every file and every line of code his agents produced, which is probably the only sane way to use them</li>
 <li>Agentic coding as a force multiplier, not a substitute for thought: bad programmers get worse, good programmers get faster, non-programmers can finally build</li>
 <li>Drive-by AI pull requests, effort-matching reviews, and why maintainers should not do all the thinking for you</li>
 <li>Advice to younger builders: dissent, trust your own judgment, stop scrolling, and start doing stuff</li>
