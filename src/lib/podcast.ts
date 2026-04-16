@@ -38,6 +38,24 @@ function formatDuration(seconds: number): string {
   return hours > 0 ? `${hours}:${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}` : `${mins}:${String(secs).padStart(2, '0')}`;
 }
 
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&ldquo;/g, '\u201C')
+    .replace(/&rdquo;/g, '\u201D')
+    .replace(/&lsquo;/g, '\u2018')
+    .replace(/&rsquo;/g, '\u2019')
+    .replace(/&mdash;/g, '\u2014')
+    .replace(/&ndash;/g, '\u2013')
+    .replace(/&hellip;/g, '\u2026')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(Number(n)));
+}
+
 function cleanDescriptionHtml(html: string): string {
   let s = html;
   // Strip <span style="font-weight: 400;"> wrappers (editor noise)
@@ -96,7 +114,7 @@ function parseItems(xml: string): Episode[] {
     // Description: full HTML and plain-text subtitle (first <p>)
     const descRaw = get('description');
     const firstPMatch = descRaw.match(/<p[^>]*>([\s\S]*?)<\/p>/);
-    const subtitle = firstPMatch ? firstPMatch[1].replace(/<[^>]+>/g, '').trim() : '';
+    const subtitle = firstPMatch ? decodeHtmlEntities(firstPMatch[1].replace(/<[^>]+>/g, '').trim()) : '';
 
     // Block height from "Recorded at <a href="https://mempool.space/block/NNNNNN">NNN,NNN</a>"
     const blockHeightMatch = descRaw.match(/mempool\.space\/block\/(\d+)[^>]*>([^<]+)</);
