@@ -8,7 +8,7 @@ const COVER_SIZE = 420;
 const COVER_X = 64;
 const COVER_Y = 105;
 const TEXT_X = 548;
-const TITLE_MAX_UNITS = 18;
+const TITLE_MAX_UNITS = 16;
 const SUBTITLE_MAX_UNITS = 30;
 
 function escapeXml(value: string): string {
