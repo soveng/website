@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 import CohortDropdown from "@/components/CohortDropdown.astro";
 import ProjectCard from "@/components/ProjectCard.astro";
+import DemoGallery from "@/components/DemoGallery.tsx";
 import showcaseProjects from "@/data/showcaseProjects.js";
 
 interface ExtraLink {
@@ -60,17 +61,16 @@ const isCurrentCohort = cohortLabel === COHORTS[COHORTS.length - 1];
   meta_title={`${cohortLabel} Demo Day Projects`}
   description={`Projects built by ${cohortLabel} Sovereign Engineering Cohort participants during their Demo Days`}
 >
-  <CohortDropdown current={cohortLabel} />
-
   <section class="cohort-section">
     <div class="cohort-container">
-      <header class="mb-12 text-center">
+      <header class="cohort-header">
         <h1
-          class="text-4xl font-normal text-white"
+          class="cohort-title"
           style="font-family: 'IM Fell Double Pica', Times, serif;"
         >
-          {cohortLabel} Demo Day Projects
+          Demo Day Projects
         </h1>
+        <CohortDropdown current={cohortLabel} />
         {
           filtered.length > 0 && (
             <p class="mt-4 text-base text-zinc-400">
@@ -82,24 +82,17 @@ const isCurrentCohort = cohortLabel === COHORTS[COHORTS.length - 1];
       </header>
 
       {
-        filtered.length > 0 ? (
+        isCurrentCohort ? (
+          <DemoGallery client:load />
+        ) : filtered.length > 0 ? (
           <div class="cohort-masonry">
             {filtered.map((project) => (
               <ProjectCard project={project} />
             ))}
           </div>
         ) : (
-          <div class="rounded-2xl border border-dashed border-zinc-700 bg-zinc-950 p-12 text-center">
-            <p class="text-base font-medium text-zinc-200">
-              {isCurrentCohort
-                ? "This cohort is currently in progress."
-                : "No projects on record for this cohort."}
-            </p>
-            {isCurrentCohort && (
-              <p class="mt-2 text-sm text-zinc-400">
-                Demos will appear here as participants share them.
-              </p>
-            )}
+          <div class="cohort-empty">
+            <p>No projects on record for this cohort.</p>
           </div>
         )
       }
@@ -107,7 +100,9 @@ const isCurrentCohort = cohortLabel === COHORTS[COHORTS.length - 1];
   </section>
 </Base>
 
-<style>
+<style is:global>
+  /* Masonry styles are global so the React DemoGallery component on
+     the active cohort page can use the same layout classes. */
   .cohort-section {
     width: 100%;
     background: #000;
@@ -131,7 +126,7 @@ const isCurrentCohort = cohortLabel === COHORTS[COHORTS.length - 1];
   }
   .cohort-masonry {
     column-count: 1;
-    column-gap: 4rem;
+    column-gap: 1.25rem;
   }
   .cohort-masonry > * {
     break-inside: avoid;
@@ -139,18 +134,33 @@ const isCurrentCohort = cohortLabel === COHORTS[COHORTS.length - 1];
     page-break-inside: avoid;
     display: inline-block;
     width: 100%;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.25rem;
   }
   @media (min-width: 640px) {
     .cohort-masonry {
       column-count: 2;
-      column-gap: 5rem;
+      column-gap: 1.5rem;
     }
   }
   @media (min-width: 1024px) {
     .cohort-masonry {
       column-count: 3;
-      column-gap: 6rem;
+      column-gap: 1.75rem;
     }
+  }
+  /* Hide the native fullscreen button — our custom expand button replaces it */
+  .demo-video-thumb::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .demo-video-thumb::-moz-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .cohort-empty {
+    border-radius: 1rem;
+    border: 1px dashed #3f3f46;
+    background: #09090b;
+    padding: 3rem;
+    text-align: center;
+    color: #d4d4d8;
   }
 </style>

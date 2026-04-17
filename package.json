@@ -29,6 +29,7 @@
     "@fontsource/im-fell-double-pica": "^5.2.6",
     "@fortawesome/fontawesome-free": "^7.0.0",
     "@justinribeiro/lite-youtube": "^1.8.2",
+    "applesauce-relay": "^5.2.0",
     "astro": "5.7.8",
     "astro-auto-import": "^0.4.4",
     "astro-fathom": "^2.0.0",

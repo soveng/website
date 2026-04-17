@@ -28,8 +28,6 @@ const highlights = (showcaseProjects as Project[]).filter((p) => p.highlight);
   meta_title="Highlights — Demo Day Projects"
   description="Featured projects from Sovereign Engineering Cohort participants — the standout demos selected from across all cohorts."
 >
-  <CohortDropdown />
-
   <section class="cohort-section">
     <div class="cohort-container">
       <header class="cohort-header">
@@ -37,8 +35,9 @@ const highlights = (showcaseProjects as Project[]).filter((p) => p.highlight);
           class="cohort-title"
           style="font-family: 'IM Fell Double Pica', Times, serif;"
         >
-          Highlights
+          Demo Day Projects
         </h1>
+        <CohortDropdown />
         <p class="cohort-subtitle">
           Standout projects featured from across all Sovereign Engineering cohorts.
         </p>
@@ -91,7 +90,7 @@ const highlights = (showcaseProjects as Project[]).filter((p) => p.highlight);
   }
   .cohort-masonry {
     column-count: 1;
-    column-gap: 4rem;
+    column-gap: 1.25rem;
   }
   .cohort-masonry > * {
     break-inside: avoid;
@@ -99,18 +98,18 @@ const highlights = (showcaseProjects as Project[]).filter((p) => p.highlight);
     page-break-inside: avoid;
     display: inline-block;
     width: 100%;
-    margin-bottom: 3.5rem;
+    margin-bottom: 1.25rem;
   }
   @media (min-width: 640px) {
     .cohort-masonry {
       column-count: 2;
-      column-gap: 5rem;
+      column-gap: 1.5rem;
     }
   }
   @media (min-width: 1024px) {
     .cohort-masonry {
       column-count: 3;
-      column-gap: 6rem;
+      column-gap: 1.75rem;
     }
   }
 </style>
