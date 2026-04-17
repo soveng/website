@@ -36,7 +36,8 @@ const {
   darkTheme = false,
   showTitle = false,
   groupByCohort = true,
-  showHighlights = false
+  showHighlights = false,
+  showCTA = true
 } = Astro.props;
 
 // Group projects by cohort
@@ -249,19 +250,21 @@ const cohortHeaderClasses = darkTheme
         ))}
 
         {/* CTA Section */}
-        <div class="mt-16 text-center">
-          <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-            SEC-07
-          </h2>
-          <div class="py-12">
-            <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
-              Your Project Here
-            </p>
-            <p class={`text-lg mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
-              Join the next cohort and build the future you want to see.
-            </p>
+        {showCTA && (
+          <div class="mt-16 text-center">
+            <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
+              SEC-07
+            </h2>
+            <div class="py-12">
+              <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+                Your Project Here
+              </p>
+              <p class={`text-lg mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
+                Join the next cohort and build the future you want to see.
+              </p>
+            </div>
           </div>
-        </div>
+        )}
       </>
     ) : (
       <div class="overflow-x-auto mb-8">

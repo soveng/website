@@ -1,0 +1,166 @@
+---
+import Base from "@/layouts/Base.astro";
+import CohortDropdown from "@/components/CohortDropdown.astro";
+import ProjectCard from "@/components/ProjectCard.astro";
+import DemoGallery from "@/components/DemoGallery.tsx";
+import showcaseProjects from "@/data/showcaseProjects.js";
+
+interface ExtraLink {
+  link: string;
+  linkText: string;
+}
+
+interface Project {
+  name: string;
+  description: string;
+  cohort: string;
+  link: string;
+  linkText: string;
+  logo?: string;
+  highlight?: boolean;
+  extraLinks?: ExtraLink[];
+}
+
+const COHORTS = [
+  "SEC-00",
+  "SEC-01",
+  "SEC-02",
+  "SEC-03",
+  "SEC-04",
+  "SEC-05",
+  "SEC-06",
+  "SEC-07",
+];
+
+export async function getStaticPaths() {
+  const cohorts = [
+    "SEC-00",
+    "SEC-01",
+    "SEC-02",
+    "SEC-03",
+    "SEC-04",
+    "SEC-05",
+    "SEC-06",
+    "SEC-07",
+  ];
+  return cohorts.map((c) => ({
+    params: { cohort: c.toLowerCase().replace("-", "") },
+    props: { cohortLabel: c },
+  }));
+}
+
+const { cohortLabel } = Astro.props as { cohortLabel: string };
+const filtered = (showcaseProjects as Project[]).filter(
+  (p) => p.cohort === cohortLabel
+);
+const isCurrentCohort = cohortLabel === COHORTS[COHORTS.length - 1];
+---
+
+<Base
+  title={`${cohortLabel} Demo Day Projects`}
+  meta_title={`${cohortLabel} Demo Day Projects`}
+  description={`Projects built by ${cohortLabel} Sovereign Engineering Cohort participants during their Demo Days`}
+>
+  <section class="cohort-section">
+    <div class="cohort-container">
+      <header class="cohort-header">
+        <h1
+          class="cohort-title"
+          style="font-family: 'IM Fell Double Pica', Times, serif;"
+        >
+          Demo Day Projects
+        </h1>
+        <CohortDropdown current={cohortLabel} />
+        {
+          filtered.length > 0 && (
+            <p class="mt-4 text-base text-zinc-400">
+              {filtered.length} project{filtered.length === 1 ? "" : "s"} from
+              this cohort
+            </p>
+          )
+        }
+      </header>
+
+      {
+        isCurrentCohort ? (
+          <DemoGallery client:load />
+        ) : filtered.length > 0 ? (
+          <div class="cohort-masonry">
+            {filtered.map((project) => (
+              <ProjectCard project={project} />
+            ))}
+          </div>
+        ) : (
+          <div class="cohort-empty">
+            <p>No projects on record for this cohort.</p>
+          </div>
+        )
+      }
+    </div>
+  </section>
+</Base>
+
+<style is:global>
+  /* Masonry styles are global so the React DemoGallery component on
+     the active cohort page can use the same layout classes. */
+  .cohort-section {
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .cohort-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    /* Generous horizontal padding so cards never touch the page edges */
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  @media (min-width: 1024px) {
+    .cohort-container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+  .cohort-masonry {
+    column-count: 1;
+    column-gap: 1.25rem;
+  }
+  .cohort-masonry > * {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  @media (min-width: 640px) {
+    .cohort-masonry {
+      column-count: 2;
+      column-gap: 1.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .cohort-masonry {
+      column-count: 3;
+      column-gap: 1.75rem;
+    }
+  }
+  /* Hide the native fullscreen button — our custom expand button replaces it */
+  .demo-video-thumb::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .demo-video-thumb::-moz-media-controls-fullscreen-button {
+    display: none !important;
+  }
+  .cohort-empty {
+    border-radius: 1rem;
+    border: 1px dashed #3f3f46;
+    background: #09090b;
+    padding: 3rem;
+    text-align: center;
+    color: #d4d4d8;
+  }
+</style>

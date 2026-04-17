@@ -1,0 +1,45 @@
+---
+interface Props {
+  /** Current cohort (e.g. "SEC-01") if on a cohort-specific page; undefined on /projects index. */
+  current?: string;
+}
+
+const { current } = Astro.props;
+
+const cohorts = [
+  "SEC-00",
+  "SEC-01",
+  "SEC-02",
+  "SEC-03",
+  "SEC-04",
+  "SEC-05",
+  "SEC-06",
+  "SEC-07",
+];
+---
+
+<div style="display: flex; justify-content: center; padding-top: 1rem; padding-bottom: 0.5rem;">
+  <select
+    id="cohort-select"
+    style="background: transparent; color: #fff; border: 1px solid #52525b; padding: 0.5rem 2rem 0.5rem 1rem; font-size: 1rem; cursor: pointer; appearance: auto;"
+  >
+    <option value="" style="background: #000;">Highlights</option>
+    {
+      cohorts.map((c) => (
+        <option value={c.toLowerCase().replace("-", "")} selected={current === c} style="background: #000;">
+          {c}
+        </option>
+      ))
+    }
+  </select>
+</div>
+
+<script>
+  const sel = document.getElementById("cohort-select") as HTMLSelectElement | null;
+  if (sel) {
+    sel.addEventListener("change", (e) => {
+      const value = (e.target as HTMLSelectElement).value;
+      window.location.href = value ? `/projects/${value}` : "/projects";
+    });
+  }
+</script>
