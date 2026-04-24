@@ -285,17 +285,20 @@ def choose_start_times(selected: list[tuple[str, str | None]], cues: list[Cue], 
     transcript_freq = Counter(token for cue in cues for token in cue.tokens)
     starts: list[float] = []
     min_gap = max(45, duration // max(10, len(selected) * 2))
+    slot = duration / max(1, len(selected))
 
     for idx, (bullet, _) in enumerate(selected):
-        fallback = 0.0 if len(selected) == 1 else idx * duration / len(selected)
+        fallback = 0.0 if len(selected) == 1 else idx * slot
         keywords = tokenize(bullet)
         rare_keywords = [kw for kw in keywords if transcript_freq.get(kw, 0)]
         prev = starts[-1] if starts else 0.0
         floor = prev + (min_gap if starts else 0)
+        band_start = max(floor, fallback - slot * 0.6)
+        band_end = min(duration, fallback + slot * 0.6)
         best_time = None
         best_score = -1.0
         for cue_index, cue in enumerate(cues):
-            if cue.start < floor:
+            if cue.start < band_start or cue.start > band_end:
                 continue
             start, tokens, joined = window_text(cues, cue_index)
             overlap = [kw for kw in rare_keywords if kw in tokens]
@@ -307,10 +310,14 @@ def choose_start_times(selected: list[tuple[str, str | None]], cues: list[Cue], 
                 if f' {kw} ' in f' {joined} ':
                     score += 0.05
             score += len(overlap) * 0.2
+            score -= abs(start - fallback) / max(1.0, slot)
             if score > best_score:
                 best_score = score
                 best_time = start
-        chosen = best_time if best_time is not None and best_score >= 0.35 else fallback
+        if best_time is not None and best_score >= 0.2:
+            chosen = best_time * 0.6 + fallback * 0.4
+        else:
+            chosen = fallback
         starts.append(float(chosen))
 
     if starts:
