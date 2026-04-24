@@ -3495,6 +3495,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.sovereignengineering.io/47751a709b26379178c6da4817bae2c7ec0df90ac56c5660a72f805268e54525.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/454ec3ebf261084fe0abbcb6b31409cb29db23ed97784f896b60d7226bfe17ba.mp3" length="57403392" type="audio/mpeg"/>
       <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/02-there-is-no-global-w-pablo.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>

@@ -1,0 +1,73 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#02: There is No Global w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 2, There is No Global w/ Pablo.",
+  "fileName": "02 - There is No Global.mp3",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 377.0,
+      "title": "What is this No Solutions thing anyway?",
+      "url": "https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"
+    },
+    {
+      "startTime": 377.0,
+      "endTime": 754.0,
+      "title": "Why is nostr exciting for developers?"
+    },
+    {
+      "startTime": 754.0,
+      "endTime": 1134.816,
+      "title": "What is the perfect nostr app, and why can’t there be THE perfect nostr…"
+    },
+    {
+      "startTime": 1134.816,
+      "endTime": 1517.504,
+      "title": "Blossom, blossom, and more blossom",
+      "url": "https://github.com/hzrd149/blossom"
+    },
+    {
+      "startTime": 1517.504,
+      "endTime": 1885.0,
+      "title": "Freedom Tech Building Blocks"
+    },
+    {
+      "startTime": 1885.0,
+      "endTime": 2262.0,
+      "title": "Email vs ICQ"
+    },
+    {
+      "startTime": 2262.0,
+      "endTime": 2639.0,
+      "title": "Nostr has data integrity, but no data guarantees"
+    },
+    {
+      "startTime": 2639.0,
+      "endTime": 2974.72,
+      "title": "Fault tolerance vs. efficiency"
+    },
+    {
+      "startTime": 2974.72,
+      "endTime": 3393.0,
+      "title": "eCash fixes 402",
+      "url": "https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s/episode/MDk5YmI0NTgtM2E3MC00ZjM4LWIxNzgtZGJhYTg4M2U5MjU2"
+    },
+    {
+      "startTime": 3393.0,
+      "endTime": 3770.0,
+      "title": "The magic of the nostr view-only mode"
+    },
+    {
+      "startTime": 3770.0,
+      "endTime": 4208.368,
+      "title": "How to monetize without putting yourself in the middle?"
+    },
+    {
+      "startTime": 4208.368,
+      "endTime": 4524.0,
+      "title": "The YouTube like count is a lie"
+    }
+  ]
+}
