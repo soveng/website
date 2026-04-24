@@ -1,0 +1,81 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#03: Data Ownership is a Lie w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 3, Data Ownership is a Lie w/ Pablo.",
+  "fileName": "03 - Combined-PP.mp3",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 458.2,
+      "title": "01: Start Ugly",
+      "url": "https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s/episode/Y2VjZDk1MjAtMmZjOC00ZDQ1LTkxNjEtMzRkNThlNTYzZTBm"
+    },
+    {
+      "startTime": 458.2,
+      "endTime": 1030.4,
+      "title": "Shamir Secret Sharing and Timelocks",
+      "url": "https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing"
+    },
+    {
+      "startTime": 1030.4,
+      "endTime": 1468.8,
+      "title": "“If you have an apple and I have an apple and we exchange these apples…",
+      "url": "https://dergigi.com/threads/memes-vs-the-world"
+    },
+    {
+      "startTime": 1468.8,
+      "endTime": 1898.176,
+      "title": "Nutzaps: NIP-60 / NIP-61",
+      "url": "https://nips.nostr.com/60"
+    },
+    {
+      "startTime": 1898.176,
+      "endTime": 2253.476,
+      "title": "Discovery with NIP-89",
+      "url": "https://nips.nostr.com/89"
+    },
+    {
+      "startTime": 2253.476,
+      "endTime": 2734.68,
+      "title": "Putting payments into blossom",
+      "url": "https://github.com/hzrd149/blossom"
+    },
+    {
+      "startTime": 2734.68,
+      "endTime": 3272.02,
+      "title": "Amber and Citrine",
+      "url": "https://github.com/greenart7c3/Amber"
+    },
+    {
+      "startTime": 3272.02,
+      "endTime": 3623.096,
+      "title": "The in-between of custodial and non-custodial in a multi-mint world"
+    },
+    {
+      "startTime": 3623.096,
+      "endTime": 4115.904,
+      "title": "“Free Speech platforms cannot exist; if there is a ‘deplatform’ button…",
+      "url": "https://dergigi.com/2024/03/25/speaking-freely-online/"
+    },
+    {
+      "startTime": 4115.904,
+      "endTime": 4669.768,
+      "title": "asknostr on passkeys, and why we think they’ll make things worse over…",
+      "url": "https://njump.me/nevent1qqs8mnlq5lgxceec4u7a3qkzxaguyqm347w9l6vmp4mg7ht5064qjncpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nl6v27c"
+    },
+    {
+      "startTime": 4669.768,
+      "endTime": 4961.0,
+      "title": "Starbug from CCC pwning TouchID biometrics from a high-res photo…",
+      "url": "https://media.ccc.de/v/31c3_-_6450_-_de_-_saal_1_-_201412272030_-_ich_sehe_also_bin_ich_du_-_starbug#t=1859"
+    },
+    {
+      "startTime": 4961.0,
+      "endTime": 5412.0,
+      "title": "Multi-sig for nostr with FROSTR",
+      "url": "https://github.com/nickfarrow/frostr"
+    }
+  ]
+}
