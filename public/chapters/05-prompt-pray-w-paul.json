@@ -1,0 +1,77 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#05: Prompt & Pray w/ Paul",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 5, Prompt & Pray w/ Paul.",
+  "fileName": "05 - Combined - Snap to Snap.mp3",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 443.208,
+      "title": "Paul and his awesome nostr t-shirt",
+      "url": "https://njump.me/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8"
+    },
+    {
+      "startTime": 443.208,
+      "endTime": 1023.372,
+      "title": "\"You need to be okay with people getting rekt\""
+    },
+    {
+      "startTime": 1023.372,
+      "endTime": 1596.42,
+      "title": "Expressiveness and free speech online",
+      "url": "https://dergigi.com/2024/03/25/speaking-freely-online/"
+    },
+    {
+      "startTime": 1596.42,
+      "endTime": 2194.044,
+      "title": "Mutiny & bitcoin UX that's too easy"
+    },
+    {
+      "startTime": 2194.044,
+      "endTime": 2709.636,
+      "title": "GenZ doesn't know shit about files and folders",
+      "url": "https://futurism.com/the-byte/gen-z-kids-file-systems"
+    },
+    {
+      "startTime": 2709.636,
+      "endTime": 3314.316,
+      "title": "A Commonplace Book to cyberspace",
+      "url": "https://en.wikipedia.org/wiki/Commonplace_book"
+    },
+    {
+      "startTime": 3314.316,
+      "endTime": 3769.38,
+      "title": "Liberal vs Conservative sentiment in social environments"
+    },
+    {
+      "startTime": 3769.38,
+      "endTime": 4385.772,
+      "title": "7-generation thinking"
+    },
+    {
+      "startTime": 4385.772,
+      "endTime": 4875.108,
+      "title": "Peterson Fallacy / God vs Bitcoin",
+      "url": "https://youtu.be/Xh0HW-GS-zk"
+    },
+    {
+      "startTime": 4875.108,
+      "endTime": 5415.0,
+      "title": "Rough consensus and Pieter Wuille",
+      "url": "https://scholar.google.com/citations?user=bi4fAa0AAAAJ&hl=en"
+    },
+    {
+      "startTime": 5415.0,
+      "endTime": 5956.5,
+      "title": "Where do new ideas come from?"
+    },
+    {
+      "startTime": 5956.5,
+      "endTime": 6498.0,
+      "title": "Prompting & Praying for An Internet Worth Having",
+      "url": "https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"
+    }
+  ]
+}

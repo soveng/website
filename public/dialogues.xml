@@ -3076,6 +3076,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.sovereignengineering.io/20d8fed3d974416aed076f70d7ed203f40e462f8f9581ae85f97f9cbcf3f34d4.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/409edb5b9bdf2a76b0b94747667e815f9388c80b0ffed213cf0b4d4346bc3c72.mp3" length="51983084" type="audio/mpeg"/>
       <podcast:person href="https://paul.lol/" img="https://paul.lol/waffle_animated.gif" group="cast" role="guest">Paul</podcast:person>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/05-prompt-pray-w-paul.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
