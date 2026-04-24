@@ -1,6 +1,7 @@
-import type { APIRoute, GetStaticPaths } from "astro";
-import sharp from "sharp";
-import { getEpisodes, type Episode } from "@/lib/podcast";
+import type { APIRoute, GetStaticPaths } from 'astro';
+import sharp from 'sharp';
+
+import { getEpisodes, type Episode } from '@/lib/podcast';
 
 const WIDTH = 1200;
 const HEIGHT = 630;
@@ -12,19 +13,14 @@ const TITLE_MAX_UNITS = 16;
 const SUBTITLE_MAX_UNITS = 30;
 
 function escapeXml(value: string): string {
-  return value
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/\"/g, "&quot;")
-    .replace(/'/g, "&#39;");
+  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
 function estimateUnits(text: string): number {
   let total = 0;
 
   for (const char of text) {
-    if (char === " ") {
+    if (char === ' ') {
       total += 0.35;
     } else if (/[WMQG@#%&]/.test(char)) {
       total += 1.15;
@@ -45,7 +41,7 @@ function estimateUnits(text: string): number {
 }
 
 function truncateToUnits(text: string, maxUnits: number): string {
-  let out = "";
+  let out = '';
 
   for (const char of text) {
     const next = `${out}${char}`;
@@ -55,13 +51,13 @@ function truncateToUnits(text: string, maxUnits: number): string {
     out = next;
   }
 
-  return out.trimEnd().replace(/[.…]+$/, "") + "…";
+  return `${out.trimEnd().replace(/[.…]+$/, '')}…`;
 }
 
 function wrapText(text: string, maxUnits: number, maxLines: number): string[] {
   const words = text.trim().split(/\s+/).filter(Boolean);
   const lines: string[] = [];
-  let current = "";
+  let current = '';
   let consumedAllWords = true;
 
   for (let i = 0; i < words.length; i += 1) {
@@ -112,8 +108,8 @@ async function loadCoverBuffer(imageUrl: string): Promise<Buffer | null> {
       </svg>`);
 
     return await sharp(Buffer.from(arrayBuffer))
-      .resize(COVER_SIZE, COVER_SIZE, { fit: "cover", position: "centre" })
-      .composite([{ input: roundedCorners, blend: "dest-in" }])
+      .resize(COVER_SIZE, COVER_SIZE, { fit: 'cover', position: 'centre' })
+      .composite([{ input: roundedCorners, blend: 'dest-in' }])
       .png()
       .toBuffer();
   } catch {
@@ -140,16 +136,12 @@ function buildBackgroundSvg(): Buffer {
 
 function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
   const titleLines = wrapText(episode.title, TITLE_MAX_UNITS, 3);
-  const titleTspans = titleLines
-    .map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`)
-    .join("");
+  const titleTspans = titleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`).join('');
 
-  const heightLine = episode.blockHeight ? `${episode.blockHeight}` : "";
-  const metaLine = [heightLine, episode.pubDate].filter(Boolean).join(" • ") || "No Solutions";
-  const subtitleLines = wrapText(episode.subtitle || "No solutions, only trade-offs.", SUBTITLE_MAX_UNITS, 6);
-  const subtitleTspans = subtitleLines
-    .map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 28}">${escapeXml(line)}</tspan>`)
-    .join("");
+  const heightLine = episode.blockHeight ? `${episode.blockHeight}` : '';
+  const metaLine = [heightLine, episode.pubDate].filter(Boolean).join(' • ') || 'No Solutions';
+  const subtitleLines = wrapText(episode.subtitle || 'No solutions, only trade-offs.', SUBTITLE_MAX_UNITS, 6);
+  const subtitleTspans = subtitleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 28}">${escapeXml(line)}</tspan>`).join('');
 
   const TITLE_Y = 203;
   const titleBottom = TITLE_Y + (titleLines.length - 1) * 58;
@@ -157,7 +149,7 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
   const subtitleY = metaY + 45;
 
   const fallbackMarkup = hasCover
-    ? ""
+    ? ''
     : `<rect x="${COVER_X}" y="${COVER_Y}" width="${COVER_SIZE}" height="${COVER_SIZE}" rx="18" fill="#121212" />
        <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 - 10}" text-anchor="middle" fill="#F7931A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">NO</text>
        <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 + 28}" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SOLUTIONS</text>`;
@@ -198,22 +190,20 @@ export const GET: APIRoute = async ({ props }) => {
       width: WIDTH,
       height: HEIGHT,
       channels: 4,
-      background: "#050505",
+      background: '#050505',
     },
   }).composite([
     { input: backgroundSvg, left: 0, top: 0 },
-    ...(coverBuffer
-      ? [{ input: coverBuffer, left: COVER_X, top: COVER_Y }]
-      : []),
+    ...(coverBuffer ? [{ input: coverBuffer, left: COVER_X, top: COVER_Y }] : []),
     { input: foregroundSvg, left: 0, top: 0 },
   ]);
 
   const png = await image.png().toBuffer();
 
-  return new Response(png, {
+  return new Response(new Uint8Array(png), {
     headers: {
-      "Content-Type": "image/png",
-      "Cache-Control": "public, max-age=31536000, immutable",
+      'Content-Type': 'image/png',
+      'Cache-Control': 'public, max-age=31536000, immutable',
     },
   });
 };
