@@ -1438,6 +1438,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <podcast:person href="https://www.otherstuff.studio/thegoodstuff" img="https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg" group="cast" role="guest">Pete</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/6229f6f36c99bf5c417cb2d0de2321b808001188ffff2b16a13241d0134048c0.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/12-the-windy-lawnmower-stuff-w-pete.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pete" type="lnaddress" address="pw@primal.net" split="100"/>
