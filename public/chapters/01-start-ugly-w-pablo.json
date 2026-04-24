@@ -1,0 +1,57 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#01: Start Ugly w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 1, Start Ugly w/ Pablo.",
+  "fileName": "01 - Start Ugly.mp3",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 237.852,
+      "title": "Why starting ugly and shipping early is hard"
+    },
+    {
+      "startTime": 237.852,
+      "endTime": 599.879,
+      "title": "The ugliest thing that Pablo ever shipped"
+    },
+    {
+      "startTime": 599.879,
+      "endTime": 931.847,
+      "title": "“Happiness is shipping”",
+      "url": "https://world.hey.com/dhh/that-shipping-feeling-b7c8c565"
+    },
+    {
+      "startTime": 931.847,
+      "endTime": 1243.556,
+      "title": "Make it real first, you can make it pretty later"
+    },
+    {
+      "startTime": 1243.556,
+      "endTime": 1553.122,
+      "title": "Getting into the habit of shipping"
+    },
+    {
+      "startTime": 1553.122,
+      "endTime": 1865.333,
+      "title": "Highlighter and the hang-up of shipping something big"
+    },
+    {
+      "startTime": 1865.333,
+      "endTime": 2176.222,
+      "title": "How nostr allows you to have cash flow from the get-go"
+    },
+    {
+      "startTime": 2176.222,
+      "endTime": 2481.836,
+      "title": "value4value for artists and devs"
+    },
+    {
+      "startTime": 2481.836,
+      "endTime": 2798.0,
+      "title": "What DHH & 37Signals got right",
+      "url": "https://world.hey.com/dhh"
+    }
+  ]
+}
