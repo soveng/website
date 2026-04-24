@@ -9,29 +9,29 @@
     {
       "startTime": 0,
       "endTime": 377.0,
-      "title": "What is this No Solutions thing anyway?",
+      "title": "No Solutions",
       "url": "https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"
     },
     {
       "startTime": 377.0,
       "endTime": 754.0,
-      "title": "Why is nostr exciting for developers?"
+      "title": "Nostr Developers"
     },
     {
       "startTime": 754.0,
       "endTime": 1134.816,
-      "title": "What is the perfect nostr app, and why can’t there be THE perfect nostr…"
+      "title": "Perfect Nostr App"
     },
     {
       "startTime": 1134.816,
       "endTime": 1517.504,
-      "title": "Blossom, blossom, and more blossom",
+      "title": "Blossom Everywhere",
       "url": "https://github.com/hzrd149/blossom"
     },
     {
       "startTime": 1517.504,
       "endTime": 1885.0,
-      "title": "Freedom Tech Building Blocks"
+      "title": "Freedom Stack"
     },
     {
       "startTime": 1885.0,
@@ -41,33 +41,33 @@
     {
       "startTime": 2262.0,
       "endTime": 2639.0,
-      "title": "Nostr has data integrity, but no data guarantees"
+      "title": "Integrity vs Guarantees"
     },
     {
       "startTime": 2639.0,
       "endTime": 2974.72,
-      "title": "Fault tolerance vs. efficiency"
+      "title": "Fault Tolerance"
     },
     {
       "startTime": 2974.72,
       "endTime": 3393.0,
-      "title": "eCash fixes 402",
+      "title": "Ecash Fixes 402",
       "url": "https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s/episode/MDk5YmI0NTgtM2E3MC00ZjM4LWIxNzgtZGJhYTg4M2U5MjU2"
     },
     {
       "startTime": 3393.0,
       "endTime": 3770.0,
-      "title": "The magic of the nostr view-only mode"
+      "title": "View-Only Magic"
     },
     {
       "startTime": 3770.0,
       "endTime": 4208.368,
-      "title": "How to monetize without putting yourself in the middle?"
+      "title": "Monetization Trade-offs"
     },
     {
       "startTime": 4208.368,
       "endTime": 4524.0,
-      "title": "The YouTube like count is a lie"
+      "title": "Fake Like Counts"
     }
   ]
 }
