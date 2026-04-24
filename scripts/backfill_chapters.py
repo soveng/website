@@ -82,11 +82,12 @@ def parse_duration(raw: str) -> int:
 
 def load_episode_meta(number: str) -> EpisodeMeta:
     xml = XML_PATH.read_text()
+    number_re = re.compile(rf'^#?0*{int(number)}:')
     for match in ITEM_RE.finditer(xml):
         item_xml = match.group(0)
         block = match.group(1)
         title = extract_tag(block, 'title')
-        if not title.startswith(f'{int(number)}:'):
+        if not number_re.match(title):
             continue
         return EpisodeMeta(
             number=f'{int(number):02d}',
