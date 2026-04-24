@@ -1,0 +1,70 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "20: Archipelago Meshtadels w/ Shadrach",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 20, Archipelago Meshtadels w/ Shadrach.",
+  "fileName": "20 - Archipelago Meshtadels.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 393.801,
+      "title": "The episode opens discussing the podcasting 2.0 publishing workflow: AI…"
+    },
+    {
+      "startTime": 393.801,
+      "endTime": 1093.135,
+      "title": "Shadrach's DeMu journey: tried to orange pill Austin musicians, but they…"
+    },
+    {
+      "startTime": 1093.135,
+      "endTime": 1436.668,
+      "title": "Shadrach's path: punk rock DIY ethos to sysadmin, industrial Bitcoin…"
+    },
+    {
+      "startTime": 1436.668,
+      "endTime": 1951.801,
+      "title": "\"I'm here to orange pill the Amish\": Shadrach moved to Lancaster, PA for…"
+    },
+    {
+      "startTime": 1951.801,
+      "endTime": 2688.935,
+      "title": "\"Bitcoin doesn't need more believers. Bitcoin needs more understanders.\""
+    },
+    {
+      "startTime": 2688.935,
+      "endTime": 3024.668,
+      "title": "Indie Hub partnership: watch independent films on day one. Directors…"
+    },
+    {
+      "startTime": 3024.668,
+      "endTime": 3628.333,
+      "title": "The reversed marketplace: instead of broadcasting what you sell (which…"
+    },
+    {
+      "startTime": 3628.333,
+      "endTime": 4123.335,
+      "title": "AtoB protocol: Shadrach co-authored it with Gzuuus to make ride-sharing…"
+    },
+    {
+      "startTime": 4123.335,
+      "endTime": 4643.868,
+      "title": "Web of trust is Nostr's killer feature: people wrote about it in the…"
+    },
+    {
+      "startTime": 4643.868,
+      "endTime": 5179.401,
+      "title": "Nostr clicked for Shadrach immediately after growing up with PGP. In his…"
+    },
+    {
+      "startTime": 5179.401,
+      "endTime": 5728.735,
+      "title": "On retirement: moved to Lancaster thinking he'd chill out, immediately…"
+    },
+    {
+      "startTime": 5728.735,
+      "endTime": 6220.0,
+      "title": "\"We are back again in the early days. And we just have to make it work.\""
+    }
+  ]
+}

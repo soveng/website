@@ -658,6 +658,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.dergigi.com/9f6f0d2a6880016b258182008d2013b3c2abcb6f44beb2f3e0e0deb07ec1af24.jpg"/>
       <podcast:person href="https://njump.to/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx" img="" group="cast" role="guest">Shadrach</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/4736e08d3ac3f3e75195990f11c9ecaa213ae5a7e0d3b07508f418ffd238e9b3.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/20-archipelago-meshtadels-w-shadrach.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Shadrach" type="lnaddress" address="shadrach@cluborange.org" split="100"/>
