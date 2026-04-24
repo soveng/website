@@ -597,6 +597,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.dergigi.com/7ba994b11ea5b7a7413c4feeed1e214db56ea150a009020d360988e7adff2727.jpg"/>
       <podcast:person href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk" img="" group="cast" role="guest">Martti Malmi</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/cd8cce4d4cd2e327788a79e221e8437da24a297b707f1f8a0b0ef835846202c4.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/21-hashtree-nostr-vpn-and-iris-w-martti-malmi.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Martti Malmi" type="lnaddress" address="npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk@npub.cash" split="100"/>

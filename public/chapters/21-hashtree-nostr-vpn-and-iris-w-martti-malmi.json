@@ -1,0 +1,80 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 21, Hashtree, Nostr VPN, and Iris w/ Martti Malmi.",
+  "fileName": "21 - Hashtree, Nostr VPN, and Iris.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 529.311,
+      "title": "Martti's GitHub annoyance spawned Hashtree: a content-addressed file…",
+      "url": "https://hashtree.cc"
+    },
+    {
+      "startTime": 529.311,
+      "endTime": 745.949,
+      "title": "The WebRTC mesh layer complements Blossom: peers find each other via…",
+      "url": "https://github.com/mmalmi/hashtree/tree/master/ts/packages/hashtree-nostr/src/webrtc"
+    },
+    {
+      "startTime": 745.949,
+      "endTime": 1081.316,
+      "title": "Iris Browser loads apps from Hashtree URLs, bypassing web hosting…",
+      "url": "https://github.com/mmalmi/iris-browser"
+    },
+    {
+      "startTime": 1081.316,
+      "endTime": 1561.547,
+      "title": "Double Ratchet messaging on Nostr: works well for two-party sessions…",
+      "url": "https://github.com/mmalmi/nostr-double-ratchet"
+    },
+    {
+      "startTime": 1561.547,
+      "endTime": 2065.513,
+      "title": "The window of opportunity: if freedom tech developers stop building now…",
+      "url": "https://gwern.net/bitcoin-is-worse-is-better"
+    },
+    {
+      "startTime": 2065.513,
+      "endTime": 2444.08,
+      "title": "AI agents will eat network effects: your agent queries ten platforms…",
+      "url": "https://njump.to/nevent1qqswn8nres9nute8w3h460gexpe2qqf44cvccqhgazt4ljrjsu7vafcpr9mhxue69uhhqun9d45h2mfwwpexjmtpdshxuet59upzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyg22l70"
+    },
+    {
+      "startTime": 2444.08,
+      "endTime": 2716.447,
+      "title": "The Ethereum confession: social nouns NFTs, Ethereum login in early…"
+    },
+    {
+      "startTime": 2716.447,
+      "endTime": 3027.813,
+      "title": "Early Bitcoin: first commit around early 2010, ran bitcoin.org, built…",
+      "url": "https://njump.to/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gauwx77"
+    },
+    {
+      "startTime": 3027.813,
+      "endTime": 3439.38,
+      "title": "Identity is prismatic: as moot argued in his SXSW talk, you're not the…",
+      "url": "https://youtu.be/e3Zs74IH0mc"
+    },
+    {
+      "startTime": 3439.38,
+      "endTime": 3820.347,
+      "title": "Local agents as a privacy layer: if your AI agent is your interface…"
+    },
+    {
+      "startTime": 3820.347,
+      "endTime": 4289.513,
+      "title": "FIPS is Martti's most exciting Nostr project outside his own work…",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 4289.513,
+      "endTime": 4679.0,
+      "title": "Martti's ask: use Hashtree, default your repos to hashtree remotes…",
+      "url": "https://hashtree.cc"
+    }
+  ]
+}
