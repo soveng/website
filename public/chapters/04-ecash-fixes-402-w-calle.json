@@ -9,69 +9,69 @@
     {
       "startTime": 0,
       "endTime": 454.185,
-      "title": "Where is the Utopia that the internet promised?"
+      "title": "Lost Utopia"
     },
     {
       "startTime": 454.185,
       "endTime": 986.935,
-      "title": "Tech as a tool; is tech always neutral?"
+      "title": "Neutral Technology"
     },
     {
       "startTime": 986.935,
       "endTime": 1501.528,
-      "title": "Centralizing vs. Monopolizing"
+      "title": "Centralizing vs Monopolizing"
     },
     {
       "startTime": 1501.528,
       "endTime": 1947.433,
-      "title": "Blinded custodian vs regular custodian"
+      "title": "Blinded Custodians"
     },
     {
       "startTime": 1947.433,
       "endTime": 2433.275,
-      "title": "Cryptography is Not Enough",
+      "title": "Cryptography Isn't Enough",
       "url": "https://dergigi.com/2022/09/10/cryptography-is-not-enough/"
     },
     {
       "startTime": 2433.275,
       "endTime": 2903.192,
-      "title": "Electronic Cash vs Digital Cash (CBDCs)",
+      "title": "Ecash vs CBDCs",
       "url": "https://cbdctracker.org/"
     },
     {
       "startTime": 2903.192,
       "endTime": 3563.417,
-      "title": "“You are the product” vs “Subscription Hell”",
+      "title": "Product vs Subscription",
       "url": "https://dergigi.com/threads/attention"
     },
     {
       "startTime": 3563.417,
       "endTime": 3854.847,
-      "title": "Information wants to be free",
+      "title": "Information Freedom",
       "url": "https://dergigi.com/2021/12/30/the-freedom-of-value/"
     },
     {
       "startTime": 3854.847,
       "endTime": 4383.06,
-      "title": "Scarcity in cyberspace: compute, storage, networking",
+      "title": "Cyberspace Scarcity",
       "url": "https://njump.me/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g"
     },
     {
       "startTime": 4383.06,
       "endTime": 4993.305,
-      "title": "Cairo: https://github.com/starkware-libs/cairo",
+      "title": "Cairo",
       "url": "https://github.com/starkware-libs/cairo"
     },
     {
       "startTime": 4993.305,
       "endTime": 5355.167,
-      "title": "Bitcoin is not only the internet of money, but it is the money of the…",
+      "title": "Money of Internet",
       "url": "https://bitcoin-resources.com/books/categories/aantonop"
     },
     {
       "startTime": 5355.167,
       "endTime": 5842.0,
-      "title": "Hugs 🫂"
+      "title": "Hugs"
     }
   ]
 }
