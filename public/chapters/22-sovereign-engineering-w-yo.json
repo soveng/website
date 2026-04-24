@@ -9,57 +9,62 @@
     {
       "startTime": 0,
       "endTime": 402.8,
-      "title": "Gigi's AI setup: voice prompts via vibeline to brainstorm, brainstorm to…",
+      "title": "Gigi's AI Setup",
+
       "url": "https://github.com/dergigi/vibeline"
     },
     {
       "startTime": 402.8,
       "endTime": 805.6,
-      "title": "\"Are you human?\" vs \"Are you useful?\" -- the only question that matters"
+      "title": "Human vs Useful"
     },
     {
       "startTime": 805.6,
       "endTime": 1152.696,
-      "title": "Routing models: OpenRouter and Routstr now route between thinking and…",
+      "title": "Routing Models",
+
       "url": "https://openrouter.ai/"
     },
     {
       "startTime": 1152.696,
       "endTime": 1540.064,
-      "title": "High barrier to entry, no option to leave, \"in it for the right reasons\"…"
+      "title": "High Barrier to Entry"
     },
     {
       "startTime": 1540.064,
       "endTime": 2154.064,
-      "title": "Fabian's NIP-17 plugin for OpenClaw: Nostr DMs as a transport layer for…",
+      "title": "Fabian's NIP-17 Plugin",
+
       "url": "https://github.com/fabianfabian/openclaw-nostr-nip17"
     },
     {
       "startTime": 2154.064,
       "endTime": 2418.192,
-      "title": "Pip's Vertex demo: purely social web-of-trust metrics already handle…",
+      "title": "Pip's Vertex Demo",
+
       "url": "https://vertexlab.io/"
     },
     {
       "startTime": 2418.192,
       "endTime": 2819.6,
-      "title": "But SEC-06's energy spilled into SEC-07: first week was one of the most…"
+      "title": "SEC-06 into SEC-07"
     },
     {
       "startTime": 2819.6,
       "endTime": 3222.4,
-      "title": "\"DNS is a shitcoin\" -- direct quote from Jonathan"
+      "title": "DNS is a Shitcoin"
     },
     {
       "startTime": 3222.4,
       "endTime": 3654.912,
-      "title": "Tollgate on balloons: a gorilla Starlink, \"we are all choked by the…",
+      "title": "TollGate on Balloons",
+
       "url": "https://tollgate.me/"
     },
     {
       "startTime": 3654.912,
       "endTime": 4028.0,
-      "title": "\"No Solutions, only trade-offs.\""
+      "title": "No Solutions, Only Trade-offs"
     }
   ]
 }
