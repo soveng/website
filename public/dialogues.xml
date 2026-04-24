@@ -726,6 +726,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.dergigi.com/1bb6d77f7465203df0edb2004b6f4bb1bb2f60dc55eb7a92b2174e2ad25b6ceb.jpg"/>
       <podcast:person href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft" img="" group="cast" role="guest">Pablo</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/5909b76ff9685e3c5234cc8844b9ac51a5b6331a1c682e7168675e4d236b3805.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/19-romantically-shitting-on-paywalls-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>

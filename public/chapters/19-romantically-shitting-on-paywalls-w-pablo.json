@@ -1,0 +1,70 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "19: Romantically Shitting on Paywalls w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 19, Romantically Shitting on Paywalls w/ Pablo.",
+  "fileName": "19 - Romantically Shitting on Paywalls.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 355.523,
+      "title": "Agents tried to fix world hunger: made a Google Doc and a React app…"
+    },
+    {
+      "startTime": 355.523,
+      "endTime": 620.505,
+      "title": "Agora: a Nostr client starting from the premise that you only care about…"
+    },
+    {
+      "startTime": 620.505,
+      "endTime": 966.968,
+      "title": "Citizen journalism use case: pseudonymous publishing where a known…"
+    },
+    {
+      "startTime": 966.968,
+      "endTime": 1285.831,
+      "title": "Identity migration for stolen keys vs. key loss recovery: two different…"
+    },
+    {
+      "startTime": 1285.831,
+      "endTime": 1642.517,
+      "title": "What you can monetize is not the content itself but the relationship…"
+    },
+    {
+      "startTime": 1642.517,
+      "endTime": 2122.996,
+      "title": "Substack's unfixable problem: it's a function of size, always Pareto, 20…"
+    },
+    {
+      "startTime": 2122.996,
+      "endTime": 2470.323,
+      "title": "All content types competing under the same lens: why every platform…"
+    },
+    {
+      "startTime": 2470.323,
+      "endTime": 2913.697,
+      "title": "Nostr's promise: many small markets strictly superior to one big…"
+    },
+    {
+      "startTime": 2913.697,
+      "endTime": 3201.792,
+      "title": "Young people craving real connections over influencer slop, drawn to…"
+    },
+    {
+      "startTime": 3201.792,
+      "endTime": 3614.975,
+      "title": "Email marketers already know: own the list, everything else is a funnel"
+    },
+    {
+      "startTime": 3614.975,
+      "endTime": 3880.845,
+      "title": "Most people perceive Nostr as \"the crypto app\" -- we're not at the…"
+    },
+    {
+      "startTime": 3880.845,
+      "endTime": 4235.0,
+      "title": "\"We've been on this professionalizing mode for the past six to nine…"
+    }
+  ]
+}
