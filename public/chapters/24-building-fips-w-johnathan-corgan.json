@@ -1,0 +1,52 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "24: Building FIPS w/ Johnathan Corgan",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 24, Building FIPS w/ Johnathan Corgan.",
+  "fileName": "24 - Building FIPS.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 294.8,
+      "title": "Why FIPS started with Arjen asking for networking that does not depend…",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 294.8,
+      "endTime": 536.5,
+      "title": "Transport-agnostic networking: Ethernet, Bluetooth, UDP overlays, Tor…"
+    },
+    {
+      "startTime": 536.5,
+      "endTime": 804.75,
+      "title": "Why robustness under ugly conditions matters more than looking elegant…"
+    },
+    {
+      "startTime": 804.75,
+      "endTime": 1151.276,
+      "title": "The next FIPS release: fewer unnecessary pieces, stronger protocol…"
+    },
+    {
+      "startTime": 1151.276,
+      "endTime": 1431.952,
+      "title": "Why Nostr feels miraculous if you remember the world before it, even if…"
+    },
+    {
+      "startTime": 1431.952,
+      "endTime": 1590.228,
+      "title": "Claude Code wrote most of FIPS only after two months of protocol…",
+      "url": "https://www.anthropic.com/claude-code"
+    },
+    {
+      "startTime": 1590.228,
+      "endTime": 1877.75,
+      "title": "Agentic coding as a force multiplier, not a substitute for thought: bad…"
+    },
+    {
+      "startTime": 1877.75,
+      "endTime": 2146.0,
+      "title": "\"You can just do things\""
+    }
+  ]
+}

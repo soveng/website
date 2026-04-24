@@ -90,6 +90,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <itunes:image href="https://haven.dergigi.com/43a84a4d016086ec605cf0f77579cacf758ff5388d553ffed853b739d7e23243.jpg"/>
       <podcast:person href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k" img="" group="cast" role="guest">Johnathan Corgan</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/69f783d5a36a8780ac1f1fc4e4d279fd908a424cf6129e3d4ec80c97d3f9ec35.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/24-building-fips-w-johnathan-corgan.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
