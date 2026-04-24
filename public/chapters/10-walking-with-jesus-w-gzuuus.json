@@ -1,0 +1,73 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#10: Walking with Jesus w/ gzuuus",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 10, Walking with Jesus w/ gzuuus.",
+  "fileName": "10 - Walking with Jesus.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 493.912,
+      "title": "Pablo's Roo Setup",
+      "url": "https://github.com/jodobear/sparcaroo"
+    },
+    {
+      "startTime": 493.912,
+      "endTime": 962.0,
+      "title": "What agents to trust?"
+    },
+    {
+      "startTime": 962.0,
+      "endTime": 1311.288,
+      "title": "Relays as Tamagochis"
+    },
+    {
+      "startTime": 1311.288,
+      "endTime": 1924.0,
+      "title": "\"You never need an API key for anything\""
+    },
+    {
+      "startTime": 1924.0,
+      "endTime": 2385.704,
+      "title": "Closed vs open-source models"
+    },
+    {
+      "startTime": 2385.704,
+      "endTime": 2886.0,
+      "title": "\"It's gonna be permissionless or hell\""
+    },
+    {
+      "startTime": 2886.0,
+      "endTime": 3358.84,
+      "title": "The switcharoo from advertisements to training data"
+    },
+    {
+      "startTime": 3358.84,
+      "endTime": 3848.0,
+      "title": "Are LLMs symbiotic or parasitic?"
+    },
+    {
+      "startTime": 3848.0,
+      "endTime": 4329.0,
+      "title": "Zapping as a conscious action",
+      "url": "https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4g3uu9lr"
+    },
+    {
+      "startTime": 4329.0,
+      "endTime": 4738.312,
+      "title": "Constraints, policing, and chilling effects"
+    },
+    {
+      "startTime": 4738.312,
+      "endTime": 5414.024,
+      "title": "IP addresses as scarce assets"
+    },
+    {
+      "startTime": 5414.024,
+      "endTime": 5772.0,
+      "title": "Sovereign Engineering is dialogical too",
+      "url": "https://sovereignengineering.io/"
+    }
+  ]
+}

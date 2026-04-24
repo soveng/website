@@ -1846,6 +1846,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <podcast:person href="https://nostree.me/gzuuus" img="https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png" group="cast" role="guest">Gzuuus</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/40dcfcace21401f84692fa154a82ea41bce86b80b18ac4da988f700d39f5319b.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/10-walking-with-jesus-w-gzuuus.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Gzuuus" type="lnaddress" address="nostrkid@coinos.io" split="100"/>
