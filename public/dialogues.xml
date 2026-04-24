@@ -3243,6 +3243,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.dergigi.com/c58e16aab568de784945396682f283d569273f2db6425edb090000a8ce1b224d.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/f00e902261b524870c8ef2da36e62666f0964adfccd20dd6d020d7d6da6adc29.mp3" length="46738988" type="audio/mpeg"/>
       <podcast:person href="https://cashu.space/" img="https://avatars.githubusercontent.com/u/93376500" group="cast" role="guest">Calle</podcast:person>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/04-ecash-fixes-402-w-calle.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
