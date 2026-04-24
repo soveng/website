@@ -16,8 +16,9 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <width>144</width>
       <height>144</height>
     </image>
-    <itunes:category text="Technology"/>
-    <itunes:category text=""/>
+    <itunes:category text="Technology">
+      <itunes:category text="Software How-To"/>
+    </itunes:category>
     <podcast:medium>podcast</podcast:medium>
     <podcast:person href="https://dergigi.com/" img="https://dergigi.com/assets/images/avatars/09.png" group="cast" role="host">Gigi</podcast:person>
     <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -27,17 +28,20 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <podcast:block>no</podcast:block>
     <podcast:license url="">cc-by-sa-4.0</podcast:license>
     <itunes:owner>
-      <itunes:email/>
+      <itunes:email>no-solutions@sovereignengineering.io</itunes:email>
       <itunes:name>Gigi</itunes:name>
     </itunes:owner>
-    <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+    <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
     <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
     <itunes:author>Gigi</itunes:author>
-    <managingEditor>Gigi</managingEditor>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>No solutions, only trade-offs.</itunes:subtitle>
+    <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
+    <itunes:explicit>false</itunes:explicit>
+    <managingEditor>no-solutions@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Thu, 16 Apr 2026 14:24:22 +0000</pubDate>
-    <lastBuildDate>Thu, 16 Apr 2026 14:26:35 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 14:35:36 +0000</lastBuildDate>
     <category>Technology</category>
-    <category/>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
       <title>24: Building FIPS w/ Johnathan Corgan</title>
@@ -482,7 +486,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <title>22: Sovereign Engineering w/ Yo</title>
       <description><![CDATA[<p>“Permissionless, permissionless, permissionless.”</p> <p><a href="https://njump.to/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm">Yo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p> <p><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">Listen on sovereignengineering.io</a></p> <p>In this dialogue:</p> <ul> <li>Gigi’s AI setup: voice prompts via <a href="https://github.com/dergigi/vibeline">vibeline</a> to brainstorm, brainstorm to implementation plan, cron job that tackles one to-do every 20 minutes, builds overnight</li> <li>One agent per project: dergigi.com/projects, each agent spins up with an nsec and gets to work</li> <li><a href="https://clawhub.ai/dergigi/nihao">Nihao</a>: Gigi’s skill for spinning up Nostr identities from the terminal</li> <li><a href="https://youtu.be/GdgRpiQRsis">Claude Code “Mythos” codewords leaked</a> – swearing at your models actually helps</li> <li>Planner vs developer vs tester: three distinct personas, separation of powers for AI-assisted development</li> <li>Separate sessions for questions vs implementation, like separation of powers</li> <li>“Are you human?” vs “Are you useful?” – the only question that matters</li> <li>PoW + WoT = useful. “Sats are just difficulty-adjusted PoW.”</li> <li><a href="https://youtu.be/BjpDk_iegfc">Dialogical development</a> – Vervaeke on why dialogue, not monologue, is how you actually think</li> <li><a href="https://youtu.be/tfx-mFO3v48">Opponent processing</a> – Vervaeke: competing forces sharpen each other</li> <li><a href="https://youtu.be/bILiVpljIxw">DiaLogos and the importance of walking dialogue</a></li> <li>Opus maximalism ended yesterday: <a href="https://haven.dergigi.com/80561657372afb9d9d479cc7c7a36ca1afc09a0ba50d18668aca50402985eade.htm">Anthropic cutting off OpenClaw</a>, now broke, looking at cheaper models and local hardware</li> <li>Routing models: <a href="https://openrouter.ai/">OpenRouter</a> and <a href="https://routstr.com/">Routstr</a> now route between thinking and simple models automatically</li> <li>Yo’s <a href="https://sovereignengineering.io/">Sovereign Engineering</a> journey: showed up to SEC-04 with no programming experience, three weeks’ notice, on a climbing trip visa</li> <li>SEC-04 was the vibe coding big bang: Paul showed the way, Calle tried to build a <a href="https://cashu.space/">Cashu</a> client live, Paul beat him to it</li> <li>Got offered to join the team because “you are the one who would actually be crazy enough to move to Madeira”</li> <li>“Safe return doubtful”: the <a href="https://en.wikipedia.org/wiki/Imperial_Trans-Antarctic_Expedition">Shackleton</a> ad as a model for SovEng recruitment. No pay, no wages, but glory. Read <a href="https://www.goodreads.com/book/show/139069.Endurance">Endurance</a> by Alfred Lansing.</li> <li>High barrier to entry, no option to leave, “in it for the right reasons” – the SovEng filter</li> <li>“Make the internet a better place.” The actual mission statement.</li> <li><a href="https://sovereignengineering.io/loop#friday-demo-day">Demoing on Demo Day is not optional</a></li> <li><a href="https://sovereignengineering.io/loop">The Weekly Loop</a>: Monday Movement, Tuesday Talks, Wednesday Workshops, Thursday time off, Friday Demo Day</li> <li><a href="https://en.wikipedia.org/wiki/Curral_das_Freiras">Nuns Valley</a> – where the walks happen</li> <li>SEC-06 was about identity and signers. Agentic identity: spin up an nsec, now you can talk. The problem of identity in the age of OpenClaw.</li> <li><a href="https://github.com/fabianfabian/openclaw-nostr-nip17">Fabian’s NIP-17 plugin for OpenClaw</a>: Nostr DMs as a transport layer for agents</li> <li>Yo’s Zig NIP-17 plugin: building the same from scratch in Zig</li> <li><a href="https://github.com/sledtools/pika">MLS, Pika, and pika for OpenClaw</a>: encrypted group messaging for agent fleets</li> <li>The “social media intern” problem: you gave the keys to someone who doesn’t know what they’re doing</li> <li>Social attestation vs cryptographic proof: Yo’s combined approach where clients only display migration events and users decide out-of-band</li> <li>Gzuuus’s identity continuation proposal: simpler, no key management, just OTS timestamps and preimage commitments. Don’t migrate old notes, just continue</li> <li>Pip’s <a href="https://vertexlab.io/">Vertex</a> demo: purely social web-of-trust metrics already handle identity migration in practice</li> <li>“Identity is a social thing” – Vitor was right about that part</li> <li>PortalSDK &amp; the portal team joining SEC-06: hardware signers meeting agentic identity</li> <li>Nostr, <a href="https://github.com/hzrd149/blossom">Blossom</a>, <a href="https://github.com/nicola/nsites">nsites</a>, <a href="https://cashu.space/">Cashu</a> – everything you need without permission</li> <li>“Permissionless, permissionless, permissionless” – we need a new Steve Ballmer</li> <li>SEC-06 was three weeks only. Learned that three weeks is not enough, just a warm-up. Minimum four, six is the sweet spot.</li> <li>But SEC-06’s energy spilled into SEC-07: first week was one of the most energetic ever, hit the ground running</li> <li>“The gray beards and the big brains actually came!”</li> <li>From Tollgate to NoDNS to fuckips to <a href="https://fips.network/">FIPS</a>: the naming history of the Free Internetworking Peering System</li> <li><a href="https://fips.network/">FIPS</a> parties, not LAN parties: running on ESP32 radios, TCP, UDP, VPNs, Tor</li> <li>Jonathan came out of retirement, built <a href="https://fips.network/">FIPS</a> from November to February, and now everyone’s building on top of it</li> <li>“DNS is a shitcoin” – direct quote from Jonathan</li> <li>Martti migrating <a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> onto FIPS, Thomas showed a collaborative drawing board running on FIPS + Tor</li> <li><a href="https://njump.to/nevent1qqsr02uspjehttlljz9rncfzvftkvr6c0c9xyzkqlpv4549wvcr5l7sc43s0a">Quake III server running on FIPS</a></li> <li><a href="https://github.com/nicola/nsites">nsites</a> becoming the default deployment target for demos</li> <li><a href="https://github.com/hzrd149/blossom">Blossom</a>, nsites, <a href="https://nips.nostr.com/60">NIP-60</a>/<a href="https://nips.nostr.com/61">61</a> – all came out of SovEng cohorts and are now in the wild</li> <li><a href="https://btcplusplus.dev/">BTC++</a> coming to Madeira after the summer cohort, first public demo day since SEC-01</li> <li><a href="https://tollgate.me/">Tollgate</a> on balloons: a gorilla Starlink, “we are all choked by the fiber optic cables”</li> <li>Rob’s silent payments over Nostr getting picked up by <a href="https://sparrowwallet.com/">Sparrow</a>: <a href="https://gist.github.com/BoltTouring/5376f9cf02b6949252cd17c2f41b453f">prototype gist</a></li> <li>L402 + nginx: <a href="https://github.com/DhananjayPurohit/paygress">Paygress</a> – pay-per-request HTTP monetization</li> <li>“The most awesome thing is everyone has this project in the back of their head they always wanted to build. Once you’re at Sovereign Engineering, there’s no excuse.”</li> <li><a href="http://npub1ntpqxd0t8pmg6gzjhcwmhs7g7ctcgp693eg7dd9dytcaj96c39dswlwwu5.zignosis.org/">Doom deployed on an nsite</a></li> <li>“After not shitcoining for so long, now I’m addicted to tokens.”</li> <li>“No Solutions, only trade-offs.”</li> </ul> <p>People mentioned:</p> <ul> <li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> (TENEX, Highlighter, SEC co-founder)</li> <li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a> (Nostr VPN, migrating to FIPS)</li> <li><a href="https://njump.to/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8">Paul</a> (showed the vibe coding way at SEC-04)</li> <li><a href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a> (Cashu, live coding at SEC-04)</li> <li><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin</a> (browser, separate sessions for questions)</li> <li><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Jonathan Corgan</a> (FIPS creator, came out of retirement)</li> <li><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> (identity continuation proposal)</li> <li><a href="https://njump.to/npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z">Vitor Pamplona</a> (social-only identity migration)</li> <li><a href="https://njump.to/npub176p7sup477k5738qhxx0hk2n0cty2k5je5uvalzvkvwmw4tltmeqw7vgup">Pip</a> (<a href="https://vertexlab.io/">Vertex</a>, web-of-trust identity demo)</li> <li><a href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr">Arjen</a> (Tollgate, noDNS origins)</li> <li><a href="https://njump.to/npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy">Pete</a> (Pete’s kid doing games on Nostr)</li> <li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a> (TollGate on balloons)</li> <li><a href="https://njump.to/npub1jk9h2jsa8hjmtm9qlcca942473gnyhuynz5rmgve0dlu6hpeazxqc3lqz7">Sir Sleepy</a> (multiple npub power user)</li> <li><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> (nsites resurgence)</li> <li><a href="https://njump.to/npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm">Thomas</a> (collaborative drawing board on FIPS + Tor)</li> <li><a href="https://njump.to/npub1n3w4uts2r4srq3adqu9trp953dflcnw7ppn72tad4htkpsckwcmqjef6um">Rob</a> (silent payments over Nostr, picked up by Sparrow)</li> <li><a href="https://njump.to/npub1jlrs53pkdfjnts29kveljul2sm0actt6n8dxrrzqcersttvcuv3qdjynqn">hodlbod</a> (key rotation proposal)</li> <li><a href="https://njump.to/npub1c878wu04lfqcl5avfy3p5x83ndpvedaxv0dg7pxthakq3jqdyzcs2n8avm">Ben</a> from <a href="https://lnbits.com/">LNbits</a> (hardware Nostr signer)</li> <li><a href="https://njump.to/npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe">Fabian</a> (NIP-17 plugin for OpenClaw)</li> </ul> <p>Projects &amp; tech mentioned:</p> <ul> <li><a href="https://fips.network/">FIPS</a> (Free Internetworking Peering System)</li> <li><a href="https://sovereignengineering.io/">Sovereign Engineering</a> (the program itself)</li> <li><a href="https://openclaw.ai">OpenClaw</a> / ZeroClaw (agent harnesses, rapid prototyping vs security trade-off)</li> <li><a href="https://openai.com/index/codex/">Codex</a> (OpenAI’s coding agent)</li> <li><a href="https://routstr.com/">Routstr</a> (model routing with Cashu payments)</li> <li><a href="https://tollgate.me/">Tollgate</a> (mesh network toll gates, now on balloons)</li> <li><a href="https://vertexlab.io/">Vertex</a> (web-of-trust tools, identity migration demo)</li> <li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> (migrating to FIPS)</li> <li><a href="https://github.com/nicola/nsites">nsites</a> (Nostr-based web hosting, default demo deployment)</li> <li><a href="https://github.com/hzrd149/blossom">Blossom</a> (content-addressed blob storage)</li> <li><a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin)</li> <li><a href="https://clawhub.ai/dergigi/nihao">Nihao</a> (skill for spinning up Nostr identities)</li> <li><a href="https://github.com/sledtools/pika">Pika</a> (MLS-based encrypted messaging for OpenClaw)</li> <li><a href="https://github.com/DhananjayPurohit/paygress">Paygress</a> (L402 nginx, pay-per-request HTTP monetization)</li> <li><a href="https://github.com/fabianfabian/openclaw-nostr-nip17">Fabian’s NIP-17 plugin for OpenClaw</a></li> <li><a href="https://github.com/nullclaw/nullclaw/pull/164">NIP-17 plugin PR for nullclaw</a></li> <li><a href="https://nips.nostr.com/17">NIP-17</a> (encrypted DMs)</li> <li><a href="https://nips.nostr.com/29">NIP-29</a> (relay-based groups)</li> <li><a href="https://nips.nostr.com/60">NIP-60</a> / <a href="https://nips.nostr.com/61">NIP-61</a> (Cashu wallets on Nostr)</li> <li><a href="https://github.com/greenart7c3/Amber">Amber</a> (Android Nostr signer)</li> <li><a href="https://portal.nostrsigner.com/">Portal</a> (hardware Nostr signer cards)</li> <li><a href="https://primal.net/">Primal</a> (signing abilities release)</li> <li><a href="https://sparrowwallet.com/">Sparrow</a> (silent payments integration from Rob’s work)</li> <li><a href="https://github.com/nicola/bpd5">BPD5</a> (key management proposal)</li> <li><a href="https://www.goodreads.com/book/show/139069.Endurance">Endurance</a> (Shackleton’s expedition, Alfred Lansing)</li> <li><a href="https://btcplusplus.dev/">BTC++</a> (coming to Madeira after summer cohort)</li> </ul> <p>Recorded at <a href="https://mempool.space/block/943743">943,743</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/f331687d9f69dbce56d93252fd25ae2c14f96a67455293ee1d0b6d58a6cbeb1c.jpg"/>
-      <enclosure url="https://haven.dergigi.com/15400b0ee1467bfd2ba928c122971a88e5dad464246f15bdad42cb0c043bcf88.m4a" length="66928872" type="audio/mpeg"/>
+      <enclosure url="https://haven.dergigi.com/15400b0ee1467bfd2ba928c122971a88e5dad464246f15bdad42cb0c043bcf88.m4a" length="66928872" type="audio/mp4"/>
       <podcast:person href="https://njump.to/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm" img="" group="cast" role="guest">Yo</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/0a0884a6eab6a84657c6e433f580f35a187bb00965113dca15a738541f1a1e7c.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/22-sovereign-engineering-w-yo.json" type="application/json+chapters"/>
@@ -863,9 +867,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>&nbsp;</p><p>Recorded at <a href="https://mempool.space/block/918425">918,425</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/1dfcf3d679b384e913326b2aecd416ba83f6951245722eea7f7b331d8ae922da.jpg"/>
-      <enclosure url="https://haven.dergigi.com/7e26d75964d18459d8aebd61532c2119bbf9eff687bceb0477bb0fc93b98c6fa.m4a" length="39328626" type="audio/mpeg"/>
+      <enclosure url="https://haven.dergigi.com/7e26d75964d18459d8aebd61532c2119bbf9eff687bceb0477bb0fc93b98c6fa.m4a" length="39328626" type="audio/mp4"/>
       <podcast:person href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr" img="" group="cast" role="guest">Arjen</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.dergigi.com/9c8afb1c899ac1473ac5bb95aba651b0e67326f9e01aec5922f3c9f41d3a4c0d.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/17-organic-tech-w-arjen.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -928,9 +932,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>&nbsp;</p><p>Recorded at <a href="https://mempool.space/block/918200">918,200</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/1925ab25ade145a818fba8fe3b92268c2795e00fdffe545f65cc1aa391b0d33b.jpg"/>
-      <enclosure url="https://haven.dergigi.com/90cc86cea9b5d00eced2c171ca5c405c34bb5e4e0a22eba2486b036c06ca8b66.m4a" length="5156804" type="audio/mpeg"/>
+      <enclosure url="https://haven.dergigi.com/90cc86cea9b5d00eced2c171ca5c405c34bb5e4e0a22eba2486b036c06ca8b66.m4a" length="5156804" type="audio/mp4"/>
       <podcast:person href="https://njump.to/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5" img="" group="cast" role="guest">Sovereign Engineering</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.dergigi.com/dd6bef5b9fefeb3a3c5530115860ea0f3e406077050f1c6aff1975b619095e71.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/16-one-click-and-run-w-sec-05.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -993,9 +997,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>&nbsp;</p><p>Recorded at <a href="https://mempool.space/block/918196">918,196</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/1925ab25ade145a818fba8fe3b92268c2795e00fdffe545f65cc1aa391b0d33b.jpg"/>
-      <enclosure url="https://haven.dergigi.com/693116528a4819fcfbfa7082030aff90d02dafa6f18fc00a745ea72eab8dbbf8.m4a" length="8063784" type="audio/mpeg"/>
+      <enclosure url="https://haven.dergigi.com/693116528a4819fcfbfa7082030aff90d02dafa6f18fc00a745ea72eab8dbbf8.m4a" length="8063784" type="audio/mp4"/>
       <podcast:person href="https://njump.to/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5" img="" group="cast" role="guest">Sovereign Engineering</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.dergigi.com/33a73e498a7041893f398087fa8dd2ad4cf9266c25aa9368baca26989c4e0916.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/15-make-localhost-great-again-w-sec-05.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1016,7 +1020,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#14: Building Browsers w/ Justin</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"I want Nostr to be the perfect thing just for me."</span></p>
-<p><a href="https://njump.me/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> drive to the airport. Recorded October 2025.</span></p>
+<p><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> drive to the airport. Recorded October 2025.</span></p>
 <p><span style="font-weight: 400;">Projects &amp; tech mentioned:</span></p>
 <ul>
 <li><a href="https://github.com/DioxusLabs/blitz"><span style="font-weight: 400;">Blitz</span></a><span style="font-weight: 400;"> (Rust HTML/CSS renderer)</span></li>
@@ -1065,7 +1069,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Nerd-sniped into implementing Mosaic in Zig, then dropping it in two days</span></li>
 <li><span style="font-weight: 400;">What Nostr got right: "good enough"</span></li>
 <li><span style="font-weight: 400;">Binary transport for Nostr relays</span></li>
-<li><span style="font-weight: 400;">Getting rid of DNS: a theme every week at SovEng (</span><a href="https://njump.me/nevent1qqspc3kxtdk8kh6f7auamcwl6ykfkq2dnjxrgtgqnpdm5hvrj00yu4cmuzx4c"><span style="font-weight: 400;">noDNS</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Getting rid of DNS: a theme every week at SovEng (</span><a href="https://njump.to/nevent1qqspc3kxtdk8kh6f7auamcwl6ykfkq2dnjxrgtgqnpdm5hvrj00yu4cmuzx4c"><span style="font-weight: 400;">noDNS</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Claiming names via Nostr events, no .com needed</span></li>
 <li><span style="font-weight: 400;">Web of trust for conflict resolution</span></li>
 <li><span style="font-weight: 400;">Self-signed TLS certs trusted through Nostr identity</span></li>
@@ -1079,9 +1083,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>&nbsp;</p><p>Recorded at <a href="https://mempool.space/block/917999">917,999</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/32a7a7734748536ceafdbeb143e497b368014b9813df05ebb3e487599d89ac0d.jpg"/>
-      <enclosure url="https://haven.dergigi.com/4ab19ca3d197abfe6fa5bb870f0a730ea054ef6c5b9bdbe6fa27e12b6dc52e40.m4a" length="22154846" type="audio/mpeg"/>
+      <enclosure url="https://haven.dergigi.com/4ab19ca3d197abfe6fa5bb870f0a730ea054ef6c5b9bdbe6fa27e12b6dc52e40.m4a" length="22154846" type="audio/mp4"/>
       <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Justin</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.dergigi.com/e5c2b3d3429d87b3cd86652b10470ce17f80f4f667acf2733688f7287b977694.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/14-building-browsers-w-justin.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1092,7 +1096,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">fd60490d-4dc8-4b88-8dac-86d1eb88333a</guid>
       <itunes:subtitle>#14: Building Browsers w/ Justin</itunes:subtitle>
       <itunes:duration>1347</itunes:duration>
-      <link>https://njump.me/nevent1qqsywrx2z0qgz7z07rzuw6ppdxgnwgrlp5aaxn45drhykkcm5cye0pqvcl4ys</link>
+      <link>https://njump.to/nevent1qqsywrx2z0qgz7z07rzuw6ppdxgnwgrlp5aaxn45drhykkcm5cye0pqvcl4ys</link>
       <pubDate>Mon, 31 Mar 2026 08:10:00 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -1102,7 +1106,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#13: The Linux of Social Media w/ hzrd149</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"The identity should be outside of the computer."</span></p>
-<p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
+<p><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
 <p><span style="font-weight: 400;">Libraries &amp; apps mentioned:</span></p>
 <ul>
 <li><a href="https://github.com/hzrd149/applesauce"><span style="font-weight: 400;">Applesauce</span></a></li>
@@ -1213,9 +1217,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/917886">917,886</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/e888e7f64b8cedc553a44ac5e3ed05e5de81abb3c033b6d620cf798211718dcf.jpg"/>
-      <enclosure url="https://haven.sovereignengineering.io/e256db47fb840f116395e36ddb9dee41b17ac884602b2fdb028d056db00d1956.m4a" length="63024184" type="audio/mpeg"/>
+      <enclosure url="https://haven.sovereignengineering.io/e256db47fb840f116395e36ddb9dee41b17ac884602b2fdb028d056db00d1956.m4a" length="63024184" type="audio/mp4"/>
       <podcast:person href="https://hzrd149.com/" img="https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png" group="cast" role="guest">hzrd149</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/45251a336512a568f13f98909ab04aab44259340e6b2a07920af5a8b14ae1743.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/13-the-linux-of-social-media-w-hzrd149.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1226,14 +1230,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">06082b2d-58ce-4100-a363-af79c5109871</guid>
       <itunes:subtitle>#13: The Linux of Social Media w/ hzrd149</itunes:subtitle>
       <itunes:duration>5150</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqqsqavtcdas03svjy60tfwquanz8xd6lh7p0257y46tdrcjcunndr2qgunjfe</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqqsqavtcdas03svjy60tfwquanz8xd6lh7p0257y46tdrcjcunndr2qgunjfe</link>
       <pubDate>Fri, 24 Oct 2025 21:14:39 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, relays, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">"The identity should be outside of the computer."</span></p>
-<p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
+<p><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> contemplate local relays.</span></p>
 <p><span style="font-weight: 400;">Libraries &amp; apps mentioned:</span></p>
 <ul>
 <li><a href="https://github.com/hzrd149/applesauce"><span style="font-weight: 400;">Applesauce</span></a></li>
@@ -1347,7 +1351,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#12: The Windy Lawnmower Stuff w/ Pete</title>
       <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> and </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> and </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
 <ul>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a><span style="font-weight: 400;"> by Gergely Orosz</span></li>
@@ -1374,7 +1378,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Hiring agents via nostr&nbsp;</span></li>
 <li><span style="font-weight: 400;">"If the human has to intervene, something is catastrophically wrong."</span></li>
 <li><span style="font-weight: 400;">Confidence levels of an agent's action&nbsp;</span></li>
-<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.me/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.to/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Offering bounties to solve problems&nbsp;</span></li>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a></li>
 <li><span style="font-weight: 400;">Stock photography is dead&nbsp;</span></li>
@@ -1434,9 +1438,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/914219">914,219</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/213e610e05523e77984284fdb851b6d7f29948a25b1550e0a35723d2e1d472c4.jpg"/>
-      <enclosure url="https://haven.sovereignengineering.io/5b28e6fddd03815a3d3a1df1cbe3d80929e3384038daac6c20838721b8079073.m4a" length="142120278" type="audio/mpeg"/>
+      <enclosure url="https://haven.sovereignengineering.io/5b28e6fddd03815a3d3a1df1cbe3d80929e3384038daac6c20838721b8079073.m4a" length="142120278" type="audio/mp4"/>
       <podcast:person href="https://www.otherstuff.studio/thegoodstuff" img="https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg" group="cast" role="guest">Pete</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/6229f6f36c99bf5c417cb2d0de2321b808001188ffff2b16a13241d0134048c0.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/12-the-windy-lawnmower-stuff-w-pete.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1447,14 +1451,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">f9b3fc29-a5c5-4c50-b0d0-2f18d6ab66d3</guid>
       <itunes:subtitle>#12: The Windy Lawnmower Stuff w/ Pete</itunes:subtitle>
       <itunes:duration>5798</itunes:duration>
-      <link>https://njump.me/nevent1qqs2dh6025kja8y0l3rscjq3f4v8vcmw5e9w8va03rc696qn96jw4ngzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkwes805</link>
+      <link>https://njump.to/nevent1qqs2dh6025kja8y0l3rscjq3f4v8vcmw5e9w8va03rc696qn96jw4ngzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkwes805</link>
       <pubDate>Fri, 24 Oct 2025 19:49:52 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> and </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> and </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
 <ul>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a><span style="font-weight: 400;"> by Gergely Orosz</span></li>
@@ -1481,7 +1485,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Hiring agents via nostr&nbsp;</span></li>
 <li><span style="font-weight: 400;">"If the human has to intervene, something is catastrophically wrong."</span></li>
 <li><span style="font-weight: 400;">Confidence levels of an agent's action&nbsp;</span></li>
-<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.me/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.to/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Offering bounties to solve problems&nbsp;</span></li>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a></li>
 <li><span style="font-weight: 400;">Stock photography is dead&nbsp;</span></li>
@@ -1544,7 +1548,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#11: 10x Less Productive w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
 <ul>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a><span style="font-weight: 400;"> by Gergely Orosz</span></li>
@@ -1571,7 +1575,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Hiring agents via nostr&nbsp;</span></li>
 <li><span style="font-weight: 400;">"If the human has to intervene, something is catastrophically wrong."</span></li>
 <li><span style="font-weight: 400;">Confidence levels of an agent's action&nbsp;</span></li>
-<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.me/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.to/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Offering bounties to solve problems&nbsp;</span></li>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a></li>
 <li><span style="font-weight: 400;">Stock photography is dead&nbsp;</span></li>
@@ -1631,9 +1635,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/901069">901,069</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/54aa09044b01c04cd2e39e8845863fe6c8af70a1a70d2ffc979b5c5f92d6acc4.jpg"/>
-      <enclosure url="https://haven.sovereignengineering.io/12176c5d069e539b4df09f6ab83b7dd49212f78a23d4e1efeb41a36ca9e02992.m4a" length="53256658" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <enclosure url="https://haven.sovereignengineering.io/12176c5d069e539b4df09f6ab83b7dd49212f78a23d4e1efeb41a36ca9e02992.m4a" length="53256658" type="audio/mp4"/>
+      <podcast:person href="https://njump.to/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/6946c79d6247791592b17097a9d63ccf67655640eebbbd4e19510bc4e889ea36.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/11-10x-less-productive-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1643,14 +1647,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">a88dafec-bab2-43e6-96f3-c5ac26c12822</guid>
       <itunes:subtitle>#11: 10x Less Productive w/ Pablo</itunes:subtitle>
       <itunes:duration>5953</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqswyqle9fs9mg93p3kqg7uhz5kwsp8mnup7uch8r7kcnv9tjrdudagp50y35</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqswyqle9fs9mg93p3kqg7uhz5kwsp8mnup7uch8r7kcnv9tjrdudagp50y35</link>
       <pubDate>Fri, 21 Jun 2025 19:42:06 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
 <ul>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a><span style="font-weight: 400;"> by Gergely Orosz</span></li>
@@ -1677,7 +1681,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Hiring agents via nostr&nbsp;</span></li>
 <li><span style="font-weight: 400;">"If the human has to intervene, something is catastrophically wrong."</span></li>
 <li><span style="font-weight: 400;">Confidence levels of an agent's action&nbsp;</span></li>
-<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.me/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.to/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Offering bounties to solve problems&nbsp;</span></li>
 <li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a></li>
 <li><span style="font-weight: 400;">Stock photography is dead&nbsp;</span></li>
@@ -1745,7 +1749,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <p><span style="font-weight: 400;">Books &amp; articles mentioned:</span></p>
 <ul>
 <li><a href="https://ai-2027.com/"><span style="font-weight: 400;">AI 2027</span></a></li>
-<li><a href="https://njump.me/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a></li>
+<li><a href="https://njump.to/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a></li>
 <li><a href="https://www.goodreads.com/book/show/223436601-careless-people"><span style="font-weight: 400;">Careless People</span></a><span style="font-weight: 400;"> by Sarah Wynn-Williams</span></li>
 <li><a href="https://www.goodreads.com/book/show/201874194-takedown"><span style="font-weight: 400;">Takedown</span></a><span style="font-weight: 400;"> by Laila michelwait</span></li>
 <li><a href="https://www.goodreads.com/book/show/1729898.The_Ultimate_Resource"><span style="font-weight: 400;">The Ultimate Resource</span></a><span style="font-weight: 400;"> by Julian L. Simon</span></li>
@@ -1815,7 +1819,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://www.goodreads.com/book/show/201874194-takedown"><span style="font-weight: 400;">Takedown</span></a><span style="font-weight: 400;"> by Laila michelwait</span></li>
 <li><span style="font-weight: 400;">Harry Potter dementors &amp; Momo's time thieves&nbsp;</span></li>
 <li><span style="font-weight: 400;">Facebook &amp; Google as non-human (superhuman) agents&nbsp;</span></li>
-<li><span style="font-weight: 400;">Zapping as a </span><a href="https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4g3uu9lr"><span style="font-weight: 400;">conscious action</span></a></li>
+<li><span style="font-weight: 400;">Zapping as a </span><a href="https://njump.to/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4g3uu9lr"><span style="font-weight: 400;">conscious action</span></a></li>
 <li><span style="font-weight: 400;">Privacy and the internet</span></li>
 <li><span style="font-weight: 400;">Plausible deniability thanks to generative models</span></li>
 <li><span style="font-weight: 400;">Google glasses, glassholes, and Meta's Ray Ben's</span></li>
@@ -1825,7 +1829,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">How do we find out what's real?&nbsp;</span></li>
 <li><span style="font-weight: 400;">Constraints, policing, and chilling effects&nbsp;</span></li>
 <li><span style="font-weight: 400;">Jesus' plans for DVMCP&nbsp;</span></li>
-<li><span style="font-weight: 400;">Hzrd's article on how DVMs are broken (</span><a href="https://njump.me/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Hzrd's article on how DVMs are broken (</span><a href="https://njump.to/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a><span style="font-weight: 400;">)</span></li>
 <li><a href="https://npub.world/npub1uc5emj0zpmsgur65ue5tys5q0g0qs6xljwrkq3nfd4j0wy5qxvlswkas8p"><span style="font-weight: 400;">Don't believe the hype</span></a></li>
 <li><span style="font-weight: 400;">DVMs pre-date MCP tools</span></li>
 <li><span style="font-weight: 400;">Data Vending Machines were supposed to be stupid: put coin in, get stuff out.</span></li>
@@ -1842,9 +1846,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/892372">892,372</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/ccdc616ea53f5084d93b95206269cda48c5b8bde3afb78a9a1e3adb4a0a9ed4d.jpeg"/>
-      <enclosure url="https://haven.sovereignengineering.io/d54b55de3227f4d9d573ea8141a1e208ceef93283b699ad906ae306dffcaa2fc.m4a" length="51642440" type="audio/mpeg"/>
+      <enclosure url="https://haven.sovereignengineering.io/d54b55de3227f4d9d573ea8141a1e208ceef93283b699ad906ae306dffcaa2fc.m4a" length="51642440" type="audio/mp4"/>
       <podcast:person href="https://nostree.me/gzuuus" img="https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png" group="cast" role="guest">Gzuuus</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/40dcfcace21401f84692fa154a82ea41bce86b80b18ac4da988f700d39f5319b.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/10-walking-with-jesus-w-gzuuus.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -1855,7 +1859,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">10e17f5a-826b-4892-803d-089012bd16f7</guid>
       <itunes:subtitle>#10: Walking with Jesus w/ gzuuus</itunes:subtitle>
       <itunes:duration>5772</itunes:duration>
-      <link>https://njump.me/nevent1qqsw5epa7rac25et6t7vcnp3q0ht8cjccps4hkx3tnxhfrhp382lf5gpz3mhxue69uhhyetvv9ujuerpd46hxtnfduqs7amnwvaz7tmwdaehgu3wd4hk6q3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sp9s3vf</link>
+      <link>https://njump.to/nevent1qqsw5epa7rac25et6t7vcnp3q0ht8cjccps4hkx3tnxhfrhp382lf5gpz3mhxue69uhhyetvv9ujuerpd46hxtnfduqs7amnwvaz7tmwdaehgu3wd4hk6q3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sp9s3vf</link>
       <pubDate>Tue, 22 Apr 2025 18:05:02 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -1867,7 +1871,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <p><span style="font-weight: 400;">Books &amp; articles mentioned:</span></p>
 <ul>
 <li><a href="https://ai-2027.com/"><span style="font-weight: 400;">AI 2027</span></a></li>
-<li><a href="https://njump.me/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a></li>
+<li><a href="https://njump.to/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a></li>
 <li><a href="https://www.goodreads.com/book/show/223436601-careless-people"><span style="font-weight: 400;">Careless People</span></a><span style="font-weight: 400;"> by Sarah Wynn-Williams</span></li>
 <li><a href="https://www.goodreads.com/book/show/201874194-takedown"><span style="font-weight: 400;">Takedown</span></a><span style="font-weight: 400;"> by Laila michelwait</span></li>
 <li><a href="https://www.goodreads.com/book/show/1729898.The_Ultimate_Resource"><span style="font-weight: 400;">The Ultimate Resource</span></a><span style="font-weight: 400;"> by Julian L. Simon</span></li>
@@ -1937,7 +1941,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://www.goodreads.com/book/show/201874194-takedown"><span style="font-weight: 400;">Takedown</span></a><span style="font-weight: 400;"> by Laila michelwait</span></li>
 <li><span style="font-weight: 400;">Harry Potter dementors &amp; Momo's time thieves&nbsp;</span></li>
 <li><span style="font-weight: 400;">Facebook &amp; Google as non-human (superhuman) agents&nbsp;</span></li>
-<li><span style="font-weight: 400;">Zapping as a </span><a href="https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4g3uu9lr"><span style="font-weight: 400;">conscious action</span></a></li>
+<li><span style="font-weight: 400;">Zapping as a </span><a href="https://njump.to/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4g3uu9lr"><span style="font-weight: 400;">conscious action</span></a></li>
 <li><span style="font-weight: 400;">Privacy and the internet</span></li>
 <li><span style="font-weight: 400;">Plausible deniability thanks to generative models</span></li>
 <li><span style="font-weight: 400;">Google glasses, glassholes, and Meta's Ray Ben's</span></li>
@@ -1947,7 +1951,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">How do we find out what's real?&nbsp;</span></li>
 <li><span style="font-weight: 400;">Constraints, policing, and chilling effects&nbsp;</span></li>
 <li><span style="font-weight: 400;">Jesus' plans for DVMCP&nbsp;</span></li>
-<li><span style="font-weight: 400;">Hzrd's article on how DVMs are broken (</span><a href="https://njump.me/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">Hzrd's article on how DVMs are broken (</span><a href="https://njump.to/naddr1qvzqqqr4gupzqfngzhsvjggdlgeycm96x4emzjlwf8dyyzdfg4hefp89zpkdgz99qqwkgandwvkhwetjv5kkzttdd9ehgcttv5kngte3xvhnyvpjx5m8uc7e"><span style="font-weight: 400;">DVMs were a mistake</span></a><span style="font-weight: 400;">)</span></li>
 <li><a href="https://npub.world/npub1uc5emj0zpmsgur65ue5tys5q0g0qs6xljwrkq3nfd4j0wy5qxvlswkas8p"><span style="font-weight: 400;">Don't believe the hype</span></a></li>
 <li><span style="font-weight: 400;">DVMs pre-date MCP tools</span></li>
 <li><span style="font-weight: 400;">Data Vending Machines were supposed to be stupid: put coin in, get stuff out.</span></li>
@@ -1967,7 +1971,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#09: No Strudelutions w/ hzrd149</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"It isn&rsquo;t obvious that the world had to work this way. But somehow the universe smiles on encryption."</span></p>
-<p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> take a stroll along the shore of cryptographic identities.</span></p>
+<p><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> take a stroll along the shore of cryptographic identities.</span></p>
 <p><span style="font-weight: 400;">This dialogue explores how cryptographic signatures fundamentally shift power dynamics in social networks, moving control from servers to key holders. We discuss the concept of "setting data free" through cryptographic verification, the evolving role of relays in the ecosystem, and the challenges of building trust in decentralized systems. We examine the tension between convenience and decentralization, particularly around features like private data and data synchronization. What are the philosophical foundations of building truly decentralized social networks? And how can small architectural decisions have profound implications for user autonomy and data sovereignty?</span></p>
 <p><span style="font-weight: 400;">Movies mentioned:</span></p>
 <ul>
@@ -2046,9 +2050,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Trust and running LLMs locally&nbsp;</span></li>
 <li><span style="font-weight: 400;">No need for API keys</span></li>
 <li><span style="font-weight: 400;">Adjacent communities: local-first, makers and hackers, etc.</span></li>
-<li><a href="https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">Removing the character limit was a mistake</span></a></li>
+<li><a href="https://njump.to/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">Removing the character limit was a mistake</span></a></li>
 <li><span style="font-weight: 400;">Browsing mode vs reading mode</span></li>
-<li><span style="font-weight: 400;">The genius of </span><a href="https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">tweets and threads</span></a></li>
+<li><span style="font-weight: 400;">The genius of </span><a href="https://njump.to/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">tweets and threads</span></a></li>
 <li><span style="font-weight: 400;">Vibe-coding and </span><a href="https://github.com/justinmoon/rust-multiplatform"><span style="font-weight: 400;">rust-multiplatform</span></a></li>
 <li><span style="font-weight: 400;">Global solutions vs local solutions</span></li>
 <li><span style="font-weight: 400;">The long-term survivability of local-first</span></li>
@@ -2065,9 +2069,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/891754">891,754</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/936039917ee20d38c1dd502bc493e2ed2bf5fde10b8be6f7013a882e0bcf2460.jpg"/>
-      <enclosure url="https://haven.sovereignengineering.io/aea79784cbaaf33a52110e108ddf758c6f67230d227a01ce7a977ce2062250d1.m4a" length="61466157" type="audio/mpeg"/>
+      <enclosure url="https://haven.sovereignengineering.io/aea79784cbaaf33a52110e108ddf758c6f67230d227a01ce7a977ce2062250d1.m4a" length="61466157" type="audio/mp4"/>
       <podcast:person href="https://hzrd149.com/" img="https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png" group="cast" role="guest">hzrd149</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/45f48be7c416c93640606e29a0963cae8505f2b88e25c0c4d1b7b62b3f24912f.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/09-no-strudelutions-w-hzrd149.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -2078,14 +2082,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">f1987107-22ff-4572-8dca-af4c9a8ce549</guid>
       <itunes:subtitle>#09: No Strudelutions w/ hzrd149</itunes:subtitle>
       <itunes:duration>6905</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqs807qeg24nhkjq6s2pjfeua23praq35cquqnhguxw9vfuqcc2ctrsau3uaz</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqs807qeg24nhkjq6s2pjfeua23praq35cquqnhguxw9vfuqcc2ctrsau3uaz</link>
       <pubDate>Fri, 18 Apr 2025 16:04:11 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">"It isn&rsquo;t obvious that the world had to work this way. But somehow the universe smiles on encryption."</span></p>
-<p><a href="https://njump.me/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> take a stroll along the shore of cryptographic identities.</span></p>
+<p><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr"><span style="font-weight: 400;">hzrd149</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> take a stroll along the shore of cryptographic identities.</span></p>
 <p><span style="font-weight: 400;">This dialogue explores how cryptographic signatures fundamentally shift power dynamics in social networks, moving control from servers to key holders. We discuss the concept of "setting data free" through cryptographic verification, the evolving role of relays in the ecosystem, and the challenges of building trust in decentralized systems. We examine the tension between convenience and decentralization, particularly around features like private data and data synchronization. What are the philosophical foundations of building truly decentralized social networks? And how can small architectural decisions have profound implications for user autonomy and data sovereignty?</span></p>
 <p><span style="font-weight: 400;">Movies mentioned:</span></p>
 <ul>
@@ -2164,9 +2168,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Trust and running LLMs locally&nbsp;</span></li>
 <li><span style="font-weight: 400;">No need for API keys</span></li>
 <li><span style="font-weight: 400;">Adjacent communities: local-first, makers and hackers, etc.</span></li>
-<li><a href="https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">Removing the character limit was a mistake</span></a></li>
+<li><a href="https://njump.to/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">Removing the character limit was a mistake</span></a></li>
 <li><span style="font-weight: 400;">Browsing mode vs reading mode</span></li>
-<li><span style="font-weight: 400;">The genius of </span><a href="https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">tweets and threads</span></a></li>
+<li><span style="font-weight: 400;">The genius of </span><a href="https://njump.to/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"><span style="font-weight: 400;">tweets and threads</span></a></li>
 <li><span style="font-weight: 400;">Vibe-coding and </span><a href="https://github.com/justinmoon/rust-multiplatform"><span style="font-weight: 400;">rust-multiplatform</span></a></li>
 <li><span style="font-weight: 400;">Global solutions vs local solutions</span></li>
 <li><span style="font-weight: 400;">The long-term survivability of local-first</span></li>
@@ -2186,7 +2190,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#08: Navigating the Vibe w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">"With the shift towards this multi-agent collaboration and orchestration world, you need a neutral substrate that has money, identity, cryptography, and web-of-trust&nbsp; baked in, to make everything work."</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> are getting high on <span style="text-decoration: line-through;">glue</span> nostr.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> are getting high on <span style="text-decoration: line-through;">glue</span> nostr.</span></p>
 <p>&nbsp;</p>
 <p><span style="font-weight: 400;">Books and articles mentioned:</span></p>
 <ul>
@@ -2298,9 +2302,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/890848">890,848</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/4332ee0d3237589630450057f5a8643b7dadd5be9fc8906fee8b3fd3619d5fdc.jpg"/>
-      <enclosure url="https://haven.sovereignengineering.io/163991993992a3ba54e22d8c1516bd2fdec4fb228e698931cb9474b80ced7dc5.m4a" length="51138377" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <enclosure url="https://haven.sovereignengineering.io/163991993992a3ba54e22d8c1516bd2fdec4fb228e698931cb9474b80ced7dc5.m4a" length="51138377" type="audio/mp4"/>
+      <podcast:person href="https://njump.to/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/ef91b4cb73b93aefd5804c4e74237c2e8c5ca8ce9140c81e6976c7a102805b0f.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/08-navigating-the-vibe-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -2311,14 +2315,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">51b918d9-dc3c-4bb9-87f1-60f674f5f5eb</guid>
       <itunes:subtitle>#08: Navigating the Vibe w/ Pablo</itunes:subtitle>
       <itunes:duration>5728</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsdpepvgml06dcsfuuy0x0jhka9jtwpvqrh5ue6qxmtva2xje7n9aqs5852f</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsdpepvgml06dcsfuuy0x0jhka9jtwpvqrh5ue6qxmtva2xje7n9aqs5852f</link>
       <pubDate>Wed, 04 Apr 2025 10:21:21 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">"With the shift towards this multi-agent collaboration and orchestration world, you need a neutral substrate that has money, identity, cryptography, and web-of-trust&nbsp; baked in, to make everything work."</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> are getting high on <span style="text-decoration: line-through;">glue</span> nostr.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> are getting high on <span style="text-decoration: line-through;">glue</span> nostr.</span></p>
 <p>&nbsp;</p>
 <p><span style="font-weight: 400;">Books and articles mentioned:</span></p>
 <ul>
@@ -2433,7 +2437,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     <item>
       <title>#07: Zig Multiplatform w/ Justin</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;The age of the idea guys has begun.&rdquo;</span></p>
-<p><a href="https://njump.me/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp;</span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> vibe about Zig.</span></p>
+<p><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp;</span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> vibe about Zig.</span></p>
 <p><span style="font-weight: 400;">Articles mentioned:</span></p>
 <ul>
 <li><a href="https://wattenberger.com/thoughts/llms-as-a-tool-for-thought"><span style="font-weight: 400;">LLMs as a tool for thought</span></a><span style="font-weight: 400;"> by Amelia Wattenberger</span></li>
@@ -2465,7 +2469,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Anthropomorphising LLMs</span></li>
 <li><span style="font-weight: 400;">Dialog, </span><a href="https://rubberduckdebugging.com/"><span style="font-weight: 400;">rubber-duck debugging</span></a><span style="font-weight: 400;">, and the process of thinking&nbsp;</span></li>
 <li><span style="font-weight: 400;">Being nice and mean to LLMs</span></li>
-<li><a href="https://njump.me/nevent1qqsgmjffd7n382dj4e2l9dtctnrx98lw0vnt86rfggrgfq6vfpnysmszyqgmn2y5qndlxq6w0cvgdw5acnrdxahj8xs3sfcm6tk9v75gnpgvu6htgn9"><span style="font-weight: 400;">Battlebots</span></a><span style="font-weight: 400;"> &amp; Gladiators</span></li>
+<li><a href="https://njump.to/nevent1qqsgmjffd7n382dj4e2l9dtctnrx98lw0vnt86rfggrgfq6vfpnysmszyqgmn2y5qndlxq6w0cvgdw5acnrdxahj8xs3sfcm6tk9v75gnpgvu6htgn9"><span style="font-weight: 400;">Battlebots</span></a><span style="font-weight: 400;"> &amp; Gladiators</span></li>
 <li><span style="font-weight: 400;">Hedging your bets by being nice to Skynet</span></li>
 <li><span style="font-weight: 400;">Pascal's Wager for AI</span></li>
 <li><span style="font-weight: 400;">Thinking models vs non-thinking faster models</span></li>
@@ -2530,12 +2534,12 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://grapheneos.org/"><span style="font-weight: 400;">GrapheneOS</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">WebRTC and other monolithic "open" standards&nbsp;</span></li>
 <li><span style="font-weight: 400;">Optimizing for the wrong thing&nbsp;</span></li>
-<li><span style="font-weight: 400;">Building a nostr phone &amp; Gigi's </span><a href="https://njump.me/nevent1qqsr4scsxwpvleeklkq60l6300s8hnkt579az2guhctv26slv0k3axcpz3mhxue69uhkummnw3ezummcw3ezuer9wcpzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyqz2yg6"><span style="font-weight: 400;">dream flow</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Building a nostr phone &amp; Gigi's </span><a href="https://njump.to/nevent1qqsr4scsxwpvleeklkq60l6300s8hnkt579az2guhctv26slv0k3axcpz3mhxue69uhkummnw3ezummcw3ezuer9wcpzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyqz2yg6"><span style="font-weight: 400;">dream flow</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Using nostr to sync dotfile setups and other things&nbsp;</span></li>
 <li><span style="font-weight: 400;">"There are no solutions, only trade-offs"&nbsp;</span></li>
 <li><span style="font-weight: 400;">Cross-platform development&nbsp;</span></li>
 <li><span style="font-weight: 400;">Native vs non-native implementations</span></li>
-<li><span style="font-weight: 400;">Vitor's point on </span><a href="https://njump.me/nevent1qqsqzpr2ux0h8g2ccdjaavgll2vczpv5lvgwzxwjvuc2vn87c2dxe0gelp5ky"><span style="font-weight: 400;">what we mean by native</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Vitor's point on </span><a href="https://njump.to/nevent1qqsqzpr2ux0h8g2ccdjaavgll2vczpv5lvgwzxwjvuc2vn87c2dxe0gelp5ky"><span style="font-weight: 400;">what we mean by native</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Does your custom UI framework work for blind people?&nbsp;</span></li>
 <li><a href="https://ladybird.org/"><span style="font-weight: 400;">Ladybird</span></a><span style="font-weight: 400;"> browser &amp; how to build a browser from scratch&nbsp;</span></li>
 <li><a href="https://templeos.org/"><span style="font-weight: 400;">TempleOS</span></a><span style="font-weight: 400;">&nbsp;</span></li>
@@ -2574,13 +2578,13 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Reproducible builds &amp; web-of-trust&nbsp;</span></li>
 <li><a href="https://keet.io/"><span style="font-weight: 400;">Keet</span></a><span style="font-weight: 400;"> vs "calling an npub"&nbsp;</span></li>
 <li><span style="font-weight: 400;">Getting into someone's notifications&nbsp;</span></li>
-<li><span style="font-weight: 400;">Removing the </span><a href="https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqgx9jtpx"><span style="font-weight: 400;">character limit</span></a><span style="font-weight: 400;"> was a mistake</span></li>
+<li><span style="font-weight: 400;">Removing the </span><a href="https://njump.to/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqgx9jtpx"><span style="font-weight: 400;">character limit</span></a><span style="font-weight: 400;"> was a mistake</span></li>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/889812">889,812</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/0e94404df275cb94e64c424fb58267accce316cbe0102561052a81074d5a35a4.jpg"/>
-      <enclosure url="https://haven.sovereignengineering.io/3468fad22a44ed15ca63aa20be91fbf53a38250558ba13b8c4994d9178687c12.m4a" length="89611955" type="audio/mpeg"/>
+      <enclosure url="https://haven.sovereignengineering.io/3468fad22a44ed15ca63aa20be91fbf53a38250558ba13b8c4994d9178687c12.m4a" length="89611955" type="audio/mp4"/>
       <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Justin</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/c5ceb682b9a1200d1b6e82f31bcf000a47fc93ef73209051d3e93dda9d9a2da3.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/07-zig-multiplatform-w-justin.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -2591,14 +2595,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">7469e24d-3bde-4554-9b53-9f6bb27d9b52</guid>
       <itunes:subtitle>#07: Zig Multiplatform w/ Justin</itunes:subtitle>
       <itunes:duration>10003</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqs277h3vlkd8720wxkqmxf6lx8v0n0nuj07p59a3lf5tu9l8jha82seg4jef</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqs277h3vlkd8720wxkqmxf6lx8v0n0nuj07p59a3lf5tu9l8jha82seg4jef</link>
       <pubDate>Fri, 28 Mar 2025 23:07:55 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">&ldquo;The age of the idea guys has begun.&rdquo;</span></p>
-<p><a href="https://njump.me/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp;</span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> vibe about Zig.</span></p>
+<p><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y"><span style="font-weight: 400;">Justin</span></a><span style="font-weight: 400;"> &amp;</span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;"> </span><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> vibe about Zig.</span></p>
 <p><span style="font-weight: 400;">Articles mentioned:</span></p>
 <ul>
 <li><a href="https://wattenberger.com/thoughts/llms-as-a-tool-for-thought"><span style="font-weight: 400;">LLMs as a tool for thought</span></a><span style="font-weight: 400;"> by Amelia Wattenberger</span></li>
@@ -2630,7 +2634,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Anthropomorphising LLMs</span></li>
 <li><span style="font-weight: 400;">Dialog, </span><a href="https://rubberduckdebugging.com/"><span style="font-weight: 400;">rubber-duck debugging</span></a><span style="font-weight: 400;">, and the process of thinking&nbsp;</span></li>
 <li><span style="font-weight: 400;">Being nice and mean to LLMs</span></li>
-<li><a href="https://njump.me/nevent1qqsgmjffd7n382dj4e2l9dtctnrx98lw0vnt86rfggrgfq6vfpnysmszyqgmn2y5qndlxq6w0cvgdw5acnrdxahj8xs3sfcm6tk9v75gnpgvu6htgn9"><span style="font-weight: 400;">Battlebots</span></a><span style="font-weight: 400;"> &amp; Gladiators</span></li>
+<li><a href="https://njump.to/nevent1qqsgmjffd7n382dj4e2l9dtctnrx98lw0vnt86rfggrgfq6vfpnysmszyqgmn2y5qndlxq6w0cvgdw5acnrdxahj8xs3sfcm6tk9v75gnpgvu6htgn9"><span style="font-weight: 400;">Battlebots</span></a><span style="font-weight: 400;"> &amp; Gladiators</span></li>
 <li><span style="font-weight: 400;">Hedging your bets by being nice to Skynet</span></li>
 <li><span style="font-weight: 400;">Pascal's Wager for AI</span></li>
 <li><span style="font-weight: 400;">Thinking models vs non-thinking faster models</span></li>
@@ -2695,12 +2699,12 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://grapheneos.org/"><span style="font-weight: 400;">GrapheneOS</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">WebRTC and other monolithic "open" standards&nbsp;</span></li>
 <li><span style="font-weight: 400;">Optimizing for the wrong thing&nbsp;</span></li>
-<li><span style="font-weight: 400;">Building a nostr phone &amp; Gigi's </span><a href="https://njump.me/nevent1qqsr4scsxwpvleeklkq60l6300s8hnkt579az2guhctv26slv0k3axcpz3mhxue69uhkummnw3ezummcw3ezuer9wcpzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyqz2yg6"><span style="font-weight: 400;">dream flow</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Building a nostr phone &amp; Gigi's </span><a href="https://njump.to/nevent1qqsr4scsxwpvleeklkq60l6300s8hnkt579az2guhctv26slv0k3axcpz3mhxue69uhkummnw3ezummcw3ezuer9wcpzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyqz2yg6"><span style="font-weight: 400;">dream flow</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Using nostr to sync dotfile setups and other things&nbsp;</span></li>
 <li><span style="font-weight: 400;">"There are no solutions, only trade-offs"&nbsp;</span></li>
 <li><span style="font-weight: 400;">Cross-platform development&nbsp;</span></li>
 <li><span style="font-weight: 400;">Native vs non-native implementations</span></li>
-<li><span style="font-weight: 400;">Vitor's point on </span><a href="https://njump.me/nevent1qqsqzpr2ux0h8g2ccdjaavgll2vczpv5lvgwzxwjvuc2vn87c2dxe0gelp5ky"><span style="font-weight: 400;">what we mean by native</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><span style="font-weight: 400;">Vitor's point on </span><a href="https://njump.to/nevent1qqsqzpr2ux0h8g2ccdjaavgll2vczpv5lvgwzxwjvuc2vn87c2dxe0gelp5ky"><span style="font-weight: 400;">what we mean by native</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Does your custom UI framework work for blind people?&nbsp;</span></li>
 <li><a href="https://ladybird.org/"><span style="font-weight: 400;">Ladybird</span></a><span style="font-weight: 400;"> browser &amp; how to build a browser from scratch&nbsp;</span></li>
 <li><a href="https://templeos.org/"><span style="font-weight: 400;">TempleOS</span></a><span style="font-weight: 400;">&nbsp;</span></li>
@@ -2739,14 +2743,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">Reproducible builds &amp; web-of-trust&nbsp;</span></li>
 <li><a href="https://keet.io/"><span style="font-weight: 400;">Keet</span></a><span style="font-weight: 400;"> vs "calling an npub"&nbsp;</span></li>
 <li><span style="font-weight: 400;">Getting into someone's notifications&nbsp;</span></li>
-<li><span style="font-weight: 400;">Removing the </span><a href="https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqgx9jtpx"><span style="font-weight: 400;">character limit</span></a><span style="font-weight: 400;"> was a mistake</span></li>
+<li><span style="font-weight: 400;">Removing the </span><a href="https://njump.to/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqgx9jtpx"><span style="font-weight: 400;">character limit</span></a><span style="font-weight: 400;"> was a mistake</span></li>
 </ul>
 <p>&nbsp;</p>]]></itunes:summary>
     </item>
     <item>
       <title>#06: The Winds of AI w/ Pablo</title>
       <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;The human spirit should remain in charge.&rdquo;</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> talk about the wind.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> talk about the wind.</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
 <li><span dir="auto">Wind </span></li>
@@ -2761,7 +2765,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">Tweetdeck </span><span dir="auto">and </span> <a href="https://damus.io/notedeck/">Notedeck</a></li>
 <li><span dir="auto">IRC </span><span dir="auto">vs </span><span dir="auto">the </span><span dir="auto">modern </span><span dir="auto">feed </span></li>
 <li><span dir="auto">37Signals: </span><span dir="auto">&ldquo;</span><a href="https://www.hey.com/pricing/">Hey</a> <span dir="auto">, </span><span dir="auto">let&rsquo;s </span><span dir="auto">just </span><span dir="auto">charge </span><span dir="auto">users!&rdquo; </span></li>
-<li><span dir="auto">&ldquo;</span><a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
+<li><span dir="auto">&ldquo;</span><a href="https://njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Catering </span><span dir="auto">to </span><span dir="auto">our </span><span dir="auto">highest </span><span dir="auto">self </span><span dir="auto">VS </span><span dir="auto">catering </span><span dir="auto">to </span><span dir="auto">our </span><span dir="auto">lowest </span><span dir="auto">self </span></li>
 <li><span dir="auto">Devolution </span><span dir="auto">of </span><span dir="auto">YouTube </span> <a href="https://daringfireball.net/linked/2017/03/18/youtube-thumbs-stars">5-star ratings</a> <span dir="auto">to </span><span dir="auto">thumb </span><span dir="auto">up/down </span><span dir="auto">to </span> <a href="https://www.makeuseof.com/the-real-reason-why-youtube-hid-dislikes/">views</a></li>
 <li><span dir="auto">Long </span><span dir="auto">videos </span><span dir="auto">vs </span><span dir="auto">shorts </span></li>
@@ -2799,14 +2803,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">Search </span><span dir="auto">scopes </span><span dir="auto">&amp; </span><span dir="auto">web </span><span dir="auto">of </span><span dir="auto">trust </span></li>
 <li><span dir="auto">The </span><span dir="auto">UNIX </span><span dir="auto">tools </span><span dir="auto">of </span><span dir="auto">nostr </span></li>
 <li><span dir="auto">Pablo&rsquo;s </span> <a href="https://nostr-dev-kit.github.io/ndk/snippets/">NDK snippets</a></li>
-<li><span dir="auto">Meredith </span><span dir="auto">on </span><span dir="auto">the </span> <a href="https://njump.me/nevent1qqsts24dta3nay5ypkhnqd8aphynhw7z89qw69sp3pceady2xujakygpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qguh5grefa7vkay4ps6udxg8lrqxg2kgr3qh9n4gduxut64nfxq0quyzs70">privacy nightmare of Agentic AI</a></li>
+<li><span dir="auto">Meredith </span><span dir="auto">on </span><span dir="auto">the </span> <a href="https://njump.to/nevent1qqsts24dta3nay5ypkhnqd8aphynhw7z89qw69sp3pceady2xujakygpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qguh5grefa7vkay4ps6udxg8lrqxg2kgr3qh9n4gduxut64nfxq0quyzs70">privacy nightmare of Agentic AI</a></li>
 <li><span dir="auto">Blog-post-driven </span><span dir="auto">development </span><span dir="auto">( </span><a href="https://dergigi.com/2023/03/12/lightning-prisms/">Lightning Prisms</a> <span dir="auto">, </span> <a href="https://dergigi.com/2023/04/04/purple-text-orange-highlights/">Highlighter</a> <span dir="auto">) </span></li>
 <li><span dir="auto">Sandwich-style </span><span dir="auto">LLM </span><span dir="auto">prompting, </span><span dir="auto">Waterfall </span><span dir="auto">for </span><span dir="auto">LLMs </span><span dir="auto">( </span><a href="https://gist.github.com/dskvr/b34f836b68ff2ca51bcc8fe7763eceec">HLDD / LLDD</a> <span dir="auto">) </span></li>
 <li><span dir="auto">&ldquo;Speed </span><span dir="auto">itself </span><span dir="auto">is </span><span dir="auto">a </span><span dir="auto">feature&rdquo; </span></li>
 <li><span dir="auto">MCP </span><span dir="auto">&amp; </span> <a href="https://mcp.so/server/dvmcp">DVMCP</a></li>
 <li><span dir="auto">Monorepos </span><span dir="auto">and </span><span dir="auto">git </span><span dir="auto">submodules </span></li>
 <li><span dir="auto"><a href="https://olas.app/">Olas</a> &amp; NDK </span></li>
-<li><span dir="auto">Pablo&rsquo;s </span> <a href="https://njump.me/npub17hsu5gd24stmzuuezwvavgeuwwac233nfzg59dfyhf4fvel8n2sqw3d0k9">RemindMe</a> <span dir="auto">bot </span></li>
+<li><span dir="auto">Pablo&rsquo;s </span> <a href="https://njump.to/npub17hsu5gd24stmzuuezwvavgeuwwac233nfzg59dfyhf4fvel8n2sqw3d0k9">RemindMe</a> <span dir="auto">bot </span></li>
 <li><span dir="auto">&ldquo;Breaking </span><span dir="auto">changes </span><span dir="auto">kinda </span><span dir="auto">suck&rdquo; </span></li>
 <li><span dir="auto">Stories, </span><span dir="auto">shorts, </span><span dir="auto">TikTok, </span><span dir="auto">and </span><span dir="auto">OnlyFans </span></li>
 <li><span dir="auto">LLM-generated </span><span dir="auto">sticker </span><span dir="auto">styles </span></li>
@@ -2824,7 +2828,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">How </span><span dir="auto">do </span><span dir="auto">you </span><span dir="auto">extract </span><span dir="auto">meaning </span><span dir="auto">from </span><span dir="auto">experience? </span></li>
 <li><span dir="auto">&ldquo;</span><a href="https://youtu.be/ms2BvRbjOYo">What the hell is water</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Creativity, </span><span dir="auto">imagination, </span><span dir="auto">hallucination, </span><span dir="auto">and </span><span dir="auto">losing </span><span dir="auto">touch </span><span dir="auto">with </span><span dir="auto">reality </span></li>
-<li><span dir="auto">&ldquo;</span><a href="https://njump.me/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gpzamhxue69uhhyetvv9ujumn0wd68ytnzv9hxgtczyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqg74yxgf">Bitcoin is singularity insurance</a><span dir="auto">&rdquo; </span></li>
+<li><span dir="auto">&ldquo;</span><a href="https://njump.to/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gpzamhxue69uhhyetvv9ujumn0wd68ytnzv9hxgtczyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqg74yxgf">Bitcoin is singularity insurance</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Will </span><span dir="auto">vibe </span><span dir="auto">coding </span><span dir="auto">make </span><span dir="auto">developers </span><span dir="auto">obsolete? </span></li>
 <li><span dir="auto">Knowing </span><span dir="auto">what </span><span dir="auto">to </span><span dir="auto">build </span><span dir="auto">vs </span><span dir="auto">knowing </span><span dir="auto">how </span><span dir="auto">to </span><span dir="auto">build </span></li>
 <li><span dir="auto">10min </span><span dir="auto">block </span><span dir="auto">time </span><span dir="auto">&amp; </span><span dir="auto">the </span> <a href="https://dergigi.com/threads/physical-limits">physical limits of consensus</a></li>
@@ -2845,7 +2849,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">Using </span><span dir="auto">attention </span><span dir="auto">as </span><span dir="auto">a </span><span dir="auto">proxy </span><span dir="auto">currency </span></li>
 <li><span dir="auto">Farming </span><span dir="auto">eyeballs </span><span dir="auto">and </span><span dir="auto">brain </span><span dir="auto">cycles </span></li>
 <li><span dir="auto">Engagement </span><span dir="auto">as </span><span dir="auto">a </span><span dir="auto">success </span><span dir="auto">metric </span><span dir="auto">&amp; </span><span dir="auto">engagement </span><span dir="auto">bait </span></li>
-<li><span dir="auto">&ldquo;</span><a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
+<li><span dir="auto">&ldquo;</span><a href="https://njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Attention </span><span dir="auto">economy </span><span dir="auto">is </span><span dir="auto">parasitic </span><span dir="auto">on </span><span dir="auto">humanity </span></li>
 <li><span dir="auto">The </span><span dir="auto">importance </span><span dir="auto">of </span> <a href="https://nostr-resources.com/">speech</a> <span dir="auto">&amp; </span> <a href="https://bitcoin-resources.com/">money</a></li>
 <li><span dir="auto">What </span><span dir="auto">should </span><span dir="auto">be </span><span dir="auto">done </span><span dir="auto">by </span><span dir="auto">a </span><span dir="auto">machine? </span></li>
@@ -2856,8 +2860,8 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 </ul><p>Recorded at <a href="https://mempool.space/block/888635">888,635</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/e2fd652ae95de02b27c0e65667c67dff3e46a55d807ef37e78c0e8951beba240.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/a4c661358690b68e5cce8583111c8ab3bb9fef1a9e4e1a347cf543b7dc76c4fb.mpga" length="76009770" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://avatars.githubusercontent.com/u/779813?v=4" group="cast" role="guest">Pablo</podcast:person>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:person href="https://njump.to/f7z.io" img="https://avatars.githubusercontent.com/u/779813?v=4" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/82506d2dad88ac901241d87d21fc13cd1d7dea41ba5c5e62025e4fee87e834ba.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/06-the-winds-of-ai-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -2868,14 +2872,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">732a61fd-bd8e-4618-a2fb-42f3014e6b23</guid>
       <itunes:subtitle>#06: The Winds of AI w/ Pablo</itunes:subtitle>
       <itunes:duration>5955</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqszlf337y0lkg4sz5ax9ath4y5vk6rpqn9tfewaln2989zavvqrg4cpt2krs</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqszlf337y0lkg4sz5ax9ath4y5vk6rpqn9tfewaln2989zavvqrg4cpt2krs</link>
       <pubDate>Thu, 27 Mar 2025 17:23:24 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>No</itunes:explicit>
       <itunes:keywords>nostr, development, sovereign engineering, shipping, memes, web, internet, conversation, dialog</itunes:keywords>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">&ldquo;The human spirit should remain in charge.&rdquo;</span></p>
-<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> talk about the wind.</span></p>
+<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> talk about the wind.</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
 <li><span dir="auto">Wind </span></li>
@@ -2890,7 +2894,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">Tweetdeck </span><span dir="auto">and </span> <a href="https://damus.io/notedeck/">Notedeck</a></li>
 <li><span dir="auto">IRC </span><span dir="auto">vs </span><span dir="auto">the </span><span dir="auto">modern </span><span dir="auto">feed </span></li>
 <li><span dir="auto">37Signals: </span><span dir="auto">&ldquo;</span><a href="https://www.hey.com/pricing/">Hey</a> <span dir="auto">, </span><span dir="auto">let&rsquo;s </span><span dir="auto">just </span><span dir="auto">charge </span><span dir="auto">users!&rdquo; </span></li>
-<li><span dir="auto">&ldquo;</span><a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
+<li><span dir="auto">&ldquo;</span><a href="https://njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Catering </span><span dir="auto">to </span><span dir="auto">our </span><span dir="auto">highest </span><span dir="auto">self </span><span dir="auto">VS </span><span dir="auto">catering </span><span dir="auto">to </span><span dir="auto">our </span><span dir="auto">lowest </span><span dir="auto">self </span></li>
 <li><span dir="auto">Devolution </span><span dir="auto">of </span><span dir="auto">YouTube </span> <a href="https://daringfireball.net/linked/2017/03/18/youtube-thumbs-stars">5-star ratings</a> <span dir="auto">to </span><span dir="auto">thumb </span><span dir="auto">up/down </span><span dir="auto">to </span> <a href="https://www.makeuseof.com/the-real-reason-why-youtube-hid-dislikes/">views</a></li>
 <li><span dir="auto">Long </span><span dir="auto">videos </span><span dir="auto">vs </span><span dir="auto">shorts </span></li>
@@ -2928,14 +2932,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">Search </span><span dir="auto">scopes </span><span dir="auto">&amp; </span><span dir="auto">web </span><span dir="auto">of </span><span dir="auto">trust </span></li>
 <li><span dir="auto">The </span><span dir="auto">UNIX </span><span dir="auto">tools </span><span dir="auto">of </span><span dir="auto">nostr </span></li>
 <li><span dir="auto">Pablo&rsquo;s </span> <a href="https://nostr-dev-kit.github.io/ndk/snippets/">NDK snippets</a></li>
-<li><span dir="auto">Meredith </span><span dir="auto">on </span><span dir="auto">the </span> <a href="https://njump.me/nevent1qqsts24dta3nay5ypkhnqd8aphynhw7z89qw69sp3pceady2xujakygpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qguh5grefa7vkay4ps6udxg8lrqxg2kgr3qh9n4gduxut64nfxq0quyzs70">privacy nightmare of Agentic AI</a></li>
+<li><span dir="auto">Meredith </span><span dir="auto">on </span><span dir="auto">the </span> <a href="https://njump.to/nevent1qqsts24dta3nay5ypkhnqd8aphynhw7z89qw69sp3pceady2xujakygpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qguh5grefa7vkay4ps6udxg8lrqxg2kgr3qh9n4gduxut64nfxq0quyzs70">privacy nightmare of Agentic AI</a></li>
 <li><span dir="auto">Blog-post-driven </span><span dir="auto">development </span><span dir="auto">( </span><a href="https://dergigi.com/2023/03/12/lightning-prisms/">Lightning Prisms</a> <span dir="auto">, </span> <a href="https://dergigi.com/2023/04/04/purple-text-orange-highlights/">Highlighter</a> <span dir="auto">) </span></li>
 <li><span dir="auto">Sandwich-style </span><span dir="auto">LLM </span><span dir="auto">prompting, </span><span dir="auto">Waterfall </span><span dir="auto">for </span><span dir="auto">LLMs </span><span dir="auto">( </span><a href="https://gist.github.com/dskvr/b34f836b68ff2ca51bcc8fe7763eceec">HLDD / LLDD</a> <span dir="auto">) </span></li>
 <li><span dir="auto">&ldquo;Speed </span><span dir="auto">itself </span><span dir="auto">is </span><span dir="auto">a </span><span dir="auto">feature&rdquo; </span></li>
 <li><span dir="auto">MCP </span><span dir="auto">&amp; </span> <a href="https://mcp.so/server/dvmcp">DVMCP</a></li>
 <li><span dir="auto">Monorepos </span><span dir="auto">and </span><span dir="auto">git </span><span dir="auto">submodules </span></li>
 <li><span dir="auto"><a href="https://olas.app/">Olas</a> &amp; NDK </span></li>
-<li><span dir="auto">Pablo&rsquo;s </span> <a href="https://njump.me/npub17hsu5gd24stmzuuezwvavgeuwwac233nfzg59dfyhf4fvel8n2sqw3d0k9">RemindMe</a> <span dir="auto">bot </span></li>
+<li><span dir="auto">Pablo&rsquo;s </span> <a href="https://njump.to/npub17hsu5gd24stmzuuezwvavgeuwwac233nfzg59dfyhf4fvel8n2sqw3d0k9">RemindMe</a> <span dir="auto">bot </span></li>
 <li><span dir="auto">&ldquo;Breaking </span><span dir="auto">changes </span><span dir="auto">kinda </span><span dir="auto">suck&rdquo; </span></li>
 <li><span dir="auto">Stories, </span><span dir="auto">shorts, </span><span dir="auto">TikTok, </span><span dir="auto">and </span><span dir="auto">OnlyFans </span></li>
 <li><span dir="auto">LLM-generated </span><span dir="auto">sticker </span><span dir="auto">styles </span></li>
@@ -2953,7 +2957,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">How </span><span dir="auto">do </span><span dir="auto">you </span><span dir="auto">extract </span><span dir="auto">meaning </span><span dir="auto">from </span><span dir="auto">experience? </span></li>
 <li><span dir="auto">&ldquo;</span><a href="https://youtu.be/ms2BvRbjOYo">What the hell is water</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Creativity, </span><span dir="auto">imagination, </span><span dir="auto">hallucination, </span><span dir="auto">and </span><span dir="auto">losing </span><span dir="auto">touch </span><span dir="auto">with </span><span dir="auto">reality </span></li>
-<li><span dir="auto">&ldquo;</span><a href="https://njump.me/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gpzamhxue69uhhyetvv9ujumn0wd68ytnzv9hxgtczyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqg74yxgf">Bitcoin is singularity insurance</a><span dir="auto">&rdquo; </span></li>
+<li><span dir="auto">&ldquo;</span><a href="https://njump.to/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gpzamhxue69uhhyetvv9ujumn0wd68ytnzv9hxgtczyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqg74yxgf">Bitcoin is singularity insurance</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Will </span><span dir="auto">vibe </span><span dir="auto">coding </span><span dir="auto">make </span><span dir="auto">developers </span><span dir="auto">obsolete? </span></li>
 <li><span dir="auto">Knowing </span><span dir="auto">what </span><span dir="auto">to </span><span dir="auto">build </span><span dir="auto">vs </span><span dir="auto">knowing </span><span dir="auto">how </span><span dir="auto">to </span><span dir="auto">build </span></li>
 <li><span dir="auto">10min </span><span dir="auto">block </span><span dir="auto">time </span><span dir="auto">&amp; </span><span dir="auto">the </span> <a href="https://dergigi.com/threads/physical-limits">physical limits of consensus</a></li>
@@ -2974,7 +2978,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span dir="auto">Using </span><span dir="auto">attention </span><span dir="auto">as </span><span dir="auto">a </span><span dir="auto">proxy </span><span dir="auto">currency </span></li>
 <li><span dir="auto">Farming </span><span dir="auto">eyeballs </span><span dir="auto">and </span><span dir="auto">brain </span><span dir="auto">cycles </span></li>
 <li><span dir="auto">Engagement </span><span dir="auto">as </span><span dir="auto">a </span><span dir="auto">success </span><span dir="auto">metric </span><span dir="auto">&amp; </span><span dir="auto">engagement </span><span dir="auto">bait </span></li>
-<li><span dir="auto">&ldquo;</span><a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
+<li><span dir="auto">&ldquo;</span><a href="https://njump.to/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxzzxtzc">You wouldn&rsquo;t zap a car crash</a><span dir="auto">&rdquo; </span></li>
 <li><span dir="auto">Attention </span><span dir="auto">economy </span><span dir="auto">is </span><span dir="auto">parasitic </span><span dir="auto">on </span><span dir="auto">humanity </span></li>
 <li><span dir="auto">The </span><span dir="auto">importance </span><span dir="auto">of </span> <a href="https://nostr-resources.com/">speech</a> <span dir="auto">&amp; </span> <a href="https://bitcoin-resources.com/">money</a></li>
 <li><span dir="auto">What </span><span dir="auto">should </span><span dir="auto">be </span><span dir="auto">done </span><span dir="auto">by </span><span dir="auto">a </span><span dir="auto">machine? </span></li>
@@ -2989,7 +2993,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <description><![CDATA[<p><span style="font-weight: 400;">"What should the next iteration of the internet look like?"&nbsp;</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
-<li><a href="https://njump.me/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8"><span style="font-weight: 400;">Paul</span></a><span style="font-weight: 400;"> and his awesome </span><a href="https://lightning.store/product/nostr/"><span style="font-weight: 400;">nostr t-shirt</span></a></li>
+<li><a href="https://njump.to/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8"><span style="font-weight: 400;">Paul</span></a><span style="font-weight: 400;"> and his awesome </span><a href="https://lightning.store/product/nostr/"><span style="font-weight: 400;">nostr t-shirt</span></a></li>
 <li><span style="font-weight: 400;">Are we all just nostalgic?</span></li>
 <li><span style="font-weight: 400;">Where did the optimism of computing and the information superhighway go?</span></li>
 <li><span style="font-weight: 400;">We went from interop to pay-to-unlock.</span></li>
@@ -3026,7 +3030,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">A </span><a href="https://en.wikipedia.org/wiki/Commonplace_book"><span style="font-weight: 400;">Commonplace Book</span></a><span style="font-weight: 400;"> to cyberspace</span></li>
 <li><span style="font-weight: 400;">Creating a "Family Bible" app</span></li>
 <li><span style="font-weight: 400;">If you want to maximize profits in the attention economy, you have to get users </span><a href="https://archive.org/details/hookedhowtobuild0000eyal"><span style="font-weight: 400;">addicted</span></a></li>
-<li><span style="font-weight: 400;">(Zaps potentially fix this, as </span><a href="https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">you wouldn&rsquo;t zap a car crash</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">(Zaps potentially fix this, as </span><a href="https://njump.to/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">you wouldn&rsquo;t zap a car crash</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Let computers do computer work, let humans be humans</span></li>
 <li><span style="font-weight: 400;">"The end is not being on the computer"</span></li>
 <li><span style="font-weight: 400;">Solo private / group private / public&nbsp;</span></li>
@@ -3040,7 +3044,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">7-generation thinking&nbsp;</span></li>
 <li><a href="https://2140.dev/"><span style="font-weight: 400;">2140</span></a></li>
 <li><a href="https://bitcoin-resources.com/books/the-sovereign-individual"><span style="font-weight: 400;">The Sovereign Individual</span></a><span style="font-weight: 400;"> is embedded in a social structure, always</span></li>
-<li><a href="https://njump.me/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqyg8wumn8ghj7mn09eehgu3wvdez7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0qqsqquq920a7psq8x3w9apyttdwa8glz6rm8scgaqjur6kg868gvfxgte0cu9"><span style="font-weight: 400;">I, Pencil</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqyg8wumn8ghj7mn09eehgu3wvdez7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0qqsqquq920a7psq8x3w9apyttdwa8glz6rm8scgaqjur6kg868gvfxgte0cu9"><span style="font-weight: 400;">I, Pencil</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Jungle vs Civilization&nbsp;</span></li>
 <li><span style="font-weight: 400;">Fiat = because I said so (&ldquo;Fiat Lux&rdquo; - </span><a href="https://en.wikipedia.org/wiki/Let_there_be_light"><span style="font-weight: 400;">Let there be light</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Do we need leaders in bitcoin?&nbsp;</span></li>
@@ -3064,7 +3068,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://en.wikipedia.org/wiki/Conscience"><span style="font-weight: 400;">Conscience</span></a><span style="font-weight: 400;"> and </span><a href="https://www.goodreads.com/quotes/445636-this-is-the-other-secret-that-real-artists-know-and"><span style="font-weight: 400;">The Muse</span></a></li>
 <li><span style="font-weight: 400;">Hypermedia and </span><a href="https://github.com/futurepaul/hypernote/"><span style="font-weight: 400;">HyperNote</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><a href="https://www.wired.com/2013/12/glasshole/"><span style="font-weight: 400;">Glassholes</span></a><span style="font-weight: 400;">, Google Glasses, and wearable technology</span></li>
-<li><span style="font-weight: 400;">Prompting &amp; Praying for </span><a href="https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">An Internet Worth Having</span></a></li>
+<li><span style="font-weight: 400;">Prompting &amp; Praying for </span><a href="https://njump.to/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">An Internet Worth Having</span></a></li>
 </ul>
 <p><span style="font-weight: 400;">Books mentioned:</span></p>
 <ul>
@@ -3077,7 +3081,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <enclosure url="https://haven.sovereignengineering.io/409edb5b9bdf2a76b0b94747667e815f9388c80b0ffed213cf0b4d4346bc3c72.mp3" length="51983084" type="audio/mpeg"/>
       <podcast:person href="https://paul.lol/" img="https://paul.lol/waffle_animated.gif" group="cast" role="guest">Paul</podcast:person>
       <podcast:chapters url="https://sovereignengineering.io/chapters/05-prompt-pray-w-paul.json" type="application/json+chapters"/>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Paul" type="lnaddress" address="futurepaul@primal.net" split="100"/>
@@ -3086,7 +3090,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">35ccd902-2bf8-4e61-8212-e7a770a9faa4</guid>
       <itunes:subtitle><![CDATA[#05: Prompt & Pray w/ Paul]]></itunes:subtitle>
       <itunes:duration>6498</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsfcc4s4duhjfv6kv5dnp32qf5eud3p05ljc4kyvdwjgv8ldqctd7q8h0pj5</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsfcc4s4duhjfv6kv5dnp32qf5eud3p05ljc4kyvdwjgv8ldqctd7q8h0pj5</link>
       <pubDate>Tue, 18 Mar 2025 15:23:09 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -3095,7 +3099,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:summary><![CDATA[<p><span style="font-weight: 400;">"What should the next iteration of the internet look like?"&nbsp;</span></p>
 <p><span style="font-weight: 400;">In this dialogue:</span></p>
 <ul>
-<li><a href="https://njump.me/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8"><span style="font-weight: 400;">Paul</span></a><span style="font-weight: 400;"> and his awesome </span><a href="https://lightning.store/product/nostr/"><span style="font-weight: 400;">nostr t-shirt</span></a></li>
+<li><a href="https://njump.to/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8"><span style="font-weight: 400;">Paul</span></a><span style="font-weight: 400;"> and his awesome </span><a href="https://lightning.store/product/nostr/"><span style="font-weight: 400;">nostr t-shirt</span></a></li>
 <li><span style="font-weight: 400;">Are we all just nostalgic?</span></li>
 <li><span style="font-weight: 400;">Where did the optimism of computing and the information superhighway go?</span></li>
 <li><span style="font-weight: 400;">We went from interop to pay-to-unlock.</span></li>
@@ -3132,7 +3136,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">A </span><a href="https://en.wikipedia.org/wiki/Commonplace_book"><span style="font-weight: 400;">Commonplace Book</span></a><span style="font-weight: 400;"> to cyberspace</span></li>
 <li><span style="font-weight: 400;">Creating a "Family Bible" app</span></li>
 <li><span style="font-weight: 400;">If you want to maximize profits in the attention economy, you have to get users </span><a href="https://archive.org/details/hookedhowtobuild0000eyal"><span style="font-weight: 400;">addicted</span></a></li>
-<li><span style="font-weight: 400;">(Zaps potentially fix this, as </span><a href="https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">you wouldn&rsquo;t zap a car crash</span></a><span style="font-weight: 400;">)</span></li>
+<li><span style="font-weight: 400;">(Zaps potentially fix this, as </span><a href="https://njump.to/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">you wouldn&rsquo;t zap a car crash</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Let computers do computer work, let humans be humans</span></li>
 <li><span style="font-weight: 400;">"The end is not being on the computer"</span></li>
 <li><span style="font-weight: 400;">Solo private / group private / public&nbsp;</span></li>
@@ -3146,7 +3150,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">7-generation thinking&nbsp;</span></li>
 <li><a href="https://2140.dev/"><span style="font-weight: 400;">2140</span></a></li>
 <li><a href="https://bitcoin-resources.com/books/the-sovereign-individual"><span style="font-weight: 400;">The Sovereign Individual</span></a><span style="font-weight: 400;"> is embedded in a social structure, always</span></li>
-<li><a href="https://njump.me/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqyg8wumn8ghj7mn09eehgu3wvdez7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0qqsqquq920a7psq8x3w9apyttdwa8glz6rm8scgaqjur6kg868gvfxgte0cu9"><span style="font-weight: 400;">I, Pencil</span></a><span style="font-weight: 400;">&nbsp;</span></li>
+<li><a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqyg8wumn8ghj7mn09eehgu3wvdez7qgewaehxw309aex2mrp0yh8xmn0wf6zuum0vd5kzmp0qqsqquq920a7psq8x3w9apyttdwa8glz6rm8scgaqjur6kg868gvfxgte0cu9"><span style="font-weight: 400;">I, Pencil</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><span style="font-weight: 400;">Jungle vs Civilization&nbsp;</span></li>
 <li><span style="font-weight: 400;">Fiat = because I said so (&ldquo;Fiat Lux&rdquo; - </span><a href="https://en.wikipedia.org/wiki/Let_there_be_light"><span style="font-weight: 400;">Let there be light</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Do we need leaders in bitcoin?&nbsp;</span></li>
@@ -3170,7 +3174,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://en.wikipedia.org/wiki/Conscience"><span style="font-weight: 400;">Conscience</span></a><span style="font-weight: 400;"> and </span><a href="https://www.goodreads.com/quotes/445636-this-is-the-other-secret-that-real-artists-know-and"><span style="font-weight: 400;">The Muse</span></a></li>
 <li><span style="font-weight: 400;">Hypermedia and </span><a href="https://github.com/futurepaul/hypernote/"><span style="font-weight: 400;">HyperNote</span></a><span style="font-weight: 400;">&nbsp;</span></li>
 <li><a href="https://www.wired.com/2013/12/glasshole/"><span style="font-weight: 400;">Glassholes</span></a><span style="font-weight: 400;">, Google Glasses, and wearable technology</span></li>
-<li><span style="font-weight: 400;">Prompting &amp; Praying for </span><a href="https://njump.me/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">An Internet Worth Having</span></a></li>
+<li><span style="font-weight: 400;">Prompting &amp; Praying for </span><a href="https://njump.to/nevent1qvzqqqqqqypzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqyghwumn8ghj7mn0wd68ytnhd9hx2tcpz4mhxue69uhkummnw3ezummcw3ezuer9wchsqgqd403237d80jx3q705graa8j0s6kwyhgy228tlsywwawjckq4z25vvfpra"><span style="font-weight: 400;">An Internet Worth Having</span></a></li>
 </ul>
 <p><span style="font-weight: 400;">Books mentioned:</span></p>
 <ul>
@@ -3217,7 +3221,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li>&ldquo;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2022/12/18/a-vision-for-a-value-enabled-web/">Markets become absurd as supply approaches infinity.</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&rdquo;</span></li>
 <li>eCash + AI = match made in heaven</li>
 <li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nostr.band/?q=%23learntocode">#LearnToCode</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;vs&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nostr.band/?q=%23learntoprompt">#LearnToPrompt</a></li>
-<li>Scarcity in cyberspace:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://njump.me/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g">compute, storage, networking</a></li>
+<li>Scarcity in cyberspace:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://njump.to/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g">compute, storage, networking</a></li>
 <li>Zero-Knowledge compute &amp; zero-knowledge proofs</li>
 <li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">https://en.wikipedia.org/wiki/Zero-knowledge_proof</a></li>
 <li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/AbdelStark/cashu-zk-engine">https://github.com/AbdelStark/cashu-zk-engine</a></li>
@@ -3244,7 +3248,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <enclosure url="https://haven.sovereignengineering.io/f00e902261b524870c8ef2da36e62666f0964adfccd20dd6d020d7d6da6adc29.mp3" length="46738988" type="audio/mpeg"/>
       <podcast:person href="https://cashu.space/" img="https://avatars.githubusercontent.com/u/93376500" group="cast" role="guest">Calle</podcast:person>
       <podcast:chapters url="https://sovereignengineering.io/chapters/04-ecash-fixes-402-w-calle.json" type="application/json+chapters"/>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Calle" type="lnaddress" address="calle@npub.cash" split="100"/>
@@ -3253,7 +3257,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">099bb458-3a70-4f38-b178-dbaa883e9256</guid>
       <itunes:subtitle>#04: Ecash Fixes 402 w/ Calle</itunes:subtitle>
       <itunes:duration>5842</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsyrnlzpnfedcznf3elhucax6dpjffhm85uw6yee0y4e4arhs3p2wqskdwhx</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsyrnlzpnfedcznf3elhucax6dpjffhm85uw6yee0y4e4arhs3p2wqskdwhx</link>
       <pubDate>Thu, 13 Mar 2025 21:21:21 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -3294,7 +3298,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li>&ldquo;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2022/12/18/a-vision-for-a-value-enabled-web/">Markets become absurd as supply approaches infinity.</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&rdquo;</span></li>
 <li>eCash + AI = match made in heaven</li>
 <li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nostr.band/?q=%23learntocode">#LearnToCode</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;vs&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nostr.band/?q=%23learntoprompt">#LearnToPrompt</a></li>
-<li>Scarcity in cyberspace:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://njump.me/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g">compute, storage, networking</a></li>
+<li>Scarcity in cyberspace:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://njump.to/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g">compute, storage, networking</a></li>
 <li>Zero-Knowledge compute &amp; zero-knowledge proofs</li>
 <li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">https://en.wikipedia.org/wiki/Zero-knowledge_proof</a></li>
 <li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/AbdelStark/cashu-zk-engine">https://github.com/AbdelStark/cashu-zk-engine</a></li>
@@ -3327,7 +3331,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">02: </span><a href="https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s/episode/NDIyMmVlYjktYTIxNy00ODdkLThmYTUtYTlkN2U0NDg5Njkx"><span style="font-weight: 400;">There is No Global</span></a></li>
 <li><span style="font-weight: 400;">Concept of ownership &amp; &ldquo;</span><a href="https://readwriteown.com/"><span style="font-weight: 400;">Read, Write, Own</span></a><span style="font-weight: 400;">&rdquo;</span></li>
 <li><a href="https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing"><span style="font-weight: 400;">Shamir Secret Sharing</span></a><span style="font-weight: 400;"> and </span><a href="https://en.bitcoin.it/wiki/Timelock"><span style="font-weight: 400;">Timelocks</span></a></li>
-<li><a href="https://njump.me/nevent1qqs0pqg80hhm24zk8tu4r8ldqc49v2wmmfmqu0qqf6aux6eexnaecsczyzr4wpwsxjtrhpy84qjxg6rp92z5a5444antaymwreyvyh8fdf6s6vn8h9t"><span style="font-weight: 400;">&ldquo;No amount of violence will ever solve a math problem.&rdquo;</span></a></li>
+<li><a href="https://njump.to/nevent1qqs0pqg80hhm24zk8tu4r8ldqc49v2wmmfmqu0qqf6aux6eexnaecsczyzr4wpwsxjtrhpy84qjxg6rp92z5a5444antaymwreyvyh8fdf6s6vn8h9t"><span style="font-weight: 400;">&ldquo;No amount of violence will ever solve a math problem.&rdquo;</span></a></li>
 <li><span style="font-weight: 400;">You </span><a href="https://security.stackexchange.com/questions/35627/prove-that-you-deleted-the-file#comment55345_35627"><span style="font-weight: 400;">can&rsquo;t prove deletion</span></a><span style="font-weight: 400;"> of a key (or anything, really); best you can do is &ldquo;</span><a href="https://bitcoin.stackexchange.com/a/89560"><span style="font-weight: 400;">burn</span></a><span style="font-weight: 400;">&rdquo; bitcoin</span></li>
 <li><span style="font-weight: 400;">Data is information, which </span><a href="https://dergigi.com/threads/memes-vs-the-world"><span style="font-weight: 400;">behaves like an idea</span></a><span style="font-weight: 400;"> (not like an apple)</span></li>
 <li><span style="font-weight: 400;">&ldquo;If you have an apple and I have an apple and we exchange these apples then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas.&rdquo; &ndash; </span><a href="https://dergigi.com/threads/memes-vs-the-world"><span style="font-weight: 400;">https://dergigi.com/threads/memes-vs-the-world</span></a><span style="font-weight: 400;">&nbsp;</span></li>
@@ -3354,12 +3358,12 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">&ldquo;</span><a href="https://dergigi.com/2024/03/25/speaking-freely-online/"><span style="font-weight: 400;">Free Speech platforms cannot exist</span></a><span style="font-weight: 400;">; if there is a &lsquo;deplatform&rsquo; button, the button will be pressed.&rdquo;</span></li>
 <li><span style="font-weight: 400;">&ldquo;</span><a href="https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ"><span style="font-weight: 400;">Neither nostalgia nor utopia.</span></a><span style="font-weight: 400;">&rdquo;</span></li>
 <li><span style="font-weight: 400;">Solutions that make stuff worse over time vs solutions that make stuff better over time.</span></li>
-<li><span style="font-weight: 400;">#asknostr on <a href="https://njump.me/nevent1qqs8mnlq5lgxceec4u7a3qkzxaguyqm347w9l6vmp4mg7ht5064qjncpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nl6v27c">passkeys</a>, and why we think they&rsquo;ll make things <a href="https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9">worse over time</a>.</span></li>
+<li><span style="font-weight: 400;">#asknostr on <a href="https://njump.to/nevent1qqs8mnlq5lgxceec4u7a3qkzxaguyqm347w9l6vmp4mg7ht5064qjncpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nl6v27c">passkeys</a>, and why we think they&rsquo;ll make things <a href="https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9">worse over time</a>.</span></li>
 <li><span style="font-weight: 400;">Authentication vs identity: &ldquo;</span><a href="https://www.authx.com/blog/identification-vs-authentication/"><span style="font-weight: 400;">identification asks, authentication proves</span></a><span style="font-weight: 400;">&rdquo;</span></li>
 <li><a href="https://web.archive.org/web/20161221170031/https://www.wired.com/2011/10/you-are-not-your-name-and-photo-a-call-to-re-imagine-identity/"><span style="font-weight: 400;">You are not your name and photo</span></a><span style="font-weight: 400;">; identity is prismatic</span></li>
 <li><span style="font-weight: 400;">(m00t&rsquo;s talk on it at </span><a href="https://youtu.be/e3Zs74IH0mc"><span style="font-weight: 400;">web summit 2011</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Starbug from CCC </span><a href="https://media.ccc.de/v/31c3_-_6450_-_de_-_saal_1_-_201412272030_-_ich_sehe_also_bin_ich_du_-_starbug#t=1859"><span style="font-weight: 400;">pwning TouchID</span></a><span style="font-weight: 400;"> biometrics from a high-res photo (<a href="https://arstechnica.com/information-technology/2014/12/politicians-fingerprint-reproduced-using-photos-of-her-hands/">article</a>)</span></li>
-<li><span style="font-weight: 400;">Key rotation and (American) </span><a href="https://njump.me/npub1rtlqca8r6auyaw5n5h3l5422dm4sry5dzfee4696fqe8s6qgudks7djtfs"><span style="font-weight: 400;">HODL</span></a></li>
+<li><span style="font-weight: 400;">Key rotation and (American) </span><a href="https://njump.to/npub1rtlqca8r6auyaw5n5h3l5422dm4sry5dzfee4696fqe8s6qgudks7djtfs"><span style="font-weight: 400;">HODL</span></a></li>
 <li><span style="font-weight: 400;">Social recovery&nbsp;</span></li>
 <li><span style="font-weight: 400;">Multi-sig for nostr with </span><a href="https://github.com/nickfarrow/frostr"><span style="font-weight: 400;">FROSTR</span></a></li>
 </ul>
@@ -3373,9 +3377,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <p>&nbsp;</p><p>Recorded at <a href="https://mempool.space/block/884723">884,723</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/79d1c142837197308b8ec89478d33de473a87c3f27a1e14d25585c12bae15723.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/d6cba62896e2db1220038210de2941420dbe768cef819327fdd0c55c71b0d46f.mp3" length="43295852" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:person href="https://njump.to/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:chapters url="https://sovereignengineering.io/chapters/03-data-ownership-is-a-lie-w-pablo.json" type="application/json+chapters"/>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
@@ -3384,7 +3388,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">61015ff9-beb2-448d-84a1-cc1db2e8e70c</guid>
       <itunes:subtitle>#03: Data Ownership is a Lie w/ Pablo</itunes:subtitle>
       <itunes:duration>5412</itunes:duration>
-      <link>https://njump.me/nevent1qqsv9qtr2afluu7wea4qnd8syucaecudwysws4h6vdn3up7mm7wnayszyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkdtwwk6</link>
+      <link>https://njump.to/nevent1qqsv9qtr2afluu7wea4qnd8syucaecudwysws4h6vdn3up7mm7wnayszyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkdtwwk6</link>
       <pubDate>Sun, 23 Feb 2025 18:39:32 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -3397,7 +3401,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">02: </span><a href="https://episodes.fm/aHR0cHM6Ly9zb3ZlcmVpZ25lbmdpbmVlcmluZy5pby9kaWFsb2d1ZXMueG1s/episode/NDIyMmVlYjktYTIxNy00ODdkLThmYTUtYTlkN2U0NDg5Njkx"><span style="font-weight: 400;">There is No Global</span></a></li>
 <li><span style="font-weight: 400;">Concept of ownership &amp; &ldquo;</span><a href="https://readwriteown.com/"><span style="font-weight: 400;">Read, Write, Own</span></a><span style="font-weight: 400;">&rdquo;</span></li>
 <li><a href="https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing"><span style="font-weight: 400;">Shamir Secret Sharing</span></a><span style="font-weight: 400;"> and </span><a href="https://en.bitcoin.it/wiki/Timelock"><span style="font-weight: 400;">Timelocks</span></a></li>
-<li><a href="https://njump.me/nevent1qqs0pqg80hhm24zk8tu4r8ldqc49v2wmmfmqu0qqf6aux6eexnaecsczyzr4wpwsxjtrhpy84qjxg6rp92z5a5444antaymwreyvyh8fdf6s6vn8h9t"><span style="font-weight: 400;">&ldquo;No amount of violence will ever solve a math problem.&rdquo;</span></a></li>
+<li><a href="https://njump.to/nevent1qqs0pqg80hhm24zk8tu4r8ldqc49v2wmmfmqu0qqf6aux6eexnaecsczyzr4wpwsxjtrhpy84qjxg6rp92z5a5444antaymwreyvyh8fdf6s6vn8h9t"><span style="font-weight: 400;">&ldquo;No amount of violence will ever solve a math problem.&rdquo;</span></a></li>
 <li><span style="font-weight: 400;">You </span><a href="https://security.stackexchange.com/questions/35627/prove-that-you-deleted-the-file#comment55345_35627"><span style="font-weight: 400;">can&rsquo;t prove deletion</span></a><span style="font-weight: 400;"> of a key (or anything, really); best you can do is &ldquo;</span><a href="https://bitcoin.stackexchange.com/a/89560"><span style="font-weight: 400;">burn</span></a><span style="font-weight: 400;">&rdquo; bitcoin</span></li>
 <li><span style="font-weight: 400;">Data is information, which </span><a href="https://dergigi.com/threads/memes-vs-the-world"><span style="font-weight: 400;">behaves like an idea</span></a><span style="font-weight: 400;"> (not like an apple)</span></li>
 <li><span style="font-weight: 400;">&ldquo;If you have an apple and I have an apple and we exchange these apples then you and I will still each have one apple. But if you have an idea and I have an idea and we exchange these ideas, then each of us will have two ideas.&rdquo; &ndash; </span><a href="https://dergigi.com/threads/memes-vs-the-world"><span style="font-weight: 400;">https://dergigi.com/threads/memes-vs-the-world</span></a><span style="font-weight: 400;">&nbsp;</span></li>
@@ -3424,12 +3428,12 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><span style="font-weight: 400;">&ldquo;</span><a href="https://dergigi.com/2024/03/25/speaking-freely-online/"><span style="font-weight: 400;">Free Speech platforms cannot exist</span></a><span style="font-weight: 400;">; if there is a &lsquo;deplatform&rsquo; button, the button will be pressed.&rdquo;</span></li>
 <li><span style="font-weight: 400;">&ldquo;</span><a href="https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ"><span style="font-weight: 400;">Neither nostalgia nor utopia.</span></a><span style="font-weight: 400;">&rdquo;</span></li>
 <li><span style="font-weight: 400;">Solutions that make stuff worse over time vs solutions that make stuff better over time.</span></li>
-<li><span style="font-weight: 400;">#asknostr on <a href="https://njump.me/nevent1qqs8mnlq5lgxceec4u7a3qkzxaguyqm347w9l6vmp4mg7ht5064qjncpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nl6v27c">passkeys</a>, and why we think they&rsquo;ll make things <a href="https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9">worse over time</a>.</span></li>
+<li><span style="font-weight: 400;">#asknostr on <a href="https://njump.to/nevent1qqs8mnlq5lgxceec4u7a3qkzxaguyqm347w9l6vmp4mg7ht5064qjncpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nl6v27c">passkeys</a>, and why we think they&rsquo;ll make things <a href="https://world.hey.com/dhh/passwords-have-problems-but-passkeys-have-more-95285df9">worse over time</a>.</span></li>
 <li><span style="font-weight: 400;">Authentication vs identity: &ldquo;</span><a href="https://www.authx.com/blog/identification-vs-authentication/"><span style="font-weight: 400;">identification asks, authentication proves</span></a><span style="font-weight: 400;">&rdquo;</span></li>
 <li><a href="https://web.archive.org/web/20161221170031/https://www.wired.com/2011/10/you-are-not-your-name-and-photo-a-call-to-re-imagine-identity/"><span style="font-weight: 400;">You are not your name and photo</span></a><span style="font-weight: 400;">; identity is prismatic</span></li>
 <li><span style="font-weight: 400;">(m00t&rsquo;s talk on it at </span><a href="https://youtu.be/e3Zs74IH0mc"><span style="font-weight: 400;">web summit 2011</span></a><span style="font-weight: 400;">)</span></li>
 <li><span style="font-weight: 400;">Starbug from CCC </span><a href="https://media.ccc.de/v/31c3_-_6450_-_de_-_saal_1_-_201412272030_-_ich_sehe_also_bin_ich_du_-_starbug#t=1859"><span style="font-weight: 400;">pwning TouchID</span></a><span style="font-weight: 400;"> biometrics from a high-res photo (<a href="https://arstechnica.com/information-technology/2014/12/politicians-fingerprint-reproduced-using-photos-of-her-hands/">article</a>)</span></li>
-<li><span style="font-weight: 400;">Key rotation and (American) </span><a href="https://njump.me/npub1rtlqca8r6auyaw5n5h3l5422dm4sry5dzfee4696fqe8s6qgudks7djtfs"><span style="font-weight: 400;">HODL</span></a></li>
+<li><span style="font-weight: 400;">Key rotation and (American) </span><a href="https://njump.to/npub1rtlqca8r6auyaw5n5h3l5422dm4sry5dzfee4696fqe8s6qgudks7djtfs"><span style="font-weight: 400;">HODL</span></a></li>
 <li><span style="font-weight: 400;">Social recovery&nbsp;</span></li>
 <li><span style="font-weight: 400;">Multi-sig for nostr with </span><a href="https://github.com/nickfarrow/frostr"><span style="font-weight: 400;">FROSTR</span></a></li>
 </ul>
@@ -3489,14 +3493,14 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://www.chatinum.com/articles/the-old-chat-apps-of-the-2000s"><span style="font-weight: 400;">https://www.chatinum.com/articles/the-old-chat-apps-of-the-2000s</span></a></li>
 <li><a href="https://en.wikipedia.org/wiki/Standard_RAID_levels"><span style="font-weight: 400;">https://en.wikipedia.org/wiki/Standard_RAID_levels</span></a></li>
 <li><a href="https://www.youtube.com/watch?v=oIkhgagvrjI"><span style="font-weight: 400;">https://www.youtube.com/watch?v=oIkhgagvrjI</span></a></li>
-<li><a href="https://njump.me/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.me/nosolutions@sovereignengineering.io</span></a></li>
+<li><a href="https://njump.to/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.to/nosolutions@sovereignengineering.io</span></a></li>
 </ul>
 <p><br /><br /></p><p>Recorded at <a href="https://mempool.space/block/883903">883,903</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/47751a709b26379178c6da4817bae2c7ec0df90ac56c5660a72f805268e54525.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/454ec3ebf261084fe0abbcb6b31409cb29db23ed97784f896b60d7226bfe17ba.mp3" length="57403392" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:person href="https://njump.to/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:chapters url="https://sovereignengineering.io/chapters/02-there-is-no-global-w-pablo.json" type="application/json+chapters"/>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
@@ -3505,7 +3509,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">4222eeb9-a217-487d-8fa5-a9d7e4489691</guid>
       <itunes:subtitle>#02: There is No Global w/ Pablo</itunes:subtitle>
       <itunes:duration>4524</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsgkx392393mpne6kepe03jvsk3rpq7pcnuxmggjyxhdwp4x3qrc0casaqag</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsgkx392393mpne6kepe03jvsk3rpq7pcnuxmggjyxhdwp4x3qrc0casaqag</link>
       <pubDate>Sat, 15 Feb 2025 19:08:23 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -3556,7 +3560,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://www.chatinum.com/articles/the-old-chat-apps-of-the-2000s"><span style="font-weight: 400;">https://www.chatinum.com/articles/the-old-chat-apps-of-the-2000s</span></a></li>
 <li><a href="https://en.wikipedia.org/wiki/Standard_RAID_levels"><span style="font-weight: 400;">https://en.wikipedia.org/wiki/Standard_RAID_levels</span></a></li>
 <li><a href="https://www.youtube.com/watch?v=oIkhgagvrjI"><span style="font-weight: 400;">https://www.youtube.com/watch?v=oIkhgagvrjI</span></a></li>
-<li><a href="https://njump.me/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.me/nosolutions@sovereignengineering.io</span></a></li>
+<li><a href="https://njump.to/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.to/nosolutions@sovereignengineering.io</span></a></li>
 </ul>
 <p><br /><br /></p><p>Recorded at <a href="https://mempool.space/block/883903">883,903</a>.</p>]]></itunes:summary>
     </item>
@@ -3594,13 +3598,13 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">https://sovereignengineering.io/</span></a></li>
 <li><a href="https://dergigi.com/2023/04/04/purple-text-orange-highlights/"><span style="font-weight: 400;">https://dergigi.com/2023/04/04/purple-text-orange-highlights/</span></a></li>
 <li><a href="https://highlighter.com/"><span style="font-weight: 400;">https://highlighter.com/</span></a></li>
-<li><a href="https://njump.me/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.me/nosolutions@sovereignengineering.io</span></a></li>
+<li><a href="https://njump.to/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.to/nosolutions@sovereignengineering.io</span></a></li>
 </ul><p>Recorded at <a href="https://mempool.space/block/882856">882,856</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/ecb05eff1c32855b96048f97b94580c7a4d9ee053245afd2051c433c64b39c20.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/efd05ea087e894bfa056803f881e8de25e775cee3d65f2ae303c1f282b619a61.mp3" length="34303296" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:person href="https://njump.to/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:chapters url="https://sovereignengineering.io/chapters/01-start-ugly-w-pablo.json" type="application/json+chapters"/>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
@@ -3609,7 +3613,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">cecd9520-2fc8-4d45-9161-34d58e563e0f</guid>
       <itunes:subtitle>#01: Start Ugly w/ Pablo</itunes:subtitle>
       <itunes:duration>2798</itunes:duration>
-      <link>https://njump.me/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsq92p3qgyjnqn9rm7k87fdaq4aqqhwpdteuaam2q0s7dqjsf9lpgq27jj59</link>
+      <link>https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqys8wumn8ghj7mn0wd68ytn9d9h82mny0fmkzmn6d9njuumsv93k2tcppemhxue69uhkummn9ekx7mp0qqsq92p3qgyjnqn9rm7k87fdaq4aqqhwpdteuaam2q0s7dqjsf9lpgq27jj59</link>
       <pubDate>Sun, 09 Feb 2025 09:53:46 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
@@ -3647,7 +3651,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">https://sovereignengineering.io/</span></a></li>
 <li><a href="https://dergigi.com/2023/04/04/purple-text-orange-highlights/"><span style="font-weight: 400;">https://dergigi.com/2023/04/04/purple-text-orange-highlights/</span></a></li>
 <li><a href="https://highlighter.com/"><span style="font-weight: 400;">https://highlighter.com/</span></a></li>
-<li><a href="https://njump.me/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.me/nosolutions@sovereignengineering.io</span></a></li>
+<li><a href="https://njump.to/nosolutions@sovereignengineering.io"><span style="font-weight: 400;">https://njump.to/nosolutions@sovereignengineering.io</span></a></li>
 </ul><p>Recorded at <a href="https://mempool.space/block/882856">882,856</a>.</p>]]></itunes:summary>
     </item>
     <item>
@@ -3655,9 +3659,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <description><![CDATA[<p>A teaser.</p><p>Recorded at <a href="https://mempool.space/block/882688">882,688</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/5c534684d544b519bbb09cc126ac0095f093949498091ca818a55baee26e0e44.png"/>
       <enclosure url="https://haven.sovereignengineering.io/d8b969dcdd4e956b581ac66933076b1a9080d219aeddf03110c768bec43e842f.ogg" length="1649225" type="audio/mpeg"/>
-      <podcast:person href="https://njump.me/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
+      <podcast:person href="https://njump.to/f7z.io" img="https://primal.b-cdn.net/media-upload?u=https%3A%2F%2Fmedia.primal.net%2Fuploads%2Ff%2F32%2F11%2Ff32111d4786fd98af5ab2b89160f5f9c7f394feb9c9ea1a05d67d29f594c2c5f.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:chapters url="https://sovereignengineering.io/chapters/00-test-recording-teaser-w-pablo.json" type="application/json+chapters"/>
-      <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
@@ -3665,7 +3669,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <guid isPermaLink="false">424cb8ef-a99a-4a0b-b7ce-02b960283814</guid>
       <itunes:subtitle>#00: Test Recording / Teaser w/ Pablo</itunes:subtitle>
       <itunes:duration>229</itunes:duration>
-      <link>https://njump.me/nevent1qqs8h87t6xu22nsxlu5pa6jfztlfchsvm894h8qt2w5kadrvjs7j6fgzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkdw4nl9</link>
+      <link>https://njump.to/nevent1qqs8h87t6xu22nsxlu5pa6jfztlfchsvm894h8qt2w5kadrvjs7j6fgzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkdw4nl9</link>
       <pubDate>Fri, 07 Feb 2025 10:00:00 +0000</pubDate>
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
