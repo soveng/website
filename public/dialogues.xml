@@ -165,17 +165,33 @@ on sovereignengineering.io</a></p>
 system for people who want full control over the stack</li>
 <li>Why Android is interesting again: not because it’s clean, but
 because it is at least open enough to fight with</li>
+<li>Android file chaos, and the immortal <a
+href="https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqy2hwumn8ghj7mn0wd68ytn00p68ytnyv4mz7qfqwaehxw309ahx7um5wghx26tww4hxg7nhv9h856t89eehqctrv5hsqgysz8fc8xhpk7sndptrn9mq43em26sgsexclqfyu3ugt4mmz8z53uzp3k6p">“file
+saved successfully” meme</a></li>
 <li>One wallet, one relay connection, one shared set of primitives at
 the OS level, instead of every app reinventing the same mess</li>
+<li>The “UNIX tools of Nostr” idea, revisited from <a
+href="https://sovereignengineering.io/podcast/07-zig-multiplatform-w-justin">#07:
+Zig Multiplatform w/ Justin</a></li>
 <li>Booting a phone with less Android, then turning Android off piece by
 piece once the system is running</li>
+<li>Early signs of life for Shadow: Kosti successfully compiled and ran
+it</li>
 <li>From 13-second button clicks to instant GPU rendering, and why that
 counts as real progress</li>
+<li>Ricing phones like Linux desktops, with the usual <a
+href="https://cms.typecraft.dev/community/linux_ricing/">Typecraft
+explainer</a> and <a
+href="https://github.com/fosslife/awesome-ricing">awesome-ricing</a>
+rabbit hole</li>
 <li>Why Justin chose TypeScript apps on top of a Rust core: make the
 parts you should not vibe-code solid, and let users vibe-code the
 rest</li>
 <li>Apps as source code, almost like DMs, instead of a permissioned app
 store pipeline</li>
+<li>How maps, notebooks, and everything else dematerialized into the
+computer, via this <a href="https://youtu.be/uGI00HV7Cfw">video of stuff
+disappearing into software</a></li>
 <li>The app store tax, DUNS numbers, LLC theater, and why Justin would
 rather build a parallel thing than beg Apple and Google for
 approval</li>
@@ -194,6 +210,8 @@ agency</li>
 users, without a real vision for what a phone should become</li>
 <li>The Nostr opportunity: a community weird enough to flash devices,
 test strange tools, and actually use them</li>
+<li>“Where do your ideas come from?” and the obligatory <a
+href="https://youtu.be/PF59yAwaELE">Norm clip</a></li>
 <li>Why the future may look like one agent per project, each with its
 own identity, memory, and full machine to operate</li>
 <li>Personal clouds, bare-metal boxes, ephemeral VMs, and feeding your
@@ -207,9 +225,10 @@ parallel internets</li>
 tailscale-like overlays, and why overlay networks beat waiting for the
 whole world to rewire itself</li>
 <li>Messaging trade-offs: <a
-href="https://github.com/marmot-protocol/marmot">Marmot</a>, MLS
-coordination pain, chat relays, double ratchets, and what actually works
-for small groups</li>
+href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a
+href="https://simplex.chat/">SimpleX Chat</a>, MLS coordination pain,
+chat relays, double ratchets, and what actually works for small
+groups</li>
 <li><a href="https://github.com/sledtools/pika">Pika</a>, identity,
 signaling, and why Justin wants to stop theory-crafting and start
 shipping</li>
@@ -222,8 +241,8 @@ shipping violently</li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li>Steve Lee (early sounding board for Lightning-at-the-OS-level
-ideas)</li>
+<li><a href="https://github.com/moneyball">Steve Lee</a> (early sounding
+board for Lightning-at-the-OS-level ideas)</li>
 <li><a
 href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan
 Corgan</a> (creator of <a href="https://fips.network/">FIPS</a>, pulled
@@ -236,8 +255,13 @@ href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-m
 Hashtree, Nostr VPN, and Iris</a>)</li>
 <li><a
 href="https://njump.to/npub1utx00neqgqln72j22kej3ux7803c2k986henvvha4thuwfkper4s7r50e8">UTXO
-the webmaster</a> (creator of the <a
-href="https://github.com/KoalaSat/wisp">Wisp</a> Nostr client)</li>
+the webmaster</a> (building <a href="https://wisp.mobile/">Wisp</a>, see
+also <a
+href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel
+Dispatch #200 with UTXO</a>)</li>
+<li><a
+href="https://njump.to/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl">Kosti</a>
+(successfully compiled and ran Shadow OS)</li>
 <li><a
 href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a>
 (app-as-chat-box idea, <a
@@ -284,10 +308,18 @@ networking over Nostr)</li>
 messaging experiments for OpenClaw)</li>
 <li><a href="https://github.com/marmot-protocol/marmot">Marmot</a>
 (MLS-based chat on Nostr)</li>
+<li><a href="https://simplex.chat/">SimpleX Chat</a> (private messaging
+reference point mentioned in the conversation, see also <a
+href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd196-evgeny-poberezkin--simplex-private-chat">Citadel
+Dispatch #196 with Evgeny Poberezkin</a>)</li>
 <li><a href="https://openclaw.ai">OpenClaw</a> (one agent per project,
 memory, and task execution)</li>
 <li><a href="https://zapstore.dev/">ZapStore</a> (permission-minimized
 Android app distribution)</li>
+<li><a href="https://wisp.mobile/">Wisp</a> (mobile Nostr client being
+built by UTXO, see also <a
+href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel
+Dispatch #200 with UTXO</a>)</li>
 <li><a href="https://github.com/KoalaSat/pokey">Pokey</a> (Nostr
 notification aggregation for power users)</li>
 <li><a href="https://deno.com/">Deno</a> (runtime for TypeScript apps on
@@ -341,17 +373,33 @@ on sovereignengineering.io</a></p>
 system for people who want full control over the stack</li>
 <li>Why Android is interesting again: not because it’s clean, but
 because it is at least open enough to fight with</li>
+<li>Android file chaos, and the immortal <a
+href="https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqy2hwumn8ghj7mn0wd68ytn00p68ytnyv4mz7qfqwaehxw309ahx7um5wghx26tww4hxg7nhv9h856t89eehqctrv5hsqgysz8fc8xhpk7sndptrn9mq43em26sgsexclqfyu3ugt4mmz8z53uzp3k6p">“file
+saved successfully” meme</a></li>
 <li>One wallet, one relay connection, one shared set of primitives at
 the OS level, instead of every app reinventing the same mess</li>
+<li>The “UNIX tools of Nostr” idea, revisited from <a
+href="https://sovereignengineering.io/podcast/07-zig-multiplatform-w-justin">#07:
+Zig Multiplatform w/ Justin</a></li>
 <li>Booting a phone with less Android, then turning Android off piece by
 piece once the system is running</li>
+<li>Early signs of life for Shadow: Kosti successfully compiled and ran
+it</li>
 <li>From 13-second button clicks to instant GPU rendering, and why that
 counts as real progress</li>
+<li>Ricing phones like Linux desktops, with the usual <a
+href="https://cms.typecraft.dev/community/linux_ricing/">Typecraft
+explainer</a> and <a
+href="https://github.com/fosslife/awesome-ricing">awesome-ricing</a>
+rabbit hole</li>
 <li>Why Justin chose TypeScript apps on top of a Rust core: make the
 parts you should not vibe-code solid, and let users vibe-code the
 rest</li>
 <li>Apps as source code, almost like DMs, instead of a permissioned app
 store pipeline</li>
+<li>How maps, notebooks, and everything else dematerialized into the
+computer, via this <a href="https://youtu.be/uGI00HV7Cfw">video of stuff
+disappearing into software</a></li>
 <li>The app store tax, DUNS numbers, LLC theater, and why Justin would
 rather build a parallel thing than beg Apple and Google for
 approval</li>
@@ -370,6 +418,8 @@ agency</li>
 users, without a real vision for what a phone should become</li>
 <li>The Nostr opportunity: a community weird enough to flash devices,
 test strange tools, and actually use them</li>
+<li>“Where do your ideas come from?” and the obligatory <a
+href="https://youtu.be/PF59yAwaELE">Norm clip</a></li>
 <li>Why the future may look like one agent per project, each with its
 own identity, memory, and full machine to operate</li>
 <li>Personal clouds, bare-metal boxes, ephemeral VMs, and feeding your
@@ -383,9 +433,10 @@ parallel internets</li>
 tailscale-like overlays, and why overlay networks beat waiting for the
 whole world to rewire itself</li>
 <li>Messaging trade-offs: <a
-href="https://github.com/marmot-protocol/marmot">Marmot</a>, MLS
-coordination pain, chat relays, double ratchets, and what actually works
-for small groups</li>
+href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a
+href="https://simplex.chat/">SimpleX Chat</a>, MLS coordination pain,
+chat relays, double ratchets, and what actually works for small
+groups</li>
 <li><a href="https://github.com/sledtools/pika">Pika</a>, identity,
 signaling, and why Justin wants to stop theory-crafting and start
 shipping</li>
@@ -398,8 +449,8 @@ shipping violently</li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li>Steve Lee (early sounding board for Lightning-at-the-OS-level
-ideas)</li>
+<li><a href="https://github.com/moneyball">Steve Lee</a> (early sounding
+board for Lightning-at-the-OS-level ideas)</li>
 <li><a
 href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan
 Corgan</a> (creator of <a href="https://fips.network/">FIPS</a>, pulled
@@ -412,8 +463,13 @@ href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-m
 Hashtree, Nostr VPN, and Iris</a>)</li>
 <li><a
 href="https://njump.to/npub1utx00neqgqln72j22kej3ux7803c2k986henvvha4thuwfkper4s7r50e8">UTXO
-the webmaster</a> (creator of the <a
-href="https://github.com/KoalaSat/wisp">Wisp</a> Nostr client)</li>
+the webmaster</a> (building <a href="https://wisp.mobile/">Wisp</a>, see
+also <a
+href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel
+Dispatch #200 with UTXO</a>)</li>
+<li><a
+href="https://njump.to/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl">Kosti</a>
+(successfully compiled and ran Shadow OS)</li>
 <li><a
 href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a>
 (app-as-chat-box idea, <a
@@ -460,10 +516,18 @@ networking over Nostr)</li>
 messaging experiments for OpenClaw)</li>
 <li><a href="https://github.com/marmot-protocol/marmot">Marmot</a>
 (MLS-based chat on Nostr)</li>
+<li><a href="https://simplex.chat/">SimpleX Chat</a> (private messaging
+reference point mentioned in the conversation, see also <a
+href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd196-evgeny-poberezkin--simplex-private-chat">Citadel
+Dispatch #196 with Evgeny Poberezkin</a>)</li>
 <li><a href="https://openclaw.ai">OpenClaw</a> (one agent per project,
 memory, and task execution)</li>
 <li><a href="https://zapstore.dev/">ZapStore</a> (permission-minimized
 Android app distribution)</li>
+<li><a href="https://wisp.mobile/">Wisp</a> (mobile Nostr client being
+built by UTXO, see also <a
+href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel
+Dispatch #200 with UTXO</a>)</li>
 <li><a href="https://github.com/KoalaSat/pokey">Pokey</a> (Nostr
 notification aggregation for power users)</li>
 <li><a href="https://deno.com/">Deno</a> (runtime for TypeScript apps on
