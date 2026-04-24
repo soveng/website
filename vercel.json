@@ -2,5 +2,16 @@
   "buildCommand": "bun run build",
   "outputDirectory": "dist",
   "framework": "astro",
-  "installCommand": "bun install"
+  "installCommand": "bun install",
+  "headers": [
+    {
+      "source": "/chapters/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json+chapters"
+        }
+      ]
+    }
+  ]
 }

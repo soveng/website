@@ -4,3 +4,9 @@ command = "bun run build"
 
 [build.environment]
 NODE_VERSION = "20"
+
+[[headers]]
+  for = "/chapters/*"
+
+  [headers.values]
+  Content-Type = "application/json+chapters"

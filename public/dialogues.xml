@@ -308,6 +308,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/334aeb4454a06ec0696ccc31595bf200e1e35850b6c7a4d8237452f7a187e1d4.jpg"/>
       <podcast:person href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y" img="" group="cast" role="guest">Justin Moon</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/e57310cd99b1f2caab3462dcf57cc80a4ee7667bcef9bbc06add3ca6b50af991.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/23-shipping-violently-w-justin-moon.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
