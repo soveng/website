@@ -1,0 +1,73 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#09: No Strudelutions w/ hzrd149",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 9, No Strudelutions w/ hzrd149.",
+  "fileName": "09 - No Strudelutions.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 443.647,
+      "title": "Hzrd's past conversations: Bowls With Buds 316 & 361",
+      "url": "https://fountain.fm/episode/E0p20TEm9KEc2oFd3kJR"
+    },
+    {
+      "startTime": 443.647,
+      "endTime": 1150.833,
+      "title": "Encryption and decryption is expensive - is it worth it?"
+    },
+    {
+      "startTime": 1150.833,
+      "endTime": 1726.25,
+      "title": "How NoStrudel grew",
+      "url": "https://nostrudel.ninja/"
+    },
+    {
+      "startTime": 1726.25,
+      "endTime": 2301.667,
+      "title": "How private is a group chat?"
+    },
+    {
+      "startTime": 2301.667,
+      "endTime": 2877.083,
+      "title": "Technology vs chairs (and cars, and tractors, and books)"
+    },
+    {
+      "startTime": 2877.083,
+      "endTime": 3494.416,
+      "title": "Platform permission slips vs cryptographic identities"
+    },
+    {
+      "startTime": 3494.416,
+      "endTime": 4027.917,
+      "title": "Age differences, Siri, and Dragon Naturally Speaking"
+    },
+    {
+      "startTime": 4027.917,
+      "endTime": 4560.941,
+      "title": "Are there coincidences?"
+    },
+    {
+      "startTime": 4560.941,
+      "endTime": 5098.02,
+      "title": "Forgetting and dying needs to be effortless"
+    },
+    {
+      "startTime": 5098.02,
+      "endTime": 5754.167,
+      "title": "Removing the character limit was a mistake",
+      "url": "https://njump.me/nevent1qqsxvahg4a2l6jtv5da9jycx9q0g6rjrtsgpzgj47grv7ct47yr59xgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjpnn59"
+    },
+    {
+      "startTime": 5754.167,
+      "endTime": 6331.825,
+      "title": "Nostr is also a normal thing now, at least for us"
+    },
+    {
+      "startTime": 6331.825,
+      "endTime": 6905.0,
+      "title": "What we do, why we care, why we think it's important"
+    }
+  ]
+}
