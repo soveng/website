@@ -932,6 +932,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <podcast:person href="https://njump.to/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5" img="" group="cast" role="guest">Sovereign Engineering</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.dergigi.com/dd6bef5b9fefeb3a3c5530115860ea0f3e406077050f1c6aff1975b619095e71.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/16-one-click-and-run-w-sec-05.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Sovereign Engineering" type="lnaddress" address="soveng@coinos.io" split="100"/>

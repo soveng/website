@@ -1,0 +1,40 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#16: One Click and Run w/ SEC-05",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 16, One Click and Run w/ SEC-05.",
+  "fileName": "16 - One Click and Run.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 87.341,
+      "title": "The dream: press record, press save, everything auto-publishes to Nostr"
+    },
+    {
+      "startTime": 87.341,
+      "endTime": 167.387,
+      "title": "Get an IP address, a Docker container, SSH access, and a VPN"
+    },
+    {
+      "startTime": 167.387,
+      "endTime": 253.048,
+      "title": "Paid relays, but also: attach e-cash when you want reliability"
+    },
+    {
+      "startTime": 253.048,
+      "endTime": 376.821,
+      "title": "uTorrent: you just clicked it and it worked"
+    },
+    {
+      "startTime": 376.821,
+      "endTime": 499.971,
+      "title": "\"The more you do it, the more you learn\""
+    },
+    {
+      "startTime": 499.971,
+      "endTime": 575.0,
+      "title": "48 hours left in the cohort, more demos to come"
+    }
+  ]
+}
