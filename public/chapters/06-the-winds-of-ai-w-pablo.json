@@ -1,0 +1,75 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#06: The Winds of AI w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 6, The Winds of AI w/ Pablo.",
+  "fileName": "06 - The Winds of AI.mp3",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 496.25,
+      "title": "Wind"
+    },
+    {
+      "startTime": 496.25,
+      "endTime": 992.5,
+      "title": "Tweetdeck and Notedeck",
+      "url": "https://damus.io/notedeck/"
+    },
+    {
+      "startTime": 992.5,
+      "endTime": 1546.74,
+      "title": "ONOSENDAI by Arkinox",
+      "url": "https://www.onosendai.tech/"
+    },
+    {
+      "startTime": 1546.74,
+      "endTime": 1918.64,
+      "title": "Pivoting from nostr dialogues to a podcast about wind"
+    },
+    {
+      "startTime": 1918.64,
+      "endTime": 2441.068,
+      "title": "Edits, the edit wars, and the case against edits",
+      "url": "https://blog.udaya.dev/fiatjaf/ad84e3b3"
+    },
+    {
+      "startTime": 2441.068,
+      "endTime": 2977.5,
+      "title": "Search scopes & web of trust"
+    },
+    {
+      "startTime": 2977.5,
+      "endTime": 3481.868,
+      "title": "Olas & NDK",
+      "url": "https://olas.app/"
+    },
+    {
+      "startTime": 3481.868,
+      "endTime": 3970.0,
+      "title": "Quotes from Hitler and how additional context changes meaning"
+    },
+    {
+      "startTime": 3970.0,
+      "endTime": 4466.25,
+      "title": "“Bitcoin is singularity insurance”",
+      "url": "https://njump.me/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gpzamhxue69uhhyetvv9ujumn0wd68ytnzv9hxgtczyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqqqqqg74yxgf"
+    },
+    {
+      "startTime": 4466.25,
+      "endTime": 4962.5,
+      "title": "Crisis of sameness & the problem of distribution"
+    },
+    {
+      "startTime": 4962.5,
+      "endTime": 5458.75,
+      "title": "Farming eyeballs and brain cycles"
+    },
+    {
+      "startTime": 5458.75,
+      "endTime": 5955.0,
+      "title": "Active vs passive, agency vs serfdom"
+    }
+  ]
+}

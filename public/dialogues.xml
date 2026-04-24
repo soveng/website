@@ -2859,6 +2859,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <podcast:person href="https://njump.me/f7z.io" img="https://avatars.githubusercontent.com/u/779813?v=4" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/82506d2dad88ac901241d87d21fc13cd1d7dea41ba5c5e62025e4fee87e834ba.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/06-the-winds-of-ai-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
