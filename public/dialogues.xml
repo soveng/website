@@ -786,6 +786,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <itunes:image href="https://haven.dergigi.com/a9e141e553980b3b93ed3e4b2489c7bdb784eb702ae6adaad08883cd0504dfc2.jpg"/>
       <podcast:person href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft" img="" group="cast" role="guest">Pablo</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/e145f449565c20e8a55459252bcd5bc58b8bc4814f95afbacc0fda2be5e45fc7.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/18-rewriting-tenex-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>

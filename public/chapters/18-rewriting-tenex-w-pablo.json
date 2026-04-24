@@ -1,0 +1,60 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "18: Rewriting TENEX w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 18, Rewriting TENEX w/ Pablo.",
+  "fileName": "18 - Rewriting TENEX.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 363.396,
+      "title": "Bitcoiners in cars getting coffee: recording from the sun visor…"
+    },
+    {
+      "startTime": 363.396,
+      "endTime": 525.804,
+      "title": "Removing structure to improve performance: deleting 80% of agent code…"
+    },
+    {
+      "startTime": 525.804,
+      "endTime": 845.688,
+      "title": "Composable workflows: the CEO agent doesn't need to know what the…"
+    },
+    {
+      "startTime": 845.688,
+      "endTime": 1107.648,
+      "title": "Participatory knowing: you don't understand Bitcoin until you actually…"
+    },
+    {
+      "startTime": 1107.648,
+      "endTime": 1384.608,
+      "title": "Context windows are a non-issue when the hierarchy is deep enough: each…"
+    },
+    {
+      "startTime": 1384.608,
+      "endTime": 1589.568,
+      "title": "Agents are bad at self-correction, so they delegate competing…"
+    },
+    {
+      "startTime": 1589.568,
+      "endTime": 1946.928,
+      "title": "NDK ported to Swift and Kotlin without looking at a single line of code…"
+    },
+    {
+      "startTime": 1946.928,
+      "endTime": 2215.488,
+      "title": "\"You're basically yelling at someone that is lying to you, that will…"
+    },
+    {
+      "startTime": 2215.488,
+      "endTime": 2508.648,
+      "title": "\"What if all I know of development is actually problematic? What if I…"
+    },
+    {
+      "startTime": 2508.648,
+      "endTime": 2769.0,
+      "title": "\"I'm on vacation. The agents have been running the entire time. They've…"
+    }
+  ]
+}
