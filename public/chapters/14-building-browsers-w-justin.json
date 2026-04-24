@@ -9,35 +9,35 @@
     {
       "startTime": 0,
       "endTime": 233.5,
-      "title": "Driving to the airport"
+      "title": "Airport Ride"
     },
     {
       "startTime": 233.5,
       "endTime": 499.46,
-      "title": "First version: Iroh for peer-to-peer, Nostr for lookup",
+      "title": "Iroh and Nostr",
       "url": "https://github.com/n0-computer/iroh"
     },
     {
       "startTime": 499.46,
       "endTime": 710.604,
-      "title": "MOQ (Media Over QUIC) as the simple alternative",
+      "title": "MOQ",
       "url": "https://datatracker.ietf.org/wg/moq/about/"
     },
     {
       "startTime": 710.604,
       "endTime": 958.276,
-      "title": "Blitz + QuickJS = a browser that runs a React counter app",
+      "title": "Blitz and QuickJS",
       "url": "https://github.com/DioxusLabs/blitz"
     },
     {
       "startTime": 958.276,
       "endTime": 1140.86,
-      "title": "Claiming names via Nostr events, no .com needed"
+      "title": "Nostr Names"
     },
     {
       "startTime": 1140.86,
       "endTime": 1347.0,
-      "title": "\"You're gonna miss your flight\""
+      "title": "Miss Your Flight"
     }
   ]
 }
