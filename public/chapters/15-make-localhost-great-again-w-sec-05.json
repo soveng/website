@@ -9,32 +9,32 @@
     {
       "startTime": 0,
       "endTime": 153.804,
-      "title": "\"How was Sovereign Engineering for you?\" -- \"Inspiring. Stressful.\""
+      "title": "Inspiring, Stressful"
     },
     {
       "startTime": 153.804,
       "endTime": 270.828,
-      "title": "Pete's demo day race condition: a literal race to claim e-cash"
+      "title": "Demo Day Race"
     },
     {
       "startTime": 270.828,
       "endTime": 494.256,
-      "title": "Andreas Antonopoulos talked about self-sustaining Bitcoin services eight…"
+      "title": "Antonopoulos Services"
     },
     {
       "startTime": 494.256,
       "endTime": 600.0,
-      "title": "HTTPS websites with zero certificate authority involved"
+      "title": "CA-Free HTTPS"
     },
     {
       "startTime": 600.0,
       "endTime": 750.0,
-      "title": "ContextVM: MCP over Nostr as a transport layer"
+      "title": "ContextVM"
     },
     {
       "startTime": 750.0,
       "endTime": 900.0,
-      "title": "Ending on a hug, as always"
+      "title": "Ending Hug"
     }
   ]
 }
