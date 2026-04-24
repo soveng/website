@@ -1,0 +1,15 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#00: Test Recording / Teaser w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 0, Test Recording / Teaser w/ Pablo.",
+  "fileName": "00 - Teaser Conversations - Friday at 10-27 AM.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 229.0,
+      "title": "#00: Test Recording / Teaser w/ Pablo"
+    }
+  ]
+}
