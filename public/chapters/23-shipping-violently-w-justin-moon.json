@@ -9,70 +9,70 @@
     {
       "startTime": 0,
       "endTime": 484,
-      "title": "Why Android and Why Bare Metal"
+      "title": "Android Bare Metal"
     },
     {
       "startTime": 484,
       "endTime": 727,
-      "title": "Shadow and Raising the Ambition",
+      "title": "Shadow Ambition",
       "url": "https://github.com/justinmoon/shadow"
     },
     {
       "startTime": 727,
       "endTime": 1051,
-      "title": "Pika, Voice Notes, and the Future Computer",
+      "title": "Pika Voice Notes",
       "url": "https://github.com/sledtools/pika"
     },
     {
       "startTime": 1051,
       "endTime": 1367,
-      "title": "Booting a Phone with Less Android"
+      "title": "Less Android"
     },
     {
       "startTime": 1367,
       "endTime": 1892,
-      "title": "TypeScript Apps on a Rust Core",
+      "title": "TypeScript on Rust",
       "url": "https://deno.com/"
     },
     {
       "startTime": 1892,
       "endTime": 2160,
-      "title": "One Wallet, One Relay, One Shared OS"
+      "title": "Shared OS Primitives"
     },
     {
       "startTime": 2160,
       "endTime": 2733,
-      "title": "Graphene, Guardrails, and a 3D Printed Gun of Phones",
+      "title": "Graphene and Guardrails",
       "url": "https://grapheneos.org/"
     },
     {
       "startTime": 2733,
       "endTime": 3002,
-      "title": "App Stores, Deplatforming, and Parallel Systems",
+      "title": "App Store Tax",
       "url": "https://zapstore.dev/"
     },
     {
       "startTime": 3002,
       "endTime": 3900,
-      "title": "Funding a Sustainable Ecosystem",
+      "title": "Sustainable Funding",
       "url": "https://openclaw.ai/"
     },
     {
       "startTime": 3900,
       "endTime": 4643,
-      "title": "FIPS, Nostr VPN, and Parallel Internets",
+      "title": "FIPS and Nostr VPN",
       "url": "https://fips.network/"
     },
     {
       "startTime": 4643,
       "endTime": 5211,
-      "title": "Pika, Marmot, and Messaging Trade-offs",
+      "title": "Pika and Marmot",
       "url": "https://github.com/marmot-protocol/marmot"
     },
     {
       "startTime": 5211,
       "endTime": 6012.608,
-      "title": "Shipping Violently and Amish-Compatible Tech"
+      "title": "Amish-Compatible Tech"
     }
   ]
 }
