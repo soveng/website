@@ -1,0 +1,72 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#08: Navigating the Vibe w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 8, Navigating the Vibe w/ Pablo.",
+  "fileName": "08 - Navigating the Vibe.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 433.933,
+      "title": "vibeline & vibeline-ui",
+      "url": "https://github.com/dergigi/vibeline"
+    },
+    {
+      "startTime": 433.933,
+      "endTime": 831.867,
+      "title": "Agents creating RAG databases of NIPs"
+    },
+    {
+      "startTime": 831.867,
+      "endTime": 1432.6,
+      "title": "Identity, web of trust, and signing data"
+    },
+    {
+      "startTime": 1432.6,
+      "endTime": 1909.333,
+      "title": "Using MCP as the base"
+    },
+    {
+      "startTime": 1909.333,
+      "endTime": 2386.667,
+      "title": "PayPerQ",
+      "url": "https://ppq.ai/"
+    },
+    {
+      "startTime": 2386.667,
+      "endTime": 2879.0,
+      "title": "OpenAI vs Anthropic"
+    },
+    {
+      "startTime": 2879.0,
+      "endTime": 3209.733,
+      "title": "Thinking with LLMs"
+    },
+    {
+      "startTime": 3209.733,
+      "endTime": 3818.667,
+      "title": "The theater of the attention economy"
+    },
+    {
+      "startTime": 3818.667,
+      "endTime": 4310.4,
+      "title": "How movement changes conversations"
+    },
+    {
+      "startTime": 4310.4,
+      "endTime": 4897.285,
+      "title": "Spotting vibe-coded interfaces"
+    },
+    {
+      "startTime": 4897.285,
+      "endTime": 5396.019,
+      "title": "\"Nothing worth having ever comes easy\""
+    },
+    {
+      "startTime": 5396.019,
+      "endTime": 5728.0,
+      "title": "Hallucination as a requirement for creativity"
+    }
+  ]
+}

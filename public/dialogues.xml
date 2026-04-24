@@ -2302,6 +2302,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <podcast:person href="https://njump.me/_@f7z.io" img="https://m.primal.net/KwlG.jpg" group="cast" role="guest">Pablo</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/ef91b4cb73b93aefd5804c4e74237c2e8c5ca8ce9140c81e6976c7a102805b0f.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/08-navigating-the-vibe-w-pablo.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Pablo" type="lnaddress" address="pablof7z@primal.net" split="100"/>
