@@ -9,23 +9,23 @@
     {
       "startTime": 0,
       "endTime": 433.933,
-      "title": "vibeline & vibeline-ui",
+      "title": "vibeline",
       "url": "https://github.com/dergigi/vibeline"
     },
     {
       "startTime": 433.933,
       "endTime": 831.867,
-      "title": "Agents creating RAG databases of NIPs"
+      "title": "RAG for NIPs"
     },
     {
       "startTime": 831.867,
       "endTime": 1432.6,
-      "title": "Identity, web of trust, and signing data"
+      "title": "Identity and Trust"
     },
     {
       "startTime": 1432.6,
       "endTime": 1909.333,
-      "title": "Using MCP as the base"
+      "title": "MCP Base"
     },
     {
       "startTime": 1909.333,
@@ -46,27 +46,27 @@
     {
       "startTime": 3209.733,
       "endTime": 3818.667,
-      "title": "The theater of the attention economy"
+      "title": "Attention Theater"
     },
     {
       "startTime": 3818.667,
       "endTime": 4310.4,
-      "title": "How movement changes conversations"
+      "title": "Walking Dialogues"
     },
     {
       "startTime": 4310.4,
       "endTime": 4897.285,
-      "title": "Spotting vibe-coded interfaces"
+      "title": "Vibe-Coded Interfaces"
     },
     {
       "startTime": 4897.285,
       "endTime": 5396.019,
-      "title": "\"Nothing worth having ever comes easy\""
+      "title": "Nothing Comes Easy"
     },
     {
       "startTime": 5396.019,
       "endTime": 5728.0,
-      "title": "Hallucination as a requirement for creativity"
+      "title": "Creative Hallucination"
     }
   ]
 }
