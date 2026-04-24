@@ -9,62 +9,62 @@
     {
       "startTime": 0,
       "endTime": 261.6,
-      "title": "Convincing hzrd to make Blossom more of a protocol"
+      "title": "Blossom Protocol"
     },
     {
       "startTime": 261.6,
       "endTime": 701.316,
-      "title": "\"I still get shit for the audio quality\""
+      "title": "Audio Quality"
     },
     {
       "startTime": 701.316,
       "endTime": 1114.188,
-      "title": "Every Nostr app should work in airplane mode"
+      "title": "Airplane Mode"
     },
     {
       "startTime": 1114.188,
       "endTime": 1464.0,
-      "title": "Cashu and CDK: making it easy for devs to use e-cash without managing…"
+      "title": "Cashu and CDK"
     },
     {
       "startTime": 1464.0,
       "endTime": 1728.492,
-      "title": "Special-purpose components that do one thing well"
+      "title": "Special-Purpose Components"
     },
     {
       "startTime": 1728.492,
       "endTime": 2196.0,
-      "title": "noDNS deep dive: traditional DNS records published on Nostr instead of…"
+      "title": "noDNS Deep Dive"
     },
     {
       "startTime": 2196.0,
       "endTime": 2562.0,
-      "title": "Pi-hole would be perfectly fine running noDNS"
+      "title": "Pi-hole and noDNS"
     },
     {
       "startTime": 2562.0,
       "endTime": 2928.0,
-      "title": "Damus relay wiped multiple times, nobody cared -- that's resilience"
+      "title": "Damus Resilience"
     },
     {
       "startTime": 2928.0,
       "endTime": 3294.0,
-      "title": "\"Nostr is organic tech\""
+      "title": "Organic Tech"
     },
     {
       "startTime": 3294.0,
       "endTime": 3653.196,
-      "title": "Screenless coding: the underutilized interface"
+      "title": "Screenless Coding"
     },
     {
       "startTime": 3653.196,
       "endTime": 3916.524,
-      "title": "Maps on Nostr: the social part is what makes Google Maps useful, Nostr…"
+      "title": "Nostr Maps"
     },
     {
       "startTime": 3916.524,
       "endTime": 4392.0,
-      "title": "We're gonna make torrents great again"
+      "title": "Torrent Revival"
     }
   ]
 }
