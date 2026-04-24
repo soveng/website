@@ -15,7 +15,7 @@
     {
       "startTime": 294.8,
       "endTime": 536.5,
-      "title": "Transport-Agnostic Networking"
+      "title": "Transport-Agnostic Networks"
     },
     {
       "startTime": 536.5,
@@ -25,12 +25,12 @@
     {
       "startTime": 804.75,
       "endTime": 1151.276,
-      "title": "The Next FIPS Release"
+      "title": "Next FIPS Release"
     },
     {
       "startTime": 1151.276,
       "endTime": 1431.952,
-      "title": "Why Nostr Feels Miraculous"
+      "title": "Why Nostr Matters"
     },
     {
       "startTime": 1431.952,
@@ -46,7 +46,7 @@
     {
       "startTime": 1877.75,
       "endTime": 2146.0,
-      "title": "You Can Just Do Things"
+      "title": "Just Do Things"
     }
   ]
 }
