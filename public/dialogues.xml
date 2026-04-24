@@ -485,6 +485,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <enclosure url="https://haven.dergigi.com/15400b0ee1467bfd2ba928c122971a88e5dad464246f15bdad42cb0c043bcf88.m4a" length="66928872" type="audio/mpeg"/>
       <podcast:person href="https://njump.to/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm" img="" group="cast" role="guest">Yo</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/0a0884a6eab6a84657c6e433f580f35a187bb00965113dca15a738541f1a1e7c.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/22-sovereign-engineering-w-yo.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
