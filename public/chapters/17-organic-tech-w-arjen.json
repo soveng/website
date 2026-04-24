@@ -1,0 +1,70 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "#17: Organic Tech w/ Arjen",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 17, Organic Tech w/ Arjen.",
+  "fileName": "17 - Organic Tech.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 261.6,
+      "title": "Convincing hzrd to make Blossom more of a protocol"
+    },
+    {
+      "startTime": 261.6,
+      "endTime": 701.316,
+      "title": "\"I still get shit for the audio quality\""
+    },
+    {
+      "startTime": 701.316,
+      "endTime": 1114.188,
+      "title": "Every Nostr app should work in airplane mode"
+    },
+    {
+      "startTime": 1114.188,
+      "endTime": 1464.0,
+      "title": "Cashu and CDK: making it easy for devs to use e-cash without managing…"
+    },
+    {
+      "startTime": 1464.0,
+      "endTime": 1728.492,
+      "title": "Special-purpose components that do one thing well"
+    },
+    {
+      "startTime": 1728.492,
+      "endTime": 2196.0,
+      "title": "noDNS deep dive: traditional DNS records published on Nostr instead of…"
+    },
+    {
+      "startTime": 2196.0,
+      "endTime": 2562.0,
+      "title": "Pi-hole would be perfectly fine running noDNS"
+    },
+    {
+      "startTime": 2562.0,
+      "endTime": 2928.0,
+      "title": "Damus relay wiped multiple times, nobody cared -- that's resilience"
+    },
+    {
+      "startTime": 2928.0,
+      "endTime": 3294.0,
+      "title": "\"Nostr is organic tech\""
+    },
+    {
+      "startTime": 3294.0,
+      "endTime": 3653.196,
+      "title": "Screenless coding: the underutilized interface"
+    },
+    {
+      "startTime": 3653.196,
+      "endTime": 3916.524,
+      "title": "Maps on Nostr: the social part is what makes Google Maps useful, Nostr…"
+    },
+    {
+      "startTime": 3916.524,
+      "endTime": 4392.0,
+      "title": "We're gonna make torrents great again"
+    }
+  ]
+}
