@@ -2582,6 +2582,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
       <podcast:person href="https://github.com/justinmoon" img="https://image.nostr.build/5ff6b14087a7041e96ba44147dd134e423624c2658bb06bed2573d78babd94d6.jpg" group="cast" role="guest">Justin</podcast:person>
       <podcast:funding url="https://njump.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:transcript url="https://haven.sovereignengineering.io/c5ceb682b9a1200d1b6e82f31bcf000a47fc93ef73209051d3e93dda9d9a2da3.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/07-zig-multiplatform-w-justin.json" type="application/json+chapters"/>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
         <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
         <podcast:valueRecipient name="Justin" type="lnaddress" address="justinmoon@primal.net" split="100"/>
