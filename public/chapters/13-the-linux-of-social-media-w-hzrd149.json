@@ -9,66 +9,66 @@
     {
       "startTime": 0,
       "endTime": 444.667,
-      "title": "Automation & robot armies"
+      "title": "Automation"
     },
     {
       "startTime": 444.667,
       "endTime": 858.333,
-      "title": "All nostr apps should work in flight mode, somewhat"
+      "title": "Flight Mode"
     },
     {
       "startTime": 858.333,
       "endTime": 1287.2,
-      "title": "Recommendations usually suck"
+      "title": "Bad Recommendations"
     },
     {
       "startTime": 1287.2,
       "endTime": 1737.267,
-      "title": "nostrdb VS local relays",
+      "title": "nostrdb vs Relays",
       "url": "https://github.com/damus-io/nostrdb"
     },
     {
       "startTime": 1737.267,
       "endTime": 2100.333,
-      "title": "Gigi's ants video",
+      "title": "Ants Video",
       "url": "https://ants.sh/e/nevent1qqstgekdlmaeu3n6gf3ss7nnlq4f0hfx3nm3nmy0pf84xs7e98wyt2ssw5p34"
     },
     {
       "startTime": 2100.333,
       "endTime": 2595.1,
-      "title": "Local-first vs local-also"
+      "title": "Local-First"
     },
     {
       "startTime": 2595.1,
       "endTime": 3027.167,
-      "title": "Getting offered weed on the streets"
+      "title": "Weed Offers"
     },
     {
       "startTime": 3027.167,
       "endTime": 3433.333,
-      "title": "\"Step 1 is to build a shitty version\""
+      "title": "Shitty First Version"
     },
     {
       "startTime": 3433.333,
       "endTime": 3862.692,
-      "title": "Hzrd's SEC-05 highlights",
+      "title": "SEC-05 Highlights",
       "url": "https://primal.net/soveng/sec-05-yolo-mode-report"
     },
     {
       "startTime": 3862.692,
       "endTime": 4291.667,
-      "title": "Nostr-native browser - who will build it?"
+      "title": "Nostr Browser"
     },
     {
       "startTime": 4291.667,
       "endTime": 4720.833,
-      "title": "Does negentropy fix NIP-60 synchronization?",
+      "title": "Negentropy Sync",
       "url": "https://github.com/nostr-protocol/nips/blob/master/77.md"
     },
     {
       "startTime": 4720.833,
       "endTime": 5150.0,
-      "title": "Just begin again"
+      "title": "Begin Again"
     }
   ]
 }
