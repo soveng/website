@@ -8,7 +8,20 @@ const pageDescription = "From a crazy idea to a global movement shipping freedom
 const dialoguesFeedPath = new URL("../../public/dialogues.xml", import.meta.url);
 const podcastEpisodes = (readFileSync(dialoguesFeedPath, "utf-8").match(/<item>/g) ?? []).length;
 
-const milestones = [
+type Milestone = {
+  date: string;
+  title: string;
+  description: string;
+  link: string;
+  side: "left" | "right";
+  projects?: number;
+  episodes?: number;
+  isPodcast?: boolean;
+  isCurrent?: boolean;
+  isUpcoming?: boolean;
+};
+
+const milestones: Milestone[] = [
   {
     date: "2023",
     title: "SEC-00 · Genesis",
