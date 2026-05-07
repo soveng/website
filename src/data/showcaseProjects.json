@@ -239,11 +239,11 @@
   },
   {
     "name": "cypher.space",
-    "description": "Privacy-focused communication and collaboration platform",
+    "description": "Launchpad for Bitcoin-native commerce that uses Nostr identities to deploy your own sovereign Nsites storefront and merchant portal, now running as a fork from the Nostr Boutique project.",
     "cohort": "SEC-02",
     "link": "https://cypher.space/",
     "linkText": "cypher.space",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "https://cypher.space/cypher-soveng.gif",
     "highlight": false
   },
   {
