@@ -194,8 +194,9 @@ export const GET: APIRoute = async ({ props }) => {
   ]);
 
   const png = await image.png().toBuffer();
+  const body = new Uint8Array(png);
 
-  return new Response(png, {
+  return new Response(body, {
     headers: {
       'Content-Type': 'image/png',
       'Cache-Control': 'public, max-age=31536000, immutable',
