@@ -8,7 +8,20 @@ const pageDescription = "From a crazy idea to a global movement shipping freedom
 const dialoguesFeedPath = new URL("../../public/dialogues.xml", import.meta.url);
 const podcastEpisodes = (readFileSync(dialoguesFeedPath, "utf-8").match(/<item>/g) ?? []).length;
 
-const milestones = [
+type Milestone = {
+  date: string;
+  title: string;
+  description: string;
+  link: string;
+  side: "left" | "right";
+  projects?: number;
+  episodes?: number;
+  isPodcast?: boolean;
+  isCurrent?: boolean;
+  isUpcoming?: boolean;
+};
+
+const milestones: Milestone[] = [
   {
     date: "2023",
     title: "SEC-00 · Genesis",
@@ -72,23 +85,21 @@ const milestones = [
     description: "Focus narrows to the identity layer: signers, key management, and the infrastructure that makes self-sovereign identity real.",
     link: "https://primal.net/soveng/sec-06-identity--signers",
     side: "right",
-    isCurrent: true,
   },
   {
-    date: "Mar 30, 2026",
+    date: "Mar–Apr 2026",
     title: "SEC-07 · Networks",
     description: "The network stack. Relays, transports, connectivity — building the plumbing that makes everything else possible.",
     link: "https://primal.net/soveng/sec-07-the-network-stack",
     side: "left",
-    isUpcoming: true,
   },
   {
     date: "Jul 20, 2026",
     title: "SEC-08 · YOLO++",
-    description: "Six weeks. No constraints. The builders decide what matters.",
+    description: "Prep underway. Six weeks. No constraints.",
     link: "https://primal.net/soveng/sec-08-yolo",
     side: "right",
-    isUpcoming: true,
+    isCurrent: true,
   },
 ];
 ---

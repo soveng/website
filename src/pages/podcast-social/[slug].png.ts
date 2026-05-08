@@ -9,7 +9,7 @@ const COVER_SIZE = 420;
 const COVER_X = 64;
 const COVER_Y = 105;
 const TEXT_X = 548;
-const TITLE_MAX_UNITS = 16;
+const TITLE_MAX_UNITS = 18;
 const SUBTITLE_MAX_UNITS = 30;
 
 function escapeXml(value: string): string {
@@ -138,15 +138,10 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
   const titleLines = wrapText(episode.title, TITLE_MAX_UNITS, 3);
   const titleTspans = titleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`).join('');
 
-  const heightLine = episode.blockHeight ? `${episode.blockHeight}` : '';
-  const metaLine = [heightLine, episode.pubDate].filter(Boolean).join(' • ') || 'No Solutions';
-  const subtitleLines = wrapText(episode.subtitle || 'No solutions, only trade-offs.', SUBTITLE_MAX_UNITS, 6);
-  const subtitleTspans = subtitleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 28}">${escapeXml(line)}</tspan>`).join('');
-
-  const TITLE_Y = 203;
-  const titleBottom = TITLE_Y + (titleLines.length - 1) * 58;
-  const metaY = titleBottom + 50;
-  const subtitleY = metaY + 45;
+  const guestLine = episode.guestName ? `with ${episode.guestName}` : 'Walking dialogue';
+  const metaLine = `${guestLine} • ${episode.pubDate || 'No Solutions'}`;
+  const subtitleLines = wrapText(episode.subtitle || 'No solutions, only trade-offs.', SUBTITLE_MAX_UNITS, 2);
+  const subtitleTspans = subtitleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 32}">${escapeXml(line)}</tspan>`).join('');
 
   const fallbackMarkup = hasCover
     ? ''
@@ -158,12 +153,12 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
   <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="${COVER_X - 6}" y="${COVER_Y - 6}" width="${COVER_SIZE + 12}" height="${COVER_SIZE + 12}" rx="24" fill="none" stroke="#343434" stroke-width="2" />
     ${fallbackMarkup}
-    <text x="${TEXT_X}" y="125" fill="#F7931A" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="0.06em">NO SOLUTIONS.</text>
-    <text x="${TEXT_X + 208}" y="125" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" letter-spacing="0.06em">ONLY DIALOGUES.</text>
-    <text x="${TEXT_X}" y="${TITLE_Y}" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">${titleTspans}</text>
-    <text x="${TEXT_X}" y="${metaY}" fill="#B5B5B5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">${escapeXml(metaLine)}</text>
-    <text x="${TEXT_X}" y="${subtitleY}" fill="#E6E6E6" font-family="Arial, Helvetica, sans-serif" font-size="27">${subtitleTspans}</text>
-    <text x="${TEXT_X}" y="575" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="22">sovereignengineering.io/podcast</text>
+    <rect x="${TEXT_X}" y="102" width="248" height="34" rx="17" fill="#F7931A" />
+    <text x="${TEXT_X + 18}" y="125" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0.08em">NO SOLUTIONS PODCAST</text>
+    <text x="${TEXT_X}" y="203" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">${titleTspans}</text>
+    <text x="${TEXT_X}" y="444" fill="#B5B5B5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">${escapeXml(metaLine)}</text>
+    <text x="${TEXT_X}" y="497" fill="#E6E6E6" font-family="Arial, Helvetica, sans-serif" font-size="27">${subtitleTspans}</text>
+    <text x="${TEXT_X}" y="563" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="22">sovereignengineering.io/podcast</text>
   </svg>`;
 
   return Buffer.from(svg);
@@ -199,8 +194,9 @@ export const GET: APIRoute = async ({ props }) => {
   ]);
 
   const png = await image.png().toBuffer();
+  const body = new Uint8Array(png);
 
-  return new Response(new Uint8Array(png), {
+  return new Response(body, {
     headers: {
       'Content-Type': 'image/png',
       'Cache-Control': 'public, max-age=31536000, immutable',
