@@ -1291,7 +1291,7 @@
     "cohort": "SEC-07",
     "link": "https://apprentice.atobitcoin.io",
     "linkText": "apprentice.atobitcoin.io",
-    "logo": "/images/showcase/bitcoin-logo.png",
+    "logo": "/images/showcase/apprentice-logo.png",
     "highlight": false
   },
   {
@@ -1300,7 +1300,7 @@
     "cohort": "SEC-07",
     "link": "https://archipelago-foundation.org",
     "linkText": "archipelago-foundation.org",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/archipelago-logo.svg",
     "highlight": false
   },
   {
@@ -1318,7 +1318,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/k0sti/fips-android",
     "linkText": "github.com/k0sti/fips-android",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fips-logo.png",
     "highlight": false
   },
   {
@@ -1327,7 +1327,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/gzuuus/fips/tree/bloom-research",
     "linkText": "github.com/gzuuus/fips/tree/bloom-research",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fips-logo.png",
     "highlight": false
   },
   {
@@ -1336,7 +1336,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/jmcorgan/fips",
     "linkText": "github.com/jmcorgan/fips",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fips-logo.png",
     "highlight": false,
     "extraLinks": [
       {
@@ -1351,7 +1351,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/jmcorgan/fips",
     "linkText": "github.com/jmcorgan/fips",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fips-logo.png",
     "highlight": false
   },
   {
@@ -1360,7 +1360,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/jmcorgan/fips",
     "linkText": "github.com/jmcorgan/fips",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fips-logo.png",
     "highlight": false,
     "extraLinks": [
       {
@@ -1379,7 +1379,7 @@
     "cohort": "SEC-07",
     "link": "https://search.fipstr.com",
     "linkText": "search.fipstr.com",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fipstr-logo.svg",
     "highlight": false,
     "extraLinks": [
       {
@@ -1394,7 +1394,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/jodobear/freedoom-nsite",
     "linkText": "github.com/jodobear/freedoom-nsite",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/freedoom-logo.svg",
     "highlight": false
   },
   {
@@ -1412,7 +1412,7 @@
     "cohort": "SEC-07",
     "link": "https://learn.fips.network",
     "linkText": "learn.fips.network",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/learn-fips-logo.svg",
     "highlight": false,
     "extraLinks": [
       {
@@ -1463,7 +1463,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/mmalmi/nostr-vpn",
     "linkText": "github.com/mmalmi/nostr-vpn",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/nostr-vpn-logo.png",
     "highlight": false
   },
   {
@@ -1509,7 +1509,7 @@
     "cohort": "SEC-07",
     "link": "https://github.com/jodobear/top8",
     "linkText": "github.com/jodobear/top8",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/top8-logo.svg",
     "highlight": false
   },
   {
