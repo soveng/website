@@ -1395,7 +1395,13 @@
     "link": "https://github.com/jodobear/freedoom-nsite",
     "linkText": "github.com/jodobear/freedoom-nsite",
     "logo": "/images/showcase/freedoom-logo.svg",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://5c1zux4p3v4hcj9q4kumfcbo3494lqydx2scp9uax5bwnxu9jrfreedoom.nsite.lol/",
+        "linkText": "FREEDOOM nsite"
+      }
+    ]
   },
   {
     "name": "Hashtree FUSE Mount",
@@ -1413,7 +1419,7 @@
     "link": "https://learn.fips.network",
     "linkText": "learn.fips.network",
     "logo": "/images/showcase/learn-fips-logo.svg",
-    "highlight": false,
+    "highlight": true,
     "extraLinks": [
       {
         "link": "https://github.com/dergigi/learn-fips",
