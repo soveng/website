@@ -1284,5 +1284,247 @@
     "linkText": "cashutube.satsandsports.cash",
     "logo": "/images/showcase/bitcoin-logo.png",
     "highlight": false
+  },
+  {
+    "name": "Apprentice",
+    "description": "Nostr-based apprenticeship and attestation system for recruiting, training, and recognizing local work across a community.",
+    "cohort": "SEC-07",
+    "link": "https://apprentice.atobitcoin.io",
+    "linkText": "apprentice.atobitcoin.io",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Archipelago over Meshcore",
+    "description": "Pushes Archipelago messaging and funding flows across Meshcore links, including offline message delivery and bitcoin transaction handoff.",
+    "cohort": "SEC-07",
+    "link": "https://archipelago-foundation.org",
+    "linkText": "archipelago-foundation.org",
+    "logo": "/images/showcase/archipelago-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "Fanal",
+    "description": "Wallet-style manager for a personal fleet of FIPS nodes. Handles keys, peers, and transport config for running multiple devices.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/oleksky/fanal",
+    "linkText": "github.com/oleksky/fanal",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Android",
+    "description": "Android mesh node that runs FIPS through a VpnService TUN, with UniFFI bindings, .fips name resolution, and real hardware routing tests.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/k0sti/fips-android",
+    "linkText": "github.com/k0sti/fips-android",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Bloom Research",
+    "description": "Research branch probing how FIPS nodes learn routes, recover from failures, and react to false positives or false negatives in bloom-style routing.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/gzuuus/fips/tree/bloom-research",
+    "linkText": "github.com/gzuuus/fips/tree/bloom-research",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Endpoint Discovery",
+    "description": "Advertises FIPS endpoints via replaceable Nostr events and uses hole punching to connect peers without manual coordination.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/jmcorgan/fips",
+    "linkText": "github.com/jmcorgan/fips",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/jmcorgan/fips/pull/53",
+        "linkText": "PR #53"
+      }
+    ]
+  },
+  {
+    "name": "FIPS Mixnet Transport",
+    "description": "Adds a NYM-based transport path to FIPS so traffic can move through cover-rich mixnet routes instead of plain network links.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/jmcorgan/fips",
+    "linkText": "github.com/jmcorgan/fips",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Peer Policy Controls",
+    "description": "Adds pubkey allow and deny controls for FIPS peers so nodes can enforce local connection policy on inbound and outbound links.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/jmcorgan/fips",
+    "linkText": "github.com/jmcorgan/fips",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/jmcorgan/fips/pull/50",
+        "linkText": "PR #50"
+      },
+      {
+        "link": "https://github.com/jmcorgan/fips/issues/35",
+        "linkText": "Issue #35"
+      }
+    ]
+  },
+  {
+    "name": "fipstr",
+    "description": "Search engine for the FIPS mesh. Indexes advertised services and lets you open sites and apps reachable over FIPS.",
+    "cohort": "SEC-07",
+    "link": "https://search.fipstr.com",
+    "linkText": "search.fipstr.com",
+    "logo": "/images/showcase/fipstr-icon.svg",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/lauri000/fipstr-search",
+        "linkText": "GitHub"
+      }
+    ]
+  },
+  {
+    "name": "FREEDOOM Nsite",
+    "description": "Packages FREEDOOM as a static nsite, proving a full browser game can be served over Nostr-native web hosting.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/jodobear/freedoom-nsite",
+    "linkText": "github.com/jodobear/freedoom-nsite",
+    "logo": "/images/showcase/freedoom-logo.svg",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://5c1zux4p3v4hcj9q4kumfcbo3494lqydx2scp9uax5bwnxu9jrfreedoom.nsite.lol/",
+        "linkText": "FREEDOOM nsite"
+      }
+    ]
+  },
+  {
+    "name": "Hashtree FUSE Mount",
+    "description": "Mounts Hashtree content as a live filesystem. File changes publish new roots and propagate over Blossom-backed distribution.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/mmalmi/hashtree",
+    "linkText": "github.com/mmalmi/hashtree",
+    "logo": "/images/showcase/blossom-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Learn FIPS",
+    "description": "Interactive protocol guide that teaches FIPS through lessons and simulations, from key derivation to routing and recovery.",
+    "cohort": "SEC-07",
+    "link": "https://learn.fips.network",
+    "linkText": "learn.fips.network",
+    "logo": "/images/showcase/learn-fips-logo.svg",
+    "highlight": true,
+    "extraLinks": [
+      {
+        "link": "https://github.com/dergigi/learn-fips",
+        "linkText": "GitHub"
+      }
+    ]
+  },
+  {
+    "name": "LocalGram",
+    "description": "Local-first photo sharing for Android over Wi-Fi Aware. Nearby phones sync captured photos directly without internet infrastructure.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/lauri000/wifi-aware-photo-feed",
+    "linkText": "github.com/lauri000/wifi-aware-photo-feed",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "LoRa Range Test",
+    "description": "Measurement setup and correlation results for SX1280 LoRa links, published through GitWorkshop for reproducible review.",
+    "cohort": "SEC-07",
+    "link": "https://gitworkshop.dev/npub12m5exm2uk3xa674cc5r0hlyvccs5xxn7qv83ezuteefv5972nquq4j4szl/relay.ngit.dev/sx1280-correlation-test",
+    "linkText": "gitworkshop.dev/.../sx1280-correlation-test",
+    "logo": "/images/showcase/gitworkshop-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "MONAD",
+    "description": "Monetized Onion Network Access Daemon. Pays each routing hop with Cashu Spilman channels for onion-routed network access.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/SatsAndSports/MONAD",
+    "linkText": "github.com/SatsAndSports/MONAD",
+    "logo": "/images/showcase/cashu-nutmoji-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "NAAN",
+    "description": "Nostr Agentic Archiving Node. Captures web pages and media, stores the artifacts in Blossom, and preserves proof of when they were archived.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/dergigi/naan",
+    "linkText": "github.com/dergigi/naan",
+    "logo": "/images/showcase/naan-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostr VPN on FIPS",
+    "description": "Ports Nostr VPN onto FIPS so private exit nodes and routed traffic can run across the mesh itself.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/mmalmi/nostr-vpn",
+    "linkText": "github.com/mmalmi/nostr-vpn",
+    "logo": "/images/showcase/nostr-vpn-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "OPNsense FIPS Backup",
+    "description": "OPNsense plugin for encrypted router config backups over the FIPS mesh using Blossom, Hashtree, and Nostr identity.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/oleksky/os-fips-backup",
+    "linkText": "github.com/oleksky/os-fips-backup",
+    "logo": "/images/showcase/blossom-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "PyramidPlot",
+    "description": "Real-time log-scale plotter for time-series streams, used here to visualize simulated FIPS mesh growth over time.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/k0sti/pyramidplot",
+    "linkText": "github.com/k0sti/pyramidplot",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "TollGate Captive Portal",
+    "description": "Captive portal work for buying Wi-Fi with Lightning, including invoice presentation and session funding flows for TollGate.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/OpenTollGate/tollgate-captive-portal-site",
+    "linkText": "github.com/OpenTollGate/tollgate-captive-portal-site",
+    "logo": "/images/showcase/tollgate-logo.webp",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://github.com/OpenTollGate/tollgate-captive-portal-site/pull/9",
+        "linkText": "Frontend PR #9"
+      },
+      {
+        "link": "https://github.com/OpenTollGate/tollgate-module-basic-go/pull/93",
+        "linkText": "Backend PR #93"
+      }
+    ]
+  },
+  {
+    "name": "Top 8",
+    "description": "nostr Top 8 list for curated contacts and social signaling, implemented inside noStrudel with a NIP-51 follow-set model.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/jodobear/top8",
+    "linkText": "github.com/jodobear/top8",
+    "logo": "/images/showcase/top8-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "Wallnut",
+    "description": "Adds NIP-60 and NIP-61 Cashu flows to Alphaama, including nutzaps and double-ratchet experiments for private messaging.",
+    "cohort": "SEC-07",
+    "link": "https://github.com/eskema/alphaama",
+    "linkText": "github.com/eskema/alphaama",
+    "logo": "/images/showcase/alphaama-logo.png",
+    "highlight": false
   }
 ]

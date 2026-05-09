@@ -56,6 +56,18 @@ const sortedCohorts = Object.keys(projectsByCohort).sort((a, b) => {
   return numA - numB;
 });
 
+const nextCohort = (() => {
+  const cohortNumbers = sortedCohorts
+    .map((cohort) => parseInt(cohort.replace('SEC-', '')))
+    .filter((cohortNumber) => !Number.isNaN(cohortNumber));
+
+  if (cohortNumbers.length === 0) {
+    return 'NEXT';
+  }
+
+  return `SEC-${String(Math.max(...cohortNumbers) + 1).padStart(2, '0')}`;
+})();
+
 // Get highlighted projects (the ones mentioned in the homepage title)
 const highlightedProjects = projects.filter(
   (project: Project) => project.highlight
@@ -251,7 +263,7 @@ const cohortHeaderClasses = darkTheme
         {/* CTA Section */}
         <div class="mt-16 text-center">
           <h2 class={cohortHeaderClasses} style="font-family: 'IM Fell Double Pica', Times, serif;">
-            SEC-07
+            {nextCohort}
           </h2>
           <div class="py-12">
             <p class={`text-xl mb-8 ${darkTheme ? 'text-gray-300' : 'text-text'}`}>
