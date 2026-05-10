@@ -1,0 +1,139 @@
+---
+import type { ShowcaseProject } from "@/lib/showcase";
+import { slugifyProjectName } from "@/lib/showcase";
+
+interface Props {
+  cohort: string;
+  projects: ShowcaseProject[];
+  previousCohort?: string;
+  nextCohort?: string;
+}
+
+const { cohort, projects, previousCohort, nextCohort } = Astro.props;
+const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ? "project" : "projects"}`;
+---
+
+<section class="bg-black py-16 text-white sm:py-20">
+  <div class="container max-w-[960px]">
+    <a
+      href="/projects"
+      class="inline-flex items-center text-sm uppercase tracking-[0.22em] text-white/65 transition-colors hover:text-primary"
+    >
+      Back to highlights
+    </a>
+
+    <div class="mt-6 border-b border-white/15 pb-8">
+      <div class="text-xs uppercase tracking-[0.24em] text-primary/90">
+        Project archive
+      </div>
+      <div class="mt-3 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+        <div>
+          <h1
+            class="text-5xl text-white sm:text-6xl"
+            style="font-family: 'IM Fell Double Pica', Times, serif;"
+          >
+            {cohort}
+          </h1>
+          <p class="mt-3 text-lg text-gray-300">
+            {projectCountLabel} shipped during this cohort.
+          </p>
+        </div>
+        <p class="max-w-xl text-sm leading-relaxed text-gray-400">
+          Every Friday, participants showed what they built. This page keeps the full cohort list while the main
+          <a href="/projects" class="text-primary transition-colors hover:text-white"> projects page</a>
+          now focuses on highlights.
+        </p>
+      </div>
+    </div>
+
+    <div class="mt-8 flex flex-col">
+      {projects.map((project: ShowcaseProject) => (
+        <article
+          id={slugifyProjectName(project.name)}
+          class="grid gap-4 border-b border-white/12 py-6 md:grid-cols-[3fr_1fr] md:gap-8"
+        >
+          <div class="flex items-start gap-4">
+            {project.logo && (
+              <div class="flex-shrink-0">
+                <img
+                  src={project.logo}
+                  alt={`${project.name} logo`}
+                  class="cohort-logo h-12 w-12 object-contain"
+                />
+              </div>
+            )}
+            <div>
+              <div class="flex flex-wrap items-center gap-2">
+                <h2 class="text-2xl text-white">{project.name}</h2>
+                {project.highlight && (
+                  <span class="border border-primary/45 px-2 py-0.5 text-[11px] uppercase tracking-[0.22em] text-primary">
+                    Highlight
+                  </span>
+                )}
+              </div>
+              <p class="mt-2 text-base leading-relaxed text-gray-300">
+                {project.description}
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-2 text-sm md:text-base">
+            <a
+              href={project.link}
+              class="break-all text-white transition-colors hover:text-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {project.linkText}
+            </a>
+            {project.extraLinks && project.extraLinks.map((extraLink) => (
+              <a
+                href={extraLink.link}
+                class="break-all text-sm text-white/75 transition-colors hover:text-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {extraLink.linkText}
+              </a>
+            ))}
+          </div>
+        </article>
+      ))}
+    </div>
+
+    <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+      <div>
+        {previousCohort && (
+          <a
+            href={`/projects/${previousCohort}`}
+            class="inline-flex items-center border border-white/15 px-4 py-2 text-sm text-white transition-colors hover:border-primary hover:text-primary"
+          >
+            {previousCohort}
+          </a>
+        )}
+      </div>
+      <div>
+        {nextCohort && (
+          <a
+            href={`/projects/${nextCohort}`}
+            class="inline-flex items-center border border-white/15 px-4 py-2 text-sm text-white transition-colors hover:border-primary hover:text-primary"
+          >
+            {nextCohort}
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .cohort-logo {
+    filter: contrast(1000%) grayscale(100%);
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    transition: filter 0.3s ease;
+  }
+
+  .cohort-logo:hover {
+    filter: none;
+  }
+</style>

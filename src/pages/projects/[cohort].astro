@@ -1,0 +1,36 @@
+---
+import Base from "@/layouts/Base.astro";
+import CohortProjectList from "@/layouts/components/CohortProjectList.astro";
+import {
+  getAdjacentCohorts,
+  getProjectsForCohort,
+  sortedCohorts,
+} from "@/lib/showcase";
+
+export function getStaticPaths() {
+  return sortedCohorts.map((cohort) => ({
+    params: { cohort },
+    props: {
+      cohort,
+      projects: getProjectsForCohort(cohort),
+      ...getAdjacentCohorts(cohort),
+    },
+  }));
+}
+
+const { cohort, projects, previousCohort, nextCohort } = Astro.props;
+---
+
+<Base
+  title={`${cohort} Demo Day Projects`}
+  meta_title={`${cohort} Demo Day Projects`}
+  description={`Browse ${projects.length} demo day projects from ${cohort} at Sovereign Engineering.`}
+  showCallToAction={false}
+>
+  <CohortProjectList
+    cohort={cohort}
+    projects={projects}
+    previousCohort={previousCohort}
+    nextCohort={nextCohort}
+  />
+</Base>

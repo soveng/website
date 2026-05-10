@@ -1,21 +1,92 @@
 ---
+import projectHighlights from "@/data/projectHighlights";
 import Base from "@/layouts/Base.astro";
-import ProjectShowcase from "@/components/ProjectShowcase.astro";
-import showcaseProjects from "@/data/showcaseProjects.js";
+import ProjectArchiveGrid from "@/layouts/components/ProjectArchiveGrid.astro";
+import ProjectFeatureGrid from "@/layouts/components/ProjectFeatureGrid.astro";
+import { getCohortSummaries } from "@/lib/showcase";
 
+const cohortSummaries = getCohortSummaries();
 ---
 
 <Base
   title="Demo Day Projects"
   meta_title="Demo Day Projects"
-  description="Explore projects built by Sovereign Engineering Cohort participants during their Demo Days"
+  description="Explore the projects Sovereign Engineering brought into the world, from Blossom and Nutzaps to Nsite, Wikifreedia, TollGate, Zapstore, and more."
+  image="/images/project-highlights/nostr-wireframe.png"
+  showCallToAction={false}
 >
-  <ProjectShowcase
-    projects={showcaseProjects}
-    darkTheme={true}
-    showTitle={true}
-    showHighlights={true}
-  />
+  <section class="bg-black pb-10 pt-20 text-white sm:pb-14 sm:pt-24">
+    <div class="container max-w-[1120px]">
+      <div class="max-w-4xl">
+        <div class="text-xs uppercase tracking-[0.24em] text-primary/90">
+          Demo Day Projects
+        </div>
+        <h1
+          class="mt-4 text-5xl text-white sm:text-6xl xl:text-7xl"
+          style="font-family: 'IM Fell Double Pica', Times, serif;"
+        >
+          The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More
+        </h1>
+        <p class="mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
+          Every Friday, participants showed what they shipped. These are the headline projects that emerged from those
+          loops, followed by a full cohort-by-cohort archive for everything else.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a
+            href="#project-highlights"
+            class="inline-flex items-center border border-primary bg-primary px-4 py-2 text-sm text-black transition-colors hover:bg-transparent hover:text-primary"
+          >
+            Browse highlights
+          </a>
+          <a
+            href="#project-archives"
+            class="inline-flex items-center border border-white/15 px-4 py-2 text-sm text-white transition-colors hover:border-primary hover:text-primary"
+          >
+            Open the archive
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- No Next link here; flow handled from /podcast -->
+  <section id="project-highlights" class="bg-black py-8 text-white sm:py-10">
+    <div class="container max-w-[1120px]">
+      <div class="mb-8 max-w-3xl">
+        <h2
+          class="text-4xl text-white"
+          style="font-family: 'IM Fell Double Pica', Times, serif;"
+        >
+          Highlights
+        </h2>
+        <p class="mt-3 text-base leading-relaxed text-gray-300 sm:text-lg">
+          The splash line should point at the work people already recognize. This first pass leans on the new wireframe
+          artwork where it exists, then uses cleaner brand cards for the rest.
+        </p>
+      </div>
+
+      <ProjectFeatureGrid highlights={projectHighlights} />
+    </div>
+  </section>
+
+  <section id="project-archives" class="bg-black py-16 text-white sm:py-20">
+    <div class="container max-w-[1120px]">
+      <div class="mb-8 max-w-3xl">
+        <div class="text-xs uppercase tracking-[0.24em] text-primary/90">
+          Full archive
+        </div>
+        <h2
+          class="mt-3 text-4xl text-white"
+          style="font-family: 'IM Fell Double Pica', Times, serif;"
+        >
+          Every cohort, one page at a time
+        </h2>
+        <p class="mt-3 text-base leading-relaxed text-gray-300 sm:text-lg">
+          The long list now has room to breathe. Open any cohort archive to browse the full demo day roster without
+          burying the headline projects.
+        </p>
+      </div>
+
+      <ProjectArchiveGrid summaries={cohortSummaries} />
+    </div>
+  </section>
 </Base>
