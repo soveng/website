@@ -1,0 +1,350 @@
+---
+import Base from "@/layouts/Base.astro";
+
+const submissionFormUrl = "#"; // Replace with the final submission form URL before publishing.
+
+const contestDetails = [
+  { label: "Contest", value: "SEC-08 T-shirt design" },
+  { label: "Final date", value: "15 June 2026" },
+  { label: "Submit", value: "Use the submission form linked below" },
+  { label: "Theme", value: "Sovereign builders, Bitcoin, Nostr" },
+];
+
+const prizes = [
+  { place: "1st", bounty: "1,000,000 sats" },
+  { place: "2nd", bounty: "250,000 sats" },
+  { place: "3rd", bounty: "100,000 sats" },
+];
+
+const requirements = [
+  "Include SEC-08 or Sovereign Engineering identity in a tasteful way.",
+  "Design must be suitable for T-shirt printing and readable at normal shirt distance.",
+  "Original work only. No copyrighted assets, logos, or AI slop you cannot legally submit.",
+  "Submit your design through the contest form before 15 June 2026.",
+];
+---
+
+<Base
+  title="SEC-08 T-Shirt Design Contest"
+  meta_title="SEC-08 T-Shirt Design Contest"
+  description="Submit an original SEC-08 T-shirt design for Sovereign Engineering. Final submission date: 15 June 2026."
+  image="/images/t-shirt-design-contest.png"
+  showCallToAction={false}
+>
+  <section class="contest-page bg-black text-white">
+    <div class="contest-container hero-section">
+      <p class="contest-eyebrow">SEC-08 T-Shirt Design Contest</p>
+      <h1>Design the next Sovereign Engineering tee.</h1>
+      <p class="contest-lead">
+        One clear brief, three sats bounties, one shirt that captures the SEC-08 spirit.
+      </p>
+    </div>
+
+    <figure class="contest-container poster-frame" aria-label="SEC-08 T-shirt design contest poster">
+      <img
+        src="/images/t-shirt-design-contest.png"
+        alt="SEC-08 T-shirt design contest poster showing bounty prizes and submission details"
+        width="1672"
+        height="941"
+        loading="eager"
+        decoding="async"
+      />
+    </figure>
+
+    <div class="contest-container contest-grid">
+      <article class="contest-article">
+        <h2>Brief</h2>
+        <p>
+          Sovereign Engineering needs a legendary SEC-08 tee. Submit a design that feels native to
+          Bitcoin, Nostr, open tools, pirate energy, and serious builders.
+        </p>
+        <p>
+          The winning design should work on an actual shirt, not just on a poster. Clear shapes,
+          strong contrast, and print-ready thinking matter more than visual noise.
+        </p>
+
+        <section class="requirements" aria-labelledby="contest-requirements-heading">
+          <h2 id="contest-requirements-heading">Requirements</h2>
+          <ul>
+            {requirements.map((requirement) => <li>{requirement}</li>)}
+          </ul>
+        </section>
+      </article>
+
+      <aside class="details-card" aria-labelledby="contest-details-heading">
+        <h2 id="contest-details-heading">Contest details</h2>
+        <table class="details-table">
+          <tbody>
+            {contestDetails.map((detail) => (
+              <tr>
+                <th scope="row">{detail.label}</th>
+                <td>{detail.value}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+
+        <div class="prize-list" aria-label="Contest bounties">
+          {prizes.map((prize) => (
+            <div class="prize-row">
+              <strong>{prize.place}</strong>
+              <span>{prize.bounty}</span>
+            </div>
+          ))}
+        </div>
+      </aside>
+    </div>
+
+    <section class="contest-container submit-section" aria-labelledby="contest-submit-heading">
+      <div>
+        <p class="contest-eyebrow">Final step</p>
+        <h2 id="contest-submit-heading">Submit your design.</h2>
+        <p>
+          Send your final design through the contest form before <strong>15 June 2026</strong>.
+          Keep your editable source files ready in case your design is selected.
+        </p>
+      </div>
+      <a class="submit-button" href={submissionFormUrl}>Submit</a>
+    </section>
+  </section>
+</Base>
+
+<style>
+  .contest-page {
+    min-height: 100vh;
+    padding-top: 8rem;
+  }
+
+  .contest-container {
+    margin-inline: auto;
+    max-width: 960px;
+    width: min(960px, calc(100% - 2rem));
+  }
+
+  .hero-section {
+    padding-block: 4.75rem 2.75rem;
+  }
+
+  .contest-eyebrow {
+    color: #ed3238;
+    font-family: "IM Fell Double Pica", Times New Roman, Times, serif;
+    font-size: 1rem;
+    letter-spacing: 0.12em;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2 {
+    color: #ffffff;
+    font-family: "IM Fell Double Pica", Times New Roman, Times, serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+
+  h1 {
+    font-size: clamp(3.25rem, 8vw, 5.875rem);
+    line-height: 0.92;
+    margin: 0;
+    max-width: 820px;
+  }
+
+  h2 {
+    font-size: clamp(2.1rem, 4vw, 2.35rem);
+    line-height: 1.08;
+    margin: 0 0 1rem;
+  }
+
+  .contest-lead {
+    color: #e5e5e5;
+    font-size: clamp(1.35rem, 3vw, 1.75rem);
+    line-height: 1.28;
+    margin: 1.625rem 0 0;
+    max-width: 710px;
+  }
+
+  .poster-frame {
+    background: #0d0d0d;
+    border: 1px solid #2d2d2d;
+    margin-block: 1rem 3.625rem;
+    padding: 0.625rem;
+  }
+
+  .poster-frame img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .contest-grid {
+    align-items: start;
+    display: grid;
+    gap: 2.75rem;
+    grid-template-columns: minmax(0, 1fr) 330px;
+    padding-bottom: 5.125rem;
+  }
+
+  .contest-article p,
+  .submit-section p {
+    color: #e7e7e7;
+    font-size: 1.18rem;
+    line-height: 1.55;
+    margin: 0 0 1.125rem;
+  }
+
+  .requirements {
+    border-top: 1px solid #2d2d2d;
+    margin-top: 2.125rem;
+    padding-top: 1.875rem;
+  }
+
+  .requirements ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .requirements li {
+    border-bottom: 1px solid #2d2d2d;
+    color: #e9e9e9;
+    font-size: 1.18rem;
+    line-height: 1.55;
+    padding: 0.75rem 0 0.75rem 1.75rem;
+    position: relative;
+  }
+
+  .requirements li::before {
+    color: #ed3238;
+    content: "✦";
+    left: 0;
+    position: absolute;
+  }
+
+  .details-card {
+    background: linear-gradient(180deg, #151515 0%, #080808 100%);
+    border: 1px solid #ed3238;
+    padding: 1.375rem;
+  }
+
+  .details-table {
+    border-collapse: collapse;
+    font-size: 1.05rem;
+    width: 100%;
+  }
+
+  .details-table th,
+  .details-table td {
+    border-bottom: 1px solid #2d2d2d;
+    padding: 0.875rem 0;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .details-table th {
+    color: #b4afb6;
+    font-family: "IM Fell Double Pica", Times New Roman, Times, serif;
+    font-weight: 400;
+    padding-right: 1rem;
+    width: 42%;
+  }
+
+  .details-table td {
+    color: #ffffff;
+  }
+
+  .prize-list {
+    display: grid;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+  }
+
+  .prize-row {
+    align-items: center;
+    background: #000000;
+    border: 1px solid #2d2d2d;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    padding: 0.75rem 0.875rem;
+  }
+
+  .prize-row strong {
+    color: #ed3238;
+    font-family: "IM Fell Double Pica", Times New Roman, Times, serif;
+    font-weight: 400;
+  }
+
+  .submit-section {
+    align-items: center;
+    border: 1px solid #ed3238;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    padding: 1.75rem;
+  }
+
+  .submit-section h2 {
+    margin-bottom: 0.75rem;
+  }
+
+  .submit-section p:last-child {
+    margin-bottom: 0;
+  }
+
+  .submit-button {
+    background: #e9e9e9;
+    border: 2px solid #ffffff;
+    box-shadow:
+      inset 2px 2px #ffffff,
+      inset -2px -2px #626262;
+    color: #000000;
+    flex: 0 0 auto;
+    font-family: "IM Fell Double Pica", Times New Roman, Times, serif;
+    letter-spacing: 0.04em;
+    padding: 0.75rem 1.125rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .submit-button:hover,
+  .submit-button:focus-visible {
+    background: #ffffff;
+    color: #000000;
+  }
+
+  .submit-button:focus-visible {
+    outline: 2px solid #ed3238;
+    outline-offset: 4px;
+  }
+
+  @media (max-width: 820px) {
+    .contest-page {
+      padding-top: 5.5rem;
+    }
+
+    .hero-section {
+      padding-block: 3.375rem 2rem;
+    }
+
+    .contest-grid {
+      gap: 1.875rem;
+      grid-template-columns: 1fr;
+    }
+
+    .details-card {
+      order: -1;
+    }
+
+    .submit-section {
+      align-items: stretch;
+      flex-direction: column;
+    }
+
+    .submit-button {
+      text-align: center;
+      width: 100%;
+    }
+  }
+</style>
