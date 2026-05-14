@@ -2,6 +2,7 @@
 // Sticky navigation that appears after hero section
 import menu from "@/config/menu.json";
 const { main } = menu;
+const topLevelUrls = new Set(main.filter((menu) => !menu.hasChildren).map((menu) => menu.url));
 ---
 
 <nav id="sticky-nav" class="fixed top-0 left-0 right-0 z-50 bg-black border-b border-primary transform -translate-y-full transition-transform duration-300 ease-in-out">
@@ -26,6 +27,7 @@ const { main } = menu;
         {
           main.map((menu) => {
             const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+            const isFeatured = "featured" in menu && menu.featured;
 
             return menu.hasChildren ? (
               <div class="group relative">
@@ -39,6 +41,10 @@ const { main } = menu;
                   {
                     menu.children?.map((child) => {
                       const isChildExternal = child.url.startsWith('http') || child.url.startsWith('mailto');
+                      if (topLevelUrls.has(child.url)) {
+                        return null;
+                      }
+
                       return (
                         <a
                           href={child.url}
@@ -62,7 +68,7 @@ const { main } = menu;
             ) : (
               <a
                 href={menu.url}
-                class="text-white hover:text-primary transition-colors"
+                class={`transition-colors ${isFeatured ? "text-primary hover:text-white" : "text-white hover:text-primary"}`}
                 style="font-family: 'IM Fell Double Pica', Times, serif;"
                 {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
               >
@@ -93,11 +99,16 @@ const { main } = menu;
         {
           main.map((menu) => {
             const isExternal = menu.url.startsWith('http') || menu.url.startsWith('mailto');
+            const isFeatured = "featured" in menu && menu.featured;
 
             return menu.hasChildren ? (
               <>
                 {menu.children?.map((child) => {
                   const isChildExternal = child.url.startsWith('http') || child.url.startsWith('mailto');
+                  if (topLevelUrls.has(child.url)) {
+                    return null;
+                  }
+
                   return (
                     <a
                       href={child.url}
@@ -121,7 +132,7 @@ const { main } = menu;
               menu.name !== "What?" && menu.name !== "How?" && menu.name !== "Why?" && (
                 <a
                   href={menu.url}
-                  class="text-white hover:text-primary hover:bg-white/10 transition-all py-2 px-4 text-base"
+                  class={`hover:bg-white/10 transition-all py-2 px-4 text-base ${isFeatured ? "text-primary hover:text-white" : "text-white hover:text-primary"}`}
                   style="font-family: 'IM Fell Double Pica', Times, serif;"
                   {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
                 >

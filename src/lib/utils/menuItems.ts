@@ -2,6 +2,7 @@
 export interface MenuItem {
   name: string;
   url: string;
+  featured?: boolean;
   hasChildren?: boolean;
   children?: MenuItem[];
 }
