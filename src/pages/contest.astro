@@ -1,7 +1,9 @@
 ---
 import Base from "@/layouts/Base.astro";
 
-const submissionFormUrl = "#";
+const heroImage = "/images/contest/t-shirt-design-contest.png";
+const submissionFormUrl = "" as string;
+const submissionFormIsExternal = submissionFormUrl.startsWith("http");
 const prizes = [
   { place: "1st", tier: "first", rank: "1", suffix: "st", cue: "Winner", amount: "1,000,000", unit: "sats" },
   { place: "2nd", tier: "second", rank: "2", suffix: "nd", cue: "Runner-up", amount: "250,000", unit: "sats" },
@@ -10,52 +12,54 @@ const prizes = [
 const contestDetails = [
   { label: "Contest", value: "SEC-08 T-shirt design" },
   { label: "Final date", value: "15 June 2026" },
-  { label: "Submit", value: "Post on Nostr and tag us #SovEng or use the form" },
+  { label: "Submit", value: "Post on Nostr with #SovEng or use the submission form" },
   { label: "Theme", value: "Sovereign Engineers, Bitcoin, Nostr, Pirates" },
 ];
 const requirements = [
   "Include SEC-08 or Sovereign Engineering identity in a tasteful way.",
-  "Include front and back design.",
-  "No copyrighted assets, logos.",
-  "Post on Nostr and tag us #SovEng or use the form.",
+  "Show both front and back views of the T-shirt design.",
+  "Use original artwork or assets you have rights to; no copyrighted logos.",
+  "Post on Nostr with #SovEng, or use the submission form when it opens.",
 ];
 ---
 
 <Base
-  title="Contest Mock: Prize Marquee"
-  meta_title="Contest Mock: Prize Marquee"
-  description="Mock layout for the SEC-08 T-shirt design contest."
-  image="/images/t-shirt-design-contest.png"
-  noindex={true}
-  showCallToAction={false}
+  title="SEC-08 T-Shirt Design Contest"
+  meta_title="SEC-08 T-Shirt Design Contest"
+  description="Submit a Sovereign Engineering SEC-08 T-shirt design by 15 June 2026 for a bounty of 1,350,000 sats."
+  image={heroImage}
+  showCallToAction={true}
 >
-  <main class="mock-page">
-    <section class="contest-container masthead" aria-labelledby="contest-title">
+  <article class="contest-page" aria-labelledby="contest-title">
+    <header class="contest-container masthead">
       <p class="eyebrow">Final date · 15 June 2026</p>
       <div class="title-row">
         <h1 id="contest-title">Design Contest</h1>
       </div>
       <p class="lead">WANTED: Legendary Designers for <strong>SEC-08</strong></p>
-    </section>
+    </header>
 
     <figure class="contest-container poster" aria-label="SEC-08 T-shirt design contest poster">
-      <img src="/images/t-shirt-design-contest.png" alt="SEC-08 design contest poster" width="1672" height="941" loading="eager" decoding="async" />
+      <img src={heroImage} alt="SEC-08 design contest poster" width="1672" height="941" loading="eager" decoding="async" />
     </figure>
 
-    <section class="contest-container lower-grid">
-      <article class="contest-copy">
-        <h2>Brief</h2>
-        <p>
-          Here's your chance to participate in the legend of SEC. Sovereign Engineering needs a
-          legendary tee. Submit designs and be a part of the SEC-08 journey. Make it fun! Make it
-          meme worthy!
-        </p>
-        <p>
-          The winning design should work on an actual T-shirt, not just on a poster. Clear shapes and print-ready thinking are good. Avoid visual noise.
-        </p>
-        <p>
-          Read our <a href="https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6">SEC-08:YOLO++</a> announcement blog post for more inspiration. Check past <a href="https://sovereignengineering.io/swag">designs</a> if you need moar inspiration. And keep editable source files ready if your design is selected.
-        </p>
+    <section class="contest-container lower-grid" aria-label="Contest brief and details">
+      <div class="contest-copy">
+        <section aria-labelledby="brief-heading">
+          <h2 id="brief-heading">Brief</h2>
+          <p>
+            Here's your chance to participate in the legend of SEC. Sovereign Engineering needs a
+            legendary tee. Submit designs and be part of the SEC-08 journey. Make it fun. Make it
+            meme-worthy.
+          </p>
+          <p>
+            The winning design should work on an actual T-shirt, not just on a poster. Clear shapes,
+            strong contrast, and print-ready thinking matter. Avoid visual noise.
+          </p>
+          <p>
+            Read our <a href="https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6" target="_blank" rel="noopener noreferrer">SEC-08: YOLO++</a> announcement blog post for more inspiration. Check past <a href="/swag">designs</a> if you need more inspiration. Keep editable source files ready if your design is selected.
+          </p>
+        </section>
 
         <section class="requirements" aria-labelledby="requirements-heading">
           <h2 id="requirements-heading">Requirements</h2>
@@ -63,7 +67,7 @@ const requirements = [
             {requirements.map((requirement) => <li>{requirement}</li>)}
           </ul>
         </section>
-      </article>
+      </div>
 
       <aside class="details" aria-labelledby="details-heading">
         <h2 id="details-heading">Details</h2>
@@ -77,40 +81,54 @@ const requirements = [
             ))}
           </tbody>
         </table>
-        <a class="btn-retro inline-block px-8 py-4 text-lg min-w-[225px] text-center" href={submissionFormUrl}>Submit</a>
+        {
+          submissionFormUrl ? (
+            <a
+              class="btn-retro inline-block px-8 py-4 text-lg min-w-[225px] text-center"
+              href={submissionFormUrl}
+              target={submissionFormIsExternal ? "_blank" : undefined}
+              rel={submissionFormIsExternal ? "noopener noreferrer" : undefined}
+            >
+              Submit
+            </a>
+          ) : (
+            <span class="btn-retro submission-disabled inline-block px-8 py-4 text-lg min-w-[225px] text-center" aria-disabled="true">
+              Form coming soon
+            </span>
+          )
+        }
       </aside>
     </section>
-  </main>
 
-  <section class="contest-container prize-marquee" aria-label="Contest prizes">
-    <div class="total">
-      <span>Total bounty</span>
-      <strong>
-        <span class="total-amount">1,350,000</span>
-        <span class="total-unit">sats</span>
-      </strong>
-    </div>
-    {prizes.map((prize) => (
-      <div class={`marquee-prize ${prize.tier}`}>
-        <div class="rank" aria-label={prize.place}>
-          <span class="rank-number">{prize.rank}</span>
-          <span class="rank-suffix">{prize.suffix}</span>
-        </div>
-        <span class="rank-cue">{prize.cue}</span>
+    <section class="contest-container prize-marquee" aria-label="Contest prizes">
+      <div class="total">
+        <span>Total bounty</span>
         <strong>
-          <span class="prize-amount">{prize.amount}</span>
-          <span class="prize-unit">{prize.unit}</span>
+          <span class="total-amount">1,350,000</span>
+          <span class="total-unit">sats</span>
         </strong>
       </div>
-    ))}
-  </section>
-
+      {prizes.map((prize) => (
+        <div class={`marquee-prize ${prize.tier}`}>
+          <div class="rank" aria-label={prize.place}>
+            <span class="rank-number">{prize.rank}</span>
+            <span class="rank-suffix">{prize.suffix}</span>
+          </div>
+          <span class="rank-cue">{prize.cue}</span>
+          <strong>
+            <span class="prize-amount">{prize.amount}</span>
+            <span class="prize-unit">{prize.unit}</span>
+          </strong>
+        </div>
+      ))}
+    </section>
+  </article>
 </Base>
 
 <style>
-  .mock-page {
-    background: #000;
-    color: #fff;
+  .contest-page {
+    background: var(--color-body);
+    color: var(--color-text);
     min-height: 100vh;
     padding: 8rem 0 6rem;
   }
@@ -133,8 +151,8 @@ const requirements = [
 
   .eyebrow,
   table th {
-    color: #ed3238;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
     letter-spacing: 0.14em;
     margin: 0 0 0.9rem;
     text-transform: uppercase;
@@ -142,8 +160,8 @@ const requirements = [
 
   h1,
   h2 {
-    color: #fff;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
+    color: var(--color-text);
+    font-family: var(--font-secondary);
     font-weight: 400;
     letter-spacing: 0.02em;
     margin: 0;
@@ -163,174 +181,12 @@ const requirements = [
   }
 
   .lead {
-    color: #e8e8e8;
+    color: var(--color-text);
     font-size: clamp(1.35rem, 2.2vw, 1.85rem);
     line-height: 1.3;
     margin: 1.25rem 0 0;
     max-width: 920px;
-  }
-
-  .prize-marquee {
-    border: 1px solid #ed3238;
-    display: grid;
-    grid-template-columns: minmax(240px, 0.95fr) repeat(3, minmax(0, 1fr));
-    margin: 0 auto 2.75rem;
-    overflow: hidden;
-  }
-
-  .total,
-  .marquee-prize {
-    min-height: 8.9rem;
-    padding: 1.15rem 1.35rem;
-  }
-
-  .total {
-    background: #ed3238;
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .total > span {
-    color: #000;
-    display: block;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
-    letter-spacing: 0.14em;
-    margin: 0 0 0.35rem;
-    text-transform: uppercase;
-  }
-
-  .total strong {
-    display: block;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
-    font-weight: 400;
-    line-height: 0.9;
-    text-transform: uppercase;
-  }
-
-  .total-amount {
-    display: block;
-    font-size: clamp(2rem, 3vw, 2.75rem);
-  }
-
-  .total-unit {
-    display: block;
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
-    letter-spacing: 0.18em;
-    margin-top: 0.65rem;
-  }
-
-  .marquee-prize {
-    align-items: center;
-    border-left: 1px solid #2d2d2d;
-    display: grid;
-    gap: 0.9rem;
-    grid-template-areas:
-      "rank cue"
-      "rank amount";
-    grid-template-columns: auto minmax(0, 1fr);
-    position: relative;
-  }
-
-  .marquee-prize::after {
-    background: linear-gradient(90deg, #ed3238, transparent);
-    bottom: 1.05rem;
-    content: "";
-    height: 2px;
-    left: 1.35rem;
-    opacity: 0.7;
-    position: absolute;
-    right: 1.35rem;
-  }
-
-  .rank {
-    align-items: flex-start;
-    color: #ed3238;
-    display: flex;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
-    grid-area: rank;
-    min-width: 5.35rem;
-  }
-
-  .rank-cue {
-    align-self: end;
-    color: #ed3238;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
-    font-size: 0.76rem;
-    grid-area: cue;
-    letter-spacing: 0.16em;
-    line-height: 1;
-    text-transform: uppercase;
-  }
-
-  .marquee-prize.first {
-    background: linear-gradient(180deg, rgba(237, 50, 56, 0.28), rgba(237, 50, 56, 0.07));
-  }
-
-  .marquee-prize.first .rank-number {
-    font-size: clamp(4.8rem, 5.8vw, 6.4rem);
-  }
-
-  .marquee-prize.first .prize-amount {
-    font-size: clamp(1.45rem, 1.8vw, 2rem);
-  }
-
-  .marquee-prize.second {
-    background: linear-gradient(180deg, rgba(237, 50, 56, 0.16), rgba(237, 50, 56, 0.04));
-  }
-
-  .marquee-prize.second .rank-number {
-    font-size: clamp(4.35rem, 5.25vw, 5.9rem);
-  }
-
-  .marquee-prize.third .rank-number {
-    font-size: clamp(3.95rem, 4.75vw, 5.35rem);
-  }
-
-  .marquee-prize.third {
-    background: linear-gradient(180deg, rgba(237, 50, 56, 0.09), rgba(237, 50, 56, 0.015));
-  }
-
-  .rank-number {
-    font-size: clamp(4rem, 5vw, 5.7rem);
-    line-height: 0.72;
-  }
-
-  .rank-suffix {
-    font-size: clamp(0.8rem, 1vw, 1rem);
-    letter-spacing: 0.16em;
-    line-height: 1;
-    margin-left: 0.12rem;
-    margin-top: 0.15rem;
-    text-transform: uppercase;
-  }
-
-  .marquee-prize strong {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
-    gap: 0.2rem;
-    grid-area: amount;
-    line-height: 1;
-    min-width: 0;
-    position: relative;
-    z-index: 1;
-  }
-
-  .prize-amount {
-    display: block;
-    font-size: clamp(1.3rem, 1.55vw, 1.75rem);
-  }
-
-  .prize-unit {
-    color: #bdbdbd;
-    display: block;
-    font-family: "IM Fell Double Pica", "Times New Roman", serif;
-    font-size: 0.82rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
+    opacity: 0.92;
   }
 
   .poster {
@@ -353,29 +209,30 @@ const requirements = [
   .contest-copy p,
   .requirements li,
   table {
-    color: #e8e8e8;
+    color: var(--color-text);
     font-size: 1.18rem;
     line-height: 1.58;
+    opacity: 0.94;
   }
 
   .contest-copy p {
-    margin: 0 0 1.15rem;
     hyphens: auto;
+    margin: 0 0 1.15rem;
     text-align: justify;
     text-align-last: left;
   }
 
   .contest-copy a {
-    color: #fff;
+    color: var(--color-text);
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: #ed3238;
+    text-decoration-color: var(--color-primary);
     text-decoration-thickness: 0.08em;
     text-underline-offset: 0.18em;
   }
 
   .contest-copy a:hover {
-    color: #ed3238;
+    color: var(--color-primary);
   }
 
   .requirements {
@@ -389,20 +246,20 @@ const requirements = [
   }
 
   .requirements li {
-    border-top: 1px solid #2d2d2d;
+    border-top: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
     padding: 0.85rem 0 0.85rem 1.65rem;
     position: relative;
   }
 
   .requirements li::before {
-    color: #ed3238;
+    color: var(--color-primary);
     content: "✦";
     left: 0;
     position: absolute;
   }
 
   .details {
-    border-top: 1px solid #ed3238;
+    border-top: 1px solid var(--color-border);
     padding-top: 1rem;
   }
 
@@ -414,7 +271,7 @@ const requirements = [
 
   th,
   td {
-    border-bottom: 1px solid #2d2d2d;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
     padding: 0.9rem 0;
     text-align: left;
     vertical-align: middle;
@@ -426,7 +283,7 @@ const requirements = [
   }
 
   td {
-    color: #fff;
+    color: var(--color-text);
   }
 
   .details .btn-retro {
@@ -435,20 +292,201 @@ const requirements = [
     width: max-content;
   }
 
+  .submission-disabled {
+    cursor: not-allowed;
+    opacity: 0.68;
+    pointer-events: none;
+  }
+
+  .prize-marquee {
+    border: 1px solid var(--color-border);
+    display: grid;
+    grid-template-columns: minmax(240px, 0.95fr) repeat(3, minmax(0, 1fr));
+    margin: 3.75rem auto 0;
+    overflow: hidden;
+  }
+
+  .total,
+  .marquee-prize {
+    min-height: 8.9rem;
+    padding: 1.15rem 1.35rem;
+  }
+
+  .total {
+    background: var(--color-primary);
+    color: var(--color-body);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .total > span {
+    color: var(--color-body);
+    display: block;
+    font-family: var(--font-secondary);
+    letter-spacing: 0.14em;
+    margin: 0 0 0.35rem;
+    text-transform: uppercase;
+  }
+
+  .total strong {
+    display: block;
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    line-height: 0.9;
+    text-transform: uppercase;
+  }
+
+  .total-amount {
+    display: block;
+    font-size: clamp(2rem, 3vw, 2.75rem);
+  }
+
+  .total-unit {
+    display: block;
+    font-size: clamp(1rem, 1.2vw, 1.2rem);
+    letter-spacing: 0.18em;
+    margin-top: 0.65rem;
+  }
+
+  .marquee-prize {
+    align-items: center;
+    border-left: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
+    display: grid;
+    gap: 0.9rem;
+    grid-template-areas:
+      "rank cue"
+      "rank amount";
+    grid-template-columns: auto minmax(0, 1fr);
+    position: relative;
+  }
+
+  .marquee-prize::after {
+    background: linear-gradient(90deg, var(--color-primary), transparent);
+    bottom: 1.05rem;
+    content: "";
+    height: 2px;
+    left: 1.35rem;
+    opacity: 0.7;
+    position: absolute;
+    right: 1.35rem;
+  }
+
+  .rank {
+    align-items: flex-start;
+    color: var(--color-primary);
+    display: flex;
+    font-family: var(--font-secondary);
+    grid-area: rank;
+    min-width: 5.35rem;
+  }
+
+  .rank-cue {
+    align-self: end;
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+    font-size: 0.76rem;
+    grid-area: cue;
+    letter-spacing: 0.16em;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .marquee-prize.first {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 28%, transparent),
+      color-mix(in srgb, var(--color-primary) 7%, transparent)
+    );
+  }
+
+  .marquee-prize.first .rank-number {
+    font-size: clamp(4.8rem, 5.8vw, 6.4rem);
+  }
+
+  .marquee-prize.first .prize-amount {
+    font-size: clamp(1.45rem, 1.8vw, 2rem);
+  }
+
+  .marquee-prize.second {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 16%, transparent),
+      color-mix(in srgb, var(--color-primary) 4%, transparent)
+    );
+  }
+
+  .marquee-prize.second .rank-number {
+    font-size: clamp(4.35rem, 5.25vw, 5.9rem);
+  }
+
+  .marquee-prize.third {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 9%, transparent),
+      color-mix(in srgb, var(--color-primary) 2%, transparent)
+    );
+  }
+
+  .marquee-prize.third .rank-number {
+    font-size: clamp(3.95rem, 4.75vw, 5.35rem);
+  }
+
+  .rank-number {
+    font-size: clamp(4rem, 5vw, 5.7rem);
+    line-height: 0.72;
+  }
+
+  .rank-suffix {
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    letter-spacing: 0.16em;
+    line-height: 1;
+    margin-left: 0.12rem;
+    margin-top: 0.15rem;
+    text-transform: uppercase;
+  }
+
+  .marquee-prize strong {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    gap: 0.2rem;
+    grid-area: amount;
+    line-height: 1;
+    min-width: 0;
+    position: relative;
+    z-index: 1;
+  }
+
+  .prize-amount {
+    display: block;
+    font-size: clamp(1.3rem, 1.55vw, 1.75rem);
+  }
+
+  .prize-unit {
+    color: var(--color-text-light);
+    display: block;
+    font-family: var(--font-secondary);
+    font-size: 0.82rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
   @media (max-width: 900px) {
     .title-row {
       align-items: flex-start;
       flex-direction: column;
     }
 
-    .prize-marquee,
-    .lower-grid {
+    .lower-grid,
+    .prize-marquee {
       grid-template-columns: 1fr;
     }
 
     .marquee-prize {
       border-left: 0;
-      border-top: 1px solid #2d2d2d;
+      border-top: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
     }
 
     h1 {

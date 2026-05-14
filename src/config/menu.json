@@ -31,6 +31,10 @@
           "url": "/swag"
         },
         {
+          "name": "Contest",
+          "url": "/contest"
+        },
+        {
           "name": "Media",
           "url": "https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
         },
@@ -77,6 +81,10 @@
     {
       "name": "Swag",
       "url": "/swag"
+    },
+    {
+      "name": "Contest",
+      "url": "/contest"
     },
     {
       "name": "Alumni",
