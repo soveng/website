@@ -12,14 +12,14 @@ const prizes = [
 const contestDetails = [
   { label: "Contest", value: "SEC-08 T-shirt design" },
   { label: "Final date", value: "15 June 2026" },
-  { label: "Submit", value: "Post on Nostr with #SovEng or use the submission form" },
-  { label: "Theme", value: "Sovereign Engineers, Bitcoin, Nostr, Pirates" },
+  { label: "Submit", value: "Post on Nostr and tag #SovEng" },
+  { label: "Theme", value: "Summer, Sovereign Engineers, Bitcoin, Nostr, Pirates" },
 ];
 const requirements = [
-  "Include SEC-08 or Sovereign Engineering identity in a tasteful way.",
-  "Show both front and back views of the T-shirt design.",
-  "Use original artwork or assets you have rights to; no copyrighted logos.",
-  "Post on Nostr with #SovEng, or use the submission form when it opens.",
+  "Print-friendly: bold shapes, max 4 colors, avoid spaghetti detail.",
+  "Show both front and back design of the T-shirt.",
+  "Keep editable source files around",
+  "	Post on Nostr and tag #SovEng"
 ];
 ---
 
@@ -36,7 +36,7 @@ const requirements = [
       <div class="title-row">
         <h1 id="contest-title">Design Contest</h1>
       </div>
-      <p class="lead">WANTED: Legendary Designers for <strong>SEC-08</strong></p>
+      <p class="lead"><strong><u>WANTED</u>:</strong> Legendary Designers for <strong>SEC-08</strong></p>
     </header>
 
     <figure class="contest-container poster" aria-label="SEC-08 T-shirt design contest poster">
@@ -48,19 +48,22 @@ const requirements = [
         <section aria-labelledby="brief-heading">
           <h2 id="brief-heading">Brief</h2>
           <p>
-            Here's your chance to participate in the legend of SEC. Sovereign Engineering needs a
-            legendary tee. Submit designs and be part of the SEC-08 journey. Make it fun. Make it
-            meme-worthy.
+            Sovereign Engineering needs a legendary tee for SEC-08, and we're handing the brush to you. This is your shot to ink yourself into the lore of SEC: the way past cohorts' artwork still floats around Madeira, Bitcoin meetups, and Nostr feeds years later.
           </p>
           <p>
-            For context, read <a href="https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6"
-            target="_blank" rel="noopener noreferrer">SEC-08: YOLO++</a> announcement blog
-            post. Check past <a href="/swag">designs</a> to see what made each SEC design unique.
+            The theme is Summer on the high seas of freedom tech. Think pirates with full nodes. Crabs relaying Nostr events. Seagulls shooting chasu tokens. A jolly roger crossed with a lightning bolt. Sun-bleached sails, sats in the air, a crew of sovereign engineers raiding the opensource seas.
           </p>
           <p>
-            The winning design should work on an actual T-shirt, not just on a poster. Clear shapes,
-            strong contrast, and print-ready thinking matter. Avoid visual noise. Keep editable
-            source files ready if your design is selected.
+            Lean into the meme for all we care, as a master once said, <a href="https://www.youtube.com/watch?v=PBAuHv5cPl8&" target="_blank" rel="noopener noreferrer">"we are memeing the future into reality"</a>. Or as the other one for he said, "if you look long enough into the meme, the meme stares back at you". We want the shirt people will fight over at BBQs, and hand them down in 2069 as heirlooms. Inside jokes welcome. Bitcoin culture, Nostr autism, pirate folklore - do your worst! The weirder, the better.
+          </p>
+          <p>
+            If you really need more context, read <a href="https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6" target="_blank" rel="noopener noreferrer">SEC-08</a> post or check past <a href="/swag">designs</a> to see what made each SEC design unique.
+          </p>
+          <p>
+            And please don't steal stuff, the first rule at SEC is, "Don't go to jail!" - it's true.
+          </p>
+          <p>
+            Post your designs on Nostr and tag <a href="https://nostrudel.ninja/t/soveng" target="_blank"  rel="noopener noreferrer">#SovEng</a> before <strong>15 June 2026</strong>. Total bounty worth <strong>1,350,000 sats</strong>. Drop as many designs as you want. Raid the feed! Now, grab yer brushes, crack them knuckes, get yer sea legs on, ye sovereign scallywag - an' get yer captain the rum!
           </p>
         </section>
 
@@ -84,22 +87,6 @@ const requirements = [
             ))}
           </tbody>
         </table>
-        {
-          submissionFormUrl ? (
-            <a
-              class="btn-retro inline-block px-8 py-4 text-lg min-w-[225px] text-center"
-              href={submissionFormUrl}
-              target={submissionFormIsExternal ? "_blank" : undefined}
-              rel={submissionFormIsExternal ? "noopener noreferrer" : undefined}
-            >
-              Submit
-            </a>
-          ) : (
-            <span class="btn-retro submission-disabled inline-block px-8 py-4 text-lg min-w-[225px] text-center" aria-disabled="true">
-              Form coming soon
-            </span>
-          )
-        }
       </aside>
     </section>
 
