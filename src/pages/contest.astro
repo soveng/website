@@ -2,8 +2,6 @@
 import Base from "@/layouts/Base.astro";
 
 const heroImage = "/images/contest/t-shirt-design-contest.png";
-const submissionFormUrl = "" as string;
-const submissionFormIsExternal = submissionFormUrl.startsWith("http");
 const prizes = [
   { place: "1st", tier: "first", rank: "1", suffix: "st", cue: "Winner", amount: "1,000,000", unit: "sats" },
   { place: "2nd", tier: "second", rank: "2", suffix: "nd", cue: "Runner-up", amount: "250,000", unit: "sats" },
@@ -48,10 +46,13 @@ const requirements = [
         <section aria-labelledby="brief-heading">
           <h2 id="brief-heading">Brief</h2>
           <p>
-            Sovereign Engineering needs a legendary tee for SEC-08, and we're handing the brush to you. This is your shot to ink yourself into the lore of SEC: the way past cohorts' artwork still floats around Madeira, Bitcoin meetups, and Nostr feeds years later.
+            Sovereign Engineering needs a legendary tee for SEC-08, and we're handing the brush to you. This is your shot to ink yourself into
+            the lore of SEC: the way past cohorts' artwork still floats around Madeira, Bitcoin meetups, and Nostr feeds years later.
           </p>
           <p>
-            The theme is Summer on the high seas of freedom tech. Think pirates with full nodes. Crabs relaying Nostr events. Seagulls shooting chasu tokens. A jolly roger crossed with a lightning bolt. Sun-bleached sails, sats in the air, a crew of sovereign engineers raiding the opensource seas.
+            The theme is Summer on the high seas of freedom tech. Think pirates with full nodes. Crabs relaying Nostr events. Seagulls
+            shooting chasu tokens. A jolly roger crossed with a lightning bolt. Sun-bleached sails, sats in the air, a crew of sovereign
+            engineers raiding the opensource seas.
           </p>
           <p>
             Lean into the meme for all we care, as a master once said, <a href="https://www.youtube.com/watch?v=PBAuHv5cPl8&" target="_blank" rel="noopener noreferrer">"we are memeing the future into reality"</a>. Or as the other one for he said, "if you look long enough into the meme, the meme stares back at you". We want the shirt people will fight over at BBQs, and hand them down in 2069 as heirlooms. Inside jokes welcome. Bitcoin culture, Nostr autism, pirate folklore - do your worst! The weirder, the better.
