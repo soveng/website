@@ -27,7 +27,7 @@ package-lock.json
 # ide
 .idea/
 
-# local agent/mockup artifacts
+# local agent/tool artifacts
 .hermes/
 .playwright-cli/
 output/
