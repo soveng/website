@@ -146,15 +146,18 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
   const fallbackMarkup = hasCover
     ? ''
     : `<rect x="${COVER_X}" y="${COVER_Y}" width="${COVER_SIZE}" height="${COVER_SIZE}" rx="18" fill="#121212" />
-       <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 - 10}" text-anchor="middle" fill="#F7931A" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">NO</text>
-       <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 + 28}" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SOLUTIONS</text>`;
+       <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 - 10}" text-anchor="middle" fill="#F7931A"
+         font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">NO</text>
+       <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 + 28}" text-anchor="middle" fill="#FFFFFF"
+         font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SOLUTIONS</text>`;
 
   const svg = `
   <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect x="${COVER_X - 6}" y="${COVER_Y - 6}" width="${COVER_SIZE + 12}" height="${COVER_SIZE + 12}" rx="24" fill="none" stroke="#343434" stroke-width="2" />
     ${fallbackMarkup}
     <rect x="${TEXT_X}" y="102" width="248" height="34" rx="17" fill="#F7931A" />
-    <text x="${TEXT_X + 18}" y="125" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="0.08em">NO SOLUTIONS PODCAST</text>
+    <text x="${TEXT_X + 18}" y="125" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="17"
+      font-weight="700" letter-spacing="0.08em">NO SOLUTIONS PODCAST</text>
     <text x="${TEXT_X}" y="203" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">${titleTspans}</text>
     <text x="${TEXT_X}" y="444" fill="#B5B5B5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">${escapeXml(metaLine)}</text>
     <text x="${TEXT_X}" y="497" fill="#E6E6E6" font-family="Arial, Helvetica, sans-serif" font-size="27">${subtitleTspans}</text>

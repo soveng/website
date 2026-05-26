@@ -1,0 +1,562 @@
+---
+import Base from "@/layouts/Base.astro";
+
+const heroImage = "/images/contest/t-shirt-design-contest.webp";
+const questionMarkImage = "/images/contest/question-mark-white.png";
+const requirementsSeparatorImage = "/images/contest/separator-chest.png";
+const prizes = [
+  { place: "1st", tier: "first", rank: "1", suffix: "st", cue: "Winner", amount: "1,000,000", unit: "sats" },
+  { place: "2nd", tier: "second", rank: "2", suffix: "nd", cue: "Runner-up", amount: "250,000", unit: "sats" },
+  { place: "3rd", tier: "third", rank: "3", suffix: "rd", cue: "Third place", amount: "100,000", unit: "sats" },
+];
+const contestDetails = [
+  { label: "Deadline", value: "June 15" },
+  { label: "Bounty", value: "1,350,000 sats" },
+  { label: "Theme", value: "Fully open. Fun, serious, weird, pirates, whatever." },
+  { label: "Submit", linked: true },
+];
+const requirements = [
+  "Anything goes in terms of placement: front, back, sleeve, all-over prints, etc.",
+  "Print-friendly: bold shapes, max 4 colors, avoid spaghetti detail.",
+  "Keep editable source files around (if you have them).",
+  "Highres enough to print, vector preferred.",
+];
+const sec08Url =
+  "https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6";
+const sovereignEngineeringUrl = "https://npub.world/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5";
+const sovEngUrl = "https://ants.sh/t/SovEng";
+---
+
+<Base
+  title="T-Shirt Design Contest"
+  meta_title="T-Shirt Design Contest"
+  description="Design the SEC-08 tee & win up to 1,000,000 sats! Submit on Nostr with #SovEng by June 15."
+  image={heroImage}
+  showCallToAction={true}
+>
+  <article class="contest-page" aria-labelledby="contest-title">
+    <header class="contest-container masthead">
+      <p class="eyebrow">SEC-08</p>
+      <div class="title-row">
+        <h1 id="contest-title">T-Shirt Design Contest</h1>
+      </div>
+    </header>
+
+    <figure class="contest-container poster" aria-label="SEC-08 T-shirt design contest poster">
+      <img src={heroImage} alt="SEC-08 design contest poster" width="1672" height="941" loading="eager" decoding="async" />
+    </figure>
+
+    <section class="contest-container lower-grid" aria-label="Contest brief and details">
+      <div class="contest-copy">
+        <section aria-labelledby="brief-heading">
+          <h2 id="brief-heading">Brief</h2>
+          <p>
+            Always wanted to participate in a cohort but logistics never allowed you to? Well, here's your chance! We're looking for awesome
+            designers who make awesome graphics, so we have something to wear for <a href={sec08Url} target="_blank" rel="noopener noreferrer">SEC-08</a>.
+            Make it as fun or as serious as you want it to be. Nothing is off-limits.
+          </p>
+          <p>
+            Having a shirt for each cohort is a tradition by now. So we thought: why not make it participatory and weird and fun and use Nostr for
+            everything? Read <a href={sec08Url} target="_blank" rel="noopener noreferrer">the blog post</a> and check <a href="/swag">past designs</a> for
+            inspiration. Or feel free to come up with something else entirely.
+          </p>
+          <p>
+            The winning design should work on an actual t-shirt, obviously. If we can't print it, we won't be able to select it, meaning you won't be
+            able to win a million sats!
+          </p>
+          <p>
+            To participate, post a mockup of your design on Nostr and use the{" "}
+            <a href={sovEngUrl} target="_blank" rel="noopener noreferrer">#SovEng</a> hashtag or tag{" "}
+            <a href={sovereignEngineeringUrl} target="_blank" rel="noopener noreferrer">@SovereignEngineering</a>. We'll announce &amp; zap the winners shortly after.
+          </p>
+          <p>
+            Deadline is <strong>June 15</strong>.
+          </p>
+        </section>
+
+        <div class="prize-spacer">
+          <div class="prize-spacer-before" aria-hidden="true"></div>
+          <section class="prize-marquee" aria-label="Contest prizes">
+            {prizes.map((prize) => (
+              <div class={`marquee-prize ${prize.tier}`}>
+                <div class="prize-label">
+                  <div class="rank" aria-label={prize.place}>
+                    <span class="rank-number">{prize.rank}</span>
+                    <span class="rank-suffix">{prize.suffix}</span>
+                  </div>
+                  <span class="rank-cue">{prize.cue}</span>
+                </div>
+                <strong>
+                  <span class="prize-amount">{prize.amount}</span>
+                  <span class="prize-unit">{prize.unit}</span>
+                </strong>
+              </div>
+            ))}
+          </section>
+          <div class="prize-spacer-after" aria-hidden="true"></div>
+          <figure class="contest-separator" aria-hidden="true">
+            <img
+              src={requirementsSeparatorImage}
+              alt=""
+              width="2172"
+              height="724"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </div>
+
+      <aside class="details" aria-labelledby="details-heading">
+        <h2 id="details-heading">Details</h2>
+        <table>
+          <tbody>
+            {contestDetails.map((detail) => (
+              <tr>
+                <th scope="row">{detail.label}</th>
+                <td>
+                  {detail.linked ? (
+                    <>
+                      Use{" "}
+                      <a href={sovEngUrl} target="_blank" rel="noopener noreferrer">#SovEng</a> or{" "}
+                      <a href={sovereignEngineeringUrl} target="_blank" rel="noopener noreferrer">tag us</a>
+                    </>
+                  ) : (
+                    detail.value
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        <figure class="question-mark-figure" aria-hidden="true">
+          <img
+            src={questionMarkImage}
+            alt=""
+            width="546"
+            height="595"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      </aside>
+
+      <section class="requirements" aria-labelledby="requirements-heading">
+        <h2 id="requirements-heading">Requirements</h2>
+        <ul>
+          {requirements.map((requirement) => <li>{requirement}</li>)}
+          <li>Post a mockup of your design on Nostr.</li>
+          <li>
+            Use the <a href={sovEngUrl} target="_blank" rel="noopener noreferrer">#SovEng</a> hashtag or{" "}
+            <a href={sovereignEngineeringUrl} target="_blank" rel="noopener noreferrer">tag us</a>.
+          </li>
+        </ul>
+      </section>
+    </section>
+  </article>
+</Base>
+
+<style>
+  .contest-page {
+    background: var(--color-body);
+    color: var(--color-text);
+    min-height: 100vh;
+    padding: 8rem 0 6rem;
+  }
+
+  .contest-container {
+    margin-inline: auto;
+    width: min(1180px, calc(100% - 2rem));
+  }
+
+  .masthead {
+    padding: 4.5rem 0 1.5rem;
+  }
+
+  .title-row {
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-between;
+  }
+
+  .eyebrow,
+  table th {
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+    letter-spacing: 0.14em;
+    margin: 0 0 0.9rem;
+    text-transform: uppercase;
+  }
+
+  h1,
+  h2 {
+    color: var(--color-text);
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    font-size: clamp(3rem, 6vw, 5.35rem);
+    line-height: 0.9;
+    white-space: nowrap;
+  }
+
+  h2 {
+    font-size: clamp(2rem, 3vw, 2.6rem);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .lead {
+    color: var(--color-text);
+    font-size: clamp(1.35rem, 2.2vw, 1.85rem);
+    line-height: 1.3;
+    margin: 1.25rem 0 0;
+    max-width: 920px;
+    opacity: 0.92;
+  }
+
+  .poster {
+    margin-bottom: 3.75rem;
+  }
+
+  .poster img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .lower-grid {
+    align-items: start;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas:
+      "brief details"
+      "requirements .";
+    grid-template-columns: minmax(0, 1fr) 360px;
+  }
+
+  .lower-grid > .contest-copy {
+    grid-area: brief;
+  }
+
+  .lower-grid > .details {
+    grid-area: details;
+  }
+
+  .lower-grid > .requirements {
+    grid-area: requirements;
+  }
+
+  .contest-copy .prize-spacer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.35rem;
+  }
+
+  .prize-spacer-before {
+    flex: 1 1 0;
+    min-height: 4.75rem;
+  }
+
+  .prize-spacer-after {
+    flex: 1 1 0;
+    min-height: 3.25rem;
+  }
+
+  .contest-copy .prize-marquee {
+    flex: 0 0 auto;
+    margin: 0;
+  }
+
+  .prize-spacer .contest-separator {
+    flex: 0 0 auto;
+    margin: 0;
+  }
+
+  .contest-copy p,
+  .requirements li,
+  table {
+    color: var(--color-text);
+    font-size: 1.18rem;
+    line-height: 1.58;
+    opacity: 0.94;
+  }
+
+  .contest-copy p {
+    hyphens: auto;
+    margin: 0 0 1.15rem;
+    text-align: justify;
+    text-align-last: left;
+  }
+
+  .contest-copy a,
+  .details a,
+  .requirements a {
+    color: var(--color-text);
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.18em;
+  }
+
+  .contest-copy a:hover,
+  .details a:hover,
+  .requirements a:hover {
+    color: var(--color-primary);
+  }
+
+  .question-mark-figure {
+    margin: 3.75rem 0 0;
+    text-align: center;
+  }
+
+  .details .question-mark-figure img {
+    display: block;
+    height: auto;
+    margin-inline: auto;
+    max-width: 13rem;
+    width: 100%;
+  }
+
+  .requirements {
+    margin-top: 0;
+  }
+
+  .requirements h2 {
+    margin-top: 2rem;
+  }
+
+  .prize-spacer .contest-separator img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .requirements ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .requirements li {
+    border-top: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
+    padding: 0.85rem 0 0.85rem 1.65rem;
+    position: relative;
+  }
+
+  .requirements li::before {
+    color: var(--color-primary);
+    content: "✦";
+    left: 0;
+    position: absolute;
+  }
+
+  .details {
+    border-top: 1px solid var(--color-border);
+    padding-top: 1rem;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
+    padding: 0.9rem 0;
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  th {
+    padding-right: 1rem;
+    width: 38%;
+  }
+
+  td {
+    color: var(--color-text);
+  }
+
+  .details .btn-retro {
+    display: block;
+    margin: 5rem auto 0;
+    width: max-content;
+  }
+
+  .submission-disabled {
+    cursor: not-allowed;
+    opacity: 0.68;
+    pointer-events: none;
+  }
+
+  .prize-marquee {
+    border: 1px solid var(--color-border);
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .marquee-prize {
+    align-items: center;
+    border-left: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    justify-content: center;
+    min-height: 6.5rem;
+    padding: 1rem 0.75rem;
+    text-align: center;
+  }
+
+  .marquee-prize:first-child {
+    border-left: 0;
+  }
+
+  .prize-label {
+    align-items: baseline;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .rank {
+    align-items: flex-start;
+    color: var(--color-primary);
+    display: inline-flex;
+    font-family: var(--font-secondary);
+    line-height: 1;
+  }
+
+  .rank-cue {
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  .marquee-prize.first {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 28%, transparent),
+      color-mix(in srgb, var(--color-primary) 7%, transparent)
+    );
+  }
+
+  .marquee-prize.first .rank-number {
+    font-size: clamp(1.85rem, 2.3vw, 2.35rem);
+  }
+
+  .marquee-prize.first .prize-amount {
+    font-size: clamp(2.1rem, 2.8vw, 2.85rem);
+  }
+
+  .marquee-prize.second {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 16%, transparent),
+      color-mix(in srgb, var(--color-primary) 4%, transparent)
+    );
+  }
+
+  .marquee-prize.second .rank-number {
+    font-size: clamp(1.75rem, 2.15vw, 2.2rem);
+  }
+
+  .marquee-prize.third {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, var(--color-primary) 9%, transparent),
+      color-mix(in srgb, var(--color-primary) 2%, transparent)
+    );
+  }
+
+  .marquee-prize.third .rank-number {
+    font-size: clamp(1.65rem, 2vw, 2.05rem);
+  }
+
+  .rank-number {
+    font-size: clamp(1.7rem, 2.1vw, 2.15rem);
+    line-height: 0.85;
+  }
+
+  .rank-suffix {
+    font-size: clamp(0.5rem, 0.6vw, 0.62rem);
+    letter-spacing: 0.14em;
+    line-height: 1;
+    margin-left: 0.08rem;
+    margin-top: 0.1rem;
+    text-transform: uppercase;
+  }
+
+  .marquee-prize strong {
+    align-items: baseline;
+    color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-weight: 700;
+    gap: 0.35rem;
+    justify-content: center;
+    line-height: 1;
+  }
+
+  .prize-amount {
+    font-size: clamp(1.65rem, 2.1vw, 2.2rem);
+  }
+
+  .prize-unit {
+    color: var(--color-text-light);
+    font-family: var(--font-secondary);
+    font-size: 0.82rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 900px) {
+    .title-row {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .lower-grid {
+      grid-template-areas:
+        "brief"
+        "details"
+        "requirements";
+      grid-template-columns: 1fr;
+    }
+
+    .prize-marquee {
+      grid-template-columns: 1fr;
+    }
+
+    .marquee-prize {
+      border-left: 0;
+      border-top: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
+    }
+
+    .marquee-prize:first-child {
+      border-top: 0;
+    }
+
+    h1 {
+      font-size: clamp(2.35rem, 11vw, 3.4rem);
+      white-space: normal;
+    }
+
+    .lead strong {
+      white-space: nowrap;
+    }
+  }
+</style>
