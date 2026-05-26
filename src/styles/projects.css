@@ -478,6 +478,17 @@
   color: rgb(255 255 255 / 62%);
 }
 
+.cohort-intro-link {
+  color: rgb(255 255 255 / 78%);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  transition: color 150ms ease;
+}
+
+.cohort-intro-link:hover {
+  color: var(--color-primary);
+}
+
 @media (min-width: 768px) {
   .cohort-intro {
     font-size: 1.0625rem;

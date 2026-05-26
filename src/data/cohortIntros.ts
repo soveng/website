@@ -1,6 +1,10 @@
 export interface CohortIntro {
   theme: string;
   paragraph: string;
+  leadLink?: {
+    label: string;
+    href: string;
+  };
 }
 
 export const cohortIntros: Record<string, CohortIntro> = {
@@ -16,8 +20,12 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-02': {
     theme: 'Opsec Friendly',
+    leadLink: {
+      label: 'True names are not required.',
+      href: 'https://dergigi.com/names',
+    },
     paragraph:
-      'True names are not required. This cohort shipped tools for privacy and operational security on Nostr and the open web — Cashu wallets, Nsite, TollGate, and commerce that does not depend on a platform knowing who you are.',
+      'This cohort shipped tools for privacy and operational security on Nostr and the open web — Cashu wallets, Nsite, TollGate, and commerce that does not depend on a platform knowing who you are.',
   },
   'SEC-03': {
     theme: 'Ecash',
