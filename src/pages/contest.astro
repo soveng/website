@@ -109,11 +109,13 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
       <section class="prize-marquee" aria-label="Contest prizes">
         {prizes.map((prize) => (
           <div class={`marquee-prize ${prize.tier}`}>
-            <div class="rank" aria-label={prize.place}>
-              <span class="rank-number">{prize.rank}</span>
-              <span class="rank-suffix">{prize.suffix}</span>
+            <div class="prize-label">
+              <div class="rank" aria-label={prize.place}>
+                <span class="rank-number">{prize.rank}</span>
+                <span class="rank-suffix">{prize.suffix}</span>
+              </div>
+              <span class="rank-cue">{prize.cue}</span>
             </div>
-            <span class="rank-cue">{prize.cue}</span>
             <strong>
               <span class="prize-amount">{prize.amount}</span>
               <span class="prize-unit">{prize.unit}</span>
@@ -377,35 +379,38 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   .marquee-prize {
     align-items: center;
     border-left: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
-    display: grid;
-    gap: 0.9rem;
-    grid-template-areas:
-      "rank cue"
-      "rank amount";
-    grid-template-columns: auto minmax(0, 1fr);
-    min-height: 7rem;
-    padding: 1.15rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+    justify-content: center;
+    min-height: 6.5rem;
+    padding: 1rem 0.75rem;
+    text-align: center;
   }
 
   .marquee-prize:first-child {
     border-left: 0;
   }
 
+  .prize-label {
+    align-items: baseline;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
   .rank {
     align-items: flex-start;
     color: var(--color-primary);
-    display: flex;
+    display: inline-flex;
     font-family: var(--font-secondary);
-    grid-area: rank;
-    min-width: 3.25rem;
+    line-height: 1;
   }
 
   .rank-cue {
-    align-self: end;
     color: var(--color-primary);
     font-family: var(--font-secondary);
-    font-size: 0.76rem;
-    grid-area: cue;
+    font-size: 0.72rem;
     letter-spacing: 0.16em;
     line-height: 1;
     text-transform: uppercase;
@@ -420,11 +425,11 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   }
 
   .marquee-prize.first .rank-number {
-    font-size: clamp(2.75rem, 3.4vw, 3.5rem);
+    font-size: clamp(1.85rem, 2.3vw, 2.35rem);
   }
 
   .marquee-prize.first .prize-amount {
-    font-size: clamp(2.25rem, 3.2vw, 3.1rem);
+    font-size: clamp(2.1rem, 2.8vw, 2.85rem);
   }
 
   .marquee-prize.second {
@@ -436,7 +441,7 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   }
 
   .marquee-prize.second .rank-number {
-    font-size: clamp(2.5rem, 3.1vw, 3.2rem);
+    font-size: clamp(1.75rem, 2.15vw, 2.2rem);
   }
 
   .marquee-prize.third {
@@ -448,37 +453,36 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   }
 
   .marquee-prize.third .rank-number {
-    font-size: clamp(2.25rem, 2.85vw, 3rem);
+    font-size: clamp(1.65rem, 2vw, 2.05rem);
   }
 
   .rank-number {
-    font-size: clamp(2.4rem, 3vw, 3.25rem);
-    line-height: 0.72;
+    font-size: clamp(1.7rem, 2.1vw, 2.15rem);
+    line-height: 0.85;
   }
 
   .rank-suffix {
-    font-size: clamp(0.55rem, 0.65vw, 0.72rem);
-    letter-spacing: 0.16em;
+    font-size: clamp(0.5rem, 0.6vw, 0.62rem);
+    letter-spacing: 0.14em;
     line-height: 1;
-    margin-left: 0.12rem;
-    margin-top: 0.15rem;
+    margin-left: 0.08rem;
+    margin-top: 0.1rem;
     text-transform: uppercase;
   }
 
   .marquee-prize strong {
+    align-items: center;
     color: var(--color-text);
     display: flex;
     flex-direction: column;
     font-weight: 700;
-    gap: 0.2rem;
-    grid-area: amount;
+    gap: 0.15rem;
     line-height: 1;
-    min-width: 0;
   }
 
   .prize-amount {
     display: block;
-    font-size: clamp(1.85rem, 2.4vw, 2.5rem);
+    font-size: clamp(1.65rem, 2.1vw, 2.2rem);
   }
 
   .prize-unit {
