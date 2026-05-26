@@ -49,18 +49,38 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
         <h1 class="projects-display projects-headline text-5xl text-white sm:text-6xl">{cohort}</h1>
         {intro && (
           <p class="cohort-intro projects-body">
-            {intro.leadLink && (
-              <a
-                href={intro.leadLink.href}
-                class="cohort-intro-link"
-                {...(intro.leadLink.href.startsWith('http')
-                  ? { target: '_blank', rel: 'noopener noreferrer' }
-                  : {})}
-              >
-                {intro.leadLink.label}
-              </a>
-            )}
-            {intro.leadLink ? ` ${intro.paragraph}` : intro.paragraph}
+            {intro.body
+              ? intro.body.map((segment) =>
+                  segment.type === 'link' ? (
+                    <a
+                      href={segment.href}
+                      class="cohort-intro-link"
+                      {...(segment.href.startsWith('http')
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                    >
+                      {segment.text}
+                    </a>
+                  ) : (
+                    segment.text
+                  ),
+                )
+              : (
+                <>
+                  {intro.leadLink && (
+                    <a
+                      href={intro.leadLink.href}
+                      class="cohort-intro-link"
+                      {...(intro.leadLink.href.startsWith('http')
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                    >
+                      {intro.leadLink.label}
+                    </a>
+                  )}
+                  {intro.leadLink ? ` ${intro.paragraph}` : intro.paragraph}
+                </>
+              )}
           </p>
         )}
       </div>

@@ -1,10 +1,25 @@
+export type CohortIntroSegment =
+  | { type: 'text'; text: string }
+  | { type: 'link'; text: string; href: string };
+
 export interface CohortIntro {
   theme: string;
-  paragraph: string;
+  paragraph?: string;
   leadLink?: {
     label: string;
     href: string;
   };
+  body?: CohortIntroSegment[];
+}
+
+export function cohortIntroPlainText(intro: CohortIntro): string {
+  if (intro.body) {
+    return intro.body.map((segment) => segment.text).join('');
+  }
+
+  const lead = intro.leadLink?.label ?? '';
+  const rest = intro.paragraph ?? '';
+  return lead ? `${lead} ${rest}` : rest;
 }
 
 export const cohortIntros: Record<string, CohortIntro> = {
@@ -29,8 +44,14 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-03': {
     theme: 'Ecash',
-    paragraph:
-      'Before Bitcoin, ecash was a dream deferred. SEC-03 deepened Cashu tooling, wallet UX, and the infrastructure that turns bearer assets plus nostr into applications people can actually run.',
+    body: [
+      { type: 'text', text: 'Before Bitcoin, ' },
+      { type: 'link', text: 'ecash', href: 'https://opensats.org/topics/ecash' },
+      {
+        type: 'text',
+        text: ' was a dream deferred. SEC-03 deepened Cashu tooling, wallet UX, and the infrastructure that turns bearer assets plus nostr into applications people can actually run.',
+      },
+    ],
   },
   'SEC-04': {
     theme: 'Trilemmas',
