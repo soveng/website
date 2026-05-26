@@ -30,7 +30,7 @@ const npubCash = requireProject('npub.cash');
 const wikifreedia = requireProject('NIP-54: Wiki / Wikifreedia');
 const nsite = requireProject('Nsite');
 const tollgate = requireProject('Tollgate');
-const learnFips = requireProject('Learn FIPS');
+const fipsPrototype = requireProject('FIPs');
 const nip60 = requireProject('NIP-60');
 const nip61 = requireProject('NIP-61');
 
@@ -101,8 +101,8 @@ const projectHighlights: ProjectHighlight[] = [
   },
   {
     title: 'FIPS',
-    eyebrow: 'Multi-cohort',
-    href: getProjectArchiveHref(learnFips),
+    eyebrow: fipsPrototype.cohort,
+    href: getProjectArchiveHref(fipsPrototype),
     variant: 'standard',
     description: 'Mesh routing, service discovery, and tooling for a sovereign peer-to-peer network kept compounding across cohorts.',
     logo: '/images/showcase/fips-logo.png',
