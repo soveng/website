@@ -340,22 +340,10 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     grid-template-columns: auto minmax(0, 1fr);
     min-height: 8.9rem;
     padding: 1.15rem 1.35rem;
-    position: relative;
   }
 
   .marquee-prize:first-child {
     border-left: 0;
-  }
-
-  .marquee-prize::after {
-    background: linear-gradient(90deg, var(--color-primary), transparent);
-    bottom: 1.05rem;
-    content: "";
-    height: 2px;
-    left: 1.35rem;
-    opacity: 0.7;
-    position: absolute;
-    right: 1.35rem;
   }
 
   .rank {
@@ -441,8 +429,6 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     grid-area: amount;
     line-height: 1;
     min-width: 0;
-    position: relative;
-    z-index: 1;
   }
 
   .prize-amount {
