@@ -1,6 +1,6 @@
 ---
 import type { ProjectHighlight } from '@/data/projectHighlights';
-import ProjectHighlightExternalLink from '@/layouts/components/ProjectHighlightExternalLink.astro';
+import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
 
 interface Props {
   highlight: ProjectHighlight;
@@ -25,7 +25,7 @@ const imageAlt = highlight.imageAlt ?? `${highlight.title} wireframe illustratio
         <h3 class="highlight-spotlight-title projects-display">{highlight.title}</h3>
       </a>
       {highlight.externalUrl && (
-        <ProjectHighlightExternalLink href={highlight.externalUrl} label={highlight.title} />
+        <ProjectExternalLink href={highlight.externalUrl} label={highlight.title} />
       )}
     </div>
     <a href={highlight.href} class="highlight-spotlight-desc-link">

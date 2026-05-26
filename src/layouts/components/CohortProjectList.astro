@@ -2,6 +2,7 @@
 import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
+import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
 import ProjectHighlightMark from '@/layouts/components/ProjectHighlightMark.astro';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
 
@@ -98,18 +99,8 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
               <p class="cohort-project-desc projects-body">{project.description}</p>
               {links.length > 0 && (
                 <div class="cohort-project-links">
-                  {links.map((link: ProjectLink, linkIndex: number) => (
-                    <span class="cohort-project-link-item">
-                      {linkIndex > 0 && <span class="cohort-link-sep" aria-hidden="true">·</span>}
-                      <a
-                        href={link.href}
-                        class="projects-link projects-link--muted"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {link.label}
-                      </a>
-                    </span>
+                  {links.map((link: ProjectLink) => (
+                    <ProjectExternalLink href={link.href} label={link.label} />
                   ))}
                 </div>
               )}

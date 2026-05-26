@@ -1,6 +1,6 @@
 ---
 import type { ProjectHighlight } from '@/data/projectHighlights';
-import ProjectHighlightExternalLink from '@/layouts/components/ProjectHighlightExternalLink.astro';
+import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
 
 interface Props {
@@ -29,7 +29,7 @@ const { highlight } = Astro.props;
   <div class="highlight-row-aside">
     <a href={highlight.href} class="highlight-row-meta">{highlight.eyebrow}</a>
     {highlight.externalUrl && (
-      <ProjectHighlightExternalLink href={highlight.externalUrl} label={highlight.title} />
+      <ProjectExternalLink href={highlight.externalUrl} label={highlight.title} />
     )}
   </div>
 </article>
