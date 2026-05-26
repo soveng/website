@@ -270,6 +270,13 @@
   }
 }
 
+.projects-podcast-cta {
+  margin-top: 4rem;
+  max-width: 40rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgb(255 255 255 / 10%);
+}
+
 .projects-archive-group-label {
   margin-bottom: 1rem;
   font-size: 0.75rem;
