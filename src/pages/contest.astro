@@ -9,14 +9,13 @@ const prizes = [
 ];
 const contestDetails = [
   { label: "Deadline", value: "15 June 2026" },
-  { label: "Submit", value: "Post on Nostr and tag @SovereignEngineering or #SovEng" },
+  { label: "Submit", linked: true },
   { label: "Theme", value: "Open — fun, serious, weird, whatever you want" },
 ];
 const requirements = [
   "Print-friendly: bold shapes, max 4 colors, avoid spaghetti detail.",
   "Show both front and back design of the T-shirt.",
   "Keep editable source files around",
-  "Post on Nostr and tag @SovereignEngineering or #SovEng",
 ];
 const sec08Url =
   "https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6";
@@ -76,7 +75,17 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
             {contestDetails.map((detail) => (
               <tr>
                 <th scope="row">{detail.label}</th>
-                <td>{detail.value}</td>
+                <td>
+                  {detail.linked ? (
+                    <>
+                      Post on Nostr, use{" "}
+                      <a href={sovEngUrl} target="_blank" rel="noopener noreferrer">#SovEng</a> or{" "}
+                      <a href={sovereignEngineeringUrl} target="_blank" rel="noopener noreferrer">tag us</a>
+                    </>
+                  ) : (
+                    detail.value
+                  )}
+                </td>
               </tr>
             ))}
           </tbody>
@@ -110,6 +119,10 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
         <h2 id="requirements-heading">Requirements</h2>
         <ul>
           {requirements.map((requirement) => <li>{requirement}</li>)}
+          <li>
+            Post on Nostr, use <a href={sovEngUrl} target="_blank" rel="noopener noreferrer">#SovEng</a> or{" "}
+            <a href={sovereignEngineeringUrl} target="_blank" rel="noopener noreferrer">tag us</a>
+          </li>
         </ul>
       </section>
     </section>
@@ -233,7 +246,9 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     text-align-last: left;
   }
 
-  .contest-copy a {
+  .contest-copy a,
+  .details a,
+  .requirements a {
     color: var(--color-text);
     font-weight: 700;
     text-decoration: underline;
@@ -242,7 +257,9 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     text-underline-offset: 0.18em;
   }
 
-  .contest-copy a:hover {
+  .contest-copy a:hover,
+  .details a:hover,
+  .requirements a:hover {
     color: var(--color-primary);
   }
 
