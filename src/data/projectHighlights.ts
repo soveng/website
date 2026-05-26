@@ -15,6 +15,7 @@ export interface ProjectHighlight {
   image?: string;
   imageAlt?: string;
   logo?: string;
+  icon?: string;
   variant?: ProjectHighlightVariant;
   links: ProjectHighlightLink[];
 }
@@ -145,7 +146,7 @@ const projectHighlights: ProjectHighlight[] = [
     eyebrow: nsite.cohort,
     variant: 'standard',
     description: 'Static websites published through Nostr and Blossom, turning the protocol into a deployment surface.',
-    logo: nsite.logo,
+    icon: nsite.icon ?? 'cloud-arrow-up',
     links: [
       {
         href: nsite.link,

@@ -1,5 +1,6 @@
 ---
 import type { ProjectHighlight } from '@/data/projectHighlights';
+import ProjectMark from '@/layouts/components/ProjectMark.astro';
 
 interface Props {
   highlight: ProjectHighlight;
@@ -24,8 +25,13 @@ const isExternal = primary.external ?? primary.href.startsWith('http');
       loading="lazy"
       decoding="async"
     />
-  ) : highlight.logo ? (
-    <img class="highlight-row-logo" src={highlight.logo} alt="" loading="lazy" decoding="async" />
+  ) : highlight.icon || highlight.logo ? (
+    <ProjectMark
+      name={highlight.title}
+      icon={highlight.icon}
+      logo={highlight.logo}
+      class="highlight-row-mark"
+    />
   ) : null}
   <span class="highlight-row-title projects-display">{highlight.title}</span>
   <span class="highlight-row-desc projects-body">{highlight.description}</span>

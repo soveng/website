@@ -12,6 +12,7 @@ export interface ShowcaseProject {
   link: string;
   linkText: string;
   logo?: string;
+  icon?: string;
   highlight?: boolean;
   showOnLanding?: boolean;
   extraLinks?: ExtraLink[];

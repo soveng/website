@@ -204,22 +204,34 @@
 }
 
 .highlight-row-thumb,
-.highlight-row-logo {
+.highlight-row-mark {
   grid-row: span 2;
   width: 2.75rem;
   height: 2.75rem;
+}
+
+.highlight-row-thumb {
   object-fit: cover;
   background: #0a0a0a;
 }
 
-.highlight-row-logo {
+.highlight-row-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: rgb(255 255 255 / 65%);
+}
+
+.highlight-row-mark img {
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  padding: 0.25rem;
 }
 
 @media (min-width: 768px) {
   .highlight-row-thumb,
-  .highlight-row-logo {
+  .highlight-row-mark {
     grid-row: auto;
   }
 }

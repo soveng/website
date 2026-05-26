@@ -264,3 +264,16 @@
 .book-links {
   @apply flex flex-col space-y-2;
 }
+
+.cohort-project-mark {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.cohort-project-mark .fa-solid {
+  font-size: 1.75rem;
+  color: rgb(255 255 255 / 65%);
+}

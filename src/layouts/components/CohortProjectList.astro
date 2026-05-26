@@ -1,6 +1,7 @@
 ---
 import type { ShowcaseProject } from "@/lib/showcase";
 import { slugifyProjectName } from "@/lib/showcase";
+import ProjectMark from "@/layouts/components/ProjectMark.astro";
 
 interface Props {
   cohort: string;
@@ -53,11 +54,12 @@ const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ?
           class="grid gap-4 border-b border-white/12 py-6 md:grid-cols-[3fr_1fr] md:gap-8"
         >
           <div class="flex items-start gap-4">
-            {project.logo && (
-              <div class="flex-shrink-0">
-                <img
-                  src={project.logo}
-                  alt={`${project.name} logo`}
+            {(project.icon || project.logo) && (
+              <div class="cohort-project-mark flex-shrink-0">
+                <ProjectMark
+                  name={project.name}
+                  icon={project.icon}
+                  logo={project.logo}
                   class="cohort-logo h-12 w-12 object-contain"
                 />
               </div>
