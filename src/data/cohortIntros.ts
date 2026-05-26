@@ -74,8 +74,14 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-07': {
     theme: 'Networks & Hardware',
-    paragraph:
-      'SEC-07 was built around FIPS, the mesh stack that kept compounding after SEC-05. Friday demos covered mesh routing, peer discovery, radios, and clients that run on links you control.',
+    body: [
+      { type: 'text', text: 'SEC-07 was built around ' },
+      { type: 'link', text: 'FIPS', href: 'https://fips.network/' },
+      {
+        type: 'text',
+        text: ', the mesh stack that kept compounding after SEC-05. Friday demos covered mesh routing, peer discovery, radios, and clients that run on links you control.',
+      },
+    ],
   },
 };
 
