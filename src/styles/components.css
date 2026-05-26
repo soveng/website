@@ -306,3 +306,16 @@
   font-size: 1.75rem;
   color: rgb(255 255 255 / 65%);
 }
+
+.cohort-project--notable {
+  border-left: 2px solid color-mix(in srgb, var(--color-primary) 35%, transparent);
+  padding-left: 1rem;
+  margin-left: -1rem;
+}
+
+.cohort-project-notable-label {
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgb(255 255 255 / 38%);
+}

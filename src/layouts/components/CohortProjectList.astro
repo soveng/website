@@ -51,7 +51,10 @@ const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ?
       {projects.map((project: ShowcaseProject) => (
         <article
           id={slugifyProjectName(project.name)}
-          class="grid gap-4 border-b border-white/12 py-6 md:grid-cols-[3fr_1fr] md:gap-8"
+          class:list={[
+            'cohort-project grid gap-4 border-b border-white/12 py-6 md:grid-cols-[3fr_1fr] md:gap-8',
+            project.highlight && 'cohort-project--notable',
+          ]}
         >
           <div class="flex items-start gap-4">
             {(project.icon || project.logo) && (
@@ -60,12 +63,10 @@ const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ?
               </div>
             )}
             <div>
-              <div class="flex flex-wrap items-center gap-2">
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                 <h2 class="text-2xl text-white">{project.name}</h2>
                 {project.highlight && (
-                  <span class="border border-primary/45 px-2 py-0.5 text-[11px] uppercase tracking-[0.22em] text-primary">
-                    Highlight
-                  </span>
+                  <span class="cohort-project-notable-label">On /projects</span>
                 )}
               </div>
               <p class="mt-2 text-base leading-relaxed text-gray-300">
