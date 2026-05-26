@@ -20,7 +20,7 @@ const cohortNextPromos: Partial<Record<string, CohortNextPromo>> = {
     eyebrow: 'SEC-08',
     title: 'YOLO++',
     paragraph:
-      'Six weeks starting July 20. Bring something you want to ship and demo on Fridays. Fewer fixed themes than SEC-07, more room to chase an idea.',
+      'July 20. Six weeks. Pick a project, ship it every Friday. YOLO++ is the loose cohort: less homework, more room to build what you actually want running.',
     applyLabel: 'Apply for SEC-08',
   },
 };

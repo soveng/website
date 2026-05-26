@@ -26,12 +26,12 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-00': {
     theme: 'Genesis',
     paragraph:
-      'The idea started in Madeira: bring builders together, walk, talk, and ship on Fridays. This archive holds the first demos — Highlighter, Lightning Prisms, and Data Vending Machines — from that original spark.',
+      'Madeira, 2023: walk, talk, ship on Fridays. Highlighter, Lightning Prisms, and Data Vending Machines were the first demos in this archive.',
   },
   'SEC-01': {
     theme: 'The Beginning',
     paragraph:
-      'Every cohort here starts with an idea and the will to build. SEC-01 was the first full six-week run: twenty-one participants shipping every Friday, from Blossom and Zapstore to Wikifreedia and npub.cash. The demos below are what “start ugly” looks like in public.',
+      'SEC-01 ran six weeks with twenty-one builders demoing every Friday. Blossom, Zapstore, Wikifreedia, npub.cash, and the rest below.',
   },
   'SEC-02': {
     theme: 'Opsec Friendly',
@@ -40,7 +40,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       href: 'https://dergigi.com/names',
     },
     paragraph:
-      'This cohort shipped tools for privacy and operational security on Nostr and the open web — Cashu wallets, Nsite, TollGate, and commerce that does not depend on a platform knowing who you are.',
+      'Cashu wallets, Nsite, TollGate, Shopstr, and other tools for staying private on Nostr and the open web.',
   },
   'SEC-03': {
     theme: 'Ecash',
@@ -49,7 +49,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       { type: 'link', text: 'ecash', href: 'https://opensats.org/topics/ecash' },
       {
         type: 'text',
-        text: ' was a dream deferred. SEC-03 deepened Cashu tooling, wallet UX, and the infrastructure that turns bearer assets plus nostr into applications people can actually run.',
+        text: ' was mostly slides and papers. SEC-03 shipped Cashu wallets, wallet UX, and nostr apps that move bearer sats.',
       },
     ],
   },
@@ -60,14 +60,14 @@ export const cohortIntros: Record<string, CohortIntro> = {
       { type: 'link', text: 'no perfect solutions, only trade-offs.', href: '/podcast' },
       {
         type: 'text',
-        text: ' SEC-04 shipped thirty-four Friday demos. Relays, payments, browsers, castr.me, gitworkshop, and the rest of the list below.',
+        text: ' SEC-04 shipped thirty-four Friday demos. Relays, payments, browsers, castr.me, gitworkshop, and more below.',
       },
     ],
   },
   'SEC-05': {
     theme: 'YOLO Mode',
     paragraph:
-      'SEC-05 set a cohort record with forty-one shipped projects. Relays, mining, browsers, AI tools, and other experiments from the list below.',
+      'Forty-one Friday demos, still the cohort record. Relays, mining, browsers, Marmot Chat, hashpool, and the long tail below.',
   },
   'SEC-06': {
     theme: 'Identity & Signers',
@@ -81,7 +81,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       { type: 'link', text: 'FIPS', href: 'https://fips.network/' },
       {
         type: 'text',
-        text: ', the mesh stack that kept compounding after SEC-05. Friday demos covered mesh routing, peer discovery, radios, and clients that run on links you control.',
+        text: ', the mesh stack that grew out of SEC-05. Mesh routing, peer discovery, radios, LoRa tests, and clients that talk FIPS on the wire.',
       },
     ],
   },
