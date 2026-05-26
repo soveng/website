@@ -2,6 +2,7 @@
 import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
+import ProjectHighlightMark from '@/layouts/components/ProjectHighlightMark.astro';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
 
 interface Props {
@@ -69,10 +70,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
         const links = projectLinks(project);
 
         return (
-          <article
-            id={slugifyProjectName(project.name)}
-            class:list={['cohort-project', project.highlight && 'cohort-project--notable']}
-          >
+          <article id={slugifyProjectName(project.name)} class="cohort-project">
             {(project.icon || project.logo) && (
               <div class="cohort-project-mark">
                 <ProjectMark name={project.name} icon={project.icon} logo={project.logo} />
@@ -81,7 +79,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
             <div class="cohort-project-body">
               <div class="cohort-project-title-row">
                 <h2 class="cohort-project-title projects-display">{project.name}</h2>
-                {project.highlight && <span class="cohort-project-notable-label">On /projects</span>}
+                {project.highlight && <ProjectHighlightMark />}
               </div>
               <p class="cohort-project-desc projects-body">{project.description}</p>
               {links.length > 0 && (
