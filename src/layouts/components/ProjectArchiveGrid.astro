@@ -17,9 +17,9 @@ const groups = [
 
 {
   groups.map((group) => (
-    <div class:list={[group.label === 'Recent' && 'mb-10']}>
+    <div class:list={[group.label === 'Recent' && 'mb-12']}>
       <p class="projects-archive-group-label">{group.label}</p>
-      <div class="projects-archive-grid">
+      <div class="projects-archive-list">
         {group.summaries.map((summary: CohortSummary) => (
           <ProjectArchiveCard summary={summary} />
         ))}

@@ -38,8 +38,8 @@ const imageAlt = highlight.imageAlt ?? (highlight.image ? `${highlight.title} wi
     <span class="project-card-eyebrow">{highlight.eyebrow}</span>
 
     {highlight.logo && highlight.image && (
-      <div class="project-card-logo-badge">
-        <img src={highlight.logo} alt={`${highlight.title} logo`} loading="lazy" decoding="async" />
+      <div class="project-card-logo-float">
+        <img src={highlight.logo} alt="" loading="lazy" decoding="async" />
       </div>
     )}
   </div>
@@ -48,22 +48,26 @@ const imageAlt = highlight.imageAlt ?? (highlight.image ? `${highlight.title} wi
     <h3 class="project-card-title projects-display text-white">{highlight.title}</h3>
     <p class="projects-body mt-3 text-base leading-relaxed text-gray-300">{highlight.description}</p>
 
-    <div class="project-card-links">
+    <nav class="project-card-actions" aria-label={`${highlight.title} links`}>
       {highlight.links.map((link, linkIndex) => {
         const isExternal = link.external ?? link.href.startsWith('http');
         const isPrimary = linkIndex === 0;
 
         return (
-          <a
-            href={link.href}
-            class:list={[isPrimary ? 'btn-retro btn-retro-sm' : 'project-card-link-secondary']}
-            target={isExternal ? '_blank' : undefined}
-            rel={isExternal ? 'noopener noreferrer' : undefined}
-          >
-            {link.label}
-          </a>
+          <>
+            {linkIndex > 0 && <span class="project-link-sep" aria-hidden="true">·</span>}
+            <a
+              href={link.href}
+              class:list={['projects-link', !isPrimary && 'projects-link--muted']}
+              target={isExternal ? '_blank' : undefined}
+              rel={isExternal ? 'noopener noreferrer' : undefined}
+            >
+              {link.label}
+              {isExternal && <span aria-hidden="true"> ↗</span>}
+            </a>
+          </>
         );
       })}
-    </div>
+    </nav>
   </div>
 </article>
