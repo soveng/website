@@ -2,6 +2,7 @@
 import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
+import CohortPager from '@/layouts/components/CohortPager.astro';
 import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
 import ProjectHighlightMark from '@/layouts/components/ProjectHighlightMark.astro';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
@@ -84,20 +85,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
           </p>
         )}
       </div>
-      {(previousCohort || nextCohort) && (
-        <nav class="cohort-pager" aria-label="Other cohorts">
-          {previousCohort && (
-            <a href={`/projects/${previousCohort}`} class="projects-link projects-link--muted">
-              ← {previousCohort}
-            </a>
-          )}
-          {nextCohort && (
-            <a href={`/projects/${nextCohort}`} class="projects-link projects-link--muted">
-              {nextCohort} →
-            </a>
-          )}
-        </nav>
-      )}
+      <CohortPager previousCohort={previousCohort} nextCohort={nextCohort} />
     </header>
 
     <div class="cohort-project-list">
@@ -132,5 +120,11 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
         );
       })}
     </div>
+
+    <CohortPager
+      previousCohort={previousCohort}
+      nextCohort={nextCohort}
+      class="cohort-pager-footer"
+    />
   </div>
 </section>

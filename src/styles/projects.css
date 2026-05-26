@@ -514,6 +514,14 @@
   }
 }
 
+.cohort-pager-footer {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgb(255 255 255 / 10%);
+  justify-content: space-between;
+  width: 100%;
+}
+
 .cohort-pager-sep {
   color: rgb(255 255 255 / 25%);
 }

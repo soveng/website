@@ -1,0 +1,26 @@
+---
+interface Props {
+  previousCohort?: string;
+  nextCohort?: string;
+  class?: string;
+}
+
+const { previousCohort, nextCohort, class: className } = Astro.props;
+---
+
+{
+  (previousCohort || nextCohort) && (
+    <nav class:list={['cohort-pager', className]} aria-label="Other cohorts">
+      {previousCohort && (
+        <a href={`/projects/${previousCohort}`} class="projects-link projects-link--muted">
+          ← {previousCohort}
+        </a>
+      )}
+      {nextCohort && (
+        <a href={`/projects/${nextCohort}`} class="projects-link projects-link--muted">
+          {nextCohort} →
+        </a>
+      )}
+    </nav>
+  )
+}
