@@ -276,8 +276,9 @@
 
 .projects-separator img {
   display: block;
-  width: 100%;
+  width: min(100%, 36rem);
   height: auto;
+  margin: 0 auto;
 }
 
 .projects-podcast-cta {
