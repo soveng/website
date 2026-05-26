@@ -2,7 +2,6 @@
 import type { ProjectHighlight } from '@/data/projectHighlights';
 import ProjectHighlightRow from '@/layouts/components/ProjectHighlightRow.astro';
 import ProjectHighlightSpotlight from '@/layouts/components/ProjectHighlightSpotlight.astro';
-import { getCohortNumber } from '@/lib/showcase';
 
 interface Props {
   highlights: ProjectHighlight[];
@@ -10,9 +9,7 @@ interface Props {
 
 const { highlights } = Astro.props;
 const spotlight = highlights.filter((h) => h.variant === 'featured');
-const rows = highlights
-  .filter((h) => h.variant !== 'featured' && h.variant !== 'cta')
-  .sort((left, right) => getCohortNumber(right.eyebrow) - getCohortNumber(left.eyebrow));
+const rows = highlights.filter((h) => h.variant !== 'featured' && h.variant !== 'cta');
 ---
 
 <div class="project-highlights">
