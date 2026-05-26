@@ -55,12 +55,14 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-04': {
     theme: 'Trilemmas',
-    leadLink: {
-      label: 'There are no perfect solutions, only trade-offs.',
-      href: '/podcast',
-    },
-    paragraph:
-      'SEC-04 shipped thirty-four Friday demos. Relays, payments, browsers, castr.me, gitworkshop, and the rest of the list below.',
+    body: [
+      { type: 'text', text: 'There are ' },
+      { type: 'link', text: 'no perfect solutions, only trade-offs.', href: '/podcast' },
+      {
+        type: 'text',
+        text: ' SEC-04 shipped thirty-four Friday demos. Relays, payments, browsers, castr.me, gitworkshop, and the rest of the list below.',
+      },
+    ],
   },
   'SEC-05': {
     theme: 'YOLO Mode',
