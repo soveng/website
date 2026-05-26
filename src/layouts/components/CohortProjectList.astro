@@ -53,8 +53,9 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
               <a
                 href={intro.leadLink.href}
                 class="cohort-intro-link"
-                target="_blank"
-                rel="noopener noreferrer"
+                {...(intro.leadLink.href.startsWith('http')
+                  ? { target: '_blank', rel: 'noopener noreferrer' }
+                  : {})}
               >
                 {intro.leadLink.label}
               </a>

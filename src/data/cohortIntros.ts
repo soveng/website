@@ -34,8 +34,12 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-04': {
     theme: 'Trilemmas',
+    leadLink: {
+      label: 'There are no perfect solutions, only trade-offs.',
+      href: '/podcast',
+    },
     paragraph:
-      'There are no perfect solutions, only trade-offs. Thirty-four projects shipped in SEC-04 — relays, payments, browsers, developer tooling — each demo an explicit choice under real constraints.',
+      'Thirty-four projects shipped in SEC-04 — relays, payments, browsers, developer tooling — each demo an explicit choice under real constraints.',
   },
   'SEC-05': {
     theme: 'YOLO Mode',
