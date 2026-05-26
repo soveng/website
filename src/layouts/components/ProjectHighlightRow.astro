@@ -7,16 +7,9 @@ interface Props {
 }
 
 const { highlight } = Astro.props;
-const primary = highlight.links[0];
-const isExternal = primary.external ?? primary.href.startsWith('http');
 ---
 
-<a
-  href={primary.href}
-  class="highlight-row"
-  target={isExternal ? '_blank' : undefined}
-  rel={isExternal ? 'noopener noreferrer' : undefined}
->
+<a href={highlight.href} class="highlight-row">
   {highlight.image ? (
     <img
       class="highlight-row-thumb"

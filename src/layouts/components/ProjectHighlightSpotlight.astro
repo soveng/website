@@ -6,17 +6,10 @@ interface Props {
 }
 
 const { highlight } = Astro.props;
-const primary = highlight.links[0];
-const isExternal = primary.external ?? primary.href.startsWith('http');
 const imageAlt = highlight.imageAlt ?? `${highlight.title} wireframe illustration`;
 ---
 
-<a
-  href={primary.href}
-  class="highlight-spotlight"
-  target={isExternal ? '_blank' : undefined}
-  rel={isExternal ? 'noopener noreferrer' : undefined}
->
+<a href={highlight.href} class="highlight-spotlight">
   {highlight.image && (
     <div class="highlight-spotlight-media">
       <img src={highlight.image} alt={imageAlt} loading="lazy" decoding="async" />

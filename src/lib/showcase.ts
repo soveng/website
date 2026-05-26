@@ -75,6 +75,10 @@ export function slugifyProjectName(name: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
+export function getProjectArchiveHref(project: Pick<ShowcaseProject, 'cohort' | 'name'>): string {
+  return `/projects/${project.cohort}#${slugifyProjectName(project.name)}`;
+}
+
 function buildCohortSummary(cohort: string): CohortSummary {
   const projects = getProjectsForCohort(cohort);
   const landingProjects = getLandingProjectsForCohort(cohort);
