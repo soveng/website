@@ -1,7 +1,7 @@
 ---
-import type { ShowcaseProject } from "@/lib/showcase";
-import { slugifyProjectName } from "@/lib/showcase";
-import ProjectMark from "@/layouts/components/ProjectMark.astro";
+import type { ShowcaseProject } from '@/lib/showcase';
+import { slugifyProjectName } from '@/lib/showcase';
+import ProjectMark from '@/layouts/components/ProjectMark.astro';
 
 interface Props {
   cohort: string;
@@ -10,108 +10,95 @@ interface Props {
   nextCohort?: string;
 }
 
+interface ProjectLink {
+  href: string;
+  label: string;
+}
+
 const { cohort, projects, previousCohort, nextCohort } = Astro.props;
+
+function projectLinks(project: ShowcaseProject): ProjectLink[] {
+  const links: ProjectLink[] = [];
+
+  if (project.link && project.linkText) {
+    links.push({ href: project.link, label: project.linkText });
+  }
+
+  if (project.extraLinks) {
+    for (const extraLink of project.extraLinks) {
+      if (extraLink.link && extraLink.linkText) {
+        links.push({ href: extraLink.link, label: extraLink.linkText });
+      }
+    }
+  }
+
+  return links;
+}
 ---
 
-<section class="bg-black py-16 text-white sm:py-20">
-  <div class="container max-w-[960px]">
-    <a
-      href="/projects"
-      class="inline-flex items-center text-sm uppercase tracking-[0.22em] text-white/65 transition-colors hover:text-primary"
-    >
-      Back to highlights
-    </a>
+<section class="cohort-page bg-black pb-16 pt-20 text-white sm:pb-20 sm:pt-24">
+  <div class="container max-w-[1120px]">
+    <a href="/projects" class="projects-link projects-link--muted">← Projects</a>
 
-    <div class="mt-6 border-b border-white/15 pb-8">
-      <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
-        <div>
-          <h1
-            class="text-5xl text-white sm:text-6xl"
-            style="font-family: 'IM Fell Double Pica', Times, serif;"
+    <header class="cohort-header">
+      <h1 class="projects-display projects-headline text-5xl text-white sm:text-6xl">{cohort}</h1>
+      {(previousCohort || nextCohort) && (
+        <nav class="cohort-pager" aria-label="Other cohorts">
+          {previousCohort && (
+            <a href={`/projects/${previousCohort}`} class="projects-link projects-link--muted">
+              ← {previousCohort}
+            </a>
+          )}
+          {nextCohort && (
+            <a href={`/projects/${nextCohort}`} class="projects-link projects-link--muted">
+              {nextCohort} →
+            </a>
+          )}
+        </nav>
+      )}
+    </header>
+
+    <div class="cohort-project-list">
+      {projects.map((project: ShowcaseProject) => {
+        const links = projectLinks(project);
+
+        return (
+          <article
+            id={slugifyProjectName(project.name)}
+            class:list={['cohort-project', project.highlight && 'cohort-project--notable']}
           >
-            {cohort}
-          </h1>
-        </div>
-        <p class="max-w-xl text-sm leading-relaxed text-gray-400">
-          Every Friday, participants showed what they built. This page keeps the full cohort list while the main
-          <a href="/projects" class="text-primary transition-colors hover:text-white"> projects page</a>
-          now focuses on highlights.
-        </p>
-      </div>
-    </div>
-
-    <div class="mt-8 flex flex-col">
-      {projects.map((project: ShowcaseProject) => (
-        <article
-          id={slugifyProjectName(project.name)}
-          class:list={[
-            'cohort-project grid gap-4 border-b border-white/12 py-6 md:grid-cols-[3fr_1fr] md:gap-8',
-            project.highlight && 'cohort-project--notable',
-          ]}
-        >
-          <div class="flex items-start gap-4">
             {(project.icon || project.logo) && (
-              <div class="cohort-project-mark flex-shrink-0">
+              <div class="cohort-project-mark">
                 <ProjectMark name={project.name} icon={project.icon} logo={project.logo} />
               </div>
             )}
-            <div>
-              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                <h2 class="text-2xl text-white">{project.name}</h2>
-                {project.highlight && (
-                  <span class="cohort-project-notable-label">On /projects</span>
-                )}
+            <div class="cohort-project-body">
+              <div class="cohort-project-title-row">
+                <h2 class="cohort-project-title projects-display">{project.name}</h2>
+                {project.highlight && <span class="cohort-project-notable-label">On /projects</span>}
               </div>
-              <p class="mt-2 text-base leading-relaxed text-gray-300">
-                {project.description}
-              </p>
+              <p class="cohort-project-desc projects-body">{project.description}</p>
+              {links.length > 0 && (
+                <div class="cohort-project-links">
+                  {links.map((link: ProjectLink, linkIndex: number) => (
+                    <span class="cohort-project-link-item">
+                      {linkIndex > 0 && <span class="cohort-link-sep" aria-hidden="true">·</span>}
+                      <a
+                        href={link.href}
+                        class="projects-link projects-link--muted"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {link.label}
+                      </a>
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
-          </div>
-          <div class="flex flex-col gap-2 text-sm md:text-base">
-            <a
-              href={project.link}
-              class="break-all text-white transition-colors hover:text-primary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {project.linkText}
-            </a>
-            {project.extraLinks && project.extraLinks.map((extraLink) => (
-              <a
-                href={extraLink.link}
-                class="break-all text-sm text-white/75 transition-colors hover:text-primary"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {extraLink.linkText}
-              </a>
-            ))}
-          </div>
-        </article>
-      ))}
-    </div>
-
-    <div class="mt-10 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-      <div>
-        {previousCohort && (
-          <a
-            href={`/projects/${previousCohort}`}
-            class="inline-flex items-center border border-white/15 px-4 py-2 text-sm text-white transition-colors hover:border-primary hover:text-primary"
-          >
-            {previousCohort}
-          </a>
-        )}
-      </div>
-      <div>
-        {nextCohort && (
-          <a
-            href={`/projects/${nextCohort}`}
-            class="inline-flex items-center border border-white/15 px-4 py-2 text-sm text-white transition-colors hover:border-primary hover:text-primary"
-          >
-            {nextCohort}
-          </a>
-        )}
-      </div>
+          </article>
+        );
+      })}
     </div>
   </div>
 </section>
