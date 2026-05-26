@@ -1,6 +1,5 @@
 ---
 import { getCohortForwardLink } from '@/data/cohortCtas';
-import CohortNextPromo from '@/layouts/components/CohortNextPromo.astro';
 import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
@@ -137,6 +136,5 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
       class="cohort-pager-footer"
     />
 
-    <CohortNextPromo cohort={cohort} />
   </div>
 </section>
