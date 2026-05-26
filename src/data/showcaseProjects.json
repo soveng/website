@@ -887,10 +887,16 @@
     "name": "FIPs",
     "description": "Fuck IPs using bloom filters",
     "cohort": "SEC-05",
-    "link": "https://gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
-    "linkText": "gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
+    "link": "https://fips.network/",
+    "linkText": "fips.network",
     "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
+        "linkText": "gitworkshop.dev/arjen@swissdash.site/fips-poc-sec"
+      }
+    ]
   },
   {
     "name": "Frontier Browser",
