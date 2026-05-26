@@ -146,7 +146,7 @@ const projectHighlights: ProjectHighlight[] = [
     eyebrow: nsite.cohort,
     variant: 'standard',
     description: 'Static websites published through Nostr and Blossom, turning the protocol into a deployment surface.',
-    icon: nsite.icon ?? 'cloud-arrow-up',
+    logo: nsite.logo,
     links: [
       {
         href: nsite.link,
