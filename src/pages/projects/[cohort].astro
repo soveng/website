@@ -23,13 +23,13 @@ export function getStaticPaths() {
 const { cohort, projects, previousCohort, nextCohort } = Astro.props;
 const intro = getCohortIntro(cohort);
 const pageDescription = intro
-  ? `${cohort}: ${intro.theme}. ${intro.paragraph}`
+  ? `${cohort}. ${intro.paragraph}`
   : `Browse ${projects.length} demo day projects from ${cohort} at Sovereign Engineering.`;
 ---
 
 <Base
   title={`${cohort} Demo Day Projects`}
-  meta_title={`${cohort}${intro ? `: ${intro.theme}` : ''} Demo Day Projects`}
+  meta_title={`${cohort} Demo Day Projects`}
   description={pageDescription}
   showCallToAction={false}
 >

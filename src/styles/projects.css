@@ -474,20 +474,6 @@
   min-width: 0;
 }
 
-.cohort-theme {
-  margin-top: 0.35rem;
-  font-size: 1.5rem;
-  line-height: 1.2;
-  color: rgb(255 255 255 / 52%);
-  text-transform: none;
-}
-
-@media (min-width: 768px) {
-  .cohort-theme {
-    font-size: 1.75rem;
-  }
-}
-
 .cohort-intro {
   margin-top: 1rem;
   max-width: 40rem;
