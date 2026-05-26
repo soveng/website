@@ -13,11 +13,6 @@
       "url": "/#how"
     },
     {
-      "name": "Contest",
-      "url": "/contest",
-      "featured": true
-    },
-    {
       "name": "More",
       "url": "",
       "hasChildren": true,
