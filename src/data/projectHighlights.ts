@@ -183,25 +183,6 @@ const projectHighlights: ProjectHighlight[] = [
       },
     ],
   },
-  {
-    title: 'Nostr and more',
-    eyebrow: 'Every cohort',
-    variant: 'cta',
-    description: 'The archive runs deeper than the headline projects. Browse each cohort and see what shipped on demo day.',
-    image: '/images/project-highlights/nostr-wireframe.png',
-    imageAlt: 'Wireframe illustration of the Nostr network',
-    logo: '/images/showcase/nostr-logo.png',
-    links: [
-      {
-        href: '#project-archives',
-        label: 'Browse the archive',
-      },
-      {
-        href: '/projects/SEC-07',
-        label: 'Latest cohort',
-      },
-    ],
-  },
 ];
 
 export default projectHighlights;

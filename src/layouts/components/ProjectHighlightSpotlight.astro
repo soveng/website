@@ -1,0 +1,30 @@
+---
+import type { ProjectHighlight } from '@/data/projectHighlights';
+
+interface Props {
+  highlight: ProjectHighlight;
+}
+
+const { highlight } = Astro.props;
+const primary = highlight.links[0];
+const isExternal = primary.external ?? primary.href.startsWith('http');
+const imageAlt = highlight.imageAlt ?? `${highlight.title} wireframe illustration`;
+---
+
+<a
+  href={primary.href}
+  class="highlight-spotlight"
+  target={isExternal ? '_blank' : undefined}
+  rel={isExternal ? 'noopener noreferrer' : undefined}
+>
+  {highlight.image && (
+    <div class="highlight-spotlight-media">
+      <img src={highlight.image} alt={imageAlt} loading="lazy" decoding="async" />
+    </div>
+  )}
+  <div class="highlight-spotlight-body">
+    <p class="highlight-spotlight-meta">{highlight.eyebrow}</p>
+    <h3 class="highlight-spotlight-title projects-display">{highlight.title}</h3>
+    <p class="highlight-spotlight-desc projects-body">{highlight.description}</p>
+  </div>
+</a>

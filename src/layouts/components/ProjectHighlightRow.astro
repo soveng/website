@@ -1,0 +1,33 @@
+---
+import type { ProjectHighlight } from '@/data/projectHighlights';
+
+interface Props {
+  highlight: ProjectHighlight;
+}
+
+const { highlight } = Astro.props;
+const primary = highlight.links[0];
+const isExternal = primary.external ?? primary.href.startsWith('http');
+---
+
+<a
+  href={primary.href}
+  class="highlight-row"
+  target={isExternal ? '_blank' : undefined}
+  rel={isExternal ? 'noopener noreferrer' : undefined}
+>
+  {highlight.image ? (
+    <img
+      class="highlight-row-thumb"
+      src={highlight.image}
+      alt=""
+      loading="lazy"
+      decoding="async"
+    />
+  ) : highlight.logo ? (
+    <img class="highlight-row-logo" src={highlight.logo} alt="" loading="lazy" decoding="async" />
+  ) : null}
+  <span class="highlight-row-title projects-display">{highlight.title}</span>
+  <span class="highlight-row-desc projects-body">{highlight.description}</span>
+  <span class="highlight-row-meta">{highlight.eyebrow}</span>
+</a>

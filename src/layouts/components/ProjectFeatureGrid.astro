@@ -1,16 +1,31 @@
 ---
 import type { ProjectHighlight } from '@/data/projectHighlights';
-import ProjectHighlightCard from '@/layouts/components/ProjectHighlightCard.astro';
+import ProjectHighlightRow from '@/layouts/components/ProjectHighlightRow.astro';
+import ProjectHighlightSpotlight from '@/layouts/components/ProjectHighlightSpotlight.astro';
 
 interface Props {
   highlights: ProjectHighlight[];
 }
 
 const { highlights } = Astro.props;
+const spotlight = highlights.filter((h) => h.variant === 'featured');
+const rows = highlights.filter((h) => h.variant !== 'featured' && h.variant !== 'cta');
 ---
 
-<div class="project-highlights-grid">
-  {highlights.map((highlight: ProjectHighlight, index: number) => (
-    <ProjectHighlightCard highlight={highlight} index={index} />
-  ))}
+<div class="project-highlights">
+  {spotlight.length > 0 && (
+    <div class="highlight-spotlight-grid">
+      {spotlight.map((highlight: ProjectHighlight) => (
+        <ProjectHighlightSpotlight highlight={highlight} />
+      ))}
+    </div>
+  )}
+
+  {rows.length > 0 && (
+    <div class="highlight-row-list">
+      {rows.map((highlight: ProjectHighlight) => (
+        <ProjectHighlightRow highlight={highlight} />
+      ))}
+    </div>
+  )}
 </div>
