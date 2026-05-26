@@ -75,7 +75,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-07': {
     theme: 'Networks & Hardware',
     paragraph:
-      'Protocols need machines, cables, radios, and someone willing to reboot the node at 2 a.m. SEC-07 shipped that work: relays, mesh links, and hardware demos from the list below.',
+      'SEC-07 was built around FIPS, the mesh stack that kept compounding after SEC-05. Friday demos covered mesh routing, peer discovery, radios, and clients that run on links you control.',
   },
 };
 
