@@ -26,7 +26,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-00': {
     theme: 'Genesis',
     paragraph:
-      'Madeira, 2023. Sovereign Engineering started as walks along the levadas, long conversations, and a simple rule: show something every Friday. Only three demos shipped in SEC-00, but they set the pattern. Highlighter put book quotes on Nostr. Lightning Prisms explored zaps through prisms. Data Vending Machines asked what a paid API on nostr could look like. Small starts, archived here.',
+      'Madeira, 2023. SEC-00 predates the organized cohorts. It was Gigi and Pablo on the levadas, building what interested them that week. Three projects made it into this archive. Highlighter put book quotes on Nostr. Lightning Prisms explored zaps through prisms. Data Vending Machines asked what a paid API on nostr could look like. SEC-01 brought the six-week program; this page is the earlier scratch work.',
   },
   'SEC-01': {
     theme: 'The Beginning',
