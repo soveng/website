@@ -606,7 +606,7 @@
     "description": "Transport method announcement. A way for services to decouple from a single network or protocol.",
     "cohort": "SEC-04",
     "link": "https://github.com/nostr-protocol/nips/pull/1585",
-    "linkText": "github.com",
+    "linkText": "NIPS PR#1585",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
