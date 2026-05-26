@@ -56,12 +56,7 @@ const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ?
           <div class="flex items-start gap-4">
             {(project.icon || project.logo) && (
               <div class="cohort-project-mark flex-shrink-0">
-                <ProjectMark
-                  name={project.name}
-                  icon={project.icon}
-                  logo={project.logo}
-                  class="cohort-logo h-12 w-12 object-contain"
-                />
+                <ProjectMark name={project.name} icon={project.icon} logo={project.logo} />
               </div>
             )}
             <div>

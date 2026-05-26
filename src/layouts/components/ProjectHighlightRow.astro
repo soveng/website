@@ -26,12 +26,7 @@ const isExternal = primary.external ?? primary.href.startsWith('http');
       decoding="async"
     />
   ) : highlight.icon || highlight.logo ? (
-    <ProjectMark
-      name={highlight.title}
-      icon={highlight.icon}
-      logo={highlight.logo}
-      class="highlight-row-mark"
-    />
+    <ProjectMark name={highlight.title} icon={highlight.icon} logo={highlight.logo} />
   ) : null}
   <span class="highlight-row-title projects-display">{highlight.title}</span>
   <span class="highlight-row-desc projects-body">{highlight.description}</span>

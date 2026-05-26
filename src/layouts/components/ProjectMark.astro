@@ -12,8 +12,12 @@ const iconClass = icon ? `fa-solid fa-${icon}` : undefined;
 
 {
   iconClass ? (
-    <i class:list={[iconClass, className]} aria-hidden="true"></i>
+    <span class:list={['project-mark', className]} aria-hidden="true">
+      <i class={iconClass}></i>
+    </span>
   ) : logo ? (
-    <img src={logo} alt={`${name} logo`} class={className} loading="lazy" decoding="async" />
+    <span class:list={['project-mark', className]} aria-hidden="true">
+      <img src={logo} alt={`${name} logo`} class="project-mark__img" loading="lazy" decoding="async" />
+    </span>
   ) : null
 }
