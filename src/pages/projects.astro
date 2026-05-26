@@ -9,8 +9,10 @@ import { getCohortSummaries } from '@/lib/showcase';
 import '@/styles/projects.css';
 
 const cohortSummaries = getCohortSummaries({ order: 'desc' });
-const recentSummaries = cohortSummaries.slice(0, 3);
-const earlierSummaries = cohortSummaries.slice(3);
+const originSummaries = cohortSummaries.filter((summary) => summary.cohort === 'SEC-00');
+const numberedCohorts = cohortSummaries.filter((summary) => summary.cohort !== 'SEC-00');
+const recentSummaries = numberedCohorts.slice(0, 3);
+const earlierSummaries = numberedCohorts.slice(3);
 ---
 
 <Base
@@ -39,7 +41,11 @@ const earlierSummaries = cohortSummaries.slice(3);
           description="Open a cohort archive to browse the full demo day roster, from the latest SEC cohorts back to SEC-01."
         />
 
-        <ProjectArchiveGrid recentSummaries={recentSummaries} earlierSummaries={earlierSummaries} />
+        <ProjectArchiveGrid
+          recentSummaries={recentSummaries}
+          earlierSummaries={earlierSummaries}
+          originSummaries={originSummaries}
+        />
       </div>
     </section>
   </div>

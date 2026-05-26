@@ -5,19 +5,21 @@ import ProjectArchiveCard from '@/layouts/components/ProjectArchiveCard.astro';
 interface Props {
   recentSummaries: CohortSummary[];
   earlierSummaries: CohortSummary[];
+  originSummaries: CohortSummary[];
 }
 
-const { recentSummaries, earlierSummaries } = Astro.props;
+const { recentSummaries, earlierSummaries, originSummaries } = Astro.props;
 
 const groups = [
   { label: 'Recent', summaries: recentSummaries },
   { label: 'Earlier', summaries: earlierSummaries },
+  { label: 'Origin', summaries: originSummaries },
 ].filter((group) => group.summaries.length > 0);
 ---
 
 {
-  groups.map((group) => (
-    <div class:list={[group.label === 'Recent' && 'mb-12']}>
+  groups.map((group, index) => (
+    <div class:list={[index < groups.length - 1 && 'mb-12']}>
       <p class="projects-archive-group-label">{group.label}</p>
       <div class="projects-archive-list">
         {group.summaries.map((summary: CohortSummary) => (
