@@ -31,6 +31,7 @@ function requireProject(name: string) {
 
 const blossom = requireProject('Blossom');
 const zapstore = requireProject('Zapstore');
+const npubCash = requireProject('npub.cash');
 const wikifreedia = requireProject('NIP-54: Wiki / Wikifreedia');
 const nsite = requireProject('Nsite');
 const tollgate = requireProject('Tollgate');
@@ -122,6 +123,20 @@ const projectHighlights: ProjectHighlight[] = [
       {
         href: `/projects/${wikifreedia.cohort}#${slugifyProjectName(wikifreedia.name)}`,
         label: `${wikifreedia.cohort} archive`,
+      },
+    ],
+  },
+  {
+    title: 'npub.cash',
+    eyebrow: npubCash.cohort,
+    variant: 'standard',
+    description: 'Nostr-native Lightning addresses for everyone, with Cashu eCash built in.',
+    logo: npubCash.logo,
+    links: [
+      {
+        href: npubCash.link,
+        label: npubCash.linkText,
+        external: true,
       },
     ],
   },
