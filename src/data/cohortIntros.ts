@@ -70,7 +70,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-06': {
     theme: 'Identity & Signers',
     paragraph:
-      'SEC-06 covered signers and key rollovers. Generate a keypair, move it between devices, and sign nostr events with keys you run yourself.',
+      'SEC-06 covered signers and identity. Generate a keypair, move it between devices, and sign nostr events with keys you run yourself.',
   },
   'SEC-07': {
     theme: 'Networks & Hardware',
