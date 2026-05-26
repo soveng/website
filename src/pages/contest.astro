@@ -10,15 +10,19 @@ const prizes = [
 const contestDetails = [
   { label: "Contest", value: "SEC-08 T-shirt design" },
   { label: "Final date", value: "15 June 2026" },
-  { label: "Submit", value: "Post on Nostr and tag #SovEng" },
-  { label: "Theme", value: "Summer, Sovereign Engineers, Bitcoin, Nostr, Pirates" },
+  { label: "Submit", value: "Post on Nostr and tag @SovereignEngineering or #SovEng" },
+  { label: "Theme", value: "Open — fun, serious, weird, whatever you want" },
 ];
 const requirements = [
   "Print-friendly: bold shapes, max 4 colors, avoid spaghetti detail.",
   "Show both front and back design of the T-shirt.",
   "Keep editable source files around",
-  "	Post on Nostr and tag #SovEng"
+  "Post on Nostr and tag @SovereignEngineering or #SovEng",
 ];
+const sec08Url =
+  "https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6";
+const sovereignEngineeringUrl = "https://npub.world/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5";
+const sovEngUrl = "https://ants.sh/t/SovEng";
 ---
 
 <Base
@@ -32,7 +36,7 @@ const requirements = [
     <header class="contest-container masthead">
       <p class="eyebrow">Final date · 15 June 2026</p>
       <div class="title-row">
-        <h1 id="contest-title">Design Contest</h1>
+        <h1 id="contest-title">T-Shirt Design Contest</h1>
       </div>
       <p class="lead"><strong><u>WANTED</u>:</strong> Legendary Designers for <strong>SEC-08</strong></p>
     </header>
@@ -46,33 +50,24 @@ const requirements = [
         <section aria-labelledby="brief-heading">
           <h2 id="brief-heading">Brief</h2>
           <p>
-            Sovereign Engineering needs a legendary tee for SEC-08, and we're handing the brush to you. This is your shot to ink yourself into
-            the lore of SEC: the way past cohorts' artwork still floats around Madeira, Bitcoin meetups, and Nostr feeds years later.
+            Always wanted to participate in a cohort but logistics never allowed you to? Well, here's your chance! We're looking for awesome
+            designers who make awesome graphics, so we have something to wear for <a href={sec08Url} target="_blank" rel="noopener noreferrer">SEC-08</a>.
+            Make it as fun or as serious as you want it to be. Nothing is off-limits.
           </p>
           <p>
-            The theme is Summer on the high seas of freedom tech. Think pirates with full nodes. Crabs relaying Nostr events. Seagulls
-            shooting chasu tokens. A jolly roger crossed with a lightning bolt. Sun-bleached sails, sats in the air, a crew of sovereign
-            engineers raiding the opensource seas.
+            Having a shirt for each cohort is tradition by now. So we thought: why not make it participatory and weird and fun and use Nostr for
+            everything? Read <a href={sec08Url} target="_blank" rel="noopener noreferrer">the blog post</a> and check <a href="/swag">past designs</a> for
+            inspiration. Or feel free to come up with something else entirely.
           </p>
           <p>
-            Lean into the meme for all we care, as a master once said, <a href="https://www.youtube.com/watch?v=PBAuHv5cPl8&" target="_blank" rel="noopener noreferrer">"we are memeing the future into reality"</a>. Or as the other one for he said, "if you look long enough into the meme, the meme stares back at you". We want the shirt people will fight over at BBQs, and hand them down in 2069 as heirlooms. Inside jokes welcome. Bitcoin culture, Nostr autism, pirate folklore - do your worst! The weirder, the better.
+            The winning design should work on an actual t-shirt, obviously. If we can't print it we won't be able to select it, meaning you won't be
+            able to win a million sats!
           </p>
           <p>
-            If you really need more context, read <a href="https://njump.me/naddr1qq9hxetr95crsttedakx7q3qs0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsxpqqqp65w0wz9k6" target="_blank" rel="noopener noreferrer">SEC-08</a> post or check past <a href="/swag">designs</a> to see what made each SEC design unique.
+            Deadline is <strong>15 June 2026</strong>. To participate simply post your design on Nostr and tag{" "}
+            <a href={sovereignEngineeringUrl} target="_blank" rel="noopener noreferrer">@SovereignEngineering</a> (or use the{" "}
+            <a href={sovEngUrl} target="_blank" rel="noopener noreferrer">#SovEng</a> hashtag). We'll announce &amp; zap the winners shortly after.
           </p>
-          <p>
-            And please don't steal stuff, the first rule at SEC is, "Don't go to jail!" - it's true.
-          </p>
-          <p>
-            Post your designs on Nostr and tag <a href="https://nostrudel.ninja/t/soveng" target="_blank"  rel="noopener noreferrer">#SovEng</a> before <strong>15 June 2026</strong>. Total bounty worth <strong>1,350,000 sats</strong>. Drop as many designs as you want. Raid the feed! Now, grab yer brushes, crack them knuckes, get yer sea legs on, ye sovereign scallywag - an' get yer captain the rum!
-          </p>
-        </section>
-
-        <section class="requirements" aria-labelledby="requirements-heading">
-          <h2 id="requirements-heading">Requirements</h2>
-          <ul>
-            {requirements.map((requirement) => <li>{requirement}</li>)}
-          </ul>
         </section>
       </div>
 
@@ -89,29 +84,36 @@ const requirements = [
           </tbody>
         </table>
       </aside>
-    </section>
 
-    <section class="contest-container prize-marquee" aria-label="Contest prizes">
-      <div class="total">
-        <span>Total bounty</span>
-        <strong>
-          <span class="total-amount">1,350,000</span>
-          <span class="total-unit">sats</span>
-        </strong>
-      </div>
-      {prizes.map((prize) => (
-        <div class={`marquee-prize ${prize.tier}`}>
-          <div class="rank" aria-label={prize.place}>
-            <span class="rank-number">{prize.rank}</span>
-            <span class="rank-suffix">{prize.suffix}</span>
-          </div>
-          <span class="rank-cue">{prize.cue}</span>
+      <section class="prize-marquee" aria-label="Contest prizes">
+        <div class="total">
+          <span>Total bounty</span>
           <strong>
-            <span class="prize-amount">{prize.amount}</span>
-            <span class="prize-unit">{prize.unit}</span>
+            <span class="total-amount">1,350,000</span>
+            <span class="total-unit">sats</span>
           </strong>
         </div>
-      ))}
+        {prizes.map((prize) => (
+          <div class={`marquee-prize ${prize.tier}`}>
+            <div class="rank" aria-label={prize.place}>
+              <span class="rank-number">{prize.rank}</span>
+              <span class="rank-suffix">{prize.suffix}</span>
+            </div>
+            <span class="rank-cue">{prize.cue}</span>
+            <strong>
+              <span class="prize-amount">{prize.amount}</span>
+              <span class="prize-unit">{prize.unit}</span>
+            </strong>
+          </div>
+        ))}
+      </section>
+
+      <section class="requirements" aria-labelledby="requirements-heading">
+        <h2 id="requirements-heading">Requirements</h2>
+        <ul>
+          {requirements.map((requirement) => <li>{requirement}</li>)}
+        </ul>
+      </section>
     </section>
   </article>
 </Base>
@@ -194,7 +196,27 @@ const requirements = [
     align-items: start;
     display: grid;
     gap: 3rem;
+    grid-template-areas:
+      "brief details"
+      "prize prize"
+      "requirements .";
     grid-template-columns: minmax(0, 1fr) 360px;
+  }
+
+  .lower-grid > .contest-copy {
+    grid-area: brief;
+  }
+
+  .lower-grid > .details {
+    grid-area: details;
+  }
+
+  .lower-grid > .prize-marquee {
+    grid-area: prize;
+  }
+
+  .lower-grid > .requirements {
+    grid-area: requirements;
   }
 
   .contest-copy p,
@@ -227,7 +249,7 @@ const requirements = [
   }
 
   .requirements {
-    margin-top: 2.5rem;
+    margin-top: 0;
   }
 
   .requirements ul {
@@ -293,7 +315,7 @@ const requirements = [
     border: 1px solid var(--color-border);
     display: grid;
     grid-template-columns: minmax(240px, 0.95fr) repeat(3, minmax(0, 1fr));
-    margin: 3.75rem auto 0;
+    margin: 0;
     overflow: hidden;
   }
 
@@ -470,7 +492,15 @@ const requirements = [
       flex-direction: column;
     }
 
-    .lower-grid,
+    .lower-grid {
+      grid-template-areas:
+        "brief"
+        "details"
+        "prize"
+        "requirements";
+      grid-template-columns: 1fr;
+    }
+
     .prize-marquee {
       grid-template-columns: 1fr;
     }
