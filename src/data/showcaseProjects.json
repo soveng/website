@@ -188,7 +188,7 @@
     "cohort": "SEC-01",
     "link": "https://npub.cash/",
     "linkText": "npub.cash",
-    "logo": "/images/showcase/npub-cash-logo.jpg",
+    "logo": "https://npub.cash/logo.png",
     "highlight": true
   },
   {
