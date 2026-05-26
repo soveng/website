@@ -522,6 +522,13 @@
   width: 100%;
 }
 
+.cohort-next-promo {
+  margin-top: 3rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgb(255 255 255 / 10%);
+  max-width: 40rem;
+}
+
 .cohort-pager-sep {
   color: rgb(255 255 255 / 25%);
 }
