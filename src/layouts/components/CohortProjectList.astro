@@ -54,7 +54,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
           <p class="cohort-intro projects-body">
             {intro.body
               ? intro.body.map((segment) =>
-                  segment.type === 'link' ? (
+                  (segment.type === 'link' ? (
                     <a
                       href={segment.href}
                       class="cohort-intro-link"
@@ -66,7 +66,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
                     </a>
                   ) : (
                     segment.text
-                  ),
+                  )),
                 )
               : (
                 <>

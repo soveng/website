@@ -1,6 +1,4 @@
-export type CohortIntroSegment =
-  | { type: 'text'; text: string }
-  | { type: 'link'; text: string; href: string };
+export type CohortIntroSegment = { type: 'text'; text: string } | { type: 'link'; text: string; href: string };
 
 export interface CohortIntro {
   theme: string;
@@ -39,8 +37,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       label: 'True names are not required.',
       href: 'https://dergigi.com/names',
     },
-    paragraph:
-      'May–June 2024, privacy as the theme. NIP-60 and NIP-61, Nsite, TollGate, Shopstr. Thirteen Friday demos on tools you can run yourself.',
+    paragraph: 'May–June 2024, privacy as the theme. NIP-60 and NIP-61, Nsite, TollGate, Shopstr. Thirteen Friday demos on tools you can run yourself.',
   },
   'SEC-03': {
     theme: 'Ecash',
@@ -71,8 +68,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-06': {
     theme: 'Identity & Signers',
-    paragraph:
-      'March 2026, signers and identity. Keys you hold, bunkers, hardware, rollovers. Six weeks on what signs your nostr events.',
+    paragraph: 'March 2026, signers and identity. Keys you hold, bunkers, hardware, rollovers. Six weeks on what signs your nostr events.',
   },
   'SEC-07': {
     theme: 'Networks & Hardware',

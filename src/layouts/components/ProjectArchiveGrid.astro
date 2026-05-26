@@ -18,14 +18,18 @@ interface Props {
   originSummaries: CohortSummary[];
 }
 
+type ArchiveGroup =
+  | { kind: 'upcoming'; label: string; entry: UpcomingArchiveEntry }
+  | { kind: 'summaries'; label: string; summaries: CohortSummary[] };
+
 const { upcoming, recentSummaries, earlierSummaries, originSummaries } = Astro.props;
 
-const groups = [
-  { label: 'Upcoming', upcoming: true as const },
-  { label: 'Recent', summaries: recentSummaries },
-  { label: 'Earlier', summaries: earlierSummaries },
-  { label: 'Origin', summaries: originSummaries },
-].filter((group) => ('upcoming' in group && upcoming) || ('summaries' in group && group.summaries.length > 0));
+const groups: ArchiveGroup[] = [
+  ...(upcoming ? [{ kind: 'upcoming' as const, label: 'Upcoming', entry: upcoming }] : []),
+  { kind: 'summaries' as const, label: 'Recent', summaries: recentSummaries },
+  { kind: 'summaries' as const, label: 'Earlier', summaries: earlierSummaries },
+  { kind: 'summaries' as const, label: 'Origin', summaries: originSummaries },
+].filter((group) => group.kind === 'upcoming' || group.summaries.length > 0);
 ---
 
 {
@@ -33,10 +37,9 @@ const groups = [
     <div class:list={[index < groups.length - 1 && 'mb-12']}>
       <p class="projects-archive-group-label">{group.label}</p>
       <div class="projects-archive-list">
-        {'upcoming' in group && upcoming ? (
-          <ProjectUpcomingArchiveCard {...upcoming} />
+        {group.kind === 'upcoming' ? (
+          <ProjectUpcomingArchiveCard {...group.entry} />
         ) : (
-          'summaries' in group &&
           group.summaries.map((summary: CohortSummary) => <ProjectArchiveCard summary={summary} />)
         )}
       </div>
