@@ -92,13 +92,6 @@
   pointer-events: none;
 }
 
-.projects-stats {
-  font-size: 0.875rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgb(255 255 255 / 55%);
-}
-
 .project-highlights {
   display: flex;
   flex-direction: column;

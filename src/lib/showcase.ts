@@ -25,11 +25,6 @@ export interface CohortSummary {
   moreCount: number;
 }
 
-export interface ShowcaseStats {
-  cohortCount: number;
-  projectCount: number;
-}
-
 export type CohortOrder = 'asc' | 'desc';
 
 export const allShowcaseProjects = showcaseProjects as ShowcaseProject[];
@@ -48,13 +43,6 @@ export function sortCohortsAsc(cohorts: string[]): string[] {
 }
 
 export const sortedCohorts = sortCohortsAsc([...new Set(allShowcaseProjects.map((project) => project.cohort))]);
-
-export function getShowcaseStats(): ShowcaseStats {
-  return {
-    cohortCount: sortedCohorts.length,
-    projectCount: allShowcaseProjects.length,
-  };
-}
 
 export function getProjectsForCohort(cohort: string): ShowcaseProject[] {
   return allShowcaseProjects.filter((project) => project.cohort === cohort);

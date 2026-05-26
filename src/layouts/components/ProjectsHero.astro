@@ -1,9 +1,4 @@
 ---
-import { getShowcaseStats } from '@/lib/showcase';
-
-const { cohortCount, projectCount } = getShowcaseStats();
-const statsLabel = `${cohortCount} cohorts · ${projectCount} projects`;
----
 
 <section class="bg-black pb-10 pt-20 text-white sm:pb-14 sm:pt-24">
   <div class="container max-w-[1120px]">
@@ -17,7 +12,6 @@ const statsLabel = `${cohortCount} cohorts · ${projectCount} projects`;
           Every Friday, participants showed what they built. Start with the headline projects below, then dig into the
           full cohort archives.
         </p>
-        <p class="projects-stats mt-4">{statsLabel}</p>
         <div class="projects-hero-actions">
           <a href="#project-highlights" class="btn-retro">Browse highlights</a>
           <a href="#project-archives" class="btn-retro projects-hero-btn-secondary">Open the archive</a>
