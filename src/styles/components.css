@@ -265,6 +265,23 @@
   @apply flex flex-col space-y-2;
 }
 
+.project-mark {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.project-mark__img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 .cohort-project-mark {
   flex-shrink: 0;
 }
@@ -272,6 +289,17 @@
 .cohort-project-mark .project-mark {
   width: 3rem;
   height: 3rem;
+}
+
+.cohort-project-mark .project-mark__img {
+  filter: contrast(1000%) grayscale(100%);
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  transition: filter 0.3s ease;
+}
+
+.cohort-project-mark:hover .project-mark__img {
+  filter: none;
 }
 
 .cohort-project-mark .fa-solid {

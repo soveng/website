@@ -203,22 +203,6 @@
   }
 }
 
-.project-mark {
-  display: inline-flex;
-  flex-shrink: 0;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-mark__img {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain;
-}
-
 .highlight-row-thumb,
 .highlight-row .project-mark {
   grid-row: span 2;
