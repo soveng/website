@@ -74,23 +74,37 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
           </p>
         </section>
 
-        <section class="prize-marquee" aria-label="Contest prizes">
-          {prizes.map((prize) => (
-            <div class={`marquee-prize ${prize.tier}`}>
-              <div class="prize-label">
-                <div class="rank" aria-label={prize.place}>
-                  <span class="rank-number">{prize.rank}</span>
-                  <span class="rank-suffix">{prize.suffix}</span>
+        <div class="prize-spacer">
+          <div class="prize-spacer-before" aria-hidden="true"></div>
+          <section class="prize-marquee" aria-label="Contest prizes">
+            {prizes.map((prize) => (
+              <div class={`marquee-prize ${prize.tier}`}>
+                <div class="prize-label">
+                  <div class="rank" aria-label={prize.place}>
+                    <span class="rank-number">{prize.rank}</span>
+                    <span class="rank-suffix">{prize.suffix}</span>
+                  </div>
+                  <span class="rank-cue">{prize.cue}</span>
                 </div>
-                <span class="rank-cue">{prize.cue}</span>
+                <strong>
+                  <span class="prize-amount">{prize.amount}</span>
+                  <span class="prize-unit">{prize.unit}</span>
+                </strong>
               </div>
-              <strong>
-                <span class="prize-amount">{prize.amount}</span>
-                <span class="prize-unit">{prize.unit}</span>
-              </strong>
-            </div>
-          ))}
-        </section>
+            ))}
+          </section>
+          <div class="prize-spacer-after" aria-hidden="true"></div>
+          <figure class="contest-separator" aria-hidden="true">
+            <img
+              src={requirementsSeparatorImage}
+              alt=""
+              width="2172"
+              height="724"
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
       </div>
 
       <aside class="details" aria-labelledby="details-heading">
@@ -128,16 +142,6 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
       </aside>
 
       <section class="requirements" aria-labelledby="requirements-heading">
-        <figure class="contest-separator" aria-hidden="true">
-          <img
-            src={requirementsSeparatorImage}
-            alt=""
-            width="2172"
-            height="724"
-            loading="lazy"
-            decoding="async"
-          />
-        </figure>
         <h2 id="requirements-heading">Requirements</h2>
         <ul>
           {requirements.map((requirement) => <li>{requirement}</li>)}
@@ -247,8 +251,26 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     grid-area: requirements;
   }
 
+  .contest-copy .prize-spacer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.35rem;
+  }
+
+  .prize-spacer-before,
+  .prize-spacer-after {
+    flex: 1 1 0;
+    min-height: 3.25rem;
+  }
+
   .contest-copy .prize-marquee {
-    margin-top: 1.5rem;
+    flex: 0 0 auto;
+    margin: 0;
+  }
+
+  .prize-spacer .contest-separator {
+    flex: 0 0 auto;
+    margin: 0;
   }
 
   .contest-copy p,
@@ -301,11 +323,11 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     margin-top: 0;
   }
 
-  .contest-separator {
-    margin: 0 0 2rem;
+  .requirements h2 {
+    margin-top: 2rem;
   }
 
-  .contest-separator img {
+  .prize-spacer .contest-separator img {
     display: block;
     height: auto;
     width: 100%;
