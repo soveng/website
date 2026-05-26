@@ -1,0 +1,23 @@
+---
+interface Props {
+  name: string;
+  logo?: string;
+  icon?: string;
+  class?: string;
+}
+
+const { name, logo, icon, class: className = '' } = Astro.props;
+const iconClass = icon ? `fa-solid fa-${icon}` : undefined;
+---
+
+{
+  iconClass ? (
+    <span class:list={['project-mark', className]} aria-hidden="true">
+      <i class={iconClass}></i>
+    </span>
+  ) : logo ? (
+    <span class:list={['project-mark', className]} aria-hidden="true">
+      <img src={logo} alt={`${name} logo`} class="project-mark__img" loading="lazy" decoding="async" />
+    </span>
+  ) : null
+}

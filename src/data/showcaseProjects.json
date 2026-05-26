@@ -45,14 +45,14 @@
     "name": "Blossom",
     "description": "A specification for HTTP endpoints that allow users to store blobs of data on publicly accessible servers",
     "cohort": "SEC-01",
-    "link": "https://github.com/hzrd149/blossom",
-    "linkText": "github.com/hzrd149/blossom",
+    "link": "https://github.com/hzrd149/awesome-blossom",
+    "linkText": "github.com/hzrd149/awesome-blossom",
     "logo": "/images/showcase/blossom-logo.png",
     "highlight": true,
     "extraLinks": [
       {
-        "link": "https://github.com/hzrd149/awesome-blossom",
-        "linkText": "awesome-blossom"
+        "link": "https://github.com/hzrd149/blossom",
+        "linkText": "github.com/hzrd149/blossom"
       }
     ]
   },
@@ -188,7 +188,7 @@
     "cohort": "SEC-01",
     "link": "https://npub.cash/",
     "linkText": "npub.cash",
-    "logo": "/images/showcase/npub-cash-logo.jpg",
+    "logo": "https://npub.cash/logo.png",
     "highlight": true
   },
   {
@@ -259,8 +259,8 @@
     "name": "NIP-60",
     "description": "Nostr protocol extension for Cashu wallet functionality, enabling seamless eCash transactions within nostr applications.",
     "cohort": "SEC-02",
-    "link": "https://nips.nostr.com/60",
-    "linkText": "nips.nostr.com/60",
+    "link": "https://github.com/nostr-protocol/nips/blob/master/60.md",
+    "linkText": "github.com/nostr-protocol/nips/60.md",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": true
   },
@@ -268,8 +268,8 @@
     "name": "NIP-61",
     "description": "Nutzaps: Receiving—and verifying— zaps, has always been a weak point in nostr. Nutzaps have enabled a new, more straightforward and verifiable way to participate in the zap-economy.",
     "cohort": "SEC-02",
-    "link": "https://nips.nostr.com/61",
-    "linkText": "nips.nostr.com/61",
+    "link": "https://github.com/nostr-protocol/nips/blob/master/61.md",
+    "linkText": "github.com/nostr-protocol/nips/61.md",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": true
   },
@@ -288,7 +288,7 @@
     "cohort": "SEC-02",
     "link": "https://nsite.run/",
     "linkText": "nsite.run",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "https://cdn-icons-png.flaticon.com/512/17283/17283061.png",
     "highlight": true
   },
   {
@@ -502,7 +502,8 @@
     "link": "https://joinnextblock.com/",
     "linkText": "joinnextblock.com",
     "logo": "/images/showcase/nextblock-logo.png",
-    "highlight": false
+    "highlight": false,
+    "showOnLanding": false
   },
   {
     "name": "Cassette",
@@ -517,10 +518,16 @@
     "name": "castr.me",
     "description": "Effortlessly turn any npub into a podcast feed.",
     "cohort": "SEC-04",
-    "link": "https://github.com/dergigi/castr.me",
-    "linkText": "github.com/dergigi/castr.me",
+    "link": "https://castr.me/",
+    "linkText": "castr.me",
     "logo": "/images/showcase/castrme-logo.png",
-    "highlight": false
+    "highlight": true,
+    "extraLinks": [
+      {
+        "link": "https://github.com/dergigi/castr.me",
+        "linkText": "github.com/dergigi/castr.me"
+      }
+    ]
   },
   {
     "name": "DVMCP",
@@ -599,7 +606,7 @@
     "description": "Transport method announcement. A way for services to decouple from a single network or protocol.",
     "cohort": "SEC-04",
     "link": "https://github.com/nostr-protocol/nips/pull/1585",
-    "linkText": "github.com",
+    "linkText": "NIPS PR#1585",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
@@ -880,10 +887,16 @@
     "name": "FIPs",
     "description": "Fuck IPs using bloom filters",
     "cohort": "SEC-05",
-    "link": "https://gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
-    "linkText": "gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
+    "link": "https://fips.network/",
+    "linkText": "fips.network",
     "logo": "/images/showcase/nostr-logo.png",
-    "highlight": false
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://gitworkshop.dev/arjen@swissdash.site/fips-poc-sec",
+        "linkText": "gitworkshop.dev/arjen@swissdash.site/fips-poc-sec"
+      }
+    ]
   },
   {
     "name": "Frontier Browser",

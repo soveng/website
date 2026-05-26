@@ -1,0 +1,18 @@
+---
+interface Props {
+  eyebrow?: string;
+  title: string;
+  description?: string;
+  class?: string;
+}
+
+const { eyebrow, title, description, class: className = '' } = Astro.props;
+---
+
+<div class:list={['mb-8 max-w-3xl', className]}>
+  {eyebrow && <p class="projects-eyebrow">{eyebrow}</p>}
+  <h2 class:list={['projects-display projects-headline text-4xl text-white', eyebrow && 'mt-3']}>
+    {title}
+  </h2>
+  {description && <p class="projects-body mt-3 text-base leading-relaxed text-gray-300 sm:text-lg">{description}</p>}
+</div>

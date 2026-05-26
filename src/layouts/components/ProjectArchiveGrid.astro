@@ -1,0 +1,48 @@
+---
+import type { CohortSummary } from '@/lib/showcase';
+import ProjectArchiveCard from '@/layouts/components/ProjectArchiveCard.astro';
+import ProjectUpcomingArchiveCard from '@/layouts/components/ProjectUpcomingArchiveCard.astro';
+
+export interface UpcomingArchiveEntry {
+  cohort: string;
+  subtitle: string;
+  preview: string;
+  meta: string;
+  href: string;
+}
+
+interface Props {
+  upcoming?: UpcomingArchiveEntry;
+  recentSummaries: CohortSummary[];
+  earlierSummaries: CohortSummary[];
+  originSummaries: CohortSummary[];
+}
+
+type ArchiveGroup =
+  | { kind: 'upcoming'; label: string; entry: UpcomingArchiveEntry }
+  | { kind: 'summaries'; label: string; summaries: CohortSummary[] };
+
+const { upcoming, recentSummaries, earlierSummaries, originSummaries } = Astro.props;
+
+const groups: ArchiveGroup[] = [
+  ...(upcoming ? [{ kind: 'upcoming' as const, label: 'Upcoming', entry: upcoming }] : []),
+  { kind: 'summaries' as const, label: 'Recent', summaries: recentSummaries },
+  { kind: 'summaries' as const, label: 'Earlier', summaries: earlierSummaries },
+  { kind: 'summaries' as const, label: 'Origin', summaries: originSummaries },
+].filter((group) => group.kind === 'upcoming' || group.summaries.length > 0);
+---
+
+{
+  groups.map((group, index) => (
+    <div class:list={[index < groups.length - 1 && 'mb-12']}>
+      <p class="projects-archive-group-label">{group.label}</p>
+      <div class="projects-archive-list">
+        {group.kind === 'upcoming' ? (
+          <ProjectUpcomingArchiveCard {...group.entry} />
+        ) : (
+          group.summaries.map((summary: CohortSummary) => <ProjectArchiveCard summary={summary} />)
+        )}
+      </div>
+    </div>
+  ))
+}

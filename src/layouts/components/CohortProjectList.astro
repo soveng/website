@@ -1,0 +1,140 @@
+---
+import { getCohortForwardLink } from '@/data/cohortCtas';
+import { getCohortIntro } from '@/data/cohortIntros';
+import type { ShowcaseProject } from '@/lib/showcase';
+import { slugifyProjectName } from '@/lib/showcase';
+import CohortPager from '@/layouts/components/CohortPager.astro';
+import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
+import ProjectHighlightMark from '@/layouts/components/ProjectHighlightMark.astro';
+import ProjectMark from '@/layouts/components/ProjectMark.astro';
+
+interface Props {
+  cohort: string;
+  projects: ShowcaseProject[];
+  previousCohort?: string;
+  nextCohort?: string;
+}
+
+interface ProjectLink {
+  href: string;
+  label: string;
+}
+
+const { cohort, projects, previousCohort, nextCohort } = Astro.props;
+const intro = getCohortIntro(cohort);
+const forwardLink = getCohortForwardLink(cohort);
+
+function projectLinks(project: ShowcaseProject): ProjectLink[] {
+  const links: ProjectLink[] = [];
+
+  if (project.link && project.linkText) {
+    links.push({ href: project.link, label: project.linkText });
+  }
+
+  if (project.extraLinks) {
+    for (const extraLink of project.extraLinks) {
+      if (extraLink.link && extraLink.linkText) {
+        links.push({ href: extraLink.link, label: extraLink.linkText });
+      }
+    }
+  }
+
+  return links;
+}
+---
+
+<section class="cohort-page bg-black pb-16 pt-20 text-white sm:pb-20 sm:pt-24">
+  <div class="container max-w-[1120px]">
+    <a href="/projects" class="projects-link projects-link--muted">← Projects</a>
+
+    <header class="cohort-header">
+      <div class="cohort-header-main">
+        <h1 class="projects-display projects-headline text-5xl text-white sm:text-6xl">{cohort}</h1>
+        {intro && (
+          <p class="cohort-intro projects-body">
+            {intro.body
+              ? intro.body.map((segment) =>
+                  (segment.type === 'link' ? (
+                    <a
+                      href={segment.href}
+                      class="cohort-intro-link"
+                      {...(segment.href.startsWith('http')
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                    >
+                      {segment.text}
+                    </a>
+                  ) : (
+                    segment.text
+                  )),
+                )
+              : (
+                <>
+                  {intro.leadLink && (
+                    <a
+                      href={intro.leadLink.href}
+                      class="cohort-intro-link"
+                      {...(intro.leadLink.href.startsWith('http')
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                    >
+                      {intro.leadLink.label}
+                    </a>
+                  )}
+                  {intro.leadLink ? ` ${intro.paragraph}` : intro.paragraph}
+                </>
+              )}
+          </p>
+        )}
+      </div>
+      <CohortPager
+        previousCohort={previousCohort}
+        nextCohort={nextCohort}
+        forwardLabel={forwardLink?.label}
+        forwardHref={forwardLink?.href}
+      />
+    </header>
+
+    <div class="cohort-project-list">
+      {projects.map((project: ShowcaseProject) => {
+        const links = projectLinks(project);
+
+        return (
+          <article id={slugifyProjectName(project.name)} class="cohort-project">
+            {(project.icon || project.logo) && (
+              <div class="cohort-project-mark">
+                <ProjectMark name={project.name} icon={project.icon} logo={project.logo} />
+              </div>
+            )}
+            <div class="cohort-project-body">
+              <div class="cohort-project-title-row">
+                <h2 class="cohort-project-title projects-display">{project.name}</h2>
+                {project.highlight && <ProjectHighlightMark />}
+              </div>
+              <p class="cohort-project-desc projects-body">{project.description}</p>
+              {links.length > 0 && (
+                <div class="cohort-project-links">
+                  {links.map((link: ProjectLink, linkIndex: number) => (
+                    <span class="cohort-project-link-item">
+                      {linkIndex > 0 && <span class="cohort-link-sep" aria-hidden="true">·</span>}
+                      <ProjectExternalLink href={link.href} label={link.label} showLabel />
+                    </span>
+                  ))}
+                </div>
+              )}
+            </div>
+          </article>
+        );
+      })}
+    </div>
+
+    <CohortPager
+      previousCohort={previousCohort}
+      nextCohort={nextCohort}
+      forwardLabel={forwardLink?.label}
+      forwardHref={forwardLink?.href}
+      class="cohort-pager-footer"
+    />
+
+  </div>
+</section>

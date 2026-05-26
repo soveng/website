@@ -1,21 +1,80 @@
 ---
-import Base from "@/layouts/Base.astro";
-import ProjectShowcase from "@/components/ProjectShowcase.astro";
-import showcaseProjects from "@/data/showcaseProjects.js";
+import projectHighlights from '@/data/projectHighlights';
+import Base from '@/layouts/Base.astro';
+import ProjectArchiveGrid from '@/layouts/components/ProjectArchiveGrid.astro';
+import ProjectFeatureGrid from '@/layouts/components/ProjectFeatureGrid.astro';
+import ProjectsHero from '@/layouts/components/ProjectsHero.astro';
+import ProjectsSectionHeader from '@/layouts/components/ProjectsSectionHeader.astro';
+import { getCohortSummaries } from '@/lib/showcase';
+import '@/styles/projects.css';
 
+const cohortSummaries = getCohortSummaries({ order: 'desc' });
+const originSummaries = cohortSummaries.filter((summary) => summary.cohort === 'SEC-00');
+const numberedCohorts = cohortSummaries.filter((summary) => summary.cohort !== 'SEC-00');
+const recentSummaries = numberedCohorts.slice(0, 3);
+const earlierSummaries = numberedCohorts.slice(3);
 ---
 
 <Base
   title="Demo Day Projects"
   meta_title="Demo Day Projects"
-  description="Explore projects built by Sovereign Engineering Cohort participants during their Demo Days"
+  description="Explore the projects Sovereign Engineering brought into the world, from Blossom and Nutzaps to Nsite, Wikifreedia, TollGate, Zapstore, and more."
+  image="/images/project-highlights/nostr-wireframe.png"
+  showCallToAction={true}
 >
-  <ProjectShowcase
-    projects={showcaseProjects}
-    darkTheme={true}
-    showTitle={true}
-    showHighlights={true}
-  />
+  <div class="projects-page">
+    <ProjectsHero />
 
-  <!-- No Next link here; flow handled from /podcast -->
+    <section id="project-highlights" class="bg-black py-8 text-white sm:py-10">
+      <div class="container max-w-[1120px]">
+        <h2 class="projects-display projects-headline mb-10 text-4xl text-white">Highlights</h2>
+
+        <ProjectFeatureGrid highlights={projectHighlights} />
+      </div>
+    </section>
+
+    <section id="project-archives" class="bg-black py-16 text-white sm:py-20">
+      <div class="container max-w-[1120px]">
+        <ProjectsSectionHeader
+          eyebrow="Cohort archives"
+          title="Friday = Demo Day"
+          description="Every Friday is Demo Day at SEC. Explore the past cohort archives."
+        />
+
+        <ProjectArchiveGrid
+          upcoming={{
+            cohort: 'SEC-08',
+            subtitle: 'YOLO++',
+            preview: 'July 20 · six weeks',
+            meta: 'TBD',
+            href: '/#apply',
+          }}
+          recentSummaries={recentSummaries}
+          earlierSummaries={earlierSummaries}
+          originSummaries={originSummaries}
+        />
+
+        <figure class="projects-separator" aria-hidden="true">
+          <img
+            src="/images/contest/separator-ship.png"
+            alt=""
+            width="2172"
+            height="724"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+
+        <div class="projects-podcast-cta">
+          <p class="projects-eyebrow">No Solutions</p>
+          <h2 class="projects-display projects-headline mt-3 text-4xl text-white">Only Trade-Offs</h2>
+          <p class="projects-body mt-3 max-w-2xl text-lg leading-relaxed text-gray-300">
+            We talk, we walk, we ship on Fridays. The cohort pages above are what came out of Demo Day. No Solutions is the
+            podcast where we keep arguing about the same work: builders, protocols, and the trade-offs behind these archives.
+          </p>
+          <a href="/podcast" class="btn-retro mt-6 inline-block">Listen to No Solutions</a>
+        </div>
+      </div>
+    </section>
+  </div>
 </Base>

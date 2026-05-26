@@ -1,0 +1,35 @@
+---
+import type { ProjectHighlight } from '@/data/projectHighlights';
+import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
+import ProjectMark from '@/layouts/components/ProjectMark.astro';
+
+interface Props {
+  highlight: ProjectHighlight;
+}
+
+const { highlight } = Astro.props;
+---
+
+<article class="highlight-row">
+  <a href={highlight.href} class="highlight-row-link">
+    {highlight.image ? (
+      <img
+        class="highlight-row-thumb"
+        src={highlight.image}
+        alt=""
+        loading="lazy"
+        decoding="async"
+      />
+    ) : highlight.icon || highlight.logo ? (
+      <ProjectMark name={highlight.title} icon={highlight.icon} logo={highlight.logo} />
+    ) : null}
+    <span class="highlight-row-title projects-display">{highlight.title}</span>
+    <span class="highlight-row-desc projects-body">{highlight.description}</span>
+  </a>
+  <div class="highlight-row-aside">
+    <a href={highlight.href} class="highlight-row-meta">{highlight.eyebrow}</a>
+    {highlight.externalUrl && (
+      <ProjectExternalLink href={highlight.externalUrl} label={highlight.title} />
+    )}
+  </div>
+</article>
