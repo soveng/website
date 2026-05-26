@@ -45,14 +45,14 @@
     "name": "Blossom",
     "description": "A specification for HTTP endpoints that allow users to store blobs of data on publicly accessible servers",
     "cohort": "SEC-01",
-    "link": "https://github.com/hzrd149/blossom",
-    "linkText": "github.com/hzrd149/blossom",
+    "link": "https://github.com/hzrd149/awesome-blossom",
+    "linkText": "github.com/hzrd149/awesome-blossom",
     "logo": "/images/showcase/blossom-logo.png",
     "highlight": true,
     "extraLinks": [
       {
-        "link": "https://github.com/hzrd149/awesome-blossom",
-        "linkText": "awesome-blossom"
+        "link": "https://github.com/hzrd149/blossom",
+        "linkText": "github.com/hzrd149/blossom"
       }
     ]
   },
