@@ -538,23 +538,27 @@
   justify-content: center;
   width: 1.25rem;
   height: 1.25rem;
-  opacity: 0.5;
-  transition: opacity 150ms ease;
-}
-
-.cohort-highlight-mark:hover {
-  opacity: 1;
 }
 
 .cohort-highlight-mark:focus-visible {
   outline: 2px solid var(--color-primary);
   outline-offset: 2px;
-  opacity: 1;
+  border-radius: 50%;
 }
 
-.cohort-highlight-mark img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.cohort-highlight-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  opacity: 0.75;
+  transition:
+    opacity 150ms ease,
+    transform 150ms ease;
+}
+
+.cohort-highlight-mark:hover .cohort-highlight-dot,
+.cohort-highlight-mark:focus-visible .cohort-highlight-dot {
+  opacity: 1;
+  transform: scale(1.2);
 }
