@@ -369,7 +369,7 @@
 .cohort-page .cohort-header {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 1.25rem;
   margin-top: 2.5rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgb(255 255 255 / 10%);
@@ -378,18 +378,58 @@
 @media (min-width: 768px) {
   .cohort-page .cohort-header {
     flex-direction: row;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 2rem;
   }
 }
 
+.cohort-header-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.cohort-theme {
+  margin-top: 0.35rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: rgb(255 255 255 / 52%);
+  text-transform: none;
+}
+
+@media (min-width: 768px) {
+  .cohort-theme {
+    font-size: 1.75rem;
+  }
+}
+
+.cohort-intro {
+  margin-top: 1rem;
+  max-width: 40rem;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: rgb(255 255 255 / 62%);
+}
+
+@media (min-width: 768px) {
+  .cohort-intro {
+    font-size: 1.0625rem;
+  }
+}
+
 .cohort-pager {
   display: flex;
+  flex-shrink: 0;
   flex-wrap: wrap;
   align-items: center;
   gap: 0.5rem 0.75rem;
   font-family: var(--font-secondary);
+}
+
+@media (min-width: 768px) {
+  .cohort-pager {
+    padding-top: 0.35rem;
+  }
 }
 
 .cohort-pager-sep {

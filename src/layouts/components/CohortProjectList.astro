@@ -1,4 +1,5 @@
 ---
+import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
@@ -16,6 +17,7 @@ interface ProjectLink {
 }
 
 const { cohort, projects, previousCohort, nextCohort } = Astro.props;
+const intro = getCohortIntro(cohort);
 
 function projectLinks(project: ShowcaseProject): ProjectLink[] {
   const links: ProjectLink[] = [];
@@ -41,7 +43,11 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
     <a href="/projects" class="projects-link projects-link--muted">← Projects</a>
 
     <header class="cohort-header">
-      <h1 class="projects-display projects-headline text-5xl text-white sm:text-6xl">{cohort}</h1>
+      <div class="cohort-header-main">
+        <h1 class="projects-display projects-headline text-5xl text-white sm:text-6xl">{cohort}</h1>
+        {intro && <p class="cohort-theme projects-display">{intro.theme}</p>}
+        {intro && <p class="cohort-intro projects-body">{intro.paragraph}</p>}
+      </div>
       {(previousCohort || nextCohort) && (
         <nav class="cohort-pager" aria-label="Other cohorts">
           {previousCohort && (
