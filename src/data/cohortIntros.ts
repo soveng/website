@@ -75,7 +75,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-07': {
     theme: 'Networks & Hardware',
     paragraph:
-      'Protocols need a body: machines, radios, nodes, and operators willing to keep them alive. SEC-07 demos run the stack down through networks and hardware — the layers beneath every sovereign application.',
+      'Protocols need machines, cables, radios, and someone willing to reboot the node at 2 a.m. SEC-07 shipped that work: relays, mesh links, and hardware demos from the list below.',
   },
 };
 
