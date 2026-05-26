@@ -290,6 +290,24 @@
   border-radius: 2px;
 }
 
+.project-external-link--with-label {
+  width: auto;
+  height: auto;
+  gap: 0.35rem;
+  font-family: var(--font-primary);
+  font-size: 0.9375rem;
+}
+
+.project-external-link--with-label .project-external-link__text {
+  color: rgb(255 255 255 / 55%);
+  transition: color 150ms ease;
+}
+
+.project-external-link--with-label:hover .project-external-link__text,
+.project-external-link--with-label:focus-visible .project-external-link__text {
+  color: var(--color-primary);
+}
+
 .highlight-row-aside {
   display: flex;
   align-items: center;
@@ -594,8 +612,18 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.35rem 0.5rem;
   margin-top: 0.75rem;
+}
+
+.cohort-project-link-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.cohort-link-sep {
+  color: rgb(255 255 255 / 28%);
 }
 
 .cohort-highlight-mark {

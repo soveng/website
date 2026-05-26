@@ -2,18 +2,20 @@
 interface Props {
   href: string;
   label: string;
+  showLabel?: boolean;
 }
 
-const { href, label } = Astro.props;
+const { href, label, showLabel = false } = Astro.props;
 ---
 
 <a
   href={href}
-  class="project-external-link"
+  class:list={['project-external-link', showLabel && 'project-external-link--with-label']}
   target="_blank"
   rel="noopener noreferrer"
-  title={`Open ${label}`}
-  aria-label={`Open ${label} in a new tab`}
+  title={showLabel ? undefined : `Open ${label}`}
+  aria-label={showLabel ? undefined : `Open ${label} in a new tab`}
 >
+  {showLabel && <span class="project-external-link__text">{label}</span>}
   <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
 </a>

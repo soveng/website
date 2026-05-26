@@ -99,8 +99,11 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
               <p class="cohort-project-desc projects-body">{project.description}</p>
               {links.length > 0 && (
                 <div class="cohort-project-links">
-                  {links.map((link: ProjectLink) => (
-                    <ProjectExternalLink href={link.href} label={link.label} />
+                  {links.map((link: ProjectLink, linkIndex: number) => (
+                    <span class="cohort-project-link-item">
+                      {linkIndex > 0 && <span class="cohort-link-sep" aria-hidden="true">·</span>}
+                      <ProjectExternalLink href={link.href} label={link.label} showLabel />
+                    </span>
                   ))}
                 </div>
               )}
