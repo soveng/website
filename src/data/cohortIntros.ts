@@ -26,12 +26,12 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-00': {
     theme: 'Genesis',
     paragraph:
-      'Madeira, 2023. SEC-00 predates the organized cohorts. It was Gigi and Pablo on the levadas, building what interested them that week. Three projects made it into this archive. Highlighter put book quotes on Nostr. Lightning Prisms explored zaps through prisms. Data Vending Machines asked what a paid API on nostr could look like. SEC-01 brought the six-week program; this page is the earlier scratch work.',
+      'Madeira, 2023. Gigi and Pablo, before the organized cohorts. Highlighter, Lightning Prisms, and Data Vending Machines are the three projects archived here. SEC-01 started the six-week program.',
   },
   'SEC-01': {
     theme: 'The Beginning',
     paragraph:
-      'SEC-01 ran six weeks from January through March 2024 with twenty-one participants and twenty-one Friday demos. The Show → Talk → Build loop became the rhythm of the program. Blossom gave Nostr shared blob storage. Zapstore turned signed social identity into an app store. npub.cash handed out Lightning addresses with Cashu inside. Wikifreedia mirrored Wikipedia onto the protocol. Scroll the list for the rest of that first full cohort.',
+      'Jan–Mar 2024, six weeks, twenty-one builders, twenty-one Friday demos. Show → Talk → Build. Blossom, Zapstore, npub.cash, and Wikifreedia are below, with the rest of the cohort.',
   },
   'SEC-02': {
     theme: 'Opsec Friendly',
@@ -40,7 +40,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       href: 'https://dergigi.com/names',
     },
     paragraph:
-      'SEC-02 ran in May and June 2024 with privacy as the through-line. NIP-60 and NIP-61 put Cashu wallets on Nostr. Nsite published static sites through relays and Blossom. TollGate experimented with captive portals and bearer payments for Wi-Fi. Shopstr pushed decentralized commerce. Thirteen Friday demos, each aimed at tools you can run without handing your identity to a platform.',
+      'May–June 2024, privacy as the theme. NIP-60 and NIP-61, Nsite, TollGate, Shopstr. Thirteen Friday demos on tools you can run yourself.',
   },
   'SEC-03': {
     theme: 'Ecash',
@@ -49,7 +49,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       { type: 'link', text: 'ecash', href: 'https://opensats.org/topics/ecash' },
       {
         type: 'text',
-        text: ' was mostly slides and papers. SEC-03, in late 2024, was where the tooling caught up. Nutstash shipped a full wallet redesign. Safebox and Athenut pushed Cashu further. Bolt12 prisms stretched Lightning experiments. TollGate picked up branding and a proper landing page. Fifteen Friday demos, most of them about moving bearer sats through nostr clients people already use.',
+        text: ' was mostly slides and papers. Late 2024, SEC-03 shipped wallets and nostr apps that move bearer sats: Nutstash, Safebox, Athenut, fifteen Friday demos.',
       },
     ],
   },
@@ -60,19 +60,19 @@ export const cohortIntros: Record<string, CohortIntro> = {
       { type: 'link', text: 'no perfect solutions, only trade-offs.', href: '/podcast' },
       {
         type: 'text',
-        text: ' SEC-04 in spring 2025 was the biggest cohort to date: thirty-four projects in six weeks. castr.me turned any npub into a podcast feed. gitworkshop.dev hosted code on nostr. HTTPN, Hypernote, and DVMCP stretched what clients and data vending could do. Someone even shipped an nginx module that speaks HTTP 402. The list below matches that breadth.',
+        text: ' Spring 2025, thirty-four projects in six weeks. castr.me, gitworkshop.dev, HTTPN, Hypernote, and an nginx module that speaks HTTP 402.',
       },
     ],
   },
   'SEC-05': {
     theme: 'YOLO Mode',
     paragraph:
-      'SEC-05 in fall 2025 set the cohort record at forty-one shipped projects. The theme was YOLO mode: ship the thing you care about and worry about polish later. Marmot Chat, Boris, ContextVM, hashpool, and Frontier Browser each took a big swing. Relays, mining pools, and AI experiments filled out the rest. FIPS mesh work started here in earnest, and several SEC-07 projects grew out of that code.',
+      'Fall 2025, forty-one projects, still the cohort record. YOLO mode: Marmot Chat, hashpool, Frontier Browser, relays, mining, AI. FIPS mesh work started here.',
   },
   'SEC-06': {
     theme: 'Identity & Signers',
     paragraph:
-      'SEC-06 in March 2026 narrowed the lens to identity. Who holds the key, how you move it between devices, and what actually signs a nostr event. The cohort shipped signer apps, bunker tooling, hardware experiments, and key rollover flows. Six weeks of Friday demos, all of them about keys you hold yourself.',
+      'March 2026, signers and identity. Keys you hold, bunkers, hardware, rollovers. Six weeks on what signs your nostr events.',
   },
   'SEC-07': {
     theme: 'Networks & Hardware',
@@ -81,7 +81,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
       { type: 'link', text: 'FIPS', href: 'https://fips.network/' },
       {
         type: 'text',
-        text: ', the mesh stack that grew out of SEC-05. March and April 2026 brought radios, LoRa range tests, Android nodes, and clients that route traffic over FIPS instead of a rented VPS. Learn FIPS taught the protocol through lessons. Fanal managed a fleet of mesh nodes. Nostr VPN on FIPS moved exit traffic onto the mesh. OPNsense backups rode the same links. The demos below are the hardware and network layer, spelled out project by project.',
+        text: ', the mesh stack from SEC-05. March–April 2026: radios, LoRa tests, Learn FIPS, Fanal, Nostr VPN on FIPS, and the rest below.',
       },
     ],
   },
