@@ -502,7 +502,8 @@
     "link": "https://joinnextblock.com/",
     "linkText": "joinnextblock.com",
     "logo": "/images/showcase/nextblock-logo.png",
-    "highlight": false
+    "highlight": false,
+    "showOnLanding": false
   },
   {
     "name": "Cassette",

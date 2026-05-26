@@ -13,7 +13,22 @@ export interface ShowcaseProject {
   linkText: string;
   logo?: string;
   highlight?: boolean;
+  showOnLanding?: boolean;
   extraLinks?: ExtraLink[];
+}
+
+const LANDING_EXCLUDED_PROJECTS = new Set(['NextBlock']);
+
+function isShownOnLanding(project: ShowcaseProject): boolean {
+  if (project.showOnLanding === false) {
+    return false;
+  }
+
+  return !LANDING_EXCLUDED_PROJECTS.has(project.name);
+}
+
+function getLandingProjectsForCohort(cohort: string): ShowcaseProject[] {
+  return getProjectsForCohort(cohort).filter(isShownOnLanding);
 }
 
 export interface CohortSummary {
@@ -61,17 +76,20 @@ export function slugifyProjectName(name: string): string {
 
 function buildCohortSummary(cohort: string): CohortSummary {
   const projects = getProjectsForCohort(cohort);
-  const highlightProjects = projects.filter((project) => project.highlight).map((project) => project.name);
+  const landingProjects = getLandingProjectsForCohort(cohort);
+  const highlightProjects = landingProjects
+    .filter((project) => project.highlight)
+    .map((project) => project.name);
   const previewNames =
     highlightProjects.length > 0
       ? highlightProjects.slice(0, 3)
-      : projects.slice(0, 3).map((project) => project.name);
+      : landingProjects.slice(0, 3).map((project) => project.name);
   const moreCount = Math.max(0, projects.length - previewNames.length);
 
   return {
     cohort,
     count: projects.length,
-    sampleProjects: projects.slice(0, 3).map((project) => project.name),
+    sampleProjects: landingProjects.slice(0, 3).map((project) => project.name),
     highlightProjects,
     previewNames,
     moreCount,
