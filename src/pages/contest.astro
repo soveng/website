@@ -9,6 +9,7 @@ const prizes = [
 ];
 const contestDetails = [
   { label: "Deadline", value: "15 June 2026" },
+  { label: "Total bounty", value: "1,350,000 sats" },
   { label: "Submit", linked: true },
   { label: "Theme", value: "Open — fun, serious, weird, whatever you want" },
 ];
@@ -93,13 +94,6 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
       </aside>
 
       <section class="prize-marquee" aria-label="Contest prizes">
-        <div class="total">
-          <span>Total bounty</span>
-          <strong>
-            <span class="total-amount">1,350,000</span>
-            <span class="total-unit">sats</span>
-          </strong>
-        </div>
         {prizes.map((prize) => (
           <div class={`marquee-prize ${prize.tier}`}>
             <div class="rank" aria-label={prize.place}>
@@ -329,52 +323,9 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   .prize-marquee {
     border: 1px solid var(--color-border);
     display: grid;
-    grid-template-columns: minmax(240px, 0.95fr) repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     margin: 0;
     overflow: hidden;
-  }
-
-  .total,
-  .marquee-prize {
-    min-height: 8.9rem;
-    padding: 1.15rem 1.35rem;
-  }
-
-  .total {
-    background: var(--color-primary);
-    color: var(--color-body);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .total > span {
-    color: var(--color-body);
-    display: block;
-    font-family: var(--font-secondary);
-    letter-spacing: 0.14em;
-    margin: 0 0 0.35rem;
-    text-transform: uppercase;
-  }
-
-  .total strong {
-    display: block;
-    font-family: var(--font-secondary);
-    font-weight: 400;
-    line-height: 0.9;
-    text-transform: uppercase;
-  }
-
-  .total-amount {
-    display: block;
-    font-size: clamp(2rem, 3vw, 2.75rem);
-  }
-
-  .total-unit {
-    display: block;
-    font-size: clamp(1rem, 1.2vw, 1.2rem);
-    letter-spacing: 0.18em;
-    margin-top: 0.65rem;
   }
 
   .marquee-prize {
@@ -386,7 +337,13 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
       "rank cue"
       "rank amount";
     grid-template-columns: auto minmax(0, 1fr);
+    min-height: 8.9rem;
+    padding: 1.15rem 1.35rem;
     position: relative;
+  }
+
+  .marquee-prize:first-child {
+    border-left: 0;
   }
 
   .marquee-prize::after {
@@ -523,6 +480,10 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     .marquee-prize {
       border-left: 0;
       border-top: 1px solid color-mix(in srgb, var(--color-text) 18%, transparent);
+    }
+
+    .marquee-prize:first-child {
+      border-top: 0;
     }
 
     h1 {
