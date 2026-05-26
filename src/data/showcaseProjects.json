@@ -518,10 +518,16 @@
     "name": "castr.me",
     "description": "Effortlessly turn any npub into a podcast feed.",
     "cohort": "SEC-04",
-    "link": "https://github.com/dergigi/castr.me",
-    "linkText": "github.com/dergigi/castr.me",
+    "link": "https://castr.me/",
+    "linkText": "castr.me",
     "logo": "/images/showcase/castrme-logo.png",
-    "highlight": false
+    "highlight": true,
+    "extraLinks": [
+      {
+        "link": "https://github.com/dergigi/castr.me",
+        "linkText": "github.com/dergigi/castr.me"
+      }
+    ]
   },
   {
     "name": "DVMCP",

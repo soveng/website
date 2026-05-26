@@ -36,6 +36,7 @@ const npubCash = requireProject('npub.cash');
 const wikifreedia = requireProject('NIP-54: Wiki / Wikifreedia');
 const nsite = requireProject('Nsite');
 const tollgate = requireProject('Tollgate');
+const castrMe = requireProject('castr.me');
 const fipsPrototype = requireProject('FIPs');
 const nip60 = requireProject('NIP-60');
 const nip61 = requireProject('NIP-61');
@@ -111,6 +112,15 @@ const projectHighlights: ProjectHighlight[] = [
     variant: 'standard',
     description: 'Open access control and captive portal tooling built around internet freedom and bearer payments.',
     logo: tollgate.logo,
+  },
+  {
+    title: 'castr.me',
+    eyebrow: castrMe.cohort,
+    href: getProjectArchiveHref(castrMe),
+    externalUrl: externalLink(castrMe),
+    variant: 'standard',
+    description: 'Turn any npub into a podcast RSS feed. The pipe behind No Solutions and other Nostr-native audio.',
+    logo: castrMe.logo,
   },
   {
     title: 'FIPS',
