@@ -1,11 +1,16 @@
 ---
-import projectHighlights from "@/data/projectHighlights";
-import Base from "@/layouts/Base.astro";
-import ProjectArchiveGrid from "@/layouts/components/ProjectArchiveGrid.astro";
-import ProjectFeatureGrid from "@/layouts/components/ProjectFeatureGrid.astro";
-import { getCohortSummaries } from "@/lib/showcase";
+import projectHighlights from '@/data/projectHighlights';
+import Base from '@/layouts/Base.astro';
+import ProjectArchiveGrid from '@/layouts/components/ProjectArchiveGrid.astro';
+import ProjectFeatureGrid from '@/layouts/components/ProjectFeatureGrid.astro';
+import ProjectsHero from '@/layouts/components/ProjectsHero.astro';
+import ProjectsSectionHeader from '@/layouts/components/ProjectsSectionHeader.astro';
+import { getCohortSummaries } from '@/lib/showcase';
+import '@/styles/projects.css';
 
-const cohortSummaries = getCohortSummaries();
+const cohortSummaries = getCohortSummaries({ order: 'desc' });
+const recentSummaries = cohortSummaries.slice(0, 3);
+const earlierSummaries = cohortSummaries.slice(3);
 ---
 
 <Base
@@ -13,80 +18,32 @@ const cohortSummaries = getCohortSummaries();
   meta_title="Demo Day Projects"
   description="Explore the projects Sovereign Engineering brought into the world, from Blossom and Nutzaps to Nsite, Wikifreedia, TollGate, Zapstore, and more."
   image="/images/project-highlights/nostr-wireframe.png"
-  showCallToAction={false}
+  showCallToAction={true}
 >
-  <section class="bg-black pb-10 pt-20 text-white sm:pb-14 sm:pt-24">
-    <div class="container max-w-[1120px]">
-      <div class="max-w-4xl">
-        <div class="text-xs uppercase tracking-[0.24em] text-primary/90">
-          Demo Day Projects
-        </div>
-        <h1
-          class="mt-4 text-5xl text-white sm:text-6xl xl:text-7xl"
-          style="font-family: 'IM Fell Double Pica', Times, serif;"
-        >
-          The Program That Brought You Blossom, Nutzaps, Wikifreedia, Nsite, TollGate, Zapstore, and More
-        </h1>
-        <p class="mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-          Every Friday, participants showed what they shipped. These are the headline projects that emerged from those
-          loops, followed by a full cohort-by-cohort archive for everything else.
-        </p>
-        <div class="mt-8 flex flex-wrap gap-3">
-          <a
-            href="#project-highlights"
-            class="inline-flex items-center border border-primary bg-primary px-4 py-2 text-sm text-black transition-colors hover:bg-transparent hover:text-primary"
-          >
-            Browse highlights
-          </a>
-          <a
-            href="#project-archives"
-            class="inline-flex items-center border border-white/15 px-4 py-2 text-sm text-white transition-colors hover:border-primary hover:text-primary"
-          >
-            Open the archive
-          </a>
-        </div>
+  <div class="projects-page">
+    <ProjectsHero />
+
+    <section id="project-highlights" class="bg-black py-8 text-white sm:py-10">
+      <div class="container max-w-[1120px]">
+        <ProjectsSectionHeader
+          title="Highlights"
+          description="Standout demo day work from across the program: infrastructure, clients, and tools that people still talk about."
+        />
+
+        <ProjectFeatureGrid highlights={projectHighlights} />
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="project-highlights" class="bg-black py-8 text-white sm:py-10">
-    <div class="container max-w-[1120px]">
-      <div class="mb-8 max-w-3xl">
-        <h2
-          class="text-4xl text-white"
-          style="font-family: 'IM Fell Double Pica', Times, serif;"
-        >
-          Highlights
-        </h2>
-        <p class="mt-3 text-base leading-relaxed text-gray-300 sm:text-lg">
-          Standout demo day work from across the program, with wireframe art where we have it and brand-forward cards
-          for the rest.
-        </p>
+    <section id="project-archives" class="bg-black py-16 text-white sm:py-20">
+      <div class="container max-w-[1120px]">
+        <ProjectsSectionHeader
+          eyebrow="Full archive"
+          title="Every cohort, one page at a time"
+          description="Open a cohort archive to browse the full demo day roster, from the latest SEC cohorts back to SEC-01."
+        />
+
+        <ProjectArchiveGrid recentSummaries={recentSummaries} earlierSummaries={earlierSummaries} />
       </div>
-
-      <ProjectFeatureGrid highlights={projectHighlights} />
-    </div>
-  </section>
-
-  <section id="project-archives" class="bg-black py-16 text-white sm:py-20">
-    <div class="container max-w-[1120px]">
-      <div class="mb-8 max-w-3xl">
-        <div class="text-xs uppercase tracking-[0.24em] text-primary/90">
-          Full archive
-        </div>
-        <h2
-          class="mt-3 text-4xl text-white"
-          style="font-family: 'IM Fell Double Pica', Times, serif;"
-        >
-          Every cohort, one page at a time
-        </h2>
-        <p class="mt-3 text-base leading-relaxed text-gray-300 sm:text-lg">
-          The long list now has room to breathe. Open any cohort archive to browse the full demo day roster without
-          burying the headline projects.
-        </p>
-      </div>
-
-      <ProjectArchiveGrid summaries={cohortSummaries} />
-    </div>
-  </section>
+    </section>
+  </div>
 </Base>

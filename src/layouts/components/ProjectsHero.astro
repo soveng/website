@@ -1,0 +1,39 @@
+---
+import { getShowcaseStats } from '@/lib/showcase';
+
+const { cohortCount, projectCount } = getShowcaseStats();
+const statsLabel = `${cohortCount} cohorts · ${projectCount} projects`;
+---
+
+<section class="bg-black pb-10 pt-20 text-white sm:pb-14 sm:pt-24">
+  <div class="container max-w-[1120px]">
+    <div class="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr] lg:gap-12">
+      <div>
+        <p class="projects-eyebrow">Demo Day Projects</p>
+        <h1 class="projects-display projects-headline mt-4 text-5xl text-white sm:text-6xl">
+          What shipped on Demo Day
+        </h1>
+        <p class="projects-body mt-6 max-w-2xl text-lg leading-relaxed text-gray-300 sm:text-xl">
+          Every Friday, participants showed what they built. Start with the headline projects below, then dig into the
+          full cohort archives.
+        </p>
+        <p class="projects-stats mt-4">{statsLabel}</p>
+        <div class="mt-8 flex flex-wrap gap-3">
+          <a href="#project-highlights" class="btn-retro">Browse highlights</a>
+          <a href="#project-archives" class="project-card-link-secondary">Open the archive</a>
+        </div>
+      </div>
+
+      <div class="projects-hero-visual aspect-[4/3] lg:aspect-auto lg:min-h-[320px]">
+        <img
+          src="/images/project-highlights/nostr-wireframe.png"
+          alt="Wireframe illustration of the Nostr network"
+          width="1200"
+          height="900"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </div>
+</section>

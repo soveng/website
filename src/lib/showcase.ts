@@ -21,7 +21,16 @@ export interface CohortSummary {
   count: number;
   sampleProjects: string[];
   highlightProjects: string[];
+  previewNames: string[];
+  moreCount: number;
 }
+
+export interface ShowcaseStats {
+  cohortCount: number;
+  projectCount: number;
+}
+
+export type CohortOrder = 'asc' | 'desc';
 
 export const allShowcaseProjects = showcaseProjects as ShowcaseProject[];
 
@@ -29,11 +38,23 @@ export function getCohortNumber(cohort: string): number {
   return Number.parseInt(cohort.replace('SEC-', ''), 10);
 }
 
+export function sortCohorts(cohorts: string[], order: CohortOrder = 'asc'): string[] {
+  const sorted = [...cohorts].sort((left, right) => getCohortNumber(left) - getCohortNumber(right));
+  return order === 'desc' ? sorted.reverse() : sorted;
+}
+
 export function sortCohortsAsc(cohorts: string[]): string[] {
-  return [...cohorts].sort((left, right) => getCohortNumber(left) - getCohortNumber(right));
+  return sortCohorts(cohorts, 'asc');
 }
 
 export const sortedCohorts = sortCohortsAsc([...new Set(allShowcaseProjects.map((project) => project.cohort))]);
+
+export function getShowcaseStats(): ShowcaseStats {
+  return {
+    cohortCount: sortedCohorts.length,
+    projectCount: allShowcaseProjects.length,
+  };
+}
 
 export function getProjectsForCohort(cohort: string): ShowcaseProject[] {
   return allShowcaseProjects.filter((project) => project.cohort === cohort);
@@ -50,18 +71,37 @@ export function slugifyProjectName(name: string): string {
     .replace(/^-+|-+$/g, '');
 }
 
-export function getCohortSummaries(): CohortSummary[] {
-  return sortedCohorts.map((cohort) => {
-    const projects = getProjectsForCohort(cohort);
-    const highlightProjects = projects.filter((project) => project.highlight).map((project) => project.name);
+function buildCohortSummary(cohort: string): CohortSummary {
+  const projects = getProjectsForCohort(cohort);
+  const highlightProjects = projects.filter((project) => project.highlight).map((project) => project.name);
+  const previewNames =
+    highlightProjects.length > 0
+      ? highlightProjects.slice(0, 3)
+      : projects.slice(0, 3).map((project) => project.name);
+  const moreCount = Math.max(0, projects.length - previewNames.length);
 
-    return {
-      cohort,
-      count: projects.length,
-      sampleProjects: projects.slice(0, 3).map((project) => project.name),
-      highlightProjects,
-    };
-  });
+  return {
+    cohort,
+    count: projects.length,
+    sampleProjects: projects.slice(0, 3).map((project) => project.name),
+    highlightProjects,
+    previewNames,
+    moreCount,
+  };
+}
+
+export function getCohortSummaries(options: { order?: CohortOrder } = {}): CohortSummary[] {
+  const { order = 'desc' } = options;
+  const cohorts = sortCohorts(sortedCohorts, order);
+  return cohorts.map(buildCohortSummary);
+}
+
+export function formatCohortPreview(summary: CohortSummary): string {
+  if (summary.moreCount > 0) {
+    return `${summary.previewNames.join(', ')} +${summary.moreCount} more`;
+  }
+
+  return summary.previewNames.join(', ');
 }
 
 export function getAdjacentCohorts(cohort: string): {

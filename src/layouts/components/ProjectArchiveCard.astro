@@ -1,0 +1,26 @@
+---
+import type { CohortSummary } from '@/lib/showcase';
+import { formatCohortPreview } from '@/lib/showcase';
+
+interface Props {
+  summary: CohortSummary;
+}
+
+const { summary } = Astro.props;
+const projectLabel = summary.count === 1 ? 'project' : 'projects';
+---
+
+<a
+  href={`/projects/${summary.cohort}`}
+  class="project-archive-card group"
+  aria-label={`View ${summary.count} ${projectLabel} from ${summary.cohort}`}
+>
+  <p class="text-xs uppercase tracking-[0.22em] text-white/55">
+    {summary.count} {projectLabel}
+  </p>
+  <h3 class="project-archive-card-title projects-display text-white">{summary.cohort}</h3>
+  <p class="projects-body mt-3 flex-1 text-sm leading-relaxed text-gray-300">{formatCohortPreview(summary)}</p>
+  <span class="mt-5 inline-flex items-center text-sm text-primary transition-colors group-hover:text-white">
+    View archive
+  </span>
+</a>
