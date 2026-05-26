@@ -270,11 +270,19 @@
   }
 }
 
-.projects-podcast-cta {
+.projects-separator {
   margin-top: 4rem;
+}
+
+.projects-separator img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.projects-podcast-cta {
+  margin-top: 2rem;
   max-width: 40rem;
-  padding-top: 2.5rem;
-  border-top: 1px solid rgb(255 255 255 / 10%);
 }
 
 .projects-archive-group-label {
