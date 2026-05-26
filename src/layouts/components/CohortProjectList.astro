@@ -1,9 +1,9 @@
 ---
+import { getCohortForwardLink } from '@/data/cohortCtas';
 import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
 import CohortPager from '@/layouts/components/CohortPager.astro';
-import CohortUpcomingCta from '@/layouts/components/CohortUpcomingCta.astro';
 import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
 import ProjectHighlightMark from '@/layouts/components/ProjectHighlightMark.astro';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
@@ -22,6 +22,7 @@ interface ProjectLink {
 
 const { cohort, projects, previousCohort, nextCohort } = Astro.props;
 const intro = getCohortIntro(cohort);
+const forwardLink = getCohortForwardLink(cohort);
 
 function projectLinks(project: ShowcaseProject): ProjectLink[] {
   const links: ProjectLink[] = [];
@@ -86,7 +87,12 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
           </p>
         )}
       </div>
-      <CohortPager previousCohort={previousCohort} nextCohort={nextCohort} />
+      <CohortPager
+        previousCohort={previousCohort}
+        nextCohort={nextCohort}
+        forwardLabel={forwardLink?.label}
+        forwardHref={forwardLink?.href}
+      />
     </header>
 
     <div class="cohort-project-list">
@@ -125,9 +131,9 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
     <CohortPager
       previousCohort={previousCohort}
       nextCohort={nextCohort}
+      forwardLabel={forwardLink?.label}
+      forwardHref={forwardLink?.href}
       class="cohort-pager-footer"
     />
-
-    <CohortUpcomingCta cohort={cohort} />
   </div>
 </section>
