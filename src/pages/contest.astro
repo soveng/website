@@ -57,16 +57,18 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
           <p>
             Having a shirt for each cohort is a tradition by now. So we thought: why not make it participatory and weird and fun and use Nostr for
             everything? Read <a href={sec08Url} target="_blank" rel="noopener noreferrer">the blog post</a> and check <a href="/swag">past designs</a> for
-            inspiration. Or feel free to come up with something else entirely.<img
+            inspiration. Or feel free to come up with something else entirely.
+          </p>
+          <figure class="question-mark-figure" aria-hidden="true">
+            <img
               src={questionMarkImage}
               alt=""
-              class="inline-question-mark"
               width="546"
               height="595"
               loading="lazy"
               decoding="async"
             />
-          </p>
+          </figure>
           <p>
             The winning design should work on an actual t-shirt, obviously. If we can't print it, we won't be able to select it, meaning you won't be
             able to win a million sats!
@@ -267,12 +269,15 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     color: var(--color-primary);
   }
 
-  .inline-question-mark {
-    display: inline;
-    height: 1.15em;
-    margin-left: 0.15em;
-    vertical-align: -0.12em;
-    width: auto;
+  .question-mark-figure {
+    margin: 1.75rem 0 0;
+  }
+
+  .question-mark-figure img {
+    display: block;
+    height: auto;
+    max-width: 20rem;
+    width: 100%;
   }
 
   .requirements {
