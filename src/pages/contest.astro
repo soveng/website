@@ -73,6 +73,24 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
             Deadline is <strong>June 15</strong>.
           </p>
         </section>
+
+        <section class="prize-marquee" aria-label="Contest prizes">
+          {prizes.map((prize) => (
+            <div class={`marquee-prize ${prize.tier}`}>
+              <div class="prize-label">
+                <div class="rank" aria-label={prize.place}>
+                  <span class="rank-number">{prize.rank}</span>
+                  <span class="rank-suffix">{prize.suffix}</span>
+                </div>
+                <span class="rank-cue">{prize.cue}</span>
+              </div>
+              <strong>
+                <span class="prize-amount">{prize.amount}</span>
+                <span class="prize-unit">{prize.unit}</span>
+              </strong>
+            </div>
+          ))}
+        </section>
       </div>
 
       <aside class="details" aria-labelledby="details-heading">
@@ -108,24 +126,6 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
           />
         </figure>
       </aside>
-
-      <section class="prize-marquee" aria-label="Contest prizes">
-        {prizes.map((prize) => (
-          <div class={`marquee-prize ${prize.tier}`}>
-            <div class="prize-label">
-              <div class="rank" aria-label={prize.place}>
-                <span class="rank-number">{prize.rank}</span>
-                <span class="rank-suffix">{prize.suffix}</span>
-              </div>
-              <span class="rank-cue">{prize.cue}</span>
-            </div>
-            <strong>
-              <span class="prize-amount">{prize.amount}</span>
-              <span class="prize-unit">{prize.unit}</span>
-            </strong>
-          </div>
-        ))}
-      </section>
 
       <section class="requirements" aria-labelledby="requirements-heading">
         <figure class="contest-separator" aria-hidden="true">
@@ -231,7 +231,6 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     gap: 3rem;
     grid-template-areas:
       "brief details"
-      "prize ."
       "requirements .";
     grid-template-columns: minmax(0, 1fr) 360px;
   }
@@ -244,12 +243,12 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
     grid-area: details;
   }
 
-  .lower-grid > .prize-marquee {
-    grid-area: prize;
-  }
-
   .lower-grid > .requirements {
     grid-area: requirements;
+  }
+
+  .contest-copy .prize-marquee {
+    margin-top: 1.5rem;
   }
 
   .contest-copy p,
@@ -507,7 +506,6 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
       grid-template-areas:
         "brief"
         "details"
-        "prize"
         "requirements";
       grid-template-columns: 1fr;
     }
