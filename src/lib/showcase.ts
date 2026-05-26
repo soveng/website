@@ -61,7 +61,9 @@ export function sortCohortsAsc(cohorts: string[]): string[] {
 export const sortedCohorts = sortCohortsAsc([...new Set(allShowcaseProjects.map((project) => project.cohort))]);
 
 export function getProjectsForCohort(cohort: string): ShowcaseProject[] {
-  return allShowcaseProjects.filter((project) => project.cohort === cohort);
+  return allShowcaseProjects
+    .filter((project) => project.cohort === cohort)
+    .sort((left, right) => left.name.localeCompare(right.name, undefined, { sensitivity: 'base' }));
 }
 
 export function getProjectByName(name: string): ShowcaseProject | undefined {
