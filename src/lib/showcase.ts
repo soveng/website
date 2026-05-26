@@ -78,13 +78,8 @@ export function slugifyProjectName(name: string): string {
 function buildCohortSummary(cohort: string): CohortSummary {
   const projects = getProjectsForCohort(cohort);
   const landingProjects = getLandingProjectsForCohort(cohort);
-  const highlightProjects = landingProjects
-    .filter((project) => project.highlight)
-    .map((project) => project.name);
-  const previewNames =
-    highlightProjects.length > 0
-      ? highlightProjects.slice(0, 3)
-      : landingProjects.slice(0, 3).map((project) => project.name);
+  const highlightProjects = landingProjects.filter((project) => project.highlight).map((project) => project.name);
+  const previewNames = highlightProjects.length > 0 ? highlightProjects.slice(0, 3) : landingProjects.slice(0, 3).map((project) => project.name);
   const moreCount = Math.max(0, projects.length - previewNames.length);
 
   return {
