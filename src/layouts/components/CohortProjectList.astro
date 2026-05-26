@@ -3,6 +3,7 @@ import { getCohortIntro } from '@/data/cohortIntros';
 import type { ShowcaseProject } from '@/lib/showcase';
 import { slugifyProjectName } from '@/lib/showcase';
 import CohortPager from '@/layouts/components/CohortPager.astro';
+import CohortUpcomingCta from '@/layouts/components/CohortUpcomingCta.astro';
 import ProjectExternalLink from '@/layouts/components/ProjectExternalLink.astro';
 import ProjectHighlightMark from '@/layouts/components/ProjectHighlightMark.astro';
 import ProjectMark from '@/layouts/components/ProjectMark.astro';
@@ -126,5 +127,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
       nextCohort={nextCohort}
       class="cohort-pager-footer"
     />
+
+    <CohortUpcomingCta cohort={cohort} />
   </div>
 </section>
