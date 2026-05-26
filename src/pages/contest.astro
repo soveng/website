@@ -474,23 +474,23 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   }
 
   .marquee-prize strong {
-    align-items: center;
+    align-items: baseline;
     color: var(--color-text);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     font-weight: 700;
-    gap: 0.15rem;
+    gap: 0.35rem;
+    justify-content: center;
     line-height: 1;
   }
 
   .prize-amount {
-    display: block;
     font-size: clamp(1.65rem, 2.1vw, 2.2rem);
   }
 
   .prize-unit {
     color: var(--color-text-light);
-    display: block;
     font-family: var(--font-secondary);
     font-size: 0.82rem;
     letter-spacing: 0.18em;
