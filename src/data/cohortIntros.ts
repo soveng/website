@@ -60,12 +60,12 @@ export const cohortIntros: Record<string, CohortIntro> = {
       href: '/podcast',
     },
     paragraph:
-      'Thirty-four projects shipped in SEC-04 — relays, payments, browsers, developer tooling — each demo an explicit choice under real constraints.',
+      'SEC-04 shipped thirty-four Friday demos. Relays, payments, browsers, castr.me, gitworkshop, and the rest of the list below.',
   },
   'SEC-05': {
     theme: 'YOLO Mode',
     paragraph:
-      'Bitcoin and nostr are permissionless, so builders stop asking and start shipping. Forty-one demos in SEC-05 span relays, mining, AI, browsers, and more — systems aimed at making the old stack obsolete, not reforming it.',
+      'SEC-05 set a cohort record with forty-one shipped projects. Relays, mining, browsers, AI tools, and other experiments from the list below.',
   },
   'SEC-06': {
     theme: 'Identity & Signers',
