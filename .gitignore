@@ -26,3 +26,9 @@ package-lock.json
 
 # ide
 .idea/
+
+# local agent/tool artifacts
+.hermes/
+.playwright-cli/
+output/
+sketches/
