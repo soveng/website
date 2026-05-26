@@ -268,8 +268,8 @@
     "name": "NIP-61",
     "description": "Nutzaps: Receiving—and verifying— zaps, has always been a weak point in nostr. Nutzaps have enabled a new, more straightforward and verifiable way to participate in the zap-economy.",
     "cohort": "SEC-02",
-    "link": "https://nips.nostr.com/61",
-    "linkText": "nips.nostr.com/61",
+    "link": "https://github.com/nostr-protocol/nips/blob/master/61.md",
+    "linkText": "github.com/nostr-protocol/nips/61.md",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": true
   },
