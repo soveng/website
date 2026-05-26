@@ -1,5 +1,6 @@
 ---
 import type { ProjectHighlight } from '@/data/projectHighlights';
+import ProjectHighlightExternalLink from '@/layouts/components/ProjectHighlightExternalLink.astro';
 
 interface Props {
   highlight: ProjectHighlight;
@@ -9,15 +10,26 @@ const { highlight } = Astro.props;
 const imageAlt = highlight.imageAlt ?? `${highlight.title} wireframe illustration`;
 ---
 
-<a href={highlight.href} class="highlight-spotlight">
+<article class="highlight-spotlight">
   {highlight.image && (
-    <div class="highlight-spotlight-media">
-      <img src={highlight.image} alt={imageAlt} loading="lazy" decoding="async" />
-    </div>
+    <a href={highlight.href} class="highlight-spotlight-media-link">
+      <div class="highlight-spotlight-media">
+        <img src={highlight.image} alt={imageAlt} loading="lazy" decoding="async" />
+      </div>
+    </a>
   )}
   <div class="highlight-spotlight-body">
-    <p class="highlight-spotlight-meta">{highlight.eyebrow}</p>
-    <h3 class="highlight-spotlight-title projects-display">{highlight.title}</h3>
-    <p class="highlight-spotlight-desc projects-body">{highlight.description}</p>
+    <div class="highlight-spotlight-heading">
+      <a href={highlight.href} class="highlight-spotlight-text-link">
+        <p class="highlight-spotlight-meta">{highlight.eyebrow}</p>
+        <h3 class="highlight-spotlight-title projects-display">{highlight.title}</h3>
+      </a>
+      {highlight.externalUrl && (
+        <ProjectHighlightExternalLink href={highlight.externalUrl} label={highlight.title} />
+      )}
+    </div>
+    <a href={highlight.href} class="highlight-spotlight-desc-link">
+      <p class="highlight-spotlight-desc projects-body">{highlight.description}</p>
+    </a>
   </div>
-</a>
+</article>
