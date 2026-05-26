@@ -2,6 +2,7 @@
 import Base from "@/layouts/Base.astro";
 
 const heroImage = "/images/contest/t-shirt-design-contest.webp";
+const questionMarkImage = "/images/contest/question-mark-white.png";
 const prizes = [
   { place: "1st", tier: "first", rank: "1", suffix: "st", cue: "Winner", amount: "1,000,000", unit: "sats" },
   { place: "2nd", tier: "second", rank: "2", suffix: "nd", cue: "Runner-up", amount: "250,000", unit: "sats" },
@@ -56,7 +57,15 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
           <p>
             Having a shirt for each cohort is a tradition by now. So we thought: why not make it participatory and weird and fun and use Nostr for
             everything? Read <a href={sec08Url} target="_blank" rel="noopener noreferrer">the blog post</a> and check <a href="/swag">past designs</a> for
-            inspiration. Or feel free to come up with something else entirely.
+            inspiration. Or feel free to come up with something else entirely.<img
+              src={questionMarkImage}
+              alt=""
+              class="inline-question-mark"
+              width="546"
+              height="595"
+              loading="lazy"
+              decoding="async"
+            />
           </p>
           <p>
             The winning design should work on an actual t-shirt, obviously. If we can't print it, we won't be able to select it, meaning you won't be
@@ -256,6 +265,14 @@ const sovEngUrl = "https://ants.sh/t/SovEng";
   .details a:hover,
   .requirements a:hover {
     color: var(--color-primary);
+  }
+
+  .inline-question-mark {
+    display: inline;
+    height: 1.15em;
+    margin-left: 0.15em;
+    vertical-align: -0.12em;
+    width: auto;
   }
 
   .requirements {
