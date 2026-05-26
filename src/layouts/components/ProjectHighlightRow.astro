@@ -25,9 +25,11 @@ const { highlight } = Astro.props;
     ) : null}
     <span class="highlight-row-title projects-display">{highlight.title}</span>
     <span class="highlight-row-desc projects-body">{highlight.description}</span>
-    <span class="highlight-row-meta">{highlight.eyebrow}</span>
   </a>
-  {highlight.externalUrl && (
-    <ProjectHighlightExternalLink href={highlight.externalUrl} label={highlight.title} />
-  )}
+  <div class="highlight-row-aside">
+    <a href={highlight.href} class="highlight-row-meta">{highlight.eyebrow}</a>
+    {highlight.externalUrl && (
+      <ProjectHighlightExternalLink href={highlight.externalUrl} label={highlight.title} />
+    )}
+  </div>
 </article>
