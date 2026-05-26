@@ -70,7 +70,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   'SEC-06': {
     theme: 'Identity & Signers',
     paragraph:
-      'Identity in sovereign systems is held in keys, not assigned by platforms. SEC-06 focused on signers, key rollovers, and the layer where intent becomes cryptographic action.',
+      'SEC-06 covered signers and key rollovers. Generate a keypair, move it between devices, and sign nostr events with keys you run yourself.',
   },
   'SEC-07': {
     theme: 'Networks & Hardware',
