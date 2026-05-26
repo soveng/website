@@ -259,8 +259,8 @@
     "name": "NIP-60",
     "description": "Nostr protocol extension for Cashu wallet functionality, enabling seamless eCash transactions within nostr applications.",
     "cohort": "SEC-02",
-    "link": "https://nips.nostr.com/60",
-    "linkText": "nips.nostr.com/60",
+    "link": "https://github.com/nostr-protocol/nips/blob/master/60.md",
+    "linkText": "github.com/nostr-protocol/nips/60.md",
     "logo": "/images/showcase/cashu-logo.png",
     "highlight": true
   },
