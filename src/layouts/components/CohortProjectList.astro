@@ -11,7 +11,6 @@ interface Props {
 }
 
 const { cohort, projects, previousCohort, nextCohort } = Astro.props;
-const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ? "project" : "projects"}`;
 ---
 
 <section class="bg-black py-16 text-white sm:py-20">
@@ -35,9 +34,6 @@ const projectCountLabel = `${projects.length} demo day ${projects.length === 1 ?
           >
             {cohort}
           </h1>
-          <p class="mt-3 text-lg text-gray-300">
-            {projectCountLabel} shipped during this cohort.
-          </p>
         </div>
         <p class="max-w-xl text-sm leading-relaxed text-gray-400">
           Every Friday, participants showed what they built. This page keeps the full cohort list while the main
