@@ -31,6 +31,13 @@ function toSlug(title: string): string {
     .toLowerCase();
 }
 
+function cleanTitle(title: string): string {
+  return title
+    .replace(/^#\s*/, '')
+    .replace(/\s+w\/\s+.*$/i, '')
+    .trim();
+}
+
 function formatDuration(seconds: number): string {
   const hours = Math.floor(seconds / 3600);
   const mins = Math.floor((seconds % 3600) / 60);
@@ -121,7 +128,7 @@ function parseItems(xml: string): Episode[] {
     const blockHeight = blockHeightMatch ? blockHeightMatch[2].trim() : '';
 
     items.push({
-      title,
+      title: cleanTitle(title),
       slug: toSlug(title),
       audioUrl: getAttr('enclosure', 'url'),
       audioType: getAttr('enclosure', 'type'),
