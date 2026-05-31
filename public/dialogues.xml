@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
-    <lastBuildDate>Sun, 31 May 2026 18:52:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 19:04:02 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -125,7 +125,7 @@ href="https://mempool.space/block/951851">951,851</a>.</p>]]></description>
       <guid isPermaLink="false">83e8ee0c-5cf1-4503-baef-4b89aec05d3a</guid>
       <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
       <itunes:duration>4068</itunes:duration>
-      <itunes:image href="https://haven.dergigi.com/a9ff0501e274f746006e83ebed363e29b2b563b1f24cd577370e2fe5093db07b.jpg"/>
+      <itunes:image href="https://haven.dergigi.com/91b01febab61316a01d3f12615d1e04eac313ef88391f33a14e0ee8e6f068e39.jpg"/>
       <podcast:person href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9" img="https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg" group="cast" role="guest">Franzap</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/c9bf2351fdf6a8d3d607ce5d8a8264a65faded2726a5f550275fec00f74c2508.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/26-zapstore-w-franzap.json" type="application/json+chapters"/>
