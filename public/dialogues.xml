@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
-    <lastBuildDate>Sun, 31 May 2026 22:24:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 22:39:41 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -97,7 +97,9 @@ self-published releases</li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li>PHF (built an earlier Nostr-native commenting system that influenced
+<li><a
+href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a>
+(built an earlier Nostr-native commenting system that influenced
 ZapThreads)</li>
 <li>American HODL / Viper (example of agent-built, agent-published
 Android apps)</li>
@@ -113,7 +115,9 @@ publisher CLI)</li>
 <li><a href="https://grapheneos.org/">GrapheneOS</a></li>
 <li><a href="https://opensats.org/">OpenSats</a></li>
 <li><a href="https://ninite.com/">Ninite</a></li>
-<li><a href="https://www.fossify.org/">Fossify Voice Recorder</a></li>
+<li><a
+href="https://zapstore.dev/apps/org.fossify.voicerecorder">Fossify Voice
+Recorder</a></li>
 <li><a href="https://phoenix.acinq.co/">Phoenix Wallet</a></li>
 </ul>
 <p>Recorded at <a
@@ -189,7 +193,9 @@ self-published releases</li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li>PHF (built an earlier Nostr-native commenting system that influenced
+<li><a
+href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a>
+(built an earlier Nostr-native commenting system that influenced
 ZapThreads)</li>
 <li>American HODL / Viper (example of agent-built, agent-published
 Android apps)</li>
@@ -205,7 +211,9 @@ publisher CLI)</li>
 <li><a href="https://grapheneos.org/">GrapheneOS</a></li>
 <li><a href="https://opensats.org/">OpenSats</a></li>
 <li><a href="https://ninite.com/">Ninite</a></li>
-<li><a href="https://www.fossify.org/">Fossify Voice Recorder</a></li>
+<li><a
+href="https://zapstore.dev/apps/org.fossify.voicerecorder">Fossify Voice
+Recorder</a></li>
 <li><a href="https://phoenix.acinq.co/">Phoenix Wallet</a></li>
 </ul>
 <p>Recorded at <a
