@@ -34,6 +34,7 @@
         "vite": "^6.3.3",
       },
       "devDependencies": {
+        "@fontsource/inter": "^5.2.8",
         "@tailwindcss/forms": "^0.5.10",
         "@tailwindcss/typography": "^0.5.16",
         "@tailwindcss/vite": "^4.1.4",
@@ -215,6 +216,8 @@
     "@fontsource/eb-garamond": ["@fontsource/eb-garamond@5.2.7", "", {}, "sha512-V42tTlHDbnDo0+lENnXKWMx63Llq6Gfl2l7ozkoeRQN60S0jm6hEgCLlOT/5YyKAN9QZ0e2ofpy0rGKlz9jBrw=="],
 
     "@fontsource/im-fell-double-pica": ["@fontsource/im-fell-double-pica@5.2.6", "", {}, "sha512-9fjKePs1TgJ3MAUYtCz/UeKpm2x4OyCXuvtZhC3S7/SDBRRFti98cIOIaNiuJJPqQrDuFUwiRbVSc7YDyRq5xQ=="],
+
+    "@fontsource/inter": ["@fontsource/inter@5.2.8", "", {}, "sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg=="],
 
     "@fortawesome/fontawesome-free": ["@fortawesome/fontawesome-free@7.1.0", "", {}, "sha512-+WxNld5ZCJHvPQCr/GnzCTVREyStrAJjisUPtUxG5ngDA8TMlPnKp6dddlTpai4+1GNmltAeuk1hJEkBohwZYA=="],
 

@@ -21,13 +21,13 @@ const CENTER_Y = 300;
 const ACCENT = '#ED3238';
 const SPINE_X = 512;
 
-const KICKER = { size: 18, tracking: 3.5, lineHeight: 30, color: ACCENT, label: 'NO SOLUTIONS PODCAST' };
-const TITLE = { size: 54, lineHeight: 62, maxLines: 3, color: '#FFFFFF' };
-const META = { size: 22, lineHeight: 30, color: '#9A9A9A' };
-const QUOTE = { size: 28, lineHeight: 38, maxLines: 2, color: '#DCDCDC' };
-const FOOTER = { size: 21, color: '#6F6F6F', y: 566 };
+const KICKER = { size: 16, tracking: 3, lineHeight: 28, color: ACCENT, label: 'NO SOLUTIONS PODCAST' };
+const TITLE = { size: 50, lineHeight: 60, maxLines: 3, color: '#FFFFFF' };
+const META = { size: 21, lineHeight: 30, color: '#9A9A9A' };
+const QUOTE = { size: 26, lineHeight: 36, maxLines: 2, color: '#DCDCDC' };
+const FOOTER = { size: 20, color: '#6F6F6F', y: 566 };
 
-const GAP_KICKER_TITLE = 16;
+const GAP_KICKER_TITLE = 18;
 const GAP_TITLE_META = 30;
 const GAP_META_QUOTE = 18;
 
@@ -38,9 +38,9 @@ function loadFont(spec: string): opentype.Font {
   return opentype.parse(buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength));
 }
 
-const fontDisplay = loadFont('@fontsource/im-fell-double-pica/files/im-fell-double-pica-latin-400-normal.woff');
-const fontBody = loadFont('@fontsource/eb-garamond/files/eb-garamond-latin-400-normal.woff');
-const fontItalic = loadFont('@fontsource/eb-garamond/files/eb-garamond-latin-400-italic.woff');
+const fontDisplay = loadFont('@fontsource/inter/files/inter-latin-700-normal.woff');
+const fontBody = loadFont('@fontsource/inter/files/inter-latin-400-normal.woff');
+const fontItalic = loadFont('@fontsource/inter/files/inter-latin-400-italic.woff');
 
 function width(font: opentype.Font, text: string, size: number): number {
   return font.getAdvanceWidth(text, size);
@@ -131,7 +131,6 @@ function buildBackgroundSvg(): Buffer {
   <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="${WIDTH}" height="${HEIGHT}" fill="#050505" />
     <rect x="0" y="0" width="${WIDTH}" height="${HEIGHT}" fill="url(#bg)" />
-    <rect x="36" y="36" width="1128" height="558" rx="28" fill="none" stroke="#2B2B2B" stroke-width="2" />
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
         <stop stop-color="#0B0B0B" />
@@ -192,8 +191,6 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
 
   const footerPath = `<path d="${pathData(fontBody, 'sovereignengineering.io/podcast', TEXT_X, FOOTER.y, FOOTER.size)}" fill="${FOOTER.color}" />`;
 
-  const coverBorder = `<rect x="${COVER_X - 6}" y="${COVER_Y - 6}" width="${COVER_SIZE + 12}" height="${COVER_SIZE + 12}" rx="24" fill="none" stroke="#343434" stroke-width="2" />`;
-
   let fallbackMarkup = '';
   if (!hasCover) {
     const cx = COVER_X + COVER_SIZE / 2;
@@ -207,7 +204,6 @@ function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
 
   const svg = `
   <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
-    ${coverBorder}
     ${fallbackMarkup}
     ${spine}
     ${paths.join('\n    ')}
