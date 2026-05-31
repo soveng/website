@@ -39,10 +39,182 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Sat, 30 May 2026 20:03:46 +0000</pubDate>
-    <lastBuildDate>Sat, 30 May 2026 20:03:46 +0000</lastBuildDate>
+    <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
+    <lastBuildDate>Sun, 31 May 2026 18:52:34 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>26: Zapstore w/ Franzap</title>
+      <description><![CDATA[<p>"The user joins the community, and the community does a lot of the
+heavy lifting."</p>
+<p><a
+href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a>
+&amp; <a
+href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+take a walk in Oslo.</p>
+<p><a
+href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">Listen
+on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>How Zapstore grew out of the first Sovereign Engineering cohort in
+Madeira, earlier experiments like <a
+href="https://github.com/franzaps/zapthreads">ZapThreads</a>, and
+Franzap's frustration with closed mobile app stores</li>
+<li>Why <a href="https://ninite.com/">Ninite</a>, app stacks, and
+curated discovery mattered as much as the raw "permissionless app store"
+idea</li>
+<li>What it means to run Zapstore as a real marketplace: breaking the
+chicken-and-egg problem by pre-populating supply, signing apps under the
+Zapstore key, and gradually moving developers toward
+self-publishing</li>
+<li>Web-of-trust computation, trust providers, and why app distribution
+raises the stakes far beyond regular social posting</li>
+<li>Franzap's "credible exit" framing: sometimes you dial down
+decentralization to improve UX, as long as users can still verify,
+leave, and choose another community</li>
+<li><a href="https://github.com/zapstore/zsp">ZSP</a>, the Zapstore
+publisher CLI, and how agents can already build and publish Android apps
+without the developer even owning an Android phone</li>
+<li>Device keys, encrypted preferences, onboarding trade-offs, and why
+social features, comments, and zaps are a different problem from simply
+installing an app</li>
+<li>Why app lists are a privacy leak, how update infrastructure can turn
+into a honeypot, and what it means to distribute software without
+building a profiling machine</li>
+<li>The operational pain behind a living app catalog: pre-releases, key
+rotations, migrations, certificate mismatches, and endless edge
+cases</li>
+<li>Google's tightening sideloading and KYC rules, Apple's
+developer-account maze, and why every new permissioned hurdle makes the
+permissionless route more compelling</li>
+<li>Why Zapstore may matter most for people at the edges: controversial
+apps, developers outside the usual payment rails, and users who cannot
+or will not pass through the official gates</li>
+<li>What's next: default communities, reviews, malware checks, privacy
+analysis, reproducibility, and smoother handoffs from indexed apps to
+self-published releases</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li>PHF (built an earlier Nostr-native commenting system that influenced
+ZapThreads)</li>
+<li>Martin (interviewed Franzap before the first Sovereign Engineering
+cohort)</li>
+<li>American HODL / Viper (example of agent-built, agent-published
+Android apps)</li>
+<li>DHH and PewDiePie (part of the closing Linux detour)</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
+<li><a href="https://github.com/franzaps/zapthreads">ZapThreads</a></li>
+<li><a href="https://github.com/zapstore/zsp">ZSP</a> (Zapstore
+publisher CLI)</li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a></li>
+<li><a href="https://opensats.org/">OpenSats</a></li>
+<li><a href="https://ninite.com/">Ninite</a></li>
+<li><a href="https://www.fossify.org/">Fossify Voice Recorder</a></li>
+<li><a href="https://phoenix.acinq.co/">Phoenix Wallet</a></li>
+</ul>
+<p>Recorded at <a
+href="https://mempool.space/block/951851">951,851</a>.</p>]]></description>
+      <link>https://njump.to/nevent1qqsfzk4yjd9rx05g847defca3mnmewjzek4p67wckddp9pwmmea9eggpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftnuc954</link>
+      <enclosure url="https://haven.dergigi.com/3043e0ed2f45d5fa1351676096dfe1c8b3897fd6a0db95e296f1e18893a55ed9.m4a" length="36768421" type="audio/mp4"/>
+      <guid isPermaLink="false">83e8ee0c-5cf1-4503-baef-4b89aec05d3a</guid>
+      <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
+      <itunes:duration>4068</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/a9ff0501e274f746006e83ebed363e29b2b563b1f24cd577370e2fe5093db07b.jpg"/>
+      <podcast:person href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9" img="https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg" group="cast" role="guest">Franzap</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/c9bf2351fdf6a8d3d607ce5d8a8264a65faded2726a5f550275fec00f74c2508.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/26-zapstore-w-franzap.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq2nyd3d0fshqum5daex2tth94n8yctw0fshqqghwaehxw309a5xzan9dchxgetjva5kw6fwvdhk6qg4waehxw309amk7apwv3jhyemfva5jucm0d5q3vamnwvaz7tmjv4kxz7fwwpexjmtpdshxuet5qyxhwumn8ghj7mn0wvhxcmmvqgsfhhjzzjgl86k34ssm68gpvea2h9rlfswy4mv8vfx0yfemqm9q22crqsqqqa28spgh2g">Show Notes</podcast:contentLink>
+      <itunes:subtitle>26: Zapstore w/ Franzap</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>zapstore, android, nostr, app store, graphene, kyc, marketplace, discovery, sovereign engineering, dialog</itunes:keywords>
+      <itunes:summary><![CDATA[<p>"The user joins the community, and the community does a lot of the
+heavy lifting."</p>
+<p><a
+href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a>
+&amp; <a
+href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+take a walk in Oslo.</p>
+<p><a
+href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">Listen
+on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>How Zapstore grew out of the first Sovereign Engineering cohort in
+Madeira, earlier experiments like <a
+href="https://github.com/franzaps/zapthreads">ZapThreads</a>, and
+Franzap's frustration with closed mobile app stores</li>
+<li>Why <a href="https://ninite.com/">Ninite</a>, app stacks, and
+curated discovery mattered as much as the raw "permissionless app store"
+idea</li>
+<li>What it means to run Zapstore as a real marketplace: breaking the
+chicken-and-egg problem by pre-populating supply, signing apps under the
+Zapstore key, and gradually moving developers toward
+self-publishing</li>
+<li>Web-of-trust computation, trust providers, and why app distribution
+raises the stakes far beyond regular social posting</li>
+<li>Franzap's "credible exit" framing: sometimes you dial down
+decentralization to improve UX, as long as users can still verify,
+leave, and choose another community</li>
+<li><a href="https://github.com/zapstore/zsp">ZSP</a>, the Zapstore
+publisher CLI, and how agents can already build and publish Android apps
+without the developer even owning an Android phone</li>
+<li>Device keys, encrypted preferences, onboarding trade-offs, and why
+social features, comments, and zaps are a different problem from simply
+installing an app</li>
+<li>Why app lists are a privacy leak, how update infrastructure can turn
+into a honeypot, and what it means to distribute software without
+building a profiling machine</li>
+<li>The operational pain behind a living app catalog: pre-releases, key
+rotations, migrations, certificate mismatches, and endless edge
+cases</li>
+<li>Google's tightening sideloading and KYC rules, Apple's
+developer-account maze, and why every new permissioned hurdle makes the
+permissionless route more compelling</li>
+<li>Why Zapstore may matter most for people at the edges: controversial
+apps, developers outside the usual payment rails, and users who cannot
+or will not pass through the official gates</li>
+<li>What's next: default communities, reviews, malware checks, privacy
+analysis, reproducibility, and smoother handoffs from indexed apps to
+self-published releases</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li>PHF (built an earlier Nostr-native commenting system that influenced
+ZapThreads)</li>
+<li>Martin (interviewed Franzap before the first Sovereign Engineering
+cohort)</li>
+<li>American HODL / Viper (example of agent-built, agent-published
+Android apps)</li>
+<li>DHH and PewDiePie (part of the closing Linux detour)</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
+<li><a href="https://github.com/franzaps/zapthreads">ZapThreads</a></li>
+<li><a href="https://github.com/zapstore/zsp">ZSP</a> (Zapstore
+publisher CLI)</li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a></li>
+<li><a href="https://opensats.org/">OpenSats</a></li>
+<li><a href="https://ninite.com/">Ninite</a></li>
+<li><a href="https://www.fossify.org/">Fossify Voice Recorder</a></li>
+<li><a href="https://phoenix.acinq.co/">Phoenix Wallet</a></li>
+</ul>
+<p>Recorded at <a
+href="https://mempool.space/block/951851">951,851</a>.</p>]]></itunes:summary>
+    </item>
     <item>
       <title>25: White Noise, MLS, and marmot w/ Jeff G</title>
       <description><![CDATA[<p>"What we're actually building is an unstoppable messenger."</p>

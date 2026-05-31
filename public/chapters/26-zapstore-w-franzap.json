@@ -1,0 +1,88 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "26: Zapstore w/ Franzap",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 26, Zapstore w/ Franzap.",
+  "fileName": "26 - Zapstore.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 182,
+      "title": "Madeira Roots",
+      "url": "https://sovereignengineering.io/"
+    },
+    {
+      "startTime": 182,
+      "endTime": 430,
+      "title": "Zapstore Spark",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 430,
+      "endTime": 745,
+      "title": "Daily Driver Store",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 745,
+      "endTime": 1200,
+      "title": "Trust Providers",
+      "url": "https://nostr.com/"
+    },
+    {
+      "startTime": 1200,
+      "endTime": 1517,
+      "title": "Credible Exit",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 1517,
+      "endTime": 1831,
+      "title": "ZSP and Agents",
+      "url": "https://github.com/zapstore/zsp"
+    },
+    {
+      "startTime": 1831,
+      "endTime": 2160,
+      "title": "Device Keys",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 2160,
+      "endTime": 2400,
+      "title": "Seed the Supply",
+      "url": "https://www.fossify.org/"
+    },
+    {
+      "startTime": 2400,
+      "endTime": 2718,
+      "title": "Release Edge Cases",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 2718,
+      "endTime": 3241,
+      "title": "KYC and Friction",
+      "url": "https://grapheneos.org/"
+    },
+    {
+      "startTime": 3241,
+      "endTime": 3601,
+      "title": "iOS Paths",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 3601,
+      "endTime": 3900,
+      "title": "Passport Pressure",
+      "url": "https://grapheneos.org/"
+    },
+    {
+      "startTime": 3900,
+      "endTime": 4067.690667,
+      "title": "Next Communities",
+      "url": "https://zapstore.dev/"
+    }
+  ]
+}
