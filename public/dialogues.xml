@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
-    <lastBuildDate>Sun, 31 May 2026 19:04:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 22:24:55 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -99,8 +99,6 @@ self-published releases</li>
 <ul>
 <li>PHF (built an earlier Nostr-native commenting system that influenced
 ZapThreads)</li>
-<li>Martin (interviewed Franzap before the first Sovereign Engineering
-cohort)</li>
 <li>American HODL / Viper (example of agent-built, agent-published
 Android apps)</li>
 <li>DHH and PewDiePie (part of the closing Linux detour)</li>
@@ -193,8 +191,6 @@ self-published releases</li>
 <ul>
 <li>PHF (built an earlier Nostr-native commenting system that influenced
 ZapThreads)</li>
-<li>Martin (interviewed Franzap before the first Sovereign Engineering
-cohort)</li>
 <li>American HODL / Viper (example of agent-built, agent-published
 Android apps)</li>
 <li>DHH and PewDiePie (part of the closing Linux detour)</li>
