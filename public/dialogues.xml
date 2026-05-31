@@ -39,10 +39,336 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Thu, 16 Apr 2026 14:24:22 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Apr 2026 14:35:36 +0000</lastBuildDate>
+    <pubDate>Sat, 30 May 2026 20:03:46 +0000</pubDate>
+    <lastBuildDate>Sat, 30 May 2026 20:03:46 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>25: White Noise, MLS, and marmot w/ Jeff G</title>
+      <description><![CDATA[<p>"What we're actually building is an unstoppable messenger."</p>
+<p><a
+href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc">Jeff
+G</a> &amp; <a
+href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+take a walk in Oslo.</p>
+<p><a
+href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeffg">Listen
+on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>Jeff G explains how <a href="https://www.whitenoise.chat/">White
+Noise</a> started as an attempt to build the most private messenger
+possible, then slowly mutated into something else: an unstoppable
+messenger that can survive ugly network conditions and hostile
+environments</li>
+<li>Why <a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a> on
+<a href="https://nostr.com/">Nostr</a> is mostly an ordering problem:
+identity and delivery are the easy parts, group-state evolution is where
+everything breaks</li>
+<li>Forked histories, missing commits, and the nightmare scenario where
+a group silently splits into incompatible realities without anybody
+noticing</li>
+<li>The temptation of coordinators, sequencers, and Pablo's hilariously
+named <a href="https://github.com/pablof7z/serial-killer">Serial Killer
+Relay</a>, plus the deeper question of when a relay stops being a relay
+and quietly becomes a server</li>
+<li>Calle's <a href="https://cashu.space/">Cashu</a> headaches, <a
+href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>
+and NIP-61 edge cases, and the "pocket with a hole" problem where
+balances seem to disappear, reappear, and generally behave like loose
+change under a couch</li>
+<li>Jeff G's current bet for <a
+href="https://github.com/marmot-protocol/marmot">Marmot</a>: a
+deterministic state machine, tunable convergence rules, and automatic
+re-init flows that make occasional desync tolerable</li>
+<li>Why large-group privacy degrades fast, and why "perfect privacy"
+stops meaning much once a chat has hundreds or thousands of people in
+it</li>
+<li>Why <a href="https://git.pikachat.org/git">Pika</a> felt more
+reliable than NIP-17 for one-to-one chats, and where simple tools still
+beat more ambitious systems</li>
+<li>The White Noise v2 direction: replaceable key packages, smaller app
+components, and decoupling Nostr identity from the transport layer so
+relays become just one option among many</li>
+<li>How <a href="https://fips.network/">FIPS</a> pushed the design
+forward by making transport agility feel real: relays, Wi-Fi, Bluetooth
+Direct, and whatever else can move packets when the normal internet is
+gone</li>
+<li><a href="https://bitchat.free/">BitChat</a> as a useful proof that
+narrow, situational tools matter, especially when the internet is
+overloaded, absent, or simply the wrong abstraction for the problem</li>
+<li>Other experiments blooming around the edges: <a
+href="https://www.tubestr.app/">Tubestr</a> as a weirdly great
+MLS-backed permission system, plus gaming demos, new clients, and other
+signs that the building blocks are escaping the original chat use
+case</li>
+<li><a href="https://openclaw.ai/">OpenClaw</a>, Fabian's <a
+href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
+NIP-17 plugin</a>, and why cryptographic identities make
+one-agent-per-project workflows feel native</li>
+<li>Jeff G's current AI workflow: multiple agents, multiple boxes, very
+little hand-written code, and a strong belief that the implementation
+middle is collapsing while architecture, <a
+href="https://ants.sh/?q=taste+by%3Adergigi.com">taste</a>, and judgment
+matter more than ever</li>
+<li>Why "build it right" is getting harder to teach and more important
+to teach, because now you can vibe a terrible idea into existence in an
+afternoon just as easily as a good one</li>
+<li>Apprenticeship, elders, and why people like Johnathan Corgan matter:
+some engineering instincts only show up after you have lived through
+brittle systems, bad assumptions, and real adversaries</li>
+<li>Notification servers that should know almost nothing, the coming KYC
+of the internet, and the broader goal of building systems with less data
+to seize and fewer chokepoints to attack</li>
+<li>The argument over easy abstractions at the edge of Nostr, from
+"Coinbase for Nostr" worries to the closing detour on onchain zaps and
+second-order effects. For more on that last part, see Gigi's rebuttal,
+<a href="https://dergigi.com/2026/05/20/careful-icarus/">Careful,
+Icarus</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a
+href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin
+Moon</a> (<a href="https://git.pikachat.org/git">Pika</a>, small-group
+messaging trade-offs, and prior White Noise conversations)</li>
+<li><a
+href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a>
+(<a href="https://github.com/pablof7z/serial-killer">Serial Killer
+Relay</a>, naming crimes, and forcing the hard coordination
+question)</li>
+<li><a
+href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a>
+(<a href="https://cashu.space/">Cashu</a>, event-ordering pain, <a
+href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>,
+and NIP-61)</li>
+<li><a
+href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan
+Corgan</a> (<a href="https://fips.network/">FIPS</a>, transport-agnostic
+networking, and wise-old-builder energy)</li>
+<li><a
+href="https://njump.to/npub1taycl7qfuqk9dp0rhkse8lxhz3az9eanjug8j4ympwehvslnetxqkujg5y">Lee</a>
+from Bitcoin Jungle (<a href="https://www.tubestr.app/">Tubestr</a>, MLS
+as permission system)</li>
+<li><a
+href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack</a>
+(<a href="https://bitchat.free/">BitChat</a>, Bluetooth-first
+messaging)</li>
+<li><a
+href="https://njump.to/npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe">Fabian</a>
+(built the <a
+href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
+NIP-17 plugin</a>)</li>
+<li><a
+href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a>,
+author of <a href="https://nostrudel.ninja/">noStrudel</a> &amp; <a
+href="https://sovereignengineering.io/projects/SEC-01#blossom">Blossom</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://www.whitenoise.chat/">White Noise</a> (Jeff G's
+unstoppable messenger project)</li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a>
+(MLS-based group messaging on Nostr)</li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a>
+(Messaging Layer Security)</li>
+<li><a href="https://nostr.com/">Nostr</a> (permissionless identity and
+event substrate)</li>
+<li><a href="https://git.pikachat.org/git">Pika</a> (lean encrypted
+messaging)</li>
+<li><a href="https://bitchat.free/">BitChat</a> (ephemeral Bluetooth
+mesh messaging)</li>
+<li><a href="https://fips.network/">FIPS</a> (Free Internetworking
+Peering System)</li>
+<li><a href="https://www.tubestr.app/">Tubestr</a> (MLS-backed access
+control for family video sharing)</li>
+<li><a href="https://cashu.space/">Cashu</a> (ecash protocols with
+familiar ordering pain)</li>
+<li><a href="https://github.com/pablof7z/serial-killer">Serial Killer
+Relay</a> (relay-enforced sequencing experiment)</li>
+<li><a href="https://openclaw.ai/">OpenClaw</a> (agentic tooling,
+memory, and project-scoped identities)</li>
+<li><a
+href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
+NIP-17 plugin</a> (Nostr messaging integration for OpenClaw)</li>
+<li><a
+href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>
+(wallet state and event-ordering pain in the Nostr ecosystem)</li>
+</ul>
+<p>Recorded at <a
+href="https://mempool.space/block/951696">951,696</a>.</p>]]></description>
+      <link>https://njump.to/nevent1qqstzwt8nymqtepqxznskx39mm6f0xr7qzgl4uvfr3ea9y5hp3n7pcqpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pft7f7vsf</link>
+      <enclosure url="https://haven.dergigi.com/46b0315fdbb941184acccda6ba7dca2eeea0310905b62def72c0df93ce98ef18.m4a" length="39904266" type="audio/mp4"/>
+      <guid isPermaLink="false">50500ecc-0fc2-442d-9b61-9eb2819843d3</guid>
+      <pubDate>Sat, 30 May 2026 20:03:46 +0000</pubDate>
+      <itunes:duration>4484</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/b368c67b0187a4ca751da5d44a0c73cb53ac60588f4b33eecd197fde7be92d28.jpg"/>
+      <podcast:person href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc" img="" group="cast" role="guest">Jeff G</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/0b61adb6c90c4256ffa1f0af87ffd8d916ac4163a1b3ff7710bc67e3f2339c77.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/25-white-noise-mls-and-marmot-w-jeffg.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqjnydfdwa5xjar994hx76tnv5kk6mrn94skuepdd4shymt0wskhwtt2v4nxvecpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqvzqqqr4gujf25s2">Show Notes</podcast:contentLink>
+      <itunes:subtitle>25: White Noise, MLS, and marmot w/ Jeff G</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>white noise, marmot, mls, nostr, messaging, privacy, agents, ai, sovereign engineering, dialog</itunes:keywords>
+      <itunes:summary><![CDATA[<p>"What we're actually building is an unstoppable messenger."</p>
+<p><a
+href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc">Jeff
+G</a> &amp; <a
+href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+take a walk in Oslo.</p>
+<p><a
+href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeffg">Listen
+on sovereignengineering.io</a></p>
+<p>In this dialogue:</p>
+<ul>
+<li>Jeff G explains how <a href="https://www.whitenoise.chat/">White
+Noise</a> started as an attempt to build the most private messenger
+possible, then slowly mutated into something else: an unstoppable
+messenger that can survive ugly network conditions and hostile
+environments</li>
+<li>Why <a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a> on
+<a href="https://nostr.com/">Nostr</a> is mostly an ordering problem:
+identity and delivery are the easy parts, group-state evolution is where
+everything breaks</li>
+<li>Forked histories, missing commits, and the nightmare scenario where
+a group silently splits into incompatible realities without anybody
+noticing</li>
+<li>The temptation of coordinators, sequencers, and Pablo's hilariously
+named <a href="https://github.com/pablof7z/serial-killer">Serial Killer
+Relay</a>, plus the deeper question of when a relay stops being a relay
+and quietly becomes a server</li>
+<li>Calle's <a href="https://cashu.space/">Cashu</a> headaches, <a
+href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>
+and NIP-61 edge cases, and the "pocket with a hole" problem where
+balances seem to disappear, reappear, and generally behave like loose
+change under a couch</li>
+<li>Jeff G's current bet for <a
+href="https://github.com/marmot-protocol/marmot">Marmot</a>: a
+deterministic state machine, tunable convergence rules, and automatic
+re-init flows that make occasional desync tolerable</li>
+<li>Why large-group privacy degrades fast, and why "perfect privacy"
+stops meaning much once a chat has hundreds or thousands of people in
+it</li>
+<li>Why <a href="https://git.pikachat.org/git">Pika</a> felt more
+reliable than NIP-17 for one-to-one chats, and where simple tools still
+beat more ambitious systems</li>
+<li>The White Noise v2 direction: replaceable key packages, smaller app
+components, and decoupling Nostr identity from the transport layer so
+relays become just one option among many</li>
+<li>How <a href="https://fips.network/">FIPS</a> pushed the design
+forward by making transport agility feel real: relays, Wi-Fi, Bluetooth
+Direct, and whatever else can move packets when the normal internet is
+gone</li>
+<li><a href="https://bitchat.free/">BitChat</a> as a useful proof that
+narrow, situational tools matter, especially when the internet is
+overloaded, absent, or simply the wrong abstraction for the problem</li>
+<li>Other experiments blooming around the edges: <a
+href="https://www.tubestr.app/">Tubestr</a> as a weirdly great
+MLS-backed permission system, plus gaming demos, new clients, and other
+signs that the building blocks are escaping the original chat use
+case</li>
+<li><a href="https://openclaw.ai/">OpenClaw</a>, Fabian's <a
+href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
+NIP-17 plugin</a>, and why cryptographic identities make
+one-agent-per-project workflows feel native</li>
+<li>Jeff G's current AI workflow: multiple agents, multiple boxes, very
+little hand-written code, and a strong belief that the implementation
+middle is collapsing while architecture, <a
+href="https://ants.sh/?q=taste+by%3Adergigi.com">taste</a>, and judgment
+matter more than ever</li>
+<li>Why "build it right" is getting harder to teach and more important
+to teach, because now you can vibe a terrible idea into existence in an
+afternoon just as easily as a good one</li>
+<li>Apprenticeship, elders, and why people like Johnathan Corgan matter:
+some engineering instincts only show up after you have lived through
+brittle systems, bad assumptions, and real adversaries</li>
+<li>Notification servers that should know almost nothing, the coming KYC
+of the internet, and the broader goal of building systems with less data
+to seize and fewer chokepoints to attack</li>
+<li>The argument over easy abstractions at the edge of Nostr, from
+"Coinbase for Nostr" worries to the closing detour on onchain zaps and
+second-order effects. For more on that last part, see Gigi's rebuttal,
+<a href="https://dergigi.com/2026/05/20/careful-icarus/">Careful,
+Icarus</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a
+href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin
+Moon</a> (<a href="https://git.pikachat.org/git">Pika</a>, small-group
+messaging trade-offs, and prior White Noise conversations)</li>
+<li><a
+href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a>
+(<a href="https://github.com/pablof7z/serial-killer">Serial Killer
+Relay</a>, naming crimes, and forcing the hard coordination
+question)</li>
+<li><a
+href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a>
+(<a href="https://cashu.space/">Cashu</a>, event-ordering pain, <a
+href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>,
+and NIP-61)</li>
+<li><a
+href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan
+Corgan</a> (<a href="https://fips.network/">FIPS</a>, transport-agnostic
+networking, and wise-old-builder energy)</li>
+<li><a
+href="https://njump.to/npub1taycl7qfuqk9dp0rhkse8lxhz3az9eanjug8j4ympwehvslnetxqkujg5y">Lee</a>
+from Bitcoin Jungle (<a href="https://www.tubestr.app/">Tubestr</a>, MLS
+as permission system)</li>
+<li><a
+href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack</a>
+(<a href="https://bitchat.free/">BitChat</a>, Bluetooth-first
+messaging)</li>
+<li><a
+href="https://njump.to/npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe">Fabian</a>
+(built the <a
+href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
+NIP-17 plugin</a>)</li>
+<li><a
+href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a>,
+author of <a href="https://nostrudel.ninja/">noStrudel</a> &amp; <a
+href="https://sovereignengineering.io/projects/SEC-01#blossom">Blossom</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://www.whitenoise.chat/">White Noise</a> (Jeff G's
+unstoppable messenger project)</li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a>
+(MLS-based group messaging on Nostr)</li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a>
+(Messaging Layer Security)</li>
+<li><a href="https://nostr.com/">Nostr</a> (permissionless identity and
+event substrate)</li>
+<li><a href="https://git.pikachat.org/git">Pika</a> (lean encrypted
+messaging)</li>
+<li><a href="https://bitchat.free/">BitChat</a> (ephemeral Bluetooth
+mesh messaging)</li>
+<li><a href="https://fips.network/">FIPS</a> (Free Internetworking
+Peering System)</li>
+<li><a href="https://www.tubestr.app/">Tubestr</a> (MLS-backed access
+control for family video sharing)</li>
+<li><a href="https://cashu.space/">Cashu</a> (ecash protocols with
+familiar ordering pain)</li>
+<li><a href="https://github.com/pablof7z/serial-killer">Serial Killer
+Relay</a> (relay-enforced sequencing experiment)</li>
+<li><a href="https://openclaw.ai/">OpenClaw</a> (agentic tooling,
+memory, and project-scoped identities)</li>
+<li><a
+href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
+NIP-17 plugin</a> (Nostr messaging integration for OpenClaw)</li>
+<li><a
+href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>
+(wallet state and event-ordering pain in the Nostr ecosystem)</li>
+</ul>
+<p>Recorded at <a
+href="https://mempool.space/block/951696">951,696</a>.</p>]]></itunes:summary>
+    </item>
     <item>
       <title>24: Building FIPS w/ Johnathan Corgan</title>
       <description><![CDATA[<p>“Don’t be afraid of going your own way.”</p>

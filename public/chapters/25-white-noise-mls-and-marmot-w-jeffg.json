@@ -1,0 +1,81 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "25: White Noise, MLS, and marmot w/ Jeff G",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 25, White Noise, MLS, and marmot w/ Jeff G.",
+  "fileName": "25 - White Noise, MLS, and marmot.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 301.84,
+      "title": "White Noise Walls",
+      "url": "https://www.whitenoise.chat/"
+    },
+    {
+      "startTime": 301.84,
+      "endTime": 723.04,
+      "title": "No Perfect Ordering",
+      "url": "https://github.com/marmot-protocol/marmot"
+    },
+    {
+      "startTime": 723.04,
+      "endTime": 1097.92,
+      "title": "One-to-One First",
+      "url": "https://www.rfc-editor.org/rfc/rfc9420.html"
+    },
+    {
+      "startTime": 1097.92,
+      "endTime": 1560,
+      "title": "Cashu and Relays",
+      "url": "https://sovereignengineering.io/projects/SEC-02#nip-60"
+    },
+    {
+      "startTime": 1560,
+      "endTime": 1800,
+      "title": "Sequencer Trade-offs",
+      "url": "https://github.com/pablof7z/serial-killer"
+    },
+    {
+      "startTime": 1800,
+      "endTime": 2400,
+      "title": "White Noise V2",
+      "url": "https://openclaw.ai/"
+    },
+    {
+      "startTime": 2400,
+      "endTime": 2523.68,
+      "title": "Transport Agility",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 2523.68,
+      "endTime": 2848,
+      "title": "Tubestr and BitChat",
+      "url": "https://www.tubestr.app/"
+    },
+    {
+      "startTime": 2848,
+      "endTime": 3602.64,
+      "title": "AI Build Loops",
+      "url": "https://ants.sh/?q=taste+by%3Adergigi.com"
+    },
+    {
+      "startTime": 3602.64,
+      "endTime": 4020,
+      "title": "Build It Right"
+    },
+    {
+      "startTime": 4020,
+      "endTime": 4230,
+      "title": "Builder Elders",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 4230,
+      "endTime": 4484.181333,
+      "title": "Onchain Zaps",
+      "url": "https://dergigi.com/2026/05/20/careful-icarus/"
+    }
+  ]
+}
