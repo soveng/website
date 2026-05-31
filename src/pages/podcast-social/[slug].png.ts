@@ -1,4 +1,8 @@
+import { readFileSync } from 'node:fs';
+import { createRequire } from 'node:module';
+
 import type { APIRoute, GetStaticPaths } from 'astro';
+import * as opentype from 'opentype.js';
 import sharp from 'sharp';
 
 import { getEpisodes, type Episode } from '@/lib/podcast';
@@ -8,90 +12,95 @@ const HEIGHT = 630;
 const COVER_SIZE = 420;
 const COVER_X = 64;
 const COVER_Y = 105;
+
 const TEXT_X = 548;
-const TITLE_MAX_UNITS = 18;
-const SUBTITLE_MAX_UNITS = 30;
+const TEXT_RIGHT = 1120;
+const TEXT_W = TEXT_RIGHT - TEXT_X;
+const CENTER_Y = 300;
 
-function escapeXml(value: string): string {
-  return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+const ACCENT = '#ED3238';
+const SPINE_X = 512;
+
+const KICKER = { size: 16, tracking: 3, lineHeight: 28, color: ACCENT, label: 'NO SOLUTIONS PODCAST' };
+const TITLE = { size: 50, lineHeight: 60, maxLines: 3, color: '#FFFFFF' };
+const META = { size: 21, lineHeight: 30, color: '#9A9A9A' };
+const QUOTE = { size: 26, lineHeight: 36, maxLines: 2, color: '#DCDCDC' };
+const FOOTER = { size: 20, color: '#6F6F6F', y: 566 };
+
+const GAP_KICKER_TITLE = 18;
+const GAP_TITLE_META = 30;
+const GAP_META_QUOTE = 18;
+
+const require = createRequire(import.meta.url);
+
+function loadFont(spec: string): opentype.Font {
+  const buffer = readFileSync(require.resolve(spec));
+  return opentype.parse(buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength));
 }
 
-function estimateUnits(text: string): number {
-  let total = 0;
+const fontDisplay = loadFont('@fontsource/inter/files/inter-latin-700-normal.woff');
+const fontBody = loadFont('@fontsource/inter/files/inter-latin-400-normal.woff');
+const fontItalic = loadFont('@fontsource/inter/files/inter-latin-400-italic.woff');
 
-  for (const char of text) {
-    if (char === ' ') {
-      total += 0.35;
-    } else if (/[WMQG@#%&]/.test(char)) {
-      total += 1.15;
-    } else if (/[A-Z0-9]/.test(char)) {
-      total += 0.92;
-    } else if (/[mw]/.test(char)) {
-      total += 0.95;
-    } else if (/[iltfjr]/.test(char)) {
-      total += 0.45;
-    } else if (/[-–—:;,.!"'()/]/.test(char)) {
-      total += 0.4;
-    } else {
-      total += 0.75;
-    }
+function width(font: opentype.Font, text: string, size: number): number {
+  return font.getAdvanceWidth(text, size);
+}
+
+function pathData(font: opentype.Font, text: string, x: number, y: number, size: number): string {
+  return font.getPath(text, x, y, size).toPathData(2);
+}
+
+function clampWithEllipsis(font: opentype.Font, text: string, size: number, maxWidth: number): string {
+  let out = text;
+  while (out.length && width(font, `${out}…`, size) > maxWidth) {
+    out = out.slice(0, -1);
   }
-
-  return total;
+  return `${out.replace(/[\s.,;:]+$/, '')}…`;
 }
 
-function truncateToUnits(text: string, maxUnits: number): string {
-  let out = '';
-
-  for (const char of text) {
-    const next = `${out}${char}`;
-    if (estimateUnits(`${next}…`) > maxUnits) {
-      break;
-    }
-    out = next;
-  }
-
-  return `${out.trimEnd().replace(/[.…]+$/, '')}…`;
-}
-
-function wrapText(text: string, maxUnits: number, maxLines: number): string[] {
+function wrapText(font: opentype.Font, text: string, size: number, maxWidth: number, maxLines: number): string[] {
   const words = text.trim().split(/\s+/).filter(Boolean);
   const lines: string[] = [];
   let current = '';
-  let consumedAllWords = true;
 
-  for (let i = 0; i < words.length; i += 1) {
-    const word = words[i];
+  for (const word of words) {
     const candidate = current ? `${current} ${word}` : word;
-
-    if (estimateUnits(candidate) <= maxUnits) {
-      current = candidate;
-      continue;
-    }
-
-    if (!current) {
-      lines.push(truncateToUnits(word, maxUnits));
-    } else {
+    if (current && width(font, candidate, size) > maxWidth) {
       lines.push(current);
       current = word;
-    }
-
-    if (lines.length === maxLines) {
-      consumedAllWords = false;
-      break;
+    } else {
+      current = candidate;
     }
   }
-
-  if (lines.length < maxLines && current) {
+  if (current) {
     lines.push(current);
   }
 
-  if (!consumedAllWords && lines.length > 0) {
-    const lastIndex = lines.length - 1;
-    lines[lastIndex] = truncateToUnits(lines[lastIndex], maxUnits);
+  const overflow = lines.length > maxLines;
+  const visible = lines.slice(0, maxLines);
+  const lastIndex = visible.length - 1;
+
+  return visible.map((line, index) => {
+    const tooWide = width(font, line, size) > maxWidth;
+    if (tooWide || (index === lastIndex && overflow)) {
+      return clampWithEllipsis(font, line, size, maxWidth);
+    }
+    return line;
+  });
+}
+
+function trackedKicker(font: opentype.Font, text: string, x: number, y: number, size: number, tracking: number): string {
+  const parts: string[] = [];
+  let cursor = x;
+
+  for (const char of text) {
+    if (char !== ' ') {
+      parts.push(pathData(font, char, cursor, y, size));
+    }
+    cursor += width(font, char, size) + tracking;
   }
 
-  return lines.slice(0, maxLines);
+  return parts.join(' ');
 }
 
 async function loadCoverBuffer(imageUrl: string): Promise<Buffer | null> {
@@ -122,7 +131,6 @@ function buildBackgroundSvg(): Buffer {
   <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
     <rect width="${WIDTH}" height="${HEIGHT}" fill="#050505" />
     <rect x="0" y="0" width="${WIDTH}" height="${HEIGHT}" fill="url(#bg)" />
-    <rect x="36" y="36" width="1128" height="558" rx="28" fill="none" stroke="#2B2B2B" stroke-width="2" />
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
         <stop stop-color="#0B0B0B" />
@@ -135,33 +143,71 @@ function buildBackgroundSvg(): Buffer {
 }
 
 function buildForegroundSvg(episode: Episode, hasCover: boolean): Buffer {
-  const titleLines = wrapText(episode.title, TITLE_MAX_UNITS, 3);
-  const titleTspans = titleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 58}">${escapeXml(line)}</tspan>`).join('');
+  const titleLines = wrapText(fontDisplay, episode.title, TITLE.size, TEXT_W, TITLE.maxLines);
 
-  const guestLine = episode.guestName ? `with ${episode.guestName}` : 'Walking dialogue';
-  const metaLine = `${guestLine} • ${episode.pubDate || 'No Solutions'}`;
-  const subtitleLines = wrapText(episode.subtitle || 'No solutions, only trade-offs.', SUBTITLE_MAX_UNITS, 2);
-  const subtitleTspans = subtitleLines.map((line, index) => `<tspan x="${TEXT_X}" dy="${index === 0 ? 0 : 32}">${escapeXml(line)}</tspan>`).join('');
+  const guestLine = episode.guestName ? `with ${episode.guestName}` : 'A walking dialogue';
+  const metaRaw = episode.pubDate ? `${guestLine}  ·  ${episode.pubDate}` : guestLine;
+  const metaLine = width(fontBody, metaRaw, META.size) > TEXT_W ? clampWithEllipsis(fontBody, metaRaw, META.size, TEXT_W) : metaRaw;
 
-  const fallbackMarkup = hasCover
-    ? ''
-    : `<rect x="${COVER_X}" y="${COVER_Y}" width="${COVER_SIZE}" height="${COVER_SIZE}" rx="18" fill="#121212" />
-       <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 - 10}" text-anchor="middle" fill="#F7931A"
-         font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">NO</text>
-       <text x="${COVER_X + COVER_SIZE / 2}" y="${COVER_Y + COVER_SIZE / 2 + 28}" text-anchor="middle" fill="#FFFFFF"
-         font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">SOLUTIONS</text>`;
+  const quoteLines = wrapText(fontItalic, episode.subtitle || 'No solutions, only trade-offs.', QUOTE.size, TEXT_W, QUOTE.maxLines);
+
+  const total =
+    KICKER.lineHeight +
+    GAP_KICKER_TITLE +
+    titleLines.length * TITLE.lineHeight +
+    GAP_TITLE_META +
+    META.lineHeight +
+    GAP_META_QUOTE +
+    quoteLines.length * QUOTE.lineHeight;
+
+  const startTop = CENTER_Y - total / 2;
+  let cursor = startTop;
+  const paths: string[] = [];
+
+  const kickerY = cursor + KICKER.size * 0.8;
+  paths.push(`<path d="${trackedKicker(fontDisplay, KICKER.label, TEXT_X, kickerY, KICKER.size, KICKER.tracking)}" fill="${KICKER.color}" />`);
+  cursor += KICKER.lineHeight + GAP_KICKER_TITLE;
+
+  for (const line of titleLines) {
+    const baseline = cursor + TITLE.size * 0.72;
+    paths.push(`<path d="${pathData(fontDisplay, line, TEXT_X, baseline, TITLE.size)}" fill="${TITLE.color}" />`);
+    cursor += TITLE.lineHeight;
+  }
+  cursor += GAP_TITLE_META;
+
+  const metaY = cursor + META.size * 0.78;
+  paths.push(`<path d="${pathData(fontBody, metaLine, TEXT_X, metaY, META.size)}" fill="${META.color}" />`);
+  cursor += META.lineHeight + GAP_META_QUOTE;
+
+  for (const line of quoteLines) {
+    const baseline = cursor + QUOTE.size * 0.74;
+    paths.push(`<path d="${pathData(fontItalic, line, TEXT_X, baseline, QUOTE.size)}" fill="${QUOTE.color}" />`);
+    cursor += QUOTE.lineHeight;
+  }
+
+  const spineTop = kickerY - KICKER.size * 0.72;
+  const spineHeight = cursor - QUOTE.lineHeight + QUOTE.size - spineTop;
+  const spine = `<rect x="${SPINE_X}" y="${spineTop.toFixed(1)}" width="4" height="${spineHeight.toFixed(1)}" rx="2" fill="${ACCENT}" />`;
+
+  const footerPath = `<path d="${pathData(fontBody, 'sovereignengineering.io/podcast', TEXT_X, FOOTER.y, FOOTER.size)}" fill="${FOOTER.color}" />`;
+
+  let fallbackMarkup = '';
+  if (!hasCover) {
+    const cx = COVER_X + COVER_SIZE / 2;
+    const noWidth = width(fontDisplay, 'NO', 64);
+    const solWidth = width(fontDisplay, 'SOLUTIONS', 40);
+    fallbackMarkup = `
+      <rect x="${COVER_X}" y="${COVER_Y}" width="${COVER_SIZE}" height="${COVER_SIZE}" rx="18" fill="#101010" />
+      <path d="${pathData(fontDisplay, 'NO', cx - noWidth / 2, COVER_Y + COVER_SIZE / 2 - 6, 64)}" fill="${ACCENT}" />
+      <path d="${pathData(fontDisplay, 'SOLUTIONS', cx - solWidth / 2, COVER_Y + COVER_SIZE / 2 + 44, 40)}" fill="#FFFFFF" />`;
+  }
 
   const svg = `
   <svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect x="${COVER_X - 6}" y="${COVER_Y - 6}" width="${COVER_SIZE + 12}" height="${COVER_SIZE + 12}" rx="24" fill="none" stroke="#343434" stroke-width="2" />
     ${fallbackMarkup}
-    <rect x="${TEXT_X}" y="102" width="248" height="34" rx="17" fill="#F7931A" />
-    <text x="${TEXT_X + 18}" y="125" fill="#050505" font-family="Arial, Helvetica, sans-serif" font-size="17"
-      font-weight="700" letter-spacing="0.08em">NO SOLUTIONS PODCAST</text>
-    <text x="${TEXT_X}" y="203" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700">${titleTspans}</text>
-    <text x="${TEXT_X}" y="444" fill="#B5B5B5" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="600">${escapeXml(metaLine)}</text>
-    <text x="${TEXT_X}" y="497" fill="#E6E6E6" font-family="Arial, Helvetica, sans-serif" font-size="27">${subtitleTspans}</text>
-    <text x="${TEXT_X}" y="563" fill="#8E8E8E" font-family="Arial, Helvetica, sans-serif" font-size="22">sovereignengineering.io/podcast</text>
+    ${spine}
+    ${paths.join('\n    ')}
+    ${footerPath}
   </svg>`;
 
   return Buffer.from(svg);
