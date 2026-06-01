@@ -8,7 +8,11 @@ const metaParagraph =
   `No Solutions is a podcast about freedom tech, open protocols, and the trade-offs of building in the open. ` +
   `These are walking conversations with people trying to make the internet, and the world around it, a little more sovereign.`;
 
-const metaQuote = `The conversations are real. Everything else is hallucinated.`;
+const fiatjafQuote = {
+  content: `Once it left its AI psychosis phase it has had some good moments.`,
+  author: `fiatjaf`,
+  authorHref: `https://njump.to/nevent1qqsyeue9x26zdcrz2wx8stvl3kmxw42clqd5n4jgpuvxhemm6q8fyugprfmhxue69uhhq7tjv9kkjepwve5kzar2v9nzucm0d5hsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqq3tszvt290`,
+};
 
 const pageTitle = "No Solutions";
 const metaTitle = "No Solutions — A Sovereign Engineering Podcast";
@@ -88,9 +92,10 @@ const episodes = await getEpisodes();
         </div>
       </div>
 
-      <!-- Centered Quote -->
       <BigBlockQuote
-        quote={metaQuote}
+        quote={fiatjafQuote.content}
+        author={fiatjafQuote.author}
+        authorHref={fiatjafQuote.authorHref}
       />
 
       <!-- Episodes -->
