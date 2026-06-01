@@ -10,6 +10,13 @@ const metaParagraph =
 
 const metaQuote = `The conversations are real. Everything else is hallucinated.`;
 
+const fiatjafQuote = {
+  content: `Once it left its AI psychosis phase it has had some good moments.`,
+  author: `fiatjaf`,
+  authorHref: `https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6`,
+  noteHref: `https://njump.to/nevent1qqsyeue9x26zdcrz2wx8stvl3kmxw42clqd5n4jgpuvxhemm6q8fyugprfmhxue69uhhq7tjv9kkjepwve5kzar2v9nzucm0d5hsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqq3tszvt290`,
+};
+
 const pageTitle = "No Solutions";
 const metaTitle = "No Solutions — A Sovereign Engineering Podcast";
 const byline = `Walking towards a better internet since \
@@ -92,6 +99,37 @@ const episodes = await getEpisodes();
       <BigBlockQuote
         quote={metaQuote}
       />
+
+      <!-- Signed Social Proof -->
+      <div class="row justify-center mt-4 mb-8">
+        <div class="max-w-[960px] mx-auto w-full px-4">
+          <div class="border-2 border-primary bg-[#111] px-6 py-8 md:px-10 md:py-10 shadow-[8px_8px_0_0_rgba(255,102,0,0.18)]">
+            <p class="mb-4 text-center text-xs font-primary uppercase tracking-[0.35em] text-primary">Signed on Nostr</p>
+            <blockquote class="text-balance text-center font-primary text-2xl italic text-white md:text-3xl">
+              &ldquo;{fiatjafQuote.content}&rdquo;
+            </blockquote>
+            <div class="mt-6 flex flex-col items-center justify-center gap-2 text-center font-primary text-sm uppercase tracking-[0.2em] text-gray-400 sm:flex-row">
+              <a
+                href={fiatjafQuote.authorHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-white underline decoration-primary underline-offset-4 transition-colors hover:text-primary"
+              >
+                {fiatjafQuote.author}
+              </a>
+              <span class="hidden text-gray-600 sm:inline">•</span>
+              <a
+                href={fiatjafQuote.noteHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="underline decoration-gray-600 underline-offset-4 transition-colors hover:text-primary"
+              >
+                view signed note
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Episodes -->
       <div class="row justify-center">
