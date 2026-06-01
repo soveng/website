@@ -1,0 +1,92 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "27: Separation of Business from State w/ gsovereignty",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 27, Separation of Business from State w/ gsovereignty.",
+  "fileName": "27 - Separation of Business from State.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 183,
+      "title": "Demo Day",
+      "url": "https://sovereignengineering.io/"
+    },
+    {
+      "startTime": 183,
+      "endTime": 303,
+      "title": "Stateless Business",
+      "url": "https://github.com/nostrocket"
+    },
+    {
+      "startTime": 303,
+      "endTime": 526,
+      "title": "Energy Inputs"
+    },
+    {
+      "startTime": 526,
+      "endTime": 656,
+      "title": "Merchant Limits",
+      "url": "https://www.bitcoinjungle.app/"
+    },
+    {
+      "startTime": 656,
+      "endTime": 760,
+      "title": "State Branches"
+    },
+    {
+      "startTime": 760,
+      "endTime": 880,
+      "title": "Nostrocket Thesis",
+      "url": "https://github.com/nostrocket"
+    },
+    {
+      "startTime": 880,
+      "endTime": 1240,
+      "title": "Equity Flows"
+    },
+    {
+      "startTime": 1240,
+      "endTime": 1540,
+      "title": "Reinventing Orgs",
+      "url": "https://www.reinventingorganizations.com/"
+    },
+    {
+      "startTime": 1540,
+      "endTime": 1835,
+      "title": "Governance Costs",
+      "url": "https://www.holacracy.org/"
+    },
+    {
+      "startTime": 1835,
+      "endTime": 2041,
+      "title": "Who Defines Bitcoin",
+      "url": "https://bitcoincore.org/"
+    },
+    {
+      "startTime": 2041,
+      "endTime": 2395,
+      "title": "Issuing Merits"
+    },
+    {
+      "startTime": 2395,
+      "endTime": 3240,
+      "title": "Sat Flow Rules"
+    },
+    {
+      "startTime": 3240,
+      "endTime": 3480,
+      "title": "Agent Harness"
+    },
+    {
+      "startTime": 3480,
+      "endTime": 3900,
+      "title": "Formal Specs"
+    },
+    {
+      "startTime": 3900,
+      "endTime": 3952.2,
+      "title": "Peer Review"
+    }
+  ]
+}

@@ -39,10 +39,158 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Sun, 31 May 2026 18:52:34 +0000</pubDate>
-    <lastBuildDate>Sun, 31 May 2026 22:39:41 +0000</lastBuildDate>
+    <pubDate>Mon, 01 Jun 2026 05:59:59 +0000</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2026 05:59:59 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>27: Separation of Business from State w/ gsovereignty</title>
+      <description><![CDATA[<p>"It’s the people who receive Bitcoin as payment for something who
+decide what Bitcoin is."</p>
+<p><a
+href="https://njump.to/npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p">gsovereignty</a>
+&amp; <a
+href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+take a walk.</p>
+<p><a
+href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">Listen
+on sovereignengineering.io</a></p>
+<p>Recorded in May 2026.</p>
+<p>They explore what it would take to separate business from the state,
+why a Bitcoin economy still depends on fiat imports, and how Nostrocket
+might route human energy into Bitcoin-native production. Along the way
+they get into circular economies, merchant adoption, stablecoins,
+organizational design, application-specific agent harnesses, and the
+trade-offs behind merit-based equity, minimal governance, and forkable
+ventures.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why merchant adoption alone does not create a sovereign Bitcoin
+economy</li>
+<li>why registered businesses remain exposed to state control</li>
+<li>how Nostrocket reframes proof of work as human coordination around
+useful production</li>
+<li>what minimal governance, merit issuance, and forkability might look
+like in a Bitcoin-native venture</li>
+<li>why open source projects, DAOs, and Bitcoin itself keep surfacing
+the same authority trade-offs</li>
+<li>why application-specific agent harnesses, formal specs, and peer
+review may be the right proving ground for these ideas</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://saifedean.com/">Saifedean Ammous</a></li>
+<li><a href="https://saylor.org/">Michael Saylor</a></li>
+<li><a href="https://www.reinventingorganizations.com/">Frederic
+Laloux</a></li>
+<li><a href="https://github.com/vitorpamplona">Vitor Pamplona</a></li>
+<li><a
+href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://github.com/nostrocket">Nostrocket</a></li>
+<li><a href="https://www.bitcoinjungle.app/">Bitcoin Jungle</a></li>
+<li><a href="https://soapminer.com/">Soap Miner</a></li>
+<li><a href="https://theleathermint.com/">The Leathermint</a></li>
+<li><a href="https://www.reinventingorganizations.com/">Reinventing
+Organizations</a></li>
+<li><a href="https://www.holacracy.org/">Holacracy</a></li>
+<li><a
+href="https://github.com/vitorpamplona/amethyst">Amethyst</a></li>
+<li><a href="https://bitcoincore.org/">Bitcoin Core</a></li>
+<li><a href="https://www.anthropic.com/claude">Claude</a></li>
+<li>stablecoins</li>
+<li>BlackRock</li>
+</ul>
+<p>Recorded at <a
+href="https://mempool.space/block/951874">951,874</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqsqv3f3jv4r7f39usrzugt2x3z6ma26zcdf0jkdak90zkwrsnc6lccpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pft80g7rz</link>
+      <enclosure url="https://haven.dergigi.com/974fed8b88a2bc7117c7ddd924f098cf479b9ab1d0e06b1f6c1d056e73cb8d15.m4a" length="35668779" type="audio/mp4"/>
+      <guid isPermaLink="false">2ee54c2b-dbd5-4777-b383-9dce2d1134ca</guid>
+      <pubDate>Mon, 01 Jun 2026 05:59:59 +0000</pubDate>
+      <itunes:duration>3952</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/0c47c76d0bee4bdbe85b9932575f42ab85050825846ebc2970449a706c2b54d8.jpg"/>
+      <podcast:person href="https://njump.to/npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p" img="https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg" group="cast" role="guest">gsovereignty</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/8228d6f50ce4386f26872c47a0089856dfe53ad481db676c08684a546bed0457.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/27-separation-of-business-from-state-w-gsovereignty.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqenydedwdjhqctjv96xjmmw94hkvttzw4ekjmn9wdej6enjdakj6um5v96x2tth94nhxmmkv4ex26t8de68jqghwaehxw309a5xzan9dchxgetjva5kw6fwvdhk6qg4waehxw309amk7apwv3jhyemfva5jucm0d5q3vamnwvaz7tmjv4kxz7fwwpexjmtpdshxuet5qyxhwumn8ghj7mn0wvhxcmmvqgsfhhjzzjgl86k34ssm68gpvea2h9rlfswy4mv8vfx0yfemqm9q22crqsqqqa28mex05l">Show Notes</podcast:contentLink>
+      <itunes:subtitle>27: Separation of Business from State w/ gsovereignty</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>bitcoin, nostrocket, nostr, business, governance, stablecoins, open source, agents, sovereignty, dialog</itunes:keywords>
+      <itunes:summary><![CDATA[<p>"It’s the people who receive Bitcoin as payment for something who
+decide what Bitcoin is."</p>
+<p><a
+href="https://njump.to/npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p">gsovereignty</a>
+&amp; <a
+href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+take a walk.</p>
+<p><a
+href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">Listen
+on sovereignengineering.io</a></p>
+<p>Recorded in May 2026.</p>
+<p>They explore what it would take to separate business from the state,
+why a Bitcoin economy still depends on fiat imports, and how Nostrocket
+might route human energy into Bitcoin-native production. Along the way
+they get into circular economies, merchant adoption, stablecoins,
+organizational design, application-specific agent harnesses, and the
+trade-offs behind merit-based equity, minimal governance, and forkable
+ventures.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why merchant adoption alone does not create a sovereign Bitcoin
+economy</li>
+<li>why registered businesses remain exposed to state control</li>
+<li>how Nostrocket reframes proof of work as human coordination around
+useful production</li>
+<li>what minimal governance, merit issuance, and forkability might look
+like in a Bitcoin-native venture</li>
+<li>why open source projects, DAOs, and Bitcoin itself keep surfacing
+the same authority trade-offs</li>
+<li>why application-specific agent harnesses, formal specs, and peer
+review may be the right proving ground for these ideas</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://saifedean.com/">Saifedean Ammous</a></li>
+<li><a href="https://saylor.org/">Michael Saylor</a></li>
+<li><a href="https://www.reinventingorganizations.com/">Frederic
+Laloux</a></li>
+<li><a href="https://github.com/vitorpamplona">Vitor Pamplona</a></li>
+<li><a
+href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://github.com/nostrocket">Nostrocket</a></li>
+<li><a href="https://www.bitcoinjungle.app/">Bitcoin Jungle</a></li>
+<li><a href="https://soapminer.com/">Soap Miner</a></li>
+<li><a href="https://theleathermint.com/">The Leathermint</a></li>
+<li><a href="https://www.reinventingorganizations.com/">Reinventing
+Organizations</a></li>
+<li><a href="https://www.holacracy.org/">Holacracy</a></li>
+<li><a
+href="https://github.com/vitorpamplona/amethyst">Amethyst</a></li>
+<li><a href="https://bitcoincore.org/">Bitcoin Core</a></li>
+<li><a href="https://www.anthropic.com/claude">Claude</a></li>
+<li>stablecoins</li>
+<li>BlackRock</li>
+</ul>
+<p>Recorded at <a
+href="https://mempool.space/block/951874">951,874</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>26: Zapstore w/ Franzap</title>
       <description><![CDATA[<p>"The user joins the community, and the community does a lot of the
