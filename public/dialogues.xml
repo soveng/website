@@ -39,10 +39,170 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Mon, 01 Jun 2026 05:59:59 +0000</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2026 05:59:59 +0000</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2026 17:28:15 +0000</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2026 17:28:15 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>28: Speak Human w/ MouxDesign</title>
+      <description><![CDATA[      <p>"We just need to speak human."</p>
+      <p><a
+      href="https://njump.to/npub1urhnkns9rt4c9mk6t9xctjkzmlkawxkdpzjnxdxhx82mqm7hfpuq0j7ueh">MouxDesign</a>
+      &amp; <a
+      href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+      take a walk.</p>
+      <p><a
+      href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">Listen
+      on sovereignengineering.io</a></p>
+      <p>Recorded in June 2026.</p>
+      <p>They talk about what vibe design looks like in Bitcoin and Nostr, why
+      good UX starts long before the interface, and how copy, fees, and error
+      messages still break trust in wallets. From skill files and mini AGI
+      layers to Nostr onboarding, maintainer overload, in-person
+      collaboration, and the trade-off between mass adoption and protocol
+      purity, this one keeps circling back to the human side of building.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>design starts at the pain point, the app store listing, and the
+      sentence a user repeats to a friend</li>
+      <li>Mo's mini AGI thesis for Bitcoin and Nostr product work: user data,
+      skill files, and faster feedback loops</li>
+      <li>why Bitcoin wallets still stumble on psychological barriers, seed
+      backups, fee display, and opaque error codes</li>
+      <li>how vibe design might work: screenshots, Mobbin references, n8n
+      flows, overnight GitHub issues, and human review in the morning</li>
+      <li>why Nostr onboarding still strands people in read-only mode after
+      key loss</li>
+      <li>Martti's Nostr-native stack, Rabble's Vine revival, and the case for
+      building things that are fun first</li>
+      <li>why Gigi cares more about purity than mass adoption when the
+      protocol trade-off is real</li>
+      <li>why hard problems still benefit from in-person collaboration,
+      walking dialogue, and distributed cognition</li>
+      <li>how to grow communities: plant a flag, define the vocabulary, and
+      keep showing up</li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li>Jack Dorsey</li>
+      <li>Alex Gladstein</li>
+      <li>Martti Malmi</li>
+      <li>Jeff G</li>
+      <li>Rabble</li>
+      <li>Josh</li>
+      <li>Christoph</li>
+      <li>Arno</li>
+      <li>Marcus</li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://bitcoin.design/guide/">Bitcoin Design
+      Guide</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      <li><a href="https://block.xyz/">Block</a></li>
+      <li><a href="https://n8n.io/">n8n</a></li>
+      <li><a href="https://mobbin.com/">Mobbin</a></li>
+      <li><a href="https://cash.app/">Cash App</a></li>
+      <li><a href="https://www.revolut.com/">Revolut</a></li>
+      <li><a href="https://wise.com/">Wise</a></li>
+      <li><a href="https://iris.to/">Iris</a></li>
+      <li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a></li>
+      <li><a href="https://btcpayserver.org/">BTCPay Server</a></li>
+      <li><a href="https://21.world/">21 World</a></li>
+      </ul>
+      <p>Recorded at <a
+      href="https://mempool.space/block/952115">952,115</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqsfdt7qf5pdc2mepphg6kkxhe3mzsajr38eky4qc6tren7hpv80a9gpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sxyw0ax</link>
+      <enclosure url="https://haven.dergigi.com/47bc8d4a4abe435eba57f6b411f54163afa266cedf49708a6d0cb073de015e1a.m4a" length="33786935" type="audio/mp4"/>
+      <guid isPermaLink="false">c7cf42a2-60b7-43f8-be31-291c49bf12a5</guid>
+      <pubDate>Tue, 02 Jun 2026 17:28:15 +0000</pubDate>
+      <itunes:duration>3790</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/78fea9d85657b83ce68bba11e0f2b8b92a3902fb43819163b3b329da9e8822b7.jpg"/>
+      <podcast:person href="https://njump.to/npub1urhnkns9rt4c9mk6t9xctjkzmlkawxkdpzjnxdxhx82mqm7hfpuq0j7ueh" img="https://pbs.twimg.com/profile_images/1469200668544098309/_vaRvHr0_400x400.jpg" group="cast" role="guest">MouxDesign</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/05c10c759d1e77ad93108f515852503ab7086dfc70b0d4f246d6990ab194ff1e.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/28-speak-human-w-mouxdesign.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqdnywpdwdcx2ctt94582mtpdckhwttdda6hser9wd5kwmspzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sxpqqqp65wvnl34u">Show Notes</podcast:contentLink>
+      <itunes:subtitle>28: Speak Human w/ MouxDesign</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>bitcoin, design, ux, nostr, ai, wallets, onboarding, copy, privacy, dialog</itunes:keywords>
+      <itunes:summary><![CDATA[      <p>"We just need to speak human."</p>
+      <p><a
+      href="https://njump.to/npub1urhnkns9rt4c9mk6t9xctjkzmlkawxkdpzjnxdxhx82mqm7hfpuq0j7ueh">MouxDesign</a>
+      &amp; <a
+      href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+      take a walk.</p>
+      <p><a
+      href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">Listen
+      on sovereignengineering.io</a></p>
+      <p>Recorded in June 2026.</p>
+      <p>They talk about what vibe design looks like in Bitcoin and Nostr, why
+      good UX starts long before the interface, and how copy, fees, and error
+      messages still break trust in wallets. From skill files and mini AGI
+      layers to Nostr onboarding, maintainer overload, in-person
+      collaboration, and the trade-off between mass adoption and protocol
+      purity, this one keeps circling back to the human side of building.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>design starts at the pain point, the app store listing, and the
+      sentence a user repeats to a friend</li>
+      <li>Mo's mini AGI thesis for Bitcoin and Nostr product work: user data,
+      skill files, and faster feedback loops</li>
+      <li>why Bitcoin wallets still stumble on psychological barriers, seed
+      backups, fee display, and opaque error codes</li>
+      <li>how vibe design might work: screenshots, Mobbin references, n8n
+      flows, overnight GitHub issues, and human review in the morning</li>
+      <li>why Nostr onboarding still strands people in read-only mode after
+      key loss</li>
+      <li>Martti's Nostr-native stack, Rabble's Vine revival, and the case for
+      building things that are fun first</li>
+      <li>why Gigi cares more about purity than mass adoption when the
+      protocol trade-off is real</li>
+      <li>why hard problems still benefit from in-person collaboration,
+      walking dialogue, and distributed cognition</li>
+      <li>how to grow communities: plant a flag, define the vocabulary, and
+      keep showing up</li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li>Jack Dorsey</li>
+      <li>Alex Gladstein</li>
+      <li>Martti Malmi</li>
+      <li>Jeff G</li>
+      <li>Rabble</li>
+      <li>Josh</li>
+      <li>Christoph</li>
+      <li>Arno</li>
+      <li>Marcus</li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://bitcoin.design/guide/">Bitcoin Design
+      Guide</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      <li><a href="https://block.xyz/">Block</a></li>
+      <li><a href="https://n8n.io/">n8n</a></li>
+      <li><a href="https://mobbin.com/">Mobbin</a></li>
+      <li><a href="https://cash.app/">Cash App</a></li>
+      <li><a href="https://www.revolut.com/">Revolut</a></li>
+      <li><a href="https://wise.com/">Wise</a></li>
+      <li><a href="https://iris.to/">Iris</a></li>
+      <li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a></li>
+      <li><a href="https://btcpayserver.org/">BTCPay Server</a></li>
+      <li><a href="https://21.world/">21 World</a></li>
+      </ul>
+      <p>Recorded at <a
+      href="https://mempool.space/block/952115">952,115</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>27: Separation of Business from State w/ gsovereignty</title>
       <description><![CDATA[<p>"It’s the people who receive Bitcoin as payment for something who

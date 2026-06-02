@@ -1,0 +1,93 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "28: Speak Human w/ MouxDesign",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 28, Speak Human w/ MouxDesign.",
+  "fileName": "28 - Speak Human.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 141,
+      "title": "Artist Mode"
+    },
+    {
+      "startTime": 141,
+      "endTime": 356,
+      "title": "Design Starts Early"
+    },
+    {
+      "startTime": 356,
+      "endTime": 868,
+      "title": "Mini AGI Layer",
+      "url": "https://block.xyz/"
+    },
+    {
+      "startTime": 868,
+      "endTime": 997,
+      "title": "Psych Barriers",
+      "url": "https://bitcoin.design/guide/"
+    },
+    {
+      "startTime": 997,
+      "endTime": 1167,
+      "title": "Vibe Design Flow",
+      "url": "https://n8n.io/"
+    },
+    {
+      "startTime": 1167,
+      "endTime": 1416,
+      "title": "Copy Beats Slop",
+      "url": "https://mobbin.com/"
+    },
+    {
+      "startTime": 1416,
+      "endTime": 1772,
+      "title": "Speak Human"
+    },
+    {
+      "startTime": 1772,
+      "endTime": 1907,
+      "title": "Lost Keys",
+      "url": "https://nostr.com/"
+    },
+    {
+      "startTime": 1907,
+      "endTime": 2133,
+      "title": "Apps on Nostr",
+      "url": "https://iris.to/"
+    },
+    {
+      "startTime": 2133,
+      "endTime": 2349,
+      "title": "Fun First"
+    },
+    {
+      "startTime": 2349,
+      "endTime": 2744,
+      "title": "Purity Trade-Offs",
+      "url": "https://bitcoin.org/"
+    },
+    {
+      "startTime": 2744,
+      "endTime": 3081,
+      "title": "Distributed Minds"
+    },
+    {
+      "startTime": 3081,
+      "endTime": 3411,
+      "title": "In Person Work"
+    },
+    {
+      "startTime": 3411,
+      "endTime": 3764,
+      "title": "Plant a Flag",
+      "url": "https://21.world/"
+    },
+    {
+      "startTime": 3764,
+      "endTime": 3790.9,
+      "title": "Happiness Ships"
+    }
+  ]
+}
