@@ -55,38 +55,57 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">Listen
       on sovereignengineering.io</a></p>
       <p>Recorded in June 2026.</p>
-      <p>Mo keeps coming back to one point: copy is design. People do not know
-      what Tor is. They should not have to decode fee math or stare at a
-      wallet error code and guess what happened. If Bitcoin tools want
-      everyday use, the words on the screen have to carry their weight.</p>
-      <p>That leads into Mo's current design workflow. Screenshot the app.
-      Pull references from <a href="https://mobbin.com/">Mobbin</a>. Dump the
-      context into a skill file. Let an agent rough out the flow in <a
-      href="https://n8n.io/">n8n</a>. Sleep on it. Review it in the morning.
-      Keep the parts that feel right. Kill the rest. The value is in the
-      morning review.</p>
-      <p>The walk also gets into Nostr accounts that come back as read-only
-      ghosts after key loss, Martti building like a madman, and Jeff G sending
-      people down rabbit holes. Gigi draws a hard line on the old Bitcoin
-      trade-off. He would rather keep the thing pure than sand it down for
-      mass adoption. Mo's answer is grounded: speak plainly, fix the defaults,
-      write better copy, and stop making users pay the price for developer
-      language.</p>
-      <p>Related walks:</p>
+      <p>Mo and Gigi keep circling one question: how do you build products for
+      people who speak plain language instead of protocol jargon? From there
+      they get into wallet copy, fee panic, backup rituals, agentic design
+      workflows, broken Nostr onboarding, fun-first software, and the old
+      Bitcoin fight over purity versus adoption.</p>
+      <p>In this dialogue:</p>
       <ul>
-      <li><a
+      <li>why design starts before the interface, at the app store screenshot,
+      the first sentence, and the story a user tells a friend</li>
+      <li>Mo's current workflow: screenshots, <a
+      href="https://mobbin.com/">Mobbin</a>, a skill file, <a
+      href="https://n8n.io/">n8n</a>, sleep, then a sober morning review</li>
+      <li>why wallet UX still stumbles on backup rituals, fee displays, and
+      error messages that dump the cognitive load on the user</li>
+      <li>why "copy is design" and why everyday users need plain language
+      instead of protocol vocabulary</li>
+      <li>how Nostr key loss turns people into read-only ghosts and leaves
+      account recovery in an awkward place</li>
+      <li>why apps on Nostr still feel early, and why fun matters if you want
+      people to come back</li>
+      <li>why Martti's work keeps coming up, from <a
+      href="https://iris.to/">Iris</a> to <a
+      href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>, plus a
+      callback to <a
       href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
       Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
-      <li><a
+      <li>why Jeff G's work on <a href="https://www.whitenoise.chat/">White
+      Noise</a> still matters when the conversation turns to strange network
+      conditions and real apps, plus a callback to <a
       href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25:
       White Noise, MLS, and marmot w/ Jeff G</a></li>
+      <li>why Gigi still leans toward protocol purity when mass adoption asks
+      for compromise</li>
+      <li>why walking and thinking out loud can still beat Slack threads,
+      group chats, and solo brainstorming</li>
+      <li>how communities form when somebody plants a flag, names the thing,
+      and keeps showing up, whether that is <a
+      href="https://twentyone.world/">21 World</a> or something else</li>
+      <li>why the simple test still matters: did you ship something that makes
+      people happier?</li>
       </ul>
       <p>People mentioned:</p>
       <ul>
       <li>Jack Dorsey</li>
       <li>Alex Gladstein</li>
-      <li>Martti Malmi</li>
-      <li>Jeff G</li>
+      <li>Martti Malmi (<a
+      href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
+      Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a>)</li>
+      <li>Jeff G (<a
+      href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25:
+      White Noise, MLS, and marmot w/ Jeff G</a>)</li>
       <li>Rabble</li>
       <li>Josh</li>
       <li>Christoph</li>
@@ -140,38 +159,57 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">Listen
       on sovereignengineering.io</a></p>
       <p>Recorded in June 2026.</p>
-      <p>Mo keeps coming back to one point: copy is design. People do not know
-      what Tor is. They should not have to decode fee math or stare at a
-      wallet error code and guess what happened. If Bitcoin tools want
-      everyday use, the words on the screen have to carry their weight.</p>
-      <p>That leads into Mo's current design workflow. Screenshot the app.
-      Pull references from <a href="https://mobbin.com/">Mobbin</a>. Dump the
-      context into a skill file. Let an agent rough out the flow in <a
-      href="https://n8n.io/">n8n</a>. Sleep on it. Review it in the morning.
-      Keep the parts that feel right. Kill the rest. The value is in the
-      morning review.</p>
-      <p>The walk also gets into Nostr accounts that come back as read-only
-      ghosts after key loss, Martti building like a madman, and Jeff G sending
-      people down rabbit holes. Gigi draws a hard line on the old Bitcoin
-      trade-off. He would rather keep the thing pure than sand it down for
-      mass adoption. Mo's answer is grounded: speak plainly, fix the defaults,
-      write better copy, and stop making users pay the price for developer
-      language.</p>
-      <p>Related walks:</p>
+      <p>Mo and Gigi keep circling one question: how do you build products for
+      people who speak plain language instead of protocol jargon? From there
+      they get into wallet copy, fee panic, backup rituals, agentic design
+      workflows, broken Nostr onboarding, fun-first software, and the old
+      Bitcoin fight over purity versus adoption.</p>
+      <p>In this dialogue:</p>
       <ul>
-      <li><a
+      <li>why design starts before the interface, at the app store screenshot,
+      the first sentence, and the story a user tells a friend</li>
+      <li>Mo's current workflow: screenshots, <a
+      href="https://mobbin.com/">Mobbin</a>, a skill file, <a
+      href="https://n8n.io/">n8n</a>, sleep, then a sober morning review</li>
+      <li>why wallet UX still stumbles on backup rituals, fee displays, and
+      error messages that dump the cognitive load on the user</li>
+      <li>why "copy is design" and why everyday users need plain language
+      instead of protocol vocabulary</li>
+      <li>how Nostr key loss turns people into read-only ghosts and leaves
+      account recovery in an awkward place</li>
+      <li>why apps on Nostr still feel early, and why fun matters if you want
+      people to come back</li>
+      <li>why Martti's work keeps coming up, from <a
+      href="https://iris.to/">Iris</a> to <a
+      href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>, plus a
+      callback to <a
       href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
       Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
-      <li><a
+      <li>why Jeff G's work on <a href="https://www.whitenoise.chat/">White
+      Noise</a> still matters when the conversation turns to strange network
+      conditions and real apps, plus a callback to <a
       href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25:
       White Noise, MLS, and marmot w/ Jeff G</a></li>
+      <li>why Gigi still leans toward protocol purity when mass adoption asks
+      for compromise</li>
+      <li>why walking and thinking out loud can still beat Slack threads,
+      group chats, and solo brainstorming</li>
+      <li>how communities form when somebody plants a flag, names the thing,
+      and keeps showing up, whether that is <a
+      href="https://twentyone.world/">21 World</a> or something else</li>
+      <li>why the simple test still matters: did you ship something that makes
+      people happier?</li>
       </ul>
       <p>People mentioned:</p>
       <ul>
       <li>Jack Dorsey</li>
       <li>Alex Gladstein</li>
-      <li>Martti Malmi</li>
-      <li>Jeff G</li>
+      <li>Martti Malmi (<a
+      href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
+      Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a>)</li>
+      <li>Jeff G (<a
+      href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25:
+      White Noise, MLS, and marmot w/ Jeff G</a>)</li>
       <li>Rabble</li>
       <li>Josh</li>
       <li>Christoph</li>
