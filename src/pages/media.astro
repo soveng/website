@@ -57,6 +57,7 @@ function resolveAppearance(appearance: MediaAppearance): ResolvedAppearance {
 
 const featuredAppearances = getFeaturedMediaAppearances().map(resolveAppearance);
 const archiveAppearances = getArchiveMediaAppearances().map(resolveAppearance);
+const mediaSeparatorImage = '/images/contest/separator-ship.png';
 ---
 
 <Base
@@ -77,10 +78,6 @@ const archiveAppearances = getArchiveMediaAppearances().map(resolveAppearance);
               Conversations where Sovereign Engineering alumni, hosts, and projects get tested in public: FIPS, Nostr markets,
               eCash, AI, Madeira, and the Friday-demo habit of turning half-formed prototypes into real tools.
             </p>
-            <div class="media-hero-actions">
-              <a href="#featured" class="btn-retro inline-block">Highlighted conversations</a>
-              <a href="#other-conversations" class="projects-link projects-link--muted">Other conversations</a>
-            </div>
           </div>
         </div>
       </div>
@@ -103,7 +100,9 @@ const archiveAppearances = getArchiveMediaAppearances().map(resolveAppearance);
                   <span>{appearance.source}</span>
                   <span>{appearance.platform}</span>
                 </div>
-                <h3 class="projects-display media-card-title">{appearance.title}</h3>
+                <h3 class="projects-display media-card-title">
+                  <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.title}</a>
+                </h3>
                 <p class="projects-body media-card-description">{appearance.description}</p>
 
                 <div class="media-meta-row" aria-label="Conversation details">
@@ -135,26 +134,21 @@ const archiveAppearances = getArchiveMediaAppearances().map(resolveAppearance);
                     <span>{tag}</span>
                   ))}
                 </div>
-
-                <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-card-cta">
-                  {appearance.platform === 'YouTube' ? 'Watch conversation' : 'Listen on Fountain'}
-                </a>
               </article>
             ))
           }
         </div>
+
+        <figure class="media-separator" aria-hidden="true">
+          <img src={mediaSeparatorImage} alt="" width="2172" height="724" loading="lazy" decoding="async" />
+        </figure>
       </div>
     </section>
 
     <section id="other-conversations" class="bg-black py-14 text-white sm:py-20">
       <div class="container max-w-[1120px]">
-        <div class="media-section-heading media-section-heading--split">
-          <div>
-            <p class="projects-eyebrow">Other conversations</p>
-          </div>
-          <p class="projects-body media-section-note">
-            Dates, alumni npubs, source links, and project tags stay as reusable data for future pages.
-          </p>
+        <div class="media-section-heading">
+          <p class="projects-eyebrow">Other conversations</p>
         </div>
 
         <ol class="media-archive-list">
@@ -173,7 +167,9 @@ const archiveAppearances = getArchiveMediaAppearances().map(resolveAppearance);
                     <span>{appearance.source}</span>
                     <span>{appearance.platform}</span>
                   </p>
-                  <h3 class="projects-display media-archive-title">{appearance.title}</h3>
+                  <h3 class="projects-display media-archive-title">
+                    <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.title}</a>
+                  </h3>
                   <p class="projects-body media-archive-description">{appearance.description}</p>
                   <div class="media-chip-group" aria-label="Alumni and alumni hosts in this conversation">
                     {appearance.alumni.map((profile) => (
@@ -189,9 +185,6 @@ const archiveAppearances = getArchiveMediaAppearances().map(resolveAppearance);
                       <span>{tag}</span>
                     ))}
                   </div>
-                  <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-card-cta media-card-cta--small">
-                    {appearance.platform === 'YouTube' ? 'Watch' : 'Listen'}
-                  </a>
                 </div>
               </li>
             ))
