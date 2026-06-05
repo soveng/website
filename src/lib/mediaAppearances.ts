@@ -6,6 +6,8 @@ export interface MediaAppearance {
   source: string;
   platform: 'Fountain' | 'YouTube';
   url: string;
+  imageUrl: string;
+  imageAlt: string;
   publishedAt: string;
   durationSeconds: number;
   featured: boolean;
@@ -35,6 +37,7 @@ export function formatMediaAppearanceDate(publishedAt: string): string {
   return new Intl.DateTimeFormat('en', {
     day: '2-digit',
     month: 'short',
+    timeZone: 'UTC',
     year: 'numeric',
   }).format(new Date(publishedAt));
 }
