@@ -1,0 +1,76 @@
+[
+  {
+    "id": "open-markets-7-yo-hoho-sovereign-engineering",
+    "title": "#7 Yo hoho 🏴‍☠️ Sovereign Engineering",
+    "source": "Open Markets Podcast",
+    "platform": "Fountain",
+    "url": "https://fountain.fm/episode/BGS8MezCVgY9Tb6xwkkn",
+    "publishedAt": "2026-05-31T17:21:08.455Z",
+    "durationSeconds": 6850,
+    "featured": true,
+    "description": "Yo joins Open Markets to talk Nostr marketplace development, gamma markets, on-chain zaps, and the build culture around Sovereign Engineering.",
+    "alumniNpubs": ["npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm", "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6"],
+    "projectNames": ["Shopstr", "Plebeian Market"],
+    "tags": ["Nostr marketplaces", "Sovereign Engineering", "Open Markets", "Zaps"]
+  },
+  {
+    "id": "nodesignal-e280-sovereign-engineering-show-talk-build",
+    "title": "Nodesignal-Talk - E280 - Sovereign Engineering – Show-Talk-Build",
+    "source": "Nodesignal - Deine Bitcoin-Frequenz",
+    "platform": "Fountain",
+    "url": "https://fountain.fm/episode/R2ewR5SPX2LjAzU5uESs",
+    "publishedAt": "2026-05-08T12:15:39.000Z",
+    "durationSeconds": 4708,
+    "featured": true,
+    "description": "Max, Egge, and Thomas discuss six weeks of building on Madeira, demo-day pressure, AI-assisted project work, and how Friday demos became real Bitcoin and Nostr tools.",
+    "alumniNpubs": [
+      "npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt",
+      "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226",
+      "npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm"
+    ],
+    "projectNames": ["FIPs"],
+    "tags": ["Sovereign Engineering", "Madeira", "Bitcoin", "Nostr", "FIPS"]
+  },
+  {
+    "id": "open-markets-5-what-the-fips",
+    "title": "#5 What The Fips",
+    "source": "Open Markets Podcast",
+    "platform": "Fountain",
+    "url": "https://fountain.fm/episode/eaQOAVu8jhFQUhqu3XTu",
+    "publishedAt": "2026-05-05T16:38:55.496Z",
+    "durationSeconds": 5204,
+    "featured": false,
+    "description": "Open Markets follows up on FIPS as a network for decentralizing internet connectivity, strengthening local community resilience, and building protocol-first markets.",
+    "alumniNpubs": ["npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr", "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6"],
+    "projectNames": ["FIPs", "Learn FIPS"],
+    "tags": ["FIPS", "Mesh networking", "Open Markets", "Local resilience"]
+  },
+  {
+    "id": "citadel-dispatch-cd193-fips-fixing-the-internet",
+    "title": "CD193: FIPS - FIXING THE INTERNET",
+    "source": "Citadel Dispatch",
+    "platform": "Fountain",
+    "url": "https://fountain.fm/episode/2luFagFMSN3J2IX7m4wj",
+    "publishedAt": "2026-03-06T23:46:50.000Z",
+    "durationSeconds": 3468,
+    "featured": true,
+    "description": "FIPS as an open-source mesh networking project for middleman-free internet: cryptographic node identity, encrypted traffic, peer discovery, community meshes, and sats-aware routing.",
+    "alumniNpubs": ["npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr", "npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k"],
+    "projectNames": ["FIPs", "Learn FIPS", "Tollgate"],
+    "tags": ["FIPS", "Mesh networking", "Infrastructure", "Nostr", "Tollgate"]
+  },
+  {
+    "id": "good-stuff-22-bitcoin-nostr-sovereign-engineering-gigi",
+    "title": "Good Stuff 22 - Bitcoin, Nostr & Sovereign Engineering with Gigi",
+    "source": "The Good Stuff",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=aKN1y7SxnJg",
+    "publishedAt": "2025-09-11T10:10:50-07:00",
+    "durationSeconds": 5798,
+    "featured": false,
+    "description": "Gigi and Pete walk through Bitcoin circular economies, eCash payment systems, Nostr's permissionless internet vision, AI, and the Sovereign Engineering context in Madeira.",
+    "alumniNpubs": ["npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"],
+    "projectNames": [],
+    "tags": ["Bitcoin", "Nostr", "eCash", "AI", "Madeira"]
+  }
+]
