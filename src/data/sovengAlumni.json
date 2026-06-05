@@ -1,0 +1,736 @@
+[
+  {
+    "pubkey": "e3fc673fc5f99cc554d0ff47756795647d25cb6e6658f912d114ae6429d35d35",
+    "npub": "npub1u07xw079lxwv24xslarh2eu4v37jtjmwvev0jyk3zjhxg2wnt56seyez97",
+    "name": "a1denvalu3",
+    "nip05Verified": false,
+    "picture": "https://m.primal.net/JfYR.jpg"
+  },
+  {
+    "pubkey": "404d9570c9ae6efb2ba75607b7db64a4ac8eea14992f57c2ec6bf51fe4d42fe7",
+    "npub": "npub1gpxe2uxf4eh0k2a82crm0kmy5jkga6s5nyh40shvd063lex59lnsrx434r",
+    "name": "Ace",
+    "displayName": "Ace",
+    "nip05Verified": false
+  },
+  {
+    "pubkey": "990c8f060750cfae3d1c9c03099f87e7216bea1c5fbcbe7f00fcb99f0c7edeae",
+    "npub": "npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph",
+    "name": "Alan",
+    "displayName": "Alan",
+    "nip05Verified": false,
+    "picture": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg"
+  },
+  {
+    "pubkey": "d76726da1b64e8679d8b6e66facf551ba96f2612de5a171fac818ee85ce3e5fe",
+    "npub": "npub16anjdksmvn5x08vtden04n64rw5k7fsjmedpw8avsx8wsh8ruhlq076pfx",
+    "name": "Alex Lewin",
+    "displayName": "Alex Lewin",
+    "nip05": "alex@pleb.fm",
+    "nip05Verified": true,
+    "picture": "https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg"
+  },
+  {
+    "pubkey": "056f33245ca4cc4fa3c1d6e557dd8eae714889f3c3423cbd6fbf09f3c0e200d2",
+    "npub": "npub1q4hnxfzu5nxylg7p6mj40hvw4ec53z0ncdpre0t0huyl8s8zqrfquvz7zr",
+    "name": "AlexXie",
+    "displayName": "Alex Xie",
+    "nip05Verified": false,
+    "picture": "https://cdn.nostrcheck.me/edd8500b4d86fee6e6a824b96b9c727a0e06ee7be4603eb868fd8ad0b1a1ada7.webp"
+  },
+  {
+    "pubkey": "efe5d120df0cc290fa748727fb45ac487caad346d4f2293ab069e8f01fc51981",
+    "npub": "npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp",
+    "name": "aljaz",
+    "displayName": "aljaz",
+    "nip05": "aljaz@nostr.si",
+    "nip05Verified": true,
+    "picture": "https://m.primal.net/HRBw.jpg"
+  },
+  {
+    "pubkey": "5b705e6cb602425c019202dd070a0c009b040ac19960eeef2d8a8fab25c1efe5",
+    "npub": "npub1tdc9um9kqfp9cqvjqtwswzsvqzdsgzkpn9swamed3286kfwpaljsrr8r0y",
+    "name": "andreloja",
+    "displayName": "André Loja",
+    "nip05": "andreloja@freemadeira.org",
+    "nip05Verified": true,
+    "picture": "https://nostr.build/i/nostr.build_e243727155be56487475c10a44ba24647cc2b7c5820bf0cd0fe138f2edc7da6a.jpg"
+  },
+  {
+    "pubkey": "b158557dddf53d5b98e7fb7597a294f67c7cb6accdcc9aea9f6a5ab50fae01ee",
+    "npub": "npub1k9v92lwa7574hx88ld6e0g557e78ed4vehxf465ldfdt2rawq8hq4jvecm",
+    "name": "arinc9",
+    "nip05Verified": false
+  },
+  {
+    "pubkey": "bbb5dda0e15567979f0543407bdc2033d6f0bbb30f72512a981cfdb2f09e2747",
+    "npub": "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr",
+    "name": "Arjen",
+    "displayName": "Arjen",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png"
+  },
+  {
+    "pubkey": "9ec7a778167afb1d30c4833de9322da0c08ba71a69e1911d5578d3144bb56437",
+    "npub": "npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8",
+    "name": "balas",
+    "nip05": "_@balas.pt",
+    "nip05Verified": true,
+    "picture": "https://i.nostr.build/WX5nCEZIwqiSkRPb.jpg"
+  },
+  {
+    "pubkey": "e1ff3bfdd4e40315959b08b4fcc8245eaa514637e1d4ec2ae166b743341be1af",
+    "npub": "npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz",
+    "name": "benthecarman",
+    "displayName": "benthecarman",
+    "nip05": "_@benthecarman.com",
+    "nip05Verified": true,
+    "picture": "https://pfp.nostr.build/11670ef3e4b85e22e85a6558a7e7ea6eda960fc72f1a211042173609dce4be4e.jpg"
+  },
+  {
+    "pubkey": "50d94fc2d8580c682b071a542f8b1e31a200b0508bab95a33bef0855df281d63",
+    "npub": "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg",
+    "name": "calle 💯",
+    "displayName": "calle 💯",
+    "nip05": "calle@cashu.me",
+    "nip05Verified": true,
+    "picture": "https://avatars.githubusercontent.com/u/93376500"
+  },
+  {
+    "pubkey": "d36e8083fa7b36daee646cb8b3f99feaa3d89e5a396508741f003e21ac0b6bec",
+    "npub": "npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq",
+    "name": "calvadev",
+    "displayName": "calvadev⚡️",
+    "nip05": "calvadev@calva.dev",
+    "nip05Verified": true,
+    "picture": "https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg"
+  },
+  {
+    "pubkey": "ec79b568bdea63ca6091f5b84b0c639c10a0919e175fa09a4de3154f82906f25",
+    "npub": "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6",
+    "name": "Chiefmonkey",
+    "nip05": "chiefmonkey@primal.net",
+    "nip05Verified": true,
+    "picture": "https://blossom.primal.net/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png"
+  },
+  {
+    "pubkey": "5fef2136ff8584533376e2798febf192eb320647051aa6e29e572e22d664c916",
+    "npub": "npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu",
+    "name": "covah",
+    "displayName": "disgruntledStudent",
+    "nip05Verified": false,
+    "picture": "https://m.primal.net/LAPO.jpg"
+  },
+  {
+    "pubkey": "a008def15796fba9a0d6fab04e8fd57089285d9fd505da5a83fe8aad57a3564d",
+    "npub": "npub15qydau2hjma6ngxkl2cyar74wzyjshvl65za5k5rl69264ar2exs5cyejr",
+    "name": "DanConwayDev",
+    "displayName": "DanConwayDev",
+    "nip05": "_@danconwaydev.com",
+    "nip05Verified": true,
+    "picture": "https://pfp.nostr.build/437c14b92bc305f2d7bdfd2653757a13712fa83de21db44770bbe1e3ebec6bbc.jpg"
+  },
+  {
+    "pubkey": "04dcaf2552801937d1c20b69adf89646f21b53c17906271d22c7be9bcadb96c0",
+    "npub": "npub1qnw27f2jsqvn05wzpd56m7ykgmepk57p0yrzw8fzc7lfhjkmjmqqmd9r6h",
+    "name": "DhananjayPurohit",
+    "displayName": "Dhananjay Purohit",
+    "nip05Verified": false,
+    "picture": "https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg"
+  },
+  {
+    "pubkey": "1f830dd875130b134fbf3f27a69eecd8613a499748a71b5a271a719febae14ed",
+    "npub": "npub1r7psmkr4zv93xnal8un6d8hvmpsn5jvhfzn3kk38rfcel6awznks7znspg",
+    "name": "dimi",
+    "displayName": "Dimi",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/3d4bc423f02cdb9b14e0f2cb218681c8b109182f67c9de02089655489e96332a.png"
+  },
+  {
+    "pubkey": "da18e9860040f3bf493876fc16b1a912ae5a6f6fa8d5159c3de2b8233a0d9851",
+    "npub": "npub1mgvwnpsqgrem7jfcwm7pdvdfz2h95mm04r23t8pau2uzxwsdnpgs0gpdjc",
+    "name": "Dustin",
+    "displayName": "Dustin Dannenhauer",
+    "nip05": "dustind@dtdannen.github.io",
+    "nip05Verified": true,
+    "picture": "https://dtdannen.github.io/profile_pic_newer.jpg"
+  },
+  {
+    "pubkey": "6b1b8dac34ffc61d464dfeef00e4a84a604e172ef6391fb629293d6f1666148c",
+    "npub": "npub1dvdcmtp5llrp63jdlmhspe9gffsyu9ew7cu3ld3f9y7k79nxzjxqf4d4rm",
+    "name": "dvdc",
+    "displayName": "David Caseria",
+    "nip05": "dvdc@sovereign.app",
+    "nip05Verified": false,
+    "picture": "https://m.primal.net/HkRO.jpg"
+  },
+  {
+    "pubkey": "167e7fe01a76b6bec9d2a9b196b18c72e150e985fbeb46ee651869e7b4032785",
+    "npub": "npub1zel8lcq6w6mtajwj4xcedvvvwts4p6v9l045dmn9rp570dqry7zsyll0dt",
+    "name": "dzdidi",
+    "displayName": "dzdidi",
+    "nip05Verified": false,
+    "picture": "https://pbs.twimg.com/profile_images/1585282118585925634/HbG2Ylu5.jpg"
+  },
+  {
+    "pubkey": "ddf03aca85ade039e6742d5bef3df352df199d0d31e22b9858e7eda85cb3bbbe",
+    "npub": "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226",
+    "name": "Egge",
+    "nip05": "egge@npub.cash",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg"
+  },
+  {
+    "pubkey": "408f636bd26fcc5f29889033b447cb2411f60ab1b8a5fc8cb3842dab758fdeb5",
+    "npub": "npub1gz8kx67jdlx972vgjqemg37tysglvz43hzjler9nssk6kav0m66sv7xjkt",
+    "name": "elnosh",
+    "displayName": "elnosh",
+    "nip05": "elnosh@getalby.com",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/be34eff64786887c484ed9d82c4a16a41c940f9bc2eb02fe9fe5b906a9ea5534.jpg"
+  },
+  {
+    "pubkey": "f4d1866e8599563c52ceeedf11c28b8567e465c6e9a91df92add535d57f02ab0",
+    "npub": "npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta",
+    "name": "En",
+    "displayName": "En",
+    "nip05": "enes@nostrdev.com",
+    "nip05Verified": true,
+    "picture": "https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp"
+  },
+  {
+    "pubkey": "96f652249b0946e1575d78a8bc7450123c8e64f1c56f6b2f93bc23fb249ed85a",
+    "npub": "npub1jmm9yfymp9rwz46a0z5tcazszg7gue83c4hkktunhs3lkfy7mpdqx6zden",
+    "name": "eugene",
+    "displayName": "eugene",
+    "nip05": "eugene23@iris.to",
+    "nip05Verified": true,
+    "picture": "https://media.tate.org.uk/art/images/work/P/P07/P07142_10.jpg"
+  },
+  {
+    "pubkey": "e47d738ee8d9525a34aff86caea5c7bd57ea593a71d9b4754211650347ab1078",
+    "npub": "npub1u37h8rhgm9f95d90lpk2afw8h4t75kf6w8vmga2zz9jsx3atzpuqlmw8vy",
+    "name": "Evan",
+    "displayName": "Evan",
+    "nip05": "evan@routstr.com",
+    "nip05Verified": true,
+    "picture": "https://m.primal.net/QAjZ.jpg"
+  },
+  {
+    "pubkey": "d04ecf33a303a59852fdb681ed8b412201ba85d8d2199aec73cb62681d62aa90",
+    "npub": "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw",
+    "name": "Five",
+    "displayName": "Five",
+    "nip05Verified": false,
+    "picture": "https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png"
+  },
+  {
+    "pubkey": "b7c6f6915cfa9a62fff6a1f02604de88c23c6c6c6d1b8f62c7cc10749f307e81",
+    "npub": "npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc",
+    "name": "florian",
+    "displayName": "florian",
+    "nip05": "florian@slidestr.net",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/0ebb55ed4d269015f2c6fb7119e8ff8686110cad690443894b31287866758a5e.jpg"
+  },
+  {
+    "pubkey": "5d3ab876c206a37ad3b094e20bfc3941df3fa21a15ac8ea76d6918473789669a",
+    "npub": "npub1t5atsakzq63h45asjn3qhlpeg80nlgs6zkkgafmddyvywdufv6dqxfahcl",
+    "name": "Francis Mars",
+    "displayName": "Francis Mars",
+    "nip05": "francismars@chainduel.net",
+    "nip05Verified": false,
+    "picture": "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg"
+  },
+  {
+    "pubkey": "726a1e261cc6474674e8285e3951b3bb139be9a773d1acf49dc868db861a1c11",
+    "npub": "npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9",
+    "name": "franzap",
+    "displayName": "franzap",
+    "nip05": "fran@zapstore.dev",
+    "nip05Verified": true,
+    "picture": "https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg"
+  },
+  {
+    "pubkey": "fa3c984d5536ebe21bc41f8df5390e9394ec4dfa6f4cb664607e8ed5a1d6694f",
+    "npub": "npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63",
+    "name": "Gaius I. Vicesimus Primus Superior",
+    "displayName": "Gaius I. Vicesimus Primus Superior",
+    "nip05": "Gaius_Bitcoinus_Superior@primal.net",
+    "nip05Verified": false,
+    "picture": "https://npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.blossom.band/37d34012dfbdcaeae838484582e831e256bf88a1ce7bc6444c83f4c7fd2d93b7.jpg"
+  },
+  {
+    "pubkey": "6e468422dfb74a5738702a8823b9b28168abab8655faacb6853cd0ee15deee93",
+    "npub": "npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc",
+    "name": "Gigi",
+    "displayName": "Gigi",
+    "nip05": "dergigi.com",
+    "nip05Verified": true,
+    "picture": "https://dergigi.com/assets/images/avatars/09.png"
+  },
+  {
+    "pubkey": "d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075",
+    "npub": "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p",
+    "name": "gsovereignty",
+    "displayName": "gsovereignty",
+    "nip05": "gsovereignty@nostrovia.org",
+    "nip05Verified": true,
+    "picture": "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg"
+  },
+  {
+    "pubkey": "40b9c85fffeafc1cadf8c30a4e5c88660ff6e4971a0dc723d5ab674b5e61b451",
+    "npub": "npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds",
+    "name": "Gzuuus",
+    "displayName": "Gzuuus",
+    "nip05": "gzuuus@contextvm.org",
+    "nip05Verified": true,
+    "picture": "https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png"
+  },
+  {
+    "pubkey": "24480686b56234a240fd9827209b584847f3d4f9657f0d9a97aec5320a264acb",
+    "npub": "npub1y3yqdp44vg62ys8anqnjpx6cfprl848ev4lsmx5h4mznyz3xft9sen050h",
+    "name": "hvmelo",
+    "displayName": "卄乇几尺讠Ɋㄩ乇",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/e46840a201179aa85982ca05df4c400df2bf9540a39135207d866b610498df17.jpg"
+  },
+  {
+    "pubkey": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
+    "npub": "npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr",
+    "name": "hzrd149",
+    "nip05": "_@hzrd149.com",
+    "nip05Verified": true,
+    "picture": "https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png"
+  },
+  {
+    "pubkey": "0eef96197f5c6be3859b6817e6a5736685856c416e29a2925bd5a15b2a57c8b1",
+    "npub": "npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr",
+    "name": "Ian",
+    "displayName": "Ian",
+    "nip05": "ian@nextblock.city",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg"
+  },
+  {
+    "pubkey": "2bbace553efebf58dd55912169f92c1123eb6121d7ba092f6c50104afc31acef",
+    "npub": "npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k",
+    "name": "jcorgan",
+    "displayName": "Johnathan Corgan",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/58f5a81649be72e99c7f270ddac38e030ce145eb474ae680c72f48b57d73251d.jpg"
+  },
+  {
+    "pubkey": "53a91e3a64d1f658e983ac1e4f9e0c697f8f33e01d8debe439f4c1a92113f592",
+    "npub": "npub12w53uwny68m936vr4s0yl8svd9lc7vlqrkx7hepe7nq6jggn7kfq92rrm3",
+    "name": "Joel 🇨🇭",
+    "displayName": "Joel 🇨🇭",
+    "nip05": "joel@joelstuedle.ch",
+    "nip05Verified": true,
+    "picture": "https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg"
+  },
+  {
+    "pubkey": "1634b87b5fcfd4a6c4ff2f2de17450ccce46f9abe0b02a71876c596ec165bfed",
+    "npub": "npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl",
+    "name": "k0sh",
+    "nip05": "kosh@getalby.com",
+    "nip05Verified": true,
+    "picture": "https://m.primal.net/PPfe.png"
+  },
+  {
+    "pubkey": "4e177978f3a0f3e6e083674e546d8813c5a429941f6c3d521736764649ce6c84",
+    "npub": "npub1fcthj78n5re7dcyrva89gmvgz0z6g2v5rakr65shxemyvjwwdjzqcpeavj",
+    "name": "karliatto",
+    "displayName": "karliatto",
+    "nip05": "karliatto@karliatto.com",
+    "nip05Verified": true,
+    "picture": "https://avatars.githubusercontent.com/u/5362163?v=4"
+  },
+  {
+    "pubkey": "6eef2e68c399c8f2efbf70d831c2b618d7a84bdfd21734a81e6d7d3d817f6850",
+    "npub": "npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm",
+    "name": "lauri",
+    "displayName": "lauri",
+    "nip05Verified": false,
+    "picture": "https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png"
+  },
+  {
+    "pubkey": "6fb266012c3008303e54ae55140b46957e9978098401dda34f4d921a275bf8bb",
+    "npub": "npub1d7exvqfvxqyrq0j54e23gz6xj4lfj7qfssqamg60fkfp5f6mlzaskklrf3",
+    "name": "Leito",
+    "displayName": "Leito",
+    "nip05": "leo@vlt.ge",
+    "nip05Verified": true,
+    "picture": "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg"
+  },
+  {
+    "pubkey": "c88f94f0a391b9aaa1ffefd645253b1a968b0a422a876ea48920a95d45c33f47",
+    "npub": "npub1ez8efu9rjxu64g0lalty2ffmr2tgkzjz92rkafyfyz5463wr8ars8zls5t",
+    "name": "leonardo",
+    "displayName": "Leonardo",
+    "nip05Verified": false,
+    "picture": "https://pbs.twimg.com/profile_images/1637623131614466048/Ew3ceh2B_400x400.png"
+  },
+  {
+    "pubkey": "cfd7df62799a22e384a4ab5da8c4026c875b119d0f47c2716b20cdac9cc1f1a6",
+    "npub": "npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume",
+    "name": "Lez",
+    "nip05": "lez@nostr.hu",
+    "nip05Verified": true,
+    "picture": "https://nostr.hu/kobuki.jpg"
+  },
+  {
+    "pubkey": "d15baf16eae236584647abb51da7c0f72f7375ca0c5af754fe175a4df90b2bf0",
+    "npub": "npub169d679h2ugm9s3j84w63mf7q7uhhxaw2p3d0w487zadym7gt90cqdqn6cc",
+    "name": "Manuel ₿",
+    "displayName": "Manuel ₿",
+    "nip05Verified": false,
+    "picture": "https://pbs.twimg.com/profile_images/1589784136859934722/nxgcBt6x.jpg"
+  },
+  {
+    "pubkey": "5082984480f3b27891840a2037512739149678efc2ac981ca8cd016d02304efd",
+    "npub": "npub12zpfs3yq7we83yvypgsrw5f88y2fv780c2kfs89ge5qk6q3sfm7spks880",
+    "name": "marc",
+    "displayName": "M Ʌ R C",
+    "nip05Verified": false,
+    "picture": "https://nostr.build/i/p/5490p.png"
+  },
+  {
+    "pubkey": "38e9814f87cd751506aef5d7dbf081de14ad307c6984526ab0ceaf96f6349373",
+    "npub": "npub18r5cznu8e4632p4w7htahuypmc226vrudxz9y64se6heda35jdescaeqct",
+    "name": "MathJud",
+    "nip05Verified": false,
+    "picture": "https://avatars.githubusercontent.com/u/1871891"
+  },
+  {
+    "pubkey": "b7ed68b062de6b4a12e51fd5285c1e1e0ed0e5128cda93ab11b4150b55ed32fc",
+    "npub": "npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt",
+    "name": "Max",
+    "displayName": "Max",
+    "nip05": "max@towardsliberty.com",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/08e549edff9a20737d72a74d6dd9bcd6f7f5189ef825626afdce3de9062afcb7.jpg"
+  },
+  {
+    "pubkey": "a9434ee165ed01b286becfc2771ef1705d3537d051b387288898cc00d5c885be",
+    "npub": "npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q",
+    "name": "Niel Liesmons",
+    "displayName": "Niel Liesmons",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/bf7e965bf6ddba341ef07a866aa9562e7323e9e5639cd699ecb187078c9192e9.jpg"
+  },
+  {
+    "pubkey": "27487c9600b16b24a1bfb0519cfe4a5d1ad84959e3cce5d6d7a99d48660a1f78",
+    "npub": "npub1yay8e9sqk94jfgdlkpgeelj2t5ddsj2eu0xwt4kh4xw5ses2rauqnstrdv",
+    "name": "Nostr Dev Team",
+    "displayName": "Nostr Dev Team",
+    "nip05": "_@nostrdev.com",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/adf94e1a8a2c1208821ef40caba13c62fb8695798a94fa5351aea435230d2523.jpg"
+  },
+  {
+    "pubkey": "02a11d1545114ab63c29958093c91b9f88618e56fee037b9d2fabcff32f62ea9",
+    "npub": "npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u",
+    "name": "nourspace",
+    "displayName": "Nour",
+    "nip05": "_@nour.space",
+    "nip05Verified": true,
+    "picture": "https://i.nostr.build/L78n.webp"
+  },
+  {
+    "pubkey": "1af12235ca57fbd7936eeafe35b1eafa39a06a191550c86a2dd1741e2c44c881",
+    "npub": "npub1rtcjydw22laa0ymwatlrtv02lgu6q6sez4gvs63d696putzyezqs65qqsd",
+    "name": "npub1rtcjydw22laa0ymwatlrtv02lgu6q6sez4gvs63d696putzyezqs65qqsd",
+    "nip05Verified": false
+  },
+  {
+    "pubkey": "9839f160d893daae661c84168e07f46f0e1e9746feb8439a6d76738b4ad32eaa",
+    "npub": "npub1nqulzcxcj0d2uesusstgupl5du8pa96xl6uy8xndweeckjkn964qjs23sn",
+    "name": "nQuiz",
+    "displayName": "nQuiz",
+    "nip05": "nquiz@nostrplebs.com",
+    "nip05Verified": true,
+    "picture": "https://nostr.build/i/a830ffe4f5a8774167578dc142edff984fbf2ada80e0af73e144c3f7f19343ae.jpg"
+  },
+  {
+    "pubkey": "d02a3b54e6433fc7c2608e99ef9b4aed9039644446da9822d20b5b9890964f2f",
+    "npub": "npub16q4rk48xgvlu0snq36v7lx62akgrjezygmdfsgkjpdde3yykfuhscgxcms",
+    "name": "oleksky",
+    "displayName": "oleksky",
+    "nip05Verified": false,
+    "picture": "https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg"
+  },
+  {
+    "pubkey": "df173277182f3155d37b330211ba1de4a81500c02d195e964f91be774ec96708",
+    "npub": "npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg",
+    "name": "OpenSecret",
+    "displayName": "OpenSecret",
+    "nip05": "OpenSecret@primal.net",
+    "nip05Verified": true,
+    "picture": "https://m.primal.net/PSXU.png"
+  },
+  {
+    "pubkey": "453a656903a031395d450f318211a6ec54cd79049a851f92cd6702c65ff5f5bd",
+    "npub": "npub1g5ax26gr5qcnjh29puccyydxa32v67gyn2z3lykdvupvvhl47k7spf8ypc",
+    "name": "Otto",
+    "displayName": "Otto",
+    "nip05": "otto@nostrdev.com",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/a799ebb879bb8c721736b63f7975d6a00e4a91afa07667f8b8007eaefd2e5292.jpg"
+  },
+  {
+    "pubkey": "fa984bd7dbb282f07e16e7ae87b26a2a7b9b90b7246a44771f0cf5ae58018f52",
+    "npub": "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft",
+    "name": "PABLOF7z",
+    "displayName": "PABLOF7z",
+    "nip05": "_@f7z.io",
+    "nip05Verified": true,
+    "picture": "https://m.primal.net/KwlG.jpg"
+  },
+  {
+    "pubkey": "0d6c8388dcb049b8dd4fc8d3d8c3bb93de3da90ba828e4f09c8ad0f346488a33",
+    "npub": "npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8",
+    "name": "Paul",
+    "displayName": "Paul",
+    "nip05": "futurepaul@paul.lol",
+    "nip05Verified": true,
+    "picture": "https://paul.lol/waffle_animated.gif"
+  },
+  {
+    "pubkey": "8cd2d0f8310f7009e94f50231870756cb39ba68f37506044910e2f71482b1788",
+    "npub": "npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c",
+    "name": "Pedro 🧨",
+    "displayName": "Pedro 🧨",
+    "nip05": "_@pedromvpg.com",
+    "nip05Verified": false,
+    "picture": "https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg"
+  },
+  {
+    "pubkey": "94215f42a96335c87fcb9e881a0bbb62b9a795519e109cf5f9d2ef617681f622",
+    "npub": "npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy",
+    "name": "PeteWinn",
+    "displayName": "Pete Winn",
+    "nip05": "pw@primal.net",
+    "nip05Verified": true,
+    "picture": "https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg"
+  },
+  {
+    "pubkey": "4ad6fa2d16e2a9b576c863b4cf7404a70d4dc320c0c447d10ad6ff58993eacc8",
+    "npub": "npub1ftt05tgku25m2akgvw6v7aqy5ux5mseqcrzy05g26ml43xf74nyqsredsh",
+    "name": "redshift",
+    "displayName": "redshift",
+    "nip05": "redshift@routstr.com",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/75b59a54f0cfdc2df0e78e7fbed0be2af122ad2b001eb21eb0d1e6bdf63175f2.jpg"
+  },
+  {
+    "pubkey": "cd169bd8fbd5179e2a8d498ffc31d3ae0e40825ff2b8a85ea359c4455a107ca8",
+    "npub": "npub1e5tfhk8m65teu25dfx8lcvwn4c8ypqjl72u2sh4rt8zy2kss0j5qct7mh9",
+    "name": "René Aaron",
+    "nip05": "reneaaron@getalby.com",
+    "nip05Verified": true,
+    "picture": "https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&default=mm&rating=g"
+  },
+  {
+    "pubkey": "9c5d5e2e0a1d603047ad070ab184b48b53fc4dde0867e52fadadd760c3167636",
+    "npub": "npub1n3w4uts2r4srq3adqu9trp953dflcnw7ppn72tad4htkpsckwcmqjef6um",
+    "name": "robos",
+    "displayName": "robos",
+    "nip05": "_@bushbashjapan.fyi",
+    "nip05Verified": true,
+    "picture": "https://i.imgur.com/fI7uFEb.png"
+  },
+  {
+    "pubkey": "e771af0b05c8e95fcdf6feb3500544d2fb1ccd384788e9f490bb3ee28e8ed66f",
+    "npub": "npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx",
+    "name": "sandwich",
+    "displayName": "sandwich",
+    "nip05": "_@sandwich.farm",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg"
+  },
+  {
+    "pubkey": "12ee03d11684a125dd87be879c28190415be3f3b1eca6b4ed743bd74ffd880e6",
+    "npub": "npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56",
+    "name": "SatsAndSports",
+    "displayName": "SatsAndSports",
+    "nip05Verified": false,
+    "picture": "https://blossom.primal.net/f697b3eeb618dcf6cc5d15f6399ee59e57665e9e345f2d8ffe1f3fdf07b0928f.jpg"
+  },
+  {
+    "pubkey": "3aa5817273c3b2f94f491840e0472f049d0f10009e23de63006166bca9b36ea3",
+    "npub": "npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf",
+    "name": "Schlaus Kwab",
+    "displayName": "Schlaus Kwab",
+    "nip05": "wavefunc.live",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg"
+  },
+  {
+    "pubkey": "1bbd7fdf68eaf5c19446c3aaf63b39dd4a8e33548bc96f6bd239a4124d8f229e",
+    "npub": "npub1rw7hlhmgat6ur9zxcw40vweem49guv6530yk767j8xjpynv0y20q6qsl3w",
+    "name": "sebas",
+    "displayName": "sebas",
+    "nip05": "_@sebdev.io",
+    "nip05Verified": false,
+    "picture": "https://cdn.sebdev.io/c402f0974e2f6ebe96efee967c64c3ebfd4366e2f284f4d8650371af7787fdb0"
+  },
+  {
+    "pubkey": "a136247d8caf7e30bf403d32006faeca0c9d1cec7a16075e4142c2fed6cade60",
+    "npub": "npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx",
+    "name": "Shadrach",
+    "displayName": "Shadrach",
+    "nip05": "shadrach@nostrplebs.com",
+    "nip05Verified": true,
+    "picture": "https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg"
+  },
+  {
+    "pubkey": "3a06add309fd8419ea4d4e475e9c0dff5909c635d9769bf0728232f3a0683a84",
+    "npub": "npub18gr2m5cflkzpn6jdfer4a8qdlavsn334m9mfhurjsge08grg82zq6hu9su",
+    "name": "shroominic",
+    "displayName": "shroominic",
+    "nip05": "shroominic@routstr.com",
+    "nip05Verified": true,
+    "picture": "https://image.nostr.build/e54b7f51e004ac04a9e658bac14bb71eb53cdabb4fd8f9f199a9ae13f5cd69d6.jpg"
+  },
+  {
+    "pubkey": "4523be58d395b1b196a9b8c82b038b6895cb02b683d0c253a955068dba1facd0",
+    "npub": "npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk",
+    "name": "Sirius",
+    "displayName": "Sirius",
+    "nip05Verified": false,
+    "picture": "https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg"
+  },
+  {
+    "pubkey": "d8a2c33f2e2ff3a9d4ff2a5593f3d5a59e9167fa5ded063d0e49891776611e0c",
+    "npub": "npub1mz3vx0ew9le6n48l9f2e8u745k0fzel6thksv0gwfxy3wanprcxq79mymx",
+    "name": "starbuilder",
+    "displayName": "StarBuilder",
+    "nip05": "starbuilder@current.fyi",
+    "nip05Verified": false,
+    "picture": "https://i.current.fyi/npub1current/profile/starbuilder.png"
+  },
+  {
+    "pubkey": "ff27d01cb1e56fb58580306c7ba76bb037bf211c5b573c56e4e70ca858755af0",
+    "npub": "npub1lunaq893u4hmtpvqxpk8hfmtkqmm7ggutdtnc4hyuux2skr4ttcqr827lj",
+    "name": "Stuart Bowman",
+    "displayName": "Stuart Bowman",
+    "nip05": "_@satellite.earth",
+    "nip05Verified": false,
+    "picture": "https://cdn.satellite.earth/f7f4f08cdc582b8b2611ae6837b50ee323cb714d4978935cf7dc3f72431f3efb.jpg"
+  },
+  {
+    "pubkey": "c8383d81dd24406745b68409be40d6721c301029464067fcc50a25ddf9139549",
+    "npub": "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6",
+    "name": "Sync",
+    "displayName": "Sync",
+    "nip05": "sync@nostr.boutique",
+    "nip05Verified": true,
+    "picture": "https://pfp.nostr.build/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif"
+  },
+  {
+    "pubkey": "04918dfc36c93e7db6cc0d60f37e1522f1c36b64d3f4b424c532d7c595febbc5",
+    "npub": "npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw",
+    "name": "thesimplekid",
+    "displayName": "thesimplekid",
+    "nip05": "thesimplekid@cashu.me",
+    "nip05Verified": true,
+    "picture": "https://avatars.githubusercontent.com/u/8606367?v=4"
+  },
+  {
+    "pubkey": "f53b9d91a8cd177fb4a1cf081a1b6d58759a381ef120a7c5a18c0e70cae80983",
+    "npub": "npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm",
+    "name": "Thomas",
+    "displayName": "Thomas",
+    "nip05": "Fucking@primal.net",
+    "nip05Verified": true,
+    "picture": "https://m.primal.net/KPzs.jpg"
+  },
+  {
+    "pubkey": "06b7819d7f1c7f5472118266ed7bca8785dceae09e36ea3a4af665c6d1d8327c",
+    "npub": "npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5",
+    "name": "Tim Bouma",
+    "displayName": "Tim Bouma",
+    "nip05": "trbouma@getsafebox.app",
+    "nip05Verified": true,
+    "picture": "https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png"
+  },
+  {
+    "pubkey": "1096f6be0a4d7f0ecc2df4ed2c8683f143efc81eeba3ece6daadd2fca74c7ecc",
+    "npub": "npub1zzt0d0s2f4lsanpd7nkjep5r79p7ljq7aw37eek64hf0ef6v0mxqgwljrv",
+    "name": "TollGate",
+    "displayName": "TollGate",
+    "nip05Verified": false,
+    "picture": "https://raw.githubusercontent.com/OpenTollGate/tollgate/refs/heads/main/images/TollGate_icon-White.png"
+  },
+  {
+    "pubkey": "2f5759825226f1d57ef1652ba66114b2f938f7f5c50dc505708e5d8b31e4f3c9",
+    "npub": "npub19at4nqjjymca2lh3v546vcg5ktun3al4c5xu2pts3ewckv0y70ys0gupzr",
+    "name": "Tom",
+    "displayName": "Tom",
+    "nip05": "tom@tomdwyer.uk",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/b5768f539a6b748f80e18af66f073733b2149ebd5d1f4d110eab5cb492fe1fb7.jpg"
+  },
+  {
+    "pubkey": "d83b5ef189df7e884627294b752969547814c3cfe38995cf207c040e03bbe7a4",
+    "npub": "npub1mqa4auvfmalgs338999h22tf23upfs70uwyetneq0szquqamu7jqkhlfa7",
+    "name": "TugaJoe",
+    "displayName": "TugaJoe",
+    "nip05": "joe@pleb.world",
+    "nip05Verified": false,
+    "picture": "https://image.nostr.build/3aabbcfd8e1bedbf44d88876b6273aeead39ef6adff6aefe80830630a9288d75.jpg"
+  },
+  {
+    "pubkey": "3b3a42d34cf0a1402d18d536c9d2ac2eb1c6019a9153be57084c8165d192e325",
+    "npub": "npub18vay956v7zs5qtgc65mvn54v96cuvqv6j9fmu4cgfjqkt5vjuvjsc47nzf",
+    "name": "victor",
+    "displayName": "Victor Stabile",
+    "nip05": "victorstabile.com",
+    "nip05Verified": false,
+    "picture": "https://blossom.primal.net/4ec8075d7bfd927f391929d5d8cc392f8f967ab0a8e8a5ad81b32f13b4fce69d.jpg"
+  },
+  {
+    "pubkey": "d3052ca3e3d523b1ec80671eb1bba0517a2f522e195778dc83dd03a8d84a170e",
+    "npub": "npub16vzjeglr653mrmyqvu0trwaq29az753wr9th3hyrm5p63kz2zu8qzumhgd",
+    "name": "vnprc",
+    "displayName": "vnprc",
+    "nip05": "vnprc@trianglebitdevs.org",
+    "nip05Verified": true,
+    "picture": "https://pfp.nostr.build/f61e3a04df4dcc10a00283ad5879043ac1a0e78199238f7509a910f4efb5c8ba.png"
+  },
+  {
+    "pubkey": "d60bdad03468f5f8c85b1b10db977e310a5aafab33750dfadb37488b02bfc8d7",
+    "npub": "npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm",
+    "name": "yo",
+    "displayName": "yo",
+    "nip05Verified": false,
+    "picture": "https://blossom.primal.net/5d18b4bc5a21b1dd6ea0c0d879bb346bdf4e7523d583f237a6d4d3002f7c27a5.jpg"
+  },
+  {
+    "pubkey": "17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58",
+    "npub": "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5",
+    "name": "zach",
+    "displayName": "Zach",
+    "nip05": "zach@troop.is",
+    "nip05Verified": true,
+    "picture": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX"
+  },
+  {
+    "pubkey": "7b849efa5604b58d50c419637b9873847dbf957081d526136c3a49b7357cd617",
+    "npub": "npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr",
+    "name": "Zaza",
+    "displayName": "Zaza",
+    "nip05": "zazawowow@primal.net",
+    "nip05Verified": true,
+    "picture": "https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png"
+  },
+  {
+    "pubkey": "fd38f135ef675eac5e93d5b2a738c41777c250188031caf1dcf07b1687a1fe49",
+    "npub": "npub1l5u0zd00va02ch5n6ke2wwxyzamuy5qcsqcu4uwu7pa3dpapleysf7aap5",
+    "name": "ziggie",
+    "displayName": "ziggie",
+    "nip05Verified": false,
+    "picture": "https://images.ziggie1984.win/images/avatar_nostr.png"
+  }
+]
