@@ -151,14 +151,12 @@ const mediaSeparatorImage = '/images/contest/separator-ship.png';
           {
             archiveAppearances.map((appearance) => (
               <li class="media-archive-row">
-                <div class="media-archive-media">
-                  <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-archive-cover">
-                    <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" />
-                  </a>
-                  <div class="media-archive-date">
-                    <span>{appearance.dateLabel}</span>
-                    <small>{appearance.durationLabel}</small>
-                  </div>
+                <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-archive-cover">
+                  <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" />
+                </a>
+                <div class="media-archive-date">
+                  <span>{appearance.dateLabel}</span>
+                  <small>{appearance.durationLabel}</small>
                 </div>
                 <div class="media-archive-main">
                   <p class="media-card-topline">
