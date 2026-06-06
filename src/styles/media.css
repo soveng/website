@@ -308,14 +308,6 @@
   border-bottom: 1px solid rgb(255 255 255 / 8%);
 }
 
-.media-archive-media {
-  grid-row: 1 / span 2;
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
-  align-self: start;
-}
-
 .media-archive-main {
   min-width: 0;
 }
@@ -327,6 +319,7 @@
 .media-archive-cover {
   position: relative;
   display: block;
+  grid-row: span 3;
   aspect-ratio: 1;
   overflow: hidden;
   background: #000;
@@ -353,15 +346,12 @@
 
 @media (min-width: 900px) {
   .media-archive-row {
-    grid-template-columns: 5.5rem minmax(0, 1fr) minmax(14rem, 0.34fr);
+    grid-template-columns: 5.5rem 8.5rem minmax(0, 1fr) minmax(14rem, 0.34fr);
     align-items: start;
     padding: 1.35rem 0.5rem 1.35rem 1rem;
   }
 
-  .media-archive-media,
-  .media-archive-main,
-  .media-archive-side {
-    grid-column: auto;
+  .media-archive-cover {
     grid-row: auto;
   }
 
@@ -381,16 +371,15 @@
 
 .media-archive-date span {
   font-family: var(--font-secondary);
-  font-size: 0.86rem;
-  line-height: 1.05;
+  font-size: 1.05rem;
   color: #fff;
 }
 
 .media-archive-date small {
-  margin-top: 0.18rem;
+  margin-top: 0.25rem;
   font-family: var(--font-primary);
-  font-size: 0.64rem;
-  letter-spacing: 0.1em;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
   color: rgb(255 255 255 / 45%);
 }
