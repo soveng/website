@@ -83,6 +83,15 @@
   text-decoration: none;
 }
 
+.media-feature-card .media-cover-link {
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--color-primary) 42%, #050505) 0%,
+    color-mix(in srgb, var(--color-primary) 16%, #050505) 42%,
+    #050505 100%
+  );
+}
+
 .media-cover-image,
 .media-archive-cover img {
   display: block;
