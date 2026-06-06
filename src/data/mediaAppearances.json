@@ -63,7 +63,7 @@
     "durationSeconds": 3468,
     "featured": true,
     "description": "FIPS as an open-source mesh networking project for middleman-free internet: cryptographic node identity, encrypted traffic, peer discovery, community meshes, and sats-aware routing.",
-    "alumniNpubs": ["npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr", "npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k"],
+    "alumniNpubs": ["npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr"],
     "projectNames": ["FIPs", "Learn FIPS", "Tollgate"],
     "tags": ["FIPS", "Mesh networking", "Infrastructure", "Nostr", "Tollgate"]
   },
@@ -79,7 +79,7 @@
     "durationSeconds": 5798,
     "featured": false,
     "description": "Gigi and Pete walk through Bitcoin circular economies, eCash payment systems, Nostr's permissionless internet vision, AI, and the Sovereign Engineering context in Madeira.",
-    "alumniNpubs": ["npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"],
+    "alumniNpubs": ["npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc", "npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy"],
     "projectNames": [],
     "tags": ["Bitcoin", "Nostr", "eCash", "AI", "Madeira"]
   }
