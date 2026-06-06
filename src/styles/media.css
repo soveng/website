@@ -79,24 +79,30 @@
   display: block;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #000;
+  background:
+    radial-gradient(ellipse at 0% 72%, color-mix(in srgb, var(--color-primary) 34%, transparent) 0%, transparent 48%),
+    radial-gradient(ellipse at 100% 62%, color-mix(in srgb, var(--color-primary) 40%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 110%, color-mix(in srgb, var(--color-primary) 52%, transparent) 0%, transparent 58%), #000;
   color: inherit;
   text-decoration: none;
 }
 
 .media-feature-card .media-cover-link {
-  background: #000;
+  background:
+    radial-gradient(ellipse at 0% 72%, color-mix(in srgb, var(--color-primary) 36%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 100% 60%, color-mix(in srgb, var(--color-primary) 44%, transparent) 0%, transparent 52%),
+    radial-gradient(ellipse at 50% 112%, color-mix(in srgb, var(--color-primary) 58%, transparent) 0%, transparent 60%), #000;
 }
 
 .media-feature-card .media-cover-link::before {
   content: '';
   position: absolute;
-  inset: 42% 0 0;
+  inset: 30% 0 0;
   background:
-    radial-gradient(circle at 14% 70%, color-mix(in srgb, var(--color-primary) 48%, transparent) 0 0.8px, transparent 1.4px),
-    radial-gradient(circle at 78% 42%, color-mix(in srgb, var(--color-primary) 34%, transparent) 0 0.65px, transparent 1.2px),
-    radial-gradient(circle at 46% 88%, color-mix(in srgb, var(--color-primary) 40%, transparent) 0 0.75px, transparent 1.3px),
-    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 30%, transparent) 0%, transparent 62%);
+    radial-gradient(circle at 14% 70%, color-mix(in srgb, var(--color-primary) 68%, transparent) 0 0.9px, transparent 1.55px),
+    radial-gradient(circle at 78% 42%, color-mix(in srgb, var(--color-primary) 52%, transparent) 0 0.75px, transparent 1.35px),
+    radial-gradient(circle at 46% 88%, color-mix(in srgb, var(--color-primary) 58%, transparent) 0 0.85px, transparent 1.45px),
+    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 50%, transparent) 0%, transparent 64%);
   background-position:
     0 0,
     19px 11px,
@@ -107,6 +113,24 @@
     89px 71px,
     127px 91px,
     auto;
+  pointer-events: none;
+}
+
+.media-cover-link::after,
+.media-archive-cover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--color-primary) 26%, transparent),
+      transparent 18%,
+      transparent 78%,
+      color-mix(in srgb, var(--color-primary) 34%, transparent)
+    ),
+    linear-gradient(180deg, transparent 46%, color-mix(in srgb, var(--color-primary) 28%, transparent));
   pointer-events: none;
 }
 
@@ -291,21 +315,57 @@
 }
 
 .media-archive-list {
+  position: relative;
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
-  border-top: 1px solid rgb(255 255 255 / 8%);
+  border-top: 0;
+}
+
+.media-archive-list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--color-primary) 28%, transparent) 18%,
+    color-mix(in srgb, var(--color-primary) 72%, transparent) 50%,
+    color-mix(in srgb, var(--color-primary) 28%, transparent) 82%,
+    transparent
+  );
 }
 
 .media-archive-row {
   position: relative;
   display: grid;
-  grid-template-columns: 4.75rem minmax(0, 1fr);
+  grid-template-columns: 5.75rem minmax(0, 1fr);
   gap: 1rem;
   padding: 1.25rem 0 1.25rem 1rem;
-  border-bottom: 1px solid rgb(255 255 255 / 8%);
+  border-bottom: 0;
+}
+
+.media-archive-row::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--color-primary) 28%, transparent) 18%,
+    color-mix(in srgb, var(--color-primary) 76%, transparent) 50%,
+    color-mix(in srgb, var(--color-primary) 28%, transparent) 82%,
+    transparent
+  );
+  pointer-events: none;
 }
 
 .media-archive-media {
@@ -325,21 +385,28 @@
 }
 
 .media-archive-cover {
+  --media-archive-image-pad: 0.38rem;
+
   position: relative;
   display: block;
   aspect-ratio: 1;
+  box-sizing: border-box;
   overflow: hidden;
-  background: #000;
+  padding: 0 calc(var(--media-archive-image-pad) * 2) var(--media-archive-image-pad) var(--media-archive-image-pad);
+  background:
+    radial-gradient(ellipse at 0% 72%, color-mix(in srgb, var(--color-primary) 36%, transparent) 0%, transparent 48%),
+    radial-gradient(ellipse at 100% 62%, color-mix(in srgb, var(--color-primary) 48%, transparent) 0%, transparent 50%),
+    radial-gradient(ellipse at 50% 112%, color-mix(in srgb, var(--color-primary) 58%, transparent) 0%, transparent 58%), #000;
 }
 
 .media-archive-cover::before {
   content: '';
   position: absolute;
-  inset: 42% 0 0;
+  inset: 28% 0 0;
   background:
-    radial-gradient(circle at 16% 70%, color-mix(in srgb, var(--color-primary) 38%, transparent) 0 0.65px, transparent 1.25px),
-    radial-gradient(circle at 76% 40%, color-mix(in srgb, var(--color-primary) 26%, transparent) 0 0.55px, transparent 1.1px),
-    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 24%, transparent) 0%, transparent 64%);
+    radial-gradient(circle at 16% 70%, color-mix(in srgb, var(--color-primary) 62%, transparent) 0 0.8px, transparent 1.35px),
+    radial-gradient(circle at 76% 40%, color-mix(in srgb, var(--color-primary) 48%, transparent) 0 0.7px, transparent 1.25px),
+    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 48%, transparent) 0%, transparent 66%);
   background-position:
     0 0,
     21px 13px,
@@ -353,7 +420,7 @@
 
 @media (min-width: 900px) {
   .media-archive-row {
-    grid-template-columns: 5.5rem minmax(0, 1fr) minmax(14rem, 0.34fr);
+    grid-template-columns: 6.55rem minmax(0, 1fr) minmax(14rem, 0.34fr);
     align-items: start;
     padding: 1.35rem 0.5rem 1.35rem 1rem;
   }
