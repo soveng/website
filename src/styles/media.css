@@ -84,12 +84,20 @@
 }
 
 .media-feature-card .media-cover-link {
-  background: linear-gradient(
-    to top,
-    color-mix(in srgb, var(--color-primary) 42%, #050505) 0%,
-    color-mix(in srgb, var(--color-primary) 16%, #050505) 42%,
-    #050505 100%
-  );
+  background:
+    radial-gradient(circle at 18% 82%, rgb(255 255 255 / 9%) 0 0.75px, transparent 1px),
+    radial-gradient(circle at 76% 22%, rgb(0 0 0 / 35%) 0 0.8px, transparent 1px),
+    linear-gradient(
+      to top,
+      color-mix(in srgb, var(--color-primary) 22%, #050505) 0%,
+      color-mix(in srgb, var(--color-primary) 9%, #050505) 26%,
+      #050505 52%,
+      #050505 100%
+    );
+  background-size:
+    4px 4px,
+    7px 7px,
+    auto;
 }
 
 .media-cover-image,
