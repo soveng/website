@@ -79,33 +79,33 @@
   display: block;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #050505;
+  background: #000;
   color: inherit;
   text-decoration: none;
 }
 
 .media-feature-card .media-cover-link {
-  background: #050505;
+  background: #000;
 }
 
 .media-feature-card .media-cover-link::before {
   content: '';
   position: absolute;
-  inset: 48% 0 0;
+  inset: 42% 0 0;
   background:
-    radial-gradient(circle at 14% 70%, color-mix(in srgb, var(--color-primary) 38%, transparent) 0 0.7px, transparent 1.35px),
-    radial-gradient(circle at 78% 42%, color-mix(in srgb, var(--color-primary) 24%, transparent) 0 0.55px, transparent 1.15px),
-    radial-gradient(circle at 46% 88%, color-mix(in srgb, var(--color-primary) 30%, transparent) 0 0.65px, transparent 1.25px),
-    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 20%, transparent) 0%, transparent 60%);
+    radial-gradient(circle at 14% 70%, color-mix(in srgb, var(--color-primary) 48%, transparent) 0 0.8px, transparent 1.4px),
+    radial-gradient(circle at 78% 42%, color-mix(in srgb, var(--color-primary) 34%, transparent) 0 0.65px, transparent 1.2px),
+    radial-gradient(circle at 46% 88%, color-mix(in srgb, var(--color-primary) 40%, transparent) 0 0.75px, transparent 1.3px),
+    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 30%, transparent) 0%, transparent 62%);
   background-position:
     0 0,
     19px 11px,
     37px 23px,
     center;
   background-size:
-    67px 53px,
-    103px 79px,
-    139px 97px,
+    61px 47px,
+    89px 71px,
+    127px 91px,
     auto;
   pointer-events: none;
 }
@@ -118,7 +118,8 @@
   object-fit: contain;
 }
 
-.media-cover-image {
+.media-cover-image,
+.media-archive-cover img {
   position: relative;
   z-index: 1;
 }
@@ -307,28 +308,70 @@
   border-bottom: 1px solid rgb(255 255 255 / 8%);
 }
 
+.media-archive-media {
+  grid-row: 1 / span 2;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  align-self: start;
+}
+
+.media-archive-main {
+  min-width: 0;
+}
+
+.media-archive-side {
+  grid-column: 2;
+}
+
 .media-archive-cover {
-  grid-row: span 3;
+  position: relative;
   display: block;
   aspect-ratio: 1;
   overflow: hidden;
-  background: #050505;
+  background: #000;
+}
+
+.media-archive-cover::before {
+  content: '';
+  position: absolute;
+  inset: 42% 0 0;
+  background:
+    radial-gradient(circle at 16% 70%, color-mix(in srgb, var(--color-primary) 38%, transparent) 0 0.65px, transparent 1.25px),
+    radial-gradient(circle at 76% 40%, color-mix(in srgb, var(--color-primary) 26%, transparent) 0 0.55px, transparent 1.1px),
+    radial-gradient(ellipse at 50% 100%, color-mix(in srgb, var(--color-primary) 24%, transparent) 0%, transparent 64%);
+  background-position:
+    0 0,
+    21px 13px,
+    center;
+  background-size:
+    53px 43px,
+    83px 67px,
+    auto;
+  pointer-events: none;
 }
 
 @media (min-width: 900px) {
   .media-archive-row {
-    grid-template-columns: 5.5rem 8.5rem minmax(0, 1fr) minmax(14rem, 0.34fr);
+    grid-template-columns: 5.5rem minmax(0, 1fr) minmax(14rem, 0.34fr);
     align-items: start;
     padding: 1.35rem 0.5rem 1.35rem 1rem;
   }
 
-  .media-archive-cover {
+  .media-archive-media,
+  .media-archive-main,
+  .media-archive-side {
+    grid-column: auto;
     grid-row: auto;
   }
 
   .media-archive-row:hover {
     background: rgb(255 255 255 / 2%);
   }
+}
+
+.media-archive-date {
+  text-align: left;
 }
 
 .media-archive-date span,
@@ -338,15 +381,16 @@
 
 .media-archive-date span {
   font-family: var(--font-secondary);
-  font-size: 1.05rem;
+  font-size: 0.86rem;
+  line-height: 1.05;
   color: #fff;
 }
 
 .media-archive-date small {
-  margin-top: 0.25rem;
+  margin-top: 0.18rem;
   font-family: var(--font-primary);
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
+  font-size: 0.64rem;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: rgb(255 255 255 / 45%);
 }
