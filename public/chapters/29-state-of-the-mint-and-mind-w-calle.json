@@ -1,0 +1,103 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "29: State of the Mint and Mind w/ Calle",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 29, State of the Mint and Mind w/ Calle.",
+  "fileName": "20260607_001332_normalized.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 81,
+      "title": "Talk Cashu"
+    },
+    {
+      "startTime": 81,
+      "endTime": 438,
+      "title": "Mint State",
+      "url": "https://cashu.space/"
+    },
+    {
+      "startTime": 438,
+      "endTime": 718,
+      "title": "Exit Proofs"
+    },
+    {
+      "startTime": 718,
+      "endTime": 1084,
+      "title": "Enclave Mints"
+    },
+    {
+      "startTime": 1084,
+      "endTime": 1315,
+      "title": "Ark Paths",
+      "url": "https://ark-protocol.org/"
+    },
+    {
+      "startTime": 1315,
+      "endTime": 1393,
+      "title": "Recovery Quorum"
+    },
+    {
+      "startTime": 1393,
+      "endTime": 1690,
+      "title": "BLS Switch",
+      "url": "https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html"
+    },
+    {
+      "startTime": 1690,
+      "endTime": 1828,
+      "title": "Agent Teams"
+    },
+    {
+      "startTime": 1828,
+      "endTime": 1975,
+      "title": "OpenRouter Flow",
+      "url": "https://openrouter.ai/"
+    },
+    {
+      "startTime": 1975,
+      "endTime": 2243,
+      "title": "Context Discipline"
+    },
+    {
+      "startTime": 2243,
+      "endTime": 2292,
+      "title": "One Agent Each",
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "startTime": 2292,
+      "endTime": 2653,
+      "title": "Specialist Trade-Offs"
+    },
+    {
+      "startTime": 2653,
+      "endTime": 3291,
+      "title": "World Models"
+    },
+    {
+      "startTime": 3291,
+      "endTime": 3409,
+      "title": "Bat Minds",
+      "url": "https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel%2C%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf"
+    },
+    {
+      "startTime": 3409,
+      "endTime": 3621,
+      "title": "Blind Spot",
+      "url": "https://mitpress.mit.edu/9780262553032/the-blind-spot/"
+    },
+    {
+      "startTime": 3621,
+      "endTime": 3745,
+      "title": "High Agency"
+    },
+    {
+      "startTime": 3745,
+      "endTime": 3939.9,
+      "title": "Bitcoin and Nostr",
+      "url": "https://nostr.com/"
+    }
+  ]
+}

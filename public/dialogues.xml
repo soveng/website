@@ -39,10 +39,192 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Tue, 02 Jun 2026 17:28:15 +0000</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2026 17:28:15 +0000</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2026 01:48:07 +0000</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2026 01:48:07 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>29: State of the Mint and Mind w/ Calle</title>
+      <description><![CDATA[      <p>"You cannot look at something without touching it."</p>
+      <p><a
+      href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a>
+      &amp; <a
+      href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+      take a walk.</p>
+      <p><a
+      href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">Listen
+      on sovereignengineering.io</a></p>
+      <p>Recorded in June 2026.</p>
+      <p>Calle and Gigi start with Cashu mint internals and end in embodied
+      cognition. Along the way they unpack sparse Merkle trees, exclusion
+      proofs, unilateral exit, trusted execution environments, recovery paths,
+      the move to BLS signatures, agentic coding workflows, specialist versus
+      generalist models, world models, and why Bitcoin, Nostr, and local AI
+      still feel like reasons for optimism.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>how mint state can be compressed into a sparse Merkle tree and why
+      exclusion proofs matter for ecash</li>
+      <li>how unilateral exit could reduce both the slow rug pull and the fast
+      rug pull for Cashu mints</li>
+      <li>why trusted execution environments change the trust model, and why
+      on-chain-first mint backing is the easiest place to start</li>
+      <li>how timelocks and third-party recovery paths might soften mint
+      downtime</li>
+      <li>why Cashu is moving away from its current signature setup toward BLS
+      signatures and what that unlocks</li>
+      <li>how Calle actually works with coding agents, from OpenRouter and
+      OpenCode to fresh contexts and ruthless resets</li>
+      <li>why context windows are scarce, token maxing is wasteful, and one
+      agent per project beats one giant assistant</li>
+      <li>why cognitive science still matters when talking about specialists,
+      generalists, and what frontier labs are betting on</li>
+      <li>why world models differ from next-token predictors and why
+      embodiment keeps coming back</li>
+      <li>why Thomas Nagel and The Blind Spot show up once the conversation
+      turns to observation, physics, and experience</li>
+      <li>why high-agency builders should feel more hopeful than scared right
+      now</li>
+      <li>why Bitcoin, Nostr, and improving local models still look like the
+      right ingredients for a freer future</li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li>Luke Childs</li>
+      <li>Waxwing</li>
+      <li>Peter Steinberger</li>
+      <li>Martti Malmi</li>
+      <li>Ege</li>
+      <li>Yann LeCun</li>
+      <li>Thomas Nagel</li>
+      <li>David Chaum</li>
+      <li>David Wagner</li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://cashu.space/">Cashu</a></li>
+      <li><a href="https://cashudevkit.org/">Cashu Dev Kit</a></li>
+      <li><a href="https://ark-protocol.org/">Ark Protocol</a></li>
+      <li><a href="https://openrouter.ai/">OpenRouter</a></li>
+      <li><a href="https://opencode.ai/">OpenCode</a></li>
+      <li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a
+      href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS
+      signatures</a></li>
+      </ul>
+      <p>Readings mentioned:</p>
+      <ul>
+      <li><a
+      href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel%2C%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Thomas
+      Nagel, What Is It Like to Be a Bat?</a></li>
+      <li><a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The
+      Blind Spot</a></li>
+      </ul>
+      <p>Recorded at <a
+      href="https://mempool.space/block/952654">952,654</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqsr29xqdlxnuqdlahw4heth7nnlvq4hcva8wejnxspztn9ektd6lsqpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pft8al0ga</link>
+      <enclosure url="https://haven.dergigi.com/a7260cd900ceffaf6d7caa74d1b7d56b191f74d3fbbb772f989f3eb05fd36a3b.m4a" length="33442116" type="audio/mp4"/>
+      <guid isPermaLink="false">529e5e40-356c-40a8-b53f-8b1675117bc5</guid>
+      <pubDate>Sun, 07 Jun 2026 01:48:07 +0000</pubDate>
+      <itunes:duration>3939</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/955f9f2f2bd76047139ef3b26667ef1b2b06c1c718ee4277d6c05727f0a9d88e.jpg"/>
+      <podcast:person href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg" img="https://avatars.githubusercontent.com/u/93376500" group="cast" role="guest">calle 💯</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/fdbfe56830b0d9294d833b6e2cd41348a2774512e242525b3197f2a3966b5799.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/29-state-of-the-mint-and-mind-w-calle.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqjnywfdwd6xzar994hkvtt5dpjj6mtfde6z6ctwvskk66twvskhwttrv9kxcegpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqvzqqqr4gut0lx8t">Show Notes</podcast:contentLink>
+      <itunes:subtitle>29: State of the Mint and Mind w/ Calle</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>cashu, ecash, bitcoin, ai, world models, tee, ark, nostr, coding agents, cognitive science</itunes:keywords>
+      <itunes:summary><![CDATA[      <p>"You cannot look at something without touching it."</p>
+      <p><a
+      href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a>
+      &amp; <a
+      href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
+      take a walk.</p>
+      <p><a
+      href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">Listen
+      on sovereignengineering.io</a></p>
+      <p>Recorded in June 2026.</p>
+      <p>Calle and Gigi start with Cashu mint internals and end in embodied
+      cognition. Along the way they unpack sparse Merkle trees, exclusion
+      proofs, unilateral exit, trusted execution environments, recovery paths,
+      the move to BLS signatures, agentic coding workflows, specialist versus
+      generalist models, world models, and why Bitcoin, Nostr, and local AI
+      still feel like reasons for optimism.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>how mint state can be compressed into a sparse Merkle tree and why
+      exclusion proofs matter for ecash</li>
+      <li>how unilateral exit could reduce both the slow rug pull and the fast
+      rug pull for Cashu mints</li>
+      <li>why trusted execution environments change the trust model, and why
+      on-chain-first mint backing is the easiest place to start</li>
+      <li>how timelocks and third-party recovery paths might soften mint
+      downtime</li>
+      <li>why Cashu is moving away from its current signature setup toward BLS
+      signatures and what that unlocks</li>
+      <li>how Calle actually works with coding agents, from OpenRouter and
+      OpenCode to fresh contexts and ruthless resets</li>
+      <li>why context windows are scarce, token maxing is wasteful, and one
+      agent per project beats one giant assistant</li>
+      <li>why cognitive science still matters when talking about specialists,
+      generalists, and what frontier labs are betting on</li>
+      <li>why world models differ from next-token predictors and why
+      embodiment keeps coming back</li>
+      <li>why Thomas Nagel and The Blind Spot show up once the conversation
+      turns to observation, physics, and experience</li>
+      <li>why high-agency builders should feel more hopeful than scared right
+      now</li>
+      <li>why Bitcoin, Nostr, and improving local models still look like the
+      right ingredients for a freer future</li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li>Luke Childs</li>
+      <li>Waxwing</li>
+      <li>Peter Steinberger</li>
+      <li>Martti Malmi</li>
+      <li>Ege</li>
+      <li>Yann LeCun</li>
+      <li>Thomas Nagel</li>
+      <li>David Chaum</li>
+      <li>David Wagner</li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://cashu.space/">Cashu</a></li>
+      <li><a href="https://cashudevkit.org/">Cashu Dev Kit</a></li>
+      <li><a href="https://ark-protocol.org/">Ark Protocol</a></li>
+      <li><a href="https://openrouter.ai/">OpenRouter</a></li>
+      <li><a href="https://opencode.ai/">OpenCode</a></li>
+      <li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a
+      href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS
+      signatures</a></li>
+      </ul>
+      <p>Readings mentioned:</p>
+      <ul>
+      <li><a
+      href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel%2C%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Thomas
+      Nagel, What Is It Like to Be a Bat?</a></li>
+      <li><a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The
+      Blind Spot</a></li>
+      </ul>
+      <p>Recorded at <a
+      href="https://mempool.space/block/952654">952,654</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>28: Speak Human w/ MouxDesign</title>
       <description><![CDATA[      <p>"We just need to speak human."</p>
