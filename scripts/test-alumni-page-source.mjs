@@ -15,6 +15,7 @@ assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profil
 assert.match(page, /id="alumni-qr-dialog"/, 'alumni route should include QR dialog markup');
 assert.match(page, /data-qr-src/, 'QR image src should be set from safe data attributes');
 assert.match(page, /separator-ship\.png/, 'alumni route should reuse native SovEng decorative separator');
+assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');
 assert.doesNotMatch(page, /alumni-(?:sec|project|tag)-chip/, 'association chips must stay blocked until canonical data exists');
 assert.doesNotMatch(page, /following\.space\/d\/sier9e7ih6k2[^"\s<]*["']\s*>\s*Alumni/, 'route should not be a bare external follow-list link');
 
