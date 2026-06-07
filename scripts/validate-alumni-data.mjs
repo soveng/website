@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 import { readFileSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const root = process.cwd();
 const requireAssociations = process.argv.includes('--require-associations');
 const alumniPath = join(root, 'src/data/sovengAlumni.json');
 const associationsPath = join(root, 'src/data/sovengAlumniAssociations.json');
+const canonicalMembershipSourceUrl = 'https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19';
 
 const errors = [];
 const warnings = [];
@@ -29,6 +31,10 @@ function readJson(path) {
 
 function isHex64(value) {
   return typeof value === 'string' && /^[0-9a-f]{64}$/i.test(value);
+}
+
+function isHex128(value) {
+  return typeof value === 'string' && /^[0-9a-f]{128}$/i.test(value);
 }
 
 const BECH32_CHARSET = 'qpzry9x8gf2tvdw0s3jn54khce6mua7l';
@@ -114,12 +120,16 @@ function asOptionalString(value) {
 }
 
 function validateDerivedField(record, metadata, recordField, metadataFields, index) {
-  if (!(recordField in record)) return;
   const expected = metadataFields.map((field) => asOptionalString(metadata[field])).find(Boolean);
   if (expected === undefined) return;
   if (record[recordField] !== expected) {
     fail(`alumni[${index}]: ${recordField} is not derived from kind0.content`);
   }
+}
+
+function computeNostrEventId(event) {
+  const serialized = JSON.stringify([0, event.pubkey, event.created_at, event.kind, event.tags, event.content]);
+  return createHash('sha256').update(serialized, 'utf8').digest('hex');
 }
 
 function validateHttpsUrl(value, label) {
@@ -138,11 +148,27 @@ function validateHttpsUrl(value, label) {
   }
 }
 
+function validateWssUrl(value, label) {
+  if (typeof value !== 'string' || !value.trim()) {
+    fail(`${label}: relay URL must be a non-empty string`);
+    return;
+  }
+  try {
+    const url = new URL(value);
+    if (url.protocol !== 'wss:') fail(`${label}: relay URL must use wss://`);
+    if (!url.hostname) fail(`${label}: relay URL must have a hostname`);
+    if (url.username || url.password) fail(`${label}: relay URL must not contain credentials`);
+  } catch {
+    fail(`${label}: relay URL is malformed`);
+  }
+}
+
 const alumni = readJson(alumniPath);
 
 if (Array.isArray(alumni)) {
   const pubkeys = new Set();
   const npubs = new Set();
+  const membershipSourceUrls = new Set();
 
   alumni.forEach((record, index) => {
     if (!record || typeof record !== 'object' || Array.isArray(record)) {
@@ -173,9 +199,22 @@ if (Array.isArray(alumni)) {
     if (event.kind !== 0) fail(`alumni[${index}]: kind0.kind must be 0`);
     if (event.pubkey !== record.pubkey) fail(`alumni[${index}]: kind0.pubkey must match record.pubkey`);
     if (!Number.isInteger(event.created_at) || event.created_at <= 0) fail(`alumni[${index}]: kind0.created_at must be a positive integer`);
-    if (!Array.isArray(event.tags) || event.tags.some((tag) => !Array.isArray(tag))) fail(`alumni[${index}]: kind0.tags must be string[][]`);
+    if (!Array.isArray(event.tags) || event.tags.some((tag) => !Array.isArray(tag) || tag.some((item) => typeof item !== 'string'))) {
+      fail(`alumni[${index}]: kind0.tags must be string[][]`);
+    }
     if (typeof event.content !== 'string') fail(`alumni[${index}]: kind0.content must be a string`);
-    if (!isHex64(event.sig) && !(typeof event.sig === 'string' && /^[0-9a-f]{128}$/i.test(event.sig))) fail(`alumni[${index}]: kind0.sig must be 128-char hex`);
+    if (!isHex128(event.sig)) fail(`alumni[${index}]: kind0.sig must be 128-char hex`);
+    if (
+      isHex64(event.id) &&
+      isHex64(event.pubkey) &&
+      Number.isInteger(event.created_at) &&
+      event.kind === 0 &&
+      Array.isArray(event.tags) &&
+      typeof event.content === 'string'
+    ) {
+      const computedId = computeNostrEventId(event);
+      if (computedId !== event.id) fail(`alumni[${index}]: kind0.id does not match serialized event hash`);
+    }
 
     const metadata = parseMetadata(record, index);
     validateDerivedField(record, metadata, 'name', ['name'], index);
@@ -189,14 +228,22 @@ if (Array.isArray(alumni)) {
       fail(`alumni[${index}]: missing source provenance`);
     } else {
       validateHttpsUrl(record.source.membershipSourceUrl, `alumni[${index}].source.membershipSourceUrl`);
+      if (record.source.membershipSourceUrl !== canonicalMembershipSourceUrl) {
+        fail(`alumni[${index}]: source.membershipSourceUrl must match approved follow-list source`);
+      }
+      if (typeof record.source.membershipSourceUrl === 'string') membershipSourceUrls.add(record.source.membershipSourceUrl);
       if (!Array.isArray(record.source.relayUrls) || record.source.relayUrls.length === 0) {
         fail(`alumni[${index}]: source.relayUrls must be a non-empty array`);
+      } else {
+        record.source.relayUrls.forEach((relayUrl, relayIndex) => validateWssUrl(relayUrl, `alumni[${index}].source.relayUrls[${relayIndex}]`));
       }
       if (typeof record.source.fetchedAt !== 'string' || Number.isNaN(Date.parse(record.source.fetchedAt))) {
         fail(`alumni[${index}]: source.fetchedAt must be an ISO date string`);
       }
     }
   });
+
+  if (membershipSourceUrls.size > 1) fail('alumni source membership URL must be identical for every record');
 
   if (!existsSync(associationsPath)) {
     const message = 'src/data/sovengAlumniAssociations.json is missing; SEC/project/tag chips remain blocked until source-approved associations exist';

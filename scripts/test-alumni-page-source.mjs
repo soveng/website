@@ -14,6 +14,10 @@ assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the pr
 assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
 assert.match(page, /id="alumni-qr-dialog"/, 'alumni route should include QR dialog markup');
 assert.match(page, /data-qr-src/, 'QR image src should be set from safe data attributes');
+assert.match(page, /class="alumni-dialog-copy"/, 'QR dialog should expose an explicit npub copy control');
+assert.match(page, /activeTrigger\.focus\(\)/, 'QR dialog should restore focus to its opener');
+assert.match(page, /data-alumni-avatar-image/, 'avatar images should have an error fallback hook');
+assert.match(page, /referrerpolicy="no-referrer"/, 'external profile/QR images should avoid leaking referrers');
 assert.match(page, /separator-ship\.png/, 'alumni route should reuse native SovEng decorative separator');
 assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');
 assert.doesNotMatch(page, /alumni-(?:sec|project|tag)-chip/, 'association chips must stay blocked until canonical data exists');

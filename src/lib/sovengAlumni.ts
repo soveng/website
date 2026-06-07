@@ -136,6 +136,21 @@ export function getSafeProfileImageHref(value: unknown): string | undefined {
   }
 }
 
+export function getSafeExternalHref(value: unknown): string | undefined {
+  const href = cleanText(value);
+  if (!href) return undefined;
+
+  try {
+    const url = new URL(href);
+    if (url.protocol !== 'https:') return undefined;
+    if (url.username || url.password) return undefined;
+    if (!url.hostname) return undefined;
+    return url.href;
+  } catch {
+    return undefined;
+  }
+}
+
 export function getNostrProfileHref(npub: string): string {
   return `https://njump.me/${encodeURIComponent(npub)}`;
 }
@@ -167,7 +182,7 @@ export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniP
     qrImageHref: getNostrProfileQrImageHref(profile.npub),
     updatedAt: new Date(profile.kind0.created_at * 1000).toISOString(),
     updatedLabel: formatKind0Date(profile.kind0.created_at),
-    sourceHref: profile.source.membershipSourceUrl,
+    sourceHref: getSafeExternalHref(profile.source.membershipSourceUrl) ?? '',
   };
 }
 
