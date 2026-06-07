@@ -9,6 +9,13 @@ const page = readFileSync(pagePath, 'utf8');
 assert.match(page, /<Base[\s\S]*meta_title="SovEng Alumni"/, 'alumni page should set Base metadata');
 assert.match(page, /getSovEngAlumniStats/, 'alumni route should render source-locked stats');
 assert.match(page, /hasSourceLockedAssociationData/, 'alumni route should expose the association gate state');
+assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
+assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
+assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
+assert.match(page, /id="alumni-qr-dialog"/, 'alumni route should include QR dialog markup');
+assert.match(page, /data-qr-src/, 'QR image src should be set from safe data attributes');
+assert.match(page, /separator-ship\.png/, 'alumni route should reuse native SovEng decorative separator');
+assert.doesNotMatch(page, /alumni-(?:sec|project|tag)-chip/, 'association chips must stay blocked until canonical data exists');
 assert.doesNotMatch(page, /following\.space\/d\/sier9e7ih6k2[^"\s<]*["']\s*>\s*Alumni/, 'route should not be a bare external follow-list link');
 
 const menu = JSON.parse(readFileSync('src/config/menu.json', 'utf8'));
