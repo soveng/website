@@ -110,11 +110,8 @@ const lastFetchedLabel = stats.lastFetchedAt
                 <div class="alumni-card-top">
                   <a class="alumni-avatar-link" href={profile.profileHref} target="_blank" rel="noopener noreferrer" aria-label={`Open ${profile.displayName} on Nostr`}>
                     <span class="alumni-avatar" aria-hidden="true">
-                      {profile.picture ? (
-                        <img src={profile.picture} alt="" loading="lazy" decoding="async" />
-                      ) : (
-                        <span class="alumni-avatar-fallback">{profile.initials}</span>
-                      )}
+                      {profile.picture && <img class="alumni-avatar-image" src={profile.picture} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-alumni-avatar-image />}
+                      <span class="alumni-avatar-fallback">{profile.initials}</span>
                     </span>
                   </a>
 
@@ -159,9 +156,12 @@ const lastFetchedLabel = stats.lastFetchedAt
         <button type="submit" class="alumni-dialog-close" aria-label="Close QR dialog">×</button>
         <p class="projects-eyebrow">Nostr profile</p>
         <h2 id="alumni-qr-title" class="projects-display projects-headline">Profile QR</h2>
-        <img class="alumni-qr-image" alt="" width="240" height="240" loading="lazy" decoding="async" />
+        <img class="alumni-qr-image" alt="" width="240" height="240" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
         <p class="alumni-dialog-npub projects-body"></p>
-        <a class="btn-retro alumni-dialog-link" href="#" target="_blank" rel="noopener noreferrer">Open on Nostr</a>
+        <div class="alumni-dialog-actions">
+          <button type="button" class="alumni-dialog-copy">Copy npub</button>
+          <a class="btn-retro alumni-dialog-link" href="#" target="_blank" rel="noopener noreferrer">Open on Nostr</a>
+        </div>
       </form>
     </dialog>
   </div>
@@ -176,13 +176,22 @@ const lastFetchedLabel = stats.lastFetchedAt
     const image = dialog.querySelector('.alumni-qr-image');
     const npub = dialog.querySelector('.alumni-dialog-npub');
     const link = dialog.querySelector('.alumni-dialog-link');
+    const copy = dialog.querySelector('.alumni-dialog-copy');
+    let activeTrigger = null;
+
+    document.querySelectorAll('[data-alumni-avatar-image]').forEach((avatarImage) => {
+      if (!(avatarImage instanceof HTMLImageElement)) return;
+      avatarImage.addEventListener('error', () => avatarImage.remove(), { once: true });
+    });
 
     document.querySelectorAll('[data-alumni-qr]').forEach((trigger) => {
+      if (!(trigger instanceof HTMLElement)) return;
       trigger.addEventListener('click', () => {
         const name = trigger.dataset.profileName || 'Nostr profile';
         const qrSrc = trigger.dataset.qrSrc;
         const profileHref = trigger.dataset.profileHref || '#';
         const profileNpub = trigger.dataset.npub || '';
+        activeTrigger = trigger;
 
         if (title) title.textContent = name;
         if (image instanceof HTMLImageElement && qrSrc) {
@@ -191,13 +200,49 @@ const lastFetchedLabel = stats.lastFetchedAt
         }
         if (npub) npub.textContent = profileNpub;
         if (link instanceof HTMLAnchorElement) link.href = profileHref;
+        if (copy instanceof HTMLButtonElement) copy.textContent = 'Copy npub';
 
-        dialog.showModal();
+        if (!dialog.open) dialog.showModal();
       });
     });
 
+    if (copy instanceof HTMLButtonElement) {
+      copy.addEventListener('click', async () => {
+        const value = npub?.textContent?.trim();
+        if (!value) return;
+        try {
+          await navigator.clipboard.writeText(value);
+          copy.textContent = 'Copied';
+        } catch {
+          copy.textContent = 'Select npub';
+        }
+        window.setTimeout(() => {
+          if (dialog.open) copy.textContent = 'Copy npub';
+        }, 1600);
+      });
+    }
+
     dialog.addEventListener('click', (event) => {
       if (event.target === dialog) dialog.close();
+    });
+
+    dialog.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab') return;
+      const focusable = [...dialog.querySelectorAll('button, a[href]')].filter((element) => element instanceof HTMLElement && !element.hasAttribute('disabled'));
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+
+    dialog.addEventListener('close', () => {
+      if (activeTrigger instanceof HTMLElement) activeTrigger.focus();
     });
   })();
 </script>
@@ -334,8 +379,9 @@ const lastFetchedLabel = stats.lastFetchedAt
   }
 
   .alumni-separator {
-    margin: -3rem 0 2rem;
-    opacity: 0.78;
+    margin: -2rem auto 2.5rem;
+    max-width: min(760px, 100%);
+    opacity: 0.64;
   }
 
   .alumni-separator img {
@@ -368,7 +414,7 @@ const lastFetchedLabel = stats.lastFetchedAt
     border: 1px solid rgb(255 255 255 / 10%);
     display: grid;
     gap: 1px;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
     overflow: hidden;
   }
 
@@ -411,14 +457,18 @@ const lastFetchedLabel = stats.lastFetchedAt
     height: 4rem;
     justify-content: center;
     overflow: hidden;
+    position: relative;
     width: 4rem;
   }
 
-  .alumni-avatar img {
+  .alumni-avatar-image {
     display: block;
     height: 100%;
+    inset: 0;
     object-fit: cover;
+    position: absolute;
     width: 100%;
+    z-index: 1;
   }
 
   .alumni-avatar-fallback {
@@ -431,13 +481,18 @@ const lastFetchedLabel = stats.lastFetchedAt
   }
 
   .alumni-qr-button {
+    align-items: center;
     background: transparent;
     border: 1px solid rgb(255 255 255 / 14%);
     color: rgb(255 255 255 / 48%);
     cursor: pointer;
+    display: inline-flex;
     font-family: var(--font-primary);
     font-size: 0.68rem;
+    justify-content: center;
     letter-spacing: 0.16em;
+    min-height: 2.75rem;
+    min-width: 2.75rem;
     padding: 0.45rem 0.55rem;
     text-transform: uppercase;
   }
@@ -516,6 +571,7 @@ const lastFetchedLabel = stats.lastFetchedAt
   .alumni-card a:focus-visible,
   .alumni-card button:focus-visible,
   .alumni-dialog-close:focus-visible,
+  .alumni-dialog-copy:focus-visible,
   .alumni-dialog-link:focus-visible {
     outline: 2px solid var(--color-primary);
     outline-offset: 3px;
@@ -525,8 +581,12 @@ const lastFetchedLabel = stats.lastFetchedAt
     background: transparent;
     border: 0;
     color: #fff;
+    inset: 0;
+    margin: auto;
     max-width: min(92vw, 420px);
     padding: 0;
+    position: fixed;
+    width: min(92vw, 420px);
   }
 
   .alumni-qr-dialog::backdrop {
@@ -554,15 +614,20 @@ const lastFetchedLabel = stats.lastFetchedAt
   }
 
   .alumni-dialog-close {
+    align-items: center;
     background: transparent;
     border: 0;
     color: rgb(255 255 255 / 54%);
     cursor: pointer;
+    display: inline-flex;
     font-size: 2rem;
+    height: 2.75rem;
+    justify-content: center;
     line-height: 1;
     position: absolute;
-    right: 0.7rem;
-    top: 0.5rem;
+    right: 0.45rem;
+    top: 0.35rem;
+    width: 2.75rem;
   }
 
   .alumni-dialog-close:hover {
@@ -578,10 +643,36 @@ const lastFetchedLabel = stats.lastFetchedAt
   }
 
   .alumni-dialog-npub {
-    color: rgb(255 255 255 / 50%);
-    font-size: 0.8rem;
+    color: rgb(255 255 255 / 62%);
+    font-size: 0.86rem;
     margin: 0;
     overflow-wrap: anywhere;
+  }
+
+  .alumni-dialog-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+
+  .alumni-dialog-copy {
+    background: transparent;
+    border: 1px solid rgb(255 255 255 / 18%);
+    color: rgb(255 255 255 / 68%);
+    cursor: pointer;
+    font-family: var(--font-primary);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    min-height: 2.75rem;
+    padding: 0.7rem 0.9rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-dialog-copy:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
   }
 
   .alumni-dialog-link {

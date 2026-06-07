@@ -2,6 +2,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 
 const root = process.cwd();
 const alumniPath = join(root, 'src/data/sovengAlumni.json');
@@ -42,8 +43,25 @@ function uniqueByPubkey(records) {
   return result;
 }
 
+function isHex64(value) {
+  return typeof value === 'string' && /^[0-9a-f]{64}$/i.test(value);
+}
+
+function computeNostrEventId(event) {
+  const serialized = JSON.stringify([0, event.pubkey, event.created_at, event.kind, event.tags, event.content]);
+  return createHash('sha256').update(serialized, 'utf8').digest('hex');
+}
+
+function isValidKind0Event(event) {
+  if (!event || event.kind !== 0 || !isHex64(event.pubkey) || !isHex64(event.id)) return false;
+  if (!Number.isInteger(event.created_at) || event.created_at <= 0) return false;
+  if (!Array.isArray(event.tags) || event.tags.some((tag) => !Array.isArray(tag) || tag.some((item) => typeof item !== 'string'))) return false;
+  if (typeof event.content !== 'string') return false;
+  return computeNostrEventId(event) === event.id;
+}
+
 function rememberEvent(eventsByPubkey, event, allowedPubkeys) {
-  if (!event || event.kind !== 0 || typeof event.pubkey !== 'string') return;
+  if (!isValidKind0Event(event)) return;
   if (allowedPubkeys && !allowedPubkeys.has(event.pubkey)) return;
   const existing = eventsByPubkey.get(event.pubkey);
   if (!existing || event.created_at > existing.created_at || (event.created_at === existing.created_at && event.id > existing.id)) {

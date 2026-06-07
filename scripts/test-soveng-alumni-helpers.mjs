@@ -5,6 +5,7 @@ import {
   getAlumniProfileViewModel,
   getNostrProfileHref,
   getNostrProfileQrImageHref,
+  getSafeExternalHref,
   getSafeProfileImageHref,
   getSovEngAlumni,
   getSovEngAlumniDisplayName,
@@ -56,7 +57,10 @@ assert.equal(getSafeProfileImageHref('https://example.com/avatar.png?size=256'),
 assert.equal(getSafeProfileImageHref('http://example.com/avatar.png'), undefined);
 assert.equal(getSafeProfileImageHref('javascript:alert(1)'), undefined);
 assert.equal(getSafeProfileImageHref('data:image/svg+xml,<svg></svg>'), undefined);
-assert.equal(getSafeProfileImageHref('https://user:secret@example.com/avatar.png'), undefined);
+assert.equal(getSafeProfileImageHref('https://user:***@example.com/avatar.png'), undefined);
+assert.equal(getSafeExternalHref('https://following.space/d/source'), 'https://following.space/d/source');
+assert.equal(getSafeExternalHref('http://following.space/d/source'), undefined);
+assert.equal(getSafeExternalHref('https://user:***@following.space/d/source'), undefined);
 
 assert.equal(getNostrProfileHref(baseProfile.npub), `https://njump.me/${baseProfile.npub}`);
 const qrHref = getNostrProfileQrImageHref(baseProfile.npub);
