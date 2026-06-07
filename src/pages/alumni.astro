@@ -1,0 +1,140 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getSovEngAlumni, getSovEngAlumniStats, hasSourceLockedAssociationData } from '@/lib/sovengAlumni';
+import '@/styles/projects.css';
+
+const alumni = getSovEngAlumni();
+const stats = getSovEngAlumniStats();
+const hasAssociations = hasSourceLockedAssociationData();
+const lastFetchedLabel = stats.lastFetchedAt
+  ? new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(stats.lastFetchedAt))
+  : 'source locked';
+---
+
+<Base
+  title="SovEng Alumni"
+  meta_title="SovEng Alumni"
+  description="A source-locked roll call of Sovereign Engineering alumni, preserving raw Nostr kind 0 profile events from the public follow-list."
+  image="/images/project-highlights/nostr-wireframe.png"
+  showCallToAction={true}
+>
+  <main class="alumni-page">
+    <section class="alumni-hero bg-black py-24 text-white sm:py-32" aria-labelledby="alumni-title">
+      <div class="container max-w-[1120px]">
+        <p class="projects-eyebrow">SovEng social graph</p>
+        <h1 id="alumni-title" class="projects-display projects-headline mt-4 text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
+          Alumni
+        </h1>
+        <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
+          A public roll call of builders from the Sovereign Engineering orbit. Profiles are sourced from the approved Nostr follow-list and keep the raw
+          kind 0 events intact for deterministic review.
+        </p>
+
+        <dl class="alumni-stats mt-10" aria-label="Alumni source stats">
+          <div>
+            <dt>Profiles</dt>
+            <dd>{stats.total}</dd>
+          </div>
+          <div>
+            <dt>With bios</dt>
+            <dd>{stats.withAbout}</dd>
+          </div>
+          <div>
+            <dt>With avatars</dt>
+            <dd>{stats.withPicture}</dd>
+          </div>
+          <div>
+            <dt>Source refresh</dt>
+            <dd>{lastFetchedLabel}</dd>
+          </div>
+        </dl>
+
+        <div class="alumni-source-note projects-body mt-8">
+          <p>
+            Source membership:
+            <a href={alumni[0]?.source.membershipSourceUrl} target="_blank" rel="noopener noreferrer">public Nostr follow-list</a>.
+          </p>
+          {!hasAssociations && (
+            <p>
+              SEC/project/tag chips are intentionally hidden until those associations are backed by an approved canonical source.
+            </p>
+          )}
+        </div>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<style>
+  .alumni-page {
+    background: #000;
+    color: #fff;
+  }
+
+  .alumni-hero {
+    min-height: 74vh;
+  }
+
+  .alumni-hero-lede {
+    text-wrap: balance;
+  }
+
+  .alumni-stats {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 820px;
+    overflow: hidden;
+    border: 1px solid rgb(255 255 255 / 10%);
+    background: rgb(255 255 255 / 10%);
+  }
+
+  @media (min-width: 768px) {
+    .alumni-stats {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .alumni-stats div {
+    background: #030303;
+    padding: 1rem;
+  }
+
+  .alumni-stats dt {
+    color: rgb(255 255 255 / 45%);
+    font-family: var(--font-primary);
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+  }
+
+  .alumni-stats dd {
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    line-height: 1;
+    margin: 0.45rem 0 0;
+  }
+
+  .alumni-source-note {
+    color: rgb(255 255 255 / 58%);
+    display: grid;
+    gap: 0.35rem;
+    max-width: 820px;
+  }
+
+  .alumni-source-note p {
+    margin: 0;
+  }
+
+  .alumni-source-note a {
+    color: var(--color-primary);
+    text-decoration: none;
+    text-underline-offset: 0.2em;
+  }
+
+  .alumni-source-note a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+</style>
