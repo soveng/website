@@ -3,182 +3,691 @@
     "pubkey": "e3fc673fc5f99cc554d0ff47756795647d25cb6e6658f912d114ae6429d35d35",
     "npub": "npub1u07xw079lxwv24xslarh2eu4v37jtjmwvev0jyk3zjhxg2wnt56seyez97",
     "name": "a1denvalu3",
-    "nip05Verified": false,
-    "picture": "https://m.primal.net/JfYR.jpg"
+    "about": "Computer Scientist.\nI'm living in your RAM. Hack the Planet.",
+    "picture": "https://m.primal.net/JfYR.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "48880074dad3de5560a1c61ae366758da22b2ccd06f353d0de87f3a62929f83b",
+      "pubkey": "e3fc673fc5f99cc554d0ff47756795647d25cb6e6658f912d114ae6429d35d35",
+      "created_at": 1777980344,
+      "tags": [["client", "Primal Web"]],
+      "content": "{\"name\":\"a1denvalu3\",\"about\":\"Computer Scientist.\\nI'm living in your RAM. Hack the Planet.\",\"lud16\":\"npub1u07xw079lxwv24xslarh2eu4v37jtjmwvev0jyk3zjhxg2wnt56seyez97@npubx.cash\",\"picture\":\"https://m.primal.net/JfYR.jpg\",\"banner\":\"https://m.primal.net/Iris.jpg\"}",
+      "sig": "09d725ab60d57619cbed18080385fc435a643ba0aab7e9a5bbede7d0d5b9d22d3141df53b31cc3c770b88aeac3d55e38bdbac692b331cec006aeb895826c20ce"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "404d9570c9ae6efb2ba75607b7db64a4ac8eea14992f57c2ec6bf51fe4d42fe7",
     "npub": "npub1gpxe2uxf4eh0k2a82crm0kmy5jkga6s5nyh40shvd063lex59lnsrx434r",
-    "name": "Ace",
     "displayName": "Ace",
-    "nip05Verified": false
+    "kind0": {
+      "kind": 0,
+      "id": "097f271426bc37a652c925c25af276a62ef86ffe3ad7f0d3bf58d917e1486c56",
+      "pubkey": "404d9570c9ae6efb2ba75607b7db64a4ac8eea14992f57c2ec6bf51fe4d42fe7",
+      "created_at": 1686779552,
+      "tags": [],
+      "content": "{\"display_name\":\"Ace\"}",
+      "sig": "8843b329c9d5d5f92c75c352f5f0475692e5fb0d2e48f00c8301fc470f569194affbb6b2fc5a5c8b2a1e79de97f4456caa5e8ac7fc05be057f578cb0d9456126"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "990c8f060750cfae3d1c9c03099f87e7216bea1c5fbcbe7f00fcb99f0c7edeae",
     "npub": "npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph",
     "name": "Alan",
     "displayName": "Alan",
-    "nip05Verified": false,
-    "picture": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg"
+    "picture": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "2d592a6312483b312b4c487adb22caee324612b857f5618f75327863c934368f",
+      "pubkey": "990c8f060750cfae3d1c9c03099f87e7216bea1c5fbcbe7f00fcb99f0c7edeae",
+      "created_at": 1765325640,
+      "tags": [],
+      "content": "{\"name\":\"Alan\",\"display_name\":\"Alan\",\"lud16\":\"alan@minibits.cash\",\"picture\":\"https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg\",\"banner\":\"https://img.freepik.com/premium-vector/mountain-ranges-morning-haze-black-white-landscape-banner_149326-2024.jpg\",\"created_at\":1758309318}",
+      "sig": "341524ce224e5af3ba76fcc0f7588ff4a472023fc348d9d5ac468d2dd158ee26c8a3cd88848b8eb301cdf8936efee33c239b9cacb74e22acb05518999be39c9b"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d76726da1b64e8679d8b6e66facf551ba96f2612de5a171fac818ee85ce3e5fe",
     "npub": "npub16anjdksmvn5x08vtden04n64rw5k7fsjmedpw8avsx8wsh8ruhlq076pfx",
     "name": "Alex Lewin",
     "displayName": "Alex Lewin",
+    "about": "Bitcoin Lightning Dev from ATL",
     "nip05": "alex@pleb.fm",
-    "nip05Verified": true,
-    "picture": "https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg"
+    "picture": "https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "c364e2e4b1d2175316f3074325266976e82ff68fe39ee9bae66dc3bce10bbcc2",
+      "pubkey": "d76726da1b64e8679d8b6e66facf551ba96f2612de5a171fac818ee85ce3e5fe",
+      "created_at": 1712075274,
+      "tags": [],
+      "content": "{\"name\":\"Alex Lewin\",\"display_name\":\"Alex Lewin\",\"about\":\"Bitcoin Lightning Dev from ATL\",\"website\":\"https://twitter.com/_alexlewin\",\"picture\":\"https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg\",\"banner\":\"https://pbs.twimg.com/profile_banners/3828049641/1679940755/1500x500\",\"nip05\":\"alex@pleb.fm\",\"lud16\":\"alexl@getalby.com\",\"reactions\":true}",
+      "sig": "04c1430f467d2b0e783a27cf71722437f78758322f5f948a50bd8d2280e25b41294978e9e6e8712b3fed6106900c93bf6dcb8d8a6ab8082d1198962b8b5e930f"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "056f33245ca4cc4fa3c1d6e557dd8eae714889f3c3423cbd6fbf09f3c0e200d2",
     "npub": "npub1q4hnxfzu5nxylg7p6mj40hvw4ec53z0ncdpre0t0huyl8s8zqrfquvz7zr",
     "name": "AlexXie",
     "displayName": "Alex Xie",
-    "nip05Verified": false,
-    "picture": "https://cdn.nostrcheck.me/edd8500b4d86fee6e6a824b96b9c727a0e06ee7be4603eb868fd8ad0b1a1ada7.webp"
+    "about": "Freedom tech developer, Bitcoin, Nostr, Cashu, Lightning and more.",
+    "picture": "https://cdn.nostrcheck.me/edd8500b4d86fee6e6a824b96b9c727a0e06ee7be4603eb868fd8ad0b1a1ada7.webp",
+    "kind0": {
+      "kind": 0,
+      "id": "05342b27d304e97e13a1f640d48ce2804243ffad3f899b60189ea0db59728a37",
+      "pubkey": "056f33245ca4cc4fa3c1d6e557dd8eae714889f3c3423cbd6fbf09f3c0e200d2",
+      "created_at": 1775949209,
+      "tags": [],
+      "content": "{\"nip05\":\"\",\"lud16\":\"olivezebra19@primal.net\",\"website\":\"\",\"lud06\":\"\",\"about\":\"Freedom tech developer, Bitcoin, Nostr, Cashu, Lightning and more.\",\"picture\":\"https:\\/\\/cdn.nostrcheck.me\\/edd8500b4d86fee6e6a824b96b9c727a0e06ee7be4603eb868fd8ad0b1a1ada7.webp\",\"banner\":\"https:\\/\\/blossom.primal.net\\/1341f4cc3a257c7725b92b89574293d5785c1d02fd586d93e75d6ea7e6875389.jpg\",\"display_name\":\"Alex Xie\",\"name\":\"AlexXie\"}",
+      "sig": "69ba05cd06b350dfcdca45351bc33a4fea4d6a83872a8b716f7fd36fef9a66237f19022c71a42ca5eefeb8f0d162b255fd77b5e257f61d7bec9424a5cfe0fa50"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "efe5d120df0cc290fa748727fb45ac487caad346d4f2293ab069e8f01fc51981",
     "npub": "npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp",
     "name": "aljaz",
     "displayName": "aljaz",
+    "about": "Freedom maximalist.  \n\nhttps://nostr.eu | https://nostr.at ||  https://nostr.ae || https://start.nostr.net || wot.nostr.net || relay.nostr.net || https://my.nostr.net",
     "nip05": "aljaz@nostr.si",
-    "nip05Verified": true,
-    "picture": "https://m.primal.net/HRBw.jpg"
+    "picture": "https://m.primal.net/HRBw.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "8731dc20fe7e636324e412d40830b918f66be717928596b8c948fe56aba64b66",
+      "pubkey": "efe5d120df0cc290fa748727fb45ac487caad346d4f2293ab069e8f01fc51981",
+      "created_at": 1753189923,
+      "tags": [],
+      "content": "{\"name\":\"aljaz\",\"about\":\"Freedom maximalist.  \\n\\nhttps://nostr.eu | https://nostr.at ||  https://nostr.ae || https://start.nostr.net || wot.nostr.net || relay.nostr.net || https://my.nostr.net\",\"lud16\":\"aljaz@minibits.cash\",\"nip05\":\"aljaz@nostr.si\",\"picture\":\"https://m.primal.net/HRBw.jpg\",\"displayName\":\"aljaz\",\"display_name\":\"aljaz\",\"website\":\"https://nostr.net\"}",
+      "sig": "a95ac3fef1461f4beafd2d0cc93892b277a2a2bdd1f87d3069800aa94d578c0619875529ad1e293f97b1e4693658d081f47deedb7babf07a94429eaa5c10882f"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "5b705e6cb602425c019202dd070a0c009b040ac19960eeef2d8a8fab25c1efe5",
     "npub": "npub1tdc9um9kqfp9cqvjqtwswzsvqzdsgzkpn9swamed3286kfwpaljsrr8r0y",
     "name": "andreloja",
     "displayName": "André Loja",
+    "about": "Adrif in the Atlantic... Founder of FREE Madeira and Bitcoin Atlantis",
     "nip05": "andreloja@freemadeira.org",
-    "nip05Verified": true,
-    "picture": "https://nostr.build/i/nostr.build_e243727155be56487475c10a44ba24647cc2b7c5820bf0cd0fe138f2edc7da6a.jpg"
+    "picture": "https://nostr.build/i/nostr.build_e243727155be56487475c10a44ba24647cc2b7c5820bf0cd0fe138f2edc7da6a.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "3df8b4a9b59e50d4e02e4d11cdabcddcbd38dd901d6b58801320052653e17bc4",
+      "pubkey": "5b705e6cb602425c019202dd070a0c009b040ac19960eeef2d8a8fab25c1efe5",
+      "created_at": 1747300435,
+      "tags": [],
+      "content": "{\"picture\":\"https:\\/\\/nostr.build\\/i\\/nostr.build_e243727155be56487475c10a44ba24647cc2b7c5820bf0cd0fe138f2edc7da6a.jpg\",\"lud16\":\"andreloja@primal.net\",\"name\":\"andreloja\",\"display_name\":\"André Loja\",\"lud06\":\"\",\"website\":\"bitcoinatlantis.com\",\"nip05\":\"andreloja@freemadeira.org\",\"banner\":\"https:\\/\\/m.primal.net\\/Kwus.jpg\",\"about\":\"Adrif in the Atlantic... Founder of FREE Madeira and Bitcoin Atlantis\\n\"}",
+      "sig": "23135e819e5fc8489b8c371061b7a08d77e4b90e57d20b012a1149b6d813cc4634852a47cbaf3ced5056f16448dae2ebca94d83872cb695ac4ea114e452243c6"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "b158557dddf53d5b98e7fb7597a294f67c7cb6accdcc9aea9f6a5ab50fae01ee",
     "npub": "npub1k9v92lwa7574hx88ld6e0g557e78ed4vehxf465ldfdt2rawq8hq4jvecm",
     "name": "arinc9",
-    "nip05Verified": false
+    "kind0": {
+      "kind": 0,
+      "id": "05101da90488228baa023f68230ce5292ef319a3e2713704b16576cbdaf26840",
+      "pubkey": "b158557dddf53d5b98e7fb7597a294f67c7cb6accdcc9aea9f6a5ab50fae01ee",
+      "created_at": 1776453555,
+      "tags": [["client", "Primal Android"]],
+      "content": "{\"name\":\"arinc9\",\"display_name\":\"\",\"picture\":\"\",\"website\":\"https://arinc9.com\"}",
+      "sig": "fd8cc8a30ac631d6d3298daa2c71e0efe10cdf9ca234343b69f959ea2c33b87d2b910d62506ededf62234e2647822dc62ed15ed1f320a97c1e01a3a45924fe3e"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "bbb5dda0e15567979f0543407bdc2033d6f0bbb30f72512a981cfdb2f09e2747",
     "npub": "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr",
     "name": "Arjen",
     "displayName": "Arjen",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png"
+    "about": "#SovEng SEC-03/04/05\n\n- Tollgate\n- Nostr networking stuff\n- SugarDaddy.Cash\n\nAvid through-hiker, over 3500km of the Pacific Crest Trail hiked and counting 🥾. \n\nI hate ads and leafblowers\n\nI don't read DM's",
+    "picture": "https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png",
+    "kind0": {
+      "kind": 0,
+      "id": "79747ddf10e76b8e6fbcde03cf781a583f9c5ed2e39e297026d8c3d4eac809bd",
+      "pubkey": "bbb5dda0e15567979f0543407bdc2033d6f0bbb30f72512a981cfdb2f09e2747",
+      "created_at": 1763199577,
+      "tags": [],
+      "content": "{\"name\":\"Arjen\",\"about\":\"#SovEng SEC-03/04/05\\n\\n- Tollgate\\n- Nostr networking stuff\\n- SugarDaddy.Cash\\n\\nAvid through-hiker, over 3500km of the Pacific Crest Trail hiked and counting 🥾. \\n\\nI hate ads and leafblowers\\n\\nI don't read DM's\",\"lud16\":\"iwillnot@getalby.com\",\"display_name\":\"Arjen\",\"picture\":\"https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png\",\"banner\":\"https://cdn.satellite.earth/d67c0d362655e7c8841811e57642512cbdb56d0c8491cb2a27aec4a5cd4a4672.jpeg\"}",
+      "sig": "1b257fa0506d07646cbc138d4753be5145e5b3e97187455fccdd322d7445d17f02d18a6dba9e6b41fbe9f38d4335f3c83154e4759882f437569ce1b779c83d4d"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "9ec7a778167afb1d30c4833de9322da0c08ba71a69e1911d5578d3144bb56437",
     "npub": "npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8",
     "name": "balas",
+    "about": "Full Stack Sats Dev at https://alphaama.com",
     "nip05": "_@balas.pt",
-    "nip05Verified": true,
-    "picture": "https://i.nostr.build/WX5nCEZIwqiSkRPb.jpg"
+    "picture": "https://i.nostr.build/WX5nCEZIwqiSkRPb.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "a03775a1e48926ec9a7337bef81def7cee78f30417dc9635b23f6d9eb18ab311",
+      "pubkey": "9ec7a778167afb1d30c4833de9322da0c08ba71a69e1911d5578d3144bb56437",
+      "created_at": 1768573639,
+      "tags": [],
+      "content": "{\"name\":\"balas\",\"picture\":\"https://i.nostr.build/WX5nCEZIwqiSkRPb.jpg\",\"about\":\"Full Stack Sats Dev at https://alphaama.com\",\"nip05\":\"_@balas.pt\",\"lud16\":\"npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8@npub.cash\",\"banner\":\"https://image.nostr.build/51ab4f6460402da7aabd6dcf29b9edd6ef4f5325b0607d4d4bd37d9ab52e8058.jpg\",\"website\":\"https://tiago.balas.pt\"}",
+      "sig": "ac951131e72ec02772420f800732414dc7ed3726bcfe91130a78e20de52c450e77774f2dee73bccab27c2eb981f528da2d5a7c9dc967d576de475530504f299c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "e1ff3bfdd4e40315959b08b4fcc8245eaa514637e1d4ec2ae166b743341be1af",
     "npub": "npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz",
     "name": "benthecarman",
     "displayName": "benthecarman",
+    "about": "Dev at spiral",
     "nip05": "_@benthecarman.com",
-    "nip05Verified": true,
-    "picture": "https://pfp.nostr.build/11670ef3e4b85e22e85a6558a7e7ea6eda960fc72f1a211042173609dce4be4e.jpg"
+    "picture": "https://blossom.primal.net/a62940022ca3e71c52b4f3a0d491f1ff4e4c392d7f1d9dd2e665ac26ebf47d5d.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "a8afcc220752e6c048d8bf8ddac39064f9429d19536de2e7f87b6998c85b30d7",
+      "pubkey": "e1ff3bfdd4e40315959b08b4fcc8245eaa514637e1d4ec2ae166b743341be1af",
+      "created_at": 1780769691,
+      "tags": [],
+      "content": "{\"about\":\"Dev at spiral\",\"lud16\":\"nostr@zaps.benthecarman.com\",\"banner\":\"https:\\/\\/blossom.primal.net\\/54d465fd57f051a509b0ce5adf9fcfdd1ffb39d2bf0964535d9706a7686871fa.jpg\",\"picture\":\"https:\\/\\/blossom.primal.net\\/a62940022ca3e71c52b4f3a0d491f1ff4e4c392d7f1d9dd2e665ac26ebf47d5d.jpg\",\"name\":\"benthecarman\",\"display_name\":\"benthecarman\",\"nip05\":\"_@benthecarman.com\",\"lud06\":\"\",\"website\":\"https:\\/\\/benthecarman.com\"}",
+      "sig": "02c317c04d47abc8116efca38c385ef90d02a6aa5ca683ee74038834ebfb3ef048205457671b717d23cb647a04f458d751949084948ae4c19e0d038dfdc14d5d"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "50d94fc2d8580c682b071a542f8b1e31a200b0508bab95a33bef0855df281d63",
     "npub": "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg",
     "name": "calle 💯",
     "displayName": "calle 💯",
+    "about": "DM @callebtc:matrix.org",
     "nip05": "calle@cashu.me",
-    "nip05Verified": true,
-    "picture": "https://avatars.githubusercontent.com/u/93376500"
+    "picture": "https://avatars.githubusercontent.com/u/93376500",
+    "kind0": {
+      "kind": 0,
+      "id": "f7b364e96858540abb0e9fe6da952f117a5d9898ac850a6834dcd22dff935e4b",
+      "pubkey": "50d94fc2d8580c682b071a542f8b1e31a200b0508bab95a33bef0855df281d63",
+      "created_at": 1780360806,
+      "tags": [
+        ["alt", "User profile for calle 💯"],
+        ["name", "calle 💯"],
+        ["display_name", "calle 💯"],
+        ["picture", "https://avatars.githubusercontent.com/u/93376500"],
+        ["banner", "https://primal.b-cdn.net/media-cache?s=o&a=1&u=https%3A%2F%2Fm.primal.net%2FPJUH.png"],
+        ["about", "DM @callebtc:matrix.org"],
+        ["nip05", "calle@cashu.me"],
+        ["lud16", "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg@npub.cash"]
+      ],
+      "content": "{\"name\":\"calle 💯\",\"about\":\"DM @callebtc:matrix.org\",\"lud16\":\"npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg@npub.cash\",\"nip05\":\"calle@cashu.me\",\"picture\":\"https://avatars.githubusercontent.com/u/93376500\",\"displayName\":\"calle\",\"display_name\":\"calle 💯\",\"banner\":\"https://primal.b-cdn.net/media-cache?s=o&a=1&u=https%3A%2F%2Fm.primal.net%2FPJUH.png\"}",
+      "sig": "fccfa88a7eb99cb0fc7a521ad44e050a28809196f3554ff5972480bed0e2c499786ba251373ce4f87093abd170769e0fc917dfda07c570e39ffb8c37842fbaae"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d36e8083fa7b36daee646cb8b3f99feaa3d89e5a396508741f003e21ac0b6bec",
     "npub": "npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq",
     "name": "calvadev",
     "displayName": "calvadev⚡️",
+    "about": "shopstrmarkets.com founder | commerce cowboy | free market maximalist | nurture capitalist",
     "nip05": "calvadev@calva.dev",
-    "nip05Verified": true,
-    "picture": "https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg"
+    "picture": "https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "13c1e5d361103f2e0f2442017236951f79afdde222e60c8639e0b77a5ecf750b",
+      "pubkey": "d36e8083fa7b36daee646cb8b3f99feaa3d89e5a396508741f003e21ac0b6bec",
+      "created_at": 1779166918,
+      "tags": [],
+      "content": "{\"name\":\"calvadev\",\"display_name\":\"calvadev⚡️\",\"about\":\"shopstrmarkets.com founder | commerce cowboy | free market maximalist | nurture capitalist\",\"picture\":\"https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg\",\"banner\":\"https://i.nostr.build/bA4BfkwRc7q0gGDg.jpg\",\"nip05\":\"calvadev@calva.dev\",\"lud16\":\"calvadev@breez.tips\"}",
+      "sig": "16e67cdf6883d4b72ab3fb157056caca6d5fa88c07fe7574e4037759b01690be08de43c222c2e6cfdcc6578c2f545f0fff17fcad34d0f1b64b9b20c2c5e8b098"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "ec79b568bdea63ca6091f5b84b0c639c10a0919e175fa09a4de3154f82906f25",
     "npub": "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6",
     "name": "Chiefmonkey",
+    "about": "Laser cutter bitcoin and freedom tech art… founder of Plebeian",
     "nip05": "chiefmonkey@primal.net",
-    "nip05Verified": true,
-    "picture": "https://blossom.primal.net/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png"
+    "picture": "https://blossom.primal.net/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png",
+    "kind0": {
+      "kind": 0,
+      "id": "d9b5cbaf716793158bbc5da12aedf7aafda8e059672e7f98edb78981edc593af",
+      "pubkey": "ec79b568bdea63ca6091f5b84b0c639c10a0919e175fa09a4de3154f82906f25",
+      "created_at": 1776015181,
+      "tags": [],
+      "content": "{\"picture\":\"https:\\/\\/blossom.primal.net\\/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png\",\"banner\":\"https:\\/\\/blossom.primal.net\\/827f6921f36150b0f44e54ad4890dcbefaf0ed86e0bf854bbec95f09886b4fbc.png\",\"website\":\"https:\\/\\/hodlr.rocks\",\"about\":\"Laser cutter bitcoin and freedom tech art… founder of Plebeian\",\"display_name\":\"\",\"lud16\":\"chiefmonkey@primal.net\",\"name\":\"Chiefmonkey\",\"nip05\":\"chiefmonkey@primal.net\",\"lud06\":\"\"}",
+      "sig": "c8660baff3163db1fceb69743fa85c7304b4d7e90ad6d63141aa8189476ab5e32647dc11a7dd7f08af5ba52ea6f86d096a162784f72bd18e55dd8acf553f09fd"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "5fef2136ff8584533376e2798febf192eb320647051aa6e29e572e22d664c916",
     "npub": "npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu",
     "name": "covah",
     "displayName": "disgruntledStudent",
-    "nip05Verified": false,
-    "picture": "https://m.primal.net/LAPO.jpg"
+    "about": "Nostr research?",
+    "picture": "https://m.primal.net/LAPO.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "374c969d86835dab4ea1fa63ab4fed52a3d3096ea954bf1d1d939f8cd25cdf1c",
+      "pubkey": "5fef2136ff8584533376e2798febf192eb320647051aa6e29e572e22d664c916",
+      "created_at": 1727175488,
+      "tags": [],
+      "content": "{\"displayName\":\"disgruntledStudent\",\"display_name\":\"disgruntledStudent\",\"name\":\"covah\",\"about\":\"Nostr research?\",\"pubkey\":\"5fef2136ff8584533376e2798febf192eb320647051aa6e29e572e22d664c916\",\"npub\":\"npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu\",\"created_at\":1727175469,\"picture\":\"https://m.primal.net/LAPO.jpg\"}",
+      "sig": "39a905a646451452689cff6d52a513e6a840e3fe9bae65fc6fbc697258b7e90aed41f44a54f4f3fccc222af1360e462934e79fd7f323ce80c09beebc80e23b3d"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "a008def15796fba9a0d6fab04e8fd57089285d9fd505da5a83fe8aad57a3564d",
     "npub": "npub15qydau2hjma6ngxkl2cyar74wzyjshvl65za5k5rl69264ar2exs5cyejr",
     "name": "DanConwayDev",
     "displayName": "DanConwayDev",
+    "about": "freedom tech developer and creator of ngit,  https://gitworkshop.dev and https://metadata.nostr.com",
     "nip05": "_@danconwaydev.com",
-    "nip05Verified": true,
-    "picture": "https://pfp.nostr.build/437c14b92bc305f2d7bdfd2653757a13712fa83de21db44770bbe1e3ebec6bbc.jpg"
+    "picture": "https://pfp.nostr.build/437c14b92bc305f2d7bdfd2653757a13712fa83de21db44770bbe1e3ebec6bbc.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "18dc84723ef168ad574570f9c30cf2b04f6d45e78e9bae1f1f54347b9793a429",
+      "pubkey": "a008def15796fba9a0d6fab04e8fd57089285d9fd505da5a83fe8aad57a3564d",
+      "created_at": 1748358345,
+      "tags": [["alt", "User profile for DanConwayDev"]],
+      "content": "{\"name\":\"DanConwayDev\",\"picture\":\"https://pfp.nostr.build/437c14b92bc305f2d7bdfd2653757a13712fa83de21db44770bbe1e3ebec6bbc.jpg\",\"display_name\":\"DanConwayDev\",\"about\":\"freedom tech developer and creator of ngit,  https://gitworkshop.dev and https://metadata.nostr.com\",\"lud16\":\"danconwaydev@minibits.cash\",\"nip05\":\"_@danconwaydev.com\"}",
+      "sig": "20dee769946fccf25a2bffb4e1895f9e310f7e17d9b9a06a5e3ecfc1bdab7afc15d0d4e9139771c2e748ecf6044e3c5678286e955bfad41166331e58d8567a73"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "04dcaf2552801937d1c20b69adf89646f21b53c17906271d22c7be9bcadb96c0",
     "npub": "npub1qnw27f2jsqvn05wzpd56m7ykgmepk57p0yrzw8fzc7lfhjkmjmqqmd9r6h",
     "name": "DhananjayPurohit",
     "displayName": "Dhananjay Purohit",
-    "nip05Verified": false,
-    "picture": "https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg"
+    "picture": "https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "e390ba9dc0dfe12dc21593951a8715f68fb99c7897148e0129044c403f695ef3",
+      "pubkey": "04dcaf2552801937d1c20b69adf89646f21b53c17906271d22c7be9bcadb96c0",
+      "created_at": 1754162616,
+      "tags": [],
+      "content": "{\"name\":\"DhananjayPurohit\",\"lud16\":\"pearcougar16@primal.net\",\"display_name\":\"Dhananjay Purohit\",\"picture\":\"https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg\",\"banner\":\"https://blossom.primal.net/154fd76b5e31b3d9ee067f9ff2d85ac559dd43145796a51520558159e0dddb84.jpg\"}",
+      "sig": "d74a4616bd5dc7878de59b3164a76d6661e22398ec8263234f60a8ed1a69bca79fcf0ff8f75b3cc09fc288d0ea1fc0ba60d35d48890925138aa4fb59c51c7e8b"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "1f830dd875130b134fbf3f27a69eecd8613a499748a71b5a271a719febae14ed",
     "npub": "npub1r7psmkr4zv93xnal8un6d8hvmpsn5jvhfzn3kk38rfcel6awznks7znspg",
     "name": "dimi",
     "displayName": "Dimi",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/3d4bc423f02cdb9b14e0f2cb218681c8b109182f67c9de02089655489e96332a.png"
+    "about": "Bitcoin is my shelter\nMicroScaler",
+    "picture": "https://image.nostr.build/3d4bc423f02cdb9b14e0f2cb218681c8b109182f67c9de02089655489e96332a.png",
+    "kind0": {
+      "kind": 0,
+      "id": "a35302396f9d1ce9a212112845b0c1ace922e3300dcb00e23ee92f4f67d646af",
+      "pubkey": "1f830dd875130b134fbf3f27a69eecd8613a499748a71b5a271a719febae14ed",
+      "created_at": 1759545285,
+      "tags": [],
+      "content": "{\"picture\":\"https://image.nostr.build/3d4bc423f02cdb9b14e0f2cb218681c8b109182f67c9de02089655489e96332a.png\",\"about\":\"Bitcoin is my shelter\\nMicroScaler \",\"lud06\":\"\",\"banner\":\"https://image.nostr.build/ddc4f84e179eca868eb55e15edd3610e55348e7ec26eea5203b039ca3c8bc9ca.jpg\",\"name\":\"dimi\",\"website\":\"\",\"display_name\":\"Dimi\"}",
+      "sig": "656ce8c732d61320126220041fafbe80c6e7b9f2d4c602624b6e3a33a7e7c4c0f12e796cc2236dbae38f0a2f482f738781017d5da62e385d5d787b7e7d75573c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "da18e9860040f3bf493876fc16b1a912ae5a6f6fa8d5159c3de2b8233a0d9851",
     "npub": "npub1mgvwnpsqgrem7jfcwm7pdvdfz2h95mm04r23t8pau2uzxwsdnpgs0gpdjc",
     "name": "Dustin",
     "displayName": "Dustin Dannenhauer",
+    "about": "Founder @ Delegance AI",
     "nip05": "dustind@dtdannen.github.io",
-    "nip05Verified": true,
-    "picture": "https://dtdannen.github.io/profile_pic_newer.jpg"
+    "picture": "https://dtdannen.github.io/profile_pic_newer.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "89d4984ce0f0e843bb62f537c26c63bcd111909ec15dcace4a65717df5c43ff3",
+      "pubkey": "da18e9860040f3bf493876fc16b1a912ae5a6f6fa8d5159c3de2b8233a0d9851",
+      "created_at": 1779125618,
+      "tags": [["client", "Primal Web"]],
+      "content": "{\"name\":\"Dustin\",\"about\":\"Founder @ Delegance AI \",\"lud16\":\"dvmdash@getalby.com\",\"nip05\":\"dustind@dtdannen.github.io\",\"picture\":\"https://dtdannen.github.io/profile_pic_newer.jpg\",\"display_name\":\"Dustin Dannenhauer\",\"website\":\"https://dtdannen.github.io/\",\"displayName\":\"Dustin Dannenhauer\",\"banner\":\"https://blossom.primal.net/623a6b277b024248557c64397b7389354aea2a6a939d73c949bda54bb2a29cdc.png\"}",
+      "sig": "050c34fce45803d16e328d32613f5e7e3672bdff2b7e907fcfc9ebc3cd8d1f420407a9e84c8685875dbde9e7dd9cb0b09a5fe9df97c70360a3d9ddcd2f5ea2b4"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "6b1b8dac34ffc61d464dfeef00e4a84a604e172ef6391fb629293d6f1666148c",
     "npub": "npub1dvdcmtp5llrp63jdlmhspe9gffsyu9ew7cu3ld3f9y7k79nxzjxqf4d4rm",
     "name": "dvdc",
     "displayName": "David Caseria",
+    "about": "CEO sovereign.app",
     "nip05": "dvdc@sovereign.app",
-    "nip05Verified": false,
-    "picture": "https://m.primal.net/HkRO.jpg"
+    "picture": "https://m.primal.net/HkRO.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "f292bade88c29eb2c096444b3e39cd2775a8a3655373e27a84950afd354ea551",
+      "pubkey": "6b1b8dac34ffc61d464dfeef00e4a84a604e172ef6391fb629293d6f1666148c",
+      "created_at": 1731009056,
+      "tags": [],
+      "content": "{\"website\":\"sovereign.app\",\"name\":\"dvdc\",\"display_name\":\"David Caseria\",\"nip05\":\"dvdc@sovereign.app\",\"banner\":\"https://m.primal.net/HkRS.png\",\"lud16\":\"dvdc@svrgn.app\",\"picture\":\"https://m.primal.net/HkRO.jpg\",\"about\":\"CEO sovereign.app\",\"displayName\":\"David Caseria\",\"pubkey\":\"6b1b8dac34ffc61d464dfeef00e4a84a604e172ef6391fb629293d6f1666148c\",\"npub\":\"npub1dvdcmtp5llrp63jdlmhspe9gffsyu9ew7cu3ld3f9y7k79nxzjxqf4d4rm\",\"created_at\":1729632746}",
+      "sig": "0fa8acb25e93a6e2458a529ec208faa35464b11c862276421e78e034ace39d56d2c916f04cf03a8b7ee23b9215ea2b56c8a8ca5b733ec477d3d1d11ee87fb6b2"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "167e7fe01a76b6bec9d2a9b196b18c72e150e985fbeb46ee651869e7b4032785",
     "npub": "npub1zel8lcq6w6mtajwj4xcedvvvwts4p6v9l045dmn9rp570dqry7zsyll0dt",
     "name": "dzdidi",
     "displayName": "dzdidi",
-    "nip05Verified": false,
-    "picture": "https://pbs.twimg.com/profile_images/1585282118585925634/HbG2Ylu5.jpg"
+    "picture": "https://pbs.twimg.com/profile_images/1585282118585925634/HbG2Ylu5.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "16bd584dfc11637a778945189bec929fe5d7e6dd1b1f9d0ffd5f39f2f7e43709",
+      "pubkey": "167e7fe01a76b6bec9d2a9b196b18c72e150e985fbeb46ee651869e7b4032785",
+      "created_at": 1674679698,
+      "tags": [],
+      "content": "{\"name\":\"dzdidi\",\"username\":\"dzdidi\",\"display_name\":\"dzdidi\",\"displayName\":\"dzdidi\",\"picture\":\"https://pbs.twimg.com/profile_images/1585282118585925634/HbG2Ylu5.jpg\",\"banner\":\"\",\"website\":\"\",\"about\":\"\",\"nip05\":\"\",\"lud06\":\"\"}",
+      "sig": "9571b08582efd1704f3456601967ef48121220555b18aaa4a5b8eacaf242071ed4a0ac12e97a13b0722fc6a730cd7f54f40abd9bdfb2074107c1b45018b353cb"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "ddf03aca85ade039e6742d5bef3df352df199d0d31e22b9858e7eda85cb3bbbe",
     "npub": "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226",
     "name": "Egge",
+    "about": "Building https://npub.cash 🥜 Working on awesome nostr, cashu and Lightning stuff 💜⚡️",
     "nip05": "egge@npub.cash",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg"
+    "picture": "https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "fc113a8d21a906d8bec2ea50817140d6b39b0dc05c18363f7f019106dc9dbed4",
+      "pubkey": "ddf03aca85ade039e6742d5bef3df352df199d0d31e22b9858e7eda85cb3bbbe",
+      "created_at": 1754542834,
+      "tags": [],
+      "content": "{\"display_name\":\"\",\"website\":\"https://my2sats.space\",\"lud16\":\"egge@npubx.cash\",\"picture\":\"https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg\",\"about\":\"Building https://npub.cash 🥜 Working on awesome nostr, cashu and Lightning stuff 💜⚡️\",\"name\":\"Egge\",\"nip05\":\"egge@npub.cash\"}",
+      "sig": "ba3a567d08a9dc366bc696018e314f648d971338f4bfed5bff5649688b284e8c87533702bc66ace0bfe278a5b2b38a88a5223efe4a5670c57645080f490f030c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "408f636bd26fcc5f29889033b447cb2411f60ab1b8a5fc8cb3842dab758fdeb5",
@@ -186,173 +695,679 @@
     "name": "elnosh",
     "displayName": "elnosh",
     "nip05": "elnosh@getalby.com",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/be34eff64786887c484ed9d82c4a16a41c940f9bc2eb02fe9fe5b906a9ea5534.jpg"
+    "picture": "https://image.nostr.build/be34eff64786887c484ed9d82c4a16a41c940f9bc2eb02fe9fe5b906a9ea5534.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "bc303f2693c93c4088788c0acce448e625269eed6f0c4ce451c7c2cfc51bbdb8",
+      "pubkey": "408f636bd26fcc5f29889033b447cb2411f60ab1b8a5fc8cb3842dab758fdeb5",
+      "created_at": 1750853482,
+      "tags": [["alt", "User profile for elnosh"]],
+      "content": "{\"name\":\"elnosh\",\"display_name\":\"elnosh\",\"website\":\"https://github.com/elnosh\",\"picture\":\"https://image.nostr.build/be34eff64786887c484ed9d82c4a16a41c940f9bc2eb02fe9fe5b906a9ea5534.jpg\",\"lud16\":\"elnosh@minibits.cash\",\"nip05\":\"elnosh@getalby.com\"}",
+      "sig": "028ab2082debc179d5c4384d1bda4349c9b89d71f68da2df0c0937903c7622f0a8adbe054eba6051c81892145c9100714da0c43c3f6cc096494c9c11a3bcf3c1"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "f4d1866e8599563c52ceeedf11c28b8567e465c6e9a91df92add535d57f02ab0",
     "npub": "npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta",
     "name": "En",
     "displayName": "En",
+    "about": "Full Stack Dev",
     "nip05": "enes@nostrdev.com",
-    "nip05Verified": true,
-    "picture": "https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp"
+    "picture": "https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp",
+    "kind0": {
+      "kind": 0,
+      "id": "d6b7355ae7c5e2867eb2ee51b2d7b6f8bf5845d164c7cf5232d7a1139ff99156",
+      "pubkey": "f4d1866e8599563c52ceeedf11c28b8567e465c6e9a91df92add535d57f02ab0",
+      "created_at": 1770112310,
+      "tags": [],
+      "content": "{\"picture\":\"https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp\",\"name\":\"En\",\"display_name\":\"En\",\"nip05\":\"enes@nostrdev.com\",\"about\":\"Full Stack Dev\",\"website\":\"\",\"displayName\":\"En\",\"lud16\":\"momentumcelestial377770@getalby.com\"}",
+      "sig": "80a48e1082c17d6eb73d02fe1f6bb1dded439f55e24013393656d0d833c843671b8157916ad30ec9cb6a9db3bd36dbfc3708bda2f76d50cd0503eb19f9791510"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "96f652249b0946e1575d78a8bc7450123c8e64f1c56f6b2f93bc23fb249ed85a",
     "npub": "npub1jmm9yfymp9rwz46a0z5tcazszg7gue83c4hkktunhs3lkfy7mpdqx6zden",
     "name": "eugene",
     "displayName": "eugene",
+    "about": "Tech Lead @ https://nostrdev.com/\nWorking on https://sigit.io/, Angor",
     "nip05": "eugene23@iris.to",
-    "nip05Verified": true,
-    "picture": "https://media.tate.org.uk/art/images/work/P/P07/P07142_10.jpg"
+    "picture": "https://media.tate.org.uk/art/images/work/P/P07/P07142_10.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "6eb61d16cadf4fca04ed58efd1506dd7c1a42c1af96f79ffc6c987a299ac689b",
+      "pubkey": "96f652249b0946e1575d78a8bc7450123c8e64f1c56f6b2f93bc23fb249ed85a",
+      "created_at": 1729106307,
+      "tags": [],
+      "content": "{\"nip05\":\"eugene23@iris.to\",\"nip05valid\":true,\"display_name\":\"eugene\",\"pubkey\":\"96f652249b0946e1575d78a8bc7450123c8e64f1c56f6b2f93bc23fb249ed85a\",\"name\":\"eugene\",\"picture\":\"https://media.tate.org.uk/art/images/work/P/P07/P07142_10.jpg\",\"displayName\":\"eugene\",\"lud16\":\"xplatonov@getalby.com\",\"banner\":\"\",\"about\":\"Tech Lead @ https://nostrdev.com/\\nWorking on https://sigit.io/, Angor\",\"website\":\"https://nostrdev.com/\"}",
+      "sig": "75f510f57e1aacc938e1abb946b16d39fae7ace242ffa0411a318cd8e89ca78b92fcc913774610387467fdb191ea74f6b725e0e37bb13a283c51bf92eae12961"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "e47d738ee8d9525a34aff86caea5c7bd57ea593a71d9b4754211650347ab1078",
     "npub": "npub1u37h8rhgm9f95d90lpk2afw8h4t75kf6w8vmga2zz9jsx3atzpuqlmw8vy",
-    "name": "Evan",
     "displayName": "Evan",
+    "about": "Building https://routstr.com",
     "nip05": "evan@routstr.com",
-    "nip05Verified": true,
-    "picture": "https://m.primal.net/QAjZ.jpg"
+    "picture": "https://m.primal.net/QAjZ.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "f7e8c1da2879e7840e7a1c91e574a5e37cd36253810cf0fce477bf40337712be",
+      "pubkey": "e47d738ee8d9525a34aff86caea5c7bd57ea593a71d9b4754211650347ab1078",
+      "created_at": 1757364278,
+      "tags": [],
+      "content": "{\"nip05\":\"evan@routstr.com\",\"about\":\"Building https:\\/\\/routstr.com\",\"picture\":\"https:\\/\\/m.primal.net\\/QAjZ.jpg\",\"display_name\":\"Evan\",\"lud06\":\"\",\"website\":\"\",\"banner\":\"https:\\/\\/m.primal.net\\/HQTd.jpg\",\"name\":\"\",\"lud16\":\"jadezebra7@primal.net\"}",
+      "sig": "b0c0f29a41298098fca38ac05d966aa29e048f9641f76476982d3eb368e8bcebe23eb1622716cdcc08887f3332427749c85f0e4b5e1b49e0787c55adce5e68fa"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d04ecf33a303a59852fdb681ed8b412201ba85d8d2199aec73cb62681d62aa90",
     "npub": "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw",
     "name": "Five",
     "displayName": "Five",
-    "nip05Verified": false,
-    "picture": "https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png"
+    "about": "I ship freedom tech",
+    "picture": "https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png",
+    "kind0": {
+      "kind": 0,
+      "id": "fe7d88eca177b90e204df2d227a147db4681ac0586d6eda94618fea686d2fc83",
+      "pubkey": "d04ecf33a303a59852fdb681ed8b412201ba85d8d2199aec73cb62681d62aa90",
+      "created_at": 1780672385,
+      "tags": [],
+      "content": "{\"name\":\"Five\",\"display_name\":\"Five\",\"about\":\"I ship freedom tech\",\"website\":\"\",\"picture\":\"https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png\"}",
+      "sig": "3f1b0b62729f281694722d2d4868d1e7bac508ccecfee117efef3c2022ab174def945b47f3724777719482c7e4bb5c503e32ea0789a7b2622b765efd009eb8d1"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "b7c6f6915cfa9a62fff6a1f02604de88c23c6c6c6d1b8f62c7cc10749f307e81",
     "npub": "npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc",
     "name": "florian",
     "displayName": "florian",
+    "about": "building https://nostu.be and https://slidestr.net",
     "nip05": "florian@slidestr.net",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/0ebb55ed4d269015f2c6fb7119e8ff8686110cad690443894b31287866758a5e.jpg"
+    "picture": "https://image.nostr.build/0ebb55ed4d269015f2c6fb7119e8ff8686110cad690443894b31287866758a5e.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "307c6e85057008ce322413a24963967a7fe073f1c05133365e5b1dab0080f808",
+      "pubkey": "b7c6f6915cfa9a62fff6a1f02604de88c23c6c6c6d1b8f62c7cc10749f307e81",
+      "created_at": 1775734103,
+      "tags": [["client", "Primal Web"]],
+      "content": "{\"name\":\"florian\",\"about\":\"building https://nostu.be and https://slidestr.net\",\"lud16\":\"npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc@npub.cash\",\"nip05\":\"florian@slidestr.net\",\"picture\":\"https://image.nostr.build/0ebb55ed4d269015f2c6fb7119e8ff8686110cad690443894b31287866758a5e.jpg\",\"display_name\":\"florian\",\"website\":\"https://slidestr.net\",\"banner\":\"https://m.primal.net/HoZu.jpg\",\"displayName\":\"florian\"}",
+      "sig": "0021b8cd5c56b1ed7cc5c5013b9b9858f6e43611addf8771805e28d76f283057d01a12dda16e796e444336f51d69375bf90ad0e98381a135aa9c674a2ba206b5"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "5d3ab876c206a37ad3b094e20bfc3941df3fa21a15ac8ea76d6918473789669a",
     "npub": "npub1t5atsakzq63h45asjn3qhlpeg80nlgs6zkkgafmddyvywdufv6dqxfahcl",
     "name": "Francis Mars",
     "displayName": "Francis Mars",
+    "about": "francismars.com • chainduel.net • pubpay.me",
     "nip05": "francismars@chainduel.net",
-    "nip05Verified": false,
-    "picture": "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg"
+    "picture": "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "7026e0d085709a12a2ceed0d58760b767f72e0554e237f739adf7d7a301c7eef",
+      "pubkey": "5d3ab876c206a37ad3b094e20bfc3941df3fa21a15ac8ea76d6918473789669a",
+      "created_at": 1772582600,
+      "tags": [
+        ["alt", "User profile for Francis Mars"],
+        ["name", "Francis Mars"],
+        ["display_name", "Francis Mars"],
+        ["picture", "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg"],
+        ["banner", "https://blossom.primal.net/4f7888aad3e5a001dfb4557671ec77c4ad9ef8cd33cd89a7c8a158752b663d65.webp"],
+        ["about", "francismars.com • chainduel.net • pubpay.me"],
+        ["nip05", "francismars@chainduel.net"],
+        ["lud16", "francis@minibits.cash"]
+      ],
+      "content": "{\"name\":\"Francis Mars\",\"nip05\":\"francismars@chainduel.net\",\"about\":\"francismars.com • chainduel.net • pubpay.me\",\"lud16\":\"francis@minibits.cash\",\"display_name\":\"Francis Mars\",\"picture\":\"https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg\",\"banner\":\"https://blossom.primal.net/4f7888aad3e5a001dfb4557671ec77c4ad9ef8cd33cd89a7c8a158752b663d65.webp\"}",
+      "sig": "7b0d1239259644a22bc32b8585ec9fc86eda0d53976acef73da87d3405314853c548db104bb523bdfa2b75a6a2cd24da6feb82700306bacc1251e525f4e5a9d6"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "726a1e261cc6474674e8285e3951b3bb139be9a773d1acf49dc868db861a1c11",
     "npub": "npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9",
     "name": "franzap",
     "displayName": "franzap",
+    "about": "Building nostr:npub10r8xl2njyepcw2zwv3a6dyufj4e4ajx86hz6v4ehu4gnpupxxp7stjt2p8 | BA 🇦🇷",
     "nip05": "fran@zapstore.dev",
-    "nip05Verified": true,
-    "picture": "https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg"
+    "picture": "https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "ca9f97c84e51cc44cbeb0ca00fdcdf7072b1f27d00ca30c342ca5a1656d2b6c9",
+      "pubkey": "726a1e261cc6474674e8285e3951b3bb139be9a773d1acf49dc868db861a1c11",
+      "created_at": 1778530002,
+      "tags": [["alt", "User profile for franzap"]],
+      "content": "{\"about\":\"Building nostr:npub10r8xl2njyepcw2zwv3a6dyufj4e4ajx86hz6v4ehu4gnpupxxp7stjt2p8 | BA 🇦🇷\",\"banner\":\"https://image.nostr.build/a5705c12af0fe874713a4d738edd5e42ad2c3ebbc41357afcff5c04961e8a7f8.jpg\",\"display_name\":\"franzap\",\"lud16\":\"zapstore@rizful.com\",\"name\":\"franzap\",\"nip05\":\"fran@zapstore.dev\",\"picture\":\"https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg\",\"website\":\"https://zapstore.dev/\",\"displayName\":\"franzap\",\"pubkey\":\"726a1e261cc6474674e8285e3951b3bb139be9a773d1acf49dc868db861a1c11\",\"npub\":\"npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9\",\"created_at\":1732842936}",
+      "sig": "c1d81744aceb65b92b6ca270bc16340580a14ca654769dc579021895811d512fcd39c2750305bad3d64cda1f5e814dab1b48be015f14f11d61dbe43bcee84db3"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "fa3c984d5536ebe21bc41f8df5390e9394ec4dfa6f4cb664607e8ed5a1d6694f",
     "npub": "npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63",
     "name": "Gaius I. Vicesimus Primus Superior",
     "displayName": "Gaius I. Vicesimus Primus Superior",
+    "about": "Ex decisionibus, factis, erroribus ac sacrificiis priorum sumus.\n\nWe are made of the decisions, deeds, mistakes, and sacrifices of those before us.\n\nParticeps cohortis SEC-05 SovereignEngineering\n(Member of cohort #SEC-05 #SovereignEngineering)",
     "nip05": "Gaius_Bitcoinus_Superior@primal.net",
-    "nip05Verified": false,
-    "picture": "https://npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.blossom.band/37d34012dfbdcaeae838484582e831e256bf88a1ce7bc6444c83f4c7fd2d93b7.jpg"
+    "picture": "https://npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.blossom.band/37d34012dfbdcaeae838484582e831e256bf88a1ce7bc6444c83f4c7fd2d93b7.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "9b36ba35b6a639958115bb2e2309affd4883f0b0ca669eb832cb36f350819842",
+      "pubkey": "fa3c984d5536ebe21bc41f8df5390e9394ec4dfa6f4cb664607e8ed5a1d6694f",
+      "created_at": 1772381147,
+      "tags": [
+        ["alt", "User profile for Gaius I. Vicesimus Primus Superior"],
+        ["name", "Gaius I. Vicesimus Primus Superior"],
+        ["display_name", "Gaius I. Vicesimus Primus Superior"],
+        [
+          "picture",
+          "https://npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.blossom.band/37d34012dfbdcaeae838484582e831e256bf88a1ce7bc6444c83f4c7fd2d93b7.jpg"
+        ],
+        ["banner", "https://m.primal.net/OBMZ.jpg"],
+        [
+          "about",
+          "Ex decisionibus, factis, erroribus ac sacrificiis priorum sumus.\n\nWe are made of the decisions, deeds, mistakes, and sacrifices of those before us.\n\nParticeps cohortis SEC-05 SovereignEngineering\n(Member of cohort #SEC-05 #SovereignEngineering)"
+        ],
+        ["nip05", "Gaius_Bitcoinus_Superior@primal.net"],
+        ["lud16", "gaius_superior@fountain.fm"]
+      ],
+      "content": "{\"name\":\"Gaius I. Vicesimus Primus Superior\",\"nip05\":\"Gaius_Bitcoinus_Superior@primal.net\",\"about\":\"Ex decisionibus, factis, erroribus ac sacrificiis priorum sumus.\\n\\nWe are made of the decisions, deeds, mistakes, and sacrifices of those before us.\\n\\nParticeps cohortis SEC-05 SovereignEngineering\\n(Member of cohort #SEC-05 #SovereignEngineering)\",\"lud16\":\"gaius_superior@fountain.fm\",\"display_name\":\"Gaius I. Vicesimus Primus Superior\",\"picture\":\"https://npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.blossom.band/37d34012dfbdcaeae838484582e831e256bf88a1ce7bc6444c83f4c7fd2d93b7.jpg\",\"banner\":\"https://m.primal.net/OBMZ.jpg\"}",
+      "sig": "8fa5171279d4260c6e5be336cef13292c9682fae1405cd9ffa8e713e54925ac81a702bd63853014bbcaa47878e2fd055a2477e8d5179acd28b944f9f13975071"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "6e468422dfb74a5738702a8823b9b28168abab8655faacb6853cd0ee15deee93",
     "npub": "npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc",
     "name": "Gigi",
     "displayName": "Gigi",
+    "about": "Not doing DMs. Aspiring Saunameister.",
     "nip05": "dergigi.com",
-    "nip05Verified": true,
-    "picture": "https://dergigi.com/assets/images/avatars/09.png"
+    "picture": "https://dergigi.com/assets/images/avatars/09.png",
+    "kind0": {
+      "kind": 0,
+      "id": "cb88a5f13f0e59433f487abe5cfde5e03471a073c1957bed033be332769e8c81",
+      "pubkey": "6e468422dfb74a5738702a8823b9b28168abab8655faacb6853cd0ee15deee93",
+      "created_at": 1779262886,
+      "tags": [],
+      "content": "{\"name\":\"Gigi\",\"nip05\":\"dergigi.com\",\"about\":\"Not doing DMs. Aspiring Saunameister.\",\"lud16\":\"dergigi@primal.net\",\"display_name\":\"Gigi\",\"picture\":\"https://dergigi.com/assets/images/avatars/09.png\",\"banner\":\"https://cdn.nostr.build/i/0aeb7560c271bbb1cef00760989acd9dd3f37bdc42b37852eecb0d0b70a3e862.jpg\",\"website\":\"https://dergigi.com\",\"pronouns\":\"up/only\",\"sp\":\"sp1qqtwc29wgg6scy3ty8kv45kd8f8ty7epxndhncfx6zw00tvujpfjlqqcw7cephgp2jhu5v5en4wxpljrmlz86cyud74whugsn0l8r2q9955jspcuq\"}",
+      "sig": "e30e9ca1e6196237b899604dc3208210e7a15b69aaa604cb8bd658a7ac64b73da9a96f2c26d9868c8019289a86ce5e6bbb1d57f6d170feeb0dc3d0117ba1050e"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075",
     "npub": "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p",
     "name": "gsovereignty",
     "displayName": "gsovereignty",
+    "about": "🇭🇰 Hong Kong \n\n⚒️ Nostrocket\n🎙️Nostrovia podcast\n\n📺 Bitcoin vs The State: the four phases of war https://youtu.be/X_xgmVLyB94\n\n🧡 Sovereign Engineering Cohort 01 💜\n💎 OpenSats ❤️ \n\nPeak of pull-request comedy career: https://github.com/diem/diem/pull/83\n\nnostr.dev\nnostr.rodeo",
     "nip05": "gsovereignty@nostrovia.org",
-    "nip05Verified": true,
-    "picture": "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg"
+    "picture": "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "74badd3dc5d1ceb1a6acdff6cde2eda558a75636d34f51000420a697a145183b",
+      "pubkey": "d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075",
+      "created_at": 1779077683,
+      "tags": [
+        ["alt", "User profile for gsovereignty"],
+        ["name", "gsovereignty"],
+        ["display_name", "gsovereignty"],
+        ["picture", "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg"],
+        ["banner", "https://www.whoi.edu/wp-content/uploads/2017/10/Operation_Crossroads_Baker_Edit_1280_476154.jpg"],
+        ["website", "nostrovia.org"],
+        [
+          "about",
+          "🇭🇰 Hong Kong \n\n⚒️ Nostrocket\n🎙️Nostrovia podcast\n\n📺 Bitcoin vs The State: the four phases of war https://youtu.be/X_xgmVLyB94\n\n🧡 Sovereign Engineering Cohort 01 💜\n💎 OpenSats ❤️ \n\nPeak of pull-request comedy career: https://github.com/diem/diem/pull/83\n\nnostr.dev\nnostr.rodeo"
+        ],
+        ["nip05", "gsovereignty@nostrovia.org"],
+        ["lud16", "gloomysphere10@walletofsatoshi.com"],
+        ["lud06", "lnurl1dp68gurn8ghj7em9w3skccne9e3k7mf09emk2mrv944kummhdchkcmn4wfk8qtm8wdhhvetjv45kwmn50y7wthx2"]
+      ],
+      "content": "{\"name\":\"gsovereignty\",\"picture\":\"https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg\",\"about\":\"🇭🇰 Hong Kong \\n\\n⚒️ Nostrocket\\n🎙️Nostrovia podcast\\n\\n📺 Bitcoin vs The State: the four phases of war https://youtu.be/X_xgmVLyB94\\n\\n🧡 Sovereign Engineering Cohort 01 💜\\n💎 OpenSats ❤️ \\n\\nPeak of pull-request comedy career: https://github.com/diem/diem/pull/83\\n\\nnostr.dev\\nnostr.rodeo\",\"website\":\"nostrovia.org\",\"banner\":\"https://www.whoi.edu/wp-content/uploads/2017/10/Operation_Crossroads_Baker_Edit_1280_476154.jpg\",\"display_name\":\"gsovereignty\",\"lud06\":\"lnurl1dp68gurn8ghj7em9w3skccne9e3k7mf09emk2mrv944kummhdchkcmn4wfk8qtm8wdhhvetjv45kwmn50y7wthx2\",\"lud16\":\"gloomysphere10@walletofsatoshi.com\",\"nip05\":\"gsovereignty@nostrovia.org\",\"nip05valid\":true,\"pubkey\":\"d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075\",\"npub\":\"npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p\",\"created_at\":1711710260,\"categories\":[\"Development & Engineering\",\"Science & Research\",\"Technology & Software\"],\"displayName\":\"gsovereignty\"}",
+      "sig": "f328b70470e1a522c1524cce60511760c1ed3632ba817a89cb613bd0699d5c0f17008466361c973e99d207f44bceb8787b67222788b4ff0675032f479fdd0e65"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "40b9c85fffeafc1cadf8c30a4e5c88660ff6e4971a0dc723d5ab674b5e61b451",
     "npub": "npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds",
     "name": "Gzuuus",
     "displayName": "Gzuuus",
+    "about": "Forever learning, continuously buidling⚡\ncryptoanarchism student\nchat: https://cordn.net/p/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds\n\n#noderunner#Bitcoin | #technology | #art | #electronics",
     "nip05": "gzuuus@contextvm.org",
-    "nip05Verified": true,
-    "picture": "https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png"
+    "picture": "https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png",
+    "kind0": {
+      "kind": 0,
+      "id": "867380df6d3477ff63a789ec294a5cc9dc32d310e178af89a44265ef0b88bdd5",
+      "pubkey": "40b9c85fffeafc1cadf8c30a4e5c88660ff6e4971a0dc723d5ab674b5e61b451",
+      "created_at": 1780499764,
+      "tags": [],
+      "content": "{\"display_name\":\"Gzuuus\",\"name\":\"Gzuuus\",\"about\":\"Forever learning, continuously buidling⚡\\ncryptoanarchism student\\nchat: https://cordn.net/p/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds\\n\\n#noderunner#Bitcoin | #technology | #art | #electronics\",\"picture\":\"https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png\",\"nip05\":\"gzuuus@contextvm.org\",\"banner\":\"https://image.nostr.build/c0b52ddc31c5bf6363df3b4e5bcd763779198767486b2ab5ef940d3804842273.jpg\",\"lud16\":\"nostrkid@coinos.io\"}",
+      "sig": "54b029dcee097473e6d147ba1053ec0f997b525ed76c144ab3cc642c4d100e29cbf4f43aa549f1b3ad9aed9978626b8f30558766f759dfce972b51f19c94fce8"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "24480686b56234a240fd9827209b584847f3d4f9657f0d9a97aec5320a264acb",
     "npub": "npub1y3yqdp44vg62ys8anqnjpx6cfprl848ev4lsmx5h4mznyz3xft9sen050h",
     "name": "hvmelo",
     "displayName": "卄乇几尺讠Ɋㄩ乇",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/e46840a201179aa85982ca05df4c400df2bf9540a39135207d866b610498df17.jpg"
+    "about": "Flutter/Full-stack dev. Bitcoin enthusiast. Pianist.",
+    "picture": "https://image.nostr.build/e46840a201179aa85982ca05df4c400df2bf9540a39135207d866b610498df17.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "0b1f41d16115c1dbd60bb2297958d0f5412a14c81dfe9013f1fb0c8d3e465938",
+      "pubkey": "24480686b56234a240fd9827209b584847f3d4f9657f0d9a97aec5320a264acb",
+      "created_at": 1767753233,
+      "tags": [],
+      "content": "{\"about\":\"Flutter/Full-stack dev. Bitcoin enthusiast. Pianist.\",\"website\":\"\",\"display_name\":\"卄乇几尺讠Ɋㄩ乇\",\"name\":\"hvmelo\",\"lud16\":\"hvmelo@getalby.com\",\"picture\":\"https://image.nostr.build/e46840a201179aa85982ca05df4c400df2bf9540a39135207d866b610498df17.jpg\"}",
+      "sig": "eb246a52c2a025ff132cf3a0776cc17140ecc6697782bb2137a232025980cad19a437af985b58d314982a9c3c84a54f364ddefc29fbf8610a4002c5f04f8facd"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
     "npub": "npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr",
     "name": "hzrd149",
+    "about": "JavaScript developer working on some nostr stuff\n- noStrudel https://nostrudel.ninja\n- Blossom https://github.com/hzrd149/blossom\n- Applesauce https://hzrd149.github.io/applesauce",
     "nip05": "_@hzrd149.com",
-    "nip05Verified": true,
-    "picture": "https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png"
+    "picture": "https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png",
+    "kind0": {
+      "kind": 0,
+      "id": "01d2f4d599860133436ddebf9a3d3bf1e1d0f41b2d88f5decb080fec8c1328cf",
+      "pubkey": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
+      "created_at": 1774408960,
+      "tags": [["client", "Ditto"]],
+      "content": "{\"about\":\"JavaScript developer working on some nostr stuff\\n- noStrudel https://nostrudel.ninja\\n- Blossom https://github.com/hzrd149/blossom\\n- Applesauce https://hzrd149.github.io/applesauce\",\"lud16\":\"hzrd149@npub.cash\",\"name\":\"hzrd149\",\"nip05\":\"_@hzrd149.com\",\"picture\":\"https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png\",\"website\":\"https://hzrd149.com\",\"bot\":false,\"shape\":\"📐\"}",
+      "sig": "7ca6fd12f431252f46a651b424042cff82897a071b2323f27bbfc9164ac78955684166187de11539bb60410ae33cd8e5d200bd4e85ab741bc711b020cb2e3120"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "0eef96197f5c6be3859b6817e6a5736685856c416e29a2925bd5a15b2a57c8b1",
     "npub": "npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr",
     "name": "Ian",
     "displayName": "Ian",
+    "about": "NextBlock",
     "nip05": "ian@nextblock.city",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg"
+    "picture": "https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "cc77dce777a0bff64f80d3c27002eab048e85ad7df9900801d4f66afc0ddfcaa",
+      "pubkey": "0eef96197f5c6be3859b6817e6a5736685856c416e29a2925bd5a15b2a57c8b1",
+      "created_at": 1771977047,
+      "tags": [],
+      "content": "{\"name\":\"Ian\",\"nip05\":\"ian@nextblock.city\",\"about\":\"NextBlock\",\"lud16\":\"ian_reis@strike.me\",\"display_name\":\"Ian\",\"picture\":\"https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg\",\"website\":\"theattentionprotocol.com\"}",
+      "sig": "4f0087349f047900bcfd86410524b438706dbc91addebaa8804ba604b175034009fbf7c427420522cc1b28527432871bf81b0b6075db8907b98edda015114e23"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "2bbace553efebf58dd55912169f92c1123eb6121d7ba092f6c50104afc31acef",
     "npub": "npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k",
     "name": "jcorgan",
     "displayName": "Johnathan Corgan",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/58f5a81649be72e99c7f270ddac38e030ce145eb474ae680c72f48b57d73251d.jpg"
+    "about": "🎶 Older now, but still running against the wind 🎶 \n\nScientist, engineer, consultant, pilot. Slinger of bits and reducer of gradients.\n\nEN/ES ☸️",
+    "picture": "https://image.nostr.build/58f5a81649be72e99c7f270ddac38e030ce145eb474ae680c72f48b57d73251d.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "b8960bf3b9b59b7d5c34ebac1075c9f32a9c11c368434a3dca0689083c04b8fd",
+      "pubkey": "2bbace553efebf58dd55912169f92c1123eb6121d7ba092f6c50104afc31acef",
+      "created_at": 1773542299,
+      "tags": [["client", "Dr. Nostr"]],
+      "content": "{\"name\":\"jcorgan\",\"about\":\"🎶 Older now, but still running against the wind 🎶 \\n\\nScientist, engineer, consultant, pilot. Slinger of bits and reducer of gradients.\\n\\nEN/ES ☸️\\n\\n\",\"picture\":\"https://image.nostr.build/58f5a81649be72e99c7f270ddac38e030ce145eb474ae680c72f48b57d73251d.jpg\",\"display_name\":\"Johnathan Corgan\",\"banner\":\"https://cdn.masto.host/sigmoidsocial/accounts/headers/109/316/627/659/045/981/original/6d9f492077dabe26.jpeg\"}",
+      "sig": "006fa0e53bb3e2c265c5f612ae744cc758533db68351ceb6dbe24a3c9b7c3c72410c07c7465d1265f04ec3e2ccfebb05560dfdcdf9a30541e268009686b53168"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "53a91e3a64d1f658e983ac1e4f9e0c697f8f33e01d8debe439f4c1a92113f592",
     "npub": "npub12w53uwny68m936vr4s0yl8svd9lc7vlqrkx7hepe7nq6jggn7kfq92rrm3",
     "name": "Joel 🇨🇭",
     "displayName": "Joel 🇨🇭",
+    "about": "another loving soul 🧡💜",
     "nip05": "joel@joelstuedle.ch",
-    "nip05Verified": true,
-    "picture": "https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg"
+    "picture": "https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "07307529707516d403315ba5660f56bd86a283cc1954715ab1433524d550f964",
+      "pubkey": "53a91e3a64d1f658e983ac1e4f9e0c697f8f33e01d8debe439f4c1a92113f592",
+      "created_at": 1773515867,
+      "tags": [
+        ["alt", "User profile for Joel 🇨🇭"],
+        ["name", "Joel 🇨🇭"],
+        ["display_name", "Joel 🇨🇭"],
+        ["picture", "https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg"],
+        ["banner", "https://i.postimg.cc/76fD1fW0/IMG-20230319-160035-2.jpg"],
+        ["about", "another loving soul 🧡💜"],
+        ["nip05", "joel@joelstuedle.ch"],
+        ["lud16", "leasedsheet82@walletofsatoshi.com"],
+        ["website", "https://joelstuedle.ch"],
+        ["client", "Dr. Nostr"]
+      ],
+      "content": "{\"name\":\"Joel 🇨🇭\",\"about\":\"another loving soul 🧡💜\",\"banner\":\"https://i.postimg.cc/76fD1fW0/IMG-20230319-160035-2.jpg\",\"nip05\":\"joel@joelstuedle.ch\",\"lud16\":\"leasedsheet82@walletofsatoshi.com\",\"display_name\":\"Joel 🇨🇭\",\"picture\":\"https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg\",\"website\":\"https://joelstuedle.ch\"}",
+      "sig": "e0cdf929959b64a9d7d6f2b57d725649bc7536107e476fbd7762d9ec06e744740fcac77f7ab718a83c2c28589658c5fd1bfd7251bdea2f1c106a3c198e60b33d"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "1634b87b5fcfd4a6c4ff2f2de17450ccce46f9abe0b02a71876c596ec165bfed",
     "npub": "npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl",
     "name": "k0sh",
+    "displayName": "k0",
     "nip05": "kosh@getalby.com",
-    "nip05Verified": true,
-    "picture": "https://m.primal.net/PPfe.png"
+    "picture": "https://m.primal.net/PPfe.png",
+    "kind0": {
+      "kind": 0,
+      "id": "a1b44846b20a4c061816a330906fceba03c5af22ab59c3136bee915439e41d6c",
+      "pubkey": "1634b87b5fcfd4a6c4ff2f2de17450ccce46f9abe0b02a71876c596ec165bfed",
+      "created_at": 1757324511,
+      "tags": [],
+      "content": "{\"banner\":\"https://image.nostr.build/ff598f653a9a74fb2aa64106e60b2b30d71d71a4ab967031e70ffa35dc849278.jpg\",\"name\":\"k0sh\",\"displayName\":\"k0\",\"username\":\"koshdot\",\"lud16\":\"kosh@getalby.com\",\"nip05\":\"kosh@getalby.com\",\"picture\":\"https://m.primal.net/PPfe.png\"}",
+      "sig": "b278737a66bc171a96ada66870d6e9ef0bafc901242cc7c2107f9b701d9e544c60309d6b80e2532ee8ea083a10c246b343ad3201aa12e9f460c9f09649fedc12"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "4e177978f3a0f3e6e083674e546d8813c5a429941f6c3d521736764649ce6c84",
     "npub": "npub1fcthj78n5re7dcyrva89gmvgz0z6g2v5rakr65shxemyvjwwdjzqcpeavj",
     "name": "karliatto",
     "displayName": "karliatto",
+    "about": "You can just build things.",
     "nip05": "karliatto@karliatto.com",
-    "nip05Verified": true,
-    "picture": "https://avatars.githubusercontent.com/u/5362163?v=4"
+    "picture": "https://avatars.githubusercontent.com/u/5362163?v=4",
+    "kind0": {
+      "kind": 0,
+      "id": "c4795c863fc3d7a392ef3393d4f7ffd82aa0c5a2ff0dd9965bf3e7a6ff09bba6",
+      "pubkey": "4e177978f3a0f3e6e083674e546d8813c5a429941f6c3d521736764649ce6c84",
+      "created_at": 1778671506,
+      "tags": [],
+      "content": "{\"name\":\"karliatto\",\"about\":\"You can just build things.\",\"lud16\":\"karliatto@21m.lol\",\"nip05\":\"karliatto@karliatto.com\",\"picture\":\"https://avatars.githubusercontent.com/u/5362163?v=4\",\"displayName\":\"karliatto\",\"display_name\":\"karliatto\",\"website\":\"karliatto.com\",\"banner\":\"\"}",
+      "sig": "4d13dd4b3985439372db4e5e3c6d090d625ca5a37f812687bc12dd3aa3a20da759f5cf77ddf58e3206a8b3151c3100a12c8d580a97d80801abbc8b70b4fd0a30"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "6eef2e68c399c8f2efbf70d831c2b618d7a84bdfd21734a81e6d7d3d817f6850",
     "npub": "npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm",
     "name": "lauri",
     "displayName": "lauri",
-    "nip05Verified": false,
-    "picture": "https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png"
+    "picture": "https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png",
+    "kind0": {
+      "kind": 0,
+      "id": "d880fbbb34a430fcd622eb4ae214bd47bf2739145b9319e1a31eb7e248c84608",
+      "pubkey": "6eef2e68c399c8f2efbf70d831c2b618d7a84bdfd21734a81e6d7d3d817f6850",
+      "created_at": 1780652014,
+      "tags": [],
+      "content": "{\"name\":\"lauri\",\"display_name\":\"lauri\",\"picture\":\"https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png\",\"about\":null}",
+      "sig": "a681cc65724294f3d2bcdb592613f4ba8a45d7f33a3e053358908caf815e58154cd22cbb4a2083fc12df3ef11f5c41432463fcf93be9db8c5ad8c530af4b1986"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "6fb266012c3008303e54ae55140b46957e9978098401dda34f4d921a275bf8bb",
@@ -360,308 +1375,1188 @@
     "name": "Leito",
     "displayName": "Leito",
     "nip05": "leo@vlt.ge",
-    "nip05Verified": true,
-    "picture": "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg"
+    "picture": "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg",
+    "kind0": {
+      "kind": 0,
+      "id": "272e5fb97e6ee64ee8cdf2ac17cf6c6362fd7f1fff10b28820f66377891210d1",
+      "pubkey": "6fb266012c3008303e54ae55140b46957e9978098401dda34f4d921a275bf8bb",
+      "created_at": 1780311523,
+      "tags": [
+        ["alt", "User profile for Leito"],
+        ["name", "Leito"],
+        ["display_name", "Leito"],
+        ["picture", "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg"],
+        ["nip05", "leo@vlt.ge"],
+        ["lud16", "npub1f4xlgmwhyhmw63v3scmnggf9rw3rarzf57gapy6q6u2xndre7upsssm2ng@npubx.cash"],
+        ["client", "Amethyst"]
+      ],
+      "content": "{\"display_name\":\"Leito\",\"name\":\"Leito\",\"picture\":\"https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg\",\"nip05\":\"leo@vlt.ge\",\"lud16\":\"npub1f4xlgmwhyhmw63v3scmnggf9rw3rarzf57gapy6q6u2xndre7upsssm2ng@npubx.cash\"}",
+      "sig": "0bf611b37f1ed7e6e0e70260b3074e225ef8ceea63b0e518795477344922949489e64ff4b245e74a9ec4b72bb0f7d18543876081241fd200b644a41a9c4e081e"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "c88f94f0a391b9aaa1ffefd645253b1a968b0a422a876ea48920a95d45c33f47",
     "npub": "npub1ez8efu9rjxu64g0lalty2ffmr2tgkzjz92rkafyfyz5463wr8ars8zls5t",
     "name": "leonardo",
     "displayName": "Leonardo",
-    "nip05Verified": false,
-    "picture": "https://pbs.twimg.com/profile_images/1637623131614466048/Ew3ceh2B_400x400.png"
+    "picture": "https://pbs.twimg.com/profile_images/1637623131614466048/Ew3ceh2B_400x400.png",
+    "kind0": {
+      "kind": 0,
+      "id": "506ec7ad659ea18e03edefd2a852c064d5ecfb30f9176baa90577fc33ba25876",
+      "pubkey": "c88f94f0a391b9aaa1ffefd645253b1a968b0a422a876ea48920a95d45c33f47",
+      "created_at": 1750079961,
+      "tags": [],
+      "content": "{\"display_name\":\"Leonardo \",\"lud06\":\"\",\"banner\":\"\",\"website\":\"\",\"about\":\"\",\"nip05\":\"\",\"lud16\":\"pearoctopus1@primal.net\",\"picture\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/1637623131614466048\\/Ew3ceh2B_400x400.png\",\"name\":\"leonardo\"}",
+      "sig": "550721629d1f5e58935c887c54a9220ae4f1dc1e493190b0483619840843341c007555957c8037a0a9d4be35a6d20471a2c0821e9b17041c3e123a0d4c826c37"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "cfd7df62799a22e384a4ab5da8c4026c875b119d0f47c2716b20cdac9cc1f1a6",
     "npub": "npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume",
     "name": "Lez",
+    "about": "Inventor of nsite, building tribewiki.org. Biohacker.",
     "nip05": "lez@nostr.hu",
-    "nip05Verified": true,
-    "picture": "https://nostr.hu/kobuki.jpg"
+    "picture": "https://nostr.hu/kobuki.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "e7f4edf18c5c347ea2139c3c8fe4a95f5e5c2a01471045a3be98e2cf0cb33819",
+      "pubkey": "cfd7df62799a22e384a4ab5da8c4026c875b119d0f47c2716b20cdac9cc1f1a6",
+      "created_at": 1754474296,
+      "tags": [],
+      "content": "{\"about\":\"Inventor of nsite, building tribewiki.org. Biohacker.\",\"banner\":\"https://nostr.hu/banner.jpg\",\"name\":\"Lez\",\"lud16\":\"lez@npub.cash\",\"nip05\":\"lez@nostr.hu\",\"picture\":\"https://nostr.hu/kobuki.jpg\",\"pubkey\":\"cfd7df62799a22e384a4ab5da8c4026c875b119d0f47c2716b20cdac9cc1f1a6\",\"npub\":\"npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume\",\"created_at\":\"1713277579\",\"website\":\"https://nostr.hu\"}\n",
+      "sig": "bc093c62079151264b475971896b03e6467639e3bd17b2c4da1d641eea02abb2cb967d773dc516de1efcdb46efb159ea2b519761162d9699ad97270e8d8ff6b8"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d15baf16eae236584647abb51da7c0f72f7375ca0c5af754fe175a4df90b2bf0",
     "npub": "npub169d679h2ugm9s3j84w63mf7q7uhhxaw2p3d0w487zadym7gt90cqdqn6cc",
     "name": "Manuel ₿",
     "displayName": "Manuel ₿",
-    "nip05Verified": false,
-    "picture": "https://pbs.twimg.com/profile_images/1589784136859934722/nxgcBt6x.jpg"
+    "picture": "https://pbs.twimg.com/profile_images/1589784136859934722/nxgcBt6x.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "e24bcf537bb20716959631439241b854385b765bb7d3c628bdedd386d19a566d",
+      "pubkey": "d15baf16eae236584647abb51da7c0f72f7375ca0c5af754fe175a4df90b2bf0",
+      "created_at": 1736046851,
+      "tags": [
+        ["alt", "User profile for Manuel ₿"],
+        ["i", "twitter:ManuelBTC21", "1875742427967058255"]
+      ],
+      "content": "{\"name\":\"Manuel ₿\",\"username\":\"ManuelBTC21 \",\"display_name\":\"Manuel ₿\",\"displayName\":\"Manuel ₿\",\"picture\":\"https://pbs.twimg.com/profile_images/1589784136859934722/nxgcBt6x.jpg\",\"banner\":\"https://pbs.twimg.com/profile_banners/14116012/1673998652/1080x360\",\"website\":\"https://sbk.dev\",\"lud16\":\"manuelbtc21@fountain.fm\"}",
+      "sig": "f87b8002084f1efc0e4eecf6c34f51d0a356f53981ae00c3e3ba9c371714a7c9815bc848dfebbec42b178bfb60d3a85d14f1d46332ee396a0a643598ebc26fd4"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "5082984480f3b27891840a2037512739149678efc2ac981ca8cd016d02304efd",
     "npub": "npub12zpfs3yq7we83yvypgsrw5f88y2fv780c2kfs89ge5qk6q3sfm7spks880",
     "name": "marc",
     "displayName": "M Ʌ R C",
-    "nip05Verified": false,
-    "picture": "https://nostr.build/i/p/5490p.png"
+    "about": "#Digital optimist ||| #Surf minimalist ||| #Bitcoin rationalist\n\n 🌒 🌓 🌔 🟠 🌖 🌗 🌘",
+    "picture": "https://nostr.build/i/p/5490p.png",
+    "kind0": {
+      "kind": 0,
+      "id": "730fbdbd0c3cc68455c3c3f6ca1411b1b74acd671efb0efd1ab8ed39cbcfaa04",
+      "pubkey": "5082984480f3b27891840a2037512739149678efc2ac981ca8cd016d02304efd",
+      "created_at": 1778046542,
+      "tags": [],
+      "content": "{\"display_name\":\"M Ʌ R C\",\"name\":\"marc\",\"picture\":\"https://nostr.build/i/p/5490p.png\",\"about\":\"#Digital optimist ||| #Surf minimalist ||| #Bitcoin rationalist\\n\\n 🌒 🌓 🌔 🟠 🌖 🌗 🌘\",\"handle\":\"across-sunset-load.genesis@key\"}",
+      "sig": "b0401626d6a2a3a308c3339f9c5161c9e3493ecec34d66584e639321a3c2880cf7a317df7edfee94afb5b549ff6c7fc0459e7588434a0746865d690a2f0f2ac9"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "38e9814f87cd751506aef5d7dbf081de14ad307c6984526ab0ceaf96f6349373",
     "npub": "npub18r5cznu8e4632p4w7htahuypmc226vrudxz9y64se6heda35jdescaeqct",
     "name": "MathJud",
-    "nip05Verified": false,
-    "picture": "https://avatars.githubusercontent.com/u/1871891"
+    "about": "Off-the-Grid P2P Mesh Communication\nhttps://qaul.net",
+    "picture": "https://avatars.githubusercontent.com/u/1871891",
+    "kind0": {
+      "kind": 0,
+      "id": "7fadcbf6bd5c90dfc01a0e9143fecccb547596620f7d905dfb39f3e8c93f94e3",
+      "pubkey": "38e9814f87cd751506aef5d7dbf081de14ad307c6984526ab0ceaf96f6349373",
+      "created_at": 1751708453,
+      "tags": [],
+      "content": "{\"name\":\"MathJud\",\"about\":\"Off-the-Grid P2P Mesh Communication\\nhttps://qaul.net\",\"picture\":\"https://avatars.githubusercontent.com/u/1871891\",\"nip05\":null}",
+      "sig": "3ac4962948cfea374c2b1b25e40ad4729bf2221b959943b938aa69815c8a31d7cf32751f5d9ce3155dc1e2bdec512048981033480b49a4148230361076da60b6"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "b7ed68b062de6b4a12e51fd5285c1e1e0ed0e5128cda93ab11b4150b55ed32fc",
     "npub": "npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt",
     "name": "Max",
     "displayName": "Max",
+    "about": "Praxeologist ~ Cryptoanarchist ~ Cypherpunk",
     "nip05": "max@towardsliberty.com",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/08e549edff9a20737d72a74d6dd9bcd6f7f5189ef825626afdce3de9062afcb7.jpg"
+    "picture": "https://image.nostr.build/08e549edff9a20737d72a74d6dd9bcd6f7f5189ef825626afdce3de9062afcb7.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "c906f6ccc65c2d0d6a00a0809ef717a86419e92dd4d7a640dcad9a4455faa3c3",
+      "pubkey": "b7ed68b062de6b4a12e51fd5285c1e1e0ed0e5128cda93ab11b4150b55ed32fc",
+      "created_at": 1768314215,
+      "tags": [
+        ["alt", "User profile for Max"],
+        ["name", "Max"],
+        ["display_name", "Max"],
+        ["picture", "https://image.nostr.build/08e549edff9a20737d72a74d6dd9bcd6f7f5189ef825626afdce3de9062afcb7.jpg"],
+        ["banner", "https://image.nostr.build/997450a88099bb34911d8611d04b738b580c6014d30582db441dfb35cd089527.jpg"],
+        ["website", "https://towardsliberty.com"],
+        ["about", "Praxeologist ~ Cryptoanarchist ~ Cypherpunk"],
+        ["nip05", "max@towardsliberty.com"],
+        ["lud16", "max@npub.cash"]
+      ],
+      "content": "{\"name\":\"Max\",\"nip05\":\"max@towardsliberty.com\",\"about\":\"Praxeologist ~ Cryptoanarchist ~ Cypherpunk\",\"lud16\":\"max@npub.cash\",\"display_name\":\"Max\",\"picture\":\"https://image.nostr.build/08e549edff9a20737d72a74d6dd9bcd6f7f5189ef825626afdce3de9062afcb7.jpg\",\"banner\":\"https://image.nostr.build/997450a88099bb34911d8611d04b738b580c6014d30582db441dfb35cd089527.jpg\",\"website\":\"https://towardsliberty.com\"}",
+      "sig": "a5f291885a9ef9a9c19e04af30caad9f964df56739b60d7b4238c07e0e41f5952aa4cf010af603696579c7f97f7bbf1ee83ff7ad004b1e3092ae776bf0a0b52c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "a9434ee165ed01b286becfc2771ef1705d3537d051b387288898cc00d5c885be",
     "npub": "npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q",
     "name": "Niel Liesmons",
     "displayName": "Niel Liesmons",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/bf7e965bf6ddba341ef07a866aa9562e7323e9e5639cd699ecb187078c9192e9.jpg"
+    "about": "Designer that codes.\nAlso #WordStudy #Dadstr #Farmstr",
+    "picture": "https://image.nostr.build/bf7e965bf6ddba341ef07a866aa9562e7323e9e5639cd699ecb187078c9192e9.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "b7dedc02eb14692a4359978dfc6835c9c1d5f33980013e975789dd439ef719fe",
+      "pubkey": "a9434ee165ed01b286becfc2771ef1705d3537d051b387288898cc00d5c885be",
+      "created_at": 1774605627,
+      "tags": [["client", "Ditto"]],
+      "content": "{\"about\":\"Designer that codes.\\nAlso #WordStudy #Dadstr #Farmstr\",\"banner\":\"https://cdn.satellite.earth/a73e30e9d8817648ac7b4a396ff088b8b5bf62066c8a16f1fa0f39696a0e97f5.jpg\",\"display_name\":\"Niel Liesmons\",\"lud16\":\"nielliesmons@rizful.com\",\"name\":\"Niel Liesmons\",\"picture\":\"https://image.nostr.build/bf7e965bf6ddba341ef07a866aa9562e7323e9e5639cd699ecb187078c9192e9.jpg\",\"pubkey\":\"a9434ee165ed01b286becfc2771ef1705d3537d051b387288898cc00d5c885be\",\"displayName\":\"Niel Liesmons\",\"created_at\":1724080963,\"npub\":\"npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q\",\"bot\":false,\"shape\":\"🫧\",\"website\":\"\",\"nip05\":\"\"}",
+      "sig": "d50f110b69555a4db2c04f24863b00deedd5d6432b115d76395bbc12cb60a6df507e7cab0029b2350ca54e03f3146e9a9248d585a3c0e6a9348307f4308209d2"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "27487c9600b16b24a1bfb0519cfe4a5d1ad84959e3cce5d6d7a99d48660a1f78",
     "npub": "npub1yay8e9sqk94jfgdlkpgeelj2t5ddsj2eu0xwt4kh4xw5ses2rauqnstrdv",
     "name": "Nostr Dev Team",
     "displayName": "Nostr Dev Team",
+    "about": "The easy way to build on Nostr!",
     "nip05": "_@nostrdev.com",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/adf94e1a8a2c1208821ef40caba13c62fb8695798a94fa5351aea435230d2523.jpg"
+    "picture": "https://image.nostr.build/adf94e1a8a2c1208821ef40caba13c62fb8695798a94fa5351aea435230d2523.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "1da57942b90f2bbd933a60879cd5de7e59edd62b30c77fcbeb1a1f4b4df1220c",
+      "pubkey": "27487c9600b16b24a1bfb0519cfe4a5d1ad84959e3cce5d6d7a99d48660a1f78",
+      "created_at": 1759961043,
+      "tags": [
+        ["alt", "User profile for Nostr Dev Team"],
+        ["name", "Nostr Dev Team"],
+        ["display_name", "Nostr Dev Team"],
+        ["picture", "https://image.nostr.build/adf94e1a8a2c1208821ef40caba13c62fb8695798a94fa5351aea435230d2523.jpg"],
+        ["banner", "https://image.nostr.build/2728e283bcd2651708e2a53141d1854bc15cc9ff30ea0b88014358ef565cdb26.jpg"],
+        ["website", "https://nostrdev.com"],
+        ["about", "The easy way to build on Nostr!"],
+        ["nip05", "_@nostrdev.com"],
+        ["lud16", "nostrdev@npub.cash"]
+      ],
+      "content": "{\"name\":\"Nostr Dev Team\",\"display_name\":\"Nostr Dev Team\",\"website\":\"https://nostrdev.com\",\"nip05\":\"_@nostrdev.com\",\"picture\":\"https://image.nostr.build/adf94e1a8a2c1208821ef40caba13c62fb8695798a94fa5351aea435230d2523.jpg\",\"about\":\"The easy way to build on Nostr!\",\"lud16\":\"nostrdev@npub.cash\",\"banner\":\"https://image.nostr.build/2728e283bcd2651708e2a53141d1854bc15cc9ff30ea0b88014358ef565cdb26.jpg\",\"created_at\":1728384481}",
+      "sig": "3c389730400ef147c7fde987c8de5f9549416cfab07d3ccd0c8b46ec1a201a2456842832e92555c0f5631d5d862c73ee7d04631e4647ac9d617cd09ed43f5082"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "02a11d1545114ab63c29958093c91b9f88618e56fee037b9d2fabcff32f62ea9",
     "npub": "npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u",
     "name": "nourspace",
     "displayName": "Nour",
+    "about": "N in Bᴺ 𝕊pace",
     "nip05": "_@nour.space",
-    "nip05Verified": true,
-    "picture": "https://i.nostr.build/L78n.webp"
+    "picture": "https://i.nostr.build/L78n.webp",
+    "kind0": {
+      "kind": 0,
+      "id": "c336005fbb0c79b6c2d07de13087f58e47958c85a8114011aeb323856c673266",
+      "pubkey": "02a11d1545114ab63c29958093c91b9f88618e56fee037b9d2fabcff32f62ea9",
+      "created_at": 1703576421,
+      "tags": [],
+      "content": "{\"name\":\"nourspace\",\"picture\":\"https://i.nostr.build/L78n.webp\",\"lud16\":\"nourspace@getalby.com\",\"display_name\":\"Nour\",\"nip05\":\"_@nour.space\",\"website\":\"https://b-n.space\",\"banner\":\"https://i.nostr.build/qPJv.webp\",\"nip05valid\":true,\"username\":\"nourspace\",\"displayName\":\"Nour\",\"about\":\"N in Bᴺ 𝕊pace\",\"lud06\":\"\",\"pubkey\":\"02a11d1545114ab63c29958093c91b9f88618e56fee037b9d2fabcff32f62ea9\",\"npub\":\"npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u\",\"created_at\":1699734399}",
+      "sig": "37fe005b6aef5b5e46fc9bbb26c413660a8ef5a57da23bc627786f61bf9a96f4e1f3b2ec11328f3cff7bbd226e56989cf723186eb2c14e50f6b61ba3214cb0e0"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "1af12235ca57fbd7936eeafe35b1eafa39a06a191550c86a2dd1741e2c44c881",
     "npub": "npub1rtcjydw22laa0ymwatlrtv02lgu6q6sez4gvs63d696putzyezqs65qqsd",
-    "name": "npub1rtcjydw22laa0ymwatlrtv02lgu6q6sez4gvs63d696putzyezqs65qqsd",
-    "nip05Verified": false
+    "name": "noa",
+    "about": "building some things\n#SovEng",
+    "picture": "https://image.nostr.build/963d5af8ffbbb80c28e9d6050559c2fd49f045655257a39443db78755967f8c4.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "d77d36291a67af6f21fd7bda43e4bc33021d518717a1c53bb57148ab6c034282",
+      "pubkey": "1af12235ca57fbd7936eeafe35b1eafa39a06a191550c86a2dd1741e2c44c881",
+      "created_at": 1759915269,
+      "tags": [],
+      "content": "{\"name\":\"noa\",\"about\":\"building some things\\n#SovEng\",\"lud16\":\"boreddiamond87@walletofsatoshi.com\",\"picture\":\"https://image.nostr.build/963d5af8ffbbb80c28e9d6050559c2fd49f045655257a39443db78755967f8c4.jpg\"}",
+      "sig": "b395fb3e17e72305610ec5b7efeed2b3ddf2e92b030ad0aa055a57fdc3c2e97aee27f4cf0fac2b46ddd9675bcbc472a0d198fc19502b806f54786155bf4bfd4f"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "9839f160d893daae661c84168e07f46f0e1e9746feb8439a6d76738b4ad32eaa",
     "npub": "npub1nqulzcxcj0d2uesusstgupl5du8pa96xl6uy8xndweeckjkn964qjs23sn",
     "name": "nQuiz",
     "displayName": "nQuiz",
+    "about": "nQuiz - a question based learning platform, gamified with nostr and Bitcoin",
     "nip05": "nquiz@nostrplebs.com",
-    "nip05Verified": true,
-    "picture": "https://nostr.build/i/a830ffe4f5a8774167578dc142edff984fbf2ada80e0af73e144c3f7f19343ae.jpg"
+    "picture": "https://nostr.build/i/a830ffe4f5a8774167578dc142edff984fbf2ada80e0af73e144c3f7f19343ae.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "06067b9cf1b1dd6cdfd7c7dea82978939270f18ad6f5df283e362ade82b4f65c",
+      "pubkey": "9839f160d893daae661c84168e07f46f0e1e9746feb8439a6d76738b4ad32eaa",
+      "created_at": 1714165175,
+      "tags": [["alt", "User profile for nQuiz"]],
+      "content": "{\"name\":\"nQuiz\",\"lud16\":\"nquiz@getalby.com\",\"picture\":\"https://nostr.build/i/a830ffe4f5a8774167578dc142edff984fbf2ada80e0af73e144c3f7f19343ae.jpg\",\"about\":\"nQuiz - a question based learning platform, gamified with nostr and Bitcoin\",\"nip05\":\"nquiz@nostrplebs.com\",\"display_name\":\"nQuiz\",\"website\":\"https://docs.nquiz.io/#/\",\"lud06\":\"nquiz@getalby.com\"}",
+      "sig": "208aa07be013fde884189f6954b1b0aa55ed850d3da34fe4be7bcfb36b3162b03f96ca63b5b4e50872412475c0315b855baa58194db09da22ce341074ecfec2c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d02a3b54e6433fc7c2608e99ef9b4aed9039644446da9822d20b5b9890964f2f",
     "npub": "npub16q4rk48xgvlu0snq36v7lx62akgrjezygmdfsgkjpdde3yykfuhscgxcms",
     "name": "oleksky",
     "displayName": "oleksky",
-    "nip05Verified": false,
-    "picture": "https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg"
+    "about": "Autonomous freedom tech builder",
+    "picture": "https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "9acb0b69973513455851fbeb07d5938e926718ec5057159c0f1460ca3267ac67",
+      "pubkey": "d02a3b54e6433fc7c2608e99ef9b4aed9039644446da9822d20b5b9890964f2f",
+      "created_at": 1775232366,
+      "tags": [],
+      "content": "{\"lud06\":\"\",\"about\":\"Autonomous freedom tech builder\",\"banner\":\"https://m.primal.net/HQTd.jpg\",\"website\":\"https://x.com/rawbox_tech\",\"display_name\":\"oleksky\",\"picture\":\"https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg\",\"name\":\"oleksky\"}",
+      "sig": "3671ce30ac558c92a5ea4e329c178ce96d24cab33e9fb0423b9a4fad6fda90f457ee6d6510e291868fae7792a2bd1ecd6de76494a3571700c949ecd4fabff723"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "df173277182f3155d37b330211ba1de4a81500c02d195e964f91be774ec96708",
     "npub": "npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg",
     "name": "OpenSecret",
     "displayName": "OpenSecret",
+    "about": "OpenSecret is the Confidential Backend for your app. Enable user-level encryption by default to protect your users and yourself. Check out the first app, Maple AI - Confidential AI Chat: https://trymaple.ai",
     "nip05": "OpenSecret@primal.net",
-    "nip05Verified": true,
-    "picture": "https://m.primal.net/PSXU.png"
+    "picture": "https://m.primal.net/PSXU.png",
+    "kind0": {
+      "kind": 0,
+      "id": "d60365961f97fcede8e827d8ba1922e75e7789ae6e4cf512d9a87633e16f0310",
+      "pubkey": "df173277182f3155d37b330211ba1de4a81500c02d195e964f91be774ec96708",
+      "created_at": 1741019135,
+      "tags": [],
+      "content": "{\"lud16\":\"OpenSecret@primal.net\",\"picture\":\"https://m.primal.net/PSXU.png\",\"nip05\":\"OpenSecret@primal.net\",\"name\":\"OpenSecret\",\"website\":\"https://opensecret.cloud\",\"about\":\"OpenSecret is the Confidential Backend for your app. Enable user-level encryption by default to protect your users and yourself. Check out the first app, Maple AI - Confidential AI Chat: https://trymaple.ai\",\"banner\":\"https://m.primal.net/PSXV.jpg\",\"display_name\":\"OpenSecret\",\"displayName\":\"OpenSecret\",\"pubkey\":\"df173277182f3155d37b330211ba1de4a81500c02d195e964f91be774ec96708\",\"npub\":\"npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg\",\"created_at\":1740171552,\"userStats\":{\"pubkey\":\"df173277182f3155d37b330211ba1de4a81500c02d195e964f91be774ec96708\",\"follows_count\":16,\"followers_count\":7670,\"note_count\":424,\"long_form_note_count\":3,\"reply_count\":761,\"time_joined\":1676168178,\"relay_count\":5,\"total_zap_count\":1202,\"total_satszapped\":837166,\"media_count\":223,\"content_zap_count\":1409}}",
+      "sig": "a87c7d8e22251f568ec5473993c2b70425aa3e362e388b2a342b18637cecbbe3bdd71ad7b5830efe33c4f77d89cef38b69e1599329b4a435d3323e6e66aaba68"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "453a656903a031395d450f318211a6ec54cd79049a851f92cd6702c65ff5f5bd",
     "npub": "npub1g5ax26gr5qcnjh29puccyydxa32v67gyn2z3lykdvupvvhl47k7spf8ypc",
-    "name": "Otto",
     "displayName": "Otto",
     "nip05": "otto@nostrdev.com",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/a799ebb879bb8c721736b63f7975d6a00e4a91afa07667f8b8007eaefd2e5292.jpg"
+    "picture": "https://image.nostr.build/a799ebb879bb8c721736b63f7975d6a00e4a91afa07667f8b8007eaefd2e5292.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "03ff6465afed391757ecd0d98c692a5ae9f6bc35a5684d8d2103c71e8cd294e4",
+      "pubkey": "453a656903a031395d450f318211a6ec54cd79049a851f92cd6702c65ff5f5bd",
+      "created_at": 1747126187,
+      "tags": [],
+      "content": "{\"picture\":\"https://image.nostr.build/a799ebb879bb8c721736b63f7975d6a00e4a91afa07667f8b8007eaefd2e5292.jpg\",\"about\":\"\",\"lud16\":\"otto60@coinos.io\",\"nip05\":\"otto@nostrdev.com\",\"display_name\":\"Otto\",\"website\":\"\",\"name\":\"\"}",
+      "sig": "457c8b6136dcb5ccf0bac39d117a23a441a19b8c4154e283a3eb2ecb407466ee092b1d64c4c4fa7b332a1c453fc4a4ea4185f890d2f53431bb415315224d0aec"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "fa984bd7dbb282f07e16e7ae87b26a2a7b9b90b7246a44771f0cf5ae58018f52",
     "npub": "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft",
     "name": "PABLOF7z",
     "displayName": "PABLOF7z",
+    "about": "Magical Other Stuff Maximalist.",
     "nip05": "_@f7z.io",
-    "nip05Verified": true,
-    "picture": "https://m.primal.net/KwlG.jpg"
+    "picture": "https://m.primal.net/KwlG.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "5ede8fe67f453a74bba58c59aba77dfd31bc092dad4adf941509cb1d39db914c",
+      "pubkey": "fa984bd7dbb282f07e16e7ae87b26a2a7b9b90b7246a44771f0cf5ae58018f52",
+      "created_at": 1780422114,
+      "tags": [["client", "Primal Web"]],
+      "content": "{\"name\":\"PABLOF7z\",\"about\":\"Magical Other Stuff Maximalist.\",\"lud16\":\"pablof7z@primal.net\",\"nip05\":\"_@f7z.io\",\"picture\":\"https://m.primal.net/KwlG.jpg\",\"display_name\":\"PABLOF7z\",\"website\":\"https://pablof7z.com\",\"banner\":\"https://24242.io/1dc3a4a8bb2626551d4cc91e93f5b2e6ef87b1931b9db9bf4ac72dfe61c7a45b.png\",\"displayName\":\"PABLOF7z\"}",
+      "sig": "f66477142f947399d21a894a30999ebbfd1df4348bd6d43005033b8e79b756f68f83a063ed578c999a302a8b72c919864b93a828b63bb146fa623ab2f77fac5a"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "0d6c8388dcb049b8dd4fc8d3d8c3bb93de3da90ba828e4f09c8ad0f346488a33",
     "npub": "npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8",
     "name": "Paul",
     "displayName": "Paul",
+    "about": "Jesus and bitcoin",
     "nip05": "futurepaul@paul.lol",
-    "nip05Verified": true,
-    "picture": "https://paul.lol/waffle_animated.gif"
+    "picture": "https://paul.lol/waffle_animated.gif",
+    "kind0": {
+      "kind": 0,
+      "id": "651e6c67b0fa377348ced8aa518ac4541756e0cbf168bdb92eccd9b3a898331e",
+      "pubkey": "0d6c8388dcb049b8dd4fc8d3d8c3bb93de3da90ba828e4f09c8ad0f346488a33",
+      "created_at": 1740845663,
+      "tags": [],
+      "content": "{\"damus_donation_v2\":10,\"lud06\":\"\",\"name\":\"Paul\",\"website\":\"\",\"lud16\":\"futurepaul@primal.net\",\"about\":\"Jesus and bitcoin\",\"nip05\":\"futurepaul@paul.lol\",\"picture\":\"https://paul.lol/waffle_animated.gif\",\"banner\":\"https://cdn.satellite.earth/c9fe5d50ad24d483b0d005203a83c031cf5cfc4533fc692d208f1bf1d1dde9d9.jpg\",\"display_name\":\"Paul\"}",
+      "sig": "49c6045cd19046c8b58cb8ed57bd9ddad3d7a09e3f7cd12ea11b9a3a3a2e3b12a93f823ee5d355c4556f6dbe069b1c704dcf48b4d57f90ff42e0a39c7333fb3c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "8cd2d0f8310f7009e94f50231870756cb39ba68f37506044910e2f71482b1788",
     "npub": "npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c",
     "name": "Pedro 🧨",
     "displayName": "Pedro 🧨",
+    "about": "Learning Bitcoin - http://anatomyofbitcoin.com - http://satsigner.com - http://piratehash.com - http://bitcoinOPUXUI.com - http://satsconverter.io - http://bisq.network - http://bitscribble.com - https://chainduel.net",
     "nip05": "_@pedromvpg.com",
-    "nip05Verified": false,
-    "picture": "https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg"
+    "picture": "https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "458e0f6da4ac2e3a35c73dac4b85e3d688f732e3c3ca5f2b646fc59d859ac57c",
+      "pubkey": "8cd2d0f8310f7009e94f50231870756cb39ba68f37506044910e2f71482b1788",
+      "created_at": 1767747251,
+      "tags": [],
+      "content": "{\"picture\":\"https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg\",\"about\":\"Learning Bitcoin - http://anatomyofbitcoin.com - http://satsigner.com - http://piratehash.com - http://bitcoinOPUXUI.com - http://satsconverter.io - http://bisq.network - http://bitscribble.com - https://chainduel.net\",\"nip05\":\"_@pedromvpg.com\",\"name\":\"Pedro 🧨\",\"lud16\":\"pedromvpg@primal.net\",\"website\":\"https://pedromvpg.com\",\"banner\":\"https://pbs.twimg.com/profile_banners/25757794/1550904852/1500x500\",\"display_name\":\"Pedro 🧨\"}",
+      "sig": "d96b149c018e65f8bb4468714b76bcfd238047cadfda06814127caa0c3889e46ca4946c5994f9ff2911672f7e32656158a7931228ff0f4e5a16f391eb5bfdc0c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "94215f42a96335c87fcb9e881a0bbb62b9a795519e109cf5f9d2ef617681f622",
     "npub": "npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy",
     "name": "PeteWinn",
     "displayName": "Pete Winn",
+    "about": "In it for the underlying freedom technology. Director Other Stuff, Former Product @ Stakwork & Fedi. AI enjoyer.",
     "nip05": "pw@primal.net",
-    "nip05Verified": true,
-    "picture": "https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg"
+    "picture": "https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "56ce43057058a87c59cb4c2db6d1f41d11404e35e2cbaccee756f59e4417391a",
+      "pubkey": "94215f42a96335c87fcb9e881a0bbb62b9a795519e109cf5f9d2ef617681f622",
+      "created_at": 1774754286,
+      "tags": [["client", "Primal Web"]],
+      "content": "{\"name\":\"PeteWinn\",\"about\":\"In it for the underlying freedom technology. Director Other Stuff, Former Product @ Stakwork & Fedi. AI enjoyer.\",\"lud16\":\"pw@primal.net\",\"nip05\":\"pw@primal.net\",\"picture\":\"https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg\",\"display_name\":\"Pete Winn\",\"website\":\"otherstuff.ai\",\"displayName\":\"Pete Winn\"}",
+      "sig": "6538403b88c0a9251eceead5713a623238c8e516fe43053d174470787628f2f440b31493748bf4a9ed8bb3a74cce861fe3f8a659ae306678dd567a730e4af6bb"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "4ad6fa2d16e2a9b576c863b4cf7404a70d4dc320c0c447d10ad6ff58993eacc8",
     "npub": "npub1ftt05tgku25m2akgvw6v7aqy5ux5mseqcrzy05g26ml43xf74nyqsredsh",
     "name": "redshift",
     "displayName": "redshift",
+    "about": "Building Routstr.",
     "nip05": "redshift@routstr.com",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/75b59a54f0cfdc2df0e78e7fbed0be2af122ad2b001eb21eb0d1e6bdf63175f2.jpg"
+    "picture": "https://image.nostr.build/75b59a54f0cfdc2df0e78e7fbed0be2af122ad2b001eb21eb0d1e6bdf63175f2.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "66785bdf827477ca469d350fc0c6b2a8db6db47428bec28b6510686d44c9ba3a",
+      "pubkey": "4ad6fa2d16e2a9b576c863b4cf7404a70d4dc320c0c447d10ad6ff58993eacc8",
+      "created_at": 1780279099,
+      "tags": [],
+      "content": "{\"name\":\"redshift\",\"display_name\":\"redshift\",\"about\":\"Building Routstr. \",\"website\":\"https://routstr.com/\",\"picture\":\"https://image.nostr.build/75b59a54f0cfdc2df0e78e7fbed0be2af122ad2b001eb21eb0d1e6bdf63175f2.jpg\",\"displayName\":\"redshift\",\"nip05\":\"redshift@routstr.com\",\"banner\":\"https://image.nostr.build/6129cbed8d6b6895e4ed67fccef35b8119e47f154eb96ef54c23cccdfac03235.png\",\"sp\":\"sp1qqw3celk7s72r0ap9xspd64edrncfny6wqmc39mu8xvg4vdl625d95qcnk0y7pvw8afukaxch2qsqn3wkkpx6hmm4gjfzh9mkgfu7hjmy7c8lycnp\",\"lud16\":\"combative-hedgehog-2@rizful.com\"}",
+      "sig": "7e433410f524851ed475a59177e18b30d3d8be10c3ed9e8ec89b39b6f9bbe49732b0694730efdaaedae6d3e946648c719874225724e671facf1c70d6c5cf52c5"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "cd169bd8fbd5179e2a8d498ffc31d3ae0e40825ff2b8a85ea359c4455a107ca8",
     "npub": "npub1e5tfhk8m65teu25dfx8lcvwn4c8ypqjl72u2sh4rt8zy2kss0j5qct7mh9",
     "name": "René Aaron",
+    "displayName": "René Aaron",
+    "about": "❓ Ask me about #Bitcoin | ⚡ Bullish on Lightning | 🧡 Passionate about buidling software\n\nNot your 🔑🔑, not your 🧀.",
     "nip05": "reneaaron@getalby.com",
-    "nip05Verified": true,
-    "picture": "https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&default=mm&rating=g"
+    "picture": "https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&default=mm&rating=g",
+    "kind0": {
+      "kind": 0,
+      "id": "f318939a91e61868295ebde6407a56d239f186ace50e7010a6f23994ad251d0a",
+      "pubkey": "cd169bd8fbd5179e2a8d498ffc31d3ae0e40825ff2b8a85ea359c4455a107ca8",
+      "created_at": 1760517695,
+      "tags": [["client", "universes.to"]],
+      "content": "{\"about\":\"❓ Ask me about #Bitcoin | ⚡ Bullish on Lightning | 🧡 Passionate about buidling software\\n\\nNot your 🔑🔑, not your 🧀.\",\"banner\":\"https://pbs.twimg.com/profile_banners/1498337723886747648/1646251348/1500x500\",\"lud16\":\"reneaaron@getalby.com\",\"name\":\"René Aaron\",\"nip05\":\"reneaaron@getalby.com\",\"picture\":\"https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&default=mm&rating=g\",\"website\":\"https://www.twentyuno.net\",\"displayName\":\"René Aaron\",\"username\":\"reneaaron\",\"bot\":false}",
+      "sig": "2cff5ee3a7c5f9d6822ab37f8a953ab98de26fa67f5f8d2c355df7ca13f621fa6a87d115f32e0f926455df78ab56339c57365c17381696c32a4f947217210e1c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "9c5d5e2e0a1d603047ad070ab184b48b53fc4dde0867e52fadadd760c3167636",
     "npub": "npub1n3w4uts2r4srq3adqu9trp953dflcnw7ppn72tad4htkpsckwcmqjef6um",
     "name": "robos",
     "displayName": "robos",
+    "about": "Helping run >_OpenSats\nBush Bash Japan organiser:  bushbashjapan.fyi",
     "nip05": "_@bushbashjapan.fyi",
-    "nip05Verified": true,
-    "picture": "https://i.imgur.com/fI7uFEb.png"
+    "picture": "https://i.imgur.com/fI7uFEb.png",
+    "kind0": {
+      "kind": 0,
+      "id": "09ebade9c19db5306a9dc6d657ecf2c728622362adea11a7a3f8039f878c8074",
+      "pubkey": "9c5d5e2e0a1d603047ad070ab184b48b53fc4dde0867e52fadadd760c3167636",
+      "created_at": 1772571068,
+      "tags": [],
+      "content": "{\"name\":\"robos\",\"about\":\"Helping run >_OpenSats\\nBush Bash Japan organiser:  bushbashjapan.fyi\",\"lud16\":\"boltc@minibits.cash\",\"nip05\":\"_@bushbashjapan.fyi\",\"picture\":\"https://i.imgur.com/fI7uFEb.png\",\"displayName\":\"robos\",\"display_name\":\"robos\",\"website\":\"https://opensats.org/\",\"banner\":\"\",\"sp\":\"sp1qqv6kaet3k27ryqd9ssyghca8qgszglrrvqpf4aa6cmcxmqmqpvktqql6th687pycdxm6zgqrh4krpefh7tqv23tfpr4jaxptwk4frt4hhqp79nff\"}",
+      "sig": "f00ae085b0c5c54856bb30e966051fe914f2415e1b02d84678fc17e05e9a5cbee37e83d37208690acc89e7e657008343f8975ff8dee0b21a9ec2d38c8f6dc3ac"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "e771af0b05c8e95fcdf6feb3500544d2fb1ccd384788e9f490bb3ee28e8ed66f",
     "npub": "npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx",
     "name": "sandwich",
     "displayName": "sandwich",
+    "about": "still not a fan of neo-tribalism.",
     "nip05": "_@sandwich.farm",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg"
+    "picture": "https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "023ff89395b22e20e5d4db381875a1a258231fd3f557e321f93ba884c15858cc",
+      "pubkey": "e771af0b05c8e95fcdf6feb3500544d2fb1ccd384788e9f490bb3ee28e8ed66f",
+      "created_at": 1780671657,
+      "tags": [
+        ["client", "Ditto", "31990:781a1527055f74c1f70230f10384609b34548f8ab6a0a6caa74025827f9fdae5:ditto"],
+        ["published_at", "1778005838"]
+      ],
+      "content": "{\"about\":\"still not a fan of neo-tribalism.\",\"bot\":false,\"display_name\":\"sandwich\",\"name\":\"sandwich\",\"nip05\":\"_@sandwich.farm\",\"picture\":\"https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg\",\"client\":\"divine.video\",\"shape\":\"🥪\",\"displayName\":\"sandwich\",\"website\":\"\",\"banner\":\"\",\"lud16\":\"sandwich@npub.cash\"}",
+      "sig": "b6fa1e6a00834f3236b9b52333b3b7df7c421e51ad5eb4a68f66fa8b6fe5b088facff70f115db165cb24fd534b64806187f7803faad36af6e6c50febd0ccb848"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "12ee03d11684a125dd87be879c28190415be3f3b1eca6b4ed743bd74ffd880e6",
     "npub": "npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56",
     "name": "SatsAndSports",
     "displayName": "SatsAndSports",
-    "nip05Verified": false,
-    "picture": "https://blossom.primal.net/f697b3eeb618dcf6cc5d15f6399ee59e57665e9e345f2d8ffe1f3fdf07b0928f.jpg"
+    "about": "Into bitcoin, specifically cashu.\n\nWhen I'm not working in the fiat mines, I'm into cycling and camping",
+    "picture": "https://blossom.primal.net/f697b3eeb618dcf6cc5d15f6399ee59e57665e9e345f2d8ffe1f3fdf07b0928f.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "5f9a5ef214ecd731abd9772cc8fb7771c677470551193fdfad0d62a955a09ac1",
+      "pubkey": "12ee03d11684a125dd87be879c28190415be3f3b1eca6b4ed743bd74ffd880e6",
+      "created_at": 1776207919,
+      "tags": [
+        ["alt", "User profile for SatsAndSports"],
+        ["name", "SatsAndSports"],
+        ["display_name", "SatsAndSports"],
+        ["picture", "https://blossom.primal.net/f697b3eeb618dcf6cc5d15f6399ee59e57665e9e345f2d8ffe1f3fdf07b0928f.jpg"],
+        ["banner", "https://blossom.primal.net/55b1363e7555e0fdad2192a953406f7bf2f6fb14fdb3c4d756374066c4f1912f.jpg"],
+        ["about", "Into bitcoin, specifically cashu.\n\nWhen I'm not working in the fiat mines, I'm into cycling and camping"],
+        ["lud16", "npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56@npub.cash"]
+      ],
+      "content": "{\"name\":\"SatsAndSports\",\"about\":\"Into bitcoin, specifically cashu.\\n\\nWhen I'm not working in the fiat mines, I'm into cycling and camping\",\"lud16\":\"npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56@npub.cash\",\"display_name\":\"SatsAndSports\",\"picture\":\"https://blossom.primal.net/f697b3eeb618dcf6cc5d15f6399ee59e57665e9e345f2d8ffe1f3fdf07b0928f.jpg\",\"banner\":\"https://blossom.primal.net/55b1363e7555e0fdad2192a953406f7bf2f6fb14fdb3c4d756374066c4f1912f.jpg\",\"displayName\":\"SatsAndSports\"}",
+      "sig": "5d42ba9c76cd3847550cf9c1520ee17bd71350a6b468fb616660a30bbe14db7914da64c16e7c7aec74c3b7f4ee43a74d00c51aaa15855e21588dc3dc4e4fff6d"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "3aa5817273c3b2f94f491840e0472f049d0f10009e23de63006166bca9b36ea3",
     "npub": "npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf",
     "name": "Schlaus Kwab",
     "displayName": "Schlaus Kwab",
+    "about": "https://wavefunc.live \nhttps://earthly.city\n(🌽+⚡+🥜) * 🕸️ = ♥️",
     "nip05": "wavefunc.live",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg"
+    "picture": "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "b8e4e5e26deadca5d269c23b99eb8d76589bfc91d278c47be51d2722646afa1a",
+      "pubkey": "3aa5817273c3b2f94f491840e0472f049d0f10009e23de63006166bca9b36ea3",
+      "created_at": 1774626631,
+      "tags": [
+        ["alt", "User profile for Schlaus Kwab"],
+        ["name", "Schlaus Kwab"],
+        ["display_name", "Schlaus Kwab"],
+        ["picture", "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg"],
+        ["banner", "https://m.primal.net/MwLQ.jpg"],
+        ["website", "https://wavefunc.live"],
+        ["about", "https://wavefunc.live \nhttps://earthly.city\n(🌽+⚡+🥜) * 🕸️ = ♥️"],
+        ["nip05", "wavefunc.live"],
+        ["lud16", "schlauskwab@minibits.cash"]
+      ],
+      "content": "{\"name\":\"Schlaus Kwab\",\"nip05\":\"wavefunc.live\",\"about\":\"https://wavefunc.live \\nhttps://earthly.city\\n(🌽+⚡+🥜) * 🕸️ = ♥️\",\"lud16\":\"schlauskwab@minibits.cash\",\"display_name\":\"Schlaus Kwab\",\"picture\":\"https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg\",\"banner\":\"https://m.primal.net/MwLQ.jpg\",\"website\":\"https://wavefunc.live\"}",
+      "sig": "d2b78244242d51d792d954e0123a86d60746751268a62a5e20dd64edf33e4d53532d6412255ba6399a156c7d5f8e7e2135c36a0784b68ec998debf827f71962f"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "1bbd7fdf68eaf5c19446c3aaf63b39dd4a8e33548bc96f6bd239a4124d8f229e",
     "npub": "npub1rw7hlhmgat6ur9zxcw40vweem49guv6530yk767j8xjpynv0y20q6qsl3w",
     "name": "sebas",
     "displayName": "sebas",
+    "about": "Learning so much",
     "nip05": "_@sebdev.io",
-    "nip05Verified": false,
-    "picture": "https://cdn.sebdev.io/c402f0974e2f6ebe96efee967c64c3ebfd4366e2f284f4d8650371af7787fdb0"
+    "picture": "https://cdn.sebdev.io/c402f0974e2f6ebe96efee967c64c3ebfd4366e2f284f4d8650371af7787fdb0",
+    "kind0": {
+      "kind": 0,
+      "id": "f6bd01d9a0a593bc0bb8348f76cb4ce5f69d9dea2c75eedabab6cb508c8e1bcb",
+      "pubkey": "1bbd7fdf68eaf5c19446c3aaf63b39dd4a8e33548bc96f6bd239a4124d8f229e",
+      "created_at": 1719336633,
+      "tags": [],
+      "content": "{\"name\":\"sebas\",\"picture\":\"https://cdn.sebdev.io/c402f0974e2f6ebe96efee967c64c3ebfd4366e2f284f4d8650371af7787fdb0\",\"display_name\":\"sebas\",\"about\":\"Learning so much\",\"website\":\"https://kutt.sebdev.io/D2DnQ3\",\"nip05\":\"_@sebdev.io\",\"lud16\":\"sebas@mutiny.plus\",\"banner\":\"https://avatars.githubusercontent.com/u/18562903?v=4\",\"pubkey\":\"1bbd7fdf68eaf5c19446c3aaf63b39dd4a8e33548bc96f6bd239a4124d8f229e\",\"displayName\":\"sebas\"}",
+      "sig": "ac5593ca80537a56fbd90612bba66f146610b23dcd3c5f492bf6add21205b415484ad790f8d8e2f071d71f116ad8779c56e1285aa4ff569ad3f8b52821734477"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "a136247d8caf7e30bf403d32006faeca0c9d1cec7a16075e4142c2fed6cade60",
     "npub": "npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx",
     "name": "Shadrach",
     "displayName": "Shadrach",
+    "about": "Bitcoin Busdriver\nSuperconductor\nPodcast Listener\n#40HPW🎧\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר",
     "nip05": "shadrach@nostrplebs.com",
-    "nip05Verified": true,
-    "picture": "https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg"
+    "picture": "https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "5462dee31f3940717818eddbc2c1dde04c3ecc99d46b69af9e8be6732cd23955",
+      "pubkey": "a136247d8caf7e30bf403d32006faeca0c9d1cec7a16075e4142c2fed6cade60",
+      "created_at": 1778187123,
+      "tags": [],
+      "content": "{\"display_name\":\"Shadrach\",\"name\":\"Shadrach\",\"about\":\"Bitcoin Busdriver\\nSuperconductor\\nPodcast Listener\\n#40HPW🎧\\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר\",\"picture\":\"https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg\",\"nip05\":\"shadrach@nostrplebs.com\",\"banner\":\"https://pbs.twimg.com/profile_banners/7570122/1643640451/1500x500\",\"lud16\":\"lullabyalluring14428@getalby.com\"}",
+      "sig": "40c53ebb3f81ac9912953cea8e3fc2f0f8f7e2e0b40e7f6762b3c8e3d1a7f163c4fc07ab59a376482646d0bf9c7f75870860dbe3826a15ed52c5ab3a7d1ef889"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "3a06add309fd8419ea4d4e475e9c0dff5909c635d9769bf0728232f3a0683a84",
     "npub": "npub18gr2m5cflkzpn6jdfer4a8qdlavsn334m9mfhurjsge08grg82zq6hu9su",
     "name": "shroominic",
     "displayName": "shroominic",
+    "about": "building routstr.com",
     "nip05": "shroominic@routstr.com",
-    "nip05Verified": true,
-    "picture": "https://image.nostr.build/e54b7f51e004ac04a9e658bac14bb71eb53cdabb4fd8f9f199a9ae13f5cd69d6.jpg"
+    "picture": "https://image.nostr.build/e54b7f51e004ac04a9e658bac14bb71eb53cdabb4fd8f9f199a9ae13f5cd69d6.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "2a87a87703ececf2209a24984c22e419e7e9187773e54728ca4bf04df67f92c8",
+      "pubkey": "3a06add309fd8419ea4d4e475e9c0dff5909c635d9769bf0728232f3a0683a84",
+      "created_at": 1758563609,
+      "tags": [],
+      "content": "{\"website\":\"https:\\/\\/github.com\\/shroominic\",\"lud06\":\"\",\"banner\":\"https:\\/\\/m.primal.net\\/QYMf.png\",\"picture\":\"https:\\/\\/image.nostr.build\\/e54b7f51e004ac04a9e658bac14bb71eb53cdabb4fd8f9f199a9ae13f5cd69d6.jpg\",\"nip05\":\"shroominic@routstr.com\",\"name\":\"shroominic\",\"display_name\":\"shroominic\",\"lud16\":\"shroominic@minibits.cash\",\"about\":\"building routstr.com\"}",
+      "sig": "628234090e70826a83bab4b368f530f1ae0f03306add0a4d52656dea3068b1b1a0c7bac7ad7fccd2af47131d75df4d7151d0d4217da528560a2926aa624f6e40"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "4523be58d395b1b196a9b8c82b038b6895cb02b683d0c253a955068dba1facd0",
     "npub": "npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk",
     "name": "Sirius",
     "displayName": "Sirius",
-    "nip05Verified": false,
-    "picture": "https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg"
+    "about": "I just want to start a flame in your heart",
+    "picture": "https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "4983a13be674649f0df27c1bbd4813f7269d541cbff5520ba59e71954c5631f4",
+      "pubkey": "4523be58d395b1b196a9b8c82b038b6895cb02b683d0c253a955068dba1facd0",
+      "created_at": 1780680336,
+      "tags": [],
+      "content": "{\"name\":\"Sirius\",\"display_name\":\"Sirius\",\"picture\":\"https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg\",\"about\":\"I just want to start a flame in your heart\"}",
+      "sig": "7879dc0041efd01476464a2d62c81a19a8e5b40422dae65fee8e991ce842b1c6faeb0cc0ea039285d04908009aaa8a82e5dc36cdd9e9ef0c8bd3ed241515ed8f"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d8a2c33f2e2ff3a9d4ff2a5593f3d5a59e9167fa5ded063d0e49891776611e0c",
     "npub": "npub1mz3vx0ew9le6n48l9f2e8u745k0fzel6thksv0gwfxy3wanprcxq79mymx",
     "name": "starbuilder",
     "displayName": "StarBuilder",
+    "about": "The power of nostr + bitcoin  + AI at your hands. Building Current & PlebAI\nCurrent iOS/Android APP - https://getcurrent.io\nPlebAI - https://chat.plebai.com\n\nAI won’t replace humans, humans that use AI will replace humans.",
     "nip05": "starbuilder@current.fyi",
-    "nip05Verified": false,
-    "picture": "https://i.current.fyi/npub1current/profile/starbuilder.png"
+    "picture": "https://i.current.fyi/npub1current/profile/starbuilder.png",
+    "kind0": {
+      "kind": 0,
+      "id": "4ddf00d965e492896cea6348c1036c35eb09c681b12c68b3803a681b463f335a",
+      "pubkey": "d8a2c33f2e2ff3a9d4ff2a5593f3d5a59e9167fa5ded063d0e49891776611e0c",
+      "created_at": 1708098777,
+      "tags": [],
+      "content": "{\"website\":\"https://getcurrent.io\",\"nip05\":\"starbuilder@current.fyi\",\"picture\":\"https://i.current.fyi/npub1current/profile/starbuilder.png\",\"lud16\":\"starbuilder@npub.cash\",\"display_name\":\"StarBuilder\",\"about\":\"The power of nostr + bitcoin  + AI at your hands. Building Current & PlebAI\\nCurrent iOS/Android APP - https://getcurrent.io\\nPlebAI - https://chat.plebai.com\\n\\nAI won’t replace humans, humans that use AI will replace humans.\",\"name\":\"starbuilder\"}",
+      "sig": "867dc395227ea1ceb76844a2b24c616d39b85199c9ddc25055d12afe08e600f58bff2407b73ded0319afd1c0efcee753755d98c749ec6e09825601f34ef01cd8"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "ff27d01cb1e56fb58580306c7ba76bb037bf211c5b573c56e4e70ca858755af0",
     "npub": "npub1lunaq893u4hmtpvqxpk8hfmtkqmm7ggutdtnc4hyuux2skr4ttcqr827lj",
     "name": "Stuart Bowman",
     "displayName": "Stuart Bowman",
+    "about": "Building Satellite\n\nhttps://satellite.earth 🏴",
     "nip05": "_@satellite.earth",
-    "nip05Verified": false,
-    "picture": "https://cdn.satellite.earth/f7f4f08cdc582b8b2611ae6837b50ee323cb714d4978935cf7dc3f72431f3efb.jpg"
+    "picture": "https://cdn.satellite.earth/f7f4f08cdc582b8b2611ae6837b50ee323cb714d4978935cf7dc3f72431f3efb.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "1eed9ef93b0c2142e6f5668d1468247e787e05c6284f894f7250a6ca3f5eea2f",
+      "pubkey": "ff27d01cb1e56fb58580306c7ba76bb037bf211c5b573c56e4e70ca858755af0",
+      "created_at": 1763605406,
+      "tags": [],
+      "content": "{\"banner\":\"https://cdn.satellite.earth/cfc064fdabe4b44ca28328a6d336de4c545b32a012c66defd713ce43b4e62273.jpg\",\"website\":\"satellite.earth\",\"lud06\":\"lnurl1dp68gurn8ghj7ampd3kx2ar0veekzar0wd5xjtnrdakj7tnhv4kxctttdehhwm30d3h82unvwqhkcmm4w35hx6r9v4kr2wq3uxr8d\",\"nip05\":\"_@satellite.earth\",\"picture\":\"https://cdn.satellite.earth/f7f4f08cdc582b8b2611ae6837b50ee323cb714d4978935cf7dc3f72431f3efb.jpg\",\"display_name\":\"Stuart Bowman\",\"about\":\"Building Satellite\\n\\nhttps://satellite.earth 🏴\",\"name\":\"Stuart Bowman\"}",
+      "sig": "b223b31e58defbe547d91ce8f6c01c66dae32e4f7dbd45763bcf09373cd7de2ce849353109c3a0528aede7df20ab841b0d4372336a71431fa91515a240da20a9"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "c8383d81dd24406745b68409be40d6721c301029464067fcc50a25ddf9139549",
     "npub": "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6",
     "name": "Sync",
     "displayName": "Sync",
+    "about": "Co-Host of the Open Markets Podcast \nhttps://fountain.fm/show/8aujy1pUxhDKcm0fHcsM\n\nOperator:\nhttps://nostr.boutique\nhttps://cypher.space (clone)\nhttps://nsite.info \nhttps://nsite.cloud ( gateway A )\nhttps://nsite.boutique ( gateway B )\nhttps://sov.biz ( gateway A )\nhttps://sov.pub ( gateway B)\n\nhttps://github.com/s7nc",
     "nip05": "sync@nostr.boutique",
-    "nip05Verified": true,
-    "picture": "https://pfp.nostr.build/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif"
+    "picture": "https://pfp.nostr.build/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif",
+    "kind0": {
+      "kind": 0,
+      "id": "c5eb4890832b499ede05b1874ed91402b3d2bdc6abe6a0e14cab2a451234419c",
+      "pubkey": "c8383d81dd24406745b68409be40d6721c301029464067fcc50a25ddf9139549",
+      "created_at": 1777208142,
+      "tags": [],
+      "content": "{\"nip05\":\"sync@nostr.boutique\",\"picture\":\"https:\\/\\/pfp.nostr.build\\/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif\",\"display_name\":\"Sync\",\"website\":\"https:\\/\\/nostr.boutique\",\"banner\":\"https:\\/\\/blossom.primal.net\\/34a3b3c38f3d28e645d33932b7ee16b3c960739dafbb63bbebf6a396f675668e.gif\",\"lud06\":\"\",\"about\":\"Co-Host of the Open Markets Podcast \\nhttps:\\/\\/fountain.fm\\/show\\/8aujy1pUxhDKcm0fHcsM\\n\\nOperator:\\nhttps:\\/\\/nostr.boutique\\nhttps:\\/\\/cypher.space (clone)\\nhttps:\\/\\/nsite.info \\nhttps:\\/\\/nsite.cloud ( gateway A )\\nhttps:\\/\\/nsite.boutique ( gateway B )\\nhttps:\\/\\/sov.biz ( gateway A )\\nhttps:\\/\\/sov.pub ( gateway B)\\n\\nhttps:\\/\\/github.com\\/s7nc\",\"lud16\":\"Sync@primal.net\",\"name\":\"Sync\"}",
+      "sig": "1c7a6f37af72c47035ba704762e8e9943ded9c452feb0fec349c88cd6db6f615d5d829999fc5467327c1ec19306bf09e8f5031d8378d773166822e2d57b0509d"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "04918dfc36c93e7db6cc0d60f37e1522f1c36b64d3f4b424c532d7c595febbc5",
     "npub": "npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw",
     "name": "thesimplekid",
     "displayName": "thesimplekid",
+    "about": "Grantee @spiralbtc working on Cashu Dev Kit\n\nDMs: @thesimplekid:matrix.org\n\n₿tsk@thesimplekid.com",
     "nip05": "thesimplekid@cashu.me",
-    "nip05Verified": true,
-    "picture": "https://avatars.githubusercontent.com/u/8606367?v=4"
+    "picture": "https://avatars.githubusercontent.com/u/8606367?v=4",
+    "kind0": {
+      "kind": 0,
+      "id": "dc5e0cae92d1b88e2c12cd2f867d64a9d37f2e1fa0356ee1a4f9e2e3b6334630",
+      "pubkey": "04918dfc36c93e7db6cc0d60f37e1522f1c36b64d3f4b424c532d7c595febbc5",
+      "created_at": 1779117853,
+      "tags": [
+        ["client", "Ditto", "31990:781a1527055f74c1f70230f10384609b34548f8ab6a0a6caa74025827f9fdae5:ditto"],
+        ["published_at", "1779117853"]
+      ],
+      "content": "{\"about\":\"Grantee @spiralbtc working on Cashu Dev Kit\\n\\nDMs: @thesimplekid:matrix.org\\n\\n₿tsk@thesimplekid.com\",\"display_name\":\"thesimplekid\",\"lud16\":\"npub19ulp0mk2yqphy2s9nsfyeum5hggmct6dpt8pwnfppdcaydj8k50sj9n72z@npubx.cash\",\"name\":\"thesimplekid\",\"nip05\":\"thesimplekid@cashu.me\",\"picture\":\"https://avatars.githubusercontent.com/u/8606367?v=4\",\"displayName\":\"thesimplekid\",\"bot\":false}",
+      "sig": "551cb20dc278420af6816a43072bc27abe9052f14e673161795a8f58697e35f022a35e782707b5c7c1ed13ae7a6aeca606cef74dff30536ff240e8c6e86b839e"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "f53b9d91a8cd177fb4a1cf081a1b6d58759a381ef120a7c5a18c0e70cae80983",
     "npub": "npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm",
     "name": "Thomas",
     "displayName": "Thomas",
+    "about": "\"Bees don’t waste their time explaining to flies that honey is better than shit.\"\n\nBOLT12: thomas@fuckingbanks.com",
     "nip05": "Fucking@primal.net",
-    "nip05Verified": true,
-    "picture": "https://m.primal.net/KPzs.jpg"
+    "picture": "https://m.primal.net/KPzs.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "9e59fce307f998387b24ed4f1a87f7141637a74f76ed668e6e9e5e4b830b5b68",
+      "pubkey": "f53b9d91a8cd177fb4a1cf081a1b6d58759a381ef120a7c5a18c0e70cae80983",
+      "created_at": 1773583472,
+      "tags": [],
+      "content": "{\"about\":\"\\\"Bees don’t waste their time explaining to flies that honey is better than shit.\\\"\\n\\nBOLT12: thomas@fuckingbanks.com\",\"website\":\"\",\"nip05\":\"Fucking@primal.net\",\"banner\":\"https://m.primal.net/KPzw.jpg\",\"lud16\":\"Fucking@primal.net\",\"lud06\":\"\",\"display_name\":\"Thomas\",\"picture\":\"https://m.primal.net/KPzs.jpg\",\"name\":\"Thomas\",\"displayName\":\"Thomas\",\"sp\":\"sp1qqwqr4mk2hma236j9qwcj2x05h9t68kqey9heggnr9sfqwamv694u7qklm2xyzrs36q8dpje45pratw2y9f9zfdref3zf7plqwkwt7xvg7qjv4wey\"}",
+      "sig": "2044d304b5b76a74191c355bad9211937c3902a6c9a6170c56bfe51666a816426cd1e11752e938f97dbfc99569a6ab30a3b7e94aa979c18260cfdc13e494a121"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "06b7819d7f1c7f5472118266ed7bca8785dceae09e36ea3a4af665c6d1d8327c",
     "npub": "npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5",
     "name": "Tim Bouma",
     "displayName": "Tim Bouma",
+    "about": "| Independent Self | Pug Lover | Published Author | #SovEng Alum | #Cashu OG | #OpenSats Grantee x 2| #Nosfabrica Prize Winner",
     "nip05": "trbouma@getsafebox.app",
-    "nip05Verified": true,
-    "picture": "https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png"
+    "picture": "https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png",
+    "kind0": {
+      "kind": 0,
+      "id": "d56fd82cb5c925bd48c5bd7c9bed9274d5b4e3a74d8fece94615a4ca2c52d3de",
+      "pubkey": "06b7819d7f1c7f5472118266ed7bca8785dceae09e36ea3a4af665c6d1d8327c",
+      "created_at": 1775082035,
+      "tags": [["client", "Primal Android"]],
+      "content": "{\"name\":\"Tim Bouma\",\"nip05\":\"trbouma@getsafebox.app\",\"about\":\"| Independent Self | Pug Lover | Published Author | #SovEng Alum | #Cashu OG | #OpenSats Grantee x 2| #Nosfabrica Prize Winner\",\"lud16\":\"trbouma@getsafebox.app\",\"display_name\":\"Tim Bouma\",\"picture\":\"https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png\",\"banner\":\"https://blossom.primal.net/e14338421c340923dee9cdf82775b46a3667d699402791bf9c0945e4af019d83.jpg\",\"website\":\"https://tim-bouma.npub.pro/\"}",
+      "sig": "edcf92ba7157c446a9268ed3a2006755207b5dc8822fde3c382f4866535fc4c930a0912b49582a95bcd875d2777a18c8081c42e3c81e59f5e751da0931fa6275"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "1096f6be0a4d7f0ecc2df4ed2c8683f143efc81eeba3ece6daadd2fca74c7ecc",
     "npub": "npub1zzt0d0s2f4lsanpd7nkjep5r79p7ljq7aw37eek64hf0ef6v0mxqgwljrv",
     "name": "TollGate",
     "displayName": "TollGate",
-    "nip05Verified": false,
-    "picture": "https://raw.githubusercontent.com/OpenTollGate/tollgate/refs/heads/main/images/TollGate_icon-White.png"
+    "about": "Discussions around deploying and managing TollGates\n\nInstallation guide:\n\nhttps://r2a.primal.net/uploads2/e/e4/ec/ee4ec8d9eb9692dabbd4ed1b0bce3c101d70780b94c28a99fb9f4adfdee26921.mp4",
+    "picture": "https://raw.githubusercontent.com/OpenTollGate/tollgate/refs/heads/main/images/TollGate_icon-White.png",
+    "kind0": {
+      "kind": 0,
+      "id": "8759fe1bee7df010bf6649219440f61f8c52082753f25fdeef41e842a8e073ef",
+      "pubkey": "1096f6be0a4d7f0ecc2df4ed2c8683f143efc81eeba3ece6daadd2fca74c7ecc",
+      "created_at": 1780410349,
+      "tags": [],
+      "content": "{\"name\":\"TollGate\",\"display_name\":\"TollGate\",\"about\":\"Discussions around deploying and managing TollGates\\n\\nInstallation guide:\\n\\nhttps://r2a.primal.net/uploads2/e/e4/ec/ee4ec8d9eb9692dabbd4ed1b0bce3c101d70780b94c28a99fb9f4adfdee26921.mp4\",\"website\":\"https://budabit.club/c/npub1zzt0d0s2f4lsanpd7nkjep5r79p7ljq7aw37eek64hf0ef6v0mxqgwljrv\",\"picture\":\"https://raw.githubusercontent.com/OpenTollGate/tollgate/refs/heads/main/images/TollGate_icon-White.png\"}",
+      "sig": "e37573e2d7476c28df09b0bf767536ce83095d1beca145b9c44af3a5c448b2a58cfc8dff58f33c05caafcc4ae9d5edb8299b477da01877dc3d04723e2a90a289"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "2f5759825226f1d57ef1652ba66114b2f938f7f5c50dc505708e5d8b31e4f3c9",
@@ -669,68 +2564,268 @@
     "name": "Tom",
     "displayName": "Tom",
     "nip05": "tom@tomdwyer.uk",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/b5768f539a6b748f80e18af66f073733b2149ebd5d1f4d110eab5cb492fe1fb7.jpg"
+    "picture": "https://image.nostr.build/b5768f539a6b748f80e18af66f073733b2149ebd5d1f4d110eab5cb492fe1fb7.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "2567c8ba9ebda98c52e1e4e6f3419932f0287ff6f7070e4289b45be2d3cae3b7",
+      "pubkey": "2f5759825226f1d57ef1652ba66114b2f938f7f5c50dc505708e5d8b31e4f3c9",
+      "created_at": 1773046897,
+      "tags": [
+        ["alt", "User profile for Tom"],
+        ["name", "Tom"],
+        ["display_name", "Tom"],
+        ["picture", "https://image.nostr.build/b5768f539a6b748f80e18af66f073733b2149ebd5d1f4d110eab5cb492fe1fb7.jpg"],
+        ["nip05", "tom@tomdwyer.uk"],
+        ["lud16", "silkenascension720691@getalby.com"]
+      ],
+      "content": "{\"name\":\"Tom\",\"display_name\":\"Tom\",\"picture\":\"https://image.nostr.build/b5768f539a6b748f80e18af66f073733b2149ebd5d1f4d110eab5cb492fe1fb7.jpg\",\"nip05\":\"tom@tomdwyer.uk\",\"lud16\":\"silkenascension720691@getalby.com\"}",
+      "sig": "351751dac0bca3bd6910644b15a2e165c011e0c3a501a57757da6609ab16035716a38651f16c2488062a009b64fbe032b1d2c7240892a5834daca4aafdee5109"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d83b5ef189df7e884627294b752969547814c3cfe38995cf207c040e03bbe7a4",
     "npub": "npub1mqa4auvfmalgs338999h22tf23upfs70uwyetneq0szquqamu7jqkhlfa7",
     "name": "TugaJoe",
     "displayName": "TugaJoe",
+    "about": "Spreading the B word, 🍊 💊",
     "nip05": "joe@pleb.world",
-    "nip05Verified": false,
-    "picture": "https://image.nostr.build/3aabbcfd8e1bedbf44d88876b6273aeead39ef6adff6aefe80830630a9288d75.jpg"
+    "picture": "https://image.nostr.build/3aabbcfd8e1bedbf44d88876b6273aeead39ef6adff6aefe80830630a9288d75.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "1d014e4e363fe156dd5cc2614522c9cb14ad74b1d34d2e9a4b82aac9883309be",
+      "pubkey": "d83b5ef189df7e884627294b752969547814c3cfe38995cf207c040e03bbe7a4",
+      "created_at": 1772378203,
+      "tags": [
+        ["alt", "User profile for TugaJoe"],
+        ["name", "TugaJoe"],
+        ["display_name", "TugaJoe"],
+        ["picture", "https://image.nostr.build/3aabbcfd8e1bedbf44d88876b6273aeead39ef6adff6aefe80830630a9288d75.jpg"],
+        ["banner", "https://image.nostr.build/1b4c3e01457b91a54cdc7e46b986ce578f012921409d2ea5716778af2bff4848.jpg"],
+        ["about", "Spreading the B word, 🍊 💊"],
+        ["nip05", "joe@pleb.world"],
+        ["lud16", "noblehonkie467@minibits.cash"],
+        ["lud06", "LNURL1DP68GURN8GHJ7MTFDE5KY6T5WVHXXCTNDQHJUAM9D3KZ66MWDAMKUTMVDE6HYMRS9AHX7CNVV45X7MNTD9JNGD3HM2KZG3"]
+      ],
+      "content": "{\"name\":\"TugaJoe\",\"display_name\":\"TugaJoe\",\"picture\":\"https://image.nostr.build/3aabbcfd8e1bedbf44d88876b6273aeead39ef6adff6aefe80830630a9288d75.jpg\",\"banner\":\"https://image.nostr.build/1b4c3e01457b91a54cdc7e46b986ce578f012921409d2ea5716778af2bff4848.jpg\",\"about\":\"Spreading the B word, 🍊 💊\",\"nip05\":\"joe@pleb.world\",\"lud16\":\"noblehonkie467@minibits.cash\",\"lud06\":\"LNURL1DP68GURN8GHJ7MTFDE5KY6T5WVHXXCTNDQHJUAM9D3KZ66MWDAMKUTMVDE6HYMRS9AHX7CNVV45X7MNTD9JNGD3HM2KZG3\",\"pubkey\":\"d83b5ef189df7e884627294b752969547814c3cfe38995cf207c040e03bbe7a4\",\"is_deleted\":false}",
+      "sig": "f21e36f5abf9101b83816a352a4d43aa4e30cb714a001c2fe9dc994da1b5856aaf324e815e6848d2d7fa6548307038a2b8fc73907bbffca73ee7c646df0915b7"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "3b3a42d34cf0a1402d18d536c9d2ac2eb1c6019a9153be57084c8165d192e325",
     "npub": "npub18vay956v7zs5qtgc65mvn54v96cuvqv6j9fmu4cgfjqkt5vjuvjsc47nzf",
     "name": "victor",
     "displayName": "Victor Stabile",
+    "about": "Freedom tech developer. Engineering physicist. Enterpreneur.",
     "nip05": "victorstabile.com",
-    "nip05Verified": false,
-    "picture": "https://blossom.primal.net/4ec8075d7bfd927f391929d5d8cc392f8f967ab0a8e8a5ad81b32f13b4fce69d.jpg"
+    "picture": "https://blossom.primal.net/4ec8075d7bfd927f391929d5d8cc392f8f967ab0a8e8a5ad81b32f13b4fce69d.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "829ef4780d571f85247cfa2322ff36e4536ee24396d636b11329c73809b7c13b",
+      "pubkey": "3b3a42d34cf0a1402d18d536c9d2ac2eb1c6019a9153be57084c8165d192e325",
+      "created_at": 1751862885,
+      "tags": [],
+      "content": "{\"name\":\"victor\",\"about\":\"Freedom tech developer. Engineering physicist. Enterpreneur.\",\"lud16\":\"jadeelephant1@primal.net\",\"nip05\":\"victorstabile.com\",\"picture\":\"https://blossom.primal.net/4ec8075d7bfd927f391929d5d8cc392f8f967ab0a8e8a5ad81b32f13b4fce69d.jpg\",\"displayName\":\"Victor Stabile\",\"display_name\":\"Victor Stabile\",\"website\":\"https://victorstabile.com\",\"banner\":\"https://pbs.twimg.com/profile_banners/373807615/1456281767/1080x360\"}",
+      "sig": "5a66f7370464e113a1570de9fd00ee684edc7176320631af301a568c928e879a6556dd50add798e85938ea60675e4868d3fedb49c447de22c0c5a0e7b6a0ecbf"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d3052ca3e3d523b1ec80671eb1bba0517a2f522e195778dc83dd03a8d84a170e",
     "npub": "npub16vzjeglr653mrmyqvu0trwaq29az753wr9th3hyrm5p63kz2zu8qzumhgd",
     "name": "vnprc",
     "displayName": "vnprc",
+    "about": "CTV+CSFS, Hashpool, Triangle BitDevs",
     "nip05": "vnprc@trianglebitdevs.org",
-    "nip05Verified": true,
-    "picture": "https://pfp.nostr.build/f61e3a04df4dcc10a00283ad5879043ac1a0e78199238f7509a910f4efb5c8ba.png"
+    "picture": "https://pfp.nostr.build/f61e3a04df4dcc10a00283ad5879043ac1a0e78199238f7509a910f4efb5c8ba.png",
+    "kind0": {
+      "kind": 0,
+      "id": "56f92182bfc6e8be8106f3f81fe3200e30f638f36caeb6725bf43364fd6c533e",
+      "pubkey": "d3052ca3e3d523b1ec80671eb1bba0517a2f522e195778dc83dd03a8d84a170e",
+      "created_at": 1747931825,
+      "tags": [["alt", "User profile for vnprc"]],
+      "content": "{\"name\":\"vnprc\",\"about\":\"CTV+CSFS, Hashpool, Triangle BitDevs\",\"lud16\":\"npub1re3zx6dfxks2p8nk3d8etketqterrvtlavl4333ra3wmpz6pzhrsgquges@npub.cash\",\"nip05\":\"vnprc@trianglebitdevs.org\",\"picture\":\"https://pfp.nostr.build/f61e3a04df4dcc10a00283ad5879043ac1a0e78199238f7509a910f4efb5c8ba.png\",\"displayName\":\"E is for eHash\",\"display_name\":\"vnprc\",\"website\":\"https://hashpool.dev\",\"banner\":\"https://image.nostr.build/078b9476287817439329253229b57c2a5d6f3f7454db0c8587e2c38796737778.jpg\"}",
+      "sig": "ba602467c5db85003afb6c37c644ca9d224af913eacef0f685e2d0f91e68399e744f97ce4746e4b4068a06b31528ceedaf489fd74dd48f4d2f273a316659df6e"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "d60bdad03468f5f8c85b1b10db977e310a5aafab33750dfadb37488b02bfc8d7",
     "npub": "npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm",
     "name": "yo",
     "displayName": "yo",
-    "nip05Verified": false,
-    "picture": "https://blossom.primal.net/5d18b4bc5a21b1dd6ea0c0d879bb346bdf4e7523d583f237a6d4d3002f7c27a5.jpg"
+    "about": "Its windmills all the way down",
+    "picture": "https://blossom.primal.net/5d18b4bc5a21b1dd6ea0c0d879bb346bdf4e7523d583f237a6d4d3002f7c27a5.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "87375c210bd704acc8362fa9ae7298df1cfc0080bcb8810b25847f5b2523278d",
+      "pubkey": "d60bdad03468f5f8c85b1b10db977e310a5aafab33750dfadb37488b02bfc8d7",
+      "created_at": 1773941728,
+      "tags": [],
+      "content": "{\"name\":\"yo\",\"about\":\"Its windmills all the way down\",\"lud16\":\"fancysnail10@primal.net\",\"picture\":\"https://blossom.primal.net/5d18b4bc5a21b1dd6ea0c0d879bb346bdf4e7523d583f237a6d4d3002f7c27a5.jpg\",\"displayName\":\"yo\",\"display_name\":\"yo\",\"website\":\"https:/sovereignengineering.io\",\"banner\":\"https://blossom.primal.net/0078351be659543903b221daf43519cdca32994f97da804b586e7a1b8a794cd4.png\"}",
+      "sig": "ca013d42d2088920fa27204d0deb109b3f46487ca27fce30a21648ea654f9a74487c2fcb351849b83aa6a46db4e73f91e64fced093864185c0edb75a9bda95bd"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58",
     "npub": "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5",
     "name": "zach",
     "displayName": "Zach",
+    "about": "typescript maximalist and FROST enjoyer ❄️ \n\nyour nsec should stay on steel && rotate your keys monthly 🗝️",
     "nip05": "zach@troop.is",
-    "nip05Verified": true,
-    "picture": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX"
+    "picture": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX",
+    "kind0": {
+      "kind": 0,
+      "id": "3643733d4257557d17488a73f87a625b43f01e968ab381c6608df89c2cb6ba13",
+      "pubkey": "17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58",
+      "created_at": 1722877669,
+      "tags": [],
+      "content": "{\"picture\":\"https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX\",\"displayName\":\"Zach\",\"name\":\"zach\",\"image\":\"https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX\",\"about\":\"typescript maximalist and FROST enjoyer ❄️ \\n\\nyour nsec should stay on steel && rotate your keys monthly 🗝️\",\"banner\":\"https://m.primal.net/HQIU.png\",\"website\":\"https://www.zach.my/\",\"nip05\":\"zach@troop.is\",\"lud16\":\"polishedsun243004@getalby.com\",\"pubkey\":\"17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58\",\"npub\":\"npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5\",\"created_at\":1709197316,\"display_name\":\"Zach\"}",
+      "sig": "44ce9d55b77c5e989dae944619dda5164db0ce869c97d02be6e8cbef48a966c1b092cea09b5247ecdb03dbc09a9f8b392fdcefb0aa69781b44f6b3d74f0d7417"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "7b849efa5604b58d50c419637b9873847dbf957081d526136c3a49b7357cd617",
     "npub": "npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr",
     "name": "Zaza",
     "displayName": "Zaza",
+    "about": "Bitcoin, Nostr, Web5 UXer (available for projects)\n20,999,999.967 / ∞\nI've been to the void and I heard no screams.",
     "nip05": "zazawowow@primal.net",
-    "nip05Verified": true,
-    "picture": "https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png"
+    "picture": "https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png",
+    "kind0": {
+      "kind": 0,
+      "id": "8ce72b3d2d30f6aa31a74e87be634f804ea088e1b5dd15a4b602f8cb1ae7c9d0",
+      "pubkey": "7b849efa5604b58d50c419637b9873847dbf957081d526136c3a49b7357cd617",
+      "created_at": 1776968230,
+      "tags": [],
+      "content": "{\"name\":\"Zaza\",\"display_name\":\"Zaza\",\"picture\":\"https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png\",\"banner\":\"https://blossom.primal.net/06f94d0af9ac87b35375f8e9340641b3156e710a4620ad3f5fe584fec25933f5.jpg\",\"website\":\"protocolux.com\",\"about\":\"Bitcoin, Nostr, Web5 UXer (available for projects)\\n20,999,999.967 / ∞\\nI've been to the void and I heard no screams.\",\"nip05\":\"zazawowow@primal.net\",\"lud16\":\"zaza@shop.tx1138.com\",\"lud06\":\"LNURL1DP68GURN8GHJ7UMGDACZUARCXYCNXWPWVDHK6TEWWAJKCMPDDDHX7AMW9AKXUATJD3CZ77NP0FSSJD47MS\",\"pubkey\":\"7b849efa5604b58d50c419637b9873847dbf957081d526136c3a49b7357cd617\",\"is_deleted\":false}",
+      "sig": "e30fc618782b6987de4d4651ff0432aaf0f8ea0d14f9d135ce33f46ec74d6fa448bba614b14989568028b74db764f034cb6db593c5b46ffc8afc4fd6453464e5"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   },
   {
     "pubkey": "fd38f135ef675eac5e93d5b2a738c41777c250188031caf1dcf07b1687a1fe49",
     "npub": "npub1l5u0zd00va02ch5n6ke2wwxyzamuy5qcsqcu4uwu7pa3dpapleysf7aap5",
     "name": "ziggie",
     "displayName": "ziggie",
-    "nip05Verified": false,
-    "picture": "https://images.ziggie1984.win/images/avatar_nostr.png"
+    "about": "opensats.org guarantee",
+    "picture": "https://images.ziggie1984.win/images/avatar_nostr.png",
+    "kind0": {
+      "kind": 0,
+      "id": "d024850726641ba22678f723fd5a8386814d35b32fba071facce4dbb84cec127",
+      "pubkey": "fd38f135ef675eac5e93d5b2a738c41777c250188031caf1dcf07b1687a1fe49",
+      "created_at": 1713460366,
+      "tags": [],
+      "content": "{\"name\":\"ziggie\",\"about\":\"opensats.org guarantee\",\"lud16\":\"ziggie@lnaddress.ziggie1984.win\",\"display_name\":\"ziggie\",\"picture\":\"https://images.ziggie1984.win/images/avatar_nostr.png\",\"banner\":\"https://images.ziggie1984.win/images/banner_nostr.jpg\",\"pubkey\":\"fd38f135ef675eac5e93d5b2a738c41777c250188031caf1dcf07b1687a1fe49\",\"displayName\":\"ziggie\"}",
+      "sig": "5e1f82d01cc87b755be8729ce7e857f7e866a92ddffd01d88a8e1eeddbffb3c624a73f7dd6ae34fb40efb05c61839abe3e1a8b7bacefce424186547519a3ded8"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-06-07T12:24:15.300Z"
+    }
   }
 ]
