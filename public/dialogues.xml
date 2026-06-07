@@ -66,41 +66,51 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>how mint state can be compressed into a sparse Merkle tree and why
       exclusion proofs matter for ecash</li>
       <li>how unilateral exit could reduce both the slow rug pull and the fast
-      rug pull for Cashu mints</li>
+      rug pull for <a href="https://cashu.space/">Cashu</a> mints</li>
       <li>why trusted execution environments change the trust model, and why
       on-chain-first mint backing is the easiest place to start</li>
       <li>how timelocks and third-party recovery paths might soften mint
       downtime</li>
-      <li>why Cashu is moving away from its current signature setup toward BLS
-      signatures and what that unlocks</li>
-      <li>how Calle actually works with coding agents, from OpenRouter and
-      OpenCode to fresh contexts and ruthless resets</li>
+      <li>why <a href="https://cashu.space/">Cashu</a> is moving away from its
+      current signature setup toward <a
+      href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS
+      signatures</a> and what that unlocks</li>
+      <li>how Calle actually works with coding agents, from <a
+      href="https://openrouter.ai/">OpenRouter</a> and <a
+      href="https://opencode.ai/">OpenCode</a> to fresh contexts and ruthless
+      resets</li>
       <li>why context windows are scarce, token maxing is wasteful, and one
       agent per project beats one giant assistant</li>
       <li>why cognitive science still matters when talking about specialists,
       generalists, and what frontier labs are betting on</li>
       <li>why world models differ from next-token predictors and why
       embodiment keeps coming back</li>
-      <li>why Thomas Nagel and The Blind Spot show up once the conversation
-      turns to observation, physics, and experience</li>
+      <li>why <a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas
+      Nagel</a> and <a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The
+      Blind Spot</a> show up once the conversation turns to observation,
+      physics, and experience</li>
       <li>why high-agency builders should feel more hopeful than scared right
       now</li>
-      <li>why Bitcoin, Nostr, and improving local models still look like the
-      right ingredients for a freer future</li>
+      <li>why <a href="https://bitcoin.org/">Bitcoin</a>, <a
+      href="https://nostr.com/">Nostr</a>, and improving local models still
+      look like the right ingredients for a freer future</li>
       </ul>
       <p>People mentioned:</p>
       <ul>
-      <li>Luke Childs</li>
+      <li><a href="https://lu.ke/">Luke Childs</a></li>
       <li><a href="https://njump.to/npub1vadcfln4ugt2h9ruwsuwu5vu5am4xaka7pw6m7axy79aqyhp6u5q9knuu7">Waxwing</a></li>
-      <li>Peter Steinberger</li>
+      <li><a href="https://steipete.me/">Peter Steinberger</a></li>
       <li>Martti Malmi (<a
       href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
       Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a>)</li>
       <li><a href="https://njump.to/npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226">Egge</a></li>
-      <li>Yann LeCun</li>
-      <li>Thomas Nagel</li>
-      <li>David Chaum</li>
-      <li>David Wagner</li>
+      <li><a href="https://en.wikipedia.org/wiki/Yann_LeCun">Yann
+      LeCun</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas
+      Nagel</a></li>
+      <li><a href="https://chaum.com/">David Chaum</a></li>
+      <li><a href="https://people.eecs.berkeley.edu/~daw/">David
+      Wagner</a></li>
       </ul>
       <p>Projects &amp; tech mentioned:</p>
       <ul>
@@ -168,41 +178,51 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>how mint state can be compressed into a sparse Merkle tree and why
       exclusion proofs matter for ecash</li>
       <li>how unilateral exit could reduce both the slow rug pull and the fast
-      rug pull for Cashu mints</li>
+      rug pull for <a href="https://cashu.space/">Cashu</a> mints</li>
       <li>why trusted execution environments change the trust model, and why
       on-chain-first mint backing is the easiest place to start</li>
       <li>how timelocks and third-party recovery paths might soften mint
       downtime</li>
-      <li>why Cashu is moving away from its current signature setup toward BLS
-      signatures and what that unlocks</li>
-      <li>how Calle actually works with coding agents, from OpenRouter and
-      OpenCode to fresh contexts and ruthless resets</li>
+      <li>why <a href="https://cashu.space/">Cashu</a> is moving away from its
+      current signature setup toward <a
+      href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS
+      signatures</a> and what that unlocks</li>
+      <li>how Calle actually works with coding agents, from <a
+      href="https://openrouter.ai/">OpenRouter</a> and <a
+      href="https://opencode.ai/">OpenCode</a> to fresh contexts and ruthless
+      resets</li>
       <li>why context windows are scarce, token maxing is wasteful, and one
       agent per project beats one giant assistant</li>
       <li>why cognitive science still matters when talking about specialists,
       generalists, and what frontier labs are betting on</li>
       <li>why world models differ from next-token predictors and why
       embodiment keeps coming back</li>
-      <li>why Thomas Nagel and The Blind Spot show up once the conversation
-      turns to observation, physics, and experience</li>
+      <li>why <a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas
+      Nagel</a> and <a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The
+      Blind Spot</a> show up once the conversation turns to observation,
+      physics, and experience</li>
       <li>why high-agency builders should feel more hopeful than scared right
       now</li>
-      <li>why Bitcoin, Nostr, and improving local models still look like the
-      right ingredients for a freer future</li>
+      <li>why <a href="https://bitcoin.org/">Bitcoin</a>, <a
+      href="https://nostr.com/">Nostr</a>, and improving local models still
+      look like the right ingredients for a freer future</li>
       </ul>
       <p>People mentioned:</p>
       <ul>
-      <li>Luke Childs</li>
+      <li><a href="https://lu.ke/">Luke Childs</a></li>
       <li><a href="https://njump.to/npub1vadcfln4ugt2h9ruwsuwu5vu5am4xaka7pw6m7axy79aqyhp6u5q9knuu7">Waxwing</a></li>
-      <li>Peter Steinberger</li>
+      <li><a href="https://steipete.me/">Peter Steinberger</a></li>
       <li>Martti Malmi (<a
       href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
       Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a>)</li>
       <li><a href="https://njump.to/npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226">Egge</a></li>
-      <li>Yann LeCun</li>
-      <li>Thomas Nagel</li>
-      <li>David Chaum</li>
-      <li>David Wagner</li>
+      <li><a href="https://en.wikipedia.org/wiki/Yann_LeCun">Yann
+      LeCun</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas
+      Nagel</a></li>
+      <li><a href="https://chaum.com/">David Chaum</a></li>
+      <li><a href="https://people.eecs.berkeley.edu/~daw/">David
+      Wagner</a></li>
       </ul>
       <p>Projects &amp; tech mentioned:</p>
       <ul>
