@@ -1,11 +1,17 @@
 ---
 import Base from '@/layouts/Base.astro';
-import { getSovEngAlumni, getSovEngAlumniStats, hasSourceLockedAssociationData } from '@/lib/sovengAlumni';
+import {
+  getAlumniProfileViewModel,
+  getSovEngAlumni,
+  getSovEngAlumniStats,
+  hasSourceLockedAssociationData,
+} from '@/lib/sovengAlumni';
 import '@/styles/projects.css';
 
-const alumni = getSovEngAlumni();
+const alumni = getSovEngAlumni().map(getAlumniProfileViewModel);
 const stats = getSovEngAlumniStats();
 const hasAssociations = hasSourceLockedAssociationData();
+const sourceMembershipHref = alumni[0]?.sourceHref;
 const lastFetchedLabel = stats.lastFetchedAt
   ? new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(stats.lastFetchedAt))
   : 'source locked';
@@ -21,14 +27,31 @@ const lastFetchedLabel = stats.lastFetchedAt
   <main class="alumni-page">
     <section class="alumni-hero bg-black py-24 text-white sm:py-32" aria-labelledby="alumni-title">
       <div class="container max-w-[1120px]">
-        <p class="projects-eyebrow">SovEng social graph</p>
-        <h1 id="alumni-title" class="projects-display projects-headline mt-4 text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
-          Alumni
-        </h1>
-        <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-          A public roll call of builders from the Sovereign Engineering orbit. Profiles are sourced from the approved Nostr follow-list and keep the raw
-          kind 0 events intact for deterministic review.
-        </p>
+        <div class="alumni-hero-grid">
+          <div>
+            <p class="projects-eyebrow">SovEng social graph</p>
+            <h1 id="alumni-title" class="projects-display projects-headline mt-4 text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
+              Alumni
+            </h1>
+            <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
+              A public roll call of builders from the Sovereign Engineering orbit. Profiles are sourced from the approved Nostr follow-list and keep the raw
+              kind 0 events intact for deterministic review.
+            </p>
+          </div>
+
+          <aside class="alumni-manifest" aria-label="Alumni manifest provenance">
+            <p class="projects-eyebrow">Manifest</p>
+            <p class="manifest-copy projects-body">
+              No scraped biographies, no inferred SEC/project tags. Just the public follow-list plus each profile's latest source-locked kind 0 event.
+            </p>
+            {sourceMembershipHref && (
+              <a class="projects-link project-external-link--with-label" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
+                <span class="project-external-link__text">View source list</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            )}
+          </aside>
+        </div>
 
         <dl class="alumni-stats mt-10" aria-label="Alumni source stats">
           <div>
@@ -52,18 +75,132 @@ const lastFetchedLabel = stats.lastFetchedAt
         <div class="alumni-source-note projects-body mt-8">
           <p>
             Source membership:
-            <a href={alumni[0]?.source.membershipSourceUrl} target="_blank" rel="noopener noreferrer">public Nostr follow-list</a>.
+            {sourceMembershipHref ? (
+              <a href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">public Nostr follow-list</a>
+            ) : (
+              'public Nostr follow-list'
+            )}.
           </p>
-          {!hasAssociations && (
-            <p>
-              SEC/project/tag chips are intentionally hidden until those associations are backed by an approved canonical source.
-            </p>
-          )}
+          {!hasAssociations && <p>SEC/project/tag chips are intentionally hidden until those associations are backed by an approved canonical source.</p>}
         </div>
       </div>
     </section>
+
+    <section id="alumni-directory" class="alumni-directory bg-black py-16 text-white sm:py-20" aria-labelledby="alumni-directory-title">
+      <div class="container max-w-[1120px]">
+        <figure class="alumni-separator" aria-hidden="true">
+          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
+        </figure>
+
+        <div class="alumni-directory-header">
+          <div>
+            <p class="projects-eyebrow">Roll call</p>
+            <h2 id="alumni-directory-title" class="projects-display projects-headline mt-3 text-4xl text-white sm:text-5xl">Builders in the wild</h2>
+          </div>
+          <p class="projects-body alumni-directory-copy">
+            Open a Nostr profile, copy the npub, or pop the QR dialog. Cards are intentionally sparse: names, avatars, bios, and NIP-05 handles come only from
+            kind 0 metadata.
+          </p>
+        </div>
+
+        <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
+          {
+            alumni.map((profile) => (
+              <article class="alumni-card">
+                <div class="alumni-card-top">
+                  <a class="alumni-avatar-link" href={profile.profileHref} target="_blank" rel="noopener noreferrer" aria-label={`Open ${profile.displayName} on Nostr`}>
+                    <span class="alumni-avatar" aria-hidden="true">
+                      {profile.picture ? (
+                        <img src={profile.picture} alt="" loading="lazy" decoding="async" />
+                      ) : (
+                        <span class="alumni-avatar-fallback">{profile.initials}</span>
+                      )}
+                    </span>
+                  </a>
+
+                  <button
+                    type="button"
+                    class="alumni-qr-button"
+                    data-alumni-qr
+                    data-profile-name={profile.displayName}
+                    data-profile-href={profile.profileHref}
+                    data-npub={profile.npub}
+                    data-qr-src={profile.qrImageHref}
+                    aria-label={`Show QR code for ${profile.displayName}`}
+                  >
+                    QR
+                  </button>
+                </div>
+
+                <h3 class="projects-display alumni-card-title">
+                  <a href={profile.profileHref} target="_blank" rel="noopener noreferrer">
+                    {profile.displayName}
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </h3>
+                <p class="alumni-handle">{profile.handle}</p>
+                {profile.about ? <p class="projects-body alumni-about">{profile.about}</p> : <p class="projects-body alumni-about alumni-about--empty">No public bio in kind 0.</p>}
+
+                <footer class="alumni-card-foot">
+                  <time datetime={profile.updatedAt}>kind 0 · {profile.updatedLabel}</time>
+                  <a href={profile.profileHref} target="_blank" rel="noopener noreferrer" aria-label={`Open ${profile.displayName} Nostr profile`}>
+                    Profile
+                  </a>
+                </footer>
+              </article>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+    <dialog id="alumni-qr-dialog" class="alumni-qr-dialog" aria-labelledby="alumni-qr-title">
+      <form method="dialog" class="alumni-qr-panel">
+        <button type="submit" class="alumni-dialog-close" aria-label="Close QR dialog">×</button>
+        <p class="projects-eyebrow">Nostr profile</p>
+        <h2 id="alumni-qr-title" class="projects-display projects-headline">Profile QR</h2>
+        <img class="alumni-qr-image" alt="" width="240" height="240" loading="lazy" decoding="async" />
+        <p class="alumni-dialog-npub projects-body"></p>
+        <a class="btn-retro alumni-dialog-link" href="#" target="_blank" rel="noopener noreferrer">Open on Nostr</a>
+      </form>
+    </dialog>
   </main>
 </Base>
+
+<script is:inline>
+  (() => {
+    const dialog = document.getElementById('alumni-qr-dialog');
+    if (!(dialog instanceof HTMLDialogElement)) return;
+
+    const title = dialog.querySelector('#alumni-qr-title');
+    const image = dialog.querySelector('.alumni-qr-image');
+    const npub = dialog.querySelector('.alumni-dialog-npub');
+    const link = dialog.querySelector('.alumni-dialog-link');
+
+    document.querySelectorAll('[data-alumni-qr]').forEach((trigger) => {
+      trigger.addEventListener('click', () => {
+        const name = trigger.dataset.profileName || 'Nostr profile';
+        const qrSrc = trigger.dataset.qrSrc;
+        const profileHref = trigger.dataset.profileHref || '#';
+        const profileNpub = trigger.dataset.npub || '';
+
+        if (title) title.textContent = name;
+        if (image instanceof HTMLImageElement && qrSrc) {
+          image.src = qrSrc;
+          image.alt = `QR code for ${name}`;
+        }
+        if (npub) npub.textContent = profileNpub;
+        if (link instanceof HTMLAnchorElement) link.href = profileHref;
+
+        dialog.showModal();
+      });
+    });
+
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+  })();
+</script>
 
 <style>
   .alumni-page {
@@ -73,20 +210,64 @@ const lastFetchedLabel = stats.lastFetchedAt
 
   .alumni-hero {
     min-height: 74vh;
+    position: relative;
   }
 
-  .alumni-hero-lede {
+  .alumni-hero::before {
+    background:
+      radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--color-primary) 22%, transparent), transparent 28rem),
+      linear-gradient(135deg, rgb(255 255 255 / 6%) 0 1px, transparent 1px 100%);
+    background-size:
+      auto,
+      34px 34px;
+    content: '';
+    inset: 0;
+    opacity: 0.34;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  .alumni-hero > .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .alumni-hero-grid {
+    align-items: end;
+    display: grid;
+    gap: 2rem;
+  }
+
+  @media (min-width: 900px) {
+    .alumni-hero-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
+    }
+  }
+
+  .alumni-hero-lede,
+  .alumni-directory-copy {
     text-wrap: balance;
   }
 
+  .alumni-manifest {
+    border-left: 1px solid rgb(255 255 255 / 16%);
+    padding-left: 1.25rem;
+  }
+
+  .manifest-copy {
+    color: rgb(255 255 255 / 62%);
+    line-height: 1.55;
+    margin: 1rem 0 1.2rem;
+  }
+
   .alumni-stats {
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(255 255 255 / 10%);
     display: grid;
     gap: 1px;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 820px;
+    max-width: 860px;
     overflow: hidden;
-    border: 1px solid rgb(255 255 255 / 10%);
-    background: rgb(255 255 255 / 10%);
   }
 
   @media (min-width: 768px) {
@@ -120,11 +301,21 @@ const lastFetchedLabel = stats.lastFetchedAt
     color: rgb(255 255 255 / 58%);
     display: grid;
     gap: 0.35rem;
-    max-width: 820px;
+    max-width: 860px;
   }
 
   .alumni-source-note p {
     margin: 0;
+  }
+
+  .alumni-source-note a,
+  .alumni-card a,
+  .alumni-card button {
+    transition:
+      border-color 150ms ease,
+      color 150ms ease,
+      opacity 150ms ease,
+      transform 150ms ease;
   }
 
   .alumni-source-note a {
@@ -136,5 +327,264 @@ const lastFetchedLabel = stats.lastFetchedAt
   .alumni-source-note a:hover {
     color: #fff;
     text-decoration: underline;
+  }
+
+  .alumni-directory {
+    position: relative;
+  }
+
+  .alumni-separator {
+    margin: -3rem 0 2rem;
+    opacity: 0.78;
+  }
+
+  .alumni-separator img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  .alumni-directory-header {
+    align-items: end;
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (min-width: 900px) {
+    .alumni-directory-header {
+      grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.7fr);
+    }
+  }
+
+  .alumni-directory-copy {
+    color: rgb(255 255 255 / 58%);
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .alumni-grid {
+    background: rgb(255 255 255 / 10%);
+    border: 1px solid rgb(255 255 255 / 10%);
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    overflow: hidden;
+  }
+
+  .alumni-card {
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 4%), transparent 38%),
+      #030303;
+    min-height: 19rem;
+    padding: 1rem;
+  }
+
+  .alumni-card:hover {
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--color-primary) 9%, transparent), transparent 42%),
+      #050505;
+  }
+
+  .alumni-card-top,
+  .alumni-card-foot {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .alumni-avatar-link {
+    color: inherit;
+    display: inline-flex;
+    text-decoration: none;
+  }
+
+  .alumni-avatar {
+    align-items: center;
+    background: #111;
+    border: 1px solid rgb(255 255 255 / 12%);
+    color: var(--color-primary);
+    display: inline-flex;
+    font-family: var(--font-secondary);
+    font-size: 1.45rem;
+    height: 4rem;
+    justify-content: center;
+    overflow: hidden;
+    width: 4rem;
+  }
+
+  .alumni-avatar img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .alumni-avatar-fallback {
+    transform: translateY(0.05em);
+  }
+
+  .alumni-avatar-link:hover .alumni-avatar,
+  .alumni-avatar-link:focus-visible .alumni-avatar {
+    border-color: var(--color-primary);
+  }
+
+  .alumni-qr-button {
+    background: transparent;
+    border: 1px solid rgb(255 255 255 / 14%);
+    color: rgb(255 255 255 / 48%);
+    cursor: pointer;
+    font-family: var(--font-primary);
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+    padding: 0.45rem 0.55rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-qr-button:hover,
+  .alumni-qr-button:focus-visible {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .alumni-card-title {
+    font-size: 1.45rem;
+    line-height: 1.05;
+    margin: 1.1rem 0 0;
+    text-transform: none;
+  }
+
+  .alumni-card-title a {
+    color: #fff;
+    display: inline-flex;
+    gap: 0.35rem;
+    text-decoration: none;
+  }
+
+  .alumni-card-title a:hover,
+  .alumni-card-title a:focus-visible {
+    color: var(--color-primary);
+  }
+
+  .alumni-handle {
+    color: rgb(255 255 255 / 42%);
+    font-family: var(--font-primary);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    margin: 0.45rem 0 0;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-about {
+    color: rgb(255 255 255 / 58%);
+    display: -webkit-box;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin: 1rem 0 0;
+    min-height: 4.15rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  .alumni-about--empty {
+    color: rgb(255 255 255 / 32%);
+    font-style: italic;
+  }
+
+  .alumni-card-foot {
+    border-top: 1px solid rgb(255 255 255 / 8%);
+    color: rgb(255 255 255 / 34%);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    margin-top: 1rem;
+    padding-top: 0.85rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-card-foot a {
+    color: rgb(255 255 255 / 50%);
+    text-decoration: none;
+  }
+
+  .alumni-card-foot a:hover,
+  .alumni-card-foot a:focus-visible {
+    color: var(--color-primary);
+  }
+
+  .alumni-card a:focus-visible,
+  .alumni-card button:focus-visible,
+  .alumni-dialog-close:focus-visible,
+  .alumni-dialog-link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+  }
+
+  .alumni-qr-dialog {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    max-width: min(92vw, 420px);
+    padding: 0;
+  }
+
+  .alumni-qr-dialog::backdrop {
+    background: rgb(0 0 0 / 78%);
+    backdrop-filter: blur(8px);
+  }
+
+  .alumni-qr-panel {
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 8%), transparent 32%),
+      #050505;
+    border: 1px solid rgb(255 255 255 / 16%);
+    display: grid;
+    gap: 1rem;
+    padding: 1.25rem;
+    position: relative;
+    text-align: center;
+  }
+
+  .alumni-qr-panel h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0;
+    text-transform: none;
+  }
+
+  .alumni-dialog-close {
+    background: transparent;
+    border: 0;
+    color: rgb(255 255 255 / 54%);
+    cursor: pointer;
+    font-size: 2rem;
+    line-height: 1;
+    position: absolute;
+    right: 0.7rem;
+    top: 0.5rem;
+  }
+
+  .alumni-dialog-close:hover {
+    color: var(--color-primary);
+  }
+
+  .alumni-qr-image {
+    background: #fff;
+    border: 8px solid #fff;
+    height: 240px;
+    justify-self: center;
+    width: 240px;
+  }
+
+  .alumni-dialog-npub {
+    color: rgb(255 255 255 / 50%);
+    font-size: 0.8rem;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-dialog-link {
+    justify-self: center;
   }
 </style>
