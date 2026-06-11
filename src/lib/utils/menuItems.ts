@@ -21,8 +21,7 @@ export interface Menu {
 export function getAllMenuItems(menu: Menu): MenuItem[] {
   const { main } = menu;
 
-  const moreItems =
-    main.find((item: MenuItem) => item.name === "More")?.children || [];
+  const moreItems = main.find((item: MenuItem) => item.name === 'More')?.children || [];
 
   return moreItems;
 }
@@ -32,5 +31,5 @@ export function getFooterSections(menu: Menu): FooterSection[] {
 }
 
 export function isExternalUrl(url: string): boolean {
-  return url.startsWith("http") || url.startsWith("mailto");
+  return url.startsWith('http') || url.startsWith('mailto');
 }
