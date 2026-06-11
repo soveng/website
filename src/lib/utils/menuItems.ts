@@ -1,4 +1,3 @@
-// Single source of truth for menu items
 export interface MenuItem {
   name: string;
   url: string;
@@ -7,25 +6,31 @@ export interface MenuItem {
   children?: MenuItem[];
 }
 
+export interface FooterSection {
+  title: string;
+  links: MenuItem[];
+}
+
 export interface Menu {
   main: MenuItem[];
-  footer: MenuItem[];
+  footer: {
+    sections: FooterSection[];
+  };
 }
 
 export function getAllMenuItems(menu: Menu): MenuItem[] {
   const { main } = menu;
 
-  // Get all items from the "More" dropdown
-  const moreItems = main.find((item: MenuItem) => item.name === 'More')?.children || [];
+  const moreItems =
+    main.find((item: MenuItem) => item.name === "More")?.children || [];
 
-  // Return items in the order they appear in the mobile nav
   return moreItems;
 }
 
-export function getFooterMenuItems(menu: Menu): MenuItem[] {
-  // Get all items from the "More" dropdown but exclude Gallery, Videos, and Policy
-  // since Gallery and Videos are already covered by social media buttons
-  // and Policy should only appear in the main menu
-  const allItems = getAllMenuItems(menu);
-  return allItems.filter((item) => item.name !== 'Gallery' && item.name !== 'Videos' && item.name !== 'Policy');
+export function getFooterSections(menu: Menu): FooterSection[] {
+  return menu.footer.sections;
+}
+
+export function isExternalUrl(url: string): boolean {
+  return url.startsWith("http") || url.startsWith("mailto");
 }

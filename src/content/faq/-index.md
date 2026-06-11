@@ -16,6 +16,7 @@ intro:
     - [What is the cost of living in Madeira?](#what-is-the-cost-of-living-in-madeira)
     - [How do I best contact you?](#how-do-i-best-contact-you)
     - [How do I apply?](#how-do-i-apply)
+    - [What is your selection policy?](#what-is-your-selection-policy)
 
 # FAQ sections
 sections:
@@ -54,6 +55,9 @@ sections:
     questions:
       - question: 'How do I apply?'
         answer: 'Applications for SEC-08 are open. Apply via the [upcoming cohorts](/#upcoming-cohorts) section on the homepage.'
+
+      - question: 'What is your selection policy?'
+        answer: 'We select participants based on merit, public proof-of-work, and alignment with our philosophy. Read our full [policies and guidelines](/policy) for details on selection, non-discrimination, and partnerships.'
 
       - question: 'How do I best contact you?'
         answer: "You can contact us via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io) or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."
