@@ -1,8 +1,3 @@
-.media-page #featured,
-.media-page #other-conversations {
-  scroll-margin-top: 8rem;
-}
-
 .media-hero {
   border-bottom: 1px solid rgb(255 255 255 / 8%);
 }
@@ -26,21 +21,84 @@
   color: rgb(255 255 255 / 72%);
 }
 
-.media-section-heading {
-  margin-bottom: 2rem;
+.media-list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.media-row {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2.75rem 0;
+}
+
+.media-row + .media-row {
+  border-top: 1px solid rgb(255 255 255 / 8%);
+}
+
+.media-row:first-child {
+  padding-top: 0;
+}
+
+.media-row:last-child {
+  padding-bottom: 0;
+}
+
+@media (min-width: 640px) {
+  .media-row {
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+}
+
+.media-cover {
+  display: block;
+  flex-shrink: 0;
+  width: 10rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #0a0a0a;
+}
+
+.media-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 150ms ease;
+}
+
+.media-cover:hover img {
+  opacity: 0.85;
+}
+
+.media-row-body {
+  min-width: 0;
 }
 
 .media-meta {
   margin: 0;
   font-family: var(--font-primary);
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: rgb(255 255 255 / 40%);
+  color: rgb(255 255 255 / 45%);
 }
 
 .media-meta-sep {
   color: rgb(255 255 255 / 25%);
+}
+
+.media-title {
+  margin: 0.75rem 0 0;
+  font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+  line-height: 1.08;
+  text-transform: none;
+  color: #fff;
 }
 
 .media-title-link {
@@ -56,11 +114,11 @@
 .media-title-link::after {
   content: '↗';
   display: inline-block;
-  margin-left: 0.35rem;
+  margin-left: 0.4rem;
   font-family: var(--font-primary);
-  font-size: 0.55em;
+  font-size: 0.5em;
   line-height: 1;
-  vertical-align: 0.24em;
+  vertical-align: 0.3em;
   color: rgb(255 255 255 / 32%);
   transition: color 150ms ease;
 }
@@ -69,9 +127,17 @@
   color: var(--color-primary);
 }
 
+.media-desc {
+  margin: 1rem 0 0;
+  max-width: 44rem;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: rgb(255 255 255 / 62%);
+}
+
 .media-people {
-  margin: 0.75rem 0 0;
-  font-size: 0.9375rem;
+  margin: 1rem 0 0;
+  font-size: 1rem;
   line-height: 1.5;
   color: rgb(255 255 255 / 45%);
 }
@@ -86,131 +152,8 @@
   color: var(--color-primary);
 }
 
-/* Featured conversations */
-
-.media-feature-list {
-  display: flex;
-  flex-direction: column;
-  gap: 3rem;
-}
-
-.media-feature-card {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-}
-
-@media (min-width: 640px) {
-  .media-feature-card {
-    flex-direction: row;
-    gap: 2rem;
-  }
-}
-
-.media-feature-cover {
-  display: block;
-  flex-shrink: 0;
-  width: 11rem;
-  aspect-ratio: 1;
-  overflow: hidden;
-  background: #0a0a0a;
-}
-
-.media-feature-cover img,
-.media-archive-cover img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: opacity 150ms ease;
-}
-
-.media-feature-cover:hover img,
-.media-archive-cover:hover img {
-  opacity: 0.85;
-}
-
-.media-feature-body {
-  min-width: 0;
-}
-
-.media-feature-title {
-  margin: 0.6rem 0 0;
-  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
-  line-height: 1.1;
-  text-transform: none;
-  color: #fff;
-}
-
-.media-feature-desc {
-  margin: 0.75rem 0 0;
-  max-width: 46rem;
-  font-size: 0.9375rem;
-  line-height: 1.55;
-  color: rgb(255 255 255 / 60%);
-}
-
-/* Archive rows */
-
-.media-archive-list {
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  border-top: 1px solid rgb(255 255 255 / 8%);
-}
-
-.media-archive-row {
-  display: grid;
-  grid-template-columns: 3.5rem minmax(0, 1fr);
-  gap: 1.25rem;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid rgb(255 255 255 / 8%);
-}
-
-@media (min-width: 768px) {
-  .media-archive-row {
-    padding: 1.5rem 0.25rem;
-  }
-
-  .media-archive-row:hover {
-    background: rgb(255 255 255 / 2%);
-  }
-}
-
-.media-archive-cover {
-  display: block;
-  width: 3.5rem;
-  aspect-ratio: 1;
-  overflow: hidden;
-  background: #0a0a0a;
-}
-
-.media-archive-main {
-  min-width: 0;
-}
-
-.media-archive-title {
-  margin: 0.5rem 0 0;
-  font-size: 1.5rem;
-  line-height: 1.15;
-  text-transform: none;
-  color: #fff;
-}
-
-.media-archive-desc {
-  margin: 0.6rem 0 0;
-  max-width: 46rem;
-  font-size: 0.9375rem;
-  line-height: 1.5;
-  color: rgb(255 255 255 / 50%);
-}
-
-/* Separator */
-
 .media-separator {
-  margin: 4rem 0 0;
+  margin: 5rem 0 0;
 }
 
 .media-separator img {

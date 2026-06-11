@@ -15,10 +15,9 @@ interface Props {
     alumni: LinkedEntity[];
     projects: LinkedEntity[];
   };
-  variant?: 'feature' | 'archive';
 }
 
-const { appearance, variant = 'feature' } = Astro.props;
+const { appearance } = Astro.props;
 const hasAlumni = appearance.alumni.length > 0;
 const hasProjects = appearance.projects.length > 0;
 ---
@@ -27,12 +26,10 @@ const hasProjects = appearance.projects.length > 0;
   {appearance.source} <span class="media-meta-sep">·</span> {appearance.dateLabel}
   <span class="media-meta-sep">·</span> {appearance.durationLabel}
 </p>
-<h3 class:list={['projects-display', variant === 'feature' ? 'media-feature-title' : 'media-archive-title']}>
+<h2 class="projects-display media-title">
   <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.title}</a>
-</h3>
-<p class:list={['projects-body', variant === 'feature' ? 'media-feature-desc' : 'media-archive-desc']}>
-  {appearance.description}
-</p>
+</h2>
+<p class="projects-body media-desc">{appearance.description}</p>
 {
   (hasAlumni || hasProjects) && (
     <p class="projects-body media-people">
