@@ -884,7 +884,7 @@
     "highlight": false
   },
   {
-    "name": "FIPs",
+    "name": "FIPS",
     "description": "Fuck IPs using bloom filters",
     "cohort": "SEC-05",
     "link": "https://fips.network/",

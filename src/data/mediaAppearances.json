@@ -34,7 +34,7 @@
       "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226",
       "npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm"
     ],
-    "projectNames": ["FIPs"],
+    "projectNames": ["FIPS"],
     "tags": ["Sovereign Engineering", "Madeira", "Bitcoin", "Nostr", "FIPS"]
   },
   {
@@ -51,7 +51,7 @@
     "featured": false,
     "description": "Arjen and Sync join Open Markets to talk FIPS: mesh networking for decentralized connectivity, local community resilience, and protocol-first markets.",
     "alumniNpubs": ["npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr", "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6"],
-    "projectNames": ["FIPs", "Learn FIPS"],
+    "projectNames": ["FIPS", "Learn FIPS"],
     "tags": ["FIPS", "Mesh networking", "Open Markets", "Local resilience"]
   },
   {
@@ -68,7 +68,7 @@
     "featured": true,
     "description": "Arjen joins Citadel Dispatch to talk FIPS, an open-source mesh networking project for middleman-free internet: node identity, encrypted traffic, peer discovery, and sats-aware routing.",
     "alumniNpubs": ["npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr"],
-    "projectNames": ["FIPs", "Learn FIPS", "Tollgate"],
+    "projectNames": ["FIPS", "Learn FIPS", "Tollgate"],
     "tags": ["FIPS", "Mesh networking", "Infrastructure", "Nostr", "Tollgate"]
   },
   {

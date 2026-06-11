@@ -37,7 +37,7 @@ const wikifreedia = requireProject('NIP-54: Wiki / Wikifreedia');
 const nsite = requireProject('Nsite');
 const tollgate = requireProject('Tollgate');
 const castrMe = requireProject('castr.me');
-const fipsPrototype = requireProject('FIPs');
+const fipsPrototype = requireProject('FIPS');
 const nip60 = requireProject('NIP-60');
 const nip61 = requireProject('NIP-61');
 
