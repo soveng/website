@@ -242,15 +242,3 @@
     margin-top: 1rem;
   }
 }
-
-.media-separator {
-  margin: 5rem 0 0;
-}
-
-.media-separator img {
-  display: block;
-  width: min(100%, 32rem);
-  height: auto;
-  margin: 0 auto;
-  opacity: 0.92;
-}

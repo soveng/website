@@ -53,7 +53,6 @@ function resolveAppearance(appearance: MediaAppearance): ResolvedAppearance {
 }
 
 const appearances = getMediaAppearances().map(resolveAppearance);
-const mediaSeparatorImage = '/images/contest/separator-ship.png';
 ---
 
 <Base
@@ -98,10 +97,6 @@ const mediaSeparatorImage = '/images/contest/separator-ship.png';
             ))
           }
         </ol>
-
-        <figure class="media-separator" aria-hidden="true">
-          <img src={mediaSeparatorImage} alt="" width="2172" height="724" loading="lazy" decoding="async" />
-        </figure>
       </div>
     </section>
   </div>

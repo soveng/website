@@ -5,6 +5,7 @@ export interface MediaAppearance {
   title: string;
   source: string;
   episodeNumber: number;
+  language?: string;
   platform: 'Fountain' | 'YouTube';
   url: string;
   imageUrl: string;

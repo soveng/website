@@ -10,6 +10,7 @@ interface Props {
     headingLabel: string;
     dateLabel: string;
     durationLabel: string;
+    language?: string;
     description: string;
     alumni: LinkedEntity[];
     projects: LinkedEntity[];
@@ -25,6 +26,12 @@ const hasProjects = appearance.projects.length > 0;
   <div class="media-row-intro">
     <p class="media-meta">
       {appearance.dateLabel} <span class="media-meta-sep">·</span> {appearance.durationLabel}
+      {appearance.language && (
+        <>
+          {' '}
+          <span class="media-meta-sep">·</span> {appearance.language}
+        </>
+      )}
     </p>
     <h2 class="projects-display media-title">
       <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.headingLabel}</a>
