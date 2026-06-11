@@ -4,6 +4,7 @@ export interface MediaAppearance {
   id: string;
   title: string;
   source: string;
+  episodeNumber: number;
   platform: 'Fountain' | 'YouTube';
   url: string;
   imageUrl: string;
@@ -51,4 +52,12 @@ export function formatDuration(totalSeconds: number): string {
   }
 
   return `${minutes}m`;
+}
+
+export function formatEpisodeNumber(episodeNumber: number): string {
+  return `#${episodeNumber}`;
+}
+
+export function formatMediaAppearanceHeading(source: string, episodeNumber: number): string {
+  return `${source} ${formatEpisodeNumber(episodeNumber)}`;
 }

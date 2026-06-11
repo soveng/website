@@ -4,6 +4,7 @@ import MediaAppearanceBody from '@/components/MediaAppearanceBody.astro';
 import {
   formatDuration,
   formatMediaAppearanceDate,
+  formatMediaAppearanceHeading,
   getMediaAppearances,
   type MediaAppearance,
 } from '@/lib/mediaAppearances';
@@ -15,6 +16,7 @@ import '@/styles/media.css';
 type ResolvedAppearance = MediaAppearance & {
   dateLabel: string;
   durationLabel: string;
+  headingLabel: string;
   alumni: {
     name: string;
     npub: string;
@@ -31,6 +33,7 @@ function resolveAppearance(appearance: MediaAppearance): ResolvedAppearance {
     ...appearance,
     dateLabel: formatMediaAppearanceDate(appearance.publishedAt),
     durationLabel: formatDuration(appearance.durationSeconds),
+    headingLabel: formatMediaAppearanceHeading(appearance.source, appearance.episodeNumber),
     alumni: appearance.alumniNpubs
       .map((npub) => getSovEngAlumniByNpub(npub))
       .filter((profile): profile is NonNullable<typeof profile> => Boolean(profile))
@@ -67,12 +70,13 @@ const mediaSeparatorImage = '/images/contest/separator-ship.png';
           <div class="media-hero-copy">
             <p class="projects-eyebrow">Media appearances</p>
             <h1 class="projects-display projects-headline media-hero-title mt-4 text-white">External Dialogues</h1>
-            <p class="projects-body media-hero-lede mt-5 text-lg leading-relaxed text-gray-300">
+            <p class="projects-body media-hero-lede mt-5 text-lg leading-relaxed">
               Our <a
                 href="https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
                 target="_blank"
                 rel="noopener noreferrer">alumni</a
-              > show up on other people's podcasts from time to time, talking about what they built and why. We try to keep
+              > show up on other people's podcasts from time to time, talking about Sovereign Engineering and what they built
+              (and why). We try to keep
               track of these conversations here. You can find our "internal" dialogues at <a href="/podcast">No Solutions</a>.
             </p>
           </div>
@@ -89,9 +93,7 @@ const mediaSeparatorImage = '/images/contest/separator-ship.png';
                 <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-cover">
                   <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" />
                 </a>
-                <div class="media-row-body">
-                  <MediaAppearanceBody appearance={appearance} />
-                </div>
+                <MediaAppearanceBody appearance={appearance} />
               </li>
             ))
           }

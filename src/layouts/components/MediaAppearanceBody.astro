@@ -7,8 +7,7 @@ interface LinkedEntity {
 interface Props {
   appearance: {
     url: string;
-    title: string;
-    source: string;
+    headingLabel: string;
     dateLabel: string;
     durationLabel: string;
     description: string;
@@ -22,29 +21,36 @@ const hasAlumni = appearance.alumni.length > 0;
 const hasProjects = appearance.projects.length > 0;
 ---
 
-<p class="media-meta">
-  {appearance.source} <span class="media-meta-sep">·</span> {appearance.dateLabel}
-  <span class="media-meta-sep">·</span> {appearance.durationLabel}
-</p>
-<h2 class="projects-display media-title">
-  <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.title}</a>
-</h2>
-<p class="projects-body media-desc">{appearance.description}</p>
-{
-  (hasAlumni || hasProjects) && (
-    <p class="projects-body media-people">
-      {hasAlumni && (
-        <>
-          With{' '}
-          {appearance.alumni.map((profile, index) => (
-            <>{index > 0 && ', '}<a href={profile.href} target="_blank" rel="noopener noreferrer">{profile.name}</a></>
-          ))}
-        </>
-      )}
-      {hasAlumni && hasProjects && <span class="media-meta-sep"> · </span>}
-      {appearance.projects.map((project, index) => (
-        <>{index > 0 && ', '}<a href={project.href}>{project.name}</a></>
-      ))}
+<div class="media-row-body">
+  <div class="media-row-intro">
+    <p class="media-meta">
+      {appearance.dateLabel} <span class="media-meta-sep">·</span> {appearance.durationLabel}
     </p>
-  )
-}
+    <h2 class="projects-display media-title">
+      <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.headingLabel}</a>
+    </h2>
+  </div>
+  <p class="projects-body media-desc">{appearance.description}</p>
+  {
+    (hasAlumni || hasProjects) && (
+      <div class="media-row-meta">
+        {hasAlumni && (
+          <p class="projects-body media-people">
+            With{' '}
+            {appearance.alumni.map((profile, index) => (
+              <>{index > 0 && ', '}<a href={profile.href} target="_blank" rel="noopener noreferrer">{profile.name}</a></>
+            ))}
+          </p>
+        )}
+        {hasProjects && (
+          <p class="projects-body media-projects">
+            Projects:{' '}
+            {appearance.projects.map((project, index) => (
+              <>{index > 0 && ', '}<a href={project.href}>{project.name}</a></>
+            ))}
+          </p>
+        )}
+      </div>
+    )
+  }
+</div>
