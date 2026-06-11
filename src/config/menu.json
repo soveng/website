@@ -17,86 +17,48 @@
       "url": "",
       "hasChildren": true,
       "children": [
-        { "name": "Projects", "url": "/projects" },
-        { "name": "Philosophy", "url": "/philosophy" },
         { "name": "Concept", "url": "/concept" },
-        { "name": "Loop", "url": "/loop" },
-        { "name": "Timeline", "url": "/timeline" },
+        { "name": "Philosophy", "url": "/philosophy" },
+        { "name": "Projects", "url": "/projects" },
         { "name": "Podcast", "url": "/podcast" },
-        { "name": "Books", "url": "/books" },
-        { "name": "FAQ", "url": "/faq" },
-        { "name": "Policy", "url": "/policy" },
-        {
-          "name": "Swag",
-          "url": "/swag"
-        },
-        {
-          "name": "Contest",
-          "url": "/contest"
-        },
-        {
-          "name": "Media",
-          "url": "/media"
-        },
-        {
-          "name": "Gallery",
-          "url": "https://slidestr.net/p/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
-        },
-        {
-          "name": "Videos",
-          "url": "https://castr.me/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5"
-        },
-        {
-          "name": "Alumni",
-          "url": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
-        }
+        { "name": "Media", "url": "/media" },
+        { "name": "Swag", "url": "/swag" },
+        { "name": "FAQ", "url": "/faq" }
       ]
     }
   ],
-  "footer": [
-    {
-      "name": "Philosophy",
-      "url": "/philosophy"
-    },
-    {
-      "name": "Projects",
-      "url": "/projects"
-    },
-    {
-      "name": "Concept",
-      "url": "/concept"
-    },
-    {
-      "name": "Loop",
-      "url": "/loop"
-    },
-    {
-      "name": "About",
-      "url": "https://njump.to/sovereignengineering.io"
-    },
-    {
-      "name": "Contact",
-      "url": "mailto:info@sovereignengineering.io"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
-    },
-    {
-      "name": "Swag",
-      "url": "/swag"
-    },
-    {
-      "name": "Contest",
-      "url": "/contest"
-    },
-    {
-      "name": "Alumni",
-      "url": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
-    },
-    {
-      "name": "Podcast",
-      "url": "/podcast"
-    }
-  ]
+  "footer": {
+    "sections": [
+      {
+        "title": "Program",
+        "links": [
+          { "name": "Concept", "url": "/concept" },
+          { "name": "Philosophy", "url": "/philosophy" },
+          { "name": "Loop", "url": "/loop" },
+          { "name": "Timeline", "url": "/timeline" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          { "name": "Projects", "url": "/projects" },
+          { "name": "Podcast", "url": "/podcast" },
+          { "name": "Books", "url": "/books" },
+          { "name": "FAQ", "url": "/faq" }
+        ]
+      },
+      {
+        "title": "Community",
+        "links": [
+          { "name": "Swag", "url": "/swag" },
+          { "name": "Contest", "url": "/contest" },
+          { "name": "Media", "url": "/media" },
+          {
+            "name": "Alumni",
+            "url": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
+          }
+        ]
+      }
+    ]
+  }
 }
