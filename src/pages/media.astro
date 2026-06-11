@@ -1,0 +1,103 @@
+---
+import Base from '@/layouts/Base.astro';
+import MediaAppearanceBody from '@/components/MediaAppearanceBody.astro';
+import {
+  formatDuration,
+  formatMediaAppearanceDate,
+  formatMediaAppearanceHeading,
+  getMediaAppearances,
+  type MediaAppearance,
+} from '@/lib/mediaAppearances';
+import { getNostrProfileHref, getSovEngAlumniByNpub, getSovEngAlumniDisplayName } from '@/lib/sovengAlumni';
+import { getProjectArchiveHref, getProjectByName, type ShowcaseProject } from '@/lib/showcase';
+import '@/styles/projects.css';
+import '@/styles/media.css';
+
+type ResolvedAppearance = MediaAppearance & {
+  dateLabel: string;
+  durationLabel: string;
+  headingLabel: string;
+  alumni: {
+    name: string;
+    npub: string;
+    href: string;
+  }[];
+  projects: {
+    name: string;
+    href: string;
+  }[];
+};
+
+function resolveAppearance(appearance: MediaAppearance): ResolvedAppearance {
+  return {
+    ...appearance,
+    dateLabel: formatMediaAppearanceDate(appearance.publishedAt),
+    durationLabel: formatDuration(appearance.durationSeconds),
+    headingLabel: formatMediaAppearanceHeading(appearance.source, appearance.episodeNumber),
+    alumni: appearance.alumniNpubs
+      .map((npub) => getSovEngAlumniByNpub(npub))
+      .filter((profile): profile is NonNullable<typeof profile> => Boolean(profile))
+      .map((profile) => ({
+        name: getSovEngAlumniDisplayName(profile),
+        npub: profile.npub,
+        href: getNostrProfileHref(profile.npub),
+      })),
+    projects: appearance.projectNames
+      .map((name) => getProjectByName(name))
+      .filter((project): project is ShowcaseProject => Boolean(project))
+      .map((project) => ({
+        name: project.name,
+        href: getProjectArchiveHref(project),
+      })),
+  };
+}
+
+const appearances = getMediaAppearances().map(resolveAppearance);
+---
+
+<Base
+  title="External Dialogues"
+  meta_title="External Dialogues"
+  description="Podcast episodes and interviews with Sovereign Engineering alumni and their projects."
+  image="/images/project-highlights/nostr-wireframe.png"
+  showCallToAction={true}
+>
+  <div class="projects-page media-page">
+    <section class="media-hero bg-black pt-24 pb-14 text-white sm:pt-32 sm:pb-20">
+      <div class="container max-w-[1120px]">
+        <div class="media-hero-grid">
+          <div class="media-hero-copy">
+            <p class="projects-eyebrow">Media appearances</p>
+            <h1 class="projects-display projects-headline media-hero-title mt-4 text-white">External Dialogues</h1>
+            <p class="projects-body media-hero-lede mt-5 text-lg leading-relaxed">
+              Our <a
+                href="https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
+                target="_blank"
+                rel="noopener noreferrer">alumni</a
+              > show up on other people's podcasts from time to time, talking about Sovereign Engineering and what they built
+              (and why). We try to keep
+              track of these conversations here. You can find our "internal" dialogues at <a href="/podcast">No Solutions</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-black py-14 text-white sm:py-20">
+      <div class="container max-w-[1120px]">
+        <ol class="media-list">
+          {
+            appearances.map((appearance) => (
+              <li class="media-row">
+                <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-cover">
+                  <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" />
+                </a>
+                <MediaAppearanceBody appearance={appearance} />
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </section>
+  </div>
+</Base>
