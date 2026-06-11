@@ -1,5 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
+import MediaAppearanceBody from '@/components/MediaAppearanceBody.astro';
 import {
   formatDuration,
   formatMediaAppearanceDate,
@@ -22,14 +23,9 @@ type ResolvedAppearance = MediaAppearance & {
   }[];
   projects: {
     name: string;
-    cohort: string;
     href: string;
   }[];
 };
-
-function resolveProject(name: string): ShowcaseProject | undefined {
-  return getProjectByName(name);
-}
 
 function resolveAppearance(appearance: MediaAppearance): ResolvedAppearance {
   return {
@@ -45,11 +41,10 @@ function resolveAppearance(appearance: MediaAppearance): ResolvedAppearance {
         href: getNostrProfileHref(profile.npub),
       })),
     projects: appearance.projectNames
-      .map(resolveProject)
+      .map((name) => getProjectByName(name))
       .filter((project): project is ShowcaseProject => Boolean(project))
       .map((project) => ({
         name: project.name,
-        cohort: project.cohort,
         href: getProjectArchiveHref(project),
       })),
   };
@@ -89,50 +84,15 @@ const mediaSeparatorImage = '/images/contest/separator-ship.png';
           <p class="projects-eyebrow">Highlighted conversations</p>
         </div>
 
-        <div class="media-feature-grid">
+        <div class="media-feature-list">
           {
             featuredAppearances.map((appearance) => (
               <article class="media-feature-card">
-                <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-cover-link">
-                  <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" class="media-cover-image" />
+                <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-feature-cover">
+                  <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" />
                 </a>
-                <div class="media-card-topline">
-                  <span>{appearance.source}</span>
-                  <span>{appearance.platform}</span>
-                </div>
-                <h3 class="projects-display media-card-title">
-                  <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.title}</a>
-                </h3>
-                <p class="projects-body media-card-description">{appearance.description}</p>
-
-                <div class="media-meta-row" aria-label="Conversation details">
-                  <span>{appearance.dateLabel}</span>
-                  <span>{appearance.durationLabel}</span>
-                </div>
-
-                <div class="media-chip-group" aria-label="Alumni and alumni hosts in this conversation">
-                  {appearance.alumni.map((profile) => (
-                    <a href={profile.href} target="_blank" rel="noopener noreferrer" class="media-chip media-chip--alumni">
-                      {profile.name}
-                    </a>
-                  ))}
-                </div>
-
-                {appearance.projects.length > 0 && (
-                  <div class="media-project-row" aria-label="Related Sovereign Engineering projects">
-                    {appearance.projects.map((project) => (
-                      <a href={project.href} class="media-project-link">
-                        <span>{project.name}</span>
-                        <small>{project.cohort}</small>
-                      </a>
-                    ))}
-                  </div>
-                )}
-
-                <div class="media-tag-row" aria-label="Conversation tags">
-                  {appearance.tags.map((tag) => (
-                    <span>{tag}</span>
-                  ))}
+                <div class="media-feature-body">
+                  <MediaAppearanceBody appearance={appearance} variant="feature" />
                 </div>
               </article>
             ))
@@ -154,33 +114,8 @@ const mediaSeparatorImage = '/images/contest/separator-ship.png';
                 <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-archive-cover">
                   <img src={appearance.imageUrl} alt={appearance.imageAlt} loading="lazy" decoding="async" />
                 </a>
-                <div class="media-archive-date">
-                  <span>{appearance.dateLabel}</span>
-                  <small>{appearance.durationLabel}</small>
-                </div>
                 <div class="media-archive-main">
-                  <p class="media-card-topline">
-                    <span>{appearance.source}</span>
-                    <span>{appearance.platform}</span>
-                  </p>
-                  <h3 class="projects-display media-archive-title">
-                    <a href={appearance.url} target="_blank" rel="noopener noreferrer" class="media-title-link">{appearance.title}</a>
-                  </h3>
-                  <p class="projects-body media-archive-description">{appearance.description}</p>
-                  <div class="media-chip-group" aria-label="Alumni and alumni hosts in this conversation">
-                    {appearance.alumni.map((profile) => (
-                      <a href={profile.href} target="_blank" rel="noopener noreferrer" class="media-chip media-chip--alumni">
-                        {profile.name}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-                <div class="media-archive-side">
-                  <div class="media-tag-row" aria-label="Conversation tags">
-                    {appearance.tags.map((tag) => (
-                      <span>{tag}</span>
-                    ))}
-                  </div>
+                  <MediaAppearanceBody appearance={appearance} variant="archive" />
                 </div>
               </li>
             ))
