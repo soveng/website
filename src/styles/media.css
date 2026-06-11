@@ -21,6 +21,17 @@
   color: rgb(255 255 255 / 72%);
 }
 
+.media-hero-lede a {
+  color: rgb(255 255 255 / 90%);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  transition: color 150ms ease;
+}
+
+.media-hero-lede a:hover {
+  color: var(--color-primary);
+}
+
 .media-list {
   display: flex;
   flex-direction: column;
