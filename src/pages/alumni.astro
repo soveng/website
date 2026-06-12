@@ -1,26 +1,17 @@
 ---
 import Base from '@/layouts/Base.astro';
-import {
-  getAlumniProfileViewModel,
-  getSovEngAlumni,
-  getSovEngAlumniStats,
-  hasSourceLockedAssociationData,
-} from '@/lib/sovengAlumni';
+import { getAlumniProfileViewModel, getSovEngAlumni, getSovEngAlumniStats } from '@/lib/sovengAlumni';
 import '@/styles/projects.css';
 
 const alumni = getSovEngAlumni().map(getAlumniProfileViewModel);
 const stats = getSovEngAlumniStats();
-const hasAssociations = hasSourceLockedAssociationData();
 const sourceMembershipHref = alumni[0]?.sourceHref;
-const lastFetchedLabel = stats.lastFetchedAt
-  ? new Intl.DateTimeFormat('en', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(stats.lastFetchedAt))
-  : 'source locked';
 ---
 
 <Base
   title="SovEng Alumni"
   meta_title="SovEng Alumni"
-  description="A source-locked roll call of Sovereign Engineering alumni, preserving raw Nostr kind 0 profile events from the public follow-list."
+  description="Brave souls who participated in one of the SECs working towards builindg a better internet and advancing FreedomTech"
   image="/images/project-highlights/nostr-wireframe.png"
   showCallToAction={true}
 >
@@ -29,80 +20,30 @@ const lastFetchedLabel = stats.lastFetchedAt
       <div class="container max-w-[1120px]">
         <div class="alumni-hero-grid">
           <div>
-            <p class="projects-eyebrow">SovEng social graph</p>
+            <p class="projects-eyebrow">Social Graph</p>
             <h1 id="alumni-title" class="projects-display projects-headline mt-4 text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
-              Alumni
+              SovEng Alumni
             </h1>
             <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-              A public roll call of builders from the Sovereign Engineering orbit. Profiles are sourced from the approved Nostr follow-list and keep the raw
-              kind 0 events intact for deterministic review.
-            </p>
-          </div>
-
-          <aside class="alumni-manifest" aria-label="Alumni manifest provenance">
-            <p class="projects-eyebrow">Manifest</p>
-            <p class="manifest-copy projects-body">
-              No scraped biographies, no inferred SEC/project tags. Just the public follow-list plus each profile's latest source-locked kind 0 event.
+              Brave souls who participated in one of the SECs working towards builindg a better internet and advancing FreedomTech
             </p>
             {sourceMembershipHref && (
-              <a class="projects-link project-external-link--with-label" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
-                <span class="project-external-link__text">View source list</span>
+              <a class="alumni-source-link projects-link project-external-link--with-label mt-6" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
+                <span class="project-external-link__text">Nostr follow-list</span>
                 <span aria-hidden="true">↗</span>
               </a>
             )}
-          </aside>
-        </div>
+          </div>
 
-        <dl class="alumni-stats mt-10" aria-label="Alumni source stats">
-          <div>
-            <dt>Profiles</dt>
-            <dd>{stats.total}</dd>
+          <div class="alumni-total-count" aria-label={`${stats.total} SovEng alumni`}>
+            {stats.total}
           </div>
-          <div>
-            <dt>With bios</dt>
-            <dd>{stats.withAbout}</dd>
-          </div>
-          <div>
-            <dt>With avatars</dt>
-            <dd>{stats.withPicture}</dd>
-          </div>
-          <div>
-            <dt>Source refresh</dt>
-            <dd>{lastFetchedLabel}</dd>
-          </div>
-        </dl>
-
-        <div class="alumni-source-note projects-body mt-8">
-          <p>
-            Source membership:
-            {sourceMembershipHref ? (
-              <a href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">public Nostr follow-list</a>
-            ) : (
-              'public Nostr follow-list'
-            )}.
-          </p>
-          {!hasAssociations && <p>SEC/project/tag chips are intentionally hidden until those associations are backed by an approved canonical source.</p>}
         </div>
       </div>
     </section>
 
-    <section id="alumni-directory" class="alumni-directory bg-black py-16 text-white sm:py-20" aria-labelledby="alumni-directory-title">
+    <section id="alumni-directory" class="alumni-directory bg-black py-16 text-white sm:py-20" aria-label="Sovereign Engineering alumni profiles">
       <div class="container max-w-[1120px]">
-        <figure class="alumni-separator" aria-hidden="true">
-          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
-        </figure>
-
-        <div class="alumni-directory-header">
-          <div>
-            <p class="projects-eyebrow">Roll call</p>
-            <h2 id="alumni-directory-title" class="projects-display projects-headline mt-3 text-4xl text-white sm:text-5xl">Builders in the wild</h2>
-          </div>
-          <p class="projects-body alumni-directory-copy">
-            Open a Nostr profile, copy the npub, or pop the QR dialog. Cards are intentionally sparse: names, avatars, bios, and NIP-05 handles come only from
-            kind 0 metadata.
-          </p>
-        </div>
-
         <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
           {
             alumni.map((profile) => (
@@ -289,71 +230,11 @@ const lastFetchedLabel = stats.lastFetchedAt
     }
   }
 
-  .alumni-hero-lede,
-  .alumni-directory-copy {
+  .alumni-hero-lede {
     text-wrap: balance;
   }
 
-  .alumni-manifest {
-    border-left: 1px solid rgb(255 255 255 / 16%);
-    padding-left: 1.25rem;
-  }
-
-  .manifest-copy {
-    color: rgb(255 255 255 / 62%);
-    line-height: 1.55;
-    margin: 1rem 0 1.2rem;
-  }
-
-  .alumni-stats {
-    background: rgb(255 255 255 / 10%);
-    border: 1px solid rgb(255 255 255 / 10%);
-    display: grid;
-    gap: 1px;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    max-width: 860px;
-    overflow: hidden;
-  }
-
-  @media (min-width: 768px) {
-    .alumni-stats {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
-
-  .alumni-stats div {
-    background: #030303;
-    padding: 1rem;
-  }
-
-  .alumni-stats dt {
-    color: rgb(255 255 255 / 45%);
-    font-family: var(--font-primary);
-    font-size: 0.72rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-  }
-
-  .alumni-stats dd {
-    color: var(--color-primary);
-    font-family: var(--font-secondary);
-    font-size: clamp(1.8rem, 4vw, 3rem);
-    line-height: 1;
-    margin: 0.45rem 0 0;
-  }
-
-  .alumni-source-note {
-    color: rgb(255 255 255 / 58%);
-    display: grid;
-    gap: 0.35rem;
-    max-width: 860px;
-  }
-
-  .alumni-source-note p {
-    margin: 0;
-  }
-
-  .alumni-source-note a,
+  .alumni-source-link,
   .alumni-card a,
   .alumni-card button {
     transition:
@@ -363,50 +244,35 @@ const lastFetchedLabel = stats.lastFetchedAt
       transform 150ms ease;
   }
 
-  .alumni-source-note a {
+  .alumni-source-link {
     color: var(--color-primary);
+    display: inline-flex;
+    margin-top: 1.5rem;
     text-decoration: none;
     text-underline-offset: 0.2em;
   }
 
-  .alumni-source-note a:hover {
+  .alumni-source-link:hover {
     color: #fff;
     text-decoration: underline;
   }
 
-  .alumni-directory {
-    position: relative;
-  }
-
-  .alumni-separator {
-    margin: -2rem auto 2.5rem;
-    max-width: min(760px, 100%);
-    opacity: 0.64;
-  }
-
-  .alumni-separator img {
-    display: block;
-    height: auto;
-    width: 100%;
-  }
-
-  .alumni-directory-header {
-    align-items: end;
-    display: grid;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
+  .alumni-total-count {
+    color: var(--color-primary);
+    font-family: var(--font-secondary);
+    font-size: clamp(5rem, 18vw, 12rem);
+    line-height: 0.78;
+    text-align: left;
   }
 
   @media (min-width: 900px) {
-    .alumni-directory-header {
-      grid-template-columns: minmax(0, 0.9fr) minmax(320px, 0.7fr);
+    .alumni-total-count {
+      text-align: right;
     }
   }
 
-  .alumni-directory-copy {
-    color: rgb(255 255 255 / 58%);
-    line-height: 1.55;
-    margin: 0;
+  .alumni-directory {
+    position: relative;
   }
 
   .alumni-grid {
