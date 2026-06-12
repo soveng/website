@@ -4,6 +4,7 @@ import { existsSync, readFileSync } from 'node:fs';
 
 const pagePath = 'src/pages/alumni.astro';
 assert.equal(existsSync(pagePath), true, '/alumni route must exist');
+assert.equal(existsSync('public/images/copy-to-clipboard.svg'), true, 'copy-to-clipboard.svg icon asset must exist');
 
 const page = readFileSync(pagePath, 'utf8');
 assert.match(page, /<Base[\s\S]*meta_title="SovEng Alumni"/, 'alumni page should set Base metadata');
@@ -20,12 +21,19 @@ assert.match(page, /class="[^"]*alumni-total-count[^"]*"[\s\S]*\{stats\.total\}/
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
 assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
 assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
-assert.match(page, /id="alumni-qr-dialog"/, 'alumni route should include QR dialog markup');
-assert.match(page, /data-qr-src/, 'QR image src should be set from safe data attributes');
-assert.match(page, /class="alumni-dialog-copy"/, 'QR dialog should expose an explicit npub copy control');
-assert.match(page, /activeTrigger\.focus\(\)/, 'QR dialog should restore focus to its opener');
+assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-4 text-white sm:pt-20 sm:pb-6/, 'hero should keep top breathing room but tighten bottom gap');
+assert.match(page, /\.alumni-hero\s*\{[\s\S]*min-height:\s*0/, 'hero should not force tall viewport spacing');
+assert.match(page, /class="[^"]*alumni-directory bg-black pt-0 pb-16 text-white sm:pb-20/, 'directory should start immediately after hero');
+assert.match(page, /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/, 'card name should sit next to profile image');
+assert.match(page, /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-npub-copy/, 'npub copy control should sit under card name');
+assert.match(page, /class="[^"]*alumni-npub-copy[^"]*"[\s\S]*data-alumni-copy[\s\S]*data-npub=\{profile\.npub\}[\s\S]*\{profile\.npub\}[\s\S]*copy-to-clipboard\.svg/, 'npub and copy icon should be one clickable copy control');
+assert.match(page, /\.alumni-npub\s*\{[\s\S]*overflow-wrap:\s*anywhere/, 'full npub should wrap instead of truncating');
+assert.doesNotMatch(page, /\.alumni-npub\s*\{[\s\S]*text-overflow:\s*ellipsis/, 'npub text must not be visually ellipsized');
+assert.match(page, /navigator\.clipboard\.writeText\(value\)/, 'copy control should copy the npub');
+assert.match(page, /icon\.textContent = '✓'/, 'copy icon should turn into a tick after copying');
+assert.match(page, /classList\.add\('is-copied'\)/, 'copy control should expose copied visual state');
 assert.match(page, /data-alumni-avatar-image/, 'avatar images should have an error fallback hook');
-assert.match(page, /referrerpolicy="no-referrer"/, 'external profile/QR images should avoid leaking referrers');
+assert.match(page, /referrerpolicy="no-referrer"/, 'external profile images should avoid leaking referrers');
 assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');
 assert.doesNotMatch(page, /hasSourceLockedAssociationData/, 'association gate note should not render on the page');
 assert.doesNotMatch(page, /alumni-(?:sec|project|tag)-chip/, 'association chips must stay blocked until canonical data exists');
@@ -42,6 +50,9 @@ assert.doesNotMatch(page, /separator-ship\.png/, 'decorative separator between h
 assert.doesNotMatch(page, /class="[^"]*alumni-directory-header/, 'embellishment header between hero and grid should be removed');
 assert.doesNotMatch(page, />\s*Roll call\s*</, 'roll-call embellishment should be removed');
 assert.doesNotMatch(page, /Builders in the wild/, 'directory title embellishment should be removed');
+assert.doesNotMatch(page, /alumni-qr|data-alumni-qr|data-qr-src|qrImageHref|alumni-dialog|Profile QR|QR code/, 'QR UI and data should be removed from the route');
+assert.doesNotMatch(page, /kind 0|updatedLabel|updatedAt|<time\b/, 'kind 0 date line should be removed');
+assert.doesNotMatch(page, /alumni-card-foot/, 'old card footer line should be removed');
 assert.doesNotMatch(page, /following\.space\/d\/sier9e7ih6k2[^"\s<]*["']\s*>\s*Alumni/, 'route should not be a bare external follow-list link');
 
 const menu = JSON.parse(readFileSync('src/config/menu.json', 'utf8'));
