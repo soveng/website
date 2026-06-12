@@ -20,15 +20,12 @@ assert.match(page, /class="[^"]*alumni-total-count[^"]*"[\s\S]*\{stats\.total\}/
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
 assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
 assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
-assert.match(page, /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/, 'card name should sit next to profile image');
-assert.match(page, /class="[^"]*alumni-npub-row[\s\S]*\{profile\.npub\}[\s\S]*class="[^"]*alumni-copy-button[\s\S]*data-alumni-copy/, 'npub should render with adjacent copy icon button');
-assert.match(page, /navigator\.clipboard\.writeText\(value\)/, 'copy icon should copy the npub');
-assert.match(page, /\.alumni-card::before[\s\S]*radial-gradient/, 'cards should have sparse red star field background');
-assert.match(page, /\.alumni-card:hover::before[\s\S]*opacity:\s*0\.8/, 'hover should intensify red star field background');
-assert.match(page, /class="[^"]*alumni-directory bg-black py-8 text-white sm:py-10/, 'space between hero and cards should be reduced');
-assert.match(page, /class="[^"]*alumni-hero bg-black py-16 text-white sm:py-20/, 'hero height should be compact');
+assert.match(page, /id="alumni-qr-dialog"/, 'alumni route should include QR dialog markup');
+assert.match(page, /data-qr-src/, 'QR image src should be set from safe data attributes');
+assert.match(page, /class="alumni-dialog-copy"/, 'QR dialog should expose an explicit npub copy control');
+assert.match(page, /activeTrigger\.focus\(\)/, 'QR dialog should restore focus to its opener');
 assert.match(page, /data-alumni-avatar-image/, 'avatar images should have an error fallback hook');
-assert.match(page, /referrerpolicy="no-referrer"/, 'external profile images should avoid leaking referrers');
+assert.match(page, /referrerpolicy="no-referrer"/, 'external profile/QR images should avoid leaking referrers');
 assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');
 assert.doesNotMatch(page, /hasSourceLockedAssociationData/, 'association gate note should not render on the page');
 assert.doesNotMatch(page, /alumni-(?:sec|project|tag)-chip/, 'association chips must stay blocked until canonical data exists');
@@ -45,9 +42,6 @@ assert.doesNotMatch(page, /separator-ship\.png/, 'decorative separator between h
 assert.doesNotMatch(page, /class="[^"]*alumni-directory-header/, 'embellishment header between hero and grid should be removed');
 assert.doesNotMatch(page, />\s*Roll call\s*</, 'roll-call embellishment should be removed');
 assert.doesNotMatch(page, /Builders in the wild/, 'directory title embellishment should be removed');
-assert.doesNotMatch(page, /alumni-qr|data-alumni-qr|data-qr-src|qrImageHref|alumni-dialog|Profile QR|QR code/, 'QR UI and data should be removed from the route');
-assert.doesNotMatch(page, /kind 0|updatedLabel|updatedAt|<time\b/, 'kind 0 date line should be removed');
-assert.doesNotMatch(page, /alumni-card-foot/, 'old card footer line should be removed');
 assert.doesNotMatch(page, /following\.space\/d\/sier9e7ih6k2[^"\s<]*["']\s*>\s*Alumni/, 'route should not be a bare external follow-list link');
 
 const menu = JSON.parse(readFileSync('src/config/menu.json', 'utf8'));

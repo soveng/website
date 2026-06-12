@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import {
   getAlumniProfileViewModel,
   getNostrProfileHref,
+  getNostrProfileQrImageHref,
   getSafeExternalHref,
   getSafeProfileImageHref,
   getSovEngAlumni,
@@ -62,14 +63,15 @@ assert.equal(getSafeExternalHref('http://following.space/d/source'), undefined);
 assert.equal(getSafeExternalHref('https://user:***@following.space/d/source'), undefined);
 
 assert.equal(getNostrProfileHref(baseProfile.npub), `https://njump.me/${baseProfile.npub}`);
+const qrHref = getNostrProfileQrImageHref(baseProfile.npub);
+assert.ok(qrHref.includes('api.qrserver.com'), 'QR href should use QR image endpoint');
+assert.ok(qrHref.includes(encodeURIComponent(`nostr:${baseProfile.npub}`)), 'QR data should encode nostr URI');
 
 const viewModel = getAlumniProfileViewModel(baseProfile);
 assert.equal(viewModel.displayName, 'Builder McShipface');
 assert.equal(viewModel.handle, 'builder@example.com');
 assert.equal(viewModel.profileHref, `https://njump.me/${baseProfile.npub}`);
-assert.equal(Object.hasOwn(viewModel, 'qrImageHref'), false, 'view model should not expose QR data');
-assert.equal(Object.hasOwn(viewModel, 'updatedAt'), false, 'card kind 0 timestamp should not be exposed to route');
-assert.equal(Object.hasOwn(viewModel, 'updatedLabel'), false, 'card kind 0 label should not be exposed to route');
+assert.ok(viewModel.qrImageHref.includes(encodeURIComponent(`nostr:${baseProfile.npub}`)));
 assert.equal(viewModel.initials, 'BM');
 assert.equal(viewModel.picture, 'https://example.com/avatar.png');
 assert.equal(viewModel.about, 'Ships small tools for large freedoms.');
