@@ -50,6 +50,9 @@ export interface AlumniProfileViewModel {
   initials: string;
   profileHref: string;
   nostrUri: string;
+  qrImageHref: string;
+  updatedAt: string;
+  updatedLabel: string;
   sourceHref: string;
 }
 
@@ -78,6 +81,11 @@ function newestIsoDate(values: string[]): string {
     .sort((left, right) => right - left)[0];
 
   return newest === undefined ? '' : new Date(newest).toISOString();
+}
+
+function formatKind0Date(createdAt: number): string {
+  if (!Number.isFinite(createdAt) || createdAt <= 0) return 'unknown';
+  return new Intl.DateTimeFormat('en', { month: 'short', year: 'numeric', timeZone: 'UTC' }).format(new Date(createdAt * 1000));
 }
 
 function getInitials(displayName: string, npub: string): string {
@@ -147,6 +155,13 @@ export function getNostrProfileHref(npub: string): string {
   return `https://njump.me/${encodeURIComponent(npub)}`;
 }
 
+export function getNostrProfileQrImageHref(npub: string, size = 240): string {
+  const boundedSize = Math.min(Math.max(Math.round(size), 160), 480);
+  const nostrUri = `nostr:${npub}`;
+
+  return `https://api.qrserver.com/v1/create-qr-code/?size=${boundedSize}x${boundedSize}&margin=12&data=${encodeURIComponent(nostrUri)}`;
+}
+
 export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniProfileViewModel {
   const displayName = getSovEngAlumniDisplayName(profile);
   const handle =
@@ -164,6 +179,9 @@ export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniP
     initials: getInitials(displayName, profile.npub),
     profileHref: getNostrProfileHref(profile.npub),
     nostrUri: `nostr:${profile.npub}`,
+    qrImageHref: getNostrProfileQrImageHref(profile.npub),
+    updatedAt: new Date(profile.kind0.created_at * 1000).toISOString(),
+    updatedLabel: formatKind0Date(profile.kind0.created_at),
     sourceHref: getSafeExternalHref(profile.source.membershipSourceUrl) ?? '',
   };
 }

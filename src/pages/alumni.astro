@@ -16,7 +16,7 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   showCallToAction={true}
 >
   <div class="alumni-page">
-    <section class="alumni-hero bg-black py-16 text-white sm:py-20" aria-labelledby="alumni-title">
+    <section class="alumni-hero bg-black py-24 text-white sm:py-32" aria-labelledby="alumni-title">
       <div class="container max-w-[1120px]">
         <div class="alumni-hero-grid">
           <div>
@@ -42,7 +42,7 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
       </div>
     </section>
 
-    <section id="alumni-directory" class="alumni-directory bg-black py-8 text-white sm:py-10" aria-label="Sovereign Engineering alumni profiles">
+    <section id="alumni-directory" class="alumni-directory bg-black py-16 text-white sm:py-20" aria-label="Sovereign Engineering alumni profiles">
       <div class="container max-w-[1120px]">
         <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
           {
@@ -56,25 +56,35 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
                     </span>
                   </a>
 
-                  <div class="alumni-card-identity">
-                    <h3 class="projects-display alumni-card-title">
-                      <a href={profile.profileHref} target="_blank" rel="noopener noreferrer">
-                        {profile.displayName}
-                        <span aria-hidden="true">↗</span>
-                      </a>
-                    </h3>
-                    <p class="alumni-handle">{profile.handle}</p>
-                  </div>
-                </div>
-
-                <div class="alumni-npub-row">
-                  <span class="alumni-npub">{profile.npub}</span>
-                  <button type="button" class="alumni-copy-button" data-alumni-copy data-npub={profile.npub} aria-label={`Copy npub for ${profile.displayName}`} title="Copy npub">
-                    <span aria-hidden="true">⧉</span>
+                  <button
+                    type="button"
+                    class="alumni-qr-button"
+                    data-alumni-qr
+                    data-profile-name={profile.displayName}
+                    data-profile-href={profile.profileHref}
+                    data-npub={profile.npub}
+                    data-qr-src={profile.qrImageHref}
+                    aria-label={`Show QR code for ${profile.displayName}`}
+                  >
+                    QR
                   </button>
                 </div>
 
-                {profile.about ? <p class="projects-body alumni-about">{profile.about}</p> : <p class="projects-body alumni-about alumni-about--empty">No public bio.</p>}
+                <h3 class="projects-display alumni-card-title">
+                  <a href={profile.profileHref} target="_blank" rel="noopener noreferrer">
+                    {profile.displayName}
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </h3>
+                <p class="alumni-handle">{profile.handle}</p>
+                {profile.about ? <p class="projects-body alumni-about">{profile.about}</p> : <p class="projects-body alumni-about alumni-about--empty">No public bio in kind 0.</p>}
+
+                <footer class="alumni-card-foot">
+                  <time datetime={profile.updatedAt}>kind 0 · {profile.updatedLabel}</time>
+                  <a href={profile.profileHref} target="_blank" rel="noopener noreferrer" aria-label={`Open ${profile.displayName} Nostr profile`}>
+                    Profile
+                  </a>
+                </footer>
               </article>
             ))
           }
@@ -82,36 +92,98 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
       </div>
     </section>
 
+    <dialog id="alumni-qr-dialog" class="alumni-qr-dialog" aria-labelledby="alumni-qr-title">
+      <form method="dialog" class="alumni-qr-panel">
+        <button type="submit" class="alumni-dialog-close" aria-label="Close QR dialog">×</button>
+        <p class="projects-eyebrow">Nostr profile</p>
+        <h2 id="alumni-qr-title" class="projects-display projects-headline">Profile QR</h2>
+        <img class="alumni-qr-image" alt="" width="240" height="240" loading="lazy" decoding="async" referrerpolicy="no-referrer" />
+        <p class="alumni-dialog-npub projects-body"></p>
+        <div class="alumni-dialog-actions">
+          <button type="button" class="alumni-dialog-copy">Copy npub</button>
+          <a class="btn-retro alumni-dialog-link" href="#" target="_blank" rel="noopener noreferrer">Open on Nostr</a>
+        </div>
+      </form>
+    </dialog>
   </div>
 </Base>
 
 <script is:inline>
   (() => {
+    const dialog = document.getElementById('alumni-qr-dialog');
+    if (!(dialog instanceof HTMLDialogElement)) return;
+
+    const title = dialog.querySelector('#alumni-qr-title');
+    const image = dialog.querySelector('.alumni-qr-image');
+    const npub = dialog.querySelector('.alumni-dialog-npub');
+    const link = dialog.querySelector('.alumni-dialog-link');
+    const copy = dialog.querySelector('.alumni-dialog-copy');
+    let activeTrigger = null;
+
     document.querySelectorAll('[data-alumni-avatar-image]').forEach((avatarImage) => {
       if (!(avatarImage instanceof HTMLImageElement)) return;
       avatarImage.addEventListener('error', () => avatarImage.remove(), { once: true });
     });
 
-    document.querySelectorAll('[data-alumni-copy]').forEach((trigger) => {
-      if (!(trigger instanceof HTMLButtonElement)) return;
-      const icon = trigger.querySelector('[aria-hidden="true"]');
-      const defaultLabel = trigger.getAttribute('aria-label') || 'Copy npub';
-      trigger.addEventListener('click', async () => {
-        const value = trigger.dataset.npub?.trim();
+    document.querySelectorAll('[data-alumni-qr]').forEach((trigger) => {
+      if (!(trigger instanceof HTMLElement)) return;
+      trigger.addEventListener('click', () => {
+        const name = trigger.dataset.profileName || 'Nostr profile';
+        const qrSrc = trigger.dataset.qrSrc;
+        const profileHref = trigger.dataset.profileHref || '#';
+        const profileNpub = trigger.dataset.npub || '';
+        activeTrigger = trigger;
+
+        if (title) title.textContent = name;
+        if (image instanceof HTMLImageElement && qrSrc) {
+          image.src = qrSrc;
+          image.alt = `QR code for ${name}`;
+        }
+        if (npub) npub.textContent = profileNpub;
+        if (link instanceof HTMLAnchorElement) link.href = profileHref;
+        if (copy instanceof HTMLButtonElement) copy.textContent = 'Copy npub';
+
+        if (!dialog.open) dialog.showModal();
+      });
+    });
+
+    if (copy instanceof HTMLButtonElement) {
+      copy.addEventListener('click', async () => {
+        const value = npub?.textContent?.trim();
         if (!value) return;
         try {
           await navigator.clipboard.writeText(value);
-          if (icon) icon.textContent = '✓';
-          trigger.setAttribute('aria-label', 'Copied npub');
+          copy.textContent = 'Copied';
         } catch {
-          if (icon) icon.textContent = '!';
-          trigger.setAttribute('aria-label', 'Copy failed');
+          copy.textContent = 'Select npub';
         }
         window.setTimeout(() => {
-          if (icon) icon.textContent = '⧉';
-          trigger.setAttribute('aria-label', defaultLabel);
-        }, 1400);
+          if (dialog.open) copy.textContent = 'Copy npub';
+        }, 1600);
       });
+    }
+
+    dialog.addEventListener('click', (event) => {
+      if (event.target === dialog) dialog.close();
+    });
+
+    dialog.addEventListener('keydown', (event) => {
+      if (event.key !== 'Tab') return;
+      const focusable = [...dialog.querySelectorAll('button, a[href]')].filter((element) => element instanceof HTMLElement && !element.hasAttribute('disabled'));
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (!first || !last) return;
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
+
+    dialog.addEventListener('close', () => {
+      if (activeTrigger instanceof HTMLElement) activeTrigger.focus();
     });
   })();
 </script>
@@ -123,7 +195,7 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   }
 
   .alumni-hero {
-    min-height: 0;
+    min-height: 74vh;
     position: relative;
   }
 
@@ -213,62 +285,30 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   }
 
   .alumni-card {
-    background: #030303;
-    min-height: 16.5rem;
-    overflow: hidden;
-    padding: 1rem;
-    position: relative;
-  }
-
-  .alumni-card::before {
     background:
-      radial-gradient(circle at 12% 18%, color-mix(in srgb, var(--color-primary) 54%, transparent) 0 1px, transparent 1.8px),
-      radial-gradient(circle at 64% 24%, rgb(220 38 38 / 34%) 0 1px, transparent 1.6px),
-      radial-gradient(circle at 32% 74%, rgb(255 64 64 / 26%) 0 1px, transparent 1.7px),
-      radial-gradient(circle at 86% 62%, rgb(172 18 18 / 30%) 0 1px, transparent 1.8px);
-    background-size: 71px 59px, 113px 97px, 149px 131px, 191px 157px;
-    content: '';
-    inset: 0;
-    opacity: 0.34;
-    pointer-events: none;
-    position: absolute;
-    transition:
-      opacity 180ms ease,
-      transform 180ms ease;
-  }
-
-  .alumni-card::after {
-    background: linear-gradient(180deg, rgb(255 255 255 / 3%), transparent 42%);
-    content: '';
-    inset: 0;
-    pointer-events: none;
-    position: absolute;
-  }
-
-  .alumni-card:hover::before {
-    opacity: 0.8;
-    transform: scale(1.03);
+      linear-gradient(180deg, rgb(255 255 255 / 4%), transparent 38%),
+      #030303;
+    min-height: 19rem;
+    padding: 1rem;
   }
 
   .alumni-card:hover {
-    background: #050202;
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--color-primary) 9%, transparent), transparent 42%),
+      #050505;
   }
 
-  .alumni-card > * {
-    position: relative;
-    z-index: 1;
-  }
-
-  .alumni-card-top {
+  .alumni-card-top,
+  .alumni-card-foot {
     align-items: center;
     display: flex;
-    gap: 0.85rem;
+    gap: 1rem;
+    justify-content: space-between;
   }
 
   .alumni-avatar-link {
     color: inherit;
     display: inline-flex;
-    flex: 0 0 auto;
     text-decoration: none;
   }
 
@@ -306,14 +346,33 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
     border-color: var(--color-primary);
   }
 
-  .alumni-card-identity {
-    min-width: 0;
+  .alumni-qr-button {
+    align-items: center;
+    background: transparent;
+    border: 1px solid rgb(255 255 255 / 14%);
+    color: rgb(255 255 255 / 48%);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: var(--font-primary);
+    font-size: 0.68rem;
+    justify-content: center;
+    letter-spacing: 0.16em;
+    min-height: 2.75rem;
+    min-width: 2.75rem;
+    padding: 0.45rem 0.55rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-qr-button:hover,
+  .alumni-qr-button:focus-visible {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
   }
 
   .alumni-card-title {
-    font-size: 1.35rem;
+    font-size: 1.45rem;
     line-height: 1.05;
-    margin: 0;
+    margin: 1.1rem 0 0;
     text-transform: none;
   }
 
@@ -334,48 +393,8 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
     font-family: var(--font-primary);
     font-size: 0.78rem;
     letter-spacing: 0.04em;
-    margin: 0.35rem 0 0;
+    margin: 0.45rem 0 0;
     overflow-wrap: anywhere;
-  }
-
-  .alumni-npub-row {
-    align-items: center;
-    display: flex;
-    gap: 0.45rem;
-    margin-top: 0.95rem;
-    min-width: 0;
-  }
-
-  .alumni-npub {
-    color: rgb(255 255 255 / 36%);
-    flex: 1 1 auto;
-    font-family: var(--font-primary);
-    font-size: 0.72rem;
-    min-width: 0;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .alumni-copy-button {
-    align-items: center;
-    background: transparent;
-    border: 1px solid rgb(255 255 255 / 14%);
-    color: rgb(255 255 255 / 48%);
-    cursor: pointer;
-    display: inline-flex;
-    flex: 0 0 auto;
-    font-size: 0.95rem;
-    height: 2rem;
-    justify-content: center;
-    padding: 0;
-    width: 2rem;
-  }
-
-  .alumni-copy-button:hover,
-  .alumni-copy-button:focus-visible {
-    border-color: var(--color-primary);
-    color: var(--color-primary);
   }
 
   .alumni-about {
@@ -395,9 +414,134 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
     font-style: italic;
   }
 
+  .alumni-card-foot {
+    border-top: 1px solid rgb(255 255 255 / 8%);
+    color: rgb(255 255 255 / 34%);
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    margin-top: 1rem;
+    padding-top: 0.85rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-card-foot a {
+    color: rgb(255 255 255 / 50%);
+    text-decoration: none;
+  }
+
+  .alumni-card-foot a:hover,
+  .alumni-card-foot a:focus-visible {
+    color: var(--color-primary);
+  }
+
   .alumni-card a:focus-visible,
-  .alumni-card button:focus-visible {
+  .alumni-card button:focus-visible,
+  .alumni-dialog-close:focus-visible,
+  .alumni-dialog-copy:focus-visible,
+  .alumni-dialog-link:focus-visible {
     outline: 2px solid var(--color-primary);
     outline-offset: 3px;
+  }
+
+  .alumni-qr-dialog {
+    background: transparent;
+    border: 0;
+    color: #fff;
+    inset: 0;
+    margin: auto;
+    max-width: min(92vw, 420px);
+    padding: 0;
+    position: fixed;
+    width: min(92vw, 420px);
+  }
+
+  .alumni-qr-dialog::backdrop {
+    background: rgb(0 0 0 / 78%);
+    backdrop-filter: blur(8px);
+  }
+
+  .alumni-qr-panel {
+    background:
+      linear-gradient(180deg, rgb(255 255 255 / 8%), transparent 32%),
+      #050505;
+    border: 1px solid rgb(255 255 255 / 16%);
+    display: grid;
+    gap: 1rem;
+    padding: 1.25rem;
+    position: relative;
+    text-align: center;
+  }
+
+  .alumni-qr-panel h2 {
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0;
+    text-transform: none;
+  }
+
+  .alumni-dialog-close {
+    align-items: center;
+    background: transparent;
+    border: 0;
+    color: rgb(255 255 255 / 54%);
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 2rem;
+    height: 2.75rem;
+    justify-content: center;
+    line-height: 1;
+    position: absolute;
+    right: 0.45rem;
+    top: 0.35rem;
+    width: 2.75rem;
+  }
+
+  .alumni-dialog-close:hover {
+    color: var(--color-primary);
+  }
+
+  .alumni-qr-image {
+    background: #fff;
+    border: 8px solid #fff;
+    height: 240px;
+    justify-self: center;
+    width: 240px;
+  }
+
+  .alumni-dialog-npub {
+    color: rgb(255 255 255 / 62%);
+    font-size: 0.86rem;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-dialog-actions {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+  }
+
+  .alumni-dialog-copy {
+    background: transparent;
+    border: 1px solid rgb(255 255 255 / 18%);
+    color: rgb(255 255 255 / 68%);
+    cursor: pointer;
+    font-family: var(--font-primary);
+    font-size: 0.72rem;
+    letter-spacing: 0.14em;
+    min-height: 2.75rem;
+    padding: 0.7rem 0.9rem;
+    text-transform: uppercase;
+  }
+
+  .alumni-dialog-copy:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+
+  .alumni-dialog-link {
+    justify-self: center;
   }
 </style>
