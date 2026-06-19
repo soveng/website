@@ -33,7 +33,7 @@ assert.doesNotMatch(sparkleRule, /82%, transparent|1\.1px|1\.9px/, 'sparkle dots
 assert.match(page, /\.alumni-card:hover::before[^{]*\{[\s\S]*opacity:\s*1/, 'card hover should show full-card red sparkle overlay');
 assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-4 text-white sm:pt-20 sm:pb-6/, 'hero should keep top breathing room but tighten bottom gap');
 assert.match(page, /\.alumni-hero\s*\{[\s\S]*min-height:\s*0/, 'hero should not force tall viewport spacing');
-assert.match(page, /class="[^"]*alumni-directory bg-black pt-0 pb-16 text-white sm:pb-20/, 'directory should start immediately after hero');
+assert.match(page, /class="[^"]*alumni-directory bg-black pt-6 pb-16 text-white sm:pt-8 sm:pb-20/, 'directory should leave a small breathing gap before the grid');
 assert.match(page, /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/, 'card name should sit next to profile image');
 assert.match(page, /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-npub-copy/, 'npub copy control should sit under card name');
 assert.match(page, /class="[^"]*alumni-npub-copy[^"]*"[\s\S]*data-alumni-copy[\s\S]*data-npub=\{profile\.npub\}[\s\S]*\{profile\.npub\}[\s\S]*copy-to-clipboard\.svg/, 'npub and copy icon should be one clickable copy control');
