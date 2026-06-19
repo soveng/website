@@ -24,6 +24,7 @@ assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profil
 const alumniGridRule = page.match(/\.alumni-grid\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
 assert.doesNotMatch(alumniGridRule, /\bborder\s*:/, 'profile grid should not draw an outer border');
 assert.match(alumniGridRule, /gap:\s*0/, 'grid should avoid gap-based outer border artifacts');
+assert.match(alumniGridRule, /margin-top:\s*5mm/, 'grid should sit about 5mm below the top section');
 assert.match(page, /\.alumni-card::after\s*\{[\s\S]*linear-gradient\(to bottom[\s\S]*linear-gradient\(to right/, 'card separators should be internal fading lines');
 assert.match(page, /--sep-right[\s\S]*--sep-bottom/, 'separator rules should suppress outer grid edges');
 const sparkleRule = page.match(/\.alumni-card::before\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
