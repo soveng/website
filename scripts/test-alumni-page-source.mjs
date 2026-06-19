@@ -21,6 +21,16 @@ assert.match(page, /class="[^"]*alumni-total-count[^"]*"[\s\S]*\{stats\.total\}/
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
 assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
 assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
+const alumniGridRule = page.match(/\.alumni-grid\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
+assert.doesNotMatch(alumniGridRule, /\bborder\s*:/, 'profile grid should not draw an outer border');
+assert.match(alumniGridRule, /gap:\s*0/, 'grid should avoid gap-based outer border artifacts');
+assert.match(page, /\.alumni-card::after\s*\{[\s\S]*linear-gradient\(to bottom[\s\S]*linear-gradient\(to right/, 'card separators should be internal fading lines');
+assert.match(page, /--sep-right[\s\S]*--sep-bottom/, 'separator rules should suppress outer grid edges');
+const sparkleRule = page.match(/\.alumni-card::before\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
+assert.match(sparkleRule, /radial-gradient[\s\S]*var\(--color-primary\)/, 'cards should define red sparkle overlay');
+assert.match(sparkleRule, /0\.35px[\s\S]*0\.55px[\s\S]*0\.85px/, 'sparkle dots should use varied tiny sizes, not uniform dots');
+assert.doesNotMatch(sparkleRule, /82%, transparent|1\.1px|1\.9px/, 'sparkle dots should stay subtle, not oversized or over-bright');
+assert.match(page, /\.alumni-card:hover::before[^{]*\{[\s\S]*opacity:\s*1/, 'card hover should show full-card red sparkle overlay');
 assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-4 text-white sm:pt-20 sm:pb-6/, 'hero should keep top breathing room but tighten bottom gap');
 assert.match(page, /\.alumni-hero\s*\{[\s\S]*min-height:\s*0/, 'hero should not force tall viewport spacing');
 assert.match(page, /class="[^"]*alumni-directory bg-black pt-0 pb-16 text-white sm:pb-20/, 'directory should start immediately after hero');
@@ -33,6 +43,10 @@ assert.match(page, /navigator\.clipboard\.writeText\(value\)/, 'copy control sho
 assert.match(page, /icon\.textContent = '✓'/, 'copy icon should turn into a tick after copying');
 assert.match(page, /classList\.add\('is-copied'\)/, 'copy control should expose copied visual state');
 assert.match(page, /data-alumni-avatar-image/, 'avatar images should have an error fallback hook');
+assert.match(page, /width="64"[\s\S]*height="64"/, 'avatar images should declare dimensions to reduce layout shift');
+assert.match(page, /loading=\{index < 6 \? 'eager' : 'lazy'\}/, 'above-fold avatars should load eagerly while offscreen avatars stay lazy');
+assert.match(page, /fetchpriority=\{index < 3 \? 'high' : 'auto'\}/, 'first visible avatars should get higher fetch priority');
+assert.match(page, /contain:\s*layout paint/, 'cards should contain layout/paint without hiding visible content');
 assert.match(page, /referrerpolicy="no-referrer"/, 'external profile images should avoid leaking referrers');
 assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');
 assert.doesNotMatch(page, /hasSourceLockedAssociationData/, 'association gate note should not render on the page');
