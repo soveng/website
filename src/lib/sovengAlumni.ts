@@ -1,4 +1,5 @@
 import sovEngAlumniData from '@/data/sovengAlumni.js';
+import sovEngAlumniAvatarCacheData from '@/data/sovengAlumniAvatarCache.js';
 
 export type Npub = `npub1${string}`;
 
@@ -52,6 +53,23 @@ export interface AlumniProfileViewModel {
   nostrUri: string;
   sourceHref: string;
 }
+
+interface AlumniAvatarCacheEntry {
+  src?: string;
+  source?: string;
+  width?: number;
+  height?: number;
+  bytes?: number;
+  sha256?: string;
+}
+
+interface AlumniAvatarCacheData {
+  avatars?: Record<string, AlumniAvatarCacheEntry>;
+}
+
+const STATIC_AVATAR_PREFIX = '/images/alumni/avatars/';
+
+const alumniAvatarCache = sovEngAlumniAvatarCacheData as AlumniAvatarCacheData;
 
 const rawSovEngAlumni = sovEngAlumniData as unknown as SovEngAlumniProfile[];
 
@@ -128,6 +146,20 @@ export function getSafeProfileImageHref(value: unknown): string | undefined {
   }
 }
 
+function getCachedProfileImageHref(npub: string, sourcePicture: unknown): string | undefined {
+  const source = getSafeProfileImageHref(sourcePicture);
+  if (!source) return undefined;
+
+  const cached = alumniAvatarCache.avatars?.[npub];
+  if (!cached || cached.source !== source) return undefined;
+
+  const src = cleanText(cached.src);
+  if (!src) return undefined;
+  if (!src.startsWith(STATIC_AVATAR_PREFIX) || !src.endsWith('.webp')) return undefined;
+
+  return src;
+}
+
 export function getSafeExternalHref(value: unknown): string | undefined {
   const href = cleanText(value);
   if (!href) return undefined;
@@ -160,7 +192,7 @@ export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniP
     displayName,
     handle,
     about: cleanAbout(profile.about),
-    picture: getSafeProfileImageHref(profile.picture),
+    picture: getCachedProfileImageHref(profile.npub, profile.picture),
     initials: getInitials(displayName, profile.npub),
     profileHref: getNostrProfileHref(profile.npub),
     nostrUri: `nostr:${profile.npub}`,
@@ -175,7 +207,7 @@ export function getSovEngAlumniStats(): SovEngAlumniStats {
   return {
     total: allSovEngAlumni.length,
     withAbout: allSovEngAlumni.filter((profile) => cleanAbout(profile.about)).length,
-    withPicture: allSovEngAlumni.filter((profile) => getSafeProfileImageHref(profile.picture)).length,
+    withPicture: allSovEngAlumni.filter((profile) => getCachedProfileImageHref(profile.npub, profile.picture)).length,
     withNip05: allSovEngAlumni.filter((profile) => cleanText(profile.nip05)).length,
     sourceRelays,
     lastFetchedAt: newestIsoDate(allSovEngAlumni.map((profile) => profile.source.fetchedAt)),

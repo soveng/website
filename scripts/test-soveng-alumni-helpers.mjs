@@ -71,8 +71,14 @@ assert.equal(Object.hasOwn(viewModel, 'qrImageHref'), false, 'view model should 
 assert.equal(Object.hasOwn(viewModel, 'updatedAt'), false, 'card kind 0 timestamp should not be exposed to route');
 assert.equal(Object.hasOwn(viewModel, 'updatedLabel'), false, 'card kind 0 label should not be exposed to route');
 assert.equal(viewModel.initials, 'BM');
-assert.equal(viewModel.picture, 'https://example.com/avatar.png');
+assert.equal(viewModel.picture, undefined, 'uncached avatars must not fall back to remote image URLs');
 assert.equal(viewModel.about, 'Ships small tools for large freedoms.');
+
+const cachedAvatarProfile = getSovEngAlumni().find((profile) => getSafeProfileImageHref(profile.picture));
+assert.ok(cachedAvatarProfile, 'expected a source profile with an avatar');
+const cachedAvatarViewModel = getAlumniProfileViewModel(cachedAvatarProfile);
+assert.match(cachedAvatarViewModel.picture ?? '', /^\/images\/alumni\/avatars\/npub1.+\.webp$/, 'cached avatars should use local public assets');
+assert.doesNotMatch(cachedAvatarViewModel.picture ?? '', /^https?:\/\//, 'cached avatars should not render remote URLs');
 
 const stats = getSovEngAlumniStats();
 assert.equal(stats.total, getSovEngAlumni().length);

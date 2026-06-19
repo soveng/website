@@ -11,6 +11,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "check": "astro check",
+    "cache-alumni-avatars": "bun scripts/cache-alumni-avatars.mjs",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.astro",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix",
     "format": "prettier --write .",
