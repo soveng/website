@@ -51,10 +51,9 @@
       {
         "title": "Community",
         "links": [
+          { "name": "Alumni", "url": "/alumni" },
           { "name": "Swag", "url": "/swag" },
-          { "name": "Contest", "url": "/contest" },
-          { "name": "Media", "url": "/media" },
-          { "name": "Alumni", "url": "/alumni" }
+          { "name": "Media", "url": "/media" }
         ]
       }
     ]
