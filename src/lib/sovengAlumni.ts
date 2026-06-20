@@ -83,7 +83,7 @@ const OPENING_SEED_NPUBS = [
 ] as const satisfies readonly Npub[];
 
 const OPENING_SAMPLE_SIZE = 18;
-const DIRECTORY_ORDER_SEED = 'soveng-alumni-opening-v1';
+const DIRECTORY_ORDER_SEED = 'soveng-alumni-opening-v622';
 
 function cleanText(value: unknown): string | undefined {
   if (typeof value !== 'string') {
