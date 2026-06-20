@@ -73,6 +73,21 @@ const alumniAvatarCache = sovEngAlumniAvatarCacheData as AlumniAvatarCacheData;
 
 const rawSovEngAlumni = sovEngAlumniData as unknown as SovEngAlumniProfile[];
 
+const FAMILIAR_FACE_NPUBS = [
+  'npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr',
+  'npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg',
+  'npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226',
+  'npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9',
+  'npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc',
+  'npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr',
+  'npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k',
+  'npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft',
+  'npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx',
+  'npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk',
+  'npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6',
+  'npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz',
+] as const satisfies readonly Npub[];
+
 function cleanText(value: unknown): string | undefined {
   if (typeof value !== 'string') {
     return undefined;
@@ -122,9 +137,17 @@ export const allSovEngAlumni = [...rawSovEngAlumni].sort(
 );
 
 const alumniByNpub = new Map(allSovEngAlumni.map((profile) => [profile.npub, profile]));
+const familiarFaceNpubs = new Set<Npub>(FAMILIAR_FACE_NPUBS);
 
 export function getSovEngAlumni(): SovEngAlumniProfile[] {
   return [...allSovEngAlumni];
+}
+
+export function getSovEngAlumniDirectory(): SovEngAlumniProfile[] {
+  // Opening sample for visitor orientation, not rank. UI remains one unlabeled grid.
+  const familiarFaces = FAMILIAR_FACE_NPUBS.map((npub) => alumniByNpub.get(npub)).filter((profile): profile is SovEngAlumniProfile => Boolean(profile));
+  const remainingAlumni = allSovEngAlumni.filter((profile) => !familiarFaceNpubs.has(profile.npub));
+  return [...familiarFaces, ...remainingAlumni];
 }
 
 export function getSovEngAlumniByNpub(npub: string): SovEngAlumniProfile | undefined {
