@@ -1,9 +1,9 @@
 ---
 import Base from '@/layouts/Base.astro';
-import { getAlumniProfileViewModel, getSovEngAlumniDirectory, getSovEngAlumniStats } from '@/lib/sovengAlumni';
+import { getAlumniProfileViewModel, getSovEngAlumni, getSovEngAlumniStats } from '@/lib/sovengAlumni';
 import '@/styles/projects.css';
 
-const alumni = getSovEngAlumniDirectory().map(getAlumniProfileViewModel);
+const alumni = getSovEngAlumni().map(getAlumniProfileViewModel);
 const stats = getSovEngAlumniStats();
 const sourceMembershipHref = alumni[0]?.sourceHref;
 ---
