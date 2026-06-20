@@ -97,31 +97,43 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
 <script is:inline>
   (() => {
     document.querySelectorAll('[data-alumni-avatar-image]').forEach((avatarImage) => {
-      if (!(avatarImage instanceof HTMLImageElement)) return;
+      if (!(avatarImage instanceof HTMLImageElement)) {
+        return;
+      }
       avatarImage.addEventListener('error', () => avatarImage.remove(), { once: true });
     });
 
     document.querySelectorAll('[data-alumni-copy]').forEach((trigger) => {
-      if (!(trigger instanceof HTMLButtonElement)) return;
+      if (!(trigger instanceof HTMLButtonElement)) {
+        return;
+      }
       const icon = trigger.querySelector('.alumni-copy-icon');
       const defaultLabel = trigger.getAttribute('aria-label') || 'Copy npub';
       trigger.addEventListener('click', async () => {
         const value = trigger.dataset.npub?.trim();
-        if (!value) return;
+        if (!value) {
+          return;
+        }
         try {
           await navigator.clipboard.writeText(value);
           trigger.classList.add('is-copied');
           trigger.setAttribute('aria-label', 'Copied npub');
-          if (icon) icon.textContent = '✓';
+          if (icon) {
+            icon.textContent = '✓';
+          }
         } catch {
           trigger.classList.add('is-copy-failed');
           trigger.setAttribute('aria-label', 'Copy failed');
-          if (icon) icon.textContent = '!';
+          if (icon) {
+            icon.textContent = '!';
+          }
         }
         window.setTimeout(() => {
           trigger.classList.remove('is-copied', 'is-copy-failed');
           trigger.setAttribute('aria-label', defaultLabel);
-          if (icon) icon.textContent = '';
+          if (icon) {
+            icon.textContent = '';
+          }
         }, 1400);
       });
     });

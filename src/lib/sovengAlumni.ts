@@ -74,13 +74,17 @@ const alumniAvatarCache = sovEngAlumniAvatarCacheData as AlumniAvatarCacheData;
 const rawSovEngAlumni = sovEngAlumniData as unknown as SovEngAlumniProfile[];
 
 function cleanText(value: unknown): string | undefined {
-  if (typeof value !== 'string') return undefined;
+  if (typeof value !== 'string') {
+    return undefined;
+  }
   const cleaned = value.replace(/\s+/g, ' ').trim();
   return cleaned.length > 0 ? cleaned : undefined;
 }
 
 function cleanAbout(value: unknown): string | undefined {
-  if (typeof value !== 'string') return undefined;
+  if (typeof value !== 'string') {
+    return undefined;
+  }
   const cleaned = value.replace(/\s+\n/g, '\n').replace(/\n\s+/g, '\n').trim();
   return cleaned.length > 0 ? cleaned : undefined;
 }
@@ -133,13 +137,21 @@ export function getSovEngAlumniDisplayName(profile: Pick<SovEngAlumniProfile, 'd
 
 export function getSafeProfileImageHref(value: unknown): string | undefined {
   const imageHref = cleanText(value);
-  if (!imageHref) return undefined;
+  if (!imageHref) {
+    return undefined;
+  }
 
   try {
     const url = new URL(imageHref);
-    if (url.protocol !== 'https:') return undefined;
-    if (url.username || url.password) return undefined;
-    if (!url.hostname) return undefined;
+    if (url.protocol !== 'https:') {
+      return undefined;
+    }
+    if (url.username || url.password) {
+      return undefined;
+    }
+    if (!url.hostname) {
+      return undefined;
+    }
     return url.href;
   } catch {
     return undefined;
@@ -148,27 +160,43 @@ export function getSafeProfileImageHref(value: unknown): string | undefined {
 
 function getCachedProfileImageHref(npub: string, sourcePicture: unknown): string | undefined {
   const source = getSafeProfileImageHref(sourcePicture);
-  if (!source) return undefined;
+  if (!source) {
+    return undefined;
+  }
 
   const cached = alumniAvatarCache.avatars?.[npub];
-  if (!cached || cached.source !== source) return undefined;
+  if (!cached || cached.source !== source) {
+    return undefined;
+  }
 
   const src = cleanText(cached.src);
-  if (!src) return undefined;
-  if (!src.startsWith(STATIC_AVATAR_PREFIX) || !src.endsWith('.webp')) return undefined;
+  if (!src) {
+    return undefined;
+  }
+  if (!src.startsWith(STATIC_AVATAR_PREFIX) || !src.endsWith('.webp')) {
+    return undefined;
+  }
 
   return src;
 }
 
 export function getSafeExternalHref(value: unknown): string | undefined {
   const href = cleanText(value);
-  if (!href) return undefined;
+  if (!href) {
+    return undefined;
+  }
 
   try {
     const url = new URL(href);
-    if (url.protocol !== 'https:') return undefined;
-    if (url.username || url.password) return undefined;
-    if (!url.hostname) return undefined;
+    if (url.protocol !== 'https:') {
+      return undefined;
+    }
+    if (url.username || url.password) {
+      return undefined;
+    }
+    if (!url.hostname) {
+      return undefined;
+    }
     return url.href;
   } catch {
     return undefined;
