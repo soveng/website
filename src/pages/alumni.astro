@@ -1,5 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
+import alumniSocialImage from '@/assets/images/endurance-crew-playing-football.jpg';
 import { getAlumniProfileViewModel, getSovEngAlumniDirectory, getSovEngAlumniStats } from '@/lib/sovengAlumni';
 import '@/styles/projects.css';
 
@@ -12,7 +13,7 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   title="SovEng Alumni"
   meta_title="SovEng Alumni"
   description="Brave souls who participated in one of the SECs working towards builindg a better internet and advancing FreedomTech"
-  image="/images/alumni-social-preview.png"
+  image={alumniSocialImage.src}
   showCallToAction={true}
 >
   <div class="alumni-page">
