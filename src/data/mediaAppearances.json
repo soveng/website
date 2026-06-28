@@ -1,5 +1,21 @@
 [
   {
+    "id": "good-stuff-62-ai-for-freedom-tech",
+    "title": "Good Stuff 62 - AI for Freedom Tech",
+    "source": "The Good Stuff",
+    "platform": "YouTube",
+    "url": "https://www.youtube.com/watch?v=52mfysb9MRk",
+    "imageUrl": "https://i.ytimg.com/vi/52mfysb9MRk/maxresdefault.jpg",
+    "imageAlt": "The Good Stuff video thumbnail",
+    "publishedAt": "2026-06-17T23:00:26.000Z",
+    "durationSeconds": 3822,
+    "featured": false,
+    "description": "Yo joins The Good Stuff to discuss AI for freedom tech: the SEC-04 wallet demo, LLM limits, Claude as a reviewed teammate, FIPS, and YOLO++.",
+    "alumniNpubs": ["npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm"],
+    "projectNames": ["FIPs"],
+    "tags": ["AI", "Freedom Tech", "Sovereign Engineering", "FIPS", "YOLO++"]
+  },
+  {
     "id": "open-markets-7-yo-hoho-sovereign-engineering",
     "title": "#7 Yo hoho 🏴‍☠️ Sovereign Engineering",
     "source": "Open Markets Podcast",
