@@ -4,12 +4,12 @@ import { existsSync, readFileSync } from 'node:fs';
 
 const pagePath = 'src/pages/alumni.astro';
 assert.equal(existsSync(pagePath), true, '/alumni route must exist');
-assert.equal(existsSync('public/images/copy-to-clipboard.svg'), true, 'copy-to-clipboard.svg icon asset must exist');
+assert.equal(existsSync('public/images/copy-to-clipboard.svg'), false, 'unused copy icon asset should be removed');
 
 const page = readFileSync(pagePath, 'utf8');
-assert.match(page, /<Base[\s\S]*meta_title="SovEng Alumni"/, 'alumni page should set Base metadata');
-assert.match(page, />\s*Social Graph\s*</, 'hero eyebrow should be Social Graph');
-assert.match(page, /<h1[^>]*id="alumni-title"[\s\S]*SovEng Alumni[\s\S]*<\/h1>/, 'hero title should be SovEng Alumni');
+assert.match(page, /<Base[\s\S]*meta_title="Alumni"/, 'alumni page should set Base metadata');
+assert.doesNotMatch(page, />\s*Social Graph\s*</, 'hero eyebrow should be removed');
+assert.match(page, /<h1[^>]*id="alumni-title"[\s\S]*Alumni[\s\S]*<\/h1>/, 'hero title should be Alumni');
 assert.match(
   page,
   /Builders, designers, and founders from Sovereign Engineering working on a freer internet with Bitcoin, Nostr, and open protocols\./,
@@ -37,26 +37,16 @@ assert.match(
   /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/,
   'card name should sit next to profile image'
 );
-assert.match(
-  page,
-  /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-handle[\s\S]*alumni-npub-copy/,
-  'handle and copy control should sit under card name'
-);
+assert.match(page, /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-handle/, 'handle should sit under the card name');
 assert.match(
   page,
   /class="[^"]*alumni-card-title[^"]*"[\s\S]*fa-arrow-up-right-from-square/,
   'card title link should use the smaller FontAwesome external-link icon'
 );
 assert.match(page, /class="[^"]*alumni-handle[^"]*"[\s\S]*\{profile\.handle\}/, 'card should show the compact handle line');
-assert.match(
-  page,
-  /class="[^"]*alumni-npub-copy[^"]*"[\s\S]*data-alumni-copy[\s\S]*data-npub=\{profile\.npub\}[\s\S]*Copy npub[\s\S]*copy-to-clipboard\.svg/,
-  'copy control should keep the action while hiding the full npub'
-);
 assert.doesNotMatch(page, /\{profile\.npub\}<\/span>/, 'full npub text should no longer render in the card body');
-assert.match(page, /navigator\.clipboard\.writeText\(value\)/, 'copy control should copy the npub');
-assert.match(page, /icon\.textContent = '✓'/, 'copy icon should turn into a tick after copying');
-assert.match(page, /classList\.add\('is-copied'\)/, 'copy control should expose copied visual state');
+assert.doesNotMatch(page, /alumni-npub-copy|data-alumni-copy|Copy npub|copy-to-clipboard\.svg/, 'copy npub UI and wiring should be removed');
+assert.doesNotMatch(page, /navigator\.clipboard\.writeText\(value\)|is-copied|is-copy-failed/, 'clipboard logic should be removed');
 assert.match(page, /data-alumni-avatar-image/, 'avatar images should have an error fallback hook');
 assert.match(page, /width="64"[\s\S]*height="64"/, 'avatar images should declare dimensions to reduce layout shift');
 assert.match(page, /loading=\{index < 6 \? 'eager' : 'lazy'\}/, 'above-fold avatars should load eagerly while offscreen avatars stay lazy');
