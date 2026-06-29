@@ -73,18 +73,6 @@ const alumniAvatarCache = sovEngAlumniAvatarCacheData as AlumniAvatarCacheData;
 
 const rawSovEngAlumni = sovEngAlumniData as unknown as SovEngAlumniProfile[];
 
-const OPENING_SEED_NPUBS = [
-  'npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg',
-  'npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr',
-  'npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k',
-  'npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk',
-  'npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9',
-  'npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr',
-] as const satisfies readonly Npub[];
-
-const OPENING_SAMPLE_SIZE = 18;
-const DIRECTORY_ORDER_SEED = 'soveng-alumni-opening-v622';
-
 function cleanText(value: unknown): string | undefined {
   if (typeof value !== 'string') {
     return undefined;
@@ -128,43 +116,19 @@ function getInitials(displayName: string, npub: string): string {
   return initials || npub.slice(5, 7).toUpperCase();
 }
 
-function hashText(value: string): number {
-  let hash = 2166136261;
-  for (let index = 0; index < value.length; index += 1) {
-    hash ^= value.charCodeAt(index);
-    hash = Math.imul(hash, 16777619);
-  }
-  return hash >>> 0;
-}
-
-function orderBySeed(profiles: SovEngAlumniProfile[], seed: string): SovEngAlumniProfile[] {
-  return [...profiles].sort((left, right) => hashText(`${seed}:${left.npub}`) - hashText(`${seed}:${right.npub}`) || left.npub.localeCompare(right.npub));
-}
-
 export const allSovEngAlumni = [...rawSovEngAlumni].sort(
   (left, right) =>
     getSovEngAlumniDisplayName(left).localeCompare(getSovEngAlumniDisplayName(right), undefined, { sensitivity: 'base' }) || left.npub.localeCompare(right.npub)
 );
 
 const alumniByNpub = new Map(allSovEngAlumni.map((profile) => [profile.npub, profile]));
-const openingSeedNpubs = new Set<Npub>(OPENING_SEED_NPUBS);
 
 export function getSovEngAlumni(): SovEngAlumniProfile[] {
   return [...allSovEngAlumni];
 }
 
 export function getSovEngAlumniDirectory(): SovEngAlumniProfile[] {
-  // Opening sample nudges first screen for visitor orientation, not rank. UI remains one unlabeled grid.
-  const seedProfiles = OPENING_SEED_NPUBS.map((npub) => alumniByNpub.get(npub)).filter((profile): profile is SovEngAlumniProfile => Boolean(profile));
-  const generalPool = allSovEngAlumni.filter((profile) => !openingSeedNpubs.has(profile.npub));
-  const generalSampleSize = Math.max(OPENING_SAMPLE_SIZE - seedProfiles.length, 0);
-  const openingSample = orderBySeed(
-    [...orderBySeed(seedProfiles, `${DIRECTORY_ORDER_SEED}:seed`), ...orderBySeed(generalPool, `${DIRECTORY_ORDER_SEED}:pool`).slice(0, generalSampleSize)],
-    `${DIRECTORY_ORDER_SEED}:opening`
-  );
-  const openingNpubs = new Set(openingSample.map((profile) => profile.npub));
-  const remainingAlumni = allSovEngAlumni.filter((profile) => !openingNpubs.has(profile.npub));
-  return [...openingSample, ...remainingAlumni];
+  return [...allSovEngAlumni];
 }
 
 export function getSovEngAlumniByNpub(npub: string): SovEngAlumniProfile | undefined {
@@ -244,7 +208,7 @@ export function getSafeExternalHref(value: unknown): string | undefined {
 }
 
 export function getNostrProfileHref(npub: string): string {
-  return `https://njump.me/${encodeURIComponent(npub)}`;
+  return `https://njump.to/${encodeURIComponent(npub)}`;
 }
 
 export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniProfileViewModel {

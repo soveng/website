@@ -12,34 +12,48 @@ assert.match(page, />\s*Social Graph\s*</, 'hero eyebrow should be Social Graph'
 assert.match(page, /<h1[^>]*id="alumni-title"[\s\S]*SovEng Alumni[\s\S]*<\/h1>/, 'hero title should be SovEng Alumni');
 assert.match(
   page,
-  /Brave souls who participated in one of the SECs working towards builindg a better internet and advancing FreedomTech/,
-  'hero lede should use requested copy',
+  /Builders, designers, and founders from Sovereign Engineering working on a freer internet with Bitcoin, Nostr, and open protocols\./,
+  'hero lede should use the tightened alumni copy'
 );
-assert.match(page, /class="[^"]*alumni-source-link[^"]*"[\s\S]*Nostr follow-list[\s\S]*↗/, 'source link should sit under hero copy with arrow');
-assert.match(page, /getSovEngAlumniStats/, 'alumni route should render the total alumni count');
-assert.match(page, /class="[^"]*alumni-total-count[^"]*"[\s\S]*\{stats\.total\}/, 'hero should display total count without a visible title');
+assert.match(
+  page,
+  /class="[^"]*alumni-source-link[^"]*"[\s\S]*Nostr follow-list[\s\S]*fa-arrow-up-right-from-square/,
+  'source link should sit under hero copy with the shared external-link icon'
+);
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
 assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
 assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
 const alumniGridRule = page.match(/\.alumni-grid\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
-assert.doesNotMatch(alumniGridRule, /\bborder\s*:/, 'profile grid should not draw an outer border');
-assert.match(alumniGridRule, /gap:\s*0/, 'grid should avoid gap-based outer border artifacts');
-assert.match(alumniGridRule, /margin-top:\s*5mm/, 'grid should sit about 5mm below the top section');
-assert.match(page, /\.alumni-card::after\s*\{[\s\S]*linear-gradient\(to bottom[\s\S]*linear-gradient\(to right/, 'card separators should be internal fading lines');
-assert.match(page, /--sep-right[\s\S]*--sep-bottom/, 'separator rules should suppress outer grid edges');
-const sparkleRule = page.match(/\.alumni-card::before\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
-assert.match(sparkleRule, /radial-gradient[\s\S]*var\(--color-primary\)/, 'cards should define red sparkle overlay');
-assert.match(sparkleRule, /0\.35px[\s\S]*0\.55px[\s\S]*0\.85px/, 'sparkle dots should use varied tiny sizes, not uniform dots');
-assert.doesNotMatch(sparkleRule, /82%, transparent|1\.1px|1\.9px/, 'sparkle dots should stay subtle, not oversized or over-bright');
-assert.match(page, /\.alumni-card:hover::before[^{]*\{[\s\S]*opacity:\s*1/, 'card hover should show full-card red sparkle overlay');
-assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-4 text-white sm:pt-20 sm:pb-6/, 'hero should keep top breathing room but tighten bottom gap');
+assert.match(alumniGridRule, /gap:\s*1rem/, 'grid should use breathing room between cards');
+assert.doesNotMatch(alumniGridRule, /margin-top:/, 'grid should not need extra offset hacks');
+assert.match(page, /\.alumni-card\s*\{[\s\S]*border:\s*1px solid rgb\(255 255 255 \/ 9%\)/, 'cards should use a simple subtle border');
+assert.match(page, /\.alumni-card:hover\s*\{[\s\S]*border-color:\s*rgb\(255 255 255 \/ 18%\)/, 'card hover should stay restrained');
+assert.doesNotMatch(page, /\.alumni-card::before|\.alumni-card::after/, 'card sparkle and separator overlays should be removed');
+assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-6 text-white sm:pt-20 sm:pb-8/, 'hero should keep the simplified spacing');
 assert.match(page, /\.alumni-hero\s*\{[\s\S]*min-height:\s*0/, 'hero should not force tall viewport spacing');
-assert.match(page, /class="[^"]*alumni-directory bg-black pt-6 pb-16 text-white sm:pt-8 sm:pb-20/, 'directory should leave a small breathing gap before the grid');
-assert.match(page, /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/, 'card name should sit next to profile image');
-assert.match(page, /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-npub-copy/, 'npub copy control should sit under card name');
-assert.match(page, /class="[^"]*alumni-npub-copy[^"]*"[\s\S]*data-alumni-copy[\s\S]*data-npub=\{profile\.npub\}[\s\S]*\{profile\.npub\}[\s\S]*copy-to-clipboard\.svg/, 'npub and copy icon should be one clickable copy control');
-assert.match(page, /\.alumni-npub\s*\{[\s\S]*overflow-wrap:\s*anywhere/, 'full npub should wrap instead of truncating');
-assert.doesNotMatch(page, /\.alumni-npub\s*\{[\s\S]*text-overflow:\s*ellipsis/, 'npub text must not be visually ellipsized');
+assert.match(page, /class="[^"]*alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20/, 'directory should sit tighter under the hero');
+assert.match(
+  page,
+  /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/,
+  'card name should sit next to profile image'
+);
+assert.match(
+  page,
+  /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-handle[\s\S]*alumni-npub-copy/,
+  'handle and copy control should sit under card name'
+);
+assert.match(
+  page,
+  /class="[^"]*alumni-card-title[^"]*"[\s\S]*fa-arrow-up-right-from-square/,
+  'card title link should use the smaller FontAwesome external-link icon'
+);
+assert.match(page, /class="[^"]*alumni-handle[^"]*"[\s\S]*\{profile\.handle\}/, 'card should show the compact handle line');
+assert.match(
+  page,
+  /class="[^"]*alumni-npub-copy[^"]*"[\s\S]*data-alumni-copy[\s\S]*data-npub=\{profile\.npub\}[\s\S]*Copy npub[\s\S]*copy-to-clipboard\.svg/,
+  'copy control should keep the action while hiding the full npub'
+);
+assert.doesNotMatch(page, /\{profile\.npub\}<\/span>/, 'full npub text should no longer render in the card body');
 assert.match(page, /navigator\.clipboard\.writeText\(value\)/, 'copy control should copy the npub');
 assert.match(page, /icon\.textContent = '✓'/, 'copy icon should turn into a tick after copying');
 assert.match(page, /classList\.add\('is-copied'\)/, 'copy control should expose copied visual state');
@@ -50,6 +64,8 @@ assert.match(page, /fetchpriority=\{index < 3 \? 'high' : 'auto'\}/, 'first visi
 assert.match(page, /contain:\s*layout paint/, 'cards should contain layout/paint without hiding visible content');
 assert.match(page, /referrerpolicy="no-referrer"/, 'external profile images should avoid leaking referrers');
 assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');
+assert.doesNotMatch(page, /getSovEngAlumniStats|alumni-total-count/, 'page should no longer render the big alumni count');
+assert.doesNotMatch(page, /↗/, 'page should use the shared icon instead of raw arrow glyphs');
 assert.doesNotMatch(page, /hasSourceLockedAssociationData/, 'association gate note should not render on the page');
 assert.doesNotMatch(page, /alumni-(?:sec|project|tag)-chip/, 'association chips must stay blocked until canonical data exists');
 assert.doesNotMatch(page, /SEC\/project\/tag chips are intentionally hidden/, 'association source note should be removed');
@@ -65,16 +81,18 @@ assert.doesNotMatch(page, /separator-ship\.png/, 'decorative separator between h
 assert.doesNotMatch(page, /class="[^"]*alumni-directory-header/, 'embellishment header between hero and grid should be removed');
 assert.doesNotMatch(page, />\s*Roll call\s*</, 'roll-call embellishment should be removed');
 assert.doesNotMatch(page, /Builders in the wild/, 'directory title embellishment should be removed');
-assert.doesNotMatch(page, /alumni-qr|data-alumni-qr|data-qr-src|qrImageHref|alumni-dialog|Profile QR|QR code/, 'QR UI and data should be removed from the route');
+assert.doesNotMatch(
+  page,
+  /alumni-qr|data-alumni-qr|data-qr-src|qrImageHref|alumni-dialog|Profile QR|QR code/,
+  'QR UI and data should be removed from the route'
+);
 assert.doesNotMatch(page, /kind 0|updatedLabel|updatedAt|<time\b/, 'kind 0 date line should be removed');
 assert.doesNotMatch(page, /alumni-card-foot/, 'old card footer line should be removed');
 assert.doesNotMatch(page, /following\.space\/d\/sier9e7ih6k2[^"\s<]*["']\s*>\s*Alumni/, 'route should not be a bare external follow-list link');
 
 const menu = JSON.parse(readFileSync('src/config/menu.json', 'utf8'));
 const mainAlumni = menu.main.flatMap((item) => (Array.isArray(item.children) ? item.children : [item])).find((item) => item.name === 'Alumni');
-const footerLinks = Array.isArray(menu.footer)
-  ? menu.footer
-  : menu.footer.sections.flatMap((section) => section.links);
+const footerLinks = Array.isArray(menu.footer) ? menu.footer : menu.footer.sections.flatMap((section) => section.links);
 const footerAlumni = footerLinks.find((item) => item.name === 'Alumni');
 
 assert.equal(mainAlumni?.url, '/alumni', 'main Alumni nav should point to local route');

@@ -1,49 +1,41 @@
 ---
 import Base from '@/layouts/Base.astro';
 import alumniSocialImage from '@/assets/images/endurance-crew-playing-football.jpg';
-import { getAlumniProfileViewModel, getSovEngAlumniDirectory, getSovEngAlumniStats } from '@/lib/sovengAlumni';
+import { getAlumniProfileViewModel, getSovEngAlumniDirectory } from '@/lib/sovengAlumni';
 import '@/styles/projects.css';
 
 const alumni = getSovEngAlumniDirectory().map(getAlumniProfileViewModel);
-const stats = getSovEngAlumniStats();
 const sourceMembershipHref = alumni[0]?.sourceHref;
+const heroCopy = 'Builders, designers, and founders from Sovereign Engineering working on a freer internet with Bitcoin, Nostr, and open protocols.';
 ---
 
 <Base
   title="SovEng Alumni"
   meta_title="SovEng Alumni"
-  description="Brave souls who participated in one of the SECs working towards builindg a better internet and advancing FreedomTech"
+  description={heroCopy}
   image={alumniSocialImage.src}
   showCallToAction={true}
 >
   <div class="alumni-page">
-    <section class="alumni-hero bg-black pt-16 pb-4 text-white sm:pt-20 sm:pb-6" aria-labelledby="alumni-title">
+    <section class="alumni-hero bg-black pt-16 pb-6 text-white sm:pt-20 sm:pb-8" aria-labelledby="alumni-title">
       <div class="container max-w-[1120px]">
-        <div class="alumni-hero-grid">
-          <div>
-            <p class="projects-eyebrow">Social Graph</p>
-            <h1 id="alumni-title" class="projects-display projects-headline mt-4 text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
-              SovEng Alumni
-            </h1>
-            <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">
-              Brave souls who participated in one of the SECs working towards builindg a better internet and advancing FreedomTech
-            </p>
-            {sourceMembershipHref && (
-              <a class="alumni-source-link projects-link project-external-link--with-label mt-6" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
-                <span class="project-external-link__text">Nostr follow-list</span>
-                <span aria-hidden="true">↗</span>
-              </a>
-            )}
-          </div>
-
-          <div class="alumni-total-count" aria-label={`${stats.total} SovEng alumni`}>
-            {stats.total}
-          </div>
+        <div class="alumni-hero-copy">
+          <p class="projects-eyebrow">Social Graph</p>
+          <h1 id="alumni-title" class="projects-display projects-headline mt-4 text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
+            SovEng Alumni
+          </h1>
+          <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">{heroCopy}</p>
+          {sourceMembershipHref && (
+            <a class="alumni-source-link projects-link project-external-link--with-label mt-6" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
+              <span class="project-external-link__text">Nostr follow-list</span>
+              <i class="fa-solid fa-arrow-up-right-from-square alumni-link-icon" aria-hidden="true"></i>
+            </a>
+          )}
         </div>
       </div>
     </section>
 
-    <section id="alumni-directory" class="alumni-directory bg-black pt-6 pb-16 text-white sm:pt-8 sm:pb-20" aria-label="Sovereign Engineering alumni profiles">
+    <section id="alumni-directory" class="alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20" aria-label="Sovereign Engineering alumni profiles">
       <div class="container max-w-[1120px]">
         <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
           {
@@ -74,11 +66,12 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
                     <h3 class="projects-display alumni-card-title">
                       <a href={profile.profileHref} target="_blank" rel="noopener noreferrer">
                         {profile.displayName}
-                        <span aria-hidden="true">↗</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square alumni-link-icon" aria-hidden="true"></i>
                       </a>
                     </h3>
+                    <p class="alumni-handle">{profile.handle}</p>
                     <button type="button" class="alumni-npub-copy" data-alumni-copy data-npub={profile.npub} aria-label={`Copy npub for ${profile.displayName}`} title="Copy npub">
-                      <span class="alumni-npub">{profile.npub}</span>
+                      <span class="alumni-copy-label">Copy npub</span>
                       <span class="alumni-copy-icon" aria-hidden="true"></span>
                     </button>
                   </div>
@@ -154,14 +147,14 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
 
   .alumni-hero::before {
     background:
-      radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--color-primary) 22%, transparent), transparent 28rem),
+      radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--color-primary) 18%, transparent), transparent 32rem),
       linear-gradient(135deg, rgb(255 255 255 / 6%) 0 1px, transparent 1px 100%);
     background-size:
       auto,
-      34px 34px;
+      48px 48px;
     content: '';
     inset: 0;
-    opacity: 0.34;
+    opacity: 0.22;
     pointer-events: none;
     position: absolute;
   }
@@ -171,16 +164,8 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
     z-index: 1;
   }
 
-  .alumni-hero-grid {
-    align-items: end;
-    display: grid;
-    gap: 2rem;
-  }
-
-  @media (min-width: 900px) {
-    .alumni-hero-grid {
-      grid-template-columns: minmax(0, 1fr) minmax(280px, 360px);
-    }
+  .alumni-hero-copy {
+    max-width: 56rem;
   }
 
   .alumni-hero-lede {
@@ -200,28 +185,22 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   .alumni-source-link {
     color: var(--color-primary);
     display: inline-flex;
+    gap: 0.45rem;
     margin-top: 1.5rem;
     text-decoration: none;
     text-underline-offset: 0.2em;
   }
 
-  .alumni-source-link:hover {
+  .alumni-source-link:hover,
+  .alumni-source-link:focus-visible {
     color: #fff;
     text-decoration: underline;
   }
 
-  .alumni-total-count {
-    color: var(--color-primary);
-    font-family: var(--font-secondary);
-    font-size: clamp(5rem, 18vw, 12rem);
-    line-height: 0.78;
-    text-align: left;
-  }
-
-  @media (min-width: 900px) {
-    .alumni-total-count {
-      text-align: right;
-    }
+  .alumni-link-icon {
+    flex: 0 0 auto;
+    font-size: 0.72rem;
+    line-height: 1;
   }
 
   .alumni-directory {
@@ -229,12 +208,9 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   }
 
   .alumni-grid {
-    background: transparent;
     display: grid;
-    gap: 0;
+    gap: 1rem;
     grid-template-columns: minmax(0, 1fr);
-    margin-top: 5mm;
-    overflow: hidden;
   }
 
   @media (min-width: 720px) {
@@ -250,103 +226,27 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   }
 
   .alumni-card {
-    --sep-bottom: 1px;
-    --sep-right: 0px;
-    background:
-      linear-gradient(180deg, rgb(255 255 255 / 4%), transparent 38%),
-      #030303;
+    background: #050505;
+    border: 1px solid rgb(255 255 255 / 9%);
     contain: layout paint;
-    isolation: isolate;
-    min-height: 16.5rem;
-    overflow: hidden;
-    padding: 1rem;
-    position: relative;
-    transition: background-color 150ms ease;
-  }
-
-  .alumni-card:last-child {
-    --sep-bottom: 0px;
-  }
-
-  @media (min-width: 720px) {
-    .alumni-card {
-      --sep-bottom: 1px;
-      --sep-right: 1px;
-    }
-
-    .alumni-card:nth-child(2n) {
-      --sep-right: 0px;
-    }
-
-    .alumni-card:nth-last-child(-n + 2) {
-      --sep-bottom: 0px;
-    }
-  }
-
-  @media (min-width: 1040px) {
-    .alumni-card:nth-child(2n) {
-      --sep-right: 1px;
-    }
-
-    .alumni-card:nth-child(3n) {
-      --sep-right: 0px;
-    }
-
-    .alumni-card:nth-last-child(-n + 3) {
-      --sep-bottom: 0px;
-    }
-  }
-
-  .alumni-card::before {
-    background:
-      radial-gradient(circle at 13% 18%, color-mix(in srgb, var(--color-primary) 42%, transparent) 0 0.35px, transparent 0.95px),
-      radial-gradient(circle at 31% 72%, color-mix(in srgb, var(--color-primary) 30%, transparent) 0 0.55px, transparent 1.15px),
-      radial-gradient(circle at 54% 34%, color-mix(in srgb, var(--color-primary) 24%, transparent) 0 0.28px, transparent 0.85px),
-      radial-gradient(circle at 72% 66%, color-mix(in srgb, var(--color-primary) 36%, transparent) 0 0.85px, transparent 1.45px),
-      radial-gradient(circle at 87% 24%, color-mix(in srgb, var(--color-primary) 28%, transparent) 0 0.42px, transparent 1px),
-      radial-gradient(circle at 18% 88%, color-mix(in srgb, var(--color-primary) 22%, transparent) 0 0.62px, transparent 1.25px),
-      radial-gradient(circle at 43% 51%, color-mix(in srgb, var(--color-primary) 20%, transparent) 0 0.22px, transparent 0.8px),
-      radial-gradient(circle at 94% 82%, color-mix(in srgb, var(--color-primary) 32%, transparent) 0 0.72px, transparent 1.35px),
-      radial-gradient(ellipse at 48% 42%, color-mix(in srgb, var(--color-primary) 7%, transparent), transparent 64%),
-      linear-gradient(color-mix(in srgb, var(--color-primary) 5%, transparent), color-mix(in srgb, var(--color-primary) 5%, transparent));
-    content: '';
-    inset: 0;
-    opacity: 0;
-    pointer-events: none;
-    position: absolute;
-    transition: opacity 150ms ease;
-    z-index: 0;
-  }
-
-  .alumni-card::after {
-    background:
-      linear-gradient(to bottom, transparent, rgb(255 255 255 / 11%) 18%, rgb(255 255 255 / 7%) 72%, transparent) right top / var(--sep-right) 100% no-repeat,
-      linear-gradient(to right, transparent, rgb(255 255 255 / 11%) 18%, rgb(255 255 255 / 7%) 72%, transparent) left bottom / 100% var(--sep-bottom) no-repeat;
-    content: '';
-    inset: 0;
-    pointer-events: none;
-    position: absolute;
-    z-index: 0;
-  }
-
-  .alumni-card > * {
-    position: relative;
-    z-index: 1;
+    min-height: 15rem;
+    padding: 1.1rem;
+    transition:
+      background-color 150ms ease,
+      border-color 150ms ease,
+      transform 150ms ease;
   }
 
   .alumni-card:hover {
-    background-color: #070202;
-  }
-
-  .alumni-card:hover::before,
-  .alumni-card:focus-within::before {
-    opacity: 1;
+    background-color: #090909;
+    border-color: rgb(255 255 255 / 18%);
+    transform: translateY(-1px);
   }
 
   .alumni-card-top {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
-    gap: 0.85rem;
+    gap: 0.9rem;
   }
 
   .alumni-avatar-link {
@@ -391,20 +291,24 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   }
 
   .alumni-card-identity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
     min-width: 0;
   }
 
   .alumni-card-title {
-    font-size: 1.45rem;
+    font-size: 1.35rem;
     line-height: 1.05;
     margin: 0;
     text-transform: none;
   }
 
   .alumni-card-title a {
+    align-items: center;
     color: #fff;
     display: inline-flex;
-    gap: 0.35rem;
+    gap: 0.45rem;
     text-decoration: none;
   }
 
@@ -413,27 +317,38 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
     color: var(--color-primary);
   }
 
-  .alumni-npub-copy {
-    align-items: flex-start;
-    background: transparent;
-    border: 0;
+  .alumni-handle {
     color: rgb(255 255 255 / 42%);
+    font-family: var(--font-primary);
+    font-size: 0.82rem;
+    line-height: 1.35;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-npub-copy {
+    align-items: center;
+    background: transparent;
+    border: 1px solid rgb(255 255 255 / 12%);
+    border-radius: 999px;
+    color: rgb(255 255 255 / 58%);
     cursor: pointer;
     display: inline-flex;
     font-family: var(--font-primary);
     font-size: 0.74rem;
     gap: 0.45rem;
     letter-spacing: 0.03em;
-    margin: 0.35rem 0 0;
-    max-width: 100%;
-    min-width: 0;
-    padding: 0;
+    margin: 0.2rem 0 0;
+    padding: 0.3rem 0.7rem;
     text-align: left;
+    width: fit-content;
   }
 
   .alumni-npub-copy:hover,
   .alumni-npub-copy:focus-visible,
   .alumni-npub-copy.is-copied {
+    background: rgb(255 255 255 / 3%);
+    border-color: var(--color-primary);
     color: var(--color-primary);
   }
 
@@ -441,10 +356,8 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
     color: #fff;
   }
 
-  .alumni-npub {
-    min-width: 0;
-    overflow-wrap: anywhere;
-    word-break: break-word;
+  .alumni-copy-label {
+    white-space: nowrap;
   }
 
   .alumni-copy-icon {
@@ -469,15 +382,15 @@ const sourceMembershipHref = alumni[0]?.sourceHref;
   }
 
   .alumni-about {
-    color: rgb(255 255 255 / 58%);
+    color: rgb(255 255 255 / 62%);
     display: -webkit-box;
     font-size: 0.92rem;
     line-height: 1.5;
-    margin: 1rem 0 0;
-    min-height: 4.15rem;
+    margin: 0.95rem 0 0;
+    min-height: 4.1rem;
     overflow: hidden;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 4;
   }
 
   .alumni-about--empty {
