@@ -1,0 +1,658 @@
+{
+  "generatedAt": "2026-06-19T18:29:06.104Z",
+  "format": "webp",
+  "width": 128,
+  "height": 128,
+  "avatars": {
+    "npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr": {
+      "src": "/images/alumni/avatars/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr.webp",
+      "source": "https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 2948,
+      "sha256": "d1cd55af6b29a5dc5983dd1e66edbff9c0cf82416933c1c25b541686c1d81e53"
+    },
+    "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg": {
+      "src": "/images/alumni/avatars/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg.webp",
+      "source": "https://avatars.githubusercontent.com/u/93376500",
+      "width": 128,
+      "height": 128,
+      "bytes": 5990,
+      "sha256": "42e39d0bb761be60c76b2b318cc043861d266d87a045caf4e88fa1ee8ceb726f"
+    },
+    "npub12w53uwny68m936vr4s0yl8svd9lc7vlqrkx7hepe7nq6jggn7kfq92rrm3": {
+      "src": "/images/alumni/avatars/npub12w53uwny68m936vr4s0yl8svd9lc7vlqrkx7hepe7nq6jggn7kfq92rrm3.webp",
+      "source": "https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 272,
+      "sha256": "da7af40b8a801a54e38f04cc748d555e13a0fdb7341b33bf7bf691c38e4d47fc"
+    },
+    "npub12zpfs3yq7we83yvypgsrw5f88y2fv780c2kfs89ge5qk6q3sfm7spks880": {
+      "src": "/images/alumni/avatars/npub12zpfs3yq7we83yvypgsrw5f88y2fv780c2kfs89ge5qk6q3sfm7spks880.webp",
+      "source": "https://nostr.build/i/p/5490p.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 1870,
+      "sha256": "caece4b662ae9acc194c105ab6df06553e19defca0e44e0cd8a64852c09d422a"
+    },
+    "npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c": {
+      "src": "/images/alumni/avatars/npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c.webp",
+      "source": "https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 982,
+      "sha256": "f06f4b6a90ee20fe47ad6efd35064ece1da05ec89282479a45bccf72b2fdabdf"
+    },
+    "npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q": {
+      "src": "/images/alumni/avatars/npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q.webp",
+      "source": "https://image.nostr.build/bf7e965bf6ddba341ef07a866aa9562e7323e9e5639cd699ecb187078c9192e9.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3346,
+      "sha256": "b5ff42c541761459d63721771e2c0f7a0bee2cdff068e655804675116ad301dc"
+    },
+    "npub15qydau2hjma6ngxkl2cyar74wzyjshvl65za5k5rl69264ar2exs5cyejr": {
+      "src": "/images/alumni/avatars/npub15qydau2hjma6ngxkl2cyar74wzyjshvl65za5k5rl69264ar2exs5cyejr.webp",
+      "source": "https://pfp.nostr.build/437c14b92bc305f2d7bdfd2653757a13712fa83de21db44770bbe1e3ebec6bbc.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 822,
+      "sha256": "4a8df6ddae83d1f91c95846efce4a45b568fc1c65be6ccea87db23f5f48ca694"
+    },
+    "npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx": {
+      "src": "/images/alumni/avatars/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx.webp",
+      "source": "https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3576,
+      "sha256": "a707aac1a376e3df061a1ff73b5857477c6ef3a6d3f80d3ba11ac4343d591a8a"
+    },
+    "npub169d679h2ugm9s3j84w63mf7q7uhhxaw2p3d0w487zadym7gt90cqdqn6cc": {
+      "src": "/images/alumni/avatars/npub169d679h2ugm9s3j84w63mf7q7uhhxaw2p3d0w487zadym7gt90cqdqn6cc.webp",
+      "source": "https://pbs.twimg.com/profile_images/1589784136859934722/nxgcBt6x.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4418,
+      "sha256": "592f3db129add5d9739922e5aaaf2a93b92fde66f85f54b7f99357478bfa3186"
+    },
+    "npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm": {
+      "src": "/images/alumni/avatars/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm.webp",
+      "source": "https://blossom.primal.net/5d18b4bc5a21b1dd6ea0c0d879bb346bdf4e7523d583f237a6d4d3002f7c27a5.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2686,
+      "sha256": "29047702d716bd631cac026697e7e7fa61a3d88bf6bdb31879c19c5e4bf6b387"
+    },
+    "npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq": {
+      "src": "/images/alumni/avatars/npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq.webp",
+      "source": "https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3322,
+      "sha256": "07c03a7e0819d9136dfbf9af5e2c2e1c0a67808fe25ecda12b393a70e47989f4"
+    },
+    "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw": {
+      "src": "/images/alumni/avatars/npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw.webp",
+      "source": "https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 1028,
+      "sha256": "274ea562c6805ce20e56136113d4453add4671528aaa836a7ddddea737775a20"
+    },
+    "npub16q4rk48xgvlu0snq36v7lx62akgrjezygmdfsgkjpdde3yykfuhscgxcms": {
+      "src": "/images/alumni/avatars/npub16q4rk48xgvlu0snq36v7lx62akgrjezygmdfsgkjpdde3yykfuhscgxcms.webp",
+      "source": "https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2264,
+      "sha256": "0d365e7bf52537b4dcb19e0f1c1ebcfac968defe7ca591fe6db87f75ae2cb513"
+    },
+    "npub16vzjeglr653mrmyqvu0trwaq29az753wr9th3hyrm5p63kz2zu8qzumhgd": {
+      "src": "/images/alumni/avatars/npub16vzjeglr653mrmyqvu0trwaq29az753wr9th3hyrm5p63kz2zu8qzumhgd.webp",
+      "source": "https://pfp.nostr.build/f61e3a04df4dcc10a00283ad5879043ac1a0e78199238f7509a910f4efb5c8ba.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5864,
+      "sha256": "e1bf951a727a52e385ea98130b5982e27702d4822629423a98191fb863474f06"
+    },
+    "npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm": {
+      "src": "/images/alumni/avatars/npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm.webp",
+      "source": "https://m.primal.net/KPzs.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 5302,
+      "sha256": "27c6c851caf9f7f1493b98bc74d73cb6abe9ea41b1c5d19d6fee1b36b25d91ca"
+    },
+    "npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta": {
+      "src": "/images/alumni/avatars/npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta.webp",
+      "source": "https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 2268,
+      "sha256": "d5486420add6b341d988c086c67799bd6c1704026fd42f151132b8be30745a2c"
+    },
+    "npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf": {
+      "src": "/images/alumni/avatars/npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf.webp",
+      "source": "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3322,
+      "sha256": "d16e5c526319158ca3b440b46db19d4c7077c62432089cee3870c2c8dd080a78"
+    },
+    "npub18gr2m5cflkzpn6jdfer4a8qdlavsn334m9mfhurjsge08grg82zq6hu9su": {
+      "src": "/images/alumni/avatars/npub18gr2m5cflkzpn6jdfer4a8qdlavsn334m9mfhurjsge08grg82zq6hu9su.webp",
+      "source": "https://image.nostr.build/e54b7f51e004ac04a9e658bac14bb71eb53cdabb4fd8f9f199a9ae13f5cd69d6.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1824,
+      "sha256": "48a57bb78071580b1735c16ca5b91d3e04bfd785fa9b88fe348b7523d28ff4e9"
+    },
+    "npub18r5cznu8e4632p4w7htahuypmc226vrudxz9y64se6heda35jdescaeqct": {
+      "src": "/images/alumni/avatars/npub18r5cznu8e4632p4w7htahuypmc226vrudxz9y64se6heda35jdescaeqct.webp",
+      "source": "https://avatars.githubusercontent.com/u/1871891",
+      "width": 128,
+      "height": 128,
+      "bytes": 2408,
+      "sha256": "3f3aad6f908847a9b65764e77dff69299e35e74ca9a5f25b75c81cdee086f03b"
+    },
+    "npub18vay956v7zs5qtgc65mvn54v96cuvqv6j9fmu4cgfjqkt5vjuvjsc47nzf": {
+      "src": "/images/alumni/avatars/npub18vay956v7zs5qtgc65mvn54v96cuvqv6j9fmu4cgfjqkt5vjuvjsc47nzf.webp",
+      "source": "https://blossom.primal.net/4ec8075d7bfd927f391929d5d8cc392f8f967ab0a8e8a5ad81b32f13b4fce69d.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2398,
+      "sha256": "7b3669b2e670ebe961b9c59dc638bf5658d4141344f82a611bd5b063ad378425"
+    },
+    "npub19at4nqjjymca2lh3v546vcg5ktun3al4c5xu2pts3ewckv0y70ys0gupzr": {
+      "src": "/images/alumni/avatars/npub19at4nqjjymca2lh3v546vcg5ktun3al4c5xu2pts3ewckv0y70ys0gupzr.webp",
+      "source": "https://image.nostr.build/b5768f539a6b748f80e18af66f073733b2149ebd5d1f4d110eab5cb492fe1fb7.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 5054,
+      "sha256": "fcde690adae27368c788ddb3fdef19a0276f7de4a9aa7b362a85c1af85a24097"
+    },
+    "npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k": {
+      "src": "/images/alumni/avatars/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k.webp",
+      "source": "https://image.nostr.build/58f5a81649be72e99c7f270ddac38e030ce145eb474ae680c72f48b57d73251d.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3282,
+      "sha256": "7a14d856c0fb94745d3e2df0a13a05fda62cd6b0bdd4f0e29f81121e4168cb7b"
+    },
+    "npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6": {
+      "src": "/images/alumni/avatars/npub1a3um269aaf3u5cy37kuykrrrnsg2pyv7za06pxjduv25lq5sdujs2qmdj6.webp",
+      "source": "https://blossom.primal.net/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5598,
+      "sha256": "b3259afe740dfbad49a9688e15c69415d5bc8d19ba0afdc28e430171ea2724d3"
+    },
+    "npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp": {
+      "src": "/images/alumni/avatars/npub1aljazgxlpnpfp7n5sunlk3dvfp72456x6nezjw4sd850q879rxqsthg9jp.webp",
+      "source": "https://m.primal.net/HRBw.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4656,
+      "sha256": "64a26504ad36e48ae076c22c2853734cd5fdfa266e744ab13a49520d56dbaeb9"
+    },
+    "npub1d7exvqfvxqyrq0j54e23gz6xj4lfj7qfssqamg60fkfp5f6mlzaskklrf3": {
+      "src": "/images/alumni/avatars/npub1d7exvqfvxqyrq0j54e23gz6xj4lfj7qfssqamg60fkfp5f6mlzaskklrf3.webp",
+      "source": "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1494,
+      "sha256": "bd1f6cc97e5f7308055507cbeae3b3d44ec82cbe2b9f9601a83b503ca1d13ca6"
+    },
+    "npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc": {
+      "src": "/images/alumni/avatars/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc.webp",
+      "source": "https://dergigi.com/assets/images/avatars/09.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 554,
+      "sha256": "5ec82daedf4b61f26a0d89d82132d7a34f5f276e09acdc1e56efa13efe5ec372"
+    },
+    "npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm": {
+      "src": "/images/alumni/avatars/npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.webp",
+      "source": "https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5430,
+      "sha256": "d9ccee4dedd621531dffebb5b2961f49261213da198e35ab0a4c30696f70d229"
+    },
+    "npub1dvdcmtp5llrp63jdlmhspe9gffsyu9ew7cu3ld3f9y7k79nxzjxqf4d4rm": {
+      "src": "/images/alumni/avatars/npub1dvdcmtp5llrp63jdlmhspe9gffsyu9ew7cu3ld3f9y7k79nxzjxqf4d4rm.webp",
+      "source": "https://m.primal.net/HkRO.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2112,
+      "sha256": "54d953eb2efaa986fbed772b4f3700b036fd7bfa3c8b669e0a167b55cbb9a765"
+    },
+    "npub1e5tfhk8m65teu25dfx8lcvwn4c8ypqjl72u2sh4rt8zy2kss0j5qct7mh9": {
+      "src": "/images/alumni/avatars/npub1e5tfhk8m65teu25dfx8lcvwn4c8ypqjl72u2sh4rt8zy2kss0j5qct7mh9.webp",
+      "source": "https://secure.gravatar.com/avatar/07e22939e7672b38c56615068c4c715f?size=200&default=mm&rating=g",
+      "width": 128,
+      "height": 128,
+      "bytes": 796,
+      "sha256": "db6875dbe61b2e9802be8998678482c0ce9aa998d2bbdf28edc93b6ed17bc84d"
+    },
+    "npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume": {
+      "src": "/images/alumni/avatars/npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume.webp",
+      "source": "https://nostr.hu/kobuki.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2736,
+      "sha256": "bd765ee345495720dee5b549a7ab63a815df5471afa053fcdb0f20b874a30712"
+    },
+    "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6": {
+      "src": "/images/alumni/avatars/npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6.webp",
+      "source": "https://pfp.nostr.build/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif",
+      "width": 128,
+      "height": 128,
+      "bytes": 1548,
+      "sha256": "8dab5c3cada90589e5b86ca63b705342742c3ce98ccc8ca43f05814581a515db"
+    },
+    "npub1ez8efu9rjxu64g0lalty2ffmr2tgkzjz92rkafyfyz5463wr8ars8zls5t": {
+      "src": "/images/alumni/avatars/npub1ez8efu9rjxu64g0lalty2ffmr2tgkzjz92rkafyfyz5463wr8ars8zls5t.webp",
+      "source": "https://pbs.twimg.com/profile_images/1637623131614466048/Ew3ceh2B_400x400.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5694,
+      "sha256": "c7898c0302e8060e2ce524410abf1ef96ca18112eef6234f9a05b35dff6c22a2"
+    },
+    "npub1fcthj78n5re7dcyrva89gmvgz0z6g2v5rakr65shxemyvjwwdjzqcpeavj": {
+      "src": "/images/alumni/avatars/npub1fcthj78n5re7dcyrva89gmvgz0z6g2v5rakr65shxemyvjwwdjzqcpeavj.webp",
+      "source": "https://avatars.githubusercontent.com/u/5362163?v=4",
+      "width": 128,
+      "height": 128,
+      "bytes": 3064,
+      "sha256": "b45035f1ab7096d3b496f1ae32423aa230319806ec6b77765a17491df5466909"
+    },
+    "npub1ftt05tgku25m2akgvw6v7aqy5ux5mseqcrzy05g26ml43xf74nyqsredsh": {
+      "src": "/images/alumni/avatars/npub1ftt05tgku25m2akgvw6v7aqy5ux5mseqcrzy05g26ml43xf74nyqsredsh.webp",
+      "source": "https://image.nostr.build/75b59a54f0cfdc2df0e78e7fbed0be2af122ad2b001eb21eb0d1e6bdf63175f2.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1394,
+      "sha256": "de5840868b1fe58d2d38b0ee72ea27dda20f453c6a820a931fca26e8c807e203"
+    },
+    "npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk": {
+      "src": "/images/alumni/avatars/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk.webp",
+      "source": "https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1848,
+      "sha256": "c8e6a4217df2b4fed90ffa7b1f44d4916ff4d5ec2ac00e4d4e162f447aaf3069"
+    },
+    "npub1g5ax26gr5qcnjh29puccyydxa32v67gyn2z3lykdvupvvhl47k7spf8ypc": {
+      "src": "/images/alumni/avatars/npub1g5ax26gr5qcnjh29puccyydxa32v67gyn2z3lykdvupvvhl47k7spf8ypc.webp",
+      "source": "https://image.nostr.build/a799ebb879bb8c721736b63f7975d6a00e4a91afa07667f8b8007eaefd2e5292.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1824,
+      "sha256": "91702e7a74439e26f92ff70a8910e5efa5440c5a9b6a720c8b933174f3e570b6"
+    },
+    "npub1gz8kx67jdlx972vgjqemg37tysglvz43hzjler9nssk6kav0m66sv7xjkt": {
+      "src": "/images/alumni/avatars/npub1gz8kx67jdlx972vgjqemg37tysglvz43hzjler9nssk6kav0m66sv7xjkt.webp",
+      "source": "https://image.nostr.build/be34eff64786887c484ed9d82c4a16a41c940f9bc2eb02fe9fe5b906a9ea5534.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4262,
+      "sha256": "914f95d14f2353bfa90333460e97f849e16e4a4e2926fd39aa4bf237c75927dc"
+    },
+    "npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds": {
+      "src": "/images/alumni/avatars/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds.webp",
+      "source": "https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 2286,
+      "sha256": "0102ed075df80e112e8d8b8309653a82efd8c71037ff7bc587b3a32481d5ec21"
+    },
+    "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr": {
+      "src": "/images/alumni/avatars/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr.webp",
+      "source": "https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5068,
+      "sha256": "278e50b31ec7d494951ba3cdf4678ef68b10dcb04dd1236211495498f1d92263"
+    },
+    "npub1jmm9yfymp9rwz46a0z5tcazszg7gue83c4hkktunhs3lkfy7mpdqx6zden": {
+      "src": "/images/alumni/avatars/npub1jmm9yfymp9rwz46a0z5tcazszg7gue83c4hkktunhs3lkfy7mpdqx6zden.webp",
+      "source": "https://media.tate.org.uk/art/images/work/P/P07/P07142_10.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1162,
+      "sha256": "ebd2506fc2ba0cb8bba0edb9da105630713a1e372dd0f54c617ccf38d3e2ac29"
+    },
+    "npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy": {
+      "src": "/images/alumni/avatars/npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy.webp",
+      "source": "https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2254,
+      "sha256": "f20df6677c5323cc0303db47883ba55ab6f0cab68d15ebde071c1645230de512"
+    },
+    "npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt": {
+      "src": "/images/alumni/avatars/npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt.webp",
+      "source": "https://image.nostr.build/08e549edff9a20737d72a74d6dd9bcd6f7f5189ef825626afdce3de9062afcb7.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3840,
+      "sha256": "9a1ffd0584765176924cf213a47afc477bbae36ddfdbcb99935701c46becd002"
+    },
+    "npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc": {
+      "src": "/images/alumni/avatars/npub1klr0dy2ul2dx9llk58czvpx73rprcmrvd5dc7ck8esg8f8es06qs427gxc.webp",
+      "source": "https://image.nostr.build/0ebb55ed4d269015f2c6fb7119e8ff8686110cad690443894b31287866758a5e.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2432,
+      "sha256": "a1d183a8267683b9d65f413c6cabc06f9c3503633781adeaec12c8eae77f0ad6"
+    },
+    "npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft": {
+      "src": "/images/alumni/avatars/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft.webp",
+      "source": "https://m.primal.net/KwlG.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1902,
+      "sha256": "c202979ca0f9ced44f8fa8616cf7539e5f38d772ba165579eb2dd8bd659963c4"
+    },
+    "npub1l5u0zd00va02ch5n6ke2wwxyzamuy5qcsqcu4uwu7pa3dpapleysf7aap5": {
+      "src": "/images/alumni/avatars/npub1l5u0zd00va02ch5n6ke2wwxyzamuy5qcsqcu4uwu7pa3dpapleysf7aap5.webp",
+      "source": "https://images.ziggie1984.win/images/avatar_nostr.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 5144,
+      "sha256": "99e355d7e92ab3707fdf7fa8b0518caeb49dc1bc1d8b1387702886df334558ba"
+    },
+    "npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63": {
+      "src": "/images/alumni/avatars/npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.webp",
+      "source": "https://npub1lg7fsn24xm47yx7yr7xl2wgwjw2wcn06daxtverq068dtgwkd98sf6ge63.blossom.band/37d34012dfbdcaeae838484582e831e256bf88a1ce7bc6444c83f4c7fd2d93b7.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1754,
+      "sha256": "7b3160698b3bca440186753b0fc342246d7e834545fc96111ec016be6240bbad"
+    },
+    "npub1lunaq893u4hmtpvqxpk8hfmtkqmm7ggutdtnc4hyuux2skr4ttcqr827lj": {
+      "src": "/images/alumni/avatars/npub1lunaq893u4hmtpvqxpk8hfmtkqmm7ggutdtnc4hyuux2skr4ttcqr827lj.webp",
+      "source": "https://cdn.satellite.earth/f7f4f08cdc582b8b2611ae6837b50ee323cb714d4978935cf7dc3f72431f3efb.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3254,
+      "sha256": "1fee45810283382fbd03fb7ababe7eb102dccbbb3d05391917a812d6e5a58b23"
+    },
+    "npub1mgvwnpsqgrem7jfcwm7pdvdfz2h95mm04r23t8pau2uzxwsdnpgs0gpdjc": {
+      "src": "/images/alumni/avatars/npub1mgvwnpsqgrem7jfcwm7pdvdfz2h95mm04r23t8pau2uzxwsdnpgs0gpdjc.webp",
+      "source": "https://dtdannen.github.io/profile_pic_newer.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1754,
+      "sha256": "705ea772a24e4811a8eccbdb83876502a44b0524f00cbec62ac1ea3bf6053283"
+    },
+    "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226": {
+      "src": "/images/alumni/avatars/npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226.webp",
+      "source": "https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2238,
+      "sha256": "8ea6cebc9ad48412cfb8c2f9407b1b494d68b005ecb05d29c315948c07d57f49"
+    },
+    "npub1mqa4auvfmalgs338999h22tf23upfs70uwyetneq0szquqamu7jqkhlfa7": {
+      "src": "/images/alumni/avatars/npub1mqa4auvfmalgs338999h22tf23upfs70uwyetneq0szquqamu7jqkhlfa7.webp",
+      "source": "https://image.nostr.build/3aabbcfd8e1bedbf44d88876b6273aeead39ef6adff6aefe80830630a9288d75.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3580,
+      "sha256": "d4de797a4387daee11f49a3eed44d771c943b665b606b349514403a58e15192e"
+    },
+    "npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg": {
+      "src": "/images/alumni/avatars/npub1mutnyacc9uc4t5mmxvpprwsauj5p2qxq95v4a9j0jxl8wnkfvuyque23vg.webp",
+      "source": "https://m.primal.net/PSXU.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 2052,
+      "sha256": "97a0c5e1c00f3cb5ae9448cca4e2b157958f631ddc9cd0e33cbae18817f6fc58"
+    },
+    "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p": {
+      "src": "/images/alumni/avatars/npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p.webp",
+      "source": "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3902,
+      "sha256": "504ee50d5d534a36d384050e810f41ada820172711d91d0289bfc945a8367f83"
+    },
+    "npub1mz3vx0ew9le6n48l9f2e8u745k0fzel6thksv0gwfxy3wanprcxq79mymx": {
+      "src": "/images/alumni/avatars/npub1mz3vx0ew9le6n48l9f2e8u745k0fzel6thksv0gwfxy3wanprcxq79mymx.webp",
+      "source": "https://i.current.fyi/npub1current/profile/starbuilder.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 4170,
+      "sha256": "6487c1492bb274ba6435ea922847ef715800ab15ec0bf61af06c362eff6f4b48"
+    },
+    "npub1n3w4uts2r4srq3adqu9trp953dflcnw7ppn72tad4htkpsckwcmqjef6um": {
+      "src": "/images/alumni/avatars/npub1n3w4uts2r4srq3adqu9trp953dflcnw7ppn72tad4htkpsckwcmqjef6um.webp",
+      "source": "https://i.imgur.com/fI7uFEb.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 3614,
+      "sha256": "d198707e0ff38011e52b355b6eb80c1ca48d3ea5963831794a8851b40ad85d12"
+    },
+    "npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8": {
+      "src": "/images/alumni/avatars/npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8.webp",
+      "source": "https://i.nostr.build/WX5nCEZIwqiSkRPb.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3336,
+      "sha256": "3bd20335dc76467af1878ea81df46140c325f89d3c5e2dc51f05ef130b6f1604"
+    },
+    "npub1nqulzcxcj0d2uesusstgupl5du8pa96xl6uy8xndweeckjkn964qjs23sn": {
+      "src": "/images/alumni/avatars/npub1nqulzcxcj0d2uesusstgupl5du8pa96xl6uy8xndweeckjkn964qjs23sn.webp",
+      "source": "https://nostr.build/i/a830ffe4f5a8774167578dc142edff984fbf2ada80e0af73e144c3f7f19343ae.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2372,
+      "sha256": "d8a8917ebf579252f3fef8ba729e0a0e2c270204ea348206cff3dfda2f2d5fbb"
+    },
+    "npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph": {
+      "src": "/images/alumni/avatars/npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph.webp",
+      "source": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4878,
+      "sha256": "02b1ffbb425c9bf48c3da44c91734e390bc409538e76b9c84e24b1456cb84d25"
+    },
+    "npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8": {
+      "src": "/images/alumni/avatars/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8.webp",
+      "source": "https://paul.lol/waffle_animated.gif",
+      "width": 128,
+      "height": 128,
+      "bytes": 4182,
+      "sha256": "239dff10b80a891e8d9897fc6aff2747c7de61e3a0be7963225ca33de3560f9d"
+    },
+    "npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr": {
+      "src": "/images/alumni/avatars/npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr.webp",
+      "source": "https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1846,
+      "sha256": "2b67a7633afdc31d71317810b1d002666dca146dee8af2aaabb3637d81056ad6"
+    },
+    "npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u": {
+      "src": "/images/alumni/avatars/npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u.webp",
+      "source": "https://i.nostr.build/L78n.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 6216,
+      "sha256": "311c8a3a4fb8d79577287d36a024b2a1964d6f7a6f321b7df6acda53f9b4cf89"
+    },
+    "npub1q4hnxfzu5nxylg7p6mj40hvw4ec53z0ncdpre0t0huyl8s8zqrfquvz7zr": {
+      "src": "/images/alumni/avatars/npub1q4hnxfzu5nxylg7p6mj40hvw4ec53z0ncdpre0t0huyl8s8zqrfquvz7zr.webp",
+      "source": "https://cdn.nostrcheck.me/edd8500b4d86fee6e6a824b96b9c727a0e06ee7be4603eb868fd8ad0b1a1ada7.webp",
+      "width": 128,
+      "height": 128,
+      "bytes": 3040,
+      "sha256": "608487d6991f073509dd4b1004afd1d9f935a1b159eefe8c0f81da6036fef392"
+    },
+    "npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5": {
+      "src": "/images/alumni/avatars/npub1q6mcr8tlr3l4gus3sfnw6772s7zae6hqncmw5wj27ejud5wcxf7q0nx7d5.webp",
+      "source": "https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 3184,
+      "sha256": "8b7b89696f25c985811eecdfa613e86aafb0dfe0cda96df73a3c7ea69f03da4c"
+    },
+    "npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw": {
+      "src": "/images/alumni/avatars/npub1qjgcmlpkeyl8mdkvp4s0xls4ytcux6my606tgfx9xttut907h0zs76lgjw.webp",
+      "source": "https://avatars.githubusercontent.com/u/8606367?v=4",
+      "width": 128,
+      "height": 128,
+      "bytes": 1854,
+      "sha256": "4a6d838d83b6d641c71dbb921cbdfa8cea5bdc504a2e233cf456eb8afe3c1be8"
+    },
+    "npub1qnw27f2jsqvn05wzpd56m7ykgmepk57p0yrzw8fzc7lfhjkmjmqqmd9r6h": {
+      "src": "/images/alumni/avatars/npub1qnw27f2jsqvn05wzpd56m7ykgmepk57p0yrzw8fzc7lfhjkmjmqqmd9r6h.webp",
+      "source": "https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2188,
+      "sha256": "1320af88582be0f47ec2cc6469b21bd563886e9f5dccb0efd69ffcefbb248fbf"
+    },
+    "npub1r7psmkr4zv93xnal8un6d8hvmpsn5jvhfzn3kk38rfcel6awznks7znspg": {
+      "src": "/images/alumni/avatars/npub1r7psmkr4zv93xnal8un6d8hvmpsn5jvhfzn3kk38rfcel6awznks7znspg.webp",
+      "source": "https://image.nostr.build/3d4bc423f02cdb9b14e0f2cb218681c8b109182f67c9de02089655489e96332a.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 2862,
+      "sha256": "c187b1711ff2a4c352f4e1c82eb4942505a1327d8be5071bef4f54391bfdfe97"
+    },
+    "npub1rtcjydw22laa0ymwatlrtv02lgu6q6sez4gvs63d696putzyezqs65qqsd": {
+      "src": "/images/alumni/avatars/npub1rtcjydw22laa0ymwatlrtv02lgu6q6sez4gvs63d696putzyezqs65qqsd.webp",
+      "source": "https://image.nostr.build/963d5af8ffbbb80c28e9d6050559c2fd49f045655257a39443db78755967f8c4.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 5992,
+      "sha256": "efb2c1d639d95c61fad0d5469f629896fbe485b40f5dca92894f1ed9c55f5e86"
+    },
+    "npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu": {
+      "src": "/images/alumni/avatars/npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu.webp",
+      "source": "https://m.primal.net/LAPO.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 6846,
+      "sha256": "2901ed2402678a6e1ab7c61eeac8875c640dffec65e08b158022d31c3376fbbc"
+    },
+    "npub1u07xw079lxwv24xslarh2eu4v37jtjmwvev0jyk3zjhxg2wnt56seyez97": {
+      "src": "/images/alumni/avatars/npub1u07xw079lxwv24xslarh2eu4v37jtjmwvev0jyk3zjhxg2wnt56seyez97.webp",
+      "source": "https://m.primal.net/JfYR.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3078,
+      "sha256": "6e954e360d4018572de4bd12a65c2b25aa37934309dbbeb976641db2cd4dc3ad"
+    },
+    "npub1u37h8rhgm9f95d90lpk2afw8h4t75kf6w8vmga2zz9jsx3atzpuqlmw8vy": {
+      "src": "/images/alumni/avatars/npub1u37h8rhgm9f95d90lpk2afw8h4t75kf6w8vmga2zz9jsx3atzpuqlmw8vy.webp",
+      "source": "https://m.primal.net/QAjZ.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1780,
+      "sha256": "f2d7eca824e39e217e2f81813e8a896ef48e134677049ba1a0e2bdc6f661c66f"
+    },
+    "npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz": {
+      "src": "/images/alumni/avatars/npub1u8lnhlw5usp3t9vmpz60ejpyt649z33hu82wc2hpv6m5xdqmuxhs46turz.webp",
+      "source": "https://blossom.primal.net/a62940022ca3e71c52b4f3a0d491f1ff4e4c392d7f1d9dd2e665ac26ebf47d5d.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3058,
+      "sha256": "9c42a4eb331895d6c6a50719b2ecb57a9be5200fbf04c4246cb6e663943291ad"
+    },
+    "npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx": {
+      "src": "/images/alumni/avatars/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx.webp",
+      "source": "https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4136,
+      "sha256": "47a830b82c9d5c0004ee3624480a52fe1e26a7c2be9de1caf7971e3e9be800bb"
+    },
+    "npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9": {
+      "src": "/images/alumni/avatars/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9.webp",
+      "source": "https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2800,
+      "sha256": "f12dc27355393eb2d3540b640fae42e83e751c4e1d4360ae44ff7fff9d899502"
+    },
+    "npub1y3yqdp44vg62ys8anqnjpx6cfprl848ev4lsmx5h4mznyz3xft9sen050h": {
+      "src": "/images/alumni/avatars/npub1y3yqdp44vg62ys8anqnjpx6cfprl848ev4lsmx5h4mznyz3xft9sen050h.webp",
+      "source": "https://image.nostr.build/e46840a201179aa85982ca05df4c400df2bf9540a39135207d866b610498df17.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4150,
+      "sha256": "12e7c791ed463da40a68e9d71f640aabd38b037cc55f303013ca0057fa9117ff"
+    },
+    "npub1yay8e9sqk94jfgdlkpgeelj2t5ddsj2eu0xwt4kh4xw5ses2rauqnstrdv": {
+      "src": "/images/alumni/avatars/npub1yay8e9sqk94jfgdlkpgeelj2t5ddsj2eu0xwt4kh4xw5ses2rauqnstrdv.webp",
+      "source": "https://image.nostr.build/adf94e1a8a2c1208821ef40caba13c62fb8695798a94fa5351aea435230d2523.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 662,
+      "sha256": "66092782dd80a087732bd2e603676b1fdd8ba9e878038371441ae2f8e40de45d"
+    },
+    "npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr": {
+      "src": "/images/alumni/avatars/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr.webp",
+      "source": "https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 506,
+      "sha256": "7d7befb208b81ce85cdbe91a208fabf83a0244fa05aeb7c7bca547de2fff25e3"
+    },
+    "npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl": {
+      "src": "/images/alumni/avatars/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl.webp",
+      "source": "https://m.primal.net/PPfe.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 4700,
+      "sha256": "f715e65deca6421145729a352b6406dcdff7ea56f1a7786f8b82da1901d11809"
+    },
+    "npub1zel8lcq6w6mtajwj4xcedvvvwts4p6v9l045dmn9rp570dqry7zsyll0dt": {
+      "src": "/images/alumni/avatars/npub1zel8lcq6w6mtajwj4xcedvvvwts4p6v9l045dmn9rp570dqry7zsyll0dt.webp",
+      "source": "https://pbs.twimg.com/profile_images/1585282118585925634/HbG2Ylu5.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1958,
+      "sha256": "bfe8f7ad5d1bd7f3fb60674d85439c28c1d2c9cc0f67eb85ec6bb1d787250d5e"
+    },
+    "npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56": {
+      "src": "/images/alumni/avatars/npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56.webp",
+      "source": "https://blossom.primal.net/f697b3eeb618dcf6cc5d15f6399ee59e57665e9e345f2d8ffe1f3fdf07b0928f.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2972,
+      "sha256": "d2787513707da319d8a6f272c5699eee3377c2ff3e1b38beffe766c32da38600"
+    },
+    "npub1zzt0d0s2f4lsanpd7nkjep5r79p7ljq7aw37eek64hf0ef6v0mxqgwljrv": {
+      "src": "/images/alumni/avatars/npub1zzt0d0s2f4lsanpd7nkjep5r79p7ljq7aw37eek64hf0ef6v0mxqgwljrv.webp",
+      "source": "https://raw.githubusercontent.com/OpenTollGate/tollgate/refs/heads/main/images/TollGate_icon-White.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 2088,
+      "sha256": "bfc7f7f4989cd6d4aba15c347401a2f60def34bd5477edff7612013e67df137e"
+    }
+  },
+  "failed": {
+    "npub16anjdksmvn5x08vtden04n64rw5k7fsjmedpw8avsx8wsh8ruhlq076pfx": {
+      "source": "https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg",
+      "error": "HTTP 404"
+    },
+    "npub1rw7hlhmgat6ur9zxcw40vweem49guv6530yk767j8xjpynv0y20q6qsl3w": {
+      "source": "https://cdn.sebdev.io/c402f0974e2f6ebe96efee967c64c3ebfd4366e2f284f4d8650371af7787fdb0",
+      "error": "certificate has expired"
+    },
+    "npub1t5atsakzq63h45asjn3qhlpeg80nlgs6zkkgafmddyvywdufv6dqxfahcl": {
+      "source": "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg",
+      "error": "HTTP 404"
+    },
+    "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5": {
+      "source": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX",
+      "error": "HTTP 403"
+    }
+  }
+}

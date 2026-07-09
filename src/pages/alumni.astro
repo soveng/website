@@ -1,0 +1,310 @@
+---
+import Base from '@/layouts/Base.astro';
+import alumniSocialImage from '@/assets/images/endurance-crew-playing-football.jpg';
+import { getAlumniProfileViewModel, getSovEngAlumniDirectory } from '@/lib/sovengAlumni';
+import '@/styles/projects.css';
+
+const alumni = getSovEngAlumniDirectory().map(getAlumniProfileViewModel);
+const sourceMembershipHref = alumni[0]?.sourceHref;
+const heroCopy = 'Builders, designers, and founders from Sovereign Engineering working on a freer internet with Bitcoin, Nostr, and open protocols.';
+---
+
+<Base
+  title="Alumni"
+  meta_title="Alumni"
+  description={heroCopy}
+  image={alumniSocialImage.src}
+  showCallToAction={true}
+>
+  <div class="alumni-page">
+    <section class="alumni-hero bg-black pt-16 pb-6 text-white sm:pt-20 sm:pb-8" aria-labelledby="alumni-title">
+      <div class="container max-w-[1120px]">
+        <div class="alumni-hero-copy">
+          <h1 id="alumni-title" class="projects-display projects-headline text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
+            Alumni
+          </h1>
+          <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">{heroCopy}</p>
+          {sourceMembershipHref && (
+            <a class="alumni-source-link projects-link project-external-link--with-label mt-6" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
+              <span class="project-external-link__text">Nostr follow-list</span>
+              <i class="fa-solid fa-arrow-up-right-from-square alumni-link-icon" aria-hidden="true"></i>
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <section id="alumni-directory" class="alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20" aria-label="Sovereign Engineering alumni profiles">
+      <div class="container max-w-[1120px]">
+        <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
+          {
+            alumni.map((profile, index) => (
+              <article class="alumni-card">
+                <div class="alumni-card-top">
+                  <a class="alumni-avatar-link" href={profile.profileHref} target="_blank" rel="noopener noreferrer" aria-label={`Open ${profile.displayName} on Nostr`}>
+                    <span class="alumni-avatar" aria-hidden="true">
+                      {profile.picture && (
+                        <img
+                          class="alumni-avatar-image"
+                          src={profile.picture}
+                          alt=""
+                          width="64"
+                          height="64"
+                          loading={index < 6 ? 'eager' : 'lazy'}
+                          decoding="async"
+                          fetchpriority={index < 3 ? 'high' : 'auto'}
+                          referrerpolicy="no-referrer"
+                          data-alumni-avatar-image
+                        />
+                      )}
+                      <span class="alumni-avatar-fallback">{profile.initials}</span>
+                    </span>
+                  </a>
+
+                  <div class="alumni-card-identity">
+                    <h3 class="projects-display alumni-card-title">
+                      <a href={profile.profileHref} target="_blank" rel="noopener noreferrer">
+                        {profile.displayName}
+                        <i class="fa-solid fa-arrow-up-right-from-square alumni-link-icon" aria-hidden="true"></i>
+                      </a>
+                    </h3>
+                    <p class="alumni-handle">{profile.handle}</p>
+                  </div>
+                </div>
+
+                {profile.about ? <p class="projects-body alumni-about">{profile.about}</p> : <p class="projects-body alumni-about alumni-about--empty">No public bio.</p>}
+              </article>
+            ))
+          }
+        </div>
+      </div>
+    </section>
+
+  </div>
+</Base>
+
+<script is:inline>
+  (() => {
+    document.querySelectorAll('[data-alumni-avatar-image]').forEach((avatarImage) => {
+      if (!(avatarImage instanceof HTMLImageElement)) {
+        return;
+      }
+      avatarImage.addEventListener('error', () => avatarImage.remove(), { once: true });
+    });
+
+  })();
+</script>
+
+<style>
+  .alumni-page {
+    background: #000;
+    color: #fff;
+  }
+
+  .alumni-hero {
+    min-height: 0;
+    position: relative;
+  }
+
+  .alumni-hero::before {
+    background:
+      radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--color-primary) 18%, transparent), transparent 32rem),
+      linear-gradient(135deg, rgb(255 255 255 / 6%) 0 1px, transparent 1px 100%);
+    background-size:
+      auto,
+      48px 48px;
+    content: '';
+    inset: 0;
+    opacity: 0.22;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  .alumni-hero > .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .alumni-hero-copy {
+    max-width: 56rem;
+  }
+
+  .alumni-hero-lede {
+    text-wrap: balance;
+  }
+
+  .alumni-source-link,
+  .alumni-card a {
+    transition:
+      border-color 150ms ease,
+      color 150ms ease,
+      opacity 150ms ease,
+      transform 150ms ease;
+  }
+
+  .alumni-source-link {
+    color: var(--color-primary);
+    display: inline-flex;
+    gap: 0.45rem;
+    margin-top: 1.5rem;
+    text-decoration: none;
+    text-underline-offset: 0.2em;
+  }
+
+  .alumni-source-link:hover,
+  .alumni-source-link:focus-visible {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .alumni-link-icon {
+    flex: 0 0 auto;
+    font-size: 0.72rem;
+    line-height: 1;
+  }
+
+  .alumni-directory {
+    position: relative;
+  }
+
+  .alumni-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (min-width: 720px) {
+    .alumni-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 1040px) {
+    .alumni-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .alumni-card {
+    background: #050505;
+    border: 1px solid rgb(255 255 255 / 9%);
+    contain: layout paint;
+    min-height: 15rem;
+    padding: 1.1rem;
+    transition:
+      background-color 150ms ease,
+      border-color 150ms ease,
+      transform 150ms ease;
+  }
+
+  .alumni-card:hover {
+    background-color: #090909;
+    border-color: rgb(255 255 255 / 18%);
+    transform: translateY(-1px);
+  }
+
+  .alumni-card-top {
+    align-items: flex-start;
+    display: flex;
+    gap: 0.9rem;
+  }
+
+  .alumni-avatar-link {
+    color: inherit;
+    display: inline-flex;
+    flex: 0 0 auto;
+    text-decoration: none;
+  }
+
+  .alumni-avatar {
+    align-items: center;
+    background: #111;
+    border: 1px solid rgb(255 255 255 / 12%);
+    color: var(--color-primary);
+    display: inline-flex;
+    font-family: var(--font-secondary);
+    font-size: 1.45rem;
+    height: 4rem;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 4rem;
+  }
+
+  .alumni-avatar-image {
+    display: block;
+    height: 100%;
+    inset: 0;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .alumni-avatar-fallback {
+    transform: translateY(0.05em);
+  }
+
+  .alumni-avatar-link:hover .alumni-avatar,
+  .alumni-avatar-link:focus-visible .alumni-avatar {
+    border-color: var(--color-primary);
+  }
+
+  .alumni-card-identity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-width: 0;
+  }
+
+  .alumni-card-title {
+    font-size: 1.35rem;
+    line-height: 1.05;
+    margin: 0;
+    text-transform: none;
+  }
+
+  .alumni-card-title a {
+    align-items: center;
+    color: #fff;
+    display: inline-flex;
+    gap: 0.45rem;
+    text-decoration: none;
+  }
+
+  .alumni-card-title a:hover,
+  .alumni-card-title a:focus-visible {
+    color: var(--color-primary);
+  }
+
+  .alumni-handle {
+    color: rgb(255 255 255 / 42%);
+    font-family: var(--font-primary);
+    font-size: 0.82rem;
+    line-height: 1.35;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-about {
+    color: rgb(255 255 255 / 62%);
+    display: -webkit-box;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin: 0.95rem 0 0;
+    min-height: 4.1rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
+  .alumni-about--empty {
+    color: rgb(255 255 255 / 32%);
+    font-style: italic;
+  }
+
+  .alumni-card a:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+  }
+</style>

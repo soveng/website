@@ -46,6 +46,19 @@ const processedDescription = await plainify(
   description ? description : config.metadata.meta_description
 );
 
+const vercelPreviewUrl = process.env.VERCEL_ENV === "preview" ? process.env.VERCEL_URL : undefined;
+const siteBaseUrl = (vercelPreviewUrl
+  ? vercelPreviewUrl.startsWith("http")
+    ? vercelPreviewUrl
+    : `https://${vercelPreviewUrl}`
+  : config.site.base_url
+).replace(/\/$/, "");
+const pageUrl = new URL(Astro.url.pathname, `${siteBaseUrl}/`).toString();
+const socialImageUrl = (() => {
+  const img = image || config.metadata.meta_image;
+  return img.startsWith("http") ? img : new URL(img, `${siteBaseUrl}/`).toString();
+})();
+
 // Get call-to-action data if needed
 const call_to_action = showCallToAction ? (await getEntry(
   "ctaSection",
@@ -151,7 +164,7 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
+      content={pageUrl}
     />
 
     <!-- twitter-title -->
@@ -169,19 +182,13 @@ const call_to_action = showCallToAction ? (await getEntry(
     <!-- og-image -->
     <meta
       property="og:image"
-      content={(() => {
-        const img = image || config.metadata.meta_image;
-        return img.startsWith('http') ? img : `${config.site.base_url}${img}`;
-      })()}
+      content={socialImageUrl}
     />
 
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={(() => {
-        const img = image || config.metadata.meta_image;
-        return img.startsWith('http') ? img : `${config.site.base_url}${img}`;
-      })()}
+      content={socialImageUrl}
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@sovereigneng" />
