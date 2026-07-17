@@ -51,7 +51,7 @@
         "title": "Community",
         "links": [
           { "name": "Swag", "url": "/swag" },
-          { "name": "Contest", "url": "/contest" },
+          { "name": "Contest", "url": "https://tshirt.sovereignengineering.io/results" },
           { "name": "Media", "url": "/media" },
           {
             "name": "Alumni",
