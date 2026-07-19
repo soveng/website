@@ -105,10 +105,6 @@ const books = [
         name: 'Read',
         url: 'https://socraticdesignacademy.com/wp-content/uploads/2020/05/David-Bohm-On-Dialogue-.pdf',
       },
-      {
-        name: 'Goodreads',
-        url: 'https://www.goodreads.com/book/show/204526.On_Dialogue',
-      },
     ],
   },
   {
