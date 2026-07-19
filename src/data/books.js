@@ -96,6 +96,22 @@ const books = [
     ],
   },
   {
+    title: 'On Dialogue',
+    author: 'David Bohm',
+    description: 'A case for deeper listening and creative dialogue as a way to share assumptions, recover meaning, and think together more clearly.',
+    cover: '/images/books/on-dialogue.jpg',
+    links: [
+      {
+        name: 'Read',
+        url: 'https://archive.org/details/davidbohmondialo0000davi',
+      },
+      {
+        name: 'Goodreads',
+        url: 'https://www.goodreads.com/book/show/204526.On_Dialogue',
+      },
+    ],
+  },
+  {
     title: 'The Network State',
     author: 'Balaji Shrinivasan',
     description: 'How to start a new country',
