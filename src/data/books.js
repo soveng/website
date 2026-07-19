@@ -103,7 +103,7 @@ const books = [
     links: [
       {
         name: 'Read',
-        url: 'https://archive.org/details/davidbohmondialo0000davi',
+        url: 'https://socraticdesignacademy.com/wp-content/uploads/2020/05/David-Bohm-On-Dialogue-.pdf',
       },
       {
         name: 'Goodreads',
