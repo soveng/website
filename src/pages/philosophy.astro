@@ -13,6 +13,7 @@ import slideWideOpenSea from "@/assets/images/wide-open-sea.jpeg";
 import slideBellLabs from "@/assets/images/bell-labs.jpeg";
 import slideSolvitur from "@/assets/images/solvitur-ambulando.jpeg";
 import slideGenesisBlock from "@/assets/images/genesis-block.png";
+import schoolOfAthensImage from "@/assets/images/school-of-athens.jpeg";
 import philosophyQuotes from "@/data/philosophy-quotes.json";
 
 import type { CollectionEntry } from "astro:content";
@@ -63,6 +64,8 @@ interface Section {
   title={title}
   meta_title={meta_title}
   description={description}
+  image={schoolOfAthensImage}
+  image_alt="The School of Athens fresco by Raphael"
 >
   <!-- Intro Lead Section -->
   <ContentLead

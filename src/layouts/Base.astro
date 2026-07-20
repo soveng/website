@@ -18,6 +18,7 @@ import {
   GoogleTagmanagerNoscript,
 } from "@digi4care/astro-google-tagmanager";
 import { ClientRouter } from "astro:transitions";
+import type { ImageMetadata } from "astro";
 import type { CollectionEntry } from "astro:content";
 import { getEntry } from "astro:content";
 
@@ -30,14 +31,15 @@ export interface Props {
   title?: string;
   meta_title?: string;
   description?: string;
-  image?: string;
+  image?: string | ImageMetadata;
+  image_alt?: string;
   noindex?: boolean;
   canonical?: string;
   showCallToAction?: boolean;
 }
 
 // destructure frontmatter
-const { title, meta_title, description, image, noindex, canonical, showCallToAction = true } =
+const { title, meta_title, description, image, image_alt, noindex, canonical, showCallToAction = true } =
   Astro.props;
 
 // process text content
@@ -45,6 +47,15 @@ const processedTitle = await plainify(meta_title ? meta_title : title ? title : 
 const processedDescription = await plainify(
   description ? description : config.metadata.meta_description
 );
+const socialImage = typeof image === "string" ? image : image?.src;
+const socialImagePath = socialImage || config.metadata.meta_image;
+const socialImageUrl = socialImagePath.startsWith("http")
+  ? socialImagePath
+  : new URL(socialImagePath, config.site.base_url).toString();
+const canonicalUrl = canonical
+  ? canonical
+  : new URL(Astro.url.pathname, config.site.base_url).toString();
+const processedImageAlt = await plainify(image_alt || title || config.site.title);
 
 // Get call-to-action data if needed
 const call_to_action = showCallToAction ? (await getEntry(
@@ -113,7 +124,7 @@ const call_to_action = showCallToAction ? (await getEntry(
     </title>
 
     <!-- canonical url -->
-    {canonical && <link rel="canonical" href={canonical} item-prop="url" />}
+    <link rel="canonical" href={canonicalUrl} item-prop="url" />
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
@@ -151,7 +162,7 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}
+      content={canonicalUrl}
     />
 
     <!-- twitter-title -->
@@ -169,20 +180,16 @@ const call_to_action = showCallToAction ? (await getEntry(
     <!-- og-image -->
     <meta
       property="og:image"
-      content={(() => {
-        const img = image || config.metadata.meta_image;
-        return img.startsWith('http') ? img : `${config.site.base_url}${img}`;
-      })()}
+      content={socialImageUrl}
     />
+    <meta property="og:image:secure_url" content={socialImageUrl} />
 
     <!-- twitter-image -->
     <meta
       name="twitter:image"
-      content={(() => {
-        const img = image || config.metadata.meta_image;
-        return img.startsWith('http') ? img : `${config.site.base_url}${img}`;
-      })()}
+      content={socialImageUrl}
     />
+    <meta name="twitter:image:alt" content={processedImageAlt} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@sovereigneng" />
     <meta name="twitter:creator" content="@dergigi" />
@@ -192,7 +199,7 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta property="og:locale" content="en_US" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content={processedTitle} />
+    <meta property="og:image:alt" content={processedImageAlt} />
 
     <!-- Structured Data -->
     <script type="application/ld+json" is:inline>
