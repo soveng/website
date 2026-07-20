@@ -26,11 +26,11 @@
       "image": "wednesday-workshops.png"
     },
     {
-      "day": "Thursday: Time Off",
-      "short_description": "Free time for experimentation, implementation, and exploration.",
-      "tagline": "Deep Work & Experimentation",
-      "goal": "Provide unstructured time for deep work, individual exploration, and turning the week's ideas into prototypes for Friday's demo.",
-      "description": "A deliberately unstructured day for coding, pair programming, and experimentation. This is where the most surprising and innovative results often emerge, as participants have the freedom to test, build, and even alpha-test their creations in Madeira's Bitcoin-friendly ecosystem.",
+      "day": "Thursday: Build Day",
+      "short_description": "Unstructured time for implementation, experimentation, and shipping.",
+      "tagline": "Deep Work & Implementation",
+      "goal": "Protect uninterrupted build time so participants can turn the week's ideas into prototypes for Friday's demo.",
+      "description": "An intentionally unscheduled day for coding, pair programming, and experimentation. There is no formal agenda and no day off here. Thursday exists to give builders room to test, ship, and even alpha-test their creations in Madeira's Bitcoin-friendly ecosystem.",
       "image": "thursday-time-off.png"
     },
     {
