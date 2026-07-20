@@ -1,52 +1,52 @@
 {
-  "description": "Every week follows the same structure, a steady show → talk → build rhythm designed to maximize creativity, collaboration, and shipping real projects. This cadence acts as a metronome for creativity, preventing perfectionism paralysis and creating the conditions for meaningful collaboration.",
+  "description": "Every week follows the same loop. People talk, build, walk, and demo on a fixed schedule. The routine keeps the cohort moving and stops projects from drifting.",
   "schedule": [
     {
       "day": "Monday Mornings",
-      "short_description": "Orientation and setting the tone for the week.",
-      "tagline": "Orientation & Tone Setting",
-      "goal": "Align the cohort on the week's theme, goals, and energy, with the weekly captain taking the helm.",
-      "description": "The week kicks off with an orientation led by the designated captain. It's about setting the theme, clarifying logistics like room assignments and workshop schedules, and ensuring everyone is aligned for the creative flow of the week.",
+      "short_description": "Captain handover, orientation, and weekly planning.",
+      "tagline": "Reset the Week",
+      "goal": "Get everyone on the same page for the week ahead.",
+      "description": "Monday morning starts with the weekly captain. The cohort sets the theme, sorts out logistics, and decides what needs to happen before Friday.",
       "image": "monday-mornings.png"
     },
     {
       "day": "Tuesday Talks",
-      "short_description": "Participants present slides, share ideas, and give talks.",
-      "tagline": "Sparking Ideas & Collective Intelligence",
-      "goal": "Surface the best ideas through collective intelligence and distributed cognition, where the whole becomes greater than the sum of its parts.",
-      "description": "Participants share knowledge and spark ideas through flexible presentations, from technical deep-dives to philosophical explorations. The semi-circular seating arrangement is intentional, fostering a collaborative discussion rather than a one-way lecture.",
+      "short_description": "Participants give talks, show ideas, and argue about them.",
+      "tagline": "Put Ideas in the Room",
+      "goal": "Expose ideas to the cohort early, while they can still change.",
+      "description": "Tuesday is for talks. Some are technical. Some are philosophical. The point is to put ideas in front of other smart people and see what survives.",
       "image": "tuesday-talks.png"
     },
     {
       "day": "Wednesday Workshops",
-      "short_description": "Hands-on sessions teaching practical skills and building.",
-      "tagline": "Hands-On Skill Transfer",
-      "goal": "Transfer practical, hands-on skills that can be immediately applied. Knowledge transfer happens fastest when you're building something real.",
-      "description": "Theory meets practice. Participants learn by doing in hands-on workshops, often with concurrent sessions for different skill levels. The flexible room layout with group tables is designed for collaboration and rapid iteration.",
+      "short_description": "Hands-on sessions for tools, techniques, and live building.",
+      "tagline": "Learn by Doing",
+      "goal": "Transfer useful skills fast enough to use them the same week.",
+      "description": "Wednesday is practical. People teach the tools they know, then everyone goes back to building with them.",
       "image": "wednesday-workshops.png"
     },
     {
       "day": "Thursday: Build Day",
-      "short_description": "Unstructured time for implementation, experimentation, and shipping.",
-      "tagline": "Deep Work & Implementation",
-      "goal": "Protect uninterrupted build time so participants can turn the week's ideas into prototypes for Friday's demo.",
-      "description": "An intentionally unscheduled day for coding, pair programming, and experimentation. There is no formal agenda and no day off here. Thursday exists to give builders room to test, ship, and even alpha-test their creations in Madeira's Bitcoin-friendly ecosystem.",
+      "short_description": "Open build time for coding, testing, and getting ready for Friday.",
+      "tagline": "Build Without Meetings",
+      "goal": "Protect uninterrupted time for implementation.",
+      "description": "Thursday has no formal agenda. People code, pair, fix bugs, test rough edges, and get something ready to demo.",
       "image": "thursday-time-off.png"
     },
     {
       "day": "Friday: Demo Day",
-      "short_description": "Demos and discussions, followed by a celebratory BBQ.",
-      "tagline": "Show What Runs & Public Ledger",
-      "goal": "Concentrate the mind and create a public ledger of progress by forcing the creation of thin vertical slices over speculative architecture.",
-      "description": "The rubber meets the road. Every participant demos something they built—no polish required, just honesty. The format is aggressively time-boxed (6-min demo, 2-min discussion) to prevent perfectionism. The day concludes with a celebratory BBQ where friends and family are welcome.",
+      "short_description": "Weekly demos, short discussion, then a barbecue.",
+      "tagline": "Show What Runs",
+      "goal": "Force the work into the open every week.",
+      "description": "Friday is Demo Day. Everyone gets six minutes to show what they built and two minutes for discussion. After that, people eat, talk, and keep going.",
       "image": "friday-demo-day.png"
     },
     {
       "day": "Weekend Walks",
-      "short_description": "Hikes to stimulate the group and foster free-flowing conversations.",
-      "tagline": "Moving R&D & Natural Group Mixing",
-      "goal": "Stimulate creative thought and facilitate the free flow of ideas through light physical activity and spontaneous, high-bandwidth conversations.",
-      "description": "An absolutely crucial pillar of the program. Light-to-moderate 2-3 hour hikes on wide paths allow for natural group mixing and side-by-side conversations. Guided to ensure the group stays together, these walks are 'moving R&D' and the primary engine for ideation.",
+      "short_description": "Hikes, recovery, and long side-by-side conversations.",
+      "tagline": "Walk and Talk",
+      "goal": "Give people time to think, recover, and talk without a screen in front of them.",
+      "description": "The walks matter. People mix naturally, conversations get longer, and half-formed ideas get tested before they harden into plans.",
       "image": "walking.jpeg"
     }
   ]

@@ -7,11 +7,11 @@ description: 'Our concept and approach'
 # Main introduction section
 intro:
   content: |
-    Sovereign Engineering is a six-week, in-person program on the island of Madeira. Its purpose is to create the best possible environment for **high-bandwidth ideation, collaboration, and rapid prototyping** around Freedom Tech such as Bitcoin, Lightning, and Nostr.
+    Sovereign Engineering is a six-week program in Madeira for people who want to build freedom tech with other serious builders.
 
-    The program runs on a relentless [weekly loop](/loop) designed for exploration: *Monday Mornings* set the theme for the week, *Tuesday Talks* provoke discussion, *Wednesday Workshops* transfer hands-on skills, *Thursday* protects unstructured build time for reflection, experimentation, and implementation, and by Friday's Demo Day every participant has completed an entire **show → talk → build** loop—ready to reset and do it again the following week.
+    The structure is simple. Twenty-one people work in the same place for six weeks. Monday sets the week. Tuesday is for talks. Wednesday is for workshops. Thursday is open build time. Friday is Demo Day. The weekend is for walks, recovery, and long conversations.
 
-    The program is **private and off the record**—a protected environment where value-aligned builders can think freely, experiment boldly, and ship rapidly without the constraints of too much public scrutiny. Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, where a shift in perspective helps new ideas flourish—and remarkable things follow.
+    The program is private and in person. People can speak freely, test rough ideas, and ship without performing for the whole internet.
   image: 'www-life-path.png'
 
 # Concept sections
@@ -19,86 +19,86 @@ sections:
   - id: 'core-pillars'
     title: 'Core Pillars'
     content: |
-      Sovereign Engineering rests on five fundamental pillars that create the conditions for meaningful collaboration:
+      Sovereign Engineering rests on five pillars:
 
-      **[The Weekly Loop](#weekly-loop)**: A steady show → talk → build rhythm that drives momentum and prevents perfectionism paralysis. Every week follows the same structure—a metronome for creativity.
+      **[The Weekly Loop](#weekly-loop)**: The same cadence repeats every week. It keeps projects moving.
 
-      **[The Walks](#walks)**: Moderate hikes that stimulate creative thought through "left foot, right foot, left brain, right brain" activation. Walking isn't downtime—it's moving R&D.
+      **[The Walks](#walks)**: Long conversations on foot. Good ideas survive contact with other minds.
 
-      **[The Demo Days](#demo-day)**: Where the rubber meets the road—every participant demos working code every week. Aggressively time-boxed with 6-minute demos and 2-minute discussions.
+      **[The Demo Days](#demo-day)**: Everyone demos every week. Shipping is mandatory.
 
-      **[The Captains](#weekly-captains)**: Each week has a dedicated captain who steers the ship, ensuring organic emergence rather than top-down direction. Rotating leadership keeps the program tight without feeling top-down.
+      **[The Captains](#weekly-captains)**: One captain each week keeps the cohort organized.
 
-      **[The Environment](#environment)**: Madeira makes ideas tangible fast—Bitcoin-friendly merchants, high-bandwidth in-person time, and an off-the-record space for bold exploration. Privacy, presence, and immediacy compound.
+      **[The Environment](#environment)**: Madeira is practical. You can build something in the morning and try it in the real world the same day.
     image: '2-hours-of-conversation.jpeg'
 
   - id: 'weekly-loop'
     title: 'The Weekly Loop'
     content: |
-      The week acts as a metronome for creativity. Friday's *Show* sets a hard deadline that concentrates effort—every participant demos something they wrote or prompted into existence themselves. The moment code compiles on stage it becomes shared reality. Over the weekend and during Monday's orientation the cohort *Talks*—walking Madeira's levadas, swapping critiques, and letting distributed cognition surface better approaches. From Tuesday onward everyone *Builds* toward the next demo.
+      The loop is simple. Friday forces the work into the open. Everyone demos. The weekend walks and Monday reset give the cohort time to argue, rethink, and pick a direction. Tuesday through Thursday are for building the next thing.
     image: 'show-talk-build-loop.jpeg'
 
   - id: 'walks'
     title: 'The Walks'
     content: |
-      Walking isn't downtime—it's moving *R&D*. The weekend walks are a crucial component of Sovereign Engineering, designed for light-to-moderate two- to three-hour hikes at a comfortable pace where participants can walk side-by-side and have conversations without breaking a sweat.
+      The walks are part of the work. They are light to moderate hikes, long enough for real conversation and easy enough that people can keep talking.
 
-      **Why Walking Works**: Research shows walking stimulates creative thought. As one participant put it: "left foot, right foot, left brain, right brain." The physical movement activates your whole being and creates the perfect conditions for free-flowing ideas.
+      The change of pace helps. People mix naturally, talk longer, and say things they would not say in a room with a screen on the wall.
 
-      The island's levadas, coastal paths, and high-altitude ridges offer constantly changing scenery—nature's own slide deck. The sensory experience of sun, wind, and ocean spray anchors discussions in memory, making ideas easier to recall and reference later.
+      Madeira gives the cohort plenty of paths for that kind of thinking.
     image: 'walking.jpeg'
     float: 'right'
 
   - id: 'demo-day'
     title: 'The Demo Days'
     content: |
-      Nothing concentrates the mind like a live demo. Every Friday afternoon the cohort gathers to **show whatever runs**. Polish is optional, honesty is mandatory. The rule is simple: you must demo something new every week—either related to ongoing work or completely fresh ideas.
+      Every Friday afternoon the cohort gathers to **show whatever runs**. You must demo something new each week, whether it extends an existing project or starts from scratch.
 
-      **Format**: Aggressively time-boxed with 6 minutes of demo time and 2 minutes of discussion. With 20+ demos, we take breaks after every 6-7 presentations, usually running three sessions. The day typically ends around 6 PM.
+      **Format**: Six minutes of demo time. Two minutes of discussion. With 20 or more demos, we take short breaks after every 6 or 7 presentations.
 
-      **Philosophy**: We highly encourage trying bold ideas every week. It doesn't matter if it's half-broken or half-baked—just give it your best shot and show it on Friday. The point is to ship thin vertical slices and learn fast.
+      **Why it matters**: Demo Day kills hand-waving. It forces people to cut scope, make choices, and show the state of the work in public.
 
-      **Celebration**: After demos, we have a [beefsteak-style](https://archive.is/S3LjP) standing barbecue (no pre-arranged seating) that invites relaxed, free-flowing conversation. Friends and family are invited to join, creating a bridge between the private program and the broader community.
+      **Afterwards**: We usually end with a [beefsteak-style](https://archive.is/S3LjP) standing barbecue. Friends and family are welcome.
 
-      **Impact**: Demo Day serves as a public ledger of progress. Six Fridays equal six checkpoints, creating proof-of-work encoded in weekly commits that prospective participants can review.
+      **Result**: Six Fridays means six checkpoints. The work leaves a trail.
     image: 'demo-day.jpeg'
 
   - id: 'weekly-captains'
     title: 'The Captains'
     content: |
-      Each week has a dedicated captain who steers the ship through that week's journey, ensuring organic emergence rather than top-down direction.
+      Each week has a captain. The captain keeps the week moving and handles the practical work that would otherwise fall through the cracks.
 
       **Captain Responsibilities**:
-      Shepherd the walks by setting the conversational pace, choosing wide paths, and ensuring group mixing. Time-box Friday demos, keep Monday orientations on track, organize Wednesday workshops and find time slots, and arrange rooms appropriately for different activities (talks, workshops, demos).
+      Set the pace on the walks, keep Monday on track, find time slots for workshops, sort out rooms, and keep Friday moving.
 
-      **The Rotation**: By rotating leadership every week, the cohort practices the very autonomy it preaches. Leadership is shared, logistics are decentralized, and the program stays tight without feeling top-down.
+      **The Rotation**: The role rotates every week. Leadership gets shared. Logistics do not pile up on one person.
 
-      **The Six-Week Rhythm**: There is no designated off week. The cadence holds for the full six weeks, with Thursday kept intentionally unstructured so participants can code, pair, explore, and turn ideas into working demos.
+      **The Six-Week Rhythm**: There is no off week. The cadence holds for the full six weeks.
     image: 'weekly-loop-schedule.png'
 
   - id: 'environment'
     title: 'The Environment'
     image: 'madeira.jpg'
     content: |
-      Madeira isn't just beautiful—it's a **Bitcoin-friendly proving ground**. Thanks to the efforts of André and FREE Madeira, there are [150+ merchants](https://btcmap.org/community/free-madeira/merchants) accepting Bitcoin. Paying in sats is normal.
+      Madeira is a **Bitcoin-friendly proving ground**. Thanks to André and FREE Madeira, there are [150+ merchants](https://btcmap.org/community/free-madeira/merchants) accepting Bitcoin. Paying in sats is normal here.
 
-      **Off the Record, In Person**: We combine high-bandwidth in-person time with a private, off-the-record space. That safety lets wild ideas breathe before they ship to the open sea.
+      **Off the Record, In Person**: The cohort gets real privacy. People can test ideas before the whole internet piles on.
 
-      **Alpha-Testing the Future**: Build a wallet on Thursday, pay with it on Friday. Hardware, merchants, and curious peers live within walking distance, collapsing the feedback loop.
+      **Alpha-Testing the Future**: Build a wallet on Thursday and try to pay with it on Friday. Hardware, merchants, and curious peers are all nearby.
 
-      **The Filter and the Place**: You have to fly here and commit for six weeks—a natural filter. The volcanic island, subtropical climate, and dramatic topography create the space for fresh perspectives and new ideas to emerge.
+      **The Filter and the Place**: You have to get on a plane and commit to six weeks. That already filters for people who mean it.
 
   - id: 'target-audience'
     title: 'Who Should Apply?'
     content: |
-      We're looking for **21 value-aligned builders** who want to see more real things built. There are no formal requirements—just alignment and a bias to build.
+      We are looking for **21 value-aligned builders** who want to make real things.
 
       **The Ideal Participant**:
-      The ideal participant is an experienced builder who resonates with the Bitcoin ethos, can code independently, and is eager to explore the frontier. They are excited—rather than terrified—by the prospect of demoing half-baked prototypes, crave long, oxytocin-fueled walks, and thrive on rapid feedback. They believe that Freedom Tech is the moral imperative of our time, want to build the future they want to see, and are willing to be fully present for the full program.
+      Someone who can build, handle feedback, and stay curious for six straight weeks. You do not need a formal credential. You do need proof of work, good judgment, and the willingness to show unfinished things.
 
-      **The Magic Formula**: Bring 21 aligned people together in a place that is highly Bitcoin-friendly and beautiful, and you get the perspective shift needed for new ideas to take root.
+      **Why it works**: Put the right people together in the same place for long enough and the work gets better.
 
-      **The Goal**: We want to see awesome stuff being built, expand the impact that freedom tech can have, come up with new ideas and protocols, test them immediately, and have a good time while doing it.
+      **The Goal**: Build useful tools, find stronger ideas, and leave with better instincts than you came with.
     image: 'stay-weird.jpg'
     afterContent: |
       <p class="mt-6"><a href="/loop">Next: See the Weekly Loop →</a></p>
