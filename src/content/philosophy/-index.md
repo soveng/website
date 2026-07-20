@@ -8,9 +8,9 @@ description: 'Our philosophy and principles'
 intro:
   quote_section: 'Philosophy' # References philosophy-quotes.json
   content: |
-    Sovereign Engineering is grounded in the values embodied by Bitcoin: **self-sovereignty, user agency, and censorship-resistance**. We build technology that maximizes individual freedom, minimizes reliance on trusted third parties, and treats the individual as the ultimate authority in every network.
+    Sovereign Engineering starts with a simple conviction: if money can be open and user-controlled, software can too. We care about systems people can verify, fork, host, and leave without asking permission.
 
-    From ["Fix the Money, Fix the Web"](https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g) we take the conviction that a sound monetary foundation is a moral imperative, and that Bitcoin's paradigm of extreme ownership demands equally sovereign applications. Likewise, [Nostr](https://nostr-resources.com/) reminds us that protocols, not platforms, will reclaim the vibrant, open experimentation that defined the early web.
+    Bitcoin showed what strong rules can do on the money layer. [Nostr](https://nostr-resources.com/) carries the same instinct into identity, publishing, and coordination. We want more builders working from that base.
   image: 'pirate-ship-2.jpeg'
 
 # Philosophy sections
@@ -21,11 +21,11 @@ sections:
     image: 'genesis-block.png'
     float: 'right'
     content: |
-      Bitcoin, Lightning, and Nostr prove that code can embed freedom at the protocol layer: speech, assembly, movement—and of course financial freedom. We strive to reproduce that superpower in every system we touch, so liberty is enforced by mathematics rather than maintained by promises.
+      Bitcoin, Lightning, and Nostr push power to the edge. Users hold keys. Rules live in code. Operators can leave and rejoin without begging a platform.
 
-      Good design begins with values. We minimize dependencies, maximize verifiability, and keep exit costs asymptotically close to zero. When the design is right, freedom is a property—not a permission.
+      That leads to concrete design choices. We keep dependencies lean, make state easy to inspect, and try to keep exit costs low. People should be able to audit the system and take their data elsewhere.
 
-      This way of thinking is what we call *Freedom Tech*: technology that is rug-pull-resistant by design. When betrayal is impossible, trust becomes optional and collaboration scales.
+      That is what we mean by *Freedom Tech*. Build things so users do not need to trust your mood, your company, or your funding round.
 
   - id: 'solved-by-walking'
     title: 'Solved by Walking'
@@ -33,11 +33,11 @@ sections:
     image: 'solvitur-ambulando.jpeg'
     float: 'left'
     content: |
-      No ill-defined problem was ever solved in isolation. By gathering bright minds in a high-trust setting we tap into what cognitive scientist [John Vervaeke](https://johnvervaeke.com/series/awakening-from-the-meaning-crisis/) calls *distributed cognition*. Ideas bounce, mutate, and compound until entirely new solution-spaces appear.
+      Hard problems usually need more than one mind. Put serious builders in the same place for long enough and the ideas get sharper. People challenge each other, borrow from each other, and change course faster.
 
-      The fuel for that process is conversation, and the best conversations happen while *walking*. Saint Augustine called it *Solvitur ambulando*—"by walking it shall be solved." Madeira's levadas offer kilometers of cognitive runway.
+      Walking helps. The pace changes. People talk longer. Side-by-side conversation feels different from a room with chairs and a projector. Madeira gives us plenty of paths for that.
 
-      Friday's Demo Day serves as an epistemic checkpoint. Six minutes to show, two to discuss. Brutal, illuminating, and endlessly inspiring.
+      Friday puts pressure on the process. Six minutes to show. Two minutes to discuss. Then the next person goes.
 
   - id: 'explorers-of-a-new-frontier'
     title: 'Explorers of a New Frontier'
@@ -45,23 +45,23 @@ sections:
     image: 'bell-labs.jpeg'
     float: 'right'
     content: |
-      Our logo is a ship for a reason. Bitcoin and Nostr open a digital ocean as uncharted as the Age of Discovery. We welcome builders who yearn for that "wild and open sea," who embrace risk, and who delight in charting new waters.
+      The ship on our logo is there on purpose. This kind of work rewards people who can tolerate uncertainty, try strange ideas, and keep moving when the map is incomplete.
 
-      Like Shackleton's crew, participants must trust one another when storms hit, and celebrate together when new land appears on the horizon. The sea is vast, and so is the opportunity.
+      We look for builders who would rather test a hard idea than explain forever why it might work.
 
-      Those who prefer calm harbors and predictable schedules need not apply. We are optimized for the pirates, the adventurers, and the stubborn optimists who believe the internet can still astonish us.
+      Predictable schedules and low-risk projects have plenty of homes already. Sovereign Engineering is for people who want to push further.
 
   - id: 'in-person-high-bandwidth'
-    title: 'In-Person, High-Bandwidth'
+    title: 'In Person'
     quote_section: 'In-Person, High-Bandwidth' # References philosophy-quotes.json
     image: 'soveng-shirt.jpeg'
     float: 'left'
     content: |
-      The magic happens face-to-face. Six weeks of shared meals, shared walks, and shared victories forge bonds that bandwidth-limited Zoom calls simply cannot replicate. Trust is built in the queue for poncha, not in a Discord channel.
+      Being in the same place matters. Shared meals, shared walks, and shared deadlines create context fast. Remote calls are useful. They are not the same thing.
 
-      Madeira's Bitcoin-friendly ecosystem (see the [BTCMap](https://btcmap.org/community/free-madeira) or visit [FREE Madeira](https://freemadeira.org/)) provides the perfect real-world playground to test ideas minutes after they compile.
+      Madeira also lets people test things in the real world. See the [BTCMap](https://btcmap.org/community/free-madeira) or [FREE Madeira](https://freemadeira.org/). You can build a wallet, walk outside, and try to pay with it.
 
-      Prototype on Monday, ship it on Tuesday, receive sats on Wednesday, buy coffee on Thursday, iterate by Friday. That feedback loop is only possible when hardware, merchants, and curious peers live within walking distance.
+      That short loop matters. Hardware, merchants, and curious peers are close enough to reach on foot.
 
   - id: 'bias-for-action'
     title: 'Bias for Action'
@@ -70,11 +70,11 @@ sections:
     float: 'right'
     link: '/concept'
     content: |
-      We prototype first, critique later. Imperfect code is welcomed if it advances the conversation. Novelty, experimentation, and rapid iteration trump premature optimization.
+      We prototype first. Critique comes after there is something real to look at. Rough code is fine if it teaches the cohort something useful.
 
-      This bias for action produces tangible results: from *Blossom* to *ZapStore*, many [cohort projects](/projects) were conceived on a Monday walk and open-sourced before the next weekend. The world needs working code, not slide decks.
+      That habit has produced real [cohort projects](/projects), from *Blossom* to *ZapStore*. A lot of them started as a conversation, got built the same week, and shipped before the weekend ended.
 
-      Direction beats speed, yet speed still helps. We chase the 80–20, knowing that the last 20% can wait until the idea survives first contact with reality.
+      Speed matters here because feedback matters. It is better to ship a thin slice on Friday than defend a grand plan for six weeks.
 
       Want to see how this rapid loop plays out week by week? Explore the full cadence in our [Concept](/concept) section.
 
@@ -84,9 +84,9 @@ sections:
     image: 'cypherpunks-write-code.jpeg'
     float: 'left'
     content: |
-      *"What does it mean to 'build it right'?"* ask Pablo & Gigi. It means writing code that the user can verify, fork, and *exit* from; choosing architectures that minimize trust; and favoring primitives that stand the test of decades.
+      *"What does it mean to build it right?"* It means writing code users can verify, fork, and leave. It means choosing architectures that reduce trust and survive contact with hostile environments.
 
-      Hal Finney's challenge calls for code that stands on its own—transparent, user-verifiable, and resilient to adversarial pressure. We prize lean binaries, readable source, and simple dependency graphs so every sailor on this digital ocean can audit the hull before they board.
+      We prize lean binaries, readable source, and simple dependency graphs. Users should be able to inspect the hull before they get on the ship.
 
   - id: 'no-solutions'
     title: 'No Solutions'
@@ -94,9 +94,9 @@ sections:
     image: 'wide-open-sea.jpeg'
     float: 'right'
     content: |
-      Our craft is the art of choosing the right compromises—those that maximize sovereignty, minimize trust, and preserve optionality for generations of builders to come.
+      Trade-offs do not go away. The job is to choose the ones that protect sovereignty, reduce trust, and keep future builders from getting boxed in.
 
-      The [No Solutions podcast](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n) is our experiment in *Dia-Logos*—capturing the same free-flowing, exploratory conversations that spark during every cohort and pressing record.
+      The [No Solutions podcast](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n) records the kinds of conversations that happen during the cohorts. People disagree, test ideas, and keep going until something useful falls out.
 
   - id: 'endurance'
     title: 'Endurance'
@@ -105,11 +105,11 @@ sections:
     float: 'left'
     link: '/books'
     content: |
-      Building self-sovereign systems is a **marathon**, not a sprint; endurance and steady iteration win the day.
+      Building self-sovereign systems takes time. Endurance matters more than hype.
 
-      Freedom Tech is not built in fiscal quarters; it is forged across decades. We favor antifragile tooling, small teams, and battle-tested primitives that will still compile when our grandchildren fork the repo.
+      Good tools often take years to harden. We favor small teams, battle-tested primitives, and software that can still compile long after the current fashion cycle ends.
 
-      We endure because the mission matters: **fix the money, fix the internet**. Everything else is a footnote.
+      The mission is simple: **fix the money, fix the internet**.
     afterContent: |
       <p class="mt-6"><a href="/concept">Next: Explore the Concept →</a></p>
 

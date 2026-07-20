@@ -2,12 +2,12 @@
 # Loop Page Content
 title: 'The Weekly Loop'
 meta_title: 'THE WEEKLY LOOP'
-description: 'The steady show → talk → build rhythm that drives momentum and prevents perfectionism paralysis'
+description: 'The six-week rhythm of talks, workshops, build time, walks, and Friday demos'
 
 # Main introduction section
 intro:
   content: |
-    The week acts as a metronome for creativity. Friday's *Show* sets a hard deadline that concentrates effort—every participant demos something they wrote or prompted into existence themselves. The moment code compiles on stage it becomes shared reality. Over the weekend and during Monday's orientation the cohort *Talks*—walking Madeira's levadas, swapping critiques, and letting distributed cognition surface better approaches. From Tuesday onward everyone *Builds* toward the next demo.
+    The loop is simple. Friday forces the work into the open. Everyone demos. The weekend walks and Monday reset give the cohort time to argue, rethink, and pick a direction. Tuesday through Thursday are for building the next thing.
 
-    This steady rhythm prevents perfectionism paralysis and creates the conditions for collaboration. Every week follows the same structure, creating a predictable cadence that lets participants focus on what matters: building and shipping real projects.
+    The same loop repeats every week. That matters. Nobody waits around. People ship, get feedback, and go again.
 ---

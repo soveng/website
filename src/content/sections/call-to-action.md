@@ -2,7 +2,7 @@
 enable: true
 title: 'Applications are now closed'
 image: '/images/men-wanted.png'
-description: 'Thank you for your interest in Sovereign Engineering. Applications for SEC-08 are now closed. Stay tuned for future opportunities to join our community of builders.'
+description: 'Applications for SEC-08 are closed. We will post the next cohort here when it is ready.'
 button:
   enable: false
   label: 'Apply Now!'

@@ -24,48 +24,48 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: 'SEC-08 (YOLO++) starts July 20, 2026 and runs for six weeks. Check the [upcoming cohorts](/#upcoming-cohorts) section for the latest info and application links.'
+        answer: 'SEC-08 (YOLO++) started on July 20, 2026 and runs for six weeks. Applications for SEC-08 are closed. When we announce the next cohort, it will appear in the [upcoming cohorts](/#upcoming-cohorts) section.'
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
         answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation Pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
 
       - question: 'Is this a free program?'
-        answer: "Yes, it is. If you are selected, the program is free for you. We'll take care of the shared coworking space and make sure you feel at home. This location will be our homebase until the final Demo Day.\n\nThat said, we are not going to work 24/7. Grant yourself some time off after our working sessions to relax and enjoy the island."
+        answer: "Yes. If you are selected, we cover the coworking space. You cover travel, accommodation, food, and your other personal expenses."
 
   - id: 'travel-accommodation'
     title: 'Travel & Accommodation'
     questions:
       - question: 'Do you pay for flights and accommodation?'
-        answer: "No, we don't. If you commit yourself to the program you have to organize your flights and accommodation yourself. If you, for any reason, are not able to do this, please reach out to us."
+        answer: "No. You book and pay for your own flights and accommodation. If that is a problem, reach out."
 
       - question: 'Do you provide accommodation?'
-        answer: "No, but you can search for a roof over your head on:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\nThere's also [madeirafriends.org](https://madeirafriends.org) which is a community that can help with many things."
+        answer: "No, but these links are a good place to start:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\n[madeirafriends.org](https://madeirafriends.org) can also help."
 
       - question: 'How do I need to prepare for the program?'
-        answer: "There's of course a difference if you travel to Madeira on your own, or with a family. Besides this, your preparations should be approached like a longer than normal working holiday. Pack enough clothes and hardware that you'll be needing for living out of your suitcase for a while. Check the cohort duration — it varies between three and six weeks depending on the cohort.\n\nIf you have special needs, please reach out to us and we'll see how we can help you settle in."
+        answer: "Pack for six weeks, not a weekend. Bring the hardware you actually use, enough clothes to live out of a suitcase, and whatever helps you work well away from home.\n\nIf you have special needs, reach out early."
 
   - id: 'cost-living'
     title: 'Cost of Living'
     questions:
       - question: 'What is the cost of living in Madeira?'
-        answer: "If you are invited to come after you're selected, you need to take care of a personal budget for the duration of the cohort, including flight tickets, rent for accommodation, spending money for daily expenses such as breakfast, lunch and dinner. Pocket money for the weekend outings is also not a bad idea, since you'll be able to explore beautiful Madeira once you're there.\n\nA so-called ballpark figure is hard to calculate in general, as Madeira might be cheaper for participants who come from the US or north-west Europe. If you come from southern Europe or Asia or the Americas it might be more expensive. Besides this it also depends on your personal preferences for accommodation, etc.\n\nBe sure to check out:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
+        answer: "Budget for flights, accommodation, food, local transport, and day-to-day spending for the full six weeks. The exact number depends on where you are flying from and how you like to live.\n\nUseful references:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
 
   - id: 'application-contact'
     title: 'Application & Contact'
     questions:
       - question: 'How do I apply?'
-        answer: 'Applications for SEC-08 are open. Apply via the [upcoming cohorts](/#upcoming-cohorts) section on the homepage.'
+        answer: 'Applications for SEC-08 are closed. When the next cohort opens, the application link will appear in the [upcoming cohorts](/#upcoming-cohorts) section on the homepage.'
 
       - question: 'What is your selection policy?'
         answer: 'We select participants based on merit, public proof-of-work, and alignment with our philosophy. Read our full [policies and guidelines](/policy) for details on selection, non-discrimination, and partnerships.'
 
       - question: 'How do I best contact you?'
-        answer: "You can contact us via email [info@sovereignengineering.io](mailto:info@sovereignengineering.io) or via [nostr](https://njump.me/sovereignengineering.io). We'll do our best to get back to you as soon as possible."
+        answer: "Email [info@sovereignengineering.io](mailto:info@sovereignengineering.io) or reach out via [nostr](https://njump.me/sovereignengineering.io)."
 
   - id: 'contact-info'
     title: 'Still Have Questions?'
     content: |
-      Make sure to consult the Frequently Asked Questions if you have any questions. If the FAQ doesn't answer your question, please reach out to us using the contact information below.
+      If the FAQ does not answer your question, reach out.
     questions:
       - question: 'Email'
         answer: '[info@sovereignengineering.io](mailto:info@sovereignengineering.io)'
@@ -78,6 +78,6 @@ sections:
 
 # Call to action
 cta:
-  text: 'Apply for SEC-08'
-  link: 'https://sovereignengineering.typeform.com/SEC-08'
+  text: 'Applications Closed'
+  link: '#'
 ---

@@ -81,7 +81,7 @@ const processedSections = sections.map(
     // Convert weekly rhythm schedule to bulletpoints with anchor links to /loop
     const scheduleBullets = weeklyRhythmData.schedule.map((item) => {
       const anchor = slugify(item.day);
-      return `**[${item.day}](/loop#${anchor})** – ${item.short_description}`;
+      return `**[${item.day}](/loop#${anchor})**: ${item.short_description}`;
     });
 
     return {
