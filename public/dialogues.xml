@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Wed, 22 Jul 2026 22:58:58 +0000</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2026 22:58:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 23:25:12 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -97,8 +97,14 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>NIP-91</li>
       <li><a href="https://github.com/sandwichfarm/notemine">notemine</a></li>
       <li>Purple Pages</li>
-      <li>GSD</li>
+      <li><a href="https://docs.opengsd.net/">GSD</a></li>
       <li>OpenSpec</li>
+      <li><a href="https://gist.github.com/dskvr/e2b100e6addee34e47358116563103d7">AI Slop Scan notes</a></li>
+      <li><a href="https://github.com/scanaislop/aislop">aislop</a></li>
+      <li><a href="https://github.com/sandwichfarm/aislop-badge">aislop-badge</a></li>
+      <li><a href="https://docs.rs/antislop/latest/antislop/">antislop</a></li>
+      <li><a href="https://slopscan.dev/">slopscan.dev</a></li>
+      <li><a href="https://github.com/flamehaven01/ai-slop-detector">ai-slop-detector</a></li>
       <li><a href="https://chatgpt.com/">ChatGPT</a></li>
       <li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/">RTX PRO 6000 Blackwell</a></li>
       <li><a href="https://github.com/keylase/nvidia-patch">NVIDIA patch</a></li>
@@ -177,8 +183,14 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>NIP-91</li>
       <li><a href="https://github.com/sandwichfarm/notemine">notemine</a></li>
       <li>Purple Pages</li>
-      <li>GSD</li>
+      <li><a href="https://docs.opengsd.net/">GSD</a></li>
       <li>OpenSpec</li>
+      <li><a href="https://gist.github.com/dskvr/e2b100e6addee34e47358116563103d7">AI Slop Scan notes</a></li>
+      <li><a href="https://github.com/scanaislop/aislop">aislop</a></li>
+      <li><a href="https://github.com/sandwichfarm/aislop-badge">aislop-badge</a></li>
+      <li><a href="https://docs.rs/antislop/latest/antislop/">antislop</a></li>
+      <li><a href="https://slopscan.dev/">slopscan.dev</a></li>
+      <li><a href="https://github.com/flamehaven01/ai-slop-detector">ai-slop-detector</a></li>
       <li><a href="https://chatgpt.com/">ChatGPT</a></li>
       <li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/">RTX PRO 6000 Blackwell</a></li>
       <li><a href="https://github.com/keylase/nvidia-patch">NVIDIA patch</a></li>
