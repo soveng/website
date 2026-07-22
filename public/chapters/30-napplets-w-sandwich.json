@@ -1,0 +1,76 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "30: Napplets w/ Sandwich",
+  "podcastName": "No Solutions",
+  "description": "Draft chapter map for episode 30, Napplets w/ Sandwich.",
+  "fileName": "30 - Napplets.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 285,
+      "title": "Composable Clients",
+      "url": "https://napplet.run/"
+    },
+    {
+      "startTime": 285,
+      "endTime": 720,
+      "title": "Runtime Shape"
+    },
+    {
+      "startTime": 720,
+      "endTime": 1215,
+      "title": "Resource APIs",
+      "url": "https://github.com/hzrd149/blossom"
+    },
+    {
+      "startTime": 1215,
+      "endTime": 1715,
+      "title": "Malicious Napplets"
+    },
+    {
+      "startTime": 1715,
+      "endTime": 2315,
+      "title": "Browser Shells",
+      "url": "https://github.com/kehto/web"
+    },
+    {
+      "startTime": 2315,
+      "endTime": 2915,
+      "title": "Applet Intents"
+    },
+    {
+      "startTime": 2915,
+      "endTime": 3515,
+      "title": "Workshop Results",
+      "url": "https://napplet.run/"
+    },
+    {
+      "startTime": 3515,
+      "endTime": 4215,
+      "title": "Nsites",
+      "url": "https://nsite.run/"
+    },
+    {
+      "startTime": 4215,
+      "endTime": 4815,
+      "title": "Specialized Relays",
+      "url": "https://nostr.watch/"
+    },
+    {
+      "startTime": 4815,
+      "endTime": 5415,
+      "title": "Agent Workflows"
+    },
+    {
+      "startTime": 5415,
+      "endTime": 5685,
+      "title": "Slop Scanning"
+    },
+    {
+      "startTime": 5685,
+      "endTime": 5865,
+      "title": "Local Hardware"
+    }
+  ]
+}

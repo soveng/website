@@ -39,10 +39,154 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Sun, 07 Jun 2026 01:48:07 +0000</pubDate>
-    <lastBuildDate>Wed, 22 Jul 2026 19:31:00 +0000</lastBuildDate>
+    <pubDate>Wed, 22 Jul 2026 22:58:58 +0000</pubDate>
+    <lastBuildDate>Wed, 22 Jul 2026 22:58:58 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>30: Napplets w/ Sandwich</title>
+      <description><![CDATA[      <p>&quot;You should be able to compose your clients.&quot;</p>
+      <p><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+      <p><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Listen on sovereignengineering.io</a></p>
+      <p>Sandwich and Gigi talk through napplets: small, sandboxed Nostr applets that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
+      <p>Along the way they get into browser sandboxes, iframes, postMessage, malicious applets, Blossom uploads, NIP-5D, nsites, specialized relays, agent workflows, slop scanning, and why the AI subsidy era will not last forever.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>why a normal Nostr client can feel too restrictive for a protocol built around maximum flexibility</li>
+      <li>how napplets grew out of earlier experiments with Naps, Nap.run, nsites, Hyperland-inspired desktops, Tauri, Thorium, and iframe hardening</li>
+      <li>why the host runtime handles keys, signing, encryption, relays, resource loading, storage, uploads, and user prompts</li>
+      <li>why napplets should get high-level helper APIs plus low-level escape hatches instead of direct access to everything</li>
+      <li>how a napplet can upload through Blossom without knowing which Blossom server the user prefers</li>
+      <li>why the shell should see plaintext over the message bus, and how that helps defend users from malicious applets</li>
+      <li>how applet-to-app communication starts to look like Android intents, MIME types, archetypes, and operating-system resource APIs</li>
+      <li>why the browser is a practical deployment target even if the napplet protocol itself is not browser-bound</li>
+      <li>what Kehto, Paja, the napplet dev tooling, and the no-dependencies approach are trying to protect</li>
+      <li>how a workshop produced a dozen napplets, including live stream views, paste-to-upload flows, and even a rough multiplayer chess app</li>
+      <li>why nsites, nsyte, Blossom, Hashtree, and specialized relays all rhyme with the same broader Nostr publishing model</li>
+      <li>why relay specialization and relay discovery might matter more than one giant general-purpose relay model</li>
+      <li>how agent workflows are starting to rebuild older software-development structures: specs, milestones, issues, review teams, and CI</li>
+      <li>why slop scanning, naming discipline, and opponent processing matter once code becomes the context future agents learn from</li>
+      <li>why local model hardware is tempting, but only if you think about it like mining: power, refresh cycles, subsidy cliffs, and cost per watt</li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a></li>
+      <li><a href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/01-start-ugly-w-pablo">Pablo</a></li>
+      <li>Austin</li>
+      <li>Fran</li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://napplet.run/">napplet.run</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/pull/2303">NIP-5D</a></li>
+      <li><a href="https://github.com/kehto/web">Kehto</a></li>
+      <li><a href="https://nsite.run/">nsite.run</a></li>
+      <li><a href="https://github.com/sandwichfarm/nsyte">nsyte</a></li>
+      <li><a href="https://nsyte.run/">nsyte.run</a></li>
+      <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/pull/1566">Hashtree</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a href="https://github.com/nostr-dev-kit/ndk">NDK</a></li>
+      <li><a href="https://github.com/hzrd149/applesauce">Applesauce</a></li>
+      <li><a href="https://github.com/greenart7c3/Amber">Amber</a></li>
+      <li><a href="https://zap.stream/">zap.stream</a></li>
+      <li><a href="https://nostr.watch/">Nostr Watch</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/blob/master/66.md">NIP-66</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/blob/master/78.md">NIP-78</a></li>
+      <li>NIP-91</li>
+      <li><a href="https://github.com/sandwichfarm/notemine">notemine</a></li>
+      <li>Purple Pages</li>
+      <li>GSD</li>
+      <li>OpenSpec</li>
+      <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+      <li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/">RTX PRO 6000 Blackwell</a></li>
+      <li><a href="https://github.com/keylase/nvidia-patch">NVIDIA patch</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      </ul>
+      <p>Recorded at <a href="https://mempool.space/block/959164">959,164</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqs00erj743c3ylnkuaplkjjygv83872vryhepepaeldekjd3e30kvqpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcyt0pjv</link>
+      <enclosure url="https://haven.dergigi.com/e2261870d0eb338d6c4907b82d3cf7a51cb420a3907198124cbb368015de0b19.m4a" length="52202314" type="audio/mp4"/>
+      <guid isPermaLink="false">e96b7b7b-ab98-4dd3-b970-8ba1b76c36e7</guid>
+      <pubDate>Wed, 22 Jul 2026 22:58:58 +0000</pubDate>
+      <itunes:duration>5865</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/9f4787ed48fab24f6d5b5e5cc44bbf875d49b64e8132f6610b83a446b7592c3e.jpg"/>
+      <podcast:person href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx" img="https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg" group="cast" role="guest">sandwich</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/d6a00467deb8e9230aa52c2db251f86313036b0d4f26858f548e2e4c94e6cefb.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/30-napplets-w-sandwich.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqtrxvpddeshqurvv468xtth94ekzmnywa5kx6qpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqvzqqqr4guvvgpa3">Show Notes</podcast:contentLink>
+      <itunes:subtitle>30: Napplets w/ Sandwich</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>napplets, nostr, nsite, blossom, relays, agents, ai, local models, applets, nip-5d</itunes:keywords>
+      <itunes:summary><![CDATA[      <p>&quot;You should be able to compose your clients.&quot;</p>
+      <p><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+      <p><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Listen on sovereignengineering.io</a></p>
+      <p>Sandwich and Gigi talk through napplets: small, sandboxed Nostr applets that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
+      <p>Along the way they get into browser sandboxes, iframes, postMessage, malicious applets, Blossom uploads, NIP-5D, nsites, specialized relays, agent workflows, slop scanning, and why the AI subsidy era will not last forever.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>why a normal Nostr client can feel too restrictive for a protocol built around maximum flexibility</li>
+      <li>how napplets grew out of earlier experiments with Naps, Nap.run, nsites, Hyperland-inspired desktops, Tauri, Thorium, and iframe hardening</li>
+      <li>why the host runtime handles keys, signing, encryption, relays, resource loading, storage, uploads, and user prompts</li>
+      <li>why napplets should get high-level helper APIs plus low-level escape hatches instead of direct access to everything</li>
+      <li>how a napplet can upload through Blossom without knowing which Blossom server the user prefers</li>
+      <li>why the shell should see plaintext over the message bus, and how that helps defend users from malicious applets</li>
+      <li>how applet-to-app communication starts to look like Android intents, MIME types, archetypes, and operating-system resource APIs</li>
+      <li>why the browser is a practical deployment target even if the napplet protocol itself is not browser-bound</li>
+      <li>what Kehto, Paja, the napplet dev tooling, and the no-dependencies approach are trying to protect</li>
+      <li>how a workshop produced a dozen napplets, including live stream views, paste-to-upload flows, and even a rough multiplayer chess app</li>
+      <li>why nsites, nsyte, Blossom, Hashtree, and specialized relays all rhyme with the same broader Nostr publishing model</li>
+      <li>why relay specialization and relay discovery might matter more than one giant general-purpose relay model</li>
+      <li>how agent workflows are starting to rebuild older software-development structures: specs, milestones, issues, review teams, and CI</li>
+      <li>why slop scanning, naming discipline, and opponent processing matter once code becomes the context future agents learn from</li>
+      <li>why local model hardware is tempting, but only if you think about it like mining: power, refresh cycles, subsidy cliffs, and cost per watt</li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a></li>
+      <li><a href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/01-start-ugly-w-pablo">Pablo</a></li>
+      <li>Austin</li>
+      <li>Fran</li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://napplet.run/">napplet.run</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/pull/2303">NIP-5D</a></li>
+      <li><a href="https://github.com/kehto/web">Kehto</a></li>
+      <li><a href="https://nsite.run/">nsite.run</a></li>
+      <li><a href="https://github.com/sandwichfarm/nsyte">nsyte</a></li>
+      <li><a href="https://nsyte.run/">nsyte.run</a></li>
+      <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/pull/1566">Hashtree</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a href="https://github.com/nostr-dev-kit/ndk">NDK</a></li>
+      <li><a href="https://github.com/hzrd149/applesauce">Applesauce</a></li>
+      <li><a href="https://github.com/greenart7c3/Amber">Amber</a></li>
+      <li><a href="https://zap.stream/">zap.stream</a></li>
+      <li><a href="https://nostr.watch/">Nostr Watch</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/blob/master/66.md">NIP-66</a></li>
+      <li><a href="https://github.com/nostr-protocol/nips/blob/master/78.md">NIP-78</a></li>
+      <li>NIP-91</li>
+      <li><a href="https://github.com/sandwichfarm/notemine">notemine</a></li>
+      <li>Purple Pages</li>
+      <li>GSD</li>
+      <li>OpenSpec</li>
+      <li><a href="https://chatgpt.com/">ChatGPT</a></li>
+      <li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/">RTX PRO 6000 Blackwell</a></li>
+      <li><a href="https://github.com/keylase/nvidia-patch">NVIDIA patch</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      </ul>
+      <p>Recorded at <a href="https://mempool.space/block/959164">959,164</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>29: State of the Mint and Mind w/ Calle</title>
       <description><![CDATA[      <p>"You cannot look at something without touching it."</p>
