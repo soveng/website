@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Wed, 22 Jul 2026 22:58:58 +0000</pubDate>
-    <lastBuildDate>Thu, 23 Jul 2026 00:08:33 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 00:38:29 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -48,7 +48,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <description><![CDATA[      <p>&quot;You should be able to compose your clients.&quot;</p>
       <p><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
       <p><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Listen on sovereignengineering.io</a></p>
-      <p>Sandwich and Gigi talk through napplets: small, sandboxed Nostr applets that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
+      <p>Sandwich and Gigi spend the first 45 minutes or so talking through napplets: composable, sandboxed Nostr apps that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
       <p>Along the way they get into browser sandboxes, iframes, postMessage, malicious applets, Blossom uploads, NIP-5D, nsites, specialized relays, agent workflows, slop scanning, and why the AI subsidy era will not last forever.</p>
       <p>In this dialogue:</p>
       <ul>
@@ -79,6 +79,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <p>Projects &amp; tech mentioned:</p>
       <ul>
       <li><a href="https://napplet.run/">napplet.run</a></li>
+      <li><a href="https://github.com/dergigi/napplet-workshop">Napplet Workshop</a></li>
       <li><a href="https://github.com/nostr-protocol/nips/pull/2303">NIP-5D</a></li>
       <li><a href="https://github.com/kehto/web">Kehto</a></li>
       <li><a href="https://nsite.run/">nsite.run</a></li>
@@ -134,7 +135,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <itunes:summary><![CDATA[      <p>&quot;You should be able to compose your clients.&quot;</p>
       <p><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
       <p><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Listen on sovereignengineering.io</a></p>
-      <p>Sandwich and Gigi talk through napplets: small, sandboxed Nostr applets that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
+      <p>Sandwich and Gigi spend the first 45 minutes or so talking through napplets: composable, sandboxed Nostr apps that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
       <p>Along the way they get into browser sandboxes, iframes, postMessage, malicious applets, Blossom uploads, NIP-5D, nsites, specialized relays, agent workflows, slop scanning, and why the AI subsidy era will not last forever.</p>
       <p>In this dialogue:</p>
       <ul>
@@ -165,6 +166,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <p>Projects &amp; tech mentioned:</p>
       <ul>
       <li><a href="https://napplet.run/">napplet.run</a></li>
+      <li><a href="https://github.com/dergigi/napplet-workshop">Napplet Workshop</a></li>
       <li><a href="https://github.com/nostr-protocol/nips/pull/2303">NIP-5D</a></li>
       <li><a href="https://github.com/kehto/web">Kehto</a></li>
       <li><a href="https://nsite.run/">nsite.run</a></li>
