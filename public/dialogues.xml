@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Sat, 25 Jul 2026 23:28:45 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2026 23:33:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 23:54:38 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -120,7 +120,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <guid isPermaLink="false">6c8619aa-ec65-456a-a827-6aa1dfbf06c4</guid>
       <pubDate>Sat, 25 Jul 2026 23:28:45 +0000</pubDate>
       <itunes:duration>5267</itunes:duration>
-      <itunes:image href="https://haven.dergigi.com/52daa040b423564d48d57c6ada25b8b6e0973430ab927de960a5d1193e1d949f.jpg"/>
+      <itunes:image href="https://haven.dergigi.com/65e4bc6f96c95b7beb7fa7a46b8a3527457eda39419e2fc3f0deb5651f783f81.jpg"/>
       <podcast:person href="https://njump.to/npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp" img="https://blossom.primal.net/3c3da6f8ebba08dbdcdfd354090a9eafc9526d8f9df55cb0360431407b793353.jpg" group="cast" role="guest">WhisperHash</podcast:person>
       <podcast:transcript url="https://haven.dergigi.com/9de6fcd824e09a46e2403c4ee009437c648bf42a4ef2719a155bf7f581cf477a.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/32-nostrology-w-whisperhash.json" type="application/json+chapters"/>
