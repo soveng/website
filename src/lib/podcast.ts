@@ -162,9 +162,7 @@ export async function getEpisodes(): Promise<Episode[]> {
   if (_cache) {
     return _cache;
   }
-  const xml = import.meta.env.SSR
-    ? await readFile(LOCAL_RSS_PATH, 'utf-8')
-    : await fetch(RSS_URL).then((res) => res.text());
+  const xml = import.meta.env.SSR ? await readFile(LOCAL_RSS_PATH, 'utf-8') : await fetch(RSS_URL).then((res) => res.text());
   const episodes = parseItems(xml);
   episodes.sort((a, b) => new Date(b.pubDateISO).getTime() - new Date(a.pubDateISO).getTime());
   _cache = episodes;
