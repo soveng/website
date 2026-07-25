@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Sat, 25 Jul 2026 15:51:07 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2026 16:35:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 21:07:34 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -84,12 +84,12 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a></li>
       <li><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a></li>
       <li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a></li>
-      <li>Zaza</li>
-      <li>Chandran</li>
-      <li>Jack</li>
-      <li>Derek Ross</li>
-      <li>Jeff</li>
-      <li>Vitor</li>
+      <li><a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a></li>
+      <li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a></li>
+      <li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
+      <li><a href="https://njump.to/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424">Derek Ross</a></li>
+      <li><a href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc">Jeff G</a></li>
+      <li><a href="https://njump.to/npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z">Vitor Pamplona</a></li>
       </ul>
       <p>Projects &amp; tech mentioned:</p>
       <ul>
@@ -117,7 +117,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
       <li>Outbox</li>
       <li>NMP</li>
-      <li>Bitcoin</li>
       </ul>
       <p>Recorded at <a href="https://mempool.space/block/959531">959,531</a>.</p>
 ]]></description>
@@ -180,12 +179,12 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a></li>
       <li><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a></li>
       <li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a></li>
-      <li>Zaza</li>
-      <li>Chandran</li>
-      <li>Jack</li>
-      <li>Derek Ross</li>
-      <li>Jeff</li>
-      <li>Vitor</li>
+      <li><a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a></li>
+      <li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a></li>
+      <li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
+      <li><a href="https://njump.to/npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424">Derek Ross</a></li>
+      <li><a href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc">Jeff G</a></li>
+      <li><a href="https://njump.to/npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z">Vitor Pamplona</a></li>
       </ul>
       <p>Projects &amp; tech mentioned:</p>
       <ul>
@@ -213,7 +212,6 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
       <li>Outbox</li>
       <li>NMP</li>
-      <li>Bitcoin</li>
       </ul>
       <p>Recorded at <a href="https://mempool.space/block/959531">959,531</a>.</p>
 ]]></itunes:summary>
