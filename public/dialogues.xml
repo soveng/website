@@ -39,10 +39,173 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Sat, 25 Jul 2026 15:51:07 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2026 21:07:34 +0000</lastBuildDate>
+    <pubDate>Sat, 25 Jul 2026 23:28:45 +0000</pubDate>
+    <lastBuildDate>Sat, 25 Jul 2026 23:33:06 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>32: Nostrology w/ WhisperHash</title>
+      <description><![CDATA[      <p>&quot;No Solutions, do the homework.&quot;</p>
+      <p><a href="https://njump.to/npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp">WhisperHash</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+      <p><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">Listen on sovereignengineering.io</a></p>
+      <p>WhisperHash came to Sovereign Engineering by following breadcrumbs: Bitcoin first, then small solo miners, then Nostr, then No Solutions, then the strange realization that the protocol was not just another social network. After losing a valuable Instagram handle to platform control, the idea of cryptographic identity stopped being abstract. If you do not hold the keys, you do not own the thing.</p>
+      <p>The mining part of the walk starts with NerdMiner and ESP32 tinkering, moves into BitAxe and open-source ASICs, and lands on the dream of a quiet fanless home miner that can coexist with humans. The Nostr part starts with a data question: how many people are actually here, how many sats are moving, and which numbers should anyone trust?</p>
+      <p>That question became <a href="https://nostrolo.gy/">Nostrology</a>, an ecosystem observatory for Nostr data. But making data visible is not neutral. DAU, MAU, relay lists, zaps, Nutzaps, and follow history all exist somewhere in the event graph, but packaging them into convenient datasets changes the trade-off. Some data wants to be useful. Some data probably wants to rot.</p>
+      <p>The deeper thread is about primitives. Blossom, FIPS, Zapstore, Nostr identities, Parquet files, and ContextVM all show up as ways to compose small pieces into larger systems without pretending there is one global application. If the abstractions are right, things stack. If the abstractions leak, you get a different kind of centralization with better branding.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>how WhisperHash found Bitcoin, dismissed Nostr as &quot;decentralized social,&quot; and then got pulled back in by ownership, identity, and curiosity</li>
+      <li>why losing a valuable Instagram handle made platform ownership feel concrete</li>
+      <li>how a data-science background turned into a search for something useful to build in Bitcoin</li>
+      <li>why NerdMiner, ESP32 boards, BitAxe, OSMU, and solo mining made mining tangible again</li>
+      <li>what changes when a miner is something you live with, tune, cool, and hear</li>
+      <li>why fanless home mining is partly a hardware problem and partly a co-living problem</li>
+      <li>how Nostr became interesting once WhisperHash started asking basic measurement questions</li>
+      <li>why active-user counts on Nostr are harder, messier, and more political than they look</li>
+      <li>how No Solutions served as a strange curriculum for catching up on Sovereign Engineering and Nostr culture</li>
+      <li>why demo day failure is acceptable, but opting out and showing slides are not</li>
+      <li>how Blossom, FIPS, Zapstore, and Nostr identities feel like primitives that are finally starting to compose</li>
+      <li>why Zapstore is a natural fit for Nostr and a glimpse of a different Android distribution model</li>
+      <li>how app stores, agents, GitHub releases, signatures, and social trust start to blur together</li>
+      <li>why durable formats matter if you want software and data to survive beyond the current wave</li>
+      <li>how Silicon Valley, London, Hong Kong, and SEC-08 all shaped WhisperHash&#39;s sense of software culture</li>
+      <li>what Nostrology is trying to observe across relays, lightning, Zapstore, and Nutzaps</li>
+      <li>why publishing small numbers can help builders, hurt momentum, or do both at once</li>
+      <li>why Parquet is a practical format for large Nostr datasets even if the events themselves remain the source</li>
+      <li>how Blossom, storage providers, and ContextVM point toward Nostr-native access without replicating terabytes everywhere</li>
+      <li>where data ethics, bit rot, public events, and easy aggregation start to collide</li>
+      <li>why the right next step is not a grand platform, but a tracer bullet that proves someone can consume the data end to end</li>
+      </ul>
+      <p>Related dialogues:</p>
+      <ul>
+      <li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: hashtree, nostr-vpn, and iris w/ Martti Malmi</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/15-make-localhost-great-again-w-sec-05">#15: Make Localhost Great Again w/ SEC-05</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">Justin Moon</a></li>
+      <li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a></li>
+      <li><a href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a></li>
+      <li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">Jesus</a></li>
+      <li><a href="https://njump.to/npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy">Pete</a></li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://nostrolo.gy/">Nostrology</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      <li><a href="https://github.com/BitMaker-hub/NerdMiner_v2">NerdMiner</a></li>
+      <li><a href="https://www.bitaxe.org/">BitAxe</a></li>
+      <li><a href="https://osmu.wiki/">Open Source Miners United</a></li>
+      <li><a href="https://www.espressif.com/en/products/socs/esp32">ESP32</a></li>
+      <li><a href="https://zapstore.dev/">Zapstore</a></li>
+      <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+      <li><a href="https://github.com/jmcorgan/fips">FIPS</a></li>
+      <li><a href="https://nips.nostr.com/65">NIP-65</a></li>
+      <li><a href="https://nips.nostr.com/61">Nutzaps</a></li>
+      <li><a href="https://parquet.apache.org/">Parquet</a></li>
+      <li><a href="https://contextvm.org/">ContextVM</a></li>
+      <li><a href="https://github.com/">GitHub</a></li>
+      <li><a href="https://www.tftc.io/">TFTC</a></li>
+      </ul>
+      <p>Recorded at <a href="https://mempool.space/block/959604">959,604</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqsvlv2tej52rw6cmgvw8mdhsam73fdldej2rjwt6vyzglmwzu3ycuspzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s6ceu0d</link>
+      <enclosure url="https://haven.dergigi.com/e72cbaf72d18a82548744ae93ec01af5f1666a0c9b691a4ede0f266431046452.m4a" length="43582626" type="audio/mp4"/>
+      <guid isPermaLink="false">6c8619aa-ec65-456a-a827-6aa1dfbf06c4</guid>
+      <pubDate>Sat, 25 Jul 2026 23:28:45 +0000</pubDate>
+      <itunes:duration>5267</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/52daa040b423564d48d57c6ada25b8b6e0973430ab927de960a5d1193e1d949f.jpg"/>
+      <podcast:person href="https://njump.to/npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp" img="https://blossom.primal.net/3c3da6f8ebba08dbdcdfd354090a9eafc9526d8f9df55cb0360431407b793353.jpg" group="cast" role="guest">WhisperHash</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/9de6fcd824e09a46e2403c4ee009437c648bf42a4ef2719a155bf7f581cf477a.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/32-nostrology-w-whisperhash.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="WhisperHash" type="lnaddress" address="whisperhash@coinos.io" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqdnxv3ddehhxarjdakx7eme94mj6amgd9ehqetjdpshx6qpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sxpqqqp65wv9wlgv">Show Notes</podcast:contentLink>
+      <itunes:subtitle>32: Nostrology w/ WhisperHash</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>nostrology, whisperhash, nostr, bitcoin mining, bitaxe, nerdminer, zapstore, blossom, fips, contextvm, parquet, nutzaps</itunes:keywords>
+      <itunes:summary><![CDATA[      <p>&quot;No Solutions, do the homework.&quot;</p>
+      <p><a href="https://njump.to/npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp">WhisperHash</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+      <p><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">Listen on sovereignengineering.io</a></p>
+      <p>WhisperHash came to Sovereign Engineering by following breadcrumbs: Bitcoin first, then small solo miners, then Nostr, then No Solutions, then the strange realization that the protocol was not just another social network. After losing a valuable Instagram handle to platform control, the idea of cryptographic identity stopped being abstract. If you do not hold the keys, you do not own the thing.</p>
+      <p>The mining part of the walk starts with NerdMiner and ESP32 tinkering, moves into BitAxe and open-source ASICs, and lands on the dream of a quiet fanless home miner that can coexist with humans. The Nostr part starts with a data question: how many people are actually here, how many sats are moving, and which numbers should anyone trust?</p>
+      <p>That question became <a href="https://nostrolo.gy/">Nostrology</a>, an ecosystem observatory for Nostr data. But making data visible is not neutral. DAU, MAU, relay lists, zaps, Nutzaps, and follow history all exist somewhere in the event graph, but packaging them into convenient datasets changes the trade-off. Some data wants to be useful. Some data probably wants to rot.</p>
+      <p>The deeper thread is about primitives. Blossom, FIPS, Zapstore, Nostr identities, Parquet files, and ContextVM all show up as ways to compose small pieces into larger systems without pretending there is one global application. If the abstractions are right, things stack. If the abstractions leak, you get a different kind of centralization with better branding.</p>
+      <p>In this dialogue:</p>
+      <ul>
+      <li>how WhisperHash found Bitcoin, dismissed Nostr as &quot;decentralized social,&quot; and then got pulled back in by ownership, identity, and curiosity</li>
+      <li>why losing a valuable Instagram handle made platform ownership feel concrete</li>
+      <li>how a data-science background turned into a search for something useful to build in Bitcoin</li>
+      <li>why NerdMiner, ESP32 boards, BitAxe, OSMU, and solo mining made mining tangible again</li>
+      <li>what changes when a miner is something you live with, tune, cool, and hear</li>
+      <li>why fanless home mining is partly a hardware problem and partly a co-living problem</li>
+      <li>how Nostr became interesting once WhisperHash started asking basic measurement questions</li>
+      <li>why active-user counts on Nostr are harder, messier, and more political than they look</li>
+      <li>how No Solutions served as a strange curriculum for catching up on Sovereign Engineering and Nostr culture</li>
+      <li>why demo day failure is acceptable, but opting out and showing slides are not</li>
+      <li>how Blossom, FIPS, Zapstore, and Nostr identities feel like primitives that are finally starting to compose</li>
+      <li>why Zapstore is a natural fit for Nostr and a glimpse of a different Android distribution model</li>
+      <li>how app stores, agents, GitHub releases, signatures, and social trust start to blur together</li>
+      <li>why durable formats matter if you want software and data to survive beyond the current wave</li>
+      <li>how Silicon Valley, London, Hong Kong, and SEC-08 all shaped WhisperHash&#39;s sense of software culture</li>
+      <li>what Nostrology is trying to observe across relays, lightning, Zapstore, and Nutzaps</li>
+      <li>why publishing small numbers can help builders, hurt momentum, or do both at once</li>
+      <li>why Parquet is a practical format for large Nostr datasets even if the events themselves remain the source</li>
+      <li>how Blossom, storage providers, and ContextVM point toward Nostr-native access without replicating terabytes everywhere</li>
+      <li>where data ethics, bit rot, public events, and easy aggregation start to collide</li>
+      <li>why the right next step is not a grand platform, but a tracer bullet that proves someone can consume the data end to end</li>
+      </ul>
+      <p>Related dialogues:</p>
+      <ul>
+      <li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: hashtree, nostr-vpn, and iris w/ Martti Malmi</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/15-make-localhost-great-again-w-sec-05">#15: Make Localhost Great Again w/ SEC-05</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+      </ul>
+      <p>People mentioned:</p>
+      <ul>
+      <li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">Justin Moon</a></li>
+      <li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a></li>
+      <li><a href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a></li>
+      <li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">Jesus</a></li>
+      <li><a href="https://njump.to/npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy">Pete</a></li>
+      </ul>
+      <p>Projects &amp; tech mentioned:</p>
+      <ul>
+      <li><a href="https://nostrolo.gy/">Nostrology</a></li>
+      <li><a href="https://nostr.com/">Nostr</a></li>
+      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
+      <li><a href="https://github.com/BitMaker-hub/NerdMiner_v2">NerdMiner</a></li>
+      <li><a href="https://www.bitaxe.org/">BitAxe</a></li>
+      <li><a href="https://osmu.wiki/">Open Source Miners United</a></li>
+      <li><a href="https://www.espressif.com/en/products/socs/esp32">ESP32</a></li>
+      <li><a href="https://zapstore.dev/">Zapstore</a></li>
+      <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+      <li><a href="https://github.com/jmcorgan/fips">FIPS</a></li>
+      <li><a href="https://nips.nostr.com/65">NIP-65</a></li>
+      <li><a href="https://nips.nostr.com/61">Nutzaps</a></li>
+      <li><a href="https://parquet.apache.org/">Parquet</a></li>
+      <li><a href="https://contextvm.org/">ContextVM</a></li>
+      <li><a href="https://github.com/">GitHub</a></li>
+      <li><a href="https://www.tftc.io/">TFTC</a></li>
+      </ul>
+      <p>Recorded at <a href="https://mempool.space/block/959604">959,604</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>31: Buzz, Mosaico, and Other Stuff w/ Pablo</title>
       <description><![CDATA[      <p>&quot;You can always buy more tokens, not more time.&quot;</p>
