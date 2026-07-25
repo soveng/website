@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Sat, 25 Jul 2026 15:51:07 +0000</pubDate>
-    <lastBuildDate>Sat, 25 Jul 2026 15:53:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 16:18:56 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -69,6 +69,15 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>how proactive context tries to keep the actual user input as the source of truth instead of letting a memory layer hallucinate intent</li>
       <li>why &quot;no context&quot; is better than bad context</li>
       <li>how Napplets, Amethyst, Blossom, Outbox, and composable clients rhyme with the same move away from one cathedral-sized application</li>
+      </ul>
+      <p>Related dialogues:</p>
+      <ul>
+      <li><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">#18: Rewriting TENEX w/ Pablo</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/19-romantically-shitting-on-paywalls-w-pablo">#19: Romantically Shitting on Paywalls w/ Pablo</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/11-10x-less-productive-w-pablo">#11: 10x Less Productive w/ Pablo</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
       </ul>
       <p>People mentioned:</p>
       <ul>
@@ -156,6 +165,15 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>how proactive context tries to keep the actual user input as the source of truth instead of letting a memory layer hallucinate intent</li>
       <li>why &quot;no context&quot; is better than bad context</li>
       <li>how Napplets, Amethyst, Blossom, Outbox, and composable clients rhyme with the same move away from one cathedral-sized application</li>
+      </ul>
+      <p>Related dialogues:</p>
+      <ul>
+      <li><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">#18: Rewriting TENEX w/ Pablo</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/19-romantically-shitting-on-paywalls-w-pablo">#19: Romantically Shitting on Paywalls w/ Pablo</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/11-10x-less-productive-w-pablo">#11: 10x Less Productive w/ Pablo</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+      <li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
       </ul>
       <p>People mentioned:</p>
       <ul>
