@@ -120,18 +120,6 @@ const books = [
     ],
   },
   {
-    title: 'The Singularity Is Near',
-    author: 'Ray Kurzweil',
-    description: 'When Humans Transcend Biology. A deep dive into exponential technological growth and the coming merger of human and machine intelligence.',
-    cover: '/images/books/the-singularity-is-near.jpg',
-    links: [
-      {
-        name: 'Read',
-        url: 'https://archive.org/details/singularityisnea00kurz',
-      },
-    ],
-  },
-  {
     title: 'Superintelligence',
     author: 'Nick Bostrom',
     description: 'Paths, Dangers, Strategies. What happens when machines surpass human intelligence, and how do we navigate the transition?',
