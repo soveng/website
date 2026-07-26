@@ -39,10 +39,199 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Sat, 25 Jul 2026 23:28:45 +0000</pubDate>
-    <lastBuildDate>Sun, 26 Jul 2026 00:15:35 +0000</lastBuildDate>
+    <pubDate>Sun, 26 Jul 2026 14:53:53 +0000</pubDate>
+    <lastBuildDate>Sun, 26 Jul 2026 14:53:53 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>33: ASMap, nix, and nix-nostr w/ Julien</title>
+      <description><![CDATA[<p>&quot;There is no real address book for the internet.&quot;</p>
+<p><a href="https://njump.to/npub19w6s06qgvfy8glfwc5qf5uxvm0staycslfsjj55j8jzhned2spzq8psyzj">Julien</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+<p><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">Listen on sovereignengineering.io</a></p>
+<p>Julien came to <a href="https://sovereignengineering.io/">Sovereign Engineering</a> through a strange path: <a href="https://nixos.org/">Nix</a>, <a href="https://bitcoincore.org/">Bitcoin Core</a>, <a href="https://asmap.org/">ASMap</a>, <a href="https://nostr.com/">Nostr</a>, and a growing sense that packaging, routing, identity, and deployment are all part of the same sovereignty problem. The first part of the walk goes deep into ASMap: why Bitcoin Core cares which autonomous systems its peers live in, how eclipse attacks turn peer discovery into a security question, and why mapping the internet is harder than it looks.</p>
+<p>The trade-off is familiar: IP addresses are useful but misleading. A single entity can control many non-contiguous ranges, routing data is messy, <a href="https://www.cloudflare.com/learning/security/glossary/what-is-bgp/">BGP</a> was not designed as a cryptographic truth machine, and even better inputs like <a href="https://rpki.readthedocs.io/">RPKI</a> only cover part of the world. So <a href="https://github.com/asmap/kartograf">Kartograf</a> builds from several imperfect sources, and the <a href="https://github.com/bitcoin-core/asmap-data">asmap-data</a> process turns map generation into a collaborative run with hashes, review, and a paper trail.</p>
+<p>From there the conversation moves into Nostr and the social layer of infrastructure. Julien describes finding Nostr through the simple feeling that the primitives were right, using <a href="https://github.com/vitorpamplona/amethyst">Amethyst</a> and <a href="https://zapstore.dev/">Zapstore</a>, thinking about Git on Nostr, and watching <a href="https://fips.network/">FIPS</a> make old assumptions about DNS, IP addresses, NAT, and transport layers feel suddenly optional.</p>
+<p>The last thread is <a href="https://github.com/jurraca/nostrpkgs">nix-nostr</a>, or more precisely Julien&#39;s early <a href="https://github.com/jurraca/nostrpkgs">nostrpkgs</a> work: a Nix package set and deployment path for Nostr tools. The inspiration is <a href="https://github.com/fort-nix/nix-bitcoin/">nix-bitcoin</a>, but the target is wider: relays, FIPS nodes, git servers, Blossom drives, Cashu mints, and other services that should be easy to compose, reproduce, and ship. If agents are going to run infrastructure for us, declarative systems start to look less like taste and more like leverage.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>how Julien found a path into Bitcoin Core work through <a href="https://btcplusplus.dev/">BTC++</a>, Nix, and a conversation with Fabian Jahr</li>
+<li>why <a href="https://asmap.org/">ASMap</a> exists as a Bitcoin Core feature, and what it tries to improve about peer bucketing</li>
+<li>how eclipse attacks, Sybil attacks, AWS, Hetzner, and autonomous systems change the threat model for peer discovery</li>
+<li>why IP address prefixes are only a heuristic for control</li>
+<li>how regional registries, autonomous systems, BGP, RPKI, IRR, and RIPE RIS fit into the map-making problem</li>
+<li>why no one can build a perfect ASMap, and why that does not make the project useless</li>
+<li>how <a href="https://github.com/asmap/kartograf">Kartograf</a> aggregates imperfect data into a usable ASMap</li>
+<li>why collaborative runs give the process a reproducible paper trail instead of relying on one person&#39;s machine</li>
+<li>how ASMap files are now managed in the <a href="https://github.com/bitcoin-core/asmap-data">bitcoin-core/asmap-data</a> repository</li>
+<li>why Julien would still like more users to generate fresh maps for themselves</li>
+<li>how Nostr first clicked as the right mix of clients, relays, keys, and trade-offs</li>
+<li>why <a href="https://zapstore.dev/">Zapstore</a> makes Android distribution feel native to Nostr</li>
+<li>why replacing <a href="https://github.com/">GitHub</a> means replacing hosting, search, issues, pull requests, CI, releases, and social discovery</li>
+<li>how Git-on-Nostr, agents, and mobile-first workflows point away from old repository interfaces</li>
+<li>why voice, text, and agent interfaces are starting to blur</li>
+<li>how <a href="https://fips.network/">FIPS</a> changes the address and transport conversation by routing through Nostr identities</li>
+<li>why a FIPS route for Bitcoin Core peers would be worth testing</li>
+<li>why Julien sees <a href="https://nixos.org/">Nix</a> as sovereign infrastructure, not just a package manager</li>
+<li>how reproducible builds, dependency graphs, hashes, and declarative systems connect Nix back to Bitcoin instincts</li>
+<li>why <a href="https://github.com/fort-nix/nix-bitcoin/">nix-bitcoin</a> is the obvious reference point for packaging Nostr infrastructure</li>
+<li>what <a href="https://github.com/jurraca/nostrpkgs">nostrpkgs</a> is trying to do for Nostr tools, binary caches, and deployment recipes</li>
+<li>why Nix is unusually friendly to agents because the desired machine state is written down as text</li>
+<li>how demo day, Napplets, FIPS, Archipelago, and Sovereign Engineering changed Julien&#39;s first-week view of what can be built</li>
+<li>why the right way to reach younger users is to build tools they love before explaining why the architecture matters</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: hashtree, nostr-vpn, and iris w/ Martti Malmi</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">#32: Nostrology w/ WhisperHash</a></li>
+<li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://github.com/fjahr">Fabian Jahr</a></li>
+<li><a href="https://github.com/naumenkogs">Gleb Naumenko</a></li>
+<li><a href="https://github.com/sipa">Pieter Wuille</a></li>
+<li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">Justin Moon</a></li>
+<li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
+<li><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a></li>
+<li><a href="https://b10c.me/">oxb10c</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://asmap.org/">ASMap</a></li>
+<li><a href="https://github.com/asmap/kartograf">Kartograf</a></li>
+<li><a href="https://github.com/bitcoin-core/asmap-data">asmap-data</a></li>
+<li><a href="https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap">Bitcoin Core ASMap docs</a></li>
+<li><a href="https://bitcoincore.org/">Bitcoin Core</a></li>
+<li><a href="https://bitcoinops.org/en/topics/eclipse-attacks/">Eclipse attacks</a></li>
+<li><a href="https://www.cloudflare.com/learning/security/glossary/what-is-bgp/">BGP</a></li>
+<li><a href="https://rpki.readthedocs.io/">RPKI</a></li>
+<li><a href="https://ris.ripe.net/">RIPE RIS</a></li>
+<li><a href="https://nixos.org/">Nix</a></li>
+<li><a href="https://github.com/fort-nix/nix-bitcoin/">nix-bitcoin</a></li>
+<li><a href="https://github.com/jurraca/nostrpkgs">nostrpkgs</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://fips.network/">FIPS</a></li>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
+<li><a href="https://github.com/vitorpamplona/amethyst">Amethyst</a></li>
+<li><a href="https://nips.nostr.com/17">NIP-17</a></li>
+<li><a href="https://nips.nostr.com/29">NIP-29</a></li>
+<li><a href="https://github.com/block/buzz">Buzz</a></li>
+<li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+<li><a href="https://cashu.space/">Cashu</a></li>
+<li><a href="https://napplet.run/">Napplets</a></li>
+<li><a href="https://guix.gnu.org/">Guix</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/959604">959,604</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqsd0c98mxk6rkl0spdmcjjv4088qmqpz5jv3n3q7wj62ynrn3w88ngpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54suqg9fp</link>
+      <enclosure url="https://haven.dergigi.com/aa7f21c73bd3b77b67e2b3bef1d63eb6a384dc1906018f8d4d9d25a74fb07139.f4a" length="94738367" type="audio/mp4"/>
+      <guid isPermaLink="false">a21de095-bff2-4b47-b886-c345e58b1790</guid>
+      <pubDate>Sun, 26 Jul 2026 14:53:53 +0000</pubDate>
+      <itunes:duration>5709</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/7ffeeb9ba6d25528e77419c4d8178700c6a97ea9ffa0359ae19c3bd5d33511b5.jpg"/>
+      <podcast:person href="https://njump.to/npub19w6s06qgvfy8glfwc5qf5uxvm0staycslfsjj55j8jzhned2spzq8psyzj" img="https://image.nostr.build/c80a43068053c4dda2c5d3a5834c83ee58ab2bc2604d6a321709c27369780396.jpg" group="cast" role="guest">Julien</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/04662d3a28da27a8bff7fc0ee33cc52a50f794ad5153a44cfdc20d27f055f118.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/33-asmap-nix-and-nix-nostr-w-julien.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Julien" type="lnaddress" address="julien@npub.cash" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qq3nxvedv9ek6cts94hxj7pdv9hxgttwd9uz6mn0wd68ytth94482mrfv4hqz9mhwden5te0dpshvetw9ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqvzqqqr4gusmxnsf">Show Notes</podcast:contentLink>
+      <itunes:subtitle>33: ASMap, nix, and nix-nostr w/ Julien</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>asmap, julien, jurraca, nix, nixos, nix-nostr, nostrpkgs, bitcoin core, bgp, rpki, kartograf, fips, nostr, zapstore</itunes:keywords>
+      <itunes:summary><![CDATA[<p>&quot;There is no real address book for the internet.&quot;</p>
+<p><a href="https://njump.to/npub19w6s06qgvfy8glfwc5qf5uxvm0staycslfsjj55j8jzhned2spzq8psyzj">Julien</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+<p><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">Listen on sovereignengineering.io</a></p>
+<p>Julien came to <a href="https://sovereignengineering.io/">Sovereign Engineering</a> through a strange path: <a href="https://nixos.org/">Nix</a>, <a href="https://bitcoincore.org/">Bitcoin Core</a>, <a href="https://asmap.org/">ASMap</a>, <a href="https://nostr.com/">Nostr</a>, and a growing sense that packaging, routing, identity, and deployment are all part of the same sovereignty problem. The first part of the walk goes deep into ASMap: why Bitcoin Core cares which autonomous systems its peers live in, how eclipse attacks turn peer discovery into a security question, and why mapping the internet is harder than it looks.</p>
+<p>The trade-off is familiar: IP addresses are useful but misleading. A single entity can control many non-contiguous ranges, routing data is messy, <a href="https://www.cloudflare.com/learning/security/glossary/what-is-bgp/">BGP</a> was not designed as a cryptographic truth machine, and even better inputs like <a href="https://rpki.readthedocs.io/">RPKI</a> only cover part of the world. So <a href="https://github.com/asmap/kartograf">Kartograf</a> builds from several imperfect sources, and the <a href="https://github.com/bitcoin-core/asmap-data">asmap-data</a> process turns map generation into a collaborative run with hashes, review, and a paper trail.</p>
+<p>From there the conversation moves into Nostr and the social layer of infrastructure. Julien describes finding Nostr through the simple feeling that the primitives were right, using <a href="https://github.com/vitorpamplona/amethyst">Amethyst</a> and <a href="https://zapstore.dev/">Zapstore</a>, thinking about Git on Nostr, and watching <a href="https://fips.network/">FIPS</a> make old assumptions about DNS, IP addresses, NAT, and transport layers feel suddenly optional.</p>
+<p>The last thread is <a href="https://github.com/jurraca/nostrpkgs">nix-nostr</a>, or more precisely Julien&#39;s early <a href="https://github.com/jurraca/nostrpkgs">nostrpkgs</a> work: a Nix package set and deployment path for Nostr tools. The inspiration is <a href="https://github.com/fort-nix/nix-bitcoin/">nix-bitcoin</a>, but the target is wider: relays, FIPS nodes, git servers, Blossom drives, Cashu mints, and other services that should be easy to compose, reproduce, and ship. If agents are going to run infrastructure for us, declarative systems start to look less like taste and more like leverage.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>how Julien found a path into Bitcoin Core work through <a href="https://btcplusplus.dev/">BTC++</a>, Nix, and a conversation with Fabian Jahr</li>
+<li>why <a href="https://asmap.org/">ASMap</a> exists as a Bitcoin Core feature, and what it tries to improve about peer bucketing</li>
+<li>how eclipse attacks, Sybil attacks, AWS, Hetzner, and autonomous systems change the threat model for peer discovery</li>
+<li>why IP address prefixes are only a heuristic for control</li>
+<li>how regional registries, autonomous systems, BGP, RPKI, IRR, and RIPE RIS fit into the map-making problem</li>
+<li>why no one can build a perfect ASMap, and why that does not make the project useless</li>
+<li>how <a href="https://github.com/asmap/kartograf">Kartograf</a> aggregates imperfect data into a usable ASMap</li>
+<li>why collaborative runs give the process a reproducible paper trail instead of relying on one person&#39;s machine</li>
+<li>how ASMap files are now managed in the <a href="https://github.com/bitcoin-core/asmap-data">bitcoin-core/asmap-data</a> repository</li>
+<li>why Julien would still like more users to generate fresh maps for themselves</li>
+<li>how Nostr first clicked as the right mix of clients, relays, keys, and trade-offs</li>
+<li>why <a href="https://zapstore.dev/">Zapstore</a> makes Android distribution feel native to Nostr</li>
+<li>why replacing <a href="https://github.com/">GitHub</a> means replacing hosting, search, issues, pull requests, CI, releases, and social discovery</li>
+<li>how Git-on-Nostr, agents, and mobile-first workflows point away from old repository interfaces</li>
+<li>why voice, text, and agent interfaces are starting to blur</li>
+<li>how <a href="https://fips.network/">FIPS</a> changes the address and transport conversation by routing through Nostr identities</li>
+<li>why a FIPS route for Bitcoin Core peers would be worth testing</li>
+<li>why Julien sees <a href="https://nixos.org/">Nix</a> as sovereign infrastructure, not just a package manager</li>
+<li>how reproducible builds, dependency graphs, hashes, and declarative systems connect Nix back to Bitcoin instincts</li>
+<li>why <a href="https://github.com/fort-nix/nix-bitcoin/">nix-bitcoin</a> is the obvious reference point for packaging Nostr infrastructure</li>
+<li>what <a href="https://github.com/jurraca/nostrpkgs">nostrpkgs</a> is trying to do for Nostr tools, binary caches, and deployment recipes</li>
+<li>why Nix is unusually friendly to agents because the desired machine state is written down as text</li>
+<li>how demo day, Napplets, FIPS, Archipelago, and Sovereign Engineering changed Julien&#39;s first-week view of what can be built</li>
+<li>why the right way to reach younger users is to build tools they love before explaining why the architecture matters</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: hashtree, nostr-vpn, and iris w/ Martti Malmi</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">#32: Nostrology w/ WhisperHash</a></li>
+<li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://github.com/fjahr">Fabian Jahr</a></li>
+<li><a href="https://github.com/naumenkogs">Gleb Naumenko</a></li>
+<li><a href="https://github.com/sipa">Pieter Wuille</a></li>
+<li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">Justin Moon</a></li>
+<li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
+<li><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a></li>
+<li><a href="https://b10c.me/">oxb10c</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://asmap.org/">ASMap</a></li>
+<li><a href="https://github.com/asmap/kartograf">Kartograf</a></li>
+<li><a href="https://github.com/bitcoin-core/asmap-data">asmap-data</a></li>
+<li><a href="https://github.com/bitcoin/bitcoin/tree/master/contrib/asmap">Bitcoin Core ASMap docs</a></li>
+<li><a href="https://bitcoincore.org/">Bitcoin Core</a></li>
+<li><a href="https://bitcoinops.org/en/topics/eclipse-attacks/">Eclipse attacks</a></li>
+<li><a href="https://www.cloudflare.com/learning/security/glossary/what-is-bgp/">BGP</a></li>
+<li><a href="https://rpki.readthedocs.io/">RPKI</a></li>
+<li><a href="https://ris.ripe.net/">RIPE RIS</a></li>
+<li><a href="https://nixos.org/">Nix</a></li>
+<li><a href="https://github.com/fort-nix/nix-bitcoin/">nix-bitcoin</a></li>
+<li><a href="https://github.com/jurraca/nostrpkgs">nostrpkgs</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://fips.network/">FIPS</a></li>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
+<li><a href="https://github.com/vitorpamplona/amethyst">Amethyst</a></li>
+<li><a href="https://nips.nostr.com/17">NIP-17</a></li>
+<li><a href="https://nips.nostr.com/29">NIP-29</a></li>
+<li><a href="https://github.com/block/buzz">Buzz</a></li>
+<li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+<li><a href="https://cashu.space/">Cashu</a></li>
+<li><a href="https://napplet.run/">Napplets</a></li>
+<li><a href="https://guix.gnu.org/">Guix</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/959604">959,604</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>32: Nostrology w/ WhisperHash</title>
       <description><![CDATA[<p>&quot;No Solutions, do the homework.&quot;</p>

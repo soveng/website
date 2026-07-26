@@ -1,0 +1,113 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "33: ASMap, nix, and nix-nostr w/ Julien",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 33, ASMap, nix, and nix-nostr w/ Julien.",
+  "fileName": "33 - ASMap, nix, and nix-nostr.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 95,
+      "title": "Setup"
+    },
+    {
+      "startTime": 95,
+      "endTime": 310,
+      "title": "Finding ASMap through Nix"
+    },
+    {
+      "startTime": 310,
+      "endTime": 620,
+      "title": "Eclipse Attacks",
+      "url": "https://bitcoinops.org/en/topics/eclipse-attacks/"
+    },
+    {
+      "startTime": 620,
+      "endTime": 920,
+      "title": "Autonomous Systems",
+      "url": "https://asmap.org/"
+    },
+    {
+      "startTime": 920,
+      "endTime": 1210,
+      "title": "BGP and RPKI",
+      "url": "https://rpki.readthedocs.io/"
+    },
+    {
+      "startTime": 1210,
+      "endTime": 1530,
+      "title": "Collaborative ASMap Runs",
+      "url": "https://github.com/bitcoin-core/asmap-data"
+    },
+    {
+      "startTime": 1530,
+      "endTime": 1810,
+      "title": "Finding Nostr",
+      "url": "https://nostr.com/"
+    },
+    {
+      "startTime": 1810,
+      "endTime": 2170,
+      "title": "GitHub on Nostr"
+    },
+    {
+      "startTime": 2170,
+      "endTime": 2530,
+      "title": "Mobile Agents and Voice"
+    },
+    {
+      "startTime": 2530,
+      "endTime": 2970,
+      "title": "AI Interfaces"
+    },
+    {
+      "startTime": 2970,
+      "endTime": 3340,
+      "title": "FIPS and Addressing",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 3340,
+      "endTime": 3610,
+      "title": "FIPS as Transport"
+    },
+    {
+      "startTime": 3610,
+      "endTime": 3910,
+      "title": "Small Models and Tool Calling"
+    },
+    {
+      "startTime": 3910,
+      "endTime": 4210,
+      "title": "Packaging Nostr with Nix",
+      "url": "https://github.com/jurraca/nostrpkgs"
+    },
+    {
+      "startTime": 4210,
+      "endTime": 4520,
+      "title": "nix-bitcoin as a Reference",
+      "url": "https://github.com/fort-nix/nix-bitcoin/"
+    },
+    {
+      "startTime": 4520,
+      "endTime": 4820,
+      "title": "First Demo Day"
+    },
+    {
+      "startTime": 4820,
+      "endTime": 5170,
+      "title": "Learning by Building"
+    },
+    {
+      "startTime": 5170,
+      "endTime": 5460,
+      "title": "Chat Control and Sovereign Tools"
+    },
+    {
+      "startTime": 5460,
+      "endTime": 5709,
+      "title": "Build Tools They Love"
+    }
+  ]
+}
