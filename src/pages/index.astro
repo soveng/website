@@ -52,7 +52,11 @@ const { banner, features } = homepage.data as Homepage;
 const bannerTitle = await markdownify(banner.title);
 ---
 
-<Base showCallToAction={false}>
+<Base
+  showCallToAction={false}
+  image="/images/shining-city-in-cyberspace.png"
+  image_alt="A person looking toward a shining city in cyberspace"
+>
   <!-- Hero Section -->
   <header class="h-screen w-full flex flex-col text-white relative bg-primary font-primary text-lg">
     <!-- Top Navigation / Logo Row -->
