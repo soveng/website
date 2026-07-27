@@ -570,75 +570,83 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     </item>
     <item>
       <title>30: Napplets w/ Sandwich</title>
-      <description><![CDATA[      <p>&quot;You should be able to compose your clients.&quot;</p>
-      <p><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
-      <p><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Listen on sovereignengineering.io</a></p>
-      <p>Sandwich and Gigi spend the first 45 minutes or so talking through napplets: composable, sandboxed Nostr apps that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
-      <p>Along the way they get into browser sandboxes, iframes, postMessage, malicious applets, Blossom uploads, NIP-5D, nsites, specialized relays, agent workflows, slop scanning, and why the AI subsidy era will not last forever.</p>
-      <p>In this dialogue:</p>
-      <ul>
-      <li>why a normal Nostr client can feel too restrictive for a protocol built around maximum flexibility</li>
-      <li>how napplets grew out of earlier experiments with Naps, Nap.run, nsites, <a href="https://hypr.land/">Hyprland</a>-inspired desktops, <a href="https://v2.tauri.app/">Tauri</a>, <a href="https://thorium.rocks/">Thorium</a>, and iframe hardening</li>
-      <li>why the host runtime handles keys, signing, encryption, relays, resource loading, storage, uploads, and user prompts</li>
-      <li>why napplets should get high-level helper APIs plus low-level escape hatches instead of direct access to everything</li>
-      <li>how a napplet can upload through Blossom without knowing which Blossom server the user prefers</li>
-      <li>why the shell should see plaintext over the message bus, and how that helps defend users from malicious applets</li>
-      <li>how applet-to-app communication starts to look like Android intents, MIME types, archetypes, and operating-system resource APIs</li>
-      <li>why the browser is a practical deployment target even if the napplet protocol itself is not browser-bound</li>
-      <li>what Kehto, Paja, the napplet dev tooling, and the no-dependencies approach are trying to protect</li>
-      <li>how a workshop produced a dozen napplets, including live stream views, paste-to-upload flows, and even a rough multiplayer chess app</li>
-      <li>why nsites, nsyte, Blossom, Hashtree, and specialized relays all rhyme with the same broader Nostr publishing model</li>
-      <li>why relay specialization and relay discovery might matter more than one giant general-purpose relay model</li>
-      <li>how agent workflows are starting to rebuild older software-development structures: specs, milestones, issues, review teams, and CI</li>
-      <li>why slop scanning, naming discipline, and opponent processing matter once code becomes the context future agents learn from</li>
-      <li>why local model hardware is tempting, but only if you think about it like mining: power, refresh cycles, subsidy cliffs, and cost per watt</li>
-      </ul>
-      <p>People mentioned:</p>
-      <ul>
-      <li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a></li>
-      <li><a href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a></li>
-      <li><a href="https://sovereignengineering.io/podcast/01-start-ugly-w-pablo">Pablo</a></li>
-      <li>Austin</li>
-      <li><a href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a></li>
-      </ul>
-      <p>Projects &amp; tech mentioned:</p>
-      <ul>
-      <li><a href="https://napplet.run/">napplet.run</a></li>
-      <li><a href="https://github.com/dergigi/napplet-workshop">Napplet Workshop</a></li>
-      <li><a href="https://github.com/nostr-protocol/nips/pull/2303">NIP-5D</a></li>
-      <li><a href="https://github.com/kehto/web">Kehto</a></li>
-      <li><a href="https://nsite.run/">nsite.run</a></li>
-      <li><a href="https://github.com/sandwichfarm/nsyte">nsyte</a></li>
-      <li><a href="https://nsyte.run/">nsyte.run</a></li>
-      <li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
-      <li><a href="https://github.com/nostr-protocol/nips/pull/1566">Hashtree</a></li>
-      <li><a href="https://nostr.com/">Nostr</a></li>
-      <li><a href="https://github.com/nostr-dev-kit/ndk">NDK</a></li>
-      <li><a href="https://github.com/hzrd149/applesauce">Applesauce</a></li>
-      <li><a href="https://github.com/greenart7c3/Amber">Amber</a></li>
-      <li><a href="https://zap.stream/">zap.stream</a></li>
-      <li><a href="https://nostr.watch/">Nostr Watch</a></li>
-      <li><a href="https://github.com/nostr-protocol/nips/blob/master/66.md">NIP-66</a></li>
-      <li><a href="https://github.com/nostr-protocol/nips/blob/master/78.md">NIP-78</a></li>
-      <li>NIP-91</li>
-      <li><a href="https://github.com/sandwichfarm/notemine">notemine</a></li>
-      <li><a href="https://github.com/pablof7z/purplepag.es">Purple Pages</a></li>
-      <li><a href="https://github.com/open-gsd/gsd-core">GSD (Get Shit Done)</a></li>
-      <li><a href="https://docs.opengsd.net/">GSD docs</a></li>
-      <li><a href="https://openspec.dev/">OpenSpec</a></li>
-      <li><a href="https://gist.github.com/dskvr/e2b100e6addee34e47358116563103d7">GSD and LLM Slop Scan notes</a></li>
-      <li><a href="https://github.com/scanaislop/aislop">aislop</a></li>
-      <li><a href="https://github.com/sandwichfarm/aislop-badge">aislop-badge</a></li>
-      <li><a href="https://docs.rs/antislop/latest/antislop/">antislop</a></li>
-      <li><a href="https://slopscan.dev/">slopscan.dev</a></li>
-      <li><a href="https://github.com/flamehaven01/ai-slop-detector">ai-slop-detector</a></li>
-      <li><a href="https://chatgpt.com/">ChatGPT</a></li>
-      <li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/">RTX PRO 6000 Blackwell</a></li>
-      <li><a href="https://github.com/keylase/nvidia-patch">NVIDIA patch</a></li>
-      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
-      </ul>
-      <p>Recorded at <a href="https://mempool.space/block/959164">959,164</a>.</p>
-]]></description>
+      <description><![CDATA[<p>&quot;You should be able to compose your clients.&quot;</p>
+<p><a href="https://njump.to/npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx">Sandwich</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+<p><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Listen on sovereignengineering.io</a></p>
+<p>Sandwich and Gigi spend the first 45 minutes or so talking through napplets: composable, sandboxed Nostr apps that can run inside a host shell while the host mediates signing, storage, relay access, uploads, permissions, and user trust. What starts as a conversation about applets quickly becomes an operating-system conversation: if Nostr is flexible enough to carry many kinds of software, clients probably need to become composable runtimes instead of monolithic apps.</p>
+<p>Along the way they get into browser sandboxes, iframes, postMessage, malicious applets, Blossom uploads, NIP-5D, nsites, specialized relays, agent workflows, slop scanning, and why the AI subsidy era will not last forever.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why a normal Nostr client can feel too restrictive for a protocol built around maximum flexibility</li>
+<li>how napplets grew out of earlier experiments with Naps, Nap.run, nsites, <a href="https://hypr.land/">Hyprland</a>-inspired desktops, <a href="https://v2.tauri.app/">Tauri</a>, <a href="https://thorium.rocks/">Thorium</a>, and iframe hardening</li>
+<li>why the host runtime handles keys, signing, encryption, relays, resource loading, storage, uploads, and user prompts</li>
+<li>why napplets should get high-level helper APIs plus low-level escape hatches instead of direct access to everything</li>
+<li>how a napplet can upload through Blossom without knowing which Blossom server the user prefers</li>
+<li>why the shell should see plaintext over the message bus, and how that helps defend users from malicious applets</li>
+<li>how applet-to-app communication starts to look like Android intents, MIME types, archetypes, and operating-system resource APIs</li>
+<li>why the browser is a practical deployment target even if the napplet protocol itself is not browser-bound</li>
+<li>what Kehto, Paja, the napplet dev tooling, and the no-dependencies approach are trying to protect</li>
+<li>how a workshop produced a dozen napplets, including live stream views, paste-to-upload flows, and even a rough multiplayer chess app</li>
+<li>why nsites, nsyte, Blossom, Hashtree, and specialized relays all rhyme with the same broader Nostr publishing model</li>
+<li>why relay specialization and relay discovery might matter more than one giant general-purpose relay model</li>
+<li>how agent workflows are starting to rebuild older software-development structures: specs, milestones, issues, review teams, and CI</li>
+<li>why slop scanning, naming discipline, and opponent processing matter once code becomes the context future agents learn from</li>
+<li>why local model hardware is tempting, but only if you think about it like mining: power, refresh cycles, subsidy cliffs, and cost per watt</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">#02: There is No Global w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/09-no-strudelutions-w-hzrd149">#09: No Strudelutions w/ hzrd149</a></li>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
+<li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a></li>
+<li><a href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a></li>
+<li><a href="https://sovereignengineering.io/podcast/01-start-ugly-w-pablo">Pablo</a></li>
+<li>Austin</li>
+<li><a href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://napplet.run/">napplet.run</a></li>
+<li><a href="https://github.com/dergigi/napplet-workshop">Napplet Workshop</a></li>
+<li><a href="https://github.com/nostr-protocol/nips/pull/2303">NIP-5D</a></li>
+<li><a href="https://github.com/kehto/web">Kehto</a></li>
+<li><a href="https://nsite.run/">nsite.run</a></li>
+<li><a href="https://github.com/sandwichfarm/nsyte">nsyte</a></li>
+<li><a href="https://nsyte.run/">nsyte.run</a></li>
+<li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+<li><a href="https://github.com/nostr-protocol/nips/pull/1566">Hashtree</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://github.com/nostr-dev-kit/ndk">NDK</a></li>
+<li><a href="https://github.com/hzrd149/applesauce">Applesauce</a></li>
+<li><a href="https://github.com/greenart7c3/Amber">Amber</a></li>
+<li><a href="https://zap.stream/">zap.stream</a></li>
+<li><a href="https://nostr.watch/">Nostr Watch</a></li>
+<li><a href="https://github.com/nostr-protocol/nips/blob/master/66.md">NIP-66</a></li>
+<li><a href="https://github.com/nostr-protocol/nips/blob/master/78.md">NIP-78</a></li>
+<li>NIP-91</li>
+<li><a href="https://github.com/sandwichfarm/notemine">notemine</a></li>
+<li><a href="https://github.com/pablof7z/purplepag.es">Purple Pages</a></li>
+<li><a href="https://github.com/open-gsd/gsd-core">GSD (Get Shit Done)</a></li>
+<li><a href="https://docs.opengsd.net/">GSD docs</a></li>
+<li><a href="https://openspec.dev/">OpenSpec</a></li>
+<li><a href="https://gist.github.com/dskvr/e2b100e6addee34e47358116563103d7">GSD and LLM Slop Scan notes</a></li>
+<li><a href="https://github.com/scanaislop/aislop">aislop</a></li>
+<li><a href="https://github.com/sandwichfarm/aislop-badge">aislop-badge</a></li>
+<li><a href="https://docs.rs/antislop/latest/antislop/">antislop</a></li>
+<li><a href="https://slopscan.dev/">slopscan.dev</a></li>
+<li><a href="https://github.com/flamehaven01/ai-slop-detector">ai-slop-detector</a></li>
+<li><a href="https://chatgpt.com/">ChatGPT</a></li>
+<li><a href="https://www.nvidia.com/en-us/products/workstations/professional-desktop-gpus/rtx-pro-6000/">RTX PRO 6000 Blackwell</a></li>
+<li><a href="https://github.com/keylase/nvidia-patch">NVIDIA patch</a></li>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/959164">959,164</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqs00erj743c3ylnkuaplkjjygv83872vryhepepaeldekjd3e30kvqpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcyt0pjv</link>
       <enclosure url="https://haven.dergigi.com/e2261870d0eb338d6c4907b82d3cf7a51cb420a3907198124cbb368015de0b19.m4a" length="52202314" type="audio/mp4"/>
       <guid isPermaLink="false">e96b7b7b-ab98-4dd3-b970-8ba1b76c36e7</guid>
@@ -730,104 +738,67 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     </item>
     <item>
       <title>29: State of the Mint and Mind w/ Calle</title>
-      <description><![CDATA[      <p>"You cannot look at something without touching it."</p>
-      <p><a
-      href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a>
-      &amp; <a
-      href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
-      take a walk.</p>
-      <p><a
-      href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">Listen
-      on sovereignengineering.io</a></p>
-      <p>Calle and Gigi start with Cashu mint internals and end in embodied
-      cognition. Along the way they unpack sparse Merkle trees, exclusion
-      proofs, unilateral exit, trusted execution environments, recovery paths,
-      the move to BLS signatures, agentic coding workflows, specialist versus
-      generalist models, world models, and why Bitcoin, Nostr, and local AI
-      still feel like reasons for optimism.</p>
-      <p>In this dialogue:</p>
-      <ul>
-      <li>how mint state can be compressed into a sparse Merkle tree and why
-      exclusion proofs matter for ecash</li>
-      <li>how unilateral exit could reduce both the slow rug pull and the fast
-      rug pull for <a href="https://cashu.space/">Cashu</a> mints</li>
-      <li>why trusted execution environments change the trust model, and why
-      on-chain-first mint backing is the easiest place to start</li>
-      <li>how timelocks and third-party recovery paths might soften mint
-      downtime</li>
-      <li>why <a href="https://cashu.space/">Cashu</a> is moving away from its
-      current signature setup toward <a
-      href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS
-      signatures</a> and what that unlocks</li>
-      <li>how Calle actually works with coding agents, from <a
-      href="https://openrouter.ai/">OpenRouter</a> and <a
-      href="https://opencode.ai/">OpenCode</a> to fresh contexts and ruthless
-      resets</li>
-      <li>why context windows are scarce, token maxing is wasteful, and one
-      agent per project beats one giant assistant</li>
-      <li>why cognitive science still matters when talking about specialists,
-      generalists, and what frontier labs are betting on</li>
-      <li>why world models differ from next-token predictors and why <a
-      href="https://www.youtube.com/watch?v=A-_RdKiDbz4">Vervaeke on AI and
-      embodiment</a> keeps coming back</li>
-      <li>why <a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas
-      Nagel</a> and <a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The
-      Blind Spot</a> show up once the conversation turns to observation,
-      physics, and experience</li>
-      <li>why high-agency builders should feel more hopeful than scared right
-      now</li>
-      <li>why <a href="https://bitcoin.org/">Bitcoin</a>, <a
-      href="https://nostr.com/">Nostr</a>, and improving local models still
-      look like the right ingredients for a freer future</li>
-      </ul>
-      <p>People mentioned:</p>
-      <ul>
-      <li><a href="https://lu.ke/">Luke Childs</a></li>
-      <li><a href="https://njump.to/npub1vadcfln4ugt2h9ruwsuwu5vu5am4xaka7pw6m7axy79aqyhp6u5q9knuu7">Waxwing</a></li>
-      <li><a href="https://steipete.me/">Peter Steinberger</a></li>
-      <li><a
-      href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">Martti
-      Malmi</a></li>
-      <li><a href="https://njump.to/npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226">Egge</a></li>
-      <li><a href="https://njump.to/npub1y24gz5gwucl79vtv4ctwpysl0r5m4xyzu2rgulnr44ks3t5mt92q4nz2ad">Kukks</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Yann_LeCun">Yann
-      LeCun</a></li>
-      <li><a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas
-      Nagel</a></li>
-      <li><a href="https://chaum.com/">David Chaum</a></li>
-      <li><a href="https://people.eecs.berkeley.edu/~daw/">David
-      Wagner</a></li>
-      </ul>
-      <p>Projects &amp; tech mentioned:</p>
-      <ul>
-      <li><a href="https://cashu.space/">Cashu</a></li>
-      <li><a href="https://opensats.org/projects/cdk">Cashu Dev Kit</a></li>
-      <li><a href="https://ark-protocol.org/">Ark Protocol</a></li>
-      <li><a href="https://openrouter.ai/">OpenRouter</a></li>
-      <li><a href="https://opencode.ai/">OpenCode</a></li>
-      <li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
-      <li><a href="https://github.com/fabianfabian/openclaw-nostr-nip17">Fabian’s NIP-17 plugin for OpenClaw</a></li>
-      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
-      <li><a href="https://nostr.com/">Nostr</a></li>
-      <li><a
-      href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS
-      signatures</a></li>
-      </ul>
-      <p>Readings mentioned:</p>
-      <ul>
-      <li><a
-      href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel%2C%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Thomas
-      Nagel, What Is It Like to Be a Bat?</a></li>
-      <li><a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The
-      Blind Spot</a></li>
-      <li><a href="https://mises.org/library/book/against-intellectual-property">Against
-      Intellectual Property</a></li>
-      <li><a href="https://www.youtube.com/watch?v=NiktW1HE_AI">Calle's
-      keynote</a></li>
-      </ul>
-      <p>Recorded at <a
-      href="https://mempool.space/block/952654">952,654</a>.</p>
-]]></description>
+      <description><![CDATA[<p>&quot;You cannot look at something without touching it.&quot;</p>
+<p><a href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+<p><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">Listen on sovereignengineering.io</a></p>
+<p>Calle and Gigi start with Cashu mint internals and end in embodied cognition. Along the way they unpack sparse Merkle trees, exclusion proofs, unilateral exit, trusted execution environments, recovery paths, the move to BLS signatures, agentic coding workflows, specialist versus generalist models, world models, and why Bitcoin, Nostr, and local AI still feel like reasons for optimism.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>how mint state can be compressed into a sparse Merkle tree and why exclusion proofs matter for ecash</li>
+<li>how unilateral exit could reduce both the slow rug pull and the fast rug pull for <a href="https://cashu.space/">Cashu</a> mints</li>
+<li>why trusted execution environments change the trust model, and why on-chain-first mint backing is the easiest place to start</li>
+<li>how timelocks and third-party recovery paths might soften mint downtime</li>
+<li>why <a href="https://cashu.space/">Cashu</a> is moving away from its current signature setup toward <a href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS signatures</a> and what that unlocks</li>
+<li>how Calle actually works with coding agents, from <a href="https://openrouter.ai/">OpenRouter</a> and <a href="https://opencode.ai/">OpenCode</a> to fresh contexts and ruthless resets</li>
+<li>why context windows are scarce, token maxing is wasteful, and one agent per project beats one giant assistant</li>
+<li>why cognitive science still matters when talking about specialists, generalists, and what frontier labs are betting on</li>
+<li>why world models differ from next-token predictors and why <a href="https://www.youtube.com/watch?v=A-_RdKiDbz4">Vervaeke on AI and embodiment</a> keeps coming back</li>
+<li>why <a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas Nagel</a> and <a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The Blind Spot</a> show up once the conversation turns to observation, physics, and experience</li>
+<li>why high-agency builders should feel more hopeful than scared right now</li>
+<li>why <a href="https://bitcoin.org/">Bitcoin</a>, <a href="https://nostr.com/">Nostr</a>, and improving local models still look like the right ingredients for a freer future</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/03-data-ownership-is-a-lie-w-pablo">#03: Data Ownership is a Lie w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/04-ecash-fixes-402-w-calle">#04: Ecash Fixes 402 w/ Calle</a></li>
+<li><a href="https://sovereignengineering.io/podcast/12-the-windy-lawnmower-stuff-w-pete">#12: The Windy Lawnmower Stuff w/ Pete</a></li>
+<li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">#10: Walking with Jesus w/ gzuuus</a></li>
+<li><a href="https://sovereignengineering.io/podcast/11-10x-less-productive-w-pablo">#11: 10x Less Productive w/ Pablo</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://lu.ke/">Luke Childs</a></li>
+<li><a href="https://njump.to/npub1vadcfln4ugt2h9ruwsuwu5vu5am4xaka7pw6m7axy79aqyhp6u5q9knuu7">Waxwing</a></li>
+<li><a href="https://steipete.me/">Peter Steinberger</a></li>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">Martti Malmi</a></li>
+<li><a href="https://njump.to/npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226">Egge</a></li>
+<li><a href="https://njump.to/npub1y24gz5gwucl79vtv4ctwpysl0r5m4xyzu2rgulnr44ks3t5mt92q4nz2ad">Kukks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Yann_LeCun">Yann LeCun</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Thomas_Nagel">Thomas Nagel</a></li>
+<li><a href="https://chaum.com/">David Chaum</a></li>
+<li><a href="https://people.eecs.berkeley.edu/~daw/">David Wagner</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://cashu.space/">Cashu</a></li>
+<li><a href="https://opensats.org/projects/cdk">Cashu Dev Kit</a></li>
+<li><a href="https://ark-protocol.org/">Ark Protocol</a></li>
+<li><a href="https://openrouter.ai/">OpenRouter</a></li>
+<li><a href="https://opencode.ai/">OpenCode</a></li>
+<li><a href="https://github.com/openclaw/openclaw">OpenClaw</a></li>
+<li><a href="https://github.com/fabianfabian/openclaw-nostr-nip17">Fabian’s NIP-17 plugin for OpenClaw</a></li>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html">BLS signatures</a></li>
+</ul>
+<p>Readings mentioned:</p>
+<ul>
+<li><a href="https://ia800100.us.archive.org/5/items/thomas-nagel-what-is-it-like-to-be-a-bat/Thomas%20Nagel%2C%20What%20Is%20It%20Like%20to%20Be%20a%20Bat.pdf">Thomas Nagel, What Is It Like to Be a Bat?</a></li>
+<li><a href="https://mitpress.mit.edu/9780262553032/the-blind-spot/">The Blind Spot</a></li>
+<li><a href="https://mises.org/library/book/against-intellectual-property">Against Intellectual Property</a></li>
+<li><a href="https://www.youtube.com/watch?v=NiktW1HE_AI">Calle&#39;s keynote</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/952654">952,654</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqsr29xqdlxnuqdlahw4heth7nnlvq4hcva8wejnxspztn9ektd6lsqpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pft8al0ga</link>
       <enclosure url="https://haven.dergigi.com/a7260cd900ceffaf6d7caa74d1b7d56b191f74d3fbbb772f989f3eb05fd36a3b.m4a" length="33442116" type="audio/mp4"/>
       <guid isPermaLink="false">529e5e40-356c-40a8-b53f-8b1675117bc5</guid>
@@ -948,91 +919,63 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     </item>
     <item>
       <title>28: Speak Human w/ MouxDesign</title>
-      <description><![CDATA[      <p>"We just need to speak human."</p>
-      <p><a
-      href="https://njump.to/npub1urhnkns9rt4c9mk6t9xctjkzmlkawxkdpzjnxdxhx82mqm7hfpuq0j7ueh">MouxDesign</a>
-      &amp; <a
-      href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
-      take a walk.</p>
-      <p><a
-      href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">Listen
-      on sovereignengineering.io</a></p>
-      <p>Recorded in June 2026.</p>
-      <p>Mo and Gigi keep circling one question: how do you build products for
-      people who speak plain language instead of protocol jargon? From there
-      they get into wallet copy, fee panic, backup rituals, agentic design
-      workflows, broken Nostr onboarding, fun-first software, and the old
-      Bitcoin fight over purity versus adoption.</p>
-      <p>In this dialogue:</p>
-      <ul>
-      <li>why design starts before the interface, at the app store screenshot,
-      the first sentence, and the story a user tells a friend</li>
-      <li>Mo's current workflow: screenshots, <a
-      href="https://mobbin.com/">Mobbin</a>, a skill file, <a
-      href="https://n8n.io/">n8n</a>, sleep, then a sober morning review</li>
-      <li>why wallet UX still stumbles on backup rituals, fee displays, and
-      error messages that dump the cognitive load on the user</li>
-      <li>why "copy is design" and why everyday users need plain language
-      instead of protocol vocabulary</li>
-      <li>how Nostr key loss turns people into read-only ghosts and leaves
-      account recovery in an awkward place</li>
-      <li>why apps on Nostr still feel early, and why fun matters if you want
-      people to come back</li>
-      <li>why Martti's work keeps coming up, from <a
-      href="https://iris.to/">Iris</a> to <a
-      href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>, plus a
-      callback to <a
-      href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
-      Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
-      <li>why Jeff G's work on <a href="https://www.whitenoise.chat/">White
-      Noise</a> still matters when the conversation turns to strange network
-      conditions and real apps, plus a callback to <a
-      href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25:
-      White Noise, MLS, and marmot w/ Jeff G</a></li>
-      <li>why Gigi still leans toward protocol purity when mass adoption asks
-      for compromise</li>
-      <li>why walking and thinking out loud can still beat Slack threads,
-      group chats, and solo brainstorming</li>
-      <li>how communities form when somebody plants a flag, names the thing,
-      and keeps showing up, whether that is <a
-      href="https://twentyone.world/">21 World</a> or something else</li>
-      <li>why the simple test still matters: did you ship something that makes
-      people happier?</li>
-      </ul>
-      <p>People mentioned:</p>
-      <ul>
-      <li>Jack Dorsey</li>
-      <li>Alex Gladstein</li>
-      <li>Martti Malmi (<a
-      href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
-      Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a>)</li>
-      <li>Jeff G (<a
-      href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25:
-      White Noise, MLS, and marmot w/ Jeff G</a>)</li>
-      <li>Rabble</li>
-      <li>Josh</li>
-      <li>Christoph</li>
-      <li>Arno</li>
-      <li>Marcus</li>
-      </ul>
-      <p>Projects &amp; tech mentioned:</p>
-      <ul>
-      <li><a href="https://bitcoin.design/guide/">Bitcoin Design
-      Guide</a></li>
-      <li><a href="https://bitcoin.org/">Bitcoin</a></li>
-      <li><a href="https://nostr.com/">Nostr</a></li>
-      <li><a href="https://block.xyz/">Block</a></li>
-      <li><a href="https://iris.to/">Iris</a></li>
-      <li><a href="https://www.whitenoise.chat/">White Noise</a></li>
-      <li><a href="https://mobbin.com/">Mobbin</a></li>
-      <li><a href="https://n8n.io/">n8n</a></li>
-      <li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a></li>
-      <li><a href="https://btcpayserver.org/">BTCPay Server</a></li>
-      <li><a href="https://twentyone.world/">21 World</a></li>
-      </ul>
-      <p>Recorded at <a
-      href="https://mempool.space/block/952115">952,115</a>.</p>
-]]></description>
+      <description><![CDATA[<p>&quot;We just need to speak human.&quot;</p>
+<p><a href="https://njump.to/npub1urhnkns9rt4c9mk6t9xctjkzmlkawxkdpzjnxdxhx82mqm7hfpuq0j7ueh">MouxDesign</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
+<p><a href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">Listen on sovereignengineering.io</a></p>
+<p>Recorded in June 2026.</p>
+<p>Mo and Gigi keep circling one question: how do you build products for people who speak plain language instead of protocol jargon? From there they get into wallet copy, fee panic, backup rituals, agentic design workflows, broken Nostr onboarding, fun-first software, and the old Bitcoin fight over purity versus adoption.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why design starts before the interface, at the app store screenshot, the first sentence, and the story a user tells a friend</li>
+<li>Mo&#39;s current workflow: screenshots, <a href="https://mobbin.com/">Mobbin</a>, a skill file, <a href="https://n8n.io/">n8n</a>, sleep, then a sober morning review</li>
+<li>why wallet UX still stumbles on backup rituals, fee displays, and error messages that dump the cognitive load on the user</li>
+<li>why &quot;copy is design&quot; and why everyday users need plain language instead of protocol vocabulary</li>
+<li>how Nostr key loss turns people into read-only ghosts and leaves account recovery in an awkward place</li>
+<li>why apps on Nostr still feel early, and why fun matters if you want people to come back</li>
+<li>why Martti&#39;s work keeps coming up, from <a href="https://iris.to/">Iris</a> to <a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>, plus a callback to <a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
+<li>why Jeff G&#39;s work on <a href="https://www.whitenoise.chat/">White Noise</a> still matters when the conversation turns to strange network conditions and real apps, plus a callback to <a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+<li>why Gigi still leans toward protocol purity when mass adoption asks for compromise</li>
+<li>why walking and thinking out loud can still beat Slack threads, group chats, and solo brainstorming</li>
+<li>how communities form when somebody plants a flag, names the thing, and keeps showing up, whether that is <a href="https://twentyone.world/">21 World</a>, <a href="https://einundzwanzig.space/">EINUNDZWANZIG</a>, or something else</li>
+<li>why the simple test still matters: did you ship something that makes people happier?</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/05-prompt-pray-w-paul">#05: Prompt &amp; Pray w/ Paul</a></li>
+<li><a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">#17: Organic Tech w/ Arjen</a></li>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
+<li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+<li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li>Jack Dorsey</li>
+<li>Alex Gladstein</li>
+<li>Martti Malmi (<a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a>)</li>
+<li>Jeff G (<a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a>)</li>
+<li>Rabble</li>
+<li>Josh</li>
+<li>Christoph</li>
+<li>Arno</li>
+<li>Marcus</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://bitcoin.design/guide/">Bitcoin Design Guide</a></li>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://block.xyz/">Block</a></li>
+<li><a href="https://iris.to/">Iris</a></li>
+<li><a href="https://www.whitenoise.chat/">White Noise</a></li>
+<li><a href="https://mobbin.com/">Mobbin</a></li>
+<li><a href="https://n8n.io/">n8n</a></li>
+<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a></li>
+<li><a href="https://btcpayserver.org/">BTCPay Server</a></li>
+<li><a href="https://twentyone.world/">21 World</a></li>
+<li><a href="https://einundzwanzig.space/">EINUNDZWANZIG</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/952115">952,115</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqsfdt7qf5pdc2mepphg6kkxhe3mzsajr38eky4qc6tren7hpv80a9gpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sxyw0ax</link>
       <enclosure url="https://haven.dergigi.com/47bc8d4a4abe435eba57f6b411f54163afa266cedf49708a6d0cb073de015e1a.m4a" length="33786935" type="audio/mp4"/>
       <guid isPermaLink="false">c7cf42a2-60b7-43f8-be31-291c49bf12a5</guid>
@@ -1292,83 +1235,51 @@ href="https://mempool.space/block/951874">951,874</a>.</p>
     </item>
     <item>
       <title>26: Zapstore w/ Franzap</title>
-      <description><![CDATA[<p>"The user joins the community, and the community does a lot of the
-heavy lifting."</p>
-<p><a
-href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a>
-&amp; <a
-href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
-take a walk in Oslo.</p>
-<p><a
-href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">Listen
-on sovereignengineering.io</a></p>
+      <description><![CDATA[<p>&quot;The user joins the community, and the community does a lot of the heavy lifting.&quot;</p>
+<p><a href="https://njump.to/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9">Franzap</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Oslo.</p>
+<p><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">Listen on sovereignengineering.io</a></p>
 <p>In this dialogue:</p>
 <ul>
-<li>How Zapstore grew out of the first Sovereign Engineering cohort in
-Madeira, earlier experiments like <a
-href="https://github.com/franzaps/zapthreads">ZapThreads</a>, and
-Franzap's frustration with closed mobile app stores</li>
-<li>Why <a href="https://ninite.com/">Ninite</a>, app stacks, and
-curated discovery mattered as much as the raw "permissionless app store"
-idea</li>
-<li>What it means to run Zapstore as a real marketplace: breaking the
-chicken-and-egg problem by pre-populating supply, signing apps under the
-Zapstore key, and gradually moving developers toward
-self-publishing</li>
-<li>Web-of-trust computation, trust providers, and why app distribution
-raises the stakes far beyond regular social posting</li>
-<li>Franzap's "credible exit" framing: sometimes you dial down
-decentralization to improve UX, as long as users can still verify,
-leave, and choose another community</li>
-<li><a href="https://github.com/zapstore/zsp">ZSP</a>, the Zapstore
-publisher CLI, and how agents can already build and publish Android apps
-without the developer even owning an Android phone</li>
-<li>Device keys, encrypted preferences, onboarding trade-offs, and why
-social features, comments, and zaps are a different problem from simply
-installing an app</li>
-<li>Why app lists are a privacy leak, how update infrastructure can turn
-into a honeypot, and what it means to distribute software without
-building a profiling machine</li>
-<li>The operational pain behind a living app catalog: pre-releases, key
-rotations, migrations, certificate mismatches, and endless edge
-cases</li>
-<li>Google's tightening sideloading and KYC rules, Apple's
-developer-account maze, and why every new permissioned hurdle makes the
-permissionless route more compelling</li>
-<li>Why Zapstore may matter most for people at the edges: controversial
-apps, developers outside the usual payment rails, and users who cannot
-or will not pass through the official gates</li>
-<li>What's next: default communities, reviews, malware checks, privacy
-analysis, reproducibility, and smoother handoffs from indexed apps to
-self-published releases</li>
+<li>How Zapstore grew out of the first Sovereign Engineering cohort in Madeira, earlier experiments like <a href="https://github.com/franzaps/zapthreads">ZapThreads</a>, and Franzap&#39;s frustration with closed mobile app stores</li>
+<li>Why <a href="https://ninite.com/">Ninite</a>, app stacks, and curated discovery mattered as much as the raw &quot;permissionless app store&quot; idea</li>
+<li>What it means to run Zapstore as a real marketplace: breaking the chicken-and-egg problem by pre-populating supply, signing apps under the Zapstore key, and gradually moving developers toward self-publishing</li>
+<li>Web-of-trust computation, trust providers, and why app distribution raises the stakes far beyond regular social posting</li>
+<li>Franzap&#39;s &quot;credible exit&quot; framing: sometimes you dial down decentralization to improve UX, as long as users can still verify, leave, and choose another community</li>
+<li><a href="https://github.com/zapstore/zsp">ZSP</a>, the Zapstore publisher CLI, and how agents can already build and publish Android apps without the developer even owning an Android phone</li>
+<li>Device keys, encrypted preferences, onboarding trade-offs, and why social features, comments, and zaps are a different problem from simply installing an app</li>
+<li>Why app lists are a privacy leak, how update infrastructure can turn into a honeypot, and what it means to distribute software without building a profiling machine</li>
+<li>The operational pain behind a living app catalog: pre-releases, key rotations, migrations, certificate mismatches, and endless edge cases</li>
+<li>Google&#39;s tightening sideloading and KYC rules, Apple&#39;s developer-account maze, and why every new permissioned hurdle makes the permissionless route more compelling</li>
+<li>Why Zapstore may matter most for people at the edges: controversial apps, developers outside the usual payment rails, and users who cannot or will not pass through the official gates</li>
+<li>What&#39;s next: default communities, reviews, malware checks, privacy analysis, reproducibility, and smoother handoffs from indexed apps to self-published releases</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/08-navigating-the-vibe-w-pablo">#08: Navigating the Vibe w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">#32: Nostrology w/ WhisperHash</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li><a
-href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a>
-(built an earlier Nostr-native commenting system that influenced
-ZapThreads)</li>
-<li>American HODL / Viper (example of agent-built, agent-published
-Android apps)</li>
+<li><a href="https://njump.to/npub180cvv07tjdrrgpa0j7j7tmnyl2yr6yr7l8j4s3evf6u64th6gkwsyjh6w6">fiatjaf</a> (built an earlier Nostr-native commenting system that influenced ZapThreads)</li>
+<li>American HODL / Viper (example of agent-built, agent-published Android apps)</li>
 <li>DHH and PewDiePie (part of the closing Linux detour)</li>
 </ul>
 <p>Projects &amp; tech mentioned:</p>
 <ul>
 <li><a href="https://zapstore.dev/">Zapstore</a></li>
 <li><a href="https://github.com/franzaps/zapthreads">ZapThreads</a></li>
-<li><a href="https://github.com/zapstore/zsp">ZSP</a> (Zapstore
-publisher CLI)</li>
+<li><a href="https://github.com/zapstore/zsp">ZSP</a> (Zapstore publisher CLI)</li>
 <li><a href="https://nostr.com/">Nostr</a></li>
 <li><a href="https://grapheneos.org/">GrapheneOS</a></li>
 <li><a href="https://opensats.org/">OpenSats</a></li>
 <li><a href="https://ninite.com/">Ninite</a></li>
-<li><a
-href="https://zapstore.dev/apps/org.fossify.voicerecorder">Fossify Voice
-Recorder</a></li>
+<li><a href="https://zapstore.dev/apps/org.fossify.voicerecorder">Fossify Voice Recorder</a></li>
 <li><a href="https://phoenix.acinq.co/">Phoenix Wallet</a></li>
 </ul>
-<p>Recorded at <a
-href="https://mempool.space/block/951851">951,851</a>.</p>]]></description>
+<p>Recorded at <a href="https://mempool.space/block/951851">951,851</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqsfzk4yjd9rx05g847defca3mnmewjzek4p67wckddp9pwmmea9eggpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftnuc954</link>
       <enclosure url="https://haven.dergigi.com/3043e0ed2f45d5fa1351676096dfe1c8b3897fd6a0db95e296f1e18893a55ed9.m4a" length="36768421" type="audio/mp4"/>
       <guid isPermaLink="false">83e8ee0c-5cf1-4503-baef-4b89aec05d3a</guid>
@@ -1468,158 +1379,66 @@ href="https://mempool.space/block/951851">951,851</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>25: White Noise, MLS, and marmot w/ Jeff G</title>
-      <description><![CDATA[<p>"What we're actually building is an unstoppable messenger."</p>
-<p><a
-href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc">Jeff
-G</a> &amp; <a
-href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
-take a walk in Oslo.</p>
-<p><a
-href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">Listen
-on sovereignengineering.io</a></p>
+      <description><![CDATA[<p>&quot;What we&#39;re actually building is an unstoppable messenger.&quot;</p>
+<p><a href="https://njump.to/npub1zuuajd7u3sx8xu92yav9jwxpr839cs0kc3q6t56vd5u9q033xmhsk6c2uc">Jeff G</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Oslo.</p>
+<p><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">Listen on sovereignengineering.io</a></p>
 <p>In this dialogue:</p>
 <ul>
-<li>Jeff G explains how <a href="https://www.whitenoise.chat/">White
-Noise</a> started as an attempt to build the most private messenger
-possible, then slowly mutated into something else: an unstoppable
-messenger that can survive ugly network conditions and hostile
-environments</li>
-<li>Why <a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a> on
-<a href="https://nostr.com/">Nostr</a> is mostly an ordering problem:
-identity and delivery are the easy parts, group-state evolution is where
-everything breaks</li>
-<li>Forked histories, missing commits, and the nightmare scenario where
-a group silently splits into incompatible realities without anybody
-noticing</li>
-<li>The temptation of coordinators, sequencers, and Pablo's hilariously
-named <a href="https://github.com/pablof7z/serial-killer">Serial Killer
-Relay</a>, plus the deeper question of when a relay stops being a relay
-and quietly becomes a server</li>
-<li>Calle's <a href="https://cashu.space/">Cashu</a> headaches, <a
-href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>
-and NIP-61 edge cases, and the "pocket with a hole" problem where
-balances seem to disappear, reappear, and generally behave like loose
-change under a couch</li>
-<li>Jeff G's current bet for <a
-href="https://github.com/marmot-protocol/marmot">Marmot</a>: a
-deterministic state machine, tunable convergence rules, and automatic
-re-init flows that make occasional desync tolerable</li>
-<li>Why large-group privacy degrades fast, and why "perfect privacy"
-stops meaning much once a chat has hundreds or thousands of people in
-it</li>
-<li>Why <a href="https://git.pikachat.org/git">Pika</a> felt more
-reliable than NIP-17 for one-to-one chats, and where simple tools still
-beat more ambitious systems</li>
-<li>The White Noise v2 direction: replaceable key packages, smaller app
-components, and decoupling Nostr identity from the transport layer so
-relays become just one option among many</li>
-<li>How <a href="https://fips.network/">FIPS</a> pushed the design
-forward by making transport agility feel real: relays, Wi-Fi, Bluetooth
-Direct, and whatever else can move packets when the normal internet is
-gone</li>
-<li><a href="https://bitchat.free/">BitChat</a> as a useful proof that
-narrow, situational tools matter, especially when the internet is
-overloaded, absent, or simply the wrong abstraction for the problem</li>
-<li>Other experiments blooming around the edges: <a
-href="https://www.tubestr.app/">Tubestr</a> as a weirdly great
-MLS-backed permission system, plus gaming demos, new clients, and other
-signs that the building blocks are escaping the original chat use
-case</li>
-<li><a href="https://openclaw.ai/">OpenClaw</a>, Fabian's <a
-href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
-NIP-17 plugin</a>, and why cryptographic identities make
-one-agent-per-project workflows feel native</li>
-<li>Jeff G's current AI workflow: multiple agents, multiple boxes, very
-little hand-written code, and a strong belief that the implementation
-middle is collapsing while architecture, <a
-href="https://ants.sh/?q=taste+by%3Adergigi.com">taste</a>, and judgment
-matter more than ever</li>
-<li>Why "build it right" is getting harder to teach and more important
-to teach, because now you can vibe a terrible idea into existence in an
-afternoon just as easily as a good one</li>
-<li>Apprenticeship, elders, and why people like Johnathan Corgan matter:
-some engineering instincts only show up after you have lived through
-brittle systems, bad assumptions, and real adversaries</li>
-<li>Notification servers that should know almost nothing, the coming KYC
-of the internet, and the broader goal of building systems with less data
-to seize and fewer chokepoints to attack</li>
-<li>The argument over easy abstractions at the edge of Nostr, from
-"Coinbase for Nostr" worries to the closing detour on onchain zaps and
-second-order effects. For more on that last part, see Gigi's rebuttal,
-<a href="https://dergigi.com/2026/05/20/careful-icarus/">Careful,
-Icarus</a></li>
+<li>Jeff G explains how <a href="https://www.whitenoise.chat/">White Noise</a> started as an attempt to build the most private messenger possible, then slowly mutated into something else: an unstoppable messenger that can survive ugly network conditions and hostile environments</li>
+<li>Why <a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a> on <a href="https://nostr.com/">Nostr</a> is mostly an ordering problem: identity and delivery are the easy parts, group-state evolution is where everything breaks</li>
+<li>Forked histories, missing commits, and the nightmare scenario where a group silently splits into incompatible realities without anybody noticing</li>
+<li>The temptation of coordinators, sequencers, and Pablo&#39;s hilariously named <a href="https://github.com/pablof7z/serial-killer">Serial Killer Relay</a>, plus the deeper question of when a relay stops being a relay and quietly becomes a server</li>
+<li>Calle&#39;s <a href="https://cashu.space/">Cashu</a> headaches, <a href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a> and NIP-61 edge cases, and the &quot;pocket with a hole&quot; problem where balances seem to disappear, reappear, and generally behave like loose change under a couch</li>
+<li>Jeff G&#39;s current bet for <a href="https://github.com/marmot-protocol/marmot">Marmot</a>: a deterministic state machine, tunable convergence rules, and automatic re-init flows that make occasional desync tolerable</li>
+<li>Why large-group privacy degrades fast, and why &quot;perfect privacy&quot; stops meaning much once a chat has hundreds or thousands of people in it</li>
+<li>Why <a href="https://git.pikachat.org/git">Pika</a> felt more reliable than NIP-17 for one-to-one chats, and where simple tools still beat more ambitious systems</li>
+<li>The White Noise v2 direction: replaceable key packages, smaller app components, and decoupling Nostr identity from the transport layer so relays become just one option among many</li>
+<li>How <a href="https://fips.network/">FIPS</a> pushed the design forward by making transport agility feel real: relays, Wi-Fi, Bluetooth Direct, and whatever else can move packets when the normal internet is gone</li>
+<li><a href="https://bitchat.free/">BitChat</a> as a useful proof that narrow, situational tools matter, especially when the internet is overloaded, absent, or simply the wrong abstraction for the problem</li>
+<li>Other experiments blooming around the edges: <a href="https://www.tubestr.app/">Tubestr</a> as a weirdly great MLS-backed permission system, plus gaming demos, new clients, and other signs that the building blocks are escaping the original chat use case</li>
+<li><a href="https://openclaw.ai/">OpenClaw</a>, Fabian&#39;s <a href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw NIP-17 plugin</a>, and why cryptographic identities make one-agent-per-project workflows feel native</li>
+<li>Jeff G&#39;s current AI workflow: multiple agents, multiple boxes, very little hand-written code, and a strong belief that the implementation middle is collapsing while architecture, <a href="https://ants.sh/?q=taste+by%3Adergigi.com">taste</a>, and judgment matter more than ever</li>
+<li>Why &quot;build it right&quot; is getting harder to teach and more important to teach, because now you can vibe a terrible idea into existence in an afternoon just as easily as a good one</li>
+<li>Apprenticeship, elders, and why people like Johnathan Corgan matter: some engineering instincts only show up after you have lived through brittle systems, bad assumptions, and real adversaries</li>
+<li>Notification servers that should know almost nothing, the coming KYC of the internet, and the broader goal of building systems with less data to seize and fewer chokepoints to attack</li>
+<li>The argument over easy abstractions at the edge of Nostr, from &quot;Coinbase for Nostr&quot; worries to the closing detour on onchain zaps and second-order effects. For more on that last part, see Gigi&#39;s rebuttal, <a href="https://dergigi.com/2026/05/20/careful-icarus/">Careful, Icarus</a></li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/09-no-strudelutions-w-hzrd149">#09: No Strudelutions w/ hzrd149</a></li>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">#28: Speak Human w/ MouxDesign</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li><a
-href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin
-Moon</a> (<a href="https://git.pikachat.org/git">Pika</a>, small-group
-messaging trade-offs, and prior White Noise conversations)</li>
-<li><a
-href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a>
-(<a href="https://github.com/pablof7z/serial-killer">Serial Killer
-Relay</a>, naming crimes, and forcing the hard coordination
-question)</li>
-<li><a
-href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a>
-(<a href="https://cashu.space/">Cashu</a>, event-ordering pain, <a
-href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>,
-and NIP-61)</li>
-<li><a
-href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan
-Corgan</a> (<a href="https://fips.network/">FIPS</a>, transport-agnostic
-networking, and wise-old-builder energy)</li>
-<li><a
-href="https://njump.to/npub1taycl7qfuqk9dp0rhkse8lxhz3az9eanjug8j4ympwehvslnetxqkujg5y">Lee</a>
-from Bitcoin Jungle (<a href="https://www.tubestr.app/">Tubestr</a>, MLS
-as permission system)</li>
-<li><a
-href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack</a>
-(<a href="https://bitchat.free/">BitChat</a>, Bluetooth-first
-messaging)</li>
-<li><a
-href="https://njump.to/npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe">Fabian</a>
-(built the <a
-href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
-NIP-17 plugin</a>)</li>
-<li><a
-href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a>,
-author of <a href="https://nostrudel.ninja/">noStrudel</a> &amp; <a
-href="https://sovereignengineering.io/projects/SEC-01#blossom">Blossom</a></li>
+<li><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin Moon</a> (<a href="https://git.pikachat.org/git">Pika</a>, small-group messaging trade-offs, and prior White Noise conversations)</li>
+<li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> (<a href="https://github.com/pablof7z/serial-killer">Serial Killer Relay</a>, naming crimes, and forcing the hard coordination question)</li>
+<li><a href="https://njump.to/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a> (<a href="https://cashu.space/">Cashu</a>, event-ordering pain, <a href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>, and NIP-61)</li>
+<li><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan Corgan</a> (<a href="https://fips.network/">FIPS</a>, transport-agnostic networking, and wise-old-builder energy)</li>
+<li><a href="https://njump.to/npub1taycl7qfuqk9dp0rhkse8lxhz3az9eanjug8j4ympwehvslnetxqkujg5y">Lee</a> from Bitcoin Jungle (<a href="https://www.tubestr.app/">Tubestr</a>, MLS as permission system)</li>
+<li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack</a> (<a href="https://bitchat.free/">BitChat</a>, Bluetooth-first messaging)</li>
+<li><a href="https://njump.to/npub1n0sturny6w9zn2wwexju3m6asu7zh7jnv2jt2kx6tlmfhs7thq0qnflahe">Fabian</a> (built the <a href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw NIP-17 plugin</a>)</li>
+<li><a href="https://njump.to/npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr">hzrd149</a>, author of <a href="https://nostrudel.ninja/">noStrudel</a> &amp; <a href="https://sovereignengineering.io/projects/SEC-01#blossom">Blossom</a></li>
 </ul>
 <p>Projects &amp; tech mentioned:</p>
 <ul>
-<li><a href="https://www.whitenoise.chat/">White Noise</a> (Jeff G's
-unstoppable messenger project)</li>
-<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a>
-(MLS-based group messaging on Nostr)</li>
-<li><a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a>
-(Messaging Layer Security)</li>
-<li><a href="https://nostr.com/">Nostr</a> (permissionless identity and
-event substrate)</li>
-<li><a href="https://git.pikachat.org/git">Pika</a> (lean encrypted
-messaging)</li>
-<li><a href="https://bitchat.free/">BitChat</a> (ephemeral Bluetooth
-mesh messaging)</li>
-<li><a href="https://fips.network/">FIPS</a> (Free Internetworking
-Peering System)</li>
-<li><a href="https://www.tubestr.app/">Tubestr</a> (MLS-backed access
-control for family video sharing)</li>
-<li><a href="https://cashu.space/">Cashu</a> (ecash protocols with
-familiar ordering pain)</li>
-<li><a href="https://github.com/pablof7z/serial-killer">Serial Killer
-Relay</a> (relay-enforced sequencing experiment)</li>
-<li><a href="https://openclaw.ai/">OpenClaw</a> (agentic tooling,
-memory, and project-scoped identities)</li>
-<li><a
-href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw
-NIP-17 plugin</a> (Nostr messaging integration for OpenClaw)</li>
-<li><a
-href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a>
-(wallet state and event-ordering pain in the Nostr ecosystem)</li>
+<li><a href="https://www.whitenoise.chat/">White Noise</a> (Jeff G&#39;s unstoppable messenger project)</li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a> (MLS-based group messaging on Nostr)</li>
+<li><a href="https://www.rfc-editor.org/rfc/rfc9420.html">MLS</a> (Messaging Layer Security)</li>
+<li><a href="https://nostr.com/">Nostr</a> (permissionless identity and event substrate)</li>
+<li><a href="https://git.pikachat.org/git">Pika</a> (lean encrypted messaging)</li>
+<li><a href="https://bitchat.free/">BitChat</a> (ephemeral Bluetooth mesh messaging)</li>
+<li><a href="https://fips.network/">FIPS</a> (Free Internetworking Peering System)</li>
+<li><a href="https://www.tubestr.app/">Tubestr</a> (MLS-backed access control for family video sharing)</li>
+<li><a href="https://cashu.space/">Cashu</a> (ecash protocols with familiar ordering pain)</li>
+<li><a href="https://github.com/pablof7z/serial-killer">Serial Killer Relay</a> (relay-enforced sequencing experiment)</li>
+<li><a href="https://openclaw.ai/">OpenClaw</a> (agentic tooling, memory, and project-scoped identities)</li>
+<li><a href="https://github.com/fabianfabian/openclaw-nostr-nip17">OpenClaw NIP-17 plugin</a> (Nostr messaging integration for OpenClaw)</li>
+<li><a href="https://sovereignengineering.io/projects/SEC-02#nip-60">NIP-60</a> (wallet state and event-ordering pain in the Nostr ecosystem)</li>
 </ul>
-<p>Recorded at <a
-href="https://mempool.space/block/951696">951,696</a>.</p>]]></description>
+<p>Recorded at <a href="https://mempool.space/block/951696">951,696</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqstzwt8nymqtepqxznskx39mm6f0xr7qzgl4uvfr3ea9y5hp3n7pcqpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpz4mhxue69uhhwmm59ejx2un8d9nkjtnrdaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsqs6amnwvaz7tmwdaejumr0dspzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pft7f7vsf</link>
       <enclosure url="https://haven.dergigi.com/46b0315fdbb941184acccda6ba7dca2eeea0310905b62def72c0df93ce98ef18.m4a" length="39904266" type="audio/mp4"/>
       <guid isPermaLink="false">50500ecc-0fc2-442d-9b61-9eb2819843d3</guid>
@@ -1794,7 +1613,7 @@ href="https://mempool.space/block/951696">951,696</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>24: Building FIPS w/ Johnathan Corgan</title>
-      <description><![CDATA[<p>“Don’t be afraid of going your own way.”</p>
+      <description><![CDATA[<p>&quot;Don&#39;t be afraid of going your own way.&quot;</p>
 <p><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan Corgan</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
 <p><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">Listen on sovereignengineering.io</a></p>
 <p>In this dialogue:</p>
@@ -1808,22 +1627,31 @@ href="https://mempool.space/block/951696">951,696</a>.</p>]]></itunes:summary>
 <li>150 nodes already on the FIPS testnet, and what has to change to get from 150 to 1,500 to 15,000</li>
 <li><a href="https://sovereignengineering.io/loop#friday-demo-day">Friday Demo Day</a> as the forcing function: build it, show it, let other people poke holes in it</li>
 <li>The next FIPS release: fewer unnecessary pieces, stronger protocol negotiation, harder internals, more battle testing</li>
-<li>“Try to break it” so friends can fix it before hostile actors do</li>
+<li>&quot;Try to break it&quot; so friends can fix it before hostile actors do</li>
 <li>Costa Rica and SEC-07 as a return to the early <a href="https://en.wikipedia.org/wiki/Cypherpunk">Cypherpunk</a> and early Bitcoin energy: do not reform the old system, route around it</li>
 <li>Why Nostr feels miraculous if you remember the world before it, even if normies still see it as half-baked</li>
-<li>“Rough consensus and running code”: academic rigor, design review, and why code still has to survive contact with reality</li>
-<li>Johnathan’s critique of “shower thought to <a href="https://zapstore.dev/">ZapStore</a> in six hours” culture: speed helps, but engineering still matters</li>
+<li>&quot;Rough consensus and running code&quot;: academic rigor, design review, and why code still has to survive contact with reality</li>
+<li>Johnathan&#39;s critique of &quot;shower thought to <a href="https://zapstore.dev/">ZapStore</a> in six hours&quot; culture: speed helps, but engineering still matters</li>
 <li><a href="https://www.anthropic.com/claude-code">Claude Code</a> wrote most of FIPS only after two months of protocol iteration and roughly 30,000 words of design docs</li>
 <li>Johnathan read every file and every line of code his agents produced, which is probably the only sane way to use them</li>
 <li>Agentic coding as a force multiplier, not a substitute for thought: bad programmers get worse, good programmers get faster, non-programmers can finally build</li>
 <li>Drive-by AI pull requests, effort-matching reviews, and why maintainers should not do all the thinking for you</li>
 <li>Advice to younger builders: dissent, trust your own judgment, stop scrolling, and start doing stuff</li>
-<li>“You can just do things”</li>
+<li>&quot;You can just do things&quot;</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+<li><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</a></li>
+<li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">#32: Nostrology w/ WhisperHash</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 </ul>
 <p>People mentioned:</p>
 <ul>
 <li><a href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr">Arjen</a> (brought the original itch from Costa Rica, noDNS instincts, freedom-tech networking)</li>
-<li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a> (<a href="https://tollgate.me/">TollGate</a>, weird deployment constraints, “I didn’t think this would exist for 10 more years”)</li>
+<li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a> (<a href="https://tollgate.me/">TollGate</a>, weird deployment constraints, &quot;I didn&#39;t think this would exist for 10 more years&quot;)</li>
 <li><a href="https://npub.world/npub1zthq85gksjsjthv8h6rec2qeqs2mu0emrm9xknkhgw7hfl7csrnq6wxm56">SatsAndSports</a></li>
 </ul>
 <p>Projects &amp; tech mentioned:</p>
@@ -1898,194 +1726,87 @@ href="https://mempool.space/block/951696">951,696</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>23: Shipping Violently w/ Justin Moon</title>
-      <description><![CDATA[<p>“I want to optimize for hackability and customization.”</p>
-<p><a
-href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin
-Moon</a> &amp; <a
-href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a>
-take a walk in Madeira. Recorded during <a
-href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
-<p><a
-href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">Listen
-on sovereignengineering.io</a></p>
+      <description><![CDATA[<p>&quot;I want to optimize for hackability and customization.&quot;</p>
+<p><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin Moon</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
+<p><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">Listen on sovereignengineering.io</a></p>
 <p>In this dialogue:</p>
 <ul>
-<li>Justin’s new obsession: building Shadow, a hackable mobile operating
-system for people who want full control over the stack</li>
-<li>Why Android is interesting again: not because it’s clean, but
-because it is at least open enough to fight with</li>
-<li>Android file chaos, and the immortal <a
-href="https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqy2hwumn8ghj7mn0wd68ytn00p68ytnyv4mz7qfqwaehxw309ahx7um5wghx26tww4hxg7nhv9h856t89eehqctrv5hsqgysz8fc8xhpk7sndptrn9mq43em26sgsexclqfyu3ugt4mmz8z53uzp3k6p">“file
-saved successfully” meme</a></li>
-<li>One wallet, one relay connection, one shared set of primitives at
-the OS level, instead of every app reinventing the same mess</li>
-<li>The “UNIX tools of Nostr” idea, revisited from <a
-href="https://sovereignengineering.io/podcast/07-zig-multiplatform-w-justin">#07:
-Zig Multiplatform w/ Justin</a></li>
-<li>Booting a phone with less Android, then turning Android off piece by
-piece once the system is running</li>
-<li>Early signs of life for Shadow: Kosti successfully compiled and ran
-it</li>
-<li>From 13-second button clicks to instant GPU rendering, and why that
-counts as real progress</li>
-<li>Ricing phones like Linux desktops, with the usual <a
-href="https://cms.typecraft.dev/community/linux_ricing/">Typecraft
-explainer</a> and <a
-href="https://github.com/fosslife/awesome-ricing">awesome-ricing</a>
-rabbit hole</li>
-<li>Why Justin chose TypeScript apps on top of a Rust core: make the
-parts you should not vibe-code solid, and let users vibe-code the
-rest</li>
-<li>Apps as source code, almost like DMs, instead of a permissioned app
-store pipeline</li>
-<li>How maps, notebooks, and everything else dematerialized into the
-computer, via this <a href="https://youtu.be/uGI00HV7Cfw">video of stuff
-disappearing into software</a></li>
-<li>The app store tax, DUNS numbers, LLC theater, and why Justin would
-rather build a parallel thing than beg Apple and Google for
-approval</li>
-<li>Permissionless alternatives at every layer: phone OS, payments,
-relays, networking, app distribution, and compute</li>
-<li><a href="https://grapheneos.org/">GrapheneOS</a> as the
-security-maximalist trade-off, versus Shadow as the
-hackability-maximalist trade-off</li>
-<li>“I want a 3D printed gun of phones” as Justin’s deliberately
-unhinged way of describing maximum user freedom and minimum
-guardrails</li>
-<li>“I want to optimize for shooting yourself in the foot” as the
-sharper version of the same trade-off: less safety theater, more user
-agency</li>
-<li>Why many Linux phones failed: server people building for phone
-users, without a real vision for what a phone should become</li>
-<li>The Nostr opportunity: a community weird enough to flash devices,
-test strange tools, and actually use them</li>
-<li>“Where do your ideas come from?” and the obligatory <a
-href="https://youtu.be/PF59yAwaELE">Norm clip</a></li>
-<li>Why the future may look like one agent per project, each with its
-own identity, memory, and full machine to operate</li>
-<li>Personal clouds, bare-metal boxes, ephemeral VMs, and feeding your
-agents compute instead of feeding SaaS subscriptions</li>
-<li>Why local-first and self-hosted agent setups matter if you want real
-sovereignty, durable memory, and no surprise bans</li>
-<li><a href="https://fips.network/">FIPS</a> as a path toward
-permissionless networking, cryptographic addressing, and small resilient
-parallel internets</li>
-<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>,
-tailscale-like overlays, and why overlay networks beat waiting for the
-whole world to rewire itself</li>
-<li>Messaging trade-offs: <a
-href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a
-href="https://simplex.chat/">SimpleX Chat</a>, MLS coordination pain,
-chat relays, double ratchets, and what actually works for small
-groups</li>
-<li><a href="https://github.com/sledtools/pika">Pika</a>, identity,
-signaling, and why Justin wants to stop theory-crafting and start
-shipping</li>
-<li>Sovereign Engineering as a high-bandwidth filter for crazy ideas,
-where most things die, a few things bloom, and that is the point</li>
-<li>Why Bitcoin, Nostr, and projects like FIPS feel Amish-compatible:
-the goal is not rejecting technology, it is rejecting dependence</li>
-<li>Justin’s closing promise: less talking, more shipping, and yes,
-shipping violently</li>
+<li>Justin&#39;s new obsession: building Shadow, a hackable mobile operating system for people who want full control over the stack</li>
+<li>Why Android is interesting again: not because it&#39;s clean, but because it is at least open enough to fight with</li>
+<li>Android file chaos, and the immortal <a href="https://njump.to/nevent1qvzqqqqqqypzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqy2hwumn8ghj7mn0wd68ytn00p68ytnyv4mz7qfqwaehxw309ahx7um5wghx26tww4hxg7nhv9h856t89eehqctrv5hsqgysz8fc8xhpk7sndptrn9mq43em26sgsexclqfyu3ugt4mmz8z53uzp3k6p">&quot;file saved successfully&quot; meme</a></li>
+<li>One wallet, one relay connection, one shared set of primitives at the OS level, instead of every app reinventing the same mess</li>
+<li>The &quot;UNIX tools of Nostr&quot; idea, revisited from <a href="https://sovereignengineering.io/podcast/07-zig-multiplatform-w-justin">#07: Zig Multiplatform w/ Justin</a></li>
+<li>Booting a phone with less Android, then turning Android off piece by piece once the system is running</li>
+<li>Early signs of life for Shadow: Kosti successfully compiled and ran it</li>
+<li>From 13-second button clicks to instant GPU rendering, and why that counts as real progress</li>
+<li>Ricing phones like Linux desktops, with the usual <a href="https://cms.typecraft.dev/community/linux_ricing/">Typecraft explainer</a> and <a href="https://github.com/fosslife/awesome-ricing">awesome-ricing</a> rabbit hole</li>
+<li>Why Justin chose TypeScript apps on top of a Rust core: make the parts you should not vibe-code solid, and let users vibe-code the rest</li>
+<li>Apps as source code, almost like DMs, instead of a permissioned app store pipeline</li>
+<li>How maps, notebooks, and everything else dematerialized into the computer, via this <a href="https://youtu.be/uGI00HV7Cfw">video of stuff disappearing into software</a></li>
+<li>The app store tax, DUNS numbers, LLC theater, and why Justin would rather build a parallel thing than beg Apple and Google for approval</li>
+<li>Permissionless alternatives at every layer: phone OS, payments, relays, networking, app distribution, and compute</li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a> as the security-maximalist trade-off, versus Shadow as the hackability-maximalist trade-off</li>
+<li>&quot;I want a 3D printed gun of phones&quot; as Justin&#39;s deliberately unhinged way of describing maximum user freedom and minimum guardrails</li>
+<li>&quot;I want to optimize for shooting yourself in the foot&quot; as the sharper version of the same trade-off: less safety theater, more user agency</li>
+<li>Why many Linux phones failed: server people building for phone users, without a real vision for what a phone should become</li>
+<li>The Nostr opportunity: a community weird enough to flash devices, test strange tools, and actually use them</li>
+<li>&quot;Where do your ideas come from?&quot; and the obligatory <a href="https://youtu.be/PF59yAwaELE">Norm clip</a></li>
+<li>Why the future may look like one agent per project, each with its own identity, memory, and full machine to operate</li>
+<li>Personal clouds, bare-metal boxes, ephemeral VMs, and feeding your agents compute instead of feeding SaaS subscriptions</li>
+<li>Why local-first and self-hosted agent setups matter if you want real sovereignty, durable memory, and no surprise bans</li>
+<li><a href="https://fips.network/">FIPS</a> as a path toward permissionless networking, cryptographic addressing, and small resilient parallel internets</li>
+<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>, tailscale-like overlays, and why overlay networks beat waiting for the whole world to rewire itself</li>
+<li>Messaging trade-offs: <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://simplex.chat/">SimpleX Chat</a>, MLS coordination pain, chat relays, double ratchets, and what actually works for small groups</li>
+<li><a href="https://github.com/sledtools/pika">Pika</a>, identity, signaling, and why Justin wants to stop theory-crafting and start shipping</li>
+<li>Sovereign Engineering as a high-bandwidth filter for crazy ideas, where most things die, a few things bloom, and that is the point</li>
+<li>Why Bitcoin, Nostr, and projects like FIPS feel Amish-compatible: the goal is not rejecting technology, it is rejecting dependence</li>
+<li>Justin&#39;s closing promise: less talking, more shipping, and yes, shipping violently</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/01-start-ugly-w-pablo">#01: Start Ugly w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/14-building-browsers-w-justin">#14: Building Browsers w/ Justin</a></li>
+<li><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">#18: Rewriting TENEX w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/32-nostrology-w-whisperhash">#32: Nostrology w/ WhisperHash</a></li>
 </ul>
 <p>People mentioned:</p>
 <ul>
-<li><a href="https://github.com/moneyball">Steve Lee</a> (early sounding
-board for Lightning-at-the-OS-level ideas)</li>
-<li><a
-href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan
-Corgan</a> (creator of <a href="https://fips.network/">FIPS</a>, pulled
-out of retirement by the right kind of weird)</li>
-<li><a
-href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti
-Malmi</a> (<a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>,
-offline-friendly networking, also on <a
-href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21:
-Hashtree, Nostr VPN, and Iris</a>)</li>
-<li><a
-href="https://njump.to/npub1utx00neqgqln72j22kej3ux7803c2k986henvvha4thuwfkper4s7r50e8">UTXO
-the webmaster</a> (building <a href="https://wisp.mobile/">Wisp</a>, see
-also <a
-href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel
-Dispatch #200 with UTXO</a>)</li>
-<li><a
-href="https://njump.to/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl">Kosti</a>
-(successfully compiled and ran Shadow OS)</li>
-<li><a
-href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a>
-(app-as-chat-box idea, <a
-href="https://github.com/sledtools/pika">Pika</a>, general agentic
-mischief)</li>
-<li><a
-href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr">Arjen</a>
-(mesh instincts, noDNS lineage, helping make the weird legible, also on
-<a
-href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">#17:
-Organic Tech</a>)</li>
-<li><a
-href="https://njump.to/npub1r7psmkr4zv93xnal8un6d8hvmpsn5jvhfzn3kk38rfcel6awznks7znspg">Dimi</a>
-(running VPS and simple cloud infrastructure alongside bitcoin mining
-facilities)</li>
-<li><a
-href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a>
-(<a href="https://tollgate.me/">TollGate</a>, rural and off-grid
-deployment instincts)</li>
-<li><a
-href="https://njump.to/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx">Shadrach</a>
-(parallel systems, Amish country, and practical off-grid thinking, also
-on <a
-href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20:
-Archipelago Meshtadels</a>)</li>
-<li><a
-href="https://njump.to/npub1j4u5gjzjyggr3h96x3gjy4akdgwxuk7mgvumv72gym2qyje7fn5s47d6x9">Bitstein</a>
-(orange-pilling the Amish remains a live meme)</li>
-<li><a
-href="https://njump.to/npub1hk0tv47ztd8kekngsuwwycje68umccjzqjr7xgjfqkm8ffcs53dqvv20pf">Erik
-Cason</a> (mind-blowing people without realizing it)</li>
+<li><a href="https://github.com/moneyball">Steve Lee</a> (early sounding board for Lightning-at-the-OS-level ideas)</li>
+<li><a href="https://njump.to/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k">Johnathan Corgan</a> (creator of <a href="https://fips.network/">FIPS</a>, pulled out of retirement by the right kind of weird)</li>
+<li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a> (<a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a>, offline-friendly networking, also on <a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">#21: Hashtree, Nostr VPN, and Iris</a>)</li>
+<li><a href="https://njump.to/npub1utx00neqgqln72j22kej3ux7803c2k986henvvha4thuwfkper4s7r50e8">UTXO the webmaster</a> (building <a href="https://wisp.mobile/">Wisp</a>, see also <a href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel Dispatch #200 with UTXO</a>)</li>
+<li><a href="https://njump.to/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl">Kosti</a> (successfully compiled and ran Shadow OS)</li>
+<li><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> (app-as-chat-box idea, <a href="https://github.com/sledtools/pika">Pika</a>, general agentic mischief)</li>
+<li><a href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr">Arjen</a> (mesh instincts, noDNS lineage, helping make the weird legible, also on <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">#17: Organic Tech</a>)</li>
+<li><a href="https://njump.to/npub1r7psmkr4zv93xnal8un6d8hvmpsn5jvhfzn3kk38rfcel6awznks7znspg">Dimi</a> (running VPS and simple cloud infrastructure alongside bitcoin mining facilities)</li>
+<li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a> (<a href="https://tollgate.me/">TollGate</a>, rural and off-grid deployment instincts)</li>
+<li><a href="https://njump.to/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx">Shadrach</a> (parallel systems, Amish country, and practical off-grid thinking, also on <a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels</a>)</li>
+<li><a href="https://njump.to/npub1j4u5gjzjyggr3h96x3gjy4akdgwxuk7mgvumv72gym2qyje7fn5s47d6x9">Bitstein</a> (orange-pilling the Amish remains a live meme)</li>
+<li><a href="https://njump.to/npub1hk0tv47ztd8kekngsuwwycje68umccjzqjr7xgjfqkm8ffcs53dqvv20pf">Erik Cason</a> (mind-blowing people without realizing it)</li>
 </ul>
 <p>Projects &amp; tech mentioned:</p>
 <ul>
-<li><a href="https://github.com/justinmoon/shadow">Shadow</a> (Justin’s
-experimental mobile OS)</li>
-<li><a href="https://grapheneos.org/">GrapheneOS</a> (security-focused
-Android fork)</li>
-<li><a href="https://fips.network/">FIPS</a> (Free Internetworking
-Peering System)</li>
-<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> (overlay
-networking over Nostr)</li>
-<li><a href="https://github.com/sledtools/pika">Pika</a> (encrypted
-messaging experiments for OpenClaw)</li>
-<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a>
-(MLS-based chat on Nostr)</li>
-<li><a href="https://simplex.chat/">SimpleX Chat</a> (private messaging
-reference point mentioned in the conversation, see also <a
-href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd196-evgeny-poberezkin--simplex-private-chat">Citadel
-Dispatch #196 with Evgeny Poberezkin</a>)</li>
-<li><a href="https://openclaw.ai">OpenClaw</a> (one agent per project,
-memory, and task execution)</li>
-<li><a href="https://zapstore.dev/">ZapStore</a> (permission-minimized
-Android app distribution)</li>
-<li><a href="https://wisp.mobile/">Wisp</a> (mobile Nostr client being
-built by UTXO, see also <a
-href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel
-Dispatch #200 with UTXO</a>)</li>
-<li><a href="https://github.com/KoalaSat/pokey">Pokey</a> (Nostr
-notification aggregation for power users)</li>
-<li><a href="https://deno.com/">Deno</a> (runtime for TypeScript apps on
-the phone)</li>
-<li><a href="https://nixos.org/">Nix</a> (reproducible builds,
-environments, and OS packaging)</li>
-<li><a href="https://github.com/topjohnwu/Magisk">Magisk</a> (rooting
-and system modification on Android)</li>
-<li><a href="https://github.com/jackjackbits/bitchat">BitChat</a>
-(UX-first mesh messaging reference point)</li>
-<li><a href="https://tollgate.me/">TollGate</a> (connectivity and
-payments at the edge)</li>
-<li><a href="https://hrf.org/">HRF</a> (trainings, activists, and the
-account-creation pain of the permissioned web)</li>
+<li><a href="https://github.com/justinmoon/shadow">Shadow</a> (Justin&#39;s experimental mobile OS)</li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a> (security-focused Android fork)</li>
+<li><a href="https://fips.network/">FIPS</a> (Free Internetworking Peering System)</li>
+<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> (overlay networking over Nostr)</li>
+<li><a href="https://github.com/sledtools/pika">Pika</a> (encrypted messaging experiments for OpenClaw)</li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a> (MLS-based chat on Nostr)</li>
+<li><a href="https://simplex.chat/">SimpleX Chat</a> (private messaging reference point mentioned in the conversation, see also <a href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd196-evgeny-poberezkin--simplex-private-chat">Citadel Dispatch #196 with Evgeny Poberezkin</a>)</li>
+<li><a href="https://openclaw.ai">OpenClaw</a> (one agent per project, memory, and task execution)</li>
+<li><a href="https://zapstore.dev/">ZapStore</a> (permission-minimized Android app distribution)</li>
+<li><a href="https://wisp.mobile/">Wisp</a> (mobile Nostr client being built by UTXO, see also <a href="https://serve.podhome.fm/episodepage/CitadelDispatch/cd200-utxo--wisp--better-nostr">Citadel Dispatch #200 with UTXO</a>)</li>
+<li><a href="https://github.com/KoalaSat/pokey">Pokey</a> (Nostr notification aggregation for power users)</li>
+<li><a href="https://deno.com/">Deno</a> (runtime for TypeScript apps on the phone)</li>
+<li><a href="https://nixos.org/">Nix</a> (reproducible builds, environments, and OS packaging)</li>
+<li><a href="https://github.com/topjohnwu/Magisk">Magisk</a> (rooting and system modification on Android)</li>
+<li><a href="https://github.com/jackjackbits/bitchat">BitChat</a> (UX-first mesh messaging reference point)</li>
+<li><a href="https://tollgate.me/">TollGate</a> (connectivity and payments at the edge)</li>
+<li><a href="https://hrf.org/">HRF</a> (trainings, activists, and the account-creation pain of the permissioned web)</li>
 </ul>
-<p>Recorded at <a
-href="https://mempool.space/block/944875">944,875</a>.</p>]]></description>
+<p>Recorded at <a href="https://mempool.space/block/944875">944,875</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqs2xwlnrgw7q0ptx5czxzljv9mfcx3mery2w95py73xt89pfmxdd6qpp4mhxue69uhkummn9ekx7mqzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjklher3y</link>
       <enclosure url="https://haven.dergigi.com/dfa15dfd1d65bb0a48aa91fa8f19a6ff905a18c4daecb913c61ae34b6952b7bf.m4a" length="100475449" type="audio/mp4"/>
       <guid isPermaLink="false">a03cbea0-d983-42dc-a3e5-b015eb1dbe7c</guid>
@@ -2322,31 +2043,40 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>21: Hashtree, Nostr VPN, and Iris w/ Martti Malmi</title>
-      <description><![CDATA[<p>"We have this window of opportunity to steer the LLMs and the future of technology into a freedom-tech direction."</p>
+      <description><![CDATA[<p>&quot;We have this window of opportunity to steer the LLMs and the future of technology into a freedom-tech direction.&quot;</p>
 <p><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
 <p><a href="https://sovereignengineering.io/podcast/21-hashtree-nostr-vpn-and-iris-w-martti-malmi">Listen on sovereignengineering.io</a></p>
 <p>In this dialogue:</p>
 <ul>
-<li>Martti's GitHub annoyance spawned <a href="https://hashtree.cc">Hashtree</a>: a content-addressed file system on top of <a href="https://github.com/hzrd149/blossom">Blossom</a> that adds directories, file chunking, and encryption. Everything encrypted by default using content hash key encryption (inspired by <a href="https://en.wikipedia.org/wiki/Freenet">Freenet</a>), so Blossom server operators have cryptographic deniability about what they host.</li>
+<li>Martti&#39;s GitHub annoyance spawned <a href="https://hashtree.cc">Hashtree</a>: a content-addressed file system on top of <a href="https://github.com/hzrd149/blossom">Blossom</a> that adds directories, file chunking, and encryption. Everything encrypted by default using content hash key encryption (inspired by <a href="https://en.wikipedia.org/wiki/Freenet">Freenet</a>), so Blossom server operators have cryptographic deniability about what they host.</li>
 <li><a href="https://hashtree.cc/#/dev/git-without-github">git remote hashtree</a>: set up a hashtree remote for any Git repo, push to your Blossom server. Martti uses it for all <a href="https://iris.to">Iris</a> development, with GitHub only as a backup mirror. The web interface at <a href="https://git.iris.to">git.iris.to</a> supports NIP-34 issues and pull requests.</li>
 <li>The <a href="https://github.com/mmalmi/hashtree/tree/master/ts/packages/hashtree-nostr/src/webrtc">WebRTC mesh</a> layer complements Blossom: peers find each other via Nostr relays for the initial handshake, then communicate directly. Requests route through peers with hops-to-live (starts around 15, probabilistically varied for privacy). No domain names, TLS certs, or IP addresses needed.</li>
-<li><a href="https://github.com/mmalmi/iris-browser">Iris Browser</a> loads apps from Hashtree URLs, bypassing web hosting entirely. Same idea as the old Freenet concept: content addressing means links don't break when servers go down.</li>
-<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> was born from Martti's refusal to use <a href="https://tailscale.com/">Tailscale</a>'s Google/GitHub login. Built in two days. WireGuard underneath, Nostr relays for peer discovery and IP negotiation. Every device gets an npub. Exit node functionality coming, with a future <a href="https://cashu.space/">Cashu</a>-incentivized exit node marketplace.</li>
+<li><a href="https://github.com/mmalmi/iris-browser">Iris Browser</a> loads apps from Hashtree URLs, bypassing web hosting entirely. Same idea as the old Freenet concept: content addressing means links don&#39;t break when servers go down.</li>
+<li><a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> was born from Martti&#39;s refusal to use <a href="https://tailscale.com/">Tailscale</a>&#39;s Google/GitHub login. Built in two days. WireGuard underneath, Nostr relays for peer discovery and IP negotiation. Every device gets an npub. Exit node functionality coming, with a future <a href="https://cashu.space/">Cashu</a>-incentivized exit node marketplace.</li>
 <li><a href="https://github.com/mmalmi/nostr-double-ratchet">Double Ratchet</a> messaging on Nostr: works well for two-party sessions, complexity grows with multi-device per user and group chats. Tested at SEC-07 via <a href="https://chat.iris.to">chat.iris.to</a> with QR code invites. Martti prefers Double Ratchet over <a href="https://www.whitenoise.chat/">MLS</a> for Nostr because MLS has stricter consensus requirements that conflict with decentralized relay sets.</li>
-<li>"Coding is going to be done by AI agents pretty soon." Martti writes basically zero code by hand now, vibecoding over tradcoding. Claude Opus (late 2025) was the inflection point that enabled Hashtree. He expects fully capable local models within a year.</li>
-<li>The window of opportunity: if freedom tech developers stop building now, Stripe, Cloudflare, and GitHub win by default because that's all the LLMs know. Getting freedom tech into the training data matters while models are still being shaped. Gwern wrote about this dynamic years ago in <a href="https://gwern.net/bitcoin-is-worse-is-better">Bitcoin is Worse is Better</a>, and his <a href="https://gwern.net/scaling-hypothesis">Scaling Hypothesis</a> hints at where the AI side is headed.</li>
-<li>AI agents will eat network effects: your agent queries ten platforms, posts to all of them. The bundled interface becomes irrelevant. Big tech's moat dissolves. "An ouroboros effect, the snake of big tech eating its own tail." As <a href="https://njump.to/nevent1qqswn8nres9nute8w3h460gexpe2qqf44cvccqhgazt4ljrjsu7vafcpr9mhxue69uhhqun9d45h2mfwwpexjmtpdshxuet59upzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyg22l70">Jack Dorsey recently put it</a>, the killer feature of Bitcoin and Nostr is that they're permissionless.</li>
+<li>&quot;Coding is going to be done by AI agents pretty soon.&quot; Martti writes basically zero code by hand now, vibecoding over tradcoding. Claude Opus (late 2025) was the inflection point that enabled Hashtree. He expects fully capable local models within a year.</li>
+<li>The window of opportunity: if freedom tech developers stop building now, Stripe, Cloudflare, and GitHub win by default because that&#39;s all the LLMs know. Getting freedom tech into the training data matters while models are still being shaped. Gwern wrote about this dynamic years ago in <a href="https://gwern.net/bitcoin-is-worse-is-better">Bitcoin is Worse is Better</a>, and his <a href="https://gwern.net/scaling-hypothesis">Scaling Hypothesis</a> hints at where the AI side is headed.</li>
+<li>AI agents will eat network effects: your agent queries ten platforms, posts to all of them. The bundled interface becomes irrelevant. Big tech&#39;s moat dissolves. &quot;An ouroboros effect, the snake of big tech eating its own tail.&quot; As <a href="https://njump.to/nevent1qqswn8nres9nute8w3h460gexpe2qqf44cvccqhgazt4ljrjsu7vafcpr9mhxue69uhhqun9d45h2mfwwpexjmtpdshxuet59upzqmjxss3dld622uu8q25gywum9qtg4w4cv4064jmg20xsac2aam5nqvzqqqqqqyg22l70">Jack Dorsey recently put it</a>, the killer feature of Bitcoin and Nostr is that they&#39;re permissionless.</li>
 <li>Pre-Nostr, Martti built Iris on <a href="https://gun.eco/">Gun.js</a> as a public-key-based social network. No traction after two or three years. When Jack Dorsey joined Nostr and it gained community, Martti ported Iris over quickly.</li>
-<li>The Ethereum confession: social nouns NFTs, Ethereum login in early Iris. "Every saint has a past, every sinner a future." The Bitcoin community's cultural friction was an interesting experience, but Martti found the maximalists more admirable than other groups.</li>
-<li>Early Bitcoin: first commit around early 2010, ran bitcoin.org, built the first exchange (bitcoinmarket.com), sold over 30,000 bitcoins through it. Life happened, moved on, came back through Nostr. <a href="https://njump.to/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gauwx77">"Bitcoin is singularity insurance"</a> -- the one thing machines can't make more of.</li>
-<li><a href="https://njump.to/nevent1qqsvm0q969h2h7jxp5wd0zslgpmsz5rm2q04w2ruxmur6newcflpj6czncutv">Web of trust vs. proof of work</a> for fighting spam: PoW won't stop spammers more than it stops normal users. Social graph is the only proper solution for most interactions. A combination of both has its place, but WoT does the heavy lifting.</li>
-<li>Identity is prismatic: as moot argued in his <a href="https://youtu.be/e3Zs74IH0mc">SXSW talk</a>, you're not the same person at church, the nightclub, or work. Nostr enables multiple npubs for different contexts. But spam is the trade-off with free identity creation, and social graph is the only proper solution. Web of trust filtering in Iris means no NSFW spam, at the cost of possibly missing new users.</li>
-<li>Content addressing as the foundation: files live in multiple places, links don't break, peers cache data from their social graph. DNS-like caching but without the hierarchical trust. <a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">"No global"</a> is a feature.</li>
-<li>Local agents as a privacy layer: if your AI agent is your interface, platforms can't fingerprint your typing patterns. Even traffic analysis becomes harder with noise-based bandwidth usage.</li>
-<li><a href="https://fips.network/">FIPS</a> is Martti's most exciting Nostr project outside his own work: public key-based network routing that replaces IP addresses. Low-level infrastructure that could underpin everything else.</li>
-<li><a href="https://fips.network/">FIPS</a> is Martti's most exciting Nostr project outside his own work: public key-based network routing that replaces IP addresses. Low-level infrastructure that could underpin everything else.</li>
-<li><a href="https://iris.to/search/%23SovEng">SovEng</a> experience: "awesome", intense from morning to evening, a teenage dream of hacking with people on a beautiful island. Came on short notice after Jonathan reached out following the <a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> release.</li>
-<li>Martti's ask: use <a href="https://hashtree.cc">Hashtree</a>, default your repos to hashtree remotes, solve real problems. "Nostr VPN actually solved a real problem. Scratch your own itch."</li>
+<li>The Ethereum confession: social nouns NFTs, Ethereum login in early Iris. &quot;Every saint has a past, every sinner a future.&quot; The Bitcoin community&#39;s cultural friction was an interesting experience, but Martti found the maximalists more admirable than other groups.</li>
+<li>Early Bitcoin: first commit around early 2010, ran bitcoin.org, built the first exchange (bitcoinmarket.com), sold over 30,000 bitcoins through it. Life happened, moved on, came back through Nostr. <a href="https://njump.to/nevent1qqswawr4cz68sjswhtdkat8qgnpfsc6wygx4xmq2d5gd5fg9extvl4gauwx77">&quot;Bitcoin is singularity insurance&quot;</a> -- the one thing machines can&#39;t make more of.</li>
+<li><a href="https://njump.to/nevent1qqsvm0q969h2h7jxp5wd0zslgpmsz5rm2q04w2ruxmur6newcflpj6czncutv">Web of trust vs. proof of work</a> for fighting spam: PoW won&#39;t stop spammers more than it stops normal users. Social graph is the only proper solution for most interactions. A combination of both has its place, but WoT does the heavy lifting.</li>
+<li>Identity is prismatic: as moot argued in his <a href="https://youtu.be/e3Zs74IH0mc">SXSW talk</a>, you&#39;re not the same person at church, the nightclub, or work. Nostr enables multiple npubs for different contexts. But spam is the trade-off with free identity creation, and social graph is the only proper solution. Web of trust filtering in Iris means no NSFW spam, at the cost of possibly missing new users.</li>
+<li>Content addressing as the foundation: files live in multiple places, links don&#39;t break, peers cache data from their social graph. DNS-like caching but without the hierarchical trust. <a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">&quot;No global&quot;</a> is a feature.</li>
+<li>Local agents as a privacy layer: if your AI agent is your interface, platforms can&#39;t fingerprint your typing patterns. Even traffic analysis becomes harder with noise-based bandwidth usage.</li>
+<li><a href="https://fips.network/">FIPS</a> is Martti&#39;s most exciting Nostr project outside his own work: public key-based network routing that replaces IP addresses. Low-level infrastructure that could underpin everything else.</li>
+<li><a href="https://iris.to/search/%23SovEng">SovEng</a> experience: &quot;awesome&quot;, intense from morning to evening, a teenage dream of hacking with people on a beautiful island. Came on short notice after Jonathan reached out following the <a href="https://github.com/mmalmi/nostr-vpn">Nostr VPN</a> release.</li>
+<li>Martti&#39;s ask: use <a href="https://hashtree.cc">Hashtree</a>, default your repos to hashtree remotes, solve real problems. &quot;Nostr VPN actually solved a real problem. Scratch your own itch.&quot;</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">#02: There is No Global w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/09-no-strudelutions-w-hzrd149">#09: No Strudelutions w/ hzrd149</a></li>
+<li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/28-speak-human-w-mouxdesign">#28: Speak Human w/ MouxDesign</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 </ul>
 <p>People mentioned:</p>
 <ul>
@@ -2361,7 +2091,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://en.wikipedia.org/wiki/Christopher_Poole">Christopher Poole / moot</a> (4chan founder)</li>
 <li><a href="https://njump.to/npub1gcxzte5zlkncx26j68ez60fzkvtkm9e0vrwdcvsjakxf9mu9qewqlfnj5z">Vitor Pamplona</a> (Amethyst)</li>
 <li><a href="https://njump.to/npub17nd4yu9anyd3004pumgrtazaacujjxwzj36thtqsxskjy0r5urgqf6950x">isolabellart</a> (Nostr-native artist, <a href="https://isolabellart.it.com/">isolabellart.it.com</a>)</li>
-<li><a href="https://njump.to/npub1jk9h2jsa8hjmtm9qlcca942473gnyhuynz5rmgve0dlu6hpeazxqc3lqz7">Sir Sleepy</a> (prismatic identity)</li>
+<li><a href="https://njump.to/npub1jk9h2jsa8hjmtm9qlcca942473gnyhuynz5rmgve0dlu6hpeazxqc3lqz7">Sir Sleepy</a> (traffic analysis demo)</li>
 <li><a href="https://njump.to/npub1sg6plzptd64u62a878hep2kev88swjh3tw00gjsfl8f237lmu63q0uf63m">Jack Dorsey</a></li>
 </ul>
 <p>Projects &amp; tech mentioned:</p>
@@ -2380,7 +2110,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://en.wikipedia.org/wiki/LoRa">LoRa</a> (long-range, low-power radio for mesh networking)</li>
 <li><a href="https://www.whitenoise.chat/">MLS / White Noise</a> (encrypted group messaging on Nostr)</li>
 <li><a href="https://github.com/marmot-protocol/marmot">Marmot Protocol</a> (encrypted messaging protocol for Nostr)</li>
-<li><a href="https://en.wikipedia.org/wiki/Freenet">Freenet</a> (early content-addressed peer-to-peer network, inspiration for Hashtree's encryption)</li>
+<li><a href="https://en.wikipedia.org/wiki/Freenet">Freenet</a> (early content-addressed peer-to-peer network, inspiration for Hashtree&#39;s encryption)</li>
 <li><a href="https://ladybird.org/">Ladybird</a> (independent browser implementation)</li>
 <li><a href="https://openclaw.ai">OpenClaw</a> (open-source AI agent harness)</li>
 <li><a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin, future incentivized exit node payments)</li>
@@ -2399,11 +2129,11 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://vertexlab.io/">Vertex</a> (web of trust tools)</li>
 <li><a href="https://github.com/ContextVM/relatr">Relatr</a> (relay-side WoT filtering on ContextVM)</li>
 <li><a href="https://en.wikipedia.org/wiki/Eternal_September">Eternal September</a> (what happens when a subculture scales)</li>
-<li><a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko's Triangle</a> (the naming trilemma: human-meaningful, secure, decentralized)</li>
+<li><a href="https://en.wikipedia.org/wiki/Zooko%27s_triangle">Zooko&#39;s Triangle</a> (the naming trilemma: human-meaningful, secure, decentralized)</li>
 <li><a href="https://nsite.run/">nsite</a> (Nostr-based web hosting)</li>
 <li><a href="https://en.wikipedia.org/wiki/Commander_Keen">Commander Keen</a> (DOS-era classic)</li>
 <li><a href="https://en.wikipedia.org/wiki/IPX/SPX">IPX/SPX</a> (LAN party networking protocol)</li>
-<li><a href="https://thepiratebay.org/">Pirate Bay</a> (decentralized resilience patterns that Nostr echoes, <a href="https://www.vice.com/en/article/pirate-bay-founder-peter-sunde-i-have-given-up/">Peter Sunde: "I Have Given Up"</a>, <a href="https://youtu.be/MVlsOLvBdw4">keynote</a>)</li>
+<li><a href="https://thepiratebay.org/">Pirate Bay</a> (decentralized resilience patterns that Nostr echoes, <a href="https://www.vice.com/en/article/pirate-bay-founder-peter-sunde-i-have-given-up/">Peter Sunde: &quot;I Have Given Up&quot;</a>, <a href="https://youtu.be/MVlsOLvBdw4">keynote</a>)</li>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/943634">943,634</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqspgr0k3zc9vmqj6gl09hvf4xcyy26m738l3vupak0f6rvxpn8etzs09spxn</link>
@@ -2423,7 +2153,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>20: Archipelago Meshtadels w/ Shadrach</title>
-      <description><![CDATA[<p>"Bitcoin doesn't need more believers. Bitcoin needs more understanders."</p>
+      <description><![CDATA[<p>&quot;Bitcoin doesn&#39;t need more believers. Bitcoin needs more understanders.&quot;</p>
 <p><a href="https://njump.to/npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx">Shadrach</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira. Recorded during <a href="https://sovereignengineering.io/projects#SEC-07">SEC-07</a>.</p>
 <p><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">Listen on sovereignengineering.io</a></p>
 <p>Projects &amp; tech mentioned:</p>
@@ -2431,42 +2161,79 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://archipelago.indeehub.studio/">Archipelago</a> (sovereign home node and mesh network platform)</li>
 <li><a href="https://archipelago-foundation.org/">Archipelago Foundation</a></li>
 <li><a href="https://www.lancobitco.in/archi.mp4">Archipelago promo video</a></li>
-<li><a href="https://www.atobitcoin.io/">AtoB</a> (interoperable service protocol, co-authored with Gzuuus)</li>
+<li><a href="https://www.atobitcoin.io/">AtoB</a> (interoperable service protocol, co-authored with Jesus)</li>
 <li><a href="https://angor.io/">Angor</a> (Bitcoin-native crowdfunding; Archipelago placed 2nd in the <a href="https://njump.to/nevent1qqs0e9ejwnkwvkv00d68pvvx0dasftt0u9rwnz0tscgvl9n7mffljqqck75vg">Angor pitch contest</a>)</li>
 <li><a href="https://podcastindex.org/">Podcasting 2.0</a> (open podcast ecosystem)</li>
 <li><a href="https://nostrudel.ninja/t/demu">#DeMu</a> (decentralized music on Nostr)</li>
 <li><a href="https://fountain.fm/">Fountain</a> (podcasting app with value-for-value)</li>
 <li><a href="https://castr.me">castr.me</a> (Nostr-to-RSS podcast feed)</li>
 <li><a href="https://archipelago.indeehub.studio/">Indie Hub</a> (independent film distribution on Archipelago)</li>
-<li><a href="https://plebeian.market/">Plebeian Market</a> / <a href="https://shopstr.store/">Shopstr</a> / Conduit (Nostr marketplaces)</li>
+<li><a href="https://plebeian.market/">Plebeian Market</a> / <a href="https://shopstr.store/">Shopstr</a> / <a href="https://conduit.market/">Conduit</a> (Nostr marketplaces)</li>
 <li><a href="https://zapstore.dev/">Zap Store</a> (Nostr-based app store)</li>
-<li><a href="https://fedimint.org/">Fedimint</a> (federated eCash) / <a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin)</li>
+<li><a href="https://github.com/nicola/whitenoise">White Noise</a> / MLS / PICA (encrypted messaging on Nostr)</li>
+<li><a href="https://fedimint.org/">Fedimint</a> (federated eCash)</li>
+<li><a href="https://cashu.space/">Cashu</a> (eCash on Bitcoin)</li>
 <li><a href="https://frame.work/">Framework</a> (modular laptop hardware)</li>
 <li><a href="https://meshtastic.org/">Meshtastic</a> / Meshcore (mesh networking)</li>
 <li><a href="https://start9.com/">Start9</a> / <a href="https://umbrel.com/">Umbrel</a> (existing node platforms)</li>
+<li><a href="https://syncthing.net/">SyncThing</a> (decentralized file sync)</li>
 <li><a href="https://grapheneos.org/">GrapheneOS</a> (privacy-focused Android)</li>
+<li><a href="https://github.com/EFForg/rayhunter">Rayhunter</a> (EFF&#39;s cell-based surveillance detection)</li>
+<li><a href="http://tollgate.me/">Tollgate</a> (mesh network toll gates)</li>
+<li><a href="https://github.com/permissionlesstech/bitchat">Bitchat</a> (mesh chat, <a href="http://bitchat.free/">bitchat.free</a>)</li>
+<li><a href="https://stacker.news/items/1273305">Spilman channels</a> (unidirectional payment channels for nano-sat streaming)</li>
+<li><a href="https://johnvervaeke.com/series/the-philosophical-silk-road/">John Vervaeke</a> (the universe is dialogical)</li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1yvscx9vrmpcmwcmydrm8lauqdpngum4ne8xmkgc2d4rcaxrx7tkswdwzdu">Sir Spencer</a> (venue npubs, live streaming)</li>
+<li><a href="https://njump.to/npub19ha7tju4teqp3dmwv4p28wrcy9zd6h6hxkg5mwvjrlfycweazpkse2q0fa">Duh Laurien</a> (#DeMu)</li>
+<li><a href="https://njump.to/npub1unmftuzmkpdjxyj4en8r63cm34uuvjn9hnxqz3nz6fls7l5jzzfqtvd0j2">Oscar Merry</a> (Fountain)</li>
+<li><a href="https://njump.to/npub1v5ufyh4lkeslgxxcclg8f0hzazhaw7rsrhvfquxzm2fk64c72hps45n0v5">Fountain</a></li>
+<li><a href="https://njump.to/npub13ql75nq8rldygpkjke47y893akh5tglqtqzs6cspancaxktthsusvfqcg7">Adam Curry</a> (Podcasting 2.0 godfather)</li>
+<li><a href="https://njump.to/npub19r9qrxmckj2vyk5a5ttyt966s5qu06vmzyczuh97wj8wtyluktxqymeukr">Joe Martin</a> (value-for-value musician)</li>
+<li><a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a> (Archipelago builder)</li>
+<li><a href="https://njump.to/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk">Martti Malmi</a> (Nostr VPN demo)</li>
+<li><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> (encrypted state machines, AtoB protocol)</li>
+<li><a href="https://njump.to/npub1c03rad0r6q833vh57kyd3ndu2jry30nkr0wepqfpsm05vq7he25slryrnw">Cobrador</a> (balloons)</li>
+<li><a href="https://njump.to/npub1zzt0d0s2f4lsanpd7nkjep5r79p7ljq7aw37eek64hf0ef6v0mxqgwljrv">Tollgate</a> (mesh network toll gates)</li>
+<li><a href="https://njump.to/npub1563z6kxmvuy7s8zhzan8m0hzmkavyfzg2aw6h7f0fvcvdms398csaxc9n6">Bugle</a></li>
 </ul>
 <p>In this dialogue:</p>
 <ul>
-<li>The episode opens discussing the podcasting 2.0 publishing workflow: AI models can now generate the XML spec, value splits and all</li>
-<li>Spencer's idea: every venue gets an npub, the venue starts the live stream rather than the artist</li>
-<li>Shadrach's #DeMu journey: tried to orange pill Austin musicians, but they were too disillusioned. Pay-to-play venues, Spotify killing label revenue.</li>
-<li>Value for value as social signaling: free-to-play games make millions from cosmetic skins. Adam Curry gets it -- his listeners aren't listeners, they're producers.</li>
-<li>Shadrach's path: punk rock DIY ethos to sysadmin, industrial Bitcoin mining in Texas, S9 miners sold for scrap metal</li>
-<li>The Meshtadel: a network of citadels meshed together. Any node can be taken out and the system routes around the failure.</li>
-<li>"I'm here to orange pill the Amish": moved to Lancaster, PA for food security, rented a farmer's market stall just to talk about Bitcoin</li>
-<li>Printed Cashu certificates for the Amish, horse and buggy to the Bitcoin bank drive-through. Fedimint stability pools make this feasible.</li>
-<li>"Bitcoin doesn't need more believers. Bitcoin needs more understanders."</li>
-<li>Archipelago: sovereign home node on Framework laptop hardware, plugs into your TV, companion app, modular and upgradeable</li>
-<li>Indie Hub: independent films on day one, directors set their own pricing, distributed via paid torrents</li>
-<li>The reversed marketplace: broadcast what you want to buy as an encrypted blob on Nostr. Agents match buyers and sellers.</li>
-<li>"Salespeople will hate it." -- "I know."</li>
-<li>AtoB protocol: made ride-sharing apps (Ridester, Drivester, Trotter) interoperable. Two devs refactored in a day using AI.</li>
-<li>Web of trust is Nostr's killer feature: people wrote about it in the seventies, PGP signing parties never caught on</li>
-<li>Nostr VPN: every device gets an npub, devices find each other the same way people do on Nostr</li>
-<li>SovEng: "the most incredible experience I've ever had in my life" and "some of the most exhausting"</li>
-<li>"We are back again in the early days. And we just have to make it work."</li>
-</ul><p>Recorded at <a href="https://mempool.space/block/943357">943,357</a>.</p>]]></description>
+<li>The episode opens discussing the podcasting 2.0 publishing workflow: AI models can now generate the XML spec, value splits and all, from a simple instruction</li>
+<li>Spencer&#39;s idea: every venue gets an npub, the venue starts the live stream rather than the artist, creating a proper mapping from real-world locations to cryptographic identities</li>
+<li>Shadrach&#39;s #DeMu journey: tried to orange pill Austin musicians, but they were too disillusioned to believe music could be monetized directly. Pay-to-play venues, Spotify killing label revenue. No traction at all.</li>
+<li>Value for value as social signaling: free-to-play games make millions from cosmetic skins. We still don&#39;t do anything like that on Nostr. Adam Curry gets it -- his listeners aren&#39;t listeners, they&#39;re producers.</li>
+<li>Shadrach&#39;s path: punk rock DIY ethos to sysadmin, industrial Bitcoin mining in Texas (2017-18), briefly a crypto hedge fund (&quot;That sounds terrible. That&#39;s two words.&quot;), S9 miners sold for scrap metal</li>
+<li>The Meshtadel: a network of citadels meshed together. Any node can be taken out and the system routes around the failure. The name means both literal mesh networks and communities connecting in a mesh topology.</li>
+<li>&quot;I&#39;m here to orange pill the Amish&quot;: Shadrach moved to Lancaster, PA for food security, rented a farmer&#39;s market stall just to talk about Bitcoin. The Amish save in dollars, didn&#39;t raise prices through COVID, are partly a gift economy. The most insulting thing you can do is give exactly the same gift back.</li>
+<li>Printed Cashu certificates: Shadrach&#39;s dream is physical eCash notes the Amish can trade at the market, then drive their horse and buggy to a Bitcoin bank drive-through to redeem them. Fedimint stability pools make this more feasible now.</li>
+<li>&quot;Bitcoin doesn&#39;t need more believers. Bitcoin needs more understanders.&quot;</li>
+<li>Archipelago: a sovereign home node built on Framework laptop hardware. Plugs into your TV, runs a dashboard, companion app, modular and upgradeable. Scalable from a simple home node all the way to a community server.</li>
+<li>Indie Hub partnership: watch independent films on day one. Directors upload movies, set their own pricing schedule, everything distributed via paid torrents. &quot;Make torrents great again&quot; is a recurring theme at every SovEng cohort.</li>
+<li>The reversed marketplace: instead of broadcasting what you sell (which leaks privacy and enables enforcement), broadcast what you want to buy as an encrypted blob on Nostr. Agents match buyers and sellers. Your daughter looks for a lamp, gets three offers, never buys a rug she didn&#39;t need.</li>
+<li>&quot;Salespeople will hate it.&quot; -- &quot;I know.&quot;</li>
+<li>AtoB protocol: Shadrach co-authored it with Gzuuus to make ride-sharing apps (Ridester, Drivester, Trotter) interoperable. Two devs refactored their entire packages in a day using AI.</li>
+<li>Gzuuus&#39;s encrypted state machines for commerce: requests, responses, agreements, work done. Wraps up ride sharing, package delivery, online sales into one framework.</li>
+<li>Web of trust is Nostr&#39;s killer feature: people wrote about it in the seventies, PGP signing parties never caught on, but Nostr makes it natural because the social graph is the web of trust</li>
+<li>Nostr VPN: every device gets an npub, devices find each other the same way people find each other on Nostr</li>
+<li>Nostr clicked for Shadrach immediately after growing up with PGP. In his last job in international finance, they still used PGP for sharing sensitive information.</li>
+<li>SovEng experience: &quot;the most incredible experience I&#39;ve ever had in my life&quot; and also &quot;some of the most exhausting mentally, physically, socially&quot;</li>
+<li>On retirement: moved to Lancaster thinking he&#39;d chill out, immediately started driving to meetups and flying to check on a beef ranch in Oklahoma. &quot;I give up.&quot;</li>
+<li>The universe is dialogical: podcasts as time capsules, searching for truth by speaking it out loud. Karl Popper, David Deutsch, the longest chain wins.</li>
+<li>&quot;We are back again in the early days. And we just have to make it work.&quot;</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/02-there-is-no-global-w-pablo">#02: There is No Global w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/04-ecash-fixes-402-w-calle">#04: Ecash Fixes 402 w/ Calle</a></li>
+<li><a href="https://sovereignengineering.io/podcast/12-the-windy-lawnmower-stuff-w-pete">#12: The Windy Lawnmower Stuff w/ Pete</a></li>
+<li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/943357">943,357</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqsg9vz65hh6jmhnsw3jdjeqk0fa2qls8dsljs0qjh7q8ntfxlnm4gcremmhp</link>
       <enclosure url="https://haven.dergigi.com/0b9d8cbbbdd7fcd9dcb9ed84a2046d1e52dadd5c8b65bc79d3ebe050149a1f3d.m4a" length="102774553" type="audio/mp4"/>
       <guid isPermaLink="false">21e99e6d-9467-49ac-a118-86dd898b125c</guid>
@@ -2484,8 +2251,9 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>19: Romantically Shitting on Paywalls w/ Pablo</title>
-      <description><![CDATA[<p>"I need to build something to test the thing."</p>
+      <description><![CDATA[<p>&quot;I need to build something to test the thing.&quot;</p>
 <p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk. Recorded December 2025.</p>
+<p><a href="https://sovereignengineering.io/podcast/19-romantically-shitting-on-paywalls-w-pablo">Listen on sovereignengineering.io</a></p>
 <p>Projects &amp; tech mentioned:</p>
 <ul>
 <li><a href="https://github.com/pablof7z/tenex">TENEX</a> (multi-agent coordination on Nostr)</li>
@@ -2499,42 +2267,51 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <li><a href="https://castr.me">castr.me</a> (Nostr-to-RSS podcast feed)</li>
 <li><a href="https://ants.sh/">ants</a> (Nostr search)</li>
 <li><a href="https://readwithboris.com/">Boris</a> (reading and highlighting)</li>
-<li><a href="https://github.com/fiatjaf/pyramid">Pyramid</a> (fiatjaf's invite-tree relay)</li>
-<li><a href="https://kk.org/thetechnium/1000-true-fans/">Kevin Kelly's 1,000 True Fans</a></li>
+<li><a href="https://github.com/fiatjaf/pyramid">Pyramid</a> (fiatjaf&#39;s invite-tree relay)</li>
+<li><a href="https://kk.org/thetechnium/1000-true-fans/">Kevin Kelly&#39;s 1,000 True Fans</a></li>
 </ul>
 <p>In this dialogue:</p>
 <ul>
 <li>Agents tried to fix world hunger: made a Google Doc and a React app, nothing worked, world hunger still not fixed</li>
-<li>"We're behaving like LLM agents: never learn"</li>
-<li>Everything Pablo builds is a way to test TENEX: "I need to build something to test the thing"</li>
+<li>&quot;We&#39;re behaving like LLM agents: never learn&quot;</li>
+<li>Everything Pablo builds is a way to test TENEX: &quot;I need to build something to test the thing&quot;</li>
 <li>Agora: a Nostr client starting from the premise that you only care about your immediate surroundings</li>
-<li>Invitation-based trust networks: cryptographic proof of who invited whom into a relay, similar to fiatjaf's <a href="https://github.com/fiatjaf/pyramid">Pyramid</a></li>
+<li>Invitation-based trust networks: cryptographic proof of who invited whom into a relay, similar to fiatjaf&#39;s <a href="https://github.com/fiatjaf/pyramid">Pyramid</a></li>
 <li>Citizen journalism use case: pseudonymous publishing where a known figure vouches for a source without revealing identity</li>
-<li>NIP-60 wallet baked into Agora: your key is no longer just identity, it's also money</li>
+<li>NIP-60 wallet baked into Agora: your key is no longer just identity, it&#39;s also money</li>
 <li>Social key recovery via Shamir secret sharing: select people you can reach (not necessarily trust), hidden behind follow events</li>
 <li>Identity migration for stolen keys vs. key loss recovery: two different problems, solvable with similar tools</li>
-<li>"Fiatjaf had the right ideas around community-based backup and recovery"</li>
+<li>&quot;Fiatjaf had the right ideas around community-based backup and recovery&quot;</li>
 <li>Romantically shitting on paywalls: you cannot box content in, no matter how hard you try</li>
 <li>What you can monetize is not the content itself but the relationship, the access, the live interaction</li>
 <li>Twitch figured it out: everything is free, everywhere, always. People pay for something else entirely.</li>
-<li>Substack's unfixable problem: it's a function of size, always Pareto, 20 people making a killing out of millions</li>
-<li>"You're prostituting yourself for nothing because you're playing in a winner-takes-most market where there is already a winner"</li>
+<li>Substack&#39;s unfixable problem: it&#39;s a function of size, always Pareto, 20 people making a killing out of millions</li>
+<li>&quot;You&#39;re prostituting yourself for nothing because you&#39;re playing in a winner-takes-most market where there is already a winner&quot;</li>
 <li>The Matthew principle: to those who have everything, more will be given</li>
 <li>All content types competing under the same lens: why every platform turns into TikTok</li>
-<li>"Scaling Nostr is hard, so it will always fragment" -- and that's the feature</li>
-<li>Nostr's promise: many small markets strictly superior to one big centrally planned instance</li>
+<li>&quot;Scaling Nostr is hard, so it will always fragment&quot; -- and that&#39;s the feature</li>
+<li>Nostr&#39;s promise: many small markets strictly superior to one big centrally planned instance</li>
 <li>Digital fast food: platforms serve maximally engaging slop, like lucid dreams generated on the fly</li>
-<li>The health food analogy: McDonald's still exists, but a whole industry grew around health-conscious people. Digital health is next.</li>
+<li>The health food analogy: McDonald&#39;s still exists, but a whole industry grew around health-conscious people. Digital health is next.</li>
 <li>Young people craving real connections over influencer slop, drawn to vinyl and gramophones for the same reason</li>
-<li>Walking the Roman path: 3,000-year-old cart tracks still visible, "look at the UX of that thing"</li>
-<li>"I switched my whole online identity to Nostr because this thing has legs and will still work 30 years from now"</li>
+<li>Walking the Roman path: 3,000-year-old cart tracks still visible, &quot;look at the UX of that thing&quot;</li>
+<li>&quot;I switched my whole online identity to Nostr because this thing has legs and will still work 30 years from now&quot;</li>
 <li>Email marketers already know: own the list, everything else is a funnel</li>
-<li>Relays as magazines: you don't quit magazines because one magazine is bad</li>
-<li>Most people perceive Nostr as "the crypto app" -- we're not at the "email is a protocol" stage yet</li>
+<li>Relays as magazines: you don&#39;t quit magazines because one magazine is bad</li>
+<li>Most people perceive Nostr as &quot;the crypto app&quot; -- we&#39;re not at the &quot;email is a protocol&quot; stage yet</li>
 <li>Special-purpose clients: a posting-only client with an empty text field, ants for search, Boris for highlights</li>
-<li>"I'm amazed at how well things work. Blossom every day without thinking about it."</li>
-<li>"We've been on this professionalizing mode for the past six to nine months. Technically, we're in very good shape."</li>
-</ul><p>Recorded at <a href="https://mempool.space/block/929730">929,730</a>.</p>]]></description>
+<li>&quot;I&#39;m amazed at how well things work. Blossom every day without thinking about it.&quot;</li>
+<li>&quot;We&#39;ve been on this professionalizing mode for the past six to nine months. Technically, we&#39;re in very good shape.&quot;</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">#18: Rewriting TENEX w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/11-10x-less-productive-w-pablo">#11: 10x Less Productive w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/929730">929,730</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqszwskhme0ez2vqhd94dmcc872y3r6ukalj87xxvul4wdcrysd8ptqqfmet4</link>
       <enclosure url="https://haven.dergigi.com/a173d38bd86aadffac3cc00afd90eca8d97d3ff7d1861fb00b41f71a1f51103b.m4a" length="70324499" type="audio/mp4"/>
       <guid isPermaLink="false">407f1bea-29c7-4039-8c15-295a0b0beb92</guid>
@@ -2552,7 +2329,7 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>18: Rewriting TENEX w/ Pablo</title>
-      <description><![CDATA[<p>"You're yelling at someone who is lying to you."</p>
+      <description><![CDATA[<p>&quot;You&#39;re yelling at someone who is lying to you.&quot;</p>
 <p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a drive. Recorded December 2025.</p>
 <p><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">Listen on sovereignengineering.io</a></p>
 <p>Projects &amp; tech mentioned:</p>
@@ -2570,31 +2347,40 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
 <p>In this dialogue:</p>
 <ul>
 <li>Bitcoiners in cars getting coffee: recording from the sun visor, Seinfeld style</li>
-<li>TENEX rewritten "about a hundred times," now in TypeScript on Vercel AI SDK</li>
+<li>TENEX rewritten &quot;about a hundred times,&quot; now in TypeScript on Vercel AI SDK</li>
 <li>The pain of supporting every LLM provider: Gemini returns encrypted reasoning tokens, every API has different subtleties</li>
 <li>Removing structure to improve performance: deleting 80% of agent code makes agents work better</li>
 <li>Agents defining their own workflow phases instead of having phases imposed on them</li>
-<li>Composable workflows: the CEO agent doesn't need to know what the engineering director's workflow looks like</li>
-<li>The parallel to human organizations: you can't hold all the information in your own mind</li>
+<li>Composable workflows: the CEO agent doesn&#39;t need to know what the engineering director&#39;s workflow looks like</li>
+<li>The parallel to human organizations: you can&#39;t hold all the information in your own mind</li>
 <li><a href="https://www.listennotes.com/podcasts/dr-john-vervaeke/what-ai-can-never-be-john-FuAWO49i3_h/">John Vervaeke</a> and the idea that dialogue is how you solve the really hard problems</li>
-<li>Participatory knowing: you don't understand Bitcoin until you actually use it</li>
-<li>Agent wallets removed because "there was nothing for them to actually buy" -- a commune with no walls</li>
-<li>$700/month running Opus for everything, replacing "like fucking 30 people"</li>
+<li>Participatory knowing: you don&#39;t understand Bitcoin until you actually use it</li>
+<li>Agent wallets removed because &quot;there was nothing for them to actually buy&quot; -- a commune with no walls</li>
+<li>$700/month running Opus for everything, replacing &quot;like fucking 30 people&quot;</li>
 <li>Context windows are a non-issue when the hierarchy is deep enough: each atomic agent finishes fast</li>
-<li>Henry Ford's insight applied to agents: each worker does an incredibly stupid task that takes five minutes</li>
+<li>Henry Ford&#39;s insight applied to agents: each worker does an incredibly stupid task that takes five minutes</li>
 <li>Agents are bad at self-correction, so they delegate competing implementations in disposable work trees, then compare notes</li>
 <li>Confidence scores: the delegating agent monitors every 5-10 messages, checks if the sub-agent is going off the rails</li>
-<li>"Once they are convinced that humans have seven legs, they will make up scientific papers to prove it to you"</li>
+<li>&quot;Once they are convinced that humans have seven legs, they will make up scientific papers to prove it to you&quot;</li>
 <li>NDK ported to Swift and Kotlin without looking at a single line of code: outbox compilation, negentropy syncing, offline publishing, NIP-60 support</li>
-<li>Cross-platform frameworks are dead: "if you're just programming in English, React Native makes no sense"</li>
-<li>The developer experience right now is "as bad as it's been, at least in our lifetimes"</li>
-<li>"You're basically yelling at someone that is lying to you, that will take all the shortcuts"</li>
+<li>Cross-platform frameworks are dead: &quot;if you&#39;re just programming in English, React Native makes no sense&quot;</li>
+<li>The developer experience right now is &quot;as bad as it&#39;s been, at least in our lifetimes&quot;</li>
+<li>&quot;You&#39;re basically yelling at someone that is lying to you, that will take all the shortcuts&quot;</li>
 <li>Vibe coding flow state: sculpting code like marble, micro-adjustments every five seconds</li>
-<li>"What if all I know of development is actually problematic? What if I just let go?"</li>
+<li>&quot;What if all I know of development is actually problematic? What if I just let go?&quot;</li>
 <li>Non-developers building real apps on Nostr thanks to vibe coding</li>
-<li>The naming podcast: "Claude Opus, make up a name. Just put a U."</li>
-<li>"I'm on vacation. The agents have been running the entire time. They've done amazing work."</li>
-</ul><p>Recorded at <a href="https://mempool.space/block/929726">929,726</a>.</p>]]></description>
+<li>The naming podcast: &quot;Claude Opus, make up a name. Just put a U.&quot;</li>
+<li>&quot;I&#39;m on vacation. The agents have been running the entire time. They&#39;ve done amazing work.&quot;</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/19-romantically-shitting-on-paywalls-w-pablo">#19: Romantically Shitting on Paywalls w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/11-10x-less-productive-w-pablo">#11: 10x Less Productive w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/929726">929,726</a>.</p>]]></description>
       <link>https://njump.to/nevent1qqsgqwk69z7lqxzcvv395t7x35nr36n30ky9mm8szhjy2vu8ap63d0cj4c8ah</link>
       <enclosure url="https://haven.dergigi.com/84427041ddf2052feb6427555f8eee7d3a3619c10bd426e490b1e87e30d8594c.m4a" length="45739907" type="audio/mp4"/>
       <guid isPermaLink="false">69ecfbb3-d028-4db2-ab99-eeeb4bbe93a5</guid>
@@ -3163,91 +2949,107 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>#12: The Windy Lawnmower Stuff w/ Pete</title>
-      <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
-<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> and </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
+      <description><![CDATA[<p>“Nostr is what the internet could’ve been.”</p>
+<p><a href="https://npub.world/npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy">Pete</a> &amp; <a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> try to talk to lawn mowers.</p>
+<p>Websites &amp; other stuff mentioned:</p>
 <ul>
-<li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a><span style="font-weight: 400;"> by Gergely Orosz</span></li>
-<li><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">Sovereign Engineering</span></a><span style="font-weight: 400;"> by Gigi and Pablo</span></li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a>  </li>
+<li><a href="https://www.otherstuff.studio/thegoodstuff">The Good Stuff</a></li>
 </ul>
-<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<p>In this dialogue:</p>
 <ul>
-<li><span style="font-weight: 400;">Gigi's </span><a href="https://github.com/dergigi/vibeline"><span style="font-weight: 400;">vibeline</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://github.com/dergigi/vibeline-ui"><span style="font-weight: 400;">vibeline-ui</span></a></li>
-<li><span style="font-weight: 400;">Pubcastr aka </span><a href="http://castr.me"><span style="font-weight: 400;">castr.me</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Pablo's </span><a href="https://coracle.social/notes/nevent1qqstycwc8qu8telckv9mw4fs7wc6d54v9gnpnqrx9hpllqz994mnz4ckzvrxq"><span style="font-weight: 400;">thread about TENEX</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Alex Gleason's </span><a href="https://soapbox.pub/tools/mkstack"><span style="font-weight: 400;">MKStack</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">What is the essence of nostr?&nbsp;</span></li>
-<li><span style="font-weight: 400;">What are nostr's values, and can LLMs extract them?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Agents and workflows living on nostr&nbsp;</span></li>
-<li><span style="font-weight: 400;">Agent specialization and Roo code&nbsp;</span></li>
-<li><span style="font-weight: 400;">&ldquo;What would Jesus do?&rdquo;</span></li>
-<li><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Hierarchy of agents&nbsp;</span></li>
-<li><span style="font-weight: 400;">Generalists vs specialists&nbsp;</span></li>
-<li><span style="font-weight: 400;">Top-down constraints and bottom-up emergence&nbsp;</span></li>
-<li><span style="font-weight: 400;">Wise architects VS efficient diff-merging LLMs&nbsp;</span></li>
-<li><span style="font-weight: 400;">Where does the human fit in?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Distributed cognition: agents and humans</span></li>
-<li><span style="font-weight: 400;">Hiring agents via nostr&nbsp;</span></li>
-<li><span style="font-weight: 400;">"If the human has to intervene, something is catastrophically wrong."</span></li>
-<li><span style="font-weight: 400;">Confidence levels of an agent's action&nbsp;</span></li>
-<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.to/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Offering bounties to solve problems&nbsp;</span></li>
-<li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a></li>
-<li><span style="font-weight: 400;">Stock photography is dead&nbsp;</span></li>
-<li><span style="font-weight: 400;">Real vs fake photography test</span></li>
-<li><span style="font-weight: 400;">Vibe-coding vs regular coding, and how it relates to the switch from analog to digital photography&nbsp;</span></li>
-<li><span style="font-weight: 400;">What is economical, and what isn't?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Dialogue and Dia-Logos with LLMs&nbsp;</span></li>
-<li><span style="font-weight: 400;">Specialization in a multi-agent world&nbsp;</span></li>
-<li><span style="font-weight: 400;">Adding a small vibe-coding widget to every app (allowing users to customize stuff)&nbsp;</span></li>
-<li><span style="font-weight: 400;">Multiplicity VS canonical design&nbsp;</span></li>
-<li><span style="font-weight: 400;">Money is singular, language is not&nbsp;</span></li>
-<li><span style="font-weight: 400;">Jack's original sin: the twitter Bootstrap theme</span></li>
-<li><span style="font-weight: 400;">The "</span><a href="https://andotherstuff.org/"><span style="font-weight: 400;">other stuff</span></a><span style="font-weight: 400;">" initiative</span></li>
-<li><span style="font-weight: 400;">What's missing from </span><a href="https://github.com/pablof7z/tenex"><span style="font-weight: 400;">TENEX</span></a><span style="font-weight: 400;">? Why isn't it fully working just yet?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Rebuilding everything every 3 weeks</span></li>
-<li><span style="font-weight: 400;">Voice vs text, sentiment analysis vs tone</span></li>
-<li><span style="font-weight: 400;">The power and informational density of silence</span></li>
-<li><span style="font-weight: 400;">In-person vs online communication</span></li>
-<li><span style="font-weight: 400;">Letting agents learn lessons</span></li>
-<li><a href="https://www.youtube.com/watch?v=nQ_g81a7a-E"><span style="font-weight: 400;">"Where do you get your ideas from?"</span></a></li>
-<li><span style="font-weight: 400;">Anonymity vs pseudonyms vs government ID</span></li>
-<li><span style="font-weight: 400;">Agents need identity, money, and reputation</span></li>
-<li><span style="font-weight: 400;">"I own this dude." &mdash;Pablo</span></li>
-<li><span style="font-weight: 400;">Owning agents</span></li>
-<li><span style="font-weight: 400;">Vibe-coding lessons: don't look at the code, and in the best case don't even look at the IDE</span></li>
-<li><span style="font-weight: 400;">Human-agent communication: typing vs speaking</span></li>
-<li><span style="font-weight: 400;">Why some meetings couldn't have been an email</span></li>
-<li><span style="font-weight: 400;">Clearly defined problems vs undefined problem spaces</span></li>
-<li><span style="font-weight: 400;">Why TENEX will be in perpetual alpha</span></li>
-<li><span style="font-weight: 400;">What is </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">Sovereign Engineering</span></a><span style="font-weight: 400;">?</span></li>
-<li><span style="font-weight: 400;">Why should you sign up for it?&nbsp;</span></li>
-<li><span style="font-weight: 400;">How come so many awesome things came out of it? Blossom, nsite, Zapstore, etc.</span></li>
-<li><span style="font-weight: 400;">Who should come, and who shouldn't?</span></li>
-<li><span style="font-weight: 400;">How did it start?</span></li>
-<li><span style="font-weight: 400;">What's the idea?&nbsp;</span></li>
-<li><span style="font-weight: 400;">"Fix the money, fix the internet."</span></li>
-<li><span style="font-weight: 400;">"Ship stuff that lasts."</span></li>
-<li><span style="font-weight: 400;">Keep it pure. No monetization.&nbsp;</span></li>
-<li><span style="font-weight: 400;">Focus on exploration and ideation&nbsp;</span></li>
-<li><span style="font-weight: 400;">What's the structure?&nbsp;</span></li>
-<li><span style="font-weight: 400;">6 weeks, 21 participants</span></li>
-<li><span style="font-weight: 400;">Same structure every week</span></li>
-<li><span style="font-weight: 400;">Monday Mornings: Orientation</span></li>
-<li><span style="font-weight: 400;">Tuesday Talks</span></li>
-<li><span style="font-weight: 400;">Wednesday Workshops</span></li>
-<li><span style="font-weight: 400;">Thursday: No Agenda</span></li>
-<li><span style="font-weight: 400;">Friday: Demo Day</span></li>
-<li><span style="font-weight: 400;">Weekend: Hikes</span></li>
-<li><a href="https://sovereignengineering.typeform.com/SEC-05"><span style="font-weight: 400;">SEC-05: YOLO Mode</span></a></li>
-<li><span style="font-weight: 400;">Empower users</span></li>
-<li><span style="font-weight: 400;">Optimize for self-sovereignty</span></li>
-<li><span style="font-weight: 400;">Bitcoin works</span></li>
-<li><span style="font-weight: 400;">Lightning works (Gigi's post)&nbsp;</span></li>
-<li><span style="font-weight: 400;">Build the future you want to see&nbsp;</span></li>
-<li><span style="font-weight: 400;">Madeira: you can pay in bitcoin almost everywhere&nbsp;</span></li>
-<li><span style="font-weight: 400;">tl;dr: Listen to every single </span><a href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"><span style="font-weight: 400;">No Solutions</span></a><span style="font-weight: 400;"> conversation to get an idea of what Sovereign Engineering is</span></li>
+<li><a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqq2kc3pcd4hhwvjpvekxcs2cxd4kgen0f958qauav47">ECash fixes 402</a>  </li>
+<li>Eucalyptus in Madeira  </li>
+<li>Pete’s time at <a href="https://www.fedi.xyz/">Fedi</a>  </li>
+<li>Lighting equals Swift, ecash equals payments  </li>
+<li><a href="https://www.hit.bme.hu/~buttyan/courses/BMEVIHIM219/2009/Chaum.BlindSigForPayment.1982.PDF">Chaum’s paper</a>  </li>
+<li>ECash for Localism, farmer’s markets  </li>
+<li><a href="https://nostr.com/nevent1qqs8pgr245w2rtf07dnd9pdqtg7786ds5kyu4llvs2kxmaj4c4qrajspz4mhxue69uhhyetvv9ujumt0wd68ytnsw43qz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcppamhxue69uhkumewwd68ytnrwgqs6amnwvaz7tmwdaejumr0dsq3vamnwvaz7tmjv4kxz7fwdehhxarj9e3xzmnyqyf8wumn8ghj7mmxve3ksctfdch8qatzqy8hwumn8ghj7mn0wd68ytnddaksz9nhwden5te0wfjkccte9ec8y6tdv9kzumn9wsq3qamnwvaz7tmwdaehgu3wd3skueqzyzwtx4zux62qmx3wlpk4p4w84ratjqcsejyccs6yhn7yeq3073au5vdpaj6">Square terminals accepting bitcoin</a>  </li>
+<li>BTCMap and <a href="https://btcmap.org/community/free-madeira/merchants">merchants in Madeira</a>  </li>
+<li><a href="https://njump.me/nevent1qqst8hfcelw70qpy5jkgjxkvzp9e8k3xtxupf20f9v0xmpxrfdu76vcpp4mhxue69uhkummn9ekx7mqpramhxue69uhkummnw3ezuetfde6kuer6wasku7nfvuh8xurpvdjszyrhwden5te0dehhxarj9ekxzmnyqyshwumn8ghj7mt4d36xjurvv4ux2u3wdp6hx7n0dejkw7fwwahhymryqxd8wumn8ghj7mn0wvhxcmmv9ujnyvrhwden5te0dehhxarj9ekxzmny9ujnyvp9xgcxzanpw3shyffjxpmhxue69uhkummnw3ezuamfdejj7ffjxqjnyvrpweshgctjy5erqamnwvaz7tmsw4e8qmr9wfjkccte9e3k7mf0y5erqamnwvaz7tmjv4kxz7fwv3sk6atn9e5k7te9xgc8wumn8ghj7un9d3shjtnndehhyapwwdhkx6tpdsq3samnwvaz7tmswfjk66t4d5h8qunfd4skctnwv46qz9rhwden5te0wfjkccte9ejxzmt4wvhxjmcpz4mhxue69uhhyetvv9ujumn0wd68ytnwv46qygrwg6zz9hahfftnsup23q3mnv5pdz46hpj4l2ktdpfu6rhpthhwjvtk2vzq">It’s normal to pay in bitcoin</a>  </li>
+<li>Bitcoin for babysitters  </li>
+<li>1st Lightning Conference in Berlin (<a href="https://www.alza.cz/the-lightning-conference-2019-reportaz">2019</a>)  </li>
+<li>Australian <a href="https://www.bitcoinbushbash.info/">Bush Bashes</a>  </li>
+<li><a href="https://www.forbes.com/sites/digital-assets/2024/04/12/btcpay-server-is-reshaping-the-bitcoin-conference-payment-experience/">BTCPay terminals</a> (with NFC and stuff)  </li>
+<li>Costa Rica: <a href="https://www.bitcoinjungle.app/visit-us">Bitcoin Jungle</a>  </li>
+<li>Super easy, super fast, green checkmarks everywhere  </li>
+<li>Cash-only shops are incredibly based  </li>
+<li>Credit card fees  </li>
+<li>ECash to replace APIs  </li>
+<li><a href="https://read.withboris.com/a/naddr1qqsxzttkd9ekjmmw94nx7u3dvykhvctvw4jj6etwv93xcety94mk2cszyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqq823c59stcz">Subscription Hell</a> aka the <a href="https://dergigi.com/assets/images/bitcoin/2021-12-30-the-freedom-of-value/piracy.webp">Netflix Problem</a>  </li>
+<li><a href="https://openrouter.ai/">Open Router</a>, <a href="https://routstr.com/">Routstr</a>, <a href="https://ppq.ai/">ppq</a>  </li>
+<li>LAWNMOWERS  </li>
+<li>Dumb models vs smart models  </li>
+<li>Economics of LLMs  </li>
+<li>ECash fixes <a href="https://read.withboris.com/a/naddr1qqsxzttkd9ekjmmw94nx7u3dvykhvctvw4jj6etwv93xcety94mk2cszyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxqcyqqq823c59stcz">subscription hell</a> &amp; sign-up barriers  </li>
+<li><a href="https://github.com/nostr-protocol/nips/blob/master/60.md">NIP-60</a>/<a href="https://github.com/nostr-protocol/nips/blob/master/61.md">61</a> as pocket money  </li>
+<li>Corner stores and consumers taking the risk  </li>
+<li>Stripe excludes half the world  </li>
+<li><a href="https://archive.org/details/TheInternetsOwnBoyTheStoryofAaronSwartzHD">Aaron Swartz</a> &amp; <a href="https://en.wikipedia.org/wiki/Aaron_Swartz">RSS</a>  </li>
+<li><a href="https://levels.io/projects/">Pieter Levels</a> &amp; <a href="https://lexfridman.com/pieter-levels/">his dad’s credit card</a>  </li>
+<li>“You can just charge for things”  </li>
+<li>DHH vs Apple &amp; his <a href="https://youtu.be/gcwzWzC7gUA">Rails keynote</a>  </li>
+<li>KYC payments = begging for permission  </li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a>: build something new every week  </li>
+<li>Lemonade stands in cyberspace  </li>
+<li>Relocalization  </li>
+<li>Moving from AWS to bare metal  </li>
+<li>MORE LAWNMOWERS  </li>
+<li>Rent your excess compute &amp; earn ecash  </li>
+<li>“<a href="https://njump.me/nevent1qqsqm2lz4ru6wlydzpulgs8m60ylp4vufwsg55whlqgua6a93vp2y4gpzamhxue69uhhyetvv9ujuer9wfnkjemf9e3k7mgzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfxjc476g">The internet is fucked</a>” - do regular people actually agree with that?  </li>
+<li>“<a href="https://dergigi.com/nostr/">nostr</a> is what the internet could’ve been”  </li>
+<li>Old ladies cleaning up phones  </li>
+<li>UK’s child protection law: scan passport to watch YouTube videos  </li>
+<li>EVEN MORE LAWNMOWERS  </li>
+<li>Ideological use vs necessity  </li>
+<li>Sideloading apps &amp; <a href="https://zapstore.dev/">Zapstore</a>  </li>
+<li>“Asking for permission is not a good pattern”  </li>
+<li>Payment deplatforming in the US: <a href="https://www.polygon.com/visa-mastercard-steam-censorship-valve-itchio-gta/">gaming</a>, <a href="https://reason.com/2017/08/18/good-bye-and-good-riddence-to-operation/">porn</a>, gambling  </li>
+<li>“Fix the money, fix the internet”  </li>
+<li>We’ve come far!  </li>
+<li>“If bitcoin wouldn’t work I would literally starve”  </li>
+<li><a href="https://nostr.at/nevent1qqs8cu9cypmfl7mvazwt2v0m4jjxtaekwl7ppas2mzu26jf7sgyqh5qpz4mhxue69uhhyetvv9ujumt0wd68ytnsw43qygrwg6zz9hahfftnsup23q3mnv5pdz46hpj4l2ktdpfu6rhpthhwjva39wxz">The fact that nostr works is amazing</a>  </li>
+<li>The norm in nostr is that <a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzpx77gg2frul26xkzr0gaq9n842u50axpcjhdsa3yeu388vrv5pftqq25zujyf4vnyj66xaer2vnjvdcy5vtex9pkvjpk5vh">there’s no global</a> view  </li>
+<li>Nostr came incredibly far, considering it was only 3 short years and had very little funding  </li>
+<li>Funding: how could it be solved?  </li>
+<li>“Funding implies the wrong thing”  </li>
+<li>Benefit of AI: cost goes down, cheaper and easier to build useful stuff  </li>
+<li>Cost of experimentation needs to be low  </li>
+<li>If people are getting paid you don’t need to fund them so much  </li>
+<li><a href="https://github.com/permissionlesstech/bitchat">BitChat</a> is a great example of a useful tool built on nostr  </li>
+<li>“Zaps are bitcoin?” —Normies  </li>
+<li>Compute is a scarce resource, as is storage  </li>
+<li>Paid relays, <a href="https://blossomservers.com/">paid blossom servers</a>, paid video hosting  </li>
+<li>Nostr is the largest bitcoin circular economy in the world  </li>
+<li>Still too small for businesses to move in though, probably  </li>
+<li>“There’s lots of ways to earn money and also be on nostr”  </li>
+<li><a href="https://npub.world/npub1zzmxvr9sw49lhzfx236aweurt8h5tmzjw7x3gfsazlgd8j64ql0sexw5wy">SoapMiner</a>, <a href="https://npub.world/npub1v0tfjv5ahr3c260jtzdk5w48krerrnkg8fmcnc5lpguk0qda04eqzm3m3e">Leathermint</a>, <a href="https://npub.world/npub17nd4yu9anyd3004pumgrtazaacujjxwzj36thtqsxskjy0r5urgqf6950x">Isolabellart</a>, etc.  </li>
+<li>WIND  </li>
+<li>MORE WIND  </li>
+<li>Arbitrage opportunities in businesses &amp; the <a href="https://www.otherstuff.studio/podcast-episodes/the-value-trap-in-ai">value trap</a>  </li>
+<li>Agents doing paperwork vs agents doing coding work  </li>
+<li>Using agents to create open-source mashups  </li>
+<li>Allen Farrington’s take: <a href="https://read.withboris.com/a/naddr1qvzqqqr4gupzpqnwn7y4hqdtgxj9ygngkfy7drgze2qkpr002c4yj08wxhlut36eqqxnzde4x5erjv3e8y6nydpje5vnmy">Vibe Capital Accumulating</a>  </li>
+<li>LLMs and atom bombs  </li>
+<li><a href="https://johnvervaeke.com/">Vervaeke</a>, <a href="https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ">Meaning</a>, Salience Landscape  </li>
+<li>Abundance, Radical Life Extension, and Meaning  </li>
+<li>The <a href="https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ">Meaning Crisis</a> &amp; the <a href="https://www.cdc.gov/suicide/facts/data.html">Suicide Epidemic</a>  </li>
+<li>The train meme  </li>
+<li>Pessimism vs Optimism  </li>
+<li>LLMs allow us to get away from the computer  </li>
+<li>Strong local communities, shake your farmer’s hand  </li>
+<li>Bitcoin is local &amp; global at the same time  </li>
+<li><a href="https://ants.sh/t/SovEng">SovEng</a>: good vibes, good ideas, good people  </li>
+<li>Shipping things, vibing, and getting the idea right  </li>
+<li>“I’m not as married to nostr as a I am to bitcoin”  </li>
+<li>No Solutions spawning <a href="https://www.otherstuff.studio/thegoodstuff">The Good Stuff</a></li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/03-data-ownership-is-a-lie-w-pablo">#03: Data Ownership is a Lie w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/04-ecash-fixes-402-w-calle">#04: Ecash Fixes 402 w/ Calle</a></li>
+<li><a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a></li>
+<li><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></li>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/914219">914,219</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/213e610e05523e77984284fdb851b6d7f29948a25b1550e0a35723d2e1d472c4.jpg"/>
@@ -3360,91 +3162,99 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>#11: 10x Less Productive w/ Pablo</title>
-      <description><![CDATA[<p><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?</span></p>
-<p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft"><span style="font-weight: 400;">Pablo</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc"><span style="font-weight: 400;">Gigi</span></a><span style="font-weight: 400;"> want to encourage you to </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">apply for SEC-05</span></a><span style="font-weight: 400;">.</span></p>
-<p><span style="font-weight: 400;">Books &amp; websites mentioned:</span></p>
+      <description><![CDATA[<p>What does it mean to build something &quot;in the spirit of Bitcoin&quot;?</p>
+<p><a href="https://njump.me/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.me/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> want to encourage you to <a href="https://sovereignengineering.io/">apply for SEC-05</a>.</p>
+<p>Books &amp; websites mentioned:</p>
 <ul>
-<li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a><span style="font-weight: 400;"> by Gergely Orosz</span></li>
-<li><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">Sovereign Engineering</span></a><span style="font-weight: 400;"> by Gigi and Pablo</span></li>
+<li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/">Stackoverflow is dead</a> by Gergely Orosz  </li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a> by Gigi and Pablo</li>
 </ul>
-<p><span style="font-weight: 400;">In this dialogue:</span></p>
+<p>In this dialogue:</p>
 <ul>
-<li><span style="font-weight: 400;">Gigi's </span><a href="https://github.com/dergigi/vibeline"><span style="font-weight: 400;">vibeline</span></a><span style="font-weight: 400;"> &amp; </span><a href="https://github.com/dergigi/vibeline-ui"><span style="font-weight: 400;">vibeline-ui</span></a></li>
-<li><span style="font-weight: 400;">Pubcastr aka </span><a href="http://castr.me"><span style="font-weight: 400;">castr.me</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Pablo's </span><a href="https://coracle.social/notes/nevent1qqstycwc8qu8telckv9mw4fs7wc6d54v9gnpnqrx9hpllqz994mnz4ckzvrxq"><span style="font-weight: 400;">thread about TENEX</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Alex Gleason's </span><a href="https://soapbox.pub/tools/mkstack"><span style="font-weight: 400;">MKStack</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">What is the essence of nostr?&nbsp;</span></li>
-<li><span style="font-weight: 400;">What are nostr's values, and can LLMs extract them?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Agents and workflows living on nostr&nbsp;</span></li>
-<li><span style="font-weight: 400;">Agent specialization and Roo code&nbsp;</span></li>
-<li><span style="font-weight: 400;">&ldquo;What would Jesus do?&rdquo;</span></li>
-<li><span style="font-weight: 400;">What does it mean to build something "in the spirit of Bitcoin"?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Hierarchy of agents&nbsp;</span></li>
-<li><span style="font-weight: 400;">Generalists vs specialists&nbsp;</span></li>
-<li><span style="font-weight: 400;">Top-down constraints and bottom-up emergence&nbsp;</span></li>
-<li><span style="font-weight: 400;">Wise architects VS efficient diff-merging LLMs&nbsp;</span></li>
-<li><span style="font-weight: 400;">Where does the human fit in?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Distributed cognition: agents and humans</span></li>
-<li><span style="font-weight: 400;">Hiring agents via nostr&nbsp;</span></li>
-<li><span style="font-weight: 400;">"If the human has to intervene, something is catastrophically wrong."</span></li>
-<li><span style="font-weight: 400;">Confidence levels of an agent's action&nbsp;</span></li>
-<li><span style="font-weight: 400;">Giving agents money using </span><a href="https://njump.to/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s"><span style="font-weight: 400;">mcp-money</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Offering bounties to solve problems&nbsp;</span></li>
-<li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/"><span style="font-weight: 400;">Stackoverflow is dead</span></a></li>
-<li><span style="font-weight: 400;">Stock photography is dead&nbsp;</span></li>
-<li><span style="font-weight: 400;">Real vs fake photography test</span></li>
-<li><span style="font-weight: 400;">Vibe-coding vs regular coding, and how it relates to the switch from analog to digital photography&nbsp;</span></li>
-<li><span style="font-weight: 400;">What is economical, and what isn't?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Dialogue and Dia-Logos with LLMs&nbsp;</span></li>
-<li><span style="font-weight: 400;">Specialization in a multi-agent world&nbsp;</span></li>
-<li><span style="font-weight: 400;">Adding a small vibe-coding widget to every app (allowing users to customize stuff)&nbsp;</span></li>
-<li><span style="font-weight: 400;">Multiplicity VS canonical design&nbsp;</span></li>
-<li><span style="font-weight: 400;">Money is singular, language is not&nbsp;</span></li>
-<li><span style="font-weight: 400;">Jack's original sin: the twitter Bootstrap theme</span></li>
-<li><span style="font-weight: 400;">The "</span><a href="https://andotherstuff.org/"><span style="font-weight: 400;">other stuff</span></a><span style="font-weight: 400;">" initiative</span></li>
-<li><span style="font-weight: 400;">What's missing from </span><a href="https://github.com/pablof7z/tenex"><span style="font-weight: 400;">TENEX</span></a><span style="font-weight: 400;">? Why isn't it fully working just yet?&nbsp;</span></li>
-<li><span style="font-weight: 400;">Rebuilding everything every 3 weeks</span></li>
-<li><span style="font-weight: 400;">Voice vs text, sentiment analysis vs tone</span></li>
-<li><span style="font-weight: 400;">The power and informational density of silence</span></li>
-<li><span style="font-weight: 400;">In-person vs online communication</span></li>
-<li><span style="font-weight: 400;">Letting agents learn lessons</span></li>
-<li><a href="https://www.youtube.com/watch?v=nQ_g81a7a-E"><span style="font-weight: 400;">"Where do you get your ideas from?"</span></a></li>
-<li><span style="font-weight: 400;">Anonymity vs pseudonyms vs government ID</span></li>
-<li><span style="font-weight: 400;">Agents need identity, money, and reputation</span></li>
-<li><span style="font-weight: 400;">"I own this dude." &mdash;Pablo</span></li>
-<li><span style="font-weight: 400;">Owning agents</span></li>
-<li><span style="font-weight: 400;">Vibe-coding lessons: don't look at the code, and in the best case don't even look at the IDE</span></li>
-<li><span style="font-weight: 400;">Human-agent communication: typing vs speaking</span></li>
-<li><span style="font-weight: 400;">Why some meetings couldn't have been an email</span></li>
-<li><span style="font-weight: 400;">Clearly defined problems vs undefined problem spaces</span></li>
-<li><span style="font-weight: 400;">Why TENEX will be in perpetual alpha</span></li>
-<li><span style="font-weight: 400;">What is </span><a href="https://sovereignengineering.io/"><span style="font-weight: 400;">Sovereign Engineering</span></a><span style="font-weight: 400;">?</span></li>
-<li><span style="font-weight: 400;">Why should you sign up for it?&nbsp;</span></li>
-<li><span style="font-weight: 400;">How come so many awesome things came out of it? Blossom, nsite, Zapstore, etc.</span></li>
-<li><span style="font-weight: 400;">Who should come, and who shouldn't?</span></li>
-<li><span style="font-weight: 400;">How did it start?</span></li>
-<li><span style="font-weight: 400;">What's the idea?&nbsp;</span></li>
-<li><span style="font-weight: 400;">"Fix the money, fix the internet."</span></li>
-<li><span style="font-weight: 400;">"Ship stuff that lasts."</span></li>
-<li><span style="font-weight: 400;">Keep it pure. No monetization.&nbsp;</span></li>
-<li><span style="font-weight: 400;">Focus on exploration and ideation&nbsp;</span></li>
-<li><span style="font-weight: 400;">What's the structure?&nbsp;</span></li>
-<li><span style="font-weight: 400;">6 weeks, 21 participants</span></li>
-<li><span style="font-weight: 400;">Same structure every week</span></li>
-<li><span style="font-weight: 400;">Monday Mornings: Orientation</span></li>
-<li><span style="font-weight: 400;">Tuesday Talks</span></li>
-<li><span style="font-weight: 400;">Wednesday Workshops</span></li>
-<li><span style="font-weight: 400;">Thursday: No Agenda</span></li>
-<li><span style="font-weight: 400;">Friday: Demo Day</span></li>
-<li><span style="font-weight: 400;">Weekend: Hikes</span></li>
-<li><a href="https://sovereignengineering.typeform.com/SEC-05"><span style="font-weight: 400;">SEC-05: YOLO Mode</span></a></li>
-<li><span style="font-weight: 400;">Empower users</span></li>
-<li><span style="font-weight: 400;">Optimize for self-sovereignty</span></li>
-<li><span style="font-weight: 400;">Bitcoin works</span></li>
-<li><span style="font-weight: 400;">Lightning works (Gigi's post)&nbsp;</span></li>
-<li><span style="font-weight: 400;">Build the future you want to see&nbsp;</span></li>
-<li><span style="font-weight: 400;">Madeira: you can pay in bitcoin almost everywhere&nbsp;</span></li>
-<li><span style="font-weight: 400;">tl;dr: Listen to every single </span><a href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n"><span style="font-weight: 400;">No Solutions</span></a><span style="font-weight: 400;"> conversation to get an idea of what Sovereign Engineering is</span></li>
+<li>Gigi&#39;s <a href="https://github.com/dergigi/vibeline">vibeline</a> &amp; <a href="https://github.com/dergigi/vibeline-ui">vibeline-ui</a>  </li>
+<li>Pubcastr aka <a href="http://castr.me">castr.me</a>   </li>
+<li>Pablo&#39;s <a href="https://coracle.social/notes/nevent1qqstycwc8qu8telckv9mw4fs7wc6d54v9gnpnqrx9hpllqz994mnz4ckzvrxq">thread about TENEX</a>   </li>
+<li>Alex Gleason&#39;s <a href="https://soapbox.pub/tools/mkstack">MKStack</a>   </li>
+<li>What is the essence of nostr?   </li>
+<li>What are nostr&#39;s values, and can LLMs extract them?   </li>
+<li>Agents and workflows living on nostr   </li>
+<li>Agent specialization and Roo code   </li>
+<li>“What would Jesus do?”  </li>
+<li>What does it mean to build something &quot;in the spirit of Bitcoin&quot;?   </li>
+<li>Hierarchy of agents   </li>
+<li>Generalists vs specialists   </li>
+<li>Top-down constraints and bottom-up emergence   </li>
+<li>Wise architects VS efficient diff-merging LLMs   </li>
+<li>Where does the human fit in?   </li>
+<li>Distributed cognition: agents and humans  </li>
+<li>Hiring agents via nostr   </li>
+<li>&quot;If the human has to intervene, something is catastrophically wrong.&quot;  </li>
+<li>Confidence levels of an agent&#39;s action   </li>
+<li>Giving agents money using <a href="https://njump.me/nevent1qqst6luj67g3exyd05zwevmpkynnws9v54vcsze5h3fm2d9yd6whmmqpz3mhxw309ucnydewxqhrqt338g6rsd3e9upzp75cf0tahv5z7plpdeaws7ex52nmnwgtwfr2g3m37r844evqrr6jqvzqqqqqqyyya64s">mcp-money</a>   </li>
+<li>Offering bounties to solve problems   </li>
+<li><a href="https://blog.pragmaticengineer.com/stack-overflow-is-almost-dead/">Stackoverflow is dead</a>  </li>
+<li>Stock photography is dead   </li>
+<li>Real vs fake photography test  </li>
+<li>Vibe-coding vs regular coding, and how it relates to the switch from analog to digital photography   </li>
+<li>What is economical, and what isn&#39;t?   </li>
+<li>Dialogue and Dia-Logos with LLMs   </li>
+<li>Specialization in a multi-agent world   </li>
+<li>Adding a small vibe-coding widget to every app (allowing users to customize stuff)   </li>
+<li>Multiplicity VS canonical design   </li>
+<li>Money is singular, language is not   </li>
+<li>Jack&#39;s original sin: the twitter Bootstrap theme  </li>
+<li>The &quot;<a href="https://andotherstuff.org/">other stuff</a>&quot; initiative  </li>
+<li>What&#39;s missing from <a href="https://github.com/pablof7z/tenex">TENEX</a>? Why isn&#39;t it fully working just yet?   </li>
+<li>Rebuilding everything every 3 weeks  </li>
+<li>Voice vs text, sentiment analysis vs tone  </li>
+<li>The power and informational density of silence  </li>
+<li>In-person vs online communication  </li>
+<li>Letting agents learn lessons  </li>
+<li><a href="https://www.youtube.com/watch?v=nQ_g81a7a-E">&quot;Where do you get your ideas from?&quot;</a>  </li>
+<li>Anonymity vs pseudonyms vs government ID  </li>
+<li>Agents need identity, money, and reputation  </li>
+<li>&quot;I own this dude.&quot; —Pablo  </li>
+<li>Owning agents  </li>
+<li>Vibe-coding lessons: don&#39;t look at the code, and in the best case don&#39;t even look at the IDE  </li>
+<li>Human-agent communication: typing vs speaking  </li>
+<li>Why some meetings couldn&#39;t have been an email  </li>
+<li>Clearly defined problems vs undefined problem spaces  </li>
+<li>Why TENEX will be in perpetual alpha  </li>
+<li>What is <a href="https://sovereignengineering.io/">Sovereign Engineering</a>?  </li>
+<li>Why should you sign up for it?   </li>
+<li>How come so many awesome things came out of it? Blossom, nsite, Zapstore, etc.  </li>
+<li>Who should come, and who shouldn&#39;t?  </li>
+<li>How did it start?  </li>
+<li>What&#39;s the idea?   </li>
+<li>&quot;Fix the money, fix the internet.&quot;  </li>
+<li>&quot;Ship stuff that lasts.&quot;  </li>
+<li>Keep it pure. No monetization.   </li>
+<li>Focus on exploration and ideation   </li>
+<li>What&#39;s the structure?   </li>
+<li>6 weeks, 21 participants  </li>
+<li>Same structure every week  </li>
+<li>Monday Mornings: Orientation  </li>
+<li>Tuesday Talks  </li>
+<li>Wednesday Workshops  </li>
+<li>Thursday: No Agenda  </li>
+<li>Friday: Demo Day  </li>
+<li>Weekend: Hikes  </li>
+<li><a href="https://sovereignengineering.typeform.com/SEC-05">SEC-05: YOLO Mode</a>  </li>
+<li>Empower users  </li>
+<li>Optimize for self-sovereignty  </li>
+<li>Bitcoin works  </li>
+<li>Lightning works (Gigi&#39;s post)   </li>
+<li>Build the future you want to see   </li>
+<li>Madeira: you can pay in bitcoin almost everywhere   </li>
+<li>tl;dr: Listen to every single <a href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">No Solutions</a> conversation to get an idea of what Sovereign Engineering is</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/18-rewriting-tenex-w-pablo">#18: Rewriting TENEX w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/19-romantically-shitting-on-paywalls-w-pablo">#19: Romantically Shitting on Paywalls w/ Pablo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
+<li><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></li>
+<li><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">#31: Buzz, Mosaico, and Other Stuff w/ Pablo</a></li>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/901069">901,069</a>.</p>]]></description>
       <itunes:image href="https://haven.sovereignengineering.io/54aa09044b01c04cd2e39e8845863fe6c8af70a1a70d2ffc979b5c5f92d6acc4.jpg"/>
@@ -5000,64 +4810,16 @@ href="https://mempool.space/block/944875">944,875</a>.</p>]]></itunes:summary>
     </item>
     <item>
       <title>#04: Ecash Fixes 402 w/ Calle</title>
-      <description><![CDATA[<p><span style="font-weight: 400;">&ldquo;I don&rsquo;t believe in Utopia anymore. I&rsquo;m too old for that.&rdquo;</span></p>
-<p><span style="font-weight: 400;">In this dialogue:</span></p>
-<ul>
-<li>Where is the Utopia that the internet promised?</li>
-<li>&ldquo;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ">Neither nostalgia nor utopia</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&rdquo;</span></li>
-<li>Net Neutrality is a moral stance</li>
-<li>Where did the internet go wrong?</li>
-<li>Tech as a tool; is tech always neutral?</li>
-<li>Technology that increases agency VS tech that enslaves</li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/threads/understand-peace">Competition</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;vs&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2019/08/07/proof-of-life/">Symbiosis</a></li>
-<li>&ldquo;Who will run the mints?&rdquo;</li>
-<li>&ldquo;Anyone&rdquo; can use it vs &ldquo;everyone&rdquo; can use it</li>
-<li>Centralizing vs. Monopolizing</li>
-<li>Bitcoin has an ethos baked in (<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2022/09/10/cryptography-is-not-enough/">You Shall Not Steal</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">)</span></li>
-<li>Passive internet vs active internet</li>
-<li>Agency in cyberspace, and how to maximize it</li>
-<li>Blinded custodian vs regular custodian</li>
-<li>User data is a liability</li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://obscura.net/">Obscura</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;/&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mullvad.net/en">Mullvad</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;/&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://silent.link/">Silent.Link</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;as obvious early adopters- Run your own ISP -&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://tollgate.me/">Tollgate</a></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2022/09/10/cryptography-is-not-enough/">Cryptography is Not Enough</a></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2021/01/14/bitcoin-is-time/">Bitcoin is Time</a></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/threads/time-requires-heat">Time requires heat</a></li>
-<li>Zero-knowledge service providers</li>
-<li>Electronic Cash vs Digital Cash (<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://cbdctracker.org/">CBDCs</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">)</span></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2022/12/02/bitcoin-is-the-rediscovery-of-money/">Credit requires KYC</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">, KYC implies outside enforcement</span></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nakamotoinstitute.org/library/micropayments-and-mental-transaction-costs/">Writings on Micropayments</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;by Nick Szabo- eCash fixes&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://err402.com/">402</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">, obviously</span></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://en.wikipedia.org/wiki/Who_Owns_the_Future%3F">Who Owns the Future?</a></li>
-<li>&ldquo;You are the product&rdquo; vs &ldquo;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/threads/attention">Subscription Hell</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&rdquo;</span></li>
-<li>&ldquo;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://haven.sovereignengineering.io/0cbacd4dd52731fe77766bee9520f527cd3c0ead720b45ce529dbd8fd868bc57.jpg">Hello old friend!!!</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&rdquo;</span></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://bitcoin-resources.com/books/the-cathedral-and-the-bazaar">Cathedral vs Bazaar</a></li>
-<li>Why paywalls suck</li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2021/12/30/the-freedom-of-value/">Information wants to be free</a></li>
-<li>&ldquo;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://dergigi.com/2022/12/18/a-vision-for-a-value-enabled-web/">Markets become absurd as supply approaches infinity.</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&rdquo;</span></li>
-<li>eCash + AI = match made in heaven</li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nostr.band/?q=%23learntocode">#LearnToCode</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;vs&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nostr.band/?q=%23learntoprompt">#LearnToPrompt</a></li>
-<li>Scarcity in cyberspace:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://njump.to/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g">compute, storage, networking</a></li>
-<li>Zero-Knowledge compute &amp; zero-knowledge proofs</li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">https://en.wikipedia.org/wiki/Zero-knowledge_proof</a></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/AbdelStark/cashu-zk-engine">https://github.com/AbdelStark/cashu-zk-engine</a></li>
-<li>Cairo:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/starkware-libs/cairo">https://github.com/starkware-libs/cairo</a></li>
-<li>MCP&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/AbdelStark/bitcoin-mcp">https://github.com/AbdelStark/bitcoin-mcp</a></li>
-<li>MCP DVM:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/r0d8lsh0p/n8n-AI-agent-DVM-MCP-client">https://github.com/r0d8lsh0p/n8n-AI-agent-DVM-MCP-client</a></li>
-<li>DVMCP:&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://mcp.so/server/dvmcp">https://mcp.so/server/dvmcp</a></li>
-<li><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="http://olas.app/">Olas</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">&nbsp;&amp; Nutzaps (</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nips.nostr.com/60">NIP-60</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">,&nbsp;</span><a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://nips.nostr.com/61">NIP-61</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">)</span></li>
-<li>Bitcoin is not only&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://bitcoin-resources.com/books/categories/aantonop">the internet of money</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">, but it is the money of the internet</span></li>
-<li>Re-building the&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://archive.org/">internet archive</a><span style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"> on top of nostr- Bitrot &amp; 404</span></li>
-<li>Resurrection markets &amp; marketplace for hashes via&nbsp;<a style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" href="https://github.com/hzrd149/blossom">Blossom</a></li>
-<li>Hugs 🫂</li>
-</ul>
-<p><span style="font-weight: 400;">Links &amp; References:</span></p>
-<ul>
-<li><span style="font-weight: 400;">Nostr Protocol Repository: </span><a href="https://github.com/nostr-protocol"><span style="font-weight: 400;">https://github.com/nostr-protocol</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">Cashu (e-cash): </span><a href="https://github.com/cashubtc"><span style="font-weight: 400;">https://github.com/cashubtc</span></a><span style="font-weight: 400;">&nbsp;</span></li>
-<li><span style="font-weight: 400;">NIP-60 (Cashu Wallets): <a href="https://nips.nostr.com/60">https://nips.nostr.com/60</a></span><span style="font-weight: 400;">&nbsp;</span></li>
-<li>NIP-61 (Nutzaps): <a href="https://nips.nostr.com/61">https://nips.nostr.com/61</a></li>
-<li><a href="https://bitcoin-resources.com/books/the-cathedral-and-the-bazaar">The Cathedral And The Bazaar</a>&nbsp;by Eric S. Raymond</li>
-<li><a href="https://en.wikipedia.org/wiki/Who_Owns_the_Future%3F">Who Owns the Future?</a> by Jaron Lanier</li>
-</ul><p>Recorded at <a href="https://mempool.space/block/887039">887,039</a>.</p>]]></description>
+      <description><![CDATA[<p>“I don’t believe in Utopia anymore. I’m too old for that.”</p>
+<p><a href="https://npub.world/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg">Calle</a> &amp; <a href="https://npub.world/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> philosophize about nuts.</p>
+<p>Books and articles mentioned:<br>- <a href="https://en.wikipedia.org/wiki/Who_Owns_the_Future%3F">Who Owns the Future?</a><br>- <a href="https://bitcoin-resources.com/books/the-cathedral-and-the-bazaar">The Cathedral And The Bazaar</a><br>- <a href="https://dergigi.com/2022/09/10/cryptography-is-not-enough/">Cryptography is Not Enough</a><br>- <a href="https://dergigi.com/2021/01/14/bitcoin-is-time/">Bitcoin is Time</a></p>
+<p>In this dialogue:<br>- Where is the Utopia that the internet promised?<br>- “<a href="https://www.youtube.com/playlist?list=PLND1JCRq8Vuh3f0P5qjrSdb5eC1ZfZwWJ">Neither nostalgia nor utopia</a>”<br>- Net Neutrality is a moral stance<br>- Where did the internet go wrong?<br>- Tech as a tool; is tech always neutral?<br>- Technology that increases agency VS tech that enslaves<br>- <a href="https://dergigi.com/threads/understand-peace">Competition</a> vs <a href="https://dergigi.com/2019/08/07/proof-of-life/">Symbiosis</a><br>- “Who will run the mints?”<br>- “Anyone” can use it vs “everyone” can use it<br>- Centralizing vs. Monopolizing<br>- Bitcoin has an ethos baked in (<a href="https://dergigi.com/2022/09/10/cryptography-is-not-enough/">You Shall Not Steal</a>)<br>- Passive internet vs active internet<br>- Agency in cyberspace, and how to maximize it<br>- Blinded custodian vs regular custodian<br>- User data is a liability<br>- <a href="https://obscura.net/">Obscura</a> / <a href="https://mullvad.net/en">Mullvad</a> / <a href="https://silent.link/">Silent.Link</a> as obvious early adopters<br>- Run your own ISP - <a href="https://tollgate.me/">Tollgate</a><br>- <a href="https://dergigi.com/2022/09/10/cryptography-is-not-enough/">Cryptography is Not Enough</a><br>- <a href="https://dergigi.com/2021/01/14/bitcoin-is-time/">Bitcoin is Time</a><br>- <a href="https://dergigi.com/threads/time-requires-heat">Time requires heat</a><br>- Zero-knowledge service providers<br>- Electronic Cash vs Digital Cash (<a href="https://cbdctracker.org/">CBDCs</a>)<br>- <a href="https://dergigi.com/2022/12/02/bitcoin-is-the-rediscovery-of-money/">Credit requires KYC</a>, KYC implies outside enforcement<br>- <a href="https://nakamotoinstitute.org/library/micropayments-and-mental-transaction-costs/">Writings on Micropayments</a> by Nick Szabo<br>- eCash fixes <a href="https://err402.com/">402</a>, obviously<br>- <a href="https://en.wikipedia.org/wiki/Who_Owns_the_Future%3F">Who Owns the Future?</a><br>- “You are the product” vs “<a href="https://dergigi.com/threads/attention">Subscription Hell</a>”<br>- “<a href="https://haven.sovereignengineering.io/0cbacd4dd52731fe77766bee9520f527cd3c0ead720b45ce529dbd8fd868bc57.jpg">Hello old friend!!!</a>”<br>- <a href="https://bitcoin-resources.com/books/the-cathedral-and-the-bazaar">Cathedral vs Bazaar</a><br>- Why paywalls suck<br>- <a href="https://dergigi.com/2021/12/30/the-freedom-of-value/">Information wants to be free</a><br>- &quot;<a href="https://dergigi.com/2022/12/18/a-vision-for-a-value-enabled-web/">Markets become absurd as supply approaches infinity.</a>&quot;<br>- eCash + AI = match made in heaven<br>- <a href="https://nostr.band/?q=%23learntocode">#LearnToCode</a> vs <a href="https://nostr.band/?q=%23learntoprompt">#LearnToPrompt</a><br>- Scarcity in cyberspace: <a href="https://njump.me/nevent1qqszfrxvt3tugs2zalaj7jv9urzzmf3f9zlm0kldh8pssnzamu6m26spp4mhxue69uhkummn9ekx7mqzyphydppzm7m554ecwq4gsgaek2qk32atse2l4t9ks57dpms4mmhfx62759g">compute, storage, networking</a><br>- Zero-Knowledge compute &amp; zero-knowledge proofs<br>- <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">https://en.wikipedia.org/wiki/Zero-knowledge_proof</a><br>- <a href="https://github.com/AbdelStark/cashu-zk-engine">https://github.com/AbdelStark/cashu-zk-engine</a><br>- Cairo: <a href="https://github.com/starkware-libs/cairo">https://github.com/starkware-libs/cairo</a><br>- MCP <a href="https://github.com/AbdelStark/bitcoin-mcp">https://github.com/AbdelStark/bitcoin-mcp</a><br>- MCP DVM: <a href="https://github.com/r0d8lsh0p/n8n-AI-agent-DVM-MCP-client">https://github.com/r0d8lsh0p/n8n-AI-agent-DVM-MCP-client</a><br>- DVMCP: <a href="https://mcp.so/server/dvmcp">https://mcp.so/server/dvmcp</a><br>- <a href="http://olas.app/">Olas</a> &amp; Nutzaps (<a href="https://nips.nostr.com/60">NIP-60</a>, <a href="https://nips.nostr.com/61%20">NIP-61</a>)<br>- Bitcoin is not only <a href="https://bitcoin-resources.com/books/categories/aantonop">the internet of money</a>, but it is the money of the internet<br>- Re-building the <a href="https://archive.org/">internet archive</a> on top of nostr<br>- Bitrot &amp; 404<br>- Resurrection markets &amp; marketplace for hashes via <a href="https://github.com/hzrd149/blossom">Blossom</a><br>- Hugs 🫂  </p>
+<p>Related dialogues:</p>
+<p>- <a href="https://sovereignengineering.io/podcast/03-data-ownership-is-a-lie-w-pablo">#03: Data Ownership is a Lie w/ Pablo</a>
+- <a href="https://sovereignengineering.io/podcast/12-the-windy-lawnmower-stuff-w-pete">#12: The Windy Lawnmower Stuff w/ Pete</a>
+- <a href="https://sovereignengineering.io/podcast/20-archipelago-meshtadels-w-shadrach">#20: Archipelago Meshtadels w/ Shadrach</a>
+- <a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></p>
+<p>Recorded at <a href="https://mempool.space/block/887039">887,039</a>.</p>]]></description>
       <itunes:image href="https://haven.dergigi.com/c58e16aab568de784945396682f283d569273f2db6425edb090000a8ce1b224d.jpg"/>
       <enclosure url="https://haven.sovereignengineering.io/f00e902261b524870c8ef2da36e62666f0964adfccd20dd6d020d7d6da6adc29.mp3" length="46738988" type="audio/mpeg"/>
       <podcast:person href="https://cashu.space/" img="https://avatars.githubusercontent.com/u/93376500" group="cast" role="guest">Calle</podcast:person>
