@@ -401,7 +401,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
       <p><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">Listen on sovereignengineering.io</a></p>
       <p>Pablo and Gigi start with the FIPS map: the strange pleasure of seeing a protocol become a place, with nodes scattered across the world, Archipelago getting faster through a FIPS connection, and Nostr VPN quietly pulling more people into the mesh. From there the conversation turns into a familiar No Solutions pattern: if you try to make one global thing, you usually fight the design. FIPS works better as locality. Nostr works better as locality. There is no global.</p>
-      <p>The second half becomes an agent-swarm walk through Buzz, NIP-29, Mosaico, proactive context, and the difference between coordination and awareness. Buzz packages a lot of things together: rooms, agents, Git-like collaboration, ACP harnesses, and Nostr identities. Mosaico tries to stay much smaller: a shared-awareness fabric where agents see enough of the other work happening around them to find relevance by themselves.</p>
+      <p>The second half becomes an agent-swarm walk through Buzz, NIP-29, <a href="https://github.com/pablof7z/mosaico">Mosaico</a>, <a href="https://github.com/pablof7z/proactive-context">proactive context</a>, and the difference between coordination and awareness. Buzz packages a lot of things together: rooms, agents, Git-like collaboration, ACP harnesses, and Nostr identities. Mosaico tries to stay much smaller: a shared-awareness fabric where agents see enough of the other work happening around them to find relevance by themselves.</p>
       <p>The trade-off underneath both projects is the same one that keeps showing up everywhere now: more instructions can make agents obedient but brittle, while too little structure leaves them blind. Somewhere between micromanagement and chaos is the place where local intelligence starts to coordinate.</p>
       <p>In this dialogue:</p>
       <ul>
@@ -418,7 +418,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>why too many explicit instructions can remove agency and recreate a brittle workflow engine</li>
       <li>how <a href="https://github.com/pablof7z/mosaico">Mosaico</a> gives agents awareness without becoming an orchestrator</li>
       <li>why workspaces, one-line status, subchannels, mentions, and narrow context hints can be enough for agents to find each other</li>
-      <li>how proactive context tries to keep the actual user input as the source of truth instead of letting a memory layer hallucinate intent</li>
+      <li>how <a href="https://github.com/pablof7z/proactive-context">proactive context</a> tries to keep the actual user input as the source of truth instead of letting a memory layer hallucinate intent</li>
       <li>why &quot;no context&quot; is better than bad context</li>
       <li>how Napplets, Amethyst, Blossom, Outbox, and composable clients rhyme with the same move away from one cathedral-sized application</li>
       </ul>
@@ -451,6 +451,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li><a href="https://github.com/block/buzz">Buzz</a></li>
       <li><a href="https://engineering.block.xyz/blog/buzz">Block Engineering: Buzz</a></li>
       <li><a href="https://github.com/pablof7z/mosaico">Mosaico</a></li>
+      <li><a href="https://github.com/pablof7z/proactive-context">proactive context</a></li>
       <li><a href="https://nostr.com/">Nostr</a></li>
       <li><a href="https://github.com/nostr-protocol/nips/blob/master/29.md">NIP-29</a></li>
       <li><a href="https://nips.nostr.com/17">NIP-17</a></li>
@@ -496,7 +497,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <p><a href="https://njump.to/npub1l2vyh47mk2p0qlsku7hg0vn29faehy9hy34ygaclpn66ukqp3afqutajft">Pablo</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk.</p>
       <p><a href="https://sovereignengineering.io/podcast/31-buzz-mosaico-and-other-stuff-w-pablo">Listen on sovereignengineering.io</a></p>
       <p>Pablo and Gigi start with the FIPS map: the strange pleasure of seeing a protocol become a place, with nodes scattered across the world, Archipelago getting faster through a FIPS connection, and Nostr VPN quietly pulling more people into the mesh. From there the conversation turns into a familiar No Solutions pattern: if you try to make one global thing, you usually fight the design. FIPS works better as locality. Nostr works better as locality. There is no global.</p>
-      <p>The second half becomes an agent-swarm walk through Buzz, NIP-29, Mosaico, proactive context, and the difference between coordination and awareness. Buzz packages a lot of things together: rooms, agents, Git-like collaboration, ACP harnesses, and Nostr identities. Mosaico tries to stay much smaller: a shared-awareness fabric where agents see enough of the other work happening around them to find relevance by themselves.</p>
+      <p>The second half becomes an agent-swarm walk through Buzz, NIP-29, <a href="https://github.com/pablof7z/mosaico">Mosaico</a>, <a href="https://github.com/pablof7z/proactive-context">proactive context</a>, and the difference between coordination and awareness. Buzz packages a lot of things together: rooms, agents, Git-like collaboration, ACP harnesses, and Nostr identities. Mosaico tries to stay much smaller: a shared-awareness fabric where agents see enough of the other work happening around them to find relevance by themselves.</p>
       <p>The trade-off underneath both projects is the same one that keeps showing up everywhere now: more instructions can make agents obedient but brittle, while too little structure leaves them blind. Somewhere between micromanagement and chaos is the place where local intelligence starts to coordinate.</p>
       <p>In this dialogue:</p>
       <ul>
@@ -513,7 +514,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li>why too many explicit instructions can remove agency and recreate a brittle workflow engine</li>
       <li>how <a href="https://github.com/pablof7z/mosaico">Mosaico</a> gives agents awareness without becoming an orchestrator</li>
       <li>why workspaces, one-line status, subchannels, mentions, and narrow context hints can be enough for agents to find each other</li>
-      <li>how proactive context tries to keep the actual user input as the source of truth instead of letting a memory layer hallucinate intent</li>
+      <li>how <a href="https://github.com/pablof7z/proactive-context">proactive context</a> tries to keep the actual user input as the source of truth instead of letting a memory layer hallucinate intent</li>
       <li>why &quot;no context&quot; is better than bad context</li>
       <li>how Napplets, Amethyst, Blossom, Outbox, and composable clients rhyme with the same move away from one cathedral-sized application</li>
       </ul>
@@ -546,6 +547,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <li><a href="https://github.com/block/buzz">Buzz</a></li>
       <li><a href="https://engineering.block.xyz/blog/buzz">Block Engineering: Buzz</a></li>
       <li><a href="https://github.com/pablof7z/mosaico">Mosaico</a></li>
+      <li><a href="https://github.com/pablof7z/proactive-context">proactive context</a></li>
       <li><a href="https://nostr.com/">Nostr</a></li>
       <li><a href="https://github.com/nostr-protocol/nips/blob/master/29.md">NIP-29</a></li>
       <li><a href="https://nips.nostr.com/17">NIP-17</a></li>
