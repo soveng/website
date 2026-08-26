@@ -51,8 +51,8 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>Sherry came to <a href="https://sovereignengineering.io/">Sovereign Engineering</a> through <a href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">gsovereignty</a>, a long-running Bitcoin friendship from Hong Kong, and a sudden gap between contracts. One day she was ending a job. The next pitch was simple: if you are free now, come to Sovereign Engineering.</p>
 <p>The walk starts with the obvious and not-so-obvious labels: woman, Chinese, engineer. Sherry traces the path from math olympiad incentives and China&#39;s gaokao into computer science, then back toward <a href="https://bitcoin.org/">Bitcoin</a> and <a href="https://nostr.com/">Nostr</a>. She first heard about Bitcoin at university in 2016, treated it for years like a ticker next to Tesla or Nvidia, then met gsovereignty and stumbled into Nostr through <a href="https://damus.io/">Damus</a> before Jack Dorsey made the protocol famous.</p>
 <p>The real shift came later, through the culture around the work. Sherry describes asking Nostr why Bitcoin is different from other coins, getting flooded with books and replies, and slowly realizing that no one can orange-pill you from the outside. You can only walk through that door yourself.</p>
-<p>At Sovereign Engineering, <a href="https://fips.network/">FIPS</a> was the project that clicked. Watching Johnathan explain it on a whiteboard felt like reading <a href="https://nips.nostr.com/1">NIP-01</a> for the first time: suddenly the pieces had a shape. Demo days were rough at first, but pairing up made the cohort less like presentation theater and more like showing your thinking through code. Sherry and <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a> worked around <a href="https://zapstore.dev/apps/app.myco">Myco</a>, pushing the idea from sharing apps toward sharing files too.</p>
-<p>The deeper thread is what happens when a room full of strange, motivated builders makes the outside world&#39;s career anxieties feel smaller. Before coming, Sherry worried that not having a normal next job would make people judge her. By the end, the problem had narrowed: the only person left to convince was herself. For women engineers curious about Bitcoin, Lightning, Nostr, or Sovereign Engineering, her advice is blunt: ignore the label, be an engineer, bring an npub and proof of work.</p>
+<p>At Sovereign Engineering, <a href="https://fips.network/">FIPS</a> was the project that clicked. Watching Johnathan explain it on a whiteboard felt like reading <a href="https://nips.nostr.com/1">NIP-01</a> for the first time: suddenly the pieces had a shape. <a href="https://njump.to/nevent1qqst23szarnf72467gjt8aqrl7wmghyfagcw8f49d4muzn87y8m85rgwgcvde">As Sherry put it on Nostr</a>, FIPS reminded her of first hearing about Nostr or diving into how Bitcoin works. Demo days were rough at first, but pairing up made the cohort less like presentation theater and more like showing your thinking through code. Sherry and <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a> worked around <a href="https://zapstore.dev/apps/app.myco">Myco</a>, pushing the idea from sharing apps toward sharing files too.</p>
+<p>The deeper thread is what happens when a room full of strange, motivated builders makes the outside world&#39;s career anxieties feel smaller. Before coming, Sherry worried that not having a normal next job would make people judge her, the old <a href="https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F">What Do You Care What Other People Think?</a> problem in another form. By the end, the problem had narrowed: the only person left to convince was herself. For women engineers curious about Bitcoin, Lightning, Nostr, or Sovereign Engineering, her advice is blunt: ignore the label, be an engineer, bring an npub and proof of work.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>how <a href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">gsovereignty</a> pulled Sherry toward Sovereign Engineering after years of Bitcoin friendship in Hong Kong</li>
@@ -63,7 +63,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how an early <a href="https://damus.io/">Damus</a> download made <a href="https://nostr.com/">Nostr</a> feel useless at first</li>
 <li>why asking Nostr about Bitcoin versus other coins became unexpectedly famous</li>
 <li>why you can only orange-pill yourself</li>
-<li>how <a href="https://fips.network/">FIPS</a> clicked for Sherry like <a href="https://nips.nostr.com/1">NIP-01</a> clicked</li>
+<li>how <a href="https://fips.network/">FIPS</a> clicked for Sherry like <a href="https://nips.nostr.com/1">NIP-01</a> clicked, echoing <a href="https://njump.to/nevent1qqst23szarnf72467gjt8aqrl7wmghyfagcw8f49d4muzn87y8m85rgwgcvde">her own Nostr note</a></li>
 <li>why demo day is not a performance so much as proof that you touched the work</li>
 <li>how pairing and team week changed the cohort from intimidating to collaborative</li>
 <li>what Sherry and <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a> wanted <a href="https://zapstore.dev/apps/app.myco">Myco</a> to become beyond app sharing</li>
@@ -78,6 +78,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">#27: Separation of Business from State w/ gsovereignty</a></li>
 <li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
 <li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
 <li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 </ul>
 <p>People mentioned:</p>
@@ -100,7 +101,11 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://lightning.network/">Lightning</a></li>
 <li><a href="https://zapstore.dev/apps/app.myco">Myco</a></li>
 </ul>
-<p>Recorded on August 25, 2026.</p>
+<p>Books mentioned:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F">What Do You Care What Other People Think?</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/964047">964,047</a>.</p>
 ]]></description>
       <link>https://njump.to/nevent1qqsq8e3ayp3rl8xsx6wk3rj20hc24gj00y9cds246prxps2fm8vhaqgpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54scvvss3</link>
       <enclosure url="https://haven.dergigi.com/5ee8ca838af8e6fab38d859c70afbae5cf9ab1dd8a56504a55940fcb54afc4fc.f4a" length="12046416" type="audio/mp4"/>
@@ -128,8 +133,8 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>Sherry came to <a href="https://sovereignengineering.io/">Sovereign Engineering</a> through <a href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">gsovereignty</a>, a long-running Bitcoin friendship from Hong Kong, and a sudden gap between contracts. One day she was ending a job. The next pitch was simple: if you are free now, come to Sovereign Engineering.</p>
 <p>The walk starts with the obvious and not-so-obvious labels: woman, Chinese, engineer. Sherry traces the path from math olympiad incentives and China&#39;s gaokao into computer science, then back toward <a href="https://bitcoin.org/">Bitcoin</a> and <a href="https://nostr.com/">Nostr</a>. She first heard about Bitcoin at university in 2016, treated it for years like a ticker next to Tesla or Nvidia, then met gsovereignty and stumbled into Nostr through <a href="https://damus.io/">Damus</a> before Jack Dorsey made the protocol famous.</p>
 <p>The real shift came later, through the culture around the work. Sherry describes asking Nostr why Bitcoin is different from other coins, getting flooded with books and replies, and slowly realizing that no one can orange-pill you from the outside. You can only walk through that door yourself.</p>
-<p>At Sovereign Engineering, <a href="https://fips.network/">FIPS</a> was the project that clicked. Watching Johnathan explain it on a whiteboard felt like reading <a href="https://nips.nostr.com/1">NIP-01</a> for the first time: suddenly the pieces had a shape. Demo days were rough at first, but pairing up made the cohort less like presentation theater and more like showing your thinking through code. Sherry and <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a> worked around <a href="https://zapstore.dev/apps/app.myco">Myco</a>, pushing the idea from sharing apps toward sharing files too.</p>
-<p>The deeper thread is what happens when a room full of strange, motivated builders makes the outside world&#39;s career anxieties feel smaller. Before coming, Sherry worried that not having a normal next job would make people judge her. By the end, the problem had narrowed: the only person left to convince was herself. For women engineers curious about Bitcoin, Lightning, Nostr, or Sovereign Engineering, her advice is blunt: ignore the label, be an engineer, bring an npub and proof of work.</p>
+<p>At Sovereign Engineering, <a href="https://fips.network/">FIPS</a> was the project that clicked. Watching Johnathan explain it on a whiteboard felt like reading <a href="https://nips.nostr.com/1">NIP-01</a> for the first time: suddenly the pieces had a shape. <a href="https://njump.to/nevent1qqst23szarnf72467gjt8aqrl7wmghyfagcw8f49d4muzn87y8m85rgwgcvde">As Sherry put it on Nostr</a>, FIPS reminded her of first hearing about Nostr or diving into how Bitcoin works. Demo days were rough at first, but pairing up made the cohort less like presentation theater and more like showing your thinking through code. Sherry and <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a> worked around <a href="https://zapstore.dev/apps/app.myco">Myco</a>, pushing the idea from sharing apps toward sharing files too.</p>
+<p>The deeper thread is what happens when a room full of strange, motivated builders makes the outside world&#39;s career anxieties feel smaller. Before coming, Sherry worried that not having a normal next job would make people judge her, the old <a href="https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F">What Do You Care What Other People Think?</a> problem in another form. By the end, the problem had narrowed: the only person left to convince was herself. For women engineers curious about Bitcoin, Lightning, Nostr, or Sovereign Engineering, her advice is blunt: ignore the label, be an engineer, bring an npub and proof of work.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>how <a href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">gsovereignty</a> pulled Sherry toward Sovereign Engineering after years of Bitcoin friendship in Hong Kong</li>
@@ -140,7 +145,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how an early <a href="https://damus.io/">Damus</a> download made <a href="https://nostr.com/">Nostr</a> feel useless at first</li>
 <li>why asking Nostr about Bitcoin versus other coins became unexpectedly famous</li>
 <li>why you can only orange-pill yourself</li>
-<li>how <a href="https://fips.network/">FIPS</a> clicked for Sherry like <a href="https://nips.nostr.com/1">NIP-01</a> clicked</li>
+<li>how <a href="https://fips.network/">FIPS</a> clicked for Sherry like <a href="https://nips.nostr.com/1">NIP-01</a> clicked, echoing <a href="https://njump.to/nevent1qqst23szarnf72467gjt8aqrl7wmghyfagcw8f49d4muzn87y8m85rgwgcvde">her own Nostr note</a></li>
 <li>why demo day is not a performance so much as proof that you touched the work</li>
 <li>how pairing and team week changed the cohort from intimidating to collaborative</li>
 <li>what Sherry and <a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">Arjen</a> wanted <a href="https://zapstore.dev/apps/app.myco">Myco</a> to become beyond app sharing</li>
@@ -155,6 +160,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://sovereignengineering.io/podcast/27-separation-of-business-from-state-w-gsovereignty">#27: Separation of Business from State w/ gsovereignty</a></li>
 <li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
 <li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">#25: White Noise, MLS, and marmot w/ Jeff G</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
 <li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 </ul>
 <p>People mentioned:</p>
@@ -177,7 +183,11 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://lightning.network/">Lightning</a></li>
 <li><a href="https://zapstore.dev/apps/app.myco">Myco</a></li>
 </ul>
-<p>Recorded on August 25, 2026.</p>
+<p>Books mentioned:</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/What_Do_You_Care_What_Other_People_Think%3F">What Do You Care What Other People Think?</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/964047">964,047</a>.</p>
 ]]></itunes:summary>
     </item>
     <item>
