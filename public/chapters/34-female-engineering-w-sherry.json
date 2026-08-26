@@ -1,0 +1,88 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "34: Female Engineering w/ Sherry",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 34, Female Engineering w/ Sherry.",
+  "fileName": "34 - Female Engineering.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 48,
+      "title": "No Script"
+    },
+    {
+      "startTime": 48,
+      "endTime": 96,
+      "title": "Finding SovEng",
+      "url": "https://sovereignengineering.io/"
+    },
+    {
+      "startTime": 96,
+      "endTime": 186,
+      "title": "Math to Computers"
+    },
+    {
+      "startTime": 186,
+      "endTime": 258,
+      "title": "First Bitcoin"
+    },
+    {
+      "startTime": 258,
+      "endTime": 317,
+      "title": "Early Nostr",
+      "url": "https://nostr.com/"
+    },
+    {
+      "startTime": 317,
+      "endTime": 389,
+      "title": "Orange-Pilling Yourself"
+    },
+    {
+      "startTime": 389,
+      "endTime": 424,
+      "title": "FIPS Clicks",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 424,
+      "endTime": 490,
+      "title": "Demo Day Nerves"
+    },
+    {
+      "startTime": 490,
+      "endTime": 548,
+      "title": "Pairing Up"
+    },
+    {
+      "startTime": 548,
+      "endTime": 623,
+      "title": "Mika and Files"
+    },
+    {
+      "startTime": 623,
+      "endTime": 721,
+      "title": "Cohort Energy"
+    },
+    {
+      "startTime": 721,
+      "endTime": 813,
+      "title": "Convincing Yourself"
+    },
+    {
+      "startTime": 813,
+      "endTime": 852,
+      "title": "Fixing Mika"
+    },
+    {
+      "startTime": 852,
+      "endTime": 894,
+      "title": "Asia Cohorts"
+    },
+    {
+      "startTime": 894,
+      "endTime": 969,
+      "title": "Women Engineers"
+    }
+  ]
+}
