@@ -1,0 +1,74 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "36: A Taste for Freedom w/ Zaza",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 36, A Taste for Freedom w/ Zaza.",
+  "fileName": "36 - A Taste for Freedom.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 360,
+      "title": "Humility",
+      "url": "https://mcescher.com/"
+    },
+    {
+      "startTime": 360,
+      "endTime": 780,
+      "title": "Tradition"
+    },
+    {
+      "startTime": 780,
+      "endTime": 1140,
+      "title": "Cooking and Computers"
+    },
+    {
+      "startTime": 1140,
+      "endTime": 1560,
+      "title": "Flash Designers",
+      "url": "https://en.wikipedia.org/wiki/Adobe_Flash"
+    },
+    {
+      "startTime": 1560,
+      "endTime": 1980,
+      "title": "AI Polish"
+    },
+    {
+      "startTime": 1980,
+      "endTime": 2400,
+      "title": "Visual Attention"
+    },
+    {
+      "startTime": 2400,
+      "endTime": 2820,
+      "title": "Signs and Symbols"
+    },
+    {
+      "startTime": 2820,
+      "endTime": 3300,
+      "title": "Bitcoin Language",
+      "url": "https://bitcoin.org/"
+    },
+    {
+      "startTime": 3300,
+      "endTime": 3780,
+      "title": "Taste for Freedom"
+    },
+    {
+      "startTime": 3780,
+      "endTime": 4260,
+      "title": "Purpose",
+      "url": "https://sovereignengineering.io/"
+    },
+    {
+      "startTime": 4260,
+      "endTime": 4860,
+      "title": "Orientation"
+    },
+    {
+      "startTime": 4860,
+      "endTime": 5535,
+      "title": "Spiritual Change"
+    }
+  ]
+}
