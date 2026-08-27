@@ -39,10 +39,145 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Wed, 26 Aug 2026 00:46:25 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2026 00:46:25 +0000</lastBuildDate>
+    <pubDate>Fri, 28 Aug 2026 01:27:08 +0000</pubDate>
+    <lastBuildDate>Fri, 28 Aug 2026 01:27:08 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>35: Drinking from the Firehose w/ SEC-08</title>
+      <description><![CDATA[<p>&quot;It&#39;s like drinking from the firehose, but it really convinced me that this is the right path.&quot;</p>
+<p>The <a href="https://sovereignengineering.io/">SEC-08</a> crew &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> pass the mic around on a pirate boat.</p>
+<p><a href="https://sovereignengineering.io/podcast/35-drinking-from-the-firehose-w-sec-08">Listen on sovereignengineering.io</a></p>
+<p>This one is not a single guest walk so much as a moving snapshot of the final days of <a href="https://sovereignengineering.io/">Sovereign Engineering</a> SEC-08: tired builders, unfinished follow-ups, jokes over the water, and a quick tour through what actually stuck after six weeks in Madeira.</p>
+<p>The recurring answer is that the cohort felt wider and deeper than expected. People came in for <a href="https://bitcoin.org/">Bitcoin</a>, <a href="https://nostr.com/">Nostr</a>, <a href="https://lightning.network/">Lightning</a>, or AI-adjacent hacking, and ended up talking about rebuilding pieces of the internet from first principles. <a href="https://fips.network/">FIPS</a> comes up again and again, not as a neat demo category but as a substrate people can finally build on. Totem, Napplets, NIPlets, Hypergate, Marmot, Quake III over FIPS, mapping tiles on Blossom, agent email, and a pile of half-ridiculous demos all point in the same direction: the parts are starting to connect.</p>
+<p>There is also a softer engineering lesson running through the boat noise. <a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a> gets shouted out for turning sad little nerd UIs into something people might actually want to touch. Walks keep showing up as infrastructure for thought. The Nostr Office becomes a place to keep building after hours. Pairing, one-minute demos, and forced constraints change the shape of collaboration. By the end, the phrase that keeps returning is less about a project and more about belonging: I found my people.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why SEC-08 felt like <a href="https://sovereignengineering.io/">SEC-01</a> again: less polished, more exploratory, and full of first-principles internet rebuilding</li>
+<li>how <a href="https://fips.network/">FIPS</a> moved from missing piece to common substrate for demos, games, agents, and networking experiments</li>
+<li>why Totem, Napplets, NIPlets, Hypergate, Marmot, and Quake III over FIPS kept surfacing as cohort highlights</li>
+<li>how Zaza&#39;s <a href="https://protocolux.com/">protocol UX</a> work changed the first impression of projects across the cohort</li>
+<li>why walking still works as an idea generator, even when the explanation sounds like left-foot-right-foot bro science</li>
+<li>how Blossom-backed map tiles hinted at better mapping UX through content-addressed infrastructure</li>
+<li>why Thomas&#39;s email-over-FIPS idea sounded small at first but opened a bigger agent communication door</li>
+<li>what changed when Jonathan paired people up and made collaboration an explicit week of work</li>
+<li>why one-minute demos made the follow-up conversations sharper</li>
+<li>how the Nostr Office became a place for after-hours building, LAN parties over FIPS, and cohort spillover</li>
+<li>why several people described the experience as exhausting, painful, joyful, and direction-setting at the same time</li>
+<li>how the final answer kept circling back to friendship, music, barbecues, and finding the people you want to build with</li>
+<li>why future cohorts might pull more from local-first software, mesh networking, and broader hacker communities</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
+<li><a href="https://sovereignengineering.io/podcast/34-female-engineering-w-sherry">#34: Female Engineering w/ Sherry</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">Julien</a></li>
+<li><a href="https://github.com/hzrd149">HZRD</a></li>
+<li>Jonathan Corgan</li>
+<li>Thomas</li>
+<li>Breno</li>
+<li>Balazs</li>
+<li>Rahul</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://lightning.network/">Lightning</a></li>
+<li><a href="https://fips.network/">FIPS</a></li>
+<li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Napplets</a></li>
+<li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">Marmot</a></li>
+<li><a href="https://ioquake3.org/">Quake III Arena</a></li>
+<li><a href="https://www.inkandswitch.com/local-first/">local-first software</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/964157">964,157</a>.</p>
+]]></description>
+      <link>https://njump.to/nevent1qqsdxs8nupkyny7fp8yy8v555s6z7ryhm70wtzpqfkuv0smpcylps5qpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sp64sth</link>
+      <enclosure url="https://haven.dergigi.com/516b6e73eecd57456e44b5053007aaf65503ed1a8ec4735c7ae5a71d07047806.m4a" length="46498168" type="audio/mp4"/>
+      <guid isPermaLink="false">5767b9c5-66ed-4bfd-8ab8-a090f9dff67b</guid>
+      <pubDate>Fri, 28 Aug 2026 01:27:08 +0000</pubDate>
+      <itunes:duration>2789</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/6448b73968df5455d83aeca7de76491db8046d90d9ad5f31a6db6b2358729ee8.jpg"/>
+      <podcast:person href="https://njump.to/npub1s0veng2gvfwr62acrxhnqexq76sj6ldg3a5t935jy8e6w3shr5vsnwrmq5" img="https://relay2.sovereignengineering.io/2215bec4039e461752475f41165f8ec8ef90c3f59b009f8f034b43a439c721da.jpg" group="cast" role="guest">Sovereign Engineering</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/ae5a03fce6f19edf022a8e707b9f2f48ed91f66406f7e645f7c03dd338a59a51.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/35-drinking-from-the-firehose-w-sec-08.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Sovereign Engineering" type="lnaddress" address="soveng@coinos.io" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqnrxdfdv3exjmntd9hxwttxwfhk6tt5dpjj6enfwfjksmmnv5khwttnv43j6vpcqythwumn8ghj76rpwejkutnyv4exw6t8dyhxxmmdqyt8wumn8ghj7un9d3shjtnswf5k6ctv9ehx2aqpp4mhxue69uhkummn9ekx7mqzyzdauss5j8e745dvyx736qtx024egl6vr39wmpmzfnezwwcxegzjkqcyqqq823c522ces">Show Notes</podcast:contentLink>
+      <itunes:subtitle>35: Drinking from the Firehose w/ SEC-08</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>sec-08, sovereign engineering, fips, totem, napplets, niplets, blossom, nostr, lightning, local-first, zaza</itunes:keywords>
+      <itunes:summary><![CDATA[<p>&quot;It&#39;s like drinking from the firehose, but it really convinced me that this is the right path.&quot;</p>
+<p>The <a href="https://sovereignengineering.io/">SEC-08</a> crew &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> pass the mic around on a pirate boat.</p>
+<p><a href="https://sovereignengineering.io/podcast/35-drinking-from-the-firehose-w-sec-08">Listen on sovereignengineering.io</a></p>
+<p>This one is not a single guest walk so much as a moving snapshot of the final days of <a href="https://sovereignengineering.io/">Sovereign Engineering</a> SEC-08: tired builders, unfinished follow-ups, jokes over the water, and a quick tour through what actually stuck after six weeks in Madeira.</p>
+<p>The recurring answer is that the cohort felt wider and deeper than expected. People came in for <a href="https://bitcoin.org/">Bitcoin</a>, <a href="https://nostr.com/">Nostr</a>, <a href="https://lightning.network/">Lightning</a>, or AI-adjacent hacking, and ended up talking about rebuilding pieces of the internet from first principles. <a href="https://fips.network/">FIPS</a> comes up again and again, not as a neat demo category but as a substrate people can finally build on. Totem, Napplets, NIPlets, Hypergate, Marmot, Quake III over FIPS, mapping tiles on Blossom, agent email, and a pile of half-ridiculous demos all point in the same direction: the parts are starting to connect.</p>
+<p>There is also a softer engineering lesson running through the boat noise. <a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a> gets shouted out for turning sad little nerd UIs into something people might actually want to touch. Walks keep showing up as infrastructure for thought. The Nostr Office becomes a place to keep building after hours. Pairing, one-minute demos, and forced constraints change the shape of collaboration. By the end, the phrase that keeps returning is less about a project and more about belonging: I found my people.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why SEC-08 felt like <a href="https://sovereignengineering.io/">SEC-01</a> again: less polished, more exploratory, and full of first-principles internet rebuilding</li>
+<li>how <a href="https://fips.network/">FIPS</a> moved from missing piece to common substrate for demos, games, agents, and networking experiments</li>
+<li>why Totem, Napplets, NIPlets, Hypergate, Marmot, and Quake III over FIPS kept surfacing as cohort highlights</li>
+<li>how Zaza&#39;s <a href="https://protocolux.com/">protocol UX</a> work changed the first impression of projects across the cohort</li>
+<li>why walking still works as an idea generator, even when the explanation sounds like left-foot-right-foot bro science</li>
+<li>how Blossom-backed map tiles hinted at better mapping UX through content-addressed infrastructure</li>
+<li>why Thomas&#39;s email-over-FIPS idea sounded small at first but opened a bigger agent communication door</li>
+<li>what changed when Jonathan paired people up and made collaboration an explicit week of work</li>
+<li>why one-minute demos made the follow-up conversations sharper</li>
+<li>how the Nostr Office became a place for after-hours building, LAN parties over FIPS, and cohort spillover</li>
+<li>why several people described the experience as exhausting, painful, joyful, and direction-setting at the same time</li>
+<li>how the final answer kept circling back to friendship, music, barbecues, and finding the people you want to build with</li>
+<li>why future cohorts might pull more from local-first software, mesh networking, and broader hacker communities</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
+<li><a href="https://sovereignengineering.io/podcast/34-female-engineering-w-sherry">#34: Female Engineering w/ Sherry</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr">Zaza</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">Julien</a></li>
+<li><a href="https://github.com/hzrd149">HZRD</a></li>
+<li>Jonathan Corgan</li>
+<li>Thomas</li>
+<li>Breno</li>
+<li>Balazs</li>
+<li>Rahul</li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
+<li><a href="https://bitcoin.org/">Bitcoin</a></li>
+<li><a href="https://nostr.com/">Nostr</a></li>
+<li><a href="https://lightning.network/">Lightning</a></li>
+<li><a href="https://fips.network/">FIPS</a></li>
+<li><a href="https://github.com/hzrd149/blossom">Blossom</a></li>
+<li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">Napplets</a></li>
+<li><a href="https://sovereignengineering.io/podcast/25-white-noise-mls-and-marmot-w-jeff-g">Marmot</a></li>
+<li><a href="https://ioquake3.org/">Quake III Arena</a></li>
+<li><a href="https://www.inkandswitch.com/local-first/">local-first software</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/964157">964,157</a>.</p>
+]]></itunes:summary>
+    </item>
     <item>
       <title>34: Female Engineering w/ Sherry</title>
       <description><![CDATA[<p>&quot;The only one I need to convince is myself.&quot;</p>
