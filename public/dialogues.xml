@@ -51,7 +51,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>This dialogue begins in the afterglow and exhaustion of another <a href="https://sovereignengineering.io/">Sovereign Engineering</a> cohort. Arjen has been living with <a href="https://nixos.org/">NixOS</a>, putting <a href="https://fips.network/">FIPS</a> into the boot path before <a href="https://gitlab.com/cryptsetup/cryptsetup">LUKS</a> unlocks, and watching the SEC-08 demos turn from isolated hacks into pieces of a stranger, more coherent machine.</p>
 <p>The center of the walk is the uncomfortable power of agents. If models can operate the whole computer, then they start to look less like tools and more like extremely capable malware that sometimes works in your favor. Gigi points to <a href="https://njump.to/naddr1qqxku7td94skganpde6xzem9qgspa3z5wdxuhah72jgpecjup37xhjj7mky5gdqkwc06msep6wxlzwgrqsqqqa28t9wg3q">a new model for personal computer use</a>: give agents broad access to the machine, but keep signing authority and key material outside their reach. Useful power at the edge, hard boundaries around the thing that matters.</p>
 <p>From there the conversation loops back into <a href="https://tollgate.me/">TollGate</a> and FIPS. Arjen talks through v2, local mints, e-cash as accounting for streamed resources, application keys, and the move from fragile intermediaries toward transports that can route through weird environments. Bytes, kilowatts, water, beer: the pattern is less about one payment rail and more about making access measurable, local, and hard to rug pull.</p>
-<p>The final third drifts offline. <a href="https://zapstore.dev/apps/naddr1qqyxzurs9ekhjcm0qyv8wumn8ghj7un9d3shjtn6v9c8xar0wfjjuer9wcpzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68qvzqqqr7pvjgwy4y">Myco</a>, <a href="https://www.readwithboris.com/">Boris</a>, <a href="https://substore.app/">Substore</a>, the <a href="https://zapstore.dev/apps/naddr1qqsx7un89ejx2un8d9nkjtn0venxc6twv4jkuarjdac8jmtpde6kzmqprpmhxue69uhhyetvv9uju7npwpehgmmjv5hxgetkqgsxu35yyt0mwjjh8pcz4zprhxegz69t4wr9t74vk6zne58wzh0waycrqsqqqlstx2qda9">Offline Entropy Manual</a>, the <a href="https://blog.ayom.media/ideiasdechirico/offpunk-manifesto">Offpunk Manifesto</a>, and the <a href="https://www.localfirstconf.com/">local-first</a> movement all become parts of the same instinct: build software that keeps working when the network disappears, when the store rug pulls you, or when you simply want to be AFK again.</p>
+<p>The final third drifts offline. <a href="https://zapstore.dev/apps/naddr1qqyxzurs9ekhjcm0qyv8wumn8ghj7un9d3shjtn6v9c8xar0wfjjuer9wcpzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68qvzqqqr7pvjgwy4y">Myco</a>, <a href="https://www.readwithboris.com/">Boris</a>, <a href="https://zapstore.dev/">Zapstore</a>, the <a href="https://zapstore.dev/apps/naddr1qqsx7un89ejx2un8d9nkjtn0venxc6twv4jkuarjdac8jmtpde6kzmqprpmhxue69uhhyetvv9uju7npwpehgmmjv5hxgetkqgsxu35yyt0mwjjh8pcz4zprhxegz69t74vk6zne58wzh0waycrqsqqqlstx2qda9">Offline Entropy Manual</a>, the <a href="https://blog.ayom.media/ideiasdechirico/offpunk-manifesto">Offpunk Manifesto</a>, and the <a href="https://www.localfirstconf.com/">local-first</a> movement all become parts of the same instinct: build software that keeps working when the network disappears, when the store rug pulls you, or when you simply want to be AFK again.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>why post-cohort decompression has its own strange rhythm</li>
@@ -83,6 +83,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <ul>
 <li><a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">#17: Organic Tech w/ Arjen</a></li>
 <li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
 <li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
 <li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 <li><a href="https://sovereignengineering.io/podcast/34-female-engineering-w-sherry">#34: Female Engineering w/ Sherry</a></li>
@@ -112,7 +113,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://www.minibits.cash/">Minibits</a></li>
 <li><a href="https://zapstore.dev/apps/naddr1qqyxzurs9ekhjcm0qyv8wumn8ghj7un9d3shjtn6v9c8xar0wfjjuer9wcpzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68qvzqqqr7pvjgwy4y">Myco</a></li>
 <li><a href="https://www.readwithboris.com/">Boris</a></li>
-<li><a href="https://substore.app/">Substore</a></li>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
 <li><a href="https://zapstore.dev/apps/naddr1qqsx7un89ejx2un8d9nkjtn0venxc6twv4jkuarjdac8jmtpde6kzmqprpmhxue69uhhyetvv9uju7npwpehgmmjv5hxgetkqgsxu35yyt0mwjjh8pcz4zprhxegz69t4wr9t74vk6zne58wzh0waycrqsqqqlstx2qda9">Offline Entropy Manual</a></li>
 <li><a href="https://www.localfirstconf.com/">Local-First Conf</a></li>
 </ul>
@@ -125,7 +126,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <itunes:duration>4980</itunes:duration>
       <itunes:image href="https://haven.dergigi.com/24b2c4b22644d31ef37d92da3b560b75550fd1a7534d9e211574afeed79b766c.jpg"/>
       <podcast:person href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr" img="https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png" group="cast" role="guest">Arjen</podcast:person>
-      <podcast:transcript url="https://haven.dergigi.com/9ad86604972be003ec940ec34ec671beb917945e6577b50731d3d43a79d99ba0.srt" type="application/srt"/>
+      <podcast:transcript url="https://haven.dergigi.com/77c3773f570d605ce469f568bcb9544f7844f204a61e69b5f76ee116d8128178.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/37-advanced-malware-w-arjen.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
@@ -144,7 +145,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>This dialogue begins in the afterglow and exhaustion of another <a href="https://sovereignengineering.io/">Sovereign Engineering</a> cohort. Arjen has been living with <a href="https://nixos.org/">NixOS</a>, putting <a href="https://fips.network/">FIPS</a> into the boot path before <a href="https://gitlab.com/cryptsetup/cryptsetup">LUKS</a> unlocks, and watching the SEC-08 demos turn from isolated hacks into pieces of a stranger, more coherent machine.</p>
 <p>The center of the walk is the uncomfortable power of agents. If models can operate the whole computer, then they start to look less like tools and more like extremely capable malware that sometimes works in your favor. Gigi points to <a href="https://njump.to/naddr1qqxku7td94skganpde6xzem9qgspa3z5wdxuhah72jgpecjup37xhjj7mky5gdqkwc06msep6wxlzwgrqsqqqa28t9wg3q">a new model for personal computer use</a>: give agents broad access to the machine, but keep signing authority and key material outside their reach. Useful power at the edge, hard boundaries around the thing that matters.</p>
 <p>From there the conversation loops back into <a href="https://tollgate.me/">TollGate</a> and FIPS. Arjen talks through v2, local mints, e-cash as accounting for streamed resources, application keys, and the move from fragile intermediaries toward transports that can route through weird environments. Bytes, kilowatts, water, beer: the pattern is less about one payment rail and more about making access measurable, local, and hard to rug pull.</p>
-<p>The final third drifts offline. <a href="https://zapstore.dev/apps/naddr1qqyxzurs9ekhjcm0qyv8wumn8ghj7un9d3shjtn6v9c8xar0wfjjuer9wcpzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68qvzqqqr7pvjgwy4y">Myco</a>, <a href="https://www.readwithboris.com/">Boris</a>, <a href="https://substore.app/">Substore</a>, the <a href="https://zapstore.dev/apps/naddr1qqsx7un89ejx2un8d9nkjtn0venxc6twv4jkuarjdac8jmtpde6kzmqprpmhxue69uhhyetvv9uju7npwpehgmmjv5hxgetkqgsxu35yyt0mwjjh8pcz4zprhxegz69t4wr9t74vk6zne58wzh0waycrqsqqqlstx2qda9">Offline Entropy Manual</a>, the <a href="https://blog.ayom.media/ideiasdechirico/offpunk-manifesto">Offpunk Manifesto</a>, and the <a href="https://www.localfirstconf.com/">local-first</a> movement all become parts of the same instinct: build software that keeps working when the network disappears, when the store rug pulls you, or when you simply want to be AFK again.</p>
+<p>The final third drifts offline. <a href="https://zapstore.dev/apps/naddr1qqyxzurs9ekhjcm0qyv8wumn8ghj7un9d3shjtn6v9c8xar0wfjjuer9wcpzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68qvzqqqr7pvjgwy4y">Myco</a>, <a href="https://www.readwithboris.com/">Boris</a>, <a href="https://zapstore.dev/">Zapstore</a>, the <a href="https://zapstore.dev/apps/naddr1qqsx7un89ejx2un8d9nkjtn0venxc6twv4jkuarjdac8jmtpde6kzmqprpmhxue69uhhyetvv9uju7npwpehgmmjv5hxgetkqgsxu35yyt0mwjjh8pcz4zprhxegz69t74vk6zne58wzh0waycrqsqqqlstx2qda9">Offline Entropy Manual</a>, the <a href="https://blog.ayom.media/ideiasdechirico/offpunk-manifesto">Offpunk Manifesto</a>, and the <a href="https://www.localfirstconf.com/">local-first</a> movement all become parts of the same instinct: build software that keeps working when the network disappears, when the store rug pulls you, or when you simply want to be AFK again.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>why post-cohort decompression has its own strange rhythm</li>
@@ -176,6 +177,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <ul>
 <li><a href="https://sovereignengineering.io/podcast/17-organic-tech-w-arjen">#17: Organic Tech w/ Arjen</a></li>
 <li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/26-zapstore-w-franzap">#26: Zapstore w/ Franzap</a></li>
 <li><a href="https://sovereignengineering.io/podcast/30-napplets-w-sandwich">#30: Napplets w/ Sandwich</a></li>
 <li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
 <li><a href="https://sovereignengineering.io/podcast/34-female-engineering-w-sherry">#34: Female Engineering w/ Sherry</a></li>
@@ -205,7 +207,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://www.minibits.cash/">Minibits</a></li>
 <li><a href="https://zapstore.dev/apps/naddr1qqyxzurs9ekhjcm0qyv8wumn8ghj7un9d3shjtn6v9c8xar0wfjjuer9wcpzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68qvzqqqr7pvjgwy4y">Myco</a></li>
 <li><a href="https://www.readwithboris.com/">Boris</a></li>
-<li><a href="https://substore.app/">Substore</a></li>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
 <li><a href="https://zapstore.dev/apps/naddr1qqsx7un89ejx2un8d9nkjtn0venxc6twv4jkuarjdac8jmtpde6kzmqprpmhxue69uhhyetvv9uju7npwpehgmmjv5hxgetkqgsxu35yyt0mwjjh8pcz4zprhxegz69t4wr9t74vk6zne58wzh0waycrqsqqqlstx2qda9">Offline Entropy Manual</a></li>
 <li><a href="https://www.localfirstconf.com/">Local-First Conf</a></li>
 </ul>
