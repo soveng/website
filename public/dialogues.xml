@@ -126,7 +126,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <itunes:duration>4980</itunes:duration>
       <itunes:image href="https://haven.dergigi.com/24b2c4b22644d31ef37d92da3b560b75550fd1a7534d9e211574afeed79b766c.jpg"/>
       <podcast:person href="https://njump.to/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr" img="https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png" group="cast" role="guest">Arjen</podcast:person>
-      <podcast:transcript url="https://haven.dergigi.com/77c3773f570d605ce469f568bcb9544f7844f204a61e69b5f76ee116d8128178.srt" type="application/srt"/>
+      <podcast:transcript url="https://haven.dergigi.com/805c6852da3bc105e959efd4f32b1702eff8ba50fdbeffc4fbc776a5b9a85d01.srt" type="application/srt"/>
       <podcast:chapters url="https://sovereignengineering.io/chapters/37-advanced-malware-w-arjen.json" type="application/json+chapters"/>
       <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
       <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
