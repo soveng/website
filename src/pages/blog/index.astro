@@ -19,16 +19,32 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 >
   <div class="blog-page">
     <header class="blog-hero">
-      <div class="container blog-container">
-        <p class="blog-eyebrow">Sovereign Engineering / Writing</p>
-        <h1>Blog</h1>
-        <p>Notes from the frontier of freedom tech. Published on Nostr, readable here.</p>
+      <div class="container blog-container blog-hero-grid">
+        <div class="blog-hero-copy">
+          <p class="blog-eyebrow">Sovereign Engineering Blog</p>
+          <h1>Writing in the Open</h1>
+          <p>Reports and reflections from builders exploring freedom tech. Published on Nostr, readable here.</p>
+          <div class="blog-hero-actions">
+            {featured && <a href="#latest-article" class="btn-retro">Read latest</a>}
+            <a href="#blog-archive" class="btn-retro blog-hero-secondary">Browse the archive</a>
+          </div>
+        </div>
+        <div class="blog-hero-visual">
+          <img
+            src="/images/shining-city-in-cyberspace.png"
+            alt="A figure looking toward a glowing city"
+            width="640"
+            height="576"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
       </div>
     </header>
 
     <section class="container blog-container blog-index" aria-label="Articles">
       {featured && (
-        <article class="blog-feature">
+        <article class="blog-feature" id="latest-article">
           {featured.image && (
             <a href={`/blog/${featured.slug}`} class="blog-feature-image" aria-label={`Read ${featured.title}`}>
               <img src={featured.image} alt="" loading="eager" decoding="async" />
@@ -43,7 +59,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         </article>
       )}
 
-      <div class="blog-list-heading">
+      <div class="blog-list-heading" id="blog-archive">
         <h2>All writing</h2>
         <span>{articles.length} articles</span>
       </div>
