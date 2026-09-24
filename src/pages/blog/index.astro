@@ -1,0 +1,71 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getBlogArticles } from '@/lib/blog';
+import '@/styles/blog.css';
+
+const articles = await getBlogArticles();
+const [featured, ...archive] = articles;
+const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+}).format(timestamp * 1000);
+---
+
+<Base
+  title="Blog"
+  meta_title="Blog — Sovereign Engineering"
+  description="Long-form writing from Sovereign Engineering, published on Nostr and readable here."
+  canonical="https://sovereignengineering.io/blog"
+  showCallToAction={false}
+>
+  <div class="blog-page">
+    <header class="blog-hero">
+      <div class="container blog-container">
+        <p class="blog-eyebrow">Sovereign Engineering / Writing</p>
+        <h1>Blog</h1>
+        <p>Notes from the frontier of freedom tech. Published on Nostr, readable here.</p>
+      </div>
+    </header>
+
+    <section class="container blog-container blog-index" aria-label="Articles">
+      {featured && (
+        <article class="blog-feature">
+          {featured.image && (
+            <a href={`/blog/${featured.slug}`} class="blog-feature-image" aria-label={`Read ${featured.title}`}>
+              <img src={featured.image} alt="" loading="eager" decoding="async" />
+            </a>
+          )}
+          <div class="blog-feature-copy">
+            <p class="blog-item-meta"><time datetime={new Date(featured.publishedAt * 1000).toISOString()}>{date(featured.publishedAt)}</time><span>Latest article</span></p>
+            <h2><a href={`/blog/${featured.slug}`}>{featured.title}</a></h2>
+            {featured.summary && <p class="blog-summary">{featured.summary}</p>}
+            <a href={`/blog/${featured.slug}`} class="blog-read-link">Read article <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      )}
+
+      <div class="blog-list-heading">
+        <h2>All writing</h2>
+        <span>{articles.length} articles</span>
+      </div>
+      <ol class="blog-list">
+        {archive.map((article) => (
+          <li>
+            <article class="blog-list-item">
+              <div class="blog-list-copy">
+                <p class="blog-item-meta"><time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time></p>
+                <h3><a href={`/blog/${article.slug}`}>{article.title}</a></h3>
+                {article.summary && <p class="blog-summary">{article.summary}</p>}
+              </div>
+              {article.image && (
+                <a href={`/blog/${article.slug}`} class="blog-list-image" aria-label={`Read ${article.title}`}>
+                  <img src={article.image} alt="" loading="lazy" decoding="async" />
+                </a>
+              )}
+            </article>
+          </li>
+        ))}
+      </ol>
+      {!featured && <p>No articles available yet. <a href="https://njump.me/sovereignengineering.io">Read us on Nostr.</a></p>}
+    </section>
+  </div>
+</Base>

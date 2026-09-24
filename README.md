@@ -26,6 +26,12 @@ The podcast XML feed is available at: [https://sovereignengineering.io/dialogues
 
 It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n).
 
+## Blog
+
+`/blog` renders signed NIP-23 articles from the Sovereign Engineering Nostr account. At build time, `src/lib/blog.ts` queries public relays for kind 30023 events, verifies signatures, and uses the latest event for each article address. `src/data/nostrArticles.json` is a signed snapshot used when relays are unavailable. New or edited articles appear after the next site build and deployment. Dead legacy image URLs in older signed posts are mapped to surviving local artwork where available; the signed snapshot itself remains unchanged.
+
+To check the site without relay access, run `BLOG_OFFLINE=1 bun run build`.
+
 ## Public Resources
 
 - **.well-known**: Exposes public metadata for services and verification ([RFC 8615](https://datatracker.ietf.org/doc/html/rfc8615)).
@@ -39,6 +45,7 @@ It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y
 - Project and podcast showcases
 - Public `.well-known` directory
 - Custom podcast XML feed
+- NIP-23 blog with offline article snapshot
 
 ## Getting Started
 

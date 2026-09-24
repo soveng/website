@@ -13,6 +13,10 @@
       "url": "/#how"
     },
     {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
       "name": "More",
       "url": "",
       "hasChildren": true,
@@ -42,6 +46,7 @@
         "title": "Resources",
         "links": [
           { "name": "Projects", "url": "/projects" },
+          { "name": "Blog", "url": "/blog" },
           { "name": "Podcast", "url": "/podcast" },
           { "name": "Books", "url": "/books" },
           { "name": "FAQ", "url": "/faq" }

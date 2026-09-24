@@ -1,0 +1,49 @@
+---
+import Base from '@/layouts/Base.astro';
+import { getBlogArticles, type BlogArticle } from '@/lib/blog';
+import '@/styles/blog.css';
+
+export async function getStaticPaths() {
+  const articles = await getBlogArticles();
+  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+
+interface Props { article: BlogArticle }
+const { article } = Astro.props;
+const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+}).format(timestamp * 1000);
+---
+
+<Base
+  title={article.title}
+  meta_title={`${article.title} — Sovereign Engineering Blog`}
+  description={article.summary || `Read ${article.title} by Sovereign Engineering.`}
+  image={article.image || undefined}
+  canonical={`https://sovereignengineering.io/blog/${article.slug}`}
+  showCallToAction={false}
+>
+  <div class="blog-page blog-article-page">
+    <div class="container blog-container">
+      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← All writing</a></nav>
+      <article>
+        <header class="blog-article-header">
+          <p class="blog-eyebrow">Sovereign Engineering / Blog</p>
+          <h1>{article.title}</h1>
+          {article.summary && <p class="blog-article-summary">{article.summary}</p>}
+          <div class="blog-article-meta">
+            <time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time>
+            {article.updatedAt > article.publishedAt + 86400 && <span>Updated {date(article.updatedAt)}</span>}
+            <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">View on Nostr ↗</a>
+          </div>
+        </header>
+        {article.image && <img class="blog-article-cover" src={article.image} alt="" decoding="async" />}
+        <div class="blog-article-content" set:html={article.html} />
+      </article>
+      <footer class="blog-article-footer">
+        <a href="/blog">← All writing</a>
+        <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Read on Nostr ↗</a>
+      </footer>
+    </div>
+  </div>
+</Base>
