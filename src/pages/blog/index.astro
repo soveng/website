@@ -23,11 +23,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         <div class="blog-hero-copy">
           <p class="blog-eyebrow">Sovereign Engineering Blog</p>
           <h1>Writing in the Open</h1>
-          <p>Reports and reflections from builders exploring freedom tech. Published on Nostr, readable here.</p>
-          <div class="blog-hero-actions">
-            {featured && <a href="#latest-article" class="btn-retro">Read latest</a>}
-            <a href="#blog-archive" class="btn-retro blog-hero-secondary">Browse the archive</a>
-          </div>
+          <p>Notes from the frontier of freedom tech. Published on Nostr, readable here.</p>
         </div>
         <div class="blog-hero-visual">
           <img
@@ -44,7 +40,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 
     <section class="container blog-container blog-index" aria-label="Articles">
       {featured && (
-        <article class="blog-feature" id="latest-article">
+        <article class="blog-feature">
           {featured.image && (
             <a href={`/blog/${featured.slug}`} class="blog-feature-image" aria-label={`Read ${featured.title}`}>
               <img src={featured.image} alt="" loading="eager" decoding="async" />
@@ -59,7 +55,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         </article>
       )}
 
-      <div class="blog-list-heading" id="blog-archive">
+      <div class="blog-list-heading">
         <h2>All writing</h2>
         <span>{articles.length} articles</span>
       </div>
