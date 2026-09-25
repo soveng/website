@@ -109,6 +109,9 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
             ))
           }
         </div>
+        <figure class="alumni-endmark" aria-hidden="true">
+          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
+        </figure>
         <section class="alumni-podcast" aria-labelledby="alumni-podcast-title">
           <h2 id="alumni-podcast-title">No Solutions</h2>
           <p>Listen to recorded dialogues with Gigi and Sovereign Engineering alumni on the No Solutions podcast.</p>
@@ -138,9 +141,21 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     color: #fff;
   }
 
+  .alumni-endmark {
+    margin: 4rem 0 0;
+  }
+
+  .alumni-endmark img {
+    display: block;
+    width: min(100%, 36rem);
+    height: auto;
+    margin: 0 auto;
+    transform: scaleX(-1);
+  }
+
   .alumni-podcast {
     max-width: 40rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 
   .alumni-podcast h2 {

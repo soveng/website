@@ -75,7 +75,7 @@ assert.doesNotMatch(page, />\s*With bios\s*</, 'stats labels should be removed')
 assert.doesNotMatch(page, />\s*With avatars\s*</, 'stats labels should be removed');
 assert.doesNotMatch(page, />\s*Source refresh\s*</, 'stats labels should be removed');
 assert.doesNotMatch(page, /class="[^"]*alumni-source-note/, 'old source note block should be removed');
-assert.doesNotMatch(page, /separator-ship\.png/, 'decorative separator between hero and grid should be removed');
+assert.doesNotMatch(page.split('<div class="alumni-grid"')[0], /separator-ship\.png/, 'decorative separator between hero and grid should be removed');
 assert.doesNotMatch(page, /class="[^"]*alumni-directory-header/, 'embellishment header between hero and grid should be removed');
 assert.doesNotMatch(page, />\s*Roll call\s*</, 'roll-call embellishment should be removed');
 assert.doesNotMatch(page, /Builders in the wild/, 'directory title embellishment should be removed');
