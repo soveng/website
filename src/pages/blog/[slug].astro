@@ -1,6 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
-import { BLOG_PUBKEY, BLOG_RELAYS, getBlogArticles, type BlogArticle } from '@/lib/blog';
+import { BLOG_PROFILE_RELAYS, BLOG_PUBKEY, BLOG_RELAYS, getBlogArticles, type BlogArticle } from '@/lib/blog';
 import { blogCoverSrc, blogCoverSrcSet } from '@/lib/blogImages';
 import '@/styles/blog.css';
 
@@ -48,6 +48,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         data-article-address={`30023:${BLOG_PUBKEY}:${article.identifier}`}
         data-article-id={article.id}
         data-relays={BLOG_RELAYS.join(' ')}
+        data-profile-relays={BLOG_PROFILE_RELAYS.join(' ')}
         aria-labelledby="blog-activity-title"
       >
         <div class="blog-activity-heading">
@@ -93,7 +94,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 
     const articleContent = document.querySelector('.blog-article-content');
     if (articleContent instanceof HTMLElement && articleContent.querySelector('a[href^="https://njump.me/nprofile1"], a[href^="https://njump.me/npub1"]')) {
-      const relays = activitySection.dataset.relays?.split(' ').filter(Boolean) ?? [];
+      const relays = activitySection.dataset.profileRelays?.split(' ').filter(Boolean) ?? [];
       void import('@/scripts/blogProfiles')
         .then(({ mountBlogProfiles }) => {
           if (!disposed) {

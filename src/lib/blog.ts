@@ -8,6 +8,7 @@ import savedEvents from '@/data/nostrArticles.json';
 
 export const BLOG_PUBKEY = '83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19';
 export const BLOG_RELAYS = ['wss://nos.lol', 'wss://relay.damus.io'];
+export const BLOG_PROFILE_RELAYS = [...BLOG_RELAYS, 'wss://relay.vertexlab.io'];
 
 // Old site image URLs embedded in signed posts now return 404. Preserve the
 // signed event and use existing site artwork where an equivalent survives.
@@ -119,7 +120,7 @@ export function renderBlogMarkdown(content: string): string {
     // eslint-disable-next-line import/no-named-as-default-member
     allowedTags: [...sanitizeHtml.defaults.allowedTags, 'img'],
     allowedAttributes: {
-      a: ['href', 'title', 'rel'],
+      a: ['href', 'title', 'rel', 'target'],
       img: ['src', 'alt', 'title', 'loading', 'decoding'],
       code: ['class'],
     },
@@ -127,7 +128,7 @@ export function renderBlogMarkdown(content: string): string {
     transformTags: {
       a: (_name, attributes) => {
         const href = attributes.href?.replace(/^nostr:/i, 'https://njump.me/');
-        return { tagName: 'a', attribs: { ...attributes, href, rel: 'noopener noreferrer' } };
+        return { tagName: 'a', attribs: { ...attributes, href, target: '_blank', rel: 'noopener noreferrer' } };
       },
       img: (_name, attributes) => ({
         tagName: 'img',

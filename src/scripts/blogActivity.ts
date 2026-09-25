@@ -147,6 +147,7 @@ export function mountBlogActivity(section: HTMLElement) {
   const address = section.dataset.articleAddress;
   const { articleId } = section.dataset;
   const relays = section.dataset.relays?.split(' ').filter(Boolean) ?? [];
+  const profileRelays = section.dataset.profileRelays?.split(' ').filter(Boolean) ?? relays;
   if (!address || !articleId || !relays.length) {
     return () => {};
   }
@@ -190,7 +191,7 @@ export function mountBlogActivity(section: HTMLElement) {
         if (authors?.size) {
           try {
             const profiles = await pool.querySync(
-              relays,
+              profileRelays,
               { kinds: [0], authors: [...authors.keys()], limit: Math.min(authors.size * 4, 100) },
               { maxWait: 3500 }
             );
