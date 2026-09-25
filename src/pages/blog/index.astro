@@ -27,10 +27,21 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <p class="blog-eyebrow">Sovereign Engineering</p>
           <h1>Blog</h1>
           <p class="blog-hero-subtitle">Notes from the frontier of freedom tech.</p>
-          <a class="btn-retro inline-block mt-6" href="/blog/rss.xml" type="application/rss+xml">
-            <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
-            RSS
-          </a>
+          <div class="mt-6 flex flex-wrap gap-4">
+            <a class="btn-retro" href="/blog/rss.xml" type="application/rss+xml">
+              <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
+              RSS
+            </a>
+            <a
+              href="https://njump.to/sovereignengineering.io"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-retro"
+            >
+              <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
+              <span class="sr-only">Nostr Profile</span>
+            </a>
+          </div>
         </div>
         <div class="blog-hero-visual">
           <img
