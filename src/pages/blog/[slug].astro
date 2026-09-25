@@ -29,12 +29,14 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
     <div class="container blog-container">
       <article>
         <header class="blog-article-header">
+          <p class="blog-eyebrow">
+            <time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time>
+          </p>
           <h1>{article.title}</h1>
           {article.summary && <p class="blog-article-summary">{article.summary}</p>}
-          <div class="blog-article-meta">
-            <time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time>
-            {article.updatedAt > article.publishedAt + 86400 && <span>Updated {date(article.updatedAt)}</span>}
-          </div>
+          {article.updatedAt > article.publishedAt + 86400 && (
+            <div class="blog-article-meta">Updated {date(article.updatedAt)}</div>
+          )}
         </header>
         {article.image && <img class="blog-article-cover" src={blogCoverSrc(article.image, 960)} srcset={blogCoverSrcSet(article.image, [960, 1600])} sizes="(max-width: 900px) 100vw, 900px" alt="" decoding="async" />}
         <div class="blog-article-content" set:html={article.html} />
