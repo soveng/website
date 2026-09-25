@@ -91,36 +91,41 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         ))}
       </ol>
       {!featured && <p>No articles available yet. <a href="https://njump.me/sovereignengineering.io">Read us on Nostr.</a></p>}
-      <section class="mt-8 flex flex-wrap gap-4" aria-label="Follow the blog">
-        <a class="btn-retro" href="/blog/rss.xml" type="application/rss+xml">
-          <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
-          RSS
-        </a>
-        <a
-          href="https://ants.sh/p/sovereignengineering.io?q=is:longform"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="btn-retro"
-        >
-          <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
-          <span class="sr-only">Nostr Profile</span>
-        </a>
+      {featured && (
+        <figure class="blog-endmark" aria-hidden="true">
+          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
+        </figure>
+      )}
+      <section class="blog-cta" aria-labelledby="blog-follow-title">
+        <p class="blog-eyebrow">Get updates</p>
+        <h2 id="blog-follow-title">Follow along</h2>
+        <p>Get new posts in your RSS reader or follow us on Nostr.</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="btn-retro" href="/blog/rss.xml" type="application/rss+xml">
+            <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
+            RSS
+          </a>
+          <a
+            href="https://ants.sh/p/sovereignengineering.io?q=is:longform"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-retro"
+          >
+            <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
+            <span class="sr-only">Nostr Profile</span>
+          </a>
+        </div>
       </section>
       {featured && (
-        <>
-          <figure class="blog-endmark" aria-hidden="true">
-            <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
-          </figure>
-          <div class="blog-podcast-cta">
-            <p class="blog-eyebrow">No Solutions</p>
-            <h2>Only Trade-Offs</h2>
-            <p>
-              We talk, we walk, we ship on Fridays. No Solutions is the podcast where we keep arguing about the same work:
-              builders, protocols, and the trade-offs behind it.
-            </p>
-            <a href="/podcast" class="btn-retro">Listen to No Solutions</a>
-          </div>
-        </>
+        <section class="blog-cta" aria-labelledby="blog-podcast-title">
+          <p class="blog-eyebrow">No Solutions</p>
+          <h2 id="blog-podcast-title">Only Trade-Offs</h2>
+          <p>
+            We talk, we walk, we ship on Fridays. No Solutions is the podcast where we keep arguing about the same work:
+            builders, protocols, and the trade-offs behind it.
+          </p>
+          <a href="/podcast" class="btn-retro">Listen to No Solutions</a>
+        </section>
       )}
     </section>
   </div>

@@ -221,16 +221,20 @@
   transform: scaleX(-1);
 }
 
-.blog-podcast-cta {
+.blog-cta {
   max-width: 40rem;
   margin-top: 2rem;
 }
 
-.blog-podcast-cta .blog-eyebrow {
+.blog-cta + .blog-cta {
+  margin-top: 3rem;
+}
+
+.blog-cta .blog-eyebrow {
   margin: 0;
 }
 
-.blog-podcast-cta h2 {
+.blog-cta h2 {
   margin: 0.75rem 0 0;
   color: #fff;
   font-family: var(--font-secondary);
@@ -240,14 +244,14 @@
   text-transform: none;
 }
 
-.blog-podcast-cta > p:not(.blog-eyebrow) {
+.blog-cta > p:not(.blog-eyebrow) {
   margin: 0.75rem 0 0;
   color: #d1d5db;
   font-size: 1.125rem;
   line-height: 1.625;
 }
 
-.blog-podcast-cta .btn-retro {
+.blog-cta .btn-retro {
   display: inline-block;
   margin-top: 1.5rem;
 }
