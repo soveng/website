@@ -1,0 +1,422 @@
+---
+import Base from '@/layouts/Base.astro';
+import alumniSocialImage from '@/assets/images/endurance-crew-playing-football.jpg';
+import { getAlumniProfileViewModel, getSovEngAlumniDirectory } from '@/lib/sovengAlumni';
+import '@/styles/projects.css';
+
+const alumni = getSovEngAlumniDirectory()
+  .map(getAlumniProfileViewModel)
+  .filter((profile) => profile.picture || profile.about);
+const sourceMembershipHref = alumni[0]?.sourceHref;
+const heroCopy = 'Builders, designers, and founders from Sovereign Engineering working on a freer internet with Bitcoin, Nostr, and open protocols.';
+const alphabet = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+
+function initialForName(name: string): string {
+  const initial = name.normalize('NFD').charAt(0).toUpperCase();
+  return /^[A-Z]$/.test(initial) ? initial : '#';
+}
+
+const firstIndexByInitial = new Map<string, number>();
+const cards = alumni.map((profile, index) => {
+  const initial = initialForName(profile.displayName);
+  const firstIndex = firstIndexByInitial.get(initial);
+  if (firstIndex === undefined) {
+    firstIndexByInitial.set(initial, index);
+  }
+  return { ...profile, index, initial };
+});
+const availableInitials = alphabet.filter((initial) => firstIndexByInitial.has(initial));
+const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, index) => cards.slice(index * 4, index * 4 + 4));
+---
+
+<Base
+  title="Alumni"
+  meta_title="Alumni"
+  description={heroCopy}
+  image={alumniSocialImage.src}
+  showCallToAction={true}
+>
+  <div class="alumni-page">
+    <section class="alumni-hero bg-black pt-24 pb-6 text-white sm:pt-28 sm:pb-8" aria-labelledby="alumni-title">
+      <div class="container max-w-[1120px]">
+        <div class="alumni-hero-copy">
+          <h1 id="alumni-title" class="projects-display projects-headline text-5xl leading-none text-white sm:text-7xl lg:text-8xl">
+            Alumni
+          </h1>
+          <p class="projects-body alumni-hero-lede mt-6 max-w-3xl text-lg leading-relaxed text-gray-300 sm:text-xl">{heroCopy}</p>
+          {sourceMembershipHref && (
+            <a class="btn-retro mt-6 inline-block" href={sourceMembershipHref} target="_blank" rel="noopener noreferrer">
+              Follow alumni on Nostr
+            </a>
+          )}
+        </div>
+      </div>
+    </section>
+
+    <section id="alumni-directory" class="alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20" aria-label="Sovereign Engineering alumni profiles">
+      <div class="container max-w-[1120px]">
+        <nav class="alumni-alphabet" aria-label="Jump to alumni by first letter">
+          <div class="alumni-alphabet-letters">
+            {availableInitials.map((initial) => (
+              <a class="alumni-alphabet-link" href={`#alumni-${initial === '#' ? 'other' : initial.toLowerCase()}`} aria-label={initial === '#' ? 'Jump to other names' : `Jump to names starting with ${initial}`}>{initial}</a>
+            ))}
+          </div>
+        </nav>
+        <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
+          {
+            alumniGroups.map((group) => (
+              <div class:list={['alumni-card-group', { 'alumni-card-group--pair': group.length > 1, 'alumni-card-group--second-row': group.length > 2 }]}>
+                {group.map((profile) => (
+                  <a
+                    id={firstIndexByInitial.get(profile.initial) === profile.index ? `alumni-${profile.initial === '#' ? 'other' : profile.initial.toLowerCase()}` : undefined}
+                    class="alumni-card"
+                    href={profile.profileHref}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`Open ${profile.displayName} on npub.world`}
+                  >
+                    <div class="alumni-card-top">
+                      <span class="alumni-avatar" aria-hidden="true">
+                        {profile.picture && (
+                          <img
+                            class="alumni-avatar-image"
+                            src={profile.picture}
+                            alt=""
+                            width="64"
+                            height="64"
+                            loading={profile.index < 6 ? 'eager' : 'lazy'}
+                            decoding="async"
+                            fetchpriority={profile.index < 3 ? 'high' : 'auto'}
+                            referrerpolicy="no-referrer"
+                            data-alumni-avatar-image
+                          />
+                        )}
+                        <span class="alumni-avatar-fallback">{profile.initials}</span>
+                      </span>
+
+                      <div class="alumni-card-identity">
+                        <h3 class="projects-display alumni-card-title">
+                          {profile.displayName}
+                        </h3>
+                        <p class="alumni-handle">{profile.handle}</p>
+                      </div>
+                    </div>
+
+                    {profile.about && <p class="projects-body alumni-about">{profile.about}</p>}
+                  </a>
+                ))}
+              </div>
+            ))
+          }
+        </div>
+        <figure class="alumni-endmark" aria-hidden="true">
+          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
+        </figure>
+        <section class="alumni-podcast" aria-labelledby="alumni-podcast-title">
+          <p class="alumni-podcast-eyebrow">No Solutions</p>
+          <h2 id="alumni-podcast-title">Alumni Dialogues</h2>
+          <p>Listen to recorded dialogues with Gigi and Sovereign Engineering alumni on the No Solutions podcast.</p>
+          <a href="/podcast" class="btn-retro">Listen to No Solutions</a>
+        </section>
+      </div>
+    </section>
+
+  </div>
+</Base>
+
+<script is:inline>
+  (() => {
+    document.querySelectorAll('[data-alumni-avatar-image]').forEach((avatarImage) => {
+      if (!(avatarImage instanceof HTMLImageElement)) {
+        return;
+      }
+      avatarImage.addEventListener('error', () => avatarImage.remove(), { once: true });
+    });
+
+  })();
+</script>
+
+<style>
+  .alumni-page {
+    background: #000;
+    color: #fff;
+  }
+
+  .alumni-endmark {
+    margin: 4rem 0 0;
+  }
+
+  .alumni-endmark img {
+    display: block;
+    width: min(100%, 36rem);
+    height: auto;
+    margin: 0 auto;
+    transform: scaleX(-1);
+  }
+
+  .alumni-podcast {
+    max-width: 40rem;
+    margin-top: 2rem;
+  }
+
+  .alumni-podcast h2 {
+    margin: 0.75rem 0 0;
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 2.25rem;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  .alumni-podcast-eyebrow {
+    margin: 0;
+    color: #ed3238;
+    font-family: 'IM Fell Double Pica', Georgia, serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+  }
+
+  .alumni-podcast > p:not(.alumni-podcast-eyebrow) {
+    margin: 0.75rem 0 0;
+    color: #d1d5db;
+    font-size: 1.125rem;
+    line-height: 1.625;
+  }
+
+  .alumni-podcast .btn-retro {
+    display: inline-block;
+    margin-top: 1.5rem;
+  }
+
+  .alumni-hero {
+    min-height: 0;
+    position: relative;
+  }
+
+  .alumni-hero::before {
+    background:
+      radial-gradient(circle at 18% 18%, color-mix(in srgb, var(--color-primary) 18%, transparent), transparent 32rem),
+      linear-gradient(135deg, rgb(255 255 255 / 6%) 0 1px, transparent 1px 100%);
+    background-size:
+      auto,
+      48px 48px;
+    content: '';
+    inset: 0;
+    opacity: 0.22;
+    pointer-events: none;
+    position: absolute;
+  }
+
+  .alumni-hero > .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .alumni-hero-copy {
+    max-width: 56rem;
+  }
+
+  .alumni-hero-lede {
+    text-wrap: balance;
+  }
+
+  .alumni-directory {
+    position: relative;
+  }
+
+  .alumni-alphabet {
+    align-items: baseline;
+    display: none;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .alumni-alphabet-letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+  }
+
+  .alumni-alphabet-link {
+    align-items: center;
+    display: inline-flex;
+    font-size: 0.9rem;
+    height: 2rem;
+    justify-content: center;
+    min-width: 2rem;
+  }
+
+  .alumni-alphabet-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .alumni-alphabet-link:hover,
+  .alumni-alphabet-link:focus-visible {
+    background: rgb(255 255 255 / 12%);
+    color: var(--color-primary);
+  }
+
+  .alumni-alphabet-link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .alumni-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .alumni-card-group {
+    border: 1px solid rgb(255 255 255 / 9%);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    isolation: isolate;
+    position: relative;
+  }
+
+  .alumni-card + .alumni-card {
+    border-top: 1px solid rgb(255 255 255 / 9%);
+  }
+
+  .alumni-card {
+    background: #050505;
+    color: inherit;
+    contain: layout paint;
+    display: block;
+    min-height: 15rem;
+    padding: 1.1rem;
+    scroll-margin-top: 6rem;
+    text-decoration: none;
+    transition: background-color 150ms ease;
+  }
+
+  .alumni-card:hover {
+    background-color: #090909;
+  }
+
+  @media (min-width: 720px) {
+    .alumni-alphabet {
+      display: flex;
+    }
+
+    .alumni-card-group {
+      grid-auto-rows: minmax(15rem, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .alumni-card + .alumni-card {
+      border-top: 0;
+    }
+
+    .alumni-card-group--pair::after,
+    .alumni-card-group--second-row::before {
+      content: '';
+      pointer-events: none;
+      position: absolute;
+      z-index: 2;
+    }
+
+    .alumni-card-group--pair::after {
+      background: linear-gradient(to bottom, transparent, rgb(255 255 255 / 18%) 22%, #fff 50%, rgb(255 255 255 / 18%) 78%, transparent);
+      bottom: 0;
+      left: calc(50% - 1px);
+      top: 0;
+      width: 2px;
+    }
+
+    .alumni-card-group--second-row::before {
+      background: linear-gradient(to right, transparent, rgb(255 255 255 / 18%) 22%, #fff 50%, rgb(255 255 255 / 18%) 78%, transparent);
+      height: 2px;
+      left: 0;
+      right: 0;
+      top: calc(50% - 1px);
+    }
+  }
+
+  .alumni-card-top {
+    align-items: flex-start;
+    display: flex;
+    gap: 0.9rem;
+  }
+
+  .alumni-avatar {
+    align-items: center;
+    background: #111;
+    border: 1px solid rgb(255 255 255 / 12%);
+    color: var(--color-primary);
+    display: inline-flex;
+    flex: 0 0 auto;
+    font-family: var(--font-secondary);
+    font-size: 1.45rem;
+    height: 4rem;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: 4rem;
+  }
+
+  .alumni-avatar-image {
+    display: block;
+    height: 100%;
+    inset: 0;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .alumni-avatar-fallback {
+    transform: translateY(0.05em);
+  }
+
+  .alumni-card-identity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    min-width: 0;
+  }
+
+  .alumni-card-title {
+    color: #fff;
+    font-size: 1.35rem;
+    line-height: 1.05;
+    margin: 0;
+    text-transform: none;
+    transition: color 150ms ease;
+  }
+
+  .alumni-card:hover .alumni-card-title,
+  .alumni-card:focus-visible .alumni-card-title {
+    color: var(--color-primary);
+  }
+
+  .alumni-handle {
+    color: rgb(255 255 255 / 42%);
+    font-family: var(--font-primary);
+    font-size: 0.82rem;
+    line-height: 1.35;
+    margin: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .alumni-about {
+    color: rgb(255 255 255 / 62%);
+    display: -webkit-box;
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin: 0.95rem 0 0;
+    min-height: 4.1rem;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+
+  .alumni-card:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: -2px;
+  }
+</style>

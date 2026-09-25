@@ -1,0 +1,213 @@
+#!/usr/bin/env bun
+import { createHash } from 'node:crypto';
+import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises';
+import { join } from 'node:path';
+import sharp from 'sharp';
+import sanitizeHtml from 'sanitize-html';
+
+const ROOT = new URL('..', import.meta.url);
+const DATA_PATH = new URL('src/data/sovengAlumni.json', `${ROOT}/`);
+const MANIFEST_PATH = new URL('src/data/sovengAlumniAvatarCache.json', `${ROOT}/`);
+const OUTPUT_DIR = new URL('public/images/alumni/avatars/', `${ROOT}/`);
+const PUBLIC_PREFIX = '/images/alumni/avatars/';
+const AVATAR_SIZE = 128;
+const CONCURRENCY = 6;
+const MAX_IMAGE_BYTES = 6 * 1024 * 1024;
+const REQUEST_TIMEOUT_MS = 20_000;
+const USER_AGENT = 'SovereignEngineering.io alumni avatar cache (+https://sovereignengineering.io/alumni)';
+const STRICT = process.argv.includes('--strict');
+
+function cleanText(value) {
+  if (typeof value !== 'string') return undefined;
+  const cleaned = value.replace(/\s+/g, ' ').trim();
+  return cleaned.length > 0 ? cleaned : undefined;
+}
+
+function safeImageUrl(value) {
+  const imageHref = cleanText(value);
+  if (!imageHref) return undefined;
+
+  try {
+    const url = new URL(imageHref);
+    if (url.protocol !== 'https:') return undefined;
+    if (url.username || url.password) return undefined;
+    if (!url.hostname) return undefined;
+    return url.href;
+  } catch {
+    return undefined;
+  }
+}
+
+function sha256(buffer) {
+  return createHash('sha256').update(buffer).digest('hex');
+}
+
+function avatarFileName(profile) {
+  return `${profile.npub}.webp`;
+}
+
+async function fetchAvatar(source, accept = 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8') {
+  const response = await fetch(source, {
+    headers: { accept, 'user-agent': USER_AGENT },
+    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+  });
+
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+  const contentLength = Number(response.headers.get('content-length') || 0);
+  if (contentLength > MAX_IMAGE_BYTES) throw new Error(`too large: ${contentLength} bytes`);
+
+  const input = Buffer.from(await response.arrayBuffer());
+  if (input.length > MAX_IMAGE_BYTES) throw new Error(`too large: ${input.length} bytes`);
+  return input;
+}
+
+async function fetchProfileAvatar(profileUrl) {
+  const html = (await fetchAvatar(profileUrl, 'text/html')).toString('utf8');
+  let avatar;
+  sanitizeHtml(html, {
+    transformTags: {
+      img: (tagName, attribs) => {
+        // Use the account's avatar, never a page thumbnail or another user's image.
+        if (attribs.alt === 'Profile Avatar' && !avatar) avatar = attribs.src;
+        return { tagName, attribs };
+      },
+    },
+  });
+  if (!avatar) throw new Error('No profile avatar available on npub.world');
+  // npub.world renders its generic user icon as an inline SVG when no photo exists.
+  if (avatar.startsWith('data:image/svg+xml')) throw new Error('npub.world has a placeholder, not a profile picture');
+  const embedded = /^data:image\/(?:webp|png|jpeg|gif|avif);base64,([A-Za-z0-9+/=]+)$/.exec(avatar);
+  if (embedded) return Buffer.from(embedded[1], 'base64');
+  const url = safeImageUrl(new URL(avatar, profileUrl).href);
+  if (!url) throw new Error('Unsupported profile avatar URL');
+  return fetchAvatar(url);
+}
+
+async function renderAvatar(input) {
+  return await sharp(input, { animated: false, failOn: 'none', limitInputPixels: 16_000_000 })
+    .rotate()
+    .resize(AVATAR_SIZE, AVATAR_SIZE, { fit: 'cover' })
+    .webp({ effort: 4, quality: 78 })
+    .toBuffer();
+}
+
+async function processProfile(profile) {
+  const source = safeImageUrl(profile.picture);
+  let output;
+  let resolvedFrom;
+  try {
+    if (!source) throw new Error('No picture URL in profile');
+    output = await renderAvatar(await fetchAvatar(source));
+  } catch {
+    resolvedFrom = `https://npub.world/${profile.npub}`;
+    output = await renderAvatar(await fetchProfileAvatar(resolvedFrom));
+  }
+  const filename = avatarFileName(profile);
+  await writeFile(new URL(filename, OUTPUT_DIR), output);
+
+  return {
+    status: 'cached',
+    profile,
+    entry: {
+      src: `${PUBLIC_PREFIX}${filename}`,
+      source: source ?? null,
+      ...(resolvedFrom ? { resolvedFrom } : {}),
+      width: AVATAR_SIZE,
+      height: AVATAR_SIZE,
+      bytes: output.length,
+      sha256: sha256(output),
+    },
+  };
+}
+
+async function mapConcurrent(items, mapper, concurrency) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      try {
+        results[index] = await mapper(items[index], index);
+      } catch (error) {
+        results[index] = { status: 'failed', profile: items[index], error };
+      }
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
+}
+
+async function removeStaleFiles(keep) {
+  const files = await readdir(OUTPUT_DIR).catch(() => []);
+  await Promise.all(
+    files
+      .filter((file) => file.endsWith('.webp') && !keep.has(file))
+      .map((file) => unlink(join(OUTPUT_DIR.pathname, file))),
+  );
+}
+
+const profiles = JSON.parse(await readFile(DATA_PATH, 'utf8'));
+
+await mkdir(OUTPUT_DIR, { recursive: true });
+const previousCache = JSON.parse(await readFile(MANIFEST_PATH, 'utf8').catch(() => '{"avatars":{}}'));
+const results = await mapConcurrent(profiles, processProfile, CONCURRENCY);
+const failures = results.filter((result) => result.status === 'failed');
+
+for (const failure of failures) {
+  console.warn(`${failure.profile.npub}: ${failure.error?.message || failure.error}`);
+}
+
+if (STRICT && failures.length > 0) {
+  throw new Error(`Failed to cache ${failures.length} alumni avatar(s)`);
+}
+
+const avatars = Object.fromEntries(
+  results
+    .filter((result) => result.status === 'cached')
+    .map((result) => [result.profile.npub, result.entry])
+    .sort(([left], [right]) => left.localeCompare(right)),
+);
+// Preserve a usable cached avatar when its upstream host is temporarily down.
+for (const { profile } of failures) {
+  const cached = previousCache.avatars?.[profile.npub];
+  if (cached && cached.source === (safeImageUrl(profile.picture) ?? null) && cached.src === `${PUBLIC_PREFIX}${avatarFileName(profile)}`) {
+    const exists = await readFile(new URL(avatarFileName(profile), OUTPUT_DIR)).then(() => true, () => false);
+    if (exists) avatars[profile.npub] = cached;
+  }
+}
+const failed = Object.fromEntries(
+  failures
+    .filter((failure) => !avatars[failure.profile.npub])
+    .map((failure) => [
+      failure.profile.npub,
+      {
+        source: safeImageUrl(failure.profile.picture),
+        error: failure.error?.message || String(failure.error),
+      },
+    ])
+    .sort(([left], [right]) => left.localeCompare(right)),
+);
+
+await removeStaleFiles(new Set(Object.values(avatars).map((entry) => entry.src.replace(PUBLIC_PREFIX, ''))));
+await writeFile(
+  MANIFEST_PATH,
+  `${JSON.stringify(
+    {
+      generatedAt: new Date().toISOString(),
+      format: 'webp',
+      width: AVATAR_SIZE,
+      height: AVATAR_SIZE,
+      avatars,
+      failed,
+    },
+    null,
+    2,
+  )}\n`,
+);
+
+console.log(`Cached ${Object.keys(avatars).length}/${profiles.length} alumni avatars to ${OUTPUT_DIR.pathname}`);
+if (failures.length > 0) console.log(`Skipped ${failures.length} unavailable upstream avatar(s); retained matching cached images where available.`);

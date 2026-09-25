@@ -48,15 +48,23 @@ const processedTitle = await plainify(meta_title ? meta_title : title ? title : 
 const processedDescription = await plainify(
   description ? description : config.metadata.meta_description
 );
-const socialImage = typeof image === "string" ? image : image?.src;
-const socialImagePath = socialImage || config.metadata.meta_image;
-const socialImageUrl = socialImagePath.startsWith("http")
-  ? socialImagePath
-  : new URL(socialImagePath, config.site.base_url).toString();
 const canonicalUrl = canonical
   ? canonical
   : new URL(Astro.url.pathname, config.site.base_url).toString();
 const processedImageAlt = await plainify(image_alt || title || config.site.title);
+const vercelPreviewUrl = process.env.VERCEL_ENV === "preview" ? process.env.VERCEL_URL : undefined;
+const siteBaseUrl = (vercelPreviewUrl
+  ? vercelPreviewUrl.startsWith("http")
+    ? vercelPreviewUrl
+    : `https://${vercelPreviewUrl}`
+  : config.site.base_url
+).replace(/\/$/, "");
+const pageUrl = canonical || new URL(Astro.url.pathname, `${siteBaseUrl}/`).toString();
+const socialImage = typeof image === "string" ? image : image?.src;
+const socialImagePath = socialImage || config.metadata.meta_image;
+const socialImageUrl = socialImagePath.startsWith("http")
+  ? socialImagePath
+  : new URL(socialImagePath, `${siteBaseUrl}/`).toString();
 
 // Get call-to-action data if needed
 const call_to_action = showCallToAction ? (await getEntry(
@@ -164,7 +172,7 @@ const call_to_action = showCallToAction ? (await getEntry(
     <meta property="og:type" content="website" />
     <meta
       property="og:url"
-      content={canonicalUrl}
+      content={pageUrl}
     />
 
     <!-- twitter-title -->

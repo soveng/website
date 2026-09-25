@@ -52,13 +52,10 @@
       {
         "title": "Community",
         "links": [
+          { "name": "Alumni", "url": "/alumni" },
           { "name": "Swag", "url": "/swag" },
           { "name": "Contest", "url": "https://tshirt.sovereignengineering.io/results" },
-          { "name": "Media", "url": "/media" },
-          {
-            "name": "Alumni",
-            "url": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19"
-          }
+          { "name": "Media", "url": "/media" }
         ]
       }
     ]

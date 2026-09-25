@@ -1,5 +1,7 @@
 # build output
 dist/
+public/images/alumni/avatars/
+src/data/sovengAlumniAvatarCache.json
 .output/
 .json/
 
