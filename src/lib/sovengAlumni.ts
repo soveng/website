@@ -56,7 +56,8 @@ export interface AlumniProfileViewModel {
 
 interface AlumniAvatarCacheEntry {
   src?: string;
-  source?: string;
+  source?: string | null;
+  resolvedFrom?: string;
   width?: number;
   height?: number;
   bytes?: number;
@@ -164,12 +165,11 @@ export function getSafeProfileImageHref(value: unknown): string | undefined {
 
 function getCachedProfileImageHref(npub: string, sourcePicture: unknown): string | undefined {
   const source = getSafeProfileImageHref(sourcePicture);
-  if (!source) {
+  const cached = alumniAvatarCache.avatars?.[npub];
+  if (!cached || cached.source !== (source ?? null)) {
     return undefined;
   }
-
-  const cached = alumniAvatarCache.avatars?.[npub];
-  if (!cached || cached.source !== source) {
+  if (!source && cached.resolvedFrom !== `https://npub.world/${npub}`) {
     return undefined;
   }
 

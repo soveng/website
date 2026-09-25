@@ -26,7 +26,7 @@ function safeImageUrl(value) {
   }
 }
 
-const profilesWithRemoteAvatars = data.filter((profile) => safeImageUrl(profile.picture));
+const profilesWithRemoteAvatars = data;
 const avatars = cache.avatars ?? {};
 const failed = cache.failed ?? {};
 
@@ -44,7 +44,7 @@ for (const profile of profilesWithRemoteAvatars) {
     continue;
   }
 
-  assert.equal(entry.source, source, `stale cache source for ${profile.npub}`);
+  assert.equal(entry.source, source ?? null, `stale cache source for ${profile.npub}`);
   assert.match(entry.src, /^\/images\/alumni\/avatars\/npub1.+\.webp$/, `unexpected local avatar path for ${profile.npub}`);
   assert.equal(entry.width, 128, `unexpected avatar width for ${profile.npub}`);
   assert.equal(entry.height, 128, `unexpected avatar height for ${profile.npub}`);

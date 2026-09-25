@@ -3,6 +3,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, readdir, readFile, unlink, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import sharp from 'sharp';
+import sanitizeHtml from 'sanitize-html';
 
 const ROOT = new URL('..', import.meta.url);
 const DATA_PATH = new URL('src/data/sovengAlumni.json', `${ROOT}/`);
@@ -45,9 +46,9 @@ function avatarFileName(profile) {
   return `${profile.npub}.webp`;
 }
 
-async function fetchAvatar(source) {
+async function fetchAvatar(source, accept = 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8') {
   const response = await fetch(source, {
-    headers: { accept: 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'user-agent': USER_AGENT },
+    headers: { accept, 'user-agent': USER_AGENT },
     signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
   });
 
@@ -61,6 +62,28 @@ async function fetchAvatar(source) {
   return input;
 }
 
+async function fetchProfileAvatar(profileUrl) {
+  const html = (await fetchAvatar(profileUrl, 'text/html')).toString('utf8');
+  let avatar;
+  sanitizeHtml(html, {
+    transformTags: {
+      img: (tagName, attribs) => {
+        // Use the account's avatar, never a page thumbnail or another user's image.
+        if (attribs.alt === 'Profile Avatar' && !avatar) avatar = attribs.src;
+        return { tagName, attribs };
+      },
+    },
+  });
+  if (!avatar) throw new Error('No profile avatar available on npub.world');
+  // npub.world renders its generic user icon as an inline SVG when no photo exists.
+  if (avatar.startsWith('data:image/svg+xml')) throw new Error('npub.world has a placeholder, not a profile picture');
+  const embedded = /^data:image\/(?:webp|png|jpeg|gif|avif);base64,([A-Za-z0-9+/=]+)$/.exec(avatar);
+  if (embedded) return Buffer.from(embedded[1], 'base64');
+  const url = safeImageUrl(new URL(avatar, profileUrl).href);
+  if (!url) throw new Error('Unsupported profile avatar URL');
+  return fetchAvatar(url);
+}
+
 async function renderAvatar(input) {
   return await sharp(input, { animated: false, failOn: 'none', limitInputPixels: 16_000_000 })
     .rotate()
@@ -71,10 +94,15 @@ async function renderAvatar(input) {
 
 async function processProfile(profile) {
   const source = safeImageUrl(profile.picture);
-  if (!source) return { status: 'skipped', profile };
-
-  const input = await fetchAvatar(source);
-  const output = await renderAvatar(input);
+  let output;
+  let resolvedFrom;
+  try {
+    if (!source) throw new Error('No picture URL in profile');
+    output = await renderAvatar(await fetchAvatar(source));
+  } catch {
+    resolvedFrom = `https://npub.world/${profile.npub}`;
+    output = await renderAvatar(await fetchProfileAvatar(resolvedFrom));
+  }
   const filename = avatarFileName(profile);
   await writeFile(new URL(filename, OUTPUT_DIR), output);
 
@@ -83,7 +111,8 @@ async function processProfile(profile) {
     profile,
     entry: {
       src: `${PUBLIC_PREFIX}${filename}`,
-      source,
+      source: source ?? null,
+      ...(resolvedFrom ? { resolvedFrom } : {}),
       width: AVATAR_SIZE,
       height: AVATAR_SIZE,
       bytes: output.length,
@@ -122,11 +151,10 @@ async function removeStaleFiles(keep) {
 }
 
 const profiles = JSON.parse(await readFile(DATA_PATH, 'utf8'));
-const profilesWithPictures = profiles.filter((profile) => safeImageUrl(profile.picture));
 
 await mkdir(OUTPUT_DIR, { recursive: true });
 const previousCache = JSON.parse(await readFile(MANIFEST_PATH, 'utf8').catch(() => '{"avatars":{}}'));
-const results = await mapConcurrent(profilesWithPictures, processProfile, CONCURRENCY);
+const results = await mapConcurrent(profiles, processProfile, CONCURRENCY);
 const failures = results.filter((result) => result.status === 'failed');
 
 for (const failure of failures) {
@@ -146,7 +174,7 @@ const avatars = Object.fromEntries(
 // Preserve a usable cached avatar when its upstream host is temporarily down.
 for (const { profile } of failures) {
   const cached = previousCache.avatars?.[profile.npub];
-  if (cached?.source === safeImageUrl(profile.picture) && cached.src === `${PUBLIC_PREFIX}${avatarFileName(profile)}`) {
+  if (cached && cached.source === (safeImageUrl(profile.picture) ?? null) && cached.src === `${PUBLIC_PREFIX}${avatarFileName(profile)}`) {
     const exists = await readFile(new URL(avatarFileName(profile), OUTPUT_DIR)).then(() => true, () => false);
     if (exists) avatars[profile.npub] = cached;
   }
@@ -181,5 +209,5 @@ await writeFile(
   )}\n`,
 );
 
-console.log(`Cached ${Object.keys(avatars).length}/${profilesWithPictures.length} alumni avatars to ${OUTPUT_DIR.pathname}`);
+console.log(`Cached ${Object.keys(avatars).length}/${profiles.length} alumni avatars to ${OUTPUT_DIR.pathname}`);
 if (failures.length > 0) console.log(`Skipped ${failures.length} unavailable upstream avatar(s); retained matching cached images where available.`);
