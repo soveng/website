@@ -81,6 +81,11 @@ export const cohortIntros: Record<string, CohortIntro> = {
       },
     ],
   },
+  'SEC-08': {
+    theme: 'YOLO++',
+    paragraph:
+      'YOLO++: July–August 2026, six weeks of open exploration. Totem became a working hardware prototype; napplets found new homes on phones, desktops and the mesh. Native FIPS experiments, Nix packages over Blossom, merchant tools and games filled the Friday demos.',
+  },
 };
 
 export function getCohortIntro(cohort: string): CohortIntro | undefined {
