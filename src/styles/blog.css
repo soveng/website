@@ -55,26 +55,6 @@
   line-height: 1.55;
 }
 
-.blog-rss-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  margin-top: 1.5rem;
-  color: #f4aaa9;
-  font-family: 'IM Fell Double Pica', Georgia, serif;
-  font-size: 1rem;
-  text-decoration-color: #ed3238;
-  text-underline-offset: 0.22rem;
-}
-
-.blog-rss-link:hover {
-  color: #fff;
-}
-
-.blog-rss-link i {
-  font-size: 0.85em;
-}
-
 .blog-hero-visual {
   position: relative;
   aspect-ratio: 4 / 3;

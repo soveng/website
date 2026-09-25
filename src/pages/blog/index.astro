@@ -1,5 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
+import DynamicIcon from '@/helpers/DynamicIcon';
 import { getBlogArticles } from '@/lib/blog';
 import { blogCoverSrc, blogCoverSrcSet } from '@/lib/blogImages';
 import '@/styles/blog.css';
@@ -26,7 +27,10 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <p class="blog-eyebrow">Sovereign Engineering</p>
           <h1>Blog</h1>
           <p class="blog-hero-subtitle">Notes from the frontier of freedom tech.</p>
-          <a class="blog-rss-link" href="/blog/rss.xml" type="application/rss+xml">RSS <i class="fa-solid fa-rss" aria-hidden="true"></i></a>
+          <a class="btn-retro inline-block mt-6" href="/blog/rss.xml" type="application/rss+xml">
+            <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
+            RSS
+          </a>
         </div>
         <div class="blog-hero-visual">
           <img
