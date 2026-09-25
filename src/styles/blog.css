@@ -319,8 +319,7 @@
 }
 
 .blog-article-content {
-  max-width: 72ch;
-  margin: 3rem auto 0;
+  margin: 3rem 0 0;
   color: #e5e0dd;
   font-size: 1.18rem;
   line-height: 1.7;
@@ -334,7 +333,7 @@
 .blog-article-content p,
 .blog-article-content li,
 .blog-article-content blockquote {
-  text-align: justify;
+  text-align: left;
   hyphens: auto;
 }
 
@@ -409,8 +408,7 @@
 }
 
 .blog-activity {
-  max-width: 72ch;
-  margin: 2rem auto 0;
+  margin: 2rem 0 0;
   display: grid;
   gap: 1rem;
 }
@@ -506,8 +504,7 @@
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  max-width: 72ch;
-  margin: 4rem auto 0;
+  margin: 4rem 0 0;
   padding-top: 1.5rem;
   border-top: 1px solid #555;
   font-size: 0.95rem;
