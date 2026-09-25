@@ -94,3 +94,10 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
     </section>
   </div>
 </Base>
+
+<script>
+  import { startBlogCityFlicker, stopBlogCityFlicker } from '@/scripts/blogCityFlicker';
+
+  document.addEventListener('astro:page-load', startBlogCityFlicker);
+  document.addEventListener('astro:before-swap', stopBlogCityFlicker);
+</script>
