@@ -17,8 +17,8 @@ assert.match(
 );
 assert.match(
   page,
-  /class="[^"]*alumni-source-link[^"]*"[\s\S]*Nostr follow-list[\s\S]*fa-arrow-up-right-from-square/,
-  'source link should sit under hero copy with the shared external-link icon'
+  /class="[^"]*btn-retro[^"]*"[\s\S]*Nostr follow list/,
+  'source link should sit under hero copy with the shared retro button style'
 );
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
 assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
@@ -45,11 +45,7 @@ assert.match(
   'card name should sit next to profile image'
 );
 assert.match(page, /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-handle/, 'handle should sit under the card name');
-assert.match(
-  page,
-  /class="[^"]*alumni-card-title[^"]*"[\s\S]*fa-arrow-up-right-from-square/,
-  'card title should use the smaller FontAwesome external-link icon'
-);
+assert.doesNotMatch(page, /fa-arrow-up-right-from-square|alumni-link-icon/, 'alumni names should have no external-link arrows');
 assert.match(
   page,
   /\.alumni-card:hover \.alumni-card-title,[\s\S]*\.alumni-card:focus-visible \.alumni-card-title/,
