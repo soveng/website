@@ -23,18 +23,6 @@ interface ProjectLink {
 const { cohort, projects, previousCohort, nextCohort } = Astro.props;
 const intro = getCohortIntro(cohort);
 const forwardLink = getCohortForwardLink(cohort);
-const firstProjectByInitial = new Map<string, ShowcaseProject>();
-
-if (projects.length >= 50) {
-  for (const project of projects) {
-    const firstCharacter = project.name.charAt(0).toUpperCase();
-    const initial = /^[0-9]$/.test(firstCharacter) ? '0–9' : firstCharacter;
-
-    if (!firstProjectByInitial.has(initial)) {
-      firstProjectByInitial.set(initial, project);
-    }
-  }
-}
 
 function projectLinks(project: ShowcaseProject): ProjectLink[] {
   const links: ProjectLink[] = [];
@@ -107,21 +95,6 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
       />
     </header>
 
-    {firstProjectByInitial.size > 0 && (
-      <nav id="project-index" class="cohort-project-index" aria-label="Jump to projects">
-        <span class="cohort-project-index-label">Jump to</span>
-        {Array.from(firstProjectByInitial, ([initial, project]) => (
-          <a
-            href={`#${slugifyProjectName(project.name)}`}
-            class="cohort-project-index-link"
-            aria-label={initial === '0–9' ? 'Jump to numbered projects' : `Jump to projects starting with ${initial}`}
-          >
-            {initial}
-          </a>
-        ))}
-      </nav>
-    )}
-
     <div class="cohort-project-list">
       {projects.map((project: ShowcaseProject) => {
         const links = projectLinks(project);
@@ -156,10 +129,6 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
         );
       })}
     </div>
-
-    {firstProjectByInitial.size > 0 && (
-      <a href="#project-index" class="cohort-project-index-back projects-link">↑ Back to index</a>
-    )}
 
     <CohortPager
       previousCohort={previousCohort}

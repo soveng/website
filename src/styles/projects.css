@@ -533,55 +533,6 @@
   color: rgb(255 255 255 / 25%);
 }
 
-.cohort-project-index {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1.25rem 0;
-  border-bottom: 1px solid rgb(255 255 255 / 10%);
-  scroll-margin-top: 8rem;
-}
-
-.cohort-project-index-label {
-  margin-right: 0.5rem;
-  font-size: 0.75rem;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: rgb(255 255 255 / 65%);
-}
-
-.cohort-project-index-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.5rem;
-  min-height: 2.5rem;
-  padding: 0 0.5rem;
-  border: 1px solid rgb(255 255 255 / 22%);
-  color: #fff;
-  font-family: var(--font-secondary);
-  font-size: 0.875rem;
-  text-decoration: none;
-}
-
-.cohort-project-index-link:hover,
-.cohort-project-index-link:focus-visible {
-  border-color: var(--color-primary);
-  color: var(--color-primary);
-}
-
-.cohort-project-index-link:focus-visible,
-.cohort-project-index-back:focus-visible {
-  outline: 2px solid var(--color-primary);
-  outline-offset: 2px;
-}
-
-.cohort-project-index-back {
-  display: inline-block;
-  margin-top: 1.5rem;
-}
-
 .cohort-project-list {
   display: flex;
   flex-direction: column;
