@@ -136,6 +136,7 @@ export function mountBlogActivity(section: HTMLElement) {
   const relays = section.dataset.relays?.split(' ').filter(Boolean) ?? [];
   const profileRelays = section.dataset.profileRelays?.split(' ').filter(Boolean) ?? relays;
   if (!address || !articleId || !relays.length) {
+    section.setAttribute('aria-busy', 'false');
     return () => {};
   }
 
@@ -222,6 +223,9 @@ export function mountBlogActivity(section: HTMLElement) {
         }
       });
     } finally {
+      if (active) {
+        section.setAttribute('aria-busy', 'false');
+      }
       pool.destroy();
     }
   })();

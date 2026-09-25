@@ -50,6 +50,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         data-profile-relays={BLOG_PROFILE_RELAYS.join(' ')}
         aria-label="Reactions and comments"
       >
+        <span class="blog-activity-spinner" aria-hidden="true"></span>
         <p class="sr-only" data-reaction-status role="status">Loading reactions…</p>
         <div class="blog-reaction-list" data-reaction-list aria-label="Reactions" hidden></div>
         <p class="sr-only" data-comment-status role="status">Loading comments…</p>
@@ -92,6 +93,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 
     async function load() {
       observer?.disconnect();
+      activitySection.setAttribute('aria-busy', 'true');
       try {
         const { mountBlogActivity } = await import('@/scripts/blogActivity');
         if (!disposed) {
@@ -101,6 +103,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         if (disposed) {
           return;
         }
+        activitySection.setAttribute('aria-busy', 'false');
         activitySection.querySelectorAll('[data-reaction-status], [data-comment-status]').forEach((status) => {
           status.textContent = 'Nostr activity is unavailable right now.';
         });
