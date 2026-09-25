@@ -87,8 +87,10 @@
 .blog-hero-visual::after {
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse 19% 24% at 67% 29%, #000 35%, rgb(0 0 0 / 85%) 68%, transparent 100%);
-  opacity: var(--city-dim, 0);
+  background:
+    radial-gradient(ellipse 19% 24% at 67% 29%, #000 30%, rgb(0 0 0 / 85%) 68%, transparent 100%),
+    radial-gradient(ellipse 110% 135% at 67% 29%, rgb(0 0 0 / 48%) 0%, rgb(0 0 0 / 28%) 38%, rgb(0 0 0 / 12%) 70%, transparent 100%);
+  opacity: var(--city-flicker, 0);
   pointer-events: none;
   content: '';
 }

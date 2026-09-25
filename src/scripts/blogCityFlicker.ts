@@ -31,7 +31,7 @@ export function startBlogCityFlicker(): void {
       window.clearTimeout(timer);
     }
     timer = undefined;
-    visual.style.removeProperty('--city-dim');
+    visual.style.removeProperty('--city-flicker');
   }
 
   function queue(first = false): void {
@@ -44,25 +44,35 @@ export function startBlogCityFlicker(): void {
       return;
     }
 
-    const changes = Math.floor(random(4, 9));
-    const deepAt = Math.floor(random(0, changes));
-    let index = 0;
+    const pulses = Math.floor(random(2, 7));
+    const deepAt = Math.floor(random(0, pulses));
+    let pulse = 0;
 
     function step(): void {
       if (!canRun()) {
         clear();
         return;
       }
-      if (index === changes) {
-        visual.style.removeProperty('--city-dim');
+      if (pulse === pulses) {
+        visual.style.removeProperty('--city-flicker');
         queue();
         return;
       }
 
-      const brightness = index === deepAt ? random(0.38, 0.6) : random(0.65, 0.96);
-      visual.style.setProperty('--city-dim', String(1 - brightness));
-      index += 1;
-      timer = window.setTimeout(step, random(45, 170));
+      const brightness = pulse === deepAt ? random(0.08, 0.25) : random(0.35, 0.76);
+      visual.style.setProperty('--city-flicker', String(1 - brightness));
+      timer = window.setTimeout(
+        () => {
+          if (!canRun()) {
+            clear();
+            return;
+          }
+          visual.style.setProperty('--city-flicker', String(1 - random(0.97, 1)));
+          pulse += 1;
+          timer = window.setTimeout(step, Math.random() < 0.2 ? random(220, 450) : random(40, 175));
+        },
+        random(35, 105)
+      );
     }
 
     step();
