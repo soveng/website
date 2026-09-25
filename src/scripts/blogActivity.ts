@@ -34,10 +34,10 @@ function renderReactions(section: HTMLElement, events: Event[]) {
     totals.set(reaction, (totals.get(reaction) ?? 0) + 1);
   }
 
-  for (const [reaction] of [...totals].sort((a, b) => b[1] - a[1])) {
+  for (const [reaction, total] of [...totals].sort((a, b) => b[1] - a[1])) {
     const chip = document.createElement('span');
     chip.className = 'blog-reaction-chip';
-    chip.textContent = reaction;
+    chip.textContent = `${reaction} ${total}`;
     list.append(chip);
   }
   status.hidden = true;

@@ -413,18 +413,11 @@
   gap: 1rem;
 }
 
-.blog-discussion-link {
-  justify-self: start;
-  font-size: 0.9rem;
-}
-
-.blog-discussion-link,
 .blog-comment-meta a {
   color: #f4aaa9;
   text-underline-offset: 0.18em;
 }
 
-.blog-discussion-link:hover,
 .blog-comment-meta a:hover {
   color: #fff;
 }
@@ -450,8 +443,13 @@
 }
 
 .blog-reaction-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid rgb(255 255 255 / 18%);
+  border-radius: 999px;
   color: #eee;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   line-height: 1.5;
 }
 
@@ -503,6 +501,8 @@
 .blog-article-footer {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+  color: #fff;
   gap: 1rem;
   margin: 4rem 0 0;
   padding-top: 1.5rem;
