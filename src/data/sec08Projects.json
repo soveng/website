@@ -104,8 +104,8 @@
     "name": "FIPS on FreeBSD",
     "description": "Exploratory FreeBSD packaging and service support for FIPS, including TUN integration work.",
     "cohort": "SEC-08",
-    "link": "https://github.com/fr34aky/fips/tree/freebsd-support",
-    "linkText": "FreeBSD support branch",
+    "link": "",
+    "linkText": "",
     "logo": "/images/showcase/fips-logo.png",
     "highlight": false
   },
@@ -569,8 +569,8 @@
     "name": "Avatar",
     "description": "An experimental pipeline for creating digital characters for app and game work.",
     "cohort": "SEC-08",
-    "link": "https://github.com/labsBIMbeam/joinAvatarPipeline",
-    "linkText": "github.com/labsBIMbeam/joinAvatarPipeline",
+    "link": "",
+    "linkText": "",
     "logo": "/images/showcase/nostr-logo.png",
     "highlight": false
   },
