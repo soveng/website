@@ -125,20 +125,15 @@ const { testimonial } = Astro.props;
   import { Swiper } from "swiper";
   import "swiper/css";
   import "swiper/css/pagination";
-  import { Autoplay, Navigation, Pagination } from "swiper/modules";
+  import { Navigation, Pagination } from "swiper/modules";
 
   // astro:page-load event is fired when the page is loaded
   document.addEventListener("astro:page-load", () => {
     new Swiper(".testimonial-slider", {
-      modules: [Pagination, Autoplay, Navigation],
+      modules: [Pagination, Navigation],
       spaceBetween: 24,
       loop: true,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: true,
-        pauseOnMouseEnter: true,
-      },
+      initialSlide: 0,
       pagination: {
         el: ".testimonial-slider-pagination",
         type: "bullets",
@@ -176,10 +171,10 @@ const { testimonial } = Astro.props;
     align-items: center;
     justify-content: center;
     transform: translateY(-50%);
-    border: 1px solid rgb(255 255 255 / 80%);
+    border: 1px solid rgb(255 255 255 / 18%);
     border-radius: 50%;
-    background: rgb(255 255 255 / 65%);
-    box-shadow: 0 2px 12px rgb(0 0 0 / 14%);
+    background: rgb(255 255 255 / 6%);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 6%);
     color: white;
     cursor: pointer;
     transition: color 150ms ease, background-color 150ms ease;
@@ -190,7 +185,7 @@ const { testimonial } = Astro.props;
   }
 
   .testimonial-nav:hover {
-    background: rgb(255 255 255 / 78%);
+    background: rgb(255 255 255 / 10%);
     color: var(--color-primary, #ed3238);
   }
 
