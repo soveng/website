@@ -48,22 +48,12 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         data-article-id={article.id}
         data-relays={BLOG_RELAYS.join(' ')}
         data-profile-relays={BLOG_PROFILE_RELAYS.join(' ')}
-        aria-labelledby="blog-activity-title"
+        aria-label="Reactions and comments"
       >
-        <h2 class="blog-activity-heading" id="blog-activity-title">
-          <a href={`https://nostrudel.ninja/articles/${article.naddr}`} target="_blank" rel="noopener noreferrer">Join the conversation <span aria-hidden="true">↗</span></a>
-        </h2>
-        <div class="blog-activity-reactions">
-          <h3>Reactions <span data-reaction-count></span></h3>
-          <p data-reaction-status role="status">Loading reactions…</p>
-          <div class="blog-reaction-list" data-reaction-list hidden></div>
-        </div>
-        <div class="blog-activity-comments">
-          <h3>Comments <span data-comment-count></span></h3>
-          <p data-comment-status role="status">Loading comments…</p>
-          <ol class="blog-comment-list" data-comment-list hidden></ol>
-        </div>
-        <p class="blog-activity-note">From public Nostr relays. Activity may differ across clients.</p>
+        <p class="sr-only" data-reaction-status role="status">Loading reactions…</p>
+        <div class="blog-reaction-list" data-reaction-list aria-label="Reactions" hidden></div>
+        <p class="sr-only" data-comment-status role="status">Loading comments…</p>
+        <ol class="blog-comment-list" data-comment-list aria-label="Comments" hidden></ol>
       </section>
       <footer class="blog-article-footer">
         <a href="/blog">← Other Articles</a>

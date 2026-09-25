@@ -16,14 +16,12 @@ const authorName = (pubkey: string) => {
 const dateLabel = (timestamp: number) => new Intl.DateTimeFormat('en', { dateStyle: 'medium' }).format(timestamp * 1000);
 
 function renderReactions(section: HTMLElement, events: Event[]) {
-  const count = section.querySelector<HTMLElement>('[data-reaction-count]');
   const status = section.querySelector<HTMLElement>('[data-reaction-status]');
   const list = section.querySelector<HTMLElement>('[data-reaction-list]');
-  if (!count || !status || !list) {
+  if (!status || !list) {
     return;
   }
 
-  count.textContent = events.length ? `(${events.length})` : '';
   if (!events.length) {
     status.textContent = 'No reactions found on these relays yet.';
     return;
@@ -36,10 +34,10 @@ function renderReactions(section: HTMLElement, events: Event[]) {
     totals.set(reaction, (totals.get(reaction) ?? 0) + 1);
   }
 
-  for (const [reaction, total] of [...totals].sort((a, b) => b[1] - a[1])) {
+  for (const [reaction] of [...totals].sort((a, b) => b[1] - a[1])) {
     const chip = document.createElement('span');
     chip.className = 'blog-reaction-chip';
-    chip.textContent = `${reaction} ${total}`;
+    chip.textContent = reaction;
     list.append(chip);
   }
   status.hidden = true;
@@ -47,14 +45,12 @@ function renderReactions(section: HTMLElement, events: Event[]) {
 }
 
 function renderComments(section: HTMLElement, events: Event[]) {
-  const count = section.querySelector<HTMLElement>('[data-comment-count]');
   const status = section.querySelector<HTMLElement>('[data-comment-status]');
   const list = section.querySelector<HTMLOListElement>('[data-comment-list]');
-  if (!count || !status || !list) {
+  if (!status || !list) {
     return;
   }
 
-  count.textContent = events.length ? `(${events.length})` : '';
   if (!events.length) {
     status.textContent = 'No comments found on these relays yet.';
     return;

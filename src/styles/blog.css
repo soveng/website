@@ -400,33 +400,9 @@
 
 .blog-activity {
   max-width: 72ch;
-  margin: 5rem auto 0;
-}
-
-.blog-activity-heading {
-  margin: 0;
-  font-size: clamp(1.5rem, 2.6vw, 1.75rem);
-  line-height: 1.2;
-  text-transform: none;
-}
-
-.blog-activity-heading a {
-  color: #fff;
-  text-underline-offset: 0.18em;
-}
-
-.blog-activity-heading a span {
-  color: #ed3238;
-}
-
-.blog-activity-heading a:hover,
-.blog-activity-heading a:focus-visible {
-  color: #ed3238;
-}
-
-.blog-activity-heading a:hover span,
-.blog-activity-heading a:focus-visible span {
-  color: #fff;
+  margin: 2rem auto 0;
+  display: grid;
+  gap: 1rem;
 }
 
 .blog-comment-meta a {
@@ -448,32 +424,14 @@
   color: #ffb2b5;
 }
 
-.blog-activity-reactions,
-.blog-activity-comments {
-  margin-top: 2.5rem;
-}
-
-.blog-activity h3 {
-  margin: 0 0 1rem;
-  font-size: 1.2rem;
-  text-transform: none;
-}
-
-.blog-activity h3 span {
-  color: #aaa3a3;
-  font-weight: 400;
-}
-
-.blog-activity [role='status'],
-.blog-activity-note {
-  color: #aaa3a3;
-  font-size: 0.9rem;
-}
-
 .blog-reaction-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem 1.25rem;
+  gap: 0.35rem 0.6rem;
+}
+
+.blog-activity [hidden] {
+  display: none;
 }
 
 .blog-reaction-chip {
@@ -490,10 +448,11 @@
 }
 
 .blog-comment-list > .blog-comment + .blog-comment {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .blog-comment {
+  font-size: 0.95rem;
   overflow-wrap: anywhere;
 }
 
@@ -510,7 +469,7 @@
 }
 
 .blog-comment-content {
-  margin: 0.45rem 0 0;
+  margin: 0.25rem 0 0;
   color: #e5e0dd;
   white-space: pre-wrap;
   line-height: 1.55;
@@ -524,10 +483,6 @@
 
 .blog-comment-replies > .blog-comment + .blog-comment {
   margin-top: 1rem;
-}
-
-.blog-activity-note {
-  margin: 2rem 0 0;
 }
 
 .blog-article-footer {
