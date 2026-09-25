@@ -405,11 +405,18 @@
   gap: 1rem;
 }
 
+.blog-discussion-link {
+  justify-self: start;
+  font-size: 0.9rem;
+}
+
+.blog-discussion-link,
 .blog-comment-meta a {
   color: #f4aaa9;
   text-underline-offset: 0.18em;
 }
 
+.blog-discussion-link:hover,
 .blog-comment-meta a:hover {
   color: #fff;
 }

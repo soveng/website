@@ -27,7 +27,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 >
   <div class="blog-page blog-article-page">
     <div class="container blog-container">
-      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← All blog posts</a></nav>
+      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← Back to blog</a></nav>
       <article>
         <header class="blog-article-header">
           <p class="blog-eyebrow">Sovereign Engineering / Blog</p>
@@ -54,9 +54,10 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         <div class="blog-reaction-list" data-reaction-list aria-label="Reactions" hidden></div>
         <p class="sr-only" data-comment-status role="status">Loading comments…</p>
         <ol class="blog-comment-list" data-comment-list aria-label="Comments" hidden></ol>
+        <a class="blog-discussion-link" href={`https://njump.to/${article.naddr}`} target="_blank" rel="noopener noreferrer">Join the discussion ↗</a>
       </section>
       <footer class="blog-article-footer">
-        <a href="/blog">← All blog posts</a>
+        <a href="/blog">← Back to blog</a>
       </footer>
     </div>
   </div>
