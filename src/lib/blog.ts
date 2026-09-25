@@ -1,8 +1,10 @@
 import { createHash } from 'node:crypto';
 
 import { Marked } from 'marked';
-import { nip19, SimplePool, verifyEvent, type Event } from 'nostr-tools';
+import { nip19, verifyEvent, type Event } from 'nostr-tools';
+import { AbstractSimplePool } from 'nostr-tools/abstract-pool';
 import sanitizeHtml from 'sanitize-html';
+import { WebSocket as NodeWebSocket } from 'ws';
 
 import savedEvents from '@/data/nostrArticles.json';
 
@@ -163,7 +165,13 @@ async function fetchLiveEvents(): Promise<Event[]> {
   if (process.env.BLOG_OFFLINE === '1') {
     return [];
   }
-  const pool = new SimplePool();
+  // Node's built-in WebSocket can recurse through nostr-tools' error handler
+  // when a relay connection fails, crashing static builds before fallback.
+  const pool = new AbstractSimplePool({
+    verifyEvent,
+    websocketImplementation: NodeWebSocket as unknown as typeof globalThis.WebSocket,
+    maxWaitForConnection: 3000,
+  });
   try {
     return await pool.querySync(BLOG_RELAYS, { kinds: [30023], authors: [BLOG_PUBKEY], limit: 1000 }, { maxWait: 5000 });
   } catch (error) {
