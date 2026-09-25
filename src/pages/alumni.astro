@@ -4,7 +4,9 @@ import alumniSocialImage from '@/assets/images/endurance-crew-playing-football.j
 import { getAlumniProfileViewModel, getSovEngAlumniDirectory } from '@/lib/sovengAlumni';
 import '@/styles/projects.css';
 
-const alumni = getSovEngAlumniDirectory().map(getAlumniProfileViewModel);
+const alumni = getSovEngAlumniDirectory()
+  .map(getAlumniProfileViewModel)
+  .filter((profile) => profile.picture || profile.about);
 const sourceMembershipHref = alumni[0]?.sourceHref;
 const heroCopy = 'Builders, designers, and founders from Sovereign Engineering working on a freer internet with Bitcoin, Nostr, and open protocols.';
 const alphabet = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
