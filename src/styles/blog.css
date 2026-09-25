@@ -193,6 +193,21 @@
   font-size: 1.2rem;
 }
 
+.blog-list-tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+}
+
+.blog-list-tools a {
+  color: #f4aaa9;
+  text-underline-offset: 0.18em;
+}
+
+.blog-list-tools a:hover {
+  color: #fff;
+}
+
 .blog-list {
   margin: 0;
   padding: 0;

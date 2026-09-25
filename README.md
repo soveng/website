@@ -30,6 +30,8 @@ It is also natively hosted on nostr via [castr.me](https://castr.me/npub1n00yy9y
 
 `/blog` renders signed NIP-23 articles from the Sovereign Engineering Nostr account. At build time, `src/lib/blog.ts` queries public relays for kind 30023 events, verifies signatures, and uses the latest event for each article address. `src/data/nostrArticles.json` is a signed snapshot used when relays are unavailable. New or edited articles appear after the next site build and deployment. Dead legacy image URLs in older signed posts are mapped to surviving local artwork where available; the signed snapshot itself remains unchanged.
 
+`/blog/rss.xml` provides full-text RSS for the same verified articles. The blog and article pages link to it for feed discovery. The feed refreshes with the site build.
+
 To check the site without relay access, run `BLOG_OFFLINE=1 bun run build`.
 
 ## Public Resources

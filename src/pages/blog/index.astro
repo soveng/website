@@ -15,15 +15,16 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
   meta_title="Blog — Sovereign Engineering"
   description="Long-form writing from Sovereign Engineering, published on Nostr and readable here."
   canonical="https://sovereignengineering.io/blog"
+  rssHref="/blog/rss.xml"
   showCallToAction={false}
 >
   <div class="blog-page">
     <header class="blog-hero">
       <div class="container blog-container blog-hero-grid">
         <div class="blog-hero-copy">
-          <p class="blog-eyebrow">Sovereign Engineering Blog</p>
+          <p class="blog-eyebrow">The Sovereign Engineering Blog</p>
           <h1>Writing in the Open</h1>
-          <p>Notes from the frontier of freedom tech. Published on Nostr, readable here.</p>
+          <p>Notes from the frontier of freedom tech.</p>
         </div>
         <div class="blog-hero-visual">
           <img
@@ -56,8 +57,11 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
       )}
 
       <div class="blog-list-heading">
-        <h2>All writing</h2>
-        <span>{articles.length} articles</span>
+        <h2>other articles</h2>
+        <div class="blog-list-tools">
+          <span>{archive.length} articles</span>
+          <a href="/blog/rss.xml" type="application/rss+xml">Subscribe via RSS</a>
+        </div>
       </div>
       <ol class="blog-list">
         {archive.map((article) => (

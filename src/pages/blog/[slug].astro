@@ -21,11 +21,12 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
   description={article.summary || `Read ${article.title} by Sovereign Engineering.`}
   image={article.image || undefined}
   canonical={`https://sovereignengineering.io/blog/${article.slug}`}
+  rssHref="/blog/rss.xml"
   showCallToAction={false}
 >
   <div class="blog-page blog-article-page">
     <div class="container blog-container">
-      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← All writing</a></nav>
+      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← other articles</a></nav>
       <article>
         <header class="blog-article-header">
           <p class="blog-eyebrow">Sovereign Engineering / Blog</p>
@@ -41,7 +42,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         <div class="blog-article-content" set:html={article.html} />
       </article>
       <footer class="blog-article-footer">
-        <a href="/blog">← All writing</a>
+        <a href="/blog">← other articles</a>
         <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Read on Nostr ↗</a>
       </footer>
     </div>
