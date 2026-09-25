@@ -1,0 +1,705 @@
+[
+  {
+    "name": "Totem",
+    "description": "Modular hardware for running napplets on user-controlled devices connected over a FIPS mesh. Two Totem prototypes found each other during SEC-08; the platform remains experimental.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/totemize/totem/",
+    "linkText": "github.com/totemize/totem",
+    "icon": "cube",
+    "highlight": true
+  },
+  {
+    "name": "Napplets",
+    "description": "NIP-5D's small, sandboxed Nostr apps advanced across SEC-08. Host shells handle signing, relay access and storage so the same focused app can run in different environments.",
+    "cohort": "SEC-08",
+    "link": "https://napplet.run/",
+    "linkText": "napplet.run",
+    "logo": "/images/showcase/napplets-logo.svg",
+    "highlight": true
+  },
+  {
+    "name": "FIPS Native Datagrams",
+    "description": "Experimental public-key-addressed application traffic that bypasses the usual IP stack. This early native API was demonstrated during SEC-08; it was not a FIPS v2 release.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jmcorgan/fips/blob/master/docs/how-to/use-the-native-datagram-api.md",
+    "linkText": "Native datagram API",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Wok over FIPS",
+    "description": "A Nostr relay transport experiment using native FIPS datagrams. JeffG measured faster relay messages in the cohort demo, with performance varying by message size.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/erskingardner/wok/commit/bec28dd94b3b2c44791ede52fec6ce11c4e5d59d",
+    "linkText": "Wok FIPS transport commit",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "White Noise over FIPS",
+    "description": "SEC-08 demo of encrypted Marmot group chat carried through a relay using native FIPS transport; an integration experiment rather than a released default transport.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/marmot-protocol/whitenoise-android",
+    "linkText": "White Noise Android",
+    "logo": "/images/showcase/white-noise-logo.png",
+    "highlight": false,
+    "extraLinks": [{ "link": "https://github.com/marmot-protocol/mdk/tree/codex/fips-relay-transport-spike", "linkText": "MDK transport spike" }]
+  },
+  {
+    "name": "FipWave",
+    "description": "Sends FIPS packets over sound. In the demo, two laptops exchanged data across a room using their speakers and microphones.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/sandwichfarm/fipwave",
+    "linkText": "github.com/sandwichfarm/fipwave",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "fips-exit-gate",
+    "description": "An experimental FIPS exit gateway for reaching services on the legacy internet from the mesh.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/fr34aky/fips-exit-gate",
+    "linkText": "github.com/fr34aky/fips-exit-gate",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "fips-shield",
+    "description": "Application-level protection work for services exposed through FIPS, developed alongside André's mesh gateway experiments.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/fr34aky/fips-shield",
+    "linkText": "github.com/fr34aky/fips-shield",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "fips2go",
+    "description": "Android VPN host for carrying phone traffic through FIPS and discovering nearby peers without manual setup.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/fr34aky/fips2go",
+    "linkText": "github.com/fr34aky/fips2go",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Mac",
+    "description": "Mac menu-bar tooling to install and run a FIPS node and inspect the mesh. Peer allowlist and blocklist work was proposed in an open contribution.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/erskingardner/fips-mac",
+    "linkText": "github.com/erskingardner/fips-mac",
+    "logo": "/images/showcase/fips-mac-logo.svg",
+    "highlight": false,
+    "extraLinks": [{ "link": "https://github.com/erskingardner/fips-mac/pull/1", "linkText": "Peer policy PR" }]
+  },
+  {
+    "name": "FIPS Relay Tray",
+    "description": "FIPS integration for nostr-relay-tray, bringing a desktop Nostr relay onto the mesh.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/hzrd149/nostr-relay-tray/tree/fips-integration",
+    "linkText": "Relay tray FIPS branch",
+    "logo": "/images/showcase/nostr-relay-tray-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS on FreeBSD",
+    "description": "Exploratory FreeBSD packaging and service support for FIPS, including TUN integration work.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "fipsd",
+    "description": "A workbench for FIPS protocol experiments and visualizations. Some features model possible behavior rather than running a complete network.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/pablof7z/fipsd",
+    "linkText": "github.com/pablof7z/fipsd",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "LUKS over FIPS",
+    "description": "A demo of remotely unlocking an encrypted NixOS drive through the FIPS mesh.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Pong",
+    "description": "A browser bridge carried a three-machine Pong demo over FIPS native transport: a playful proof of the transport.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "CruxCoach",
+    "description": "Climbing companions sync board playlists across a local BLE and FIPS mesh, even without internet. The team also explored bringing MoonBoard logs across via Android accessibility tools.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/CruxCoach/CruxCoach",
+    "linkText": "github.com/CruxCoach/CruxCoach",
+    "logo": "/images/showcase/cruxcoach-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "RocketShell",
+    "description": "A browser host for NostrRocket napplets. It keeps signing, relay access and storage in the shell while small apps handle one task each.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/nostrocket/rocketshell",
+    "linkText": "github.com/nostrocket/rocketshell",
+    "logo": "/images/showcase/nostrocket-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Uzel",
+    "description": "A native Debian host for running napplets outside a browser, explored during SEC-08's runtime work.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jodobear/uzel",
+    "linkText": "github.com/jodobear/uzel",
+    "logo": "/images/showcase/uzel-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "nampplets",
+    "description": "An in-progress Rust runtime with a macOS reference host for native napplets.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/pablof7z/nampplets",
+    "linkText": "github.com/pablof7z/nampplets",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Napplet Portal",
+    "description": "A server-backed napplet host that lets people open Nostr apps from a phone browser.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/hzrd149/napplet-portal",
+    "linkText": "github.com/hzrd149/napplet-portal",
+    "logo": "/images/showcase/napplet-portal-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "Envelope",
+    "description": "An nsite-hosted napplet runtime that can carry app state inside a link, so a small app and its state can travel together.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/brenorb/envelope",
+    "linkText": "github.com/brenorb/envelope",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostrocket Napplets",
+    "description": "Composable problem-tracker napplets for opening, viewing and editing work inside NostrRocket. One action can open the next focused tool.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/nostrocket/rocketshell/tree/main/napplets",
+    "linkText": "RocketShell napplets",
+    "logo": "/images/showcase/nostrocket-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Rage of Empires",
+    "description": "A reconstructed Age of Empires game packed into one HTML file, demonstrated in multiplayer as both a napplet and an nsite.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/gsovereignty/rageofempires",
+    "linkText": "github.com/gsovereignty/rageofempires",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Myco",
+    "description": "Nearby phones share apps and files across Bluetooth or FIPS; file sharing also gained a hotspot and web route for peers without Myco.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/Origami74/myco",
+    "linkText": "github.com/Origami74/myco",
+    "logo": "/images/showcase/myco-logo.webp",
+    "highlight": true,
+    "extraLinks": [
+      { "link": "https://github.com/Origami74/myco/pull/34", "linkText": "File sharing PR" },
+      { "link": "https://github.com/fr34aky/myco-desktop", "linkText": "Desktop companion" }
+    ]
+  },
+  {
+    "name": "Nappagochi",
+    "description": "A Nostr pet whose changing life reflects your activity on the network.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/shaibearary/nappagochi",
+    "linkText": "github.com/shaibearary/nappagochi",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Anon&Mato",
+    "description": "A playable world generated from a player's npub and choices, presented as a cohort game demo.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "XR Napplets",
+    "description": "A proof of concept for rendering napplets on augmented-reality glasses, shown during the final demo week.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "stlstr",
+    "description": "Shares 3D printable models through small napplets for discovery, previews and detail views.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/hzrd149/stlstr",
+    "linkText": "github.com/hzrd149/stlstr",
+    "logo": "/images/showcase/stlstr-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "SEC-08 Napplet Workshop",
+    "description": "Small napplets for saving notes and checking profile and media health, built as concrete examples during Gigi's SEC-08 workshop.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/dergigi/napplet-workshop",
+    "linkText": "Napplet workshop",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "CAHMLS",
+    "description": "An ad-hoc Cordn coordinator that runs in a browser tab, explored as part of SEC-08's messaging experiments.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/sandwichfarm/CAHMLS",
+    "linkText": "github.com/sandwichfarm/CAHMLS",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Paja",
+    "description": "A long-form writing tool for drafting and scheduling Nostr posts, demonstrated in the cohort notes.",
+    "cohort": "SEC-08",
+    "link": "https://kehto.github.io/web/paja/",
+    "linkText": "Paja",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "nixstr-cache",
+    "description": "Serves Nix packages from Blossom blobs discovered through Nostr and Hashtree, while keeping Nix's own cache-signature checks.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/hzrd149/nixstr-cache",
+    "linkText": "github.com/hzrd149/nixstr-cache",
+    "logo": "/images/showcase/blossom-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Narwal",
+    "description": "A Nix cache proxy that resolves package data via Nostr and Hashtree and fetches blobs from Blossom for ordinary Nix clients.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jurraca/narwal",
+    "linkText": "github.com/jurraca/narwal",
+    "logo": "/images/showcase/blossom-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Hashtree Explainer",
+    "description": "An interactive explanation of how directories can be addressed by hash and distributed as blobs.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/hzrd149.com/git.shakespeare.diy/hashtree-explainer",
+    "linkText": "Hashtree explainer",
+    "logo": "/images/showcase/blossom-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostrpkgs",
+    "description": "Packages Nostr software for reproducible installation, part of Julien's SEC-08 distribution work.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jurraca/nostrpkgs",
+    "linkText": "github.com/jurraca/nostrpkgs",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "ngit-deploy",
+    "description": "Explores deployment from Nostr-native Git repositories as part of the cohort's software distribution experiments.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jurraca/ngit-deploy/",
+    "linkText": "github.com/jurraca/ngit-deploy",
+    "logo": "/images/showcase/gitworkshop-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "deno2nix",
+    "description": "Packages Deno applications with Nix so they can join reproducible build and distribution workflows.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/hzrd149/deno2nix",
+    "linkText": "github.com/hzrd149/deno2nix",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "nix-golsim",
+    "description": "A reproducible Conway's Game of Life visualization built with Nix during the cohort's packaging experiments.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/hzrd149.com/git.shakespeare.diy/nix-golsim",
+    "linkText": "nix-golsim",
+    "logo": "/images/showcase/gitworkshop-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Mapplets",
+    "description": "Map tiles fetched as Hashtree and Blossom data, with Nostr events for place information, Madeira bus routes and selected overlays.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1fz5hhsj3sa4jmedtq2hldaqcgzvfyyfuckevhx80rpukjs2ykd3qkxymar/relay.ngit.dev/mapplets",
+    "linkText": "Mapplets",
+    "logo": "/images/showcase/blossom-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Mapeira",
+    "description": "Transforms outside map and transport information into queryable Nostr events used by Mapplets.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm/relay.ngit.dev/mapeira",
+    "linkText": "Mapeira",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Just Works",
+    "description": "Merchant nsites assembled from existing business information, with Nostr identity, a map, QR codes and Lightning point-of-sale flows.",
+    "cohort": "SEC-08",
+    "link": "https://justworks.cash",
+    "linkText": "justworks.cash",
+    "logo": "/images/showcase/just-works-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "keys.justworks",
+    "description": "Key storage and signing access for merchants using Just Works, keeping that responsibility underneath the storefront.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/gzuuus/keys.justworks",
+    "linkText": "github.com/gzuuus/keys.justworks",
+    "logo": "/images/showcase/keys-justworks-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Granola",
+    "description": "Testnet proof of concept for coordinating Cashu atomic swaps over Nostr. The Cashu mints still settle the swap.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/brenorb/granola",
+    "linkText": "github.com/brenorb/granola",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Upay",
+    "description": "An escrow and arbiter experiment for peer-to-peer Cashu trades, demonstrated during SEC-08.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "600 Billion Timelock TCG",
+    "description": "A trading card game on Nappelin where cards are Cashu tokens; NUT-22 blinded tokens are explored to keep a player's hand private.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/BIMbeamFLX/600BillionTimelockTCG",
+    "linkText": "github.com/BIMbeamFLX/600BillionTimelockTCG",
+    "logo": "/images/showcase/600-billion-timelock-logo.png",
+    "highlight": false,
+    "extraLinks": [{ "link": "https://nappelin.com", "linkText": "Nappelin" }]
+  },
+  {
+    "name": "NutFT",
+    "description": "An exploratory proposal for collectible assets represented by Cashu tokens; its draft NUT number is not an official assignment.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/brenorb/NutFT",
+    "linkText": "github.com/brenorb/NutFT",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "boris-android",
+    "description": "A Boris Android feature for making highlighted passages zappable and splitting payments among the author, highlighter and reading app.",
+    "cohort": "SEC-08",
+    "link": "https://dergigi.com/2026/08/28/meta-to-meza/",
+    "linkText": "Meta to Meza",
+    "logo": "/images/showcase/boris-logo.png",
+    "highlight": false,
+    "extraLinks": [
+      {
+        "link": "https://readwithboris.com",
+        "linkText": "readwithboris.com"
+      },
+      {
+        "link": "https://github.com/dergigi/boris-android",
+        "linkText": "github.com/dergigi/boris-android"
+      }
+    ]
+  },
+  {
+    "name": "net4sats",
+    "description": "A Wi-Fi access business experiment that sells connectivity for bitcoin, with a branded captive portal built on TollGate.",
+    "cohort": "SEC-08",
+    "link": "https://net4sats.cash/",
+    "linkText": "net4sats.cash",
+    "logo": "/images/showcase/net4sats-logo.png",
+    "highlight": false,
+    "extraLinks": [{ "link": "https://github.com/net4sats/tollgate-captive-portal-site", "linkText": "Captive portal source" }]
+  },
+  {
+    "name": "Nostrology",
+    "description": "Nostr ecosystem metrics and marketplace maps exposed to people and agents, including Cashu-paid Nutzap data queries.",
+    "cohort": "SEC-08",
+    "link": "https://nostrolo.gy/data",
+    "linkText": "Nostrology data",
+    "logo": "/images/showcase/nostrology-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nectar",
+    "description": "Explores structured, attestable datasets on Nostr for queries and agent use.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/whisperhash/nectar",
+    "linkText": "github.com/whisperhash/nectar",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "si-eval",
+    "description": "Auditable model-evaluation experiments on consequential tasks such as key handling and privacy.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/whisperhash/si-eval",
+    "linkText": "github.com/whisperhash/si-eval",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Mist",
+    "description": "A Nostr conversation client that explores threads as clusters instead of a single linear timeline.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jurraca/mist",
+    "linkText": "github.com/jurraca/mist",
+    "logo": "/images/showcase/mist-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "Mappy",
+    "description": "Explores agents helping with real-world map tasks. Its map events can include encrypted descriptions while coordinates remain public tags.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1fz5hhsj3sa4jmedtq2hldaqcgzvfyyfuckevhx80rpukjs2ykd3qkxymar/relay.ngit.dev/pafrend",
+    "linkText": "Mappy",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Kipina",
+    "description": "An agent inside a napplet, connecting to a local harness through ContextVM tooling.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1fz5hhsj3sa4jmedtq2hldaqcgzvfyyfuckevhx80rpukjs2ykd3qkxymar/relay.ngit.dev/kipina",
+    "linkText": "Kipina",
+    "logo": "/images/showcase/contextvm-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "fips.email",
+    "description": "Turns email sent to an npub address into encrypted NIP-17 direct messages for people or agents. Despite its name, the service does not use FIPS.",
+    "cohort": "SEC-08",
+    "link": "https://fips.email",
+    "linkText": "fips.email",
+    "logo": "/images/showcase/fips-email-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "JamCore",
+    "description": "A collaborative music experiment that listens and adapts to players, with future agent accompaniment explored in the demo.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm/relay.ngit.dev/JamCore",
+    "linkText": "JamCore",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Demo Day Command Center",
+    "description": "A captain's tracker and timer for Friday demos, with feedback and exports to keep the lineup moving.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/gsovereignty/demoday",
+    "linkText": "github.com/gsovereignty/demoday",
+    "logo": "/images/showcase/demo-day-command-center-logo.svg",
+    "highlight": false
+  },
+  {
+    "name": "Nowhere CLI",
+    "description": "A command-line tool for creating and managing websites without a hosted dashboard.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/brenorb/nowhere-cli",
+    "linkText": "github.com/brenorb/nowhere-cli",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Cashu Sync",
+    "description": "An experiment in synchronizing Cashu wallet state for Silent Link across devices.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/brenorb/cashu-sync",
+    "linkText": "github.com/brenorb/cashu-sync",
+    "logo": "/images/showcase/cashu-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "terrDVM",
+    "description": "A Data Vending Machine experiment for generating terrain models from geographic inputs.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/labsBIMbeam/terrDVM",
+    "linkText": "github.com/labsBIMbeam/terrDVM",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "bimCVP",
+    "description": "Coordinates and checks building models as part of the cohort's construction-data experiments.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/labsBIMbeam/bimCVP",
+    "linkText": "github.com/labsBIMbeam/bimCVP",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "DJ David Clanker",
+    "description": "A music agent that plays Wavlake tracks, built among the cohort's playful agent experiments.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/labsBIMbeam/DjDavidClanker",
+    "linkText": "github.com/labsBIMbeam/DjDavidClanker",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Avatar",
+    "description": "An experimental pipeline for creating digital characters for app and game work.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Scored Relay",
+    "description": "An experimental relay that ranks Nostr events by proof of work and recency.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm/relay.ngit.dev/scored-relay",
+    "linkText": "Scored Relay",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "SNIPER",
+    "description": "A relay experiment for installable NIP extensions, explored during SEC-08.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm/relay.ngit.dev/snipe-relay",
+    "linkText": "SNIPER",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Rustic Applesauce",
+    "description": "Rust tools for composing Nostr client operations, developed alongside SEC-08's napplet and runtime work.",
+    "cohort": "SEC-08",
+    "link": "https://gitworkshop.dev/hzrd149.com/git.shakespeare.diy/rustic-applesauce",
+    "linkText": "Rustic Applesauce",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "guerrilla-entropy",
+    "description": "An experimental hardware entropy contributor. Its own documentation says it is not a certified cryptographic random-number generator.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/gzuuus/guerrilla-entropy",
+    "linkText": "github.com/gzuuus/guerrilla-entropy",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS Globe",
+    "description": "A visual exploration of FIPS mesh activity shown during SEC-08.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Cordn Coordinator",
+    "description": "An Android coordinator demo for hosting Cordn groups and messaging.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Marmot Invite Links",
+    "description": "An experiment for inviting people into Marmot groups through shareable links outside the core protocol.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Marmot Encrypted Images",
+    "description": "A final-week demo exploring encrypted image and file sharing inside Marmot groups.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Nostr Office Concierge",
+    "description": "A final-week assistant prototype for managing shared spaces at the Nostr Office.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Arraia",
+    "description": "An experiment in sharing vendor locations, goods and payment details over Bitchat.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/bitcoin-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "Pyramid Nix Package",
+    "description": "Nix packaging work for Pyramid, part of Julien's experiments in reproducible software distribution.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/nostr-logo.png",
+    "highlight": false
+  },
+  {
+    "name": "FIPS NixOS Module",
+    "description": "A NixOS module and demo configuration for deploying FIPS through reproducible system configuration.",
+    "cohort": "SEC-08",
+    "link": "https://github.com/jurraca/fips/tree/nix-module",
+    "linkText": "FIPS NixOS module branch",
+    "logo": "/images/showcase/fips-logo.png",
+    "highlight": false,
+    "extraLinks": [{ "link": "https://github.com/jurraca/demo-nixos", "linkText": "Demo configuration" }]
+  },
+  {
+    "name": "Plebeian Market Auctions",
+    "description": "A cohort experiment adding simple Nostr auctions to Plebeian Market, without an escrow or arbiter flow.",
+    "cohort": "SEC-08",
+    "link": "",
+    "linkText": "",
+    "logo": "/images/showcase/plebeian-logo.png",
+    "highlight": false
+  }
+]

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img"
+  aria-label="Napplet Portal" color="#f2b84b"
+  data-portal-geometry="napplet-sovereign-gate-v1">
+  <rect width="120" height="120" rx="20" fill="#17140f" />
+  <g fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path data-geometry="napplet-sovereign-gate-v1"
+      d="M28 96V42L60 22l32 20v54" />
+    <path data-geometry="napplet-gate-link-v1"
+      d="M36 76 52 60 68 66 84 48M52 60l8-24 8 30" />
+  </g>
+  <g data-geometry="napplet-gate-nodes-v1" fill="currentColor"
+    stroke="currentColor">
+    <circle cx="36" cy="76" r="5" />
+    <circle cx="52" cy="60" r="4" />
+    <circle cx="60" cy="36" r="4" />
+    <circle cx="68" cy="66" r="4" />
+    <circle cx="84" cy="48" r="5" />
+  </g>
+  <path d="m48 96 12-12 12 12-12 12z" fill="currentColor" />
+</svg>

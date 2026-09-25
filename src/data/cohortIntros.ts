@@ -63,8 +63,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-05': {
     theme: 'YOLO Mode',
-    paragraph:
-      'Fall 2025, forty-one projects, still the cohort record. YOLO mode: Marmot Chat, hashpool, Frontier Browser, relays, mining, AI. FIPS mesh work started here.',
+    paragraph: 'Fall 2025, forty-one projects. YOLO mode: Marmot Chat, hashpool, Frontier Browser, relays, mining, AI. FIPS mesh work started here.',
   },
   'SEC-06': {
     theme: 'Identity & Signers',
@@ -80,6 +79,11 @@ export const cohortIntros: Record<string, CohortIntro> = {
         text: ', the mesh stack from SEC-05. March–April 2026: radios, LoRa tests, Learn FIPS, Fanal, Nostr VPN on FIPS, and the rest below.',
       },
     ],
+  },
+  'SEC-08': {
+    theme: 'YOLO++',
+    paragraph:
+      'YOLO++: July–August 2026, six weeks of open exploration. Totem became a working hardware prototype; napplets found new homes on phones, desktops and the mesh. Native FIPS experiments, Nix packages over Blossom, merchant tools and games filled the Friday demos.',
   },
 };
 

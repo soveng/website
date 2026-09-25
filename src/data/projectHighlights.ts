@@ -1,4 +1,4 @@
-import { getProjectArchiveHref, getProjectByName } from '@/lib/showcase';
+import { getProjectArchiveHref, getProjectByName, getProjectsForCohort } from '@/lib/showcase';
 
 export type ProjectHighlightVariant = 'featured' | 'standard' | 'cta';
 
@@ -20,11 +20,11 @@ function externalLink(project: { link?: string }): string | undefined {
   return url || undefined;
 }
 
-function requireProject(name: string) {
-  const project = getProjectByName(name);
+function requireProject(name: string, cohort?: string) {
+  const project = cohort ? getProjectsForCohort(cohort).find((candidate) => candidate.name === name) : getProjectByName(name);
 
   if (!project) {
-    throw new Error(`Missing showcase project: ${name}`);
+    throw new Error(`Missing showcase project: ${name}${cohort ? ` in ${cohort}` : ''}`);
   }
 
   return project;
@@ -40,6 +40,9 @@ const castrMe = requireProject('castr.me');
 const fipsPrototype = requireProject('FIPS');
 const nip60 = requireProject('NIP-60');
 const nip61 = requireProject('NIP-61');
+const napplets = requireProject('Napplets');
+const myco = requireProject('Myco', 'SEC-08');
+const totem = requireProject('Totem', 'SEC-08');
 
 const projectHighlights: ProjectHighlight[] = [
   {
@@ -130,6 +133,33 @@ const projectHighlights: ProjectHighlight[] = [
     variant: 'standard',
     description: 'Mesh routing, service discovery, and tooling for a sovereign peer-to-peer network kept compounding across cohorts.',
     logo: '/images/showcase/fips-logo.png',
+  },
+  {
+    title: 'Napplets',
+    eyebrow: napplets.cohort,
+    href: getProjectArchiveHref(napplets),
+    externalUrl: externalLink(napplets),
+    variant: 'standard',
+    description: 'Small Nostr apps that leave signing, relays and storage to a host shell, so one app can run in many places.',
+    logo: napplets.logo,
+  },
+  {
+    title: 'Myco',
+    eyebrow: myco.cohort,
+    href: getProjectArchiveHref(myco),
+    externalUrl: externalLink(myco),
+    variant: 'standard',
+    description: 'Nearby phones share apps and files over Bluetooth or FIPS, with a hotspot route for peers without Myco.',
+    logo: myco.logo,
+  },
+  {
+    title: 'Totem',
+    eyebrow: totem.cohort,
+    href: getProjectArchiveHref(totem),
+    externalUrl: externalLink(totem),
+    variant: 'standard',
+    description: 'Modular devices running napplets and connecting over FIPS; two prototypes found each other at SEC-08.',
+    icon: 'cube',
   },
 ];
 

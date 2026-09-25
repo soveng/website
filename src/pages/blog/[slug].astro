@@ -1,0 +1,136 @@
+---
+import Base from '@/layouts/Base.astro';
+import { BLOG_PROFILE_RELAYS, BLOG_PUBKEY, BLOG_RELAYS, getBlogArticles, type BlogArticle } from '@/lib/blog';
+import { blogCoverSrc, blogCoverSrcSet } from '@/lib/blogImages';
+import '@/styles/blog.css';
+
+export async function getStaticPaths() {
+  const articles = await getBlogArticles();
+  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+}
+
+interface Props { article: BlogArticle }
+const { article } = Astro.props;
+const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+}).format(timestamp * 1000);
+---
+
+<Base
+  title={article.title}
+  meta_title={`${article.title} — Sovereign Engineering Blog`}
+  description={article.summary || `Read ${article.title} by Sovereign Engineering.`}
+  image={article.image || undefined}
+  canonical={`https://sovereignengineering.io/blog/${article.slug}`}
+  rssHref="/blog/rss.xml"
+  showCallToAction={false}
+>
+  <div class="blog-page blog-article-page">
+    <div class="container blog-container">
+      <article>
+        <header class="blog-article-header">
+          <p class="blog-eyebrow">
+            <time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time>
+          </p>
+          <h1>{article.title}</h1>
+          {article.summary && <p class="blog-article-summary">{article.summary}</p>}
+          {article.updatedAt > article.publishedAt + 86400 && (
+            <div class="blog-article-meta">Updated {date(article.updatedAt)}</div>
+          )}
+        </header>
+        {article.image && <img class="blog-article-cover" src={blogCoverSrc(article.image, 960)} srcset={blogCoverSrcSet(article.image, [960, 1600])} sizes="(max-width: 900px) 100vw, 900px" alt="" decoding="async" />}
+        <div class="blog-article-content" set:html={article.html} />
+      </article>
+      <section
+        class="blog-activity"
+        data-blog-activity
+        data-article-address={`30023:${BLOG_PUBKEY}:${article.identifier}`}
+        data-article-id={article.id}
+        data-relays={BLOG_RELAYS.join(' ')}
+        data-profile-relays={BLOG_PROFILE_RELAYS.join(' ')}
+        aria-label="Reactions and comments"
+      >
+        <span class="blog-activity-spinner" aria-hidden="true"></span>
+        <p class="sr-only" data-reaction-status role="status">Loading reactions…</p>
+        <div class="blog-reaction-list" data-reaction-list aria-label="Reactions" hidden></div>
+        <p class="sr-only" data-comment-status role="status">Loading comments…</p>
+        <ol class="blog-comment-list" data-comment-list aria-label="Comments" hidden></ol>
+      </section>
+      <footer class="blog-article-footer">
+        <a href="/blog">← Back to blog</a>
+        <a href={`https://njump.to/${article.naddr}`} target="_blank" rel="noopener noreferrer">Join the discussion ↗</a>
+      </footer>
+    </div>
+  </div>
+</Base>
+
+<script>
+  let stop = () => {};
+
+  function start() {
+    stop();
+    const section = document.querySelector('[data-blog-activity]');
+    if (!(section instanceof HTMLElement)) {
+      return;
+    }
+    const activitySection = section;
+
+    let disposed = false;
+    let unmount = () => {};
+    let unmountProfiles = () => {};
+
+    const articleContent = document.querySelector('.blog-article-content');
+    if (articleContent instanceof HTMLElement && articleContent.querySelector('a[href^="https://njump.me/nprofile1"], a[href^="https://njump.me/npub1"]')) {
+      const relays = activitySection.dataset.profileRelays?.split(' ').filter(Boolean) ?? [];
+      void import('@/scripts/blogProfiles')
+        .then(({ mountBlogProfiles }) => {
+          if (!disposed) {
+            unmountProfiles = mountBlogProfiles(articleContent, relays);
+          }
+        })
+        .catch(() => {});
+    }
+
+    async function load() {
+      observer?.disconnect();
+      activitySection.setAttribute('aria-busy', 'true');
+      try {
+        const { mountBlogActivity } = await import('@/scripts/blogActivity');
+        if (!disposed) {
+          unmount = mountBlogActivity(activitySection);
+        }
+      } catch {
+        if (disposed) {
+          return;
+        }
+        activitySection.setAttribute('aria-busy', 'false');
+        activitySection.querySelectorAll('[data-reaction-status], [data-comment-status]').forEach((status) => {
+          status.textContent = 'Nostr activity is unavailable right now.';
+        });
+      }
+    }
+
+    const observer = 'IntersectionObserver' in window
+      ? new IntersectionObserver(([entry]) => {
+          if (entry?.isIntersecting) {
+            void load();
+          }
+        }, { rootMargin: '450px' })
+      : null;
+    if (observer) {
+      observer.observe(activitySection);
+    } else {
+      void load();
+    }
+
+    stop = () => {
+      disposed = true;
+      observer?.disconnect();
+      unmount();
+      unmountProfiles();
+    };
+  }
+
+  document.addEventListener('astro:page-load', start);
+  document.addEventListener('astro:before-swap', () => stop());
+</script>

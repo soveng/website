@@ -112,7 +112,7 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
                 {project.highlight && <ProjectHighlightMark />}
               </div>
               <p class="cohort-project-desc projects-body">{project.description}</p>
-              {links.length > 0 && (
+              {links.length > 0 ? (
                 <div class="cohort-project-links">
                   {links.map((link: ProjectLink, linkIndex: number) => (
                     <span class="cohort-project-link-item">
@@ -121,7 +121,9 @@ function projectLinks(project: ShowcaseProject): ProjectLink[] {
                     </span>
                   ))}
                 </div>
-              )}
+              ) : cohort === 'SEC-08' ? (
+                <p class="cohort-project-no-link projects-body">No public project link available</p>
+              ) : null}
             </div>
           </article>
         );

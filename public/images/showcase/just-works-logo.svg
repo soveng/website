@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Just Works">
+  <!-- "07 Portal": a doorway whose far side is lit. Keep in step with
+       LOGO_MARKUP in /js/ds/logo.js. -->
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fafafa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fafafa" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="30" fill="#0a0a0a"/>
+  <g transform="translate(32 26) scale(2)">
+    <path d="M9 32V16a7 7 0 0 1 14 0v16Z" fill="url(#glow)"/>
+    <path fill-rule="evenodd" fill="#fafafa"
+          d="M2 32V16C2 8.3 8.3 2 16 2s14 6.3 14 14v16h-7V16a7 7 0 0 0-14 0v16Z"/>
+  </g>
+</svg>

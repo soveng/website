@@ -35,11 +35,12 @@ export interface Props {
   image_alt?: string;
   noindex?: boolean;
   canonical?: string;
+  rssHref?: string;
   showCallToAction?: boolean;
 }
 
 // destructure frontmatter
-const { title, meta_title, description, image, image_alt, noindex, canonical, showCallToAction = true } =
+const { title, meta_title, description, image, image_alt, noindex, canonical, rssHref, showCallToAction = true } =
   Astro.props;
 
 // process text content
@@ -133,6 +134,7 @@ const call_to_action = showCallToAction ? (await getEntry(
 
     <!-- canonical url -->
     <link rel="canonical" href={canonicalUrl} item-prop="url" />
+    {rssHref && <link rel="alternate" type="application/rss+xml" title="The Sovereign Engineering Blog" href={rssHref} />}
 
     <!-- noindex robots -->
     {noindex && <meta name="robots" content="noindex,nofollow" />}
