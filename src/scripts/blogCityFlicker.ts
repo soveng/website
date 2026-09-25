@@ -10,11 +10,15 @@ export function stopBlogCityFlicker(): void {
 export function startBlogCityFlicker(): void {
   stopBlogCityFlicker();
 
-  const candidate = document.querySelector<HTMLImageElement>('.blog-hero-visual img');
+  const candidate = document.querySelector<HTMLElement>('.blog-hero-visual');
   if (!candidate) {
     return;
   }
-  const image = candidate;
+  const visual = candidate;
+  const image = visual.querySelector('img');
+  if (!image) {
+    return;
+  }
 
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let visible = false;
@@ -27,7 +31,7 @@ export function startBlogCityFlicker(): void {
       window.clearTimeout(timer);
     }
     timer = undefined;
-    image.style.opacity = '';
+    visual.style.removeProperty('--city-dim');
   }
 
   function queue(first = false): void {
@@ -50,12 +54,13 @@ export function startBlogCityFlicker(): void {
         return;
       }
       if (index === changes) {
-        image.style.opacity = '';
+        visual.style.removeProperty('--city-dim');
         queue();
         return;
       }
 
-      image.style.opacity = String(index === deepAt ? random(0.38, 0.6) : random(0.65, 0.96));
+      const brightness = index === deepAt ? random(0.38, 0.6) : random(0.65, 0.96);
+      visual.style.setProperty('--city-dim', String(1 - brightness));
       index += 1;
       timer = window.setTimeout(step, random(45, 170));
     }
