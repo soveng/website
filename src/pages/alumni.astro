@@ -102,7 +102,7 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
                       </div>
                     </div>
 
-                    {profile.about ? <p class="projects-body alumni-about">{profile.about}</p> : <p class="projects-body alumni-about alumni-about--empty">No public bio.</p>}
+                    {profile.about && <p class="projects-body alumni-about">{profile.about}</p>}
                   </a>
                 ))}
               </div>
@@ -362,11 +362,6 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
-  }
-
-  .alumni-about--empty {
-    color: rgb(255 255 255 / 32%);
-    font-style: italic;
   }
 
   .alumni-card:focus-visible {
