@@ -77,14 +77,6 @@
   font-size: 0.85em;
 }
 
-.blog-hero-compass {
-  display: block;
-  width: 3.5rem;
-  height: 3.5rem;
-  margin-top: 2rem;
-  opacity: 0.75;
-}
-
 .blog-hero-visual {
   position: relative;
   aspect-ratio: 4 / 3;
@@ -131,21 +123,7 @@
 }
 
 .blog-feature-image {
-  position: relative;
   aspect-ratio: 4 / 3;
-}
-
-.blog-feature-image::after {
-  position: absolute;
-  inset: 1rem;
-  background:
-    linear-gradient(#f5f2ef, #f5f2ef) top left / 1.4rem 1px no-repeat,
-    linear-gradient(#f5f2ef, #f5f2ef) top left / 1px 1.4rem no-repeat,
-    linear-gradient(#f5f2ef, #f5f2ef) bottom right / 1.4rem 1px no-repeat,
-    linear-gradient(#f5f2ef, #f5f2ef) bottom right / 1px 1.4rem no-repeat;
-  opacity: 0.7;
-  pointer-events: none;
-  content: '';
 }
 
 .blog-feature-image img,
@@ -269,6 +247,17 @@
 
 .blog-list-item:hover {
   background: rgb(255 255 255 / 3%);
+}
+
+.blog-endmark {
+  margin: 4rem 0 0;
+}
+
+.blog-endmark img {
+  display: block;
+  width: min(100%, 36rem);
+  height: auto;
+  margin: 0 auto;
 }
 
 .blog-list-copy {
@@ -548,17 +537,6 @@
 @media (max-width: 700px) {
   .blog-hero {
     padding-top: 5.5rem;
-  }
-  .blog-hero-copy {
-    position: relative;
-  }
-  .blog-hero-compass {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 3rem;
-    height: 3rem;
-    margin-top: 0;
   }
   .blog-hero-grid {
     grid-template-columns: 1fr;

@@ -27,7 +27,6 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <h1>Dispatches</h1>
           <p class="blog-hero-subtitle">Notes from the frontier of freedom tech.</p>
           <a class="blog-rss-link" href="/blog/rss.xml" type="application/rss+xml">RSS <i class="fa-solid fa-rss" aria-hidden="true"></i></a>
-          <img class="blog-hero-compass" src="/images/blog/compass-rose.svg" alt="" width="56" height="56" aria-hidden="true" />
         </div>
         <div class="blog-hero-visual">
           <img
@@ -92,6 +91,11 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         ))}
       </ol>
       {!featured && <p>No articles available yet. <a href="https://njump.me/sovereignengineering.io">Read us on Nostr.</a></p>}
+      {featured && (
+        <figure class="blog-endmark" aria-hidden="true">
+          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
+        </figure>
+      )}
     </section>
   </div>
 </Base>
