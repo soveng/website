@@ -388,6 +388,128 @@
   border: 1px solid #555;
 }
 
+.blog-activity {
+  max-width: 72ch;
+  margin: 5rem auto 0;
+}
+
+.blog-activity-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.blog-activity-heading h2 {
+  margin: 0.25rem 0 0;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  line-height: 1.1;
+  text-transform: none;
+}
+
+.blog-activity-heading > a,
+.blog-comment-meta a {
+  color: #f4aaa9;
+  text-underline-offset: 0.18em;
+}
+
+.blog-activity-heading > a:hover,
+.blog-comment-meta a:hover {
+  color: #fff;
+}
+
+.blog-activity-reactions,
+.blog-activity-comments {
+  margin-top: 2.5rem;
+}
+
+.blog-activity h3 {
+  margin: 0 0 1rem;
+  font-size: 1.2rem;
+  text-transform: none;
+}
+
+.blog-activity h3 span {
+  color: #aaa3a3;
+  font-weight: 400;
+}
+
+.blog-activity [role='status'],
+.blog-activity-note {
+  color: #aaa3a3;
+  font-size: 0.9rem;
+}
+
+.blog-reaction-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.blog-reaction-chip {
+  padding: 0.45rem 0.8rem;
+  border: 1px solid #555;
+  border-radius: 2rem;
+  background: #161616;
+  color: #eee;
+  font-size: 0.95rem;
+}
+
+.blog-comment-list,
+.blog-comment-replies {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blog-comment-list > .blog-comment + .blog-comment {
+  margin-top: 0.75rem;
+}
+
+.blog-comment {
+  padding: 1.15rem 1.3rem;
+  background: #161616;
+  overflow-wrap: anywhere;
+}
+
+.blog-comment-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.8rem;
+  align-items: baseline;
+  font-size: 0.85rem;
+}
+
+.blog-comment-meta time {
+  color: #aaa3a3;
+}
+
+.blog-comment-meta a:last-child {
+  margin-left: auto;
+}
+
+.blog-comment-content {
+  margin: 0.7rem 0 0;
+  color: #e5e0dd;
+  white-space: pre-wrap;
+  line-height: 1.55;
+}
+
+.blog-comment-replies {
+  margin: 1.15rem 0 0 0.35rem;
+  padding-left: 1rem;
+  border-left: 2px solid #72282b;
+}
+
+.blog-comment-replies > .blog-comment {
+  padding: 0.4rem 0 0.4rem 0.6rem;
+  background: transparent;
+}
+
+.blog-activity-note {
+  margin: 2rem 0 0;
+}
+
 .blog-article-footer {
   display: flex;
   justify-content: space-between;
@@ -437,6 +559,14 @@
   }
   .blog-article-page .blog-container {
     padding-top: 5.5rem;
+  }
+  .blog-activity-heading {
+    align-items: start;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .blog-comment {
+    padding: 1rem;
   }
 }
 

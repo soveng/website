@@ -1,6 +1,6 @@
 ---
 import Base from '@/layouts/Base.astro';
-import { getBlogArticles, type BlogArticle } from '@/lib/blog';
+import { BLOG_PUBKEY, BLOG_RELAYS, getBlogArticles, type BlogArticle } from '@/lib/blog';
 import { blogCoverSrc, blogCoverSrcSet } from '@/lib/blogImages';
 import '@/styles/blog.css';
 
@@ -42,6 +42,33 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         {article.image && <img class="blog-article-cover" src={blogCoverSrc(article.image, 960)} srcset={blogCoverSrcSet(article.image, [960, 1600])} sizes="(max-width: 900px) 100vw, 900px" alt="" decoding="async" />}
         <div class="blog-article-content" set:html={article.html} />
       </article>
+      <section
+        class="blog-activity"
+        data-blog-activity
+        data-article-address={`30023:${BLOG_PUBKEY}:${article.identifier}`}
+        data-article-id={article.id}
+        data-relays={BLOG_RELAYS.join(' ')}
+        aria-labelledby="blog-activity-title"
+      >
+        <div class="blog-activity-heading">
+          <div>
+            <p class="blog-eyebrow">On Nostr</p>
+            <h2 id="blog-activity-title">The conversation</h2>
+          </div>
+          <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Join on Nostr ↗</a>
+        </div>
+        <div class="blog-activity-reactions">
+          <h3>Reactions <span data-reaction-count></span></h3>
+          <p data-reaction-status role="status">Loading reactions…</p>
+          <div class="blog-reaction-list" data-reaction-list hidden></div>
+        </div>
+        <div class="blog-activity-comments">
+          <h3>Comments <span data-comment-count></span></h3>
+          <p data-comment-status role="status">Loading comments…</p>
+          <ol class="blog-comment-list" data-comment-list hidden></ol>
+        </div>
+        <p class="blog-activity-note">From public Nostr relays. Activity may differ across clients.</p>
+      </section>
       <footer class="blog-article-footer">
         <a href="/blog">← other articles</a>
         <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Read on Nostr ↗</a>
@@ -49,3 +76,58 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
     </div>
   </div>
 </Base>
+
+<script>
+  let stop = () => {};
+
+  function start() {
+    stop();
+    const section = document.querySelector('[data-blog-activity]');
+    if (!(section instanceof HTMLElement)) {
+      return;
+    }
+    const activitySection = section;
+
+    let disposed = false;
+    let unmount = () => {};
+
+    async function load() {
+      observer?.disconnect();
+      try {
+        const { mountBlogActivity } = await import('@/scripts/blogActivity');
+        if (!disposed) {
+          unmount = mountBlogActivity(activitySection);
+        }
+      } catch {
+        if (disposed) {
+          return;
+        }
+        activitySection.querySelectorAll('[data-reaction-status], [data-comment-status]').forEach((status) => {
+          status.textContent = 'Nostr activity is unavailable right now.';
+        });
+      }
+    }
+
+    const observer = 'IntersectionObserver' in window
+      ? new IntersectionObserver(([entry]) => {
+          if (entry?.isIntersecting) {
+            void load();
+          }
+        }, { rootMargin: '450px' })
+      : null;
+    if (observer) {
+      observer.observe(activitySection);
+    } else {
+      void load();
+    }
+
+    stop = () => {
+      disposed = true;
+      observer?.disconnect();
+      unmount();
+    };
+  }
+
+  document.addEventListener('astro:page-load', start);
+  document.addEventListener('astro:before-swap', () => stop());
+</script>
