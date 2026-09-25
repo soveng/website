@@ -27,21 +27,6 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <p class="blog-eyebrow">Sovereign Engineering</p>
           <h1>Blog</h1>
           <p class="blog-hero-subtitle">Notes from the frontier of freedom tech.</p>
-          <div class="mt-6 flex flex-wrap gap-4">
-            <a class="btn-retro" href="/blog/rss.xml" type="application/rss+xml">
-              <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
-              RSS
-            </a>
-            <a
-              href="https://ants.sh/p/sovereignengineering.io?q=is:longform"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn-retro"
-            >
-              <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
-              <span class="sr-only">Nostr Profile</span>
-            </a>
-          </div>
         </div>
         <div class="blog-hero-visual">
           <img
@@ -106,6 +91,21 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         ))}
       </ol>
       {!featured && <p>No articles available yet. <a href="https://njump.me/sovereignengineering.io">Read us on Nostr.</a></p>}
+      <section class="mt-8 flex flex-wrap gap-4" aria-label="Follow the blog">
+        <a class="btn-retro" href="/blog/rss.xml" type="application/rss+xml">
+          <DynamicIcon icon="FaRss" className="inline-block w-4 h-4 mr-2 align-text-bottom" />
+          RSS
+        </a>
+        <a
+          href="https://ants.sh/p/sovereignengineering.io?q=is:longform"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-retro"
+        >
+          <DynamicIcon icon="FaFeather" className="inline-block w-4 h-4" />
+          <span class="sr-only">Nostr Profile</span>
+        </a>
+      </section>
       {featured && (
         <>
           <figure class="blog-endmark" aria-hidden="true">
