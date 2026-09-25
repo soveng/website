@@ -93,7 +93,7 @@ const mainAlumni = menu.main.flatMap((item) => (Array.isArray(item.children) ? i
 const footerLinks = Array.isArray(menu.footer) ? menu.footer : menu.footer.sections.flatMap((section) => section.links);
 const footerAlumni = footerLinks.find((item) => item.name === 'Alumni');
 
-assert.equal(mainAlumni?.url, '/alumni', 'main Alumni nav should point to local route');
+assert.equal(mainAlumni, undefined, 'Alumni should only appear in footer navigation');
 assert.equal(footerAlumni?.url, '/alumni', 'footer Alumni nav should point to local route');
 
 console.log('OK: alumni page route source');

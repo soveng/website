@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T05:31:38.746Z",
+  "generatedAt": "2026-09-25T19:04:01.628Z",
   "format": "webp",
   "width": 128,
   "height": 128,
@@ -134,11 +134,11 @@
     },
     "npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta": {
       "src": "/images/alumni/avatars/npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta.webp",
-      "source": "https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp",
+      "source": "https://blossom.primal.net/2ef567f9cb8256352353199a893dd6f4f966526163d4907371d33347960685bf.jpg",
       "width": 128,
       "height": 128,
-      "bytes": 2268,
-      "sha256": "d5486420add6b341d988c086c67799bd6c1704026fd42f151132b8be30745a2c"
+      "bytes": 922,
+      "sha256": "8334c0748413769941b789283d68d5394642aeb6f579ca31d5d84c6e45ba307f"
     },
     "npub17plqkxhsv66g8quxxc9p5t9mxazzn20m426exqnl8lxnh5a4cdns7jezx0": {
       "src": "/images/alumni/avatars/npub17plqkxhsv66g8quxxc9p5t9mxazzn20m426exqnl8lxnh5a4cdns7jezx0.webp",
@@ -692,6 +692,14 @@
       "bytes": 2740,
       "sha256": "312e2a062bf5af593e1742b9d054016eed7ed1dd5e222cc5209184bc126d6b1f"
     },
+    "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5": {
+      "src": "/images/alumni/avatars/npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5.webp",
+      "source": "https://npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5.blossom.band/d78fb552d505e2b65c591b815c393957c87d9b08fd464780b6559690952ea650.png",
+      "width": 128,
+      "height": 128,
+      "bytes": 3602,
+      "sha256": "290135b0b72ffebe99d3d09260a08951f2a8b60104d082106663f310f4117255"
+    },
     "npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl": {
       "src": "/images/alumni/avatars/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl.webp",
       "source": "https://m.primal.net/PPfe.png",
@@ -736,10 +744,6 @@
     },
     "npub1t5atsakzq63h45asjn3qhlpeg80nlgs6zkkgafmddyvywdufv6dqxfahcl": {
       "source": "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg",
-      "error": "HTTP 404"
-    },
-    "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5": {
-      "source": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX",
       "error": "HTTP 404"
     }
   }

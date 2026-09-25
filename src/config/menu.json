@@ -20,7 +20,6 @@
         { "name": "Concept", "url": "/concept" },
         { "name": "Philosophy", "url": "/philosophy" },
         { "name": "Projects", "url": "/projects" },
-        { "name": "Alumni", "url": "/alumni" },
         { "name": "Podcast", "url": "/podcast" },
         { "name": "Blog", "url": "/blog" },
         { "name": "Media", "url": "/media" },

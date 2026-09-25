@@ -849,17 +849,17 @@
     "npub": "npub17ngcvm59n9trc5kwam03rs5ts4n7gewxax53m7f2m4f464ls92cqr5qjta",
     "name": "En",
     "displayName": "En",
-    "about": "Full Stack Dev",
+    "about": "Dev",
     "nip05": "enes@nostrdev.com",
-    "picture": "https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp",
+    "picture": "https://blossom.primal.net/2ef567f9cb8256352353199a893dd6f4f966526163d4907371d33347960685bf.jpg",
     "kind0": {
       "kind": 0,
-      "id": "d6b7355ae7c5e2867eb2ee51b2d7b6f8bf5845d164c7cf5232d7a1139ff99156",
+      "id": "b858195e9c59e0c82b64f1e29bf492f05ff28b48de433d258ff2dc37d31387a9",
       "pubkey": "f4d1866e8599563c52ceeedf11c28b8567e465c6e9a91df92add535d57f02ab0",
-      "created_at": 1770112310,
+      "created_at": 1786646851,
       "tags": [],
-      "content": "{\"picture\":\"https://cdn.nostrcheck.me/6e24af77db17d8f891e1967d2eb61877f18e4186980fa16958875a45b3f1350b/ac04a56816165e043d8f8ea6af0af8581d3f14191115052b42efbd36f7c08113.webp\",\"name\":\"En\",\"display_name\":\"En\",\"nip05\":\"enes@nostrdev.com\",\"about\":\"Full Stack Dev\",\"website\":\"\",\"displayName\":\"En\",\"lud16\":\"momentumcelestial377770@getalby.com\"}",
-      "sig": "80a48e1082c17d6eb73d02fe1f6bb1dded439f55e24013393656d0d833c843671b8157916ad30ec9cb6a9db3bd36dbfc3708bda2f76d50cd0503eb19f9791510"
+      "content": "{\"display_name\":\"En\",\"name\":\"En\",\"about\":\"Dev\",\"picture\":\"https://blossom.primal.net/2ef567f9cb8256352353199a893dd6f4f966526163d4907371d33347960685bf.jpg\",\"nip05\":\"enes@nostrdev.com\",\"lud16\":\"momentumcelestial377770@getalby.com\"}",
+      "sig": "f5f4530033ab1b85713e949f90dac0c46070e20d0ba8e69ec0a286ced3ea0fd64ed870dd5a92bebc202731433043adb7ccc8f29a8a3b278e9c697755c5580932"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -867,13 +867,9 @@
         "wss://nos.lol",
         "wss://relay.damus.io",
         "wss://relay.primal.net",
-        "wss://nostr.wine",
-        "wss://relay.nostr.band",
-        "wss://purplepag.es",
-        "wss://nostr-pub.wellorder.net",
-        "wss://nostr.mom"
+        "wss://purplepag.es"
       ],
-      "fetchedAt": "2026-09-25T05:29:44.039Z"
+      "fetchedAt": "2026-09-25T19:00:00.429Z"
     }
   },
   {
@@ -3547,15 +3543,15 @@
     "displayName": "Zach",
     "about": "typescript maximalist and FROST enjoyer ❄️ \n\nyour nsec should stay on steel && rotate your keys monthly 🗝️",
     "nip05": "zach@troop.is",
-    "picture": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX",
+    "picture": "https://npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5.blossom.band/d78fb552d505e2b65c591b815c393957c87d9b08fd464780b6559690952ea650.png",
     "kind0": {
       "kind": 0,
-      "id": "3643733d4257557d17488a73f87a625b43f01e968ab381c6608df89c2cb6ba13",
+      "id": "14b52ee50d40d713af988611100a4607a3f65a80d15873fa8e7759a4c43c50b0",
       "pubkey": "17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58",
-      "created_at": 1722877669,
+      "created_at": 1785763151,
       "tags": [],
-      "content": "{\"picture\":\"https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX\",\"displayName\":\"Zach\",\"name\":\"zach\",\"image\":\"https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX\",\"about\":\"typescript maximalist and FROST enjoyer ❄️ \\n\\nyour nsec should stay on steel && rotate your keys monthly 🗝️\",\"banner\":\"https://m.primal.net/HQIU.png\",\"website\":\"https://www.zach.my/\",\"nip05\":\"zach@troop.is\",\"lud16\":\"polishedsun243004@getalby.com\",\"pubkey\":\"17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58\",\"npub\":\"npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5\",\"created_at\":1709197316,\"display_name\":\"Zach\"}",
-      "sig": "44ce9d55b77c5e989dae944619dda5164db0ce869c97d02be6e8cbef48a966c1b092cea09b5247ecdb03dbc09a9f8b392fdcefb0aa69781b44f6b3d74f0d7417"
+      "content": "{\"picture\":\"https://npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5.blossom.band/d78fb552d505e2b65c591b815c393957c87d9b08fd464780b6559690952ea650.png\",\"displayName\":\"Zach\",\"name\":\"zach\",\"image\":\"https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX\",\"about\":\"typescript maximalist and FROST enjoyer ❄️ \\n\\nyour nsec should stay on steel && rotate your keys monthly 🗝️\",\"banner\":\"https://m.primal.net/HQIU.png\",\"website\":\"https://www.zach.my/\",\"nip05\":\"zach@troop.is\",\"lud16\":\"polishedsun243004@getalby.com\",\"pubkey\":\"17717ad4d20e2a425cda0a2195624a0a4a73c4f6975f16b1593fc87fa46f2d58\",\"npub\":\"npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5\",\"created_at\":1709197316,\"display_name\":\"Zach\",\"lnurl\":\"lnurl1dp68gurn8ghj7em9w3skccne9e3k7mf09emk2mrv944kummhdchkcmn4wfk8qtmsdakxjumgv4j8xatwxg6rxvpsxssl88p5\"}",
+      "sig": "aa75d72fa69459d98450236f8680950f3f66b96c783f00b6716ce9defc92cb2e0a18f3acc15c3f563b38c67359f01cd60ed9882945217946d18183feb9b475d8"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -3563,13 +3559,9 @@
         "wss://nos.lol",
         "wss://relay.damus.io",
         "wss://relay.primal.net",
-        "wss://nostr.wine",
-        "wss://relay.nostr.band",
-        "wss://purplepag.es",
-        "wss://nostr-pub.wellorder.net",
-        "wss://nostr.mom"
+        "wss://purplepag.es"
       ],
-      "fetchedAt": "2026-09-25T05:29:44.039Z"
+      "fetchedAt": "2026-09-25T19:00:00.429Z"
     }
   },
   {

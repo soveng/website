@@ -125,6 +125,7 @@ const profiles = JSON.parse(await readFile(DATA_PATH, 'utf8'));
 const profilesWithPictures = profiles.filter((profile) => safeImageUrl(profile.picture));
 
 await mkdir(OUTPUT_DIR, { recursive: true });
+const previousCache = JSON.parse(await readFile(MANIFEST_PATH, 'utf8').catch(() => '{"avatars":{}}'));
 const results = await mapConcurrent(profilesWithPictures, processProfile, CONCURRENCY);
 const failures = results.filter((result) => result.status === 'failed');
 
@@ -142,8 +143,17 @@ const avatars = Object.fromEntries(
     .map((result) => [result.profile.npub, result.entry])
     .sort(([left], [right]) => left.localeCompare(right)),
 );
+// Preserve a usable cached avatar when its upstream host is temporarily down.
+for (const { profile } of failures) {
+  const cached = previousCache.avatars?.[profile.npub];
+  if (cached?.source === safeImageUrl(profile.picture) && cached.src === `${PUBLIC_PREFIX}${avatarFileName(profile)}`) {
+    const exists = await readFile(new URL(avatarFileName(profile), OUTPUT_DIR)).then(() => true, () => false);
+    if (exists) avatars[profile.npub] = cached;
+  }
+}
 const failed = Object.fromEntries(
   failures
+    .filter((failure) => !avatars[failure.profile.npub])
     .map((failure) => [
       failure.profile.npub,
       {
@@ -172,4 +182,4 @@ await writeFile(
 );
 
 console.log(`Cached ${Object.keys(avatars).length}/${profilesWithPictures.length} alumni avatars to ${OUTPUT_DIR.pathname}`);
-if (failures.length > 0) console.log(`Skipped ${failures.length} broken upstream avatar(s); page will show initials for them.`);
+if (failures.length > 0) console.log(`Skipped ${failures.length} unavailable upstream avatar(s); retained matching cached images where available.`);

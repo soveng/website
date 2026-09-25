@@ -111,3 +111,9 @@ MIT License. See [LICENSE](./LICENSE) for details.
 ---
 
 For questions, suggestions, or contributions, please open an issue or pull request.
+
+## Alumni refresh
+
+`bun run build` refreshes the alumni follow list and Nostr profile metadata, then downloads and crops avatars to 128 × 128 WebP images before generating the site. Profile discovery uses purplepag.es and relay.vertexlab.io alongside public relays. Signed NIP-65 relay lists are used to query each author’s advertised write relays (up to four per author, with bounded concurrency). Relay requests are time-limited and signatures are verified. Saved profiles fill gaps when relays are unavailable; matching cached avatars survive image-host failures. The page serves local images and does not query relays in visitors' browsers.
+
+Profiles with no public bio keep the “No public bio.” placeholder. Profiles without a usable picture show initials. Changes made during a deployment are used for that build; the committed snapshot remains the fallback for future clean builds. To update that snapshot manually, run `bun scripts/extract-alumni-kind0.mjs` and `bun run cache-alumni-avatars`, then commit the generated data and images.

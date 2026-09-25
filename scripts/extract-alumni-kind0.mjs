@@ -1,244 +1,121 @@
-#!/usr/bin/env node
+#!/usr/bin/env bun
 import { readFileSync, writeFileSync } from 'node:fs';
-import { spawnSync } from 'node:child_process';
-import { join } from 'node:path';
-import { createHash } from 'node:crypto';
+import { nip19, verifyEvent } from 'nostr-tools';
+import { AbstractSimplePool } from 'nostr-tools/abstract-pool';
+import { BlogWebSocket } from '../src/lib/blogWebSocket.ts';
 
-const root = process.cwd();
-const alumniPath = join(root, 'src/data/sovengAlumni.json');
-const membershipSourceUrl = 'https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19';
-const membershipAuthorPubkey = '83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19';
-const membershipListId = 'sier9e7ih6k2';
-const membershipListKind = 39089;
-const followListRelayUrls = [
-  'wss://relay.damus.io',
-  'wss://relay.nostr.band',
-  'wss://nostr.oxtr.dev',
-  'wss://nostr-pub.wellorder.net',
-  'wss://nos.lol',
-  'wss://relay.primal.net',
-];
-const relayUrls = [
-  'wss://nos.lol',
-  'wss://relay.damus.io',
-  'wss://relay.primal.net',
-  'wss://nostr.wine',
-  'wss://relay.nostr.band',
-  'wss://purplepag.es',
-  'wss://nostr-pub.wellorder.net',
-  'wss://nostr.mom',
-];
-const chunkSize = 30;
+const alumniPath = new URL('../src/data/sovengAlumni.json', import.meta.url);
+const author = '83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19';
+const listId = 'sier9e7ih6k2';
+const membershipSourceUrl = `https://following.space/d/${listId}?p=${author}`;
+const relayUrls = ['wss://nos.lol', 'wss://relay.damus.io', 'wss://relay.primal.net', 'wss://purplepag.es'];
+const profileRelays = ['wss://purplepag.es', 'wss://relay.vertexlab.io', ...relayUrls.filter((url) => url !== 'wss://purplepag.es')];
+const fallbackRelays = ['wss://relay.nostr.band', 'wss://nostr-pub.wellorder.net', 'wss://nostr.mom', 'wss://nostr.wine'];
+const existing = JSON.parse(readFileSync(alumniPath, 'utf8'));
 
-function parseMetadata(event) {
-  try {
-    const parsed = JSON.parse(event.content);
-    return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
-  } catch {
-    return {};
-  }
+export function latestEvent(events) {
+  return events.filter((event) => {
+    try { return verifyEvent(event); } catch { return false; }
+  }).sort((a, b) => b.created_at - a.created_at || a.id.localeCompare(b.id))[0];
 }
 
-function asCleanString(value) {
-  return typeof value === 'string' && value.trim() ? value.trim() : undefined;
-}
-
-function uniqueByPubkey(records) {
-  const seen = new Set();
-  const result = [];
-  for (const record of records) {
-    if (seen.has(record.pubkey)) continue;
-    seen.add(record.pubkey);
-    result.push(record);
-  }
-  return result;
-}
-
-function isHex64(value) {
-  return typeof value === 'string' && /^[0-9a-f]{64}$/i.test(value);
-}
-
-function computeNostrEventId(event) {
-  const serialized = JSON.stringify([0, event.pubkey, event.created_at, event.kind, event.tags, event.content]);
-  return createHash('sha256').update(serialized, 'utf8').digest('hex');
-}
-
-function isValidKind0Event(event) {
-  if (!event || event.kind !== 0 || !isHex64(event.pubkey) || !isHex64(event.id)) return false;
-  if (!Number.isInteger(event.created_at) || event.created_at <= 0) return false;
-  if (!Array.isArray(event.tags) || event.tags.some((tag) => !Array.isArray(tag) || tag.some((item) => typeof item !== 'string'))) return false;
-  if (typeof event.content !== 'string') return false;
-  return computeNostrEventId(event) === event.id;
-}
-
-function rememberEvent(eventsByPubkey, event, allowedPubkeys) {
-  if (!isValidKind0Event(event)) return;
-  if (allowedPubkeys && !allowedPubkeys.has(event.pubkey)) return;
-  const existing = eventsByPubkey.get(event.pubkey);
-  if (!existing || event.created_at > existing.created_at || (event.created_at === existing.created_at && event.id > existing.id)) {
-    eventsByPubkey.set(event.pubkey, event);
-  }
-}
-
-function parseEventLines(stdout, eventsByPubkey, allowedPubkeys) {
-  for (const line of stdout.split('\n')) {
-    const trimmed = line.trim();
-    if (!trimmed.startsWith('{')) continue;
+export function writeRelays(events, pubkey) {
+  const event = latestEvent(events.filter((event) => event.kind === 10002 && event.pubkey === pubkey));
+  const urls = (event?.tags ?? []).flatMap(([tag, value, mode]) => {
+    if (tag !== 'r' || (mode && mode !== 'write')) return [];
     try {
-      rememberEvent(eventsByPubkey, JSON.parse(trimmed), allowedPubkeys);
-    } catch {
-      // Ignore relay notices and partial lines.
-    }
-  }
-}
-
-function parseJsonEventLines(stdout) {
-  const events = [];
-  for (const line of stdout.split('\n')) {
-    const trimmed = line.trim();
-    if (!trimmed.startsWith('{')) continue;
-    try {
-      events.push(JSON.parse(trimmed));
-    } catch {
-      // Ignore relay notices and partial lines.
-    }
-  }
-  return events;
-}
-
-function isValidMembershipListEvent(event) {
-  if (!event || event.kind !== membershipListKind || event.pubkey !== membershipAuthorPubkey || !isHex64(event.id)) return false;
-  if (!Number.isInteger(event.created_at) || event.created_at <= 0) return false;
-  if (!Array.isArray(event.tags) || event.tags.some((tag) => !Array.isArray(tag) || tag.some((item) => typeof item !== 'string'))) return false;
-  if (typeof event.content !== 'string') return false;
-  if (computeNostrEventId(event) !== event.id) return false;
-  return event.tags.some((tag) => tag[0] === 'd' && tag[1] === membershipListId);
-}
-
-function hexToNpub(pubkey, existingByPubkey) {
-  const existing = existingByPubkey.get(pubkey);
-  if (existing?.npub) return existing.npub;
-  const result = spawnSync('nak', ['encode', 'npub', pubkey], { cwd: root, encoding: 'utf8', maxBuffer: 1024 * 1024 });
-  if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`nak encode npub exited with ${result.status}: ${result.stderr}`);
-  const npub = result.stdout.trim();
-  if (!/^npub1[023456789acdefghjklmnpqrstuvwxyz]+$/.test(npub)) throw new Error(`nak returned invalid npub for ${pubkey}`);
-  return npub;
-}
-
-function fetchMembershipSeedRecords(existingRecords) {
-  const existingByPubkey = new Map(existingRecords.map((record) => [record.pubkey, record]));
-  const args = ['req', '-k', String(membershipListKind), '-a', membershipAuthorPubkey, '-d', membershipListId, '-l', '20', ...followListRelayUrls];
-  console.error(`fetching source follow-list ${membershipListKind}:${membershipAuthorPubkey}:${membershipListId}`);
-  const result = spawnSync('nak', args, { cwd: root, encoding: 'utf8', maxBuffer: 20 * 1024 * 1024, timeout: 90_000 });
-  if (result.error) throw result.error;
-  if (result.status !== 0) throw new Error(`nak follow-list req exited with ${result.status}: ${result.stderr}`);
-
-  const events = parseJsonEventLines(result.stdout).filter(isValidMembershipListEvent);
-  if (events.length === 0) throw new Error('no valid source follow-list event returned from relays');
-  events.sort((left, right) => right.created_at - left.created_at || right.id.localeCompare(left.id));
-
-  const event = events[0];
-  const seen = new Set();
-  const seedRecords = [];
-  for (const tag of event.tags) {
-    if (tag[0] !== 'p' || !isHex64(tag[1]) || seen.has(tag[1])) continue;
-    seen.add(tag[1]);
-    seedRecords.push({ pubkey: tag[1], npub: hexToNpub(tag[1], existingByPubkey) });
-  }
-  if (seedRecords.length === 0) throw new Error('source follow-list event has no p tags');
-  console.error(`source follow-list event ${event.id} has ${seedRecords.length} unique pubkeys`);
-  return seedRecords;
-}
-
-function seedExistingKind0Events(eventsByPubkey, existingRecords, allowedPubkeys) {
-  for (const record of existingRecords) rememberEvent(eventsByPubkey, record.kind0, allowedPubkeys);
-}
-
-function fetchKind0Events(seedRecords, existingRecords) {
-  const pubkeys = seedRecords.map((record) => record.pubkey);
-  const allowedPubkeys = new Set(pubkeys);
-  const eventsByPubkey = new Map();
-  seedExistingKind0Events(eventsByPubkey, existingRecords, allowedPubkeys);
-  for (let index = 0; index < pubkeys.length; index += chunkSize) {
-    const chunk = pubkeys.slice(index, index + chunkSize);
-    const chunkSet = new Set(chunk);
-    const args = ['req', '-k', '0', '-l', String(chunk.length * relayUrls.length * 3)];
-    for (const pubkey of chunk) args.push('-a', pubkey);
-    args.push(...relayUrls);
-
-    console.error(`fetching kind0 chunk ${index / chunkSize + 1}/${Math.ceil(pubkeys.length / chunkSize)} (${chunk.length} pubkeys)`);
-    const result = spawnSync('nak', args, { cwd: root, encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 });
-    if (result.error) throw result.error;
-    if (result.status !== 0) {
-      throw new Error(`nak exited with ${result.status}: ${result.stderr}`);
-    }
-    parseEventLines(result.stdout, eventsByPubkey, chunkSet);
-  }
-
-  const missingAfterBatch = seedRecords.filter((record) => !eventsByPubkey.has(record.pubkey));
-  for (const record of missingAfterBatch) {
-    console.error(`fallback kind0 fetch for ${record.npub}`);
-    const reqArgs = ['req', '-k', '0', '-l', '20', '-a', record.pubkey, ...relayUrls];
-    const reqResult = spawnSync('nak', reqArgs, { cwd: root, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
-    if (!reqResult.error && reqResult.status === 0) {
-      parseEventLines(reqResult.stdout, eventsByPubkey, allowedPubkeys);
-    }
-    if (eventsByPubkey.has(record.pubkey)) continue;
-
-    const fetchResult = spawnSync('nak', ['fetch', record.npub], { cwd: root, encoding: 'utf8', maxBuffer: 10 * 1024 * 1024 });
-    if (!fetchResult.error && fetchResult.status === 0) {
-      parseEventLines(fetchResult.stdout, eventsByPubkey, allowedPubkeys);
-    }
-  }
-
-  return eventsByPubkey;
-}
-
-const existingRecords = uniqueByPubkey(JSON.parse(readFileSync(alumniPath, 'utf8')));
-const seedRecords = fetchMembershipSeedRecords(existingRecords);
-const pubkeys = seedRecords.map((record) => record.pubkey);
-const fetchedAt = new Date().toISOString();
-const eventsByPubkey = fetchKind0Events(seedRecords, existingRecords);
-
-const missing = pubkeys.filter((pubkey) => !eventsByPubkey.has(pubkey));
-if (missing.length > 0) {
-  console.error(`missing kind0 events for ${missing.length}/${pubkeys.length} pubkeys:`);
-  for (const pubkey of missing) console.error(`- ${pubkey}`);
-  process.exit(1);
-}
-
-const records = seedRecords
-  .map((seed) => {
-    const kind0 = eventsByPubkey.get(seed.pubkey);
-    const metadata = parseMetadata(kind0);
-    const name = asCleanString(metadata.name);
-    const displayName = asCleanString(metadata.display_name) ?? asCleanString(metadata.displayName);
-    const about = asCleanString(metadata.about);
-    const picture = asCleanString(metadata.picture);
-    const nip05 = asCleanString(metadata.nip05);
-
-    return {
-      pubkey: seed.pubkey,
-      npub: seed.npub,
-      ...(name ? { name } : {}),
-      ...(displayName ? { displayName } : {}),
-      ...(about ? { about } : {}),
-      ...(nip05 ? { nip05 } : {}),
-      ...(picture ? { picture } : {}),
-      kind0,
-      source: {
-        membershipSourceUrl,
-        relayUrls,
-        fetchedAt,
-      },
-    };
-  })
-  .sort((left, right) => {
-    const leftName = left.displayName || left.name || left.npub;
-    const rightName = right.displayName || right.name || right.npub;
-    return leftName.localeCompare(rightName, undefined, { sensitivity: 'base' }) || left.npub.localeCompare(right.npub);
+      const url = new URL(value);
+      return url.protocol === 'wss:' && !url.username && !url.password ? [url.href] : [];
+    } catch { return []; }
   });
+  return [...new Set(urls)].slice(0, 4);
+}
 
-writeFileSync(alumniPath, `${JSON.stringify(records, null, 2)}\n`);
-console.log(`wrote ${records.length} source-locked alumni records with raw kind0 events to ${alumniPath}`);
+export function mergeProfiles(pubkeys, events, saved, fetchedAt, queriedRelays = relayUrls) {
+  const oldByKey = new Map(saved.map((profile) => [profile.pubkey, profile]));
+  return pubkeys.flatMap((pubkey) => {
+    const old = oldByKey.get(pubkey);
+    const event = latestEvent([
+      ...(old ? [old.kind0] : []),
+      ...events.filter((candidate) => candidate.kind === 0 && candidate.pubkey === pubkey),
+    ].filter((candidate) => {
+      try {
+        const metadata = JSON.parse(candidate.content);
+        return metadata && typeof metadata === 'object' && !Array.isArray(metadata);
+      } catch { return false; }
+    }));
+    if (!event) return old ? [old] : [];
+    if (old?.kind0.id === event.id) return [old];
+    const metadata = JSON.parse(event.content);
+    const clean = (value) => typeof value === 'string' && value.trim() ? value.trim() : undefined;
+    return [{
+      pubkey, npub: nip19.npubEncode(pubkey),
+      name: clean(metadata.name),
+      displayName: clean(metadata.display_name) || clean(metadata.displayName),
+      about: clean(metadata.about), nip05: clean(metadata.nip05), picture: clean(metadata.picture),
+      kind0: event, source: { membershipSourceUrl, relayUrls: queriedRelays, fetchedAt },
+    }];
+  });
+}
+
+export async function refreshAlumni() {
+  const pool = new AbstractSimplePool({
+    verifyEvent, websocketImplementation: BlogWebSocket, maxWaitForConnection: 3000,
+  });
+  const queriedRelays = new Set();
+  const query = async (filter, relays = relayUrls) => {
+    for (const relay of relays) queriedRelays.add(relay);
+    try { return await pool.querySync(relays, filter, { maxWait: 5000 }); }
+    catch (error) { console.warn('Alumni relay refresh failed; retaining saved data.', error); return []; }
+  };
+  try {
+    const membership = latestEvent((await query({ kinds: [39089], authors: [author], '#d': [listId], limit: 10 }))
+      .filter((event) => event.kind === 39089 && event.pubkey === author && event.tags.some((tag) => tag[0] === 'd' && tag[1] === listId)));
+    const pubkeys = membership
+      ? [...new Set(membership.tags.filter((tag) => tag[0] === 'p' && /^[a-f0-9]{64}$/.test(tag[1])).map((tag) => tag[1]))]
+      : existing.map((profile) => profile.pubkey);
+    if (!membership) console.warn('Alumni membership unavailable; refreshing saved members.');
+    const batches = [];
+    for (let i = 0; i < pubkeys.length; i += 30) {
+      batches.push(query({ kinds: [0, 10002], authors: pubkeys.slice(i, i + 30), limit: 600 }, profileRelays));
+    }
+    const events = (await Promise.all(batches)).flat();
+    const authorsByRelay = new Map();
+    let withOutbox = 0;
+    for (const pubkey of pubkeys) {
+      const relays = writeRelays(events, pubkey);
+      if (relays.length) withOutbox++;
+      for (const relay of relays) {
+        const authors = authorsByRelay.get(relay) ?? [];
+        authors.push(pubkey);
+        authorsByRelay.set(relay, authors);
+      }
+    }
+    const outboxJobs = [...authorsByRelay].flatMap(([relay, authors]) => {
+      const jobs = [];
+      for (let i = 0; i < authors.length; i += 30) jobs.push({ relay, authors: authors.slice(i, i + 30) });
+      return jobs;
+    });
+    // Limit concurrent connections while querying the authors' advertised write relays.
+    for (let i = 0; i < outboxJobs.length; i += 8) {
+      const results = await Promise.all(outboxJobs.slice(i, i + 8).map(({ relay, authors }) => query({ kinds: [0], authors, limit: 300 }, [relay])));
+      events.push(...results.flat());
+    }
+    console.log(`Discovered write relays for ${withOutbox}/${pubkeys.length} alumni; queried ${authorsByRelay.size} outbox relays.`);
+    let records = mergeProfiles(pubkeys, events, existing, new Date().toISOString(), [...queriedRelays]);
+    const byKey = new Map(records.map((record) => [record.pubkey, record]));
+    const incomplete = pubkeys.filter((pubkey) => !byKey.get(pubkey)?.about || !byKey.get(pubkey)?.picture);
+    if (incomplete.length) {
+      const extra = [];
+      for (let i = 0; i < incomplete.length; i += 30) {
+        extra.push(query({ kinds: [0], authors: incomplete.slice(i, i + 30), limit: 300 }, fallbackRelays));
+      }
+      records = mergeProfiles(pubkeys, (await Promise.all(extra)).flat(), records, new Date().toISOString(), [...queriedRelays]);
+    }
+    records.sort((a, b) => (a.displayName || a.name || a.npub).localeCompare(b.displayName || b.name || b.npub, undefined, { sensitivity: 'base' }));
+    writeFileSync(alumniPath, `${JSON.stringify(records, null, 2)}\n`);
+    console.log(`Refreshed ${records.length} alumni profiles (${pubkeys.length - records.length} new members awaiting profile data).`);
+  } finally { pool.destroy(); }
+}
+
+if (import.meta.main) await refreshAlumni();

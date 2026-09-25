@@ -8,10 +8,11 @@
   "packageManager": "bun@latest",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "bun scripts/extract-alumni-kind0.mjs && bun run cache-alumni-avatars && astro build",
     "preview": "astro preview",
     "check": "astro check",
     "cache-alumni-avatars": "bun scripts/cache-alumni-avatars.mjs",
+    "test:alumni-refresh": "bun scripts/test-alumni-refresh.mjs && bun scripts/test-alumni-avatar-refresh.mjs",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx,.astro",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx,.astro --fix",
     "format": "prettier --write .",
