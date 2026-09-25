@@ -50,12 +50,9 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         data-profile-relays={BLOG_PROFILE_RELAYS.join(' ')}
         aria-labelledby="blog-activity-title"
       >
-        <div class="blog-activity-heading">
-          <div>
-            <h2 id="blog-activity-title">The conversation</h2>
-          </div>
-          <a href={`https://nostrudel.ninja/articles/${article.naddr}`} target="_blank" rel="noopener noreferrer">Join the Discussion ↗</a>
-        </div>
+        <h2 class="blog-activity-heading" id="blog-activity-title">
+          <a href={`https://nostrudel.ninja/articles/${article.naddr}`} target="_blank" rel="noopener noreferrer">Join the conversation <span aria-hidden="true">↗</span></a>
+        </h2>
         <div class="blog-activity-reactions">
           <h3>Reactions <span data-reaction-count></span></h3>
           <p data-reaction-status role="status">Loading reactions…</p>
