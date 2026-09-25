@@ -31,7 +31,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -59,7 +59,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -89,7 +89,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -99,15 +99,15 @@
     "displayName": "Alex Lewin",
     "about": "Bitcoin Lightning Dev from ATL",
     "nip05": "alex@pleb.fm",
-    "picture": "https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg",
+    "picture": "https://blossom.primal.net/8bae60161b68f4467bf43ec49fed38c2051569763b8dd0a4508838acf1aeb30c.jpg",
     "kind0": {
       "kind": 0,
-      "id": "c364e2e4b1d2175316f3074325266976e82ff68fe39ee9bae66dc3bce10bbcc2",
+      "id": "cb02992f7dd7f03618bb9a548da238e422d8e85db68ff92608e8b8037455e6c0",
       "pubkey": "d76726da1b64e8679d8b6e66facf551ba96f2612de5a171fac818ee85ce3e5fe",
-      "created_at": 1712075274,
+      "created_at": 1782210193,
       "tags": [],
-      "content": "{\"name\":\"Alex Lewin\",\"display_name\":\"Alex Lewin\",\"about\":\"Bitcoin Lightning Dev from ATL\",\"website\":\"https://twitter.com/_alexlewin\",\"picture\":\"https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg\",\"banner\":\"https://pbs.twimg.com/profile_banners/3828049641/1679940755/1500x500\",\"nip05\":\"alex@pleb.fm\",\"lud16\":\"alexl@getalby.com\",\"reactions\":true}",
-      "sig": "04c1430f467d2b0e783a27cf71722437f78758322f5f948a50bd8d2280e25b41294978e9e6e8712b3fed6106900c93bf6dcb8d8a6ab8082d1198962b8b5e930f"
+      "content": "{\"about\":\"Bitcoin Lightning Dev from ATL\",\"nip05\":\"alex@pleb.fm\",\"name\":\"Alex Lewin\",\"lud16\":\"alexl@getalby.com\",\"picture\":\"https:\\/\\/blossom.primal.net\\/8bae60161b68f4467bf43ec49fed38c2051569763b8dd0a4508838acf1aeb30c.jpg\",\"banner\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/3828049641\\/1679940755\\/1500x500\",\"display_name\":\"Alex Lewin\",\"website\":\"https:\\/\\/x.com\\/alewin\",\"lud06\":\"\"}",
+      "sig": "f2a8e21c7ace2fff8594bb27f566697a5ab0c87e069e8eec06cd7f18f53789d43525c9ff79115c6a6d30f4a0e83d0e661f3f9c74211a52dc649ebf453112a1be"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -121,7 +121,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -152,7 +152,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -184,7 +184,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -217,7 +217,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -229,17 +229,12 @@
     "picture": "https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png",
     "kind0": {
       "kind": 0,
-      "id": "9f213a77cb60dfdd1c3f1c8ef88dc2324224166a0cae30c095288a4dc57be46f",
+      "id": "c25df8cce9a0e1aef1b2a62b7f81de1122aac28b00377969b9ce34a94d6d5869",
       "pubkey": "bbb5dda0e15567979f0543407bdc2033d6f0bbb30f72512a981cfdb2f09e2747",
-      "created_at": 1780941174,
-      "tags": [
-        [
-          "client",
-          "Primal Web"
-        ]
-      ],
-      "content": "{\"name\":\"Arjen\",\"about\":\"#SovEng SEC-03-07\\n\\n- Tollgate\\n- Nostr networking stuff\\n- SugarDaddy.Cash\\n\\nAvid through-hiker, over 3500km of the Pacific Crest Trail hiked and counting 🥾. \\n\\nI hate ads and leafblowers\\n\\nI don't read DM's\",\"lud16\":\"iwillnot@getalby.com\",\"picture\":\"https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png\",\"display_name\":\"Arjen\",\"banner\":\"https://cdn.satellite.earth/d67c0d362655e7c8841811e57642512cbdb56d0c8491cb2a27aec4a5cd4a4672.jpeg\",\"displayName\":\"Arjen\"}",
-      "sig": "b2c0cc79fa87bf4e72d5008c733527bcde2c3b60eb02cb485c3d136177b5e77e171af7e294884998be9da75eec21bead848b1941554973c89574aef859ef84d4"
+      "created_at": 1790201685,
+      "tags": [],
+      "content": "{\"display_name\":\"Arjen\",\"name\":\"Arjen\",\"about\":\"#SovEng SEC-03-07\\n\\n- Tollgate\\n- Nostr networking stuff\\n- SugarDaddy.Cash\\n\\nAvid through-hiker, over 3500km of the Pacific Crest Trail hiked and counting 🥾. \\n\\nI hate ads and leafblowers\\n\\nI don't read DM's\",\"picture\":\"https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png\",\"banner\":\"https://cdn.satellite.earth/d67c0d362655e7c8841811e57642512cbdb56d0c8491cb2a27aec4a5cd4a4672.jpeg\",\"lud16\":\"greasyclipper562@walletofsatoshi.com\"}",
+      "sig": "f8493655e5c3da3635aeaa6a1dcf1ab3fc7fb2f0f31560abf7359351044faed5615a8d2df44439518c8b32d3483fec0e1981a5da65767a4b59253e5c0169b288"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -253,7 +248,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -284,7 +279,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -316,7 +311,39 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "6294024db0b07ae94e1299c58cd23377da2ed33276bc9392319ad6707f61dd06",
+    "npub": "npub1v22qyndskpawjnsjn8zce53nwldza5ejw67f8y33ntt8qlmpm5rq7ra0z2",
+    "name": "Breno Brito",
+    "displayName": "Breno Brito",
+    "about": "Previously in Spirit of Satoshi \nFusing AI and Bitcoin\nRead my bitcoin book 👇\nhttps://Bit.ly/101BTC",
+    "nip05": "brenorb@zaps.lol",
+    "picture": "https://image.nostr.build/5f97c991bbd66d71d9fa4d1dafa7a3d1c364ec6914dc69184c11c948ff20d636.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "eb1c425f026fc85141bc8f2909cdd2646442a173300daffce0a9e936b071fb96",
+      "pubkey": "6294024db0b07ae94e1299c58cd23377da2ed33276bc9392319ad6707f61dd06",
+      "created_at": 1780324069,
+      "tags": [],
+      "content": "{\"name\":\"Breno Brito\",\"display_name\":\"Breno Brito\",\"picture\":\"https://image.nostr.build/5f97c991bbd66d71d9fa4d1dafa7a3d1c364ec6914dc69184c11c948ff20d636.jpg\",\"banner\":\"https://image.nostr.build/22eb481ee8a063abaa538676ef7a1a36d5e4a77c258231d12b73946df9a2ce0f.jpg\",\"website\":\"\",\"about\":\"Previously in Spirit of Satoshi \\nFusing AI and Bitcoin\\nRead my bitcoin book 👇\\nhttps://Bit.ly/101BTC\",\"nip05\":\"brenorb@zaps.lol\",\"lud16\":\"breno@bipa.app\",\"lud06\":\"LNURL1DP68GURN8GHJ7CNFWPSJUCTSWQHJUAM9D3KZ66MWDAMKUTMVDE6HYMRS9A38YETWDU7NHC5U\",\"pubkey\":\"6294024db0b07ae94e1299c58cd23377da2ed33276bc9392319ad6707f61dd06\",\"is_deleted\":false}",
+      "sig": "85c39c7fd26488c64093581d900e899d46b624a966704bdd8340cac25b4170b7d1a7e736f90daa7ce640313a064f83c2c0b5b05775ca63cc9836af7b01772df0"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -329,10 +356,14 @@
     "picture": "https://avatars.githubusercontent.com/u/93376500",
     "kind0": {
       "kind": 0,
-      "id": "ba26d86cd42b3b09b6dfcc0193a70004d4dc10b7b4dc11c813bbf2ceb419866e",
+      "id": "235f7f4027cbdde13c45841df46b3b5ee92b6ab908d184c6ef9a961fe4d876b3",
       "pubkey": "50d94fc2d8580c682b071a542f8b1e31a200b0508bab95a33bef0855df281d63",
-      "created_at": 1780910400,
+      "created_at": 1786121005,
       "tags": [
+        [
+          "client",
+          "Primal Web"
+        ],
         [
           "alt",
           "User profile for calle"
@@ -351,7 +382,7 @@
         ],
         [
           "banner",
-          "https://primal.b-cdn.net/media-cache?s=o&a=1&u=https%3A%2F%2Fm.primal.net%2FPJUH.png"
+          "https://blossom.primal.net/e677fef0c37823693d94572d32715ab36df6d19b8393b104efdd50e4d11058fe.jpg"
         ],
         [
           "about",
@@ -363,11 +394,11 @@
         ],
         [
           "lud16",
-          "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg@npub.cash"
+          "calle@npubx.cash"
         ]
       ],
-      "content": "{\"name\":\"calle\",\"about\":\"DM @callebtc:matrix.org\",\"lud16\":\"npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg@npub.cash\",\"nip05\":\"calle@cashu.me\",\"picture\":\"https://avatars.githubusercontent.com/u/93376500\",\"displayName\":\"calle\",\"display_name\":\"calle\",\"banner\":\"https://primal.b-cdn.net/media-cache?s=o&a=1&u=https%3A%2F%2Fm.primal.net%2FPJUH.png\"}",
-      "sig": "4678082e46ef2fc49a47d4eaa64da5ac77c073c92256aa494cec3662ac2ddd0dd9bc67adf606e6cc62e1976963f2a87e76c68080b7a07e1e3f024974b31ec323"
+      "content": "{\"name\":\"calle\",\"about\":\"DM @callebtc:matrix.org\",\"lud16\":\"calle@npubx.cash\",\"nip05\":\"calle@cashu.me\",\"picture\":\"https://avatars.githubusercontent.com/u/93376500\",\"display_name\":\"calle\",\"banner\":\"https://blossom.primal.net/e677fef0c37823693d94572d32715ab36df6d19b8393b104efdd50e4d11058fe.jpg\",\"displayName\":\"calle\"}",
+      "sig": "ef9a43ac48bdafc1d6d6e2e9bf9f5b9ce411c19fea7c3bfcc3700f7e76a8605336342f7c8a70a3bcf5c74ff0d4744cbfd8acd879985dd750a234f83a54cf63b0"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -381,25 +412,25 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "d36e8083fa7b36daee646cb8b3f99feaa3d89e5a396508741f003e21ac0b6bec",
     "npub": "npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq",
-    "name": "calvadev",
-    "displayName": "calvadev⚡️",
+    "name": "calva⚡️",
+    "displayName": "calva⚡️",
     "about": "shopstrmarkets.com founder | commerce cowboy | free market maximalist | nurture capitalist",
-    "nip05": "calvadev@calva.dev",
-    "picture": "https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg",
+    "nip05": "calva@calva.fyi",
+    "picture": "https://npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq.blossom.band/b90f82807f87a27c277981535d27c8f2b4376b8be0bae0dcd9bb61359109d495.jpg",
     "kind0": {
       "kind": 0,
-      "id": "13c1e5d361103f2e0f2442017236951f79afdde222e60c8639e0b77a5ecf750b",
+      "id": "23de936b6408cdc676cab5d0d8562b3503acaffb26ccfe56cfa3b877f75daded",
       "pubkey": "d36e8083fa7b36daee646cb8b3f99feaa3d89e5a396508741f003e21ac0b6bec",
-      "created_at": 1779166918,
+      "created_at": 1783544994,
       "tags": [],
-      "content": "{\"name\":\"calvadev\",\"display_name\":\"calvadev⚡️\",\"about\":\"shopstrmarkets.com founder | commerce cowboy | free market maximalist | nurture capitalist\",\"picture\":\"https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg\",\"banner\":\"https://i.nostr.build/bA4BfkwRc7q0gGDg.jpg\",\"nip05\":\"calvadev@calva.dev\",\"lud16\":\"calvadev@breez.tips\"}",
-      "sig": "16e67cdf6883d4b72ab3fb157056caca6d5fa88c07fe7574e4037759b01690be08de43c222c2e6cfdcc6578c2f545f0fff17fcad34d0f1b64b9b20c2c5e8b098"
+      "content": "{\"display_name\":\"calva⚡️\",\"name\":\"calva⚡️\",\"about\":\"shopstrmarkets.com founder | commerce cowboy | free market maximalist | nurture capitalist\",\"picture\":\"https://npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq.blossom.band/b90f82807f87a27c277981535d27c8f2b4376b8be0bae0dcd9bb61359109d495.jpg\",\"nip05\":\"calva@calva.fyi\",\"banner\":\"https://npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq.blossom.band/d551fd5159b8c080fbb5f97df9f6c22ee890b5d50621bad96eecb84e7e61995b.jpg\",\"lud16\":\"calva@breez.tips\"}",
+      "sig": "384ec15ebe6661d785a5894f60f6c36a07c3e3ab6bb34cb8f65c3880ca501c34340ee0d6541c5cd57bc4cb78462ec5a48826b52ea1de0abfdd5ace49c74b000e"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -413,7 +444,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -425,12 +456,12 @@
     "picture": "https://blossom.primal.net/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png",
     "kind0": {
       "kind": 0,
-      "id": "d9b5cbaf716793158bbc5da12aedf7aafda8e059672e7f98edb78981edc593af",
+      "id": "5619f54e5393423a5a512c09484c2808eb776b534cf794c41ddf3e20458fd181",
       "pubkey": "ec79b568bdea63ca6091f5b84b0c639c10a0919e175fa09a4de3154f82906f25",
-      "created_at": 1776015181,
+      "created_at": 1790206387,
       "tags": [],
-      "content": "{\"picture\":\"https:\\/\\/blossom.primal.net\\/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png\",\"banner\":\"https:\\/\\/blossom.primal.net\\/827f6921f36150b0f44e54ad4890dcbefaf0ed86e0bf854bbec95f09886b4fbc.png\",\"website\":\"https:\\/\\/hodlr.rocks\",\"about\":\"Laser cutter bitcoin and freedom tech art… founder of Plebeian\",\"display_name\":\"\",\"lud16\":\"chiefmonkey@primal.net\",\"name\":\"Chiefmonkey\",\"nip05\":\"chiefmonkey@primal.net\",\"lud06\":\"\"}",
-      "sig": "c8660baff3163db1fceb69743fa85c7304b4d7e90ad6d63141aa8189476ab5e32647dc11a7dd7f08af5ba52ea6f86d096a162784f72bd18e55dd8acf553f09fd"
+      "content": "{\"about\":\"Laser cutter bitcoin and freedom tech art… founder of Plebeian\",\"name\":\"Chiefmonkey\",\"website\":\"https://hodlr.rocks\",\"banner\":\"https://blossom.primal.net/827f6921f36150b0f44e54ad4890dcbefaf0ed86e0bf854bbec95f09886b4fbc.png\",\"lud06\":\"\",\"lud16\":\"joyfulnuance913@minibits.cash\",\"picture\":\"https://blossom.primal.net/67a5609f18a247a5bdf579737b629076340905f4289e501d8cbf924605407424.png\",\"display_name\":\"\",\"nip05\":\"chiefmonkey@primal.net\"}",
+      "sig": "2fb22ddb93c058dcb27add1df7f4d69bc2ca6d35e2c12616bb8e831642aeb3ca137264446b7f83ef615c7f708965ab0c252c9feb6cf71a0102fd4316f9b24e4d"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -444,7 +475,71 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "e75a185c019d09049d5fcb0e29a2cc9bfd016ec0f6d892fc98f6ffe0181a480d",
+    "npub": "npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s",
+    "displayName": "CruxCoach",
+    "about": "Kilter Board climbing app for Android. Open source. Privacy-first, you own your data. Nostr-powered.\nZapstore: https://zapstore.dev/apps/com.cruxcoach.android\nSource: https://codeberg.org/CruxCoach/CruxCoach",
+    "nip05": "cruxcoach@npub.cash",
+    "picture": "https://npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s.blossom.band/e7cf28a203d9ea86130212427ca726fcac2724bc7445b0336a021c973cb48b53.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "fff2aedf2e6599eff101036959e61c5b7492bbb5637a29fe5bf7f3bf3b35feb1",
+      "pubkey": "e75a185c019d09049d5fcb0e29a2cc9bfd016ec0f6d892fc98f6ffe0181a480d",
+      "created_at": 1777460992,
+      "tags": [
+        [
+          "alt",
+          "User profile for Anonymous"
+        ],
+        [
+          "display_name",
+          "CruxCoach"
+        ],
+        [
+          "picture",
+          "https://npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s.blossom.band/e7cf28a203d9ea86130212427ca726fcac2724bc7445b0336a021c973cb48b53.jpg"
+        ],
+        [
+          "website",
+          "https://cruxcoach.org"
+        ],
+        [
+          "about",
+          "Kilter Board climbing app for Android. Open source. Privacy-first, you own your data. Nostr-powered.\nZapstore: https://zapstore.dev/apps/com.cruxcoach.android\nSource: https://codeberg.org/CruxCoach/CruxCoach"
+        ],
+        [
+          "nip05",
+          "cruxcoach@npub.cash"
+        ],
+        [
+          "lud16",
+          "cruxcoach@npub.cash"
+        ],
+        [
+          "client",
+          "Amethyst"
+        ]
+      ],
+      "content": "{\"created_at\":1776197850,\"display_name\":\"CruxCoach\",\"picture\":\"https://npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s.blossom.band/e7cf28a203d9ea86130212427ca726fcac2724bc7445b0336a021c973cb48b53.jpg\",\"about\":\"Kilter Board climbing app for Android. Open source. Privacy-first, you own your data. Nostr-powered.\\nZapstore: https://zapstore.dev/apps/com.cruxcoach.android\\nSource: https://codeberg.org/CruxCoach/CruxCoach\",\"nip05\":\"cruxcoach@npub.cash\",\"lud16\":\"cruxcoach@npub.cash\",\"website\":\"https://cruxcoach.org\"}",
+      "sig": "08be5fefbc92fd04cf86c539f93ae4ffa4ca896f9af1da1bee36e0ca995f9d065371a2fb766682feacef0d0ae97e5269a21ebe6976dbb89506c76bb750acbd40"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -481,7 +576,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -513,7 +608,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -521,21 +616,21 @@
     "npub": "npub1qnw27f2jsqvn05wzpd56m7ykgmepk57p0yrzw8fzc7lfhjkmjmqqmd9r6h",
     "name": "DhananjayPurohit",
     "displayName": "Dhananjay Purohit",
-    "nip05": "dhananjay@paygress.net",
+    "nip05": "dhananjay@ngx-l402.org",
     "picture": "https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg",
     "kind0": {
       "kind": 0,
-      "id": "ed9dd03876b07016235a6fe7a8e2393a60c70a1f9af710fcc2e5c1f4adab4b9e",
+      "id": "485e67841e06e2d630e4bfdcf7f1c2f45a8bdbc02fd0f03b46b62615c548250e",
       "pubkey": "04dcaf2552801937d1c20b69adf89646f21b53c17906271d22c7be9bcadb96c0",
-      "created_at": 1781524895,
+      "created_at": 1787649856,
       "tags": [
         [
           "client",
           "Primal Android"
         ]
       ],
-      "content": "{\"name\":\"DhananjayPurohit\",\"nip05\":\"dhananjay@paygress.net\",\"lud16\":\"pearcougar16@primal.net\",\"display_name\":\"Dhananjay Purohit\",\"picture\":\"https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg\",\"banner\":\"https://blossom.primal.net/154fd76b5e31b3d9ee067f9ff2d85ac559dd43145796a51520558159e0dddb84.jpg\"}",
-      "sig": "15bf235b8fc8d77a3f33983d47d87c456c4e602c4c06133b5bfe26bb3f329f8fe42f7d98dfe446f86538ff1e61fe1d5a95852560b32db73579a334197f288560"
+      "content": "{\"name\":\"DhananjayPurohit\",\"nip05\":\"dhananjay@ngx-l402.org\",\"lud16\":\"pearcougar16@primal.net\",\"display_name\":\"Dhananjay Purohit\",\"picture\":\"https://blossom.primal.net/3e8426497c922a8d2b86fd1644b98296517eb9975fe5aa00a87ed3e7afb929fe.jpg\",\"banner\":\"https://blossom.primal.net/154fd76b5e31b3d9ee067f9ff2d85ac559dd43145796a51520558159e0dddb84.jpg\"}",
+      "sig": "72dd92186b2988cc53632df95d1d6ff834f36d1a455c9b1c8dee25ad25ad9969ac4f9bf30f62292bebefb286085bdc20c7b8f297b0d316bfddfdf5dc65b2b391"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -549,7 +644,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -580,7 +675,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -611,7 +706,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -648,7 +743,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -678,24 +773,25 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "ddf03aca85ade039e6742d5bef3df352df199d0d31e22b9858e7eda85cb3bbbe",
     "npub": "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226",
-    "name": "Egge",
-    "about": "Building https://npub.cash 🥜 Working on awesome nostr, cashu and Lightning stuff 💜⚡️",
+    "name": "egge",
+    "displayName": "Egge",
+    "about": "Nut Dev 🥜 Building http://npub.cash & Coco 🌩️ Freedom Tech on Cashu + Bitcoin + nostr",
     "nip05": "egge@npub.cash",
-    "picture": "https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg",
+    "picture": "https://blossom.primal.net/5c1b9975637ea742aa0f64d98719ca982cddb6f612dade8f4a7a7f0819c33d8c.png",
     "kind0": {
       "kind": 0,
-      "id": "fc113a8d21a906d8bec2ea50817140d6b39b0dc05c18363f7f019106dc9dbed4",
+      "id": "560ff11378e346ac826512a15a2740f4b215cee69e586f1a377d64e7aee26cb2",
       "pubkey": "ddf03aca85ade039e6742d5bef3df352df199d0d31e22b9858e7eda85cb3bbbe",
-      "created_at": 1754542834,
+      "created_at": 1786800307,
       "tags": [],
-      "content": "{\"display_name\":\"\",\"website\":\"https://my2sats.space\",\"lud16\":\"egge@npubx.cash\",\"picture\":\"https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg\",\"about\":\"Building https://npub.cash 🥜 Working on awesome nostr, cashu and Lightning stuff 💜⚡️\",\"name\":\"Egge\",\"nip05\":\"egge@npub.cash\"}",
-      "sig": "ba3a567d08a9dc366bc696018e314f648d971338f4bfed5bff5649688b284e8c87533702bc66ace0bfe278a5b2b38a88a5223efe4a5670c57645080f490f030c"
+      "content": "{\"lud16\":\"egge@npub.cash\",\"display_name\":\"Egge\",\"name\":\"egge\",\"about\":\"Nut Dev 🥜 Building http:\\/\\/npub.cash & Coco 🌩️ Freedom Tech on Cashu + Bitcoin + nostr\",\"nip05\":\"egge@npub.cash\",\"banner\":\"\",\"lud06\":\"\",\"website\":\"\",\"picture\":\"https:\\/\\/blossom.primal.net\\/5c1b9975637ea742aa0f64d98719ca982cddb6f612dade8f4a7a7f0819c33d8c.png\"}",
+      "sig": "d8f6e37e5727c95da0c6d4b37998628070a8e0aff4e9465e899593da8dd0eb1a5b067f82a95e357f95e353df9fa1e88eb272324b3d7788bca300cae53806f55f"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -709,7 +805,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -745,7 +841,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -777,7 +873,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -809,7 +905,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -840,7 +936,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -848,16 +944,23 @@
     "npub": "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw",
     "name": "Five",
     "displayName": "Five",
-    "about": "I ship freedom tech",
+    "about": "I ship freedom tech\nYou can too:\nhttps://budabit.club",
+    "nip05": "five@satshoot.com",
     "picture": "https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png",
     "kind0": {
       "kind": 0,
-      "id": "fe7d88eca177b90e204df2d227a147db4681ac0586d6eda94618fea686d2fc83",
+      "id": "b8f35a6011feaa9a471fd5fc14fbd7ce9b3aa8f2784c48903e1d30991f1504b6",
       "pubkey": "d04ecf33a303a59852fdb681ed8b412201ba85d8d2199aec73cb62681d62aa90",
-      "created_at": 1780672385,
-      "tags": [],
-      "content": "{\"name\":\"Five\",\"display_name\":\"Five\",\"about\":\"I ship freedom tech\",\"website\":\"\",\"picture\":\"https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png\"}",
-      "sig": "3f1b0b62729f281694722d2d4868d1e7bac508ccecfee117efef3c2022ab174def945b47f3724777719482c7e4bb5c503e32ea0789a7b2622b765efd009eb8d1"
+      "created_at": 1789502083,
+      "tags": [
+        [
+          "i",
+          "github:pleb5",
+          "ce17852c046d611182a8cd27a310c505"
+        ]
+      ],
+      "content": "{\"display_name\":\"Five\",\"name\":\"Five\",\"about\":\"I ship freedom tech\\nYou can too:\\nhttps://budabit.club\",\"picture\":\"https://nostr.build/i/nostr.build_544c76d01261e8ab387b69261ba0e62e63858188beef76d2f3999822176655f2.png\",\"lud16\":\"holyfrown8@minibits.cash\",\"lnurl\":\"lnurl1dp68gurn8ghj7mtfde5ky6t5wvhxxctndqhjuam9d3kz66mwdamkutmvde6hymrs9a5x7mreveex7amw8qa3jewy\",\"website\":\"https://budabit.club/\",\"banner\":\"https://i.nostr.build/jDpal2DolZMplq7Q.png\",\"displayName\":\"Five\",\"nip05\":\"five@satshoot.com\"}",
+      "sig": "3427e5b233d748dcd8900e2a8e52a5af6647db83d5191c706eef8c13056028bb42c0126bcf6a413c250208ee797afaa03c0f266a862e599933d0cb3c680cdb59"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -871,7 +974,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -908,7 +1011,160 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "872b60fdd8ec73ce1323d9798057384fb9836500d9b7201594c71ae3fce2b680",
+    "npub": "npub1su4kplwca3euuyerm9ucq4ecf7ucxegqmxmjq9v5cudw8l8zk6qqejetyp",
+    "name": "FLX",
+    "displayName": "FLX",
+    "about": "Disruption now!",
+    "nip05": "flx@nappelin.com",
+    "picture": "https://image.nostr.build/e33817e7f487e0f48ffa9fc58da73d75bd6253e79ace140f86c45fb7fed1a817.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "ac3063a64463e49e22e119e7d8479f7b6814d0b185064811c28a09845a368c7e",
+      "pubkey": "872b60fdd8ec73ce1323d9798057384fb9836500d9b7201594c71ae3fce2b680",
+      "created_at": 1789636233,
+      "tags": [
+        [
+          "client",
+          "Primal Android"
+        ]
+      ],
+      "content": "{\"name\":\"FLX\",\"nip05\":\"flx@nappelin.com\",\"about\":\"Disruption now!\",\"lud16\":\"flx@nappelin.com\",\"display_name\":\"FLX\",\"picture\":\"https://image.nostr.build/e33817e7f487e0f48ffa9fc58da73d75bd6253e79ace140f86c45fb7fed1a817.jpg\",\"banner\":\"https://void.cat/d/Eix3sPReMi58TymXUmbvN.webp\",\"website\":\"www.600.wtf\"}",
+      "sig": "14fddb722ed1c6a8e125291f49c3348e2487cc6a4545f281df945de2075cd186ad57a600dfea52ca79cbc85d7aa249698476b511c5a2e731ff186ab5a1519f9c"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "20561146bd43a111168d0190c25dd3bdb9feb28ce646490443fc541a7b3c72f2",
+    "npub": "npub1yptpz34agws3z95dqxgvyhwnhkulav5vueryjpzrl32p57euwteqwha52w",
+    "name": "fr34aky",
+    "displayName": "fr34aky",
+    "about": "SovEng SEC-08",
+    "nip05": "fr34aky@relayted.de",
+    "picture": "https://image.nostr.build/6fc133c1e0d9fae92e64d80cb10281bdfd19d217295de7f6862440d279f63d15.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "f34e0cd6c9bdd8e698f5a94288f4dfcf2c2d3838121c66da4ad9b11a980ad6f9",
+      "pubkey": "20561146bd43a111168d0190c25dd3bdb9feb28ce646490443fc541a7b3c72f2",
+      "created_at": 1789768291,
+      "tags": [
+        [
+          "alt",
+          "User profile for fr34aky"
+        ],
+        [
+          "name",
+          "fr34aky"
+        ],
+        [
+          "display_name",
+          "fr34aky"
+        ],
+        [
+          "picture",
+          "https://image.nostr.build/6fc133c1e0d9fae92e64d80cb10281bdfd19d217295de7f6862440d279f63d15.jpg"
+        ],
+        [
+          "nip05",
+          "fr34aky@relayted.de"
+        ],
+        [
+          "lud16",
+          "fr34aky@minibits.cash"
+        ],
+        [
+          "client",
+          "Amethyst"
+        ],
+        [
+          "about",
+          "SovEng SEC-08"
+        ]
+      ],
+      "content": "{\"name\":\"fr34aky\",\"display_name\":\"fr34aky\",\"lud16\":\"fr34aky@minibits.cash\",\"nip05\":\"fr34aky@relayted.de\",\"picture\":\"https://image.nostr.build/6fc133c1e0d9fae92e64d80cb10281bdfd19d217295de7f6862440d279f63d15.jpg\",\"about\":\"SovEng SEC-08\"}",
+      "sig": "bc313f8e860b18139d4c52d509956e2238ebc385f4ec1b89f9aa4b56ddbc3e096f1b651a7c80c4f6f8f6782c086d4a81a0f1b32aaa319fa6846265b166389474"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "b8ea29f16fe442ebd7e594c7c069a0ce474a4d22b4ff1afd048c0e91088dd5d8",
+    "npub": "npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm",
+    "name": "Franchovy",
+    "about": "Building Human Technology 🧘‍♂️💪⚡🌍\n💻🛒 Developer / Self-Proclaimed Product Manager @ Plebeian Market\n🕹️👾 Game Developer & Tutorial Maker for the Playdate Console",
+    "picture": "https://npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.blossom.band/add5dffac3a8ae163038c70e50bd20f4b328628d4620dbacdba7147e989b86f0.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "a66827b7188de8dbbc2e3bbf79a31aabb351b1c58b9306a21923f4824aa9cde8",
+      "pubkey": "b8ea29f16fe442ebd7e594c7c069a0ce474a4d22b4ff1afd048c0e91088dd5d8",
+      "created_at": 1776118364,
+      "tags": [
+        [
+          "name",
+          "Franchovy"
+        ],
+        [
+          "about",
+          "Building Human Technology 🧘‍♂️💪⚡🌍\n💻🛒 Developer / Self-Proclaimed Product Manager @ Plebeian Market\n🕹️👾 Game Developer & Tutorial Maker for the Playdate Console\n"
+        ],
+        [
+          "picture",
+          "https://npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.blossom.band/add5dffac3a8ae163038c70e50bd20f4b328628d4620dbacdba7147e989b86f0.jpg"
+        ],
+        [
+          "banner",
+          "https://npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.blossom.band/3cc6e863791b990e86bfa12b87ec84e4e18b5757a21360b8cc07ed56a4520fd6.jpg"
+        ],
+        [
+          "lud16",
+          "franch@minibits.cash"
+        ]
+      ],
+      "content": "{\"name\":\"Franchovy\",\"about\":\"Building Human Technology 🧘‍♂️💪⚡🌍\\n💻🛒 Developer / Self-Proclaimed Product Manager @ Plebeian Market\\n🕹️👾 Game Developer & Tutorial Maker for the Playdate Console\\n\",\"picture\":\"https://npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.blossom.band/add5dffac3a8ae163038c70e50bd20f4b328628d4620dbacdba7147e989b86f0.jpg\",\"banner\":\"https://npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.blossom.band/3cc6e863791b990e86bfa12b87ec84e4e18b5757a21360b8cc07ed56a4520fd6.jpg\",\"website\":\"https://youtube.com/@franchovy\",\"lud16\":\"franch@minibits.cash\"}",
+      "sig": "9f533645de2de0135bb471754fc8932b3e8017a8c46dc175a46b2e46e9480a95863825f955757126a50c94145497d3dba7cf8d8c9503cc3a48464eb89535d6c7"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -973,7 +1229,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1010,7 +1266,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1075,7 +1331,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1107,7 +1363,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1117,12 +1373,12 @@
     "displayName": "gsovereignty",
     "about": "🇭🇰 Hong Kong \n\n⚒️ Nostrocket\n🎙️Nostrovia podcast\n\n📺 Bitcoin vs The State: the four phases of war https://youtu.be/X_xgmVLyB94\n\n🧡 Sovereign Engineering Cohort 01 💜\n💎 OpenSats ❤️ \n\nPeak of pull-request comedy career: https://github.com/diem/diem/pull/83\n\nnostr.dev\nnostr.rodeo",
     "nip05": "gsovereignty@nostrovia.org",
-    "picture": "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg",
+    "picture": "https://blossom.yakihonne.com/dc4030f0c424a418bddcae8682e1cf010d4d89b5ffbea03f5aeaf14ad041e1a8.jpeg",
     "kind0": {
       "kind": 0,
-      "id": "74badd3dc5d1ceb1a6acdff6cde2eda558a75636d34f51000420a697a145183b",
+      "id": "1297e90f85d58d543c6b4153347cce985f54af66a6a933b62853f051c6b35153",
       "pubkey": "d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075",
-      "created_at": 1779077683,
+      "created_at": 1787313249,
       "tags": [
         [
           "alt",
@@ -1138,7 +1394,7 @@
         ],
         [
           "picture",
-          "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg"
+          "https://blossom.yakihonne.com/dc4030f0c424a418bddcae8682e1cf010d4d89b5ffbea03f5aeaf14ad041e1a8.jpeg"
         ],
         [
           "banner",
@@ -1163,10 +1419,14 @@
         [
           "lud06",
           "lnurl1dp68gurn8ghj7em9w3skccne9e3k7mf09emk2mrv944kummhdchkcmn4wfk8qtm8wdhhvetjv45kwmn50y7wthx2"
+        ],
+        [
+          "client",
+          "Amethyst"
         ]
       ],
-      "content": "{\"name\":\"gsovereignty\",\"picture\":\"https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg\",\"about\":\"🇭🇰 Hong Kong \\n\\n⚒️ Nostrocket\\n🎙️Nostrovia podcast\\n\\n📺 Bitcoin vs The State: the four phases of war https://youtu.be/X_xgmVLyB94\\n\\n🧡 Sovereign Engineering Cohort 01 💜\\n💎 OpenSats ❤️ \\n\\nPeak of pull-request comedy career: https://github.com/diem/diem/pull/83\\n\\nnostr.dev\\nnostr.rodeo\",\"website\":\"nostrovia.org\",\"banner\":\"https://www.whoi.edu/wp-content/uploads/2017/10/Operation_Crossroads_Baker_Edit_1280_476154.jpg\",\"display_name\":\"gsovereignty\",\"lud06\":\"lnurl1dp68gurn8ghj7em9w3skccne9e3k7mf09emk2mrv944kummhdchkcmn4wfk8qtm8wdhhvetjv45kwmn50y7wthx2\",\"lud16\":\"gloomysphere10@walletofsatoshi.com\",\"nip05\":\"gsovereignty@nostrovia.org\",\"nip05valid\":true,\"pubkey\":\"d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075\",\"npub\":\"npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p\",\"created_at\":1711710260,\"categories\":[\"Development & Engineering\",\"Science & Research\",\"Technology & Software\"],\"displayName\":\"gsovereignty\"}",
-      "sig": "f328b70470e1a522c1524cce60511760c1ed3632ba817a89cb613bd0699d5c0f17008466361c973e99d207f44bceb8787b67222788b4ff0675032f479fdd0e65"
+      "content": "{\"name\":\"gsovereignty\",\"picture\":\"https://blossom.yakihonne.com/dc4030f0c424a418bddcae8682e1cf010d4d89b5ffbea03f5aeaf14ad041e1a8.jpeg\",\"about\":\"🇭🇰 Hong Kong \\n\\n⚒️ Nostrocket\\n🎙️Nostrovia podcast\\n\\n📺 Bitcoin vs The State: the four phases of war https://youtu.be/X_xgmVLyB94\\n\\n🧡 Sovereign Engineering Cohort 01 💜\\n💎 OpenSats ❤️ \\n\\nPeak of pull-request comedy career: https://github.com/diem/diem/pull/83\\n\\nnostr.dev\\nnostr.rodeo\",\"website\":\"nostrovia.org\",\"banner\":\"https://www.whoi.edu/wp-content/uploads/2017/10/Operation_Crossroads_Baker_Edit_1280_476154.jpg\",\"display_name\":\"gsovereignty\",\"lud06\":\"lnurl1dp68gurn8ghj7em9w3skccne9e3k7mf09emk2mrv944kummhdchkcmn4wfk8qtm8wdhhvetjv45kwmn50y7wthx2\",\"lud16\":\"gloomysphere10@walletofsatoshi.com\",\"nip05\":\"gsovereignty@nostrovia.org\",\"nip05valid\":true,\"pubkey\":\"d91191e30e00444b942c0e82cad470b32af171764c2275bee0bd99377efd4075\",\"npub\":\"npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p\",\"created_at\":1711710260,\"categories\":[\"Development & Engineering\",\"Science & Research\",\"Technology & Software\"],\"displayName\":\"gsovereignty\"}",
+      "sig": "98654319b5a44e9db9002b95892bc983195db747c17b8425e5d09c28fc247121d4b1f91410ad7ddf32d2c0636ed532e27507c2c88d7969c0a7b84f93614e75d0"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1180,7 +1440,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1188,17 +1448,17 @@
     "npub": "npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds",
     "name": "Gzuuus",
     "displayName": "Gzuuus",
-    "about": "Forever learning, continuously buidling⚡\ncryptoanarchism student\nchat: https://cordn.net/p/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds\n\n#noderunner#Bitcoin | #technology | #art | #electronics",
+    "about": "Forever learning, continuously buidling⚡\ncryptoanarchism student\nchat: https://cordn.net/p/gzuuus\n\n#noderunner#Bitcoin | #technology | #art | #electronics",
     "nip05": "gzuuus@contextvm.org",
     "picture": "https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png",
     "kind0": {
       "kind": 0,
-      "id": "867380df6d3477ff63a789ec294a5cc9dc32d310e178af89a44265ef0b88bdd5",
+      "id": "4dbfc1073c8364bb7aa6f4b784eea302a01f9f93b74728e81dcb4ff322f4e489",
       "pubkey": "40b9c85fffeafc1cadf8c30a4e5c88660ff6e4971a0dc723d5ab674b5e61b451",
-      "created_at": 1780499764,
+      "created_at": 1784913825,
       "tags": [],
-      "content": "{\"display_name\":\"Gzuuus\",\"name\":\"Gzuuus\",\"about\":\"Forever learning, continuously buidling⚡\\ncryptoanarchism student\\nchat: https://cordn.net/p/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds\\n\\n#noderunner#Bitcoin | #technology | #art | #electronics\",\"picture\":\"https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png\",\"nip05\":\"gzuuus@contextvm.org\",\"banner\":\"https://image.nostr.build/c0b52ddc31c5bf6363df3b4e5bcd763779198767486b2ab5ef940d3804842273.jpg\",\"lud16\":\"nostrkid@coinos.io\"}",
-      "sig": "54b029dcee097473e6d147ba1053ec0f997b525ed76c144ab3cc642c4d100e29cbf4f43aa549f1b3ad9aed9978626b8f30558766f759dfce972b51f19c94fce8"
+      "content": "{\"display_name\":\"Gzuuus\",\"name\":\"Gzuuus\",\"about\":\"Forever learning, continuously buidling⚡\\ncryptoanarchism student\\nchat: https://cordn.net/p/gzuuus\\n\\n#noderunner#Bitcoin | #technology | #art | #electronics\",\"picture\":\"https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png\",\"nip05\":\"gzuuus@contextvm.org\",\"banner\":\"https://image.nostr.build/c0b52ddc31c5bf6363df3b4e5bcd763779198767486b2ab5ef940d3804842273.jpg\",\"lud16\":\"nostrkid@coinos.io\"}",
+      "sig": "6dade885441623f1f20dc841e6845cabd2269a41ecc1e596be6a88ba09058e135540e11ae521b474cad266c667329758ec16a5c5847f63cc0e2541664bff4e49"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1212,29 +1472,65 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "60d53675f07dee9e7d77910efa44682d87cb532313ba66b8f4449d649172296b",
+    "npub": "npub1vr2nva0s0hhfulthjy8053rg9kruk5erzwaxdw85gjwkfytj994sgudzvx",
+    "name": "silent.link",
+    "displayName": "https://silent.link",
+    "about": "Connecting Bitcoiners to the Net since 2020",
+    "picture": "https://image.nostr.build/153e4e6d41ad27056cb0889a51c10453c4bba22ef4d2ab615371d526ce03518f.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "e78820964bf055dd3c1e2a76685fdc28d257ef9c8313254fa1d1dd77ee351a37",
+      "pubkey": "60d53675f07dee9e7d77910efa44682d87cb532313ba66b8f4449d649172296b",
+      "created_at": 1698979937,
+      "tags": [],
+      "content": "{\"banner\":\"https://image.nostr.build/cc304c0f77ac14fa106ae667388a24d0f9a6948a0a40e4eae0b711677dd9fd67.jpg\",\"website\":\"silent.link\",\"picture\":\"https://image.nostr.build/153e4e6d41ad27056cb0889a51c10453c4bba22ef4d2ab615371d526ce03518f.jpg\",\"lud16\":\"tips@silent.link\",\"display_name\":\"https://silent.link\",\"about\":\"Connecting Bitcoiners to the Net since 2020\",\"name\":\"silent.link\"}",
+      "sig": "3e5491cc80663ed11ba8f6a56184b002e13651b39c08b6ecfe1f6a65e65a857a14b4b221c5d6bec16a5eaf304ffda4db5aed0b5d6c0cb79b1e08166080bf8443"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
     "npub": "npub1ye5ptcxfyyxl5vjvdjar2ua3f0hynkjzpx552mu5snj3qmx5pzjscpknpr",
     "name": "hzrd149",
-    "about": "JavaScript developer working on some nostr stuff\n- noStrudel https://nostrudel.ninja\n- Blossom https://github.com/hzrd149/blossom\n- Applesauce https://hzrd149.github.io/applesauce",
+    "about": "JavaScript developer working on some nostr stuff\n- Blossom https://github.com/hzrd149/blossom\n- Applesauce https://hzrd149.github.io/applesauce\n- noStrudel https://nostrudel.ninja",
     "nip05": "_@hzrd149.com",
     "picture": "https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png",
     "kind0": {
       "kind": 0,
-      "id": "01d2f4d599860133436ddebf9a3d3bf1e1d0f41b2d88f5decb080fec8c1328cf",
+      "id": "2f1240fbb31a21d999075752057b4abdcdef56bf31243499d15158f3a08e120d",
       "pubkey": "266815e0c9210dfa324c6cba3573b14bee49da4209a9456f9484e5106cd408a5",
-      "created_at": 1774408960,
+      "created_at": 1789237754,
       "tags": [
         [
           "client",
-          "Ditto"
+          "Ditto",
+          "31990:781a1527055f74c1f70230f10384609b34548f8ab6a0a6caa74025827f9fdae5:ditto"
+        ],
+        [
+          "published_at",
+          "1788350348"
         ]
       ],
-      "content": "{\"about\":\"JavaScript developer working on some nostr stuff\\n- noStrudel https://nostrudel.ninja\\n- Blossom https://github.com/hzrd149/blossom\\n- Applesauce https://hzrd149.github.io/applesauce\",\"lud16\":\"hzrd149@npub.cash\",\"name\":\"hzrd149\",\"nip05\":\"_@hzrd149.com\",\"picture\":\"https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png\",\"website\":\"https://hzrd149.com\",\"bot\":false,\"shape\":\"📐\"}",
-      "sig": "7ca6fd12f431252f46a651b424042cff82897a071b2323f27bbfc9164ac78955684166187de11539bb60410ae33cd8e5d200bd4e85ab741bc711b020cb2e3120"
+      "content": "{\"about\":\"JavaScript developer working on some nostr stuff\\n- Blossom https://github.com/hzrd149/blossom\\n- Applesauce https://hzrd149.github.io/applesauce\\n- noStrudel https://nostrudel.ninja\",\"lud16\":\"hzrd149@npub.cash\",\"name\":\"hzrd149\",\"nip05\":\"_@hzrd149.com\",\"picture\":\"https://cdn.hzrd149.com/5ed3fe5df09a74e8c126831eac999364f9eb7624e2b86d521521b8021de20bdc.png\",\"bch_address\":\"qrylja944q7h8utv4k3n6ck7dvhxned3actz02u0kr\",\"bot\":false,\"fields\":[[\"$XMR\",\"43ELefYj8prDZeR6YdY8ys7mRu2uZ69FoXHRX9H73Mpsg7Xivy84RiHg4D8hb2iWnsPXGAhiDVg8TQE45ZZGCNk7Bf7opnY\"]],\"website\":\"\",\"display_name\":\"\",\"displayName\":\"\"}",
+      "sig": "f36ca96666dc044b27da8ac3ae4f007f679028766ac1dac293722781c85c3f64ea7bdc00f182b22fb21a0fb7540f0c2602588c8fc17452590b13013a08821442"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1248,25 +1544,29 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "0eef96197f5c6be3859b6817e6a5736685856c416e29a2925bd5a15b2a57c8b1",
     "npub": "npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr",
-    "name": "Ian",
+    "name": "ian",
     "displayName": "Ian",
-    "about": "NextBlock",
-    "nip05": "ian@nextblock.city",
-    "picture": "https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg",
+    "nip05": "ian.888888@nextblock.city",
+    "picture": "https://pfp.nostr.build/8ca52a7c74567e6d49a064ca5e2226f08e10b0d4c621a0a64c14aed9fbbd4808.webp",
     "kind0": {
       "kind": 0,
-      "id": "cc77dce777a0bff64f80d3c27002eab048e85ad7df9900801d4f66afc0ddfcaa",
+      "id": "9325c3837a295ef1fab7bed3fc65a393bc47a6a93d7fc4135db0aa56b6904ca8",
       "pubkey": "0eef96197f5c6be3859b6817e6a5736685856c416e29a2925bd5a15b2a57c8b1",
-      "created_at": 1771977047,
-      "tags": [],
-      "content": "{\"name\":\"Ian\",\"nip05\":\"ian@nextblock.city\",\"about\":\"NextBlock\",\"lud16\":\"ian_reis@strike.me\",\"display_name\":\"Ian\",\"picture\":\"https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg\",\"website\":\"theattentionprotocol.com\"}",
-      "sig": "4f0087349f047900bcfd86410524b438706dbc91addebaa8804ba604b175034009fbf7c427420522cc1b28527432871bf81b0b6075db8907b98edda015114e23"
+      "created_at": 1785167218,
+      "tags": [
+        [
+          "client",
+          "Primal Android"
+        ]
+      ],
+      "content": "{\"name\":\"ian\",\"nip05\":\"ian.888888@nextblock.city\",\"lud16\":\"ian.888888@nextblock.city\",\"display_name\":\"Ian\",\"picture\":\"https://pfp.nostr.build/8ca52a7c74567e6d49a064ca5e2226f08e10b0d4c621a0a64c14aed9fbbd4808.webp\",\"banner\":\"https://blossom.primal.net/cf64c3865ef7cc65e5de351e65423ee4cae5e19d59c0c584125d34b29c9cd60a.jpg\",\"website\":\"https://joinnextblock.com\"}",
+      "sig": "a87c39b3e6a27c4073d3832fc33864e0c38abe61437a8ae1a275d44d71908edf3d95c2e589520de084937a94e573b97ee357f94bae52c9f8a8abc7f7c1f76d1e"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1280,7 +1580,44 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "f07e0b1af066b4838386360a1a2cbb374429a9fbaab593027f3fcd3bd3b5c367",
+    "npub": "npub17plqkxhsv66g8quxxc9p5t9mxazzn20m426exqnl8lxnh5a4cdns7jezx0",
+    "name": "Jeroen ✅",
+    "displayName": "Jeroen ✅",
+    "about": "Kubo.watch\nhttps://zapstore.dev/apps/com.kubo.app\nweboftrustfoundation.com",
+    "nip05": "jeroen@nostrplebs.com",
+    "picture": "https://image.nostr.build/062ae3371b95a99d0d3d492281ba36ffeb96c45808c01b8d91745cea535afe66.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "895940b3531e72d5587c76bcb60b89a768e0cfcaa1fc52a9a56a95ad7ca66e59",
+      "pubkey": "f07e0b1af066b4838386360a1a2cbb374429a9fbaab593027f3fcd3bd3b5c367",
+      "created_at": 1780251590,
+      "tags": [
+        [
+          "client",
+          "Primal Android"
+        ]
+      ],
+      "content": "{\"banner\":\"https://image.nostr.build/c3473b15102add9380e42df7cd920603ba01b4ee706f2317e6477ff3ff56d824.jpg\",\"nip05\":\"jeroen@nostrplebs.com\",\"lud16\":\"jeroen@primal.net\",\"name\":\"Jeroen ✅\",\"display_name\":\"Jeroen ✅\",\"picture\":\"https://image.nostr.build/062ae3371b95a99d0d3d492281ba36ffeb96c45808c01b8d91745cea535afe66.jpg\",\"about\":\"Kubo.watch\\nhttps://zapstore.dev/apps/com.kubo.app\\nweboftrustfoundation.com\"}",
+      "sig": "d8e487025a821271033e4bf055d4d7c956e474dac60dda5b53f81fff493329d5683258ecf3a7868b3a985d0a156a8fe1b2295edaa2c5a5bb7e4d2c9423ab0c32"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1293,9 +1630,9 @@
     "picture": "https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg",
     "kind0": {
       "kind": 0,
-      "id": "07307529707516d403315ba5660f56bd86a283cc1954715ab1433524d550f964",
+      "id": "6fe1be9b02d9dff3af53e605990d11682d87cc01e5f18bf5eb98f602466a5de3",
       "pubkey": "53a91e3a64d1f658e983ac1e4f9e0c697f8f33e01d8debe439f4c1a92113f592",
-      "created_at": 1773515867,
+      "created_at": 1787840460,
       "tags": [
         [
           "alt",
@@ -1327,7 +1664,7 @@
         ],
         [
           "lud16",
-          "leasedsheet82@walletofsatoshi.com"
+          "zfride@walletofsatoshi.com"
         ],
         [
           "website",
@@ -1338,8 +1675,8 @@
           "Dr. Nostr"
         ]
       ],
-      "content": "{\"name\":\"Joel 🇨🇭\",\"about\":\"another loving soul 🧡💜\",\"banner\":\"https://i.postimg.cc/76fD1fW0/IMG-20230319-160035-2.jpg\",\"nip05\":\"joel@joelstuedle.ch\",\"lud16\":\"leasedsheet82@walletofsatoshi.com\",\"display_name\":\"Joel 🇨🇭\",\"picture\":\"https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg\",\"website\":\"https://joelstuedle.ch\"}",
-      "sig": "e0cdf929959b64a9d7d6f2b57d725649bc7536107e476fbd7762d9ec06e744740fcac77f7ab718a83c2c28589658c5fd1bfd7251bdea2f1c106a3c198e60b33d"
+      "content": "{\"name\":\"Joel 🇨🇭\",\"about\":\"another loving soul 🧡💜\",\"banner\":\"https://i.postimg.cc/76fD1fW0/IMG-20230319-160035-2.jpg\",\"nip05\":\"joel@joelstuedle.ch\",\"lud16\":\"zfride@walletofsatoshi.com\",\"display_name\":\"Joel 🇨🇭\",\"picture\":\"https://i.postimg.cc/Zn1XTR32/goldener-punkt.jpg\",\"website\":\"https://joelstuedle.ch\"}",
+      "sig": "4eaaa31b90d17307a999704a7b40618f0c18ef8b345d90f249ecd7075acc3fdf6781fe63b993738e1a69ffa2d5687d92d50059041cb1d136dc7ef94a1cdfba54"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1353,7 +1690,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1389,7 +1726,44 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "2bb507e8086248747d2ec5009a70ccdbe0be9310fa612952923c8579e5aa8044",
+    "npub": "npub19w6s06qgvfy8glfwc5qf5uxvm0staycslfsjj55j8jzhned2spzq8psyzj",
+    "name": "julien",
+    "displayName": "julien",
+    "about": "☯️ | asmap.org, nix/acc, BEAM.",
+    "nip05": "julien@krewe-of-keys.fly.dev/",
+    "picture": "https://image.nostr.build/c80a43068053c4dda2c5d3a5834c83ee58ab2bc2604d6a321709c27369780396.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "59a5a8f4444da89bd519807856ea4b5005f3879e29e2808d522fa8da49a19d4f",
+      "pubkey": "2bb507e8086248747d2ec5009a70ccdbe0be9310fa612952923c8579e5aa8044",
+      "created_at": 1789126283,
+      "tags": [
+        [
+          "alt",
+          "User profile for jurraca"
+        ]
+      ],
+      "content": "{\"name\":\"julien\",\"username\":\"kreweofkeys.net\",\"display_name\":\"julien\",\"displayName\":\"julien\",\"picture\":\"https://image.nostr.build/c80a43068053c4dda2c5d3a5834c83ee58ab2bc2604d6a321709c27369780396.jpg\",\"banner\":\"https://image.nostr.build/2302615784415286b9ba1c4ea593002db748d0621477b87b1ca536e2e13a105d.jpg\",\"about\":\"☯️ | asmap.org, nix/acc, BEAM.\",\"nip05\":\"julien@krewe-of-keys.fly.dev/\",\"website\":\"\"}",
+      "sig": "8aab7010173f919b3283d5df836c21de3893139cebe0699ed14f9c0f62744c43fe48f4657402a2cbb345e78b9aa1da12744e407cc491b940142ebd10aa8af042"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1420,7 +1794,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1428,17 +1802,17 @@
     "npub": "npub1fcthj78n5re7dcyrva89gmvgz0z6g2v5rakr65shxemyvjwwdjzqcpeavj",
     "name": "karliatto",
     "displayName": "karliatto",
-    "about": "You can just build things.",
+    "about": "Build mode ON",
     "nip05": "karliatto@karliatto.com",
     "picture": "https://avatars.githubusercontent.com/u/5362163?v=4",
     "kind0": {
       "kind": 0,
-      "id": "c4795c863fc3d7a392ef3393d4f7ffd82aa0c5a2ff0dd9965bf3e7a6ff09bba6",
+      "id": "dffe840974610ab2ef8e3ae9e20e5e634a843019841e4ce9f5ee0d65a813f030",
       "pubkey": "4e177978f3a0f3e6e083674e546d8813c5a429941f6c3d521736764649ce6c84",
-      "created_at": 1778671506,
+      "created_at": 1783345986,
       "tags": [],
-      "content": "{\"name\":\"karliatto\",\"about\":\"You can just build things.\",\"lud16\":\"karliatto@21m.lol\",\"nip05\":\"karliatto@karliatto.com\",\"picture\":\"https://avatars.githubusercontent.com/u/5362163?v=4\",\"displayName\":\"karliatto\",\"display_name\":\"karliatto\",\"website\":\"karliatto.com\",\"banner\":\"\"}",
-      "sig": "4d13dd4b3985439372db4e5e3c6d090d625ca5a37f812687bc12dd3aa3a20da759f5cf77ddf58e3206a8b3151c3100a12c8d580a97d80801abbc8b70b4fd0a30"
+      "content": "{\"name\":\"karliatto\",\"about\":\"Build mode ON\",\"lud16\":\"karliatto@21m.lol\",\"nip05\":\"karliatto@karliatto.com\",\"picture\":\"https://avatars.githubusercontent.com/u/5362163?v=4\",\"displayName\":\"karliatto\",\"display_name\":\"karliatto\",\"website\":\"https://karliatto.com/\",\"banner\":\"\"}",
+      "sig": "37ecebe553ebba47fe56a0895c9ce3ddc821a01fed4a2925367fd0fbeb27a918c881e33705de7b7c94bbc3c9482a4e94f8036b84cd1484aa1be5f500c952c980"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1452,7 +1826,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1460,15 +1834,21 @@
     "npub": "npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm",
     "name": "lauri",
     "displayName": "lauri",
+    "about": "other stuff enthusiast",
     "picture": "https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png",
     "kind0": {
       "kind": 0,
-      "id": "83544412f4fbe3b42765757445f461674aa862e0920f6e08801ed1aeadc3baba",
+      "id": "ca47d475e35184521bc66dd76ee0859ec623ce446fd96f1bfc77e87059556678",
       "pubkey": "6eef2e68c399c8f2efbf70d831c2b618d7a84bdfd21734a81e6d7d3d817f6850",
-      "created_at": 1781518266,
-      "tags": [],
-      "content": "{\"name\":\"lauri\",\"display_name\":\"lauri\",\"picture\":\"https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png\"}",
-      "sig": "2fefabdd402a1b0e166957a81b8f87cbb62d5b6e175c022a5dcaf94e524c909d7411a60316c73316cc84c417385a526a80cc9a85030f212c3da2eed06b924596"
+      "created_at": 1790063465,
+      "tags": [
+        [
+          "client",
+          "Primal Web"
+        ]
+      ],
+      "content": "{\"about\":\"other stuff enthusiast\",\"displayName\":\"lauri\",\"display_name\":\"lauri\",\"name\":\"lauri\",\"picture\":\"https://npub1dmhju6xrn8y09malwrvrrs4krrt6sj7l6gtnf2q7d47nmqtldpgqgctgtm.blossom.band/c1488097b9acb0698cbbf4cf92c33d7c746ff900872131d8e36d11b32cce2da1.png\"}",
+      "sig": "e712d5fad74fe1abaaeb47209f0c5e7eed45baea86672c62ceb7943bf1198ca32bdb99e01a3b74666ab7b9040ff3b37271bfadf93950557b1480804a559ce246"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1482,53 +1862,24 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "6fb266012c3008303e54ae55140b46957e9978098401dda34f4d921a275bf8bb",
     "npub": "npub1d7exvqfvxqyrq0j54e23gz6xj4lfj7qfssqamg60fkfp5f6mlzaskklrf3",
-    "name": "Leito",
-    "displayName": "Leito",
-    "nip05": "leo@vlt.ge",
-    "picture": "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg",
+    "name": "leito",
+    "displayName": "leito",
+    "about": "thas te m",
+    "picture": "https://blossom.primal.net/5f5de0118119407c2603b0385b4c6f18885ad9365bda5c26465687f759e71455.jpg",
     "kind0": {
       "kind": 0,
-      "id": "272e5fb97e6ee64ee8cdf2ac17cf6c6362fd7f1fff10b28820f66377891210d1",
+      "id": "9183824091b1493cd318be3b66b7ad1b93bfc617e92d603d5b9955cdff46804e",
       "pubkey": "6fb266012c3008303e54ae55140b46957e9978098401dda34f4d921a275bf8bb",
-      "created_at": 1780311523,
-      "tags": [
-        [
-          "alt",
-          "User profile for Leito"
-        ],
-        [
-          "name",
-          "Leito"
-        ],
-        [
-          "display_name",
-          "Leito"
-        ],
-        [
-          "picture",
-          "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg"
-        ],
-        [
-          "nip05",
-          "leo@vlt.ge"
-        ],
-        [
-          "lud16",
-          "npub1f4xlgmwhyhmw63v3scmnggf9rw3rarzf57gapy6q6u2xndre7upsssm2ng@npubx.cash"
-        ],
-        [
-          "client",
-          "Amethyst"
-        ]
-      ],
-      "content": "{\"display_name\":\"Leito\",\"name\":\"Leito\",\"picture\":\"https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg\",\"nip05\":\"leo@vlt.ge\",\"lud16\":\"npub1f4xlgmwhyhmw63v3scmnggf9rw3rarzf57gapy6q6u2xndre7upsssm2ng@npubx.cash\"}",
-      "sig": "0bf611b37f1ed7e6e0e70260b3074e225ef8ceea63b0e518795477344922949489e64ff4b245e74a9ec4b72bb0f7d18543876081241fd200b644a41a9c4e081e"
+      "created_at": 1790187432,
+      "tags": [],
+      "content": "{\"display_name\":\"leito\",\"name\":\"leito\",\"about\":\"thas te m\",\"picture\":\"https://blossom.primal.net/5f5de0118119407c2603b0385b4c6f18885ad9365bda5c26465687f759e71455.jpg\"}",
+      "sig": "135b981c7250f426de9dca2c1525bfd795fe9855a1ed41e55a42577efddcb3a861757ffeef4ecff9211b5b6e8c420a165c2b517b624b170e32c02db673391de3"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -1542,7 +1893,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1572,7 +1923,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1603,7 +1954,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1634,7 +1985,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1674,7 +2025,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1704,7 +2055,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1773,7 +2124,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1809,7 +2160,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1839,7 +2190,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1908,7 +2259,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1940,7 +2291,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1977,7 +2328,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -1985,16 +2336,16 @@
     "npub": "npub16q4rk48xgvlu0snq36v7lx62akgrjezygmdfsgkjpdde3yykfuhscgxcms",
     "name": "oleksky",
     "displayName": "oleksky",
-    "about": "Autonomous freedom tech builder",
+    "about": "Autonomous freedom tech builder\n#SovEng SEC-07",
     "picture": "https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg",
     "kind0": {
       "kind": 0,
-      "id": "9acb0b69973513455851fbeb07d5938e926718ec5057159c0f1460ca3267ac67",
+      "id": "3b6e25f1a67bd2b31e03919e5d4ba033ef181bf3c8e803d82cda6c1bf4972a5e",
       "pubkey": "d02a3b54e6433fc7c2608e99ef9b4aed9039644446da9822d20b5b9890964f2f",
-      "created_at": 1775232366,
+      "created_at": 1786696765,
       "tags": [],
-      "content": "{\"lud06\":\"\",\"about\":\"Autonomous freedom tech builder\",\"banner\":\"https://m.primal.net/HQTd.jpg\",\"website\":\"https://x.com/rawbox_tech\",\"display_name\":\"oleksky\",\"picture\":\"https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg\",\"name\":\"oleksky\"}",
-      "sig": "3671ce30ac558c92a5ea4e329c178ce96d24cab33e9fb0423b9a4fad6fda90f457ee6d6510e291868fae7792a2bd1ecd6de76494a3571700c949ecd4fabff723"
+      "content": "{\"website\":\"https://x.com/rawbox_tech\",\"lud06\":\"\",\"name\":\"oleksky\",\"about\":\"Autonomous freedom tech builder\\n#SovEng SEC-07\",\"banner\":\"https://m.primal.net/HQTd.jpg\",\"picture\":\"https://blossom.primal.net/9b5e0df1376203e556050dea380935211e4952b17b0eeb388298bb1b99a35c51.jpg\",\"display_name\":\"oleksky\"}",
+      "sig": "7b285f7b78d67933ac945ee609a24d767bebb41400338af4e86c5b2991af827e98d5f011094ae2953f922df0421d48009ca5a4ec095cd1b6400c72a6e2663ae6"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2008,7 +2359,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2040,7 +2391,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2070,7 +2421,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2083,17 +2434,17 @@
     "picture": "https://m.primal.net/KwlG.jpg",
     "kind0": {
       "kind": 0,
-      "id": "5ede8fe67f453a74bba58c59aba77dfd31bc092dad4adf941509cb1d39db914c",
+      "id": "0735ef9c52903d724de33d9652732394d818a12cfe33ea48e957c3e1aa0dfe92",
       "pubkey": "fa984bd7dbb282f07e16e7ae87b26a2a7b9b90b7246a44771f0cf5ae58018f52",
-      "created_at": 1780422114,
+      "created_at": 1785829443,
       "tags": [
         [
           "client",
           "Primal Web"
         ]
       ],
-      "content": "{\"name\":\"PABLOF7z\",\"about\":\"Magical Other Stuff Maximalist.\",\"lud16\":\"pablof7z@primal.net\",\"nip05\":\"_@f7z.io\",\"picture\":\"https://m.primal.net/KwlG.jpg\",\"display_name\":\"PABLOF7z\",\"website\":\"https://pablof7z.com\",\"banner\":\"https://24242.io/1dc3a4a8bb2626551d4cc91e93f5b2e6ef87b1931b9db9bf4ac72dfe61c7a45b.png\",\"displayName\":\"PABLOF7z\"}",
-      "sig": "f66477142f947399d21a894a30999ebbfd1df4348bd6d43005033b8e79b756f68f83a063ed578c999a302a8b72c919864b93a828b63bb146fa623ab2f77fac5a"
+      "content": "{\"name\":\"PABLOF7z\",\"about\":\"Magical Other Stuff Maximalist.\",\"lud16\":\"pablof7z@primal.net\",\"nip05\":\"_@f7z.io\",\"picture\":\"https://m.primal.net/KwlG.jpg\",\"display_name\":\"PABLOF7z\",\"website\":\"https://f7z.io\",\"banner\":\"https://24242.io/1dc3a4a8bb2626551d4cc91e93f5b2e6ef87b1931b9db9bf4ac72dfe61c7a45b.png\",\"displayName\":\"PABLOF7z\"}",
+      "sig": "7a2736a61bc4220a4ff632c1ba79b87d5755e12e384289555842f82612bba38706e59e3d4a42100553e18ea3112a71e084f3d79a291c3127e5db1dcf811bb1bf"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2107,7 +2458,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2139,7 +2490,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2147,17 +2498,17 @@
     "npub": "npub13nfdp7p3pacqn6202q33sur4djeehf50xagxq3y3pchhzjptz7yqenvn7c",
     "name": "Pedro 🧨",
     "displayName": "Pedro 🧨",
-    "about": "Learning Bitcoin - http://anatomyofbitcoin.com - http://satsigner.com - http://piratehash.com - http://bitcoinOPUXUI.com - http://satsconverter.io - http://bisq.network - http://bitscribble.com - https://chainduel.net",
+    "about": "Learning Bitcoin - https://anatomyofbitcoin.com - https://satsigner.com - https://piratehash.com - https://bitcoinOPUXUI.com - https://satsconverter.io - https://bisq.network - https://bitscribble.com - https://chainduel.net",
     "nip05": "_@pedromvpg.com",
     "picture": "https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg",
     "kind0": {
       "kind": 0,
-      "id": "458e0f6da4ac2e3a35c73dac4b85e3d688f732e3c3ca5f2b646fc59d859ac57c",
+      "id": "399d951e113a4ead3e5695700ee29a07b080f596c290c54ed5be86f848c68bcc",
       "pubkey": "8cd2d0f8310f7009e94f50231870756cb39ba68f37506044910e2f71482b1788",
-      "created_at": 1767747251,
+      "created_at": 1788458886,
       "tags": [],
-      "content": "{\"picture\":\"https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg\",\"about\":\"Learning Bitcoin - http://anatomyofbitcoin.com - http://satsigner.com - http://piratehash.com - http://bitcoinOPUXUI.com - http://satsconverter.io - http://bisq.network - http://bitscribble.com - https://chainduel.net\",\"nip05\":\"_@pedromvpg.com\",\"name\":\"Pedro 🧨\",\"lud16\":\"pedromvpg@primal.net\",\"website\":\"https://pedromvpg.com\",\"banner\":\"https://pbs.twimg.com/profile_banners/25757794/1550904852/1500x500\",\"display_name\":\"Pedro 🧨\"}",
-      "sig": "d96b149c018e65f8bb4468714b76bcfd238047cadfda06814127caa0c3889e46ca4946c5994f9ff2911672f7e32656158a7931228ff0f4e5a16f391eb5bfdc0c"
+      "content": "{\"name\":\"Pedro 🧨\",\"display_name\":\"Pedro 🧨\",\"about\":\"Learning Bitcoin - https://anatomyofbitcoin.com - https://satsigner.com - https://piratehash.com - https://bitcoinOPUXUI.com - https://satsconverter.io - https://bisq.network - https://bitscribble.com - https://chainduel.net\",\"picture\":\"https://blossom.primal.net/fcb540fe2b667a0d32feb52a2ce38645c43693c9276bd114ce4512ce5db89416.jpg\",\"banner\":\"https://pbs.twimg.com/profile_banners/25757794/1550904852/1500x500\",\"website\":\"https://pedromvpg.com\",\"nip05\":\"_@pedromvpg.com\",\"lud16\":\"pedromvpg@primal.net\"}",
+      "sig": "f64a6945a10352fea3be3a173da9aa1d2b55e5e24a970b4b89337a080e7207b7f72b358276c7b71e6530b39a90bf5525d66fa3b27197e37a36c7199242292af2"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2171,30 +2522,24 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "94215f42a96335c87fcb9e881a0bbb62b9a795519e109cf5f9d2ef617681f622",
     "npub": "npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy",
-    "name": "PeteWinn",
+    "name": "pw21",
     "displayName": "Pete Winn",
-    "about": "In it for the underlying freedom technology. Director Other Stuff, Former Product @ Stakwork & Fedi. AI enjoyer.",
-    "nip05": "pw@primal.net",
-    "picture": "https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg",
+    "about": "In it for the underlying freedom technology | Likes AI and Bitcoin",
+    "picture": "https://blossom.primal.net/40ffa6e7bd35cf17f2667a42b5d9e192a9229a7efd6fba117ae4e7fd95600b7b.jpg",
     "kind0": {
       "kind": 0,
-      "id": "56ce43057058a87c59cb4c2db6d1f41d11404e35e2cbaccee756f59e4417391a",
+      "id": "0a1599630cf878200690f4fd5dece853c70fbc32c8229148bace863342809ee6",
       "pubkey": "94215f42a96335c87fcb9e881a0bbb62b9a795519e109cf5f9d2ef617681f622",
-      "created_at": 1774754286,
-      "tags": [
-        [
-          "client",
-          "Primal Web"
-        ]
-      ],
-      "content": "{\"name\":\"PeteWinn\",\"about\":\"In it for the underlying freedom technology. Director Other Stuff, Former Product @ Stakwork & Fedi. AI enjoyer.\",\"lud16\":\"pw@primal.net\",\"nip05\":\"pw@primal.net\",\"picture\":\"https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg\",\"display_name\":\"Pete Winn\",\"website\":\"otherstuff.ai\",\"displayName\":\"Pete Winn\"}",
-      "sig": "6538403b88c0a9251eceead5713a623238c8e516fe43053d174470787628f2f440b31493748bf4a9ed8bb3a74cce861fe3f8a659ae306678dd567a730e4af6bb"
+      "created_at": 1789530924,
+      "tags": [],
+      "content": "{\"picture\":\"https:\\/\\/blossom.primal.net\\/40ffa6e7bd35cf17f2667a42b5d9e192a9229a7efd6fba117ae4e7fd95600b7b.jpg\",\"website\":\"https:\\/\\/otherstuff.ai\",\"lud16\":\"petewinn@getalby.com\",\"display_name\":\"Pete Winn\",\"about\":\"In it for the underlying freedom technology | Likes AI and Bitcoin\",\"name\":\"pw21\",\"lud06\":\"\",\"nip05\":\"\",\"banner\":\"https:\\/\\/blossom.primal.net\\/af60dee35dc0ddbaa66848d862fe6688d5475dc71e2b125d409daa7dee4e2bdc.jpg\"}",
+      "sig": "006bb0190842fa4829a812b4f3ed6b5b14af0afd637485bab8a6714b9b9f7f73c6c0516b73324c0344e63dd06a6860a1ebb35059f7ccb0ca548524d889ee1f06"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2208,7 +2553,67 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "48a97bc251876b2de5ab02aff6f418409892113cc5b2cb98ef1879694144b362",
+    "npub": "npub1fz5hhsj3sa4jmedtq2hldaqcgzvfyyfuckevhx80rpukjs2ykd3qkxymar",
+    "name": "raul_15",
+    "displayName": "ra[h]ul",
+    "about": "#SovEng 08\nTinkering with sovereign tech!",
+    "picture": "https://image.nostr.build/2714e767fad007172f717a23f1f61d0429938076a27ecd3c5508cf96cfa406d4.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "abbd793945bf2dafbcf897367273ad1af9abe571ff4ea811d5de9d81cca79712",
+      "pubkey": "48a97bc251876b2de5ab02aff6f418409892113cc5b2cb98ef1879694144b362",
+      "created_at": 1783928160,
+      "tags": [
+        [
+          "alt",
+          "User profile for raul_15"
+        ],
+        [
+          "name",
+          "raul_15"
+        ],
+        [
+          "display_name",
+          "ra[h]ul"
+        ],
+        [
+          "about",
+          "#SovEng 08\nTinkering with sovereign tech!"
+        ],
+        [
+          "client",
+          "Amethyst"
+        ],
+        [
+          "picture",
+          "https://image.nostr.build/2714e767fad007172f717a23f1f61d0429938076a27ecd3c5508cf96cfa406d4.jpg"
+        ],
+        [
+          "lud16",
+          "steadycalico22@minibits.cash"
+        ]
+      ],
+      "content": "{\"name\":\"raul_15\",\"display_name\":\"ra[h]ul\",\"about\":\"#SovEng 08\\nTinkering with sovereign tech!\",\"picture\":\"https://image.nostr.build/2714e767fad007172f717a23f1f61d0429938076a27ecd3c5508cf96cfa406d4.jpg\",\"lud16\":\"steadycalico22@minibits.cash\"}",
+      "sig": "32faa74914b4679858c1cd0a30e898818160237070c27b10eadc6cd302fde71cc1f26dce83b3b7474a4d1f764c45833334c27d5e771e4b7931a336a126639d21"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2240,7 +2645,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2276,7 +2681,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2284,17 +2689,22 @@
     "npub": "npub1n3w4uts2r4srq3adqu9trp953dflcnw7ppn72tad4htkpsckwcmqjef6um",
     "name": "robos",
     "displayName": "robos",
-    "about": "Helping run >_OpenSats\nBush Bash Japan organiser:  bushbashjapan.fyi",
+    "about": "Helping run >_OpenSats\nBush Bash Japan organiser:  bushbashjapan.fyi\n@robos42 on X",
     "nip05": "_@bushbashjapan.fyi",
     "picture": "https://i.imgur.com/fI7uFEb.png",
     "kind0": {
       "kind": 0,
-      "id": "09ebade9c19db5306a9dc6d657ecf2c728622362adea11a7a3f8039f878c8074",
+      "id": "1aec727fe7a8e005ec710846c8d6e01a201d7fd4d9b8311f136a22cf676e60c1",
       "pubkey": "9c5d5e2e0a1d603047ad070ab184b48b53fc4dde0867e52fadadd760c3167636",
-      "created_at": 1772571068,
-      "tags": [],
-      "content": "{\"name\":\"robos\",\"about\":\"Helping run >_OpenSats\\nBush Bash Japan organiser:  bushbashjapan.fyi\",\"lud16\":\"boltc@minibits.cash\",\"nip05\":\"_@bushbashjapan.fyi\",\"picture\":\"https://i.imgur.com/fI7uFEb.png\",\"displayName\":\"robos\",\"display_name\":\"robos\",\"website\":\"https://opensats.org/\",\"banner\":\"\",\"sp\":\"sp1qqv6kaet3k27ryqd9ssyghca8qgszglrrvqpf4aa6cmcxmqmqpvktqql6th687pycdxm6zgqrh4krpefh7tqv23tfpr4jaxptwk4frt4hhqp79nff\"}",
-      "sig": "f00ae085b0c5c54856bb30e966051fe914f2415e1b02d84678fc17e05e9a5cbee37e83d37208690acc89e7e657008343f8975ff8dee0b21a9ec2d38c8f6dc3ac"
+      "created_at": 1786002483,
+      "tags": [
+        [
+          "client",
+          "Primal Web"
+        ]
+      ],
+      "content": "{\"name\":\"robos\",\"about\":\"Helping run >_OpenSats\\nBush Bash Japan organiser:  bushbashjapan.fyi\\n@robos42 on X\",\"lud16\":\"boltc@minibits.cash\",\"nip05\":\"_@bushbashjapan.fyi\",\"picture\":\"https://i.imgur.com/fI7uFEb.png\",\"display_name\":\"robos\",\"website\":\"https://opensats.org/\",\"displayName\":\"robos\"}",
+      "sig": "6470a543ca06d630b2c601bc95905f343c16223ec343eba2a650032b2d795a3d23f0d52f278340ae03852aa9ed7daba904a19d5c96925124429121fd78995548"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2308,7 +2718,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2316,27 +2726,17 @@
     "npub": "npub1uac67zc9er54ln0kl6e4qp2y6ta3enfcg7ywnayshvlw9r5w6ehsqq99rx",
     "name": "sandwich",
     "displayName": "sandwich",
-    "about": "still not a fan of neo-tribalism.",
+    "about": "still not a fan of neo-tribalism\n\nhttps://napplet.run\nhttps://kehto.github.io/web/\nhttps://nsite.run\nhttps://nsyte.run\nhttps://nadar.sandwich.farm\nhttps://notemine.io\nhttps://blssm.us\nhttps://nostr.watch\nhttps://status.nostr.watch\n\nNIP-66 (discoverable relays)\nNIP-78 (app specific data)\nNIP-91 (common sense) \nNIP-5D (napplets)",
     "nip05": "_@sandwich.farm",
     "picture": "https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg",
     "kind0": {
       "kind": 0,
-      "id": "023ff89395b22e20e5d4db381875a1a258231fd3f557e321f93ba884c15858cc",
+      "id": "9a8151941bd8bedbf4b7cd7f14e7960f90f611a08424e1b357892c27015bc662",
       "pubkey": "e771af0b05c8e95fcdf6feb3500544d2fb1ccd384788e9f490bb3ee28e8ed66f",
-      "created_at": 1780671657,
-      "tags": [
-        [
-          "client",
-          "Ditto",
-          "31990:781a1527055f74c1f70230f10384609b34548f8ab6a0a6caa74025827f9fdae5:ditto"
-        ],
-        [
-          "published_at",
-          "1778005838"
-        ]
-      ],
-      "content": "{\"about\":\"still not a fan of neo-tribalism.\",\"bot\":false,\"display_name\":\"sandwich\",\"name\":\"sandwich\",\"nip05\":\"_@sandwich.farm\",\"picture\":\"https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg\",\"client\":\"divine.video\",\"shape\":\"🥪\",\"displayName\":\"sandwich\",\"website\":\"\",\"banner\":\"\",\"lud16\":\"sandwich@npub.cash\"}",
-      "sig": "b6fa1e6a00834f3236b9b52333b3b7df7c421e51ad5eb4a68f66fa8b6fe5b088facff70f115db165cb24fd534b64806187f7803faad36af6e6c50febd0ccb848"
+      "created_at": 1786198056,
+      "tags": [],
+      "content": "{\"display_name\":\"sandwich\",\"name\":\"sandwich\",\"about\":\"still not a fan of neo-tribalism\\n\\nhttps://napplet.run\\nhttps://kehto.github.io/web/\\nhttps://nsite.run\\nhttps://nsyte.run\\nhttps://nadar.sandwich.farm\\nhttps://notemine.io\\nhttps://blssm.us\\nhttps://nostr.watch\\nhttps://status.nostr.watch\\n\\nNIP-66 (discoverable relays)\\nNIP-78 (app specific data)\\nNIP-91 (common sense) \\nNIP-5D (napplets)\",\"picture\":\"https://image.nostr.build/8bb39c413276b2d8509bc34aa926b05f46b968913f2a15236d50e6579314b1ae.jpg\",\"nip05\":\"_@sandwich.farm\",\"lud16\":\"sandwich@npub.cash\"}",
+      "sig": "b5d9bb967c80a038d7cd54713b8dee8cd450ae79b96bff0252a4ddbef47e993dc8b4fbe0fe45aa3892a38c83e9dcdae455efca9059e2ca1cb06708b5970cb639"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2350,7 +2750,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2410,7 +2810,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2418,14 +2818,14 @@
     "npub": "npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf",
     "name": "Schlaus Kwab",
     "displayName": "Schlaus Kwab",
-    "about": "https://wavefunc.live \nhttps://earthly.city\n(🌽+⚡+🥜) * 🕸️ = ♥️",
+    "about": "https://wavefunc.live \nhttps://earthly.city\nhttps://napplet.soy\n(🌽+⚡+🥜) * 🕸️ = ♥️",
     "nip05": "wavefunc.live",
     "picture": "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg",
     "kind0": {
       "kind": 0,
-      "id": "b8e4e5e26deadca5d269c23b99eb8d76589bfc91d278c47be51d2722646afa1a",
+      "id": "b877795435b8b7280616cfc203e5a1e5854ba3b77fab35ecc99f3b79406bb7ed",
       "pubkey": "3aa5817273c3b2f94f491840e0472f049d0f10009e23de63006166bca9b36ea3",
-      "created_at": 1774626631,
+      "created_at": 1789796580,
       "tags": [
         [
           "alt",
@@ -2453,7 +2853,7 @@
         ],
         [
           "about",
-          "https://wavefunc.live \nhttps://earthly.city\n(🌽+⚡+🥜) * 🕸️ = ♥️"
+          "https://wavefunc.live \nhttps://earthly.city\nhttps://napplet.soy\n(🌽+⚡+🥜) * 🕸️ = ♥️"
         ],
         [
           "nip05",
@@ -2462,10 +2862,14 @@
         [
           "lud16",
           "schlauskwab@minibits.cash"
+        ],
+        [
+          "client",
+          "Amethyst"
         ]
       ],
-      "content": "{\"name\":\"Schlaus Kwab\",\"nip05\":\"wavefunc.live\",\"about\":\"https://wavefunc.live \\nhttps://earthly.city\\n(🌽+⚡+🥜) * 🕸️ = ♥️\",\"lud16\":\"schlauskwab@minibits.cash\",\"display_name\":\"Schlaus Kwab\",\"picture\":\"https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg\",\"banner\":\"https://m.primal.net/MwLQ.jpg\",\"website\":\"https://wavefunc.live\"}",
-      "sig": "d2b78244242d51d792d954e0123a86d60746751268a62a5e20dd64edf33e4d53532d6412255ba6399a156c7d5f8e7e2135c36a0784b68ec998debf827f71962f"
+      "content": "{\"name\":\"Schlaus Kwab\",\"nip05\":\"wavefunc.live\",\"about\":\"https://wavefunc.live \\nhttps://earthly.city\\nhttps://napplet.soy\\n(🌽+⚡+🥜) * 🕸️ = ♥️\",\"lud16\":\"schlauskwab@minibits.cash\",\"display_name\":\"Schlaus Kwab\",\"picture\":\"https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg\",\"banner\":\"https://m.primal.net/MwLQ.jpg\",\"website\":\"https://wavefunc.live\"}",
+      "sig": "63fb26defce142cd241b2bb50936c89f91c455b69ded31dbae006411d8b1ed665b58f9066b0c62918797e3df030882f0e39b7ef783ab5b97c87ff07839141cd5"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2479,7 +2883,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2511,7 +2915,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2519,54 +2923,22 @@
     "npub": "npub15ymzglvv4alrp06q85eqqmawegxf688v0gtqwhjpgtp0a4k2mesqshkwwx",
     "name": "Shadrach",
     "displayName": "Shadrach",
-    "about": "Bitcoin Busdriver\nSuperconductor\nPodcast Listener\n#40HPW🎧\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר\n\n83BCKrTvqwBL1AxAWGQRoH8TxvLE5r3PaaTBjmeENJFxWtKcXTt9ZGUJbdXoZiQ2Jg6fESMBtM7grjgX59t3dHndPCtHLgy",
+    "about": "Bitcoin Busdriver\nSuperconductor\nPodcast Listener\n#40HPW🎧\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר",
     "nip05": "shadrach@nostrplebs.com",
     "picture": "https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg",
     "kind0": {
       "kind": 0,
-      "id": "45bc48e59d2676d8863e309cb006d429a21a373b5b5a2b8ec716477db3c753be",
+      "id": "84136407bbc0c6a32c698dfadd3190ed555834aa5fe06d1c661e998a908d1813",
       "pubkey": "a136247d8caf7e30bf403d32006faeca0c9d1cec7a16075e4142c2fed6cade60",
-      "created_at": 1781767208,
+      "created_at": 1785929751,
       "tags": [
         [
-          "alt",
-          "User profile for Shadrach"
-        ],
-        [
-          "name",
-          "Shadrach"
-        ],
-        [
-          "display_name",
-          "Shadrach"
-        ],
-        [
-          "picture",
-          "https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg"
-        ],
-        [
-          "banner",
-          "https://pbs.twimg.com/profile_banners/7570122/1643640451/1500x500"
-        ],
-        [
-          "about",
-          "Bitcoin Busdriver\nSuperconductor\nPodcast Listener\n#40HPW🎧\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר\n\n83BCKrTvqwBL1AxAWGQRoH8TxvLE5r3PaaTBjmeENJFxWtKcXTt9ZGUJbdXoZiQ2Jg6fESMBtM7grjgX59t3dHndPCtHLgy"
-        ],
-        [
-          "nip05",
-          "shadrach@nostrplebs.com"
-        ],
-        [
-          "lud16",
-          "lullabyalluring14428@getalby.com"
-        ],
-        [
           "client",
-          "Amethyst"
+          "Primal Web"
         ]
       ],
-      "content": "{\"display_name\":\"Shadrach\",\"name\":\"Shadrach\",\"about\":\"Bitcoin Busdriver\\nSuperconductor\\nPodcast Listener\\n#40HPW🎧\\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר\\n\\n83BCKrTvqwBL1AxAWGQRoH8TxvLE5r3PaaTBjmeENJFxWtKcXTt9ZGUJbdXoZiQ2Jg6fESMBtM7grjgX59t3dHndPCtHLgy\",\"picture\":\"https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg\",\"nip05\":\"shadrach@nostrplebs.com\",\"banner\":\"https://pbs.twimg.com/profile_banners/7570122/1643640451/1500x500\",\"lud16\":\"lullabyalluring14428@getalby.com\"}",
-      "sig": "23782ceb1f5bf5e52b02f2275607f3fcf8594eac8a00f33e58de0735ec3cbca84a02f87a9637d2ea86051180ac5514123e95b8e54cce7ddb86c89a4f26d019b4"
+      "content": "{\"name\":\"Shadrach\",\"about\":\"Bitcoin Busdriver\\nSuperconductor\\nPodcast Listener\\n#40HPW🎧\\nאֱמֶת קְנֵה, וְאַל-תִּמְכֹּר\",\"lud16\":\"fixedcommittee7423@cake.cash\",\"nip05\":\"shadrach@nostrplebs.com\",\"picture\":\"https://nostr.build/i/fe58f6343aad6f92d469257cea58ce05a8375db379cb12e3823265d1424cc650.jpg\",\"display_name\":\"Shadrach\",\"banner\":\"https://pbs.twimg.com/profile_banners/7570122/1643640451/1500x500\",\"displayName\":\"Shadrach\"}",
+      "sig": "3e092638499f6fc53b6e0cf51d4939f127999710e57dde0ff1d293ce84b4d5fad84954c40197c0444af7183629ad8c9f8c0a9d2ebfe03ea80ba057253f01aacb"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2580,7 +2952,39 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "cc8d072efdcc676fcbac14f6cd6825edc3576e55eb786a2a975ee034a6a026cb",
+    "npub": "npub1ejxswthae3nkljavznmv66p9ahp4wmj4adux525htmsrff4qym9sz2t3tv",
+    "name": "Sherry",
+    "displayName": "Sherry",
+    "about": "part time human being\nForever learning \nBuilding AI stuff sometimes,yes, everything is a ChatGPT shell 😉\n\n 这里有所有NIP的中文翻译 https://sherry-pang.gitbook.io/nostr-cn/fu-lu-1-nip-xiang-jie",
+    "nip05": "sherry@nostrovia.org",
+    "picture": "https://image.nostr.build/d9261667bf0a4a31ace6a24227c05c2f6ad88dd09867c93e1033dc534427094e.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "4384ad96f0eae1f1fcbca346839b54700c335981726294374c6bc459bfe3ef94",
+      "pubkey": "cc8d072efdcc676fcbac14f6cd6825edc3576e55eb786a2a975ee034a6a026cb",
+      "created_at": 1788229619,
+      "tags": [],
+      "content": "{\"picture\":\"https://image.nostr.build/d9261667bf0a4a31ace6a24227c05c2f6ad88dd09867c93e1033dc534427094e.jpg\",\"name\":\"Sherry\",\"banner\":\"https://us-southeast-1.linodeobjects.com/dufflepud/uploads/ceceacff-657c-4106-a6cf-a2b439d909d1.png\",\"about\":\"part time human being\\nForever learning \\nBuilding AI stuff sometimes,yes, everything is a ChatGPT shell 😉\\n\\n 这里有所有NIP的中文翻译 https://sherry-pang.gitbook.io/nostr-cn/fu-lu-1-nip-xiang-jie\",\"nip05\":\"sherry@nostrovia.org\",\"lud16\":\"nominalfruit70@walletofsatoshi.com\",\"website\":\"\",\"display_name\":\"Sherry\"}",
+      "sig": "3e987ac1cb2a92ef603ecc4a3489a3da3b37e5e075fec45b801607d2eba09fc171d721b2248a880399c431a62f0126fcb185288a310cab4629e920979fc9e26f"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2612,7 +3016,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2624,12 +3028,12 @@
     "picture": "https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg",
     "kind0": {
       "kind": 0,
-      "id": "37c01b59b421011b82293a3065abc11321f30c0f4131ba7723490b6132d9d681",
+      "id": "417f1e15eff929fbf8beed4b338b98554beb49a01cd671124471553611798c20",
       "pubkey": "4523be58d395b1b196a9b8c82b038b6895cb02b683d0c253a955068dba1facd0",
-      "created_at": 1781256327,
+      "created_at": 1789111147,
       "tags": [],
-      "content": "{\"name\":\"Sirius\",\"display_name\":\"Sirius\",\"picture\":\"https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg\",\"about\":\"I just want to start a flame in your heart\"}",
-      "sig": "8d364e269f77c18725e96e3575ac5eaf8ca729d8723c8a71e7557ef9cedbca3b090db46b0ec9c273f547030917fad388b0d5c10dda54638137081a3ebb5b7ed1"
+      "content": "{\"about\":\"I just want to start a flame in your heart\",\"display_name\":\"Sirius\",\"name\":\"Sirius\",\"picture\":\"https://cdn.nostr.build/i/8274ce86cc4477b80c8cad5ff4dfebe55f1223b3e35dfc10a1e19a67f29a8f8f.jpg\"}",
+      "sig": "f491c68c104de608c514d7a544486a518eb73cd08d9d43e985244dcccffb2c9e31e3cba4f7d1e92dbc5310b3e3f423ec7144c00266c25431099472f2176d3646"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2643,7 +3047,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2675,7 +3079,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2707,25 +3111,25 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
     "pubkey": "c8383d81dd24406745b68409be40d6721c301029464067fcc50a25ddf9139549",
     "npub": "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6",
-    "name": "Sync",
+    "name": "sync",
     "displayName": "Sync",
-    "about": "Co-Host of the Open Markets Podcast \nhttps://fountain.fm/show/8aujy1pUxhDKcm0fHcsM\n\nOperator:\nhttps://nostr.boutique\nhttps://cypher.space (clone)\nhttps://nsite.info \nhttps://nsite.cloud ( gateway A )\nhttps://nsite.boutique ( gateway B )\nhttps://sov.biz ( gateway A )\nhttps://sov.pub ( gateway B)\n\nhttps://github.com/s7nc",
+    "about": "Co-host of Open Markets Podcast:\nhttps://fountain.fm/show/8aujy1pUxhDKcm0fHcsM\n\nRunner of many weird Nostr things. ✌️",
     "nip05": "sync@nostr.boutique",
-    "picture": "https://pfp.nostr.build/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif",
+    "picture": "https://blossom.primal.net/562c13fc85cd0047c3f112760bf6955c434631a6acb32b6ae6a8c132385db22d.gif",
     "kind0": {
       "kind": 0,
-      "id": "c5eb4890832b499ede05b1874ed91402b3d2bdc6abe6a0e14cab2a451234419c",
+      "id": "184543b19d00ea80049d73d7b4a5d60070db1a992359ab903b753f96e6e7f819",
       "pubkey": "c8383d81dd24406745b68409be40d6721c301029464067fcc50a25ddf9139549",
-      "created_at": 1777208142,
+      "created_at": 1788271525,
       "tags": [],
-      "content": "{\"nip05\":\"sync@nostr.boutique\",\"picture\":\"https:\\/\\/pfp.nostr.build\\/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif\",\"display_name\":\"Sync\",\"website\":\"https:\\/\\/nostr.boutique\",\"banner\":\"https:\\/\\/blossom.primal.net\\/34a3b3c38f3d28e645d33932b7ee16b3c960739dafbb63bbebf6a396f675668e.gif\",\"lud06\":\"\",\"about\":\"Co-Host of the Open Markets Podcast \\nhttps:\\/\\/fountain.fm\\/show\\/8aujy1pUxhDKcm0fHcsM\\n\\nOperator:\\nhttps:\\/\\/nostr.boutique\\nhttps:\\/\\/cypher.space (clone)\\nhttps:\\/\\/nsite.info \\nhttps:\\/\\/nsite.cloud ( gateway A )\\nhttps:\\/\\/nsite.boutique ( gateway B )\\nhttps:\\/\\/sov.biz ( gateway A )\\nhttps:\\/\\/sov.pub ( gateway B)\\n\\nhttps:\\/\\/github.com\\/s7nc\",\"lud16\":\"Sync@primal.net\",\"name\":\"Sync\"}",
-      "sig": "1c7a6f37af72c47035ba704762e8e9943ded9c452feb0fec349c88cd6db6f615d5d829999fc5467327c1ec19306bf09e8f5031d8378d773166822e2d57b0509d"
+      "content": "{\"name\":\"sync\",\"banner\":\"https://blossom.primal.net/bc41669bbc94ff69b07fc836de7598745d38ae23f7c0560abaf6f4ba6893be1e.gif\",\"lud16\":\"sync@primal.net\",\"picture\":\"https://blossom.primal.net/562c13fc85cd0047c3f112760bf6955c434631a6acb32b6ae6a8c132385db22d.gif\",\"about\":\"Co-host of Open Markets Podcast:\\nhttps://fountain.fm/show/8aujy1pUxhDKcm0fHcsM\\n\\nRunner of many weird Nostr things. ✌️\",\"display_name\":\"Sync\",\"website\":\"https://nostr.boutique\",\"nip05\":\"sync@nostr.boutique\"}",
+      "sig": "f3ebc5dd7b5432856cba75e7268d1888c634dbd1b2a87ed6e4cd06ac2a2b0819fbbf1e487c28d024ff433a9a8f9f8604744574b26b7227343f093ea670e842b5"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2739,7 +3143,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2781,7 +3185,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2813,7 +3217,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2822,57 +3226,16 @@
     "name": "Tim Bouma",
     "displayName": "Tim Bouma",
     "about": "| Independent Self | Pug Lover | Published Author | #SovEng Alum | #Cashu OG | #OpenSats Grantee x 2| #Nosfabrica Prize Winner",
-    "nip05": "trbouma@getsafebox.app",
+    "nip05": "trbouma@safebox.dev",
     "picture": "https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png",
     "kind0": {
       "kind": 0,
-      "id": "e11aea48b9a3ba9bec3800b38b7fc1ad24784f8a3df5cc4bb13432efe4c6235b",
+      "id": "c465864ada6d95c9f08d51b58f3ae70e49c5b6d6c993e5ef4e91e10f6ac5f7c0",
       "pubkey": "06b7819d7f1c7f5472118266ed7bca8785dceae09e36ea3a4af665c6d1d8327c",
-      "created_at": 1781638465,
-      "tags": [
-        [
-          "client",
-          "Primal Android"
-        ],
-        [
-          "alt",
-          "User profile for Tim Bouma"
-        ],
-        [
-          "name",
-          "Tim Bouma"
-        ],
-        [
-          "display_name",
-          "Tim Bouma"
-        ],
-        [
-          "picture",
-          "https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png"
-        ],
-        [
-          "banner",
-          "https://blossom.primal.net/e14338421c340923dee9cdf82775b46a3667d699402791bf9c0945e4af019d83.jpg"
-        ],
-        [
-          "website",
-          "https://tim-bouma.npub.pro/"
-        ],
-        [
-          "about",
-          "| Independent Self | Pug Lover | Published Author | #SovEng Alum | #Cashu OG | #OpenSats Grantee x 2| #Nosfabrica Prize Winner"
-        ],
-        [
-          "nip05",
-          "trbouma@getsafebox.app"
-        ],
-        [
-          "lud16",
-          "trbouma@getsafebox.app"
-        ]
-      ],
-      "content": "{\"name\":\"Tim Bouma\",\"nip05\":\"trbouma@getsafebox.app\",\"about\":\"| Independent Self | Pug Lover | Published Author | #SovEng Alum | #Cashu OG | #OpenSats Grantee x 2| #Nosfabrica Prize Winner\",\"lud16\":\"trbouma@getsafebox.app\",\"display_name\":\"Tim Bouma\",\"picture\":\"https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png\",\"banner\":\"https://blossom.primal.net/e14338421c340923dee9cdf82775b46a3667d699402791bf9c0945e4af019d83.jpg\",\"website\":\"https://tim-bouma.npub.pro/\"}",
-      "sig": "87d5733f1b254dca6730d1b8ab0494efac9c473a2728f6882b5a214d0568fd4c742216f252a836194bf23eb9aa439f34b57ec967e18ebf78fc876c04bf7fbca4"
+      "created_at": 1786531607,
+      "tags": [],
+      "content": "{\"display_name\":\"Tim Bouma\",\"name\":\"Tim Bouma\",\"website\":\"https://tim-bouma.npub.pro/\",\"picture\":\"https://raw.githubusercontent.com/trbouma/assets/main/profile_pic_crop.png\",\"about\":\"| Independent Self | Pug Lover | Published Author | #SovEng Alum | #Cashu OG | #OpenSats Grantee x 2| #Nosfabrica Prize Winner\",\"banner\":\"https://blossom.primal.net/e14338421c340923dee9cdf82775b46a3667d699402791bf9c0945e4af019d83.jpg\",\"lud16\":\"trbouma@acorn.safebox.dev\",\"nip05\":\"trbouma@safebox.dev\"}",
+      "sig": "44492b001d94f78b0c0f2d53b87ccbaf1c35f1b2273d3329edd98a19c3db3176199b3049229a966321d9b977d791a88fa15925142257d52528a8c9bdc924191f"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -2886,7 +3249,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2917,7 +3280,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -2973,7 +3336,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3042,7 +3405,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3074,7 +3437,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3111,7 +3474,39 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
+    }
+  },
+  {
+    "pubkey": "5eb752d2c49ce1e34b6811c8bd5863754675f70fdb0714aa8928e34b67cae863",
+    "npub": "npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp",
+    "name": "whisperhash",
+    "displayName": "Whisper",
+    "about": "Nostr and Bitcoin and hardware tinkerer. It’s all coming together eventually, somehow, soon!\n#SovEng SEC-08",
+    "nip05": "_@whisperhash.com",
+    "picture": "https://blossom.primal.net/3c3da6f8ebba08dbdcdfd354090a9eafc9526d8f9df55cb0360431407b793353.jpg",
+    "kind0": {
+      "kind": 0,
+      "id": "8c0e1c7b8a46e4c633c5e6edebb6d9209b40510106d054f3ac1a06ebfed40cea",
+      "pubkey": "5eb752d2c49ce1e34b6811c8bd5863754675f70fdb0714aa8928e34b67cae863",
+      "created_at": 1788527821,
+      "tags": [],
+      "content": "{\"lud16\":\"emeraldpuma9@primal.net\",\"website\":\"https:\\/\\/nostrolo.gy\",\"nip05\":\"_@whisperhash.com\",\"picture\":\"https:\\/\\/blossom.primal.net\\/3c3da6f8ebba08dbdcdfd354090a9eafc9526d8f9df55cb0360431407b793353.jpg\",\"banner\":\"\",\"name\":\"whisperhash\",\"about\":\"Nostr and Bitcoin and hardware tinkerer. It’s all coming together eventually, somehow, soon!\\n#SovEng SEC-08\",\"display_name\":\"Whisper\",\"lud06\":\"\"}",
+      "sig": "16159503dc6d611df5d88814cf8b8dfc0ad05d7dc436ed5b9922e3d1983e5cf7be833a03e8cc640df5f6ffe45153b57a41f1c3ab7007c268852f542aeb1bb27a"
+    },
+    "source": {
+      "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
+      "relayUrls": [
+        "wss://nos.lol",
+        "wss://relay.damus.io",
+        "wss://relay.primal.net",
+        "wss://nostr.wine",
+        "wss://relay.nostr.band",
+        "wss://purplepag.es",
+        "wss://nostr-pub.wellorder.net",
+        "wss://nostr.mom"
+      ],
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3142,7 +3537,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3174,7 +3569,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3182,17 +3577,21 @@
     "npub": "npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr",
     "name": "Zaza",
     "displayName": "Zaza",
-    "about": "Bitcoin, Nostr, Web5 UXer (available for projects)\n20,999,999.967 / ∞\nI've been to the void and I heard no screams.",
-    "nip05": "zazawowow@primal.net",
-    "picture": "https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png",
+    "about": "FOSS UX Designer building archipelago",
+    "picture": "https://blossom.primal.net/56cfef311dbb5700755b6ee4ee201ab40ce6658d354bc660e632fdccfb58e3ae.jpg",
     "kind0": {
       "kind": 0,
-      "id": "c097e02d1569309de53290a563a6c5f72812681b08be61dccda5f49225d33248",
+      "id": "be40a805bea689ac46d510613bfd3c14d7a19ce2d31b827792ef39ab83e418d2",
       "pubkey": "7b849efa5604b58d50c419637b9873847dbf957081d526136c3a49b7357cd617",
-      "created_at": 1781873397,
-      "tags": [],
-      "content": "{\"name\":\"Zaza\",\"display_name\":\"Zaza\",\"picture\":\"https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png\",\"banner\":\"https://blossom.primal.net/63c2c8a235f454e6307bb5cc4bb73b0245dc3f1b80bc485c5d3b908f99e17fcc.jpg\",\"website\":\"protocolux.com\",\"about\":\"Bitcoin, Nostr, Web5 UXer (available for projects)\\n20,999,999.967 / ∞\\nI've been to the void and I heard no screams.\",\"nip05\":\"zazawowow@primal.net\",\"lud16\":\"wowowzaza@wallet.yakihonne.com\",\"lud06\":\"LNURL1DP68GURN8GHJ7AMPD3KX2APW09SKK6TGDAHXUEFWVDHK6TEWWAJKCMPDDDHX7AMW9AKXUATJD3CZ7AM0WAHHW7NP0FSSDYQL77\",\"pubkey\":\"7b849efa5604b58d50c419637b9873847dbf957081d526136c3a49b7357cd617\",\"is_deleted\":false}",
-      "sig": "2bf283363c01b52d71249b57f9e761d86da1f95f00b43099196f9fd0069192590c83e5e3af4bf91ac52015e754fb3f351447dc5cac5d2858dc42f8be1559f5b0"
+      "created_at": 1787463515,
+      "tags": [
+        [
+          "client",
+          "Primal Web"
+        ]
+      ],
+      "content": "{\"name\":\"Zaza\",\"about\":\"FOSS UX Designer building archipelago\",\"picture\":\"https://blossom.primal.net/56cfef311dbb5700755b6ee4ee201ab40ce6658d354bc660e632fdccfb58e3ae.jpg\",\"display_name\":\"Zaza\",\"displayName\":\"Zaza\",\"website\":\"https://protocolux.com\"}",
+      "sig": "37398f417472d408aa0f8181658b64b97444e1cde8c73297c1752c948b5adf88bdeaeca250c4ffa700178e9d86d1609902e7460b7cc89bec4af5fa673ed231c0"
     },
     "source": {
       "membershipSourceUrl": "https://following.space/d/sier9e7ih6k2?p=83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19",
@@ -3206,7 +3605,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3237,7 +3636,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   },
   {
@@ -3268,7 +3667,7 @@
         "wss://nostr-pub.wellorder.net",
         "wss://nostr.mom"
       ],
-      "fetchedAt": "2026-06-19T16:29:35.473Z"
+      "fetchedAt": "2026-09-25T05:29:44.039Z"
     }
   }
 ]

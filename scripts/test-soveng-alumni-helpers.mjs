@@ -4,6 +4,7 @@ import assert from 'node:assert/strict';
 import {
   getAlumniProfileViewModel,
   getNostrProfileHref,
+  getNpubWorldProfileHref,
   getSafeExternalHref,
   getSafeProfileImageHref,
   getSovEngAlumni,
@@ -70,11 +71,12 @@ assert.equal(getSafeExternalHref('http://following.space/d/source'), undefined);
 assert.equal(getSafeExternalHref('https://user:***@following.space/d/source'), undefined);
 
 assert.equal(getNostrProfileHref(baseProfile.npub), `https://njump.to/${baseProfile.npub}`);
+assert.equal(getNpubWorldProfileHref(baseProfile.npub), `https://npub.world/${baseProfile.npub}`);
 
 const viewModel = getAlumniProfileViewModel(baseProfile);
 assert.equal(viewModel.displayName, 'Builder McShipface');
 assert.equal(viewModel.handle, 'builder@example.com');
-assert.equal(viewModel.profileHref, `https://njump.to/${baseProfile.npub}`);
+assert.equal(viewModel.profileHref, `https://npub.world/${baseProfile.npub}`);
 assert.equal(Object.hasOwn(viewModel, 'qrImageHref'), false, 'view model should not expose QR data');
 assert.equal(Object.hasOwn(viewModel, 'updatedAt'), false, 'card kind 0 timestamp should not be exposed to route');
 assert.equal(Object.hasOwn(viewModel, 'updatedLabel'), false, 'card kind 0 label should not be exposed to route');

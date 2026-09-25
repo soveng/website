@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-06-19T18:29:06.104Z",
+  "generatedAt": "2026-09-25T05:31:38.746Z",
   "format": "webp",
   "width": 128,
   "height": 128,
   "avatars": {
     "npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr": {
       "src": "/images/alumni/avatars/npub10wzfa7jkqj6c65xyr93hhxrns37ml9tss82jvymv8fymwdtu6cts3h6pvr.webp",
-      "source": "https://blossom.primal.net/acfeeb16f61ee6bbb226256367d8cedc7a136a60a10bfd685cbd308893b46514.png",
+      "source": "https://blossom.primal.net/56cfef311dbb5700755b6ee4ee201ab40ce6658d354bc660e632fdccfb58e3ae.jpg",
       "width": 128,
       "height": 128,
-      "bytes": 2948,
-      "sha256": "d1cd55af6b29a5dc5983dd1e66edbff9c0cf82416933c1c25b541686c1d81e53"
+      "bytes": 2688,
+      "sha256": "3bee3dbd70c911ef273aff533f10d0e030c4cebf97388eb6ca7f75b301cf935f"
     },
     "npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg": {
       "src": "/images/alumni/avatars/npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg.webp",
@@ -76,6 +76,14 @@
       "bytes": 4418,
       "sha256": "592f3db129add5d9739922e5aaaf2a93b92fde66f85f54b7f99357478bfa3186"
     },
+    "npub16anjdksmvn5x08vtden04n64rw5k7fsjmedpw8avsx8wsh8ruhlq076pfx": {
+      "src": "/images/alumni/avatars/npub16anjdksmvn5x08vtden04n64rw5k7fsjmedpw8avsx8wsh8ruhlq076pfx.webp",
+      "source": "https://blossom.primal.net/8bae60161b68f4467bf43ec49fed38c2051569763b8dd0a4508838acf1aeb30c.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3662,
+      "sha256": "3cdb53efee8ce4f1e43a95239e237025b8150c015730fa9ef08f35c7ebc0a516"
+    },
     "npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm": {
       "src": "/images/alumni/avatars/npub16c9a45p5dr6l3jzmrvgdh9m7xy994tatxd6sm7kmxaygkq4lertsfnacfm.webp",
       "source": "https://blossom.primal.net/5d18b4bc5a21b1dd6ea0c0d879bb346bdf4e7523d583f237a6d4d3002f7c27a5.jpg",
@@ -86,11 +94,11 @@
     },
     "npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq": {
       "src": "/images/alumni/avatars/npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq.webp",
-      "source": "https://pfp.nostr.build/bfadf697f0fff255ce69f36697c0800556e62bc7f4d4bd6976e23bb5fcb215ea.jpg",
+      "source": "https://npub16dhgpql60vmd4mnydjut87vla23a38j689jssaqlqqlzrtqtd0kqex0nkq.blossom.band/b90f82807f87a27c277981535d27c8f2b4376b8be0bae0dcd9bb61359109d495.jpg",
       "width": 128,
       "height": 128,
-      "bytes": 3322,
-      "sha256": "07c03a7e0819d9136dfbf9af5e2c2e1c0a67808fe25ecda12b393a70e47989f4"
+      "bytes": 2344,
+      "sha256": "06a5d71e15434833dfb99129346904a3e86a0f94c2f018b221a3f397482b7856"
     },
     "npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw": {
       "src": "/images/alumni/avatars/npub16p8v7varqwjes5hak6q7mz6pygqm4pwc6gve4mrned3xs8tz42gq7kfhdw.webp",
@@ -132,6 +140,14 @@
       "bytes": 2268,
       "sha256": "d5486420add6b341d988c086c67799bd6c1704026fd42f151132b8be30745a2c"
     },
+    "npub17plqkxhsv66g8quxxc9p5t9mxazzn20m426exqnl8lxnh5a4cdns7jezx0": {
+      "src": "/images/alumni/avatars/npub17plqkxhsv66g8quxxc9p5t9mxazzn20m426exqnl8lxnh5a4cdns7jezx0.webp",
+      "source": "https://image.nostr.build/062ae3371b95a99d0d3d492281ba36ffeb96c45808c01b8d91745cea535afe66.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2726,
+      "sha256": "c41baef9aeb9bb9f6e6967cea8dfcf8b5d286247a5bb2db0eb624daf496cfb3b"
+    },
     "npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf": {
       "src": "/images/alumni/avatars/npub182jczunncwe0jn6frpqwq3e0qjws7yqqnc3auccqv9nte2dnd63scjm4rf.webp",
       "source": "https://image.nostr.build/68bd8d4a911573d65b90291ad36cb23a1b76b439a7deebbc59724a0487d4a3ae.jpg",
@@ -172,6 +188,14 @@
       "bytes": 5054,
       "sha256": "fcde690adae27368c788ddb3fdef19a0276f7de4a9aa7b362a85c1af85a24097"
     },
+    "npub19w6s06qgvfy8glfwc5qf5uxvm0staycslfsjj55j8jzhned2spzq8psyzj": {
+      "src": "/images/alumni/avatars/npub19w6s06qgvfy8glfwc5qf5uxvm0staycslfsjj55j8jzhned2spzq8psyzj.webp",
+      "source": "https://image.nostr.build/c80a43068053c4dda2c5d3a5834c83ee58ab2bc2604d6a321709c27369780396.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3316,
+      "sha256": "e6dad74216cf45f36c22155a075f99b75403844b0a3840ae75b53cf93b0f5735"
+    },
     "npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k": {
       "src": "/images/alumni/avatars/npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k.webp",
       "source": "https://image.nostr.build/58f5a81649be72e99c7f270ddac38e030ce145eb474ae680c72f48b57d73251d.jpg",
@@ -198,11 +222,11 @@
     },
     "npub1d7exvqfvxqyrq0j54e23gz6xj4lfj7qfssqamg60fkfp5f6mlzaskklrf3": {
       "src": "/images/alumni/avatars/npub1d7exvqfvxqyrq0j54e23gz6xj4lfj7qfssqamg60fkfp5f6mlzaskklrf3.webp",
-      "source": "https://cdn.hzrd149.com/64f844ac93b2b8e4b26e17604939d1a9af210a1ed9e16369352635d5708026cd.jpeg",
+      "source": "https://blossom.primal.net/5f5de0118119407c2603b0385b4c6f18885ad9365bda5c26465687f759e71455.jpg",
       "width": 128,
       "height": 128,
-      "bytes": 1494,
-      "sha256": "bd1f6cc97e5f7308055507cbeae3b3d44ec82cbe2b9f9601a83b503ca1d13ca6"
+      "bytes": 1496,
+      "sha256": "a35124d713a7b7fa140fdfda6f75422c826f0ea3318e3232198f79a58e21ca6a"
     },
     "npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc": {
       "src": "/images/alumni/avatars/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc.webp",
@@ -236,6 +260,14 @@
       "bytes": 796,
       "sha256": "db6875dbe61b2e9802be8998678482c0ce9aa998d2bbdf28edc93b6ed17bc84d"
     },
+    "npub1ejxswthae3nkljavznmv66p9ahp4wmj4adux525htmsrff4qym9sz2t3tv": {
+      "src": "/images/alumni/avatars/npub1ejxswthae3nkljavznmv66p9ahp4wmj4adux525htmsrff4qym9sz2t3tv.webp",
+      "source": "https://image.nostr.build/d9261667bf0a4a31ace6a24227c05c2f6ad88dd09867c93e1033dc534427094e.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3216,
+      "sha256": "f4593bddf89b16b56ba30446a5f8a8677c7e9db9f90b6b03f44505d43930e494"
+    },
     "npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume": {
       "src": "/images/alumni/avatars/npub1elta7cneng3w8p9y4dw633qzdjr4kyvaparuyuttyrx6e8xp7xnq32cume.webp",
       "source": "https://nostr.hu/kobuki.jpg",
@@ -246,7 +278,7 @@
     },
     "npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6": {
       "src": "/images/alumni/avatars/npub1equrmqway3qxw3dkssymusxkwgwrqypfgeqx0lx9pgjam7gnj4ysaqhkj6.webp",
-      "source": "https://pfp.nostr.build/637221b41f21e6d5126cb44e6172cf8600cb1fc1953461de03d80ce983845953.gif",
+      "source": "https://blossom.primal.net/562c13fc85cd0047c3f112760bf6955c434631a6acb32b6ae6a8c132385db22d.gif",
       "width": 128,
       "height": 128,
       "bytes": 1548,
@@ -265,8 +297,8 @@
       "source": "https://avatars.githubusercontent.com/u/5362163?v=4",
       "width": 128,
       "height": 128,
-      "bytes": 3064,
-      "sha256": "b45035f1ab7096d3b496f1ae32423aa230319806ec6b77765a17491df5466909"
+      "bytes": 1846,
+      "sha256": "de4a310ea2655c766c12ed91e0875d99cf397f633d787e3b7913fa9e1eab65da"
     },
     "npub1ftt05tgku25m2akgvw6v7aqy5ux5mseqcrzy05g26ml43xf74nyqsredsh": {
       "src": "/images/alumni/avatars/npub1ftt05tgku25m2akgvw6v7aqy5ux5mseqcrzy05g26ml43xf74nyqsredsh.webp",
@@ -275,6 +307,14 @@
       "height": 128,
       "bytes": 1394,
       "sha256": "de5840868b1fe58d2d38b0ee72ea27dda20f453c6a820a931fca26e8c807e203"
+    },
+    "npub1fz5hhsj3sa4jmedtq2hldaqcgzvfyyfuckevhx80rpukjs2ykd3qkxymar": {
+      "src": "/images/alumni/avatars/npub1fz5hhsj3sa4jmedtq2hldaqcgzvfyyfuckevhx80rpukjs2ykd3qkxymar.webp",
+      "source": "https://image.nostr.build/2714e767fad007172f717a23f1f61d0429938076a27ecd3c5508cf96cfa406d4.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1276,
+      "sha256": "5506d1465920ecd36d7dee6bbb73194bfc5469ae41cd8bb0a35cd4fdd36e96f5"
     },
     "npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk": {
       "src": "/images/alumni/avatars/npub1g53mukxnjkcmr94fhryzkqutdz2ukq4ks0gvy5af25rgmwsl4ngq43drvk.webp",
@@ -308,6 +348,14 @@
       "bytes": 2286,
       "sha256": "0102ed075df80e112e8d8b8309653a82efd8c71037ff7bc587b3a32481d5ec21"
     },
+    "npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm": {
+      "src": "/images/alumni/avatars/npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.webp",
+      "source": "https://npub1hr4znut0u3pwh4l9jnruq6dqeer55nfzknl34lgy3s8fzzyd6hvqz357gm.blossom.band/add5dffac3a8ae163038c70e50bd20f4b328628d4620dbacdba7147e989b86f0.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 4400,
+      "sha256": "085fb10fd08856d98f188070ec579cd472c86d322cfd640a53b82753cc8bb85a"
+    },
     "npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr": {
       "src": "/images/alumni/avatars/npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr.webp",
       "source": "https://image.nostr.build/e1286eafbb786715182cc2a432b44fae5de7107ec95c6c9498969943422fa5df.png",
@@ -326,11 +374,11 @@
     },
     "npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy": {
       "src": "/images/alumni/avatars/npub1jss47s4fvv6usl7tn6yp5zamv2u60923ncgfea0e6thkza5p7c3q0afmzy.webp",
-      "source": "https://pbs.twimg.com/profile_images/1655801903710871552/-_Loy9pw_400x400.jpg",
+      "source": "https://blossom.primal.net/40ffa6e7bd35cf17f2667a42b5d9e192a9229a7efd6fba117ae4e7fd95600b7b.jpg",
       "width": 128,
       "height": 128,
-      "bytes": 2254,
-      "sha256": "f20df6677c5323cc0303db47883ba55ab6f0cab68d15ebde071c1645230de512"
+      "bytes": 2246,
+      "sha256": "cdd851217b105563a49b0ee5e2c36bf9dcf9a047977b7affdd9d0ea8ddbef935"
     },
     "npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt": {
       "src": "/images/alumni/avatars/npub1klkk3vrzme455yh9rl2jshq7rc8dpegj3ndf82c3ks2sk40dxt7qulx3vt.webp",
@@ -390,11 +438,11 @@
     },
     "npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226": {
       "src": "/images/alumni/avatars/npub1mhcr4j594hsrnen594d7700n2t03n8gdx83zhxzculk6sh9nhwlq7uc226.webp",
-      "source": "https://image.nostr.build/3097c9da617f9da288249ce5b7ef7bfc4f7bab16e05653962c49567c3dddf53e.jpg",
+      "source": "https://blossom.primal.net/5c1b9975637ea742aa0f64d98719ca982cddb6f612dade8f4a7a7f0819c33d8c.png",
       "width": 128,
       "height": 128,
-      "bytes": 2238,
-      "sha256": "8ea6cebc9ad48412cfb8c2f9407b1b494d68b005ecb05d29c315948c07d57f49"
+      "bytes": 5084,
+      "sha256": "32c03cbc85bf5136f174f5a32a7cfe385d31fc05ba3d32c4b64fd9e5b52fde65"
     },
     "npub1mqa4auvfmalgs338999h22tf23upfs70uwyetneq0szquqamu7jqkhlfa7": {
       "src": "/images/alumni/avatars/npub1mqa4auvfmalgs338999h22tf23upfs70uwyetneq0szquqamu7jqkhlfa7.webp",
@@ -414,11 +462,11 @@
     },
     "npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p": {
       "src": "/images/alumni/avatars/npub1mygerccwqpzyh9pvp6pv44rskv40zutkfs38t0hqhkvnwlhagp6s3psn5p.webp",
-      "source": "https://nostr.build/i/nostr.build_029831470fc213b50dca90bd35ae0fea4e2a2540388bb1d459ab73d1c1a51f5c.jpg",
+      "source": "https://blossom.yakihonne.com/dc4030f0c424a418bddcae8682e1cf010d4d89b5ffbea03f5aeaf14ad041e1a8.jpeg",
       "width": 128,
       "height": 128,
-      "bytes": 3902,
-      "sha256": "504ee50d5d534a36d384050e810f41ada820172711d91d0289bfc945a8367f83"
+      "bytes": 4242,
+      "sha256": "fe35dee48c618e52080d05dc9f68301043e715f98cf15bf6845db5377873be45"
     },
     "npub1mz3vx0ew9le6n48l9f2e8u745k0fzel6thksv0gwfxy3wanprcxq79mymx": {
       "src": "/images/alumni/avatars/npub1mz3vx0ew9le6n48l9f2e8u745k0fzel6thksv0gwfxy3wanprcxq79mymx.webp",
@@ -452,14 +500,6 @@
       "bytes": 2372,
       "sha256": "d8a8917ebf579252f3fef8ba729e0a0e2c270204ea348206cff3dfda2f2d5fbb"
     },
-    "npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph": {
-      "src": "/images/alumni/avatars/npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph.webp",
-      "source": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg",
-      "width": 128,
-      "height": 128,
-      "bytes": 4878,
-      "sha256": "02b1ffbb425c9bf48c3da44c91734e390bc409538e76b9c84e24b1456cb84d25"
-    },
     "npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8": {
       "src": "/images/alumni/avatars/npub1p4kg8zxukpym3h20erfa3samj00rm2gt4q5wfuyu3tg0x3jg3gesvncxf8.webp",
       "source": "https://paul.lol/waffle_animated.gif",
@@ -470,11 +510,11 @@
     },
     "npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr": {
       "src": "/images/alumni/avatars/npub1pmhevxtlt3478pvmdqt7dftnv6zc2mzpdc569yjm6ks4k2jhezcs53uksr.webp",
-      "source": "https://image.nostr.build/c9c2e526b8e2fbbaea37b201d39c381a16adda905bfdb38fc0648b5997494cc4.jpg",
+      "source": "https://pfp.nostr.build/8ca52a7c74567e6d49a064ca5e2226f08e10b0d4c621a0a64c14aed9fbbd4808.webp",
       "width": 128,
       "height": 128,
-      "bytes": 1846,
-      "sha256": "2b67a7633afdc31d71317810b1d002666dca146dee8af2aaabb3637d81056ad6"
+      "bytes": 1842,
+      "sha256": "5011dcf130e1540a2090f3c87cda2c7e698f07cae138745bc80dd5306b4de214"
     },
     "npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u": {
       "src": "/images/alumni/avatars/npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u.webp",
@@ -532,6 +572,22 @@
       "bytes": 5992,
       "sha256": "efb2c1d639d95c61fad0d5469f629896fbe485b40f5dca92894f1ed9c55f5e86"
     },
+    "npub1su4kplwca3euuyerm9ucq4ecf7ucxegqmxmjq9v5cudw8l8zk6qqejetyp": {
+      "src": "/images/alumni/avatars/npub1su4kplwca3euuyerm9ucq4ecf7ucxegqmxmjq9v5cudw8l8zk6qqejetyp.webp",
+      "source": "https://image.nostr.build/e33817e7f487e0f48ffa9fc58da73d75bd6253e79ace140f86c45fb7fed1a817.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 6098,
+      "sha256": "d535552456aaf45ab9510726788372b3639dfb65da1b4c603378abac0e54f4c5"
+    },
+    "npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp": {
+      "src": "/images/alumni/avatars/npub1t6m495kynns7xjmgz8yt6krrw4r8tac0mvr3f25f9r35ke72ap3su4qycp.webp",
+      "source": "https://blossom.primal.net/3c3da6f8ebba08dbdcdfd354090a9eafc9526d8f9df55cb0360431407b793353.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 3800,
+      "sha256": "a335c0065a146553b4df84f0c36bb6410589fbb82a9ca7fb421a1010452e5996"
+    },
     "npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu": {
       "src": "/images/alumni/avatars/npub1tlhjzdhlskz9xvmkufucl6l3jt4nypj8q5d2dc572uhz94nyeytq02tuyu.webp",
       "source": "https://m.primal.net/LAPO.jpg",
@@ -572,6 +628,30 @@
       "bytes": 4136,
       "sha256": "47a830b82c9d5c0004ee3624480a52fe1e26a7c2be9de1caf7971e3e9be800bb"
     },
+    "npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s": {
+      "src": "/images/alumni/avatars/npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s.webp",
+      "source": "https://npub1uadpshqpn5ysf82lev8zngkvn07szmkq7mvf9lyc7ml7qxq6fqxsmrqt2s.blossom.band/e7cf28a203d9ea86130212427ca726fcac2724bc7445b0336a021c973cb48b53.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 1936,
+      "sha256": "635953a6c78f8ac1aa3649f2e2745d00e9e45b0ab6a59e56e9cc7ced1eeb1acb"
+    },
+    "npub1v22qyndskpawjnsjn8zce53nwldza5ejw67f8y33ntt8qlmpm5rq7ra0z2": {
+      "src": "/images/alumni/avatars/npub1v22qyndskpawjnsjn8zce53nwldza5ejw67f8y33ntt8qlmpm5rq7ra0z2.webp",
+      "source": "https://image.nostr.build/5f97c991bbd66d71d9fa4d1dafa7a3d1c364ec6914dc69184c11c948ff20d636.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2062,
+      "sha256": "1f03b01bfbba3c741a1c002e2d3bd35d3816ed4adf2e8f27e5a8f495ab1ef336"
+    },
+    "npub1vr2nva0s0hhfulthjy8053rg9kruk5erzwaxdw85gjwkfytj994sgudzvx": {
+      "src": "/images/alumni/avatars/npub1vr2nva0s0hhfulthjy8053rg9kruk5erzwaxdw85gjwkfytj994sgudzvx.webp",
+      "source": "https://image.nostr.build/153e4e6d41ad27056cb0889a51c10453c4bba22ef4d2ab615371d526ce03518f.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2128,
+      "sha256": "8e33d53a59472d899d37aff24e7889beac3d52b1fe35115dc11a0635ab00352f"
+    },
     "npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9": {
       "src": "/images/alumni/avatars/npub1wf4pufsucer5va8g9p0rj5dnhvfeh6d8w0g6eayaep5dhps6rsgs43dgh9.webp",
       "source": "https://nostr.build/i/nostr.build_1732d9a6cd9614c6c4ac3b8f0ee4a8242e9da448e2aacb82e7681d9d0bc36568.jpg",
@@ -603,6 +683,14 @@
       "height": 128,
       "bytes": 506,
       "sha256": "7d7befb208b81ce85cdbe91a208fabf83a0244fa05aeb7c7bca547de2fff25e3"
+    },
+    "npub1yptpz34agws3z95dqxgvyhwnhkulav5vueryjpzrl32p57euwteqwha52w": {
+      "src": "/images/alumni/avatars/npub1yptpz34agws3z95dqxgvyhwnhkulav5vueryjpzrl32p57euwteqwha52w.webp",
+      "source": "https://image.nostr.build/6fc133c1e0d9fae92e64d80cb10281bdfd19d217295de7f6862440d279f63d15.jpg",
+      "width": 128,
+      "height": 128,
+      "bytes": 2740,
+      "sha256": "312e2a062bf5af593e1742b9d054016eed7ed1dd5e222cc5209184bc126d6b1f"
     },
     "npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl": {
       "src": "/images/alumni/avatars/npub1zc6ts76lel22d38l9uk7zazsen8yd7dtuzcz5uv8d3vkast9hlks4725sl.webp",
@@ -638,13 +726,13 @@
     }
   },
   "failed": {
-    "npub16anjdksmvn5x08vtden04n64rw5k7fsjmedpw8avsx8wsh8ruhlq076pfx": {
-      "source": "https://pbs.twimg.com/profile_images/1640416793159163904/5Jzp5M6e_400x400.jpg",
+    "npub1nyxg7ps82r86u0gunspsn8u8uuskh6sut77tulcqljue7rr7m6hquzh9ph": {
+      "source": "https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg",
       "error": "HTTP 404"
     },
     "npub1rw7hlhmgat6ur9zxcw40vweem49guv6530yk767j8xjpynv0y20q6qsl3w": {
       "source": "https://cdn.sebdev.io/c402f0974e2f6ebe96efee967c64c3ebfd4366e2f284f4d8650371af7787fdb0",
-      "error": "certificate has expired"
+      "error": "HTTP 404"
     },
     "npub1t5atsakzq63h45asjn3qhlpeg80nlgs6zkkgafmddyvywdufv6dqxfahcl": {
       "source": "https://pbs.twimg.com/profile_images/1996248129771831296/uoVAZfPW_400x400.jpg",
@@ -652,7 +740,7 @@
     },
     "npub1zach44xjpc4yyhx6pgse2cj2pf98838kja03dv2e8ly8lfr094vqvm5dy5": {
       "source": "https://flockstr.s3.amazonaws.com/event/KWBj4AzufuBT_JymMCmdX",
-      "error": "HTTP 403"
+      "error": "HTTP 404"
     }
   }
 }

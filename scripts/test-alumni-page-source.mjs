@@ -22,26 +22,38 @@ assert.match(
 );
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
 assert.match(page, /class="[^"]*alumni-grid/, 'alumni route should render the profile grid');
-assert.match(page, /class="[^"]*alumni-card/, 'alumni route should render profile cards');
+assert.match(page, /<a\s+[\s\S]*?class="alumni-card"\s+href=\{profile\.profileHref\}/, 'each profile card should be one link');
+assert.match(page, /aria-label=\{`Open \$\{profile\.displayName\} on npub\.world`\}/, 'card link should name its destination');
+assert.doesNotMatch(page, /alumni-avatar-link|<a href=\{profile\.profileHref\}/, 'card should not contain nested profile links');
+assert.match(page, /<nav[^>]*aria-label="Jump to alumni by first letter"/, 'alphabet navigation should precede profile cards');
+assert.match(page, /firstIndexByInitial\.get\(profile\.initial\) === profile\.index/, 'letter links should target the first matching card');
+assert.match(page, /alumniGroups\.map/, 'profiles should render in groups of four');
 const alumniGridRule = page.match(/\.alumni-grid\s*\{[\s\S]*?\n  \}/)?.[0] ?? '';
 assert.match(alumniGridRule, /gap:\s*1rem/, 'grid should use breathing room between cards');
 assert.doesNotMatch(alumniGridRule, /margin-top:/, 'grid should not need extra offset hacks');
-assert.match(page, /\.alumni-card\s*\{[\s\S]*border:\s*1px solid rgb\(255 255 255 \/ 9%\)/, 'cards should use a simple subtle border');
-assert.match(page, /\.alumni-card:hover\s*\{[\s\S]*border-color:\s*rgb\(255 255 255 \/ 18%\)/, 'card hover should stay restrained');
-assert.doesNotMatch(page, /\.alumni-card::before|\.alumni-card::after/, 'card sparkle and separator overlays should be removed');
+assert.match(page, /\.alumni-card-group\s*\{[\s\S]*border:\s*1px solid rgb\(255 255 255 \/ 9%\)/, 'card groups should have a subtle outer border');
+assert.match(page, /\.alumni-card-group--pair::after\s*\{[\s\S]*width:\s*2px/, 'vertical separator should be two pixels at the crossing');
+assert.match(page, /\.alumni-card-group--second-row::before\s*\{[\s\S]*height:\s*2px/, 'horizontal separator should be two pixels at the crossing');
+assert.match(page, /#fff 50%/, 'separators should peak white at the crossing');
+assert.doesNotMatch(page, /\.alumni-card::before|\.alumni-card::after/, 'card sparkle overlays should stay removed');
 assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-6 text-white sm:pt-20 sm:pb-8/, 'hero should keep the simplified spacing');
 assert.match(page, /\.alumni-hero\s*\{[\s\S]*min-height:\s*0/, 'hero should not force tall viewport spacing');
 assert.match(page, /class="[^"]*alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20/, 'directory should sit tighter under the hero');
 assert.match(
   page,
-  /class="[^"]*alumni-card-top[\s\S]*alumni-avatar-link[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/,
+  /class="[^"]*alumni-card-top[\s\S]*class="alumni-avatar"[\s\S]*alumni-card-identity[\s\S]*alumni-card-title/,
   'card name should sit next to profile image'
 );
 assert.match(page, /class="[^"]*alumni-card-identity[\s\S]*alumni-card-title[\s\S]*alumni-handle/, 'handle should sit under the card name');
 assert.match(
   page,
   /class="[^"]*alumni-card-title[^"]*"[\s\S]*fa-arrow-up-right-from-square/,
-  'card title link should use the smaller FontAwesome external-link icon'
+  'card title should use the smaller FontAwesome external-link icon'
+);
+assert.match(
+  page,
+  /\.alumni-card:hover \.alumni-card-title,[\s\S]*\.alumni-card:focus-visible \.alumni-card-title/,
+  'whole-card hover and keyboard focus should turn name red'
 );
 assert.match(page, /class="[^"]*alumni-handle[^"]*"[\s\S]*\{profile\.handle\}/, 'card should show the compact handle line');
 assert.doesNotMatch(page, /\{profile\.npub\}<\/span>/, 'full npub text should no longer render in the card body');
@@ -49,8 +61,8 @@ assert.doesNotMatch(page, /alumni-npub-copy|data-alumni-copy|Copy npub|copy-to-c
 assert.doesNotMatch(page, /navigator\.clipboard\.writeText\(value\)|is-copied|is-copy-failed/, 'clipboard logic should be removed');
 assert.match(page, /data-alumni-avatar-image/, 'avatar images should have an error fallback hook');
 assert.match(page, /width="64"[\s\S]*height="64"/, 'avatar images should declare dimensions to reduce layout shift');
-assert.match(page, /loading=\{index < 6 \? 'eager' : 'lazy'\}/, 'above-fold avatars should load eagerly while offscreen avatars stay lazy');
-assert.match(page, /fetchpriority=\{index < 3 \? 'high' : 'auto'\}/, 'first visible avatars should get higher fetch priority');
+assert.match(page, /loading=\{profile\.index < 6 \? 'eager' : 'lazy'\}/, 'above-fold avatars should load eagerly while offscreen avatars stay lazy');
+assert.match(page, /fetchpriority=\{profile\.index < 3 \? 'high' : 'auto'\}/, 'first visible avatars should get higher fetch priority');
 assert.match(page, /contain:\s*layout paint/, 'cards should contain layout/paint without hiding visible content');
 assert.match(page, /referrerpolicy="no-referrer"/, 'external profile images should avoid leaking referrers');
 assert.doesNotMatch(page, /<main\s+class="alumni-page"/, 'Base already emits the main landmark; route must not nest main elements');

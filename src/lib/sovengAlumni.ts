@@ -211,6 +211,10 @@ export function getNostrProfileHref(npub: string): string {
   return `https://njump.to/${encodeURIComponent(npub)}`;
 }
 
+export function getNpubWorldProfileHref(npub: string): string {
+  return `https://npub.world/${encodeURIComponent(npub)}`;
+}
+
 export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniProfileViewModel {
   const displayName = getSovEngAlumniDisplayName(profile);
   const handle =
@@ -226,7 +230,7 @@ export function getAlumniProfileViewModel(profile: SovEngAlumniProfile): AlumniP
     about: cleanAbout(profile.about),
     picture: getCachedProfileImageHref(profile.npub, profile.picture),
     initials: getInitials(displayName, profile.npub),
-    profileHref: getNostrProfileHref(profile.npub),
+    profileHref: getNpubWorldProfileHref(profile.npub),
     nostrUri: `nostr:${profile.npub}`,
     sourceHref: getSafeExternalHref(profile.source.membershipSourceUrl) ?? '',
   };
