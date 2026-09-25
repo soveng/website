@@ -36,7 +36,7 @@ assert.match(page, /\.alumni-card-group--pair::after\s*\{[\s\S]*width:\s*2px/, '
 assert.match(page, /\.alumni-card-group--second-row::before\s*\{[\s\S]*height:\s*2px/, 'horizontal separator should be two pixels at the crossing');
 assert.match(page, /#fff 50%/, 'separators should peak white at the crossing');
 assert.doesNotMatch(page, /\.alumni-card::before|\.alumni-card::after/, 'card sparkle overlays should stay removed');
-assert.match(page, /class="[^"]*alumni-hero bg-black pt-16 pb-6 text-white sm:pt-20 sm:pb-8/, 'hero should keep the simplified spacing');
+assert.match(page, /class="[^"]*alumni-hero bg-black pt-24 pb-6 text-white sm:pt-28 sm:pb-8/, 'hero should keep the simplified spacing');
 assert.match(page, /\.alumni-hero\s*\{[\s\S]*min-height:\s*0/, 'hero should not force tall viewport spacing');
 assert.match(page, /class="[^"]*alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20/, 'directory should sit tighter under the hero');
 assert.match(
