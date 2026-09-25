@@ -422,7 +422,7 @@
   },
   {
     "name": "boris-android",
-    "description": "Meta to Meza feature work for Boris Android: zapping highlighted passages and splitting payments among the author, highlighter and reading app.",
+    "description": "A Boris Android feature for making highlighted passages zappable and splitting payments among the author, highlighter and reading app.",
     "cohort": "SEC-08",
     "link": "https://dergigi.com/2026/08/28/meta-to-meza/",
     "linkText": "Meta to Meza",
@@ -453,7 +453,7 @@
     "name": "Nostrology",
     "description": "Nostr ecosystem metrics and marketplace maps exposed to people and agents, including Cashu-paid Nutzap data queries.",
     "cohort": "SEC-08",
-    "link": "https://dev.nostrolo.gy/data",
+    "link": "https://nostrolo.gy/data",
     "linkText": "Nostrology data",
     "logo": "/images/showcase/nostrology-logo.png",
     "highlight": false
