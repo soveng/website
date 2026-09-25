@@ -215,7 +215,7 @@
     "link": "https://github.com/Origami74/myco",
     "linkText": "github.com/Origami74/myco",
     "logo": "/images/showcase/myco-logo.webp",
-    "highlight": false,
+    "highlight": true,
     "extraLinks": [
       { "link": "https://github.com/Origami74/myco/pull/34", "linkText": "File sharing PR" },
       { "link": "https://github.com/fr34aky/myco-desktop", "linkText": "Desktop companion" }

@@ -63,8 +63,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-05': {
     theme: 'YOLO Mode',
-    paragraph:
-      'Fall 2025, forty-one projects, still the cohort record. YOLO mode: Marmot Chat, hashpool, Frontier Browser, relays, mining, AI. FIPS mesh work started here.',
+    paragraph: 'Fall 2025, forty-one projects. YOLO mode: Marmot Chat, hashpool, Frontier Browser, relays, mining, AI. FIPS mesh work started here.',
   },
   'SEC-06': {
     theme: 'Identity & Signers',

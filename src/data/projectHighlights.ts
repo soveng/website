@@ -41,6 +41,7 @@ const fipsPrototype = requireProject('FIPS');
 const nip60 = requireProject('NIP-60');
 const nip61 = requireProject('NIP-61');
 const napplets = requireProject('Napplets');
+const myco = requireProject('Myco', 'SEC-08');
 const totem = requireProject('Totem', 'SEC-08');
 
 const projectHighlights: ProjectHighlight[] = [
@@ -141,6 +142,15 @@ const projectHighlights: ProjectHighlight[] = [
     variant: 'standard',
     description: 'Small Nostr apps that leave signing, relays and storage to a host shell, so one app can run in many places.',
     logo: napplets.logo,
+  },
+  {
+    title: 'Myco',
+    eyebrow: myco.cohort,
+    href: getProjectArchiveHref(myco),
+    externalUrl: externalLink(myco),
+    variant: 'standard',
+    description: 'Nearby phones share apps and files over Bluetooth or FIPS, with a hotspot route for peers without Myco.',
+    logo: myco.logo,
   },
   {
     title: 'Totem',
