@@ -27,7 +27,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 >
   <div class="blog-page blog-article-page">
     <div class="container blog-container">
-      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← other articles</a></nav>
+      <nav class="blog-article-back" aria-label="Blog navigation"><a href="/blog">← Other Articles</a></nav>
       <article>
         <header class="blog-article-header">
           <p class="blog-eyebrow">Sovereign Engineering / Blog</p>
@@ -66,7 +66,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         <p class="blog-activity-note">From public Nostr relays. Activity may differ across clients.</p>
       </section>
       <footer class="blog-article-footer">
-        <a href="/blog">← other articles</a>
+        <a href="/blog">← Other Articles</a>
         {previousArticle && <a href={`/blog/${previousArticle.slug}`} aria-label={`Previous article: ${previousArticle.title}`}>Prev Article →</a>}
       </footer>
     </div>

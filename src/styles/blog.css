@@ -487,12 +487,12 @@
 
 .blog-page a:is([href^='https://njump.me/nprofile1'], [href^='https://njump.me/npub1'])
 {
-  color: #f1878b;
+  color: #ff7b80;
 }
 
 .blog-page a:is([href^='https://njump.me/nprofile1'], [href^='https://njump.me/npub1']):hover
 {
-  color: #ffc1c3;
+  color: #ffb2b5;
 }
 
 .blog-activity-reactions,
