@@ -1,6 +1,5 @@
 .blog-page {
   min-height: 100vh;
-  background: #050505;
   color: #f5f2ef;
 }
 
@@ -81,7 +80,6 @@
   position: relative;
   aspect-ratio: 4 / 3;
   overflow: hidden;
-  background: #050505;
 }
 
 .blog-hero-visual::after {
@@ -459,6 +457,16 @@
 .blog-activity-heading > a:hover,
 .blog-comment-meta a:hover {
   color: #fff;
+}
+
+.blog-page a:is([href^='https://njump.me/nprofile1'], [href^='https://njump.me/npub1'])
+{
+  color: #8dc9c1;
+}
+
+.blog-page a:is([href^='https://njump.me/nprofile1'], [href^='https://njump.me/npub1']):hover
+{
+  color: #c2eee6;
 }
 
 .blog-activity-reactions,
