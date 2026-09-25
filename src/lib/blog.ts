@@ -4,9 +4,9 @@ import { Marked } from 'marked';
 import { nip19, verifyEvent, type Event } from 'nostr-tools';
 import { AbstractSimplePool } from 'nostr-tools/abstract-pool';
 import sanitizeHtml from 'sanitize-html';
-import { WebSocket as NodeWebSocket } from 'ws';
 
 import savedEvents from '@/data/nostrArticles.json';
+import { BlogWebSocket } from '@/lib/blogWebSocket';
 
 export const BLOG_PUBKEY = '83d999a148625c3d2bb819af3064c0f6a12d7da88f68b2c69221f3a746171d19';
 export const BLOG_RELAYS = ['wss://nos.lol', 'wss://relay.damus.io'];
@@ -169,7 +169,7 @@ async function fetchLiveEvents(): Promise<Event[]> {
   // when a relay connection fails, crashing static builds before fallback.
   const pool = new AbstractSimplePool({
     verifyEvent,
-    websocketImplementation: NodeWebSocket as unknown as typeof globalThis.WebSocket,
+    websocketImplementation: BlogWebSocket as unknown as typeof globalThis.WebSocket,
     maxWaitForConnection: 3000,
   });
   try {
