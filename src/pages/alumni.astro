@@ -230,6 +230,7 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     color: inherit;
     contain: layout paint;
     display: block;
+    min-height: 15rem;
     padding: 1.1rem;
     scroll-margin-top: 6rem;
     text-decoration: none;
@@ -241,14 +242,6 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
   }
 
   @media (min-width: 720px) {
-    .alumni-card {
-      min-height: 15rem;
-    }
-
-    .alumni-about {
-      min-height: 4.1rem;
-    }
-
     .alumni-alphabet {
       display: flex;
     }
@@ -359,6 +352,7 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     font-size: 0.92rem;
     line-height: 1.5;
     margin: 0.95rem 0 0;
+    min-height: 4.1rem;
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 4;
