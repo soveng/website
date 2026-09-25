@@ -20,7 +20,6 @@
 
 .blog-eyebrow,
 .blog-item-meta,
-.blog-list-heading,
 .blog-article-meta,
 .blog-article-back,
 .blog-article-footer {
@@ -119,7 +118,6 @@
 .blog-list-image {
   display: block;
   overflow: hidden;
-  background: #222;
 }
 
 .blog-feature-image {
@@ -149,7 +147,7 @@
 }
 
 .blog-feature h2,
-.blog-list h3 {
+.blog-list h2 {
   margin: 0;
   color: #fff;
   line-height: 1.1;
@@ -161,7 +159,7 @@
   font-size: clamp(2.5rem, 5vw, 4.5rem);
 }
 
-.blog-list h3 {
+.blog-list h2 {
   font-size: clamp(1.65rem, 3vw, 2.25rem);
 }
 
@@ -173,15 +171,15 @@
 
 .blog-feature:hover h2,
 .blog-feature:focus-visible h2,
-.blog-list-item:hover h3,
-.blog-list-item:focus-visible h3,
+.blog-list-item:hover h2,
+.blog-list-item:focus-visible h2,
 .blog-article-back a:hover,
 .blog-article-footer a:hover {
   color: #ed3238;
 }
 
 .blog-feature h2,
-.blog-list h3 {
+.blog-list h2 {
   transition: color 150ms ease;
 }
 
@@ -197,38 +195,6 @@
   color: #c4c0c0;
   font-size: 1.1rem;
   line-height: 1.55;
-}
-
-.blog-read-link {
-  display: inline-block;
-  margin-top: 1.5rem;
-  color: #f5f2ef;
-  font-family: 'IM Fell Double Pica', Georgia, serif;
-  text-decoration: underline;
-  text-decoration-color: #ed3238;
-  text-underline-offset: 0.3rem;
-}
-
-.blog-feature:hover .blog-read-link,
-.blog-feature:focus-visible .blog-read-link {
-  color: #ed3238;
-}
-
-.blog-list-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  padding: 1.25rem 0 1.75rem;
-  border-top: 1px solid #ed3238;
-  color: #aaa3a3;
-  font-size: 0.95rem;
-}
-
-.blog-list-heading h2 {
-  margin: 0;
-  color: #f5f2ef;
-  font-size: 1.2rem;
 }
 
 .blog-list {
@@ -641,7 +607,7 @@
 
 @media (prefers-reduced-motion: reduce) {
   .blog-feature h2,
-  .blog-list h3,
+  .blog-list h2,
   .blog-list-item {
     transition: none;
   }
