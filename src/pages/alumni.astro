@@ -109,6 +109,11 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
             ))
           }
         </div>
+        <section class="alumni-podcast" aria-labelledby="alumni-podcast-title">
+          <h2 id="alumni-podcast-title">No Solutions</h2>
+          <p>Listen to recorded dialogues with Gigi and Sovereign Engineering alumni on the No Solutions podcast.</p>
+          <a href="/podcast" class="btn-retro">Listen to No Solutions</a>
+        </section>
       </div>
     </section>
 
@@ -131,6 +136,33 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
   .alumni-page {
     background: #000;
     color: #fff;
+  }
+
+  .alumni-podcast {
+    max-width: 40rem;
+    margin-top: 4rem;
+  }
+
+  .alumni-podcast h2 {
+    margin: 0;
+    color: #fff;
+    font-family: var(--font-secondary);
+    font-size: 2.25rem;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  .alumni-podcast p {
+    margin: 0.75rem 0 0;
+    color: #d1d5db;
+    font-size: 1.125rem;
+    line-height: 1.625;
+  }
+
+  .alumni-podcast .btn-retro {
+    display: inline-block;
+    margin-top: 1.5rem;
   }
 
   .alumni-hero {
