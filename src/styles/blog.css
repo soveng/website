@@ -346,6 +346,13 @@
   margin-top: 0;
 }
 
+.blog-article-content p,
+.blog-article-content li,
+.blog-article-content blockquote {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .blog-article-content h1,
 .blog-article-content h2,
 .blog-article-content h3,
