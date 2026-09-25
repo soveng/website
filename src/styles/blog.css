@@ -21,7 +21,6 @@
 .blog-eyebrow,
 .blog-item-meta,
 .blog-article-meta,
-.blog-article-back,
 .blog-article-footer {
   font-family: 'IM Fell Double Pica', Georgia, serif;
   letter-spacing: 0.04em;
@@ -143,7 +142,6 @@
   font-size: clamp(1.65rem, 3vw, 2.25rem);
 }
 
-.blog-article-back a,
 .blog-article-footer a {
   color: inherit;
   text-decoration: none;
@@ -153,7 +151,6 @@
 .blog-feature:focus-visible h2,
 .blog-list-item:hover h2,
 .blog-list-item:focus-visible h2,
-.blog-article-back a:hover,
 .blog-article-footer a:hover {
   color: #ed3238;
 }
@@ -270,12 +267,6 @@
   max-width: 900px;
   padding-top: 6.5rem;
   padding-bottom: 6rem;
-}
-
-.blog-article-back {
-  margin-bottom: 2rem;
-  color: #aaa3a3;
-  font-size: 0.95rem;
 }
 
 .blog-article-header h1 {
