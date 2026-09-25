@@ -23,7 +23,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
     <header class="blog-hero">
       <div class="container blog-container blog-hero-grid">
         <div class="blog-hero-copy">
-          <p class="blog-eyebrow">The Sovereign Engineering Blog</p>
+          <p class="blog-eyebrow">The Sovereign Engineering</p>
           <h1>Dispatches</h1>
           <p class="blog-hero-subtitle">Notes from the frontier of freedom tech.</p>
           <a class="blog-rss-link" href="/blog/rss.xml" type="application/rss+xml">RSS <i class="fa-solid fa-rss" aria-hidden="true"></i></a>
@@ -60,7 +60,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
             </a>
           )}
           <div class="blog-feature-copy">
-            <p class="blog-item-meta"><time datetime={new Date(featured.publishedAt * 1000).toISOString()}>{date(featured.publishedAt)}</time><span>Latest article</span></p>
+            <p class="blog-item-meta"><time datetime={new Date(featured.publishedAt * 1000).toISOString()}>{date(featured.publishedAt)}</time></p>
             <h2><a href={`/blog/${featured.slug}`}>{featured.title}</a></h2>
             {featured.summary && <p class="blog-summary">{featured.summary}</p>}
             <a href={`/blog/${featured.slug}`} class="blog-read-link">Read article <span aria-hidden="true">→</span></a>
@@ -92,9 +92,20 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
       </ol>
       {!featured && <p>No articles available yet. <a href="https://njump.me/sovereignengineering.io">Read us on Nostr.</a></p>}
       {featured && (
-        <figure class="blog-endmark" aria-hidden="true">
-          <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
-        </figure>
+        <>
+          <figure class="blog-endmark" aria-hidden="true">
+            <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
+          </figure>
+          <div class="blog-podcast-cta">
+            <p class="blog-eyebrow">No Solutions</p>
+            <h2>Only Trade-Offs</h2>
+            <p>
+              We talk, we walk, we ship on Fridays. No Solutions is the podcast where we keep arguing about the same work:
+              builders, protocols, and the trade-offs behind it.
+            </p>
+            <a href="/podcast" class="btn-retro">Listen to No Solutions</a>
+          </div>
+        </>
       )}
     </section>
   </div>
