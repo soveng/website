@@ -55,7 +55,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <div>
             <h2 id="blog-activity-title">The conversation</h2>
           </div>
-          <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Join discussion ↗</a>
+          <a href={`https://nostrudel.ninja/articles/${article.naddr}`} target="_blank" rel="noopener noreferrer">Join the Discussion ↗</a>
         </div>
         <div class="blog-activity-reactions">
           <h3>Reactions <span data-reaction-count></span></h3>
@@ -71,7 +71,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
       </section>
       <footer class="blog-article-footer">
         <a href="/blog">← other articles</a>
-        {previousArticle && <a href={`/blog/${previousArticle.slug}`} aria-label={`Previous article: ${previousArticle.title}`}>Prev Article ←</a>}
+        {previousArticle && <a href={`/blog/${previousArticle.slug}`} aria-label={`Previous article: ${previousArticle.title}`}>Prev Article →</a>}
       </footer>
     </div>
   </div>

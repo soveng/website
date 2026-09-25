@@ -8,8 +8,6 @@ const tagValue = (event: Event, name: string) => event.tags.find((tag) => tag[0]
 
 const uniqueEvents = (events: Event[]) => [...new Map(events.map((event) => [event.id, event])).values()];
 
-const eventUrl = (id: string) => `https://njump.me/${nip19.noteEncode(id)}`;
-
 const authorName = (pubkey: string) => {
   const npub = nip19.npubEncode(pubkey);
   return `${npub.slice(0, 11)}…${npub.slice(-5)}`;
@@ -106,14 +104,7 @@ function renderComments(section: HTMLElement, events: Event[]) {
     const date = document.createElement('time');
     date.dateTime = new Date(event.created_at * 1000).toISOString();
     date.textContent = dateLabel(event.created_at);
-    const source = document.createElement('a');
-    source.href = eventUrl(event.id);
-    source.target = '_blank';
-    source.rel = 'noopener noreferrer';
-    source.textContent = '↗';
-    source.setAttribute('aria-label', 'Open comment in new tab');
-    source.title = 'Open comment';
-    meta.append(author, date, source);
+    meta.append(author, date);
 
     const content = document.createElement('p');
     content.className = 'blog-comment-content';
