@@ -177,6 +177,12 @@
   line-height: 1.55;
 }
 
+.blog-read-button:hover,
+.blog-feature:focus-visible .blog-read-button {
+  background-color: var(--color-primary, #ed3238);
+  color: white;
+}
+
 .blog-list {
   display: grid;
   margin: 0;
