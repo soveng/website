@@ -1,11 +1,11 @@
 ---
 enable: true
-title: 'Ready for adventure?'
+title: 'Applications are now closed'
 image: '/images/men-wanted.png'
-description: "Experience, build, and alpha-test the future of self-sovereign technology in beautiful Madeira. Don't miss the opportunity of a lifetime."
+description: 'Applications for SEC-08 are closed. We will post the next cohort here when it is ready.'
 button:
-  enable: true
+  enable: false
   label: 'Apply Now!'
   link: 'https://sovereignengineering.typeform.com/SEC-08'
-dates: 'Jul 20 - Aug 28'
+dates: ''
 ---

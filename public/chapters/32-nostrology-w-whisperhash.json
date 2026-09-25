@@ -1,0 +1,149 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "32: Nostrology w/ WhisperHash",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 32, Nostrology w/ WhisperHash.",
+  "fileName": "32 - Nostrology.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 63,
+      "title": "Setup"
+    },
+    {
+      "startTime": 63,
+      "endTime": 245,
+      "title": "Finding No Solutions"
+    },
+    {
+      "startTime": 245,
+      "endTime": 490,
+      "title": "Platform Ownership"
+    },
+    {
+      "startTime": 490,
+      "endTime": 555,
+      "title": "Bitcoin Breadcrumbs",
+      "url": "https://bitcoin.org/"
+    },
+    {
+      "startTime": 555,
+      "endTime": 620,
+      "title": "NerdMiner",
+      "url": "https://github.com/BitMaker-hub/NerdMiner_v2"
+    },
+    {
+      "startTime": 620,
+      "endTime": 780,
+      "title": "BitAxe",
+      "url": "https://www.bitaxe.org/"
+    },
+    {
+      "startTime": 780,
+      "endTime": 900,
+      "title": "Quiet Mining"
+    },
+    {
+      "startTime": 900,
+      "endTime": 1100,
+      "title": "Nostr Questions",
+      "url": "https://nostr.com/"
+    },
+    {
+      "startTime": 1100,
+      "endTime": 1350,
+      "title": "Justin Moon",
+      "url": "https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon"
+    },
+    {
+      "startTime": 1350,
+      "endTime": 1640,
+      "title": "First Cohort"
+    },
+    {
+      "startTime": 1640,
+      "endTime": 1800,
+      "title": "Demo Day"
+    },
+    {
+      "startTime": 1800,
+      "endTime": 1860,
+      "title": "Composable Primitives"
+    },
+    {
+      "startTime": 1860,
+      "endTime": 2100,
+      "title": "Zapstore",
+      "url": "https://zapstore.dev/"
+    },
+    {
+      "startTime": 2100,
+      "endTime": 2400,
+      "title": "Apps and Agents"
+    },
+    {
+      "startTime": 2400,
+      "endTime": 2700,
+      "title": "Silicon Valley"
+    },
+    {
+      "startTime": 2700,
+      "endTime": 3060,
+      "title": "Hong Kong"
+    },
+    {
+      "startTime": 3060,
+      "endTime": 3300,
+      "title": "SEC-08"
+    },
+    {
+      "startTime": 3300,
+      "endTime": 3640,
+      "title": "Nostrology",
+      "url": "https://nostrolo.gy/"
+    },
+    {
+      "startTime": 3640,
+      "endTime": 3900,
+      "title": "Parquet Datasets",
+      "url": "https://parquet.apache.org/"
+    },
+    {
+      "startTime": 3900,
+      "endTime": 4065,
+      "title": "Data Ethics"
+    },
+    {
+      "startTime": 4065,
+      "endTime": 4200,
+      "title": "ContextVM",
+      "url": "https://contextvm.org/"
+    },
+    {
+      "startTime": 4200,
+      "endTime": 4395,
+      "title": "Tracer Bullets"
+    },
+    {
+      "startTime": 4395,
+      "endTime": 4500,
+      "title": "Demo Ideas"
+    },
+    {
+      "startTime": 4500,
+      "endTime": 4800,
+      "title": "Cohort Dynamics"
+    },
+    {
+      "startTime": 4800,
+      "endTime": 5100,
+      "title": "Returning Builders"
+    },
+    {
+      "startTime": 5100,
+      "endTime": 5267,
+      "title": "Do the Homework"
+    }
+  ]
+}

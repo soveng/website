@@ -53,7 +53,6 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     <section id="alumni-directory" class="alumni-directory bg-black pt-4 pb-16 text-white sm:pt-4 sm:pb-20" aria-label="Sovereign Engineering alumni profiles">
       <div class="container max-w-[1120px]">
         <nav class="alumni-alphabet" aria-label="Jump to alumni by first letter">
-          <span class="alumni-alphabet-label" aria-hidden="true">Jump to</span>
           <div class="alumni-alphabet-letters">
             {alphabet.map((initial) => firstIndexByInitial.has(initial) ? (
               <a class="alumni-alphabet-link" href={`#alumni-${initial === '#' ? 'other' : initial.toLowerCase()}`} aria-label={initial === '#' ? 'Jump to other names' : `Jump to names starting with ${initial}`}>{initial}</a>
@@ -214,12 +213,6 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     flex-wrap: wrap;
     gap: 0.5rem 1rem;
     margin-bottom: 1.5rem;
-  }
-
-  .alumni-alphabet-label {
-    color: rgb(255 255 255 / 58%);
-    font-size: 0.82rem;
-    text-transform: uppercase;
   }
 
   .alumni-alphabet-letters {

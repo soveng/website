@@ -1,0 +1,91 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "31: Buzz, Mosaico, and Other Stuff w/ Pablo",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 31, Buzz, Mosaico, and Other Stuff w/ Pablo.",
+  "fileName": "31 - Buzz, Mosaico, and Other Stuff.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 667,
+      "title": "FIPS Map",
+      "url": "https://github.com/jmcorgan/fips"
+    },
+    {
+      "startTime": 667,
+      "endTime": 1136,
+      "title": "No Global"
+    },
+    {
+      "startTime": 1136,
+      "endTime": 1582,
+      "title": "Freedom Trade-Offs"
+    },
+    {
+      "startTime": 1582,
+      "endTime": 2097,
+      "title": "Buzz Lands",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "startTime": 2097,
+      "endTime": 2618,
+      "title": "NIP-29 Rooms",
+      "url": "https://github.com/nostr-protocol/nips/blob/master/29.md"
+    },
+    {
+      "startTime": 2618,
+      "endTime": 3050,
+      "title": "Agent Time"
+    },
+    {
+      "startTime": 3050,
+      "endTime": 3354,
+      "title": "Agency Tension"
+    },
+    {
+      "startTime": 3354,
+      "endTime": 3583,
+      "title": "ChatGPT Interface"
+    },
+    {
+      "startTime": 3583,
+      "endTime": 4153,
+      "title": "Mosaico Workspaces",
+      "url": "https://github.com/pablof7z/mosaico"
+    },
+    {
+      "startTime": 4153,
+      "endTime": 4456,
+      "title": "Subchannels"
+    },
+    {
+      "startTime": 4456,
+      "endTime": 5622,
+      "title": "Context Hooks"
+    },
+    {
+      "startTime": 5622,
+      "endTime": 5916,
+      "title": "Awareness Layer",
+      "url": "https://github.com/pablof7z/mosaico"
+    },
+    {
+      "startTime": 5916,
+      "endTime": 6742,
+      "title": "Proactive Context"
+    },
+    {
+      "startTime": 6742,
+      "endTime": 6984,
+      "title": "Memory Futures"
+    },
+    {
+      "startTime": 6984,
+      "endTime": 7241,
+      "title": "Napplet Shape",
+      "url": "https://napplet.run/"
+    }
+  ]
+}

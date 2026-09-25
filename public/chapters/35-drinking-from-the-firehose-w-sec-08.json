@@ -1,0 +1,71 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "35: Drinking from the Firehose w/ SEC-08",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 35, Drinking from the Firehose w/ SEC-08.",
+  "fileName": "35 - Drinking from the Firehose.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 105,
+      "title": "Boat Retrospective",
+      "url": "https://sovereignengineering.io/"
+    },
+    {
+      "startTime": 105,
+      "endTime": 287,
+      "title": "FIPS and Totem",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 287,
+      "endTime": 428,
+      "title": "Zaza Polish",
+      "url": "https://protocolux.com/"
+    },
+    {
+      "startTime": 428,
+      "endTime": 621,
+      "title": "Walking Ideas"
+    },
+    {
+      "startTime": 621,
+      "endTime": 900,
+      "title": "Map Tiles",
+      "url": "https://github.com/hzrd149/blossom"
+    },
+    {
+      "startTime": 900,
+      "endTime": 1200,
+      "title": "First Principles"
+    },
+    {
+      "startTime": 1200,
+      "endTime": 1560,
+      "title": "Building Blocks",
+      "url": "https://fips.network/"
+    },
+    {
+      "startTime": 1560,
+      "endTime": 1920,
+      "title": "Pairing Up"
+    },
+    {
+      "startTime": 1920,
+      "endTime": 2220,
+      "title": "One-Minute Demos"
+    },
+    {
+      "startTime": 2220,
+      "endTime": 2520,
+      "title": "Found My People"
+    },
+    {
+      "startTime": 2520,
+      "endTime": 2789,
+      "title": "Mapping Nostr",
+      "url": "https://nostr.com/"
+    }
+  ]
+}

@@ -96,6 +96,18 @@ const books = [
     ],
   },
   {
+    title: 'On Dialogue',
+    author: 'David Bohm',
+    description: 'A case for deeper listening and creative dialogue as a way to share assumptions, recover meaning, and think together more clearly.',
+    cover: '/images/books/on-dialogue.jpg',
+    links: [
+      {
+        name: 'Read',
+        url: 'https://socraticdesignacademy.com/wp-content/uploads/2020/05/David-Bohm-On-Dialogue-.pdf',
+      },
+    ],
+  },
+  {
     title: 'The Network State',
     author: 'Balaji Shrinivasan',
     description: 'How to start a new country',
@@ -104,18 +116,6 @@ const books = [
       {
         name: 'Read',
         url: 'https://thenetworkstate.com/',
-      },
-    ],
-  },
-  {
-    title: 'The Singularity Is Near',
-    author: 'Ray Kurzweil',
-    description: 'When Humans Transcend Biology. A deep dive into exponential technological growth and the coming merger of human and machine intelligence.',
-    cover: '/images/books/the-singularity-is-near.jpg',
-    links: [
-      {
-        name: 'Read',
-        url: 'https://archive.org/details/singularityisnea00kurz',
       },
     ],
   },

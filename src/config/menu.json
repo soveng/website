@@ -20,11 +20,11 @@
         { "name": "Concept", "url": "/concept" },
         { "name": "Philosophy", "url": "/philosophy" },
         { "name": "Projects", "url": "/projects" },
+        { "name": "Alumni", "url": "/alumni" },
         { "name": "Podcast", "url": "/podcast" },
         { "name": "Media", "url": "/media" },
         { "name": "Swag", "url": "/swag" },
-        { "name": "FAQ", "url": "/faq" },
-        { "name": "Alumni", "url": "/alumni" }
+        { "name": "FAQ", "url": "/faq" }
       ]
     }
   ],
@@ -53,6 +53,7 @@
         "links": [
           { "name": "Alumni", "url": "/alumni" },
           { "name": "Swag", "url": "/swag" },
+          { "name": "Contest", "url": "https://tshirt.sovereignengineering.io/results" },
           { "name": "Media", "url": "/media" }
         ]
       }

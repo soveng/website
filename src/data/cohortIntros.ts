@@ -68,7 +68,7 @@ export const cohortIntros: Record<string, CohortIntro> = {
   },
   'SEC-06': {
     theme: 'Identity & Signers',
-    paragraph: 'March 2026, signers and identity. Keys you hold, bunkers, hardware, rollovers. Six weeks on what signs your nostr events.',
+    paragraph: 'March 2026, signers and identity. Keys you hold, bunkers, hardware, rollovers. Three weeks on what signs your nostr events.',
   },
   'SEC-07': {
     theme: 'Networks & Hardware',

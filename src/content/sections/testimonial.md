@@ -5,18 +5,60 @@ description: "Don't take our word for it. Here's what our fans and alumni have t
 
 # Testimonials
 testimonials:
-  - name: 'balas'
-    designation: 'Alphaama'
-    avatar: '/images/balas-avatar.jpg'
-    npub: 'npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8'
-    noteid: 'nevent1qqsvv9p087cgns82zwxk94aq6us7u84rt3zgasznq7gl9em7n9lfqmcpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qnmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsfzhrfg'
-    content: "The past two months [at SEC-01] were probably two of the best months of my life and I'm not young anymore. [...] I met so many amazing people during that time and it was incredible to explore the beautiful Madeira island together, sharing wild ideas, helping each other's projects, discussing stuff, learning with each other, making new friendships, shipping the future."
+  - name: 'Johnathan Corgan'
+    designation: 'FIPS'
+    avatar: '/images/johnathan-corgan-avatar.jpg'
+    npub: 'npub19wavu4f7l6l43h24jyskn7fvzy37kcfp67aqjtmv2qgy4lp34nhsda8p6k'
+    noteid: 'nevent1qvzqqqqqqypzq2a6ee2nal4ltrw4tyfpd8ujcyfradsjr4a6pyhkc5qsft7rrt80qythwumn8ghj7cnfw33k76twv4ezuum0vd5kzmp0qythwumn8ghj7un9d3shjtnwdaejuum0vd5kzmp0qqsghy7jtcqdjju20alpm5trrgndsu5a7tg3hnc4r2vtcs7dtckwz6sjknaqt'
+    content: 'The experience of Sovereign Engineering is transformative. It goes way beyond just "hacking on freedom tech". The combination of people, location, philosophy, and shared values is unlike anything I have been through before.'
+
+  - name: 'dr. calle'
+    designation: 'Cashu'
+    avatar: '/images/dr-calle-github-avatar.png'
+    npub: 'npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg'
+    noteid: 'nevent1qqs0nfs9hjq56gnt9vnww8wxtp6cplw72k8us0amsqfw9mffq50mt3gzypgdjn7zmpvqc6ptqud9gtutrcc6yq9s2z96h9dr80hss4wl9qwkxr4qlle'
+    content: 'been there twice. it was epic.'
 
   - name: 'Justin Moon'
     designation: 'Zig Evangelist'
     avatar: '/images/justin-moon-avatar.png'
     npub: 'npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y'
     content: "I'm surprised that I'm still here! (Uttered during the last week of SEC-04, after moving flights twice.)"
+
+  - name: 'Arjen'
+    designation: 'Tollgate'
+    avatar: '/images/arjen-avatar.webp'
+    npub: 'npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr'
+    noteid: 'nevent1qqs0qd3xuqstgqryxzv6n8nqsz558ufyfg9e46d72et5cxr0xysaxaqpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw'
+    content: 'Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined.'
+
+  - name: 'miljan'
+    designation: 'Primal'
+    avatar: '/images/miljan-avatar.jpg'
+    npub: 'npub16c0nh3dnadzqpm76uctf5hqhe2lny344zsmpm6feee9p5rdxaa9q586nvr'
+    noteid: 'nevent1qqst47n9ry7eu6z5vpx5qckxalp28czsl2yyx22lh4lhksps2yg23sczyrtp7w79k045gq80mtnpdxjuzl9t7vjxk52rv80f888y5xsd5mh55jdvvzw'
+    content: 'Yesterday I had the privilege of witnessing the demos of the first Sovereign Engineering cohort here in Madeira. Mind completely blown. Everyone should check out these projects. People have no idea how good Nostr is going to get.'
+
+  - name: 'Justin Moon'
+    designation: 'Zig Evangelist'
+    avatar: '/images/justin-moon-avatar.png'
+    npub: 'npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y'
+    noteid: 'nevent1qqsd62at55e5lq2zd886huvdv57c89h4nky84ygu05345u772lgz0ssppamhxue69uhkummnw3ezumt0d5pzqyde4z2qfklnqd88uxyxh2wuf3knwmernggcyuda9mzk02yfs5xwyck7k0'
+    content: 'You should apply to Sovereign Engineering.'
+
+  - name: 'Derek Ross'
+    designation: 'Grow Nostr Initiative'
+    avatar: '/images/derek-ross-avatar.jpg'
+    npub: 'npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424'
+    noteid: 'nevent1qqsg62knm8jfuww9thn2ja9cfnwd33ns8jpn0wsqy5fje03lwf5sepqzyqlhwrt96wnkf2w9edgr4cfruchvwkv26q6asdhz4qg08pm6w3djg94576n'
+    content: 'The SEC-01 was the most exciting and bullish set of presentations at Bitcoin Atlantis. These people are building our future and will have an immense impact upon our world. I look forward to seeing was SEC-02 will build. Plus, Madeira is incredibly beautiful.'
+
+  - name: 'balas'
+    designation: 'Alphaama'
+    avatar: '/images/balas-avatar.jpg'
+    npub: 'npub1nmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsd2yha8'
+    noteid: 'nevent1qqsvv9p087cgns82zwxk94aq6us7u84rt3zgasznq7gl9em7n9lfqmcpzemhxue69uhhyetvv9ujumn0wd68ytnzv9hxgq3qnmr6w7qk0ta36vxysv77jv3d5rqghfc6d8sez8240rf3gja4vsmsfzhrfg'
+    content: "The past two months [at SEC-01] were probably two of the best months of my life and I'm not young anymore. [...] I met so many amazing people during that time and it was incredible to explore the beautiful Madeira island together, sharing wild ideas, helping each other's projects, discussing stuff, learning with each other, making new friendships, shipping the future."
 
   - name: 'Pedro'
     designation: 'Anatomy of Bitcoin'
@@ -32,47 +74,12 @@ testimonials:
     noteid: 'nevent1qqsgfy2hscuw4lufwz7djfkql3yccvs7ypkh30gzh95nmmslcs3ednqpp4mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw'
     content: "Don't miss the opportunity of a lifetime."
 
-  - name: 'Arjen'
-    designation: 'Tollgate'
-    avatar: '/images/arjen-avatar.webp'
-    npub: 'npub1hw6amg8p24ne08c9gdq8hhpqx0t0pwanpae9z25crn7m9uy7yarse465gr'
-    noteid: 'nevent1qqs0qd3xuqstgqryxzv6n8nqsz558ufyfg9e46d72et5cxr0xysaxaqpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzpwa4mkswz4t8j70s2s6q00wzqv7k7zamxrmj2y4fs88aktcfuf68akcsrw'
-    content: 'Sovereign Engineering has proven to be a place where the foundations of the internet are being redefined.'
-
-  - name: 'Justin Moon'
-    designation: 'Zig Evangelist'
-    avatar: '/images/justin-moon-avatar.png'
-    npub: 'npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y'
-    noteid: 'nevent1qqsd62at55e5lq2zd886huvdv57c89h4nky84ygu05345u772lgz0ssppamhxue69uhkummnw3ezumt0d5pzqyde4z2qfklnqd88uxyxh2wuf3knwmernggcyuda9mzk02yfs5xwyck7k0'
-    content: 'You should apply to Sovereign Engineering.'
-
-  - name: 'miljan'
-    designation: 'Primal'
-    avatar: '/images/miljan-avatar.jpg'
-    npub: 'npub16c0nh3dnadzqpm76uctf5hqhe2lny344zsmpm6feee9p5rdxaa9q586nvr'
-    noteid: 'nevent1qqst47n9ry7eu6z5vpx5qckxalp28czsl2yyx22lh4lhksps2yg23sczyrtp7w79k045gq80mtnpdxjuzl9t7vjxk52rv80f888y5xsd5mh55jdvvzw'
-    content: 'Yesterday I had the privilege of witnessing the demos of the first Sovereign Engineering cohort here in Madeira. Mind completely blown. Everyone should check out these projects. People have no idea how good Nostr is going to get.'
-
   - name: 'Niel Liesmons'
     designation: 'Zaplab Design'
     avatar: '/images/niel-liesmons-avatar.png'
     npub: 'npub149p5act9a5qm9p47elp8w8h3wpwn2d7s2xecw2ygnrxqp4wgsklq9g722q'
     noteid: 'nevent1qqstxektwr80ms5ly4muf920a0qd0hs4rx43cn46v8mdrzj7zlulgcszyz55xnhpvhksrv5xhm8uyac779c96dfh6pgm8peg3zvvcqx4ezzmuu9d9wy'
     content: 'Back on the farm after an incredible week of Sovereign Engineering.'
-
-  - name: 'Derek Ross'
-    designation: 'Grow Nostr Initiative'
-    avatar: '/images/derek-ross-avatar.jpg'
-    npub: 'npub18ams6ewn5aj2n3wt2qawzglx9mr4nzksxhvrdc4gzrecw7n5tvjqctp424'
-    noteid: 'nevent1qqsg62knm8jfuww9thn2ja9cfnwd33ns8jpn0wsqy5fje03lwf5sepqzyqlhwrt96wnkf2w9edgr4cfruchvwkv26q6asdhz4qg08pm6w3djg94576n'
-    content: 'The SEC-01 was the most exciting and bullish set of presentations at Bitcoin Atlantis. These people are building our future and will have an immense impact upon our world. I look forward to seeing was SEC-02 will build. Plus, Madeira is incredibly beautiful.'
-
-  - name: 'dr. calle'
-    designation: 'Cashu'
-    avatar: '/images/dr-calle-github-avatar.png'
-    npub: 'npub12rv5lskctqxxs2c8rf2zlzc7xx3qpvzs3w4etgemauy9thegr43sf485vg'
-    noteid: 'nevent1qqs0nfs9hjq56gnt9vnww8wxtp6cplw72k8us0amsqfw9mffq50mt3gzypgdjn7zmpvqc6ptqud9gtutrcc6yq9s2z96h9dr80hss4wl9qwkxr4qlle'
-    content: 'been there twice. it was epic.'
 
   - name: 'gsovereignty'
     designation: 'Nostrovia'
@@ -92,4 +99,18 @@ testimonials:
     designation: 'Hashpool'
     avatar: '/images/vnprc-avatar.jpg'
     content: "I returned to the real world three weeks ago and I'm still fired up to ship every week. It's been a life changing experience."
+
+  - name: 'Bullsaw'
+    designation: 'Nostr community'
+    avatar: '/images/bullsaw-avatar.jpg'
+    npub: 'npub123sflyjtjek38ypq05dpxvzajekc2h86tfkjcsz5n6nsvndx465qfn2pkx'
+    noteid: 'nevent1qvzqqqqqqypzq4rqn7fyh9ndzwgzqlg6zvc9m9nds4w05knd93q9f848qex6dt4gqqsrq2fqkaqeq7ky569hn4qvhzjpxcrhhuaydegwnnd8a78gz6m4d3cfguw9u'
+    content: 'This is encouraging. You can just build things.'
+
+  - name: 'paul keating'
+    designation: 'Primal'
+    avatar: '/images/paul-keating-avatar.jpg'
+    npub: 'npub1spdnfacgsd7lk0nlqkq443tkq4jx9z6c6ksvaquuewmw7d3qltpslcq6j7'
+    noteid: 'nevent1qvzqqqqqqypzpqzmxnms3qmalvl87pvpttzhvptyv29434dqe6peejakaumzp7krqqsyrvfgkuqyndryt5faq0r6njvlktur6q56qk8fldpsyd0qgsyq4mcrjresm'
+    content: "Wish I had a crystal ball to see how much of this nerd speak will just underly how we use the internet and it'll just work and feel right"
 ---
