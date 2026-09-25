@@ -36,7 +36,6 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <div class="blog-article-meta">
             <time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time>
             {article.updatedAt > article.publishedAt + 86400 && <span>Updated {date(article.updatedAt)}</span>}
-            <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Read on Njump ↗</a>
           </div>
         </header>
         {article.image && <img class="blog-article-cover" src={blogCoverSrc(article.image, 960)} srcset={blogCoverSrcSet(article.image, [960, 1600])} sizes="(max-width: 900px) 100vw, 900px" alt="" decoding="async" />}

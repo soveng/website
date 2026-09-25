@@ -44,27 +44,29 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 
     <section class="container blog-container blog-index" aria-label="Articles">
       {featured && (
-        <article class="blog-feature">
-          {featured.image && (
-            <a href={`/blog/${featured.slug}`} class="blog-feature-image" aria-label={`Read ${featured.title}`}>
-              <img
-                src={blogCoverSrc(featured.image, 960)}
-                srcset={blogCoverSrcSet(featured.image, [960, 1600])}
-                sizes="(max-width: 700px) 100vw, (max-width: 1120px) 47vw, 530px"
-                alt=""
-                width="960"
-                height="720"
-                loading="eager"
-                decoding="async"
-              />
-            </a>
-          )}
-          <div class="blog-feature-copy">
-            <p class="blog-item-meta"><time datetime={new Date(featured.publishedAt * 1000).toISOString()}>{date(featured.publishedAt)}</time></p>
-            <h2><a href={`/blog/${featured.slug}`}>{featured.title}</a></h2>
-            {featured.summary && <p class="blog-summary">{featured.summary}</p>}
-            <a href={`/blog/${featured.slug}`} class="blog-read-link">Read article <span aria-hidden="true">→</span></a>
-          </div>
+        <article>
+          <a href={`/blog/${featured.slug}`} class="blog-feature" aria-label={`Read ${featured.title}`}>
+            {featured.image && (
+              <span class="blog-feature-image">
+                <img
+                  src={blogCoverSrc(featured.image, 960)}
+                  srcset={blogCoverSrcSet(featured.image, [960, 1600])}
+                  sizes="(max-width: 700px) 100vw, (max-width: 1120px) 47vw, 530px"
+                  alt=""
+                  width="960"
+                  height="720"
+                  loading="eager"
+                  decoding="async"
+                />
+              </span>
+            )}
+            <div class="blog-feature-copy">
+              <p class="blog-item-meta"><time datetime={new Date(featured.publishedAt * 1000).toISOString()}>{date(featured.publishedAt)}</time></p>
+              <h2>{featured.title}</h2>
+              {featured.summary && <p class="blog-summary">{featured.summary}</p>}
+              <span class="blog-read-link">Read article <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
         </article>
       )}
 
@@ -75,17 +77,19 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
       <ol class="blog-list">
         {archive.map((article) => (
           <li>
-            <article class="blog-list-item">
-              <div class="blog-list-copy">
-                <p class="blog-item-meta"><time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time></p>
-                <h3><a href={`/blog/${article.slug}`}>{article.title}</a></h3>
-                {article.summary && <p class="blog-summary">{article.summary}</p>}
-              </div>
-              {article.image && (
-                <a href={`/blog/${article.slug}`} class="blog-list-image" aria-label={`Read ${article.title}`}>
-                  <img src={blogCoverSrc(article.image, 320)} alt="" width="320" height="224" loading="lazy" decoding="async" />
-                </a>
-              )}
+            <article>
+              <a href={`/blog/${article.slug}`} class="blog-list-item" aria-label={`Read ${article.title}`}>
+                <div class="blog-list-copy">
+                  <p class="blog-item-meta"><time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time></p>
+                  <h3>{article.title}</h3>
+                  {article.summary && <p class="blog-summary">{article.summary}</p>}
+                </div>
+                {article.image && (
+                  <span class="blog-list-image">
+                    <img src={blogCoverSrc(article.image, 320)} alt="" width="320" height="224" loading="lazy" decoding="async" />
+                  </span>
+                )}
+              </a>
             </article>
           </li>
         ))}

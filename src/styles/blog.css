@@ -111,6 +111,8 @@
   gap: 3rem;
   align-items: center;
   padding-bottom: 3rem;
+  color: inherit;
+  text-decoration: none;
 }
 
 .blog-feature-image,
@@ -132,8 +134,8 @@
   transition: transform 200ms ease;
 }
 
-.blog-feature-image:hover img,
-.blog-list-image:hover img {
+.blog-feature:hover .blog-feature-image img,
+.blog-list-item:hover .blog-list-image img {
   transform: scale(1.03);
 }
 
@@ -163,19 +165,30 @@
   font-size: clamp(1.65rem, 3vw, 2.25rem);
 }
 
-.blog-feature h2 a,
-.blog-list h3 a,
 .blog-article-back a,
 .blog-article-footer a {
   color: inherit;
   text-decoration: none;
 }
 
-.blog-feature h2 a:hover,
-.blog-list h3 a:hover,
+.blog-feature:hover h2,
+.blog-feature:focus-visible h2,
+.blog-list-item:hover h3,
+.blog-list-item:focus-visible h3,
 .blog-article-back a:hover,
 .blog-article-footer a:hover {
   color: #ed3238;
+}
+
+.blog-feature h2,
+.blog-list h3 {
+  transition: color 150ms ease;
+}
+
+.blog-feature:focus-visible,
+.blog-list-item:focus-visible {
+  outline: 2px solid #ed3238;
+  outline-offset: 2px;
 }
 
 .blog-summary {
@@ -191,11 +204,13 @@
   margin-top: 1.5rem;
   color: #f5f2ef;
   font-family: 'IM Fell Double Pica', Georgia, serif;
+  text-decoration: underline;
   text-decoration-color: #ed3238;
   text-underline-offset: 0.3rem;
 }
 
-.blog-read-link:hover {
+.blog-feature:hover .blog-read-link,
+.blog-feature:focus-visible .blog-read-link {
   color: #ed3238;
 }
 
@@ -218,14 +233,13 @@
 
 .blog-list {
   display: grid;
-  gap: 0.35rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .blog-list li {
-  margin-inline: -1rem;
+  border-bottom: 1px solid rgb(255 255 255 / 10%);
 }
 
 .blog-list-item {
@@ -234,6 +248,8 @@
   align-items: center;
   gap: 2rem;
   padding: 1.15rem 1rem;
+  color: inherit;
+  text-decoration: none;
   transition: background 150ms ease;
 }
 
@@ -461,12 +477,12 @@
 
 .blog-page a:is([href^='https://njump.me/nprofile1'], [href^='https://njump.me/npub1'])
 {
-  color: #8dc9c1;
+  color: #f1878b;
 }
 
 .blog-page a:is([href^='https://njump.me/nprofile1'], [href^='https://njump.me/npub1']):hover
 {
-  color: #c2eee6;
+  color: #ffc1c3;
 }
 
 .blog-activity-reactions,
@@ -618,6 +634,8 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .blog-feature h2,
+  .blog-list h3,
   .blog-list-item {
     transition: none;
   }
