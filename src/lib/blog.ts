@@ -91,6 +91,15 @@ const nostrReference = {
     return { type: 'nostrReference', raw: match[0], entity: match[0].slice(6) };
   },
   renderer(token: { entity: string }) {
+    try {
+      const decoded = nip19.decode(token.entity);
+      const pubkey = decoded.type === 'nprofile' ? decoded.data.pubkey : decoded.type === 'npub' ? decoded.data : undefined;
+      if (pubkey) {
+        return `<a href="https://njump.me/${token.entity}">${nip19.npubEncode(pubkey).slice(0, 12)}…</a>`;
+      }
+    } catch {
+      // Keep malformed references as shortened text.
+    }
     return `<a href="https://njump.me/${token.entity}">${token.entity.slice(0, 12)}…</a>`;
   },
 };

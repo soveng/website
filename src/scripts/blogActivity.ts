@@ -1,5 +1,7 @@
 import { nip19, SimplePool, verifyEvent, type Event } from 'nostr-tools';
 
+import { nostrProfileName } from '@/lib/nostrProfileName';
+
 const tagIs = (event: Event, name: string, value: string) => event.tags.some((tag) => tag[0] === name && tag[1] === value);
 
 const tagValue = (event: Event, name: string) => event.tags.find((tag) => tag[0] === name)?.[1];
@@ -108,7 +110,9 @@ function renderComments(section: HTMLElement, events: Event[]) {
     source.href = eventUrl(event.id);
     source.target = '_blank';
     source.rel = 'noopener noreferrer';
-    source.textContent = 'Nostr ↗';
+    source.textContent = '↗';
+    source.setAttribute('aria-label', 'Open comment in new tab');
+    source.title = 'Open comment';
     meta.append(author, date, source);
 
     const content = document.createElement('p');
@@ -203,16 +207,11 @@ export function mountBlogActivity(section: HTMLElement) {
               }
             }
             for (const [pubkey, profile] of latest) {
-              try {
-                const data = JSON.parse(profile.content) as { display_name?: unknown; name?: unknown };
-                const name = [data.display_name, data.name].find((value) => typeof value === 'string' && value.trim() && !/^[\p{P}\s]+$/u.test(value));
-                if (typeof name === 'string') {
-                  for (const link of authors.get(pubkey) ?? []) {
-                    link.textContent = name.trim().slice(0, 80);
-                  }
+              const name = nostrProfileName(profile.content);
+              if (name) {
+                for (const link of authors.get(pubkey) ?? []) {
+                  link.textContent = name;
                 }
-              } catch {
-                /* Ignore malformed profile metadata. */
               }
             }
           } catch {

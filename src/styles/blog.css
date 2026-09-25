@@ -401,7 +401,7 @@
 }
 
 .blog-activity-heading h2 {
-  margin: 0.25rem 0 0;
+  margin: 0;
   font-size: clamp(2rem, 4vw, 2.75rem);
   line-height: 1.1;
   text-transform: none;
@@ -443,16 +443,13 @@
 .blog-reaction-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.65rem;
+  gap: 0.35rem 1.25rem;
 }
 
 .blog-reaction-chip {
-  padding: 0.45rem 0.8rem;
-  border: 1px solid #555;
-  border-radius: 2rem;
-  background: #161616;
   color: #eee;
   font-size: 0.95rem;
+  line-height: 1.5;
 }
 
 .blog-comment-list,
@@ -463,12 +460,10 @@
 }
 
 .blog-comment-list > .blog-comment + .blog-comment {
-  margin-top: 0.75rem;
+  margin-top: 2rem;
 }
 
 .blog-comment {
-  padding: 1.15rem 1.3rem;
-  background: #161616;
   overflow-wrap: anywhere;
 }
 
@@ -489,21 +484,20 @@
 }
 
 .blog-comment-content {
-  margin: 0.7rem 0 0;
+  margin: 0.45rem 0 0;
   color: #e5e0dd;
   white-space: pre-wrap;
   line-height: 1.55;
 }
 
 .blog-comment-replies {
-  margin: 1.15rem 0 0 0.35rem;
+  margin: 1rem 0 0 0.35rem;
   padding-left: 1rem;
-  border-left: 2px solid #72282b;
+  border-left: 1px solid #72282b;
 }
 
-.blog-comment-replies > .blog-comment {
-  padding: 0.4rem 0 0.4rem 0.6rem;
-  background: transparent;
+.blog-comment-replies > .blog-comment + .blog-comment {
+  margin-top: 1rem;
 }
 
 .blog-activity-note {
@@ -564,9 +558,6 @@
     align-items: start;
     flex-direction: column;
     gap: 0.8rem;
-  }
-  .blog-comment {
-    padding: 1rem;
   }
 }
 
