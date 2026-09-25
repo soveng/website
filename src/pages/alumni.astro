@@ -113,7 +113,8 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
           <img src="/images/contest/separator-ship.png" alt="" width="2172" height="724" loading="lazy" decoding="async" />
         </figure>
         <section class="alumni-podcast" aria-labelledby="alumni-podcast-title">
-          <h2 id="alumni-podcast-title">No Solutions</h2>
+          <p class="alumni-podcast-eyebrow">No Solutions</p>
+          <h2 id="alumni-podcast-title">Alumni Dialogues</h2>
           <p>Listen to recorded dialogues with Gigi and Sovereign Engineering alumni on the No Solutions podcast.</p>
           <a href="/podcast" class="btn-retro">Listen to No Solutions</a>
         </section>
@@ -159,7 +160,7 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
   }
 
   .alumni-podcast h2 {
-    margin: 0;
+    margin: 0.75rem 0 0;
     color: #fff;
     font-family: var(--font-secondary);
     font-size: 2.25rem;
@@ -168,7 +169,16 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     text-transform: none;
   }
 
-  .alumni-podcast p {
+  .alumni-podcast-eyebrow {
+    margin: 0;
+    color: #ed3238;
+    font-family: 'IM Fell Double Pica', Georgia, serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+  }
+
+  .alumni-podcast > p:not(.alumni-podcast-eyebrow) {
     margin: 0.75rem 0 0;
     color: #d1d5db;
     font-size: 1.125rem;
