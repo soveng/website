@@ -6,11 +6,11 @@ import '@/styles/blog.css';
 
 export async function getStaticPaths() {
   const articles = await getBlogArticles();
-  return articles.map((article) => ({ params: { slug: article.slug }, props: { article } }));
+  return articles.map((article, index) => ({ params: { slug: article.slug }, props: { article, previousArticle: articles[index + 1] } }));
 }
 
-interface Props { article: BlogArticle }
-const { article } = Astro.props;
+interface Props { article: BlogArticle; previousArticle?: BlogArticle }
+const { article, previousArticle } = Astro.props;
 const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
   year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
 }).format(timestamp * 1000);
@@ -36,7 +36,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
           <div class="blog-article-meta">
             <time datetime={new Date(article.publishedAt * 1000).toISOString()}>{date(article.publishedAt)}</time>
             {article.updatedAt > article.publishedAt + 86400 && <span>Updated {date(article.updatedAt)}</span>}
-            <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">View original ↗</a>
+            <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Read on Njump ↗</a>
           </div>
         </header>
         {article.image && <img class="blog-article-cover" src={blogCoverSrc(article.image, 960)} srcset={blogCoverSrcSet(article.image, [960, 1600])} sizes="(max-width: 900px) 100vw, 900px" alt="" decoding="async" />}
@@ -71,7 +71,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
       </section>
       <footer class="blog-article-footer">
         <a href="/blog">← other articles</a>
-        <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">Read original ↗</a>
+        {previousArticle && <a href={`/blog/${previousArticle.slug}`} aria-label={`Previous article: ${previousArticle.title}`}>Prev Article ←</a>}
       </footer>
     </div>
   </div>
