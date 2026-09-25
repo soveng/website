@@ -13,7 +13,7 @@ const { testimonial } = Astro.props;
             <h2 set:html={markdownify(testimonial.data.title)} class="mb-4" />
             <p set:html={markdownify(testimonial.data.description)} />
           </div>
-          <div class="col-12">
+          <div class="relative col-12">
             <div class="swiper testimonial-slider">
               <div class="swiper-wrapper">
                 {testimonial.data.testimonials.map(
@@ -96,6 +96,24 @@ const { testimonial } = Astro.props;
               </div>
               <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center" />
             </div>
+            <button
+              type="button"
+              class="testimonial-slider-prev testimonial-nav left-2"
+              aria-label="Previous review"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="h-6 w-6">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <button
+              type="button"
+              class="testimonial-slider-next testimonial-nav right-2"
+              aria-label="Next review"
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="h-6 w-6">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -107,12 +125,12 @@ const { testimonial } = Astro.props;
   import { Swiper } from "swiper";
   import "swiper/css";
   import "swiper/css/pagination";
-  import { Autoplay, Pagination } from "swiper/modules";
+  import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
   // astro:page-load event is fired when the page is loaded
   document.addEventListener("astro:page-load", () => {
     new Swiper(".testimonial-slider", {
-      modules: [Pagination, Autoplay],
+      modules: [Pagination, Autoplay, Navigation],
       spaceBetween: 24,
       loop: true,
       centeredSlides: true,
@@ -124,6 +142,10 @@ const { testimonial } = Astro.props;
         el: ".testimonial-slider-pagination",
         type: "bullets",
         clickable: true,
+      },
+      navigation: {
+        prevEl: ".testimonial-slider-prev",
+        nextEl: ".testimonial-slider-next",
       },
       breakpoints: {
         768: {
@@ -138,6 +160,43 @@ const { testimonial } = Astro.props;
 </script>
 
 <style>
+
+  .testimonial-slider {
+    margin-inline: 3rem;
+  }
+
+  .testimonial-nav {
+    position: absolute;
+    top: min(50%, 10rem);
+    z-index: 10;
+    display: flex;
+    width: 2.75rem;
+    height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+    border: 1px solid rgb(255 255 255 / 80%);
+    border-radius: 50%;
+    background: rgb(255 255 255 / 65%);
+    box-shadow: 0 2px 12px rgb(0 0 0 / 14%);
+    color: white;
+    cursor: pointer;
+    transition: color 150ms ease, background-color 150ms ease;
+  }
+
+  .testimonial-nav svg {
+    filter: drop-shadow(0 1px 2px rgb(0 0 0 / 60%));
+  }
+
+  .testimonial-nav:hover {
+    background: rgb(255 255 255 / 78%);
+    color: var(--color-primary, #ed3238);
+  }
+
+  .testimonial-nav:focus-visible {
+    outline: 2px solid var(--color-primary, #ed3238);
+    outline-offset: 2px;
+  }
 
   .testimonial-card {
     width: 100%;
