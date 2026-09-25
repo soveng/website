@@ -17,7 +17,7 @@ assert.match(
 );
 assert.match(
   page,
-  /class="[^"]*btn-retro[^"]*"[\s\S]*Nostr follow list/,
+  /class="[^"]*btn-retro[^"]*"[\s\S]*Follow alumni on Nostr/,
   'source link should sit under hero copy with the shared retro button style'
 );
 assert.match(page, /getAlumniProfileViewModel/, 'alumni route should render safe profile view models');
