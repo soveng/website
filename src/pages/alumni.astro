@@ -169,7 +169,7 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
 
   .alumni-alphabet {
     align-items: baseline;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: 0.5rem 1rem;
     margin-bottom: 1.5rem;
@@ -240,6 +240,10 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
   }
 
   @media (min-width: 720px) {
+    .alumni-alphabet {
+      display: flex;
+    }
+
     .alumni-card-group {
       grid-auto-rows: minmax(15rem, 1fr);
       grid-template-columns: repeat(2, minmax(0, 1fr));
