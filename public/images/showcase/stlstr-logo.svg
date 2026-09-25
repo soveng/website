@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="STLstr 3D printer logo">
+  <rect width="64" height="64" rx="14" fill="#7c3aed"/>
+  <path fill="#fff" d="M16 16h32a3 3 0 0 1 3 3v7H13v-7a3 3 0 0 1 3-3m1 4v2h30v-2zm5 10h20v5H22zm-5 0h5v19h-5zm25 0h5v19h-5z"/>
+  <path fill="#fff" d="M29 34h6a3 3 0 0 1 3 3v3H26v-3a3 3 0 0 1 3-3m3 13-6-7h12zm-13 2h26a4 4 0 0 1 4 4v3H15v-3a4 4 0 0 1 4-4"/>
+</svg>

@@ -140,7 +140,7 @@ const projectHighlights: ProjectHighlight[] = [
     externalUrl: externalLink(napplets),
     variant: 'standard',
     description: 'Small Nostr apps that leave signing, relays and storage to a host shell, so one app can run in many places.',
-    icon: 'puzzle-piece',
+    logo: napplets.logo,
   },
   {
     title: 'Totem',

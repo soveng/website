@@ -14,7 +14,7 @@
     "cohort": "SEC-08",
     "link": "https://napplet.run/",
     "linkText": "napplet.run",
-    "icon": "puzzle-piece",
+    "logo": "/images/showcase/napplets-logo.svg",
     "highlight": true
   },
   {
@@ -41,7 +41,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/marmot-protocol/whitenoise-android",
     "linkText": "White Noise Android",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/white-noise-logo.png",
     "highlight": false,
     "extraLinks": [{ "link": "https://github.com/marmot-protocol/mdk/tree/codex/fips-relay-transport-spike", "linkText": "MDK transport spike" }]
   },
@@ -87,7 +87,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/erskingardner/fips-mac",
     "linkText": "github.com/erskingardner/fips-mac",
-    "logo": "/images/showcase/fips-logo.png",
+    "logo": "/images/showcase/fips-mac-logo.svg",
     "highlight": false,
     "extraLinks": [{ "link": "https://github.com/erskingardner/fips-mac/pull/1", "linkText": "Peer policy PR" }]
   },
@@ -97,7 +97,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/hzrd149/nostr-relay-tray/tree/fips-integration",
     "linkText": "Relay tray FIPS branch",
-    "logo": "/images/showcase/fips-logo.png",
+    "logo": "/images/showcase/nostr-relay-tray-logo.png",
     "highlight": false
   },
   {
@@ -142,7 +142,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/CruxCoach/CruxCoach",
     "linkText": "github.com/CruxCoach/CruxCoach",
-    "logo": "/images/showcase/fips-logo.png",
+    "logo": "/images/showcase/cruxcoach-logo.svg",
     "highlight": false
   },
   {
@@ -160,7 +160,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/jodobear/uzel",
     "linkText": "github.com/jodobear/uzel",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/uzel-logo.svg",
     "highlight": false
   },
   {
@@ -178,7 +178,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/hzrd149/napplet-portal",
     "linkText": "github.com/hzrd149/napplet-portal",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/napplet-portal-logo.svg",
     "highlight": false
   },
   {
@@ -214,7 +214,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/Origami74/myco",
     "linkText": "github.com/Origami74/myco",
-    "logo": "/images/showcase/fips-logo.png",
+    "logo": "/images/showcase/myco-logo.webp",
     "highlight": false,
     "extraLinks": [
       { "link": "https://github.com/Origami74/myco/pull/34", "linkText": "File sharing PR" },
@@ -254,7 +254,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/hzrd149/stlstr",
     "linkText": "github.com/hzrd149/stlstr",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/stlstr-logo.svg",
     "highlight": false
   },
   {
@@ -371,7 +371,7 @@
     "cohort": "SEC-08",
     "link": "https://justworks.cash",
     "linkText": "justworks.cash",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/just-works-logo.svg",
     "highlight": false
   },
   {
@@ -380,7 +380,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/gzuuus/keys.justworks",
     "linkText": "github.com/gzuuus/keys.justworks",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/keys-justworks-logo.png",
     "highlight": false
   },
   {
@@ -407,7 +407,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/BIMbeamFLX/600BillionTimelockTCG",
     "linkText": "github.com/BIMbeamFLX/600BillionTimelockTCG",
-    "logo": "/images/showcase/cashu-logo.png",
+    "logo": "/images/showcase/600-billion-timelock-logo.png",
     "highlight": false,
     "extraLinks": [{ "link": "https://nappelin.com", "linkText": "Nappelin" }]
   },
@@ -435,7 +435,7 @@
     "cohort": "SEC-08",
     "link": "https://net4sats.cash/",
     "linkText": "net4sats.cash",
-    "logo": "/images/showcase/tollgate-logo.webp",
+    "logo": "/images/showcase/net4sats-logo.png",
     "highlight": false,
     "extraLinks": [{ "link": "https://github.com/net4sats/tollgate-captive-portal-site", "linkText": "Captive portal source" }]
   },
@@ -445,7 +445,7 @@
     "cohort": "SEC-08",
     "link": "https://dev.nostrolo.gy/data",
     "linkText": "Nostrology data",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/nostrology-logo.png",
     "highlight": false
   },
   {
@@ -472,7 +472,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/jurraca/mist",
     "linkText": "github.com/jurraca/mist",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/mist-logo.svg",
     "highlight": false
   },
   {
@@ -499,7 +499,7 @@
     "cohort": "SEC-08",
     "link": "https://fips.email",
     "linkText": "fips.email",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/fips-email-logo.png",
     "highlight": false
   },
   {
@@ -517,7 +517,7 @@
     "cohort": "SEC-08",
     "link": "https://github.com/gsovereignty/demoday",
     "linkText": "github.com/gsovereignty/demoday",
-    "logo": "/images/showcase/nostr-logo.png",
+    "logo": "/images/showcase/demo-day-command-center-logo.svg",
     "highlight": false
   },
   {
