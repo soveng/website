@@ -79,7 +79,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
               <p class="blog-item-meta"><time datetime={new Date(featured.publishedAt * 1000).toISOString()}>{date(featured.publishedAt)}</time></p>
               <h2>{featured.title}</h2>
               {featured.summary && <p class="blog-summary">{featured.summary}</p>}
-              <span class="btn btn-primary mt-6">Read article <span aria-hidden="true">→</span></span>
+              <span class="btn-retro inline-block mt-6">Read article <span aria-hidden="true">→</span></span>
             </div>
           </a>
         </article>
