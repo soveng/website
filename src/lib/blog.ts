@@ -111,7 +111,7 @@ export function renderBlogMarkdown(content: string): string {
     allowedTags: [...sanitizeHtml.defaults.allowedTags, 'img'],
     allowedAttributes: {
       a: ['href', 'title', 'rel'],
-      img: ['src', 'alt', 'title'],
+      img: ['src', 'alt', 'title', 'loading', 'decoding'],
       code: ['class'],
     },
     allowedSchemes: ['http', 'https', 'mailto'],
@@ -120,6 +120,10 @@ export function renderBlogMarkdown(content: string): string {
         const href = attributes.href?.replace(/^nostr:/i, 'https://njump.me/');
         return { tagName: 'a', attribs: { ...attributes, href, rel: 'noopener noreferrer' } };
       },
+      img: (_name, attributes) => ({
+        tagName: 'img',
+        attribs: { ...attributes, loading: 'lazy', decoding: 'async' },
+      }),
     },
   });
 }

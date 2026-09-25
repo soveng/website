@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro';
 import { getBlogArticles } from '@/lib/blog';
+import { blogCoverSrc, blogCoverSrcSet } from '@/lib/blogImages';
 import '@/styles/blog.css';
 
 const articles = await getBlogArticles();
@@ -24,16 +25,19 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         <div class="blog-hero-copy">
           <p class="blog-eyebrow">The Sovereign Engineering Blog</p>
           <h1>Dispatches</h1>
-          <p>Notes from the frontier of freedom tech.</p>
+          <p class="blog-hero-subtitle">Notes from the frontier of freedom tech.</p>
+          <p class="blog-hero-note">We write down the work so others can take it further.</p>
+          <a class="blog-rss-link" href="/blog/rss.xml" type="application/rss+xml">RSS <i class="fa-solid fa-rss" aria-hidden="true"></i></a>
         </div>
         <div class="blog-hero-visual">
           <img
-            src="/images/shining-city-in-cyberspace.png"
+            src="/images/shining-city-in-cyberspace.webp"
             alt="A figure looking toward a glowing city"
             width="640"
             height="576"
             loading="eager"
             decoding="async"
+            fetchpriority="high"
           />
         </div>
       </div>
@@ -44,7 +48,16 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
         <article class="blog-feature">
           {featured.image && (
             <a href={`/blog/${featured.slug}`} class="blog-feature-image" aria-label={`Read ${featured.title}`}>
-              <img src={featured.image} alt="" loading="eager" decoding="async" />
+              <img
+                src={blogCoverSrc(featured.image, 960)}
+                srcset={blogCoverSrcSet(featured.image, [960, 1600])}
+                sizes="(max-width: 700px) 100vw, (max-width: 1120px) 47vw, 530px"
+                alt=""
+                width="960"
+                height="720"
+                loading="eager"
+                decoding="async"
+              />
             </a>
           )}
           <div class="blog-feature-copy">
@@ -58,10 +71,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
 
       <div class="blog-list-heading">
         <h2>other articles</h2>
-        <div class="blog-list-tools">
-          <span>{archive.length} articles</span>
-          <a href="/blog/rss.xml" type="application/rss+xml">Subscribe via RSS</a>
-        </div>
+        <span>{archive.length} articles</span>
       </div>
       <ol class="blog-list">
         {archive.map((article) => (
@@ -74,7 +84,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
               </div>
               {article.image && (
                 <a href={`/blog/${article.slug}`} class="blog-list-image" aria-label={`Read ${article.title}`}>
-                  <img src={article.image} alt="" loading="lazy" decoding="async" />
+                  <img src={blogCoverSrc(article.image, 320)} alt="" width="320" height="224" loading="lazy" decoding="async" />
                 </a>
               )}
             </article>

@@ -1,6 +1,7 @@
 ---
 import Base from '@/layouts/Base.astro';
 import { getBlogArticles, type BlogArticle } from '@/lib/blog';
+import { blogCoverSrc, blogCoverSrcSet } from '@/lib/blogImages';
 import '@/styles/blog.css';
 
 export async function getStaticPaths() {
@@ -38,7 +39,7 @@ const date = (timestamp: number) => new Intl.DateTimeFormat('en', {
             <a href={article.nostrUrl} target="_blank" rel="noopener noreferrer">View on Nostr ↗</a>
           </div>
         </header>
-        {article.image && <img class="blog-article-cover" src={article.image} alt="" decoding="async" />}
+        {article.image && <img class="blog-article-cover" src={blogCoverSrc(article.image, 960)} srcset={blogCoverSrcSet(article.image, [960, 1600])} sizes="(max-width: 900px) 100vw, 900px" alt="" decoding="async" />}
         <div class="blog-article-content" set:html={article.html} />
       </article>
       <footer class="blog-article-footer">
