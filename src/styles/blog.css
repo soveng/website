@@ -548,17 +548,10 @@
 
 @media (max-width: 700px) {
   .blog-hero {
-    padding-top: 5.5rem;
-  }
-  .blog-hero-grid {
-    grid-template-columns: 1fr;
-    gap: 2.5rem;
-  }
-  .blog-hero-visual {
-    aspect-ratio: 4 / 3;
+    display: none;
   }
   .blog-index {
-    padding-top: 3rem;
+    padding-top: 5.5rem;
   }
   .blog-feature {
     grid-template-columns: 1fr;
@@ -583,7 +576,7 @@
 }
 
 @media (max-width: 360px) {
-  .blog-hero {
+  .blog-index {
     padding-top: 7.5rem;
   }
   .blog-article-page .blog-container {
