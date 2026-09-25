@@ -23,6 +23,7 @@ const cards = alumni.map((profile, index) => {
   }
   return { ...profile, index, initial };
 });
+const availableInitials = alphabet.filter((initial) => firstIndexByInitial.has(initial));
 const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, index) => cards.slice(index * 4, index * 4 + 4));
 ---
 
@@ -56,11 +57,9 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
       <div class="container max-w-[1120px]">
         <nav class="alumni-alphabet" aria-label="Jump to alumni by first letter">
           <div class="alumni-alphabet-letters">
-            {alphabet.map((initial) => (firstIndexByInitial.has(initial) ? (
+            {availableInitials.map((initial) => (
               <a class="alumni-alphabet-link" href={`#alumni-${initial === '#' ? 'other' : initial.toLowerCase()}`} aria-label={initial === '#' ? 'Jump to other names' : `Jump to names starting with ${initial}`}>{initial}</a>
-            ) : (
-              <span class="alumni-alphabet-missing" aria-hidden="true">{initial}</span>
-            )))}
+            ))}
           </div>
         </nav>
         <div class="alumni-grid" aria-label="Sovereign Engineering alumni profiles">
@@ -223,8 +222,7 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
     gap: 0.2rem;
   }
 
-  .alumni-alphabet-link,
-  .alumni-alphabet-missing {
+  .alumni-alphabet-link {
     align-items: center;
     display: inline-flex;
     font-size: 0.9rem;
@@ -247,10 +245,6 @@ const alumniGroups = Array.from({ length: Math.ceil(cards.length / 4) }, (_, ind
   .alumni-alphabet-link:focus-visible {
     outline: 2px solid var(--color-primary);
     outline-offset: 2px;
-  }
-
-  .alumni-alphabet-missing {
-    color: rgb(255 255 255 / 24%);
   }
 
   .alumni-grid {
