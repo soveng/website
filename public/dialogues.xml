@@ -39,8 +39,8 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Thu, 08 Oct 2026 20:48:30 +0000</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 20:48:30 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 20:51:30 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:51:30 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -65,7 +65,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how <a href="https://pi.dev/">Pi</a> fits into the agent-harness side of gzuuus&#39;s workflow</li>
 <li>why human judgment, taste, and discernment matter more when output becomes cheap</li>
 <li>what happens when people start talking to other humans as if they were LLMs</li>
-<li>how diaries, <a href="https://github.com/dergigi/vibeline">voice memos</a>, agents, and memory systems blur the line between human thought and machine interface</li>
+<li>how diaries, <a href="https://github.com/dergigi/vibeline">voice memos</a>, <a href="https://paseo.sh/">Paseo</a>, agents, and memory systems blur the line between human thought and machine interface</li>
 <li>why <a href="https://johnvervaeke.com/">John Vervaeke</a> keeps coming back whenever dialogue, participatory knowing, and distributed cognition enter the frame</li>
 <li>how <a href="https://github.com/totemize/totem/">Totem</a>, offline notes, and peer-to-peer sharing lead into the Cordn conversation</li>
 <li>how the <a href="https://nostroffice.nobios.ai/">Nostr Office</a> is becoming the home for the Madeira maker space</li>
@@ -99,6 +99,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://contextvm.org/">ContextVM</a></li>
 <li><a href="https://nostroffice.nobios.ai/">Nostr Office</a></li>
 <li><a href="https://github.com/dergigi/vibeline">Vibeline</a></li>
+<li><a href="https://paseo.sh/">Paseo</a></li>
 <li><a href="https://pi.dev/">Pi</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted execution environment</a></li>
 <li><a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a></li>
@@ -135,7 +136,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr office, maker space, vibeline, pi, agent harness, nostr, mcp, agents, cashu, sovereign engineering</itunes:keywords>
+      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr office, maker space, vibeline, paseo, pi, agent harness, nostr, mcp, agents, cashu, sovereign engineering</itunes:keywords>
       <itunes:summary><![CDATA[<p>&quot;The future is very bright if we want it to be.&quot;</p>
 <p><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
 <p><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">Listen on sovereignengineering.io</a></p>
@@ -156,7 +157,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how <a href="https://pi.dev/">Pi</a> fits into the agent-harness side of gzuuus&#39;s workflow</li>
 <li>why human judgment, taste, and discernment matter more when output becomes cheap</li>
 <li>what happens when people start talking to other humans as if they were LLMs</li>
-<li>how diaries, <a href="https://github.com/dergigi/vibeline">voice memos</a>, agents, and memory systems blur the line between human thought and machine interface</li>
+<li>how diaries, <a href="https://github.com/dergigi/vibeline">voice memos</a>, <a href="https://paseo.sh/">Paseo</a>, agents, and memory systems blur the line between human thought and machine interface</li>
 <li>why <a href="https://johnvervaeke.com/">John Vervaeke</a> keeps coming back whenever dialogue, participatory knowing, and distributed cognition enter the frame</li>
 <li>how <a href="https://github.com/totemize/totem/">Totem</a>, offline notes, and peer-to-peer sharing lead into the Cordn conversation</li>
 <li>how the <a href="https://nostroffice.nobios.ai/">Nostr Office</a> is becoming the home for the Madeira maker space</li>
@@ -190,6 +191,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://contextvm.org/">ContextVM</a></li>
 <li><a href="https://nostroffice.nobios.ai/">Nostr Office</a></li>
 <li><a href="https://github.com/dergigi/vibeline">Vibeline</a></li>
+<li><a href="https://paseo.sh/">Paseo</a></li>
 <li><a href="https://pi.dev/">Pi</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted execution environment</a></li>
 <li><a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a></li>
