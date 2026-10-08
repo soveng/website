@@ -39,8 +39,8 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Thu, 08 Oct 2026 17:53:27 +0000</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 17:53:27 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 20:34:00 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:34:00 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -51,7 +51,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>This dialogue starts with the hardware roots of confidential compute. Gzuuus walks through <a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">trusted execution environments</a>, remote attestation, the jump from <a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a> to <a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a>, and why the trust boundary changes when memory, secrets, and workloads can be encrypted while they are in use.</p>
 <p>The practical edge is <a href="https://enclava.dev/">Enclava</a>, a confidential applications platform for running containers inside hardware-isolated TEEs. The trade-off is familiar: less trust in the cloud operator, more trust in silicon vendors, attestation flows, measurements, and the operational discipline around the thing you are actually running. Nothing is free, but the shape of the trust changes.</p>
 <p>From there the walk opens into agents, private inference, Cashu mints, encrypted compute, and the uneasy question of what humans still do when machines can produce, review, route, and operate so much of the stack. The answer is to keep taste, judgment, dialogue, and responsibility in the loop.</p>
-<p>The last stretch turns toward <a href="https://cordn.net/">Cordn</a> and <a href="https://contextvm.org/">ContextVM</a>: private group messaging, MCP over Nostr, self-hostable coordinators, encrypted traffic over relays, and infrastructure that can move without needing domains, OAuth, static IPs, or permission. It closes where many of these walks close: freedom tech only matters if people actively build and use it.</p>
+<p>The last stretch turns toward <a href="https://cordn.net/">Cordn</a> and <a href="https://contextvm.org/">ContextVM</a>: private group messaging, MCP over Nostr, self-hostable coordinators, encrypted traffic over relays, and infrastructure that can move without needing domains, OAuth, static IPs, or permission. It also passes through the <a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmwdaehgu3wdau8gu3wv3jhvtcqypgp4872z3qnaulawyxrut4z3mgpggtxl0pfpr555gtwq2a0ejkmg2t2293">Nostr Office</a>, the future home for the Madeira maker space where hardware experiments, Totem, and local builds can keep compounding after the cohort. It closes where many of these walks close: freedom tech only matters if people actively build and use it.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>why <a href="https://primal.net/soveng/sec-08-yolo">SEC-08</a> made confidential compute feel suddenly practical</li>
@@ -67,6 +67,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how diaries, voice memos, agents, and memory systems blur the line between human thought and machine interface</li>
 <li>why <a href="https://johnvervaeke.com/">John Vervaeke</a> keeps coming back whenever dialogue, participatory knowing, and distributed cognition enter the frame</li>
 <li>how <a href="https://github.com/totemize/totem/">Totem</a>, offline notes, and peer-to-peer sharing lead into the Cordn conversation</li>
+<li>how the <a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmwdaehgu3wdau8gu3wv3jhvtcqypgp4872z3qnaulawyxrut4z3mgpggtxl0pfpr555gtwq2a0ejkmg2t2293">Nostr Office</a> is becoming the home for the Madeira maker space</li>
 <li>what <a href="https://cordn.net/">Cordn</a> does for private group messaging and self-hostable coordinators</li>
 <li>why <a href="https://contextvm.org/">ContextVM</a> makes MCP services addressable over Nostr instead of domains and accounts</li>
 <li>how <a href="https://amethyst.social/">Amethyst</a>, <a href="https://www.whitenoise.chat/">White Noise</a>, <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://github.com/sledtools/pika">Pika</a>, and <a href="https://nips.nostr.com/29">NIP-29</a> show different group messaging trade-offs</li>
@@ -95,6 +96,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://enclava.dev/">Enclava</a></li>
 <li><a href="https://cordn.net/">Cordn</a></li>
 <li><a href="https://contextvm.org/">ContextVM</a></li>
+<li><a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmwdaehgu3wdau8gu3wv3jhvtcqypgp4872z3qnaulawyxrut4z3mgpggtxl0pfpr555gtwq2a0ejkmg2t2293">Nostr Office</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted execution environment</a></li>
 <li><a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a></li>
 <li><a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a></li>
@@ -130,14 +132,14 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr, mcp, agents, cashu, sovereign engineering</itunes:keywords>
+      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr office, maker space, nostr, mcp, agents, cashu, sovereign engineering</itunes:keywords>
       <itunes:summary><![CDATA[<p>&quot;The future is very bright if we want it to be.&quot;</p>
 <p><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
 <p><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">Listen on sovereignengineering.io</a></p>
 <p>This dialogue starts with the hardware roots of confidential compute. Gzuuus walks through <a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">trusted execution environments</a>, remote attestation, the jump from <a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a> to <a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a>, and why the trust boundary changes when memory, secrets, and workloads can be encrypted while they are in use.</p>
 <p>The practical edge is <a href="https://enclava.dev/">Enclava</a>, a confidential applications platform for running containers inside hardware-isolated TEEs. The trade-off is familiar: less trust in the cloud operator, more trust in silicon vendors, attestation flows, measurements, and the operational discipline around the thing you are actually running. Nothing is free, but the shape of the trust changes.</p>
 <p>From there the walk opens into agents, private inference, Cashu mints, encrypted compute, and the uneasy question of what humans still do when machines can produce, review, route, and operate so much of the stack. The answer is to keep taste, judgment, dialogue, and responsibility in the loop.</p>
-<p>The last stretch turns toward <a href="https://cordn.net/">Cordn</a> and <a href="https://contextvm.org/">ContextVM</a>: private group messaging, MCP over Nostr, self-hostable coordinators, encrypted traffic over relays, and infrastructure that can move without needing domains, OAuth, static IPs, or permission. It closes where many of these walks close: freedom tech only matters if people actively build and use it.</p>
+<p>The last stretch turns toward <a href="https://cordn.net/">Cordn</a> and <a href="https://contextvm.org/">ContextVM</a>: private group messaging, MCP over Nostr, self-hostable coordinators, encrypted traffic over relays, and infrastructure that can move without needing domains, OAuth, static IPs, or permission. It also passes through the <a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmwdaehgu3wdau8gu3wv3jhvtcqypgp4872z3qnaulawyxrut4z3mgpggtxl0pfpr555gtwq2a0ejkmg2t2293">Nostr Office</a>, the future home for the Madeira maker space where hardware experiments, Totem, and local builds can keep compounding after the cohort. It closes where many of these walks close: freedom tech only matters if people actively build and use it.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>why <a href="https://primal.net/soveng/sec-08-yolo">SEC-08</a> made confidential compute feel suddenly practical</li>
@@ -153,6 +155,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how diaries, voice memos, agents, and memory systems blur the line between human thought and machine interface</li>
 <li>why <a href="https://johnvervaeke.com/">John Vervaeke</a> keeps coming back whenever dialogue, participatory knowing, and distributed cognition enter the frame</li>
 <li>how <a href="https://github.com/totemize/totem/">Totem</a>, offline notes, and peer-to-peer sharing lead into the Cordn conversation</li>
+<li>how the <a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmwdaehgu3wdau8gu3wv3jhvtcqypgp4872z3qnaulawyxrut4z3mgpggtxl0pfpr555gtwq2a0ejkmg2t2293">Nostr Office</a> is becoming the home for the Madeira maker space</li>
 <li>what <a href="https://cordn.net/">Cordn</a> does for private group messaging and self-hostable coordinators</li>
 <li>why <a href="https://contextvm.org/">ContextVM</a> makes MCP services addressable over Nostr instead of domains and accounts</li>
 <li>how <a href="https://amethyst.social/">Amethyst</a>, <a href="https://www.whitenoise.chat/">White Noise</a>, <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://github.com/sledtools/pika">Pika</a>, and <a href="https://nips.nostr.com/29">NIP-29</a> show different group messaging trade-offs</li>
@@ -181,6 +184,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://enclava.dev/">Enclava</a></li>
 <li><a href="https://cordn.net/">Cordn</a></li>
 <li><a href="https://contextvm.org/">ContextVM</a></li>
+<li><a href="https://njump.to/nevent1qvzqqqqqqypzpq7enxs5scju854msxd0xpjvpa4p94763rmgktrfyg0n5arpw8geqy88wumn8ghj7mn0wvhxcmmv9uq32amnwvaz7tmwdaehgu3wdau8gu3wv3jhvtcqypgp4872z3qnaulawyxrut4z3mgpggtxl0pfpr555gtwq2a0ejkmg2t2293">Nostr Office</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted execution environment</a></li>
 <li><a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a></li>
 <li><a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a></li>
