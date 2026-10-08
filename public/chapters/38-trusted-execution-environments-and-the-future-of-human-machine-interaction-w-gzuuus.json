@@ -1,0 +1,115 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "38: Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 38, Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus.",
+  "fileName": "38 - Trusted Execution Environments and the Future of Human-Machine Interaction.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "endTime": 68,
+      "title": "Walking Setup"
+    },
+    {
+      "startTime": 68,
+      "endTime": 215,
+      "title": "Confidential Compute",
+      "url": "https://en.wikipedia.org/wiki/Trusted_execution_environment"
+    },
+    {
+      "startTime": 215,
+      "endTime": 490,
+      "title": "SGX to SEV",
+      "url": "https://www.amd.com/en/developer/sev.html"
+    },
+    {
+      "startTime": 490,
+      "endTime": 770,
+      "title": "Enclava",
+      "url": "https://enclava.dev/"
+    },
+    {
+      "startTime": 770,
+      "endTime": 1110,
+      "title": "Attestation Layers"
+    },
+    {
+      "startTime": 1110,
+      "endTime": 1470,
+      "title": "Cashu Mints",
+      "url": "https://cashu.space/"
+    },
+    {
+      "startTime": 1470,
+      "endTime": 1860,
+      "title": "Private Inference",
+      "url": "https://routstr.com/"
+    },
+    {
+      "startTime": 1860,
+      "endTime": 2410,
+      "title": "Agents and Grants",
+      "url": "https://opensats.org/"
+    },
+    {
+      "startTime": 2410,
+      "endTime": 3060,
+      "title": "TEE Trade-Offs"
+    },
+    {
+      "startTime": 3060,
+      "endTime": 3710,
+      "title": "Taste and Slop"
+    },
+    {
+      "startTime": 3710,
+      "endTime": 4380,
+      "title": "Machine Interfaces"
+    },
+    {
+      "startTime": 4380,
+      "endTime": 5120,
+      "title": "Human Language"
+    },
+    {
+      "startTime": 5120,
+      "endTime": 5920,
+      "title": "Shared Reality"
+    },
+    {
+      "startTime": 5920,
+      "endTime": 6760,
+      "title": "Meaning and Truth"
+    },
+    {
+      "startTime": 6760,
+      "endTime": 7500,
+      "title": "Totem",
+      "url": "https://github.com/totemize/totem/"
+    },
+    {
+      "startTime": 7500,
+      "endTime": 8090,
+      "title": "Cordn",
+      "url": "https://cordn.net/"
+    },
+    {
+      "startTime": 8090,
+      "endTime": 8470,
+      "title": "ContextVM",
+      "url": "https://contextvm.org/"
+    },
+    {
+      "startTime": 8470,
+      "endTime": 8814,
+      "title": "Future SECs",
+      "url": "https://sovereignengineering.io/"
+    },
+    {
+      "startTime": 8814,
+      "endTime": 9122,
+      "title": "Future Bright"
+    }
+  ]
+}

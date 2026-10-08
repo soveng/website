@@ -39,10 +39,167 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Wed, 09 Sep 2026 10:58:39 +0000</pubDate>
-    <lastBuildDate>Wed, 09 Sep 2026 10:58:39 +0000</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2026 17:53:27 +0000</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2026 17:53:27 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>38: Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus</title>
+      <description><![CDATA[<p>&quot;The future is very bright if we want it to be.&quot;</p>
+<p><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
+<p><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">Listen on sovereignengineering.io</a></p>
+<p>This dialogue starts with the hardware roots of confidential compute. Gzuuus walks through <a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">trusted execution environments</a>, remote attestation, the jump from <a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a> to <a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a>, and why the trust boundary changes when memory, secrets, and workloads can be encrypted while they are in use.</p>
+<p>The practical edge is <a href="https://enclava.dev/">Enclava</a>, a confidential applications platform for running containers inside hardware-isolated TEEs. The trade-off is familiar: less trust in the cloud operator, more trust in silicon vendors, attestation flows, measurements, and the operational discipline around the thing you are actually running. Nothing is free, but the shape of the trust changes.</p>
+<p>From there the walk opens into agents, OpenSats, private inference, Cashu mints, encrypted compute, and the uneasy question of what humans still do when machines can produce, review, route, and operate so much of the stack. The answer is not to pretend the machines are people. It is to keep taste, judgment, dialogue, and responsibility in the loop.</p>
+<p>The last stretch turns toward <a href="https://cordn.net/">Cordn</a> and <a href="https://contextvm.org/">ContextVM</a>: private group messaging, MCP over Nostr, self-hostable coordinators, encrypted traffic over relays, and infrastructure that can move without needing domains, OAuth, static IPs, or permission. It closes where many of these walks close: freedom tech only matters if people actively build and use it.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why <a href="https://primal.net/soveng/sec-08-yolo">SEC-08</a> made confidential compute feel suddenly practical</li>
+<li>how TEEs use hardware keys, memory encryption, measurements, and attestation</li>
+<li>why <a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a>, <a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a>, and confidential GPUs point to different trust models</li>
+<li>what <a href="https://enclava.dev/">Enclava</a> is trying to make easier for containerized confidential applications</li>
+<li>why cloud privacy still means choosing which entities and chips you are willing to trust</li>
+<li>how private inference, <a href="https://routstr.com/">Routstr</a>, <a href="https://trymaple.ai/">Maple</a>, and <a href="https://tinfoil.sh/">Tinfoil</a> sit in the same problem space</li>
+<li>why <a href="https://cashu.space/">Cashu</a> mints inside TEEs change some operator assumptions without removing every trust trade-off</li>
+<li>how <a href="https://opensats.org/">OpenSats</a> grant review changes when agents can generate huge amounts of plausible work</li>
+<li>why human judgment, taste, and discernment matter more when output becomes cheap</li>
+<li>what happens when people start talking to other humans as if they were LLMs</li>
+<li>how diaries, voice memos, agents, and memory systems blur the line between human thought and machine interface</li>
+<li>why <a href="https://johnvervaeke.com/">John Vervaeke</a> keeps coming back whenever dialogue, participatory knowing, and distributed cognition enter the frame</li>
+<li>how <a href="https://github.com/totemize/totem/">Totem</a>, offline notes, and peer-to-peer sharing lead into the Cordn conversation</li>
+<li>what <a href="https://cordn.net/">Cordn</a> does for private group messaging and self-hostable coordinators</li>
+<li>why <a href="https://contextvm.org/">ContextVM</a> makes MCP services addressable over Nostr instead of domains and accounts</li>
+<li>how <a href="https://amethyst.social/">Amethyst</a>, <a href="https://www.whitenoise.chat/">White Noise</a>, <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://github.com/sledtools/pika">Pika</a>, and <a href="https://nips.nostr.com/29">NIP-29</a> show different group messaging trade-offs</li>
+<li>why self-hosted infrastructure only works when running it gets boring enough for normal people</li>
+<li>why the future is bright only if high-agency people actively build it</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">#10: Walking with Jesus w/ gzuuus</a></li>
+<li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
+<li><a href="https://sovereignengineering.io/podcast/37-advanced-malware-w-arjen">#37: Advanced Malware w/ Arjen</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a></li>
+<li><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin Moon</a></li>
+<li><a href="https://johnvervaeke.com/">John Vervaeke</a></li>
+<li><a href="https://nakamotoinstitute.org/hal-finney/">Hal Finney</a></li>
+<li><a href="https://world.hey.com/dhh">DHH</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://enclava.dev/">Enclava</a></li>
+<li><a href="https://cordn.net/">Cordn</a></li>
+<li><a href="https://contextvm.org/">ContextVM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted execution environment</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a></li>
+<li><a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a></li>
+<li><a href="https://opensats.org/">OpenSats</a></li>
+<li><a href="https://cashu.space/">Cashu</a></li>
+<li><a href="https://routstr.com/">Routstr</a></li>
+<li><a href="https://trymaple.ai/">Maple</a></li>
+<li><a href="https://tinfoil.sh/">Tinfoil</a></li>
+<li><a href="https://amethyst.social/">Amethyst</a></li>
+<li><a href="https://www.whitenoise.chat/">White Noise</a></li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a></li>
+<li><a href="https://github.com/sledtools/pika">Pika</a></li>
+<li><a href="https://nips.nostr.com/29">NIP-29</a></li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a></li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/970462">970,462</a>.</p>]]></description>
+      <link>https://njump.to/nevent1qqsvwtch5ax4hctuk2ptk8v9s000skgjvkutz90clpvlyjyx7952f2qpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgqgdwaehxw309ahx7uewd3hkcq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sm6900q</link>
+      <enclosure url="https://haven.dergigi.com/6c44a491e36f1a2b8dbc62e44d9681755c5cfa63cacbf8bbb007bc81ca6af612.m4a" length="147704038" type="audio/mp4"/>
+      <guid isPermaLink="false">36c99a0e-1709-4c52-8b9f-01d03784ca64</guid>
+      <pubDate>Thu, 08 Oct 2026 17:53:27 +0000</pubDate>
+      <itunes:duration>9122</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/d45baef1414de927c9099fb0e6175fb2d22eb961185e4e44109080adde387105.jpg"/>
+      <podcast:person href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds" img="https://pfp.nostr.build/3e72dab77cfcb2339a30a832c891064e38d70ad652cb58306516e34e78e84325.png" group="cast" role="guest">Gzuuus</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/6cfaab180d917b396306229c5558502ee86c54a3dd2999460adb4cf2a480d8f7.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Gzuuus" type="lnaddress" address="nostrkid@coinos.io" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qptrxwpdw3e82um5v4jz6etcv43h2arfdahz6etwwe5hymmwd4jkuarn94skuepdw35x2ttxw4682un994hkvttgw4kkzm3dd4skx6rfdejj66tww3jhyctrw35k7m3dwukkw7n4w46hxqghwaehxw309a5xzan9dchxgetjva5kw6fwvdhk6qgkwaehxw309aex2mrp0yh8qunfd4skctnwv46qzrthwden5te0dehhxtnvdakqygymmeppfy0natg6cgdar5qkv74tj3l5c8z2akrkyn8jyuasdjs99vpsgqqqw4rstr8vmw">Show Notes</podcast:contentLink>
+      <itunes:subtitle>38: Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr, mcp, agents, cashu, opensats, sovereign engineering</itunes:keywords>
+      <itunes:summary><![CDATA[<p>&quot;The future is very bright if we want it to be.&quot;</p>
+<p><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
+<p><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">Listen on sovereignengineering.io</a></p>
+<p>This dialogue starts with the hardware roots of confidential compute. Gzuuus walks through <a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">trusted execution environments</a>, remote attestation, the jump from <a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a> to <a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a>, and why the trust boundary changes when memory, secrets, and workloads can be encrypted while they are in use.</p>
+<p>The practical edge is <a href="https://enclava.dev/">Enclava</a>, a confidential applications platform for running containers inside hardware-isolated TEEs. The trade-off is familiar: less trust in the cloud operator, more trust in silicon vendors, attestation flows, measurements, and the operational discipline around the thing you are actually running. Nothing is free, but the shape of the trust changes.</p>
+<p>From there the walk opens into agents, OpenSats, private inference, Cashu mints, encrypted compute, and the uneasy question of what humans still do when machines can produce, review, route, and operate so much of the stack. The answer is not to pretend the machines are people. It is to keep taste, judgment, dialogue, and responsibility in the loop.</p>
+<p>The last stretch turns toward <a href="https://cordn.net/">Cordn</a> and <a href="https://contextvm.org/">ContextVM</a>: private group messaging, MCP over Nostr, self-hostable coordinators, encrypted traffic over relays, and infrastructure that can move without needing domains, OAuth, static IPs, or permission. It closes where many of these walks close: freedom tech only matters if people actively build and use it.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>why <a href="https://primal.net/soveng/sec-08-yolo">SEC-08</a> made confidential compute feel suddenly practical</li>
+<li>how TEEs use hardware keys, memory encryption, measurements, and attestation</li>
+<li>why <a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a>, <a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a>, and confidential GPUs point to different trust models</li>
+<li>what <a href="https://enclava.dev/">Enclava</a> is trying to make easier for containerized confidential applications</li>
+<li>why cloud privacy still means choosing which entities and chips you are willing to trust</li>
+<li>how private inference, <a href="https://routstr.com/">Routstr</a>, <a href="https://trymaple.ai/">Maple</a>, and <a href="https://tinfoil.sh/">Tinfoil</a> sit in the same problem space</li>
+<li>why <a href="https://cashu.space/">Cashu</a> mints inside TEEs change some operator assumptions without removing every trust trade-off</li>
+<li>how <a href="https://opensats.org/">OpenSats</a> grant review changes when agents can generate huge amounts of plausible work</li>
+<li>why human judgment, taste, and discernment matter more when output becomes cheap</li>
+<li>what happens when people start talking to other humans as if they were LLMs</li>
+<li>how diaries, voice memos, agents, and memory systems blur the line between human thought and machine interface</li>
+<li>why <a href="https://johnvervaeke.com/">John Vervaeke</a> keeps coming back whenever dialogue, participatory knowing, and distributed cognition enter the frame</li>
+<li>how <a href="https://github.com/totemize/totem/">Totem</a>, offline notes, and peer-to-peer sharing lead into the Cordn conversation</li>
+<li>what <a href="https://cordn.net/">Cordn</a> does for private group messaging and self-hostable coordinators</li>
+<li>why <a href="https://contextvm.org/">ContextVM</a> makes MCP services addressable over Nostr instead of domains and accounts</li>
+<li>how <a href="https://amethyst.social/">Amethyst</a>, <a href="https://www.whitenoise.chat/">White Noise</a>, <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://github.com/sledtools/pika">Pika</a>, and <a href="https://nips.nostr.com/29">NIP-29</a> show different group messaging trade-offs</li>
+<li>why self-hosted infrastructure only works when running it gets boring enough for normal people</li>
+<li>why the future is bright only if high-agency people actively build it</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">#10: Walking with Jesus w/ gzuuus</a></li>
+<li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+<li><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></li>
+<li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
+<li><a href="https://sovereignengineering.io/podcast/37-advanced-malware-w-arjen">#37: Advanced Malware w/ Arjen</a></li>
+</ul>
+<p>People mentioned:</p>
+<ul>
+<li><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a></li>
+<li><a href="https://njump.to/npub1zxu639qym0esxnn7rzrt48wycmfhdu3e5yvzwx7ja3t84zyc2r8qz8cx2y">Justin Moon</a></li>
+<li><a href="https://johnvervaeke.com/">John Vervaeke</a></li>
+<li><a href="https://nakamotoinstitute.org/hal-finney/">Hal Finney</a></li>
+<li><a href="https://world.hey.com/dhh">DHH</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://enclava.dev/">Enclava</a></li>
+<li><a href="https://cordn.net/">Cordn</a></li>
+<li><a href="https://contextvm.org/">ContextVM</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Trusted_execution_environment">Trusted execution environment</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/developer/tools/software-guard-extensions/overview.html">Intel SGX</a></li>
+<li><a href="https://www.amd.com/en/developer/sev.html">AMD SEV-SNP</a></li>
+<li><a href="https://opensats.org/">OpenSats</a></li>
+<li><a href="https://cashu.space/">Cashu</a></li>
+<li><a href="https://routstr.com/">Routstr</a></li>
+<li><a href="https://trymaple.ai/">Maple</a></li>
+<li><a href="https://tinfoil.sh/">Tinfoil</a></li>
+<li><a href="https://amethyst.social/">Amethyst</a></li>
+<li><a href="https://www.whitenoise.chat/">White Noise</a></li>
+<li><a href="https://github.com/marmot-protocol/marmot">Marmot</a></li>
+<li><a href="https://github.com/sledtools/pika">Pika</a></li>
+<li><a href="https://nips.nostr.com/29">NIP-29</a></li>
+<li><a href="https://grapheneos.org/">GrapheneOS</a></li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
+</ul>
+<p>Recorded at <a href="https://mempool.space/block/970462">970,462</a>.</p>]]></itunes:summary>
+    </item>
     <item>
       <title>37: Advanced Malware w/ Arjen</title>
       <description><![CDATA[<p>&quot;How can we make maximum use of this technology without shooting ourselves in the foot too much?&quot;</p>
