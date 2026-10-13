@@ -82,7 +82,7 @@ export function generatePages() {
   write("podcast/index.html", layout("No Solutions", description, "/podcast/", `
     <header class="podcast-hero">
       <img src="/images/nosolutions-cover.jpg" width="600" height="600" alt="No Solutions dialogue artwork">
-      <div><h1>No<br>Solutions.</h1><p class="content-lead">${description}</p>
+      <div><h1>No<br>Solutions.</h1><p class="content-lead">Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.</p>
       <div class="content-links"><a href="/dialogues.xml">Subscribe via RSS ↗</a><a href="https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">castr.me ↗</a><a href="https://podcastindex.org/podcast/7206062">Podcast Index ↗</a><a href="https://njump.to/nosolutions@sovereignengineering.io">Nostr ↗</a></div></div>
     </header>
     <figure class="podcast-quote">
