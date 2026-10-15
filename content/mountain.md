@@ -2,7 +2,7 @@
 chapters:
   - day: Mountain cohort / Spring 2027
     title: Seven days. One shared mission.
-    body: We’re spending a week in the mountains to talk through ideas and work out what to build together. We call this dialogical development. Most of the week is for conversation, away from our devices. Back in the valley, we have 24 hours to build before Demo Day.
+    body: We’re spending a week in the mountains of South Tyrol to talk through ideas and work out what to build together. We call this dialogical development. Most of the week is for conversation, away from our devices. Back in the valley, we have 24 hours to build before Demo Day.
   - day: Day 01 / The valley
     title: Assemble
     body: We meet in the valley. We start with introductions, followed by lightning talks about our projects. After lunch, there’s time for a walk or another meal together.
