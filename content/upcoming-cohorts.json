@@ -7,5 +7,12 @@
     "location": "Madeira",
     "startDate": "2027-03-01",
     "endDate": "2027-03-19"
+  },
+  {
+    "id": "mountain-2027",
+    "name": "Mountain Cohort",
+    "durationWeeks": 1,
+    "startDate": "2027-05-17",
+    "endDate": "2027-05-23"
   }
 ]
