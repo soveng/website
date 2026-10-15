@@ -13,8 +13,8 @@ export function renderApply(settings = JSON.parse(readFileSync('content/applicat
   }).join('')}</ul></section>`;
   return `<div class="finale-main" data-applications="${settings.status}">
     <h2>${open ? 'Apply to join' : 'Join'}<br><span class="invitation-accent">the next</span><br>adventure</h2>
-    ${cohorts}
     ${open ? `<a href="${escape(settings.applicationUrl)}" class="apply-button"><span>Apply to join the crew</span><span aria-hidden="true">↗</span></a>` : renderSignup('upcoming')}
+    ${cohorts}
     <a href="/faq/" class="application-faq">Read the FAQ <span aria-hidden="true">↗</span></a>
   </div>`;
 }
