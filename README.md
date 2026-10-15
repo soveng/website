@@ -300,7 +300,10 @@ Set `BUTTONDOWN_API_KEY` in the Vercel project's **Settings → Environment Vari
 for Production, then redeploy. Enable it for Preview only if preview signups should
 also enter the real list. Never use a `VITE_` prefix: the key stays server-side.
 Use a Buttondown key with subscriber access. New addresses require email confirmation.
-The initial signup's `cohort_interest` metadata records `summer` or `mountain`.
+The initial signup's `cohort_interest` metadata records `upcoming` for the shared
+homepage form, or `mountain` on the mountain page. The previous `summer` value
+remains supported. Dates in `content/upcoming-cohorts.json` supply the homepage
+cohort lineup and the mountain page's exact dates.
 Existing subscribers are preserved; submitting again does not overwrite their metadata
 or automatically reactivate an unsubscribed address.
 

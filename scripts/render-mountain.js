@@ -1,9 +1,12 @@
+import { upcomingCohorts, cohortDates } from './upcoming-cohorts.js';
 import { renderSignup } from './render-signup.js';
 import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
 
 export function renderMountain() {
   const data = parse(readFileSync('content/mountain.md', 'utf8').split('---')[1]);
+  const cohort = upcomingCohorts.find(cohort => cohort.id === 'mountain-2027');
+  data.chapters[0].day = `Mountain cohort / ${cohortDates(cohort, true)}`;
   const e = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
   const ascent = "M224 806 C286 785 307 738 359 704 S415 646 455 614 S526 588 522 540 S568 492 589 461 S611 416 635 413";
   const summit = `${ascent} C620 375 659 339 646 302 S649 231 659 202 S664 158 671 141`;
@@ -78,7 +81,7 @@ export function renderMountain() {
       </div>
       <div class="mountain-chapters">${data.chapters.map((chapter,i)=>`<section class="mountain-chapter" id="mountain-step-${i}" data-step="${i}" aria-labelledby="mountain-heading-${i}"><div class="mountain-copy"><p class="mountain-day">${e(chapter.day)}</p>${i===0?`<h1 id="mountain-heading-${i}">${e(chapter.title).replace(/(\S+)$/, "<em>$1</em>").split(". ").map((line, index, lines) => `<span class="mountain-title-line">${line}${index < lines.length - 1 ? "." : ""}</span>`).join("")}</h1>`:`<h2 id="mountain-heading-${i}">${e(chapter.title)}</h2>`}<p class="mountain-description">${e(chapter.body)}</p>${chapter.links ? `<p class="mountain-chapter-detail">${chapter.links.map(([label, href]) => `<a href="${e(href)}">${e(label)}</a>`).join(' <span aria-hidden="true">·</span> ')}</p>` : ""}${chapter.detail ? `<p class="mountain-chapter-detail">${e(chapter.detail)}</p>` : ""}${i===0?'<a class="mountain-scroll" href="#mountain-step-1">Follow the trail <span aria-hidden="true">↓</span></a>':''}</div></section>`).join('')}</div>
     </div>
-    <section class="mountain-outro"><h2>Join us in<br>spring 2027.</h2>${renderSignup("mountain")}<a class="application-faq" href="/faq/">Read the FAQ <span aria-hidden="true">↗</span></a></section>
+    <section class="mountain-outro"><h2>Join us in<br>the mountains.</h2><p class="mountain-cohort-dates">${e(cohortDates(cohort, true))}</p>${renderSignup("mountain")}<a class="application-faq" href="/faq/">Read the FAQ <span aria-hidden="true">↗</span></a></section>
     <script type="module" src="/src/cohort-signup.js"></script><script type="module" src="/src/mountain.js"></script>
   </div>`;
 }

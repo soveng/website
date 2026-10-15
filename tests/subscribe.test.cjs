@@ -28,6 +28,8 @@ test('signup validation, confirmation, privacy, and upstream failures', async ()
     assert.equal(calls[0].headers.Authorization,'Token test-server-secret');
     for (const [up,status] of [[409,200],[429,429],[422,400],[401,503],[500,503],['timeout',503]]) { upstream=up; assert.equal((await request()).statusCode,status); }
     upstream=201;
+    assert.equal((await request({email:'person@example.com',cohort:'upcoming'})).statusCode,200);
+    assert.equal(JSON.parse(calls.at(-1).body).metadata.cohort_interest,'upcoming');
     const html=await request('email=person%40example.com&cohort=summer',{headers:{host:'example.com',accept:'text/html','content-type':'application/x-www-form-urlencoded'}});
     assert.equal(html.statusCode,200); assert.match(html.body,/<!doctype html>/);
   } finally {global.fetch=originalFetch; if(originalKey===undefined)delete process.env.BUTTONDOWN_API_KEY;else process.env.BUTTONDOWN_API_KEY=originalKey;}

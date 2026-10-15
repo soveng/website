@@ -769,3 +769,23 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 @media (max-width:600px) {
   .podcast-bell-interlude { padding:48px 0 24px; }
 }
+
+/* Upcoming adventures share the site's quiet, ruled archive layout. */
+.upcoming-cohorts { max-width:850px; margin:60px auto 0; text-align:left; }
+.upcoming-cohorts h3 { font:12px/1.5 var(--mono); letter-spacing:.12em; text-transform:uppercase; color:var(--dim); margin-bottom:20px; }
+.upcoming-cohorts ul { list-style:none; padding:0; margin:0; }
+.upcoming-cohorts li { border-top:1px solid #383832; }
+.upcoming-cohorts li:last-child { border-bottom:1px solid #383832; }
+.upcoming-cohort { display:flex; justify-content:space-between; align-items:center; gap:24px; padding:24px 0; }
+.upcoming-cohort h4 { font:400 clamp(28px,3vw,40px)/1.15 var(--serif); letter-spacing:-.025em; }
+.upcoming-cohort h4 span { display:inline-block; font:18px var(--mono); color:var(--red); margin-left:6px; }
+.upcoming-cohort-name p { margin-top:8px; color:var(--dim); font:12px/1.5 var(--mono); }
+.upcoming-cohort-dates { font:14px/1.6 var(--mono); white-space:nowrap; }
+.upcoming-cohort[href]:hover h4 { color:var(--red); }
+.upcoming-cohort[href]:focus-visible { outline:2px solid var(--bone); outline-offset:6px; }
+.mountain-cohort-dates { margin:24px auto 0; font:16px/1.6 var(--mono); color:var(--bone); }
+@media(max-width:600px) {
+  .upcoming-cohorts { margin-top:40px; padding:0 3vw; }
+  .upcoming-cohort { flex-direction:column; align-items:flex-start; gap:12px; padding:22px 0; }
+  .upcoming-cohort-dates { font-size:13px; }
+}

@@ -8,7 +8,7 @@ module.exports = async function subscribe(req, res) {
     if ((req.headers.accept || '').includes('text/html')) {
       res.setHeader('Content-Type', 'text/html; charset=utf-8');
       // Messages are fixed strings, never subscriber or upstream content.
-      return res.end(`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Cohort updates</title><body style="background:#080808;color:#eee8dd;font:20px/1.6 system-ui;max-width:36em;margin:15vh auto;padding:24px"><h1>Cohort updates</h1><p>${message}</p><a style="color:inherit" href="/#apply">Summer cohort</a> · <a style="color:inherit" href="/mountain/">Mountain cohort</a></body></html>`);
+      return res.end(`<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Cohort updates</title><body style="background:#080808;color:#eee8dd;font:20px/1.6 system-ui;max-width:36em;margin:15vh auto;padding:24px"><h1>Cohort updates</h1><p>${message}</p><a style="color:inherit" href="/#apply">Upcoming cohorts</a> · <a style="color:inherit" href="/mountain/">Mountain cohort</a></body></html>`);
     }
     res.setHeader('Content-Type', 'application/json');
     res.end(JSON.stringify({ message }));
@@ -30,7 +30,7 @@ module.exports = async function subscribe(req, res) {
   const email = typeof body.email === 'string' ? body.email.trim() : '';
   if (email.length > 254 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return reply(400, 'Please enter a valid email address.');
   const cohort = body.cohort;
-  if (!['summer', 'mountain'].includes(cohort)) return reply(400, 'Please use one of our cohort signup forms.');
+  if (!['summer', 'mountain', 'upcoming'].includes(cohort)) return reply(400, 'Please use one of our cohort signup forms.');
   const key = process.env.BUTTONDOWN_API_KEY;
   if (!key) return reply(503, 'Signup is temporarily unavailable. Please try again later.');
   // Vercel supplies this trusted client address; retain Buttondown’s spam checks.

@@ -8,12 +8,15 @@ const pages=dir=>readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory(
 const docs=new Map(pages('dist').map(file=>[file,parseDocument(readFileSync(file,'utf8'))]));
 const problems=[];
 const redirects=json('legacy-redirects');
+const rewrites=JSON.parse(readFileSync('vercel.json','utf8')).rewrites || [];
 const localHosts=['sovereignengineering.io','www.sovereignengineering.io','v3-nine-eta-60.vercel.app'];
 function resolve(url,base) {
   let target;try{target=new URL(url,base);}catch{return null;}
   if(!localHosts.includes(target.hostname))return null;
   let path=decodeURIComponent(target.pathname);
   if(redirects[path.replace(/\/$/,'')]) return resolve(redirects[path.replace(/\/$/,'')]+(target.hash&&!redirects[path.replace(/\/$/,'')].includes('#')?target.hash:''),'https://sovereignengineering.io/');
+  const rewrite=rewrites.find(rule=>!rule.has && rule.source===path);
+  if(rewrite) path=rewrite.destination;
   let file='dist'+path;
   if(existsSync(file)&&statSync(file).isDirectory())file=file.replace(/\/$/,'')+'/index.html';
   if(!existsSync(file)&&!path.split('/').pop().includes('.'))file=file.replace(/\/$/,'')+'/index.html';

@@ -13,7 +13,8 @@
     "name": "Mountain Cohort",
     "durationWeeks": 1,
     "startDate": "2027-05-17",
-    "endDate": "2027-05-23"
+    "endDate": "2027-05-23",
+    "href": "/mountain/"
   },
   {
     "id": "summer-2027",
