@@ -14,5 +14,13 @@
     "durationWeeks": 1,
     "startDate": "2027-05-17",
     "endDate": "2027-05-23"
+  },
+  {
+    "id": "summer-2027",
+    "name": "Summer Cohort",
+    "durationWeeks": 6,
+    "location": "Madeira",
+    "startDate": "2027-07-19",
+    "endDate": "2027-08-27"
   }
 ]
