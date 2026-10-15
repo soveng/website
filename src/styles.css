@@ -789,3 +789,6 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
   .upcoming-cohort { flex-direction:column; align-items:flex-start; gap:12px; padding:22px 0; }
   .upcoming-cohort-dates { font-size:13px; }
 }
+
+.finale-main > .cohort-signup { margin-top:clamp(56px,6vw,88px); }
+.finale-main > .cohort-signup + .upcoming-cohorts { margin-top:clamp(80px,8vw,120px); }
