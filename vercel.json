@@ -361,6 +361,11 @@
       "source": "/0/",
       "destination": "/podcast/00-test-recording-teaser-w-pablo/",
       "permanent": true
+    },
+    {
+      "source": "/39/",
+      "destination": "/podcast/39-the-nostr-office-just-works-w-thomas/",
+      "permanent": true
     }
   ],
   "rewrites": [

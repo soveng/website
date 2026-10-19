@@ -39,10 +39,125 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:summary>No solutions, only trade-offs. Walking towards a better internet through freedom tech, open protocols, and sovereign engineering.</itunes:summary>
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
-    <pubDate>Thu, 08 Oct 2026 20:55:30 +0000</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2026 20:55:30 +0000</lastBuildDate>
+    <pubDate>Mon, 19 Oct 2026 15:07:54 +0000</pubDate>
+    <lastBuildDate>Mon, 19 Oct 2026 15:07:54 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
+    <item>
+      <title>39: The Nostr Office Just Works w/ Thomas</title>
+      <description><![CDATA[<p>&quot;It should be super simple, super easy. It should just work.&quot;</p>
+<p><a href="https://njump.to/npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm">Thomas</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
+<p><a href="https://sovereignengineering.io/podcast/39-the-nostr-office-just-works-w-thomas">Listen on sovereignengineering.io</a></p>
+<p>Thomas joined Sovereign Engineering through SEC-04 and found a place to keep building in Madeira. The name <a href="https://nostroffice.nobios.ai/">Nostr Office</a> emerged because people kept saying, &quot;Let&#39;s go to the Nostr Office.&quot; Now the space is becoming a home for builders and a base for the Madeira Makerspace.</p>
+<p>The walk follows <a href="https://justworks.cash/">Just Works</a> from its first idea, turning an existing social profile into an owned <a href="https://nsite.run/">nsite</a>, toward a <a href="https://maps.justworks.cash/">map of local places</a> and an easier path to Bitcoin payments. The <a href="https://gallery.justworks.cash/">Just Works Gallery</a> shows the places behind that idea. Thomas and Gigi explore what it would mean to zap a place before its owner has adopted Bitcoin, show that support to the owner later, and make paying feel as simple as leaving cash on the table. The hard questions sit underneath the easy interface: who holds the keys, where do the funds go, and how much complexity can be hidden without hiding the trade-offs?</p>
+<p>That leads into <a href="https://justworks.cash/">JustPay</a>, stable payment identities, and the everyday reality of paying at a counter while a queue forms behind you. It also leads back to the Nostr Office, where a planned maker space would give Sovereign Engineering builders room for 3D printing and hardware experiments. Software can be prompted into existence quickly; physical things still need tools, materials, space, and people who show up.</p>
+<p>The conversation widens to Gigi&#39;s voice-built Nostr client Feather, proof of work and web of trust, the responsibility of holding keys, recurring Bitcoin payments, and the changing economics of software development. It ends with <em>Dialogical Development</em>: building through an open-ended exchange with other people, agents, and the work itself.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>how the <a href="https://nostroffice.nobios.ai/">Nostr Office</a> got its name and became a gathering place in Madeira</li>
+<li>why Thomas&#39;s work on queueing systems led naturally to questions about payment friction</li>
+<li>how <a href="https://justworks.cash/">Just Works</a> connects existing profiles, Nostr identities, nsites, and local businesses</li>
+<li>what the <a href="https://maps.justworks.cash/">Just Works Map</a> and a zap leaderboard could do for places that do not yet accept Bitcoin</li>
+<li>the ownership and custody questions behind simple onboarding, <a href="https://npub.cash/">npub.cash</a>, and <a href="https://nips.nostr.com/60">NIP-60</a></li>
+<li>why JustPay aims for a stable payment identity and a better experience at the counter</li>
+<li>how Gigi built and iterated on Feather through voice prompts and releases on <a href="https://zapstore.dev/">Zapstore</a></li>
+<li>what the Madeira Makerspace could add to the <a href="https://nostroffice.nobios.ai/">Nostr Office</a> and future SovEng cohorts</li>
+<li>how proof of work and web of trust can complement each other on Nostr</li>
+<li>why key ownership needs both usable tools and deliberate practice</li>
+<li>why reliability at the point of sale matters as much as cryptographic sophistication</li>
+<li>where <a href="https://bolt12.org/">BOLT 12</a> and recurring payments still leave operational questions</li>
+<li>how agents change software production, testing, maintenance, and the value of human judgment</li>
+<li>why <em>Dialogical Development</em> and in-person <a href="https://sovereignengineering.io/">Sovereign Engineering</a> build on the same idea of distributed cognition</li>
+<li>the proposed FIPS-focused and mountain cohorts, where conversation and building would happen in different rhythms</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">#38: Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus</a></li>
+<li><a href="https://sovereignengineering.io/podcast/37-advanced-malware-w-arjen">#37: Advanced Malware w/ Arjen</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://nostroffice.nobios.ai/">Nostr Office</a></li>
+<li><a href="https://justworks.cash/">Just Works</a></li>
+<li><a href="https://maps.justworks.cash/">Just Works Map</a></li>
+<li><a href="https://gallery.justworks.cash/">Just Works Gallery</a></li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
+<li><a href="https://fips.network/">FIPS</a></li>
+<li><a href="https://tollgate.me/">TollGate</a></li>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
+<li><a href="https://npub.cash/">npub.cash</a></li>
+<li><a href="https://nips.nostr.com/60">NIP-60</a></li>
+<li><a href="https://bolt12.org/">BOLT 12</a></li>
+</ul>
+<p>Recorded October 2026.</p>]]></description>
+      <link>https://njump.to/nevent1qqspv05fzj8cl3nwwtq27xwwexdpvjvzyukqcz9sesgzhun0e8l4phgpzamhxue69uhksctkv4hzuer9wfnkjemf9e3k7mgpzemhxue69uhhyetvv9ujuurjd9kkzmpwdejhgq3qn00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54sydcalm</link>
+      <enclosure url="https://haven.dergigi.com/b111f6624c5a16cd2894eb692507ad7fb92d9b22943fda8760fd05b1f5f00db9.m4a" length="107560273" type="audio/mp4"/>
+      <guid isPermaLink="false">9b6c34f7-fd6c-4dba-911b-ed152695f00c</guid>
+      <pubDate>Mon, 19 Oct 2026 14:56:49 +0000</pubDate>
+      <itunes:duration>5124</itunes:duration>
+      <itunes:image href="https://haven.dergigi.com/37956e48b3f5ba9c4ac2356cc62e842c767f9f0c7c7550ee9788bfcec2cd1631.jpg"/>
+      <podcast:person href="https://njump.to/npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm" img="https://m.primal.net/KPzs.jpg" group="cast" role="guest">Thomas</podcast:person>
+      <podcast:transcript url="https://haven.dergigi.com/188c33ee6f0c765fef2922c7c514697f4ddbfe6444af53924de51dc0c89af7ce.srt" type="application/srt"/>
+      <podcast:chapters url="https://sovereignengineering.io/chapters/39-the-nostr-office-just-works-w-thomas.json" type="application/json+chapters"/>
+      <podcast:funding url="https://njump.to/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n">Zaps are appreciated! #value4value ⚡🧡</podcast:funding>
+      <podcast:value type="lightning" method="keysend" suggested="0.00000005000">
+        <podcast:valueRecipient name="Gigi" type="node" address="02e12fea95f576a680ec1938b7ed98ef0855eadeced493566877d404e404bfbf52" split="100"/>
+        <podcast:valueRecipient name="Thomas" type="lnaddress" address="Fucking@primal.net" split="100"/>
+      </podcast:value>
+      <podcast:contentLink href="https://njump.to/naddr1qqnnxwfdw35x2ttwdaehgu3ddanxv6trv5kk5atnwskhwmmjddej6aedw35x7mtpwvq3wamnwvaz7tmgv9mx2m3wv3jhyemfva5jucm0d5q3vamnwvaz7tmjv4kxz7fwwpexjmtpdshxuet5qgsfhhjzzjgl86k34ssm68gpvea2h9rlfswy4mv8vfx0yfemqm9q22crqsqqqa28tpa7tf">Show Notes</podcast:contentLink>
+      <itunes:subtitle>39: The Nostr Office Just Works w/ Thomas</itunes:subtitle>
+      <author>Gigi</author>
+      <itunes:author>Gigi</itunes:author>
+      <itunes:explicit>Yes</itunes:explicit>
+      <itunes:keywords>thomas, nostr office, just works, justpay, madeira makerspace, feather, dialogical development, bolt 12, nip-60, fips, nostr, bitcoin, sovereign engineering</itunes:keywords>
+      <itunes:summary><![CDATA[<p>&quot;It should be super simple, super easy. It should just work.&quot;</p>
+<p><a href="https://njump.to/npub175aemydge5thld9peuyp5xmdtp6e5wq77ys203dp3s88pjhgpxpsvgkemm">Thomas</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
+<p><a href="https://sovereignengineering.io/podcast/39-the-nostr-office-just-works-w-thomas">Listen on sovereignengineering.io</a></p>
+<p>Thomas joined Sovereign Engineering through SEC-04 and found a place to keep building in Madeira. The name <a href="https://nostroffice.nobios.ai/">Nostr Office</a> emerged because people kept saying, &quot;Let&#39;s go to the Nostr Office.&quot; Now the space is becoming a home for builders and a base for the Madeira Makerspace.</p>
+<p>The walk follows <a href="https://justworks.cash/">Just Works</a> from its first idea, turning an existing social profile into an owned <a href="https://nsite.run/">nsite</a>, toward a <a href="https://maps.justworks.cash/">map of local places</a> and an easier path to Bitcoin payments. The <a href="https://gallery.justworks.cash/">Just Works Gallery</a> shows the places behind that idea. Thomas and Gigi explore what it would mean to zap a place before its owner has adopted Bitcoin, show that support to the owner later, and make paying feel as simple as leaving cash on the table. The hard questions sit underneath the easy interface: who holds the keys, where do the funds go, and how much complexity can be hidden without hiding the trade-offs?</p>
+<p>That leads into <a href="https://justworks.cash/">JustPay</a>, stable payment identities, and the everyday reality of paying at a counter while a queue forms behind you. It also leads back to the Nostr Office, where a planned maker space would give Sovereign Engineering builders room for 3D printing and hardware experiments. Software can be prompted into existence quickly; physical things still need tools, materials, space, and people who show up.</p>
+<p>The conversation widens to Gigi&#39;s voice-built Nostr client Feather, proof of work and web of trust, the responsibility of holding keys, recurring Bitcoin payments, and the changing economics of software development. It ends with <em>Dialogical Development</em>: building through an open-ended exchange with other people, agents, and the work itself.</p>
+<p>In this dialogue:</p>
+<ul>
+<li>how the <a href="https://nostroffice.nobios.ai/">Nostr Office</a> got its name and became a gathering place in Madeira</li>
+<li>why Thomas&#39;s work on queueing systems led naturally to questions about payment friction</li>
+<li>how <a href="https://justworks.cash/">Just Works</a> connects existing profiles, Nostr identities, nsites, and local businesses</li>
+<li>what the <a href="https://maps.justworks.cash/">Just Works Map</a> and a zap leaderboard could do for places that do not yet accept Bitcoin</li>
+<li>the ownership and custody questions behind simple onboarding, <a href="https://npub.cash/">npub.cash</a>, and <a href="https://nips.nostr.com/60">NIP-60</a></li>
+<li>why JustPay aims for a stable payment identity and a better experience at the counter</li>
+<li>how Gigi built and iterated on Feather through voice prompts and releases on <a href="https://zapstore.dev/">Zapstore</a></li>
+<li>what the Madeira Makerspace could add to the <a href="https://nostroffice.nobios.ai/">Nostr Office</a> and future SovEng cohorts</li>
+<li>how proof of work and web of trust can complement each other on Nostr</li>
+<li>why key ownership needs both usable tools and deliberate practice</li>
+<li>why reliability at the point of sale matters as much as cryptographic sophistication</li>
+<li>where <a href="https://bolt12.org/">BOLT 12</a> and recurring payments still leave operational questions</li>
+<li>how agents change software production, testing, maintenance, and the value of human judgment</li>
+<li>why <em>Dialogical Development</em> and in-person <a href="https://sovereignengineering.io/">Sovereign Engineering</a> build on the same idea of distributed cognition</li>
+<li>the proposed FIPS-focused and mountain cohorts, where conversation and building would happen in different rhythms</li>
+</ul>
+<p>Related dialogues:</p>
+<ul>
+<li><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">#38: Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus</a></li>
+<li><a href="https://sovereignengineering.io/podcast/37-advanced-malware-w-arjen">#37: Advanced Malware w/ Arjen</a></li>
+<li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
+</ul>
+<p>Projects &amp; tech mentioned:</p>
+<ul>
+<li><a href="https://nostroffice.nobios.ai/">Nostr Office</a></li>
+<li><a href="https://justworks.cash/">Just Works</a></li>
+<li><a href="https://maps.justworks.cash/">Just Works Map</a></li>
+<li><a href="https://gallery.justworks.cash/">Just Works Gallery</a></li>
+<li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
+<li><a href="https://fips.network/">FIPS</a></li>
+<li><a href="https://tollgate.me/">TollGate</a></li>
+<li><a href="https://zapstore.dev/">Zapstore</a></li>
+<li><a href="https://npub.cash/">npub.cash</a></li>
+<li><a href="https://nips.nostr.com/60">NIP-60</a></li>
+<li><a href="https://bolt12.org/">BOLT 12</a></li>
+</ul>
+<p>Recorded October 2026.</p>]]></itunes:summary>
+    </item>
     <item>
       <title>38: Trusted Execution Environments and the Future of Human-Machine Interaction w/ gzuuus</title>
       <description><![CDATA[<p>&quot;The future is very bright if we want it to be.&quot;</p>
@@ -74,12 +189,16 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how <a href="https://goop.dergigi.com/">Goop</a> handles NIP-17 DMs with agents</li>
 <li>how <a href="https://amethyst.social/">Amethyst</a>, <a href="https://www.whitenoise.chat/">White Noise</a>, <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://github.com/sledtools/pika">Pika</a>, and <a href="https://nips.nostr.com/29">NIP-29</a> show different group messaging trade-offs</li>
 <li>why self-hosted infrastructure only works when running it gets boring enough for normal people</li>
+<li>why <a href="https://world.hey.com/dhh">DHH</a> and <a href="https://omarchy.org/">Omarchy</a> keep coming up as examples of high-agency people building their own stack</li>
 <li>why the future is bright only if high-agency people actively build it</li>
 </ul>
 <p>Related dialogues:</p>
 <ul>
 <li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">#10: Walking with Jesus w/ gzuuus</a></li>
 <li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/07-zig-multiplatform-w-justin">#07: Zig Multiplatform w/ Justin</a></li>
+<li><a href="https://sovereignengineering.io/podcast/14-building-browsers-w-justin">#14: Building Browsers w/ Justin</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
 <li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
 <li><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></li>
 <li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
@@ -116,6 +235,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://github.com/sledtools/pika">Pika</a></li>
 <li><a href="https://nips.nostr.com/29">NIP-29</a></li>
 <li><a href="https://grapheneos.org/">GrapheneOS</a></li>
+<li><a href="https://omarchy.org/">Omarchy</a></li>
 <li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/970462">970,462</a>.</p>]]></description>
@@ -138,7 +258,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
       <author>Gigi</author>
       <itunes:author>Gigi</itunes:author>
       <itunes:explicit>Yes</itunes:explicit>
-      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr office, maker space, vibeline, paseo, pi, goop, nip-17, agent harness, nostr, mcp, agents, cashu, sovereign engineering</itunes:keywords>
+      <itunes:keywords>gzuuus, trusted execution environments, confidential compute, enclava, cordn, contextvm, nostr office, maker space, vibeline, paseo, pi, goop, omarchy, nip-17, agent harness, nostr, mcp, agents, cashu, sovereign engineering</itunes:keywords>
       <itunes:summary><![CDATA[<p>&quot;The future is very bright if we want it to be.&quot;</p>
 <p><a href="https://njump.to/npub1gzuushllat7pet0ccv9yuhygvc8ldeyhrgxuwg744dn5khnpk3gs3ea5ds">Gzuuus</a> &amp; <a href="https://njump.to/npub1dergggklka99wwrs92yz8wdjs952h2ux2ha2ed598ngwu9w7a6fsh9xzpc">Gigi</a> take a walk in Madeira.</p>
 <p><a href="https://sovereignengineering.io/podcast/38-trusted-execution-environments-and-the-future-of-human-machine-interaction-w-gzuuus">Listen on sovereignengineering.io</a></p>
@@ -168,12 +288,16 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li>how <a href="https://goop.dergigi.com/">Goop</a> handles NIP-17 DMs with agents</li>
 <li>how <a href="https://amethyst.social/">Amethyst</a>, <a href="https://www.whitenoise.chat/">White Noise</a>, <a href="https://github.com/marmot-protocol/marmot">Marmot</a>, <a href="https://github.com/sledtools/pika">Pika</a>, and <a href="https://nips.nostr.com/29">NIP-29</a> show different group messaging trade-offs</li>
 <li>why self-hosted infrastructure only works when running it gets boring enough for normal people</li>
+<li>why <a href="https://world.hey.com/dhh">DHH</a> and <a href="https://omarchy.org/">Omarchy</a> keep coming up as examples of high-agency people building their own stack</li>
 <li>why the future is bright only if high-agency people actively build it</li>
 </ul>
 <p>Related dialogues:</p>
 <ul>
 <li><a href="https://sovereignengineering.io/podcast/10-walking-with-jesus-w-gzuuus">#10: Walking with Jesus w/ gzuuus</a></li>
 <li><a href="https://sovereignengineering.io/podcast/22-sovereign-engineering-w-yo">#22: Sovereign Engineering w/ Yo</a></li>
+<li><a href="https://sovereignengineering.io/podcast/07-zig-multiplatform-w-justin">#07: Zig Multiplatform w/ Justin</a></li>
+<li><a href="https://sovereignengineering.io/podcast/14-building-browsers-w-justin">#14: Building Browsers w/ Justin</a></li>
+<li><a href="https://sovereignengineering.io/podcast/23-shipping-violently-w-justin-moon">#23: Shipping Violently w/ Justin Moon</a></li>
 <li><a href="https://sovereignengineering.io/podcast/24-building-fips-w-johnathan-corgan">#24: Building FIPS w/ Johnathan Corgan</a></li>
 <li><a href="https://sovereignengineering.io/podcast/29-state-of-the-mint-and-mind-w-calle">#29: State of the Mint and Mind w/ Calle</a></li>
 <li><a href="https://sovereignengineering.io/podcast/33-asmap-nix-and-nix-nostr-w-julien">#33: ASMap, nix, and nix-nostr w/ Julien</a></li>
@@ -210,6 +334,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://github.com/sledtools/pika">Pika</a></li>
 <li><a href="https://nips.nostr.com/29">NIP-29</a></li>
 <li><a href="https://grapheneos.org/">GrapheneOS</a></li>
+<li><a href="https://omarchy.org/">Omarchy</a></li>
 <li><a href="https://sovereignengineering.io/">Sovereign Engineering</a></li>
 </ul>
 <p>Recorded at <a href="https://mempool.space/block/970462">970,462</a>.</p>]]></itunes:summary>

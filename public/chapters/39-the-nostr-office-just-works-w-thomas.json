@@ -1,0 +1,102 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "39: The Nostr Office Just Works w/ Thomas",
+  "podcastName": "No Solutions",
+  "description": "Chapter map for episode 39, The Nostr Office Just Works w/ Thomas.",
+  "fileName": "39-thomas-cleaned-mix-v01.m4a",
+  "chapters": [
+    {
+      "startTime": 0,
+      "title": "The Nostr Office",
+      "url": "https://nostroffice.nobios.ai/",
+      "endTime": 470
+    },
+    {
+      "startTime": 470,
+      "title": "Just Works",
+      "url": "https://justworks.cash/",
+      "endTime": 684
+    },
+    {
+      "startTime": 684,
+      "title": "Zapping Local Places",
+      "endTime": 840
+    },
+    {
+      "startTime": 840,
+      "title": "Keys and Custody",
+      "endTime": 964
+    },
+    {
+      "startTime": 964,
+      "title": "Payment Friction",
+      "endTime": 1143
+    },
+    {
+      "startTime": 1143,
+      "title": "JustPay",
+      "endTime": 1494
+    },
+    {
+      "startTime": 1494,
+      "title": "Building Feather",
+      "endTime": 1915
+    },
+    {
+      "startTime": 1915,
+      "title": "Madeira Makerspace",
+      "endTime": 2160
+    },
+    {
+      "startTime": 2160,
+      "title": "Proof and Trust",
+      "endTime": 2402
+    },
+    {
+      "startTime": 2402,
+      "title": "Holding Your Keys",
+      "endTime": 2980
+    },
+    {
+      "startTime": 2980,
+      "title": "Merchant Reliability",
+      "endTime": 3116
+    },
+    {
+      "startTime": 3116,
+      "title": "Funding the Space",
+      "endTime": 3222
+    },
+    {
+      "startTime": 3222,
+      "title": "Recurring Payments",
+      "endTime": 3357
+    },
+    {
+      "startTime": 3357,
+      "title": "Payroll Trade-offs",
+      "endTime": 3676
+    },
+    {
+      "startTime": 3676,
+      "title": "Working with Agents",
+      "endTime": 4061
+    },
+    {
+      "startTime": 4061,
+      "title": "Software Abundance",
+      "endTime": 4618
+    },
+    {
+      "startTime": 4618,
+      "title": "Dialogical Development",
+      "endTime": 4883
+    },
+    {
+      "startTime": 4883,
+      "title": "Future Cohorts",
+      "endTime": 5124
+    }
+  ]
+}
