@@ -64,7 +64,7 @@ and transcripts remain hosted at their original URLs. Players load audio only
 when requested.
 
 Content and podcast artwork were migrated from
-[`soveng/website-legacy`](https://github.com/soveng/website-legacy/tree/a7bdb068bed022c9dcb7b466a16b6227629c8994).
+[`soveng/website-v2`](https://github.com/soveng/website-v2/tree/a7bdb068bed022c9dcb7b466a16b6227629c8994).
 The feed is preserved verbatim, including Podcasting 2.0 metadata. FAQ cohort
 links now point to `/#apply`; the policy's philosophy link points to the program
 section while new philosophy copy is pending. Nostr verification metadata is
@@ -128,7 +128,7 @@ scrolling remains available without JavaScript.
 - `src/project-archive.js`: search, filtering, and progressive results.
 - `src/testimonials.js`: carousel keyboard navigation and automatic advance.
 
-Archive content and local project logos were migrated from `soveng/website-legacy` at
+Archive content and local project logos were migrated from `soveng/website-v2` at
 `8bfb0bc`. Restart Vite after editing content to regenerate the pages.
 
 The shared footer’s sea divider and ship follow scrolling via
