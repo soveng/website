@@ -64,7 +64,7 @@ and transcripts remain hosted at their original URLs. Players load audio only
 when requested.
 
 Content and podcast artwork were migrated from
-[`soveng/website`](https://github.com/soveng/website/tree/a7bdb068bed022c9dcb7b466a16b6227629c8994).
+[`soveng/website-legacy`](https://github.com/soveng/website-legacy/tree/a7bdb068bed022c9dcb7b466a16b6227629c8994).
 The feed is preserved verbatim, including Podcasting 2.0 metadata. FAQ cohort
 links now point to `/#apply`; the policy's philosophy link points to the program
 section while new philosophy copy is pending. Nostr verification metadata is
@@ -128,7 +128,7 @@ scrolling remains available without JavaScript.
 - `src/project-archive.js`: search, filtering, and progressive results.
 - `src/testimonials.js`: carousel keyboard navigation and automatic advance.
 
-Archive content and local project logos were migrated from `soveng/website` at
+Archive content and local project logos were migrated from `soveng/website-legacy` at
 `8bfb0bc`. Restart Vite after editing content to regenerate the pages.
 
 The shared footer’s sea divider and ship follow scrolling via
@@ -148,8 +148,8 @@ dates, location, and applications remain unannounced.
 If you only want to run the website:
 
 ```sh
-git clone https://github.com/soveng/v3.git
-cd v3
+git clone https://github.com/soveng/website.git
+cd website
 npm ci
 npm run dev
 ```
@@ -160,13 +160,13 @@ Use a fork so you can make changes without editing the original repository.
 
 - **Fork:** your copy of this repository on GitHub.
 - **Origin:** your fork after you clone it.
-- **Upstream:** the original [`soveng/v3`](https://github.com/soveng/v3) repository.
+- **Upstream:** the original [`soveng/website`](https://github.com/soveng/website) repository.
 - **Branch:** a separate place for one change.
 - **Pull request:** a request to add your change to the upstream repository.
 
 ### 1. Fork the repository
 
-Sign in to GitHub, open [`soveng/v3`](https://github.com/soveng/v3), click
+Sign in to GitHub, open [`soveng/website`](https://github.com/soveng/website), click
 **Fork**, then click **Create fork**.
 
 ### 2. Clone your fork
@@ -174,8 +174,8 @@ Sign in to GitHub, open [`soveng/v3`](https://github.com/soveng/v3), click
 Replace `YOUR-USERNAME` with your GitHub username:
 
 ```sh
-git clone https://github.com/YOUR-USERNAME/v3.git
-cd v3
+git clone https://github.com/YOUR-USERNAME/website.git
+cd website
 npm ci
 ```
 
@@ -184,11 +184,11 @@ npm ci
 This only needs to be done once:
 
 ```sh
-git remote add upstream https://github.com/soveng/v3.git
+git remote add upstream https://github.com/soveng/website.git
 git remote -v
 ```
 
-`origin` should point to your fork. `upstream` should point to `soveng/v3`.
+`origin` should point to your fork. `upstream` should point to `soveng/website`.
 
 ### 4. Pull the latest changes
 
@@ -241,7 +241,7 @@ git push -u origin short-problem-name
 
 1. Open your fork on GitHub.
 2. Click **Compare & pull request**.
-3. Confirm the base repository is `soveng/v3` and the base branch is `master`.
+3. Confirm the base repository is `soveng/website` and the base branch is `master`.
 4. Explain the problem, your change, and how you tested it.
 5. Click **Create pull request**.
 
@@ -275,7 +275,7 @@ URL, PNG dimensions, and content hash. EB Garamond and DM Mono are bundled in
 
 ## Deploy to Vercel
 
-1. Import [`soveng/v3`](https://github.com/soveng/v3) at
+1. Import [`soveng/website`](https://github.com/soveng/website) at
    [vercel.com/new](https://vercel.com/new).
 2. Click **Deploy**.
 
