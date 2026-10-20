@@ -9,7 +9,7 @@ const docs=new Map(pages('dist').map(file=>[file,parseDocument(readFileSync(file
 const problems=[];
 const redirects=json('legacy-redirects');
 const rewrites=JSON.parse(readFileSync('vercel.json','utf8')).rewrites || [];
-const localHosts=['sovereignengineering.io','www.sovereignengineering.io','v3-nine-eta-60.vercel.app'];
+const localHosts=['soveng.com','www.soveng.com','sovereignengineering.io','www.sovereignengineering.io','v3-nine-eta-60.vercel.app'];
 function resolve(url,base) {
   let target;try{target=new URL(url,base);}catch{return null;}
   if(!localHosts.includes(target.hostname))return null;

@@ -6,16 +6,16 @@ import { parse } from 'yaml';
 import { renderMountain } from './render-mountain.js';
 
 // Public canonicals stay on the main domain, including when previewing on Vercel.
-const origin = process.env.SITE_URL || 'https://sovereignengineering.io';
+const origin = process.env.SITE_URL || 'https://soveng.com';
 const parsedOrigin = new URL(origin);
 if (parsedOrigin.protocol !== 'https:' || parsedOrigin.pathname !== '/' || parsedOrigin.search || parsedOrigin.hash) {
   throw new Error('SITE_URL must be an HTTPS origin without a path, query, or fragment');
 }
 export const site = parsedOrigin.origin;
-// Images must be served by this deployment, even before the main domain moves.
+// Production images use the canonical host; previews use their own deployment.
 const imageOrigin = process.env.SOCIAL_IMAGE_ORIGIN ||
   (process.env.VERCEL_ENV === 'preview' && process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` :
-    process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : site);
+    site);
 const parsedImageOrigin = new URL(imageOrigin);
 if (parsedImageOrigin.protocol !== 'https:' || parsedImageOrigin.pathname !== '/' || parsedImageOrigin.search || parsedImageOrigin.hash) {
   throw new Error('SOCIAL_IMAGE_ORIGIN must be an HTTPS origin without a path, query, or fragment');

@@ -30,6 +30,105 @@
       "has": [
         {
           "type": "host",
+          "value": "sovereignengineering.io"
+        }
+      ],
+      "destination": "https://soveng.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!\\.well-known/nostr\\.json(?:/|$)).*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "sovereignengineering.io"
+        }
+      ],
+      "destination": "https://soveng.com/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!\\.well-known/nostr\\.json(?:/|$)).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "sovereignengineering.io"
+        }
+      ],
+      "destination": "https://soveng.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.sovereignengineering.io"
+        }
+      ],
+      "destination": "https://soveng.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!\\.well-known/nostr\\.json(?:/|$)).*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.sovereignengineering.io"
+        }
+      ],
+      "destination": "https://soveng.com/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!\\.well-known/nostr\\.json(?:/|$)).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.sovereignengineering.io"
+        }
+      ],
+      "destination": "https://soveng.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soveng.com"
+        }
+      ],
+      "destination": "https://soveng.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!\\.well-known/nostr\\.json(?:/|$)).*)/",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soveng.com"
+        }
+      ],
+      "destination": "https://soveng.com/:path*/",
+      "permanent": true
+    },
+    {
+      "source": "/:path((?!\\.well-known/nostr\\.json(?:/|$)).*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.soveng.com"
+        }
+      ],
+      "destination": "https://soveng.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "host",
           "value": "nosolutions.show"
         }
       ],
@@ -89,17 +188,6 @@
         }
       ],
       "destination": "https://soveng.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "www.sovereignengineering.io"
-        }
-      ],
-      "destination": "https://sovereignengineering.io/:path*",
       "permanent": true
     },
     {
