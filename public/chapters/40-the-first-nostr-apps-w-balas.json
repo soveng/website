@@ -1,0 +1,58 @@
+{
+  "version": "1.2.0",
+  "author": "Gigi",
+  "title": "40: The First Nostr Apps w/ Balas",
+  "podcastName": "No Solutions",
+  "chapters": [
+    {
+      "startTime": 0.0,
+      "title": "Balas and Madeira"
+    },
+    {
+      "startTime": 221.218,
+      "title": "The First Nostr Clients"
+    },
+    {
+      "startTime": 633.138,
+      "title": "Learning Through Alphaama"
+    },
+    {
+      "startTime": 1168.678,
+      "title": "Threads and Context"
+    },
+    {
+      "startTime": 1463.718,
+      "title": "Building Games"
+    },
+    {
+      "startTime": 1864.938,
+      "title": "Handmade Art and AI"
+    },
+    {
+      "startTime": 2414.838,
+      "title": "Voice Prompting"
+    },
+    {
+      "startTime": 3100.378,
+      "title": "Momentary Software"
+    },
+    {
+      "startTime": 3476.778,
+      "title": "Composable Nostr Apps"
+    },
+    {
+      "startTime": 4234.578,
+      "title": "Games for Kids"
+    },
+    {
+      "startTime": 4977.658,
+      "title": "Discovery Through Follows"
+    },
+    {
+      "startTime": 5534.078,
+      "title": "anon & mato"
+    }
+  ],
+  "description": "Chapter map for episode 40, The First Nostr Apps w/ Balas.",
+  "fileName": "40-balas-cleaned-mix-v01.m4a"
+}

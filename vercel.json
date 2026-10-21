@@ -454,6 +454,11 @@
       "source": "/39/",
       "destination": "/podcast/39-the-nostr-office-just-works-w-thomas/",
       "permanent": true
+    },
+    {
+      "source": "/40/",
+      "destination": "/podcast/40-the-first-nostr-apps-w-balas/",
+      "permanent": true
     }
   ],
   "rewrites": [
