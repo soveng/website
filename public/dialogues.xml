@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Wed, 21 Oct 2026 12:56:37 +0000</pubDate>
-    <lastBuildDate>Wed, 21 Oct 2026 12:56:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 14:11:05 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -50,14 +50,14 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p><a href="https://soveng.com/podcast/40-the-first-nostr-apps-w-balas/">Listen on soveng.com</a></p>
 <p>Balas came to Madeira for the first Sovereign Engineering cohort. He met the woman who is now his wife there, and together they had the first Sovereign Engineering baby. Their walk returns to the early days of Nostr, when a handful of small clients made the promise of an open protocol tangible. Balas began by changing fiatjaf&#39;s <a href="https://github.com/fiatjaf/branle">Branle</a>, then built <a href="https://github.com/eskema/alphaama">Alphaama</a> as a client that lets people see more of the protocol&#39;s structure.</p>
 <p>What should a client show when a conversation branches? Balas and Gigi work through nested threads, relay queries, the context lost in a flat feed, and discovery through the reactions of people you follow. A client built for its maker can explore possibilities that a generic feed might hide. The trade-off is more visible complexity.</p>
-<p>Balas also talks about drawing the art for <a href="https://github.com/eskema/anon_mato">anon &amp; mato</a>, a game he is building for the joy of it. They compare that slower, handmade work with coding agents and voice prompts, including Gigi&#39;s experience building Feather and shipping through <a href="https://zapstore.dev/">Zapstore</a>.</p>
+<p>Balas also talks about drawing the art for <a href="https://anon-mato.vercel.app/">anon &amp; mato</a>, a handmade game that is now playable. They compare that slower, handmade work with coding agents and voice prompts, including Gigi&#39;s experience building Feather and shipping through <a href="https://zapstore.dev/">Zapstore</a>.</p>
 <p>Now Balas is working on <a href="https://nostrapps.com/">Nostr Apps</a>, a place to launch small, composable Nostr applications. They compare napps with <a href="https://napplet.run/">Napplet</a>, discuss <a href="https://github.com/nostr-protocol/nips/blob/master/5A.md">NIP-5A nsites</a> and fiatjaf&#39;s <a href="https://github.com/fiatjaf/verdana">Verdana</a>, and ask how much a shared runtime should provide. The conversation ends where it began: build something you want to use, share it, and let others discover what they can do with it.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>the first Sovereign Engineering cohort and the first SovEng baby</li>
 <li>learning Nostr through Branle and building Alphaama</li>
 <li>threaded conversations, relay queries, and discovery through your follow list</li>
-<li>the handmade art and game design behind anon &amp; mato</li>
+<li>the handmade art and game design behind <a href="https://anon-mato.vercel.app/">anon &amp; mato</a></li>
 <li>voice prompts, coding agents, Feather, and Zapstore</li>
 <li>Nostr Apps, napps, Napplet, nsites, and Verdana</li>
 <li>why building for yourself can lead to unexpected collaboration</li>
@@ -67,7 +67,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://soveng.com/">Sovereign Engineering</a></li>
 <li><a href="https://github.com/fiatjaf/branle">Branle</a></li>
 <li><a href="https://github.com/eskema/alphaama">Alphaama</a></li>
-<li><a href="https://github.com/eskema/anon_mato">anon &amp; mato</a></li>
+<li><a href="https://anon-mato.vercel.app/">anon &amp; mato</a> (<a href="https://github.com/eskema/anon_mato">source code</a>)</li>
 <li><a href="https://nostrapps.com/">Nostr Apps</a> and its <a href="https://github.com/eskema/nostrapps">repository</a></li>
 <li><a href="https://github.com/nostr-protocol/nips/blob/master/5A.md">NIP-5A nsites</a></li>
 <li><a href="https://napplet.run/">Napplet</a></li>
@@ -99,14 +99,14 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p><a href="https://soveng.com/podcast/40-the-first-nostr-apps-w-balas/">Listen on soveng.com</a></p>
 <p>Balas came to Madeira for the first Sovereign Engineering cohort. He met the woman who is now his wife there, and together they had the first Sovereign Engineering baby. Their walk returns to the early days of Nostr, when a handful of small clients made the promise of an open protocol tangible. Balas began by changing fiatjaf&#39;s <a href="https://github.com/fiatjaf/branle">Branle</a>, then built <a href="https://github.com/eskema/alphaama">Alphaama</a> as a client that lets people see more of the protocol&#39;s structure.</p>
 <p>What should a client show when a conversation branches? Balas and Gigi work through nested threads, relay queries, the context lost in a flat feed, and discovery through the reactions of people you follow. A client built for its maker can explore possibilities that a generic feed might hide. The trade-off is more visible complexity.</p>
-<p>Balas also talks about drawing the art for <a href="https://github.com/eskema/anon_mato">anon &amp; mato</a>, a game he is building for the joy of it. They compare that slower, handmade work with coding agents and voice prompts, including Gigi&#39;s experience building Feather and shipping through <a href="https://zapstore.dev/">Zapstore</a>.</p>
+<p>Balas also talks about drawing the art for <a href="https://anon-mato.vercel.app/">anon &amp; mato</a>, a handmade game that is now playable. They compare that slower, handmade work with coding agents and voice prompts, including Gigi&#39;s experience building Feather and shipping through <a href="https://zapstore.dev/">Zapstore</a>.</p>
 <p>Now Balas is working on <a href="https://nostrapps.com/">Nostr Apps</a>, a place to launch small, composable Nostr applications. They compare napps with <a href="https://napplet.run/">Napplet</a>, discuss <a href="https://github.com/nostr-protocol/nips/blob/master/5A.md">NIP-5A nsites</a> and fiatjaf&#39;s <a href="https://github.com/fiatjaf/verdana">Verdana</a>, and ask how much a shared runtime should provide. The conversation ends where it began: build something you want to use, share it, and let others discover what they can do with it.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>the first Sovereign Engineering cohort and the first SovEng baby</li>
 <li>learning Nostr through Branle and building Alphaama</li>
 <li>threaded conversations, relay queries, and discovery through your follow list</li>
-<li>the handmade art and game design behind anon &amp; mato</li>
+<li>the handmade art and game design behind <a href="https://anon-mato.vercel.app/">anon &amp; mato</a></li>
 <li>voice prompts, coding agents, Feather, and Zapstore</li>
 <li>Nostr Apps, napps, Napplet, nsites, and Verdana</li>
 <li>why building for yourself can lead to unexpected collaboration</li>
@@ -116,7 +116,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <li><a href="https://soveng.com/">Sovereign Engineering</a></li>
 <li><a href="https://github.com/fiatjaf/branle">Branle</a></li>
 <li><a href="https://github.com/eskema/alphaama">Alphaama</a></li>
-<li><a href="https://github.com/eskema/anon_mato">anon &amp; mato</a></li>
+<li><a href="https://anon-mato.vercel.app/">anon &amp; mato</a> (<a href="https://github.com/eskema/anon_mato">source code</a>)</li>
 <li><a href="https://nostrapps.com/">Nostr Apps</a> and its <a href="https://github.com/eskema/nostrapps">repository</a></li>
 <li><a href="https://github.com/nostr-protocol/nips/blob/master/5A.md">NIP-5A nsites</a></li>
 <li><a href="https://napplet.run/">Napplet</a></li>
