@@ -40,7 +40,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
     <itunes:explicit>false</itunes:explicit>
     <managingEditor>gigi@sovereignengineering.io (Gigi)</managingEditor>
     <pubDate>Wed, 21 Oct 2026 12:56:37 +0000</pubDate>
-    <lastBuildDate>Thu, 22 Oct 2026 07:58:19 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 23:29:48 +0000</lastBuildDate>
     <category>Technology</category>
     <podcast:guid>2ff22ba8-f69b-5067-9068-9c1636ebc718</podcast:guid>
     <item>
@@ -52,6 +52,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>What should a client show when a conversation branches? Balas and Gigi work through nested threads, relay queries, the context lost in a flat feed, and discovery through the reactions of people you follow. A client built for its maker can explore possibilities that a generic feed might hide. The trade-off is more visible complexity.</p>
 <p>Balas also talks about drawing the art for <a href="https://anon.dergigi.com/">anon &amp; mato</a>, a handmade game that is now playable. They compare that slower, handmade work with coding agents and voice prompts, including Gigi&#39;s experience building Feather and shipping through <a href="https://zapstore.dev/">Zapstore</a>.</p>
 <p>Now Balas is working on <a href="https://nostrapps.com/">Nostr Apps</a>, a place to launch small, composable Nostr applications. They compare napps with <a href="https://napplet.run/">Napplet</a>, discuss <a href="https://github.com/nostr-protocol/nips/blob/master/5A.md">NIP-5A nsites</a> and fiatjaf&#39;s <a href="https://github.com/fiatjaf/verdana">Verdana</a>, and ask how much a shared runtime should provide. The conversation ends where it began: build something you want to use, share it, and let others discover what they can do with it.</p>
+<p>In a later <a href="https://njump.to/02006dcffaadf74b147d02a974b247145766c1cab2aaeef144e38f53cdee05cc">note</a>, fiatjaf wrote that, after making many napps for browsing Nostr, &ldquo;no one beats the classic alphaama experience.&rdquo; He points to an Alphaama version in Nostr Apps that he says works after logging in and clicking start.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>the first Sovereign Engineering cohort and the first SovEng baby</li>
@@ -102,6 +103,7 @@ Est. 882,690. Inspired by Sovereign Engineering https://sovereignengineering.io/
 <p>What should a client show when a conversation branches? Balas and Gigi work through nested threads, relay queries, the context lost in a flat feed, and discovery through the reactions of people you follow. A client built for its maker can explore possibilities that a generic feed might hide. The trade-off is more visible complexity.</p>
 <p>Balas also talks about drawing the art for <a href="https://anon.dergigi.com/">anon &amp; mato</a>, a handmade game that is now playable. They compare that slower, handmade work with coding agents and voice prompts, including Gigi&#39;s experience building Feather and shipping through <a href="https://zapstore.dev/">Zapstore</a>.</p>
 <p>Now Balas is working on <a href="https://nostrapps.com/">Nostr Apps</a>, a place to launch small, composable Nostr applications. They compare napps with <a href="https://napplet.run/">Napplet</a>, discuss <a href="https://github.com/nostr-protocol/nips/blob/master/5A.md">NIP-5A nsites</a> and fiatjaf&#39;s <a href="https://github.com/fiatjaf/verdana">Verdana</a>, and ask how much a shared runtime should provide. The conversation ends where it began: build something you want to use, share it, and let others discover what they can do with it.</p>
+<p>In a later <a href="https://njump.to/02006dcffaadf74b147d02a974b247145766c1cab2aaeef144e38f53cdee05cc">note</a>, fiatjaf wrote that, after making many napps for browsing Nostr, &ldquo;no one beats the classic alphaama experience.&rdquo; He points to an Alphaama version in Nostr Apps that he says works after logging in and clicking start.</p>
 <p>In this dialogue:</p>
 <ul>
 <li>the first Sovereign Engineering cohort and the first SovEng baby</li>
