@@ -12,6 +12,8 @@ export function renderLifePath() {
             <clipPath id="life-past"><rect data-life-past x="300" y="140" width="0" height="790"/></clipPath>
             <clipPath id="life-future"><rect data-life-future x="976" y="70" width="0" height="870"/></clipPath>
             <clipPath id="life-present"><rect x="961" y="145" width="16" height="790"/><rect x="880" y="70" width="190" height="65"/></clipPath>
+            <clipPath id="life-start-label"><rect x="160" y="310" width="185" height="210"/><circle cx="247" cy="538" r="18"/></clipPath>
+            <clipPath id="life-today-label"><rect x="985" y="595" width="145" height="110"/><circle cx="968" cy="493" r="16"/></clipPath>
             <mask id="life-route" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="1080">
               <path data-life-route pathLength="1" d="M247 538 L300 540 L350 540 L385 544 L410 557 L432 576 L450 590 L480 609 L510 618 L559 623 L580 617 L601 614 L625 619 L653 625 L675 619 L695 602 L715 591 L750 591 L780 589 L808 594 L834 586 L850 555 L875 531 L880 504 L896 479 L910 456 L931 466 L945 464 L965 493" fill="none" stroke="white" stroke-width="24" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"/>
             </mask>
@@ -20,11 +22,13 @@ export function renderLifePath() {
           <g mask="url(#life-route)" filter="url(#life-magenta)">${artwork}</g>
           <g clip-path="url(#life-present)" data-life-present opacity="0">${artwork}</g>
           <g clip-path="url(#life-future)" filter="url(#life-magenta)">${artwork}</g>
+          <g clip-path="url(#life-start-label)">${artwork}</g>
+          <g clip-path="url(#life-today-label)" data-life-today-label opacity=".65">${artwork}</g>
           <circle cx="968" cy="493" r="20" data-life-pulse fill="none" stroke="#e64abc" stroke-width="2" opacity="0"/>
           <g data-life-complete opacity="0">${artwork}</g>
         </svg>
       </div>
-      <figcaption>What will you build next?</figcaption>
+      <figcaption>At any moment, the question is what to build next.</figcaption>
     </figure>
   </section><script type="module" src="/src/life-path.js"></script>`;
 }

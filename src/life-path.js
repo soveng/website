@@ -4,6 +4,7 @@ if(section){
   const past=section.querySelector('[data-life-past]');
   const route=section.querySelector('[data-life-route]');
   const present=section.querySelector('[data-life-present]');
+  const todayLabel=section.querySelector('[data-life-today-label]');
   const future=section.querySelector('[data-life-future]');
   const pulse=section.querySelector('[data-life-pulse]');
   const complete=section.querySelector('[data-life-complete]');
@@ -20,6 +21,7 @@ if(section){
     if(rect.bottom<0||rect.top>innerHeight)return;
     const p=reduced.matches||short.matches?1:clamp(-rect.top/Math.max(1,section.offsetHeight-innerHeight));
     const history=ease(p/.23),chosen=ease((p-.12)/.30),possibilities=ease((p-.52)/.30),finish=ease((p-.83)/.13);
+    todayLabel.setAttribute('opacity',String(.65+.35*ease(p/.08)));
     past.setAttribute('width',String(history*670));
     route.setAttribute('stroke-dashoffset',String(1-chosen));
     present.setAttribute('opacity',String(ease((p-.34)/.09)));
