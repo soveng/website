@@ -844,8 +844,10 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .life-path-ready { height:260svh; }
 .life-path-stage { margin:0; }
 .life-path-ready .life-path-stage { position:sticky; top:85px; height:calc(100svh - 100px); display:flex; flex-direction:column; justify-content:center; gap:22px; }
-.life-path-art { position:relative; width:100%; isolation:isolate; contain:paint; }
+/* Screen blends the original artwork's black into the page, including label crops. */
+.life-path-art { position:relative; width:100%; isolation:isolate; contain:paint; background:var(--ink); }
 .life-path-original { width:100%; height:auto; }
+.life-path-original,.life-path-animation { mix-blend-mode:screen; }
 .life-path-animation { display:none; width:100%; height:auto; max-height:calc(100svh - 180px); }
 .life-path-ready .life-path-original { display:none; }
 .life-path-ready .life-path-animation { display:block; }
