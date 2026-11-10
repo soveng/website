@@ -11,7 +11,7 @@ intro:
 
     The structure is simple: 21 builders come together for six weeks. Monday starts with basic orientation for the week and a walk afterwards. Tuesday is for talks. Wednesday is for workshops. Thursday is time off. **Friday is Demo Day.** The weekend has no formal agenda: time for recovery and long conversations.
 
-    The program is private and in person. People can speak freely, test rough ideas, and ship without performing for the whole internet.
+    The program is private and in person. This allows people to speak freely, test rough ideas (however outlandish they may be), and ship embarrassing prototypes without having to perform for the whole internet.
   image: 'www-life-path.png'
 
 # Concept sections
