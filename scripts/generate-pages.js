@@ -94,10 +94,10 @@ export function generatePages() {
     </figure>
     <div class="content-links podcast-subscribe"><a href="/dialogues.xml">Subscribe via RSS ↗</a><a href="https://podcastindex.org/podcast/7206062">Podcast Index ↗</a><a href="https://njump.to/nosolutions@sovereignengineering.io">Nostr ↗</a></div>
     <section aria-labelledby="episodes"><div class="archive-heading"><h2 id="episodes">Latest dialogues.</h2></div>
-    <div class="episode-list">${episodeCards(episodes.slice(0, 3))}</div></section>
+    <div class="episode-list">${episodeCards(episodes.slice(0, 2))}</div></section>
     <div class="podcast-bell-interlude"><div class="bell-scene">${bellArt}</div></div>
     <section aria-labelledby="dialogue-archive"><div class="archive-heading"><h2 id="dialogue-archive">The archive.</h2></div>
-    <div class="episode-list">${episodeCards(episodes.slice(3))}</div></section>
+    <div class="episode-list">${episodeCards(episodes.slice(2))}</div></section>
     <script type="module" src="/src/podcast-page.js"></script>`));
   for (const ep of episodes) {
     const audio = safeUrl(ep.enclosure["@_url"]);
