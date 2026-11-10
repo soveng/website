@@ -9,7 +9,7 @@ intro:
   content: |
     Sovereign Engineering is a multi-week program in Madeira for people who want to build freedom tech with like-minded cypherpunks.
 
-    The structure is simple: 21 builders come together for six weeks. Monday starts with basic orientation for the week and a walk afterwards. Tuesday is for talks. Wednesday is for workshops. Thursday is time off. **Friday is Demo Day.** The weekend has no formal agenda: time for recovery and long conversations.
+    In our summer cohort, 21 builders come together for six weeks. Monday starts with basic orientation for the week and a walk afterwards. Tuesday is for talks. Wednesday is for workshops. Thursday is time off. **Friday is Demo Day.** The weekend has no formal agenda: time for recovery and long conversations.
 
     The program is private and in person. This allows people to speak freely, test rough ideas (however outlandish they may be), and ship embarrassing prototypes without having to perform for the whole internet.
   image: 'www-life-path.png'
@@ -64,7 +64,7 @@ sections:
     content: |
       Each week, a different captain handles the practicalities: Monday’s orientation, the walks, workshop slots, rooms, and keeping Demo Day on schedule.
 
-      The role rotates so the logistics don’t fall to the same person for six weeks.
+      The role rotates so the logistics don’t fall to the same person throughout the cohort.
 
     image: 'weekly-loop-schedule.png'
 
@@ -76,7 +76,7 @@ sections:
 
       Build a wallet in the morning and try paying with it at a local shop. Hardware, merchants, and curious peers are all nearby.
 
-      Coming to Madeira means committing to six weeks in person. Everyone here has made room for the work.
+      Coming to Madeira means committing to the full duration of the cohort in person. Everyone here has made room for the work.
 
   - id: 'target-audience'
     title: 'Who Should Apply?'
