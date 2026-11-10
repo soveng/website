@@ -832,3 +832,5 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 }
 .dialogos:not(.dialogos-ready) { height:auto; }
 .dialogos:not(.dialogos-ready) .dialogos-stage { position:relative; top:0; height:auto; padding:40px 0; }
+
+.dialogos-copy strong { font-weight:700; color:var(--bone); }

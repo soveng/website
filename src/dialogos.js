@@ -13,7 +13,7 @@ if (section) {
   const ease = x => {x=clamp(x);return x*x*(3-2*x);};
   const mix = (a,b,t) => a+(b-a)*t;
   const points=[], edges=[], lookup=new Map();
-  let seed=42, frame=0, visible=false;
+  let seed=42, frame=0, visible=false, registered=false;
   const random=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
   for(const path of portraitPaths){
     let previous;
@@ -23,7 +23,7 @@ if (section) {
 
       if(id===undefined){
         id=points.length;lookup.set(key,id);
-        points.push({...portraitPoint(coordinate),appear:.32+random()*.28,r:1.05+random()*.7});
+        points.push({...portraitPoint(coordinate),appear:.32+random()*.28,r:.8+random()*.5});
       }
       if(previous!==undefined)edges.push({a:previous,b:id});
       previous=id;
@@ -45,6 +45,50 @@ if (section) {
     for(const id of [edge.a,edge.b])points[id].appear=Math.min(points[id].appear,edge.start-.10);
   });
   const background=Array.from({length:42},()=>({x:35+random()*440,y:40+random()*420,r:.5+random()*.6,appear:.24+random()*.40}));
+
+  // Register every star on visible ink, rather than a second interpretation
+  // of the face. Drawing and raster stages share precisely the same pixels.
+  const ink = document.createElement('canvas');
+  ink.width=ink.height=510;
+  const inkContext=ink.getContext('2d',{willReadFrequently:true});
+  function registerSketch(){
+    if(registered||!outline.complete||!outline.naturalWidth)return;
+    const width=outline.naturalWidth*510/outline.naturalHeight;
+    inkContext.drawImage(outline,(510-width)/2,0,width,510);
+    const pixels=inkContext.getImageData(0,0,510,510).data;
+    for(const point of points){
+      let nearest=null,best=Infinity;
+      for(let y=Math.max(0,Math.round(point.y)-16);y<Math.min(510,point.y+17);y++){
+        for(let x=Math.max(0,Math.round(point.x)-16);x<Math.min(510,point.x+17);x++){
+          const index=(y*510+x)*4;
+          const brightness=(pixels[index]+pixels[index+1]+pixels[index+2])/3;
+          if(brightness<65)continue;
+          const distance=(x-point.x)**2+(y-point.y)**2;
+          if(distance<best){best=distance;nearest={x,y};}
+        }
+      }
+      point.onInk=Boolean(nearest);
+      if(nearest)Object.assign(point,nearest);
+    }
+    const spaced=[];
+    for(const point of [...points.filter(p=>p.anchor!==undefined),...points.filter(p=>p.anchor===undefined)]){
+      point.showStar=point.onInk&&(point.anchor!==undefined||!spaced.some(other=>Math.hypot(point.x-other.x,point.y-other.y)<7));
+      if(point.showStar)spaced.push(point);
+    }
+    registered=true;
+    requestDraw();
+  }
+  function trace(a,b,amount){
+    if(amount<=0||!registered)return;
+    const length=Math.hypot(b.x-a.x,b.y-a.y);
+    if(length<.1)return;
+    const nx=-(b.y-a.y)/length*5,ny=(b.x-a.x)/length*5;
+    const end={x:mix(a.x,b.x,amount),y:mix(a.y,b.y,amount)};
+    ctx.save();ctx.beginPath();
+    ctx.moveTo(a.x+nx,a.y+ny);ctx.lineTo(end.x+nx,end.y+ny);
+    ctx.lineTo(end.x-nx,end.y-ny);ctx.lineTo(a.x-nx,a.y-ny);
+    ctx.closePath();ctx.clip();ctx.drawImage(ink,0,0);ctx.restore();
+  }
 
   function line(a,b,amount,alpha,width=1){
     if(amount<=0||alpha<=0)return;
@@ -75,18 +119,18 @@ if (section) {
       return {x:a===undefined?x:mix((a<3?140:370)+(a%3-1)*22,x,depart),y:a===undefined?y:mix(220,y,depart)};
     });
     // Once the six seeds arrive, every star stays fixed. Only the drawing tip moves.
-    edges.forEach(edge=>line(positions[edge.a],positions[edge.b],clamp((p-edge.start)/edge.duration),.76,1.05));
+    edges.forEach(edge=>trace(positions[edge.a],positions[edge.b],clamp((p-edge.start)/edge.duration)));
     background.forEach(star=>{
       ctx.fillStyle=`rgba(225,213,191,${ease((p-star.appear)/.10)*.28})`;
       ctx.beginPath();ctx.arc(star.x,star.y,star.r,0,Math.PI*2);ctx.fill();
     });
     points.forEach((point,i)=>{
       const anchor=point.anchor!==undefined;
-      const alpha=anchor?1:ease((p-point.appear)/.09);
+      const alpha=anchor?1:(point.showStar?ease((p-point.appear)/.09):0);
       if(!alpha)return;
       const pos=positions[i],r=anchor?mix(4,2.3,depart):point.r;
       const glow=ctx.createRadialGradient(pos.x,pos.y,0,pos.x,pos.y,r*4);
-      glow.addColorStop(0,`rgba(232,221,200,${alpha*.22})`);glow.addColorStop(1,'rgba(232,221,200,0)');
+      glow.addColorStop(0,`rgba(232,221,200,${alpha*.12})`);glow.addColorStop(1,'rgba(232,221,200,0)');
       ctx.fillStyle=glow;ctx.beginPath();ctx.arc(pos.x,pos.y,r*4,0,Math.PI*2);ctx.fill();
       ctx.fillStyle=`rgba(242,234,216,${alpha})`;ctx.beginPath();ctx.arc(pos.x,pos.y,r,0,Math.PI*2);ctx.fill();
       if(anchor&&depart>.4){
@@ -100,10 +144,12 @@ if (section) {
     const bridgeIn=bridgeReady?ease((p-.64)/.16):0;
     const outlineIn=outlineReady?ease((p-.79)/.09):0;
     const sketchIn=sketchReady?ease((p-.90)/.08):0;
-    section.style.setProperty('--bridge-opacity',bridgeIn*(1-outlineIn)*(1-sketchIn));
+    // The half-drawn stage uses the same registered ink as the full outline.
+    // A separate generated intermediate subtly changes facial proportions.
+    section.style.setProperty('--bridge-opacity',.55*bridgeIn*(1-outlineIn)*(1-sketchIn));
     section.style.setProperty('--line-opacity',outlineIn*(1-sketchIn));
     section.style.setProperty('--sketch-opacity',sketchIn);
-    section.style.setProperty('--constellation-opacity',1-Math.max(bridgeIn,outlineIn,sketchIn));
+    section.style.setProperty('--constellation-opacity',(1-.55*bridgeIn)*(1-outlineIn)*(1-sketchIn));
     section.style.setProperty('--portrait-name',ease((p-.73)/.10));
   }
   function requestDraw(){if(!frame)frame=requestAnimationFrame(draw);}
@@ -111,7 +157,8 @@ if (section) {
   addEventListener('scroll',()=>{if(visible&&!reduced.matches)requestDraw();},{passive:true});
   addEventListener('resize',requestDraw);reduced.addEventListener('change',requestDraw);
   sketch.addEventListener('load',requestDraw,{once:true});
-  outline.addEventListener('load',requestDraw,{once:true});
+  outline.addEventListener('load',registerSketch,{once:true});
   bridge.addEventListener('load',requestDraw,{once:true});
+  registerSketch();
   section.classList.add('dialogos-ready');requestDraw();
 }
