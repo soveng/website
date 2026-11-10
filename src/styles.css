@@ -802,9 +802,9 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .dialogos-portrait { margin:0; }
 .dialogos-art { position:relative; width:100%; aspect-ratio:1; }
 .dialogos-art canvas { display:none; width:100%; height:100%; }
-.dialogos-art img { width:100%; height:100%; object-fit:contain; filter:grayscale(1); }
+.dialogos-fallback { width:100%; height:100%; color:var(--bone); }
 .dialogos-ready canvas { display:block; }
-.dialogos-ready .dialogos-art img { display:none; }
+.dialogos-ready .dialogos-fallback { display:none; }
 .dialogos-portrait figcaption { text-align:center; font:12px/1.5 var(--mono); color:var(--dim); }
 .dialogos-ready figcaption { opacity:var(--portrait-name,0); }
 .dialogos-portrait a:focus-visible { outline:1px solid var(--bone); outline-offset:6px; }
