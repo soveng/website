@@ -794,7 +794,7 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .finale-main > .cohort-signup + .upcoming-cohorts { margin-top:clamp(80px,8vw,120px); }
 
 /* Dialogue becomes a constellation, then a portrait. */
-.dialogos { position:relative; height:240svh; margin:40px 0 100px; scroll-margin-top:90px; }
+.dialogos { position:relative; height:280svh; margin:40px 0 100px; scroll-margin-top:90px; }
 .dialogos-stage { position:sticky; top:80px; min-height:calc(100svh - 80px); display:grid; grid-template-columns:1fr 1.15fr; gap:5vw; align-items:center; }
 .dialogos-copy h2 { font-size:clamp(48px,6vw,90px); margin:0 0 12px; }
 .dialogos-subtitle { color:var(--bone); font-size:clamp(26px,3vw,40px); margin:0 0 32px; }
@@ -802,14 +802,17 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .dialogos-portrait { margin:0; }
 .dialogos-art { position:relative; width:100%; aspect-ratio:1; }
 .dialogos-art canvas { display:none; width:100%; height:100%; }
-.dialogos-fallback { width:100%; height:100%; color:var(--bone); }
+.dialogos-lines,.dialogos-sketch { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; mask-image:radial-gradient(ellipse at center,black 45%,transparent 73%); }
 .dialogos-ready canvas { display:block; }
-.dialogos-ready .dialogos-fallback { display:none; }
+.dialogos-lines { opacity:0; }
+.dialogos-ready .dialogos-lines { opacity:var(--line-opacity,0); }
+.dialogos-ready .dialogos-sketch { opacity:var(--sketch-opacity,0); }
+.dialogos-ready canvas { opacity:var(--constellation-opacity,1); }
 .dialogos-portrait figcaption { text-align:center; font:12px/1.5 var(--mono); color:var(--dim); }
 .dialogos-ready figcaption { opacity:var(--portrait-name,0); }
 .dialogos-portrait a:focus-visible { outline:1px solid var(--bone); outline-offset:6px; }
 @media(max-width:700px) {
-  .dialogos { height:240svh; margin:20px 0 60px; }
+  .dialogos { height:280svh; margin:20px 0 60px; }
   .dialogos-stage { top:76px; min-height:0; height:calc(100svh - 86px); display:flex; flex-direction:column; justify-content:center; gap:12px; }
   .dialogos-copy { order:2; }
   .dialogos-copy h2 { font-size:38px; margin-bottom:4px; }

@@ -1,0 +1,4 @@
+Generated using the built-in imagegen tool from john-vervaeke-pencil.png.
+
+Prompt:
+Edit this supplied pencil portrait into an intermediate contour line drawing for an animation. Preserve EXACTLY the same canvas aspect ratio, framing, head size, position, facial proportions, pose, expression, glasses and shoulder placement, so this drawing can dissolve into the original without changing the face. Replace the shaded pencil rendering with sparse, delicate warm ivory contour lines on a plain near-black background. Draw the outer silhouette, hairline, glasses rims, eyes, nose, smiling mouth and teeth, beard outline and a few selective beard and hair strokes. No tonal shading, filled face, crosshatching or dense texture. The interior of the face should remain nearly black, with just the thin drawing lines. Keep the likeness precise. No stars, text, border or signature. Keep the complete head and the same breathing room as the reference.

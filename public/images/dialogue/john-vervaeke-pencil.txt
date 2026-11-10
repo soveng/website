@@ -1,0 +1,4 @@
+Generated using the built-in imagegen tool from the user-supplied portrait on 2026-11-10.
+
+Prompt:
+Create a refined pencil sketch based on the supplied portrait. Preserve the person's recognizable facial features, glasses, beard, smile and head angle. Use delicate ivory pencil strokes and subtle crosshatching on a plain near-black background, suited to a dark website. Remove the microphone, equipment and Earth background. Head-and-shoulders composition with the complete head visible and modest breathing room around it. Let the shoulders fade softly into the dark background. No text, signature, border or stars.

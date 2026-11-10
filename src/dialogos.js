@@ -4,6 +4,8 @@ const section = document.querySelector('.dialogos');
 if (section) {
   const canvas = section.querySelector('canvas');
   const ctx = canvas.getContext('2d');
+  const sketch = section.querySelector('.dialogos-sketch');
+  const outline = section.querySelector('.dialogos-lines');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const short = matchMedia('(max-width:700px) and (max-height:650px)');
   const clamp = x => Math.max(0,Math.min(1,x));
@@ -91,11 +93,20 @@ if (section) {
         line({x:pos.x,y:pos.y-r*3},{x:pos.x,y:pos.y+r*3},1,alpha*depart*.4,.65);
       }
     });
-    section.style.setProperty('--portrait-name',ease((p-.85)/.10));
+    const sketchReady=sketch.complete&&sketch.naturalWidth>0;
+    const outlineReady=outline.complete&&outline.naturalWidth>0;
+    const outlineIn=outlineReady?ease((p-.61)/.12):0;
+    const sketchIn=sketchReady?ease((p-.83)/.12):0;
+    section.style.setProperty('--line-opacity',outlineIn*(1-sketchIn));
+    section.style.setProperty('--sketch-opacity',sketchIn);
+    section.style.setProperty('--constellation-opacity',1-Math.max(outlineIn,sketchIn));
+    section.style.setProperty('--portrait-name',ease((p-.71)/.10));
   }
   function requestDraw(){if(!frame)frame=requestAnimationFrame(draw);}
   new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible)requestDraw();}).observe(section);
   addEventListener('scroll',()=>{if(visible&&!reduced.matches)requestDraw();},{passive:true});
   addEventListener('resize',requestDraw);reduced.addEventListener('change',requestDraw);
+  sketch.addEventListener('load',requestDraw,{once:true});
+  outline.addEventListener('load',requestDraw,{once:true});
   section.classList.add('dialogos-ready');requestDraw();
 }
