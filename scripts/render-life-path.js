@@ -35,7 +35,7 @@ export function renderLifePath() {
           <g data-life-complete opacity="0">${artwork}</g>
         </svg>
       </div>
-      <figcaption>At any moment, the question is what to build next.<span class="life-path-credit">Adapted from <a href="https://twitter.com/waitbutwhy/status/1367871165319049221" target="_blank" rel="noopener noreferrer">Tim Urban · Wait But Why</a></span></figcaption>
+      <figcaption>At any moment, the question is: what to build next?<span class="life-path-credit">Adapted from <a href="https://twitter.com/waitbutwhy/status/1367871165319049221" target="_blank" rel="noopener noreferrer">Tim Urban · Wait But Why</a></span></figcaption>
     </figure>
   </section><script type="module" src="/src/life-path.js"></script>`;
 }
