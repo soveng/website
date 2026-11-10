@@ -21,11 +21,9 @@ sections:
     image: 'genesis-block.png'
     float: 'right'
     content: |
-      Bitcoin, Lightning, and Nostr push power to the edge. Users hold keys. Rules live in code. Operators can leave and rejoin without begging a platform.
+      People should control their keys and be able to take their data elsewhere. They should be able to inspect the rules of a system and keep using it if its original developers walk away.
 
-      That leads to concrete design choices. We keep dependencies lean, make state easy to inspect, and try to keep exit costs low. People should be able to audit the system and take their data elsewhere.
-
-      That is what we mean by *Freedom Tech*. Build things so users do not need to trust your mood, your company, or your funding round.
+      We call this *Freedom Tech*. The design should reduce how much users have to trust the people running it.
 
   - id: 'solved-by-walking'
     title: 'Solved by Walking'
@@ -33,11 +31,9 @@ sections:
     image: 'solvitur-ambulando.jpeg'
     float: 'left'
     content: |
-      Hard problems usually need more than one mind. Put serious builders in the same place for long enough and the ideas get sharper. People challenge each other, borrow from each other, and change course faster.
+      Someone else can notice an assumption you didn’t know you were making. A long walk gives you time to follow that thought and reconsider what you’re building.
 
-      Walking helps. The pace changes. People talk longer. Side-by-side conversation feels different from a room with chairs and a projector. Madeira gives us plenty of paths for that.
-
-      Friday puts pressure on the process. Six minutes to show. Two minutes to discuss. Then the next person goes.
+      Walking together also changes who you talk to. You have time to work through a question with someone whose experience is very different from yours.
 
   - id: 'explorers-of-a-new-frontier'
     title: 'Bell Labs ∩ School of Athens'
@@ -45,11 +41,9 @@ sections:
     image: 'bell-labs.jpeg'
     float: 'right'
     content: |
-      The ship on our logo is there on purpose. This kind of work rewards people who can tolerate uncertainty, try strange ideas, and keep moving when the map is incomplete.
+      A place to think together and build together. Conversations have time to develop, and the people who have an idea are there to help turn it into a working prototype.
 
-      We look for builders who would rather test a hard idea than explain forever why it might work.
-
-      Predictable schedules and low-risk projects have plenty of homes already. Sovereign Engineering is for people who want to push further.
+      We want room for strange ideas and questions we don’t yet know how to answer. Building helps us investigate them. So does talking them through with someone who sees the problem differently.
 
   - id: 'in-person-high-bandwidth'
     title: 'In Person'
@@ -57,11 +51,9 @@ sections:
     image: 'soveng-shirt.jpeg'
     float: 'left'
     content: |
-      Being in the same place matters. Shared meals, shared walks, and shared deadlines create context fast. Remote calls are useful. They are not the same thing.
+      When you spend several weeks together, you get to know what other people are working on and where they’re stuck. A conversation can continue over lunch or pick up again the next morning.
 
-      Madeira also lets people test things in the real world. See the [BTCMap](https://btcmap.org/community/free-madeira) or [FREE Madeira](https://freemadeira.org/). You can build a wallet, walk outside, and try to pay with it.
-
-      That short loop matters. Hardware, merchants, and curious peers are close enough to reach on foot.
+      That shared context makes it easier to ask for help, disagree, and work through an unfinished thought without having to explain everything from the beginning.
 
   - id: 'bias-for-action'
     title: 'Bias for Action'
@@ -70,13 +62,11 @@ sections:
     float: 'right'
     link: '/concept'
     content: |
-      We prototype first. Critique comes after there is something real to look at. Rough code is fine if it teaches the cohort something useful.
+      We talk through ideas, build something, and bring it back to the conversation. A prototype gives everyone something specific to question.
 
-      That habit has produced real [cohort projects](/projects), from *Blossom* to *ZapStore*. A lot of them started as a conversation, got built the same week, and shipped before the weekend ended.
+      Rough code is fine if it helps us learn. Getting a small part working lets other people try it and tell us what we missed.
 
-      Speed matters here because feedback matters. It is better to ship a thin slice on Friday than defend a grand plan for six weeks.
-
-      Want to see how this rapid loop plays out week by week? Explore the full cadence in our [Concept](/concept) section.
+      You can see the [cohort projects](/projects), including *Blossom* and *Zapstore*, or read how we organize the week on the [Concept](/concept) page.
 
   - id: 'cypherpunks-write-code'
     title: 'Cypherpunks Write Code'
@@ -84,9 +74,9 @@ sections:
     image: 'cypherpunks-write-code.jpeg'
     float: 'left'
     content: |
-      *"What does it mean to build it right?"* It means writing code users can verify, fork, and leave. It means choosing architectures that reduce trust and survive contact with hostile environments.
+      Publish the source. Make it readable. Keep dependencies manageable so other people can understand and maintain what you build.
 
-      We prize lean binaries, readable source, and simple dependency graphs. Users should be able to inspect the hull before they get on the ship.
+      Choose architectures that reduce trust and account for hostile conditions. People should be able to check how the software works for themselves.
 
   - id: 'no-solutions'
     title: 'No Solutions'
@@ -105,11 +95,11 @@ sections:
     float: 'left'
     link: '/books'
     content: |
-      Building self-sovereign systems takes time. Endurance matters more than hype.
+      The cohort ends. Maintaining what you built can take years. We care about whether someone can understand the code, fix it, and keep using it after its original authors have moved on.
 
-      Good tools often take years to harden. We favor small teams, battle-tested primitives, and software that can still compile long after the current fashion cycle ends.
+      We favor small teams and well-tested primitives that give future maintainers less to untangle.
 
-      The mission is simple: **fix the money, fix the internet**.
+      **Fix the money, fix the internet.**
     afterContent: |
       <p class="mt-6"><a href="/concept">Next: Explore the Concept →</a></p>
 
