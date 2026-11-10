@@ -96,7 +96,7 @@ sections:
     content: |
       Trade-offs do not go away. The job is to choose the ones that protect sovereignty, reduce trust, and keep future builders from getting boxed in.
 
-      The [No Solutions podcast](https://castr.me/npub1n00yy9y3704drtpph5wszen64w287nquftkcwcjv7gnnkpk2q54s73000n) records the kinds of conversations that happen during the cohorts. People disagree, test ideas, and keep going until something useful falls out.
+      The [No Solutions podcast](https://nosolutions.show) records the kinds of conversations that happen during the cohorts. People disagree, test ideas, and keep going until something useful falls out.
 
   - id: 'endurance'
     title: 'Endurance'
