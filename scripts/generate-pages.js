@@ -86,12 +86,13 @@ export function generatePages() {
     <header class="podcast-hero">
       <img src="/images/nosolutions-cover.jpg" width="600" height="600" alt="No Solutions dialogue artwork">
       <div><h1>No<br>Solutions.</h1><p class="content-lead">Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.</p>
-      <div class="content-links"><a href="/dialogues.xml">Subscribe via RSS ↗</a><a href="https://nosolutions.show">nosolutions.show ↗</a><a href="https://podcastindex.org/podcast/7206062">Podcast Index ↗</a><a href="https://njump.to/nosolutions@sovereignengineering.io">Nostr ↗</a></div></div>
+      </div>
     </header>
     <figure class="podcast-quote">
       <blockquote cite="https://njump.to/nevent1qqsyeue9x26zdcrz2wx8stvl3kmxw42clqd5n4jgpuvxhemm6q8fyugprfmhxue69uhhq7tjv9kkjepwve5kzar2v9nzucm0d5hsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqq3tszvt290"><p>“Once it left its AI psychosis phase it has had some good moments.”</p></blockquote>
       <figcaption>— <a href="https://njump.to/nevent1qqsyeue9x26zdcrz2wx8stvl3kmxw42clqd5n4jgpuvxhemm6q8fyugprfmhxue69uhhq7tjv9kkjepwve5kzar2v9nzucm0d5hsygpm7rrrljungc6q0tuh5hj7ue863q73qlheu4vywtzwhx42a7j9n5psgqqqq3tszvt290">fiatjaf ↗</a></figcaption>
     </figure>
+    <div class="content-links podcast-subscribe"><a href="/dialogues.xml">Subscribe via RSS ↗</a><a href="https://nosolutions.show">nosolutions.show ↗</a><a href="https://podcastindex.org/podcast/7206062">Podcast Index ↗</a><a href="https://njump.to/nosolutions@sovereignengineering.io">Nostr ↗</a></div>
     <section aria-labelledby="episodes"><div class="archive-heading"><h2 id="episodes">Latest dialogues.</h2></div>
     <div class="episode-list">${episodeCards(episodes.slice(0, 3))}</div></section>
     <div class="podcast-bell-interlude"><div class="bell-scene">${bellArt}</div></div>

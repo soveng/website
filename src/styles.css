@@ -213,7 +213,7 @@ footer { min-height:90px; border-top:1px solid #282828; display:grid; grid-templ
 .archive-heading { display:flex; justify-content:space-between; align-items:end; gap:32px; padding-bottom:36px; }
 .archive-heading h2 { max-width:20ch; }
 .archive-heading .section-index { color:var(--dim); }
-.podcast-quote { margin:0 0 100px; padding:40px 0 40px clamp(24px,4vw,64px); border-left:2px solid var(--red); }
+.podcast-quote { margin:0 0 32px; padding:40px 0 40px clamp(24px,4vw,64px); border-left:2px solid var(--red); }
 .podcast-quote blockquote { max-width:27ch; font:400 clamp(30px,4vw,56px)/1.15 var(--serif); letter-spacing:-.025em; }
 .podcast-quote figcaption { margin-top:24px; color:var(--dim); font:400 var(--type-label)/1.5 var(--mono); }
 .podcast-quote a { text-decoration:underline; text-underline-offset:5px; }
@@ -904,3 +904,5 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
   .site-menu-links h2 { margin-bottom:12px; }
   .site-menu-links a { font-size:26px; padding:7px 0; }
 }
+
+.content-links.podcast-subscribe { margin:0 0 100px; }
