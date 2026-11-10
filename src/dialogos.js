@@ -14,13 +14,13 @@ if (section) {
   const random=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
   for(const path of portraitPaths){
     let previous;
-    path.points.forEach((coordinate,i)=>{
+    path.points.forEach(coordinate=>{
       const key=coordinate.join(',');
       let id=lookup.get(key);
 
       if(id===undefined){
         id=points.length;lookup.set(key,id);
-        points.push({...portraitPoint(coordinate),appear:.22+random()*.10,r:1.05+random()*.7});
+        points.push({...portraitPoint(coordinate),appear:.43+random()*.36,r:1.05+random()*.7});
       }
       if(previous!==undefined)edges.push({a:previous,b:id});
       previous=id;
@@ -29,13 +29,19 @@ if (section) {
   // These same six stars persist all the way from the ellipses to the face.
   const anchors=[[286,474],[600,101],[818,481],[288,715],[630,702],[513,955]].map(p=>lookup.get(p.join(',')));
   anchors.forEach((id,i)=>{points[id].anchor=i;});
-  let totalLength=0;
-  edges.forEach(edge=>{
-    edge.start=totalLength;
-    totalLength+=Math.hypot(points[edge.b].x-points[edge.a].x,points[edge.b].y-points[edge.a].y);
-    edge.end=totalLength;
+  // Scatter the drawing order across the face instead of tracing it top to bottom.
+  // A handful of isolated strokes precedes the much later, fuller reveal.
+  for(let i=edges.length-1;i>0;i--){
+    const j=Math.floor(random()*(i+1));
+    [edges[i],edges[j]]=[edges[j],edges[i]];
+  }
+  edges.forEach((edge,i)=>{
+    edge.start=i<12?.38+i/12*.27:.68+(i-12)/(edges.length-12)*.25;
+    edge.duration=i<12?.025:.018;
+    // Both stars must have emerged before their connecting line begins.
+    for(const id of [edge.a,edge.b])points[id].appear=Math.min(points[id].appear,edge.start-.10);
   });
-  const background=Array.from({length:42},()=>({x:35+random()*440,y:40+random()*420,r:.5+random()*.6}));
+  const background=Array.from({length:42},()=>({x:35+random()*440,y:40+random()*420,r:.5+random()*.6,appear:.24+random()*.40}));
 
   function line(a,b,amount,alpha,width=1){
     if(amount<=0||alpha<=0)return;
@@ -66,15 +72,14 @@ if (section) {
       return {x:a===undefined?x:mix((a<3?140:370)+(a%3-1)*22,x,depart),y:a===undefined?y:mix(220,y,depart)};
     });
     // Once the six seeds arrive, every star stays fixed. Only the drawing tip moves.
-    const ink=clamp((p-.38)/.53)*totalLength;
-    edges.forEach(edge=>line(positions[edge.a],positions[edge.b],clamp((ink-edge.start)/(edge.end-edge.start)),.76,1.05));
+    edges.forEach(edge=>line(positions[edge.a],positions[edge.b],clamp((p-edge.start)/edge.duration),.76,1.05));
     background.forEach(star=>{
-      ctx.fillStyle=`rgba(225,213,191,${ease((p-.22)/.12)*.28})`;
+      ctx.fillStyle=`rgba(225,213,191,${ease((p-star.appear)/.10)*.28})`;
       ctx.beginPath();ctx.arc(star.x,star.y,star.r,0,Math.PI*2);ctx.fill();
     });
     points.forEach((point,i)=>{
       const anchor=point.anchor!==undefined;
-      const alpha=anchor?1:ease((p-point.appear)/.06);
+      const alpha=anchor?1:ease((p-point.appear)/.09);
       if(!alpha)return;
       const pos=positions[i],r=anchor?mix(4,2.3,depart):point.r;
       const glow=ctx.createRadialGradient(pos.x,pos.y,0,pos.x,pos.y,r*4);
@@ -86,7 +91,7 @@ if (section) {
         line({x:pos.x,y:pos.y-r*3},{x:pos.x,y:pos.y+r*3},1,alpha*depart*.4,.65);
       }
     });
-    section.style.setProperty('--portrait-name',ease((p-.73)/.12));
+    section.style.setProperty('--portrait-name',ease((p-.85)/.10));
   }
   function requestDraw(){if(!frame)frame=requestAnimationFrame(draw);}
   new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible)requestDraw();}).observe(section);
