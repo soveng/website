@@ -29,7 +29,7 @@ if (section) {
     });
   }
   // These same six stars persist all the way from the ellipses to the face.
-  const anchors=[[286,474],[600,101],[818,481],[288,715],[630,702],[513,955]].map(p=>lookup.get(p.join(',')));
+  const anchors=[[300,437],[588,100],[941,560],[231,792],[571,767],[443,1008]].map(p=>lookup.get(p.join(',')));
   anchors.forEach((id,i)=>{points[id].anchor=i;});
   // Scatter the drawing order across the face instead of tracing it top to bottom.
   // A handful of isolated strokes precedes the much later, fuller reveal.
