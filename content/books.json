@@ -12,6 +12,18 @@
     ]
   },
   {
+    "title": "On Dialogue",
+    "author": "David Bohm",
+    "description": "A case for deeper listening and creative dialogue as a way to share assumptions, recover meaning, and think together more clearly.",
+    "cover": "/images/books/on-dialogue.jpg",
+    "links": [
+      {
+        "name": "Read",
+        "url": "https://socraticdesignacademy.com/wp-content/uploads/2020/05/David-Bohm-On-Dialogue-.pdf"
+      }
+    ]
+  },
+  {
     "title": "The Cathedral and the Bazaar",
     "author": "Eric S. Raymond",
     "description": "Musings on Linux and Open Source by an Accidental Revolutionary.",
@@ -92,18 +104,6 @@
       {
         "name": "Read",
         "url": "https://archive.org/details/finiteinfinitega00carsrich"
-      }
-    ]
-  },
-  {
-    "title": "On Dialogue",
-    "author": "David Bohm",
-    "description": "A case for deeper listening and creative dialogue as a way to share assumptions, recover meaning, and think together more clearly.",
-    "cover": "/images/books/on-dialogue.jpg",
-    "links": [
-      {
-        "name": "Read",
-        "url": "https://socraticdesignacademy.com/wp-content/uploads/2020/05/David-Bohm-On-Dialogue-.pdf"
       }
     ]
   },
