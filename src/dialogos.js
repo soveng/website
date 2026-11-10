@@ -17,21 +17,25 @@ if (section) {
     path.points.forEach((coordinate,i)=>{
       const key=coordinate.join(',');
       let id=lookup.get(key);
-      const at=.40+(path.at-.40)*.85+i/(path.points.length-1)*.05;
+
       if(id===undefined){
         id=points.length;lookup.set(key,id);
-        const angle=random()*Math.PI*2, radius=Math.sqrt(random());
-        points.push({...portraitPoint(coordinate),cx:255+Math.cos(angle)*radius*190,cy:245+Math.sin(angle)*radius*180,at,r:1.15+random()*.9});
+        points.push({...portraitPoint(coordinate),appear:.22+random()*.10,r:1.05+random()*.7});
       }
-      if(previous!==undefined)edges.push({a:previous,b:id,at});
+      if(previous!==undefined)edges.push({a:previous,b:id});
       previous=id;
     });
   }
   // These same six stars persist all the way from the ellipses to the face.
-  const anchors=[[287,440],[480,111],[821,418],[299,454],[620,672],[533,933]].map(p=>lookup.get(p.join(',')));
-  const constellation=[[103,173],[211,102],[373,153],[179,282],[365,301],[269,400]];
-  anchors.forEach((id,i)=>{points[id].anchor=i;[points[id].cx,points[id].cy]=constellation[i];});
-  const earlyEdges=[[0,1],[1,2],[0,3],[3,4],[4,2],[3,5]];
+  const anchors=[[286,474],[600,101],[818,481],[288,715],[630,702],[513,955]].map(p=>lookup.get(p.join(',')));
+  anchors.forEach((id,i)=>{points[id].anchor=i;});
+  let totalLength=0;
+  edges.forEach(edge=>{
+    edge.start=totalLength;
+    totalLength+=Math.hypot(points[edge.b].x-points[edge.a].x,points[edge.b].y-points[edge.a].y);
+    edge.end=totalLength;
+  });
+  const background=Array.from({length:42},()=>({x:35+random()*440,y:40+random()*420,r:.5+random()*.6}));
 
   function line(a,b,amount,alpha,width=1){
     if(amount<=0||alpha<=0)return;
@@ -49,7 +53,7 @@ if (section) {
     frame=0;
     const rect=section.getBoundingClientRect();
     const p=reduced.matches||short.matches?1:clamp(-rect.top/(section.offsetHeight-innerHeight));
-    const depart=ease((p-.10)/.20), morph=ease((p-.40)/.37);
+    const depart=ease((p-.08)/.22);
     const box=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);
     const width=Math.round(box.width*dpr),height=Math.round(box.height*dpr);
     if(canvas.width!==width||canvas.height!==height){canvas.width=width;canvas.height=height;}
@@ -58,14 +62,19 @@ if (section) {
     bubble(370,-1,(1-ease((p-.10)/.13))*.8);
     const positions=points.map(point=>{
       const a=point.anchor;
-      const x=mix(point.cx,point.x,morph),y=mix(point.cy,point.y,morph);
+      const {x,y}=point;
       return {x:a===undefined?x:mix((a<3?140:370)+(a%3-1)*22,x,depart),y:a===undefined?y:mix(220,y,depart)};
     });
-    earlyEdges.forEach(([a,b],i)=>line(positions[anchors[a]],positions[anchors[b]],ease((p-.24-i*.012)/.09),(1-ease((p-.51)/.22))*.55));
-    edges.forEach(edge=>line(positions[edge.a],positions[edge.b],ease((p-edge.at)/.07),.76,1.05));
+    // Once the six seeds arrive, every star stays fixed. Only the drawing tip moves.
+    const ink=clamp((p-.38)/.53)*totalLength;
+    edges.forEach(edge=>line(positions[edge.a],positions[edge.b],clamp((ink-edge.start)/(edge.end-edge.start)),.76,1.05));
+    background.forEach(star=>{
+      ctx.fillStyle=`rgba(225,213,191,${ease((p-.22)/.12)*.28})`;
+      ctx.beginPath();ctx.arc(star.x,star.y,star.r,0,Math.PI*2);ctx.fill();
+    });
     points.forEach((point,i)=>{
       const anchor=point.anchor!==undefined;
-      const alpha=anchor?1:ease((p-point.at+.025)/.065);
+      const alpha=anchor?1:ease((p-point.appear)/.06);
       if(!alpha)return;
       const pos=positions[i],r=anchor?mix(4,2.3,depart):point.r;
       const glow=ctx.createRadialGradient(pos.x,pos.y,0,pos.x,pos.y,r*4);
