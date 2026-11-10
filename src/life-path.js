@@ -20,6 +20,7 @@ if(section){
     const rect=section.getBoundingClientRect();
     if(rect.bottom<0||rect.top>innerHeight)return;
     const p=reduced.matches||short.matches?1:clamp(-rect.top/Math.max(1,section.offsetHeight-innerHeight));
+    section.style.setProperty('--life-start-pulse',String(1-ease((p-.06)/.12)));
     const history=ease(p/.23),chosen=ease((p-.12)/.30),possibilities=ease((p-.52)/.30),finish=ease((p-.83)/.13);
     todayLabel.setAttribute('opacity',String(.65+.35*ease(p/.08)));
     past.setAttribute('width',String(history*670));
@@ -39,7 +40,10 @@ if(section){
     section.style.setProperty('--life-question',String(ease((p-.52)/.15)));
   }
   function schedule(){if(!frame)frame=requestAnimationFrame(draw);}
-  new IntersectionObserver(schedule).observe(section);
+  new IntersectionObserver(([entry])=>{
+    section.style.setProperty('--life-start-play',entry.isIntersecting?'running':'paused');
+    schedule();
+  }).observe(section);
   addEventListener('scroll',schedule,{passive:true});
   addEventListener('resize',schedule);addEventListener('pageshow',schedule);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)schedule();});

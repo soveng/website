@@ -863,3 +863,17 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
   .life-path-ready .life-path-animation { display:none; }
   .life-path-ready figcaption { opacity:1; }
 }
+
+.life-start { color:#e64abc; }
+.life-start-pulse-wrap { opacity:var(--life-start-pulse,1); }
+.life-start-pulse { transform-box:fill-box; transform-origin:center; animation:life-start-pulse 2.4s ease-out infinite; animation-play-state:var(--life-start-play,paused); }
+@keyframes life-start-pulse {
+  from { transform:scale(.65); opacity:.7; }
+  to { transform:scale(1.9); opacity:0; }
+}
+@media(prefers-reduced-motion:reduce) { .life-start-pulse { animation:none; opacity:0; } }
+
+.life-path-credit { display:block; margin-top:14px; color:#88837c; font-size:11px; letter-spacing:0; }
+.life-path-credit a { text-decoration:underline; text-decoration-color:#514d47; text-underline-offset:3px; }
+.life-path-credit a:hover { color:var(--bone); }
+.life-path-credit a:focus-visible { outline:1px solid var(--bone); outline-offset:4px; }
