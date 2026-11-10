@@ -6,6 +6,7 @@ if (section) {
   const ctx = canvas.getContext('2d');
   const sketch = section.querySelector('.dialogos-sketch');
   const outline = section.querySelector('.dialogos-lines');
+  const bridge = section.querySelector('.dialogos-bridge');
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const short = matchMedia('(max-width:700px) and (max-height:650px)');
   const clamp = x => Math.max(0,Math.min(1,x));
@@ -22,7 +23,7 @@ if (section) {
 
       if(id===undefined){
         id=points.length;lookup.set(key,id);
-        points.push({...portraitPoint(coordinate),appear:.43+random()*.36,r:1.05+random()*.7});
+        points.push({...portraitPoint(coordinate),appear:.32+random()*.28,r:1.05+random()*.7});
       }
       if(previous!==undefined)edges.push({a:previous,b:id});
       previous=id;
@@ -38,7 +39,7 @@ if (section) {
     [edges[i],edges[j]]=[edges[j],edges[i]];
   }
   edges.forEach((edge,i)=>{
-    edge.start=i<12?.38+i/12*.27:.68+(i-12)/(edges.length-12)*.25;
+    edge.start=i<12?.36+i/12*.13:.50+(i-12)/(edges.length-12)*.15;
     edge.duration=i<12?.025:.018;
     // Both stars must have emerged before their connecting line begins.
     for(const id of [edge.a,edge.b])points[id].appear=Math.min(points[id].appear,edge.start-.10);
@@ -95,12 +96,15 @@ if (section) {
     });
     const sketchReady=sketch.complete&&sketch.naturalWidth>0;
     const outlineReady=outline.complete&&outline.naturalWidth>0;
-    const outlineIn=outlineReady?ease((p-.61)/.12):0;
-    const sketchIn=sketchReady?ease((p-.83)/.12):0;
+    const bridgeReady=bridge.complete&&bridge.naturalWidth>0;
+    const bridgeIn=bridgeReady?ease((p-.64)/.16):0;
+    const outlineIn=outlineReady?ease((p-.79)/.09):0;
+    const sketchIn=sketchReady?ease((p-.90)/.08):0;
+    section.style.setProperty('--bridge-opacity',bridgeIn*(1-outlineIn)*(1-sketchIn));
     section.style.setProperty('--line-opacity',outlineIn*(1-sketchIn));
     section.style.setProperty('--sketch-opacity',sketchIn);
-    section.style.setProperty('--constellation-opacity',1-Math.max(outlineIn,sketchIn));
-    section.style.setProperty('--portrait-name',ease((p-.71)/.10));
+    section.style.setProperty('--constellation-opacity',1-Math.max(bridgeIn,outlineIn,sketchIn));
+    section.style.setProperty('--portrait-name',ease((p-.73)/.10));
   }
   function requestDraw(){if(!frame)frame=requestAnimationFrame(draw);}
   new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible)requestDraw();}).observe(section);
@@ -108,5 +112,6 @@ if (section) {
   addEventListener('resize',requestDraw);reduced.addEventListener('change',requestDraw);
   sketch.addEventListener('load',requestDraw,{once:true});
   outline.addEventListener('load',requestDraw,{once:true});
+  bridge.addEventListener('load',requestDraw,{once:true});
   section.classList.add('dialogos-ready');requestDraw();
 }
