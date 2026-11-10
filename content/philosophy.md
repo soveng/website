@@ -40,7 +40,7 @@ sections:
       Friday puts pressure on the process. Six minutes to show. Two minutes to discuss. Then the next person goes.
 
   - id: 'explorers-of-a-new-frontier'
-    title: 'Explorers of a New Frontier'
+    title: 'Bell Labs ∩ School of Athens'
     quote_section: 'Explorers of a New Frontier' # References philosophy-quotes.json
     image: 'bell-labs.jpeg'
     float: 'right'
