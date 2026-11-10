@@ -23,7 +23,7 @@ sections:
 
       **[The Weekly Loop](#weekly-loop)**: A weekly cadence that keeps projects moving.
 
-      **[The Walks](#walks)**: Long conversations on foot. Good ideas survive contact with other minds.
+      **[The Walks](#walks)**: Long conversations on foot, with time to talk through what you’re working on.
 
       **[The Demo Days](#demo-day)**: Friday is for demos. Everyone shows their work. Shipping is mandatory.
 
@@ -41,11 +41,9 @@ sections:
   - id: 'walks'
     title: 'The Walks'
     content: |
-      The walks are part of the work. They are light to moderate hikes, long enough for real conversation and easy enough that people can keep talking.
+      We take long walks together. There’s time to talk through what you’re working on, ask questions, and change your mind.
 
-      The change of pace helps. People mix naturally, talk longer, and say things they would not say in a room with a screen on the wall.
-
-      Madeira gives the cohort plenty of paths for that kind of thinking.
+      The hikes are light to moderate, so people can keep talking along the way. Madeira has plenty of paths to choose from. Walking gives you a chance to talk with different people, away from screens.
     image: 'walking.jpeg'
     float: 'right'
 
@@ -54,24 +52,19 @@ sections:
     content: |
       On Friday afternoons, the cohort gathers to **show whatever runs**. You must demo something new, whether it extends an existing project or starts from scratch.
 
-      **Format**: Six minutes of demo time. Two minutes of discussion. With 20 or more demos, we take short breaks after every 6 or 7 presentations.
+      Six minutes of demo time. Two minutes of discussion. With 20 or more demos, we take short breaks after every 6 or 7 presentations.
 
-      **Why it matters**: Demo Day kills hand-waving. It forces people to cut scope, make choices, and show the state of the work in public.
+      Having to demo on Friday forces you to cut scope and get something working. Everyone in the cohort sees where you’re at.
 
-      **Afterwards**: We usually end with a [beefsteak-style](https://archive.is/S3LjP) standing barbecue. Friends and family are welcome.
-
-      **Result**: The demos give us regular checkpoints. The work leaves a trail.
+      Afterwards, we usually end with a [beefsteak-style](https://archive.is/S3LjP) standing barbecue. Friends and family are welcome.
     image: 'demo-day.jpeg'
 
   - id: 'weekly-captains'
     title: 'The Captains'
     content: |
-      Each week has a captain. The captain keeps the week moving and handles the practical work that would otherwise fall through the cracks.
+      Each week, a different captain handles the practicalities: Monday’s orientation, the walks, workshop slots, rooms, and keeping Demo Day on schedule.
 
-      **Captain Responsibilities**:
-      Set the pace on the walks, keep Monday on track, find time slots for workshops, sort out rooms, and keep Friday moving.
-
-      **The Rotation**: The role rotates every week. Leadership gets shared. Logistics do not pile up on one person.
+      The role rotates so the logistics don’t fall to the same person for six weeks.
 
     image: 'weekly-loop-schedule.png'
 
@@ -79,25 +72,22 @@ sections:
     title: 'The Environment'
     image: 'madeira.jpg'
     content: |
-      Madeira is a **Bitcoin-friendly proving ground**. Thanks to FREE Madeira, there are [150+ merchants](https://btcmap.org/community/free-madeira/merchants) accepting Bitcoin. Paying in sats is normal here.
+      Thanks to FREE Madeira, there are [150+ merchants](https://btcmap.org/community/free-madeira/merchants) accepting Bitcoin. Paying in sats is normal here.
 
-      **Off the Record, In Person**: The cohort gets real privacy. People can test ideas before the whole internet piles on.
+      Build a wallet in the morning and try paying with it at a local shop. Hardware, merchants, and curious peers are all nearby.
 
-      **Alpha-Testing the Future**: Build a wallet and try paying with it at a local shop. Hardware, merchants, and curious peers are all nearby.
-
-      **The Filter and the Place**: You have to get on a plane and commit to six weeks. That already filters for people who mean it.
+      Coming to Madeira means committing to six weeks in person. Everyone here has made room for the work.
 
   - id: 'target-audience'
     title: 'Who Should Apply?'
     content: |
       We are looking for **21 value-aligned builders** who want to make real things.
 
-      **The Ideal Participant**:
-      Someone who can build, handle feedback, and stay curious throughout the program. You do not need a formal credential. You do need proof of work, good judgment, and the willingness to show unfinished things.
+      You should be able to build, handle feedback, and stay curious throughout the program. You do not need a formal credential. You do need proof of work, good judgment, and the willingness to show unfinished things.
 
-      **Why it works**: Put the right people together in the same place for long enough and the work gets better.
+      Put the right people together in the same place for long enough and the work gets better.
 
-      **The Goal**: Build useful tools, find stronger ideas, and leave with better instincts than you came with.
+      Build useful tools, find stronger ideas, and leave with better instincts than you came with.
     image: 'stay-weird.jpg'
     afterContent: |
       <p class="mt-6"><a href="/loop">Next: See the Weekly Loop →</a></p>
