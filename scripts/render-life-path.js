@@ -1,6 +1,6 @@
 export function renderLifePath() {
   const source='/assets/images/www-life-path.png';
-  const artwork=`<image href="${source}" width="1920" height="1080"/>`;
+  const artwork=`<image href="${source}" width="1920" height="1080"/><g fill="#e64abc"><circle cx="247" cy="538" r="16"/><circle cx="968" cy="493" r="16"/></g>`;
   return `<section id="life-path" class="life-path" aria-label="From past decisions to future possibilities">
     <figure class="life-path-stage">
       <div class="life-path-art">
@@ -26,7 +26,7 @@ export function renderLifePath() {
             <text x="247" y="413" text-anchor="middle" font-family="var(--mono)" font-size="36">born</text>
             <path d="M239 431 Q234 466 247 510 M232 494 L247 510 L257 490" fill="none" stroke="#eee8dd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
             <g class="life-start-pulse-wrap"><circle class="life-start-pulse" cx="247" cy="538" r="22" fill="none" stroke="currentColor" stroke-width="2"/></g>
-            <ellipse cx="247" cy="538" rx="12" ry="14"/>
+            <circle class="life-start-dot" cx="247" cy="538" r="16"/>
           </g>
           <g clip-path="url(#life-today-label)" data-life-today-label opacity=".65">${artwork}</g>
           <circle cx="968" cy="493" r="20" data-life-pulse fill="none" stroke="#e64abc" stroke-width="2" opacity="0"/>
