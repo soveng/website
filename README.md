@@ -76,12 +76,19 @@ The final homepage invitation is rendered by `scripts/render-apply.js`. Set
 short availability message and a subtle FAQ link. Keep the FAQ’s cohort details
 in sync when opening applications.
 
-Before public release:
+Release checks:
 
-- Run `npm run check:migration` and `npm run check:live-links` against the v3
-  deployment. The latter accepts an origin argument for checking the main domain.
-- Finish the remaining general browser review, then move the main domain and
-  verify HTTPS, redirects, feeds, social previews, and Nostr verification there.
+- [x] Old-domain cutover verified on 2026-11-10: `sovereignengineering.io` and
+  `www.sovereignengineering.io` redirect to `soveng.com`. Both are attached to
+  the `sov-eng/v3` Vercel project. Keep dashboard-level domain redirects disabled;
+  `vercel.json` handles redirects and the direct NIP-05 exception.
+- [x] Live legacy-link audit passed on 2026-11-10: 1,592 paths and fragments
+  across 664 HTTP requests, including trailing-slash variants. HTTPS, query
+  parameters, podcast/blog feeds, sitemap, social images, and direct NIP-05
+  responses were also checked.
+- [ ] Final general mobile and desktop browser review.
+- For subsequent releases, run `npm run check:migration` and
+  `npm run check:live-links -- https://sovereignengineering.io`.
 - Applications remain closed.
 - [x] Live Buttondown newsletter signup test passed — confirmed by Gigi on
   2026-10-10.
