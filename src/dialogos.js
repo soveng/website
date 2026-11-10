@@ -13,7 +13,7 @@ if (section) {
   const ease = x => {x=clamp(x);return x*x*(3-2*x);};
   const mix = (a,b,t) => a+(b-a)*t;
   const points=[], edges=[], lookup=new Map();
-  let seed=42, frame=0, visible=false, registered=false;
+  let seed=42, frame=0, registered=false;
   const random=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
   for(const path of portraitPaths){
     let previous;
@@ -84,10 +84,9 @@ if (section) {
     if(length<.1)return;
     const nx=-(b.y-a.y)/length*5,ny=(b.x-a.x)/length*5;
     const end={x:mix(a.x,b.x,amount),y:mix(a.y,b.y,amount)};
-    ctx.save();ctx.beginPath();
     ctx.moveTo(a.x+nx,a.y+ny);ctx.lineTo(end.x+nx,end.y+ny);
     ctx.lineTo(end.x-nx,end.y-ny);ctx.lineTo(a.x-nx,a.y-ny);
-    ctx.closePath();ctx.clip();ctx.drawImage(ink,0,0);ctx.restore();
+    ctx.closePath();
   }
 
   function line(a,b,amount,alpha,width=1){
@@ -105,7 +104,10 @@ if (section) {
   function draw(){
     frame=0;
     const rect=section.getBoundingClientRect();
-    const p=reduced.matches||short.matches?1:clamp(-rect.top/(section.offsetHeight-innerHeight));
+    // Scroll events can outrun IntersectionObserver on a rapid reverse scroll.
+    // Always read current geometry; only skip drawing when safely offscreen.
+    if(rect.bottom<0||rect.top>innerHeight)return;
+    const p=reduced.matches||short.matches?1:clamp(-rect.top/Math.max(1,section.offsetHeight-innerHeight));
     const depart=ease((p-.08)/.22);
     const box=canvas.getBoundingClientRect(),dpr=Math.min(devicePixelRatio||1,2);
     const width=Math.round(box.width*dpr),height=Math.round(box.height*dpr);
@@ -119,7 +121,13 @@ if (section) {
       return {x:a===undefined?x:mix((a<3?140:370)+(a%3-1)*22,x,depart),y:a===undefined?y:mix(220,y,depart)};
     });
     // Once the six seeds arrive, every star stays fixed. Only the drawing tip moves.
-    edges.forEach(edge=>trace(positions[edge.a],positions[edge.b],clamp((p-edge.start)/edge.duration)));
+    // Union the revealed strips into one clip and upload the ink image once.
+    // Hundreds of individually clipped draws can exhaust mobile compositor work.
+    if(registered){
+      ctx.save();ctx.beginPath();
+      edges.forEach(edge=>trace(positions[edge.a],positions[edge.b],clamp((p-edge.start)/edge.duration)));
+      ctx.clip();ctx.drawImage(ink,0,0);ctx.restore();
+    }
     background.forEach(star=>{
       ctx.fillStyle=`rgba(225,213,191,${ease((p-star.appear)/.10)*.28})`;
       ctx.beginPath();ctx.arc(star.x,star.y,star.r,0,Math.PI*2);ctx.fill();
@@ -153,9 +161,21 @@ if (section) {
     section.style.setProperty('--portrait-name',ease((p-.73)/.10));
   }
   function requestDraw(){if(!frame)frame=requestAnimationFrame(draw);}
-  new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;if(visible)requestDraw();}).observe(section);
-  addEventListener('scroll',()=>{if(visible&&!reduced.matches)requestDraw();},{passive:true});
-  addEventListener('resize',requestDraw);reduced.addEventListener('change',requestDraw);
+  new IntersectionObserver(requestDraw).observe(section);
+  addEventListener('scroll',requestDraw,{passive:true});
+  addEventListener('resize',requestDraw);
+  addEventListener('pageshow',requestDraw);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)requestDraw();});
+  canvas.addEventListener('contextlost',event=>{
+    event.preventDefault();
+    section.classList.add('dialogos-canvas-lost');
+  });
+  canvas.addEventListener('contextrestored',()=>{
+    section.classList.remove('dialogos-canvas-lost');
+    requestDraw();
+  });
+  window.visualViewport?.addEventListener('resize',requestDraw);
+  reduced.addEventListener('change',requestDraw);
   sketch.addEventListener('load',requestDraw,{once:true});
   outline.addEventListener('load',registerSketch,{once:true});
   bridge.addEventListener('load',requestDraw,{once:true});

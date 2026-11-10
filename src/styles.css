@@ -800,7 +800,7 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .dialogos-subtitle { color:var(--bone); font-size:clamp(26px,3vw,40px); margin:0 0 32px; }
 .dialogos-copy > p:last-child { font-size:clamp(20px,2vw,26px); line-height:1.55; color:var(--dim); max-width:29em; }
 .dialogos-portrait { margin:0; }
-.dialogos-art { position:relative; width:100%; aspect-ratio:1; }
+.dialogos-art { position:relative; width:100%; aspect-ratio:1; isolation:isolate; contain:paint; }
 .dialogos-art canvas { display:none; width:100%; height:100%; }
 .dialogos-bridge,.dialogos-lines,.dialogos-sketch { position:absolute; inset:0; width:100%; height:100%; object-fit:contain; mask-image:radial-gradient(ellipse at center,black 45%,transparent 73%); }
 .dialogos-ready canvas { display:block; }
@@ -834,3 +834,7 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .dialogos:not(.dialogos-ready) .dialogos-stage { position:relative; top:0; height:auto; padding:40px 0; }
 
 .dialogos-copy strong { font-weight:700; color:var(--bone); }
+
+/* Keep a readable portrait if a mobile browser temporarily discards the canvas. */
+.dialogos-canvas-lost .dialogos-sketch,.dialogos-canvas-lost figcaption { opacity:1; }
+.dialogos-canvas-lost canvas,.dialogos-canvas-lost .dialogos-lines,.dialogos-canvas-lost .dialogos-bridge { opacity:0; }
