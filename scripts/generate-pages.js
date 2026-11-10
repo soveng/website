@@ -1,3 +1,4 @@
+import { renderMenu, renderNavLinks } from "./render-navigation.js";
 import { preserveLegacyFragments } from './legacy-fragments.js';
 import { generateRestored } from './generate-restored.js';
 import { generateSwag } from './render-swag.js';
@@ -45,8 +46,10 @@ function layout(title, description, path, body, image = "/images/nosolutions-og.
   <a class="skip-link" href="#content">Skip to content</a>
   <nav class="nav" aria-label="Main navigation">
     <a class="nav-brand" href="/" aria-label="Sovereign Engineering home"><img src="/src/assets/brandmark.svg" alt=""><span>Sovereign<br>Engineering</span></a>
-    <div class="nav-links"><a href="/podcast/"${path.startsWith("/podcast") ? ' aria-current="page"' : ""}>Listen</a><a href="/faq/"${path === "/faq/" ? ' aria-current="page"' : ""}>FAQ</a><a href="/#apply">Apply</a></div>
+    ${renderNavLinks(path)}
   </nav>
+  ${renderMenu()}
+  <script type="module" src="/src/navigation.js"></script>
   <main id="content" class="content-shell${path === "/mountain/" ? " mountain-shell" : ""}">${body}</main>
   ${renderFooter(path === "/mountain/" ? "mountain" : "sea")}
   <script type="module" src="/src/footer-animation.js"></script>
