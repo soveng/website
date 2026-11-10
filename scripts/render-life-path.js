@@ -1,12 +1,10 @@
 export function renderLifePath() {
   const source='/assets/images/www-life-path.png';
-  const labelCovers='<g fill="#000"><rect x="160" y="315" width="180" height="55"/><rect x="158" y="628" width="172" height="50"/><rect x="989" y="599" width="115" height="39"/></g>';
-  const labels=`<g fill="#e64abc" font-family="var(--mono)" font-weight="700" text-anchor="middle"><text x="247" y="362" font-size="36">Internet</text><text x="247" y="668" font-size="32">Internet</text><text x="1050" y="631" font-size="26">Internet</text></g>`;
-  const artwork=`<image href="${source}" width="1920" height="1080"/>${labelCovers}${labels}`;
+  const artwork=`<image href="${source}" width="1920" height="1080"/>`;
   return `<section id="life-path" class="life-path" aria-label="From past decisions to future possibilities">
     <figure class="life-path-stage">
       <div class="life-path-art">
-        <svg class="life-path-original" viewBox="0 0 1920 1080" role="img" aria-label="The Internet’s branching path: one route through the past reaches today, where many possible futures unfold.">${artwork}</svg>
+        <svg class="life-path-original" viewBox="0 0 1920 1080" role="img" aria-label="The World Wide Web’s branching path: one route through the past reaches today, where many possible futures unfold.">${artwork}</svg>
         <svg class="life-path-animation" viewBox="0 0 1920 1080" aria-hidden="true">
           <defs>
             <filter id="life-magenta" color-interpolation-filters="sRGB"><feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  .5 -1 .5 0 0"/><feComponentTransfer><feFuncA type="linear" slope="2"/></feComponentTransfer></filter>
@@ -24,7 +22,7 @@ export function renderLifePath() {
           <g clip-path="url(#life-present)" data-life-present opacity="0">${artwork}</g>
           <g clip-path="url(#life-future)" filter="url(#life-magenta)">${artwork}</g>
           <g class="life-start" fill="#e64abc">
-            <text x="247" y="362" text-anchor="middle" font-family="var(--mono)" font-size="36" font-weight="700">Internet</text>
+            <text x="247" y="362" text-anchor="middle" font-family="var(--mono)" font-size="48" font-weight="700">WWW</text>
             <text x="247" y="413" text-anchor="middle" font-family="var(--mono)" font-size="36">born</text>
             <path d="M239 431 Q234 466 247 510 M232 494 L247 510 L257 490" fill="none" stroke="#eee8dd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
             <g class="life-start-pulse-wrap"><circle class="life-start-pulse" cx="247" cy="538" r="22" fill="none" stroke="currentColor" stroke-width="2"/></g>
