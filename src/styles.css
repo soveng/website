@@ -838,3 +838,28 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 /* Keep a readable portrait if a mobile browser temporarily discards the canvas. */
 .dialogos-canvas-lost .dialogos-sketch,.dialogos-canvas-lost figcaption { opacity:1; }
 .dialogos-canvas-lost canvas,.dialogos-canvas-lost .dialogos-lines,.dialogos-canvas-lost .dialogos-bridge { opacity:0; }
+
+/* Reveal the original life-path drawing; its finished artwork stays untouched. */
+.life-path { margin:48px 0; scroll-margin-top:90px; }
+.life-path-ready { height:260svh; }
+.life-path-stage { margin:0; }
+.life-path-ready .life-path-stage { position:sticky; top:85px; height:calc(100svh - 100px); display:flex; flex-direction:column; justify-content:center; gap:22px; }
+.life-path-art { position:relative; width:100%; isolation:isolate; contain:paint; }
+.life-path-original { width:100%; height:auto; }
+.life-path-animation { display:none; width:100%; height:auto; max-height:calc(100svh - 180px); }
+.life-path-ready .life-path-original { display:none; }
+.life-path-ready .life-path-animation { display:block; }
+.life-path-stage figcaption { text-align:center; color:var(--dim); font:14px/1.5 var(--mono); }
+.life-path-ready figcaption { opacity:var(--life-question,0); }
+@media(max-width:700px) {
+  .life-path-animation { height:58svh; }
+  .life-path-ready .life-path-stage { top:76px; }
+  .life-path-stage figcaption { font-size:12px; }
+}
+@media(prefers-reduced-motion:reduce),(max-height:550px) {
+  .life-path-ready { height:auto; }
+  .life-path-ready .life-path-stage { position:relative; top:0; height:auto; }
+  .life-path-ready .life-path-original { display:block; }
+  .life-path-ready .life-path-animation { display:none; }
+  .life-path-ready figcaption { opacity:1; }
+}
