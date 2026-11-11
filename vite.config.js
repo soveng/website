@@ -1,3 +1,4 @@
+import { renderFonts } from "./scripts/render-fonts.js";
 import { renderMenu, renderNavLinks } from "./scripts/render-navigation.js";
 import { preserveLegacyFragments } from './scripts/legacy-fragments.js';
 import { prepareRelease } from "./scripts/prepare-release.js";
@@ -29,7 +30,7 @@ export default defineConfig({
   appType: "mpa",
   plugins: [{
     name: "canonical-content-routes",
-    transformIndexHtml: (html,ctx) => ctx.path !== "/index.html" && ctx.path !== "/" ? html : preserveLegacyFragments(html.replace("<!-- NAV_LINKS -->", renderNavLinks()).replace("<!-- SITE_MENU -->", renderMenu()).replace("<!-- SOCIAL_PREVIEW -->", homePreview).replace("<!-- TESTIMONIALS -->", renderTestimonials()).replace("<!-- FOOTER -->", renderFooter()).replace("<!-- APPLY -->", renderApply()), "/"),
+    transformIndexHtml: (html,ctx) => ctx.path !== "/index.html" && ctx.path !== "/" ? html : preserveLegacyFragments(html.replace("<!-- FONT_STYLES -->", renderFonts()).replace("<!-- NAV_LINKS -->", renderNavLinks()).replace("<!-- SITE_MENU -->", renderMenu()).replace("<!-- SOCIAL_PREVIEW -->", homePreview).replace("<!-- TESTIMONIALS -->", renderTestimonials()).replace("<!-- FOOTER -->", renderFooter()).replace("<!-- APPLY -->", renderApply()), "/"),
     configureServer: canonicalRoutes,
     configurePreviewServer(server) {
       canonicalRoutes(server);

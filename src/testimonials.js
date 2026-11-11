@@ -12,7 +12,13 @@ if (track) {
   };
   const progress = document.querySelector('.testimonial-progress');
   const fill = progress.querySelector('.timer-fill');
-  progress.hidden = false;
+  let userPaused = false;
+  const updateControl = () => {
+    progress.hidden = reduced.matches || last() === 0;
+    progress.setAttribute('aria-label', userPaused ? 'Resume testimonials' : 'Pause testimonials');
+    progress.querySelector('.timer-symbol').textContent = userPaused ? '▶' : 'Ⅱ';
+  };
+  updateControl();
   track.classList.add('has-page-indicator');
   let countdown;
   let settling;
@@ -29,7 +35,7 @@ if (track) {
   };
   const schedule = () => {
 
-    const paused = hintAnimations.length > 0 || !visible || hovered || touching || scrolling || document.hidden || reduced.matches || track.contains(document.activeElement);
+    const paused = userPaused || last() === 0 || hintAnimations.length > 0 || !visible || hovered || touching || scrolling || document.hidden || reduced.matches || track.contains(document.activeElement);
     if (paused) { countdown?.pause(); return; }
     if (!countdown) {
       const words = Math.max(...slides.slice(current(), current() + perView()).map(slide => slide.querySelector('blockquote').textContent.trim().split(/\s+/).length));
@@ -41,6 +47,12 @@ if (track) {
     }
     countdown.play();
   };
+  progress.addEventListener('click', () => {
+    userPaused = !userPaused;
+    stopHint();
+    updateControl();
+    schedule();
+  });
   new IntersectionObserver(([entry]) => {
     visible = entry.isIntersecting;
     schedule();
@@ -78,13 +90,14 @@ if (track) {
     settling = setTimeout(() => { scrolling = false; schedule(); }, 180);
   }, { passive: true });
   new ResizeObserver(() => {
+    updateControl();
     if (hintAnimations.length) stopHint();
     countdown?.cancel();
     countdown = null;
     schedule();
   }).observe(track);
   document.addEventListener('visibilitychange', schedule);
-  reduced.addEventListener('change', () => { if (reduced.matches) stopHint(); schedule(); });
+  reduced.addEventListener('change', () => { if (reduced.matches) stopHint(); updateControl(); schedule(); });
   track.addEventListener('keydown', event => {
     if (event.target !== track) return;
     const targets = { ArrowLeft: current() - 1, ArrowRight: current() + 1, Home: 0, End: last() };

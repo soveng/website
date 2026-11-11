@@ -1,3 +1,5 @@
+import { responsiveArtwork } from "./podcast-artwork.js";
+import { renderFonts } from "./render-fonts.js";
 import { renderMenu, renderNavLinks } from "./render-navigation.js";
 import { preserveLegacyFragments } from './legacy-fragments.js';
 import { generateRestored } from './generate-restored.js';
@@ -40,12 +42,13 @@ function layout(title, description, path, body, image = "/images/nosolutions-og.
   <meta name="description" content="${escape(description)}">
   ${socialPreview(title, description, path, image)}
   <link rel="alternate" type="application/rss+xml" title="${path.startsWith("/blog/") ? "Sovereign Engineering Blog" : "No Solutions"}" href="${path.startsWith("/blog/") ? "/blog/rss.xml" : "/dialogues.xml"}">
+  ${renderFonts()}
   <link rel="stylesheet" href="/src/styles.css">
 </head>
 <body class="content-page">
   <a class="skip-link" href="#content">Skip to content</a>
   <nav class="nav" aria-label="Main navigation">
-    <a class="nav-brand" href="/" aria-label="Sovereign Engineering home"><img src="/src/assets/brandmark.svg" alt=""><span>Sovereign<br>Engineering</span></a>
+    <a class="nav-brand" href="/" aria-label="Sovereign Engineering home"><img src="/src/assets/brandmark.svg" width="350" height="406" alt=""><span>Sovereign<br>Engineering</span></a>
     ${renderNavLinks(path)}
   </nav>
   ${renderMenu()}
@@ -78,13 +81,13 @@ export function generatePages() {
   };
   const meta = ep => `<p class="episode-meta"><time datetime="${ep.date.toISOString()}">${ep.date.toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" })}</time><span>${ep.duration}</span></p>`;
   const description = "Walking dialogues about freedom tech, open protocols, and the trade-offs of building in the open.";
-  const episodeCards = list => list.map(ep => `<article class="episode-card"><a href="/podcast/${ep.slug}/"><img src="${safeUrl(ep["itunes:image"]["@_href"])}" alt="" width="240" height="240" loading="lazy"><div>${meta(ep)}<h3>${escape(ep.title)}</h3><p>${textOnly(ep.description.match(/<p[^>]*>([\s\S]*?)<\/p>/)?.[1] || "").slice(0, 350)}</p></div></a></article>`).join("");
+  const episodeCards = list => list.map(ep => `<article class="episode-card"><a href="/podcast/${ep.slug}/"><img ${responsiveArtwork(ep["itunes:image"]["@_href"], "(max-width: 720px) 80px, 180px")} alt="" loading="lazy" decoding="async"><div>${meta(ep)}<h3>${escape(ep.title)}</h3><p>${textOnly(ep.description.match(/<p[^>]*>([\s\S]*?)<\/p>/)?.[1] || "").slice(0, 350)}</p></div></a></article>`).join("");
   // Reuse the landing-page artwork so both versions stay in sync.
   const bellArt = readFileSync("index.html", "utf8").match(/(<svg class="bell-meme"[\s\S]*?<\/svg>)\s*<\/div>/)?.[1];
   if (!bellArt) throw new Error("Missing landing-page bell curve artwork");
   write("podcast/index.html", layout("No Solutions", description, "/podcast/", `
     <header class="podcast-hero">
-      <img src="/images/nosolutions-cover.jpg" width="600" height="600" alt="No Solutions dialogue artwork">
+      <img src="/images/nosolutions-cover.jpg" width="600" height="600" fetchpriority="high" alt="No Solutions dialogue artwork">
       <div><h1>No<br>Solutions.</h1><p class="content-lead">Walking towards a better internet since <a href="https://mempool.space/block/882690" target="_blank" rel="noopener noreferrer">882,690</a>.</p>
       </div>
     </header>
@@ -105,7 +108,7 @@ export function generatePages() {
     const notes = ep["podcast:contentLink"];
     write(`podcast/${ep.slug}/index.html`, layout(`${ep.title} — No Solutions`, description, `/podcast/${ep.slug}/`, `
       <a class="text-link" href="/podcast/">← All dialogues</a>
-      <header class="episode-hero"><img src="${safeUrl(ep["itunes:image"]["@_href"])}" width="400" height="400" alt="Dialogue artwork"><div><p class="section-index">No Solutions</p><h1>${escape(ep.title)}</h1>${meta(ep)}
+      <header class="episode-hero"><img ${responsiveArtwork(ep["itunes:image"]["@_href"], "(max-width: 720px) 240px, (max-width: 1440px) 29vw, 400px")} fetchpriority="high" alt="Dialogue artwork"><div><p class="section-index">No Solutions</p><h1>${escape(ep.title)}</h1>${meta(ep)}
       <audio controls preload="none" aria-label="${escape(ep.title)}"><source src="${audio}" type="${escape(ep.enclosure["@_type"] || "audio/mpeg")}">Your browser does not support audio playback.</audio>
       <div class="content-links"><a href="${audio}">Open audio ↗</a>${ep.link ? `<a href="${safeUrl(ep.link.replace("njump.me", "njump.to"))}">Discuss on Nostr ↗</a>` : ""}${notes ? `<a href="${safeUrl(notes["@_href"])}">Show notes ↗</a>` : ""}${transcript ? `<a href="${safeUrl(transcript["@_url"])}">Transcript ↗</a>` : ""}</div></div></header>
       <section class="prose show-notes" aria-label="Dialogue notes">${clean(ep.description)}</section>
