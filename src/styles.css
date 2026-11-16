@@ -913,3 +913,17 @@ html:has(.site-menu:modal) { overflow:hidden; }
 .signup-label { display:block; margin-bottom:8px; color:var(--dim); font:12px/1.5 var(--mono); }
 
 .nav-brand img,.prologue-mark img { height:auto; }
+
+/* The same complete vector drawing also supplies the concept social card. */
+.weekly-loop { margin:32px 0; }
+.weekly-loop-stage { margin:0; }
+.weekly-loop-stage svg { display:block; width:100%; max-width:760px; height:auto; margin:auto; overflow:visible; }
+.weekly-loop-stage figcaption { text-align:center; font:12px/1.5 var(--mono); color:var(--dim); padding:12px 0; }
+.weekly-loop-stage a:focus-visible { outline:1px solid var(--bone); outline-offset:6px; }
+.weekly-loop-ready { height:180svh; }
+.weekly-loop-ready .weekly-loop-stage { position:sticky; top:96px; height:calc(100svh - 112px); display:flex; flex-direction:column; justify-content:center; }
+.weekly-loop-ready svg { margin:0 auto; min-height:0; max-height:calc(100svh - 160px); flex:0 1 auto; }
+@media (prefers-reduced-motion:reduce), (max-height:550px) {
+  .weekly-loop-ready { height:auto; }
+  .weekly-loop-ready .weekly-loop-stage { position:static; height:auto; }
+}

@@ -1,3 +1,4 @@
+import { weeklyLoopArt } from './render-weekly-loop.js';
 import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { extname } from 'node:path';
@@ -53,6 +54,9 @@ function fitTitle(title, explicitLines, episode = false) {
 }
 let mountainArt;
 function art(path, image) {
+  if (path === '/concept/' || path === '/loop/') {
+    return `<svg x="710" y="125" width="480" height="480" viewBox="0 0 660 660">${weeklyLoopArt()}</svg>`;
+  }
   if (path === '/mountain/') {
     mountainArt ||= renderMountain().match(/<svg class="mountain-scene"[\s\S]*?<\/svg>/)[0]
       .replace('stroke-dasharray="100"', 'stroke-dasharray="none"')
