@@ -55,7 +55,7 @@ function fitTitle(title, explicitLines, episode = false) {
 let mountainArt;
 function art(path, image) {
   if (path === '/concept/' || path === '/loop/') {
-    return `<svg x="710" y="125" width="480" height="480" viewBox="0 0 660 660">${weeklyLoopArt()}</svg>`;
+    return `<svg x="550" y="-10" width="640" height="640" viewBox="0 0 660 660">${weeklyLoopArt()}</svg>`;
   }
   if (path === '/mountain/') {
     mountainArt ||= renderMountain().match(/<svg class="mountain-scene"[\s\S]*?<\/svg>/)[0]
@@ -92,7 +92,7 @@ export function socialPreview(title, description, path, image) {
   const episode = path.startsWith('/podcast/') && path !== '/podcast/';
   const chapter = mountain ? parse(readFileSync('content/mountain.md','utf8').split('---')[1]).chapters[0] : null;
   const cardTitle = home ? 'Build the tools. Ship the future.' : mountain ? chapter.title : title.replace(/ — No Solutions$/, '');
-  const explicitLines = home ? ['Build the tools.', 'Ship the future.'] : mountain ? chapter.title.split(/(?<=\.)\s+/) : null;
+  const explicitLines = path === '/loop/' ? ['The Weekly', 'Loop'] : home ? ['Build the tools.', 'Ship the future.'] : mountain ? chapter.title.split(/(?<=\.)\s+/) : null;
   const {lines,size} = fitTitle(cardTitle, explicitLines, episode);
   const label = home ? 'SIX WEEKS / MADEIRA' : mountain ? chapter.day.toUpperCase() : episode ? 'NO SOLUTIONS / DIALOGUES' : path === '/podcast/' ? 'FREE-FLOWING DIALOGUES' : path.startsWith('/projects/') ? 'PROJECTS / OPEN BUILDING BLOCKS' : 'SOVEREIGN ENGINEERING / THE DETAILS';
   const subtitle = home ? 'A program to ship something real.' : mountain ? 'A week of dialogue. 24 hours to build.' : path.startsWith('/podcast/') ? 'Walking towards a better internet.' : path.startsWith('/projects/') ? 'Explore the work. Connect the ideas.' : 'The program, the people, and what to expect.';
