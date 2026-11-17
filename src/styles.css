@@ -446,7 +446,7 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .content-page > .site-footer { margin:70px 5vw 0; }
 .site-footer .footer-identity { justify-self:start; color:var(--bone); max-width:22ch; }
 .footer-identity span { display:block; color:var(--dim); margin-top:12px; }
-.footer-sitemap { display:grid; grid-template-columns:repeat(3,max-content); justify-content:space-between; gap:28px; }
+.footer-sitemap { display:grid; grid-template-columns:repeat(2,max-content); justify-content:space-between; gap:28px; }
 .footer-sitemap > div { display:flex; flex-direction:column; align-items:start; gap:12px; }
 .footer-sitemap h2,.finale .footer-sitemap h2 { font:12px/1.4 var(--mono); text-transform:uppercase; letter-spacing:.12em; color:var(--bone); margin:0 0 10px; }
 .footer-sitemap a { color:var(--dim); white-space:nowrap; }
@@ -893,7 +893,7 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .site-menu-top h2 { margin:0; font:400 13px/1.5 var(--mono); text-transform:uppercase; letter-spacing:.08em; }
 .site-menu-close { display:flex; align-items:center; gap:14px; padding:10px 0 10px 10px; border:0; background:none; color:inherit; font:400 13px var(--mono); text-transform:uppercase; cursor:pointer; }
 .site-menu-close span { font-size:28px; line-height:1; }
-.site-menu-links { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:5vw; width:100%; max-width:1400px; margin:auto; padding:40px 0; }
+.site-menu-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:40px 5vw; width:100%; max-width:1400px; margin:auto; padding:40px 0; }
 .site-menu-links h2 { margin:0 0 20px; color:var(--dim); font:400 12px var(--mono); letter-spacing:.12em; text-transform:uppercase; }
 .site-menu-links a { display:block; width:fit-content; max-width:100%; padding:6px 0; font-size:clamp(20px,2.3vw,36px); line-height:1.25; text-decoration:none; }
 .site-menu-links a:hover { color:var(--red); }
@@ -940,4 +940,9 @@ html:has(.site-menu:modal) { overflow:hidden; }
 @media (prefers-reduced-motion:reduce), (max-height:550px) {
   .creation-loop-ready { height:auto; }
   .creation-loop-ready .creation-loop-stage { position:static; height:auto; }
+}
+
+@media (min-width:1200px) {
+  .site-menu-links { grid-template-columns:repeat(4,minmax(0,1fr)); gap:28px; }
+  .site-menu-links a { font-size:clamp(20px,1.8vw,28px); }
 }
