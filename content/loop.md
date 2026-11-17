@@ -7,9 +7,9 @@ description: 'The six-week rhythm of talks, workshops, build time, walks, and Fr
 # Main introduction section
 intro:
   content: |
-    The loop is simple. Friday forces the work into the open. Everyone demos. The Monday walks give the cohort time to argue, rethink, and pick a direction. Tuesday and Wednesday are for talks, workshops, and building. Thursday has no agenda.
+    We start the week with a walk and a conversation about what to work on. There’s time to disagree and change your mind before getting too far into the code. Tuesday is for talks, Wednesday for workshops, with time to build between sessions. Thursday is time off. On Friday, everyone shows what they’ve built to the rest of the cohort.
 
-    The loop runs in Weeks 01–03 and 05–06. Week 04 is a break week: time to breathe before coming back to build and ship.
+    In the six-week summer cohort, we take week four off and follow this schedule for the other five weeks.
 
 sections:
   - id: 'weekly-captains'
