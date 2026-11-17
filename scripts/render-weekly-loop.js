@@ -3,7 +3,7 @@ const mark = `data:image/svg+xml;base64,${readFileSync('src/assets/brandmark.svg
 
 // Shared vector artwork: the page animates these paths; social cards use the
 // complete drawing. Keep labels readable without JavaScript or motion.
-export function weeklyLoopArt() {
+export function weeklyLoopArt({ showShip = true } = {}) {
   const days = [
     ['Monday', 'Movement', 330, 99, 'middle'],
     ['Tuesday', 'Talks', 514, 232, 'start'],
@@ -27,7 +27,7 @@ export function weeklyLoopArt() {
         <text x="${x}" y="${y}" text-anchor="${anchor}" fill="#a7a29a" font-family="DM Mono, monospace" font-size="19">${day.toUpperCase()}</text>
         <text x="${x}" y="${y + 33}" text-anchor="${anchor}" fill="${color}" font-family="EB Garamond, serif" font-size="28">${activity}</text></g>`;
     }).join('')}
-    <image x="296" y="290" width="68" height="79" href="${mark}" opacity=".75"/>`;
+    ${showShip ? `<image x="296" y="290" width="68" height="79" href="${mark}" opacity=".75"/>` : ''}`;
 }
 
 export function renderWeeklyLoop() {

@@ -56,7 +56,7 @@ function fitTitle(title, explicitLines, episode = false) {
 let mountainArt;
 function art(path, image) {
   if (path === '/concept/' || path === '/loop/') {
-    return `<svg x="550" y="-10" width="640" height="640" viewBox="0 0 660 660">${(path === '/concept/' ? creationLoopArt() : weeklyLoopArt()).replaceAll(' stroke-dasharray="1"', '')}</svg>`;
+    return `<svg x="550" y="-10" width="640" height="640" viewBox="0 0 660 660">${(path === '/concept/' ? creationLoopArt() : weeklyLoopArt({ showShip: false })).replaceAll(' stroke-dasharray="1"', '')}</svg>`;
   }
   if (path === '/mountain/') {
     mountainArt ||= renderMountain().match(/<svg class="mountain-scene"[\s\S]*?<\/svg>/)[0]
