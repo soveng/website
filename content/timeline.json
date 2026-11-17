@@ -92,9 +92,19 @@
   {
     "id": "mountain-2027",
     "year": "2027",
-    "date": "Spring 2027",
+    "date": "May 17–23, 2027",
     "title": "Mountain cohort",
-    "description": "Seven days. One shared mission. Dialogue on the mountain, then back to the valley for a 24-hour build and Demo Day. Dates and location are still to be confirmed.",
+    "description": "Seven days in South Tyrol. Dialogue on the mountain, then back to the valley for a 24-hour build and Demo Day.",
+    "link": "/mountain/",
+    "linkLabel": "Explore the mountain cohort",
+    "upcoming": true
+  },
+  {
+    "id": "mountain-autumn-2027",
+    "year": "2027",
+    "date": "Sep 20–26, 2027",
+    "title": "Second mountain cohort",
+    "description": "A second week in the mountains: September 20–26. Dialogue, a 24-hour build, and Demo Day.",
     "link": "/mountain/",
     "linkLabel": "Explore the mountain cohort",
     "upcoming": true

@@ -125,7 +125,7 @@ export function generatePages() {
       <header class="text-hero"><p class="section-index">Sovereign Engineering / ${name === "faq" ? "The practical details" : "How we work"}</p><h1>${name === "faq" ? "Before you<br>join us." : escape(data.title)}</h1><div class="content-lead">${name === "faq" ? "The program, the island, and what to expect." : markdown(data.intro.content)}</div></header>
       <div class="faq-layout"><aside class="section-menu" aria-label="On this page">${data.sections.map(section => `<a href="#${escape(section.id)}">${escape(section.title)}</a>`).join("")}</aside><div>${sections}</div></div><script type="module" src="/src/content.js"></script>`, "/images/sovereign-engineering.png"));
   }
-  write("mountain/index.html", layout("Mountain cohort — Spring 2027", "A seven-day mountain cohort in spring 2027. Talk through ideas together, away from devices, then return to the valley for a 24-hour build and Demo Day.", "/mountain/", renderMountain(), "/images/sovereign-engineering.png"));
+  write("mountain/index.html", layout("Mountain cohorts — May & September 2027", "Seven days in the mountains: May 17–23 or September 20–26, 2027. Dialogue, a 24-hour build, and Demo Day.", "/mountain/", renderMountain(), "/images/sovereign-engineering.png"));
   generateProjects({ write, layout, escape });
   generateLibrary({ write, layout, escape });
   generateSwag({ write, layout, escape });
