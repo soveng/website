@@ -4,19 +4,21 @@ const loops = [...document.querySelectorAll('[data-weekly-loop]')].map(section =
   section,
   segments: [...section.querySelectorAll('[data-loop-segment]')],
   days: [...section.querySelectorAll('[data-loop-day]')],
+  arrows: [...section.querySelectorAll('[data-loop-arrow]')],
   cursor: section.querySelector('[data-loop-cursor]'),
 }));
 const clamp = value => Math.max(0, Math.min(1, value));
 let frame;
 function draw() {
   frame = 0;
-  for (const { section, segments, days, cursor } of loops) {
+  for (const { section, segments, days, arrows, cursor } of loops) {
     const animated = !reduced.matches && !short.matches;
     section.classList.toggle('weekly-loop-ready', animated);
     const rect = section.getBoundingClientRect();
     const travel = section.offsetHeight - section.querySelector('figure').offsetHeight;
     const progress = animated ? clamp((96 - rect.top) / Math.max(1, travel)) : 1;
     segments.forEach((path, i) => path.setAttribute('stroke-dashoffset', 1 - clamp(progress * 6 - i)));
+    arrows.forEach((arrow, i) => arrow.setAttribute('opacity', clamp((progress * 6 - i - .78) / .08)));
     // Keep every label legible from the start; only the route and nodes reveal.
     days.forEach((day, i) => day.querySelectorAll('circle').forEach(dot => {
       dot.style.opacity = progress >= i / 6 ? '1' : '.2';
