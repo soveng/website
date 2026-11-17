@@ -927,3 +927,17 @@ html:has(.site-menu:modal) { overflow:hidden; }
   .weekly-loop-ready { height:auto; }
   .weekly-loop-ready .weekly-loop-stage { position:static; height:auto; }
 }
+
+/* Simple concept loop; the detailed weekly diagram remains on /loop/. */
+.creation-loop { margin:32px 0; }
+.creation-loop-stage { margin:0; }
+.creation-loop-stage svg { display:block; width:100%; max-width:760px; height:auto; margin:auto; overflow:visible; }
+.creation-loop-stage figcaption { text-align:center; font:12px/1.5 var(--mono); color:var(--dim); padding:12px 0; }
+.creation-loop-stage a:focus-visible { outline:1px solid var(--bone); outline-offset:6px; }
+.creation-loop-ready { height:165svh; }
+.creation-loop-ready .creation-loop-stage { position:sticky; top:96px; height:calc(100svh - 112px); display:flex; flex-direction:column; justify-content:center; }
+.creation-loop-ready svg { margin:0 auto; min-height:0; max-height:calc(100svh - 160px); flex:0 1 auto; }
+@media (prefers-reduced-motion:reduce), (max-height:550px) {
+  .creation-loop-ready { height:auto; }
+  .creation-loop-ready .creation-loop-stage { position:static; height:auto; }
+}

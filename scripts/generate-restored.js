@@ -1,3 +1,4 @@
+import { renderCreationLoop } from './render-creation-loop.js';
 import { renderWeeklyLoop } from './render-weekly-loop.js';
 import { renderLifePath } from './render-life-path.js';
 import { renderDialogos } from './render-dialogos.js';
@@ -25,7 +26,7 @@ export function generateRestored({write,layout}) {
       <div class="reading-layout"><nav class="reading-menu" aria-label="On this page"><span class="reading-menu-label" aria-hidden="true">On this page</span>${name==='concept'?link('#dia-logos','Dia-Logos',''):''}${sections.map(s=>link('#'+s.id,s.title,'')).join('')}</nav><div>
       ${name==='loop'?quote(quotes.find(q=>q.id==='epictetus-habits')):''}
       ${sections.map(s=>`<section class="reading-section" id="${e(s.id)}">${name==='loop'&&s.id==='the-weekend'?'<span class="legacy-anchor" id="weekend-walks"></span>':''}${name==='loop'&&s.id==='monday-movement'?'<span class="legacy-anchor" id="monday-mornings"></span>':''}${name==='loop'&&s.id==='thursday-time-off'?'<span class="legacy-anchor" id="thursday-build-day"></span>':''}<h2>${e(s.title)}</h2><div class="prose">${md(s.content)}${name==='concept'&&s.id==='weekly-loop'?`<ul>${rhythm.schedule.map(day=>`<li>${link('/loop/#'+slug(day.day),day.day,'')}: ${e(day.short_description)}</li>`).join('')}</ul>`:''}${(s.bulletpoints||[]).length?`<ul>${s.bulletpoints.map(point=>`<li>${md(point)}</li>`).join('')}</ul>`:''}</div>
-      ${s.image?(s.id==='weekly-loop'?renderWeeklyLoop():image('/assets/images/'+s.image,s.title)):''}
+      ${s.image?(s.id==='weekly-loop'?renderCreationLoop():image('/assets/images/'+s.image,s.title)):''}
       ${quote(s.pullquote||(s.quote_section?quotes.find(q=>q.section===s.quote_section):null))}<div class="prose">${md(s.afterContent||'')}</div>${s.link?link(s.link,'Explore more →'):''}</section>`).join('')}
       ${name==='loop'?link('/podcast/','Next: Listen to some of our conversations →'):''}</div></div>`));
   }
