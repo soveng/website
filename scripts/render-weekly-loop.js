@@ -13,21 +13,21 @@ export function weeklyLoopArt() {
     ['Weekend', 'Recover', 146, 232, 'end'],
   ];
   const point = angle => [330 + 170 * Math.sin(angle), 330 - 170 * Math.cos(angle)];
-  return `<g fill="none" stroke="#373a35" stroke-width="1.5"><circle cx="330" cy="330" r="170" stroke-width="4"/><circle cx="330" cy="330" r="145" stroke-dasharray="1 9"/></g>
-    ${days.map(([day, activity, x, y, anchor], i) => {
-      const [sx, sy] = point(i * Math.PI / 3);
-      const [ex, ey] = point((i + 1) * Math.PI / 3);
+  return `${days.map(([day, activity, x, y, anchor], i) => {
+      const [sx, sy] = point((i * 60 + 6) * Math.PI / 180);
+      const [ex, ey] = point(((i + 1) * 60 - 4) * Math.PI / 180);
       const color = i === 4 ? '#ed3238' : '#eee8dd';
-      const arrowAngle = (i + .82) * 60;
+      const routeColor = i === 3 ? '#ed3238' : '#eee8dd';
+      const arrowAngle = (i + 1) * 60;
       const [ax, ay] = point(arrowAngle * Math.PI / 180);
-      return `<path data-loop-segment="${i}" d="M${sx} ${sy} A170 170 0 0 1 ${ex} ${ey}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" fill="none" stroke="${color}" stroke-width="5"/>
-        <path data-loop-arrow="${i}" d="M-9 -8 L7 0 L-9 8 Z" transform="translate(${ax} ${ay}) rotate(${arrowAngle})" fill="${color}"/>
-        <g data-loop-day="${i}"><circle cx="${sx}" cy="${sy}" r="6" fill="${color}"/><circle cx="${sx}" cy="${sy}" r="13" fill="none" stroke="${color}" stroke-opacity=".25"/>
+      return `<path d="M${sx} ${sy} A170 170 0 0 1 ${ex} ${ey}" fill="none" stroke="#373a35" stroke-width="4"/>
+        <path data-loop-segment="${i}" d="M${sx} ${sy} A170 170 0 0 1 ${ex} ${ey}" pathLength="1" stroke-dasharray="1" stroke-dashoffset="0" fill="none" stroke="${routeColor}" stroke-width="5"/>
+        <path data-loop-arrow="${i}" d="M-16 -9 L0 0 L-16 9 Z" transform="translate(${ax} ${ay}) rotate(${arrowAngle})" fill="${routeColor}"/>
+        <g>
         <text x="${x}" y="${y}" text-anchor="${anchor}" fill="#a7a29a" font-family="DM Mono, monospace" font-size="19">${day.toUpperCase()}</text>
         <text x="${x}" y="${y + 33}" text-anchor="${anchor}" fill="${color}" font-family="EB Garamond, serif" font-size="28">${activity}</text></g>`;
     }).join('')}
-    <image x="275" y="266" width="110" height="128" href="${mark}" opacity=".9"/>
-    <circle data-loop-cursor="" cx="330" cy="160" r="5" fill="#eee8dd" opacity="0"/>`;
+    <image x="296" y="290" width="68" height="79" href="${mark}" opacity=".75"/>`;
 }
 
 export function renderWeeklyLoop() {
