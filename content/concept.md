@@ -9,7 +9,7 @@ intro:
   content: |
     Sovereign Engineering is a multi-week program in Madeira for people who want to build freedom tech with like-minded cypherpunks.
 
-    In our summer cohort, 21 builders come together for six weeks. Monday starts with basic orientation for the week and a walk afterwards. Tuesday is for talks. Wednesday is for workshops. Thursday is time off. **Friday is Demo Day.** The weekend has no formal agenda: time for recovery and long conversations.
+    In our summer cohort, 21 builders come together for six weeks.
 
     The program is private and in person. This allows people to speak freely, test rough ideas (however outlandish they may be), and ship embarrassing prototypes without having to perform for the whole internet.
   image: 'www-life-path.png'
@@ -21,21 +21,24 @@ sections:
     content: |
       Sovereign Engineering rests on five pillars:
 
-      **[The Weekly Loop](#weekly-loop)**: A weekly cadence that keeps projects moving.
+      **[Show. Talk. Build.](#weekly-loop)**: Show what you’re working on, talk about it with the group, then go back and build.
 
       **[The Walks](#walks)**: Long conversations on foot, with time to talk through what you’re working on.
 
-      **[The Demo Days](#demo-day)**: Friday is for demos. Everyone shows their work. Shipping is mandatory.
+      **[The Demo Days](#demo-day)**: Everyone shows their work. Shipping is mandatory.
 
-      **[The Captains](#weekly-captains)**: One captain each week keeps the cohort organized.
+      **[The Captains](/loop/#weekly-captains)**: One captain each week keeps the cohort organized.
 
       **[The Environment](#environment)**: Madeira is practical. You can build something in the morning and try it in the real world the same day.
     image: '2-hours-of-conversation.jpeg'
 
   - id: 'weekly-loop'
-    title: 'The Weekly Loop'
+    title: 'Show. Talk. Build.'
+    legacyAnchors: ['weekly-captains']
     content: |
-      The loop is simple. Friday forces the work into the open. Everyone demos. The Monday walks give the cohort time to argue, rethink, and pick a direction. Tuesday and Wednesday are for talks, workshops, and building. Thursday has no agenda.
+      We built the program around being in the same place and having time to think together. A conversation can carry on over lunch, on a walk, or while looking at someone’s code. You get to know how the other people think, and they get to know how you think.
+
+      The weekly structure is there to make those interactions happen. Show what you’re working on, talk about it with the group, then go back and build. We want enough continuity for people to get into a shared flow state and draw on each other’s understanding. That’s what we mean by tapping into the distributed cognition of the group.
     image: 'show-talk-build-loop.jpeg'
 
   - id: 'walks'
@@ -50,23 +53,8 @@ sections:
   - id: 'demo-day'
     title: 'The Demo Days'
     content: |
-      On Friday afternoons, the cohort gathers to **show whatever runs**. You must demo something new, whether it extends an existing project or starts from scratch.
-
-      Six minutes of demo time. Two minutes of discussion. With 20 or more demos, we take short breaks after every 6 or 7 presentations.
-
-      Having to demo on Friday forces you to cut scope and get something working. Everyone in the cohort sees where you’re at.
-
-      Afterwards, we usually end with a [beefsteak-style](https://archive.is/S3LjP) standing barbecue. Friends and family are welcome.
+      Everyone has to **show whatever runs**. Having a demo to prepare forces you to cut scope and get something working. Everyone in the cohort sees where you’re at.
     image: 'demo-day.jpeg'
-
-  - id: 'weekly-captains'
-    title: 'The Captains'
-    content: |
-      Each week, a different captain handles the practicalities: Monday’s orientation, the walks, workshop slots, rooms, and keeping Demo Day on schedule.
-
-      The role rotates so the logistics don’t fall to the same person throughout the cohort.
-
-    image: 'weekly-loop-schedule.png'
 
   - id: 'environment'
     title: 'The Environment'

@@ -18,5 +18,5 @@ export function creationLoopArt() {
     </g><image x="296" y="302" width="68" height="79" href="${mark}" opacity=".8"/>`;
 }
 export function renderCreationLoop() {
-  return `<div class="creation-loop" data-creation-loop><figure class="creation-loop-stage"><svg viewBox="0 0 660 660" role="img" aria-label="Show, talk, build, and repeat. Three broad arrows connect the stages in a clockwise loop.">${creationLoopArt()}</svg><figcaption><a href="/loop/">See the weekly rhythm ↗</a></figcaption></figure></div><script type="module" src="/src/creation-loop.js"></script>`;
+  return `<div class="creation-loop" data-creation-loop><figure class="creation-loop-stage"><svg viewBox="0 0 660 660" role="img" aria-label="Show, talk, build, and repeat. Three broad arrows connect the stages in a clockwise loop.">${creationLoopArt()}</svg><figcaption><a href="/loop/">See how the week works ↗</a></figcaption></figure></div><script type="module" src="/src/creation-loop.js"></script>`;
 }
