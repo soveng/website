@@ -21,7 +21,7 @@ sections:
     content: |
       Sovereign Engineering rests on five pillars:
 
-      **[Show. Talk. Build.](#weekly-loop)**: Show what you’re working on, talk about it with the group, then go back and build.
+      **[The Weekly Loop](#weekly-loop)**: Show what you’re working on, talk about it with the group, then go back and build.
 
       **[The Walks](#walks)**: Long conversations on foot, with time to talk through what you’re working on.
 
@@ -33,7 +33,7 @@ sections:
     image: '2-hours-of-conversation.jpeg'
 
   - id: 'weekly-loop'
-    title: 'Show. Talk. Build.'
+    title: 'The Weekly Loop'
     legacyAnchors: ['weekly-captains']
     content: |
       We built the program around being in the same place and having time to think together. A conversation can carry on over lunch, on a walk, or while looking at someone’s code. You get to know how the other people think, and they get to know how you think.
