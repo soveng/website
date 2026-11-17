@@ -10,7 +10,7 @@
   },
   {
     "id": "mountain-2027",
-    "name": "Mountain Cohort",
+    "name": "Mountain Cohort / Spring",
     "durationWeeks": 1,
     "startDate": "2027-05-17",
     "endDate": "2027-05-23",
@@ -27,7 +27,7 @@
   },
   {
     "id": "mountain-autumn-2027",
-    "name": "Mountain Cohort 2",
+    "name": "Mountain Cohort / Autumn",
     "durationWeeks": 1,
     "startDate": "2027-09-20",
     "endDate": "2027-09-26",
