@@ -42,7 +42,7 @@ sections:
         answer: "For the Madeira cohorts, you arrange your own accommodation. These links are a good place to start:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\n[madeirafriends.org](https://madeirafriends.org) can also help.\n\nFor the mountain cohorts, we’ll share the accommodation arrangements and what’s included in the fee before you commit."
 
       - question: 'How do I need to prepare for the program?'
-        answer: "For the Madeira cohorts, bring your laptop and the hardware you want to work on. Plan for three weeks if you’re joining 21 Days of FIPS, or six weeks for the Summer Cohort.\n\nThe mountain cohorts last one week and include hiking as well as building. We’ll share a packing list and practical details before you go. If you have accessibility needs or other requirements, get in touch early."
+        answer: "For the Madeira cohorts, bring your laptop and the hardware you want to work on. Plan for three weeks if you’re joining 21 Days of FIPS, or six weeks for the Summer Cohort.\n\nThe mountain cohorts last one week and include hiking as well as building."
 
   - id: 'cost-living'
     title: 'Cost of Living'

@@ -1,4 +1,4 @@
-import { upcomingCohorts, cohortDates } from './upcoming-cohorts.js';
+import { renderCohortList } from './render-cohort-list.js';
 import { responsiveArtwork } from "./podcast-artwork.js";
 import { renderFonts } from "./render-fonts.js";
 import { renderMenu, renderNavLinks } from "./render-navigation.js";
@@ -120,7 +120,8 @@ export function generatePages() {
     const data = parse(source.split("---")[1]);
     const sections = data.sections.map(section => `<section class="faq-section" id="${escape(section.id)}"><h2>${escape(section.title)}</h2>${section.questions ? markdown(section.content) : ""}${section.questions ? section.questions.map(q => {
       const id = slug(q.question);
-      return `<details id="${id}"><summary>${escape(q.question)}</summary><div class="prose">${markdown(q.answer.replace("{{upcoming-cohorts}}", upcomingCohorts.map(cohort => `* **${cohort.number}: ${cohort.name}** · ${cohortDates(cohort, true)} · ${cohort.location}`).join("\n")))}</div></details>`;
+      const answer = q.answer.split("{{upcoming-cohorts}}").map(part => `<div class="prose">${markdown(part)}</div>`).join(renderCohortList());
+      return `<details id="${id}"><summary>${escape(q.question)}</summary>${answer}</details>`;
     }).join("") : `<div class="prose">${markdown(section.content)}</div>`}</section>`).join("");
     write(`${name}/index.html`, layout(name === "faq" ? "Frequently asked questions" : data.title, data.description, `/${name}/`, `
       <header class="text-hero"><p class="section-index">Sovereign Engineering / ${name === "faq" ? "The practical details" : "How we work"}</p><h1>${name === "faq" ? "Before you<br>join us." : escape(data.title)}</h1><div class="content-lead">${name === "faq" ? "Cohort dates, costs, and what to expect." : markdown(data.intro.content)}</div></header>
