@@ -30,7 +30,7 @@ sections:
         answer: "21 Days of FIPS and the Summer Cohort take place at Cowork Funchal in Madeira, Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)\n\nThe [Spring Mountain Cohort](/mountain/) is in South Tyrol. The Autumn Mountain Cohort is in Italy; we’ll share the exact location when the details are ready."
 
       - question: 'Is this a free program?'
-        answer: "The Madeira cohorts have no program fee. If you are selected, we cover the coworking space. You cover travel, accommodation, food, and your other personal expenses.\n\nThe [mountain cohorts](/mountain/#apply) are different: we organise the week and charge participants to cover the costs. Expect around €1,200 per person. We’ll confirm the final price and what’s included before you commit."
+        answer: "The Madeira cohorts are free of charge. If you are selected, we cover the coworking space, excursions, and other program costs. You cover travel, accommodation, food, and your other personal expenses.\n\nThe [mountain cohorts](/mountain/#apply) are different: we organise the week and charge participants to cover the costs. Expect around €1,200 per person. We’ll confirm the final price and what’s included before you commit."
 
   - id: 'travel-accommodation'
     title: 'Travel & Accommodation'
