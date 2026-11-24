@@ -6,7 +6,8 @@
     "durationWeeks": 3,
     "location": "Madeira",
     "startDate": "2027-03-01",
-    "endDate": "2027-03-19"
+    "endDate": "2027-03-19",
+    "number": "SEC-09"
   },
   {
     "id": "mountain-2027",
@@ -15,7 +16,8 @@
     "startDate": "2027-05-17",
     "endDate": "2027-05-23",
     "href": "/mountain/",
-    "location": "South Tyrol"
+    "location": "South Tyrol",
+    "number": "SEC-11"
   },
   {
     "id": "summer-2027",
@@ -23,7 +25,8 @@
     "durationWeeks": 6,
     "location": "Madeira",
     "startDate": "2027-07-19",
-    "endDate": "2027-08-27"
+    "endDate": "2027-08-27",
+    "number": "SEC-10"
   },
   {
     "id": "mountain-autumn-2027",
@@ -32,6 +35,7 @@
     "startDate": "2027-09-20",
     "endDate": "2027-09-26",
     "href": "/mountain/",
-    "location": "Italy"
+    "location": "Italy",
+    "number": "SEC-12"
   }
 ]
