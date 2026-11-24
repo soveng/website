@@ -528,6 +528,9 @@ details .prose { color:var(--dim); padding:0 24px 12px 0; }
 .mountain-outro { padding:110px 6vw; text-align:center; background:#080808; }
 .mountain-outro h2 { font:400 clamp(50px,6vw,90px)/1 var(--serif); letter-spacing:-.04em; }
 .mountain-outro > p:not(.mountain-day) { max-width:40ch; margin:28px auto 0; font-size:22px; color:var(--dim); }
+.mountain-cost { max-width:850px; margin:32px auto 0; text-align:left; }
+.mountain-cost h3 { font:400 24px/1.3 var(--serif); }
+.mountain-cost p { max-width:60ch; margin-top:12px; font-size:20px; line-height:1.5; color:var(--dim); }
 .mountain-outro .mountain-details { font:12px/1.6 var(--mono) !important; }
 @media(max-width:1000px) {
   .mountain-enhanced .mountain-copy { width:43%; }

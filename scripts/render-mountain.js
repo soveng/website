@@ -1,4 +1,5 @@
 import { upcomingCohorts, cohortDates } from './upcoming-cohorts.js';
+import { renderCohortList } from './render-cohort-list.js';
 import { renderSignup } from './render-signup.js';
 import { readFileSync } from 'node:fs';
 import { parse } from 'yaml';
@@ -81,7 +82,10 @@ export function renderMountain() {
       </div>
       <div class="mountain-chapters">${data.chapters.map((chapter,i)=>`<section class="mountain-chapter" id="mountain-step-${i}" data-step="${i}" aria-labelledby="mountain-heading-${i}"><div class="mountain-copy"><p class="mountain-day">${e(chapter.day)}</p>${i===0?`<h1 id="mountain-heading-${i}">${e(chapter.title).replace(/(\S+)$/, "<em>$1</em>").split(". ").map((line, index, lines) => `<span class="mountain-title-line">${line}${index < lines.length - 1 ? "." : ""}</span>`).join("")}</h1>`:`<h2 id="mountain-heading-${i}">${e(chapter.title)}</h2>`}<p class="mountain-description">${e(chapter.body)}</p>${chapter.links ? `<p class="mountain-chapter-detail">${chapter.links.map(([label, href]) => `<a href="${e(href)}">${e(label)}</a>`).join(' <span aria-hidden="true">·</span> ')}</p>` : ""}${chapter.detail ? `<p class="mountain-chapter-detail">${e(chapter.detail)}</p>` : ""}${i===0?'<a class="mountain-scroll" href="#mountain-step-1">Follow the trail <span aria-hidden="true">↓</span></a>':''}</div></section>`).join('')}</div>
     </div>
-    <section class="mountain-outro"><h2>Join us in<br>the mountains.</h2>${cohorts.map(cohort => `<p class="mountain-cohort-dates"><time datetime="${cohort.startDate}">${e(cohortDates(cohort, true))}</time>${cohort.location ? ` · ${e(cohort.location)}` : ''}</p>`).join('')}${renderSignup("mountain")}<a class="application-faq" href="/faq/">Read the FAQ <span aria-hidden="true">↗</span></a></section>
+    <section class="mountain-outro"><h2>Join us in<br>the mountains.</h2>
+      ${renderCohortList(cohorts, { disableLinks: true })}
+      <div class="mountain-cost"><h3>Estimated cost: €1,200 per person</h3><p>This is an experiment: one week in the mountains, organised by us and funded by the participants. We’ll confirm the price and what’s included before you commit.</p></div>
+      <div id="apply">${renderSignup("mountain")}</div><a class="application-faq" href="/faq/">Read the FAQ <span aria-hidden="true">↗</span></a></section>
     <script type="module" src="/src/cohort-signup.js"></script><script type="module" src="/src/mountain.js"></script>
   </div>`;
 }
