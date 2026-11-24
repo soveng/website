@@ -1,3 +1,4 @@
+import { upcomingCohorts, cohortDates } from './upcoming-cohorts.js';
 import { responsiveArtwork } from "./podcast-artwork.js";
 import { renderFonts } from "./render-fonts.js";
 import { renderMenu, renderNavLinks } from "./render-navigation.js";
@@ -119,10 +120,10 @@ export function generatePages() {
     const data = parse(source.split("---")[1]);
     const sections = data.sections.map(section => `<section class="faq-section" id="${escape(section.id)}"><h2>${escape(section.title)}</h2>${section.questions ? markdown(section.content) : ""}${section.questions ? section.questions.map(q => {
       const id = slug(q.question);
-      return `<details id="${id}"><summary>${escape(q.question)}</summary><div class="prose">${markdown(q.answer)}</div></details>`;
+      return `<details id="${id}"><summary>${escape(q.question)}</summary><div class="prose">${markdown(q.answer.replace("{{upcoming-cohorts}}", upcomingCohorts.map(cohort => `* **${cohort.number}: ${cohort.name}** · ${cohortDates(cohort, true)} · ${cohort.location}`).join("\n")))}</div></details>`;
     }).join("") : `<div class="prose">${markdown(section.content)}</div>`}</section>`).join("");
     write(`${name}/index.html`, layout(name === "faq" ? "Frequently asked questions" : data.title, data.description, `/${name}/`, `
-      <header class="text-hero"><p class="section-index">Sovereign Engineering / ${name === "faq" ? "The practical details" : "How we work"}</p><h1>${name === "faq" ? "Before you<br>join us." : escape(data.title)}</h1><div class="content-lead">${name === "faq" ? "The program, the island, and what to expect." : markdown(data.intro.content)}</div></header>
+      <header class="text-hero"><p class="section-index">Sovereign Engineering / ${name === "faq" ? "The practical details" : "How we work"}</p><h1>${name === "faq" ? "Before you<br>join us." : escape(data.title)}</h1><div class="content-lead">${name === "faq" ? "Cohort dates, costs, and what to expect." : markdown(data.intro.content)}</div></header>
       <div class="faq-layout"><aside class="section-menu" aria-label="On this page">${data.sections.map(section => `<a href="#${escape(section.id)}">${escape(section.title)}</a>`).join("")}</aside><div>${sections}</div></div><script type="module" src="/src/content.js"></script>`, "/images/sovereign-engineering.png"));
   }
   write("mountain/index.html", layout("Mountain cohorts — May & September 2027", "Seven days in the mountains: May 17–23 or September 20–26, 2027. Dialogue, a 24-hour build, and Demo Day.", "/mountain/", renderMountain(), "/images/sovereign-engineering.png"));

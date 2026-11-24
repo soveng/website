@@ -84,7 +84,7 @@ export function renderMountain() {
     </div>
     <section class="mountain-outro"><h2 id="apply">Join us in<br>the mountains.</h2>
       ${renderCohortList(cohorts, { disableLinks: true })}
-      <div class="mountain-cost"><h3>Estimated cost: €1,200 per person</h3><p>This is an experiment: one week in the mountains, organised by us and funded by the participants. We’ll confirm the price and what’s included before you commit.</p></div>
+      <section class="mountain-cost" aria-labelledby="mountain-cost-title"><div class="mountain-cost-price"><h3 id="mountain-cost-title">Estimated cost</h3><p>€1,200 <span>per person</span></p></div><p class="mountain-cost-note">This is an experiment: one week in the mountains, organised by us and funded by the participants. We’ll confirm the price and what’s included before you commit.</p></section>
       ${renderSignup("mountain")}<a class="application-faq" href="/faq/">Read the FAQ <span aria-hidden="true">↗</span></a></section>
     <script type="module" src="/src/cohort-signup.js"></script><script type="module" src="/src/mountain.js"></script>
   </div>`;

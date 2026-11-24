@@ -24,37 +24,37 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: 'SEC-08 (YOLO++) began on July 20, 2026 and has concluded. Applications for SEC-08 are closed. When we announce the next cohort, it will appear in the [next cohort](/#apply) section.'
+        answer: "We have four cohorts planned for 2027:\n\n{{upcoming-cohorts}}\n\nApplications are not open yet. [Leave your email](/#apply) to hear when they open."
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
-        answer: "At Cowork Funchal, which is located in the capital of Madeira, an island in the Atlantic Ocean and part of Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation Pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)"
+        answer: "21 Days of FIPS and the Summer Cohort take place at Cowork Funchal in Madeira, Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)\n\nThe [Spring Mountain Cohort](/mountain/) is in South Tyrol. The Autumn Mountain Cohort is in Italy; we’ll share the exact location when the details are ready."
 
       - question: 'Is this a free program?'
-        answer: "Yes. If you are selected, we cover the coworking space. You cover travel, accommodation, food, and your other personal expenses."
+        answer: "The Madeira cohorts have no program fee. If you are selected, we cover the coworking space. You cover travel, accommodation, food, and your other personal expenses.\n\nThe [mountain cohorts](/mountain/#apply) are different: we organise the week and charge participants to cover the costs. Expect around €1,200 per person. We’ll confirm the final price and what’s included before you commit."
 
   - id: 'travel-accommodation'
     title: 'Travel & Accommodation'
     questions:
       - question: 'Do you pay for flights and accommodation?'
-        answer: "No. You book and pay for your own flights and accommodation. If that is a problem, reach out."
+        answer: "For the Madeira cohorts, you book and pay for your own flights and accommodation. If that is a problem, reach out. For the mountain cohorts, we’ll confirm what the participant fee covers before you commit."
 
       - question: 'Do you provide accommodation?'
-        answer: "No, but these links are a good place to start:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\n[madeirafriends.org](https://madeirafriends.org) can also help."
+        answer: "For the Madeira cohorts, you arrange your own accommodation. These links are a good place to start:\n\n* [Nomadlist - Madeira](https://nomadlist.com/madeira)\n* [An Island Apart](https://www.anislandapart.com)\n* [Booking.com](https://www.booking.com)\n* [Airbnb](https://www.airbnb.com)\n\n[madeirafriends.org](https://madeirafriends.org) can also help.\n\nFor the mountain cohorts, we’ll share the accommodation arrangements and what’s included in the fee before you commit."
 
       - question: 'How do I need to prepare for the program?'
-        answer: "Pack for six weeks, not a weekend. Bring the hardware you actually use, enough clothes to live out of a suitcase, and whatever helps you work well away from home.\n\nIf you have special needs, reach out early."
+        answer: "For the Madeira cohorts, bring your laptop and the hardware you want to work on. Plan for three weeks if you’re joining 21 Days of FIPS, or six weeks for the Summer Cohort.\n\nThe mountain cohorts last one week and include hiking as well as building. We’ll share a packing list and practical details before you go. If you have accessibility needs or other requirements, get in touch early."
 
   - id: 'cost-living'
     title: 'Cost of Living'
     questions:
       - question: 'What is the cost of living in Madeira?'
-        answer: "Budget for flights, accommodation, food, local transport, and day-to-day spending for the full six weeks. The exact number depends on where you are flying from and how you like to live.\n\nUseful references:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
+        answer: "Budget for flights, accommodation, food, local transport, and day-to-day spending for your stay: three weeks for FIPS or six weeks for the Summer Cohort. The exact number depends on where you are flying from and how you like to live.\n\nUseful references:\n\n* [Nomadlist - Cost of Living in Madeira](https://nomadlist.com/madeira)\n* [Numbeo - Cost of Living in Funchal](https://www.numbeo.com/cost-of-living/in/Funchal)."
 
   - id: 'application-contact'
     title: 'Application & Contact'
     questions:
       - question: 'How do I apply?'
-        answer: 'Applications for SEC-08 are closed. When the next cohort opens, the application link will appear in the [next cohort](/#apply) section on the homepage.'
+        answer: "Applications are not open yet. [Leave your email on the homepage](/#apply) for cohort dates and application details, or [sign up on the mountain page](/mountain/#apply) if you’re interested in a mountain cohort. Signing up for updates does not reserve a place or commit you to paying a fee."
 
       - question: 'What is your selection policy?'
         answer: 'We select participants based on merit, public proof-of-work, and alignment with our philosophy. Read our full [policies and guidelines](/policy) for details on selection, non-discrimination, and partnerships.'
@@ -78,6 +78,6 @@ sections:
 
 # Call to action
 cta:
-  text: 'Applications Closed'
-  link: '#'
+  text: 'Get cohort updates'
+  link: '/#apply'
 ---
