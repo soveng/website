@@ -24,7 +24,7 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: "We have four cohorts planned for 2027:\n\n{{upcoming-cohorts}}\n\nApplications are not open yet. [Leave your email](/#apply) to hear when they open."
+        answer: "The next cohort is 21 Days of FIPS (SEC-09), from March 1–19, 2027 in Madeira. We’ll spend three weeks working on FIPS. [Leave your email](/#apply) to hear when applications open.\n\nAfter that, the [Spring Mountain Cohort](/mountain/) (SEC-11) runs from May 17–23, 2027 in South Tyrol: one week of hiking, dialogue, and building together."
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
         answer: "21 Days of FIPS and the Summer Cohort take place at Cowork Funchal in Madeira, Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)\n\nThe [Spring Mountain Cohort](/mountain/) is in South Tyrol. The Autumn Mountain Cohort is in Italy; we’ll share the exact location when the details are ready."

@@ -1,4 +1,3 @@
-import { renderCohortList } from './render-cohort-list.js';
 import { responsiveArtwork } from "./podcast-artwork.js";
 import { renderFonts } from "./render-fonts.js";
 import { renderMenu, renderNavLinks } from "./render-navigation.js";
@@ -120,7 +119,7 @@ export function generatePages() {
     const data = parse(source.split("---")[1]);
     const sections = data.sections.map(section => `<section class="faq-section" id="${escape(section.id)}"><h2>${escape(section.title)}</h2>${section.questions ? markdown(section.content) : ""}${section.questions ? section.questions.map(q => {
       const id = slug(q.question);
-      const answer = q.answer.split("{{upcoming-cohorts}}").map(part => `<div class="prose">${markdown(part)}</div>`).join(renderCohortList());
+      const answer = `<div class="prose">${markdown(q.answer)}</div>`;
       return `<details id="${id}"><summary>${escape(q.question)}</summary>${answer}</details>`;
     }).join("") : `<div class="prose">${markdown(section.content)}</div>`}</section>`).join("");
     write(`${name}/index.html`, layout(name === "faq" ? "Frequently asked questions" : data.title, data.description, `/${name}/`, `
