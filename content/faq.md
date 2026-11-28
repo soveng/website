@@ -24,13 +24,13 @@ sections:
     title: 'Program Information'
     questions:
       - question: 'When does the next Sovereign Engineering Cohort start?'
-        answer: "The next cohort is 21 Days of FIPS (SEC-09), from March 1–19, 2027 in Madeira. We’ll spend three weeks working on FIPS. [Leave your email](/#apply) to hear when applications open.\n\nAfter that, the [Spring Mountain Cohort](/mountain/) (SEC-11) runs from May 17–23, 2027 in South Tyrol: one week of hiking, dialogue, and building together."
+        answer: "The next cohort is 21 Days of FIPS (SEC-09), from March 1–19, 2027 in Madeira. We’ll spend three weeks working on FIPS. [Leave your email](/#apply) to hear when applications open.\n\nAfter that, the [Spring Mountain Cohort](/mountain/) (SEC-10) runs from May 17–23, 2027 in South Tyrol: one week of hiking, dialogue, and building together."
 
       - question: 'Where does the Sovereign Engineering Cohort take place?'
         answer: "21 Days of FIPS and the Summer Cohort take place at Cowork Funchal in Madeira, Portugal.\n\nAddress: Rua das Mercês 41, 9000-224 Funchal, Portugal\n\nLocation pin: [///teamed.wiser.cans](https://what3words.com/teamed.wiser.cans)\n\nThe [Spring Mountain Cohort](/mountain/) is in South Tyrol. The Autumn Mountain Cohort is in Italy; we’ll share the exact location when the details are ready."
 
       - question: 'Is this a free program?'
-        answer: "The Madeira cohorts are free of charge. If you are selected, we cover the coworking space, excursions, and other program costs. You cover travel, accommodation, food, and your other personal expenses.\n\nThe [mountain cohorts](/mountain/#apply) are different: we organise the week and rely on participants to cover the costs. For SEC-11 in South Tyrol, expect around €1,200 per person. We’ll confirm the final price and what’s included before you commit."
+        answer: "The Madeira cohorts are free of charge. If you are selected, we cover the coworking space, excursions, and other program costs. You cover travel, accommodation, food, and your other personal expenses.\n\nThe [mountain cohorts](/mountain/#apply) are different: we organise the week and rely on participants to cover the costs. For SEC-10 in South Tyrol, expect around €1,200 per person. We’ll confirm the final price and what’s included before you commit."
 
   - id: 'travel-accommodation'
     title: 'Travel & Accommodation'
