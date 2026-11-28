@@ -17,7 +17,7 @@
     "endDate": "2027-05-23",
     "href": "/mountain/",
     "location": "South Tyrol",
-    "number": "SEC-11",
+    "number": "SEC-10",
     "estimatedCostEur": 1200
   },
   {
@@ -27,7 +27,7 @@
     "location": "Madeira",
     "startDate": "2027-07-19",
     "endDate": "2027-08-27",
-    "number": "SEC-10"
+    "number": "SEC-11"
   },
   {
     "id": "mountain-autumn-2027",
